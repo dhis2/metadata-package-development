@@ -1,0 +1,91 @@
+{
+  "export": [
+    {
+      "_basePath": "./EPI/", 
+      "_code": "EPI", 
+      "_name": "Immunisation", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "JVenB84tY1X"
+        ], 
+        "adminGroupIds": [
+          "T6DZORCrELb"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "jEZlIePnBUV", 
+        "GLBzGIEwP7g"
+      ], 
+      "dataElementGroupIds": [
+        "GynKupv5MlH", 
+        "LR0hF4laoP0", 
+        "N0MAZbHXM7o", 
+        "EGhHUHR2YcW", 
+        "wLwKx08aKP9", 
+        "q9suW77psE2",
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "jqSaKxtj8IA", 
+        "GgcoX2SVESM"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "jWbf0RIUhji", 
+        "Us7U5nyds0r", 
+        "W7E4YoQngAv", 
+        "IratxVbStzY", 
+        "zcQRGoQMQeC"
+      ], 
+      "validationRuleGroupIds": [
+        "oY3uQUIIdsb"
+      ]
+    }, 
+    {
+      "_basePath": "./EPI/", 
+      "_code": "EPI", 
+      "_name": "Immunisation dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "JVenB84tY1X"
+        ], 
+        "adminGroupIds": [
+          "T6DZORCrELb"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+		"https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "jEZlIePnBUV", 
+        "GLBzGIEwP7g"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "jWbf0RIUhji", 
+        "Us7U5nyds0r", 
+        "W7E4YoQngAv", 
+        "IratxVbStzY", 
+        "zcQRGoQMQeC"
+      ]
+    }
+  ]
+}

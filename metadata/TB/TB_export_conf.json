@@ -1,0 +1,121 @@
+{
+  "export": [
+    {
+      "_basePath": "./TB/", 
+      "_code": "TB", 
+      "_name": "TB dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "pyu2ZlNKbzQ"
+        ], 
+        "adminGroupIds": [
+          "Ubzlyfqm1gO"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "w48LnY9Gamc", 
+        "BwYHhBSvLNL", 
+        "o2Wg6pXAN6X", 
+        "VtRtBqorLfR", 
+        "if78tRW7B91", 
+        "MaJqTSteIqg", 
+        "pZXvrpebwFT", 
+        "dp6xqlPGxbA", 
+        "xJXvUOEhnE9", 
+        "CKcF4jgN0hK", 
+        "L2UmLVcb6Dm"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "V4SoC7TzFMi", 
+        "OMyYjoU07pC", 
+        "QCrsjqhAcWA", 
+        "S0n1torLnUz", 
+        "I13HBLJTJMb"
+      ]
+    }, 
+    {
+      "_basePath": "./TB/", 
+      "_code": "TB", 
+      "_name": "TB complete", 
+      "_sharing": {
+        "accessGroupIds": [
+          "pyu2ZlNKbzQ"
+        ], 
+        "adminGroupIds": [
+          "Ubzlyfqm1gO"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "w48LnY9Gamc", 
+        "BwYHhBSvLNL", 
+        "o2Wg6pXAN6X", 
+        "VtRtBqorLfR", 
+        "if78tRW7B91", 
+        "MaJqTSteIqg", 
+        "pZXvrpebwFT", 
+        "dp6xqlPGxbA", 
+        "xJXvUOEhnE9", 
+        "CKcF4jgN0hK", 
+        "L2UmLVcb6Dm"
+      ], 
+      "dataElementGroupIds": [
+        "VGJHJGsfdRR", 
+        "aGtzAAao0Mt", 
+        "m54T3OptLaU", 
+        "fAS1m0weZsf", 
+        "V4Ctf7L4wq6", 
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "OyutuMOPgkt", 
+        "lYNYevNTO7B", 
+        "Yhk4Ee59d9y", 
+        "VQTEps77HLq", 
+        "Fn5XKDV6WRY", 
+        "rSfhnkAdm5y", 
+        "kiODgwGG9I2"
+      ], 
+      "exportDataSetIds": [
+        "gUUBxTWcEUi"
+      ], 
+      "exportIndicatorGroupsIds": [
+        "S0n1torLnUz"
+      ], 
+      "indicatorGroupIds": [
+        "V4SoC7TzFMi", 
+        "OMyYjoU07pC", 
+        "QCrsjqhAcWA", 
+        "S0n1torLnUz", 
+        "I13HBLJTJMb"
+      ], 
+      "validationRuleGroupIds": [
+        "iRCrvkyr4uw", 
+        "sgf2zdOiwny", 
+        "dRcxM3sLcNn", 
+        "TumuGy1lmGY", 
+        "vtIZawvyEM7", 
+        "xnxqh8hX6Ag"
+      ]
+    }
+  ]
+}

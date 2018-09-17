@@ -1,0 +1,168 @@
+{
+  "export": [
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-BR", 
+      "_name": "Malaria burden reduction dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ZXEVDM9XRea"
+        ], 
+        "adminGroupIds": [
+          "suMb19wGXPR"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "sLldHZZgnFx", 
+        "GEq9y3pVbrb"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "YKVsWm3b47n"
+      ]
+    }, 
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-BR", 
+      "_name": "Malaria burden reduction", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ZXEVDM9XRea"
+        ], 
+        "adminGroupIds": [
+          "suMb19wGXPR"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "sLldHZZgnFx", 
+        "GEq9y3pVbrb"
+      ], 
+      "dataElementGroupIds": [
+        "ri242cU0Sm5", 
+        "tbQsD5xgWDH", 
+        "cDz6fWn4n7M", 
+        "cWFV4unGXXn", 
+        "O3Y4zr16OCX", 
+        "QA59eN3tJve",
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "qNtxTrp56wV", 
+        "O34y2Kyxx6P"
+      ], 
+      "exportDataSetIds": [
+        "e8BAh6eGcNE"
+      ], 
+      "exportIndicatorGroupsIds": [
+        "qi3acNeMc6V"
+      ], 
+      "indicatorGroupIds": [
+        "YKVsWm3b47n"
+      ], 
+      "validationRuleGroupIds": [
+        "rNYeFmJm04s"
+      ]
+    }, 
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-EL", 
+      "_name": "Malaria elimination", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ZXEVDM9XRea"
+        ], 
+        "adminGroupIds": [
+          "suMb19wGXPR"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "b8F1kKlV9Fk"
+      ], 
+      "dataElementGroupIds": [
+        "ri242cU0Sm5", 
+        "tbQsD5xgWDH", 
+        "cDz6fWn4n7M", 
+        "cWFV4unGXXn", 
+        "O3Y4zr16OCX", 
+        "QA59eN3tJve",
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "qNtxTrp56wV", 
+        "VEM58nY22sO"
+      ], 
+      "exportDataSetIds": [
+        "e8BAh6eGcNE"
+      ], 
+      "exportIndicatorGroupsIds": [
+        "mrrlu8kux0s"
+      ], 
+      "indicatorGroupIds": [
+        "YKVsWm3b47n"
+      ], 
+      "validationRuleGroupIds": [
+        "y4UWjeyKIwS"
+      ]
+    }, 
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-EL", 
+      "_name": "Malaria elimination dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ZXEVDM9XRea"
+        ], 
+        "adminGroupIds": [
+          "suMb19wGXPR"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "b8F1kKlV9Fk"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "YKVsWm3b47n"
+      ]
+    }
+  ]
+}

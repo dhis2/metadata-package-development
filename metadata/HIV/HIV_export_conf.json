@@ -1,0 +1,94 @@
+{
+  "export": [
+    {
+      "_basePath": "./HIV/", 
+      "_code": "HIV", 
+      "_name": "HIV dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ISvRhzmu8Ck"
+        ], 
+        "adminGroupIds": [
+          "TAVOXarP781"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "dashboardAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0",
+      "customObjects": [
+        {
+          "objectIds": ["P9P3HGBjI5B"], 
+          "objectType": "categoryOptionGroupSets"
+        }
+      ], 
+      "dashboardIds": [
+        "VjFMk8X026U", 
+        "q9qKbXTDgEh", 
+        "fX1kkuqS47y", 
+        "mN578Bop2g3"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "HX1nmjQyvdd",
+        "I13HBLJTJMb"
+      ]
+    }, 
+    {
+      "_basePath": "./HIV/", 
+      "_code": "HIV", 
+      "_name": "HIV complete", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "ISvRhzmu8Ck"
+        ], 
+        "adminGroupIds": [
+          "TAVOXarP781"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0", 
+      "customObjects": [
+        {
+          "objectIds": ["P9P3HGBjI5B"], 
+          "objectType": "categoryOptionGroupSets"
+        }
+      ],
+      "dashboardIds": [
+        "VjFMk8X026U", 
+        "q9qKbXTDgEh", 
+        "fX1kkuqS47y", 
+        "mN578Bop2g3"
+      ], 
+      "dataElementGroupIds": [
+        "cab3G0F47ha",
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "XvcWsuHBsGA", 
+        "kGltMu42Sta"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "HX1nmjQyvdd",
+        "I13HBLJTJMb"
+      ], 
+      "validationRuleGroupIds": []
+    }
+  ]
+}
