@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "attributeValues": [], 
+      "created": "2018-07-13T12:28:39.402", 
+      "dataViewOrganisationUnits": [], 
+      "firstName": "Admin", 
+      "id": "vUeLeQMSwhN", 
+      "lastUpdated": "2018-07-13T12:28:39.402", 
+      "organisationUnits": [], 
+      "surname": "WHO", 
+      "teiSearchOrganisationUnits": [], 
+      "userCredentials": {
+        "attributeValues": [], 
+        "catDimensionConstraints": [], 
+        "cogsDimensionConstraints": [], 
+        "created": "2018-07-13T12:28:39.168", 
+        "disabled": true, 
+        "displayName": "Admin WHO", 
+        "externalAccess": false, 
+        "externalAuth": false, 
+        "id": "MMRO6oP1HQg", 
+        "invitation": false, 
+        "lastLogin": "2018-07-13T12:28:39.168", 
+        "lastUpdated": "2018-07-13T12:28:51.814", 
+        "lastUpdatedBy": {
+          "id": "jB4WJmaNuGT"
+        }, 
+        "name": "Admin WHO", 
+        "passwordLastUpdated": "2018-07-13T12:28:39.168", 
+        "selfRegistered": false, 
+        "translations": [], 
+        "user": {
+          "id": "jB4WJmaNuGT"
+        }, 
+        "userAccesses": [], 
+        "userGroupAccesses": [], 
+        "userInfo": {
+          "id": "vUeLeQMSwhN"
+        }, 
+        "userRoles": [], 
+        "username": "who"
+      }
+    }
+  ]
+}
