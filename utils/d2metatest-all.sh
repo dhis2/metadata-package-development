@@ -3,7 +3,7 @@
 #Assumes d2metatest is working, i.e. dhis2-tools installed
 
 echo "" >> result.log
-`date` >> result.log
+echo `date` >> result.log
 
 if [ $# -eq 0 ]
   then
