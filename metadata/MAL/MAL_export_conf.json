@@ -53,6 +53,12 @@
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
       "_version": "1.0", 
+      "customObjects": [
+        {
+          "objectIds": ["nwzSeTAxCGV", "LhcXjWs6lm7"], 
+          "objectType": "dataElements"
+        }
+      ],
       "dashboardIds": [
         "sLldHZZgnFx", 
         "GEq9y3pVbrb"
@@ -70,9 +76,7 @@
         "qNtxTrp56wV", 
         "O34y2Kyxx6P"
       ], 
-      "exportDataSetIds": [
-        "e8BAh6eGcNE"
-      ], 
+      "exportDataSetIds": [], 
       "exportIndicatorGroupsIds": [
         "qi3acNeMc6V"
       ], 
@@ -107,7 +111,13 @@
       "_version": "1.0", 
       "dashboardIds": [
         "b8F1kKlV9Fk"
-      ], 
+      ],
+      "customObjects": [
+        {
+          "objectIds": ["jtyuEfbNbkb", "nwzSeTAxCGV", "LhcXjWs6lm7"], 
+          "objectType": "dataElements"
+        }
+      ],
       "dataElementGroupIds": [
         "ri242cU0Sm5", 
         "tbQsD5xgWDH", 
@@ -121,9 +131,7 @@
         "qNtxTrp56wV", 
         "VEM58nY22sO"
       ], 
-      "exportDataSetIds": [
-        "e8BAh6eGcNE"
-      ], 
+      "exportDataSetIds": [], 
       "exportIndicatorGroupsIds": [
         "mrrlu8kux0s"
       ], 
@@ -163,6 +171,42 @@
       "indicatorGroupIds": [
         "YKVsWm3b47n"
       ]
+    },
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-MMG", 
+      "_name": "Malaria cross-border and mobile and migrant populations", 
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [], 
+        "adminGroupIds": [], 
+        "publicAccess": "--------", 
+        "userId": "vUeLeQMSwhN"
+      }, 
+      "_type": "custom", 
+      "_url": [
+        "https://who.dhis2.net/agg_ref_current", 
+        "https://who.dhis2.net/agg_ref_minus1", 
+        "https://who.dhis2.net/agg_ref_minus2"
+      ], 
+      "_version": "1.0",
+      "customObjects": [
+      	{
+          "objectIds": ["dNNpRuO7kbn"], 
+          "objectType": "dataElementGroups"
+        },
+        {
+          "objectIds": ["UwaQ0MJzXBz", "S3AqkeU4DET", "CWHBMa4nC9J", "CxI1FHE4oEh", "wAHUeGPbH9A", "kdMT3AuDzj1"], 
+          "objectType": "dataElements"
+        }
+      ],
+      "dashboardIds": [], 
+      "dataElementGroupIds": [], 
+      "dataSetIds": [], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [], 
+      "validationRuleGroupIds": []
     }
   ]
 }

@@ -65,6 +65,12 @@
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
       "_version": "1.0", 
+      "customObjects": [
+        {
+          "objectIds": ["DkmMEcubiPv"], 
+          "objectType": "dataElements"
+        }
+      ],
       "dashboardIds": [
         "w48LnY9Gamc", 
         "BwYHhBSvLNL", 
@@ -95,9 +101,7 @@
         "rSfhnkAdm5y", 
         "kiODgwGG9I2"
       ], 
-      "exportDataSetIds": [
-        "gUUBxTWcEUi"
-      ], 
+      "exportDataSetIds": [], 
       "exportIndicatorGroupsIds": [
         "S0n1torLnUz"
       ], 

@@ -21,7 +21,13 @@
         "https://who.dhis2.net/agg_ref_minus1", 
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
-      "_version": "1.0", 
+      "_version": "0.9",
+      "customObjects": [
+        {
+          "objectIds": ["IrI8kXAF1F4", "aBpJPej3lyE", "iKxybad85rv"], 
+          "objectType": "dataElements"
+        }
+      ],
       "dashboardIds": [
         "jEZlIePnBUV", 
         "GLBzGIEwP7g"
@@ -36,8 +42,7 @@
         "gDwHOp9bAdJ"
       ], 
       "dataSetIds": [
-        "jqSaKxtj8IA", 
-        "GgcoX2SVESM"
+        "jqSaKxtj8IA"
       ], 
       "exportDataSetIds": [], 
       "exportIndicatorGroupsIds": [], 
@@ -73,7 +78,7 @@
         "https://who.dhis2.net/agg_ref_minus1", 
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
-      "_version": "1.0", 
+      "_version": "0.9", 
       "dashboardIds": [
         "jEZlIePnBUV", 
         "GLBzGIEwP7g"
