@@ -1,0 +1,7859 @@
+{
+	"charts": [
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T15:08:19.382",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "IxeSYS0sHCa"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "sgK3IgnVRCS"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "oWk64tUP5Dk",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.425",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - AEFI cases - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "AEFI cases",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T15:10:05.607",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "IxeSYS0sHCa"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "sgK3IgnVRCS"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "C0aeaJZyANo",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.465",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - AEFI cases by orgunit - last 12 months cumulative",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "AEFI cases",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": -1,
+			"title": "Last 12 months",
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T13:38:12.525",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Qw9Iiqs0KQU"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "V3yTzoxrfVg"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "WSI3lSrIbrh"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "t5ssKnZSw6h"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "e6PGK5aJ7Dn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vBWDj9pbnFM"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "btEs5IrKxJ0"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "jfVvmRI0poZ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Nyumtmxj1RB"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Month",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "VJ7HOcPXzf3",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.411",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Closed vial wastage rates - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Wastage rate (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2018-09-11T12:06:20.585",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bbKPLVqQUt0"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Year",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "kOOPbs54s4O",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.464",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Completeness - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Completeness (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2018-09-11T12:05:58.040",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bbKPLVqQUt0"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Year",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "MDVGTOH67Au",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.471",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Completeness - last 5 years",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Completeness (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2018-09-11T12:06:42.870",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bbKPLVqQUt0"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Month",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "S67Y5sWrCzb",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.471",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Completeness by orgunit - last month",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Completeness (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2018-02-19T11:31:04.711",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "qLpl4igiQWk"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lkpoPvRswsF"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "District",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "DyHc8Vg0t2U",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.332",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - DPT-HepB-Hib 1 and 3 coverage by orgunit - last year",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Coverage (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": -1,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T14:18:26.343",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "E35XSxwQAFO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ccFcqCkznCR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FhQ8Hd5rCHj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Year",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "FZPo9EJkj5O",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.400",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Dropout rate - this and last 5 years",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Dropout rate (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T14:17:28.869",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "E35XSxwQAFO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ccFcqCkznCR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FhQ8Hd5rCHj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "rV55DUhURjt",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.398",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Dropout rates by orgunit - last 12 months cumulative",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Dropout rate (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"title": "Last 12 months",
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-28T09:07:38.725",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "wRvkMjx6jzu"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"dx"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "FIOHbm9pzxs",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.467",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Functional refrigerators by orgunit - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "ou",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T15:28:12.455",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zpvCdtk2srW"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Vkr6WbAIudI"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Xq6DnWTIq06",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.410",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Temperature alarms - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Temperature alarms",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-10-27T15:29:30.267",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zpvCdtk2srW"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Vkr6WbAIudI"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "limJpQg2HRX",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.408",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Temperature alarms by orgunit - this year",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Temperature alarms",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": -1,
+			"translations": [],
+			"type": "STACKED_COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-11-14T09:28:16.248",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "S7vxLF7zYb3"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "qLpl4igiQWk"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lkpoPvRswsF"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "DDYEQCyJE4k"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "QxShpQdLuAt"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "qtFNNLWxIHI"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "WSQxTuCGILM"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Year",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "jQhhATaI5Td",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.345",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Tracer vaccine coverages - last 5 years",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Coverage (%)",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-11-14T09:35:33.038",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FghPB8EogPR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "y84dl2tMvyn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "mwph5D00oxH"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "l5NxXNKkcpD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "oSMOERRFEWN"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "QJmlKfgOnEx"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Month",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "uZXaVncjurT",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.352",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Tracer vaccines administered - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Doses administered",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": false,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2016-11-14T09:25:49.118",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FghPB8EogPR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "y84dl2tMvyn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "mwph5D00oxH"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "l5NxXNKkcpD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "oSMOERRFEWN"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "QJmlKfgOnEx"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"domainAxisLabel": "Year",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "QaVSaPUNI95",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.343",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "EPI - Tracer vaccines administered - this and last 5 years",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "--------",
+			"rangeAxisLabel": "Doses administered",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		}
+	],
+	"dashboards": [
+		{
+			"created": "2015-10-16T08:42:20.286",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-13T14:03:21.352",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "b6ZMC5xDJcj",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "XOeWGctxQFW"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-13T14:03:16.833",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jlSdljB16dI",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "q2zASvnuahg"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-13T14:03:13.300",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hroNOj746dy",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "a6HFpxvJnWJ"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "DyHc8Vg0t2U"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:25:32.689",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ImaPyVMrGGh",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "jQhhATaI5Td"
+					},
+					"contentCount": 1,
+					"created": "2016-11-14T09:28:25.860",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "OMy6jq4euDA",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "QaVSaPUNI95"
+					},
+					"contentCount": 1,
+					"created": "2016-11-14T09:25:57.639",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "BA698ry5zCt",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "uZXaVncjurT"
+					},
+					"contentCount": 1,
+					"created": "2016-11-14T09:24:34.791",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PYtPqOSI5Mu",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T15:21:20.648",
+					"reports": [],
+					"resources": [],
+					"shape": "DOUBLE_WIDTH",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:25:59.202",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uqG68xApcbT",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"reportTable": {
+						"id": "dwGHGSJ6YAw"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "FZPo9EJkj5O"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:27:58.986",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "vJoeCDRzNPb",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "rV55DUhURjt"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:28:02.265",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "CqwJSG2RhKw",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:26:02.771",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "MMv1L0wcxf2",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"reportTable": {
+						"id": "LczTRozeKNQ"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:23:28.303",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ZjlzAFMmOHg",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"reportTable": {
+						"id": "wDqBh1KI0tH"
+					},
+					"resources": [],
+					"shape": "DOUBLE_WIDTH",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:22:51.344",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "UfXMq5WT4m6",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T15:22:31.390",
+					"reports": [],
+					"reportTable": {
+						"id": "ylj3w8C8CT7"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "VJ7HOcPXzf3"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:22:35.584",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "czYnV7qlVwu",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "DOUBLE_WIDTH",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Xq6DnWTIq06"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:21:13.536",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lDHyiH2OTy9",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "limJpQg2HRX"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:21:10.465",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "IPcqRxVZ54n",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "FIOHbm9pzxs"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:21:05.949",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "f5GPER5j4oJ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:20:02.358",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Nymykq38dRA",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"reportTable": {
+						"id": "V06KKMj8k8H"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "C0aeaJZyANo"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:19:56.674",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "EiUXoKuAEZb",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "oWk64tUP5Dk"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:19:53.064",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JQU1V989mYu",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-11-12T16:19:29.527",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ehiOiaRNFwQ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"reportTable": {
+						"id": "wCKEkLUFg1z"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "S67Y5sWrCzb"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:18:34.502",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zp44ALYanF4",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "kOOPbs54s4O"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:18:32.474",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JE93Jvz8ju4",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "MDVGTOH67Au"
+					},
+					"contentCount": 1,
+					"created": "2016-11-12T16:18:30.122",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bPzwrepvQXe",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				}
+			],
+			"externalAccess": false,
+			"id": "jEZlIePnBUV",
+			"lastUpdated": "2018-07-11T14:26:58.414",
+			"name": "Immunisation",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"created": "2015-10-16T09:23:58.973",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:10:48.063",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "G6Kxy6ncgUu",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "g2QNZ1meLp8"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:10:50.639",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "yT7yVmho39D",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "f1ei4RC9IJu"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:10:43.328",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "t9SeuIUCbDU",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "zrvLiGhSRgZ"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:59.881",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "rQtmH8NK4Gf",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "XGxO1XQZzS9"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:57.759",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DwCgAhupchk",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "lUlr9JjGwBN"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:52.291",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uVwJnYfWa16",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "h2pRK9XTTaF"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:49.781",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "AtM7rX4OAcd",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "iFJvhvxrdxW"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:47.704",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PIzErK8nY5s",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "iuzb1Ubh5Yq"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:54.179",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JlKnAPXbL9H",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "StPHuEWYzIa"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2016-10-28T14:08:44.966",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gwehl5IDn7f",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2017-06-01T12:10:06.869",
+					"map": {
+						"id": "uPoCxzhf1zH"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				}
+			],
+			"externalAccess": false,
+			"id": "GLBzGIEwP7g",
+			"lastUpdated": "2018-07-11T14:27:02.902",
+			"name": "Immunisation maps",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		}
+	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"code": "EPI",
+			"created": "2015-03-23T01:48:35.641",
+			"id": "jWbf0RIUhji",
+			"indicators": [
+				{
+					"id": "UjQPNW1DZOA"
+				},
+				{
+					"id": "jfVvmRI0poZ"
+				},
+				{
+					"id": "btEs5IrKxJ0"
+				},
+				{
+					"id": "rXBgEba0pPO"
+				},
+				{
+					"id": "Nyumtmxj1RB"
+				},
+				{
+					"id": "sgK3IgnVRCS"
+				},
+				{
+					"id": "e6PGK5aJ7Dn"
+				},
+				{
+					"id": "pthWAsurETT"
+				},
+				{
+					"id": "QxShpQdLuAt"
+				},
+				{
+					"id": "l5NxXNKkcpD"
+				},
+				{
+					"id": "S7vxLF7zYb3"
+				},
+				{
+					"id": "qtFNNLWxIHI"
+				},
+				{
+					"id": "ccFcqCkznCR"
+				},
+				{
+					"id": "KazkDYBpvWK"
+				},
+				{
+					"id": "t5ssKnZSw6h"
+				},
+				{
+					"id": "aGVW4AeTjUQ"
+				},
+				{
+					"id": "qLpl4igiQWk"
+				},
+				{
+					"id": "FghPB8EogPR"
+				},
+				{
+					"id": "V3yTzoxrfVg"
+				},
+				{
+					"id": "y84dl2tMvyn"
+				},
+				{
+					"id": "ha7FrVzCdP7"
+				},
+				{
+					"id": "lkpoPvRswsF"
+				},
+				{
+					"id": "bxFxspWCMt5"
+				},
+				{
+					"id": "E35XSxwQAFO"
+				},
+				{
+					"id": "b4v3ZlijUkE"
+				},
+				{
+					"id": "zpvCdtk2srW"
+				},
+				{
+					"id": "wRvkMjx6jzu"
+				},
+				{
+					"id": "k17O3iXpgiy"
+				},
+				{
+					"id": "WSI3lSrIbrh"
+				},
+				{
+					"id": "QJmlKfgOnEx"
+				},
+				{
+					"id": "vBWDj9pbnFM"
+				},
+				{
+					"id": "WSQxTuCGILM"
+				},
+				{
+					"id": "Omgzxz6whp4"
+				},
+				{
+					"id": "FhQ8Hd5rCHj"
+				},
+				{
+					"id": "S0IzYPGQLnN"
+				},
+				{
+					"id": "bbKPLVqQUt0"
+				},
+				{
+					"id": "vDcozAkwduM"
+				},
+				{
+					"id": "IxeSYS0sHCa"
+				},
+				{
+					"id": "UWwsHxAZP4y"
+				},
+				{
+					"id": "oSMOERRFEWN"
+				},
+				{
+					"id": "DDYEQCyJE4k"
+				},
+				{
+					"id": "mwph5D00oxH"
+				},
+				{
+					"id": "Qw9Iiqs0KQU"
+				},
+				{
+					"id": "Vkr6WbAIudI"
+				}
+			],
+			"lastUpdated": "2018-09-11T12:50:53.511",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "Immunization",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2015-10-16T08:34:22.581",
+			"id": "Us7U5nyds0r",
+			"indicators": [
+				{
+					"id": "QxShpQdLuAt"
+				},
+				{
+					"id": "S7vxLF7zYb3"
+				},
+				{
+					"id": "k17O3iXpgiy"
+				},
+				{
+					"id": "ha7FrVzCdP7"
+				},
+				{
+					"id": "qLpl4igiQWk"
+				},
+				{
+					"id": "lkpoPvRswsF"
+				},
+				{
+					"id": "DDYEQCyJE4k"
+				},
+				{
+					"id": "qtFNNLWxIHI"
+				},
+				{
+					"id": "S0IzYPGQLnN"
+				},
+				{
+					"id": "WSQxTuCGILM"
+				}
+			],
+			"lastUpdated": "2018-01-16T09:21:15.542",
+			"name": "Immunization - coverages",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2015-10-16T08:34:53.027",
+			"id": "W7E4YoQngAv",
+			"indicators": [
+				{
+					"id": "ccFcqCkznCR"
+				},
+				{
+					"id": "E35XSxwQAFO"
+				},
+				{
+					"id": "FhQ8Hd5rCHj"
+				}
+			],
+			"lastUpdated": "2018-01-16T09:21:15.542",
+			"name": "Immunization - drop-out rates",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2016-06-16T15:17:26.972",
+			"id": "IratxVbStzY",
+			"indicators": [],
+			"lastUpdated": "2018-01-16T14:32:24.752",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "Immunization - stock",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2015-10-16T09:55:51.735",
+			"id": "zcQRGoQMQeC",
+			"indicators": [
+				{
+					"id": "UjQPNW1DZOA"
+				},
+				{
+					"id": "vDcozAkwduM"
+				},
+				{
+					"id": "KazkDYBpvWK"
+				},
+				{
+					"id": "jfVvmRI0poZ"
+				},
+				{
+					"id": "t5ssKnZSw6h"
+				},
+				{
+					"id": "btEs5IrKxJ0"
+				},
+				{
+					"id": "b4v3ZlijUkE"
+				},
+				{
+					"id": "rXBgEba0pPO"
+				},
+				{
+					"id": "UWwsHxAZP4y"
+				},
+				{
+					"id": "aGVW4AeTjUQ"
+				},
+				{
+					"id": "WSI3lSrIbrh"
+				},
+				{
+					"id": "vBWDj9pbnFM"
+				},
+				{
+					"id": "Nyumtmxj1RB"
+				},
+				{
+					"id": "V3yTzoxrfVg"
+				},
+				{
+					"id": "e6PGK5aJ7Dn"
+				},
+				{
+					"id": "Omgzxz6whp4"
+				},
+				{
+					"id": "Qw9Iiqs0KQU"
+				},
+				{
+					"id": "bxFxspWCMt5"
+				}
+			],
+			"lastUpdated": "2018-01-16T09:21:15.542",
+			"name": "Immunization - wastage rates",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_AEFI_SUSP_NONSER",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "sgK3IgnVRCS",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:46.179",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - AEFI suspected - non-serious",
+			"numerator": "-1",
+			"numeratorDescription": "AEFI suspected - non-serious",
+			"publicAccess": "--------",
+			"shortName": "AEFI suspected - non-serious",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_AEFI_SUSP_SER",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "IxeSYS0sHCa",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:46.980",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - AEFI suspected - serious",
+			"numerator": "-1",
+			"numeratorDescription": "AEFI suspected - serious",
+			"publicAccess": "--------",
+			"shortName": "AEFI serious",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_BCG_CV_WASTE",
+			"created": "2015-10-16T09:47:04.876",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "BCG doses used",
+			"id": "Qw9Iiqs0KQU",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:47.471",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - BCG closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "BCG doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "BCG CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_BCG_COV",
+			"created": "2015-03-23T01:43:18.121",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Live births",
+			"id": "S7vxLF7zYb3",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:48.303",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - BCG coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "BCG doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "BCG coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_BCG_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "FghPB8EogPR",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:48.812",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - BCG doses given",
+			"numerator": "-1",
+			"numeratorDescription": "BCG doses given",
+			"publicAccess": "--------",
+			"shortName": "BCG given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_BCG_OV_WASTE",
+			"created": "2015-10-16T09:47:04.876",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "BCG doses used",
+			"id": "bxFxspWCMt5",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:49.321",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - BCG open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "BCG doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "BCG OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_BCG_MR1_DROPOUT",
+			"created": "2016-01-01T17:18:23.231",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "BCG doses administered < 1 year",
+			"description": "The percentage of children who received BCG (< 1 year) vaccine but who do not get MR1 vaccine (< 1 year).",
+			"id": "E35XSxwQAFO",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:50.584",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "kUG1usm9ZBd"
+				}
+			],
+			"name": "[CONFIG] EPI - BCG to MR 1 dropout rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "BCG - MR1 doses administered < 1 year",
+			"publicAccess": "--------",
+			"shortName": "BCG-MR 1 dropout (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_ALRMTEMP_HIGH",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "Vkr6WbAIudI",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:51.063",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Cold chain high temperature alarms",
+			"numerator": "-1",
+			"numeratorDescription": "Cold chain high temperature alarms",
+			"publicAccess": "--------",
+			"shortName": "High temperature alarms",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_ALRMTEMP_LOW",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "zpvCdtk2srW",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:51.687",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Cold chain low temperature alarms",
+			"numerator": "-1",
+			"numeratorDescription": "Cold chain low temperature alarms",
+			"publicAccess": "--------",
+			"shortName": "Low temperature alarms",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_CC_REFR_OK",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "wRvkMjx6jzu",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:52.192",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Cold chain refrigerator functional",
+			"numerator": "-1",
+			"numeratorDescription": "Cold chain refrigerator functional",
+			"publicAccess": "--------",
+			"shortName": "Cold chain refrigerator functional",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_DPT1_3_DROPOUT",
+			"created": "2015-05-20T14:37:41.181",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "DPT 1 doses given",
+			"id": "ccFcqCkznCR",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:52.700",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "kUG1usm9ZBd"
+				}
+			],
+			"name": "[CONFIG] EPI - DPT 1 to 3 dropout rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "DPT 1 doses given - DPT 3 doses given",
+			"publicAccess": "--------",
+			"shortName": "DPT 1-3 drop out rate (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_DPT_HEPB_HIB1_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "y84dl2tMvyn",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:54.077",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - DPT-HepB-HIB 1 doses given",
+			"numerator": "-1",
+			"numeratorDescription": "DPT-HepB-HIB 1 doses given",
+			"publicAccess": "--------",
+			"shortName": "DPT-HepB-HIB 1 given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_DPT_HEB_HIB3_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "mwph5D00oxH",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:47:55.213",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - DPT-HepB-HIB 3 doses given",
+			"numerator": "-1",
+			"numeratorDescription": "DPT-HepB-HIB 3 doses given",
+			"publicAccess": "--------",
+			"shortName": "DPT-HepB-HIB 3 given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_DPT1_COV",
+			"created": "2015-05-20T11:50:39.357",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "qLpl4igiQWk",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:53.591",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - DPT-HepB-Hib 1 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "DPT-HepB-Hib 1 doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "DPT1 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_DPT3_COV",
+			"created": "2015-03-23T01:44:44.575",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "lkpoPvRswsF",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:54.723",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - DPT-HepB-Hib 3 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "DPT-HepB-Hib 3 doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "DPT3 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_DPT_HEPB_HIB_CV_WASTE",
+			"created": "2015-10-16T09:48:02.384",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "DPT-HepB-Hib doses used",
+			"id": "V3yTzoxrfVg",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:55.953",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - DPT-HepB-Hib closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "DPT doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "DPT-HepB-Hib CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_DPT_HEPB_HIB_OV_WASTE",
+			"created": "2015-10-16T09:48:02.384",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "DPT-HepB-HIB doses used",
+			"id": "UjQPNW1DZOA",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:56.570",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - DPT-HepB-Hib open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "DPT-HepB-Hib doses used - adminstered",
+			"publicAccess": "--------",
+			"shortName": "DPT-HepB-Hib OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_IPV CV_WASTE",
+			"created": "2015-10-16T09:49:07.688",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "IPV doses used",
+			"id": "WSI3lSrIbrh",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:57.546",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - IPV closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "IPV doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "IPV CV wastage rate (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_IPV_COV",
+			"created": "2015-10-15T14:20:28.530",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "DDYEQCyJE4k",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:58.087",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - IPV coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "IPV doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "IPV coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_IPV OV_WASTE",
+			"created": "2015-10-16T09:49:07.688",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "IPV doses used",
+			"id": "b4v3ZlijUkE",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:58.801",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - IPV open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "IPV doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "IPV OV wastage rate (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_MR_1_COV",
+			"created": "2015-10-15T14:32:20.304",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "QxShpQdLuAt",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:47:59.783",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - MR 1 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "MR 1 doses given (< 1 year)",
+			"publicAccess": "--------",
+			"shortName": "MR 1 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_MR_1_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "l5NxXNKkcpD",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:48:00.425",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - MR 1 doses given",
+			"numerator": "-1",
+			"numeratorDescription": "MR 1 doses given",
+			"publicAccess": "--------",
+			"shortName": "MR 1 given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_MR_1_2_DROPOUT",
+			"created": "2015-10-16T10:04:56.572",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "MR 1 doses given",
+			"description": "All ages",
+			"id": "FhQ8Hd5rCHj",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:00.913",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "kUG1usm9ZBd"
+				}
+			],
+			"name": "[CONFIG] EPI - MR 1 to 2 dropout rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "MR 1 doses given - MR 2 doses given",
+			"publicAccess": "--------",
+			"shortName": "MR 1-2 drop out rate (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_MR_2_COV",
+			"created": "2015-10-15T14:32:55.444",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Surviving children by age 2 years",
+			"id": "qtFNNLWxIHI",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:01.436",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - MR 2 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "MR 2 doses given",
+			"publicAccess": "--------",
+			"shortName": "MR 2 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_MR_2_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "oSMOERRFEWN",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:48:01.905",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - MR 2 doses given",
+			"numerator": "-1",
+			"numeratorDescription": "MR 2 doses given",
+			"publicAccess": "--------",
+			"shortName": "MR 2 given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_MR_CV_WASTE",
+			"created": "2015-10-16T09:51:43.942",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "MR doses used",
+			"id": "t5ssKnZSw6h",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:02.407",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - MR closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "MR doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "MR CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_MR_OV_WASTE",
+			"created": "2015-10-16T09:51:43.942",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "MR doses used",
+			"id": "vDcozAkwduM",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:02.910",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - MR open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "MR doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "MR OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_OPV_3_COV",
+			"created": "2015-10-15T14:23:16.996",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "k17O3iXpgiy",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:04.040",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - OPV 3 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "OPV 3 doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "OPV 3 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_OPV_CV_WASTE",
+			"created": "2015-10-16T09:49:07.688",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "OPV doses used",
+			"id": "e6PGK5aJ7Dn",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:04.538",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - OPV closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "OPV doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "OPV CV wastage rate (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_OPV_OV_WASTE",
+			"created": "2015-10-16T09:49:07.688",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "OPV doses used",
+			"id": "Omgzxz6whp4",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:05.088",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - OPV open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "OPV doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "OPV OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_OUTREACH",
+			"created": "2015-10-16T09:47:04.876",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Outreach immunisation sessions planned",
+			"id": "pthWAsurETT",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:06.224",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Outreach immunization sessions conducted (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Outreach immunisation sessions held",
+			"publicAccess": "--------",
+			"shortName": "Outreach sessions conducted (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_PCV_3_COV",
+			"created": "2015-10-09T14:19:24.814",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "S0IzYPGQLnN",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:06.723",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - PCV 3 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PCV 3 doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "PCV 3 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_PCV_CV_WASTE",
+			"created": "2015-10-16T09:49:56.663",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "PCV doses used",
+			"id": "vBWDj9pbnFM",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:07.269",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - PCV closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PCV doses wasted (close vial)",
+			"publicAccess": "--------",
+			"shortName": "PCV CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_PCV_OP_WASTE",
+			"created": "2015-10-16T09:49:56.663",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "PCV doses used",
+			"id": "rXBgEba0pPO",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:07.945",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - PCV open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PCV doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "PCV OP wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_RV_2_COV",
+			"created": "2015-10-15T14:30:19.550",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "ha7FrVzCdP7",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:09.654",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - RV 2 coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "RV 2 doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "RV 2 coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_RV_CV_WASTE",
+			"created": "2015-10-16T09:50:55.609",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "RV doses used",
+			"id": "btEs5IrKxJ0",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:10.156",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - RV closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "RV doses wasted (close vial)",
+			"publicAccess": "--------",
+			"shortName": "RV CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_RV_OV_WASTE",
+			"created": "2015-10-16T09:50:55.609",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "RV doses used",
+			"id": "UWwsHxAZP4y",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:10.718",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - RV open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "RV doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "RV OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_REP_COMP_PERC",
+			"created": "2017-01-26T18:59:03.853",
+			"denominator": "1",
+			"denominatorDescription": "Immunisation reports expected",
+			"id": "bbKPLVqQUt0",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-09-11T12:05:14.887",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Reporting completeness (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Immunisation reports received",
+			"publicAccess": "--------",
+			"shortName": "EPI reporting completeness (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_TT_CV_WASTE",
+			"created": "2015-10-16T09:53:12.952",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "TT doses used",
+			"id": "jfVvmRI0poZ",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:12.872",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - TT closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "TT doses wasted",
+			"publicAccess": "--------",
+			"shortName": "TT CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_TT_OV_WASTE",
+			"created": "2015-10-16T09:53:12.952",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "TT doses used",
+			"id": "KazkDYBpvWK",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:13.350",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - TT open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "TT doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "TT OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_YF_CV_WASTE",
+			"created": "2015-10-16T09:52:34.711",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Yellow fever doses used",
+			"id": "Nyumtmxj1RB",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:14.987",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Yellow fever closed vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Yellow fever doses wasted (closed vial)",
+			"publicAccess": "--------",
+			"shortName": "YF CV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "EPI_YF_COV",
+			"created": "2015-10-09T14:23:19.848",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Population < 1 year",
+			"id": "WSQxTuCGILM",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:15.663",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "s1VrkziIbq4"
+				}
+			],
+			"name": "[CONFIG] EPI - Yellow fever coverage (%)",
+			"numerator": "-1",
+			"numeratorDescription": "YF doses given < 1 year",
+			"publicAccess": "--------",
+			"shortName": "YF coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_YF_GIVEN",
+			"created": "2018-01-16T09:21:15.494",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "QJmlKfgOnEx",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2018-08-09T12:48:16.216",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Yellow fever doses given",
+			"numerator": "-1",
+			"numeratorDescription": "Yellow fever doses given",
+			"publicAccess": "--------",
+			"shortName": "YF given",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "EPI_YF_OV_WASTE",
+			"created": "2015-10-16T09:52:34.711",
+			"decimals": 1,
+			"denominator": "1",
+			"denominatorDescription": "Yellow fever doses used",
+			"id": "aGVW4AeTjUQ",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2018-08-09T12:48:16.727",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] EPI - Yellow fever open vial wastage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Yellow fever doses used - administered",
+			"publicAccess": "--------",
+			"shortName": "YF OV wastage (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:42:43.716",
+			"factor": 1,
+			"id": "kHy61PbChXr",
+			"lastUpdated": "2018-01-16T09:52:47.071",
+			"name": "Numerator only (number)",
+			"number": true,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement"
+				}
+			]
+		},
+		{
+			"created": "2015-03-23T01:41:28.852",
+			"factor": 100,
+			"id": "hmSnCXmLYwt",
+			"lastUpdated": "2018-01-16T09:52:47.072",
+			"name": "Percentage",
+			"number": false,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
+				}
+			]
+		}
+	],
+	"legendSets": [
+		{
+			"attributeValues": [],
+			"created": "2015-10-16T08:32:22.374",
+			"id": "s1VrkziIbq4",
+			"lastUpdated": "2018-01-16T15:12:51.676",
+			"lastUpdatedBy": {
+				"id": "mF8i9czW87x"
+			},
+			"legends": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#ED00FF",
+					"created": "2018-01-16T15:12:51.679",
+					"displayName": "Invalid",
+					"endValue": 1000,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "sP4oPVfcyUM",
+					"lastUpdated": "2018-01-16T15:12:51.679",
+					"name": "Invalid",
+					"startValue": 100,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#F03B20",
+					"created": "2018-01-16T15:12:51.680",
+					"displayName": "Low",
+					"endValue": 70,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lGyKnHfmwHB",
+					"lastUpdated": "2018-01-16T15:12:51.680",
+					"name": "Low",
+					"startValue": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#FEB24C",
+					"created": "2018-01-16T15:12:51.680",
+					"displayName": "Mid",
+					"endValue": 80,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "F8wvZmpMbVK",
+					"lastUpdated": "2018-01-16T15:12:51.680",
+					"name": "Mid",
+					"startValue": 70,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#4DAC26",
+					"created": "2018-01-16T15:12:51.680",
+					"displayName": "Highest",
+					"endValue": 100,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "eaY4IVBuwM1",
+					"lastUpdated": "2018-01-16T15:12:51.680",
+					"name": "Highest",
+					"startValue": 90,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#B8E186",
+					"created": "2018-01-16T15:12:51.680",
+					"displayName": "High",
+					"endValue": 90,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "w5XF8CMyPWR",
+					"lastUpdated": "2018-01-16T15:12:51.680",
+					"name": "High",
+					"startValue": 80,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"name": "EPI coverage",
+			"publicAccess": "--------",
+			"symbolizer": "color",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2016-10-27T13:14:10.398",
+			"id": "kUG1usm9ZBd",
+			"lastUpdated": "2018-01-16T15:14:58.415",
+			"lastUpdatedBy": {
+				"id": "mF8i9czW87x"
+			},
+			"legends": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#ED00FF",
+					"created": "2018-01-16T15:14:58.415",
+					"displayName": "Negative",
+					"endValue": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zOBEfagpN2O",
+					"lastUpdated": "2018-01-16T15:14:58.415",
+					"name": "Negative",
+					"startValue": 100,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#4DAC26",
+					"created": "2018-01-16T15:14:58.415",
+					"displayName": "Low",
+					"endValue": 10,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "GJ17LWNNkHt",
+					"lastUpdated": "2018-01-16T15:14:58.415",
+					"name": "Low",
+					"startValue": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#F03B20",
+					"created": "2018-01-16T15:14:58.416",
+					"displayName": "High",
+					"endValue": 100,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "oux8BZKOApR",
+					"lastUpdated": "2018-01-16T15:14:58.416",
+					"name": "High",
+					"startValue": 10,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"name": "EPI dropout rates",
+			"publicAccess": "--------",
+			"symbolizer": "color",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		}
+	],
+	"maps": [
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:33:54.229",
+			"externalAccess": false,
+			"id": "XOeWGctxQFW",
+			"lastUpdated": "2018-06-29T11:37:10.573",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "MzBj1ygSw0T"
+				}
+			],
+			"name": "EPI - BCG coverage by district - last month",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:41:59.170",
+			"externalAccess": false,
+			"id": "XGxO1XQZzS9",
+			"lastUpdated": "2018-06-29T11:37:11.302",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "v0YYxP3TmgE"
+				}
+			],
+			"name": "EPI - BCG coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:44:07.148",
+			"externalAccess": false,
+			"id": "f1ei4RC9IJu",
+			"lastUpdated": "2018-06-29T11:37:11.871",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "I0d5NRVM7DG"
+				}
+			],
+			"name": "EPI - BCG to MR1 dropout rate by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:42:45.275",
+			"externalAccess": false,
+			"id": "g2QNZ1meLp8",
+			"lastUpdated": "2018-06-29T11:37:16.096",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "aMpWNS5eRHw"
+				}
+			],
+			"name": "EPI - DPT-HepB-Hib 1-3 dropout rate by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:39:48.500",
+			"externalAccess": false,
+			"id": "q2zASvnuahg",
+			"lastUpdated": "2018-06-29T11:37:16.708",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "VJPLmLKPSv4"
+				}
+			],
+			"name": "EPI - DPT-HepB-Hib 3 coverage by district - last month",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:40:09.867",
+			"externalAccess": false,
+			"id": "lUlr9JjGwBN",
+			"lastUpdated": "2018-06-29T11:37:17.228",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "omVR2S9rXIm"
+				}
+			],
+			"name": "EPI - DPT-HepB-Hib 3 coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:32:50.908",
+			"externalAccess": false,
+			"id": "a6HFpxvJnWJ",
+			"lastUpdated": "2018-06-29T11:37:20.761",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "qXPqAMQ9Jsr"
+				}
+			],
+			"name": "EPI - MR1 coverage by district - last month",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:42:24.404",
+			"externalAccess": false,
+			"id": "zrvLiGhSRgZ",
+			"lastUpdated": "2018-06-29T11:37:21.396",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "k3d1XrSzxhi"
+				}
+			],
+			"name": "EPI - MR1 to 2 dropout rate by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:40:37.140",
+			"externalAccess": false,
+			"id": "StPHuEWYzIa",
+			"lastUpdated": "2018-06-29T11:37:21.924",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "GARh2th7Xvs"
+				}
+			],
+			"name": "EPI - MR2 coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:43:46.850",
+			"externalAccess": false,
+			"id": "h2pRK9XTTaF",
+			"lastUpdated": "2018-06-29T11:42:50.355",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "OllDoEr1jiE"
+				}
+			],
+			"name": "EPI - OPV3 coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:43:03.442",
+			"externalAccess": false,
+			"id": "iFJvhvxrdxW",
+			"lastUpdated": "2018-06-29T11:42:52.461",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "HsjmlV7fXOJ"
+				}
+			],
+			"name": "EPI - PCV3 coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:44:35.177",
+			"externalAccess": false,
+			"id": "iuzb1Ubh5Yq",
+			"lastUpdated": "2018-06-29T11:42:53.062",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "lrdkOjjA1Nw"
+				}
+			],
+			"name": "EPI - RV2 coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		},
+		{
+			"basemap": "none",
+			"created": "2018-02-19T11:43:24.758",
+			"externalAccess": false,
+			"id": "uPoCxzhf1zH",
+			"lastUpdated": "2018-06-29T11:42:56.184",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"id": "eLr1rJasE54"
+				}
+			],
+			"name": "EPI - YF coverage by district - last year",
+			"publicAccess": "--------",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
+		}
+	],
+	"mapViews": [
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:39:48.500",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lkpoPvRswsF"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "VJPLmLKPSv4",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:39:48.500",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:32:50.908",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "QxShpQdLuAt"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "qXPqAMQ9Jsr",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "######000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:32:50.908",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:33:54.229",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "S7vxLF7zYb3"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "MzBj1ygSw0T",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "######000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:33:54.229",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:43:03.442",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "S0IzYPGQLnN"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "HsjmlV7fXOJ",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "#####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:43:03.442",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:42:45.275",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ccFcqCkznCR"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "aMpWNS5eRHw",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:42:45.275",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "kUG1usm9ZBd"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:42:24.404",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FhQ8Hd5rCHj"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "k3d1XrSzxhi",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:42:24.404",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "kUG1usm9ZBd"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:44:07.148",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "E35XSxwQAFO"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "I0d5NRVM7DG",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:44:07.148",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "kUG1usm9ZBd"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:41:59.170",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "S7vxLF7zYb3"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "v0YYxP3TmgE",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "#####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:41:59.170",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:40:09.867",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lkpoPvRswsF"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "omVR2S9rXIm",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "###000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:40:09.867",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:44:35.177",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ha7FrVzCdP7"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "lrdkOjjA1Nw",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "#####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:44:35.177",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:43:24.758",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "WSQxTuCGILM"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "eLr1rJasE54",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "#####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:43:24.758",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:40:37.140",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "qtFNNLWxIHI"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "GARh2th7Xvs",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "#######000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:40:37.140",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		},
+		{
+			"attributeDimensions": [],
+			"classes": 5,
+			"colorHigh": "00ff00",
+			"colorLow": "ff0000",
+			"columnDimensions": [
+				"dx"
+			],
+			"created": "2018-02-19T11:43:46.850",
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "k17O3iXpgiy"
+					}
+				}
+			],
+			"dataElementDimensions": [],
+			"eventClustering": false,
+			"eventPointRadius": 0,
+			"hidden": false,
+			"id": "OllDoEr1jiE",
+			"itemOrganisationUnitGroups": [],
+			"labelFontColor": "####000000",
+			"labelFontSize": "11px",
+			"labelFontStyle": "normal",
+			"labelFontWeight": "normal",
+			"labels": false,
+			"lastUpdated": "2018-02-19T11:43:46.850",
+			"layer": "thematic1",
+			"legendSet": {
+				"id": "s1VrkziIbq4"
+			},
+			"method": 1,
+			"opacity": 0.8,
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"radiusHigh": 15,
+			"radiusLow": 5,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": true,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"translations": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true
+		}
+	],
+	"package": "EPI_DASHBOARD_V0.9_DHIS2.29_2018-09-26T09:32",
+	"reportTables": [
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": true,
+			"colTotals": true,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2016-10-27T15:04:03.287",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "sgK3IgnVRCS"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "IxeSYS0sHCa"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "V06KKMj8k8H",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.327",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - AEFI cases - this and last 5 years",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2016-10-27T13:45:29.813",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Qw9Iiqs0KQU"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "V3yTzoxrfVg"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "WSI3lSrIbrh"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "t5ssKnZSw6h"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "e6PGK5aJ7Dn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vBWDj9pbnFM"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "btEs5IrKxJ0"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "jfVvmRI0poZ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Nyumtmxj1RB"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "ylj3w8C8CT7",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.287",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - Closed vial wastage rate - this and last 5 years",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2016-10-27T14:15:18.307",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "E35XSxwQAFO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ccFcqCkznCR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FhQ8Hd5rCHj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "dwGHGSJ6YAw",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.174",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - Dropout rates - this and last 5 years",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2016-10-27T14:16:04.642",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "E35XSxwQAFO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ccFcqCkznCR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FhQ8Hd5rCHj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "LczTRozeKNQ",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.259",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - Dropout rates by orgunit - last 12 months cumulative",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2016-10-27T13:41:46.305",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bxFxspWCMt5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "UjQPNW1DZOA"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "b4v3ZlijUkE"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vDcozAkwduM"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Omgzxz6whp4"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "rXBgEba0pPO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "UWwsHxAZP4y"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "KazkDYBpvWK"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "aGVW4AeTjUQ"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "wDqBh1KI0tH",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.209",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - Open vial wastage rate by orgunit - last 12 months cumulative",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx",
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2016-10-28T09:43:02.355",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "pthWAsurETT"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "wCKEkLUFg1z",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2018-09-26T08:03:34.328",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "EPI - Outreach immunization sessions completion by orgunit - this and last 5 years",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "--------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": true,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:31:39.738",
+			"id": "JVenB84tY1X",
+			"lastUpdated": "2018-07-13T12:31:43.233",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"managedGroups": [],
+			"name": "Immunisation access",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:31:14.460",
+			"id": "T6DZORCrELb",
+			"lastUpdated": "2018-07-13T12:31:14.460",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"managedGroups": [],
+			"name": "Immunisation admin",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-07-13T12:28:39.402",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"lastUpdatedBy": {
+					"id": "jB4WJmaNuGT"
+				},
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"user": {
+					"id": "jB4WJmaNuGT"
+				},
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
+		}
+	]
+}
