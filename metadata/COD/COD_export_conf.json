@@ -21,7 +21,22 @@
       "_url": [
         "https://who.dhis2.net/tracker-ref"
       ], 
-      "_version": "1.0", 
+      "_version": "1.0.1",
+      "customObjects": [
+        {
+          "objectIds": [
+          	"fn3zQtRrETh", 
+          	"KdIAkgUzCv7", 
+          	"Siuqk0lMzC7", 
+          	"dS3uFpYtlss", 
+          	"nWsSOLLJPjG", 
+          	"DNveLCRg2zU", 
+          	"ekC6LY25qMk", 
+          	"ZVl5kudO8Vt"
+          ], 
+          "objectType": "sqlViews"
+        }
+      ],
       "dashboardIds": [
         "gskAdA5a2d4"
       ], 
@@ -58,7 +73,22 @@
       "_url": [
         "https://who.dhis2.net/tracker-ref"
       ], 
-      "_version": "1.0", 
+      "_version": "1.0.1", 
+      "customObjects": [
+        {
+          "objectIds": [
+          	"nOrVs1Gi9Nt", 
+          	"iy8xEmIhMph", 
+          	"Siuqk0lMzC7", 
+          	"dS3uFpYtlss", 
+          	"nWsSOLLJPjG", 
+          	"DNveLCRg2zU", 
+          	"ekC6LY25qMk", 
+          	"ZVl5kudO8Vt"
+          ], 
+          "objectType": "sqlViews"
+        }
+      ],
       "dashboardIds": [
         "wBFR85ExTPr"
       ], 
