@@ -3,6 +3,9 @@
     {
       "_basePath": "./TB/", 
       "_code": "TB", 
+       "_customFuncs": [
+		"var dashItems = []; for (var i = 0; i < metaData.dashboards.length; i++) { if (metaData.dashboards[i].id == 'u0ZDGUlrxz8') { dashItems = metaData.dashboards[i].dashboardItems; metaData.dashboards.splice(i, 1); break; } } if (metaData.hasOwnProperty('dashboardItems')) { for (var item of dashItems) { for (var i = 0; i < metaData.dashboardItems.length; i++) { if (metaData.dashboardItems[i].id == item.id) { metaData.dashboardItems.splice(i, 1); break; } } } }"
+        ],
       "_name": "TB dashboard", 
       "_prefix": "[CONFIG]", 
       "_sharing": {
@@ -21,7 +24,7 @@
         "https://who.dhis2.net/agg_ref_minus1", 
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "dashboardIds": [
         "w48LnY9Gamc", 
         "BwYHhBSvLNL", 
@@ -33,7 +36,8 @@
         "dp6xqlPGxbA", 
         "xJXvUOEhnE9", 
         "CKcF4jgN0hK", 
-        "L2UmLVcb6Dm"
+        "L2UmLVcb6Dm",
+        "u0ZDGUlrxz8"
       ], 
       "exportIndicatorGroupsIds": [], 
       "indicatorGroupIds": [
@@ -46,7 +50,10 @@
     }, 
     {
       "_basePath": "./TB/", 
-      "_code": "TB", 
+      "_code": "TB",
+      "_customFuncs": [
+		"var dashItems = []; for (var i = 0; i < metaData.dashboards.length; i++) { if (metaData.dashboards[i].id == 'u0ZDGUlrxz8') { dashItems = metaData.dashboards[i].dashboardItems; metaData.dashboards.splice(i, 1); break; } } if (metaData.hasOwnProperty('dashboardItems')) { for (var item of dashItems) { for (var i = 0; i < metaData.dashboardItems.length; i++) { if (metaData.dashboardItems[i].id == item.id) { metaData.dashboardItems.splice(i, 1); break; } } } }"
+        ],
       "_name": "TB complete", 
       "_sharing": {
         "accessGroupIds": [
@@ -64,11 +71,15 @@
         "https://who.dhis2.net/agg_ref_minus1", 
         "https://who.dhis2.net/agg_ref_minus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "customObjects": [
         {
           "objectIds": ["DkmMEcubiPv"], 
           "objectType": "dataElements"
+        },
+        {
+          "objectIds": ["dQxhOVtwwK8", "StXxQoaz26k"], 
+          "objectType": "reportTables"
         }
       ],
       "dashboardIds": [
@@ -82,7 +93,8 @@
         "dp6xqlPGxbA", 
         "xJXvUOEhnE9", 
         "CKcF4jgN0hK", 
-        "L2UmLVcb6Dm"
+        "L2UmLVcb6Dm",
+        "u0ZDGUlrxz8"
       ], 
       "dataElementGroupIds": [
         "VGJHJGsfdRR", 
