@@ -1,0 +1,705 @@
+{
+  "packageGroups": [
+    {
+      "description": "TODO - standards", 
+      "id": "standard_for_measurement", 
+      "name": "Standards for measurement", 
+      "packages": [
+        {
+          "apps": [], 
+          "description": "", 
+          "icons": [
+            {
+              "128": "assets/img/metadata-repo.png", 
+              "48": "assets/img/metadata-repo.png"
+            }
+          ], 
+          "id": "metabase", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Metadata Repository", 
+          "organization": "WHO", 
+          "tags": [], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "", 
+          "icons": [
+            {
+              "128": "assets/img/data-quality.png", 
+              "48": "assets/img/data-quality.png"
+            }
+          ], 
+          "id": "dqa", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Data Quality Review", 
+          "organization": "WHO", 
+          "tags": [
+            "Data Quality"
+          ], 
+          "url": "http://www.who.int"
+        }
+      ]
+    }, 
+    {
+      "description": "TODO - cross cutting", 
+      "id": "cross-cutting", 
+      "name": "Cross-cutting", 
+      "packages": [
+        {
+          "apps": [], 
+          "description": "TODO - Mortality description", 
+          "icons": [
+            {
+              "128": "assets/img/mortality.png", 
+              "48": "assets/img/mortality.png"
+            }
+          ], 
+          "id": "COD", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "metadataPackages": [
+            {
+              "description": "TODO", 
+              "icons": [], 
+              "id": "COD-REG", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Cause of Death - Registration", 
+              "organization": "WHO", 
+              "tags": [
+                "Tracker", 
+                "Configuration package", 
+                "Mortality"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/COD/COD-REG_TRACKER_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }
+              ]
+            }, 
+            {
+              "description": "TODO", 
+              "icons": [], 
+              "id": "COD-EVENT", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Cause of Death - Event", 
+              "organization": "WHO", 
+              "tags": [
+                "Tracker", 
+                "Configuration package", 
+                "Mortality"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/COD/COD-EVENT_TRACKER_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }
+              ]
+            }
+          ], 
+          "name": "Mortality", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Mortality"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - Morbidity description", 
+          "icons": [
+            {
+              "128": "assets/img/morbidity.png", 
+              "48": "assets/img/morbidity.png"
+            }
+          ], 
+          "id": "MORB", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "metadata": [], 
+          "name": "Morbidity", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Morbidity"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - Health systems managements", 
+          "icons": [
+            {
+              "128": "assets/img/health-system-management.png", 
+              "48": "assets/img/health-system-management.png"
+            }
+          ], 
+          "id": "HSM", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Health systems management", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Health system management"
+          ], 
+          "url": "http://www.who.int"
+        }
+      ]
+    }, 
+    {
+      "description": "TODO - programmes", 
+      "id": "programme-specific-modules", 
+      "name": "Programme specific modules", 
+      "packages": [
+        {
+          "apps": [], 
+          "description": "<p><span>The overall goal of this module &nbsp;is to analyse, visualise, and report on various elements of HIV programme and facility performance and for patient management and retention.&nbsp; The </span><span>WHO health facility data analysis tool</span><span>&nbsp;provides, analysis and interpretation of information derived from routinely reported data from health facilities.&nbsp; It covers a comprehensive range of </span><span>routine health facility data</span><span>&nbsp;as well as </span><span>coverage of services</span><span>&nbsp;</span><span>of key HIV/AIDS services</span><span>&nbsp;are also described and are critical to public health managers, planners and analysts in their efforts to assess and improve health system performance.</span></p><p><span></span></p><p><span>This output information from the DHIS 2 HIV Module can in turn be used for programme and health facility planning, to monitor and evaluate programme performance as well as to guide management decisions that informed by the analyses and information generated from the DHIS 2 HIV Module.&nbsp; </span></p>", 
+          "icons": [
+            {
+              "128": "assets/img/HIV.png", 
+              "48": "assets/img/HIV.png"
+            }
+          ], 
+          "id": "HIV", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "links": [
+            "http://www.who.int/hiv/topics/me/en/"
+          ], 
+          "metadataPackages": [
+            {
+              "description": "", 
+              "icons": [], 
+              "id": "HIV_DASHBOARD", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "HIV Dashboard Package", 
+              "organization": "WHO", 
+              "tags": [
+                "Dashboard", 
+                "HIV"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/HIV/HIV_DASHBOARD_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/HIV/HIV_DASHBOARD_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/HIV/HIV_DASHBOARD_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }
+          ], 
+          "name": "HIV/AIDS", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Dashboards", 
+            "HIV"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [
+            {
+              "appType": "APP", 
+              "description": "Immunisation analysis", 
+              "developer": {
+                "address": "", 
+                "email": "email adddress", 
+                "name": "developer name", 
+                "organisation": "organisation-name"
+              }, 
+              "id": "epiApp", 
+              "images": [
+                {
+                  "caption": "EPI analysis", 
+                  "created": "2017-08-13T21:41:31.738", 
+                  "id": "JDBY7OaNZpJ", 
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png", 
+                  "lastUpdated": "2017-08-13T21:41:45.900", 
+                  "logo": false
+                }
+              ], 
+              "name": "App name", 
+              "owner": "app-owner", 
+              "versions": [
+                {
+                  "demo_url": "http://play.dhis2.org/demo", 
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip", 
+                  "max_platform_version": "2.20", 
+                  "min_platform_version": "2.17", 
+                  "version": "0.1"
+                }
+              ]
+            }
+          ], 
+          "description": "<p><span>The immunization module for DHIS 2 contains </span></p><ul><li><span>Core and optional indicators for immunization programme monitoring. These need to be adapted to individual countries depending on the vaccines in the national schedule, and monitoring priorities. </span></li><li><span>A standard dashboard with common visualizations, tables, and maps</span></li><li><span>An EPI App, that contains visualizations that could not be implemented within standard DHIS2, such as the monitoring chart and categorization table</span></li><li><span>An export routine that can be used to extract data from DHIS2 in a standardized way</span></li></ul>", 
+          "icons": [
+            {
+              "128": "assets/img/immunization.png", 
+              "48": "assets/img/immunization.png"
+            }
+          ], 
+          "id": "EPI", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "metadataPackages": [
+            {
+              "description": "", 
+              "icons": [], 
+              "id": "EPI_COMPLETE", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "EPI Complete", 
+              "organization": "WHO", 
+              "tags": [
+                "Complete", 
+                "EPI"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_COMPLETE_V0_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_COMPLETE_V0_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_COMPLETE_V0_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }, 
+            {
+              "description": "", 
+              "icons": [], 
+              "id": "EPI_DASHBOARD", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "EPI Dashboards", 
+              "organization": "WHO", 
+              "tags": [
+                "Dashboard", 
+                "EPI"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_DASHBOARD_V0_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_DASHBOARD_V0_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/EPI/EPI_DASHBOARD_V0_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }
+          ], 
+          "name": "Immunization", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "EPI"
+          ]
+        }, 
+        {
+          "apps": [], 
+          "description": "<p><span>The tuberculosis (TB) module for DHIS 2 implements an electronic version of the aggregate quarterly reports defined by the minimum recording and reporting standards recommended by WHO. It also calculates indicators based on the data in these reports and displays these indicators in dashboards containing tables, charts and maps.</span></p><p><span>The module includes all the data elements defined in the </span><span>Definitions and reporting framework for tuberculosis (2013 revision, updated December 2014). </span><span>It calculates and visualises indicators as suggested in </span><span>Understanding and using tuberculosis data </span><span>and in </span><span>Standards and benchmarks for tuberculosis surveillance and vital registration systems: Checklist and user guide.</span></p><p><span>The data elements make up&ldquo;typical&rdquo; TB quarterly data collection forms which can be further adapted by adding and/or removing optional indicators and data elements according to country needs.</span></p", 
+          "icons": [
+            {
+              "128": "assets/img/tuberculosis.png", 
+              "48": "assets/img/tuberculosis.png"
+            }
+          ], 
+          "id": "TB", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "metadataPackages": [
+            {
+              "description": "TODO - TB complete", 
+              "icons": [], 
+              "id": "TB_COMPLETE", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "TB Complete", 
+              "organization": "WHO", 
+              "tags": [
+                "Complete", 
+                "TB"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_COMPLETE_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_COMPLETE_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_COMPLETE_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }, 
+            {
+              "description": "TODO - TB dashboard", 
+              "icons": [], 
+              "id": "TB_DASHBOARD", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "TB Dashboards", 
+              "organization": "WHO", 
+              "tags": [
+                "Dashboards", 
+                "TB"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_DASHBOARD_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_DASHBOARD_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/TB/TB_DASHBOARD_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }
+          ], 
+          "name": "Tuberculosis", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "TB"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "<p><span>The Malaria Module for DHIS2 provides support to endemic countries on malaria surveillance, from data collection and validation to analysis, interpretation, and dissemination. The same recommendations provided by WHO GMP in their publications have been implemented into the DHIS2 malaria module in the form of a core set of recommended data to be captured, the frequency and disaggregation and at what levels of the health system. Pre-configured data validation rules and a data quality tool accompany these data elements to ensure the quality of the electronically entered data.</span></p><p><span>The package also contains a core set of recommended indicators to track the data and presents it in the form of tables, charts, and maps. Guidance on the interpretation of the charts and graphs is provided in the curriculum and exercises gear towards the strengthening of malaria surveillance at country level.</span></p><p><span>These combined elements not only strengthens malaria surveillance but also serves to harmonize malaria surveillance and reporting across countries. The module is the result of collaboration between WHO, countries and partners.</span></p>", 
+          "icons": [
+            {
+              "128": "assets/img/malaria.png", 
+              "48": "assets/img/malaria.png"
+            }
+          ], 
+          "id": "MAL", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "metadataPackages": [
+            {
+              "description": "TODO - Malaria BR complete", 
+              "icons": [], 
+              "id": "MAL-BR_COMPLETE", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Malaria Burden Reduction Complete", 
+              "organization": "WHO", 
+              "tags": [
+                "Complete", 
+                "Malaria Burden reduction"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_COMPLETE_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_COMPLETE_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_COMPLETE_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }, 
+            {
+              "description": "TODO - Malaria BR dashboard", 
+              "icons": [], 
+              "id": "MAL-BR_DASHBOARD", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Malaria Burden Reduction Dashboard", 
+              "organization": "WHO", 
+              "tags": [
+                "Dashboard", 
+                "Malaria Burden Reduction"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_DASHBOARD_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_DASHBOARD_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-BR_DASHBOARD_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }, 
+            {
+              "description": "TODO - Malaria elimination complete", 
+              "icons": [], 
+              "id": "MAL-EL_COMPLETE", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Malaria Elimination Complete", 
+              "organization": "WHO", 
+              "tags": [
+                "Malaria Elimination", 
+                "Complete"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_COMPLETE_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_COMPLETE_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_COMPLETE_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }, 
+            {
+              "description": "TODO - Malaria elimination dashboard", 
+              "icons": [], 
+              "id": "MAL-EL_DASHBOARD", 
+              "license": {
+                "name": "?", 
+                "url": "https://who.int"
+              }, 
+              "name": "Malaria Elimination Dashboard", 
+              "organization": "WHO", 
+              "tags": [
+                "Dashboards", 
+                "Malaria Elimination"
+              ], 
+              "url": "http://www.who.int", 
+              "versions": [
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_DASHBOARD_V1_DHIS2.28/metadata.json", 
+                  "version": "2.28"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_DASHBOARD_V1_DHIS2.29/metadata.json", 
+                  "version": "2.29"
+                }, 
+                {
+                  "href": "https://raw.githubusercontent.com/dhis2/metadata-package-development/master/metadata/MAL/MAL-EL_DASHBOARD_V1_DHIS2.30/metadata.json", 
+                  "version": "2.30"
+                }
+              ]
+            }
+          ], 
+          "name": "Malaria", 
+          "organization": "WHO", 
+          "resources": [
+            {
+              "id": "malaria9789241503334", 
+              "name": "Disease surveillance for malaria elimination: operational manual", 
+              "type": "LINK", 
+              "url": "http://www.who.int/malaria/publications/atoz/9789241503334/en/"
+            }, 
+            {
+              "id": "malaria9789241503341", 
+              "name": "Disease surveillance for malaria control: operational manual", 
+              "type": "LINK", 
+              "url": "http://www.who.int/malaria/publications/atoz/9789241503341/en/"
+            }
+          ], 
+          "tags": [
+            "Malaria"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - Early warning", 
+          "icons": [
+            {
+              "128": "assets/img/early-warning.png", 
+              "48": "assets/img/early-warning.png"
+            }
+          ], 
+          "id": "EWARN", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Early warning", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Early warning"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - RMNCAH", 
+          "icons": [
+            {
+              "128": "assets/img/rmncah.png", 
+              "48": "assets/img/rmncah.png"
+            }
+          ], 
+          "id": "RMNCAH", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Reproductive, maternal, newborn, child and adolescent health", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "RMNCAH"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - NCD", 
+          "icons": [
+            {
+              "128": "assets/img/ncds.png", 
+              "48": "assets/img/ncds.png"
+            }
+          ], 
+          "id": "NCD", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Non-communicable diseases", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "NCDs"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - Nutrition", 
+          "icons": [
+            {
+              "128": "assets/img/nutrition.png", 
+              "48": "assets/img/nutrition.png"
+            }
+          ], 
+          "id": "NUTR", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Nutrition", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "Nutrition"
+          ], 
+          "url": "http://www.who.int"
+        }, 
+        {
+          "apps": [], 
+          "description": "TODO - NTD", 
+          "icons": [
+            {
+              "128": "assets/img/ntds.png", 
+              "48": "assets/img/ntds.png"
+            }
+          ], 
+          "id": "NTD", 
+          "license": {
+            "name": "?", 
+            "url": "https://who.int"
+          }, 
+          "name": "Neglected tropical diseases", 
+          "organization": "WHO", 
+          "resources": [], 
+          "tags": [
+            "NTDs"
+          ], 
+          "url": "http://www.who.int"
+        }
+      ]
+    }
+  ]
+}
