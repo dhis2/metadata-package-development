@@ -34,7 +34,7 @@ echo "Server running, admin user was created "`curl -s -u admin:district "http:/
 URL="http://localhost:"$PORT"/"$DBNAME"/api/metadata"
 if [ $VERSION -gt 27 ]; 
 then
-	URL=$URL"?atomicMode=NONE"
+	URL=$URL"?atomicMode=ALL"
 fi
 
 echo "Uploading file to "$URL
