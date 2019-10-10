@@ -79,7 +79,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2019-10-09T23:06:13.488",
+			"lastUpdated": "2019-10-09T23:15:52.190",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -1063,6 +1063,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria - % of All Deaths and Admissions",
@@ -1088,7 +1089,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1169,6 +1171,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Case Confirmation",
@@ -1194,7 +1197,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1281,6 +1285,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria Case Fatality - OPD and Admissions",
@@ -1306,7 +1311,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1399,6 +1405,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "% Suspected Tested, Confirmed  cases and ABER",
@@ -1424,7 +1431,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1526,6 +1534,7 @@
 				"yesterday": false
 			},
 			"series": "AzDcxg4bW1N",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria deaths by Age",
@@ -1551,7 +1560,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1638,6 +1648,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria and Non-malaria deaths",
@@ -1663,7 +1674,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1744,6 +1756,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria and non-malaria IPD",
@@ -1769,7 +1782,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1856,6 +1870,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "OPD malaria vs Non-malaria OPD",
@@ -1881,7 +1896,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1968,6 +1984,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Percent Tested",
@@ -1993,7 +2010,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2080,6 +2098,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Test Positivity",
@@ -2105,7 +2124,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2198,6 +2218,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Proportions (OPD,IPD, Deaths)",
@@ -2223,7 +2244,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2310,6 +2332,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Ratio Consultancy and Admissions",
@@ -2335,7 +2358,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2428,6 +2452,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Reporting completeness",
@@ -2453,7 +2478,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2546,6 +2572,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria surveillance",
@@ -2571,7 +2598,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2658,6 +2686,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Microscopy and RDT Testing",
@@ -2683,7 +2712,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2770,6 +2800,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Malaria Testing",
@@ -2795,7 +2826,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2889,6 +2921,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2915,7 +2948,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -3009,6 +3043,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -3035,7 +3070,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -3129,6 +3165,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -3155,7 +3192,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -3243,6 +3281,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -3269,7 +3308,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"dashboards": [
@@ -4563,13 +4603,13 @@
 					"id": "CHM9i82Xvid"
 				},
 				{
+					"id": "QJUcVI1zY5y"
+				},
+				{
 					"id": "l7gcisIvTBN"
 				},
 				{
 					"id": "tpz77FcntKx"
-				},
-				{
-					"id": "QJUcVI1zY5y"
 				},
 				{
 					"id": "DPNsg3wjxGm"
@@ -4614,10 +4654,10 @@
 					"id": "enVf9I39FRZ"
 				},
 				{
-					"id": "g6T1sC2ZSFD"
+					"id": "v0WZQQ6gKAX"
 				},
 				{
-					"id": "v0WZQQ6gKAX"
+					"id": "g6T1sC2ZSFD"
 				},
 				{
 					"id": "jtyuEfbNbkb"
@@ -4662,19 +4702,19 @@
 					"id": "yVGY0DGVPor"
 				},
 				{
-					"id": "GEgULJaUkyQ"
+					"id": "vCwegNjEuxN"
 				},
 				{
-					"id": "vCwegNjEuxN"
+					"id": "GEgULJaUkyQ"
 				},
 				{
 					"id": "n0tgQ4PjnnT"
 				},
 				{
-					"id": "WoVoIProU89"
+					"id": "cE8SDxizo5s"
 				},
 				{
-					"id": "cE8SDxizo5s"
+					"id": "WoVoIProU89"
 				},
 				{
 					"id": "mIefFUftPpa"
@@ -4692,10 +4732,10 @@
 					"id": "YcZAfNmFuje"
 				},
 				{
-					"id": "rY7FJXnqwkM"
+					"id": "VL73cqNHxBJ"
 				},
 				{
-					"id": "VL73cqNHxBJ"
+					"id": "rY7FJXnqwkM"
 				}
 			],
 			"id": "ri242cU0Sm5",
@@ -4839,10 +4879,10 @@
 					"id": "Md3xk3vlABx"
 				},
 				{
-					"id": "ENIbHvgpaQR"
+					"id": "CHM9i82Xvid"
 				},
 				{
-					"id": "CHM9i82Xvid"
+					"id": "ENIbHvgpaQR"
 				}
 			],
 			"id": "cWFV4unGXXn",
@@ -4881,10 +4921,10 @@
 					"id": "llpG8qA0SvG"
 				},
 				{
-					"id": "enVf9I39FRZ"
+					"id": "SXGjaEobp6V"
 				},
 				{
-					"id": "SXGjaEobp6V"
+					"id": "enVf9I39FRZ"
 				},
 				{
 					"id": "iMcQ1MedqGo"
@@ -5001,10 +5041,10 @@
 					"id": "GEgULJaUkyQ"
 				},
 				{
-					"id": "WoVoIProU89"
+					"id": "h9DNhuHHgkH"
 				},
 				{
-					"id": "h9DNhuHHgkH"
+					"id": "WoVoIProU89"
 				},
 				{
 					"id": "t4FqHKzAyEn"
@@ -7544,7 +7584,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "UH47dKFqTRK"
+						"id": "cOVhTyW8zN6"
 					},
 					"dataSet": {
 						"id": "qNtxTrp56wV"
@@ -7566,37 +7606,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "tpz77FcntKx"
-					},
-					"dataSet": {
-						"id": "qNtxTrp56wV"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "MJFRkoiH4KQ"
-					},
-					"dataSet": {
-						"id": "qNtxTrp56wV"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "cOVhTyW8zN6"
-					},
-					"dataSet": {
-						"id": "qNtxTrp56wV"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "dFaBg0HpoIL"
+						"id": "UH47dKFqTRK"
 					},
 					"dataSet": {
 						"id": "qNtxTrp56wV"
@@ -7619,6 +7629,36 @@
 					},
 					"dataElement": {
 						"id": "FRbgzTZ74Hh"
+					},
+					"dataSet": {
+						"id": "qNtxTrp56wV"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "tpz77FcntKx"
+					},
+					"dataSet": {
+						"id": "qNtxTrp56wV"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "dFaBg0HpoIL"
+					},
+					"dataSet": {
+						"id": "qNtxTrp56wV"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "MJFRkoiH4KQ"
 					},
 					"dataSet": {
 						"id": "qNtxTrp56wV"
@@ -7689,447 +7729,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "h9DNhuHHgkH"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "enVf9I39FRZ"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "WNcIBqTodHr"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "ENIbHvgpaQR"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "vfIbhthFgHT"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "rbqe6Td5rNI"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "cE8SDxizo5s"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "M91K9z70dl4"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "GxlrIgMyEf4"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "VL73cqNHxBJ"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "DPNsg3wjxGm"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "BjDrgVrkBI3"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "yHS1RqIFeD7"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "l7gcisIvTBN"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "t4FqHKzAyEn"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "SXGjaEobp6V"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "kc07jdV2C3B"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "AFoWbafBOac"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "g6T1sC2ZSFD"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "QUk2XwhVL7n"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "mIefFUftPpa"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "yMIgzlV9sES"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "OCuA0tI3BCi"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "iaQuylCoH3u"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "jtyuEfbNbkb"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
 						"id": "vCwegNjEuxN"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "GEgULJaUkyQ"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "pmRn0GsUfr6"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "yVGY0DGVPor"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "GVkqWp9gP5b"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "llpG8qA0SvG"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "rY7FJXnqwkM"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "vTRrNdOOT9g"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "d7vgVlFnviU"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "S9nIxTMWplW"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "YcZAfNmFuje"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "jvjJ901K56K"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "QJUcVI1zY5y"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "IUrl6HtHVQI"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "SPhiBDEbG0o"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "lgDGha7OO9o"
 					},
 					"dataSet": {
 						"id": "O34y2Kyxx6P"
@@ -8148,43 +7748,21 @@
 				},
 				{
 					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "iMcQ1MedqGo"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "WoVoIProU89"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "BwnnrV1AkNj"
-					},
-					"dataElement": {
-						"id": "kRasaq1REFp"
-					},
-					"dataSet": {
-						"id": "O34y2Kyxx6P"
-					}
-				},
-				{
-					"categoryCombo": {
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
 						"id": "qokS11KT7gD"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "pmRn0GsUfr6"
 					},
 					"dataSet": {
 						"id": "O34y2Kyxx6P"
@@ -8206,7 +7784,139 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "Md3xk3vlABx"
+						"id": "GVkqWp9gP5b"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "vfIbhthFgHT"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "cE8SDxizo5s"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "YcZAfNmFuje"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "SXGjaEobp6V"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "OCuA0tI3BCi"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "yVGY0DGVPor"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "l7gcisIvTBN"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "llpG8qA0SvG"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "IUrl6HtHVQI"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "WoVoIProU89"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "vTRrNdOOT9g"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "h9DNhuHHgkH"
 					},
 					"dataSet": {
 						"id": "O34y2Kyxx6P"
@@ -8218,6 +7928,336 @@
 					},
 					"dataElement": {
 						"id": "CHM9i82Xvid"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "kc07jdV2C3B"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "GEgULJaUkyQ"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "enVf9I39FRZ"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "d7vgVlFnviU"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "WNcIBqTodHr"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "VL73cqNHxBJ"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "S9nIxTMWplW"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "rY7FJXnqwkM"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "SPhiBDEbG0o"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "jvjJ901K56K"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "iMcQ1MedqGo"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "ENIbHvgpaQR"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "mIefFUftPpa"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "jtyuEfbNbkb"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "g6T1sC2ZSFD"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "yMIgzlV9sES"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "QJUcVI1zY5y"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Md3xk3vlABx"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "t4FqHKzAyEn"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "lgDGha7OO9o"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "yHS1RqIFeD7"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "M91K9z70dl4"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "DPNsg3wjxGm"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "iaQuylCoH3u"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "BjDrgVrkBI3"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "AFoWbafBOac"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "QUk2XwhVL7n"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "kRasaq1REFp"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "BwnnrV1AkNj"
+					},
+					"dataElement": {
+						"id": "GxlrIgMyEf4"
+					},
+					"dataSet": {
+						"id": "O34y2Kyxx6P"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "rbqe6Td5rNI"
 					},
 					"dataSet": {
 						"id": "O34y2Kyxx6P"
@@ -8280,10 +8320,10 @@
 			"id": "YKVsWm3b47n",
 			"indicators": [
 				{
-					"id": "K1DkT2kokjD"
+					"id": "J06o672aumY"
 				},
 				{
-					"id": "J06o672aumY"
+					"id": "K1DkT2kokjD"
 				},
 				{
 					"id": "SqFthnK8FJY"
@@ -10385,7 +10425,119 @@
 			"lastUpdated": "2019-09-25T19:35:03.109",
 			"mapViews": [
 				{
-					"id": "zL25F3MNZ1T"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:03.107",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "YbO5j3XYABU"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "MAL - Annual malaria parasite incidence (API)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "zL25F3MNZ1T",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2019-09-25T19:35:03.107",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "JUG5nRDqRFl"
+					},
+					"method": 1,
+					"name": "MAL - Annual malaria parasite incidence (API)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
 				}
 			],
 			"name": "MAL: Incidence of confirmed malaria cases",
@@ -10407,7 +10559,120 @@
 			"lastUpdated": "2019-09-25T19:35:16.020",
 			"mapViews": [
 				{
-					"id": "DPEoAEJDnAp"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:16.011",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "acDxsQjnEof"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "MAL - Malaria test positivity rate (Micr/RDT) (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "DPEoAEJDnAp",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": false,
+					"lastUpdated": "2019-09-25T19:35:16.011",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "JUG5nRDqRFl"
+					},
+					"method": 1,
+					"name": "MAL - Malaria test positivity rate (Micr/RDT) (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
 				}
 			],
 			"name": "MAL: Malaria test positivity rate",
@@ -10429,7 +10694,119 @@
 			"lastUpdated": "2019-09-25T19:35:29.581",
 			"mapViews": [
 				{
-					"id": "IFKH5HBSlY2"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:29.576",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "VxAkjvBMvfp"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "MAL - % of suspected malaria cases tested",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "IFKH5HBSlY2",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2019-09-25T19:35:29.576",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "kZFJ670FpB6"
+					},
+					"method": 1,
+					"name": "MAL - % of suspected malaria cases tested",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
 				}
 			],
 			"name": "MAL: Percentage of suspected cases tested",
@@ -10451,7 +10828,119 @@
 			"lastUpdated": "2019-09-25T19:35:39.162",
 			"mapViews": [
 				{
-					"id": "lCCvh1Ghh0s"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#a50f15,#de2d26,#fb6a4a,#fcae91,#fee5d9",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:39.161",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "yobFlvQGbSO"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "MAL - Reporting completeness - OPD (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "lCCvh1Ghh0s",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": false,
+					"lastUpdated": "2019-09-25T19:35:39.161",
+					"layer": "thematic",
+					"method": 2,
+					"name": "MAL - Reporting completeness - OPD (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
 				}
 			],
 			"name": "MAL: Rate of completeness of reporting by health facilities (OPD)",
@@ -10465,314 +10954,7 @@
 			"userGroupAccesses": []
 		}
 	],
-	"mapViews": [
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorScale": "#a50f15,#de2d26,#fb6a4a,#fcae91,#fee5d9",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2019-09-25T19:35:39.161",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "yobFlvQGbSO"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "lCCvh1Ghh0s",
-			"itemOrganisationUnitGroups": [],
-			"labels": false,
-			"lastUpdated": "2019-09-25T19:35:39.161",
-			"layer": "thematic",
-			"method": 2,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2019-09-25T19:35:16.011",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "acDxsQjnEof"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "DPEoAEJDnAp",
-			"itemOrganisationUnitGroups": [],
-			"labels": false,
-			"lastUpdated": "2019-09-25T19:35:16.011",
-			"layer": "thematic",
-			"legendSet": {
-				"id": "JUG5nRDqRFl"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2019-09-25T19:35:03.107",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "YbO5j3XYABU"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "zL25F3MNZ1T",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2019-09-25T19:35:03.107",
-			"layer": "thematic",
-			"legendSet": {
-				"id": "JUG5nRDqRFl"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2019-09-25T19:35:29.576",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "VxAkjvBMvfp"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "IFKH5HBSlY2",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2019-09-25T19:35:29.576",
-			"layer": "thematic",
-			"legendSet": {
-				"id": "kZFJ670FpB6"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
-		}
-	],
-	"package": "MAL-BR_COMPLETE_V1.1.0_DHIS2.30_2019-10-09T21:30",
+	"package": "MAL-BR_COMPLETE_V1.1.0_DHIS2.32_2019-10-09T21:26",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",

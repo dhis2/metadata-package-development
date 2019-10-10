@@ -5,30 +5,51 @@
       "_code": "MAL-BR", 
       "_name": "Malaria burden reduction dashboard", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ZXEVDM9XRea"
-        ], 
-        "adminGroupIds": [
-          "suMb19wGXPR"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "dashboardIds": [
-        "sLldHZZgnFx", 
-        "GEq9y3pVbrb"
+       "sLldHZZgnFx", 
+        "GEq9y3pVbrb",
+        "VUUrmGS7x42", 
+        "Ly3jbrmhRpB"
       ], 
       "exportIndicatorGroupsIds": [], 
       "indicatorGroupIds": [
-        "YKVsWm3b47n"
+        "YKVsWm3b47n",
+        "uDy8xg2ofrw"
       ]
     }, 
     {
@@ -36,32 +57,57 @@
       "_code": "MAL-BR", 
       "_name": "Malaria burden reduction", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ZXEVDM9XRea"
-        ], 
-        "adminGroupIds": [
-          "suMb19wGXPR"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "fRSrUJ6SMGH",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "customObjects": [
         {
-          "objectIds": ["nwzSeTAxCGV", "LhcXjWs6lm7"], 
+          "objectIds": ["nwzSeTAxCGV", "LhcXjWs6lm7", "WBmvvafUwT8"], 
           "objectType": "dataElements"
         }
       ],
       "dashboardIds": [
         "sLldHZZgnFx", 
-        "GEq9y3pVbrb"
+        "GEq9y3pVbrb",
+        "VUUrmGS7x42", 
+        "Ly3jbrmhRpB"
       ], 
       "dataElementGroupIds": [
         "ri242cU0Sm5", 
@@ -70,18 +116,20 @@
         "cWFV4unGXXn", 
         "O3Y4zr16OCX", 
         "QA59eN3tJve",
-        "gDwHOp9bAdJ"
+        "gDwHOp9bAdJ",
+        "zXmBu7vpmSw"
       ], 
       "dataSetIds": [
         "qNtxTrp56wV", 
         "O34y2Kyxx6P"
       ], 
-      "exportDataSetIds": [], 
+      "exportDataSetIds": ["wEKWiVnc4Pe"], 
       "exportIndicatorGroupsIds": [
         "qi3acNeMc6V"
       ], 
       "indicatorGroupIds": [
-        "YKVsWm3b47n"
+        "YKVsWm3b47n",
+        "uDy8xg2ofrw"
       ], 
       "validationRuleGroupIds": [
         "rNYeFmJm04s"
@@ -92,25 +140,49 @@
       "_code": "MAL-EL", 
       "_name": "Malaria elimination", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ZXEVDM9XRea"
-        ], 
-        "adminGroupIds": [
-          "suMb19wGXPR"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "fRSrUJ6SMGH",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "dashboardIds": [
-        "b8F1kKlV9Fk"
+        "b8F1kKlV9Fk",
+        "GEq9y3pVbrb"
       ],
       "customObjects": [
         {
@@ -136,7 +208,8 @@
         "mrrlu8kux0s"
       ], 
       "indicatorGroupIds": [
-        "YKVsWm3b47n"
+        "YKVsWm3b47n",
+        "uDy8xg2ofrw"
       ], 
       "validationRuleGroupIds": [
         "y4UWjeyKIwS"
@@ -147,29 +220,49 @@
       "_code": "MAL-EL", 
       "_name": "Malaria elimination dashboard", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ZXEVDM9XRea"
-        ], 
-        "adminGroupIds": [
-          "suMb19wGXPR"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.1.0", 
       "dashboardIds": [
-        "b8F1kKlV9Fk"
+        "b8F1kKlV9Fk",
+        "GEq9y3pVbrb"
       ], 
       "exportIndicatorGroupsIds": [], 
       "indicatorGroupIds": [
-        "YKVsWm3b47n"
+        "YKVsWm3b47n",
+        "uDy8xg2ofrw"
       ]
     },
     {
@@ -177,19 +270,46 @@
       "_code": "MAL-MMG", 
       "_name": "Malaria cross-border and mobile and migrant populations", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [], 
-        "adminGroupIds": [], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
-      }, 
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "fRSrUJ6SMGH",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
       "_type": "custom", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0",
+      "_version": "1.1.0",
       "customObjects": [
       	{
           "objectIds": ["dNNpRuO7kbn"], 
@@ -197,6 +317,77 @@
         },
         {
           "objectIds": ["UwaQ0MJzXBz", "S3AqkeU4DET", "CWHBMa4nC9J", "CxI1FHE4oEh", "wAHUeGPbH9A", "kdMT3AuDzj1"], 
+          "objectType": "dataElements"
+        }
+      ],
+      "dashboardIds": [], 
+      "dataElementGroupIds": [], 
+      "dataSetIds": [], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [], 
+      "validationRuleGroupIds": []
+    },
+    {
+      "_basePath": "./MAL/", 
+      "_code": "MAL-HIST", 
+      "_name": "Malaria historical data", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ZXEVDM9XRea",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "suMb19wGXPR",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "fRSrUJ6SMGH",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "custom", 
+      "_url": [
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
+      ], 
+      "_version": "1.1.0",
+      "customObjects": [
+      	{
+          "objectIds": ["F7OVox4TtLP"], 
+          "objectType": "dataSets"
+        },
+      	{
+          "objectIds": ["Ms74sn15vUt"], 
+          "objectType": "sections"
+        },
+        {
+          "objectIds": ["x9ko6Zdd2Dm"], 
+          "objectType": "dataElementGroups"
+        },
+        {
+          "objectIds": ["tuOTgWfDO6m", "IIU1O0Z4l49", "pUC8tgzn0lV", "TNTW2ruEVEu", "JkOyLRb3dpX", "X0luAFiy268"], 
           "objectType": "dataElements"
         }
       ],
