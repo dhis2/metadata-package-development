@@ -5,23 +5,46 @@
       "_code": "HIV", 
       "_name": "HIV dashboard", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ISvRhzmu8Ck"
-        ], 
-        "adminGroupIds": [
-          "TAVOXarP781"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ISvRhzmu8Ck",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "TAVOXarP781",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0",
+      "_version": "1.0.1",
       "customObjects": [
         {
           "objectIds": ["P9P3HGBjI5B"], 
@@ -47,27 +70,54 @@
       "_code": "HIV", 
       "_name": "HIV complete", 
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "ISvRhzmu8Ck"
-        ], 
-        "adminGroupIds": [
-          "TAVOXarP781"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "ISvRhzmu8Ck",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "TAVOXarP781",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.net/agg_ref_current", 
-        "https://who.dhis2.net/agg_ref_minus1", 
-        "https://who.dhis2.net/agg_ref_minus2"
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
       ], 
-      "_version": "1.0", 
+      "_version": "1.0.1", 
       "customObjects": [
         {
           "objectIds": ["P9P3HGBjI5B"], 
           "objectType": "categoryOptionGroupSets"
+        },
+        {
+          "objectIds": ["DkmMEcubiPv"], 
+          "objectType": "dataElements"
         }
       ],
       "dashboardIds": [
