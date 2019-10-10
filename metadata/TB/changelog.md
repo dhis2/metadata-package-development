@@ -3,6 +3,27 @@ To see additional details of the metadata objects mentioned below, refer to the 
 
 ## Aggregate
 
+### Version 1.1.1
+* Included user group `UKWx4jJcrKt` "TB data capture", which has data capture rights on all data shareable objects (only in the complete package)
+* Changed publicaccess sharing to metadata view and data view.
+* Removed dashboard `o2Wg6pXAN6X` "TB2.Notifications (rates)", and associated chart `gTcOAYjw4CQ`, pivot table `HCmjOlNONzQ` and map `z4FMNqKG4gl`.
+* Updated dashboard layout for use with the new dashboard app (from DHIS 2.29 and above)
+* Updated periods in favourites, including data up to and including Q2 2019 (where relevant)
+* Minor layout changes to pivot tables `hQ1ksBSIpQr` and `n6ZXdAl1sfD`
+* Updated map favourite names
+	* Using the built-in translation support for French names rather than having both English and French names.
+	* Renamed maps `Eq9lKUQOykM` and `HFi8Oy2fFdJ` from TBm_3.8_... to TBm_3.7_...
+	* Renamed maps `b6VznqkP4Hc` and `oA74TkHOKnX` to "TBc_3.5_Ratio of TB cases aged 0-4:5-14 year olds in new and relapse" and "TBc_3.5_Ratio of TB cases aged 0-4:5-14 year olds in new and relapse (annual)"
+* Fixed chart `TfeoSE7Ha8F`, changing data dimension from category option group set "Sex" to "Sex (with unknown)"
+* Fixed denominator of indicator `whkj4kr4ghD`, should be `#{hKTgk1mG2qn} + #{PdhQ1JCS2ij} + #{M6JHtLJJ34t} + #{KZ7rMA7BqcQ} + #{l4TyT04yP8f} + #{NYxehRdsQx3} +#{QNFhsj0fOxK} + #{Nv1RGi4eI7F} + #{NJaeD9Xia7x} + #{KhCB35MHs9A}`
+* Changed description of indicator `p18w24U0caC`
+* Changed name, shortName, code and description of indicator `VLtzufVWnHc`
+* Fixed 3 validation rules with incorrrect formulas:
+	* `bDjCyRMtkHO` - New pulmonary smear-positive
+	* `VhVCSKuqraP` - New pulmonary smear-negative/smear-unknown/smear not done
+	* `hZveAwRhLRh` - New extrapulmonary cases
+* Renamed chart `Fw0CsA5Dpvf` (from "TBc_4.3c_Treatment outcomes for DR-TB (%) (annual)" to "TBc_5.5_Treatment outcomes for DR-TB (%) (annual)), and added it to dashboard `xJXvUOEhnE9` ("TB5. DR-TB (annual)").
+
 ### Version 1.1.0
 * Added three validation rules for the TB/HIV section of the "TB treatment outcomes" data set:
 	* `hXd2GANq20y` - "TB/HIV testing (by time of outcome)"
