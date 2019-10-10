@@ -49,7 +49,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2019-10-09T23:06:13.488",
+			"lastUpdated": "2019-10-09T23:15:52.190",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -518,6 +518,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -542,7 +543,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -630,6 +632,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": -1,
 			"title": "Last 12 months",
@@ -655,7 +658,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -786,6 +790,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -810,7 +815,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -893,6 +899,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -917,7 +924,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1000,6 +1008,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1024,7 +1033,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1107,6 +1117,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1131,7 +1142,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1220,6 +1232,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": -1,
 			"translations": [],
@@ -1244,7 +1257,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1339,6 +1353,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1363,7 +1378,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1457,6 +1473,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"title": "Last 12 months",
@@ -1482,7 +1499,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1563,6 +1581,7 @@
 				"yesterday": false
 			},
 			"series": "ou",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1587,7 +1606,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1675,6 +1695,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1699,7 +1720,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1787,6 +1809,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": -1,
 			"translations": [],
@@ -1811,7 +1834,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1930,6 +1954,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -1954,7 +1979,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2067,6 +2093,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": false,
 			"sortOrder": 0,
 			"translations": [],
@@ -2091,7 +2118,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2204,6 +2232,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"translations": [],
@@ -2228,7 +2257,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"dashboards": [
@@ -3568,16 +3598,16 @@
 					"id": "HKnYkwM8EjA"
 				},
 				{
-					"id": "z6ePUpUZJVn"
-				},
-				{
 					"id": "hWygeXjru6s"
 				},
 				{
-					"id": "dr0AWGGkA5n"
+					"id": "z6ePUpUZJVn"
 				},
 				{
 					"id": "Tuoi3Ilwu9i"
+				},
+				{
+					"id": "dr0AWGGkA5n"
 				},
 				{
 					"id": "cFPvCKwbFBY"
@@ -3589,13 +3619,13 @@
 					"id": "LTb8XeeqeqI"
 				},
 				{
-					"id": "Wr3afZv5uj3"
-				},
-				{
 					"id": "SaS0kTJ50dS"
 				},
 				{
 					"id": "A7VWYLfm5W1"
+				},
+				{
+					"id": "Wr3afZv5uj3"
 				},
 				{
 					"id": "zQnqH5gtPXg"
@@ -3619,10 +3649,10 @@
 					"id": "dFj5sybfE35"
 				},
 				{
-					"id": "Y0SinNVtsxt"
+					"id": "ggA4RnU3K1s"
 				},
 				{
-					"id": "ggA4RnU3K1s"
+					"id": "Y0SinNVtsxt"
 				},
 				{
 					"id": "R6zC8B2KRuh"
@@ -3694,10 +3724,10 @@
 					"id": "Gz4W8xOxDcG"
 				},
 				{
-					"id": "uObmHKDBiNk"
+					"id": "FSkpxHTkqLN"
 				},
 				{
-					"id": "FSkpxHTkqLN"
+					"id": "uObmHKDBiNk"
 				},
 				{
 					"id": "rXaBCSopXkq"
@@ -3718,10 +3748,10 @@
 					"id": "w2qKmMHXW8A"
 				},
 				{
-					"id": "tVlQNQloTxJ"
+					"id": "GxvFEXfTWcN"
 				},
 				{
-					"id": "GxvFEXfTWcN"
+					"id": "tVlQNQloTxJ"
 				},
 				{
 					"id": "ydi8WEZ4PlF"
@@ -3739,10 +3769,10 @@
 					"id": "tw3RDXkOQ4l"
 				},
 				{
-					"id": "vKxuPtBtzKQ"
+					"id": "Fqf7g1SMZPO"
 				},
 				{
-					"id": "Fqf7g1SMZPO"
+					"id": "vKxuPtBtzKQ"
 				},
 				{
 					"id": "XD41nHKq3Oo"
@@ -3796,19 +3826,19 @@
 					"id": "SGUIZjAoZVc"
 				},
 				{
-					"id": "t6xKo8C8u14"
-				},
-				{
-					"id": "xTY33NiTNFt"
-				},
-				{
-					"id": "C5gHDz6K2sy"
+					"id": "Am7dwpJpxxO"
 				},
 				{
 					"id": "qDfDJbSyjMi"
 				},
 				{
-					"id": "Am7dwpJpxxO"
+					"id": "C5gHDz6K2sy"
+				},
+				{
+					"id": "t6xKo8C8u14"
+				},
+				{
+					"id": "xTY33NiTNFt"
 				},
 				{
 					"id": "pMNXDLGEQJc"
@@ -3823,10 +3853,10 @@
 					"id": "NOQsPDDcrVP"
 				},
 				{
-					"id": "HqvxuApNaOm"
+					"id": "av53MHwPJvU"
 				},
 				{
-					"id": "av53MHwPJvU"
+					"id": "HqvxuApNaOm"
 				},
 				{
 					"id": "bqYyptC5AUq"
@@ -3853,16 +3883,16 @@
 					"id": "tm5yEwTKtkr"
 				},
 				{
-					"id": "LHUylAG8i31"
-				},
-				{
 					"id": "C6JUTIT9b7f"
 				},
 				{
-					"id": "xa5ukOQCllX"
+					"id": "LHUylAG8i31"
 				},
 				{
 					"id": "stIEuPYIvcI"
+				},
+				{
+					"id": "xa5ukOQCllX"
 				},
 				{
 					"id": "FHB5SZ4S8sQ"
@@ -3874,10 +3904,10 @@
 					"id": "i3XfQh21fHQ"
 				},
 				{
-					"id": "xMQ5YHQxkIn"
+					"id": "FARHxmlwpB1"
 				},
 				{
-					"id": "FARHxmlwpB1"
+					"id": "xMQ5YHQxkIn"
 				},
 				{
 					"id": "OsgcsLay0Q3"
@@ -3886,10 +3916,10 @@
 					"id": "btsIo27ei7c"
 				},
 				{
-					"id": "VKkSTQzISRL"
+					"id": "ag0n0p794wu"
 				},
 				{
-					"id": "ag0n0p794wu"
+					"id": "VKkSTQzISRL"
 				},
 				{
 					"id": "EDYDGJyG1LU"
@@ -3898,10 +3928,13 @@
 					"id": "e3rcyUroB0P"
 				},
 				{
+					"id": "kGrnHR9zV2G"
+				},
+				{
 					"id": "hJJlOnVOkV2"
 				},
 				{
-					"id": "kGrnHR9zV2G"
+					"id": "ZJi5oL6pbgK"
 				},
 				{
 					"id": "VoJAhPWecKs"
@@ -3910,22 +3943,19 @@
 					"id": "oBMd0QF4WZb"
 				},
 				{
-					"id": "ZJi5oL6pbgK"
-				},
-				{
 					"id": "A3mHIZd2tPg"
 				},
 				{
 					"id": "h9h4KeW4OMg"
 				},
 				{
+					"id": "z5tTcNI3L0b"
+				},
+				{
 					"id": "V6CkSkopYnZ"
 				},
 				{
 					"id": "E60nBMLPva1"
-				},
-				{
-					"id": "z5tTcNI3L0b"
 				},
 				{
 					"id": "O7pW3SCPh3P"
@@ -3940,13 +3970,13 @@
 					"id": "gWpkl4WleUh"
 				},
 				{
-					"id": "Ru2E5gXld9u"
+					"id": "wlyoQSROP3w"
 				},
 				{
 					"id": "ODioGXTRxHP"
 				},
 				{
-					"id": "wlyoQSROP3w"
+					"id": "Ru2E5gXld9u"
 				},
 				{
 					"id": "MFBLXsR9y6s"
@@ -4282,13 +4312,13 @@
 					"id": "SGUIZjAoZVc"
 				},
 				{
-					"id": "t6xKo8C8u14"
+					"id": "C5gHDz6K2sy"
 				},
 				{
 					"id": "xTY33NiTNFt"
 				},
 				{
-					"id": "C5gHDz6K2sy"
+					"id": "t6xKo8C8u14"
 				},
 				{
 					"id": "qDfDJbSyjMi"
@@ -4306,10 +4336,10 @@
 					"id": "NOQsPDDcrVP"
 				},
 				{
-					"id": "HqvxuApNaOm"
+					"id": "av53MHwPJvU"
 				},
 				{
-					"id": "av53MHwPJvU"
+					"id": "HqvxuApNaOm"
 				},
 				{
 					"id": "bqYyptC5AUq"
@@ -4354,10 +4384,10 @@
 					"id": "i3XfQh21fHQ"
 				},
 				{
-					"id": "xMQ5YHQxkIn"
+					"id": "FARHxmlwpB1"
 				},
 				{
-					"id": "FARHxmlwpB1"
+					"id": "xMQ5YHQxkIn"
 				},
 				{
 					"id": "OsgcsLay0Q3"
@@ -4387,10 +4417,10 @@
 					"id": "A3mHIZd2tPg"
 				},
 				{
-					"id": "V6CkSkopYnZ"
+					"id": "E60nBMLPva1"
 				},
 				{
-					"id": "E60nBMLPva1"
+					"id": "V6CkSkopYnZ"
 				},
 				{
 					"id": "O7pW3SCPh3P"
@@ -4402,13 +4432,13 @@
 					"id": "gWpkl4WleUh"
 				},
 				{
+					"id": "MFBLXsR9y6s"
+				},
+				{
 					"id": "Ru2E5gXld9u"
 				},
 				{
 					"id": "ODioGXTRxHP"
-				},
-				{
-					"id": "MFBLXsR9y6s"
 				}
 			],
 			"id": "wLwKx08aKP9",
@@ -4441,25 +4471,19 @@
 			"created": "2015-10-08T07:26:02.477",
 			"dataElements": [
 				{
-					"id": "lHnact7BRVU"
+					"id": "GxvFEXfTWcN"
 				},
 				{
 					"id": "ag0n0p794wu"
 				},
 				{
-					"id": "GxvFEXfTWcN"
+					"id": "lHnact7BRVU"
 				},
 				{
 					"id": "abYqcxC7OSe"
 				},
 				{
 					"id": "KKTW2h1CzRK"
-				},
-				{
-					"id": "hJJlOnVOkV2"
-				},
-				{
-					"id": "kGrnHR9zV2G"
 				},
 				{
 					"id": "Lyvx6Ltz5U2"
@@ -4469,6 +4493,12 @@
 				},
 				{
 					"id": "A7VWYLfm5W1"
+				},
+				{
+					"id": "kGrnHR9zV2G"
+				},
+				{
+					"id": "hJJlOnVOkV2"
 				},
 				{
 					"id": "FSkpxHTkqLN"
@@ -10167,348 +10197,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "PERqLIVBByY"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "E60nBMLPva1"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Ru2E5gXld9u"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "SaS0kTJ50dS"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "oBMd0QF4WZb"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "BMYKKBhvyoC"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "oF6gs5V2bXL"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "WSy7zOZx1Wl"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "gd4Ui5VacXR"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "i3XfQh21fHQ"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "fCy8khPExNR"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "rFt7kbJ78S1"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "av53MHwPJvU"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "v4hd12oqYae"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "AdYf0sem87L"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Y0SinNVtsxt"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "tm5yEwTKtkr"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "xMQ5YHQxkIn"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "MFBLXsR9y6s"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "NVAF8CLaHux"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "r7axV5gwTO7"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "DlzJPHZLWpF"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Wr3afZv5uj3"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "l1vH9hBq43L"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "pGVWiWDxoEo"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Fs28ZQJET6V"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "A3mHIZd2tPg"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "mw4lqAc3PS6"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "tVlQNQloTxJ"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "Lyvx6Ltz5U2"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "QNAEtE3jSUe"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "tw3RDXkOQ4l"
+						"id": "FARHxmlwpB1"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -10530,766 +10219,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "XD41nHKq3Oo"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "wJi2alWihmr"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "M6Nu6e5NkZD"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "ZJi5oL6pbgK"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "wbcJIdwjnEr"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "e3rcyUroB0P"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "R6zC8B2KRuh"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Am7dwpJpxxO"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "z6ePUpUZJVn"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "A7VWYLfm5W1"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "dr0AWGGkA5n"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "CvFdgcNONnR"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "LHUylAG8i31"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "TS4Ik8MkKNv"
-					},
-					"dataElement": {
-						"id": "FSkpxHTkqLN"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "bUKW6YCZhJm"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "kGrnHR9zV2G"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "ag0n0p794wu"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "wlyoQSROP3w"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "AOL4lo82eKY"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "TS4Ik8MkKNv"
-					},
-					"dataElement": {
-						"id": "Y4eiHr1VKSp"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "pMNXDLGEQJc"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Yqyw4XbgwKC"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "SGUIZjAoZVc"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "dFj5sybfE35"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "bj8Y8eduv1Q"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "HKnYkwM8EjA"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "VoJAhPWecKs"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "ggA4RnU3K1s"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "nfvrobR7Yhi"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "O7pW3SCPh3P"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "bVxRxksxlSB"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "eyKsW2obM22"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "LhB2QdhezgQ"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "zQnqH5gtPXg"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "EGGSoFF96Ou"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "h9h4KeW4OMg"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "hWygeXjru6s"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "uObmHKDBiNk"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "REsMmeD8Ene"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "BTlE4ft5jmh"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "EDYDGJyG1LU"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "skfHQ7VSlce"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "pXv0FihQ4l7"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "RhNt5V50yjq"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "abYqcxC7OSe"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "btsIo27ei7c"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "VQHptOqPHM1"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "wLmI2xhvF9B"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "NOQsPDDcrVP"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "gWpkl4WleUh"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "bqYyptC5AUq"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "zTC8xO4hdoU"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "yITlY1ZMdZf"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Ezn3mY9gcby"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "ODioGXTRxHP"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "C5gHDz6K2sy"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "e8CQ1VjzOnL"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "pB7Lr7RfwpR"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "nlPr58FNjcc"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "xTY33NiTNFt"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "V6CkSkopYnZ"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Gz4W8xOxDcG"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "LTb8XeeqeqI"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "uCf7TcJvZno"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "XGN7P0lfWJb"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "GxvFEXfTWcN"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "kevKKY9dyZ0"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "TS4Ik8MkKNv"
-					},
-					"dataElement": {
-						"id": "Fqf7g1SMZPO"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "stIEuPYIvcI"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "hJJlOnVOkV2"
+						"id": "fCy8khPExNR"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11311,7 +10241,62 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "jffxALYmIod"
+						"id": "gWpkl4WleUh"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "gd4Ui5VacXR"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "h9h4KeW4OMg"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "DlzJPHZLWpF"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Am7dwpJpxxO"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "nfvrobR7Yhi"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11333,7 +10318,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "FHB5SZ4S8sQ"
+						"id": "XD41nHKq3Oo"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11344,7 +10329,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "qDfDJbSyjMi"
+						"id": "hWygeXjru6s"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11355,7 +10340,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "vKxuPtBtzKQ"
+						"id": "Wr3afZv5uj3"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11366,18 +10351,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "HqvxuApNaOm"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "gTjv1wbk1ja"
+						"id": "BTlE4ft5jmh"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11388,7 +10362,7 @@
 						"id": "Sh24BLPjCF4"
 					},
 					"dataElement": {
-						"id": "w2qKmMHXW8A"
+						"id": "abYqcxC7OSe"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11399,7 +10373,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "ZYg135fM4ki"
+						"id": "bVxRxksxlSB"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11410,51 +10384,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "au5NM7ilxGw"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "rXaBCSopXkq"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "NXPN6ei19No"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "Sh24BLPjCF4"
-					},
-					"dataElement": {
-						"id": "z5tTcNI3L0b"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "U4STnPHgSGg"
+						"id": "pB7Lr7RfwpR"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11476,7 +10406,18 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "t6xKo8C8u14"
+						"id": "uObmHKDBiNk"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "M6Nu6e5NkZD"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11487,7 +10428,7 @@
 						"id": "Sh24BLPjCF4"
 					},
 					"dataElement": {
-						"id": "Tuoi3Ilwu9i"
+						"id": "SaS0kTJ50dS"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11498,7 +10439,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "EZU4czoN08G"
+						"id": "kevKKY9dyZ0"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11509,7 +10450,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "VKkSTQzISRL"
+						"id": "pGVWiWDxoEo"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11520,7 +10461,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "OsgcsLay0Q3"
+						"id": "EGGSoFF96Ou"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11531,29 +10472,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "n74ufuGuHpm"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "kawu8mbOluA"
-					},
-					"dataSet": {
-						"id": "jqSaKxtj8IA"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "xa5ukOQCllX"
+						"id": "EDYDGJyG1LU"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11564,7 +10483,7 @@
 						"id": "TS4Ik8MkKNv"
 					},
 					"dataElement": {
-						"id": "KKTW2h1CzRK"
+						"id": "Y4eiHr1VKSp"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11575,7 +10494,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "RjsmqOBDila"
+						"id": "wLmI2xhvF9B"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11586,7 +10505,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "WjV77sg2pXU"
+						"id": "BMYKKBhvyoC"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11598,6 +10517,83 @@
 					},
 					"dataElement": {
 						"id": "TWWbtMMWD51"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "w2qKmMHXW8A"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "AdYf0sem87L"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Yqyw4XbgwKC"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "U4STnPHgSGg"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "oF6gs5V2bXL"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "nlPr58FNjcc"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "RhNt5V50yjq"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11619,6 +10615,666 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
+						"id": "l1vH9hBq43L"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "LhB2QdhezgQ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "ggA4RnU3K1s"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "OsgcsLay0Q3"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "au5NM7ilxGw"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "wlyoQSROP3w"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "pXv0FihQ4l7"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "TS4Ik8MkKNv"
+					},
+					"dataElement": {
+						"id": "Fqf7g1SMZPO"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "z5tTcNI3L0b"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "skfHQ7VSlce"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "kGrnHR9zV2G"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "R6zC8B2KRuh"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "CvFdgcNONnR"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "btsIo27ei7c"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "HKnYkwM8EjA"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "O7pW3SCPh3P"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "e8CQ1VjzOnL"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "v4hd12oqYae"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "Lyvx6Ltz5U2"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "TS4Ik8MkKNv"
+					},
+					"dataElement": {
+						"id": "FSkpxHTkqLN"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "rFt7kbJ78S1"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "A7VWYLfm5W1"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "PERqLIVBByY"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "A3mHIZd2tPg"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "ZJi5oL6pbgK"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "r7axV5gwTO7"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "QNAEtE3jSUe"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "i3XfQh21fHQ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "tm5yEwTKtkr"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "rXaBCSopXkq"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "tVlQNQloTxJ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "AOL4lo82eKY"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "vKxuPtBtzKQ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "TS4Ik8MkKNv"
+					},
+					"dataElement": {
+						"id": "KKTW2h1CzRK"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "av53MHwPJvU"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "SGUIZjAoZVc"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "REsMmeD8Ene"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "V6CkSkopYnZ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "oBMd0QF4WZb"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "WSy7zOZx1Wl"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "kawu8mbOluA"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "wbcJIdwjnEr"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "mw4lqAc3PS6"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "NOQsPDDcrVP"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "qDfDJbSyjMi"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "LHUylAG8i31"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Gz4W8xOxDcG"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "bj8Y8eduv1Q"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "XGN7P0lfWJb"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "WjV77sg2pXU"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "HqvxuApNaOm"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "FHB5SZ4S8sQ"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "pMNXDLGEQJc"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "dFj5sybfE35"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "bUKW6YCZhJm"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "ZYg135fM4ki"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Fs28ZQJET6V"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "Tuoi3Ilwu9i"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "stIEuPYIvcI"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "NVAF8CLaHux"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
 						"id": "WISbm76ou0g"
 					},
 					"dataSet": {
@@ -11630,7 +11286,227 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "FARHxmlwpB1"
+						"id": "z6ePUpUZJVn"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "gTjv1wbk1ja"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "jffxALYmIod"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "zQnqH5gtPXg"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "LTb8XeeqeqI"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "RjsmqOBDila"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "VQHptOqPHM1"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "tw3RDXkOQ4l"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "C5gHDz6K2sy"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "uCf7TcJvZno"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "E60nBMLPva1"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "eyKsW2obM22"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "bqYyptC5AUq"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "e3rcyUroB0P"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "VoJAhPWecKs"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "EZU4czoN08G"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "dr0AWGGkA5n"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "n74ufuGuHpm"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "yITlY1ZMdZf"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "xTY33NiTNFt"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "MFBLXsR9y6s"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11642,6 +11518,160 @@
 					},
 					"dataElement": {
 						"id": "zwP15z8IhhE"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "ODioGXTRxHP"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "ag0n0p794wu"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "NXPN6ei19No"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "VKkSTQzISRL"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "xa5ukOQCllX"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "zTC8xO4hdoU"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Y0SinNVtsxt"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "GxvFEXfTWcN"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Ru2E5gXld9u"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "wJi2alWihmr"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "xMQ5YHQxkIn"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "Sh24BLPjCF4"
+					},
+					"dataElement": {
+						"id": "hJJlOnVOkV2"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "t6xKo8C8u14"
+					},
+					"dataSet": {
+						"id": "jqSaKxtj8IA"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Ezn3mY9gcby"
 					},
 					"dataSet": {
 						"id": "jqSaKxtj8IA"
@@ -11750,10 +11780,10 @@
 			"id": "jWbf0RIUhji",
 			"indicators": [
 				{
-					"id": "UjQPNW1DZOA"
+					"id": "jfVvmRI0poZ"
 				},
 				{
-					"id": "jfVvmRI0poZ"
+					"id": "UjQPNW1DZOA"
 				},
 				{
 					"id": "btEs5IrKxJ0"
@@ -11810,13 +11840,13 @@
 					"id": "QcEstDm3HUK"
 				},
 				{
-					"id": "kR1GDcosLpn"
+					"id": "qLpl4igiQWk"
 				},
 				{
 					"id": "aGVW4AeTjUQ"
 				},
 				{
-					"id": "qLpl4igiQWk"
+					"id": "kR1GDcosLpn"
 				},
 				{
 					"id": "FghPB8EogPR"
@@ -11831,25 +11861,25 @@
 					"id": "vTzaviQIqCG"
 				},
 				{
-					"id": "lkpoPvRswsF"
+					"id": "ha7FrVzCdP7"
 				},
 				{
-					"id": "ha7FrVzCdP7"
+					"id": "lkpoPvRswsF"
 				},
 				{
 					"id": "bxFxspWCMt5"
 				},
 				{
-					"id": "E35XSxwQAFO"
-				},
-				{
 					"id": "b4v3ZlijUkE"
 				},
 				{
-					"id": "zpvCdtk2srW"
+					"id": "E35XSxwQAFO"
 				},
 				{
 					"id": "wRvkMjx6jzu"
+				},
+				{
+					"id": "zpvCdtk2srW"
 				},
 				{
 					"id": "k17O3iXpgiy"
@@ -11974,10 +12004,10 @@
 					"id": "S7vxLF7zYb3"
 				},
 				{
-					"id": "lkpoPvRswsF"
+					"id": "ha7FrVzCdP7"
 				},
 				{
-					"id": "ha7FrVzCdP7"
+					"id": "lkpoPvRswsF"
 				},
 				{
 					"id": "qtFNNLWxIHI"
@@ -12127,22 +12157,22 @@
 			"id": "zcQRGoQMQeC",
 			"indicators": [
 				{
-					"id": "UjQPNW1DZOA"
-				},
-				{
 					"id": "vDcozAkwduM"
 				},
 				{
 					"id": "jfVvmRI0poZ"
 				},
 				{
+					"id": "UjQPNW1DZOA"
+				},
+				{
 					"id": "KazkDYBpvWK"
 				},
 				{
-					"id": "t5ssKnZSw6h"
+					"id": "btEs5IrKxJ0"
 				},
 				{
-					"id": "btEs5IrKxJ0"
+					"id": "t5ssKnZSw6h"
 				},
 				{
 					"id": "b4v3ZlijUkE"
@@ -14838,7 +14868,129 @@
 			"lastUpdated": "2019-06-29T07:01:01.617",
 			"mapViews": [
 				{
-					"id": "MzBj1ygSw0T"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:33:54.229",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "S7vxLF7zYb3"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - BCG coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "MzBj1ygSw0T",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "######000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:33:54.229",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - BCG coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": true,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - BCG coverage by district - last month",
@@ -14871,7 +15023,129 @@
 			"lastUpdated": "2019-06-29T07:00:58.541",
 			"mapViews": [
 				{
-					"id": "v0YYxP3TmgE"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:41:59.170",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "S7vxLF7zYb3"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - BCG coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "v0YYxP3TmgE",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:41:59.170",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - BCG coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - BCG coverage by district - last year",
@@ -14904,7 +15178,129 @@
 			"lastUpdated": "2019-06-29T07:00:55.485",
 			"mapViews": [
 				{
-					"id": "I0d5NRVM7DG"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:44:07.148",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "E35XSxwQAFO"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - BCG to MR 1 dropout rate (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "I0d5NRVM7DG",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:44:07.148",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "kUG1usm9ZBd"
+					},
+					"method": 1,
+					"name": "EPI - BCG to MR 1 dropout rate (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - BCG to MR1 dropout rate by district - last year",
@@ -14937,7 +15333,129 @@
 			"lastUpdated": "2019-06-29T07:00:52.379",
 			"mapViews": [
 				{
-					"id": "aMpWNS5eRHw"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:42:45.275",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "ccFcqCkznCR"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - DPT 1 to 3 dropout rate (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "aMpWNS5eRHw",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:42:45.275",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "kUG1usm9ZBd"
+					},
+					"method": 1,
+					"name": "EPI - DPT 1 to 3 dropout rate (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - DPT-HepB-Hib 1-3 dropout rate by district - last year",
@@ -14970,7 +15488,129 @@
 			"lastUpdated": "2019-06-29T07:00:49.309",
 			"mapViews": [
 				{
-					"id": "VJPLmLKPSv4"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:39:48.500",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "lkpoPvRswsF"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - DPT-HepB-Hib 3 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "VJPLmLKPSv4",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:39:48.500",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - DPT-HepB-Hib 3 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": true,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - DPT-HepB-Hib 3 coverage by district - last month",
@@ -15003,7 +15643,129 @@
 			"lastUpdated": "2019-06-29T07:00:46.262",
 			"mapViews": [
 				{
-					"id": "omVR2S9rXIm"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:40:09.867",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "lkpoPvRswsF"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - DPT-HepB-Hib 3 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "omVR2S9rXIm",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "###000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:40:09.867",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - DPT-HepB-Hib 3 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - DPT-HepB-Hib 3 coverage by district - last year",
@@ -15036,7 +15798,129 @@
 			"lastUpdated": "2019-06-29T07:00:43.183",
 			"mapViews": [
 				{
-					"id": "qXPqAMQ9Jsr"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:32:50.908",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "QxShpQdLuAt"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - MR 1 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "qXPqAMQ9Jsr",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "######000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:32:50.908",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - MR 1 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": true,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - MR1 coverage by district - last month",
@@ -15069,7 +15953,129 @@
 			"lastUpdated": "2019-06-29T07:00:40.102",
 			"mapViews": [
 				{
-					"id": "k3d1XrSzxhi"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:42:24.404",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "FhQ8Hd5rCHj"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - MR 1 to 2 dropout rate (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "k3d1XrSzxhi",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:42:24.404",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "kUG1usm9ZBd"
+					},
+					"method": 1,
+					"name": "EPI - MR 1 to 2 dropout rate (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - MR1 to 2 dropout rate by district - last year",
@@ -15102,7 +16108,129 @@
 			"lastUpdated": "2019-06-29T07:00:36.958",
 			"mapViews": [
 				{
-					"id": "GARh2th7Xvs"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:40:37.140",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "qtFNNLWxIHI"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - MR 2 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "GARh2th7Xvs",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#######000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:40:37.140",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - MR 2 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - MR2 coverage by district - last year",
@@ -15135,7 +16263,129 @@
 			"lastUpdated": "2019-06-29T07:00:33.904",
 			"mapViews": [
 				{
-					"id": "OllDoEr1jiE"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:43:46.850",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "k17O3iXpgiy"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - OPV 3 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "OllDoEr1jiE",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:43:46.850",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - OPV 3 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - OPV3 coverage by district - last year",
@@ -15168,7 +16418,129 @@
 			"lastUpdated": "2019-06-29T07:00:30.846",
 			"mapViews": [
 				{
-					"id": "HsjmlV7fXOJ"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:43:03.442",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "S0IzYPGQLnN"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - PCV 3 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "HsjmlV7fXOJ",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:43:03.442",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - PCV 3 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - PCV3 coverage by district - last year",
@@ -15201,7 +16573,129 @@
 			"lastUpdated": "2019-06-29T07:00:27.758",
 			"mapViews": [
 				{
-					"id": "lrdkOjjA1Nw"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:44:35.177",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "ha7FrVzCdP7"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - RV 2 coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "lrdkOjjA1Nw",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:44:35.177",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - RV 2 coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - RV2 coverage by district - last year",
@@ -15234,7 +16728,129 @@
 			"lastUpdated": "2019-06-29T07:00:24.728",
 			"mapViews": [
 				{
-					"id": "eLr1rJasE54"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-02-19T11:43:24.758",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "WSQxTuCGILM"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayName": "EPI - Yellow fever coverage (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "eLr1rJasE54",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-02-19T11:43:24.758",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "s1VrkziIbq4"
+					},
+					"method": 1,
+					"name": "EPI - Yellow fever coverage (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "EPI - YF coverage by district - last year",
@@ -15260,1127 +16876,7 @@
 			]
 		}
 	],
-	"mapViews": [
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:39:48.500",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "lkpoPvRswsF"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "VJPLmLKPSv4",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:39:48.500",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:32:50.908",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "QxShpQdLuAt"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "qXPqAMQ9Jsr",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "######000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:32:50.908",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:33:54.229",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "S7vxLF7zYb3"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "MzBj1ygSw0T",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "######000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:33:54.229",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:43:03.442",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "S0IzYPGQLnN"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "HsjmlV7fXOJ",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "#####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:43:03.442",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:42:45.275",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "ccFcqCkznCR"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "aMpWNS5eRHw",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:42:45.275",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "kUG1usm9ZBd"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:42:24.404",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "FhQ8Hd5rCHj"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "k3d1XrSzxhi",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:42:24.404",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "kUG1usm9ZBd"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:44:07.148",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "E35XSxwQAFO"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "I0d5NRVM7DG",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:44:07.148",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "kUG1usm9ZBd"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:41:59.170",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "S7vxLF7zYb3"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "v0YYxP3TmgE",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "#####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:41:59.170",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:40:09.867",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "lkpoPvRswsF"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "omVR2S9rXIm",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "###000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:40:09.867",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:44:35.177",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "ha7FrVzCdP7"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "lrdkOjjA1Nw",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "#####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:44:35.177",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:43:24.758",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "WSQxTuCGILM"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "eLr1rJasE54",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "#####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:43:24.758",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:40:37.140",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "qtFNNLWxIHI"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "GARh2th7Xvs",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "#######000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:40:37.140",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorHigh": "00ff00",
-			"colorLow": "ff0000",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2018-02-19T11:43:46.850",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "k17O3iXpgiy"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "OllDoEr1jiE",
-			"itemOrganisationUnitGroups": [],
-			"labelFontColor": "####000000",
-			"labelFontSize": "11px",
-			"labelFontStyle": "normal",
-			"labelFontWeight": "normal",
-			"labels": false,
-			"lastUpdated": "2018-02-19T11:43:46.850",
-			"layer": "thematic1",
-			"legendSet": {
-				"id": "s1VrkziIbq4"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 15,
-			"radiusLow": 5,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": true,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		}
-	],
-	"package": "EPI_COMPLETE_V0.9.1_DHIS2.30_2019-10-09T21:30",
+	"package": "EPI_COMPLETE_V0.9.1_DHIS2.32_2019-10-09T21:27",
 	"predictors": [
 		{
 			"annualSampleCount": 0,
@@ -18333,11 +18829,12 @@
 						"update": true,
 						"write": true
 					},
+					"aggregationType": "SUM",
 					"attributeValues": [],
 					"categoryOptionCombo": {
 						"id": "UIQxmxgioxH"
 					},
-					"created": "2019-10-09T23:30:28.326",
+					"created": "2019-10-09T23:27:02.454",
 					"dataElement": {
 						"id": "Tuoi3Ilwu9i"
 					},
@@ -18349,7 +18846,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Tuoi3Ilwu9i.UIQxmxgioxH",
-					"lastUpdated": "2019-10-09T23:30:28.326",
+					"lastUpdated": "2019-10-09T23:27:02.454",
 					"legendSets": [],
 					"name": "EPI - OPV 0 doses given ≥ 1 year",
 					"shortName": "OPV 0 given ≥ 1 year",
@@ -18598,22 +19095,22 @@
 					"id": "yzD5mO66Qe0"
 				},
 				{
-					"id": "PvFndgPmzGS"
-				},
-				{
 					"id": "GRLFS34uicH"
 				},
 				{
 					"id": "JjX5lHtHqLM"
 				},
 				{
+					"id": "PvFndgPmzGS"
+				},
+				{
 					"id": "RzNS4ymqxKQ"
 				},
 				{
-					"id": "JXsq9HAKm4w"
+					"id": "lCBfQH5hG5p"
 				},
 				{
-					"id": "lCBfQH5hG5p"
+					"id": "JXsq9HAKm4w"
 				},
 				{
 					"id": "LUXFkSFegku"

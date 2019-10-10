@@ -110,7 +110,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -223,7 +224,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -378,7 +380,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -485,7 +488,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -592,7 +596,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -699,7 +704,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -812,7 +818,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -931,7 +938,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1050,7 +1058,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1155,7 +1164,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1267,7 +1277,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1379,7 +1390,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1522,7 +1534,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1659,7 +1672,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1796,7 +1810,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"dashboards": [
@@ -7086,7 +7101,7 @@
 			"userOrganisationUnitGrandChildren": true
 		}
 	],
-	"package": "EPI_DASHBOARD_V0.9.1_DHIS2.30_2019-10-09T21:30",
+	"package": "EPI_DASHBOARD_V0.9.1_DHIS2.31_2019-10-09T21:29",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
