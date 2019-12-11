@@ -1,0 +1,40 @@
+{
+  "export": [
+    {
+      "_basePath": "./TB_Tracker/", 
+      "_code": "TB-REG", 
+      "_name": "TB (registration)",
+      "_prefix": "[CONFIG]", 
+      "_sharing": {
+        "accessGroupIds": [
+          "pyu2ZlNKbzQ"
+        ], 
+        "adminGroupIds": [
+          "Ubzlyfqm1gO"
+        ], 
+        "publicAccess": "--------", 
+        "userId": "Ia1Xtxa5eG8"
+      }, 
+      "_type": "tracker", 
+      "_url": [
+        "https://who.dhis2.org/tracker_dev"
+      ], 
+      "_version": "1.0.0",
+      
+      
+      "dataElementGroupIds": [
+        "K97n4JS39z9"
+      ], 
+      "exportIndicatorGroupsIds": [
+        "tAKC8OODCJl"
+      ], 
+      "indicatorGroupIds": [
+        "tAKC8OODCJl"
+      ], 
+      "programIds": [
+        "Lt6P15ps7f6"
+      ]
+    
+    }
+    ] 
+}
