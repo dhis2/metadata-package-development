@@ -4,23 +4,50 @@
       "_basePath": "./TB_Tracker/", 
       "_code": "TB-REG", 
       "_name": "TB (registration)",
-      "_prefix": "[CONFIG]", 
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "Ia1Xtxa5eG8"
+      },
       "_sharing": {
-        "accessGroupIds": [
-          "pyu2ZlNKbzQ"
-        ], 
-        "adminGroupIds": [
-          "Ubzlyfqm1gO"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "Ia1Xtxa5eG8"
-      }, 
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+              "id": "pyu2ZlNKbzQ",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "Ubzlyfqm1gO",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "UKWx4jJcrKt",
+            "metadata": "NONE",
+            "data": "EDIT"
+          },
+          {
+            "id": "zBZXkRW0PJy",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
+      },
       "_type": "tracker", 
       "_url": [
         "https://who.dhis2.org/tracker_dev"
       ], 
-      "_version": "1.0.0",
-      
+      "_version": "1.1.0",
       
       "dataElementGroupIds": [
         "K97n4JS39z9"
@@ -34,7 +61,7 @@
       "programIds": [
         "Lt6P15ps7f6"
       ]
-    
     }
-    ] 
+    
+  ]
 }
