@@ -1,0 +1,63 @@
+{
+  "export": [
+    {
+      "_basePath": "./IMM/", 
+      "_code": "IMM", 
+      "_name": "Immunization - no adverse events",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "Ia1Xtxa5eG8"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+              "id": "pyu2ZlNKbzQ",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "Ubzlyfqm1gO",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "UKWx4jJcrKt",
+            "metadata": "NONE",
+            "data": "EDIT"
+          },
+          {
+            "id": "zBZXkRW0PJy",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://who.dhis2.org/tracker_epi"
+      ], 
+      "_version": "1.0.0",
+      "exportIndicatorGroupsIds": [
+        "jWbf0RIUhji"
+      ], 
+      "indicatorGroupIds": [
+        "jWbf0RIUhji"
+      ], 
+      "programIds": [
+        "SSLpOM0r1U7"
+      ]
+    }
+    
+  ]
+}
