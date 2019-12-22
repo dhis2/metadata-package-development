@@ -11,30 +11,8 @@
         "ownerId": "Ia1Xtxa5eG8"
       },
       "_sharing": {
-        "groupMode": "OVERWRITE",
-        "groups": [
-          {
-              "id": "pyu2ZlNKbzQ",
-              "metadata": "VIEW",
-              "data": "VIEW"
-          },
-          {
-            "id": "Ubzlyfqm1gO",
-            "metadata": "EDIT",
-            "data": "VIEW"
-          },
-          {
-            "id": "UKWx4jJcrKt",
-            "metadata": "NONE",
-            "data": "EDIT"
-          },
-          {
-            "id": "zBZXkRW0PJy",
-            "metadata": "NONE",
-            "data": "EDIT"
-          }
-        ],
-        "groupExport": true,
+        "groupMode": "REMOVE",
+        "groupExport": false,
         "userMode": "REMOVE",
         "users": [],
         "userExport": false,

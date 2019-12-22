@@ -98,12 +98,12 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Féminin"
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Féminin"
 				}
 			],
@@ -126,12 +126,12 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Masculin"
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Masculin"
 				}
 			],
@@ -240,12 +240,12 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Sexe"
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Sexe"
 				}
 			],
@@ -3443,8 +3443,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Première visite d'une femme enceinte dans un établissement de santé pour y recevoir principalement des soins prénatals. La première visite prénatale peut être considérée comme une «visite de rendenz-vous ou programmée» lorsque divers processus sont effectués conformément à la politique nationale."
+					"property": "SHORT_NAME",
+					"value": "CPN1"
 				},
 				{
 					"locale": "fr",
@@ -3453,8 +3453,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "CPN1"
+					"property": "DESCRIPTION",
+					"value": "Première visite d'une femme enceinte dans un établissement de santé pour y recevoir principalement des soins prénatals. La première visite prénatale peut être considérée comme une «visite de rendenz-vous ou programmée» lorsque divers processus sont effectués conformément à la politique nationale."
 				}
 			],
 			"user": {
@@ -3484,13 +3484,13 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEAANCIEN - CPN4"
+					"property": "SHORT_NAME",
+					"value": "CPN4"
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "CPN4"
+					"property": "NAME",
+					"value": "SSRMNEAANCIEN - CPN4"
 				}
 			],
 			"user": {
@@ -3522,8 +3522,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des grossesses attendues qui ont effectué 4 CPN"
+					"property": "SHORT_NAME",
+					"value": "Couverture CPN4 (%)"
 				},
 				{
 					"locale": "fr",
@@ -3532,8 +3532,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Couverture CPN4 (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des grossesses attendues qui ont effectué 4 CPN"
 				}
 			],
 			"user": {
@@ -3565,8 +3565,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des grossesses attendues qui ont effectué 8 CPN"
+					"property": "SHORT_NAME",
+					"value": "Couverture CPN8 (%)"
 				},
 				{
 					"locale": "fr",
@@ -3575,8 +3575,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Couverture CPN8 (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des grossesses attendues qui ont effectué 8 CPN"
 				}
 			],
 			"user": {
@@ -3632,8 +3632,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de clientes CPN dépistées au syphilis"
+					"property": "SHORT_NAME",
+					"value": "Dépistage de syphilis en CPN (%)"
 				},
 				{
 					"locale": "fr",
@@ -3642,8 +3642,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Dépistage de syphilis en CPN (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de clientes CPN dépistées au syphilis"
 				}
 			],
 			"user": {
@@ -3698,8 +3698,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de de clientes CPN qui ont fait leur 1ère visite avant 12 semaines de gestation"
+					"property": "SHORT_NAME",
+					"value": "CPN1 0-11sem"
 				},
 				{
 					"locale": "fr",
@@ -3708,8 +3708,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "CPN1 0-11sem"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de de clientes CPN qui ont fait leur 1ère visite avant 12 semaines de gestation"
 				}
 			],
 			"user": {
@@ -3740,8 +3740,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de clientes CPN avec ayant fait la mesure du taux d'hémoglobine"
+					"property": "SHORT_NAME",
+					"value": "CPN taux Hb mésuré (%)"
 				},
 				{
 					"locale": "fr",
@@ -3750,8 +3750,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "CPN taux Hb mésuré (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de clientes CPN avec ayant fait la mesure du taux d'hémoglobine"
 				}
 			],
 			"user": {
@@ -3782,8 +3782,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'accouchements institutionnels qui sont assistés (forceps ou ventouse)"
+					"property": "SHORT_NAME",
+					"value": "Taux d'accouchements institutionnels assistés (%)"
 				},
 				{
 					"locale": "fr",
@@ -3792,8 +3792,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux d'accouchements institutionnels assistés (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'accouchements institutionnels qui sont assistés (forceps ou ventouse)"
 				}
 			],
 			"user": {
@@ -3824,8 +3824,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de bébés nés dans une formation sanitaire avec un poids de naissance documenté avant la sortie"
+					"property": "SHORT_NAME",
+					"value": "Nouveaux-nés avec poids de naissance documenté (%)"
 				},
 				{
 					"locale": "fr",
@@ -3834,8 +3834,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Nouveaux-nés avec poids de naissance documenté (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de bébés nés dans une formation sanitaire avec un poids de naissance documenté avant la sortie"
 				}
 			],
 			"user": {
@@ -3866,8 +3866,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de naissances où le nourrisson était mort-né frais à la naissance dans la formation sanitaire: un mort-né est défini comme un bébé né sans signe de vie, pesant plus de 1 000 g avec plus de 28 semaines de gestation. La mort fœtale intrapartum (mort-né frais) désigne un bébé qui est décédé après le début du travail et avant la naissance."
+					"property": "SHORT_NAME",
+					"value": "Mort-nés frais"
 				},
 				{
 					"locale": "fr",
@@ -3876,8 +3876,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Mort-nés frais"
+					"property": "DESCRIPTION",
+					"value": "Nombre de naissances où le nourrisson était mort-né frais à la naissance dans la formation sanitaire: un mort-né est défini comme un bébé né sans signe de vie, pesant plus de 1 000 g avec plus de 28 semaines de gestation. La mort fœtale intrapartum (mort-né frais) désigne un bébé qui est décédé après le début du travail et avant la naissance."
 				}
 			],
 			"user": {
@@ -3908,8 +3908,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de naissances où le nourrisson était mort-né macéré à la naissance dans la formation sanitaire: un mort-né est défini comme un bébé né sans signe de vie, pesant plus de 1 000 g avec plus de 28 semaines de gestation. La mort fœtale antepartum (mort-né macéré) désigne un bébé qui est décédé dans l'uterus après 28 semaines de gestation et avant le début du travail. La macération décrit les changements dégénératifs qui surviennent chez les mort-nés retenus dans l'utérus après le décès, et les premiers signes se manifestent par une décoloration et une desquamation de la peau, laissant des régions de tissu brut."
+					"property": "SHORT_NAME",
+					"value": "Mort-nés macérés"
 				},
 				{
 					"locale": "fr",
@@ -3918,8 +3918,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Mort-nés macérés"
+					"property": "DESCRIPTION",
+					"value": "Nombre de naissances où le nourrisson était mort-né macéré à la naissance dans la formation sanitaire: un mort-né est défini comme un bébé né sans signe de vie, pesant plus de 1 000 g avec plus de 28 semaines de gestation. La mort fœtale antepartum (mort-né macéré) désigne un bébé qui est décédé dans l'uterus après 28 semaines de gestation et avant le début du travail. La macération décrit les changements dégénératifs qui surviennent chez les mort-nés retenus dans l'utérus après le décès, et les premiers signes se manifestent par une décoloration et une desquamation de la peau, laissant des régions de tissu brut."
 				}
 			],
 			"user": {
@@ -3950,8 +3950,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcencate de naissance vivantes par césarienne"
+					"property": "SHORT_NAME",
+					"value": "Taux d'accouchements par césarienne (%)"
 				},
 				{
 					"locale": "fr",
@@ -3960,8 +3960,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux d'accouchements par césarienne (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcencate de naissance vivantes par césarienne"
 				}
 			],
 			"user": {
@@ -3992,8 +3992,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des accouchements institutionnels par césarienne"
+					"property": "SHORT_NAME",
+					"value": "Taux de césarienne en accouchement institutionnel(%)"
 				},
 				{
 					"locale": "fr",
@@ -4002,8 +4002,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux de césarienne en accouchement institutionnel(%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des accouchements institutionnels par césarienne"
 				}
 			],
 			"user": {
@@ -4034,8 +4034,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par l'amoxiciline"
+					"property": "SHORT_NAME",
+					"value": "Enfant traité pour pneumonie par amoxiciline"
 				},
 				{
 					"locale": "fr",
@@ -4044,8 +4044,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Enfant traité pour pneumonie par amoxiciline"
+					"property": "DESCRIPTION",
+					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par l'amoxiciline"
 				}
 			],
 			"user": {
@@ -4076,8 +4076,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par autre antibiotique"
+					"property": "SHORT_NAME",
+					"value": "Enfant traité pour pneumonie par autre antibiotique"
 				},
 				{
 					"locale": "fr",
@@ -4086,8 +4086,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Enfant traité pour pneumonie par autre antibiotique"
+					"property": "DESCRIPTION",
+					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par autre antibiotique"
 				}
 			],
 			"user": {
@@ -4118,8 +4118,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par autre médicament"
+					"property": "SHORT_NAME",
+					"value": "Enfant traité pour pneumonie par autre médicament"
 				},
 				{
 					"locale": "fr",
@@ -4128,8 +4128,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Enfant traité pour pneumonie par autre médicament"
+					"property": "DESCRIPTION",
+					"value": "Nombre d'enfants ayant reçu un traitement de pneumonie par autre médicament"
 				}
 			],
 			"user": {
@@ -4161,8 +4161,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de clients qui acceptent une méthode de planification familiale pour la première fois"
+					"property": "SHORT_NAME",
+					"value": "Nouveaux acceptants de contrception"
 				},
 				{
 					"locale": "fr",
@@ -4171,8 +4171,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Nouveaux acceptants de contrception"
+					"property": "DESCRIPTION",
+					"value": "Nombre de clients qui acceptent une méthode de planification familiale pour la première fois"
 				}
 			],
 			"user": {
@@ -4203,8 +4203,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles dus aux accidents comme accident de la voie publique, noyade, morsure de serpent etc."
+					"property": "SHORT_NAME",
+					"value": "Décès infantiles par accident"
 				},
 				{
 					"locale": "fr",
@@ -4213,8 +4213,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantiles par accident"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles dus aux accidents comme accident de la voie publique, noyade, morsure de serpent etc."
 				}
 			],
 			"user": {
@@ -4245,8 +4245,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles dus aux affections respiratoires aigües"
+					"property": "SHORT_NAME",
+					"value": "Décès infantiles par affection respiratoire aigüe"
 				},
 				{
 					"locale": "fr",
@@ -4255,8 +4255,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantiles par affection respiratoire aigüe"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles dus aux affections respiratoires aigües"
 				}
 			],
 			"user": {
@@ -4287,8 +4287,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de déces infantile par violence"
+					"property": "SHORT_NAME",
+					"value": "Déces infantile par violence"
 				},
 				{
 					"locale": "fr",
@@ -4297,8 +4297,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Déces infantile par violence"
+					"property": "DESCRIPTION",
+					"value": "Nombre de déces infantile par violence"
 				}
 			],
 			"user": {
@@ -4329,8 +4329,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par complication médicale ou chirurgicale"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile complication médicale ou chirurgicale"
 				},
 				{
 					"locale": "fr",
@@ -4339,8 +4339,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile complication médicale ou chirurgicale"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantile par complication médicale ou chirurgicale"
 				}
 			],
 			"user": {
@@ -4371,8 +4371,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par anomalies congénitales"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile anomalies congénitales"
 				},
 				{
 					"locale": "fr",
@@ -4381,8 +4381,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile anomalies congénitales"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantile par anomalies congénitales"
 				}
 			],
 			"user": {
@@ -4413,8 +4413,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par diarrhée et par la deshydratation causée par la diarrhée"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile diarrhée"
 				},
 				{
 					"locale": "fr",
@@ -4423,8 +4423,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile diarrhée"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantile par diarrhée et par la deshydratation causée par la diarrhée"
 				}
 			],
 			"user": {
@@ -4455,8 +4455,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de déces infantiles causés par les infections opportunistes suite au VIH"
+					"property": "SHORT_NAME",
+					"value": "Déces infantile VIH"
 				},
 				{
 					"locale": "fr",
@@ -4465,8 +4465,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Déces infantile VIH"
+					"property": "DESCRIPTION",
+					"value": "Nombre de déces infantiles causés par les infections opportunistes suite au VIH"
 				}
 			],
 			"user": {
@@ -4497,8 +4497,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par automutilation intentionnelle"
+					"property": "SHORT_NAME",
+					"value": "Nombre de décès infantiles par automutilation intentionnelle"
 				},
 				{
 					"locale": "fr",
@@ -4507,8 +4507,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Nombre de décès infantiles par automutilation intentionnelle"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par automutilation intentionnelle"
 				}
 			],
 			"user": {
@@ -4539,8 +4539,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par interventions force de l'ordre ou opération de guerre"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile interventions force de l'ordre ou opération de guerre"
 				},
 				{
 					"locale": "fr",
@@ -4549,8 +4549,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile interventions force de l'ordre ou opération de guerre"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par interventions force de l'ordre ou opération de guerre"
 				}
 			],
 			"user": {
@@ -4581,8 +4581,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par petit poids de naissance ou prématurité"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile petit poids de naissance ou prématurité"
 				},
 				{
 					"locale": "fr",
@@ -4591,8 +4591,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile petit poids de naissance ou prématurité"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par petit poids de naissance ou prématurité"
 				}
 			],
 			"user": {
@@ -4623,8 +4623,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par paludisme"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile paludisme"
 				},
 				{
 					"locale": "fr",
@@ -4633,8 +4633,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile paludisme"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par paludisme"
 				}
 			],
 			"user": {
@@ -4665,8 +4665,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par malnutrition"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile malnutrition"
 				},
 				{
 					"locale": "fr",
@@ -4675,8 +4675,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile malnutrition"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par malnutrition"
 				}
 			],
 			"user": {
@@ -4707,8 +4707,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par rougeole"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile rougeole"
 				},
 				{
 					"locale": "fr",
@@ -4717,8 +4717,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile rougeole"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par rougeole"
 				}
 			],
 			"user": {
@@ -4749,8 +4749,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par infection à méningocoque"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile infection à méningocoque"
 				},
 				{
 					"locale": "fr",
@@ -4759,8 +4759,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile infection à méningocoque"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par infection à méningocoque"
 				}
 			],
 			"user": {
@@ -4791,8 +4791,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par néoplasie"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile néoplasie"
 				},
 				{
 					"locale": "fr",
@@ -4801,8 +4801,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile néoplasie"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par néoplasie"
 				}
 			],
 			"user": {
@@ -4833,8 +4833,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par  cause non spécifiée"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile  cause non spécifiée"
 				},
 				{
 					"locale": "fr",
@@ -4843,8 +4843,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile  cause non spécifiée"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par  cause non spécifiée"
 				}
 			],
 			"user": {
@@ -4875,8 +4875,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par toux"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile toux"
 				},
 				{
 					"locale": "fr",
@@ -4885,8 +4885,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile toux"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par toux"
 				}
 			],
 			"user": {
@@ -4917,8 +4917,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par traumatisme"
+					"property": "SHORT_NAME",
+					"value": "Décès infantile traumatisme"
 				},
 				{
 					"locale": "fr",
@@ -4927,8 +4927,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile traumatisme"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par traumatisme"
 				}
 			],
 			"user": {
@@ -4959,8 +4959,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par anomalies congénitales"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal anomalies congénitales"
 				},
 				{
 					"locale": "fr",
@@ -4969,8 +4969,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal anomalies congénitales"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par anomalies congénitales"
 				}
 			],
 			"user": {
@@ -5001,8 +5001,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par troubles convulsifs ou état cérébral"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal état cérébral"
 				},
 				{
 					"locale": "fr",
@@ -5011,8 +5011,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal état cérébral"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par troubles convulsifs ou état cérébral"
 				}
 			],
 			"user": {
@@ -5043,8 +5043,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés partroubles relatifs aux problèmes de croissance foetale"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal troubles relatifs à la croissance foetale"
 				},
 				{
 					"locale": "fr",
@@ -5053,8 +5053,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal troubles relatifs à la croissance foetale"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés partroubles relatifs aux problèmes de croissance foetale"
 				}
 			],
 			"user": {
@@ -5085,8 +5085,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par infection"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal infection"
 				},
 				{
 					"locale": "fr",
@@ -5095,8 +5095,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal infection"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par infection"
 				}
 			],
 			"user": {
@@ -5127,8 +5127,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par complications intrapartum"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal complications intrapartum"
 				},
 				{
 					"locale": "fr",
@@ -5137,8 +5137,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal complications intrapartum"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par complications intrapartum"
 				}
 			],
 			"user": {
@@ -5169,8 +5169,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par petit poids de naissance et prématurité"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal petit poids de naissance et prématurité"
 				},
 				{
 					"locale": "fr",
@@ -5179,8 +5179,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal petit poids de naissance et prématurité"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par petit poids de naissance et prématurité"
 				}
 			],
 			"user": {
@@ -5211,8 +5211,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par diverses causes"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal diverses causes"
 				},
 				{
 					"locale": "fr",
@@ -5221,8 +5221,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal diverses causes"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par diverses causes"
 				}
 			],
 			"user": {
@@ -5253,8 +5253,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés parautres affections néonatales"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal autres affections néonatales"
 				},
 				{
 					"locale": "fr",
@@ -5263,8 +5263,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal autres affections néonatales"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés parautres affections néonatales"
 				}
 			],
 			"user": {
@@ -5295,8 +5295,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés partroubles respiratoires et cardiovasculaires"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal troubles respiratoires et cardiovasculaires"
 				},
 				{
 					"locale": "fr",
@@ -5305,8 +5305,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal troubles respiratoires et cardiovasculaires"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés partroubles respiratoires et cardiovasculaires"
 				}
 			],
 			"user": {
@@ -5337,8 +5337,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par cause non spécifiée"
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal cause non spécifiée"
 				},
 				{
 					"locale": "fr",
@@ -5347,8 +5347,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal cause non spécifiée"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par cause non spécifiée"
 				}
 			],
 			"user": {
@@ -5379,8 +5379,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre d'enfants de 1 mois à 9 ans qui sont décédeés dans la formation sanitaire"
+					"property": "SHORT_NAME",
+					"value": "Décès enfants 1m -9a"
 				},
 				{
 					"locale": "fr",
@@ -5389,8 +5389,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès enfants 1m -9a"
+					"property": "DESCRIPTION",
+					"value": "Nombre d'enfants de 1 mois à 9 ans qui sont décédeés dans la formation sanitaire"
 				}
 			],
 			"user": {
@@ -5421,8 +5421,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès maternels dans la formation sanitaire. NB: ceci peut inclure les femmes qui ont accouché hors de la formation sanitaire"
+					"property": "SHORT_NAME",
+					"value": "Décès maternels"
 				},
 				{
 					"locale": "fr",
@@ -5431,8 +5431,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès maternels"
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès maternels dans la formation sanitaire. NB: ceci peut inclure les femmes qui ont accouché hors de la formation sanitaire"
 				}
 			],
 			"user": {
@@ -5463,8 +5463,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de décès maternels audités"
+					"property": "SHORT_NAME",
+					"value": "Décès maternels audités (%)"
 				},
 				{
 					"locale": "fr",
@@ -5473,8 +5473,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès maternels audités (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de décès maternels audités"
 				}
 			],
 			"user": {
@@ -5505,8 +5505,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de nouveau-nés qui sont décédés dans la formation sanitairedans leur 28 premiers jours. NB: ceci inclut tout décès néonatal dans une formation sanitaire survenu dans les 28 premiers jours - avant la sortie de l'hôpital après la naissance ou lors de la réadmission pour une maladie."
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal"
 				},
 				{
 					"locale": "fr",
@@ -5515,8 +5515,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal"
+					"property": "DESCRIPTION",
+					"value": "Nombre de nouveau-nés qui sont décédés dans la formation sanitairedans leur 28 premiers jours. NB: ceci inclut tout décès néonatal dans une formation sanitaire survenu dans les 28 premiers jours - avant la sortie de l'hôpital après la naissance ou lors de la réadmission pour une maladie."
 				}
 			],
 			"user": {
@@ -5547,8 +5547,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de décès périnatals audités (%)"
+					"property": "SHORT_NAME",
+					"value": "Décès périnatals audités (%)"
 				},
 				{
 					"locale": "fr",
@@ -5557,8 +5557,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès périnatals audités (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de décès périnatals audités (%)"
 				}
 			],
 			"user": {
@@ -5588,13 +5588,13 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEAANCIEN - Accouchement institutionnel"
+					"property": "SHORT_NAME",
+					"value": "Accouchement institutionnel"
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Accouchement institutionnel"
+					"property": "NAME",
+					"value": "SSRMNEAANCIEN - Accouchement institutionnel"
 				}
 			],
 			"user": {
@@ -5650,8 +5650,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du SRO et du zinc"
+					"property": "SHORT_NAME",
+					"value": "Diarrhée traitée avec SRO+zinc 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -5660,8 +5660,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Diarrhée traitée avec SRO+zinc 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du SRO et du zinc"
 				}
 			],
 			"user": {
@@ -5692,8 +5692,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du SRO"
+					"property": "SHORT_NAME",
+					"value": "Diarrhée traitée avec SRO 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -5702,8 +5702,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Diarrhée traitée avec SRO 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du SRO"
 				}
 			],
 			"user": {
@@ -5734,8 +5734,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du zinc"
+					"property": "SHORT_NAME",
+					"value": "Diarrhée traitée avec zinc 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -5744,8 +5744,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Diarrhée traitée avec zinc 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du zinc"
 				}
 			],
 			"user": {
@@ -5776,8 +5776,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont un traitement"
+					"property": "SHORT_NAME",
+					"value": "Traitement de diarrhée  0-9a (%)"
 				},
 				{
 					"locale": "fr",
@@ -5786,8 +5786,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Traitement de diarrhée  0-9a (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont un traitement"
 				}
 			],
 			"user": {
@@ -5819,8 +5819,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des accouchements attendus qui ont eu lieu dans une formation sanitaire"
+					"property": "SHORT_NAME",
+					"value": "Taux d'accouchement institutionnel (%)"
 				},
 				{
 					"locale": "fr",
@@ -5829,8 +5829,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux d'accouchement institutionnel (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des accouchements attendus qui ont eu lieu dans une formation sanitaire"
 				}
 			],
 			"user": {
@@ -5861,8 +5861,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes enceintes attendues ayant reçu la première dose de TPI: Traitement préventif intermittent du paludisme pendant la grossesse"
+					"property": "SHORT_NAME",
+					"value": "Couverture TPI1 (%)"
 				},
 				{
 					"locale": "fr",
@@ -5871,8 +5871,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Couverture TPI1 (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes enceintes attendues ayant reçu la première dose de TPI: Traitement préventif intermittent du paludisme pendant la grossesse"
 				}
 			],
 			"user": {
@@ -5903,8 +5903,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'accouchements qui sont normaux (non assistés et non par césarienne) dans les formations sanitaires"
+					"property": "SHORT_NAME",
+					"value": "Taux d'accouchement normal (%)"
 				},
 				{
 					"locale": "fr",
@@ -5913,8 +5913,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux d'accouchement normal (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'accouchements qui sont normaux (non assistés et non par césarienne) dans les formations sanitaires"
 				}
 			],
 			"user": {
@@ -5945,8 +5945,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par amoxiciline"
+					"property": "SHORT_NAME",
+					"value": "Pneumonie traitée à l'amoxiciline 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -5955,8 +5955,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Pneumonie traitée à l'amoxiciline 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par amoxiciline"
 				}
 			],
 			"user": {
@@ -5987,8 +5987,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par autre médicament (non antibiotique)"
+					"property": "SHORT_NAME",
+					"value": "Pneumonie traitée par autre médicament  0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -5997,8 +5997,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Pneumonie traitée par autre médicament  0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par autre médicament (non antibiotique)"
 				}
 			],
 			"user": {
@@ -6029,8 +6029,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par autre antibiotique"
+					"property": "SHORT_NAME",
+					"value": "Pneumonie traitée avec autre anitibiotique 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -6039,8 +6039,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Pneumonie traitée avec autre anitibiotique 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement par autre antibiotique"
 				}
 			],
 			"user": {
@@ -6071,8 +6071,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement"
+					"property": "SHORT_NAME",
+					"value": "Traitement  pneumonie 0-9 ans (%)"
 				},
 				{
 					"locale": "fr",
@@ -6081,8 +6081,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Traitement  pneumonie 0-9 ans (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants avec un diagnostic correct de pneumonie qui ont reçu un traitement"
 				}
 			],
 			"user": {
@@ -6113,8 +6113,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes avec contrôle postnatal. NB: le numérateur comprend à la fois les femmes qui ont accouché dans la formation sanitaire et celles qui ont accouché en dehors."
+					"property": "SHORT_NAME",
+					"value": "Soins postatals mère (%)"
 				},
 				{
 					"locale": "fr",
@@ -6123,8 +6123,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Soins postatals mère (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes avec contrôle postnatal. NB: le numérateur comprend à la fois les femmes qui ont accouché dans la formation sanitaire et celles qui ont accouché en dehors."
 				}
 			],
 			"user": {
@@ -6155,8 +6155,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femme ayant fait un contrôle postnatal à temps. \"A temps\" fait reference aux directives nationales"
+					"property": "SHORT_NAME",
+					"value": "Soins postatals mère à temps (%)"
 				},
 				{
 					"locale": "fr",
@@ -6165,8 +6165,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Soins postatals mère à temps (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femme ayant fait un contrôle postnatal à temps. \"A temps\" fait reference aux directives nationales"
 				}
 			],
 			"user": {
@@ -6197,8 +6197,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de nouveau-nés avec contrôle postnatal. NB: le numérateur comprend à la fois les enfants nés dans la formation sanitaire et ceux qui snt nés en dehors."
+					"property": "SHORT_NAME",
+					"value": "Soins postatals nouveau-nés (%)"
 				},
 				{
 					"locale": "fr",
@@ -6207,8 +6207,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Soins postatals nouveau-nés (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de nouveau-nés avec contrôle postnatal. NB: le numérateur comprend à la fois les enfants nés dans la formation sanitaire et ceux qui snt nés en dehors."
 				}
 			],
 			"user": {
@@ -6239,8 +6239,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de nouveau-nés ayant fait un contrôle postnatal à temps. \"A temps\" fait reference aux directives nationales"
+					"property": "SHORT_NAME",
+					"value": "Soins postatals nouveau-nés à temps (%)"
 				},
 				{
 					"locale": "fr",
@@ -6249,8 +6249,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Soins postatals nouveau-nés à temps (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de nouveau-nés ayant fait un contrôle postnatal à temps. \"A temps\" fait reference aux directives nationales"
 				}
 			],
 			"user": {
@@ -6282,8 +6282,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum le préservatif comme méthode de contraception."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum préservatif (%)"
 				},
 				{
 					"locale": "fr",
@@ -6292,8 +6292,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum préservatif (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum le préservatif comme méthode de contraception."
 				}
 			],
 			"user": {
@@ -6325,8 +6325,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum l'implant comme méthode de contraception."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum implant (%)"
 				},
 				{
 					"locale": "fr",
@@ -6335,8 +6335,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum implant (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum l'implant comme méthode de contraception."
 				}
 			],
 			"user": {
@@ -6368,8 +6368,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum méthode de contraception injectable."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum injectable (%)"
 				},
 				{
 					"locale": "fr",
@@ -6378,8 +6378,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum injectable (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum méthode de contraception injectable."
 				}
 			],
 			"user": {
@@ -6411,8 +6411,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum le DIU comme méthode de contraception."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum DIU (%)"
 				},
 				{
 					"locale": "fr",
@@ -6421,8 +6421,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum DIU (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum le DIU comme méthode de contraception."
 				}
 			],
 			"user": {
@@ -6454,8 +6454,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum une autre méthode de contraception."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum autre méthode (%)"
 				},
 				{
 					"locale": "fr",
@@ -6464,8 +6464,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum autre méthode (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum une autre méthode de contraception."
 				}
 			],
 			"user": {
@@ -6497,8 +6497,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum la pilule comme méthode de contraception."
+					"property": "SHORT_NAME",
+					"value": "Contracept postpartum pilule (%)"
 				},
 				{
 					"locale": "fr",
@@ -6507,8 +6507,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Contracept postpartum pilule (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui accepte en postpartum la pilule comme méthode de contraception."
 				}
 			],
 			"user": {
@@ -6540,8 +6540,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui initient une méthode contraceptive avant la sortie. \n\n“initient\" signifie qu'elles sont soit partie avec la méthode PF ou ont l'intention de commencer la méthode ce jour là  (ex: méthode de sensibilisation à la fertilité). Ca combine les femmes qui \"partent avec\" une méthode et celles qui \"acceptent\" une méthode avant la sortie ou avant de quitter la formation sanitaire"
+					"property": "SHORT_NAME",
+					"value": "Acceptantes PF en postpartum (%)"
 				},
 				{
 					"locale": "fr",
@@ -6550,8 +6550,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Acceptantes PF en postpartum (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes ayant accouché dans la formation sanitaire qui initient une méthode contraceptive avant la sortie. \n\n“initient\" signifie qu'elles sont soit partie avec la méthode PF ou ont l'intention de commencer la méthode ce jour là  (ex: méthode de sensibilisation à la fertilité). Ca combine les femmes qui \"partent avec\" une méthode et celles qui \"acceptent\" une méthode avant la sortie ou avant de quitter la formation sanitaire"
 				}
 			],
 			"user": {
@@ -6582,8 +6582,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Mort-nés en pourcentage de toutes les naissances dans les formations sanitaires. (Bébé né sans signe de vie et pesant au moins 1000g ou après 28 semaines de gestation)"
+					"property": "SHORT_NAME",
+					"value": "Taux de mort-nés (%)"
 				},
 				{
 					"locale": "fr",
@@ -6592,8 +6592,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux de mort-nés (%)"
+					"property": "DESCRIPTION",
+					"value": "Mort-nés en pourcentage de toutes les naissances dans les formations sanitaires. (Bébé né sans signe de vie et pesant au moins 1000g ou après 28 semaines de gestation)"
 				}
 			],
 			"user": {
@@ -6624,13 +6624,13 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des clientes qui ont reçu deux doses de vaccin anti-tétanique en soins prénatals"
+					"property": "NAME",
+					"value": "SSRMNEA - Couverture VAT2 pour les femmes enceintes (%)"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Couverture VAT2 pour les femmes enceintes (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des clientes qui ont reçu deux doses de vaccin anti-tétanique en soins prénatals"
 				}
 			],
 			"user": {
@@ -6661,8 +6661,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage de femmes qui ont accouché dans une formation sanitaire et qui ont reçu un traitement utérotonique prophylactique immédiatement après la naissance pour la prévention des hémorragies postpartum. \"Immédiatement\" se réfère idéalement à moins d'une minute."
+					"property": "SHORT_NAME",
+					"value": "Utérotonique pour prévention HPP (%)"
 				},
 				{
 					"locale": "fr",
@@ -6671,8 +6671,8 @@
 				},
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Utérotonique pour prévention HPP (%)"
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de femmes qui ont accouché dans une formation sanitaire et qui ont reçu un traitement utérotonique prophylactique immédiatement après la naissance pour la prévention des hémorragies postpartum. \"Immédiatement\" se réfère idéalement à moins d'une minute."
 				}
 			],
 			"user": {
@@ -6714,7 +6714,7 @@
 			]
 		}
 	],
-	"package": "RMNCAH_DASHBOARD_V0.1_DHIS2.30_2019-10-17T20:18",
+	"package": "RMNCAH_DASHBOARD_V0.1_DHIS2.30_2019-12-22T11:23",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -6847,7 +6847,7 @@
 			"attributeValues": [],
 			"created": "2019-04-25T06:39:52.309",
 			"id": "DKERleFxdOs",
-			"lastUpdated": "2019-09-23T19:52:12.906",
+			"lastUpdated": "2019-10-18T13:44:01.743",
 			"managedGroups": [],
 			"name": "RMNCAH access",
 			"publicAccess": "r-------",
@@ -6867,7 +6867,7 @@
 			"attributeValues": [],
 			"created": "2019-04-25T06:40:15.326",
 			"id": "Kqg4vo1AOKb",
-			"lastUpdated": "2019-10-14T16:02:31.737",
+			"lastUpdated": "2019-10-18T13:44:01.739",
 			"managedGroups": [],
 			"name": "RMNCAH admin",
 			"publicAccess": "r-------",
