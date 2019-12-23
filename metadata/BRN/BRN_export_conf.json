@@ -1,0 +1,34 @@
+{
+  "export": [
+    {
+      "_basePath": "./BRN/", 
+      "_code": "BRN", 
+      "_name": "Birth notification",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "Ia1Xtxa5eG8"
+      },
+      "_sharing": {
+        "groupMode": "REMOVE",
+        "groupExport": false,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://who.dhis2.org/tracker_epi"
+      ], 
+      "_version": "1.0.0",
+      "programIds": [
+        "FTBBLOT3sO7"
+      ]
+    }
+  ]
+}

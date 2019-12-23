@@ -1,0 +1,6436 @@
+{
+	"categories": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.772",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "GLevLNI9wkl",
+			"lastUpdated": "2019-10-25T01:25:58.397",
+			"name": "default",
+			"publicAccess": "r-------",
+			"translations": [],
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryCombos": [
+		{
+			"categories": [
+				{
+					"id": "GLevLNI9wkl"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.779",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bjDvmb4bfuf",
+			"lastUpdated": "2019-06-06T09:14:19.860",
+			"name": "default",
+			"publicAccess": "r-------",
+			"skipTotal": false,
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryOptionCombos": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.783",
+			"id": "HllvX50cXC0",
+			"ignoreApproval": false,
+			"lastUpdated": "2018-01-17T10:28:58.783",
+			"name": "default",
+			"translations": []
+		}
+	],
+	"categoryOptions": [
+		{
+			"attributeValues": [],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.744",
+			"id": "xYerKDKCefk",
+			"lastUpdated": "2018-01-17T10:28:58.792",
+			"name": "default",
+			"organisationUnits": [],
+			"publicAccess": "r-------",
+			"shortName": "default",
+			"translations": [],
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-02-08T05:41:58.595",
+			"domainType": "TRACKER",
+			"formName": "Attendant at birth",
+			"id": "lQtJB35vsDj",
+			"lastUpdated": "2019-11-01T18:22:30.317",
+			"legendSets": [],
+			"name": "Attendant at birth_Birth details",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Attendant at birth_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-03-19T10:22:48.902",
+			"domainType": "TRACKER",
+			"formName": "Birth type",
+			"id": "LtlzGAPWWo8",
+			"lastUpdated": "2019-11-01T18:22:10.345",
+			"legendSets": [],
+			"name": "Birth type_Birth details",
+			"optionSet": {
+				"id": "jumQ0TEDlf4"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Birth type_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-02-08T05:20:12.077",
+			"domainType": "TRACKER",
+			"formName": "Birth weight (grams)",
+			"id": "WUquHs0Al7h",
+			"lastUpdated": "2019-11-18T15:33:52.552",
+			"legendSets": [],
+			"name": "Birth weight (grams)_Birth details",
+			"publicAccess": "r-------",
+			"shortName": "Birth weight (grams)_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2015-07-19T09:17:52.306",
+			"domainType": "TRACKER",
+			"id": "UUrqCmPloWO",
+			"lastUpdated": "2018-03-22T11:31:50.761",
+			"legendSets": [],
+			"name": "Completed weeks of pregnancy",
+			"publicAccess": "r-------",
+			"shortName": "Completed weeks of pregnancy",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Semaines de grossesse complétées"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Semaines de grossesse complétées"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2016-05-09T15:12:40.034",
+			"description": "Date of injury if external cause or poisoning",
+			"domainType": "TRACKER",
+			"formName": "If external cause or poisoning, date of injury",
+			"id": "YC3AioXWlfR",
+			"lastUpdated": "2018-03-22T11:31:58.158",
+			"legendSets": [],
+			"name": "Date of injury",
+			"publicAccess": "r-------",
+			"shortName": "Date of injury",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Date de la blessure"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Date de la blessure"
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Si cause externe ou empoisonnement, date de la blessure"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Date de la blessure si cause externe ou empoisonnement"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-11-15T15:04:55.648",
+			"domainType": "TRACKER",
+			"id": "f95m3KTUK3t",
+			"lastUpdated": "2019-11-15T15:04:55.648",
+			"legendSets": [],
+			"name": "Delivery date",
+			"publicAccess": "r-------",
+			"shortName": "Delivery date",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2016-05-09T15:13:47.113",
+			"domainType": "TRACKER",
+			"formName": "Please describe how external cause occurred (if poisoning, please specify poisoning agent)",
+			"id": "AbSABtFkjxr",
+			"lastUpdated": "2018-03-22T11:32:05.965",
+			"legendSets": [],
+			"name": "Description of external cause",
+			"publicAccess": "r-------",
+			"shortName": "Description of external cause",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Description de la cause externe"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Description de la cause externe"
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Veuillez décrire comment la cause externe s'est produite (en cas d'empoisonnement, veuillez préciser le poison)"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "LONG_TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-02-08T05:21:39.320",
+			"domainType": "TRACKER",
+			"formName": "Gestational age (weeks)",
+			"id": "SaCLndgg6On",
+			"lastUpdated": "2019-11-01T18:23:36.682",
+			"legendSets": [],
+			"name": "Gestational age_Birth details",
+			"publicAccess": "r-------",
+			"shortName": "Gestational age_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2015-07-19T09:17:17.920",
+			"domainType": "TRACKER",
+			"id": "NtO2qt0qeVa",
+			"lastUpdated": "2018-03-22T11:32:13.644",
+			"legendSets": [],
+			"name": "Hours newborn survived",
+			"publicAccess": "r-------",
+			"shortName": "Hours newborn survived",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Heures de survie du nouveau-né"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Heures de survie du nouveau-né"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2014-12-18T22:35:47.634",
+			"domainType": "TRACKER",
+			"id": "GwzGtLQTt31",
+			"lastUpdated": "2018-03-22T11:32:16.096",
+			"legendSets": [],
+			"name": "Manner of death",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Manner of death",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Manière de mourir"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Manière de mourir"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-03-19T10:23:36.068",
+			"domainType": "TRACKER",
+			"formName": "Mode of delivery",
+			"id": "fF7wxNym0Un",
+			"lastUpdated": "2019-06-19T08:18:25.474",
+			"legendSets": [],
+			"name": "Mode of delivery_Birth details",
+			"optionSet": {
+				"id": "whFhwY80xAQ"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Mode of delivery",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2015-07-19T09:16:21.644",
+			"domainType": "TRACKER",
+			"id": "SnSeql5YI9s",
+			"lastUpdated": "2018-03-22T11:32:18.499",
+			"legendSets": [],
+			"name": "Multiple pregnancies",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Multiple pregnancies",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Grossesses multiples"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Grossesses multiples"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-03-19T10:20:46.381",
+			"domainType": "TRACKER",
+			"formName": "Parity",
+			"id": "B5BoWbyB1sY",
+			"lastUpdated": "2019-11-01T18:21:44.749",
+			"legendSets": [],
+			"name": "Parity_Birth details",
+			"publicAccess": "r-------",
+			"shortName": "Parity_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-02-08T05:44:20.585",
+			"domainType": "TRACKER",
+			"formName": "Place of birth",
+			"id": "ABhkInP0wGY",
+			"lastUpdated": "2019-11-01T18:22:45.734",
+			"legendSets": [],
+			"name": "Place of birth_Birth details",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Place of birth_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-11-14T16:36:57.745",
+			"domainType": "TRACKER",
+			"formName": "Facility or hospital of birth",
+			"id": "RTA1VXtS6r1",
+			"lastUpdated": "2019-11-14T17:24:43.736",
+			"legendSets": [],
+			"name": "Place of birth_Birth details_facility",
+			"publicAccess": "r-------",
+			"shortName": "Place of birth_facility",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "ORGANISATION_UNIT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2016-05-09T15:14:36.352",
+			"domainType": "TRACKER",
+			"formName": "Place of occurence of the external cause",
+			"id": "pHvHXawQdzI",
+			"lastUpdated": "2018-03-22T11:32:35.528",
+			"legendSets": [],
+			"name": "Place of occurence of external cause",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Place of occurence of external cause",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Lieu d'apparition de la cause externe"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Lieu d'apparition de la cause externe"
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Lieu d'apparition de la cause externe"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2016-05-09T15:15:28.988",
+			"domainType": "TRACKER",
+			"formName": "Please specify place of occurence of external cause",
+			"id": "uohUQpjhWSt",
+			"lastUpdated": "2018-03-22T11:32:37.978",
+			"legendSets": [],
+			"name": "Place of occurence of external cause - specify",
+			"publicAccess": "r-------",
+			"shortName": "Place of occurence of external cause - specify",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Lieu d'apparition de la cause externe - précisez"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Lieu d'apparition de la cause externe - précisez"
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Veuillez préciser le lieu d'apparition de la cause externe"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2015-07-19T09:21:08.273",
+			"domainType": "TRACKER",
+			"formName": "Were there any conditions in pregnancy?",
+			"id": "wzaw1u6RK2R",
+			"lastUpdated": "2019-11-18T18:46:47.256",
+			"legendSets": [],
+			"name": "Pregnancy conditions",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Pregnancy conditions",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Mort périnatale - conditions de la mère"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Les décès périnatals - les condiditons de la mère qui a affecté le foetus et le nouveau-né"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2019-11-14T16:43:10.368",
+			"description": "If home delivery, must enter village where born",
+			"domainType": "TRACKER",
+			"formName": "Village of birth",
+			"id": "cCQRaVSSOsY",
+			"lastUpdated": "2019-11-14T16:43:10.368",
+			"legendSets": [],
+			"name": "Village Name_Birth details",
+			"publicAccess": "r-------",
+			"shortName": "Village Name_Birth details",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2015-07-19T09:16:41.637",
+			"domainType": "TRACKER",
+			"id": "XvfpVOXCZvb",
+			"lastUpdated": "2018-03-22T11:21:00.549",
+			"legendSets": [],
+			"name": "Was stillborn",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Stillborn",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Mort-né"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Était mort-né"
+				}
+			],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		}
+	],
+	"dataEntryForms": [
+		{
+			"created": "2019-11-15T15:05:50.710",
+			"format": 0,
+			"id": "KEmGRDvXraX",
+			"lastUpdated": "2019-11-15T15:05:50.710",
+			"name": "Stillbirth Details",
+			"translations": []
+		},
+		{
+			"created": "2019-09-12T07:21:29.919",
+			"format": 0,
+			"id": "j2ffdMN8OuY",
+			"lastUpdated": "2019-09-12T07:21:29.919",
+			"name": "Vital Event Details",
+			"translations": []
+		}
+	],
+	"options": [
+		{
+			"attributeValues": [],
+			"code": "ACCIDENT",
+			"created": "2015-07-10T09:17:06.112",
+			"id": "um5ga0rMkEF",
+			"lastUpdated": "2018-01-17T11:58:25.809",
+			"name": "Accident",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "antepartum_hemorrage",
+			"created": "2019-11-18T18:40:26.043",
+			"id": "X5kNRtypjK3",
+			"lastUpdated": "2019-11-18T18:40:26.591",
+			"name": "Antepartum hemorrage",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "ASSAULT",
+			"created": "2015-07-10T09:16:43.882",
+			"id": "w5qZmtMqg3u",
+			"lastUpdated": "2018-01-17T11:58:25.828",
+			"name": "Assault",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "HOME",
+			"created": "2016-05-09T15:02:27.028",
+			"id": "ZMqaCN4pmF5",
+			"lastUpdated": "2018-01-17T11:58:25.811",
+			"name": "At home",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1",
+			"created": "2019-09-12T07:18:19.910",
+			"id": "QtzA2lPs00W",
+			"lastUpdated": "2019-12-13T11:09:54.475",
+			"name": "Birth notification",
+			"optionSet": {
+				"id": "I90dDKWASnH"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "C-Section",
+			"created": "2019-06-19T08:17:58.986",
+			"id": "TVfk2dEadNX",
+			"lastUpdated": "2019-06-19T08:17:59.515",
+			"name": "C-Section",
+			"optionSet": {
+				"id": "whFhwY80xAQ"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NOT_DETERMINED",
+			"created": "2015-07-10T09:16:57.937",
+			"id": "WFOf5o58rjI",
+			"lastUpdated": "2018-01-17T11:58:25.824",
+			"name": "Could not be determined",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "3",
+			"created": "2019-09-12T07:18:57.559",
+			"id": "ZCVuCbNBS2G",
+			"lastUpdated": "2019-12-13T11:10:14.307",
+			"name": "Death notification",
+			"optionSet": {
+				"id": "I90dDKWASnH"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "deep_vein_thrombosis",
+			"created": "2019-11-18T18:42:50.811",
+			"id": "xsAYGVGuZ24",
+			"lastUpdated": "2019-11-18T18:42:51.392",
+			"name": "Deep vein thrombosis",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 9,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "DISEASE",
+			"created": "2015-07-10T09:16:35.727",
+			"id": "Zatxo2j4Kql",
+			"lastUpdated": "2018-01-17T11:58:25.820",
+			"name": "Disease",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Eclampsia",
+			"created": "2019-11-18T18:38:54.790",
+			"id": "esvvGOtDTnC",
+			"lastUpdated": "2019-11-18T18:38:55.350",
+			"name": "Eclampsia",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "FARM",
+			"created": "2016-05-09T15:04:54.535",
+			"id": "WKOoJIN0fgN",
+			"lastUpdated": "2018-01-17T11:58:25.818",
+			"name": "Farm",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "FEMALE",
+			"created": "2016-05-21T12:26:12.090",
+			"id": "AZK4rjJCss5",
+			"lastUpdated": "2018-01-17T10:49:48.072",
+			"name": "Female",
+			"optionSet": {
+				"id": "hiQ3QFheQ3O"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Forceps",
+			"created": "2019-06-19T08:17:33.979",
+			"id": "pk64y81lEHx",
+			"lastUpdated": "2019-06-19T08:17:34.441",
+			"name": "Forceps",
+			"optionSet": {
+				"id": "whFhwY80xAQ"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "gestational_diabetes",
+			"created": "2019-11-18T18:39:30.376",
+			"id": "haHCDDtEFKe",
+			"lastUpdated": "2019-11-18T18:39:30.951",
+			"name": "Gestational diabetes",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "gestational_hypertension",
+			"created": "2019-11-18T18:39:14.579",
+			"id": "h7hQwUH98PG",
+			"lastUpdated": "2019-11-18T18:39:15.109",
+			"name": "Gestational hypertension",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "3",
+			"created": "2019-02-11T09:43:18.724",
+			"id": "pffFJfYwMZM",
+			"lastUpdated": "2019-02-11T09:43:19.228",
+			"name": "Health Facility",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1",
+			"created": "2019-02-11T09:42:02.185",
+			"id": "Ik6FhvipEhS",
+			"lastUpdated": "2019-02-11T09:42:02.679",
+			"name": "Home",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2",
+			"created": "2019-02-11T09:43:04.205",
+			"id": "UHlqEGnW442",
+			"lastUpdated": "2019-02-11T09:43:04.728",
+			"name": "Hospital",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "INDUSTRIAL_CONSTRUCTION_AREA",
+			"created": "2016-05-09T15:04:40.840",
+			"id": "PKoUL4XkBQ0",
+			"lastUpdated": "2018-01-17T11:58:25.799",
+			"name": "Industrial and construction area",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 7,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "SUICIDE",
+			"created": "2015-07-22T19:49:08.546",
+			"id": "zeO3sqDyTFV",
+			"lastUpdated": "2018-01-17T11:58:25.812",
+			"name": "Intentional self-harm",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 9,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Layperson",
+			"created": "2019-02-08T05:40:15.194",
+			"id": "lVYvh4nL15E",
+			"lastUpdated": "2019-02-08T05:40:15.574",
+			"name": "Layperson",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 9,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "LEGAL_INTERVENTION",
+			"created": "2015-07-10T09:17:19.485",
+			"id": "kRZTvS9hVlS",
+			"lastUpdated": "2018-01-17T11:58:25.800",
+			"name": "Legal intervention",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "MALE",
+			"created": "2016-05-21T12:26:04.313",
+			"id": "UrUdMteQzlT",
+			"lastUpdated": "2018-01-17T10:49:48.071",
+			"name": "Male",
+			"optionSet": {
+				"id": "hiQ3QFheQ3O"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "mid-wife",
+			"created": "2019-02-08T05:30:23.052",
+			"id": "eyLHLUM069r",
+			"lastUpdated": "2019-02-08T05:30:40.821",
+			"name": "Mid-wife",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NO",
+			"created": "2018-01-19T08:53:15.588",
+			"id": "PLlPgcfbL1D",
+			"lastUpdated": "2018-01-19T08:53:15.976",
+			"name": "No",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Normal/Vaginal",
+			"created": "2019-06-19T08:17:15.174",
+			"id": "dFinyQyuJ1Y",
+			"lastUpdated": "2019-06-19T08:17:15.661",
+			"name": "Normal/Vaginal",
+			"optionSet": {
+				"id": "whFhwY80xAQ"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Not stated",
+			"created": "2019-02-08T05:40:36.106",
+			"id": "w8veSxqYpev",
+			"lastUpdated": "2019-02-08T05:40:36.436",
+			"name": "Not stated",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Nurse",
+			"created": "2019-02-08T05:29:09.624",
+			"id": "uZxP7xqAbUp",
+			"lastUpdated": "2019-02-08T05:29:10.033",
+			"name": "Nurse",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Nurse,Mid-wife",
+			"created": "2019-02-08T05:29:46.865",
+			"id": "d5TcZgcm0UA",
+			"lastUpdated": "2019-02-08T05:29:47.324",
+			"name": "Nurse,Mid-wife",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Oedema",
+			"created": "2019-11-18T18:43:05.536",
+			"id": "zDVsilEcOU7",
+			"lastUpdated": "2019-11-18T18:43:06.071",
+			"name": "Oedema",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 10,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Other paramedical personnel",
+			"created": "2019-02-08T05:39:55.217",
+			"id": "menME5iZQMC",
+			"lastUpdated": "2019-02-08T05:39:55.609",
+			"name": "Other paramedical personnel",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "OTHER",
+			"created": "2016-05-09T15:05:09.579",
+			"id": "iUU4qUyXbTp",
+			"lastUpdated": "2018-01-17T11:58:25.820",
+			"name": "Other place (please specify)",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 9,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "PENDING_INVESTIGATION",
+			"created": "2015-07-10T09:17:39.423",
+			"id": "ciEEs2qflD0",
+			"lastUpdated": "2018-01-17T11:58:25.803",
+			"name": "Pending investigation",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 7,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Physician",
+			"created": "2019-02-08T05:28:57.103",
+			"id": "yuPgR28wXvi",
+			"lastUpdated": "2019-02-08T05:28:57.410",
+			"name": "Physician",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "postpartum_hemorrage",
+			"created": "2019-11-18T18:41:10.819",
+			"id": "HwY9nkIDUBC",
+			"lastUpdated": "2019-11-18T18:41:11.349",
+			"name": "Postpartum hemorrage",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Preeclampsia",
+			"created": "2019-11-18T18:38:42.576",
+			"id": "dC3K0UPsvZP",
+			"lastUpdated": "2019-11-18T18:38:43.119",
+			"name": "Preeclampsia",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "puerperal_sepsis",
+			"created": "2019-11-18T18:42:18.644",
+			"id": "AdKNPCLLR67",
+			"lastUpdated": "2019-11-18T18:42:19.161",
+			"name": "Puerperal sepsis",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "RESIDENTIAL_INSTITUTION",
+			"created": "2016-05-09T15:02:47.805",
+			"id": "PWFOQKIF3F9",
+			"lastUpdated": "2018-01-17T11:58:25.825",
+			"name": "Residential institution",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "ruptured_uterus",
+			"created": "2019-11-18T18:41:45.073",
+			"id": "K2dupfRQHml",
+			"lastUpdated": "2019-11-18T18:41:45.631",
+			"name": "Ruptured uterus",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 7,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "INSTITUTION",
+			"created": "2016-05-09T15:03:13.104",
+			"id": "iqSlGtX5sfV",
+			"lastUpdated": "2018-01-17T11:58:25.822",
+			"name": "School, other institution, public administrative area",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "seizures",
+			"created": "2019-11-18T18:43:40.318",
+			"id": "PzMj0phQC1M",
+			"lastUpdated": "2019-11-18T18:43:40.837",
+			"name": "Seizures",
+			"optionSet": {
+				"id": "X2ZZMVE1uxi"
+			},
+			"sortOrder": 11,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Singleton",
+			"created": "2019-03-19T10:22:12.163",
+			"id": "PI5gIPzRqGD",
+			"lastUpdated": "2019-03-19T10:22:12.917",
+			"name": "Singleton",
+			"optionSet": {
+				"id": "jumQ0TEDlf4"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "SPORT_ATHLETIC_AREA",
+			"created": "2016-05-09T15:03:37.283",
+			"id": "Lu6i591gB9X",
+			"lastUpdated": "2018-01-17T11:58:25.828",
+			"name": "Sports and atheltics area",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2",
+			"created": "2019-11-15T13:36:42.873",
+			"id": "UaAlak4XPrk",
+			"lastUpdated": "2019-12-13T11:10:09.119",
+			"name": "Stillbirth notification",
+			"optionSet": {
+				"id": "I90dDKWASnH"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "STREET_HIGHWAY",
+			"created": "2016-05-09T15:03:54.975",
+			"id": "bFw6DsUQRNf",
+			"lastUpdated": "2018-01-17T11:58:25.831",
+			"name": "Street and highway",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "TRADE_SERVICE_AREA",
+			"created": "2016-05-09T15:04:09.948",
+			"id": "B7Pe6xeJkxB",
+			"lastUpdated": "2018-01-17T11:58:25.815",
+			"name": "Trade and service area",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Trained mid-wife",
+			"created": "2019-02-08T05:31:07.459",
+			"id": "e8QoCve9cHZ",
+			"lastUpdated": "2019-02-08T05:31:07.873",
+			"name": "Trained mid-wife",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Triplet",
+			"created": "2019-03-19T10:22:33.475",
+			"id": "OkMHxiaozQz",
+			"lastUpdated": "2019-03-19T10:22:34.206",
+			"name": "Triplet",
+			"optionSet": {
+				"id": "jumQ0TEDlf4"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Twin",
+			"created": "2019-03-19T10:22:22.789",
+			"id": "FjhEVKfGdT2",
+			"lastUpdated": "2019-03-19T10:22:23.499",
+			"name": "Twin",
+			"optionSet": {
+				"id": "jumQ0TEDlf4"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNKNOWN",
+			"created": "2018-01-19T08:53:24.125",
+			"id": "TKD1XJ4ZhMO",
+			"lastUpdated": "2018-01-19T08:53:24.464",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4",
+			"created": "2019-02-11T09:43:45.932",
+			"id": "RLAqdiDrF7s",
+			"lastUpdated": "2019-02-11T09:43:46.483",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNKNOWN",
+			"created": "2015-07-10T09:17:53.916",
+			"id": "wsYjmgWwOxo",
+			"lastUpdated": "2018-01-17T11:58:25.813",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNKNOWN",
+			"created": "2016-05-09T15:05:17.396",
+			"id": "AsaQrcd3lBK",
+			"lastUpdated": "2018-01-17T11:58:25.803",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "uDH1pDHvFeg"
+			},
+			"sortOrder": 10,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Untrained mid-wife",
+			"created": "2019-02-08T05:39:08.752",
+			"id": "maM33cuhRbA",
+			"lastUpdated": "2019-02-08T05:39:09.171",
+			"name": "Untrained mid-wife",
+			"optionSet": {
+				"id": "gHkSQ7ti6zn"
+			},
+			"sortOrder": 7,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Vaccum",
+			"created": "2019-06-19T08:17:47.408",
+			"id": "GVZezcObHOg",
+			"lastUpdated": "2019-06-19T08:17:48.016",
+			"name": "Vaccum",
+			"optionSet": {
+				"id": "whFhwY80xAQ"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "WAR",
+			"created": "2015-07-10T09:17:25.783",
+			"id": "r57vOGfE21v",
+			"lastUpdated": "2018-01-17T11:58:25.813",
+			"name": "War",
+			"optionSet": {
+				"id": "pDIfKQVivxg"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "YES",
+			"created": "2018-01-19T08:53:10.604",
+			"id": "CvivP1rh4ii",
+			"lastUpdated": "2018-01-19T08:53:10.843",
+			"name": "Yes",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"sortOrder": 1,
+			"translations": []
+		}
+	],
+	"optionSets": [
+		{
+			"attributeValues": [],
+			"created": "2019-02-08T05:28:08.893",
+			"id": "gHkSQ7ti6zn",
+			"lastUpdated": "2019-02-08T05:41:24.113",
+			"name": "Attendant type_Birth Registration",
+			"options": [
+				{
+					"id": "yuPgR28wXvi"
+				},
+				{
+					"id": "uZxP7xqAbUp"
+				},
+				{
+					"id": "eyLHLUM069r"
+				},
+				{
+					"id": "d5TcZgcm0UA"
+				},
+				{
+					"id": "w8veSxqYpev"
+				},
+				{
+					"id": "e8QoCve9cHZ"
+				},
+				{
+					"id": "maM33cuhRbA"
+				},
+				{
+					"id": "menME5iZQMC"
+				},
+				{
+					"id": "lVYvh4nL15E"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 9
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-03-19T10:21:59.412",
+			"id": "jumQ0TEDlf4",
+			"lastUpdated": "2019-03-19T10:22:34.818",
+			"name": "Birth type",
+			"options": [
+				{
+					"id": "PI5gIPzRqGD"
+				},
+				{
+					"id": "FjhEVKfGdT2"
+				},
+				{
+					"id": "OkMHxiaozQz"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 3
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-09-12T07:17:17.455",
+			"id": "I90dDKWASnH",
+			"lastUpdated": "2019-11-15T13:36:50.425",
+			"name": "CRVS Registration Reason",
+			"options": [
+				{
+					"id": "QtzA2lPs00W"
+				},
+				{
+					"id": "UaAlak4XPrk"
+				},
+				{
+					"id": "ZCVuCbNBS2G"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"version": 4
+		},
+		{
+			"attributeValues": [],
+			"code": "MANNER_DEATH",
+			"created": "2015-07-10T09:16:25.741",
+			"id": "pDIfKQVivxg",
+			"lastUpdated": "2018-01-19T11:23:27.232",
+			"name": "Manner of death",
+			"options": [
+				{
+					"id": "Zatxo2j4Kql"
+				},
+				{
+					"id": "w5qZmtMqg3u"
+				},
+				{
+					"id": "WFOf5o58rjI"
+				},
+				{
+					"id": "um5ga0rMkEF"
+				},
+				{
+					"id": "kRZTvS9hVlS"
+				},
+				{
+					"id": "r57vOGfE21v"
+				},
+				{
+					"id": "ciEEs2qflD0"
+				},
+				{
+					"id": "wsYjmgWwOxo"
+				},
+				{
+					"id": "zeO3sqDyTFV"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 2
+		},
+		{
+			"attributeValues": [],
+			"code": "mode_of_delivery",
+			"created": "2019-06-19T08:17:03.764",
+			"id": "whFhwY80xAQ",
+			"lastUpdated": "2019-06-19T08:18:00.088",
+			"name": "Mode of delivery",
+			"options": [
+				{
+					"id": "dFinyQyuJ1Y"
+				},
+				{
+					"id": "pk64y81lEHx"
+				},
+				{
+					"id": "GVZezcObHOg"
+				},
+				{
+					"id": "TVfk2dEadNX"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 4
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-02-11T09:41:19.277",
+			"id": "XMgz6JFoCLc",
+			"lastUpdated": "2019-11-14T16:53:31.608",
+			"name": "Place of Birth_crvs",
+			"options": [
+				{
+					"id": "Ik6FhvipEhS"
+				},
+				{
+					"id": "UHlqEGnW442"
+				},
+				{
+					"id": "pffFJfYwMZM"
+				},
+				{
+					"id": "RLAqdiDrF7s"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER",
+			"version": 5
+		},
+		{
+			"attributeValues": [],
+			"code": "PLACE_OCCURENCE",
+			"created": "2016-05-09T15:02:14.441",
+			"id": "uDH1pDHvFeg",
+			"lastUpdated": "2018-01-19T11:23:27.288",
+			"name": "Place of occurence",
+			"options": [
+				{
+					"id": "ZMqaCN4pmF5"
+				},
+				{
+					"id": "PWFOQKIF3F9"
+				},
+				{
+					"id": "iqSlGtX5sfV"
+				},
+				{
+					"id": "Lu6i591gB9X"
+				},
+				{
+					"id": "bFw6DsUQRNf"
+				},
+				{
+					"id": "B7Pe6xeJkxB"
+				},
+				{
+					"id": "PKoUL4XkBQ0"
+				},
+				{
+					"id": "WKOoJIN0fgN"
+				},
+				{
+					"id": "iUU4qUyXbTp"
+				},
+				{
+					"id": "AsaQrcd3lBK"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 2
+		},
+		{
+			"attributeValues": [],
+			"code": "Pregnancy_Complications",
+			"created": "2019-11-18T18:38:19.104",
+			"id": "X2ZZMVE1uxi",
+			"lastUpdated": "2019-11-18T18:44:35.122",
+			"name": "Pregnancy Complications",
+			"options": [
+				{
+					"id": "dC3K0UPsvZP"
+				},
+				{
+					"id": "esvvGOtDTnC"
+				},
+				{
+					"id": "h7hQwUH98PG"
+				},
+				{
+					"id": "haHCDDtEFKe"
+				},
+				{
+					"id": "X5kNRtypjK3"
+				},
+				{
+					"id": "HwY9nkIDUBC"
+				},
+				{
+					"id": "K2dupfRQHml"
+				},
+				{
+					"id": "AdKNPCLLR67"
+				},
+				{
+					"id": "xsAYGVGuZ24"
+				},
+				{
+					"id": "zDVsilEcOU7"
+				},
+				{
+					"id": "PzMj0phQC1M"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 11
+		},
+		{
+			"attributeValues": [],
+			"created": "2016-05-21T12:25:50.167",
+			"id": "hiQ3QFheQ3O",
+			"lastUpdated": "2019-06-19T07:24:17.121",
+			"name": "Sex",
+			"options": [
+				{
+					"id": "UrUdMteQzlT"
+				},
+				{
+					"id": "AZK4rjJCss5"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 1
+		},
+		{
+			"attributeValues": [],
+			"code": "YES_NO_UNKNOWN",
+			"created": "2014-12-18T22:42:07.435",
+			"id": "bLA3AqDKdwx",
+			"lastUpdated": "2018-01-19T13:43:24.039",
+			"name": "Yes/No/Unknown",
+			"options": [
+				{
+					"id": "CvivP1rh4ii"
+				},
+				{
+					"id": "PLlPgcfbL1D"
+				},
+				{
+					"id": "TKD1XJ4ZhMO"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 3
+		}
+	],
+	"package": "BRN_TRACKER_V1.0.0_DHIS2.31_2019-12-23T10:49",
+	"programIndicators": [
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.521",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "RAszRJyuEbi",
+					"lastUpdated": "2019-11-15T17:33:13.299",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.520",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ZpwrLYGftLe",
+					"lastUpdated": "2019-11-15T17:33:13.299",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2019-11-15T17:33:00.965",
+			"description": "All birth notifications",
+			"displayInForm": false,
+			"expression": "V{tei_count}",
+			"filter": "V{program_stage_id} == 'OwdV5tSOMSv'",
+			"id": "njYG9Zaszqs",
+			"lastUpdated": "2019-11-15T17:33:13.297",
+			"legendSets": [],
+			"name": "CRVS_Birth_All Notification",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"publicAccess": "r-------",
+			"shortName": "CRVS_All birth notification",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.521",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "M4HNTjt9f43",
+					"lastUpdated": "2019-11-15T17:19:25.330",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.520",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zBp0CjKfNWj",
+					"lastUpdated": "2019-11-15T17:19:25.330",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2019-11-15T17:03:36.395",
+			"description": "Notification confirmed between 2 and 12 months from birth",
+			"displayInForm": false,
+			"expression": "V{tei_count}",
+			"filter": "(d2:monthsBetween(A{BiTsLcJQ95V}, V{enrollment_date})>= 2) &&\n(d2:monthsBetween(A{BiTsLcJQ95V}, V{enrollment_date})< 12) &&\nV{program_stage_id} == 'OwdV5tSOMSv'",
+			"id": "kHmMmO2Uu68",
+			"lastUpdated": "2019-11-15T17:19:25.330",
+			"legendSets": [],
+			"name": "CRVS_Birth_Delayed Notification",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"publicAccess": "r-------",
+			"shortName": "CRVS_Delayed birth notification",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.521",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PGvdt2lDVJe",
+					"lastUpdated": "2019-11-15T17:08:19.293",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.520",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "muT5xaGLNeg",
+					"lastUpdated": "2019-11-15T17:08:19.292",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2019-11-15T16:57:38.311",
+			"description": "Notification confirmed at or after 12 months from birth",
+			"displayInForm": false,
+			"expression": "V{tei_count}",
+			"filter": "(d2:monthsBetween(A{BiTsLcJQ95V}, V{enrollment_date})>= 12) &&\nV{program_stage_id} == 'OwdV5tSOMSv'",
+			"id": "abkr7XSUWnv",
+			"lastUpdated": "2019-11-15T17:08:19.292",
+			"legendSets": [],
+			"name": "CRVS_Birth_Late Notification",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"publicAccess": "r-------",
+			"shortName": "CRVS_Late birth notification",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.521",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jgWSBTE8YaS",
+					"lastUpdated": "2019-11-15T17:08:10.671",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2019-03-19T05:41:50.520",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "AT2guccip2x",
+					"lastUpdated": "2019-11-15T17:08:10.671",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2019-11-15T17:08:10.671",
+			"description": "Notification confirmed under 2 months from birth",
+			"displayInForm": false,
+			"expression": "V{tei_count}",
+			"filter": "(d2:monthsBetween(A{BiTsLcJQ95V}, V{enrollment_date})<= 2) &&\nV{program_stage_id} == 'OwdV5tSOMSv'",
+			"id": "IHvWVDtS8v3",
+			"lastUpdated": "2019-11-15T17:08:10.671",
+			"legendSets": [],
+			"name": "CRVS_Birth_Timely Notification",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"publicAccess": "r-------",
+			"shortName": "CRVS_Timely birth notification",
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"programNotificationTemplates": [
+		{
+			"created": "2019-11-15T21:12:57.076",
+			"deliveryChannels": [
+				"SMS"
+			],
+			"id": "UKBdxfRrwaT",
+			"lastUpdated": "2019-11-15T22:54:59.277",
+			"messageTemplate": "Hello, V{org_unit_name} has notified the CRVS system of the birth of A{TfdH5KvFmMy}. Please take the next steps to get the details approved by the authorized personnel in the civil registration system in order to get a birth certificate.",
+			"name": "SMS: Notify mother if birth notification has been sent to CRVS",
+			"notificationRecipient": "PROGRAM_ATTRIBUTE",
+			"notificationTrigger": "PROGRAM_RULE",
+			"recipientProgramAttribute": {
+				"id": "pjexi5YaAPa"
+			},
+			"subjectTemplate": "Birth notification sent to CRVS"
+		},
+		{
+			"created": "2019-11-15T21:17:44.727",
+			"deliveryChannels": [
+				"SMS"
+			],
+			"id": "IZve4PA5htG",
+			"lastUpdated": "2019-11-15T22:54:59.277",
+			"messageTemplate": "We're sorry for your loss. V{org_unit_name} has notified the CRVS system of the death of A{TfdH5KvFmMy}. Please take the next steps to get the details approved by the authorized personnel in the civil registration system in order to get a death certificate.",
+			"name": "SMS: Notify mother if death notification has been sent to CRVS",
+			"notificationRecipient": "PROGRAM_ATTRIBUTE",
+			"notificationTrigger": "ENROLLMENT",
+			"recipientProgramAttribute": {
+				"id": "pjexi5YaAPa"
+			},
+			"subjectTemplate": "Death notification sent to CRVS"
+		},
+		{
+			"created": "2019-11-15T22:24:56.419",
+			"deliveryChannels": [],
+			"id": "bDCzFFfjRDG",
+			"lastUpdated": "2019-11-15T22:53:48.427",
+			"messageTemplate": "Hello, Birth Notification for A{TfdH5KvFmMy} has been completed at V{org_unit_name}. Please review the table \"Birth Details from  Births, Stillbirth and Death Notification for CRVS.\"",
+			"name": "System: Birth notification",
+			"notificationRecipient": "USER_GROUP",
+			"notificationTrigger": "PROGRAM_RULE",
+			"recipientUserGroup": {
+				"id": "LPrZIVYQGUv"
+			},
+			"subjectTemplate": "Birth notification of A{KSr2yTdu1AI}"
+		},
+		{
+			"created": "2019-11-15T22:53:48.412",
+			"deliveryChannels": [],
+			"id": "g0UraypSj3K",
+			"lastUpdated": "2019-11-15T22:53:48.412",
+			"messageTemplate": "Hello, Death Notification for A{KSr2yTdu1AI} has been completed at V{org_unit_name}. Please review the details in the table “Deaths from Births, Stillbirth and Death Notification for CRVS”",
+			"name": "System: Death notification",
+			"notificationRecipient": "USER_GROUP",
+			"notificationTrigger": "PROGRAM_RULE",
+			"recipientUserGroup": {
+				"id": "LPrZIVYQGUv"
+			},
+			"subjectTemplate": "Death notification of A{KSr2yTdu1AI}"
+		},
+		{
+			"created": "2019-11-15T22:53:48.412",
+			"deliveryChannels": [],
+			"id": "Yo5VwsVj5eA",
+			"lastUpdated": "2019-11-15T22:53:48.412",
+			"messageTemplate": "Hello, Stillbirth Notification for A{KSr2yTdu1AI} has been completed at V{org_unit_name}. Please review the details in the table “Stillbirths from Births, Stillbirth and Death Notification for CRVS”",
+			"name": "System: Stillbirth notification",
+			"notificationRecipient": "USER_GROUP",
+			"notificationTrigger": "PROGRAM_RULE",
+			"recipientUserGroup": {
+				"id": "LPrZIVYQGUv"
+			},
+			"subjectTemplate": "Stillbirth notification of A{KSr2yTdu1AI}"
+		}
+	],
+	"programRuleActions": [
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "pULGzKpaWFc",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "pqM2VmAUQHs"
+			}
+		},
+		{
+			"content": "Please enter the Mother's first name",
+			"created": "2019-11-15T15:40:48.549",
+			"id": "lkcADo51Svb",
+			"lastUpdated": "2019-11-18T16:31:31.530",
+			"programRule": {
+				"id": "inkgC4XlUnw"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"trackedEntityAttribute": {
+				"id": "TfdH5KvFmMy"
+			}
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "Ig3Qp1NNcfx",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "pjexi5YaAPa"
+			}
+		},
+		{
+			"created": "2019-11-14T16:49:39.579",
+			"dataElement": {
+				"id": "cCQRaVSSOsY"
+			},
+			"id": "SD8jeHqFpIZ",
+			"lastUpdated": "2019-11-14T17:20:56.506",
+			"programRule": {
+				"id": "YDU4T3NmJ2N"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2019-11-15T14:12:43.612",
+			"id": "qgkat4C6DhH",
+			"lastUpdated": "2019-11-15T15:40:13.166",
+			"programRule": {
+				"id": "YEG683DntmC"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "CklPZdOd6H1"
+			}
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "Ya4UhWPXIvA",
+			"lastUpdated": "2019-11-17T11:05:40.176",
+			"programRule": {
+				"id": "RVugP0Eg25V"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "SvRj2LWkBcd"
+			}
+		},
+		{
+			"content": "Please enter the Mother's last name",
+			"created": "2019-11-15T15:40:48.549",
+			"id": "nkVWSJdnrKq",
+			"lastUpdated": "2019-11-18T16:31:49.243",
+			"programRule": {
+				"id": "V2a7oNVeB0e"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"trackedEntityAttribute": {
+				"id": "aW66s2QSosT"
+			}
+		},
+		{
+			"content": "Please make sure this page is the mother's information",
+			"created": "2019-11-15T14:12:43.612",
+			"id": "XjDJk4wqpKz",
+			"lastUpdated": "2019-11-15T15:40:13.166",
+			"programRule": {
+				"id": "YEG683DntmC"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"trackedEntityAttribute": {
+				"id": "ArHk8hosBBh"
+			}
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "UhyFS5yzVSU",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "REKKDPw0FMM"
+			}
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "cxUPHcjxBq5",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "CklPZdOd6H1"
+			}
+		},
+		{
+			"created": "2019-06-17T14:59:41.276",
+			"data": "V{current_date}",
+			"id": "UKHMYLgJPuR",
+			"lastUpdated": "2019-11-17T11:26:49.130",
+			"programRule": {
+				"id": "lfvMzu9qgc6"
+			},
+			"programRuleActionType": "SENDMESSAGE",
+			"templateUid": "g0UraypSj3K"
+		},
+		{
+			"content": "The weight is out of normal range. Please check.",
+			"created": "2019-11-14T16:15:01.013",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"id": "wEUUKonvYqB",
+			"lastUpdated": "2019-11-14T17:11:29.773",
+			"programRule": {
+				"id": "MGcrpjHlgkK"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "lp0Uo8KMnRy",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "jD1NGmSntCt"
+			}
+		},
+		{
+			"content": "The gestational age is out of normal range. Please check.",
+			"created": "2019-11-14T16:15:01.013",
+			"dataElement": {
+				"id": "SaCLndgg6On"
+			},
+			"id": "LSmDlDvCTBT",
+			"lastUpdated": "2019-11-15T13:24:42.700",
+			"programRule": {
+				"id": "qtlg4FzDLKH"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "MwPkRSPJCxl",
+			"lastUpdated": "2019-12-20T13:50:17.890",
+			"programRule": {
+				"id": "VtcYL96BdJl"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "pjexi5YaAPa"
+			}
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "bXkEfFfsoms",
+			"lastUpdated": "2019-11-17T11:05:40.176",
+			"programRule": {
+				"id": "RVugP0Eg25V"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "qEedHpgzYyU"
+			}
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "jq6gd58cvnZ",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "EpbquVl5OD6"
+			}
+		},
+		{
+			"created": "2019-11-15T16:24:34.571",
+			"id": "G2IKz9MFc7E",
+			"lastUpdated": "2019-11-15T16:25:00.291",
+			"programRule": {
+				"id": "JPwE1xnF3MC"
+			},
+			"programRuleActionType": "HIDEPROGRAMSTAGE",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			}
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "TutJq1j6Fn3",
+			"lastUpdated": "2019-11-17T11:05:40.176",
+			"programRule": {
+				"id": "RVugP0Eg25V"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "H1x8iE0vgez"
+			}
+		},
+		{
+			"created": "2019-11-15T16:24:34.571",
+			"id": "AwPsAP1KKTv",
+			"lastUpdated": "2019-11-15T16:25:19.456",
+			"programRule": {
+				"id": "EVtlex7WPTY"
+			},
+			"programRuleActionType": "HIDEPROGRAMSTAGE",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			}
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "Qadx9VXZ0Od",
+			"lastUpdated": "2019-11-17T11:05:40.176",
+			"programRule": {
+				"id": "RVugP0Eg25V"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "WnWf8rKBoHa"
+			}
+		},
+		{
+			"created": "2019-11-14T16:49:39.579",
+			"dataElement": {
+				"id": "RTA1VXtS6r1"
+			},
+			"id": "S01sTVesayK",
+			"lastUpdated": "2019-11-14T17:23:36.637",
+			"programRule": {
+				"id": "jIqxcCTGf50"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "cKtXQpNcOZB",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "ftFBu8mHZ4H"
+			}
+		},
+		{
+			"content": "The gestational age is too high! Please check if this is correct value.",
+			"created": "2019-11-14T16:15:01.013",
+			"dataElement": {
+				"id": "SaCLndgg6On"
+			},
+			"id": "mtutSWmPl6c",
+			"lastUpdated": "2019-11-15T13:23:18.936",
+			"programRule": {
+				"id": "pmz9r78rLd7"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "ELF17k7RsRY",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "TfdH5KvFmMy"
+			}
+		},
+		{
+			"content": "Weight is very low. Are you sure this weight in grams is correct?  ",
+			"created": "2019-11-14T16:15:01.013",
+			"data": "#{birthWeight}",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"id": "X5P1uzJeoqt",
+			"lastUpdated": "2019-11-14T16:17:24.862",
+			"programRule": {
+				"id": "nPj5SvUMdU7"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"created": "2019-11-15T14:12:43.612",
+			"id": "sOUHjFtjyzw",
+			"lastUpdated": "2019-11-15T15:40:13.166",
+			"programRule": {
+				"id": "YEG683DntmC"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "pqM2VmAUQHs"
+			}
+		},
+		{
+			"created": "2019-06-17T14:59:41.276",
+			"data": "V{current_date}",
+			"id": "gsqnyQPF4r9",
+			"lastUpdated": "2019-11-17T11:26:26.313",
+			"programRule": {
+				"id": "OeN1FOclhxA"
+			},
+			"programRuleActionType": "SENDMESSAGE",
+			"templateUid": "Yo5VwsVj5eA"
+		},
+		{
+			"created": "2019-06-17T14:59:41.276",
+			"data": "V{current_date}",
+			"id": "sLl1nrONXoi",
+			"lastUpdated": "2019-11-17T11:20:16.412",
+			"programRule": {
+				"id": "SQ1B5trsDgH"
+			},
+			"programRuleActionType": "SENDMESSAGE",
+			"templateUid": "bDCzFFfjRDG"
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "YHv6cBSDEAT",
+			"lastUpdated": "2019-12-20T13:50:17.890",
+			"programRule": {
+				"id": "VtcYL96BdJl"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "EpbquVl5OD6"
+			}
+		},
+		{
+			"created": "2019-06-17T14:59:41.276",
+			"data": "V{current_date}",
+			"id": "RcLLVLDjr4x",
+			"lastUpdated": "2019-11-15T21:44:04.102",
+			"programRule": {
+				"id": "kvkzq9E5XsC"
+			},
+			"programRuleActionType": "SENDMESSAGE",
+			"templateUid": "IZve4PA5htG"
+		},
+		{
+			"created": "2019-11-17T11:05:40.176",
+			"id": "uZzhWBOKWOJ",
+			"lastUpdated": "2019-12-20T13:50:17.890",
+			"programRule": {
+				"id": "VtcYL96BdJl"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "ftFBu8mHZ4H"
+			}
+		},
+		{
+			"created": "2019-11-15T16:24:34.571",
+			"id": "bgI7Aqzvzyp",
+			"lastUpdated": "2019-11-15T16:24:34.571",
+			"programRule": {
+				"id": "eto8FOmUpRM"
+			},
+			"programRuleActionType": "HIDEPROGRAMSTAGE",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			}
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "kduvsg498Xm",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "aW66s2QSosT"
+			}
+		},
+		{
+			"content": "Weight is very high. Are you sure this weight in grams is correct?  ",
+			"created": "2019-11-14T16:15:01.013",
+			"data": "#{birthWeight}",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"id": "Q7lpNj8wJtc",
+			"lastUpdated": "2019-11-14T17:12:05.442",
+			"programRule": {
+				"id": "Uwz4JO0JExK"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"created": "2019-11-17T11:00:25.189",
+			"id": "CAHRyTNt8Rs",
+			"lastUpdated": "2019-11-17T11:07:10.493",
+			"programRule": {
+				"id": "qNtxXzMj1oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"trackedEntityAttribute": {
+				"id": "ttjZl7jvrRj"
+			}
+		},
+		{
+			"created": "2019-06-17T14:59:41.276",
+			"data": "V{current_date}",
+			"id": "tD47yVSqV16",
+			"lastUpdated": "2019-11-15T21:43:16.482",
+			"programRule": {
+				"id": "PSPx9hqRzdi"
+			},
+			"programRuleActionType": "SENDMESSAGE",
+			"templateUid": "UKBdxfRrwaT"
+		}
+	],
+	"programRules": [
+		{
+			"condition": "A{Reason_for_CRVS_registration} == ''",
+			"created": "2019-11-17T11:00:25.258",
+			"id": "qNtxXzMj1oo",
+			"lastUpdated": "2019-11-17T11:07:10.571",
+			"name": "Hide all attributes unless notification type is answered",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "pULGzKpaWFc"
+				},
+				{
+					"id": "jq6gd58cvnZ"
+				},
+				{
+					"id": "Ig3Qp1NNcfx"
+				},
+				{
+					"id": "cKtXQpNcOZB"
+				},
+				{
+					"id": "ELF17k7RsRY"
+				},
+				{
+					"id": "UhyFS5yzVSU"
+				},
+				{
+					"id": "cxUPHcjxBq5"
+				},
+				{
+					"id": "kduvsg498Xm"
+				},
+				{
+					"id": "CAHRyTNt8Rs"
+				},
+				{
+					"id": "lp0Uo8KMnRy"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} == 2 || A{Reason_for_CRVS_registration} == '2' || A{Reason_for_CRVS_registration} == 'Stillbirth registration'",
+			"created": "2019-11-15T14:02:33.095",
+			"id": "YEG683DntmC",
+			"lastUpdated": "2019-11-15T15:40:13.227",
+			"name": "Hide Birth and death attributes if reason is stillbirth",
+			"priority": 1,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "sOUHjFtjyzw"
+				},
+				{
+					"id": "qgkat4C6DhH"
+				},
+				{
+					"id": "XjDJk4wqpKz"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} != 1",
+			"created": "2019-11-15T16:25:00.335",
+			"id": "JPwE1xnF3MC",
+			"lastUpdated": "2019-11-15T16:25:00.335",
+			"name": "Hide Birth stage if reason for registration is not birth",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "G2IKz9MFc7E"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} != 3",
+			"created": "2019-11-15T16:25:19.499",
+			"id": "EVtlex7WPTY",
+			"lastUpdated": "2019-11-15T16:25:19.499",
+			"name": "Hide Death stage if reason for registration is not death",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "AwPsAP1KKTv"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "!d2:hasValue('birthPlace')  || #{birthPlace} == 1 || #{birthPlace} == 4",
+			"created": "2019-11-14T16:49:39.623",
+			"id": "jIqxcCTGf50",
+			"lastUpdated": "2019-11-14T17:23:36.701",
+			"name": "Hide facility of birth unless birth was at facility or hospital",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "S01sTVesayK"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} != 2",
+			"created": "2019-11-17T11:05:40.228",
+			"id": "RVugP0Eg25V",
+			"lastUpdated": "2019-11-17T11:05:40.228",
+			"name": "Hide Husband/caregiver's attributes unless reason is Still birth notification",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "TutJq1j6Fn3"
+				},
+				{
+					"id": "Qadx9VXZ0Od"
+				},
+				{
+					"id": "bXkEfFfsoms"
+				},
+				{
+					"id": "Ya4UhWPXIvA"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} = 2",
+			"created": "2019-12-20T13:47:49.276",
+			"id": "VtcYL96BdJl",
+			"lastUpdated": "2019-12-20T13:50:17.954",
+			"name": "Hide Mother/caregiver's attributes if reason is Still birth notification",
+			"priority": 1,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "MwPkRSPJCxl"
+				},
+				{
+					"id": "YHv6cBSDEAT"
+				},
+				{
+					"id": "uZzhWBOKWOJ"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} != 2",
+			"created": "2019-11-15T16:24:34.612",
+			"id": "eto8FOmUpRM",
+			"lastUpdated": "2019-11-15T16:24:34.612",
+			"name": "Hide stillbirth stage if reason for registration is not stillbirth",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "bgI7Aqzvzyp"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{birthPlace} != 1",
+			"created": "2019-11-14T16:50:21.077",
+			"id": "YDU4T3NmJ2N",
+			"lastUpdated": "2019-11-14T17:20:56.570",
+			"name": "Hide village of birth unless birth was at home",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "SD8jeHqFpIZ"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} == 2",
+			"created": "2019-11-15T15:40:48.590",
+			"id": "inkgC4XlUnw",
+			"lastUpdated": "2019-11-18T16:31:31.596",
+			"name": "Show warning to enter mother's first name if registration reason is stillbirth",
+			"priority": 1,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "lkcADo51Svb"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "A{Reason_for_CRVS_registration} == 2",
+			"created": "2019-11-18T16:29:10.379",
+			"id": "V2a7oNVeB0e",
+			"lastUpdated": "2019-11-18T16:31:49.303",
+			"name": "Show warning to enter mother's last name if registration reason is stillbirth",
+			"priority": 1,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "nkVWSJdnrKq"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "(A{Reason_for_CRVS_registration} == 1 || #{Reason_for_registration_VAR} == 'Birth registration') && d2:hasValue('motherContactNumb')",
+			"created": "2019-11-15T21:43:16.526",
+			"id": "PSPx9hqRzdi",
+			"lastUpdated": "2019-11-15T21:43:16.526",
+			"name": "SMS: Notify mother when birth notification sent to CRVS",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "tD47yVSqV16"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "(A{Reason_for_CRVS_registration} == 3 || #{Reason_for_registration_VAR} == 'Death registration') && d2:hasValue('motherContactNumb')",
+			"created": "2019-11-15T21:44:04.166",
+			"id": "kvkzq9E5XsC",
+			"lastUpdated": "2019-11-15T21:44:04.166",
+			"name": "SMS: Notify mother when death notification sent to CRVS",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "RcLLVLDjr4x"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "V{event_date} != ''",
+			"created": "2019-11-15T10:25:00.012",
+			"id": "SQ1B5trsDgH",
+			"lastUpdated": "2019-11-17T11:20:16.481",
+			"name": "System: Send birth notification to CRVS",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "sLl1nrONXoi"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{mannerOfDeath} != ''",
+			"created": "2019-11-15T21:39:05.767",
+			"id": "lfvMzu9qgc6",
+			"lastUpdated": "2019-11-17T11:26:49.188",
+			"name": "System: Send death notification to CRVS",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "UKHMYLgJPuR"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{deliveryDate} != ''",
+			"created": "2019-11-15T21:39:44.476",
+			"id": "OeN1FOclhxA",
+			"lastUpdated": "2019-11-17T11:26:26.376",
+			"name": "System: Send stillbirth notification to CRVS",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "gsqnyQPF4r9"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "((#{birthWeight} < 2500 && #{birthWeight} >= 400) || ( #{birthWeight} <= 10000 && #{birthWeight} > 4500)) && d2:hasValue('birthWeight')",
+			"created": "2019-11-14T16:15:01.055",
+			"id": "MGcrpjHlgkK",
+			"lastUpdated": "2019-11-14T17:11:29.835",
+			"name": "Val: Abnormal birth weight < 2500g or > 7000g (soft)",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "wEUUKonvYqB"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "((#{birthGestAge} <= 28) || (#{birthGestAge} < 50 && #{birthGestAge} > 42)) && d2:hasValue('birthGestAge')",
+			"created": "2019-11-15T13:20:44.989",
+			"id": "qtlg4FzDLKH",
+			"lastUpdated": "2019-11-15T13:24:42.757",
+			"name": "Val: Gestational Age at birth 0-28 weeks or 42-49 weeks (soft)",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "LSmDlDvCTBT"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{birthGestAge} >= 50 && d2:hasValue('birthGestAge')",
+			"created": "2019-11-15T13:23:18.977",
+			"id": "pmz9r78rLd7",
+			"lastUpdated": "2019-11-15T13:23:18.977",
+			"name": "Val: Gestational Age at birth >= 50 w (hard)",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "mtutSWmPl6c"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{birthWeight} > 10000 && d2:hasValue('birthWeight')",
+			"created": "2019-11-14T16:17:38.603",
+			"id": "Uwz4JO0JExK",
+			"lastUpdated": "2019-11-14T17:12:05.500",
+			"name": "Val: High birth weight > 10000g (hard)",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "Q7lpNj8wJtc"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{birthWeight} < 400 && d2:hasValue('birthWeight')",
+			"created": "2019-11-14T16:17:03.132",
+			"id": "nPj5SvUMdU7",
+			"lastUpdated": "2019-11-14T16:17:24.926",
+			"name": "Val: Low birth weight < 400g (hard)",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleActions": [
+				{
+					"id": "X5P1uzJeoqt"
+				}
+			],
+			"translations": []
+		}
+	],
+	"programRuleVariables": [
+		{
+			"created": "2019-11-15T13:14:17.813",
+			"dataElement": {
+				"id": "SaCLndgg6On"
+			},
+			"id": "VbQ5UT54qBI",
+			"lastUpdated": "2019-11-15T13:14:17.813",
+			"name": "birthGestAge",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-14T16:45:44.383",
+			"dataElement": {
+				"id": "ABhkInP0wGY"
+			},
+			"id": "Ih0c0cXMM1k",
+			"lastUpdated": "2019-11-14T16:47:40.467",
+			"name": "birthPlace",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2019-11-14T16:10:18.531",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"id": "Yl1z3ujUG53",
+			"lastUpdated": "2019-11-14T16:10:18.531",
+			"name": "birthWeight",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-17T11:23:34.100",
+			"dataElement": {
+				"id": "f95m3KTUK3t"
+			},
+			"id": "DyNVSryNF3q",
+			"lastUpdated": "2019-11-17T11:23:34.100",
+			"name": "deliveryDate",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-17T11:23:13.366",
+			"dataElement": {
+				"id": "GwzGtLQTt31"
+			},
+			"id": "CY10uoN9PbW",
+			"lastUpdated": "2019-11-17T11:23:13.366",
+			"name": "mannerOfDeath",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-15T21:42:07.011",
+			"id": "QZRRIL1bPEu",
+			"lastUpdated": "2019-11-15T21:42:07.011",
+			"name": "motherContactNumb",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "pjexi5YaAPa"
+			},
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-17T11:34:07.400",
+			"id": "XlpfzRGO0mT",
+			"lastUpdated": "2019-11-17T11:34:07.400",
+			"name": "motherName",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "ftFBu8mHZ4H"
+			},
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-11-15T10:18:19.184",
+			"id": "aGQZWYM58n9",
+			"lastUpdated": "2019-11-15T22:46:15.508",
+			"name": "nationalID",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "jD1NGmSntCt"
+			},
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2019-09-12T07:33:13.919",
+			"id": "L36osGHulz1",
+			"lastUpdated": "2019-11-15T22:03:33.568",
+			"name": "Reason_for_CRVS_registration",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "ArHk8hosBBh"
+			},
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2019-11-15T15:05:49.770",
+			"id": "KBdXIYDMpfB",
+			"lastUpdated": "2019-11-15T15:05:49.770",
+			"name": "Reason_for_registration_VAR",
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programRuleVariableSourceType": "CALCULATED_VALUE",
+			"useCodeForOptionSet": true
+		}
+	],
+	"programs": [
+		{
+			"accessLevel": "PROTECTED",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"completeEventsExpiryDays": 0,
+			"created": "2019-09-12T06:48:23.861",
+			"description": "A simple form for capturing birth and death details that can be shared with CRVS systems",
+			"displayFrontPageList": true,
+			"displayIncidentDate": true,
+			"enrollmentDateLabel": "Date of data entry",
+			"expiryDays": 0,
+			"featureType": "NONE",
+			"id": "FTBBLOT3sO7",
+			"ignoreOverdueEvents": false,
+			"lastUpdated": "2019-12-20T13:44:06.952",
+			"maxTeiCountToReturn": 20,
+			"minAttributesRequiredToSearch": 2,
+			"name": "Birth, Stillbirth, and Death Notification for CRVS",
+			"notificationTemplates": [
+				{
+					"id": "UKBdxfRrwaT"
+				},
+				{
+					"id": "IZve4PA5htG"
+				}
+			],
+			"onlyEnrollOnce": false,
+			"organisationUnits": [],
+			"programSections": [],
+			"programStages": [
+				{
+					"id": "MQ4RsqkDlLM"
+				},
+				{
+					"id": "OwdV5tSOMSv"
+				},
+				{
+					"id": "SjC6EZvwPKs"
+				},
+				{
+					"id": "wTAeBwb4gse"
+				}
+			],
+			"programTrackedEntityAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-11-15T13:39:56.796",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS CRVS_Registration_Reason",
+					"displayShortName": "CRVS_Birth_Death CRVS_Registration_Reason",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ngwAlAF4YAe",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS CRVS_Registration_Reason",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 1,
+					"trackedEntityAttribute": {
+						"id": "ArHk8hosBBh"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "NUMBER"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.663",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Date of Birth (if known)",
+					"displayShortName": "CRVS_Birth_Death Date of Birth",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "sNYNGQQUtz4",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Date of Birth (if known)",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 7,
+					"trackedEntityAttribute": {
+						"id": "REKKDPw0FMM"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "DATE"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.663",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS First name",
+					"displayShortName": "CRVS_Birth_Death First name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "KskeUiSPQTt",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": true,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS First name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 4,
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-11-14T16:26:19.898",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Gender",
+					"displayShortName": "CRVS_Birth_Death Gender",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "h2mMZ2fB3g1",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Gender",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 6,
+					"trackedEntityAttribute": {
+						"id": "CklPZdOd6H1"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-12-20T13:44:06.828",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Husband's/Caregiver's ID",
+					"displayShortName": "CRVS_Birth_Death Husband's/Caregiver's ID",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lD7ANdY7G5E",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Husband's/Caregiver's ID",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 12,
+					"trackedEntityAttribute": {
+						"id": "SvRj2LWkBcd"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-12-20T13:44:06.828",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's contact number",
+					"displayShortName": "CRVS_Birth_Death Husband/Caregiver's contact number",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "MmVUuR9077f",
+					"lastUpdated": "2019-12-20T13:44:06.957",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's contact number",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 15,
+					"trackedEntityAttribute": {
+						"id": "qEedHpgzYyU"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "PHONE_NUMBER"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-12-20T13:44:06.828",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's first name",
+					"displayShortName": "CRVS_Birth_Death Husband/Caregiver's first name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uQXTP9WA4cF",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's first name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 13,
+					"trackedEntityAttribute": {
+						"id": "WnWf8rKBoHa"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-12-20T13:44:06.828",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's last name",
+					"displayShortName": "CRVS_Birth_Death Husband/Caregiver's last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "BrqTE3m3tsG",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Husband/Caregiver's last name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 14,
+					"trackedEntityAttribute": {
+						"id": "H1x8iE0vgez"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.663",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Last name",
+					"displayShortName": "CRVS_Birth_Death Last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gci7VkxLFFA",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": true,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Last name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 5,
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.664",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Mother's/Caregiver's ID",
+					"displayShortName": "CRVS_Birth_Death Mother's/Caregiver's ID",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "YrVmpzwdbYg",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Mother's/Caregiver's ID",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 8,
+					"trackedEntityAttribute": {
+						"id": "pqM2VmAUQHs"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-17T07:13:08.933",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's contact number",
+					"displayShortName": "CRVS_Birth_Death Mother/Caregiver's contact number",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "xT0JPQ53e22",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's contact number",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 11,
+					"trackedEntityAttribute": {
+						"id": "pjexi5YaAPa"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "PHONE_NUMBER"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.664",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's first name",
+					"displayShortName": "CRVS_Birth_Death Mother/Caregiver's first name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "No0z2GHEPeh",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's first name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 9,
+					"trackedEntityAttribute": {
+						"id": "ftFBu8mHZ4H"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.664",
+					"displayInList": false,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's last name",
+					"displayShortName": "CRVS_Birth_Death Mother/Caregiver's last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "pf65DPBfgzj",
+					"lastUpdated": "2019-12-20T13:44:06.956",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Mother/Caregiver's last name",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 10,
+					"trackedEntityAttribute": {
+						"id": "EpbquVl5OD6"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.663",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS National ID",
+					"displayShortName": "CRVS_Birth_Death National ID",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "k5MxpeBSc1H",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS National ID",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 3,
+					"trackedEntityAttribute": {
+						"id": "jD1NGmSntCt"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.663",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Unique Identifier",
+					"displayShortName": "CRVS_Birth_Death Unique Identifier",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QtRI7TCtnEV",
+					"lastUpdated": "2019-12-20T13:44:06.955",
+					"mandatory": false,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Unique Identifier",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 2,
+					"trackedEntityAttribute": {
+						"id": "KSr2yTdu1AI"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-09-12T07:16:41.664",
+					"displayInList": true,
+					"displayName": "Birth, Stillbirth, and Death Notification for CRVS Village/Domicile",
+					"displayShortName": "CRVS_Birth_Death Village/Domicile",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "RIQKQhgcQ3s",
+					"lastUpdated": "2019-12-20T13:44:06.957",
+					"mandatory": true,
+					"name": "Birth, Stillbirth, and Death Notification for CRVS Village/Domicile",
+					"program": {
+						"id": "FTBBLOT3sO7"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 16,
+					"trackedEntityAttribute": {
+						"id": "ttjZl7jvrRj"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				}
+			],
+			"programType": "WITH_REGISTRATION",
+			"publicAccess": "r-------",
+			"relatedProgram": {
+				"id": "SSLpOM0r1U7"
+			},
+			"selectEnrollmentDatesInFuture": false,
+			"selectIncidentDatesInFuture": false,
+			"shortName": "CRVS_Birth_Death",
+			"skipOffline": false,
+			"style": {
+				"color": "#e57373",
+				"icon": "yes_outline"
+			},
+			"trackedEntityType": {
+				"id": "MCPQUTHX1Ze"
+			},
+			"translations": [],
+			"useFirstStageDuringRegistration": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"version": 24
+		}
+	],
+	"programStageDataElements": [
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.006",
+			"dataElement": {
+				"id": "B5BoWbyB1sY"
+			},
+			"displayInReports": false,
+			"id": "pTdKvKcg8oD",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 3
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-17T12:26:07.805",
+			"dataElement": {
+				"id": "wzaw1u6RK2R"
+			},
+			"displayInReports": false,
+			"id": "FGjZ3rruVg5",
+			"lastUpdated": "2019-11-18T18:34:10.668",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 13
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.424",
+			"dataElement": {
+				"id": "uohUQpjhWSt"
+			},
+			"displayInReports": false,
+			"id": "aidpOCa0bpU",
+			"lastUpdated": "2019-11-18T18:34:10.667",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 5
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.008",
+			"dataElement": {
+				"id": "RTA1VXtS6r1"
+			},
+			"displayInReports": false,
+			"id": "STA6IYrLwyZ",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 7
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.422",
+			"dataElement": {
+				"id": "LtlzGAPWWo8"
+			},
+			"displayInReports": false,
+			"id": "SdAU4MoONCg",
+			"lastUpdated": "2019-11-18T18:34:10.665",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 5
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.007",
+			"dataElement": {
+				"id": "fF7wxNym0Un"
+			},
+			"displayInReports": false,
+			"id": "QN9WEpo18rJ",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 5
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.421",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"displayInReports": false,
+			"id": "AfPUf61IsmD",
+			"lastUpdated": "2019-11-18T18:34:10.665",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-17T12:26:07.807",
+			"dataElement": {
+				"id": "UUrqCmPloWO"
+			},
+			"displayInReports": false,
+			"id": "h9TibYJl5Gp",
+			"lastUpdated": "2019-11-18T18:34:10.672",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 12
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.007",
+			"dataElement": {
+				"id": "SaCLndgg6On"
+			},
+			"displayInReports": false,
+			"id": "lOEzaWilgyO",
+			"lastUpdated": "2019-11-18T18:34:10.672",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.007",
+			"dataElement": {
+				"id": "ABhkInP0wGY"
+			},
+			"displayInReports": false,
+			"id": "pUSGb5eHgWW",
+			"lastUpdated": "2019-11-18T18:34:10.672",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 6
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "pHvHXawQdzI"
+			},
+			"displayInReports": false,
+			"id": "d5MBFgnIrvW",
+			"lastUpdated": "2019-11-18T18:34:10.667",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 4
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "GwzGtLQTt31"
+			},
+			"displayInReports": false,
+			"id": "EfnFuuakYLy",
+			"lastUpdated": "2019-11-18T18:34:10.667",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.422",
+			"dataElement": {
+				"id": "lQtJB35vsDj"
+			},
+			"displayInReports": false,
+			"id": "tWwdCL4Vp4n",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 4
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "YC3AioXWlfR"
+			},
+			"displayInReports": false,
+			"id": "xuIJvtFGCHZ",
+			"lastUpdated": "2019-11-18T18:34:10.667",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:23:24.694",
+			"dataElement": {
+				"id": "cCQRaVSSOsY"
+			},
+			"displayInReports": false,
+			"id": "f5BOiaTXyVn",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 9
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.422",
+			"dataElement": {
+				"id": "ABhkInP0wGY"
+			},
+			"displayInReports": false,
+			"id": "zNcoCbyExrn",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 7
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:05:50.810",
+			"dataElement": {
+				"id": "f95m3KTUK3t"
+			},
+			"displayInReports": false,
+			"id": "PtdBZGYZTvp",
+			"lastUpdated": "2019-11-18T18:34:10.672",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 8
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-17T12:26:07.807",
+			"dataElement": {
+				"id": "NtO2qt0qeVa"
+			},
+			"displayInReports": false,
+			"id": "TqdRXRhcqOL",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 11
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.422",
+			"dataElement": {
+				"id": "fF7wxNym0Un"
+			},
+			"displayInReports": false,
+			"id": "OJ7UMLjhpvR",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 6
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.008",
+			"dataElement": {
+				"id": "lQtJB35vsDj"
+			},
+			"displayInReports": false,
+			"id": "T9UGEa7hpmk",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 4
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "RTA1VXtS6r1"
+			},
+			"displayInReports": false,
+			"id": "N9uWT0lhklL",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 8
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "B5BoWbyB1sY"
+			},
+			"displayInReports": false,
+			"id": "xwHGF1NLrx7",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 3
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.423",
+			"dataElement": {
+				"id": "AbSABtFkjxr"
+			},
+			"displayInReports": false,
+			"id": "KWYlurGowdF",
+			"lastUpdated": "2019-11-18T18:34:10.667",
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 3
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-17T12:26:07.806",
+			"dataElement": {
+				"id": "SnSeql5YI9s"
+			},
+			"displayInReports": false,
+			"id": "SqlvRZ0OWkA",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 9
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:03:10.007",
+			"dataElement": {
+				"id": "WUquHs0Al7h"
+			},
+			"displayInReports": false,
+			"id": "SXxTmGBvIWH",
+			"lastUpdated": "2019-11-18T18:34:10.668",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-17T12:26:07.806",
+			"dataElement": {
+				"id": "XvfpVOXCZvb"
+			},
+			"displayInReports": false,
+			"id": "XkjlACuxJh4",
+			"lastUpdated": "2019-11-18T18:34:10.671",
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 10
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2019-11-15T15:00:01.422",
+			"dataElement": {
+				"id": "SaCLndgg6On"
+			},
+			"displayInReports": false,
+			"id": "VKXHP6X44zY",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		}
+	],
+	"programStages": [
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2019-11-15T15:00:01.421",
+			"displayGenerateEventBox": true,
+			"executionDateLabel": "Data entry date",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": true,
+			"id": "OwdV5tSOMSv",
+			"lastUpdated": "2019-11-18T18:34:10.665",
+			"minDaysFromStart": 0,
+			"name": "Birth Details",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.421",
+					"dataElement": {
+						"id": "WUquHs0Al7h"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "AfPUf61IsmD",
+					"lastUpdated": "2019-11-18T18:34:10.665",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.422",
+					"dataElement": {
+						"id": "SaCLndgg6On"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "VKXHP6X44zY",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "B5BoWbyB1sY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "xwHGF1NLrx7",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 3,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.422",
+					"dataElement": {
+						"id": "lQtJB35vsDj"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "tWwdCL4Vp4n",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 4,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.422",
+					"dataElement": {
+						"id": "LtlzGAPWWo8"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "SdAU4MoONCg",
+					"lastUpdated": "2019-11-18T18:34:10.665",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 5,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.422",
+					"dataElement": {
+						"id": "fF7wxNym0Un"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "OJ7UMLjhpvR",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 6,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.422",
+					"dataElement": {
+						"id": "ABhkInP0wGY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zNcoCbyExrn",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 7,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "RTA1VXtS6r1"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "N9uWT0lhklL",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 8,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:23:24.694",
+					"dataElement": {
+						"id": "cCQRaVSSOsY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "f5BOiaTXyVn",
+					"lastUpdated": "2019-11-18T18:34:10.666",
+					"programStage": {
+						"id": "OwdV5tSOMSv"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 9,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [
+				{
+					"id": "PL3yahJEQdf"
+				}
+			],
+			"publicAccess": "r-------",
+			"remindCompleted": false,
+			"repeatable": false,
+			"sortOrder": 2,
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2019-11-15T15:00:01.423",
+			"displayGenerateEventBox": true,
+			"executionDateLabel": "Data entry date",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "SjC6EZvwPKs",
+			"lastUpdated": "2019-11-18T18:34:10.666",
+			"minDaysFromStart": 0,
+			"name": "Death Details",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "GwzGtLQTt31"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "EfnFuuakYLy",
+					"lastUpdated": "2019-11-18T18:34:10.667",
+					"programStage": {
+						"id": "SjC6EZvwPKs"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "YC3AioXWlfR"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "xuIJvtFGCHZ",
+					"lastUpdated": "2019-11-18T18:34:10.667",
+					"programStage": {
+						"id": "SjC6EZvwPKs"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "AbSABtFkjxr"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "KWYlurGowdF",
+					"lastUpdated": "2019-11-18T18:34:10.667",
+					"programStage": {
+						"id": "SjC6EZvwPKs"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 3,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.423",
+					"dataElement": {
+						"id": "pHvHXawQdzI"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "d5MBFgnIrvW",
+					"lastUpdated": "2019-11-18T18:34:10.667",
+					"programStage": {
+						"id": "SjC6EZvwPKs"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 4,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:00:01.424",
+					"dataElement": {
+						"id": "uohUQpjhWSt"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "aidpOCa0bpU",
+					"lastUpdated": "2019-11-18T18:34:10.667",
+					"programStage": {
+						"id": "SjC6EZvwPKs"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 5,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [
+				{
+					"id": "c4EW0j07NAq"
+				}
+			],
+			"publicAccess": "r-------",
+			"remindCompleted": false,
+			"repeatable": false,
+			"sortOrder": 3,
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2019-11-15T15:03:10.006",
+			"dataEntryForm": {
+				"id": "KEmGRDvXraX"
+			},
+			"displayGenerateEventBox": true,
+			"executionDateLabel": "Date of data entry",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "wTAeBwb4gse",
+			"lastUpdated": "2019-11-18T18:34:10.668",
+			"minDaysFromStart": 0,
+			"name": "Stillbirth Details",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.007",
+					"dataElement": {
+						"id": "WUquHs0Al7h"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "SXxTmGBvIWH",
+					"lastUpdated": "2019-11-18T18:34:10.668",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.007",
+					"dataElement": {
+						"id": "SaCLndgg6On"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lOEzaWilgyO",
+					"lastUpdated": "2019-11-18T18:34:10.672",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.006",
+					"dataElement": {
+						"id": "B5BoWbyB1sY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "pTdKvKcg8oD",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 3,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.008",
+					"dataElement": {
+						"id": "lQtJB35vsDj"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "T9UGEa7hpmk",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 4,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.007",
+					"dataElement": {
+						"id": "fF7wxNym0Un"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QN9WEpo18rJ",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 5,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.007",
+					"dataElement": {
+						"id": "ABhkInP0wGY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "pUSGb5eHgWW",
+					"lastUpdated": "2019-11-18T18:34:10.672",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 6,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:03:10.008",
+					"dataElement": {
+						"id": "RTA1VXtS6r1"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "STA6IYrLwyZ",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 7,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-15T15:05:50.810",
+					"dataElement": {
+						"id": "f95m3KTUK3t"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PtdBZGYZTvp",
+					"lastUpdated": "2019-11-18T18:34:10.672",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 8,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-17T12:26:07.806",
+					"dataElement": {
+						"id": "SnSeql5YI9s"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "SqlvRZ0OWkA",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 9,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-17T12:26:07.806",
+					"dataElement": {
+						"id": "XvfpVOXCZvb"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "XkjlACuxJh4",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 10,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-17T12:26:07.807",
+					"dataElement": {
+						"id": "NtO2qt0qeVa"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "TqdRXRhcqOL",
+					"lastUpdated": "2019-11-18T18:34:10.671",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 11,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-17T12:26:07.807",
+					"dataElement": {
+						"id": "UUrqCmPloWO"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "h9TibYJl5Gp",
+					"lastUpdated": "2019-11-18T18:34:10.672",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 12,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-11-17T12:26:07.805",
+					"dataElement": {
+						"id": "wzaw1u6RK2R"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "FGjZ3rruVg5",
+					"lastUpdated": "2019-11-18T18:34:10.668",
+					"programStage": {
+						"id": "wTAeBwb4gse"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 13,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [
+				{
+					"id": "u4dJAPy56rg"
+				}
+			],
+			"publicAccess": "r-------",
+			"remindCompleted": false,
+			"repeatable": false,
+			"sortOrder": 4,
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2019-09-12T07:16:41.796",
+			"dataEntryForm": {
+				"id": "j2ffdMN8OuY"
+			},
+			"description": "This stage is used to record the reason for registration in the program, and direct the user to the correct stage for data entry",
+			"displayGenerateEventBox": false,
+			"executionDateLabel": "Date of data entry",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": true,
+			"id": "MQ4RsqkDlLM",
+			"lastUpdated": "2019-11-18T18:34:10.663",
+			"minDaysFromStart": 0,
+			"name": "Vital Event Details",
+			"notificationTemplates": [
+				{
+					"id": "g0UraypSj3K"
+				},
+				{
+					"id": "bDCzFFfjRDG"
+				},
+				{
+					"id": "Yo5VwsVj5eA"
+				}
+			],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programStageDataElements": [],
+			"programStageSections": [],
+			"publicAccess": "r-------",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 1,
+			"style": {
+				"color": "#e57373",
+				"icon": "cardiogram_e_outline"
+			},
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		}
+	],
+	"programStageSections": [
+		{
+			"created": "2019-11-15T15:00:01.299",
+			"dataElements": [
+				{
+					"id": "WUquHs0Al7h"
+				},
+				{
+					"id": "SaCLndgg6On"
+				},
+				{
+					"id": "B5BoWbyB1sY"
+				},
+				{
+					"id": "lQtJB35vsDj"
+				},
+				{
+					"id": "LtlzGAPWWo8"
+				},
+				{
+					"id": "fF7wxNym0Un"
+				},
+				{
+					"id": "ABhkInP0wGY"
+				},
+				{
+					"id": "RTA1VXtS6r1"
+				},
+				{
+					"id": "cCQRaVSSOsY"
+				}
+			],
+			"id": "PL3yahJEQdf",
+			"lastUpdated": "2019-11-15T15:23:24.653",
+			"name": "Birth Details",
+			"programIndicators": [],
+			"programStage": {
+				"id": "OwdV5tSOMSv"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 0,
+			"translations": []
+		},
+		{
+			"created": "2019-11-15T15:00:01.299",
+			"dataElements": [
+				{
+					"id": "GwzGtLQTt31"
+				},
+				{
+					"id": "YC3AioXWlfR"
+				},
+				{
+					"id": "AbSABtFkjxr"
+				},
+				{
+					"id": "pHvHXawQdzI"
+				},
+				{
+					"id": "uohUQpjhWSt"
+				}
+			],
+			"id": "c4EW0j07NAq",
+			"lastUpdated": "2019-11-15T15:00:01.561",
+			"name": "Death Details",
+			"programIndicators": [],
+			"programStage": {
+				"id": "SjC6EZvwPKs"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 0,
+			"translations": []
+		},
+		{
+			"created": "2019-11-15T15:03:09.941",
+			"dataElements": [
+				{
+					"id": "f95m3KTUK3t"
+				},
+				{
+					"id": "SnSeql5YI9s"
+				},
+				{
+					"id": "SaCLndgg6On"
+				},
+				{
+					"id": "WUquHs0Al7h"
+				},
+				{
+					"id": "B5BoWbyB1sY"
+				},
+				{
+					"id": "XvfpVOXCZvb"
+				},
+				{
+					"id": "lQtJB35vsDj"
+				},
+				{
+					"id": "fF7wxNym0Un"
+				},
+				{
+					"id": "ABhkInP0wGY"
+				},
+				{
+					"id": "RTA1VXtS6r1"
+				},
+				{
+					"id": "NtO2qt0qeVa"
+				},
+				{
+					"id": "wzaw1u6RK2R"
+				}
+			],
+			"id": "u4dJAPy56rg",
+			"lastUpdated": "2019-11-18T19:48:17.788",
+			"name": "Stillbirth details",
+			"programIndicators": [],
+			"programStage": {
+				"id": "wTAeBwb4gse"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 0,
+			"translations": []
+		}
+	],
+	"programTrackedEntityAttributes": [
+		{
+			"created": "2019-09-17T07:13:08.933",
+			"displayInList": false,
+			"id": "xT0JPQ53e22",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 11,
+			"trackedEntityAttribute": {
+				"id": "pjexi5YaAPa"
+			}
+		},
+		{
+			"created": "2019-12-20T13:44:06.828",
+			"displayInList": false,
+			"id": "MmVUuR9077f",
+			"lastUpdated": "2019-12-20T13:44:06.957",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 15,
+			"trackedEntityAttribute": {
+				"id": "qEedHpgzYyU"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.663",
+			"displayInList": true,
+			"id": "sNYNGQQUtz4",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 7,
+			"trackedEntityAttribute": {
+				"id": "REKKDPw0FMM"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.664",
+			"displayInList": true,
+			"id": "RIQKQhgcQ3s",
+			"lastUpdated": "2019-12-20T13:44:06.957",
+			"mandatory": true,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 16,
+			"trackedEntityAttribute": {
+				"id": "ttjZl7jvrRj"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.663",
+			"displayInList": true,
+			"id": "KskeUiSPQTt",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": true,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 4,
+			"trackedEntityAttribute": {
+				"id": "TfdH5KvFmMy"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.664",
+			"displayInList": false,
+			"id": "YrVmpzwdbYg",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 8,
+			"trackedEntityAttribute": {
+				"id": "pqM2VmAUQHs"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.663",
+			"displayInList": true,
+			"id": "k5MxpeBSc1H",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 3,
+			"trackedEntityAttribute": {
+				"id": "jD1NGmSntCt"
+			}
+		},
+		{
+			"created": "2019-11-14T16:26:19.898",
+			"displayInList": false,
+			"id": "h2mMZ2fB3g1",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 6,
+			"trackedEntityAttribute": {
+				"id": "CklPZdOd6H1"
+			}
+		},
+		{
+			"created": "2019-12-20T13:44:06.828",
+			"displayInList": false,
+			"id": "BrqTE3m3tsG",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 14,
+			"trackedEntityAttribute": {
+				"id": "H1x8iE0vgez"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.663",
+			"displayInList": true,
+			"id": "gci7VkxLFFA",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": true,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 5,
+			"trackedEntityAttribute": {
+				"id": "aW66s2QSosT"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.664",
+			"displayInList": false,
+			"id": "pf65DPBfgzj",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 10,
+			"trackedEntityAttribute": {
+				"id": "EpbquVl5OD6"
+			}
+		},
+		{
+			"created": "2019-12-20T13:44:06.828",
+			"displayInList": false,
+			"id": "uQXTP9WA4cF",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 13,
+			"trackedEntityAttribute": {
+				"id": "WnWf8rKBoHa"
+			}
+		},
+		{
+			"created": "2019-11-15T13:39:56.796",
+			"displayInList": true,
+			"id": "ngwAlAF4YAe",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 1,
+			"trackedEntityAttribute": {
+				"id": "ArHk8hosBBh"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.664",
+			"displayInList": false,
+			"id": "No0z2GHEPeh",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 9,
+			"trackedEntityAttribute": {
+				"id": "ftFBu8mHZ4H"
+			}
+		},
+		{
+			"created": "2019-12-20T13:44:06.828",
+			"displayInList": false,
+			"id": "lD7ANdY7G5E",
+			"lastUpdated": "2019-12-20T13:44:06.956",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 12,
+			"trackedEntityAttribute": {
+				"id": "SvRj2LWkBcd"
+			}
+		},
+		{
+			"created": "2019-09-12T07:16:41.663",
+			"displayInList": true,
+			"id": "QtRI7TCtnEV",
+			"lastUpdated": "2019-12-20T13:44:06.955",
+			"mandatory": false,
+			"program": {
+				"id": "FTBBLOT3sO7"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 2,
+			"trackedEntityAttribute": {
+				"id": "KSr2yTdu1AI"
+			}
+		}
+	],
+	"trackedEntityAttributes": [
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2019-11-15T13:39:12.725",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Which type of notification is this?",
+			"generated": false,
+			"id": "ArHk8hosBBh",
+			"inherit": false,
+			"lastUpdated": "2019-11-15T13:39:12.725",
+			"legendSets": [],
+			"name": "CRVS_Registration_Reason",
+			"optionSet": {
+				"id": "I90dDKWASnH"
+			},
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "CRVS_Registration_Reason",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2017-11-23T12:25:35.961",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "REKKDPw0FMM",
+			"inherit": false,
+			"lastUpdated": "2018-06-11T18:15:56.331",
+			"legendSets": [],
+			"name": "Date of Birth (if known)",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Date of Birth",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "DATE"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:23:24.765",
+			"description": "\nThe name of the patient or initials",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "TfdH5KvFmMy",
+			"inherit": false,
+			"lastUpdated": "2019-11-02T08:16:32.506",
+			"legendSets": [],
+			"name": "First name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "First name",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:26:38.491",
+			"description": "Gender of Person",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "CklPZdOd6H1",
+			"inherit": false,
+			"lastUpdated": "2019-11-18T14:23:06.977",
+			"legendSets": [],
+			"name": "Gender",
+			"optionSet": {
+				"id": "hiQ3QFheQ3O"
+			},
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Gender",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"code": "Husband's/Caregiver's ID",
+			"confidential": false,
+			"created": "2019-11-17T11:01:54.071",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "SvRj2LWkBcd",
+			"inherit": false,
+			"lastUpdated": "2019-11-17T11:01:54.071",
+			"legendSets": [],
+			"name": "Husband's/Caregiver's ID",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Husband's/Caregiver's ID",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2019-11-17T11:02:20.547",
+			"description": "\nNumber to contact to provide or receive additional information.",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "qEedHpgzYyU",
+			"inherit": false,
+			"lastUpdated": "2019-11-17T11:02:20.547",
+			"legendSets": [],
+			"name": "Husband/Caregiver's contact number",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Husband/Caregiver's contact number",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "PHONE_NUMBER"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2019-11-17T11:02:30.736",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "WnWf8rKBoHa",
+			"inherit": false,
+			"lastUpdated": "2019-11-17T11:02:30.736",
+			"legendSets": [],
+			"name": "Husband/Caregiver's first name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Husband/Caregiver's first name",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2019-11-17T11:02:42.224",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "H1x8iE0vgez",
+			"inherit": false,
+			"lastUpdated": "2019-11-17T11:02:42.224",
+			"legendSets": [],
+			"name": "Husband/Caregiver's last name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Husband/Caregiver's last name",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:23:38.798",
+			"description": "Family name of the patient.",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "aW66s2QSosT",
+			"inherit": false,
+			"lastUpdated": "2019-11-02T08:16:47.232",
+			"legendSets": [],
+			"name": "Last name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Last name",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"code": "Mother's/Caregiver's ID",
+			"confidential": false,
+			"created": "2018-10-12T06:35:38.555",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "pqM2VmAUQHs",
+			"inherit": false,
+			"lastUpdated": "2018-10-16T12:26:52.593",
+			"legendSets": [],
+			"name": "Mother's/Caregiver's ID",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Mother's/Caregiver's ID",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2015-12-08T11:14:33.639",
+			"description": "\nNumber to contact to provide or receive additional information.",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "pjexi5YaAPa",
+			"inherit": false,
+			"lastUpdated": "2019-05-15T06:03:23.641",
+			"legendSets": [],
+			"name": "Mother/Caregiver's contact number",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Mother/Caregiver's contact number",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "PHONE_NUMBER"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2015-11-05T20:12:21.038",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "ftFBu8mHZ4H",
+			"inherit": false,
+			"lastUpdated": "2018-10-11T09:53:30.658",
+			"legendSets": [],
+			"name": "Mother/Caregiver's first name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Mother/Caregiver's first name",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2015-11-05T20:12:02.476",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "EpbquVl5OD6",
+			"inherit": false,
+			"lastUpdated": "2018-10-11T09:53:30.658",
+			"legendSets": [],
+			"name": "Mother/Caregiver's last name",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Mother/Caregiver's last name",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"code": "National_ID",
+			"confidential": false,
+			"created": "2019-02-11T09:55:22.015",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "jD1NGmSntCt",
+			"inherit": false,
+			"lastUpdated": "2019-09-18T12:58:28.578",
+			"legendSets": [],
+			"name": "National ID",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "National ID",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"code": "Sys_UID",
+			"confidential": false,
+			"created": "2017-11-26T15:41:07.322",
+			"displayInListNoProgram": true,
+			"displayOnVisitSchedule": false,
+			"generated": true,
+			"id": "KSr2yTdu1AI",
+			"inherit": false,
+			"lastUpdated": "2019-11-18T15:17:12.666",
+			"legendSets": [],
+			"name": "Unique Identifier",
+			"orgunitScope": false,
+			"pattern": "CURRENT_DATE(yyyy-MM-dd)-\"-\"-SEQUENTIAL(#####)",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Unique Identifier",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": true,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2015-12-11T06:10:06.919",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "ttjZl7jvrRj",
+			"inherit": false,
+			"lastUpdated": "2018-10-11T09:53:30.658",
+			"legendSets": [],
+			"name": "Village/Domicile",
+			"orgunitScope": false,
+			"pattern": "",
+			"programScope": false,
+			"publicAccess": "r-------",
+			"shortName": "Village/Domicile",
+			"skipSynchronization": false,
+			"sortOrderInListNoProgram": 0,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		}
+	],
+	"trackedEntityTypes": [
+		{
+			"allowAuditLog": false,
+			"attributeValues": [],
+			"code": "Person",
+			"created": "2017-11-01T00:00:00.000",
+			"description": "Person",
+			"featureType": "NONE",
+			"id": "MCPQUTHX1Ze",
+			"lastUpdated": "2019-12-09T11:25:52.566",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Person",
+			"publicAccess": "r-------",
+			"trackedEntityTypeAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person First name",
+					"displayShortName": "null First name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hKZ9AJpnVcG",
+					"lastUpdated": "2019-11-02T08:13:19.797",
+					"name": "Person First name",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person Last name",
+					"displayShortName": "null Last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gqLw62UZlrD",
+					"lastUpdated": "2019-11-02T08:13:19.797",
+					"name": "Person Last name",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person Unique Identifier",
+					"displayShortName": "null Unique Identifier",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "A6hUWdP9myD",
+					"lastUpdated": "2019-11-02T08:13:19.797",
+					"name": "Person Unique Identifier",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "KSr2yTdu1AI"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				}
+			],
+			"translations": [],
+			"user": {
+				"id": "Ia1Xtxa5eG8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	]
+}
