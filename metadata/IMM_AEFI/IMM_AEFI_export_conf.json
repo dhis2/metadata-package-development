@@ -1,0 +1,36 @@
+{
+    "export": [
+      {
+        "_basePath": "./IMM_AEFI/", 
+        "_code": "IMM-AEFI", 
+        "_name": "Immunization - Adverse events following immunization",
+        "_prefix": "[CONFIG]",
+        "_ownership": {
+          "modeOwner": "OVERWRITE",
+          "modeLastUpdated": "REMOVE",
+          "ownerId": "xE7jOejl9FI"
+        },
+        "_sharing": {
+          "groupMode": "REMOVE",
+          "groupExport": false,
+          "userMode": "REMOVE",
+          "users": [],
+          "userExport": false,
+          "publicAccess": {
+            "metadata": "VIEW",
+            "data": "NONE"
+          }
+        },
+        "_type": "tracker", 
+        "_url": [
+          "https://who.dhis2.org/tracker_epi"
+        ], 
+        "_version": "1.0.0",
+        "exportIndicatorGroupsIds": [], 
+        "indicatorGroupIds": [], 
+        "programIds": [
+          "EZkN8vYZwjR"
+        ]
+      }
+    ]
+  }
