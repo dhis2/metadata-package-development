@@ -8,13 +8,41 @@
       "_ownership": {
         "modeOwner": "OVERWRITE",
         "modeLastUpdated": "REMOVE",
-        "ownerId": "Ia1Xtxa5eG8"
+        "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "REMOVE",
-        "groupExport": false,
+        "groupMode": "FILTER",
+        "groups": [
+          {
+            "id": "mJXfg1R1L29",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          },
+          {
+            "id": "LPrZIVYQGUv",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          },
+          {
+          "id": "T6DZORCrELb",
+          "metadata": "EDIT",
+          "data": "EDIT"
+          },
+          {
+          "id": "JVenB84tY1X",
+          "metadata": "EDIT",
+          "data": "EDIT"
+          }
+          ],      
+        "groupExport": true,
         "userMode": "REMOVE",
-        "users": [],
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
         "userExport": false,
         "publicAccess": {
           "metadata": "VIEW",
@@ -36,6 +64,5 @@
         "SSLpOM0r1U7"
       ]
     }
-    
   ]
 }
