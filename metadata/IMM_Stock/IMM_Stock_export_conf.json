@@ -1,0 +1,41 @@
+{
+  "export": [
+    {
+      "_basePath": "./IMM_Stock/", 
+      "_code": "IMM_Stock", 
+      "_name": "Stock status",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [],      
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://who.dhis2.org/tracker_epi"
+      ], 
+      "_version": "1.0.0",
+      "programIds": [
+        "GCg2ljFLRFN"
+      ]
+    }
+  ]
+}
