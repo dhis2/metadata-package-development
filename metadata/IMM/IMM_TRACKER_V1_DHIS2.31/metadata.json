@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2019-10-25T01:25:58.397",
+			"lastUpdated": "2020-01-31T10:23:37.139",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -37,7 +37,7 @@
 			"skipTotal": false,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -101,7 +101,7 @@
 			"shortName": "Attendant at birth_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -127,17 +127,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "BCG"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "BCG"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -162,7 +162,7 @@
 			"shortName": "BCG_0.1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -191,17 +191,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rupture de stock BCG"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rupture de stock BCG"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -226,7 +226,7 @@
 			"shortName": "Birth registration date_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -254,7 +254,7 @@
 			"shortName": "Birth type_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -279,7 +279,7 @@
 			"shortName": "Birth weight (grams)_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -305,17 +305,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VPO 0"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VPO 0"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -341,17 +341,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VPO 1"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VPO 1"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -377,17 +377,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VPO 2"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VPO 2"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -413,17 +413,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VPO 3"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VPO 3"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -449,17 +449,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VPO 4"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VPO 4"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -484,7 +484,7 @@
 			"shortName": "Cholera 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -509,7 +509,7 @@
 			"shortName": "Cholera 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -534,7 +534,7 @@
 			"shortName": "Cholera 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -559,7 +559,7 @@
 			"shortName": "Dengue 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -584,7 +584,7 @@
 			"shortName": "Dengue 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -609,7 +609,7 @@
 			"shortName": "Dengue 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -637,7 +637,7 @@
 			"shortName": "Diagnosed with HIV or severe Immunodeficiency",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -663,7 +663,7 @@
 			"shortName": "DPT (Booster) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -688,7 +688,7 @@
 			"shortName": "DTap (Td containing) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -713,7 +713,7 @@
 			"shortName": "DTwP (Td containing) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -738,7 +738,7 @@
 			"shortName": "Gestational age_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -764,7 +764,7 @@
 			"shortName": "Gravidity",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -789,7 +789,7 @@
 			"shortName": "Birth Certificate delivered to parents?",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -817,7 +817,7 @@
 			"shortName": "Has the CRVS system been notified?_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -842,7 +842,7 @@
 			"shortName": "Hepatitis A 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -867,7 +867,7 @@
 			"shortName": "Hepatitis B 0",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -893,7 +893,7 @@
 			"shortName": "Hepatitis B 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -918,7 +918,7 @@
 			"shortName": "Hepatitis B 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -943,7 +943,7 @@
 			"shortName": "Hepatitis B 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -970,7 +970,7 @@
 			"shortName": "Hepatitis B not given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -998,7 +998,7 @@
 			"shortName": "History of Anaphylactic reaction_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1022,7 +1022,7 @@
 			"shortName": "HPV 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1046,7 +1046,7 @@
 			"shortName": "HPV 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1071,7 +1071,7 @@
 			"shortName": "IPV 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1095,7 +1095,7 @@
 			"shortName": "IPV 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1119,7 +1119,7 @@
 			"shortName": "IPV 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1143,7 +1143,7 @@
 			"shortName": "IPV 4 (Booster dose)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1170,7 +1170,7 @@
 			"shortName": "IPV not given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1196,7 +1196,7 @@
 			"shortName": "Japanese Encephalitis1(Inact vero cell-derived)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1221,7 +1221,7 @@
 			"shortName": "Japanese Encephalitis 1 (Live Attenuated)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1247,7 +1247,7 @@
 			"shortName": "Japanese Encephalitis2(Inact vero cell-derived)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1272,7 +1272,7 @@
 			"shortName": "Japanese Encephalitis 2 (Live Attenuated)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1297,7 +1297,7 @@
 			"shortName": "List reactions (Immunization)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1323,7 +1323,7 @@
 			"shortName": "Measles 0",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1349,17 +1349,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rougeole 1"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rougeole 1"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1385,17 +1385,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rougeole 2"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rougeole 2"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1423,17 +1423,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rupture de stock rougeole"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rupture de stock rougeole"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1458,7 +1458,7 @@
 			"shortName": "Meningococcal 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1483,7 +1483,7 @@
 			"shortName": "Meningococcal 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1508,7 +1508,7 @@
 			"shortName": "MMR1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1533,7 +1533,7 @@
 			"shortName": "MMR2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1561,7 +1561,7 @@
 			"shortName": "Mode of delivery",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1587,7 +1587,7 @@
 			"shortName": "mOPV",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1612,7 +1612,7 @@
 			"shortName": "MR1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1637,7 +1637,7 @@
 			"shortName": "MR2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1665,17 +1665,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rupture de stock VPO"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rupture de stock VPO"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1700,7 +1700,7 @@
 			"shortName": "Parity_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1725,17 +1725,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "VCP 1"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "VCP 1"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1760,17 +1760,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "PCV 2"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "PCV 2"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1795,17 +1795,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "VCP 3"
+					"property": "NAME",
+					"value": "PCV 3"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "PCV 3"
+					"property": "SHORT_NAME",
+					"value": "VCP 3"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1833,17 +1833,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Rupture de stock VCP"
+					"property": "NAME",
+					"value": "Rupture de stock PCV"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "Rupture de stock PCV"
+					"property": "SHORT_NAME",
+					"value": "Rupture de stock VCP"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1869,17 +1869,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "DPT-HepB-Hib1"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "DPT-HepB-Hib1"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1905,17 +1905,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "DPT-HepB-Hib2"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "DPT-HepB-Hib2"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1941,17 +1941,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "DPT-HepB-Hib3"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "DPT-HepB-Hib3"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1979,17 +1979,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rupture de stock DTP"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rupture de stock DTP"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2017,7 +2017,7 @@
 			"shortName": "Place of birth_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2042,7 +2042,7 @@
 			"shortName": "Place of birth_facility",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2067,7 +2067,7 @@
 			"shortName": "Rabies 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2092,7 +2092,7 @@
 			"shortName": "Rabies 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2121,7 +2121,7 @@
 			"shortName": "Recent infection with a temperature > 39 degree C",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2146,7 +2146,7 @@
 			"shortName": "Rubella 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2173,7 +2173,7 @@
 			"shortName": "Rubella not given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2198,7 +2198,7 @@
 			"shortName": "RV 1 (Rota Teq)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2224,17 +2224,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "RV 1"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "RV 1"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2259,7 +2259,7 @@
 			"shortName": "RV 2 (Rota Teq)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2285,17 +2285,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "RV 2"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "RV 2"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2320,7 +2320,7 @@
 			"shortName": "RV 3 (Rota Teq)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2348,17 +2348,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Rupture de stock RV"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Rupture de stock RV"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2384,7 +2384,7 @@
 			"shortName": "Show all doses_Yes__Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2410,7 +2410,7 @@
 			"shortName": "Show all doses_Explain_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2436,7 +2436,7 @@
 			"shortName": "Show all non routine doses_Explain_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2461,61 +2461,11 @@
 			"shortName": "Show Non Routine vaccines",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"valueType": "TRUE_ONLY",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "NONE",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-02-08T06:04:46.738",
-			"domainType": "TRACKER",
-			"formName": "Middle Name",
-			"id": "mErbukKFpHi",
-			"lastUpdated": "2019-11-01T18:19:54.796",
-			"legendSets": [],
-			"name": "Tbd13_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Child Middle Name_Birth Registration",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "TEXT",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "NONE",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-02-08T06:02:59.423",
-			"domainType": "TRACKER",
-			"formName": "Last Name",
-			"id": "syrkJuVk1Is",
-			"lastUpdated": "2019-11-01T18:20:07.009",
-			"legendSets": [],
-			"name": "Tbd14_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Child Last Name_Birth Registration",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "TEXT",
 			"zeroIsSignificant": false
 		},
 		{
@@ -2536,36 +2486,11 @@
 			"shortName": "Child First Name_Birth Registration",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"valueType": "TEXT",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "SUM",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-02-08T05:53:30.473",
-			"domainType": "TRACKER",
-			"formName": "Mother's Contact Number",
-			"id": "E930AZRdUwC",
-			"lastUpdated": "2019-11-01T17:56:05.707",
-			"legendSets": [],
-			"name": "Tbd2_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Mother's Contact Number",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "NUMBER",
 			"zeroIsSignificant": false
 		},
 		{
@@ -2586,86 +2511,11 @@
 			"shortName": "Mother's Age",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"valueType": "AGE",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "NONE",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-03-21T11:12:02.919",
-			"domainType": "TRACKER",
-			"formName": "Mother's last name",
-			"id": "LDwqeVyXNm3",
-			"lastUpdated": "2019-11-01T18:17:52.019",
-			"legendSets": [],
-			"name": "Tbd5_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Mother Last Name_Birth Registration",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "TEXT",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "NONE",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-03-20T13:24:42.814",
-			"domainType": "TRACKER",
-			"formName": "Mother/Caregiver's first name",
-			"id": "ntX5Nr1kwfR",
-			"lastUpdated": "2019-11-01T18:18:03.179",
-			"legendSets": [],
-			"name": "Tbd6_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Mother First Name_Birth Registration",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "TEXT",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "SUM",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
-			},
-			"created": "2019-02-08T05:56:07.444",
-			"domainType": "TRACKER",
-			"formName": "Father's Contact Number",
-			"id": "BMMqDsv9kc8",
-			"lastUpdated": "2019-11-01T18:18:34.238",
-			"legendSets": [],
-			"name": "Tbd8_Birth Registration",
-			"publicAccess": "r-------",
-			"shortName": "Father's Contact Number",
-			"translations": [],
-			"user": {
-				"id": "Ia1Xtxa5eG8"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "NUMBER",
 			"zeroIsSignificant": false
 		},
 		{
@@ -2686,7 +2536,7 @@
 			"shortName": "Tdap (Td and ap containing) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2711,7 +2561,7 @@
 			"shortName": "Tick-Borne Encephalitis 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2736,7 +2586,7 @@
 			"shortName": "Tick-Borne Encephalitis 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2761,7 +2611,7 @@
 			"shortName": "Tick-Borne Encephalitis 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2786,7 +2636,7 @@
 			"shortName": "Typhoid (Ty21a) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2811,7 +2661,7 @@
 			"shortName": "Typhoid (Ty21a) 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2836,7 +2686,7 @@
 			"shortName": "Typhoid (Ty21a) 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2861,7 +2711,7 @@
 			"shortName": "Typhoid (Ty21a) 4",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2886,7 +2736,7 @@
 			"shortName": "Typhoid (Vi PS ) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2911,7 +2761,7 @@
 			"shortName": "Typhoid TCV (Typbar) 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2936,7 +2786,7 @@
 			"shortName": "HIV status and Anaphylaxis history_Immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -2965,17 +2815,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Code origine"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Code origine"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -3000,7 +2850,7 @@
 			"shortName": "Varicella 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -3025,7 +2875,7 @@
 			"shortName": "Varicella 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -3051,7 +2901,7 @@
 			"shortName": "Village Name_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -3076,7 +2926,7 @@
 			"shortName": "Yellow Fever 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -3249,10 +3099,23 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		}
 	],
 	"indicators": [
@@ -3277,10 +3140,23 @@
 			"shortName": "BCG CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3303,10 +3179,23 @@
 			"shortName": "BCG OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3328,10 +3217,23 @@
 			"shortName": "High temperature alarms",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3353,10 +3255,23 @@
 			"shortName": "Low temperature alarms",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3378,10 +3293,23 @@
 			"shortName": "Cold chain refrigerator functional",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3404,10 +3332,23 @@
 			"shortName": "DPT-HepB-Hib CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3430,10 +3371,23 @@
 			"shortName": "DPT-HepB-Hib OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3456,10 +3410,23 @@
 			"shortName": "IPV CV wastage rate (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -3486,10 +3453,23 @@
 			"shortName": "IPV coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3512,10 +3492,23 @@
 			"shortName": "IPV OV wastage rate (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3538,10 +3531,23 @@
 			"shortName": "MR CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3564,10 +3570,23 @@
 			"shortName": "MR OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3590,10 +3609,23 @@
 			"shortName": "OPV CV wastage rate (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3616,10 +3648,23 @@
 			"shortName": "OPV OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3642,10 +3687,23 @@
 			"shortName": "Outreach sessions conducted (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3668,10 +3726,23 @@
 			"shortName": "PCV CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3694,10 +3765,23 @@
 			"shortName": "PCV OP wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3719,10 +3803,23 @@
 			"shortName": "EPI reporting completeness (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3745,10 +3842,23 @@
 			"shortName": "RV CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3771,10 +3881,23 @@
 			"shortName": "RV OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3797,10 +3920,23 @@
 			"shortName": "TT CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3823,10 +3959,23 @@
 			"shortName": "TT OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3849,10 +3998,23 @@
 			"shortName": "YF CV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -3879,10 +4041,23 @@
 			"shortName": "YF coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3904,10 +4079,23 @@
 			"shortName": "YF given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3930,10 +4118,23 @@
 			"shortName": "YF OV wastage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3955,10 +4156,23 @@
 			"shortName": "AEFI suspected - non-serious",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -3980,10 +4194,23 @@
 			"shortName": "AEFI serious",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4010,10 +4237,23 @@
 			"shortName": "BCG coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4035,10 +4275,23 @@
 			"shortName": "BCG given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4066,10 +4319,23 @@
 			"shortName": "BCG-MR 1 dropout (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4096,10 +4362,23 @@
 			"shortName": "DPT 1-3 drop out rate (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4126,10 +4405,23 @@
 			"shortName": "DPT1 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4151,10 +4443,23 @@
 			"shortName": "DPT-HepB-HIB 1 given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4181,10 +4486,23 @@
 			"shortName": "DPT3 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4206,10 +4524,23 @@
 			"shortName": "DPT-HepB-HIB 3 given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4236,10 +4567,23 @@
 			"shortName": "MCV 1 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4266,10 +4610,23 @@
 			"shortName": "MCV 2 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4291,10 +4648,23 @@
 			"shortName": "MR 1 given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4322,10 +4692,23 @@
 			"shortName": "MR 1-2 drop out rate (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": false,
@@ -4347,10 +4730,23 @@
 			"shortName": "MR 2 given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4377,10 +4773,23 @@
 			"shortName": "OPV 3 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4407,10 +4816,23 @@
 			"shortName": "PCV 3 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"annualized": true,
@@ -4437,10 +4859,23 @@
 			"shortName": "RV 2 coverage (%)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		}
 	],
 	"indicatorTypes": [
@@ -4613,10 +5048,23 @@
 			"symbolizer": "color",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -4705,10 +5153,23 @@
 			"symbolizer": "color",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			]
 		}
 	],
 	"options": [
@@ -4961,19 +5422,6 @@
 		},
 		{
 			"attributeValues": [],
-			"code": "NO",
-			"created": "2018-01-19T08:53:15.588",
-			"id": "PLlPgcfbL1D",
-			"lastUpdated": "2018-01-19T08:53:15.976",
-			"name": "No",
-			"optionSet": {
-				"id": "bLA3AqDKdwx"
-			},
-			"sortOrder": 2,
-			"translations": []
-		},
-		{
-			"attributeValues": [],
 			"code": "0",
 			"created": "2018-10-23T12:23:58.502",
 			"id": "duuU0YPYBr0",
@@ -4983,6 +5431,19 @@
 				"id": "tCNMtfz6ORp"
 			},
 			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NO",
+			"created": "2018-01-19T08:53:15.588",
+			"id": "PLlPgcfbL1D",
+			"lastUpdated": "2018-01-19T08:53:15.976",
+			"name": "No",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"sortOrder": 2,
 			"translations": []
 		},
 		{
@@ -5052,19 +5513,6 @@
 		},
 		{
 			"attributeValues": [],
-			"code": "Other",
-			"created": "2019-03-01T07:51:48.410",
-			"id": "S9AkBTu2rhK",
-			"lastUpdated": "2019-03-01T07:51:48.807",
-			"name": "Other",
-			"optionSet": {
-				"id": "m9JZc9aMJxT"
-			},
-			"sortOrder": 4,
-			"translations": []
-		},
-		{
-			"attributeValues": [],
 			"code": "4",
 			"created": "2018-10-23T07:54:45.284",
 			"id": "Ea4tD4aCK1J",
@@ -5074,6 +5522,19 @@
 				"id": "pH6LcjDbWxo"
 			},
 			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Other",
+			"created": "2019-03-01T07:51:48.410",
+			"id": "S9AkBTu2rhK",
+			"lastUpdated": "2019-03-01T07:51:48.807",
+			"name": "Other",
+			"optionSet": {
+				"id": "m9JZc9aMJxT"
+			},
+			"sortOrder": 4,
 			"translations": []
 		},
 		{
@@ -5208,19 +5669,6 @@
 		},
 		{
 			"attributeValues": [],
-			"code": "4",
-			"created": "2019-02-11T09:43:45.932",
-			"id": "RLAqdiDrF7s",
-			"lastUpdated": "2019-02-11T09:43:46.483",
-			"name": "Unknown",
-			"optionSet": {
-				"id": "XMgz6JFoCLc"
-			},
-			"sortOrder": 4,
-			"translations": []
-		},
-		{
-			"attributeValues": [],
 			"code": "06",
 			"created": "2015-11-07T11:56:02.000",
 			"id": "QdpmcdtrREf",
@@ -5230,6 +5678,19 @@
 				"id": "Xh725MLJ4nc"
 			},
 			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4",
+			"created": "2019-02-11T09:43:45.932",
+			"id": "RLAqdiDrF7s",
+			"lastUpdated": "2019-02-11T09:43:46.483",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "XMgz6JFoCLc"
+			},
+			"sortOrder": 4,
 			"translations": []
 		},
 		{
@@ -5376,7 +5837,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5403,7 +5864,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5439,7 +5900,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5469,7 +5930,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5500,7 +5961,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5542,7 +6003,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5572,7 +6033,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5605,7 +6066,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5629,7 +6090,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5657,7 +6118,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5665,7 +6126,7 @@
 			"version": 3
 		}
 	],
-	"package": "IMM_TRACKER_V1.0.0_DHIS2.31_2019-12-22T11:24",
+	"package": "IMM_TRACKER_V1.0.0_DHIS2.31_2020-02-19T12:06",
 	"programIndicators": [
 		{
 			"aggregationType": "AVERAGE",
@@ -5731,7 +6192,7 @@
 			"shortName": "BCG .05",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -5801,7 +6262,7 @@
 			"shortName": "BCG 0.05 doses given under",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -5871,7 +6332,7 @@
 			"shortName": "BCG 0.05 doses given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -5940,7 +6401,7 @@
 			"shortName": "BCG 0.1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6010,7 +6471,7 @@
 			"shortName": "BCG 0.1 doses given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6081,7 +6542,7 @@
 			"shortName": "BR_any notification",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6151,7 +6612,7 @@
 			"shortName": "Birth Registration_BCG after birth certif",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6220,7 +6681,7 @@
 			"shortName": "BC Not Received",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6228,28 +6689,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-02-11T15:29:47.522",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "xp7hbR09OmD",
-					"lastUpdated": "2019-03-19T06:32:24.556",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -6271,6 +6710,28 @@
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-02-11T15:29:47.522",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "xp7hbR09OmD",
+					"lastUpdated": "2019-03-19T06:32:24.556",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
 				}
 			],
 			"analyticsType": "ENROLLMENT",
@@ -6289,7 +6750,7 @@
 			"shortName": "BC Recieved",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6359,7 +6820,7 @@
 			"shortName": "Birth Registration_BCG after birth notif",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6367,28 +6828,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-03-19T04:48:08.744",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "Siehw89YaK6",
-					"lastUpdated": "2019-11-15T16:50:34.928",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -6407,6 +6846,28 @@
 					"favorites": [],
 					"id": "Nu5typWcygj",
 					"lastUpdated": "2019-11-15T16:50:34.929",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-03-19T04:48:08.744",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Siehw89YaK6",
+					"lastUpdated": "2019-11-15T16:50:34.928",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -6429,7 +6890,7 @@
 			"shortName": "BR_Births notified immediately after delivery",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6499,7 +6960,7 @@
 			"shortName": "Child's birth registered before immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6569,7 +7030,7 @@
 			"shortName": "Child's birth registered during immunization",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6577,28 +7038,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-03-19T04:48:08.744",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "fJ4FTXJBdlD",
-					"lastUpdated": "2019-03-20T07:48:41.300",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -6617,6 +7056,28 @@
 					"favorites": [],
 					"id": "Z1P3qlTZaue",
 					"lastUpdated": "2019-03-20T07:48:41.299",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-03-19T04:48:08.744",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "fJ4FTXJBdlD",
+					"lastUpdated": "2019-03-20T07:48:41.300",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -6639,7 +7100,7 @@
 			"shortName": "Birth Registration_Children DPTdue",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6647,28 +7108,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-03-19T04:48:08.744",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "Ut9BagL7HSb",
-					"lastUpdated": "2019-03-20T07:47:34.436",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -6687,6 +7126,28 @@
 					"favorites": [],
 					"id": "DMd0Aa7AGix",
 					"lastUpdated": "2019-03-20T07:47:34.435",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-03-19T04:48:08.744",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Ut9BagL7HSb",
+					"lastUpdated": "2019-03-20T07:47:34.436",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -6709,7 +7170,7 @@
 			"shortName": "Birth Registration_Children given BCG and reg",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6779,7 +7240,7 @@
 			"shortName": "BR_Timely notification, 2-12 months after birth",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6850,7 +7311,7 @@
 			"shortName": "BR_Untimely registration within legal period",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6920,7 +7381,7 @@
 			"shortName": "BR_Any notification outside legal period",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -6928,28 +7389,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-03-19T04:48:08.744",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "vHDDB7Odgz2",
-					"lastUpdated": "2019-03-19T10:06:57.911",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -6967,6 +7406,28 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZFYDXRXNykc",
+					"lastUpdated": "2019-03-19T10:06:57.911",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-03-19T04:48:08.744",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "vHDDB7Odgz2",
 					"lastUpdated": "2019-03-19T10:06:57.911",
 					"translations": [],
 					"userAccesses": [],
@@ -6989,7 +7450,7 @@
 			"shortName": "Birth Registration_Live births registered",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7059,7 +7520,7 @@
 			"shortName": "Birth Registration_Place of birth_Health facility",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7129,7 +7590,7 @@
 			"shortName": "Birth Registration_Place of birth_Home",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7199,7 +7660,7 @@
 			"shortName": "Birth Registration_Place of birth_Hospital",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7269,7 +7730,7 @@
 			"shortName": "Birth Registration_Place of birth_Unknown",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7339,7 +7800,7 @@
 			"shortName": "BR_Timely notification, 2 months after birth",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7410,7 +7871,7 @@
 			"shortName": "BR_Timely registration within legal period",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7480,7 +7941,7 @@
 			"shortName": "Birth Registration_Total Birth registrations",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7488,28 +7949,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-03-19T04:48:08.744",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "WoqtNkGKEVj",
-					"lastUpdated": "2019-03-19T10:09:44.425",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -7528,6 +7967,28 @@
 					"favorites": [],
 					"id": "XC702H1A7jy",
 					"lastUpdated": "2019-03-19T10:09:44.424",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-03-19T04:48:08.744",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "WoqtNkGKEVj",
+					"lastUpdated": "2019-03-19T10:09:44.425",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -7550,7 +8011,7 @@
 			"shortName": "Birth Registration_total Children given BCG",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7619,7 +8080,7 @@
 			"shortName": "bOPV 0",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7688,7 +8149,7 @@
 			"shortName": "bOPV 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7757,7 +8218,7 @@
 			"shortName": "bOPV 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7826,7 +8287,7 @@
 			"shortName": "bOPV 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7834,28 +8295,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2019-02-11T15:27:32.027",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "fixaWJpiTTz",
-					"lastUpdated": "2019-02-11T15:27:32.027",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -7873,6 +8312,28 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ed4dRe49SSX",
+					"lastUpdated": "2019-02-11T15:27:32.027",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2019-02-11T15:27:32.027",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "fixaWJpiTTz",
 					"lastUpdated": "2019-02-11T15:27:32.027",
 					"translations": [],
 					"userAccesses": [],
@@ -7895,7 +8356,7 @@
 			"shortName": "not registered",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -7964,7 +8425,7 @@
 			"shortName": "Previously Registered",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8034,7 +8495,7 @@
 			"shortName": "Children under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8042,28 +8503,6 @@
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2018-10-24T09:33:05.129",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "LZNOsqeCK2t",
-					"lastUpdated": "2018-10-24T09:33:05.129",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -8087,6 +8526,28 @@
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2018-10-24T09:33:05.129",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "LZNOsqeCK2t",
+					"lastUpdated": "2018-10-24T09:33:05.129",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
 				}
 			],
 			"analyticsType": "EVENT",
@@ -8106,7 +8567,7 @@
 			"shortName": "3rd dose of Pentavalent and 1st dose of MCV",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8114,29 +8575,6 @@
 		{
 			"aggregationType": "AVERAGE",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-11-13T21:27:17.169",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "Bi1c4Tl8ARA",
-					"lastUpdated": "2018-11-13T23:32:24.451",
-					"offsetPeriods": 0,
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -8160,6 +8598,29 @@
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-11-13T21:27:17.169",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Bi1c4Tl8ARA",
+					"lastUpdated": "2018-11-13T23:32:24.451",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
 				}
 			],
 			"analyticsType": "ENROLLMENT",
@@ -8180,7 +8641,7 @@
 			"shortName": "average days measles",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8188,28 +8649,6 @@
 		{
 			"aggregationType": "AVERAGE",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-11-13T23:32:10.556",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "ss9a3RPlb4X",
-					"lastUpdated": "2018-11-13T23:47:53.546",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -8233,6 +8672,28 @@
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-11-13T23:32:10.556",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ss9a3RPlb4X",
+					"lastUpdated": "2018-11-13T23:47:53.546",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
 				}
 			],
 			"analyticsType": "ENROLLMENT",
@@ -8252,7 +8713,7 @@
 			"shortName": "measles 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8321,7 +8782,7 @@
 			"shortName": "DPT-HepB-HIB 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8390,7 +8851,7 @@
 			"shortName": "DPT-HepB-HIB 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8459,7 +8920,7 @@
 			"shortName": "DPT-HepB-HIB 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8528,7 +8989,7 @@
 			"shortName": "DPT-HepB-Hib consumption",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8597,7 +9058,7 @@
 			"shortName": "count",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8666,7 +9127,7 @@
 			"shortName": "Hepatitis B 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8735,7 +9196,7 @@
 			"shortName": "IPV 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8805,7 +9266,7 @@
 			"shortName": "IPV doses given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8875,7 +9336,7 @@
 			"shortName": "MCV 2 doses given by age 2 yo",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -8945,7 +9406,7 @@
 			"shortName": "MCV1 doses given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9014,7 +9475,7 @@
 			"shortName": "Measles 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9083,7 +9544,7 @@
 			"shortName": "Measles 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9152,7 +9613,7 @@
 			"shortName": "Measles consumption",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9222,7 +9683,7 @@
 			"shortName": "MR 2 doses given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9292,7 +9753,7 @@
 			"shortName": "MR doses given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9362,7 +9823,7 @@
 			"shortName": "OPV 3 dose given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9431,7 +9892,7 @@
 			"shortName": "OPV consumption",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9504,7 +9965,7 @@
 			"shortName": "OPV consumption prev month",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9573,7 +10034,7 @@
 			"shortName": "PCV 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9643,7 +10104,7 @@
 			"shortName": "PCV 1 dose given under 1 year ",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9712,7 +10173,7 @@
 			"shortName": "PCV 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9782,7 +10243,7 @@
 			"shortName": "PCV 2 dose given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9851,7 +10312,7 @@
 			"shortName": "PCV 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9921,7 +10382,7 @@
 			"shortName": "PCV 3 dose given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -9991,7 +10452,7 @@
 			"shortName": "PCV dose given under 1 year ",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10060,7 +10521,7 @@
 			"shortName": "PCV consumption",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10130,7 +10591,7 @@
 			"shortName": "DPT-HepB-Hib 3 doses given < 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10200,7 +10661,7 @@
 			"shortName": "Pentavalent vaccine (DPT-HepB-Hib 1) dose 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10270,7 +10731,7 @@
 			"shortName": "Pentavalent vaccine (DPT-HepB-Hib 1) dose 2",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10340,7 +10801,7 @@
 			"shortName": "Pentavalent vaccine (DPT-HepB-Hib 1) dose 3",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10410,7 +10871,7 @@
 			"shortName": "Registered individuals < 1 yo",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10479,7 +10940,7 @@
 			"shortName": "Registered Individuals",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10548,7 +11009,7 @@
 			"shortName": "Rubella 1",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10617,7 +11078,7 @@
 			"shortName": "RV 1 (Rotarix)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10687,7 +11148,7 @@
 			"shortName": "RV 1 dose given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10756,7 +11217,7 @@
 			"shortName": "RV 2 (Rotarix)",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10826,7 +11287,7 @@
 			"shortName": "RV 2 dose given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10895,7 +11356,7 @@
 			"shortName": "RV consumption",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -10941,7 +11402,7 @@
 			"shortName": "Stock consumption - OPV",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -11011,7 +11472,7 @@
 			"shortName": "Surviving children by age 2 years",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -11081,7 +11542,7 @@
 			"shortName": "stockout",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -11151,7 +11612,7 @@
 			"shortName": "Yellow fever doses given",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -11221,7 +11682,7 @@
 			"shortName": "Yellow fever doses given under 1 year",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -11537,19 +11998,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "This gestational age is outside the normal range",
-			"created": "2019-02-08T10:02:11.347",
-			"dataElement": {
-				"id": "SaCLndgg6On"
-			},
-			"id": "Yp8Cq0auq5e",
-			"lastUpdated": "2019-02-08T10:02:11.347",
-			"programRule": {
-				"id": "EcOPKQrHITI"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"content": "\"It is Contraindicated to give the Rotavirus vaccine, if the child is HIV+ and not on ART, and/or severely immuno-compromised\"",
 			"created": "2019-02-21T08:32:59.319",
 			"dataElement": {
@@ -11592,19 +12040,6 @@
 			"lastUpdated": "2018-10-22T13:18:01.122",
 			"programRule": {
 				"id": "rhispzm1044"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"created": "2019-02-08T09:16:02.641",
-			"data": "A{child_middle_name}",
-			"dataElement": {
-				"id": "mErbukKFpHi"
-			},
-			"id": "GPVnoCHppoT",
-			"lastUpdated": "2019-02-11T09:44:53.167",
-			"programRule": {
-				"id": "IzTpU90ZCuj"
 			},
 			"programRuleActionType": "ASSIGN"
 		},
@@ -11851,19 +12286,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Please enter ten digit contact number.",
-			"created": "2019-02-08T10:21:03.376",
-			"dataElement": {
-				"id": "BMMqDsv9kc8"
-			},
-			"id": "HmyICUkWFMK",
-			"lastUpdated": "2019-03-21T11:21:42.093",
-			"programRule": {
-				"id": "AktZs3SalfT"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"content": "#{dpt3NotDue}",
 			"created": "2015-12-08T11:34:15.534",
 			"data": "true",
@@ -11890,8 +12312,8 @@
 			"content": "#{ageString}",
 			"created": "2016-01-05T06:22:52.266",
 			"data": "d2:concatenate(#{currentAgeWeeks}, ' weeks + ', d2:modulus(#{currentAgeDays},7),'                days')",
-			"id": "ahispzm1092",
-			"lastUpdated": "2018-10-22T13:18:01.122",
+			"id": "McP9BWOP0en",
+			"lastUpdated": "2020-02-12T08:59:18.737",
 			"location": "indicators",
 			"programRule": {
 				"id": "rhispzm1092"
@@ -11983,19 +12405,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "This birth weight is outside the normal range",
-			"created": "2019-02-08T09:34:27.871",
-			"dataElement": {
-				"id": "WUquHs0Al7h"
-			},
-			"id": "UQgIAlplkK7",
-			"lastUpdated": "2019-02-08T09:38:56.098",
-			"programRule": {
-				"id": "FiyfR0yRKSm"
-			},
-			"programRuleActionType": "SHOWWARNING"
-		},
-		{
 			"created": "2015-11-25T16:35:30.820",
 			"dataElement": {
 				"id": "Zm4v8CQIXyj"
@@ -12055,19 +12464,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2019-02-08T09:16:02.641",
-			"data": "A{mother_first_name}",
-			"dataElement": {
-				"id": "ntX5Nr1kwfR"
-			},
-			"id": "lp2W4zZTGvI",
-			"lastUpdated": "2019-03-20T13:26:50.822",
-			"programRule": {
-				"id": "BUWPo8zIion"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
 			"created": "2015-11-25T16:20:14.254",
 			"dataElement": {
 				"id": "CfPM8lsEMzH"
@@ -12112,19 +12508,6 @@
 				"id": "rhispzm1014"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "Please enter ten digit contact number.",
-			"created": "2019-02-08T10:21:03.376",
-			"dataElement": {
-				"id": "E930AZRdUwC"
-			},
-			"id": "NUM0VuwXtmS",
-			"lastUpdated": "2019-03-21T11:21:50.638",
-			"programRule": {
-				"id": "Qs5vUF95SfB"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2018-10-29T14:03:32.130",
@@ -12431,19 +12814,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2019-02-08T09:16:02.641",
-			"data": "A{child_first_name}",
-			"dataElement": {
-				"id": "Wi6yavJmYdr"
-			},
-			"id": "nrWaFNqpx3m",
-			"lastUpdated": "2019-04-02T12:09:33.317",
-			"programRule": {
-				"id": "iWm1Adtk0tz"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
 			"content": "\" Be aware, it is advisable to defer vaccination until after an acute infection with temperature >39 degree C\".",
 			"created": "2019-02-22T10:23:07.086",
 			"dataElement": {
@@ -12583,19 +12953,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2019-02-08T09:16:02.641",
-			"data": "A{mother_last_name}",
-			"dataElement": {
-				"id": "LDwqeVyXNm3"
-			},
-			"id": "gG4KjYdWgsj",
-			"lastUpdated": "2019-03-21T11:15:07.171",
-			"programRule": {
-				"id": "fU12k50cikJ"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
 			"content": "#{hepbNeeded}",
 			"created": "2015-11-25T16:35:29.258",
 			"data": "true",
@@ -12664,19 +13021,6 @@
 				"id": "vFVrJnEvnt1"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "This number is outside the normal range",
-			"created": "2019-02-08T10:16:55.025",
-			"dataElement": {
-				"id": "c8IacFDh4ql"
-			},
-			"id": "vduSxZNUWrZ",
-			"lastUpdated": "2019-02-08T10:16:55.025",
-			"programRule": {
-				"id": "PmmgOIi8kMY"
-			},
-			"programRuleActionType": "SHOWWARNING"
 		},
 		{
 			"content": "The weight is too low, please verify.",
@@ -12860,19 +13204,6 @@
 			"lastUpdated": "2018-10-22T13:18:01.122",
 			"programRule": {
 				"id": "rhispzm1088"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"created": "2019-02-08T09:16:02.641",
-			"data": "A{child_last_name}",
-			"dataElement": {
-				"id": "syrkJuVk1Is"
-			},
-			"id": "Hy9x396FLYO",
-			"lastUpdated": "2019-04-02T12:09:16.236",
-			"programRule": {
-				"id": "T6tPczL8OB6"
 			},
 			"programRuleActionType": "ASSIGN"
 		},
@@ -13241,7 +13572,7 @@
 			"created": "2016-01-05T06:22:24.338",
 			"description": "Format and assign age string in weeks - Assign age string                weeks",
 			"id": "rhispzm1092",
-			"lastUpdated": "2018-10-22T13:18:01.284",
+			"lastUpdated": "2020-02-12T08:59:18.813",
 			"name": "Assign age string weeks",
 			"priority": 2,
 			"program": {
@@ -13249,7 +13580,7 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "ahispzm1092"
+					"id": "McP9BWOP0en"
 				}
 			],
 			"translations": []
@@ -13322,63 +13653,6 @@
 					"id": "c0UbuY5ZjSp"
 				}
 			],
-			"translations": []
-		},
-		{
-			"condition": "#{name_update} != true",
-			"created": "2019-02-08T09:13:48.574",
-			"id": "iWm1Adtk0tz",
-			"lastUpdated": "2019-04-02T12:09:33.418",
-			"name": "Assign Child's First name",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "nrWaFNqpx3m"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{name_update} != true",
-			"created": "2019-03-20T13:27:18.619",
-			"id": "T6tPczL8OB6",
-			"lastUpdated": "2019-04-02T12:09:16.321",
-			"name": "Assign Child's Last name",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "Hy9x396FLYO"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{name_update} != true",
-			"created": "2019-02-11T09:44:53.196",
-			"id": "IzTpU90ZCuj",
-			"lastUpdated": "2019-02-11T09:44:53.196",
-			"name": "Assign Child's Middle name",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "GPVnoCHppoT"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
 			"translations": []
 		},
 		{
@@ -13666,44 +13940,6 @@
 					"id": "ahispzm1050"
 				}
 			],
-			"translations": []
-		},
-		{
-			"condition": "#{name_update} != true",
-			"created": "2019-03-20T13:24:07.464",
-			"id": "BUWPo8zIion",
-			"lastUpdated": "2019-03-20T13:26:50.896",
-			"name": "Assign Mother's First name",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "lp2W4zZTGvI"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{name_update} != true",
-			"created": "2019-02-08T09:21:59.645",
-			"id": "fU12k50cikJ",
-			"lastUpdated": "2019-03-21T11:15:07.280",
-			"name": "Assign Mother's Last name",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "gG4KjYdWgsj"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
 			"translations": []
 		},
 		{
@@ -15163,101 +15399,6 @@
 			],
 			"programStage": {
 				"id": "s53RFfXA75f"
-			},
-			"translations": []
-		},
-		{
-			"condition": "d2:length('father_contact_number') > 5 && (#{father_contact_number} > 0)",
-			"created": "2019-02-08T10:30:25.727",
-			"id": "AktZs3SalfT",
-			"lastUpdated": "2019-03-21T11:21:42.200",
-			"name": "Show error if Father's contact number <5",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "HmyICUkWFMK"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{gestational_age} > 44",
-			"created": "2019-02-08T10:02:11.387",
-			"id": "EcOPKQrHITI",
-			"lastUpdated": "2019-02-08T10:02:11.387",
-			"name": "Show error if Gestational age > 44",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "Yp8Cq0auq5e"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "d2:length('mother_contact_number')  <  5 && (#{mother_contact_number} > 0)",
-			"created": "2019-02-08T10:21:03.418",
-			"id": "Qs5vUF95SfB",
-			"lastUpdated": "2019-03-21T11:21:50.718",
-			"name": "Show error if Mother's contact number <5",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "NUM0VuwXtmS"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "((#{birth_weight } < 2000) || (#{birth_weight } > 4500)) && (#{birth_weight } != '')",
-			"created": "2019-02-08T09:34:27.906",
-			"id": "FiyfR0yRKSm",
-			"lastUpdated": "2019-02-08T09:38:56.145",
-			"name": "Show error in birth weight if value is <2000 and >4500",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "UQgIAlplkK7"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{gravida} > 20",
-			"created": "2019-02-08T09:18:15.598",
-			"id": "PmmgOIi8kMY",
-			"lastUpdated": "2019-02-08T10:16:55.071",
-			"name": "Show warning if gravida >20",
-			"program": {
-				"id": "SSLpOM0r1U7"
-			},
-			"programRuleActions": [
-				{
-					"id": "vduSxZNUWrZ"
-				}
-			],
-			"programStage": {
-				"id": "g0QxLZElIcr"
 			},
 			"translations": []
 		},
@@ -18300,10 +18441,29 @@
 			"translations": [],
 			"useFirstStageDuringRegistration": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation",
+					"id": "mJXfg1R1L29",
+					"userGroupUid": "mJXfg1R1L29"
+				},
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"version": 92
 		}
 	],
@@ -20424,10 +20584,17 @@
 			"sortOrder": 2,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"validationStrategy": "ON_COMPLETE"
 		},
 		{
@@ -23471,10 +23638,23 @@
 			},
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation admin",
+					"id": "T6DZORCrELb",
+					"userGroupUid": "T6DZORCrELb"
+				},
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"validationStrategy": "ON_COMPLETE"
 		}
 	],
@@ -23542,7 +23722,7 @@
 				}
 			],
 			"id": "fdBM95QaIUB",
-			"lastUpdated": "2019-12-06T16:05:59.025",
+			"lastUpdated": "2020-01-16T22:55:24.534",
 			"name": "Birth Notification",
 			"programIndicators": [],
 			"programStage": {
@@ -23672,7 +23852,7 @@
 				}
 			],
 			"id": "eXYIjLTqw3D",
-			"lastUpdated": "2019-12-06T16:05:59.025",
+			"lastUpdated": "2020-01-16T22:55:24.535",
 			"name": "Immunization - Non Routine",
 			"programIndicators": [],
 			"programStage": {
@@ -23790,7 +23970,7 @@
 				}
 			],
 			"id": "qUEWFkK2MOU",
-			"lastUpdated": "2019-12-06T16:05:59.025",
+			"lastUpdated": "2020-01-16T22:55:24.535",
 			"name": "Immunization - Routine",
 			"programIndicators": [],
 			"programStage": {
@@ -23827,7 +24007,7 @@
 				}
 			],
 			"id": "YH1KZrnqD7l",
-			"lastUpdated": "2019-12-06T16:05:59.025",
+			"lastUpdated": "2020-01-16T22:55:24.535",
 			"name": "Pre-immunization Questions",
 			"programIndicators": [],
 			"programStage": {
@@ -23861,7 +24041,7 @@
 				}
 			],
 			"id": "T10TiY7nuEZ",
-			"lastUpdated": "2019-12-06T16:05:59.025",
+			"lastUpdated": "2020-01-16T22:55:24.535",
 			"name": "Vaccine Schedule Override",
 			"programIndicators": [],
 			"programStage": {
@@ -24223,7 +24403,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24252,7 +24432,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24281,7 +24461,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24310,7 +24490,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24339,7 +24519,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24368,7 +24548,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24397,7 +24577,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24426,10 +24606,17 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"valueType": "TEXT"
 		},
 		{
@@ -24458,7 +24645,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24487,10 +24674,17 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"valueType": "TEXT"
 		},
 		{
@@ -24515,7 +24709,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24544,7 +24738,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24574,7 +24768,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24603,7 +24797,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24632,7 +24826,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24661,7 +24855,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24692,7 +24886,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24721,10 +24915,17 @@
 			"translations": [],
 			"unique": true,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Immunisation access",
+					"id": "JVenB84tY1X",
+					"userGroupUid": "JVenB84tY1X"
+				}
+			],
 			"valueType": "TEXT"
 		},
 		{
@@ -24749,7 +24950,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -24870,10 +25071,148 @@
 			],
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"displayName": "Immunisation",
+					"id": "mJXfg1R1L29",
+					"userGroupUid": "mJXfg1R1L29"
+				}
+			]
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2019-06-19T09:11:12.902",
+			"id": "LPrZIVYQGUv",
+			"lastUpdated": "2020-02-06T17:23:53.054",
+			"managedGroups": [],
+			"name": "Birth notification admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-06-18T17:04:57.837",
+			"id": "mJXfg1R1L29",
+			"lastUpdated": "2019-11-15T18:11:17.150",
+			"managedGroups": [],
+			"name": "Immunisation",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-06-18T17:10:51.209",
+			"id": "JVenB84tY1X",
+			"lastUpdated": "2019-12-02T10:44:15.733",
+			"managedGroups": [],
+			"name": "Immunisation access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-06-18T17:16:18.136",
+			"id": "T6DZORCrELb",
+			"lastUpdated": "2020-02-06T17:23:53.052",
+			"managedGroups": [],
+			"name": "Immunisation admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-11-27T07:20:32.434",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
 		}
 	]
 }
