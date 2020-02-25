@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2019-10-25T01:25:58.397",
+			"lastUpdated": "2020-01-31T10:23:37.139",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -37,7 +37,7 @@
 			"skipTotal": false,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -101,7 +101,7 @@
 			"shortName": "Attendant at birth_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -129,7 +129,7 @@
 			"shortName": "Birth type_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -154,7 +154,7 @@
 			"shortName": "Birth weight (grams)_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -179,17 +179,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Semaines de grossesse complétées"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Semaines de grossesse complétées"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -216,13 +216,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Date de la blessure"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Date de la blessure"
+					"property": "DESCRIPTION",
+					"value": "Date de la blessure si cause externe ou empoisonnement"
 				},
 				{
 					"locale": "fr",
@@ -231,12 +226,17 @@
 				},
 				{
 					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Date de la blessure si cause externe ou empoisonnement"
+					"property": "NAME",
+					"value": "Date de la blessure"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Date de la blessure"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -260,7 +260,7 @@
 			"shortName": "Delivery date",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -286,8 +286,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Description de la cause externe"
+					"property": "FORM_NAME",
+					"value": "Veuillez décrire comment la cause externe s'est produite (en cas d'empoisonnement, veuillez préciser le poison)"
 				},
 				{
 					"locale": "fr",
@@ -296,12 +296,12 @@
 				},
 				{
 					"locale": "fr",
-					"property": "FORM_NAME",
-					"value": "Veuillez décrire comment la cause externe s'est produite (en cas d'empoisonnement, veuillez préciser le poison)"
+					"property": "SHORT_NAME",
+					"value": "Description de la cause externe"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -326,7 +326,7 @@
 			"shortName": "Gestational age_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -351,17 +351,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Heures de survie du nouveau-né"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Heures de survie du nouveau-né"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -389,17 +389,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Manière de mourir"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Manière de mourir"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -427,7 +427,7 @@
 			"shortName": "Mode of delivery",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -455,17 +455,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "NAME",
 					"value": "Grossesses multiples"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
+					"property": "SHORT_NAME",
 					"value": "Grossesses multiples"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -490,7 +490,7 @@
 			"shortName": "Parity_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -518,7 +518,7 @@
 			"shortName": "Place of birth_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -543,7 +543,7 @@
 			"shortName": "Place of birth_facility",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -572,7 +572,7 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
+					"property": "FORM_NAME",
 					"value": "Lieu d'apparition de la cause externe"
 				},
 				{
@@ -582,12 +582,12 @@
 				},
 				{
 					"locale": "fr",
-					"property": "FORM_NAME",
+					"property": "SHORT_NAME",
 					"value": "Lieu d'apparition de la cause externe"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -613,8 +613,8 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Lieu d'apparition de la cause externe - précisez"
+					"property": "FORM_NAME",
+					"value": "Veuillez préciser le lieu d'apparition de la cause externe"
 				},
 				{
 					"locale": "fr",
@@ -623,12 +623,12 @@
 				},
 				{
 					"locale": "fr",
-					"property": "FORM_NAME",
-					"value": "Veuillez préciser le lieu d'apparition de la cause externe"
+					"property": "SHORT_NAME",
+					"value": "Lieu d'apparition de la cause externe - précisez"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -657,17 +657,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Mort périnatale - conditions de la mère"
+					"property": "NAME",
+					"value": "Les décès périnatals - les condiditons de la mère qui a affecté le foetus et le nouveau-né"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "Les décès périnatals - les condiditons de la mère qui a affecté le foetus et le nouveau-né"
+					"property": "SHORT_NAME",
+					"value": "Mort périnatale - conditions de la mère"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -693,7 +693,7 @@
 			"shortName": "Village Name_Birth details",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -721,17 +721,17 @@
 			"translations": [
 				{
 					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Mort-né"
+					"property": "NAME",
+					"value": "Était mort-né"
 				},
 				{
 					"locale": "fr",
-					"property": "NAME",
-					"value": "Était mort-né"
+					"property": "SHORT_NAME",
+					"value": "Mort-né"
 				}
 			],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -755,6 +755,72 @@
 			"lastUpdated": "2019-09-12T07:21:29.919",
 			"name": "Vital Event Details",
 			"translations": []
+		}
+	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-02-24T10:55:35.669",
+			"id": "kijrl9Etx1E",
+			"indicators": [
+				{
+					"id": "ckBUQbFsgk4"
+				}
+			],
+			"lastUpdated": "2020-02-24T10:55:35.669",
+			"name": "Test Indicator Group for import export",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MTI001",
+			"created": "2020-02-24T10:42:07.351",
+			"denominator": "D{FTBBLOT3sO7.SaCLndgg6On}",
+			"denominatorDescription": "Denomination",
+			"description": "Test Indicator for Import/Export",
+			"id": "ckBUQbFsgk4",
+			"indicatorType": {
+				"id": "e1jRVY5Mcq0"
+			},
+			"lastUpdated": "2020-02-24T10:42:07.351",
+			"legendSets": [],
+			"name": "Morten's test indicator",
+			"numerator": "D{FTBBLOT3sO7.f95m3KTUK3t} - D{FTBBLOT3sO7.YC3AioXWlfR}",
+			"numeratorDescription": "This minus that",
+			"publicAccess": "r-------",
+			"shortName": "MortenTestInd",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:41:28.852",
+			"factor": 100,
+			"id": "e1jRVY5Mcq0",
+			"lastUpdated": "2018-11-27T07:20:32.746",
+			"name": "Percentage",
+			"number": false,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
+				}
+			]
 		}
 	],
 	"options": [
@@ -1411,14 +1477,14 @@
 		{
 			"attributeValues": [],
 			"code": "UNKNOWN",
-			"created": "2018-01-19T08:53:24.125",
-			"id": "TKD1XJ4ZhMO",
-			"lastUpdated": "2018-01-19T08:53:24.464",
+			"created": "2016-05-09T15:05:17.396",
+			"id": "AsaQrcd3lBK",
+			"lastUpdated": "2018-01-17T11:58:25.803",
 			"name": "Unknown",
 			"optionSet": {
-				"id": "bLA3AqDKdwx"
+				"id": "uDH1pDHvFeg"
 			},
-			"sortOrder": 3,
+			"sortOrder": 10,
 			"translations": []
 		},
 		{
@@ -1437,6 +1503,19 @@
 		{
 			"attributeValues": [],
 			"code": "UNKNOWN",
+			"created": "2018-01-19T08:53:24.125",
+			"id": "TKD1XJ4ZhMO",
+			"lastUpdated": "2018-01-19T08:53:24.464",
+			"name": "Unknown",
+			"optionSet": {
+				"id": "bLA3AqDKdwx"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNKNOWN",
 			"created": "2015-07-10T09:17:53.916",
 			"id": "wsYjmgWwOxo",
 			"lastUpdated": "2018-01-17T11:58:25.813",
@@ -1445,19 +1524,6 @@
 				"id": "pDIfKQVivxg"
 			},
 			"sortOrder": 8,
-			"translations": []
-		},
-		{
-			"attributeValues": [],
-			"code": "UNKNOWN",
-			"created": "2016-05-09T15:05:17.396",
-			"id": "AsaQrcd3lBK",
-			"lastUpdated": "2018-01-17T11:58:25.803",
-			"name": "Unknown",
-			"optionSet": {
-				"id": "uDH1pDHvFeg"
-			},
-			"sortOrder": 10,
 			"translations": []
 		},
 		{
@@ -1552,7 +1618,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1579,7 +1645,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1606,7 +1672,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1652,7 +1718,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1683,7 +1749,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1713,7 +1779,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1762,7 +1828,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1814,7 +1880,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1838,7 +1904,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1866,7 +1932,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -1874,7 +1940,7 @@
 			"version": 3
 		}
 	],
-	"package": "BRN_TRACKER_V1.0.0_DHIS2.31_2019-12-23T10:49",
+	"package": "BRN_TRACKER_V1.0.0_DHIS2.31_2020-02-25T10:15",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -1942,7 +2008,7 @@
 			"shortName": "CRVS_All birth notification",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -2013,7 +2079,7 @@
 			"shortName": "CRVS_Delayed birth notification",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -2084,7 +2150,7 @@
 			"shortName": "CRVS_Late birth notification",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -2155,7 +2221,7 @@
 			"shortName": "CRVS_Timely birth notification",
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -3860,7 +3926,7 @@
 			"translations": [],
 			"useFirstStageDuringRegistration": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -4686,7 +4752,7 @@
 			"sortOrder": 2,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -4890,7 +4956,7 @@
 			"sortOrder": 3,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5361,7 +5427,7 @@
 			"sortOrder": 4,
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5413,7 +5479,7 @@
 			},
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5867,7 +5933,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5895,7 +5961,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5924,7 +5990,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5956,7 +6022,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -5985,7 +6051,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6015,7 +6081,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6044,7 +6110,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6073,7 +6139,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6102,7 +6168,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6131,7 +6197,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6161,7 +6227,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6190,7 +6256,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6219,7 +6285,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6248,7 +6314,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6277,7 +6343,7 @@
 			"translations": [],
 			"unique": true,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6306,7 +6372,7 @@
 			"translations": [],
 			"unique": false,
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
@@ -6427,10 +6493,101 @@
 			],
 			"translations": [],
 			"user": {
-				"id": "Ia1Xtxa5eG8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2019-06-19T09:11:01.407",
+			"id": "UcecONzws6W",
+			"lastUpdated": "2020-02-06T17:23:53.038",
+			"managedGroups": [],
+			"name": "Birth notification access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2019-06-19T09:11:12.902",
+			"id": "LPrZIVYQGUv",
+			"lastUpdated": "2020-02-06T17:23:53.054",
+			"managedGroups": [],
+			"name": "Birth notification admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-11-27T07:20:32.434",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
 		}
 	]
 }

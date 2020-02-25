@@ -8,13 +8,31 @@
       "_ownership": {
         "modeOwner": "OVERWRITE",
         "modeLastUpdated": "REMOVE",
-        "ownerId": "Ia1Xtxa5eG8"
+        "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "REMOVE",
-        "groupExport": false,
+        "groupMode": "FILTER",
+        "groups": [
+          {
+            "id": "UcecONzws6W",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "LPrZIVYQGUv",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
         "userMode": "REMOVE",
-        "users": [],
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
         "userExport": false,
         "publicAccess": {
           "metadata": "VIEW",
