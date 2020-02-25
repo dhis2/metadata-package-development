@@ -12,7 +12,13 @@
       },
       "_sharing": {
         "groupMode": "FILTER",
-        "groups": [],      
+        "groups": [
+          {
+            "id": "JVenB84tY1X",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],      
         "groupExport": true,
         "userMode": "REMOVE",
         "users": [
@@ -31,8 +37,14 @@
       "_type": "tracker", 
       "_url": [
         "https://who.dhis2.org/tracker_epi"
-      ], 
+      ],
       "_version": "1.0.0",
+      "exportIndicatorGroupsIds": [
+        "IratxVbStzY"
+      ],
+      "indicatorGroupIds": [
+        "IratxVbStzY"
+      ],
       "programIds": [
         "GCg2ljFLRFN"
       ]
