@@ -3,7 +3,7 @@
     {
       "_basePath": "./COVID19/", 
       "_code": "COVID19", 
-      "_name": "COVID-19 Diagnosis & Lab Testing",
+      "_name": "COVID-19 Case-based Surveillance",
       "_prefix": "[CONFIG]",
       "_ownership": {
         "modeOwner": "OVERWRITE",
@@ -63,7 +63,7 @@
       "_url": [
         "https://covid.dhis2.org/tracker"
       ], 
-      "_version": "1.0.0",
+      "_version": "0.1.0",
       "dashboardIds": [
         "L82ZYKUUPZQ"
       ],
