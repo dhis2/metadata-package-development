@@ -1,0 +1,81 @@
+{
+  "export": [
+    {
+      "_basePath": "./COVID19_Contact/", 
+      "_code": "COVID19_Contact", 
+      "_name": "COVID-19 Contact Registration & Follow-up",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "IGNORE",
+        "ownerId": "pWWxiZ68aVK"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+            "id": "jONLg34JUH8",
+            "metadata": "EDIT",
+            "data": "NONE"
+          },
+          {
+            "id": "ai3XTgqPEI1",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "lW9qWyfUGBn",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "zNLJRu03m6Q",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "vc6oWMUQflE",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "UPrRuS47BzQ",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "FILTER",
+        "users": [
+          {
+            "id": "pWWxiZ68aVK",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://covid.dhis2.org/tracker"
+      ], 
+      "_version": "0.1.0",
+      "dashboardIds": [
+        "L82ZYKUUPZQ"
+      ],
+      "exportIndicatorGroupsIds": [
+        "O84ESUqiJX7"
+      ], 
+      "indicatorGroupIds": [
+        "O84ESUqiJX7"
+      ],
+      "programIds": [
+        "DM9n1bUw8W8"
+      ]
+    }
+  ]
+}
