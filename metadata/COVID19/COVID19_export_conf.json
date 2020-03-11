@@ -8,47 +8,32 @@
       "_ownership": {
         "modeOwner": "OVERWRITE",
         "modeLastUpdated": "IGNORE",
-        "ownerId": "pWWxiZ68aVK"
+        "ownerId": "BDUxJsJom8y"
       },
       "_sharing": {
         "groupMode": "FILTER",
         "groups": [
           {
-            "id": "jONLg34JUH8",
+            "id": "w4iJeNKy9br",
             "metadata": "EDIT",
-            "data": "NONE"
+            "data": "VIEW"
           },
           {
-            "id": "ai3XTgqPEI1",
+            "id": "DoYehxUvmwT",
             "metadata": "VIEW",
             "data": "VIEW"
           },
           {
-            "id": "lW9qWyfUGBn",
+            "id": "k8Fk0kuhOeK",
             "metadata": "VIEW",
             "data": "EDIT"
-          },
-          {
-            "id": "zNLJRu03m6Q",
-            "metadata": "VIEW",
-            "data": "VIEW"
-          },
-          {
-            "id": "vc6oWMUQflE",
-            "metadata": "VIEW",
-            "data": "EDIT"
-          },
-          {
-            "id": "UPrRuS47BzQ",
-            "metadata": "VIEW",
-            "data": "VIEW"
           }
         ],
         "groupExport": true,
         "userMode": "FILTER",
         "users": [
           {
-            "id": "pWWxiZ68aVK",
+            "id": "BDUxJsJom8y",
             "metadata": "EDIT",
             "data": "EDIT"
           }
@@ -63,9 +48,12 @@
       "_url": [
         "https://covid.dhis2.org/tracker"
       ], 
-      "_version": "0.1.0",
+      "_version": "1.0.0",
       "dashboardIds": [
         "L82ZYKUUPZQ"
+      ],
+      "dataElementGroupIds": [
+        "XQYhAWVo61V"
       ],
       "exportIndicatorGroupsIds": [
         "O84ESUqiJX7"
@@ -74,8 +62,7 @@
         "O84ESUqiJX7"
       ],
       "programIds": [
-        "uYjxkTbwRNf",
-        "DM9n1bUw8W8"
+        "uYjxkTbwRNf"
       ]
     }
   ]
