@@ -1,27 +1,56 @@
 {
   "export": [
     {
-      "_basePath": "./COD/", 
-      "_code": "COD-REG", 
+      "_basePath": "./COD/",
+      "_code": "COD-REG",
       "_customFuncs": [
         "for (var type in metaData) { for (var item of metaData[type]) { if (item.hasOwnProperty('name'))\u00a0{ if (item.name.charAt(0) == '_') { item.name = item.name.substr(1); } } if (item.hasOwnProperty('shortName'))\u00a0{ if (item.shortName.charAt(0) == '_') { item.shortName = item.shortName.substr(1); } } if (item.hasOwnProperty('code'))\u00a0{ if (item.code.charAt(0) == '_') { item.code = item.code.substr(1); } } } }"], 
-      "_name": "CoD (registration)",
+      "_name": "Cause of death (registration)",
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },      
       "_sharing": {
-        "accessGroupIds": [
-          "OaBG9GmS9Rx"
-        ], 
-        "adminGroupIds": [
-          "GCI348yKvGT"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+            "id": "OaBG9GmS9Rx",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "GCI348yKvGT",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "ZrBVcRHEZAJ",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
       }, 
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_ref"
+        "https://who.dhis2.org/tracker_dev"
       ], 
-      "_version": "1.1.0",
+      "_version": "1.2.0",
       "customObjects": [
         {
           "objectIds": [
@@ -37,9 +66,6 @@
           "objectType": "sqlViews"
         }
       ],
-      "dashboardIds": [
-        "gskAdA5a2d4"
-      ], 
       "dataElementGroupIds": [
         "d3vHSfeqO0H"
       ], 
@@ -56,28 +82,56 @@
     {
       "_basePath": "./COD/", 
       "_code": "COD-EVENT", 
-      "_customFuncs": [], 
-      "_name": "CoD (event)",
+      "_name": "Cause of death (event)",
       "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },      
       "_sharing": {
-        "accessGroupIds": [
-          "OaBG9GmS9Rx"
-        ], 
-        "adminGroupIds": [
-          "GCI348yKvGT"
-        ], 
-        "publicAccess": "--------", 
-        "userId": "vUeLeQMSwhN"
+        "groupMode": "FILTER",
+        "groups": [
+          {
+            "id": "OaBG9GmS9Rx",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "GCI348yKvGT",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "ZrBVcRHEZAJ",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "NONE"
+        }
       }, 
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_ref"
+        "https://who.dhis2.org/tracker_dev"
       ], 
-      "_version": "1.1.0", 
+      "_version": "1.2.0", 
       "customObjects": [
         {
           "objectIds": [
-          	"nOrVs1Gi9Nt", 
+            "nOrVs1Gi9Nt",
           	"iy8xEmIhMph", 
           	"Siuqk0lMzC7", 
           	"dS3uFpYtlss", 
@@ -89,9 +143,6 @@
           "objectType": "sqlViews"
         }
       ],
-      "dashboardIds": [
-        "wBFR85ExTPr"
-      ], 
       "dataElementGroupIds": [
         "d3vHSfeqO0H"
       ], 
