@@ -7,11 +7,11 @@
       "_prefix": "[CONFIG]",
       "_ownership": {
         "modeOwner": "OVERWRITE",
-        "modeLastUpdated": "IGNORE",
-        "ownerId": "BDUxJsJom8y"
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "wnaAI6khQp1"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "w4iJeNKy9br",
@@ -33,14 +33,14 @@
         "userMode": "FILTER",
         "users": [
           {
-            "id": "BDUxJsJom8y",
+            "id": "wnaAI6khQp1",
             "metadata": "EDIT",
             "data": "EDIT"
           }
         ],
         "userExport": false,
         "publicAccess": {
-          "metadata": "VIEW",
+          "metadata": "NONE",
           "data": "NONE"
         }
       },
@@ -53,7 +53,8 @@
         "L82ZYKUUPZQ"
       ],
       "dataElementGroupIds": [
-        "XQYhAWVo61V"
+        "XQYhAWVo61V",
+        "Xy7lsU7XDgN"
       ],
       "exportIndicatorGroupsIds": [
         "O84ESUqiJX7"
@@ -62,7 +63,8 @@
         "O84ESUqiJX7"
       ],
       "programIds": [
-        "uYjxkTbwRNf"
+        "uYjxkTbwRNf",
+        "DM9n1bUw8W8"
       ]
     }
   ]
