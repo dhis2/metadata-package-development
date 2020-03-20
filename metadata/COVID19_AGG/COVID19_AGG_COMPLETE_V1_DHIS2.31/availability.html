@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    </meta>
+    <title>Availability mapping</title>
+  </head>
+
+  <body>
+    <h1>Availability mapping</h1>
+    <h2>Data elements</h2>
+    <h3>COVID-19 Surveillance Report </h3>
+    <table width="100%">
+      <col width="15%">
+      <col width="70%">
+      <col width="15%" align="center">
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Available</th>
+      </tr>
+      <tr>
+        <td rowspan=1>COVID_19_CASES_TESTED</td>
+        <td align="left">COVID-19 - Cases tested</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=7>COVID_19_CONFIRMED_CASES_BY_TC</td>
+        <td align="left">COVID-19 - Confirmed cases by transmission classification</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Transmission Classification (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Imported</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Known Cluster</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Community transmission</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Unknown Classification</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=1>COVID_19_NEW_CASES_HOSPITALISED</td>
+        <td align="left">COVID-19 - New cases hospitalised</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=6>COVID_19_NEW_CASES_TREATED</td>
+        <td align="left">COVID-19 - New cases treated</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Treatment Type (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Mechanical ventilation</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>ECMO</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Admitted in intensive care unit (ICU)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=13>COVID_19_NEW_CONFIRMED_CASES</td>
+        <td align="left">COVID-19 - New confirmed cases (sex/age)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Age (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>0-1 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>2-4 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>5-14 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>15-49 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>50-64 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>65-79 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>≥ 80 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Sex</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Male</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Female</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=13>COVID_19_NEW_DEATHS</td>
+        <td align="left">COVID-19 - New deaths (sex/age)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Age (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>0-1 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>2-4 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>5-14 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>15-49 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>50-64 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>65-79 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>≥ 80 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Sex</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Male</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Female</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=13>COVID_19_NEW_PROBABLE_CASES</td>
+        <td align="left">COVID-19 - New probable cases (sex/age)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Age (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>0-1 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>2-4 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>5-14 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>15-49 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>50-64 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>65-79 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>≥ 80 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Sex</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Male</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Female</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=7>COVID_19_PROBABLE_CASES_BY_TC</td>
+        <td align="left">COVID-19 - Probable cases by transmission classification</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Transmission Classification (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Imported</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Known Cluster</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Community transmission</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Unknown Classification</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=13>COVID_19_RECOVERED_CASES</td>
+        <td align="left">COVID-19 - Recovered cases (sex/age)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Age (COVID-19)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>0-1 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>2-4 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>5-14 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>15-49 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>50-64 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>65-79 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>≥ 80 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Sex</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Male</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>Female</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+    </table>
+    <h2>Indicators</h2>
+    <table width="100%">
+      <col width="15%">
+      <col width="70%">
+      <col width="15%">
+      <tr>
+        <th>Code</th>
+        <th>Name</th>
+        <th>Available</th>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Active cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Active Cases
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - All cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: All cases
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Case Fatality rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Deaths Reported
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: All suspected cases (Confirmed+Probable)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Cases treated by mechanical ventilation, ECMO or ICU</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Number of suspected cases that received mechanical ventilation, ECMO or admitted into intensive care unit
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Closed cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Active Cases
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Confirmed cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Suspected cases that were confirmed through laboratory testing (multiple lab tests may be conducted; this indicator assumes that the last test result).
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Confirmed cases by Transmission Classification</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Confirmed cases by Transmission Classification
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Deaths</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: COVID-19 related deaths (deaths recorded among all suspected cases)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Hospitalised Cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Number of suspected or confirmed or probable cases that were admitted into hospital
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Recovered cases</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Number of cases that are recovered.
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>N/A</td>
+        <td align="left">COVID-19 - Recovery rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Cases Recovered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: All suspected cases (Confirmed+Probable)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+    </table>
+  </body>
+
+</html>

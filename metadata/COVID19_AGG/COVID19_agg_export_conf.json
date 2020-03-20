@@ -1,0 +1,68 @@
+{
+  "export": [
+    {
+      "_basePath": "./COVID19_AGG/", 
+      "_code": "COVID19_AGG", 
+      "_name": "COVID19_AGG", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+              "id": "DoYehxUvmwT",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "w4iJeNKy9br",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "k8Fk0kuhOeK",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who-dev.dhis2.org/dev",
+        "https://who-dev.dhis2.org/dev231",
+        "https://who-dev.dhis2.org/dev232",
+        "https://who-dev.dhis2.org/dev233"
+      ], 
+      "_version": "1.0.0", 
+      "customObjects": [
+      ],
+      "dashboardIds": [
+        "BRV6jGG6Oxl"
+      ], 
+      "dataElementGroupIds": [
+        "RUadO5Cbck8"
+      ], 
+      "dataSetIds": [
+        "kIfMNugiTgd"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "YKyPfpFUAVo"
+      ], 
+      "validationRuleGroupIds": []
+    }
+      ]
+}
