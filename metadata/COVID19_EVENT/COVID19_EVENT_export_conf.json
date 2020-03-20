@@ -49,20 +49,23 @@
         "https://covid.dhis2.org/tracker"
       ], 
       "_version": "1.0.0",
+      "customObjects": [
+        {
+          "objectIds": ["X6aTwZ7lVaT"],
+          "objectType": "programIndicatorGroups"
+        }
+      ],
       "dashboardIds": [
         "STEy8H5iCiT"
       ],
       "dataElementGroupIds": [
-        "XQYhAWVo61V"
+        "yGp6dtojYFP"
       ],
       "exportIndicatorGroupsIds": [
-        "O84ESUqiJX7"
-      ], 
-      "indicatorGroupIds": [
-        "O84ESUqiJX7"
+        "X6aTwZ7lVaT"
       ],
       "programIds": [
-        "uYjxkTbwRNf"
+        "PNClHaZARtz"
       ]
     }
   ]
