@@ -2738,6 +2738,102 @@
 			"zeroIsSignificant": false
 		}
 	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-03-20T13:33:34.492",
+			"id": "PTYKXpCkMvE",
+			"indicators": [
+				{
+					"id": "jPRgGRxHfPa"
+				}
+			],
+			"lastUpdated": "2020-03-20T13:37:07.795",
+			"name": "COVID-19 (Events)",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-19T10:56:31.801",
+			"denominator": "I{yKb9J3MrGc8} + I{ECerNG8NQjX} + I{VlbMahO3Ux9} + I{CWbt7pBWtvQ} + I{hynseiJzjGy} + I{xU3ei6PxaA1} + I{W7wmuLvTQ7P} + I{uKnmkKvTGXD} + I{jPKXnjuiQHe} + I{pYUd3y3WvxB} + I{KAJWmEZ9M54} + I{wQYMmwdlbpq}",
+			"denominatorDescription": "Suspected cases",
+			"description": "COVID-19 related deaths (deaths recorded among all suspected cases)",
+			"id": "jPRgGRxHfPa",
+			"indicatorType": {
+				"id": "DadSzqgyAex"
+			},
+			"lastUpdated": "2020-03-20T15:24:44.526",
+			"legendSets": [],
+			"name": "COVID-19 Cases (events) - Case fatality rate",
+			"numerator": "I{Suhjr30Jd8v} + I{vBeNpGIj38O} + I{UChG7XLJPmE} + I{dmpaVnJfevT} + I{LoL8uSJ2cEe} + I{Gh02f7ml5OT} + I{MoQW5Kii7cH} + I{RvqNNkwzb5A} + I{yoMN3b2ufQe} + I{fGCQOcpNdwi} + I{dl18F8oGoi7} + I{jiQlrfO4lRp}",
+			"numeratorDescription": "Deaths",
+			"publicAccess": "--------",
+			"shortName": "Case fatality rate",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:41:28.852",
+			"factor": 100,
+			"id": "DadSzqgyAex",
+			"lastUpdated": "2020-03-20T12:01:22.803",
+			"name": "Percentage",
+			"number": false,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Por 100"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
+				}
+			]
+		}
+	],
 	"legendSets": [
 		{
 			"attributeValues": [],
@@ -3821,19 +3917,22 @@
 			"version": 2
 		}
 	],
-	"package": "COVID19_EVENT_TRACKER_V1.0.0_DHIS2.33_2020-03-20T14:01",
+	"package": "COVID19_EVENT_TRACKER_V1.0.0_DHIS2.33_2020-03-20T15:52",
 	"programIndicatorGroups": [
 		{
 			"created": "2020-03-19T11:53:53.023",
 			"id": "X6aTwZ7lVaT",
-			"lastUpdated": "2020-03-19T13:24:48.022",
+			"lastUpdated": "2020-03-20T15:35:48.781",
 			"name": "COVID-19 Cases (events)",
 			"programIndicators": [
 				{
 					"id": "YPl0Wj5goj6"
 				},
 				{
-					"id": "x5UVfnCjfF9"
+					"id": "uKnmkKvTGXD"
+				},
+				{
+					"id": "MoQW5Kii7cH"
 				},
 				{
 					"id": "AF1sONMAduM"
@@ -3842,10 +3941,10 @@
 					"id": "ctCUYg2whbX"
 				},
 				{
-					"id": "jiEYbsLXMgC"
+					"id": "yoMN3b2ufQe"
 				},
 				{
-					"id": "mwVZn9Z076n"
+					"id": "jiEYbsLXMgC"
 				},
 				{
 					"id": "Nu98ZvTc2my"
@@ -3860,28 +3959,97 @@
 					"id": "l85oa6H9IBd"
 				},
 				{
-					"id": "rLy0tTAjeXk"
-				},
-				{
 					"id": "ijBfSQzLVcz"
 				},
 				{
-					"id": "jCXLv6tOk4J"
+					"id": "fGCQOcpNdwi"
 				},
 				{
 					"id": "xvjetqvs3eC"
 				},
 				{
-					"id": "Qiz3PFg8fyN"
+					"id": "aDDqsVKEDVK"
 				},
 				{
-					"id": "aDDqsVKEDVK"
+					"id": "ECerNG8NQjX"
+				},
+				{
+					"id": "LoL8uSJ2cEe"
+				},
+				{
+					"id": "Suhjr30Jd8v"
+				},
+				{
+					"id": "xU3ei6PxaA1"
+				},
+				{
+					"id": "vBeNpGIj38O"
+				},
+				{
+					"id": "KAJWmEZ9M54"
+				},
+				{
+					"id": "x5UVfnCjfF9"
+				},
+				{
+					"id": "mwVZn9Z076n"
+				},
+				{
+					"id": "CWbt7pBWtvQ"
+				},
+				{
+					"id": "yKb9J3MrGc8"
+				},
+				{
+					"id": "pYUd3y3WvxB"
+				},
+				{
+					"id": "UChG7XLJPmE"
+				},
+				{
+					"id": "dl18F8oGoi7"
+				},
+				{
+					"id": "RvqNNkwzb5A"
+				},
+				{
+					"id": "rLy0tTAjeXk"
+				},
+				{
+					"id": "Gh02f7ml5OT"
+				},
+				{
+					"id": "jCXLv6tOk4J"
+				},
+				{
+					"id": "W7wmuLvTQ7P"
+				},
+				{
+					"id": "hynseiJzjGy"
+				},
+				{
+					"id": "wQYMmwdlbpq"
+				},
+				{
+					"id": "jiQlrfO4lRp"
+				},
+				{
+					"id": "Qiz3PFg8fyN"
 				},
 				{
 					"id": "S8Ld1QKRZaC"
 				},
 				{
+					"id": "jPKXnjuiQHe"
+				},
+				{
+					"id": "dmpaVnJfevT"
+				},
+				{
 					"id": "wO9jAh5VB0y"
+				},
+				{
+					"id": "VlbMahO3Ux9"
 				},
 				{
 					"id": "iASZZeeUpZd"
@@ -4007,14 +4175,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "viizNuS9jwL",
+					"id": "Lt5F3hiDJhn",
 					"lastUpdated": "2020-03-19T13:53:58.496",
 					"translations": [],
 					"userAccesses": [],
@@ -4029,14 +4197,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Lt5F3hiDJhn",
+					"id": "viizNuS9jwL",
 					"lastUpdated": "2020-03-19T13:53:58.496",
 					"translations": [],
 					"userAccesses": [],
@@ -4092,14 +4260,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "mDFeR0Y5DOh",
+					"id": "kly7c9G93Cb",
 					"lastUpdated": "2020-03-19T13:54:04.492",
 					"translations": [],
 					"userAccesses": [],
@@ -4114,14 +4282,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "kly7c9G93Cb",
+					"id": "mDFeR0Y5DOh",
 					"lastUpdated": "2020-03-19T13:54:04.492",
 					"translations": [],
 					"userAccesses": [],
@@ -4177,14 +4345,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "cF1fQqrfyOx",
+					"id": "RlZm0GbXtRa",
 					"lastUpdated": "2020-03-19T13:54:11.643",
 					"translations": [],
 					"userAccesses": [],
@@ -4199,14 +4367,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "RlZm0GbXtRa",
+					"id": "cF1fQqrfyOx",
 					"lastUpdated": "2020-03-19T13:54:11.643",
 					"translations": [],
 					"userAccesses": [],
@@ -4262,14 +4430,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "G6ga1NreZIE",
+					"id": "OrezRoQ4yiz",
 					"lastUpdated": "2020-03-19T13:54:19.597",
 					"translations": [],
 					"userAccesses": [],
@@ -4284,14 +4452,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "OrezRoQ4yiz",
+					"id": "G6ga1NreZIE",
 					"lastUpdated": "2020-03-19T13:54:19.597",
 					"translations": [],
 					"userAccesses": [],
@@ -4347,14 +4515,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "SxENchh3HMd",
+					"id": "FBRewG8bdFX",
 					"lastUpdated": "2020-03-19T13:54:26.757",
 					"translations": [],
 					"userAccesses": [],
@@ -4369,14 +4537,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "FBRewG8bdFX",
+					"id": "SxENchh3HMd",
 					"lastUpdated": "2020-03-19T13:54:26.757",
 					"translations": [],
 					"userAccesses": [],
@@ -4432,14 +4600,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "tTjH8Y4dm2W",
+					"id": "NuBrXWQFqLI",
 					"lastUpdated": "2020-03-19T13:54:35.037",
 					"translations": [],
 					"userAccesses": [],
@@ -4454,14 +4622,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "NuBrXWQFqLI",
+					"id": "tTjH8Y4dm2W",
 					"lastUpdated": "2020-03-19T13:54:35.037",
 					"translations": [],
 					"userAccesses": [],
@@ -4517,14 +4685,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "PdLh25c4Exv",
+					"id": "lq8X3vQJ0f8",
 					"lastUpdated": "2020-03-19T13:54:42.085",
 					"translations": [],
 					"userAccesses": [],
@@ -4539,14 +4707,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "lq8X3vQJ0f8",
+					"id": "PdLh25c4Exv",
 					"lastUpdated": "2020-03-19T13:54:42.085",
 					"translations": [],
 					"userAccesses": [],
@@ -4602,14 +4770,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Zm3fGK3Wes5",
+					"id": "bXScsfbw7En",
 					"lastUpdated": "2020-03-20T13:58:27.170",
 					"translations": [],
 					"userAccesses": [],
@@ -4624,14 +4792,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "bXScsfbw7En",
+					"id": "Zm3fGK3Wes5",
 					"lastUpdated": "2020-03-20T13:58:27.170",
 					"translations": [],
 					"userAccesses": [],
@@ -4772,14 +4940,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "bLZlYid4Rqw",
+					"id": "swX6TxiV65r",
 					"lastUpdated": "2020-03-19T13:55:11.446",
 					"translations": [],
 					"userAccesses": [],
@@ -4794,14 +4962,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "swX6TxiV65r",
+					"id": "bLZlYid4Rqw",
 					"lastUpdated": "2020-03-19T13:55:11.446",
 					"translations": [],
 					"userAccesses": [],
@@ -4942,14 +5110,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "csw8h8eDV9v",
+					"id": "e6eXvR7HpHt",
 					"lastUpdated": "2020-03-19T17:55:11.517",
 					"translations": [],
 					"userAccesses": [],
@@ -4964,14 +5132,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "e6eXvR7HpHt",
+					"id": "csw8h8eDV9v",
 					"lastUpdated": "2020-03-19T17:55:11.517",
 					"translations": [],
 					"userAccesses": [],
@@ -5027,14 +5195,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "LavvhjZ8BJa",
+					"id": "qz5A5tTLSOs",
 					"lastUpdated": "2020-03-19T13:55:32.860",
 					"translations": [],
 					"userAccesses": [],
@@ -5049,14 +5217,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "qz5A5tTLSOs",
+					"id": "LavvhjZ8BJa",
 					"lastUpdated": "2020-03-19T13:55:32.860",
 					"translations": [],
 					"userAccesses": [],
@@ -5197,14 +5365,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "UNShYHaBRGP",
+					"id": "rxVTxUVWwOA",
 					"lastUpdated": "2020-03-19T14:12:01.611",
 					"translations": [],
 					"userAccesses": [],
@@ -5219,14 +5387,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "rxVTxUVWwOA",
+					"id": "UNShYHaBRGP",
 					"lastUpdated": "2020-03-19T14:12:01.611",
 					"translations": [],
 					"userAccesses": [],
@@ -5282,14 +5450,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "SgCTzRSHCns",
+					"id": "eA5TqZakPLX",
 					"lastUpdated": "2020-03-19T13:55:57.638",
 					"translations": [],
 					"userAccesses": [],
@@ -5304,14 +5472,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "eA5TqZakPLX",
+					"id": "SgCTzRSHCns",
 					"lastUpdated": "2020-03-19T13:55:57.638",
 					"translations": [],
 					"userAccesses": [],
@@ -5367,14 +5535,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "n8uEjiUN8iR",
+					"id": "ZhPm6xv3LkZ",
 					"lastUpdated": "2020-03-20T13:58:37.316",
 					"translations": [],
 					"userAccesses": [],
@@ -5389,14 +5557,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "ZhPm6xv3LkZ",
+					"id": "n8uEjiUN8iR",
 					"lastUpdated": "2020-03-20T13:58:37.316",
 					"translations": [],
 					"userAccesses": [],
@@ -5451,14 +5619,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "WrcrJVQR7ZG",
+					"id": "n1KbTYjku1d",
 					"lastUpdated": "2020-03-19T14:11:54.576",
 					"translations": [],
 					"userAccesses": [],
@@ -5473,14 +5641,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "n1KbTYjku1d",
+					"id": "WrcrJVQR7ZG",
 					"lastUpdated": "2020-03-19T14:11:54.576",
 					"translations": [],
 					"userAccesses": [],
@@ -5535,14 +5703,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "D30BlbI0kpR",
+					"id": "mglqAi9ToW4",
 					"lastUpdated": "2020-03-19T17:55:24.112",
 					"translations": [],
 					"userAccesses": [],
@@ -5557,14 +5725,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
 					"created": "2020-03-18T11:09:56.927",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "mglqAi9ToW4",
+					"id": "D30BlbI0kpR",
 					"lastUpdated": "2020-03-19T17:55:24.112",
 					"translations": [],
 					"userAccesses": [],
@@ -5588,6 +5756,1998 @@
 			},
 			"publicAccess": "--------",
 			"shortName": "Suspected cases not tested",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QfYoa6kNkrx",
+					"lastUpdated": "2020-03-20T14:27:00.699",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DGTRRsPKLh6",
+					"lastUpdated": "2020-03-20T14:27:00.700",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:23:45.096",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 0 &&  #{duF07iN3Gos.AtFlciXnstG} < 2   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "Suhjr30Jd8v",
+			"lastUpdated": "2020-03-20T14:27:00.699",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 0-1, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 0-1, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "qAbledZqtRf",
+					"lastUpdated": "2020-03-20T14:28:09.091",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "E1MRwdZvlqg",
+					"lastUpdated": "2020-03-20T14:28:09.091",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:28:09.091",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 0 &&  #{duF07iN3Gos.AtFlciXnstG} < 2   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "MoQW5Kii7cH",
+			"lastUpdated": "2020-03-20T14:28:09.091",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 0-1, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 0-1, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "w01kfsKzLbk",
+					"lastUpdated": "2020-03-20T14:33:34.027",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "NQZQBAzhK5Q",
+					"lastUpdated": "2020-03-20T14:33:34.027",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:33:34.027",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 15 &&  #{duF07iN3Gos.AtFlciXnstG} < 50   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "vBeNpGIj38O",
+			"lastUpdated": "2020-03-20T14:33:34.027",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 15-49, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 15-49, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "fbcBHlqIObg",
+					"lastUpdated": "2020-03-20T14:33:53.925",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "v5m8jyJpbDl",
+					"lastUpdated": "2020-03-20T14:33:53.925",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:33:53.924",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 15 &&  #{duF07iN3Gos.AtFlciXnstG} < 50   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "RvqNNkwzb5A",
+			"lastUpdated": "2020-03-20T14:33:53.924",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 15-49, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 15-49, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "WFEsQgQ9BEM",
+					"lastUpdated": "2020-03-20T14:31:39.543",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QNTvDJbj0MA",
+					"lastUpdated": "2020-03-20T14:31:39.544",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:31:18.816",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 2 &&  #{duF07iN3Gos.AtFlciXnstG} < 5   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "UChG7XLJPmE",
+			"lastUpdated": "2020-03-20T14:31:39.543",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 2-4, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 2-4, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "BaPDWoRzVxD",
+					"lastUpdated": "2020-03-20T14:31:34.801",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bQjBNgMG6FP",
+					"lastUpdated": "2020-03-20T14:31:34.801",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:30:40.819",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 2 &&  #{duF07iN3Gos.AtFlciXnstG} < 5   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "yoMN3b2ufQe",
+			"lastUpdated": "2020-03-20T14:31:34.800",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 2-4, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 2-4, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "qla548YuItm",
+					"lastUpdated": "2020-03-20T14:32:27.236",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ocSzl481mBb",
+					"lastUpdated": "2020-03-20T14:32:27.237",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:32:27.236",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 5 &&  #{duF07iN3Gos.AtFlciXnstG} < 15   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "dmpaVnJfevT",
+			"lastUpdated": "2020-03-20T14:32:27.236",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 5-14, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 5-14, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PLT9zJOZKdf",
+					"lastUpdated": "2020-03-20T14:32:48.185",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gzTr6tjjePU",
+					"lastUpdated": "2020-03-20T14:32:48.185",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:32:48.185",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 5 &&  #{duF07iN3Gos.AtFlciXnstG} < 15   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "fGCQOcpNdwi",
+			"lastUpdated": "2020-03-20T14:32:48.185",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 5-14, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 5-14, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "UijuJU6yzVD",
+					"lastUpdated": "2020-03-20T14:34:44.087",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "SRl2ti10U6s",
+					"lastUpdated": "2020-03-20T14:34:44.087",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:34:44.086",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 50 &&  #{duF07iN3Gos.AtFlciXnstG} < 65   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "LoL8uSJ2cEe",
+			"lastUpdated": "2020-03-20T14:34:44.086",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 50-64, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 50-64, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "mkGjb2wRTGM",
+					"lastUpdated": "2020-03-20T14:34:59.468",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "EJPMg6fzSCD",
+					"lastUpdated": "2020-03-20T14:34:59.468",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:34:59.468",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 50 &&  #{duF07iN3Gos.AtFlciXnstG} < 65   && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "dl18F8oGoi7",
+			"lastUpdated": "2020-03-20T14:34:59.468",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 50-64, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 50-64, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "NZdhDZlFgWW",
+					"lastUpdated": "2020-03-20T14:36:07.374",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "McUCP2DPdKX",
+					"lastUpdated": "2020-03-20T14:36:07.374",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:36:07.374",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "Gh02f7ml5OT",
+			"lastUpdated": "2020-03-20T14:36:07.374",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 65+, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 65+, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Pl1ozI7W5Uk",
+					"lastUpdated": "2020-03-20T14:36:24.980",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bC9T7EQBr6q",
+					"lastUpdated": "2020-03-20T14:36:24.980",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:36:24.980",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'  && #{duF07iN3Gos.bOYWVEBaWy6} == 'Death'",
+			"id": "jiQlrfO4lRp",
+			"lastUpdated": "2020-03-20T14:36:24.980",
+			"legendSets": [],
+			"name": "COVID-19 Cases - Deaths (suspected cases, age 65+, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Deaths (suspected, 65+, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "dsHjCLiPTAo",
+					"lastUpdated": "2020-03-20T14:50:46.143",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hiOAxBCsjWn",
+					"lastUpdated": "2020-03-20T14:50:46.143",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:50:46.143",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 0 &&  #{duF07iN3Gos.AtFlciXnstG} < 2 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "yKb9J3MrGc8",
+			"lastUpdated": "2020-03-20T14:50:46.143",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 0-1, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 0-1, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "mXdrUGF6XZi",
+					"lastUpdated": "2020-03-20T14:51:13.481",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "FgjhDEx6blM",
+					"lastUpdated": "2020-03-20T14:51:13.481",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:51:13.481",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 0 &&  #{duF07iN3Gos.AtFlciXnstG} < 2 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "W7wmuLvTQ7P",
+			"lastUpdated": "2020-03-20T14:51:13.481",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 0-1, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 0-1, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ygBNBGVm8LW",
+					"lastUpdated": "2020-03-20T14:54:14.823",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ANmElYsN6uo",
+					"lastUpdated": "2020-03-20T14:54:14.823",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:54:14.822",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 15 &&  #{duF07iN3Gos.AtFlciXnstG} < 50 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "ECerNG8NQjX",
+			"lastUpdated": "2020-03-20T14:54:14.822",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 15-49, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 15-49, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jdHhlPoWqQo",
+					"lastUpdated": "2020-03-20T14:54:30.058",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "u7R9qnpM8BT",
+					"lastUpdated": "2020-03-20T14:54:30.058",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:54:30.058",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 15 &&  #{duF07iN3Gos.AtFlciXnstG} < 50 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "uKnmkKvTGXD",
+			"lastUpdated": "2020-03-20T14:54:30.058",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 15-49, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 15-49, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "nWsjfCnmxsd",
+					"lastUpdated": "2020-03-20T14:51:45.738",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "vjtehnL8rk0",
+					"lastUpdated": "2020-03-20T14:51:45.738",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:51:45.738",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 2 &&  #{duF07iN3Gos.AtFlciXnstG} < 5 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "VlbMahO3Ux9",
+			"lastUpdated": "2020-03-20T14:51:45.738",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 2-4, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 2-4, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "fRa5DKy09pA",
+					"lastUpdated": "2020-03-20T14:52:04.016",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "LpGasd2nERu",
+					"lastUpdated": "2020-03-20T14:52:04.016",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:52:04.016",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 2 &&  #{duF07iN3Gos.AtFlciXnstG} < 5 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "jPKXnjuiQHe",
+			"lastUpdated": "2020-03-20T14:52:04.016",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 2-4, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 2-4, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "VEhGzZYpjey",
+					"lastUpdated": "2020-03-20T14:52:57.825",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "q3pBEAu4yGe",
+					"lastUpdated": "2020-03-20T14:52:57.825",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:52:57.825",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 5 &&  #{duF07iN3Gos.AtFlciXnstG} < 15 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "CWbt7pBWtvQ",
+			"lastUpdated": "2020-03-20T14:52:57.825",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 5-14, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 5-14, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DOzGZAFilor",
+					"lastUpdated": "2020-03-20T14:53:33.714",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "IB8EcZVkJEi",
+					"lastUpdated": "2020-03-20T14:53:33.715",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T14:53:33.714",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 5 &&  #{duF07iN3Gos.AtFlciXnstG} < 15 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "pYUd3y3WvxB",
+			"lastUpdated": "2020-03-20T14:53:33.714",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 5-14, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 5-14, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "pwq1zL3o5xf",
+					"lastUpdated": "2020-03-20T15:19:48.444",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Hl3EnXXVc3k",
+					"lastUpdated": "2020-03-20T15:19:48.444",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T15:19:48.444",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 50 &&  #{duF07iN3Gos.AtFlciXnstG} < 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "hynseiJzjGy",
+			"lastUpdated": "2020-03-20T15:19:48.444",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 50-64, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 50-64, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "KoO5wiBPR8i",
+					"lastUpdated": "2020-03-20T15:20:10.318",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "aV8ikHazK6k",
+					"lastUpdated": "2020-03-20T15:20:10.318",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T15:20:10.318",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 50 &&  #{duF07iN3Gos.AtFlciXnstG} < 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "KAJWmEZ9M54",
+			"lastUpdated": "2020-03-20T15:20:10.318",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 50-64, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 50-64, male)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uFiu4pFiw7k",
+					"lastUpdated": "2020-03-20T15:20:43.249",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hG27D9Lti36",
+					"lastUpdated": "2020-03-20T15:20:43.249",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T15:20:43.248",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Female'",
+			"id": "xU3ei6PxaA1",
+			"lastUpdated": "2020-03-20T15:20:43.248",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 65+, female)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 65+, female)",
+			"translations": [],
+			"user": {
+				"id": "wnaAI6khQp1"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "r-------",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.287",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "XQGBoirq3JL",
+					"lastUpdated": "2020-03-20T15:21:50.075",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{duF07iN3Gos.PFXeJV8d7ja}",
+					"created": "2020-03-05T05:39:09.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "HncICr1UzvV",
+					"lastUpdated": "2020-03-20T15:21:50.075",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-03-20T15:21:50.075",
+			"displayInForm": false,
+			"expression": "V{event_count}",
+			"filter": "#{duF07iN3Gos.AtFlciXnstG} >= 65 && #{duF07iN3Gos.XOaXLWuhKzV} == 'Male'",
+			"id": "wQYMmwdlbpq",
+			"lastUpdated": "2020-03-20T15:21:50.075",
+			"legendSets": [],
+			"name": "COVID-19 Cases - suspected cases (age 65+, male)",
+			"program": {
+				"id": "PNClHaZARtz"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases: Suspected (age 65+, male)",
 			"translations": [],
 			"user": {
 				"id": "wnaAI6khQp1"
