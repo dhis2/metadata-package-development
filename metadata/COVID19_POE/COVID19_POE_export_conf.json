@@ -1,0 +1,69 @@
+{
+  "export": [
+    {
+      "_basePath": "./COVID19_POE/", 
+      "_code": "COVID19_POE", 
+      "_name": "COVID-19 Port of Entry Screening",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "w4iJeNKy9br",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "DoYehxUvmwT",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "k8Fk0kuhOeK",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "NONE",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://covid.dhis2.org/tracker"
+      ], 
+      "_version": "1.0.0",
+      "dashboardIds": [
+        "T4jBAT5EulC"
+      ],
+      "dataElementGroupIds": [
+        "w7DBBzhmdcZ"
+      ],
+      "exportIndicatorGroupsIds": [
+        "qmjgfivzDPA"
+      ], 
+      "indicatorGroupIds": [
+        "qmjgfivzDPA"
+      ],
+      "programIds": [
+        "xymcybnBNas"
+      ]
+    }
+  ]
+}
