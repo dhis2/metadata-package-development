@@ -6609,7 +6609,7 @@
 			"version": 2
 		}
 	],
-	"package": "COVID19_EVENT_TRACKER_V1.0.0_DHIS2.33_2020-03-27T08:58",
+	"package": "COVID19_EVENT_TRACKER_V1.0.0_DHIS2.33_2020-03-27T10:33",
 	"programIndicatorGroups": [
 		{
 			"created": "2020-03-19T11:53:53.023",
@@ -14227,6 +14227,19 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"created": "2020-03-18T15:01:50.831",
+			"data": "'Suspected Case'",
+			"dataElement": {
+				"id": "Z5z8vFQy0w0"
+			},
+			"id": "zxb2XDboGAF",
+			"lastUpdated": "2020-03-27T10:30:43.420",
+			"programRule": {
+				"id": "sEQsGGAQSJT"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
 			"created": "2020-03-16T18:54:34.686",
 			"dataElement": {
 				"id": "p8htbyJHydl"
@@ -14265,6 +14278,19 @@
 				"id": "vj5GWKIrhKh"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-03-18T15:01:50.831",
+			"data": "'Probable Case'",
+			"dataElement": {
+				"id": "Z5z8vFQy0w0"
+			},
+			"id": "NPvy6sF6axT",
+			"lastUpdated": "2020-03-27T10:31:59.949",
+			"programRule": {
+				"id": "DtfaG1TgyZk"
+			},
+			"programRuleActionType": "ASSIGN"
 		},
 		{
 			"created": "2020-03-10T14:58:51.526",
@@ -14404,19 +14430,6 @@
 			"programRuleActionType": "HIDEOPTION"
 		},
 		{
-			"created": "2020-03-18T15:01:50.831",
-			"data": "'Probable Case'",
-			"dataElement": {
-				"id": "Z5z8vFQy0w0"
-			},
-			"id": "XxSK9IFoOdf",
-			"lastUpdated": "2020-03-18T15:36:28.122",
-			"programRule": {
-				"id": "DtfaG1TgyZk"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
 			"created": "2020-03-16T18:11:17.752",
 			"dataElement": {
 				"id": "bOYWVEBaWy6"
@@ -14430,19 +14443,6 @@
 				"id": "R6oEX1xlQma"
 			},
 			"programRuleActionType": "HIDEOPTION"
-		},
-		{
-			"created": "2020-03-18T15:01:50.831",
-			"data": "'Suspected Case'",
-			"dataElement": {
-				"id": "Z5z8vFQy0w0"
-			},
-			"id": "ZXllP8tzjH8",
-			"lastUpdated": "2020-03-18T17:17:07.414",
-			"programRule": {
-				"id": "sEQsGGAQSJT"
-			},
-			"programRuleActionType": "ASSIGN"
 		},
 		{
 			"created": "2020-03-18T15:01:50.831",
@@ -14531,11 +14531,11 @@
 			]
 		},
 		{
-			"condition": "d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Yes'  && #{TEST_RESULT} == 'Inconclusive'",
+			"condition": "(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'No') ||\n(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Yes'  && #{TEST_RESULT} == 'Inconclusive')",
 			"created": "2020-03-18T15:02:33.746",
 			"description": "Automation: Assign 'Probable Case' to Case Classification",
 			"id": "DtfaG1TgyZk",
-			"lastUpdated": "2020-03-25T21:43:42.597",
+			"lastUpdated": "2020-03-27T10:31:59.962",
 			"name": "Assign 'Probable Case' to Case Classification",
 			"priority": 4,
 			"program": {
@@ -14543,7 +14543,7 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "XxSK9IFoOdf"
+					"id": "NPvy6sF6axT"
 				}
 			],
 			"translations": [
@@ -14575,11 +14575,11 @@
 			]
 		},
 		{
-			"condition": "(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'No') ||\n(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Unknown') ||\n(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Yes'  && (#{TEST_RESULT} == 'Negative' || #{TEST_RESULT} == 'Unknown'))",
+			"condition": "(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Unknown') ||\n(d2:hasValue( 'LAB_TEST' )  && #{LAB_TEST} == 'Yes'  && (#{TEST_RESULT} == 'Negative' || #{TEST_RESULT} == 'Unknown'))",
 			"created": "2020-03-18T15:01:50.840",
 			"description": "Automation: Assign Suspected Case' to Case Classification",
 			"id": "sEQsGGAQSJT",
-			"lastUpdated": "2020-03-25T21:43:48.233",
+			"lastUpdated": "2020-03-27T10:30:43.440",
 			"name": "Assign 'Suspected Case' to Case Classification",
 			"priority": 1,
 			"program": {
@@ -14587,7 +14587,7 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "ZXllP8tzjH8"
+					"id": "zxb2XDboGAF"
 				}
 			],
 			"translations": [
@@ -15070,10 +15070,10 @@
 					"id": "V95rgvUlqY0"
 				},
 				{
-					"id": "Zcs7rz5VEF7"
+					"id": "eZUUOjykbLv"
 				},
 				{
-					"id": "eZUUOjykbLv"
+					"id": "Zcs7rz5VEF7"
 				}
 			],
 			"translations": [
