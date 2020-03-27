@@ -4,32 +4,42 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "uueCp2RIGCJ"
-				},
-				{
-					"id": "jxOEQ4Ss4bM"
+					"id": "UPvKbcqTEY3"
 				},
 				{
 					"id": "pa0cY66MrG6"
 				},
 				{
-					"id": "jqg45gLQRYI"
+					"id": "ls9vGYWbvwG"
 				},
 				{
-					"id": "Yl34dHOPpZ0"
+					"id": "O6UJSfL4psp"
 				},
 				{
-					"id": "ZPzdstvH08a"
+					"id": "utyLRFta4ie"
+				},
+				{
+					"id": "nkQw9lhkbGV"
+				},
+				{
+					"id": "Lo1gxiS8zap"
+				},
+				{
+					"id": "AlUYlzoMVvN"
+				},
+				{
+					"id": "R4m7KraS4aZ"
 				},
 				{
 					"id": "F3RlEj6nnR3"
 				}
 			],
+			"code": "AGE_CV19",
 			"created": "2020-03-18T09:45:29.504",
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "prZlmHqhxLO",
-			"lastUpdated": "2020-03-19T13:54:03.939",
+			"lastUpdated": "2020-03-26T21:47:32.656",
 			"name": "Age (COVID-19)",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -86,11 +96,12 @@
 					"id": "FFA9e1yIXCT"
 				}
 			],
+			"code": "SEX",
 			"created": "2020-03-18T09:45:29.587",
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "FRwO58KwwJt",
-			"lastUpdated": "2020-03-18T16:20:22.157",
+			"lastUpdated": "2020-03-26T21:47:38.489",
 			"name": "Sex",
 			"publicAccess": "r-------",
 			"translations": [
@@ -136,11 +147,12 @@
 					"id": "YfLFBoAcjE2"
 				}
 			],
+			"code": "TX_CLASSIFICATION_CV19",
 			"created": "2020-03-18T09:45:29.504",
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "v1atVR1HnCr",
-			"lastUpdated": "2020-03-19T13:52:14.589",
+			"lastUpdated": "2020-03-26T21:47:54.574",
 			"name": "Transmission Classification (COVID-19)",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -172,11 +184,12 @@
 					"id": "zUAhtH6iiyz"
 				}
 			],
+			"code": "TREATMENT_CV19",
 			"created": "2020-03-18T09:45:29.504",
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "PWWzA79GcCG",
-			"lastUpdated": "2020-03-19T13:53:21.255",
+			"lastUpdated": "2020-03-26T21:48:04.126",
 			"name": "Treatment Type (COVID-19)",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -209,7 +222,7 @@
 			"created": "2020-03-18T09:45:42.764",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "o3OiZXHwBzY",
-			"lastUpdated": "2020-03-19T18:32:23.465",
+			"lastUpdated": "2020-03-25T20:26:28.074",
 			"name": "Age and sex (COVID-19)",
 			"publicAccess": "r-------",
 			"skipTotal": false,
@@ -294,7 +307,7 @@
 			"created": "2020-03-18T09:45:42.764",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "sRwqVdFcBat",
-			"lastUpdated": "2020-03-19T18:32:34.325",
+			"lastUpdated": "2020-03-25T20:26:28.081",
 			"name": "Treatment Type (COVID-19)",
 			"publicAccess": "r-------",
 			"skipTotal": false,
@@ -332,9 +345,30 @@
 			"created": "2020-03-18T09:52:48.705",
 			"id": "h72VZMAIXNp",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.705",
+			"lastUpdated": "2020-03-26T14:56:25.636",
 			"name": "0-1 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "0-1 años, Femenino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "0-1 an, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "0-1 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "0-1 лет, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -352,8 +386,109 @@
 			"created": "2020-03-18T09:52:48.698",
 			"id": "NZkmbtZAFtN",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.698",
+			"lastUpdated": "2020-03-26T14:56:23.772",
 			"name": "0-1 years, Male",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "0-1 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "0-1 an, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "0-1 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "0-1 лет, муж."
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "UPvKbcqTEY3"
+				}
+			],
+			"created": "2020-03-25T20:26:28.008",
+			"id": "JzrkRqzvWhH",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.008",
+			"name": "0-4 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "UPvKbcqTEY3"
+				}
+			],
+			"created": "2020-03-25T20:26:28.001",
+			"id": "jQqLIn3xasU",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.001",
+			"name": "0-4 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "ls9vGYWbvwG"
+				}
+			],
+			"created": "2020-03-25T20:26:28.017",
+			"id": "gPWH4piZwC0",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.017",
+			"name": "15-24 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "ls9vGYWbvwG"
+				}
+			],
+			"created": "2020-03-25T20:26:28.013",
+			"id": "uhLnCuMwCGm",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.013",
+			"name": "15-24 years, Male",
 			"translations": []
 		},
 		{
@@ -372,9 +507,30 @@
 			"created": "2020-03-18T09:52:48.719",
 			"id": "sFJsKLHLBFj",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.719",
+			"lastUpdated": "2020-03-26T14:56:26.977",
 			"name": "15-49 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "15-49 años, Femenino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "15-49 ans, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "15-49 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "15-49 лет, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -392,9 +548,30 @@
 			"created": "2020-03-18T09:52:48.717",
 			"id": "lIqSozdCr27",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.717",
+			"lastUpdated": "2020-03-26T14:56:26.137",
 			"name": "15-49 years, Male",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "15-49 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "15-49 ans, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "15-49 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "15-49 лет, муж."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -412,9 +589,30 @@
 			"created": "2020-03-18T09:52:48.711",
 			"id": "H9SWzT8B10p",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.711",
+			"lastUpdated": "2020-03-26T14:56:23.124",
 			"name": "2-4 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "2-4 años, Female"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "2-4 ans, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2-4 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "2-4 года, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -432,8 +630,149 @@
 			"created": "2020-03-18T09:52:48.709",
 			"id": "gMDoZ8IxLFd",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.709",
+			"lastUpdated": "2020-03-26T14:56:25.470",
 			"name": "2-4 years, Male",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "2-4 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "2-4 ans, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2-4 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "2-4 года, муж."
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "O6UJSfL4psp"
+				}
+			],
+			"created": "2020-03-25T20:26:28.025",
+			"id": "NZ10jDzwugk",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.025",
+			"name": "25-34 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "O6UJSfL4psp"
+				}
+			],
+			"created": "2020-03-25T20:26:28.021",
+			"id": "AXgnJb5b1Je",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.021",
+			"name": "25-34 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "utyLRFta4ie"
+				}
+			],
+			"created": "2020-03-25T20:26:28.033",
+			"id": "FWxLSWmBfd0",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.033",
+			"name": "35-44 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "utyLRFta4ie"
+				}
+			],
+			"created": "2020-03-25T20:26:28.029",
+			"id": "RQChXxsEGmX",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.029",
+			"name": "35-44 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "nkQw9lhkbGV"
+				}
+			],
+			"created": "2020-03-25T20:26:28.043",
+			"id": "VvdznDS1Jcv",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.043",
+			"name": "45-54 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "nkQw9lhkbGV"
+				}
+			],
+			"created": "2020-03-25T20:26:28.038",
+			"id": "s8mcd0VkZjn",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.038",
+			"name": "45-54 years, Male",
 			"translations": []
 		},
 		{
@@ -452,9 +791,30 @@
 			"created": "2020-03-18T09:52:48.715",
 			"id": "aIDylQ6ka3n",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.715",
+			"lastUpdated": "2020-03-26T14:56:24.603",
 			"name": "5-14 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "5-14 años, Femenino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "5-14 ans, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "5-14 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "5-14 лет, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -472,9 +832,30 @@
 			"created": "2020-03-18T09:52:48.713",
 			"id": "bMkvQ4PSTz3",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.713",
+			"lastUpdated": "2020-03-26T14:56:24.950",
 			"name": "5-14 years, Male",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "5-14 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "5-14 ans, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "5-14 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "5-14 лет, муж."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -492,9 +873,30 @@
 			"created": "2020-03-18T09:52:48.723",
 			"id": "E03CigZ4AM9",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.723",
+			"lastUpdated": "2020-03-26T14:56:22.510",
 			"name": "50-64 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "50-64 años, Femenino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "50-64 ans, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "50-64 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "50-64 года, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -512,8 +914,109 @@
 			"created": "2020-03-18T09:52:48.721",
 			"id": "Tjy4Mc08yCX",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.721",
+			"lastUpdated": "2020-03-26T14:56:24.264",
 			"name": "50-64 years, Male",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "50-64 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "50-64 ans, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "50-64 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "50-64 года, муж."
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "Lo1gxiS8zap"
+				}
+			],
+			"created": "2020-03-25T20:26:28.052",
+			"id": "kz9PKqMwjE9",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.052",
+			"name": "55-64 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "Lo1gxiS8zap"
+				}
+			],
+			"created": "2020-03-25T20:26:28.048",
+			"id": "ZTM6ooK5E4V",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.048",
+			"name": "55-64 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "AlUYlzoMVvN"
+				}
+			],
+			"created": "2020-03-25T20:26:28.061",
+			"id": "L9lGoMl4PWJ",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.061",
+			"name": "65-74 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "AlUYlzoMVvN"
+				}
+			],
+			"created": "2020-03-25T20:26:28.057",
+			"id": "KLFLwpmZLYl",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.057",
+			"name": "65-74 years, Male",
 			"translations": []
 		},
 		{
@@ -532,9 +1035,30 @@
 			"created": "2020-03-18T09:52:48.727",
 			"id": "IdLfgkfPvX6",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.727",
+			"lastUpdated": "2020-03-26T14:56:23.459",
 			"name": "65-79 years, Female",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "65-79 años, Femenino\n"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "65-79 ans, Féminin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "65-79 anos, Feminino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "65-79 лет, жен."
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -552,8 +1076,69 @@
 			"created": "2020-03-18T09:52:48.725",
 			"id": "JtGMAcD0Btm",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:52:48.725",
+			"lastUpdated": "2020-03-26T14:56:23.613",
 			"name": "65-79 years, Male",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "65-79 años, Masculino"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "65-79 ans, Masculin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "65-79 anos, Masculino"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "65-79 лет, муж."
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "R4m7KraS4aZ"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-03-25T20:26:28.070",
+			"id": "lMo9HzUDdeM",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.070",
+			"name": "75-84 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "o3OiZXHwBzY"
+			},
+			"categoryOptions": [
+				{
+					"id": "R4m7KraS4aZ"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-03-25T20:26:28.065",
+			"id": "F9mySvLgUiB",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-25T20:26:28.065",
+			"name": "75-84 years, Male",
 			"translations": []
 		},
 		{
@@ -569,9 +1154,30 @@
 			"created": "2020-03-18T09:53:47.306",
 			"id": "FFMPsVh7sxb",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:47.306",
+			"lastUpdated": "2020-03-26T14:56:22.806",
 			"name": "Admitted in intensive care unit (ICU)",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Ingresado en Unidad de Cuidados Intensivos (UCI)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Admis en unité de soins intensifs (USI)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Internado em unidade de cuidados intensivos (UCI)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Поступил в отделение интенсивной терапии (ОРИТ)"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -586,9 +1192,30 @@
 			"created": "2020-03-18T09:53:34.003",
 			"id": "p2ahkO4fbJ9",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:34.003",
+			"lastUpdated": "2020-03-26T14:56:26.465",
 			"name": "Community transmission",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Transmision en la comunidad"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Transmission communautaire"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Transmissão comunitária"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Передача через сообщество"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -604,9 +1231,30 @@
 			"created": "2017-05-28T11:18:42.894",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2018-05-30T19:47:52.773",
+			"lastUpdated": "2020-03-26T14:56:23.296",
 			"name": "default",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -621,9 +1269,30 @@
 			"created": "2020-03-18T09:53:47.304",
 			"id": "cEjvma5H9Il",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:47.304",
-			"name": "Extra-corporal mechanical oxygenation (ECMO)",
-			"translations": []
+			"lastUpdated": "2020-03-26T14:56:25.283",
+			"name": "ECMO",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "ECMO"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ECMO"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "ECMO"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ЭКМО"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -638,9 +1307,30 @@
 			"created": "2020-03-18T09:53:33.999",
 			"id": "S32sBnGUfwN",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:33.999",
+			"lastUpdated": "2020-03-26T14:56:24.097",
 			"name": "Imported",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Importado"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Importé"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Importado"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "импорттрованный"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -655,9 +1345,30 @@
 			"created": "2020-03-18T09:53:34.001",
 			"id": "tTh6wRIEtFa",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:34.001",
+			"lastUpdated": "2020-03-26T14:56:27.135",
 			"name": "Known Cluster",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Foco conocido"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Cluster connu"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Cluster Conhecido"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Известный кластер"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -672,9 +1383,30 @@
 			"created": "2020-03-18T09:53:47.301",
 			"id": "hJjSk6eIuDt",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:47.301",
+			"lastUpdated": "2020-03-26T14:56:25.804",
 			"name": "Mechanical ventilation",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Ventilacion Mecanica"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Ventilation mécanique"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Ventilação mecânica"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Механическая вентиляция"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -689,9 +1421,30 @@
 			"created": "2020-03-18T09:53:34.005",
 			"id": "lWjjUr72APP",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-03-18T09:53:34.005",
+			"lastUpdated": "2020-03-26T14:56:26.306",
 			"name": "Unknown Classification",
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Clasificacion desconocida"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Classification inconnue"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Classificação desconhecida"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Неизвестная классификация"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -700,17 +1453,17 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "FFA9e1yIXCT"
+					"id": "F3RlEj6nnR3"
 				},
 				{
-					"id": "F3RlEj6nnR3"
+					"id": "FFA9e1yIXCT"
 				}
 			],
 			"created": "2020-03-18T09:52:48.730",
 			"id": "cO1vAjqfkUz",
 			"ignoreApproval": false,
 			"lastUpdated": "2020-03-18T09:52:48.730",
-			"name": "≥ 80 years, Female",
+			"name": "≥ 85 years, Female",
 			"translations": []
 		},
 		{
@@ -730,7 +1483,7 @@
 			"id": "vJ6enc1w0lu",
 			"ignoreApproval": false,
 			"lastUpdated": "2020-03-18T09:52:48.728",
-			"name": "≥ 80 years, Male",
+			"name": "≥ 85 years, Male",
 			"translations": []
 		}
 	],
@@ -739,16 +1492,16 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "uueCp2RIGCJ"
+					"id": "UPvKbcqTEY3"
 				}
 			],
-			"created": "2020-03-18T09:45:55.955",
+			"created": "2017-06-04T19:45:41.126",
 			"dataDimensionType": "DISAGGREGATION",
-			"id": "LJaoYMl7vr4",
-			"lastUpdated": "2020-03-18T09:45:55.955",
-			"name": "0-1 years",
+			"id": "yuathFHLjNe",
+			"lastUpdated": "2019-06-29T07:43:52.875",
+			"name": "0-4 years",
 			"publicAccess": "r-------",
-			"shortName": "0-1 y",
+			"shortName": "0-4 years",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -769,16 +1522,16 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "jqg45gLQRYI"
+					"id": "ls9vGYWbvwG"
 				}
 			],
-			"created": "2020-03-18T09:45:55.745",
+			"created": "2017-06-06T09:56:16.663",
 			"dataDimensionType": "DISAGGREGATION",
-			"id": "jYu0iR6O5Ax",
-			"lastUpdated": "2020-03-18T09:45:55.745",
-			"name": "15-49 years",
+			"id": "L7gAblMOZKs",
+			"lastUpdated": "2019-06-29T07:43:45.629",
+			"name": "15-24 years",
 			"publicAccess": "r-------",
-			"shortName": "15-49 y",
+			"shortName": "15-24 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -799,16 +1552,76 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "jxOEQ4Ss4bM"
+					"id": "O6UJSfL4psp"
 				}
 			],
-			"created": "2020-03-18T09:45:55.745",
+			"created": "2017-06-06T09:56:33.297",
 			"dataDimensionType": "DISAGGREGATION",
-			"id": "AsVocqn9oDZ",
-			"lastUpdated": "2020-03-18T09:45:55.745",
-			"name": "2-4 years",
+			"id": "cRskhJQLr4J",
+			"lastUpdated": "2019-06-29T07:43:42.594",
+			"name": "25-34 years",
 			"publicAccess": "r-------",
-			"shortName": "2-4 y",
+			"shortName": "25-34 y",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "utyLRFta4ie"
+				}
+			],
+			"created": "2017-06-06T09:56:45.141",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "KkZHYvn7Zor",
+			"lastUpdated": "2019-06-29T07:43:39.503",
+			"name": "35-44 years",
+			"publicAccess": "r-------",
+			"shortName": "35-44 y",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "nkQw9lhkbGV"
+				}
+			],
+			"created": "2017-06-06T09:57:02.338",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "y5yT8JF4uCA",
+			"lastUpdated": "2019-06-29T07:43:36.136",
+			"name": "45-54 years",
+			"publicAccess": "r-------",
+			"shortName": "45-54 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -859,16 +1672,16 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "Yl34dHOPpZ0"
+					"id": "Lo1gxiS8zap"
 				}
 			],
-			"created": "2020-03-18T09:45:55.746",
+			"created": "2017-06-06T09:57:20.048",
 			"dataDimensionType": "DISAGGREGATION",
-			"id": "v8D8EpiaI2B",
-			"lastUpdated": "2020-03-18T09:45:55.746",
-			"name": "50-64 years",
+			"id": "QllZ8PveFCQ",
+			"lastUpdated": "2019-06-29T07:43:28.905",
+			"name": "55-64 years",
 			"publicAccess": "r-------",
-			"shortName": "50-64 y",
+			"shortName": "55-64 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -889,16 +1702,46 @@
 			"attributeValues": [],
 			"categoryOptions": [
 				{
-					"id": "ZPzdstvH08a"
+					"id": "AlUYlzoMVvN"
 				}
 			],
-			"created": "2020-03-18T09:45:55.746",
+			"created": "2020-03-25T18:56:25.980",
 			"dataDimensionType": "DISAGGREGATION",
-			"id": "wUU6EScAhtj",
-			"lastUpdated": "2020-03-18T09:45:55.746",
-			"name": "65-79 years",
+			"id": "Y4rNex59t8s",
+			"lastUpdated": "2020-03-25T18:56:25.980",
+			"name": "65-74 years",
 			"publicAccess": "r-------",
-			"shortName": "65-79 y",
+			"shortName": "65-74  y",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "R4m7KraS4aZ"
+				}
+			],
+			"created": "2020-03-25T18:57:10.370",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "SFZ9S9XHquk",
+			"lastUpdated": "2020-03-25T18:57:10.370",
+			"name": "75-84 years",
+			"publicAccess": "r-------",
+			"shortName": "75-84  y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1217,10 +2060,10 @@
 			"created": "2020-03-18T09:45:55.746",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GL19QsdIgIu",
-			"lastUpdated": "2020-03-18T09:45:55.746",
-			"name": "≥ 80 years",
+			"lastUpdated": "2020-03-25T18:57:27.926",
+			"name": "≥ 85 years",
 			"publicAccess": "r-------",
-			"shortName": "≥ 80 y",
+			"shortName": "≥ 85 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1243,22 +2086,31 @@
 			"attributeValues": [],
 			"categoryOptionGroups": [
 				{
-					"id": "LJaoYMl7vr4"
-				},
-				{
-					"id": "AsVocqn9oDZ"
+					"id": "yuathFHLjNe"
 				},
 				{
 					"id": "V9t81g7Wspa"
 				},
 				{
-					"id": "jYu0iR6O5Ax"
+					"id": "L7gAblMOZKs"
 				},
 				{
-					"id": "v8D8EpiaI2B"
+					"id": "cRskhJQLr4J"
 				},
 				{
-					"id": "wUU6EScAhtj"
+					"id": "KkZHYvn7Zor"
+				},
+				{
+					"id": "y5yT8JF4uCA"
+				},
+				{
+					"id": "QllZ8PveFCQ"
+				},
+				{
+					"id": "Y4rNex59t8s"
+				},
+				{
+					"id": "SFZ9S9XHquk"
 				},
 				{
 					"id": "GL19QsdIgIu"
@@ -1268,8 +2120,8 @@
 			"dataDimension": true,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GaGDeErYt4e",
-			"lastUpdated": "2020-03-19T13:49:26.870",
-			"name": "Age in years (0-1, 2-4, 5-14, 15-49, 50-64, 65-79, 80+)",
+			"lastUpdated": "2020-03-25T19:04:42.828",
+			"name": "Age in years (0-4, 5-14, 15-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84, ≥ 85)",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
@@ -1441,6 +2293,88 @@
 		},
 		{
 			"attributeValues": [],
+			"code": "0-4Y",
+			"created": "2016-02-08T12:52:19.692",
+			"id": "UPvKbcqTEY3",
+			"lastUpdated": "2020-03-25T18:44:42.522",
+			"name": "0-4 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "0-4 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "0-4 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "0-4"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "15-24Y",
+			"created": "2016-02-08T12:53:27.705",
+			"id": "ls9vGYWbvwG",
+			"lastUpdated": "2020-03-25T18:45:10.278",
+			"name": "15-24 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "15-24 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "15-24 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "15-24"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
 			"code": "15-49Y",
 			"created": "2020-03-18T09:45:18.855",
 			"id": "jqg45gLQRYI",
@@ -1480,6 +2414,129 @@
 			"publicAccess": "r-r-----",
 			"shortName": "2-4 y",
 			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "25-34Y",
+			"created": "2016-02-08T12:53:40.649",
+			"id": "O6UJSfL4psp",
+			"lastUpdated": "2020-03-25T18:45:24.598",
+			"name": "25-34 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "25-34 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "25-34 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "25-34"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "35-44Y",
+			"created": "2016-02-08T12:55:25.712",
+			"id": "utyLRFta4ie",
+			"lastUpdated": "2020-03-25T18:45:47.847",
+			"name": "35-44 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "35-44 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "35-44 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "35-44 ans"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "45-54Y",
+			"created": "2016-02-08T12:53:54.561",
+			"id": "nkQw9lhkbGV",
+			"lastUpdated": "2020-03-25T18:46:23.043",
+			"name": "45-54 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "45-54 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "45-54 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "45-54"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -1572,6 +2629,77 @@
 		},
 		{
 			"attributeValues": [],
+			"code": "55-64Y",
+			"created": "2016-02-08T12:54:10.885",
+			"id": "Lo1gxiS8zap",
+			"lastUpdated": "2020-03-25T18:46:47.428",
+			"name": "55-64 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "55-64 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "55-64 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "55-64"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "65-74Y",
+			"created": "2020-03-25T18:43:38.187",
+			"id": "AlUYlzoMVvN",
+			"lastUpdated": "2020-03-25T18:43:38.187",
+			"name": "65-74 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "65-74 y",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
 			"code": "65-79Y",
 			"created": "2020-03-18T09:45:18.855",
 			"id": "ZPzdstvH08a",
@@ -1580,6 +2708,36 @@
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
 			"shortName": "65-79 y",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "75-84Y",
+			"created": "2020-03-25T18:47:31.297",
+			"id": "R4m7KraS4aZ",
+			"lastUpdated": "2020-03-25T18:47:31.297",
+			"name": "75-84 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "75-84 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1924,14 +3082,14 @@
 		},
 		{
 			"attributeValues": [],
-			"code": "≥ 80Y",
+			"code": "≥ 85Y",
 			"created": "2020-03-18T09:45:18.855",
 			"id": "F3RlEj6nnR3",
-			"lastUpdated": "2020-03-18T09:45:18.855",
-			"name": "≥ 80 years",
+			"lastUpdated": "2020-03-25T18:48:06.072",
+			"name": "≥ 85 years",
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
-			"shortName": "≥ 80 y",
+			"shortName": "≥ 85 y",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1960,7 +3118,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-03-19T11:01:27.691",
+			"created": "2020-03-26T07:18:42.956",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1977,7 +3135,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
@@ -1989,7 +3146,7 @@
 			"hideTitle": true,
 			"id": "WJ8cY4u7vgZ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.402",
+			"lastUpdated": "2020-03-26T07:18:42.956",
 			"name": "COVID-19 - Active and Closed Cases last 14 days",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2030,7 +3187,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -2090,7 +3247,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-03-18T18:18:50.114",
+			"created": "2020-03-26T07:46:36.369",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2113,7 +3270,7 @@
 			"hideTitle": true,
 			"id": "KYC90zR9e6n",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.399",
+			"lastUpdated": "2020-03-26T07:46:36.369",
 			"name": "COVID-19 - All cumulative confirmed cases by Transmission Classification -  ",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2143,11 +3300,11 @@
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
-				"lastMonth": false,
+				"lastMonth": true,
 				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
-				"lastYear": true,
+				"lastYear": false,
 				"monthsLastYear": false,
 				"monthsThisYear": false,
 				"quartersLastYear": false,
@@ -2156,11 +3313,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": false,
+				"thisMonth": true,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -2194,7 +3351,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-03-19T11:05:26.911",
+			"created": "2020-03-26T07:19:31.093",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2211,7 +3368,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
@@ -2223,7 +3379,7 @@
 			"hideTitle": false,
 			"id": "HrI5yNYmham",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.392",
+			"lastUpdated": "2020-03-26T07:19:31.093",
 			"name": "COVID-19 - Case Recovery and Fatality Rates last 14 days",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2264,7 +3420,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -2304,7 +3460,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-03-19T11:10:59.934",
+			"created": "2020-03-26T07:43:37.057",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2332,7 +3488,7 @@
 			"hideTitle": true,
 			"id": "lRccab7cjgV",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.376",
+			"lastUpdated": "2020-03-26T07:43:37.057",
 			"name": "COVID-19 - Closed and Active Cases at subnational Last 14 days",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2373,7 +3529,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -2427,7 +3583,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-03-19T08:32:27.878",
+			"created": "2020-03-26T07:44:29.578",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2450,7 +3606,7 @@
 			"hideTitle": true,
 			"id": "MUWm0tv2W5z",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.405",
+			"lastUpdated": "2020-03-26T07:44:29.578",
 			"name": "COVID-19 - Confirmed Cases at subnational by Sex This and Last 12 Weeks",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2533,22 +3689,31 @@
 				{
 					"categoryOptionGroups": [
 						{
-							"id": "LJaoYMl7vr4"
+							"id": "yuathFHLjNe"
 						},
 						{
-							"id": "AsVocqn9oDZ"
+							"id": "L7gAblMOZKs"
+						},
+						{
+							"id": "cRskhJQLr4J"
+						},
+						{
+							"id": "KkZHYvn7Zor"
+						},
+						{
+							"id": "y5yT8JF4uCA"
 						},
 						{
 							"id": "V9t81g7Wspa"
 						},
 						{
-							"id": "jYu0iR6O5Ax"
+							"id": "QllZ8PveFCQ"
 						},
 						{
-							"id": "v8D8EpiaI2B"
+							"id": "Y4rNex59t8s"
 						},
 						{
-							"id": "wUU6EScAhtj"
+							"id": "SFZ9S9XHquk"
 						},
 						{
 							"id": "GL19QsdIgIu"
@@ -2560,7 +3725,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-03-19T11:14:57.574",
+			"created": "2020-03-26T07:17:54.752",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2571,7 +3736,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
@@ -2584,7 +3748,7 @@
 			"hideTitle": false,
 			"id": "IB4zviSI7Y6",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.387",
+			"lastUpdated": "2020-03-26T07:17:54.752",
 			"name": "COVID-19 - Confirmed Cases by Age group last 14 days",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2625,7 +3789,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -2665,7 +3829,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-03-19T10:58:53.683",
+			"created": "2020-03-26T07:42:28.774",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2682,7 +3846,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
@@ -2694,7 +3857,7 @@
 			"hideTitle": false,
 			"id": "WSZu4jpViok",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.368",
+			"lastUpdated": "2020-03-26T07:42:28.774",
 			"name": "COVID-19 - Confirmed Cases LAST 14 DAYS",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2735,7 +3898,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -2775,7 +3938,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-03-18T18:25:33.471",
+			"created": "2020-03-26T07:36:59.119",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2805,6 +3968,12 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
+						"id": "PkGdfHQyWWH"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
 						"id": "r2VxAVW1IEy"
 					}
 				}
@@ -2821,8 +3990,111 @@
 			"hideTitle": false,
 			"id": "b0kD0pUzIkI",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.372",
+			"lastUpdated": "2020-03-26T07:36:59.119",
 			"name": "COVID-19 - Cumulative Cases Reported, Tested, Hospitalised and Deaths - Todate",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-03-26T11:17:27.236",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "jHzx1zXeHzV"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": true,
+			"id": "FjfJIiULctQ",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-03-26T11:17:27.236",
+			"name": "COVID-19 - Cumulative confirmed cases among males",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -2855,7 +4127,7 @@
 				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
-				"lastYear": true,
+				"lastYear": false,
 				"monthsLastYear": false,
 				"monthsThisYear": false,
 				"quartersLastYear": false,
@@ -2864,11 +4136,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": false,
+				"thisMonth": true,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -2877,7 +4149,110 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"translations": [],
-			"type": "COLUMN",
+			"type": "GAUGE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-03-26T11:18:10.281",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "UF7s1t1v6KG"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": true,
+			"id": "n2mZrxngMFR",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-03-26T11:18:10.281",
+			"name": "COVID-19 - Cumulative deaths among males",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "GAUGE",
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -2904,22 +4279,31 @@
 				{
 					"categoryOptionGroups": [
 						{
-							"id": "LJaoYMl7vr4"
-						},
-						{
-							"id": "AsVocqn9oDZ"
+							"id": "yuathFHLjNe"
 						},
 						{
 							"id": "V9t81g7Wspa"
 						},
 						{
-							"id": "jYu0iR6O5Ax"
+							"id": "L7gAblMOZKs"
 						},
 						{
-							"id": "v8D8EpiaI2B"
+							"id": "cRskhJQLr4J"
 						},
 						{
-							"id": "wUU6EScAhtj"
+							"id": "KkZHYvn7Zor"
+						},
+						{
+							"id": "y5yT8JF4uCA"
+						},
+						{
+							"id": "QllZ8PveFCQ"
+						},
+						{
+							"id": "Y4rNex59t8s"
+						},
+						{
+							"id": "SFZ9S9XHquk"
 						},
 						{
 							"id": "GL19QsdIgIu"
@@ -2931,7 +4315,149 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-03-19T11:18:07.317",
+			"created": "2020-03-26T10:40:47.007",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "jHzx1zXeHzV"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"dx"
+			],
+			"hideEmptyRowItems": "ALL",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "ud3dbLWVafm",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-03-26T10:40:47.007",
+			"name": "COVID-19 - Deaths among  males by Age Groups last 14 days",
+			"noSpaceBetweenColumns": true,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": true,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": true,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "GaGDeErYt4e",
+			"showData": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "yuathFHLjNe"
+						},
+						{
+							"id": "V9t81g7Wspa"
+						},
+						{
+							"id": "L7gAblMOZKs"
+						},
+						{
+							"id": "cRskhJQLr4J"
+						},
+						{
+							"id": "KkZHYvn7Zor"
+						},
+						{
+							"id": "y5yT8JF4uCA"
+						},
+						{
+							"id": "QllZ8PveFCQ"
+						},
+						{
+							"id": "Y4rNex59t8s"
+						},
+						{
+							"id": "SFZ9S9XHquk"
+						},
+						{
+							"id": "GL19QsdIgIu"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "GaGDeErYt4e"
+					}
+				}
+			],
+			"completedOnly": false,
+			"created": "2020-03-26T07:41:24.031",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2942,7 +4468,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
@@ -2955,7 +4480,7 @@
 			"hideTitle": false,
 			"id": "cTcbZ8ht1zi",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.396",
+			"lastUpdated": "2020-03-26T07:41:24.031",
 			"name": "COVID-19 - Deaths by Age Groups last 14 days",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -2996,7 +4521,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": false,
 				"thisQuarter": false,
@@ -3053,7 +4578,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-03-18T18:26:39.755",
+			"created": "2020-03-26T07:47:16.861",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -3076,7 +4601,7 @@
 			"hideTitle": true,
 			"id": "zfM9c4Zg59D",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.408",
+			"lastUpdated": "2020-03-26T07:47:16.861",
 			"name": "COVID-19 - Modes of Treatment - This Month",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3093,7 +4618,7 @@
 				"last14Days": false,
 				"last2SixMonths": false,
 				"last3Days": false,
-				"last3Months": true,
+				"last3Months": false,
 				"last4BiWeeks": false,
 				"last4Quarters": false,
 				"last4Weeks": false,
@@ -3117,7 +4642,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": true,
 				"thisQuarter": false,
@@ -3133,6 +4658,127 @@
 			"subscribers": [],
 			"translations": [],
 			"type": "PIE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-03-26T21:57:37.028",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vECy4BgZqRF"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "gYt2GEAdCJK"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JpRDu51rbg5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "GszrLGBvHhg"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "WY2HxfVvgF8",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-03-26T21:57:37.028",
+			"name": "COVID-19 - Provinces/regions and Transmission patterns  last 4 weeks",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": true,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": true,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "STACKED_COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -3167,10 +4813,146 @@
 					},
 					"attributeValues": [],
 					"chart": {
+						"id": "ud3dbLWVafm"
+					},
+					"contentCount": 1,
+					"created": "2020-03-26T10:44:59.222",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "ZcYLgBQrhgu",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-03-26T10:44:59.309",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 39,
+					"y": 98
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "n2mZrxngMFR"
+					},
+					"contentCount": 1,
+					"created": "2020-03-26T10:44:59.222",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "nIVBxZaZ8Gd",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-03-26T10:44:59.309",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 20,
+					"y": 98
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "FjfJIiULctQ"
+					},
+					"contentCount": 1,
+					"created": "2020-03-26T10:44:59.222",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "lIAZDq6H4dF",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-03-26T10:44:59.309",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 1,
+					"y": 98
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "WY2HxfVvgF8"
+					},
+					"contentCount": 1,
+					"created": "2020-03-26T10:44:59.222",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 18,
+					"id": "o9HS22p81W0",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-03-26T10:44:59.309",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 1,
+					"y": 62
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
 						"id": "WJ8cY4u7vgZ"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3178,7 +4960,7 @@
 					"id": "YzYCsOsZDz2",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.309",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3204,7 +4986,7 @@
 						"id": "lRccab7cjgV"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3212,7 +4994,7 @@
 					"id": "dFmHVADG2t5",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.310",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3235,15 +5017,15 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"height": 38,
+					"height": 20,
 					"id": "cSmHf59IIs5",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.310",
 					"reports": [],
 					"reportTable": {
 						"id": "RncWJdNUuJ9"
@@ -3272,7 +5054,7 @@
 						"id": "MUWm0tv2W5z"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3280,7 +5062,7 @@
 					"id": "kz9Z0mKZQbN",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.310",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3303,7 +5085,7 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3311,7 +5093,7 @@
 					"id": "hoZsDsseA6B",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.310",
 					"map": {
 						"id": "rFwk97WsyWV"
 					},
@@ -3337,7 +5119,7 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3345,7 +5127,7 @@
 					"id": "kQCzFsC1eEU",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.265",
+					"lastUpdated": "2020-03-26T10:44:59.310",
 					"reports": [],
 					"reportTable": {
 						"id": "p6zlpJrZzJV"
@@ -3356,8 +5138,8 @@
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
-					"width": 39,
-					"x": 0,
+					"width": 38,
+					"x": 1,
 					"y": 80
 				},
 				{
@@ -3374,7 +5156,7 @@
 						"id": "cTcbZ8ht1zi"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3382,7 +5164,7 @@
 					"id": "r83aoS5wveR",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.311",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3408,7 +5190,7 @@
 						"id": "zfM9c4Zg59D"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3416,7 +5198,7 @@
 					"id": "GjZAEBGomjW",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.311",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3442,7 +5224,7 @@
 						"id": "KYC90zR9e6n"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3450,7 +5232,7 @@
 					"id": "VvJv2JhRgLE",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.311",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3476,7 +5258,7 @@
 						"id": "IB4zviSI7Y6"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3484,7 +5266,7 @@
 					"id": "h0FivHWebim",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.311",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3510,7 +5292,7 @@
 						"id": "HrI5yNYmham"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3518,7 +5300,7 @@
 					"id": "GvYhMDZrNH9",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.311",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3544,7 +5326,7 @@
 						"id": "b0kD0pUzIkI"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3552,7 +5334,7 @@
 					"id": "hOLM46Ckolu",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.312",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3578,7 +5360,7 @@
 						"id": "WSZu4jpViok"
 					},
 					"contentCount": 1,
-					"created": "2020-03-19T23:13:20.145",
+					"created": "2020-03-26T10:44:59.222",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -3586,7 +5368,7 @@
 					"id": "NMmB1l6X07Y",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-03-19T23:13:20.266",
+					"lastUpdated": "2020-03-26T10:44:59.312",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -3604,8 +5386,8 @@
 				"KpUvqwyAqx8"
 			],
 			"id": "BRV6jGG6Oxl",
-			"lastUpdated": "2020-03-19T23:13:20.263",
-			"name": "COVID-19 Cases and Deaths",
+			"lastUpdated": "2020-03-26T10:44:59.306",
+			"name": "04. COVID-19 Surveillance (Aggregate)",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
@@ -3630,13 +5412,28 @@
 			"created": "2020-03-18T09:46:21.859",
 			"dataElements": [
 				{
-					"id": "CnPsS2xE8UN"
+					"id": "MpYJAYuLpim"
 				},
 				{
 					"id": "BkH5UYzo3SM"
 				},
 				{
 					"id": "rvYTAOrBrtY"
+				},
+				{
+					"id": "h34jPNnKkJK"
+				},
+				{
+					"id": "e1xTRwfWega"
+				},
+				{
+					"id": "hwLQyZKeD0E"
+				},
+				{
+					"id": "RC7RG6mexD2"
+				},
+				{
+					"id": "CnPsS2xE8UN"
 				},
 				{
 					"id": "pwMpWi75Z6T"
@@ -3648,17 +5445,14 @@
 					"id": "bVLbViCg2Zw"
 				},
 				{
-					"id": "hwLQyZKeD0E"
-				},
-				{
-					"id": "MpYJAYuLpim"
-				},
-				{
 					"id": "kX2J7E3H3YO"
+				},
+				{
+					"id": "njg6PAh5gw6"
 				}
 			],
 			"id": "RUadO5Cbck8",
-			"lastUpdated": "2020-03-19T17:28:00.209",
+			"lastUpdated": "2020-03-25T20:11:57.507",
 			"name": "COVID-19",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -3896,51 +5690,16 @@
 			"categoryCombo": {
 				"id": "o3OiZXHwBzY"
 			},
-			"code": "COVID_19_NEW_PROBABLE_CASES",
+			"code": "COVID_19_NEW_SUSPECTED_CASES",
 			"created": "2020-03-18T10:01:35.109",
 			"domainType": "AGGREGATE",
-			"formName": "Number of new probable cases",
+			"formName": "Number of new suspected cases",
 			"id": "MpYJAYuLpim",
-			"lastUpdated": "2020-03-19T18:31:21.239",
+			"lastUpdated": "2020-03-26T10:10:29.909",
 			"legendSets": [],
-			"name": "COVID-19 - New probable cases (sex/age)",
+			"name": "COVID-19 - New Suspected cases (sex/age)",
 			"publicAccess": "r-------",
-			"shortName": "New probable cases (sex/age)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DoYehxUvmwT"
-				},
-				{
-					"access": "rw------",
-					"id": "w4iJeNKy9br"
-				}
-			],
-			"valueType": "INTEGER_ZERO_OR_POSITIVE",
-			"zeroIsSignificant": false
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "SUM",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "FGDN1aBqJnt"
-			},
-			"code": "COVID_19_PROBABLE_CASES_BY_TC",
-			"created": "2020-03-18T10:01:35.114",
-			"domainType": "AGGREGATE",
-			"formName": "Probable cases by transmission classification",
-			"id": "hwLQyZKeD0E",
-			"lastUpdated": "2020-03-19T18:31:30.088",
-			"legendSets": [],
-			"name": "COVID-19 - Probable cases by transmission classification",
-			"publicAccess": "r-------",
-			"shortName": "Probable cases by transmission classification",
+			"shortName": "New Suspected cases (sex/age)",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3993,6 +5752,181 @@
 			],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "FGDN1aBqJnt"
+			},
+			"code": "COVID_19_SUSPECTED_CASES_BY_TC",
+			"created": "2020-03-18T10:01:35.114",
+			"domainType": "AGGREGATE",
+			"formName": "Suspected cases by transmission classification",
+			"id": "hwLQyZKeD0E",
+			"lastUpdated": "2020-03-26T10:11:10.564",
+			"legendSets": [],
+			"name": "COVID-19 - Suspected cases by transmission classification",
+			"publicAccess": "r-------",
+			"shortName": "Suspected cases by transmission classification",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "COVID_19_TP_CLUSTER_CASES",
+			"created": "2020-03-25T20:10:52.033",
+			"domainType": "AGGREGATE",
+			"formName": "Cluster cases",
+			"id": "e1xTRwfWega",
+			"lastUpdated": "2020-03-25T20:10:52.033",
+			"legendSets": [],
+			"name": "COVID-19 - Transmission pattern (Cluster cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Cluster cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "COVID_19_TP_COMMUNITY_CASES",
+			"created": "2020-03-25T20:09:59.369",
+			"domainType": "AGGREGATE",
+			"formName": "Community cases",
+			"id": "RC7RG6mexD2",
+			"lastUpdated": "2020-03-25T20:09:59.369",
+			"legendSets": [],
+			"name": "COVID-19 - Transmission pattern (Community cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Community  cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "COVID_19_TP_NO_CASES",
+			"created": "2020-03-25T20:05:15.464",
+			"domainType": "AGGREGATE",
+			"formName": "No cases",
+			"id": "njg6PAh5gw6",
+			"lastUpdated": "2020-03-25T20:05:15.464",
+			"legendSets": [],
+			"name": "COVID-19 - Transmission pattern (No cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (No cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "COVID_19_TP_SPORADIC_CASES",
+			"created": "2020-03-25T20:08:21.270",
+			"domainType": "AGGREGATE",
+			"formName": "Sporadic cases",
+			"id": "h34jPNnKkJK",
+			"lastUpdated": "2020-03-25T20:08:21.270",
+			"legendSets": [],
+			"name": "COVID-19 - Transmission pattern (Sporadic cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Sporadic cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
 		}
 	],
 	"dataSets": [
@@ -4001,6 +5935,7 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
+			"code": "SURV_REPORT_CV19",
 			"compulsoryDataElementOperands": [],
 			"compulsoryFieldsCompleteOnly": false,
 			"created": "2020-03-18T10:11:27.017",
@@ -4009,31 +5944,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "BkH5UYzo3SM"
-					},
-					"dataSet": {
-						"id": "kIfMNugiTgd"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "pwMpWi75Z6T"
-					},
-					"dataSet": {
-						"id": "kIfMNugiTgd"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kX2J7E3H3YO"
-					},
-					"dataSet": {
-						"id": "kIfMNugiTgd"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "bVLbViCg2Zw"
+						"id": "hwLQyZKeD0E"
 					},
 					"dataSet": {
 						"id": "kIfMNugiTgd"
@@ -4049,7 +5960,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "MpYJAYuLpim"
+						"id": "CnPsS2xE8UN"
 					},
 					"dataSet": {
 						"id": "kIfMNugiTgd"
@@ -4057,7 +5968,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "hwLQyZKeD0E"
+						"id": "pwMpWi75Z6T"
 					},
 					"dataSet": {
 						"id": "kIfMNugiTgd"
@@ -4073,7 +5984,31 @@
 				},
 				{
 					"dataElement": {
-						"id": "CnPsS2xE8UN"
+						"id": "bVLbViCg2Zw"
+					},
+					"dataSet": {
+						"id": "kIfMNugiTgd"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "BkH5UYzo3SM"
+					},
+					"dataSet": {
+						"id": "kIfMNugiTgd"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "MpYJAYuLpim"
+					},
+					"dataSet": {
+						"id": "kIfMNugiTgd"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "kX2J7E3H3YO"
 					},
 					"dataSet": {
 						"id": "kIfMNugiTgd"
@@ -4084,10 +6019,10 @@
 			"fieldCombinationRequired": false,
 			"id": "kIfMNugiTgd",
 			"indicators": [],
-			"lastUpdated": "2020-03-19T17:32:06.516",
+			"lastUpdated": "2020-03-26T21:48:59.727",
 			"legendSets": [],
 			"mobile": false,
-			"name": "COVID-19 Surveillance Report ",
+			"name": "COVID-19 Surveillance (Aggregate)",
 			"notifyCompletingUser": false,
 			"noValueRequiresComment": false,
 			"openFuturePeriods": 0,
@@ -4095,8 +6030,8 @@
 			"periodType": "Daily",
 			"publicAccess": "r-r-----",
 			"renderAsTabs": false,
-			"renderHorizontally": false,
-			"shortName": "COVID-19 Surveillance Report ",
+			"renderHorizontally": true,
+			"shortName": "COVID-19 Surveillance (Aggregate)",
 			"skipOffline": false,
 			"timelyDays": 1,
 			"translations": [],
@@ -4119,7 +6054,93 @@
 				}
 			],
 			"validCompleteOnly": false,
-			"version": 14
+			"version": 20
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "TRANSMISSION_REPORT_CV19",
+			"compulsoryDataElementOperands": [],
+			"compulsoryFieldsCompleteOnly": false,
+			"created": "2020-03-25T20:15:50.530",
+			"dataElementDecoration": false,
+			"dataInputPeriods": [],
+			"dataSetElements": [
+				{
+					"dataElement": {
+						"id": "h34jPNnKkJK"
+					},
+					"dataSet": {
+						"id": "Vs7Bd0pHjS9"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "e1xTRwfWega"
+					},
+					"dataSet": {
+						"id": "Vs7Bd0pHjS9"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "RC7RG6mexD2"
+					},
+					"dataSet": {
+						"id": "Vs7Bd0pHjS9"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "njg6PAh5gw6"
+					},
+					"dataSet": {
+						"id": "Vs7Bd0pHjS9"
+					}
+				}
+			],
+			"expiryDays": 0,
+			"fieldCombinationRequired": false,
+			"id": "Vs7Bd0pHjS9",
+			"indicators": [],
+			"lastUpdated": "2020-03-26T21:58:21.696",
+			"legendSets": [],
+			"mobile": false,
+			"name": "COVID-19 Weekly Provincial Report",
+			"notifyCompletingUser": false,
+			"noValueRequiresComment": false,
+			"openFuturePeriods": 0,
+			"organisationUnits": [],
+			"periodType": "Weekly",
+			"publicAccess": "r-r-----",
+			"renderAsTabs": false,
+			"renderHorizontally": false,
+			"shortName": "Weekly Provincial Report",
+			"skipOffline": false,
+			"timelyDays": 15,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rwr-----",
+					"id": "w4iJeNKy9br"
+				},
+				{
+					"access": "--rw----",
+					"id": "k8Fk0kuhOeK"
+				}
+			],
+			"validCompleteOnly": false,
+			"version": 5
 		}
 	],
 	"indicatorGroups": [
@@ -4129,25 +6150,43 @@
 			"id": "YKyPfpFUAVo",
 			"indicators": [
 				{
+					"id": "kJoSHTinHGa"
+				},
+				{
+					"id": "GszrLGBvHhg"
+				},
+				{
+					"id": "dsho3rAaUkr"
+				},
+				{
+					"id": "BmW2IAaxIBe"
+				},
+				{
+					"id": "jHzx1zXeHzV"
+				},
+				{
+					"id": "PkGdfHQyWWH"
+				},
+				{
+					"id": "zozhRzInMZm"
+				},
+				{
 					"id": "fK1b7O6CuBV"
 				},
 				{
 					"id": "S3Ty19GEaqn"
 				},
 				{
+					"id": "gYt2GEAdCJK"
+				},
+				{
+					"id": "vECy4BgZqRF"
+				},
+				{
 					"id": "ocBlGrHZy6Q"
 				},
 				{
-					"id": "kJoSHTinHGa"
-				},
-				{
-					"id": "dsho3rAaUkr"
-				},
-				{
 					"id": "r2VxAVW1IEy"
-				},
-				{
-					"id": "BmW2IAaxIBe"
 				},
 				{
 					"id": "zUcGi0Y384Y"
@@ -4156,13 +6195,13 @@
 					"id": "dXAhOKiim1x"
 				},
 				{
-					"id": "PkGdfHQyWWH"
+					"id": "JpRDu51rbg5"
 				},
 				{
-					"id": "zozhRzInMZm"
+					"id": "UF7s1t1v6KG"
 				}
 			],
-			"lastUpdated": "2020-03-19T17:32:30.112",
+			"lastUpdated": "2020-03-26T10:31:05.249",
 			"name": "COVID-19",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -4483,6 +6522,204 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"created": "2020-03-26T10:23:18.643",
+			"denominator": "#{CnPsS2xE8UN}",
+			"denominatorDescription": "Confirmed cases",
+			"id": "jHzx1zXeHzV",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-03-26T10:29:50.292",
+			"legendSets": [],
+			"name": "COVID-19 - Proportion of males among confirmed cases (%)",
+			"numerator": "#{CnPsS2xE8UN.jQqLIn3xasU} + #{CnPsS2xE8UN.bMkvQ4PSTz3} + #{CnPsS2xE8UN.uhLnCuMwCGm} + #{CnPsS2xE8UN.AXgnJb5b1Je} + #{CnPsS2xE8UN.RQChXxsEGmX} + #{CnPsS2xE8UN.s8mcd0VkZjn} + #{CnPsS2xE8UN.ZTM6ooK5E4V} + #{CnPsS2xE8UN.KLFLwpmZLYl} + #{CnPsS2xE8UN.F9mySvLgUiB}   + #{CnPsS2xE8UN.vJ6enc1w0lu}",
+			"numeratorDescription": "Males among confirmed cases",
+			"publicAccess": "r-------",
+			"shortName": "Proportion of males among confirmed cases (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-26T10:29:16.183",
+			"denominator": "#{BkH5UYzo3SM}",
+			"denominatorDescription": "Deaths",
+			"id": "UF7s1t1v6KG",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-03-26T10:29:16.183",
+			"legendSets": [],
+			"name": "COVID-19 - Proportion of males among deaths(%)",
+			"numerator": "#{BkH5UYzo3SM.jQqLIn3xasU} + #{BkH5UYzo3SM.bMkvQ4PSTz3} + #{BkH5UYzo3SM.uhLnCuMwCGm} + #{BkH5UYzo3SM.AXgnJb5b1Je} + #{BkH5UYzo3SM.RQChXxsEGmX} + #{BkH5UYzo3SM.s8mcd0VkZjn} + #{BkH5UYzo3SM.ZTM6ooK5E4V} + #{BkH5UYzo3SM.KLFLwpmZLYl} + #{BkH5UYzo3SM.F9mySvLgUiB} + #{BkH5UYzo3SM.vJ6enc1w0lu}",
+			"numeratorDescription": "Males among deaths",
+			"publicAccess": "r-------",
+			"shortName": "Proportion of males among deaths (%)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-26T07:57:45.525",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "gYt2GEAdCJK",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-03-26T07:57:45.525",
+			"legendSets": [],
+			"name": "COVID-19 - Provinces/regions with Transmission pattern (Cluster cases)",
+			"numerator": "#{e1xTRwfWega}",
+			"numeratorDescription": "Transmission pattern (Cluster cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Cluster cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-26T07:59:10.391",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "JpRDu51rbg5",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-03-26T07:59:10.391",
+			"legendSets": [],
+			"name": "COVID-19 - Provinces/regions with Transmission pattern (Community cases)",
+			"numerator": "#{RC7RG6mexD2}",
+			"numeratorDescription": "Transmission pattern (Community cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Community cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-26T07:56:34.084",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "vECy4BgZqRF",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-03-26T07:56:34.084",
+			"legendSets": [],
+			"name": "COVID-19 - Provinces/regions with Transmission pattern (No cases)",
+			"numerator": "#{njg6PAh5gw6}",
+			"numeratorDescription": "Transmission pattern (No cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (No cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-26T07:55:28.511",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "GszrLGBvHhg",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-03-26T07:58:10.865",
+			"legendSets": [],
+			"name": "COVID-19 - Provinces/regions with Transmission pattern (Sporadic cases)",
+			"numerator": "#{h34jPNnKkJK}",
+			"numeratorDescription": "Transmission pattern (Sporadic cases)",
+			"publicAccess": "r-------",
+			"shortName": "Transmission pattern (Sporadic cases)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DoYehxUvmwT"
+				},
+				{
+					"access": "rw------",
+					"id": "w4iJeNKy9br"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"created": "2020-03-18T09:46:52.459",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -4582,18 +6819,17 @@
 	"maps": [
 		{
 			"basemap": "osmLight",
-			"created": "2020-03-19T11:37:13.381",
-			"description": "",
+			"created": "2020-03-26T07:21:01.407",
 			"externalAccess": false,
 			"favorites": [],
 			"id": "rFwk97WsyWV",
-			"lastUpdated": "2020-03-19T13:35:51.060",
+			"lastUpdated": "2020-03-26T07:21:01.407",
 			"mapViews": [
 				{
-					"id": "CPYwlYF40V5"
+					"id": "hZvJeK3Imky"
 				},
 				{
-					"id": "YkVAoFGEd8R"
+					"id": "V7qvIqRNyhQ"
 				}
 			],
 			"name": "COVID 19 - Confirmed cases by subnational This week",
@@ -4620,14 +6856,14 @@
 		{
 			"attributeDimensions": [],
 			"columnDimensions": [],
-			"created": "2020-03-19T11:37:13.379",
+			"created": "2020-03-26T07:21:01.405",
 			"dataDimensionItems": [],
 			"dataElementDimensions": [],
 			"eventClustering": false,
 			"eventPointRadius": 0,
-			"id": "CPYwlYF40V5",
+			"id": "hZvJeK3Imky",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:50.711",
+			"lastUpdated": "2020-03-26T07:21:01.405",
 			"layer": "boundary",
 			"opacity": 1,
 			"organisationUnitLevels": [],
@@ -4643,7 +6879,7 @@
 			"columnDimensions": [
 				"dx"
 			],
-			"created": "2020-03-19T11:37:13.379",
+			"created": "2020-03-26T07:21:01.405",
 			"dataDimensionItems": [
 				{
 					"dataDimensionItemType": "INDICATOR",
@@ -4655,9 +6891,9 @@
 			"dataElementDimensions": [],
 			"eventClustering": false,
 			"eventPointRadius": 0,
-			"id": "YkVAoFGEd8R",
+			"id": "V7qvIqRNyhQ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:50.711",
+			"lastUpdated": "2020-03-26T07:21:01.405",
 			"layer": "thematic",
 			"method": 2,
 			"opacity": 0.8,
@@ -4687,7 +6923,7 @@
 				"lastMonth": false,
 				"lastQuarter": false,
 				"lastSixMonth": false,
-				"lastWeek": false,
+				"lastWeek": true,
 				"lastYear": false,
 				"monthsLastYear": false,
 				"monthsThisYear": false,
@@ -4700,7 +6936,7 @@
 				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
-				"thisWeek": true,
+				"thisWeek": false,
 				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
@@ -4711,7 +6947,7 @@
 			"userOrganisationUnitGrandChildren": true
 		}
 	],
-	"package": "COVID19_AGG_COMPLETE_V1.0.0_DHIS2.30_2020-03-20T10:47",
+	"package": "COVID19_AGG_COMPLETE_V1.0.1_DHIS2.30_2020-03-27T08:26",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -4720,22 +6956,31 @@
 				{
 					"categoryOptionGroups": [
 						{
-							"id": "LJaoYMl7vr4"
-						},
-						{
-							"id": "jYu0iR6O5Ax"
-						},
-						{
-							"id": "AsVocqn9oDZ"
+							"id": "yuathFHLjNe"
 						},
 						{
 							"id": "V9t81g7Wspa"
 						},
 						{
-							"id": "v8D8EpiaI2B"
+							"id": "L7gAblMOZKs"
 						},
 						{
-							"id": "wUU6EScAhtj"
+							"id": "cRskhJQLr4J"
+						},
+						{
+							"id": "KkZHYvn7Zor"
+						},
+						{
+							"id": "y5yT8JF4uCA"
+						},
+						{
+							"id": "QllZ8PveFCQ"
+						},
+						{
+							"id": "Y4rNex59t8s"
+						},
+						{
+							"id": "SFZ9S9XHquk"
 						},
 						{
 							"id": "GL19QsdIgIu"
@@ -4766,7 +7011,7 @@
 				"CMrvZp5rmoC"
 			],
 			"completedOnly": false,
-			"created": "2020-03-19T04:34:27.069",
+			"created": "2020-03-26T07:23:31.676",
 			"cumulative": false,
 			"dataDimensionItems": [
 				{
@@ -4810,7 +7055,7 @@
 			"hideTitle": false,
 			"id": "p6zlpJrZzJV",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.823",
+			"lastUpdated": "2020-03-26T07:23:31.676",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "COVID-19 - Cumulative all cases, confirmed, recovered and death by sex and age ",
@@ -4841,11 +7086,11 @@
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
-				"lastMonth": false,
+				"lastMonth": true,
 				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
-				"lastYear": true,
+				"lastYear": false,
 				"monthsLastYear": false,
 				"monthsThisYear": false,
 				"quartersLastYear": false,
@@ -4854,11 +7099,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": false,
+				"thisMonth": true,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -4918,22 +7163,31 @@
 				{
 					"categoryOptionGroups": [
 						{
-							"id": "LJaoYMl7vr4"
-						},
-						{
-							"id": "jYu0iR6O5Ax"
-						},
-						{
-							"id": "AsVocqn9oDZ"
+							"id": "yuathFHLjNe"
 						},
 						{
 							"id": "V9t81g7Wspa"
 						},
 						{
-							"id": "v8D8EpiaI2B"
+							"id": "L7gAblMOZKs"
 						},
 						{
-							"id": "wUU6EScAhtj"
+							"id": "cRskhJQLr4J"
+						},
+						{
+							"id": "KkZHYvn7Zor"
+						},
+						{
+							"id": "y5yT8JF4uCA"
+						},
+						{
+							"id": "QllZ8PveFCQ"
+						},
+						{
+							"id": "Y4rNex59t8s"
+						},
+						{
+							"id": "SFZ9S9XHquk"
 						},
 						{
 							"id": "GL19QsdIgIu"
@@ -4951,7 +7205,7 @@
 				"CMrvZp5rmoC"
 			],
 			"completedOnly": false,
-			"created": "2020-03-19T11:30:15.935",
+			"created": "2020-03-26T07:45:38.745",
 			"cumulative": false,
 			"dataDimensionItems": [
 				{
@@ -4968,7 +7222,6 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
-			"description": "",
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
 			"externalAccess": false,
@@ -4984,7 +7237,7 @@
 			"hideTitle": false,
 			"id": "RncWJdNUuJ9",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-03-19T13:35:51.828",
+			"lastUpdated": "2020-03-26T07:45:38.745",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "COVID-19 - Recovery and fatality rate by sex and age - This Month",
@@ -5026,7 +7279,7 @@
 				"quartersThisYear": false,
 				"thisBimonth": false,
 				"thisBiWeek": false,
-				"thisDay": false,
+				"thisDay": true,
 				"thisFinancialYear": false,
 				"thisMonth": true,
 				"thisQuarter": false,
@@ -5079,10 +7332,10 @@
 			"created": "2020-03-18T11:49:03.293",
 			"dataElements": [
 				{
-					"id": "MpYJAYuLpim"
+					"id": "CnPsS2xE8UN"
 				},
 				{
-					"id": "CnPsS2xE8UN"
+					"id": "MpYJAYuLpim"
 				},
 				{
 					"id": "rvYTAOrBrtY"
@@ -5097,8 +7350,8 @@
 			"greyedFields": [],
 			"id": "xcjauPeiVnT",
 			"indicators": [],
-			"lastUpdated": "2020-03-18T11:49:03.293",
-			"name": "Cases and Deaths Reports by Age and Gender",
+			"lastUpdated": "2020-03-26T08:03:46.518",
+			"name": "Cases and Deaths Reported by Age and Gender",
 			"showColumnTotals": false,
 			"showRowTotals": true,
 			"sortOrder": 1,
@@ -5171,6 +7424,36 @@
 			"showColumnTotals": false,
 			"showRowTotals": true,
 			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-03-25T20:21:21.227",
+			"dataElements": [
+				{
+					"id": "njg6PAh5gw6"
+				},
+				{
+					"id": "e1xTRwfWega"
+				},
+				{
+					"id": "h34jPNnKkJK"
+				},
+				{
+					"id": "RC7RG6mexD2"
+				}
+			],
+			"dataSet": {
+				"id": "Vs7Bd0pHjS9"
+			},
+			"greyedFields": [],
+			"id": "BF8373CGyyT",
+			"indicators": [],
+			"lastUpdated": "2020-03-25T20:24:29.638",
+			"name": "Transmission pattern of the province/state this week (Mark all the applies)",
+			"showColumnTotals": false,
+			"showRowTotals": false,
+			"sortOrder": 1,
 			"translations": []
 		}
 	],
