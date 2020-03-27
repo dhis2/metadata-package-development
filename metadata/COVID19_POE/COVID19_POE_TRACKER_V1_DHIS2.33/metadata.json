@@ -14199,7 +14199,7 @@
 			"version": 2
 		}
 	],
-	"package": "COVID19_POE_TRACKER_V1.0.0_DHIS2.33_2020-03-27T08:58",
+	"package": "COVID19_POE_TRACKER_V1.0.0_DHIS2.33_2020-03-27T09:45",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -19362,21 +19362,14 @@
 			"expiryDays": 0,
 			"id": "xymcybnBNas",
 			"ignoreOverdueEvents": false,
-			"lastUpdated": "2020-03-25T21:43:50.615",
+			"lastUpdated": "2020-03-27T09:44:35.323",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "COVID-19 Port of Entry Screening",
 			"notificationTemplates": [],
 			"onlyEnrollOnce": false,
 			"organisationUnits": [],
-			"programSections": [
-				{
-					"id": "yazjHtXIUZc"
-				},
-				{
-					"id": "VcEHvAX7XzE"
-				}
-			],
+			"programSections": [],
 			"programStages": [
 				{
 					"id": "r20KKI8mlDj"
@@ -19407,7 +19400,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ar2YcYM8YV2",
-					"lastUpdated": "2020-03-25T09:00:19.261",
+					"lastUpdated": "2020-03-27T09:44:35.327",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Age",
 					"program": {
@@ -19443,7 +19436,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Oef1hjfBglh",
-					"lastUpdated": "2020-03-25T09:00:19.261",
+					"lastUpdated": "2020-03-27T09:44:35.327",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Country of Residence",
 					"program": {
@@ -19479,7 +19472,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Wyamfj7DajO",
-					"lastUpdated": "2020-03-25T09:00:19.261",
+					"lastUpdated": "2020-03-27T09:44:35.326",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Date of birth",
 					"program": {
@@ -19515,7 +19508,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "b35f4CAr5S3",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.328",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Email",
 					"program": {
@@ -19551,7 +19544,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tP8KAQ0Ny8F",
-					"lastUpdated": "2020-03-25T09:00:19.263",
+					"lastUpdated": "2020-03-27T09:44:35.332",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Emergency contact - email",
 					"program": {
@@ -19587,7 +19580,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NG7TpUZ3B3w",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.329",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Emergency contact - first name",
 					"program": {
@@ -19623,7 +19616,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hIrkReuBdbr",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.329",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Emergency contact - surname",
 					"program": {
@@ -19659,7 +19652,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "MqMFEdY7yOP",
-					"lastUpdated": "2020-03-25T09:00:19.263",
+					"lastUpdated": "2020-03-27T09:44:35.331",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Emergency contact - telephone",
 					"program": {
@@ -19695,7 +19688,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "AdP8Z3S3NET",
-					"lastUpdated": "2020-03-25T09:00:19.260",
+					"lastUpdated": "2020-03-27T09:44:35.326",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening First Name",
 					"program": {
@@ -19731,7 +19724,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bojt420RoT7",
-					"lastUpdated": "2020-03-25T09:00:19.261",
+					"lastUpdated": "2020-03-27T09:44:35.328",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Home Address",
 					"program": {
@@ -19767,7 +19760,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "QiMDgBhh9UO",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.328",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Local Address",
 					"program": {
@@ -19803,7 +19796,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rF9T0dnLX0S",
-					"lastUpdated": "2020-03-25T09:00:19.260",
+					"lastUpdated": "2020-03-27T09:44:35.326",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Local Case ID ",
 					"program": {
@@ -19839,7 +19832,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tNirVRdtRo6",
-					"lastUpdated": "2020-03-25T09:00:19.260",
+					"lastUpdated": "2020-03-27T09:44:35.325",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Passport Number",
 					"program": {
@@ -19875,7 +19868,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YsDXoqXmrNU",
-					"lastUpdated": "2020-03-25T09:00:19.261",
+					"lastUpdated": "2020-03-27T09:44:35.326",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Sex",
 					"program": {
@@ -19911,7 +19904,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "HE6H0UFFkkv",
-					"lastUpdated": "2020-03-25T09:00:19.260",
+					"lastUpdated": "2020-03-27T09:44:35.326",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Surname",
 					"program": {
@@ -19947,7 +19940,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rDYUlYAd71h",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.328",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Telephone (foreign)",
 					"program": {
@@ -19983,7 +19976,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "wJQXjVrHrm2",
-					"lastUpdated": "2020-03-25T09:00:19.262",
+					"lastUpdated": "2020-03-27T09:44:35.328",
 					"mandatory": false,
 					"name": "COVID-19 Port of Entry Screening Telephone (local)",
 					"program": {
@@ -20058,7 +20051,7 @@
 					"id": "k8Fk0kuhOeK"
 				}
 			],
-			"version": 22
+			"version": 23
 		}
 	],
 	"programStageDataElements": [
@@ -23671,7 +23664,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "QiMDgBhh9UO",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.328",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23688,7 +23681,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "Wyamfj7DajO",
-			"lastUpdated": "2020-03-25T09:00:19.261",
+			"lastUpdated": "2020-03-27T09:44:35.326",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23705,7 +23698,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "tNirVRdtRo6",
-			"lastUpdated": "2020-03-25T09:00:19.260",
+			"lastUpdated": "2020-03-27T09:44:35.325",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23722,7 +23715,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "rF9T0dnLX0S",
-			"lastUpdated": "2020-03-25T09:00:19.260",
+			"lastUpdated": "2020-03-27T09:44:35.326",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23739,7 +23732,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "bojt420RoT7",
-			"lastUpdated": "2020-03-25T09:00:19.261",
+			"lastUpdated": "2020-03-27T09:44:35.328",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23756,7 +23749,7 @@
 			"created": "2020-03-24T23:40:27.408",
 			"displayInList": false,
 			"id": "MqMFEdY7yOP",
-			"lastUpdated": "2020-03-25T09:00:19.263",
+			"lastUpdated": "2020-03-27T09:44:35.331",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23773,7 +23766,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "YsDXoqXmrNU",
-			"lastUpdated": "2020-03-25T09:00:19.261",
+			"lastUpdated": "2020-03-27T09:44:35.326",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23790,7 +23783,7 @@
 			"created": "2020-03-24T23:40:27.408",
 			"displayInList": false,
 			"id": "tP8KAQ0Ny8F",
-			"lastUpdated": "2020-03-25T09:00:19.263",
+			"lastUpdated": "2020-03-27T09:44:35.332",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23807,7 +23800,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "AdP8Z3S3NET",
-			"lastUpdated": "2020-03-25T09:00:19.260",
+			"lastUpdated": "2020-03-27T09:44:35.326",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23824,7 +23817,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "ar2YcYM8YV2",
-			"lastUpdated": "2020-03-25T09:00:19.261",
+			"lastUpdated": "2020-03-27T09:44:35.327",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23841,7 +23834,7 @@
 			"created": "2020-03-24T23:40:27.408",
 			"displayInList": false,
 			"id": "NG7TpUZ3B3w",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.329",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23858,7 +23851,7 @@
 			"created": "2020-03-24T23:40:27.408",
 			"displayInList": false,
 			"id": "hIrkReuBdbr",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.329",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23875,7 +23868,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "wJQXjVrHrm2",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.328",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23892,7 +23885,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "b35f4CAr5S3",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.328",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23909,7 +23902,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "HE6H0UFFkkv",
-			"lastUpdated": "2020-03-25T09:00:19.260",
+			"lastUpdated": "2020-03-27T09:44:35.326",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23926,7 +23919,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": false,
 			"id": "Oef1hjfBglh",
-			"lastUpdated": "2020-03-25T09:00:19.261",
+			"lastUpdated": "2020-03-27T09:44:35.327",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
@@ -23943,7 +23936,7 @@
 			"created": "2020-03-11T16:40:33.217",
 			"displayInList": true,
 			"id": "rDYUlYAd71h",
-			"lastUpdated": "2020-03-25T09:00:19.262",
+			"lastUpdated": "2020-03-27T09:44:35.328",
 			"mandatory": false,
 			"program": {
 				"id": "xymcybnBNas"
