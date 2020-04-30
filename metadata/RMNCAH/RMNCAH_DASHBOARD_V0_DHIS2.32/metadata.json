@@ -362,7 +362,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-15T12:52:05.850",
+			"created": "2019-04-25T18:57:49.790",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -382,17 +382,10 @@
 					"indicator": {
 						"id": "kZ3uuGsjfBH"
 					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "Xn5C1TDrCkr"
-					}
 				}
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -402,7 +395,7 @@
 			"hideTitle": false,
 			"id": "s1HTt1RsC7N",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:52:05.850",
+			"lastUpdated": "2019-04-30T17:55:16.865",
 			"name": "RMNCAH - Antenatal care interventions - yearly ",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -437,7 +430,7 @@
 				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
-				"lastYear": true,
+				"lastYear": false,
 				"monthsLastYear": false,
 				"monthsThisYear": false,
 				"quartersLastYear": false,
@@ -455,10 +448,10 @@
 				"yesterday": false
 			},
 			"series": "pe",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "6- Coverage of antenatal care interventions",
+			"title": "Antenatal care interventions",
 			"translations": [
 				{
 					"locale": "fr",
@@ -483,15 +476,26 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "dx",
 			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "yuathFHLjNe"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "tuz13lFHjuM"
+					}
+				}
+			],
 			"completedOnly": false,
-			"created": "2020-04-28T20:14:35.405",
+			"created": "2019-04-24T20:58:43.921",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -503,7 +507,25 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
+						"id": "MfHDRuISx5E"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zlR4t4qRTZR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
 						"id": "alJibw2mTO6"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zXhn9sH8oXD"
 					}
 				},
 				{
@@ -521,13 +543,31 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "MfHDRuISx5E"
+						"id": "ThhTw7jEPsC"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "nicBvg2xoZx"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "U1Y5H3ruLPD"
 					}
 				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
 						"id": "bVi8tilV7uO"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "clN7gBXNEPT"
 					}
 				},
 				{
@@ -545,45 +585,28 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "zXhn9sH8oXD"
+						"id": "t63W8x8sDvq"
 					}
 				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "LBkdosq7QjD"
+						"id": "J9K0zzwTlUY"
 					}
 				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "zlR4t4qRTZR"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "U1Y5H3ruLPD"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "nicBvg2xoZx"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "ThhTw7jEPsC"
+						"id": "ALyeW8OBDrh"
 					}
 				}
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
-				"ou"
+				"ou",
+				"pe",
+				"tuz13lFHjuM"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -591,8 +614,8 @@
 			"hideTitle": false,
 			"id": "pgB0KOsHovg",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-28T20:14:35.405",
-			"name": "RMNCAH - Child mortality by cause 0-4 years - this year",
+			"lastUpdated": "2019-04-30T17:55:17.083",
+			"name": "RMNCAH - Child mortality by cause 0-4 years - quarterly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -642,11 +665,11 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "pe",
+			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "16-Distribution of deaths in children 0-4 years by cause",
+			"title": "Child mortality by cause (0-4 years)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -671,17 +694,94 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "dx",
 			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "Mcv3dvoK2iM"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "tuz13lFHjuM"
+					}
+				}
+			],
 			"completedOnly": false,
-			"created": "2020-04-28T20:12:38.440",
+			"created": "2019-04-24T20:59:00.536",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "hFyOhDujxki"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "MfHDRuISx5E"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zlR4t4qRTZR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "alJibw2mTO6"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zXhn9sH8oXD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Whob66sPjEE"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "IY9YdW4nbhE"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ThhTw7jEPsC"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "nicBvg2xoZx"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "U1Y5H3ruLPD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bVi8tilV7uO"
+					}
+				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
@@ -691,37 +791,13 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "jr9xTOXzDKJ"
+						"id": "m3dbw4Or7xs"
 					}
 				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "DzpJ77sHAaQ"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "iyh3qMkbTe5"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "OsDAfNhFtyX"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "oSfYVRt4sAn"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "ZbMLAo7LTuz"
+						"id": "b9f35x2djwF"
 					}
 				},
 				{
@@ -733,15 +809,22 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
+						"id": "J9K0zzwTlUY"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
 						"id": "ALyeW8OBDrh"
 					}
 				}
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
-				"ou"
+				"ou",
+				"pe",
+				"tuz13lFHjuM"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -749,8 +832,8 @@
 			"hideTitle": false,
 			"id": "RJCFvxlOA7t",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-28T20:12:38.440",
-			"name": "RMNCAH - Child mortality by cause 5-9 years - this year",
+			"lastUpdated": "2019-04-30T17:55:17.092",
+			"name": "RMNCAH - Child mortality by cause 5-9 years - quarterly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -780,7 +863,7 @@
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
 				"lastMonth": false,
-				"lastQuarter": false,
+				"lastQuarter": true,
 				"lastSixMonth": false,
 				"lastWeek": false,
 				"lastYear": false,
@@ -796,15 +879,15 @@
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "pe",
+			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "17-Distribution of deaths in children aged 5 to 9 years by cause",
+			"title": "Child mortality by cause (5-9 years)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -829,117 +912,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"category": "ou",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2020-04-13T13:43:34.498",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "wwtcF9fypyQ"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "LRufo0zqmvg"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "zcQnSrwconF",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-13T13:43:34.498",
-			"name": "RMNCAH - Children diagnosed with pneumonia by age and org unit, last 12 months",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"title": "14-Number of children 0-9 diagnosed with pneumonia per facility",
-			"translations": [],
-			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -947,7 +921,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-15T12:43:13.124",
+			"created": "2019-04-24T19:27:02.607",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -995,7 +969,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -1005,7 +978,7 @@
 			"hideTitle": false,
 			"id": "gJeV6BtrYoj",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:43:13.124",
+			"lastUpdated": "2019-04-30T17:55:17.091",
 			"name": "RMNCAH - Continuum of Care - yearly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1053,15 +1026,15 @@
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
 			"series": "pe",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "18-Interventions along the RMNCAH continuum of care by year",
+			"title": "Continuum of care",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1086,7 +1059,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1094,7 +1068,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-13T11:54:19.020",
+			"created": "2019-04-24T19:09:44.892",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1124,7 +1098,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -1134,7 +1107,7 @@
 			"hideTitle": false,
 			"id": "QDsX9SohaCB",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-13T11:54:19.020",
+			"lastUpdated": "2019-04-30T17:55:16.683",
 			"name": "RMNCAH - Delivery and newborn care interventions - quarterly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1187,10 +1160,10 @@
 				"yesterday": false
 			},
 			"series": "pe",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "7-Coverage of delivery and newborn care interventions",
+			"title": "Delivery and newborn care interventions",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1215,7 +1188,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1223,7 +1197,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-13T11:58:20.790",
+			"created": "2019-04-24T19:02:53.621",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1258,8 +1232,8 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
+			"description": "",
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"pe"
 			],
@@ -1269,7 +1243,7 @@
 			"hideTitle": false,
 			"id": "aLMrowvb44Q",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-13T11:58:20.790",
+			"lastUpdated": "2019-04-30T17:55:16.879",
 			"name": "RMNCAH - Delivery and newborn care interventions by year",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1322,10 +1296,10 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "9-Annual coverage of key maternal and newborn interventions",
+			"title": "Delivery and newborn care interventions",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1350,7 +1324,8 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1358,7 +1333,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-27T12:25:37.064",
+			"created": "2019-04-25T18:59:01.481",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1376,7 +1351,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -1386,8 +1360,8 @@
 			"hideTitle": false,
 			"id": "O2EwlCUHQ25",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-27T12:25:37.064",
-			"name": "RMNCAH - Diarrhea treatment for children 0-9 by type, quarterly",
+			"lastUpdated": "2019-04-30T17:55:17.062",
+			"name": "RMNCAH - Diarrhea treatment with ORS - monthly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -1399,14 +1373,14 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": false,
+				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
-				"last4Quarters": true,
+				"last4Quarters": false,
 				"last4Weeks": false,
 				"last52Weeks": false,
 				"last5FinancialYears": false,
@@ -1418,7 +1392,7 @@
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
 				"lastMonth": false,
-				"lastQuarter": true,
+				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
 				"lastYear": false,
@@ -1439,10 +1413,10 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "13-Coverage of treatment for diarrhea among children 0-9",
+			"title": "Diarrhea treatment",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1467,7 +1441,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1492,7 +1467,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-04-15T12:53:07.435",
+			"created": "2019-04-24T19:04:45.332",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1503,8 +1478,8 @@
 				}
 			],
 			"dataElementGroupSetDimensions": [],
+			"description": "",
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou",
 				"dx"
@@ -1515,7 +1490,7 @@
 			"hideTitle": false,
 			"id": "YeAJFrQQU4W",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:53:07.435",
+			"lastUpdated": "2019-04-30T17:55:16.847",
 			"name": "RMNCAH - First antenatal care during first trimester by age and over time",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1572,7 +1547,7 @@
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
 				"lastMonth": false,
-				"lastQuarter": true,
+				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
 				"lastYear": false,
@@ -1593,10 +1568,10 @@
 				"yesterday": false
 			},
 			"series": "EQAlIqdqcI1",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "8-Coverage of first ANC during first trimester",
+			"title": "First antenatal care during first trimester (0-11 weeks)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1621,7 +1596,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1643,7 +1619,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-04-15T12:59:08.567",
+			"created": "2019-04-24T20:15:41.224",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1655,7 +1631,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou",
 				"dx"
@@ -1666,7 +1641,7 @@
 			"hideTitle": false,
 			"id": "a74ivhos1HV",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:59:08.567",
+			"lastUpdated": "2019-04-30T17:55:16.849",
 			"name": "RMNCAH - FP clients accepting contraceptives for first time - quarterly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1698,7 +1673,7 @@
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
 				"lastMonth": false,
-				"lastQuarter": true,
+				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
 				"lastYear": false,
@@ -1719,10 +1694,10 @@
 				"yesterday": false
 			},
 			"series": "CMrvZp5rmoC",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "4-FP clients accepting contraception for first time",
+			"title": "FP clients accepting contraception for first time",
 			"translations": [
 				{
 					"locale": "fr",
@@ -1747,7 +1722,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1785,7 +1761,7 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-04-13T11:42:34.115",
+			"created": "2019-05-09T21:43:47.504",
 			"cumulativeValues": true,
 			"dataDimensionItems": [
 				{
@@ -1797,7 +1773,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou",
 				"pe",
@@ -1809,7 +1784,7 @@
 			"hideTitle": false,
 			"id": "u2K7F4cqtdf",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-13T11:42:34.115",
+			"lastUpdated": "2019-05-10T14:22:33.756",
 			"name": "RMNCAH - FP clients accepting contraceptives for first time by age and sex",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1862,10 +1837,10 @@
 				"yesterday": false
 			},
 			"series": "CMrvZp5rmoC",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "3-FP clients accepting contraception for first time",
+			"title": "FP clients accepting contraception for first time",
 			"translations": [],
 			"type": "STACKED_COLUMN",
 			"user": {
@@ -1884,7 +1859,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1892,7 +1868,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-13T11:43:27.787",
+			"created": "2019-04-24T18:57:04.328",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -1934,7 +1910,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"pe"
 			],
@@ -1944,8 +1919,8 @@
 			"hideTitle": false,
 			"id": "gC7bvSoYIWz",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-13T11:43:27.787",
-			"name": "RMNCAH - FP method for post-partum patients at discharge after facility delivery - by orgunit 12-monthly",
+			"lastUpdated": "2019-04-30T17:55:16.648",
+			"name": "RMNCAH - FP method at discharge after facility delivery - by orgunit 12-monthly",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -1997,10 +1972,10 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "5-Coverage of Post-partum family planning (by method and region)",
+			"title": "FP method at discharge after facility delivery",
 			"translations": [
 				{
 					"locale": "fr",
@@ -2025,15 +2000,15 @@
 			],
 			"userOrganisationUnit": false,
 			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "dx",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-23T22:23:36.781",
+			"created": "2019-06-25T13:44:58.841",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2057,6 +2032,12 @@
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
+						"id": "EmksquFm4DJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
 						"id": "zJnHulDK3si"
 					}
 				},
@@ -2070,6 +2051,12 @@
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
 						"id": "aCJadIVZ815"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "RO9sDGI6t0W"
 					}
 				},
 				{
@@ -2095,7 +2082,8 @@
 			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
-				"ou"
+				"ou",
+				"pe"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -2103,7 +2091,7 @@
 			"hideTitle": false,
 			"id": "py5vOPaNck9",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-23T22:23:36.781",
+			"lastUpdated": "2019-06-25T13:44:58.841",
 			"name": "RMNCAH - Newborn mortality by cause",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2154,11 +2142,12 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "pe",
+			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"title": "10-Annual percent distribution of institutional neonatal mortality",
+			"title": "Newborn mortality by cause",
 			"translations": [
 				{
 					"locale": "fr",
@@ -2183,7 +2172,143 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "yuathFHLjNe"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "tuz13lFHjuM"
+					}
+				}
+			],
+			"completedOnly": false,
+			"created": "2019-04-24T20:32:36.016",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "GkfXbG5tG1S"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "eM7UECzxWnh"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "e4NlJyExHPj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou",
+				"tuz13lFHjuM"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "pXbMZzknPFp",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-04-30T17:55:17.074",
+			"name": "RMNCAH - Pneumonia by treatment type in children 0-4 years",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"rangeAxisLabel": "Children",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"title": "Pneumonia treatment in children 0-4 years",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Pneumonie par type de traitement chez les enfants 0-4 ans"
+				}
+			],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2191,7 +2316,7 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2020-04-15T12:44:26.672",
+			"created": "2019-04-24T20:16:32.044",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -2209,7 +2334,6 @@
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -2219,8 +2343,8 @@
 			"hideTitle": false,
 			"id": "m9IFzMHmRF9",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:44:26.672",
-			"name": "RMNCAH - Number of stillbirths by type and year",
+			"lastUpdated": "2019-05-09T21:54:27.227",
+			"name": "RMNCAH - Still births",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -2228,6 +2352,7 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
+			"rangeAxisLabel": "Still births",
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -2266,15 +2391,15 @@
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": true,
+				"thisYear": false,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "11-Annual numbers of stillbirth",
+			"title": "Still births",
 			"translations": [
 				{
 					"locale": "fr",
@@ -2299,11 +2424,12 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "pe",
+			"category": "ou",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -2318,31 +2444,42 @@
 				}
 			],
 			"completedOnly": false,
-			"created": "2020-04-15T12:54:43.389",
+			"created": "2019-04-24T20:33:25.453",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
-						"id": "VFZAVTULTSd"
+						"id": "GkfXbG5tG1S"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "eM7UECzxWnh"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "e4NlJyExHPj"
 					}
 				}
 			],
 			"dataElementGroupSetDimensions": [],
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
-				"tuz13lFHjuM",
-				"dx"
+				"pe",
+				"tuz13lFHjuM"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
 			"hideSubtitle": false,
 			"hideTitle": false,
-			"id": "pXbMZzknPFp",
+			"id": "zcQnSrwconF",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-15T12:54:43.389",
-			"name": "RMNCAH - Pneumonia treatment in children 0-9, by quarter and org unit",
+			"lastUpdated": "2019-04-30T17:55:17.063",
+			"name": "RMNCAH- Children with pneumonia by treatment type",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -2350,18 +2487,17 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Children",
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": false,
+				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
-				"last4Quarters": true,
+				"last4Quarters": false,
 				"last4Weeks": false,
 				"last52Weeks": false,
 				"last5FinancialYears": false,
@@ -2373,7 +2509,7 @@
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
 				"lastMonth": false,
-				"lastQuarter": true,
+				"lastQuarter": false,
 				"lastSixMonth": false,
 				"lastWeek": false,
 				"lastYear": false,
@@ -2393,19 +2529,13 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "ou",
+			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "15-Percentage of children 0-9 diagnosed with pneumonia that were treated with amoxicillin ",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Pneumonie par type de traitement chez les enfants 0-4 ans"
-				}
-			],
-			"type": "LINE",
+			"title": "Children under-5 with suspected pneumonia by treatment type",
+			"translations": [],
+			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -2421,8 +2551,9 @@
 				}
 			],
 			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"dashboards": [
@@ -2945,11 +3076,8 @@
 				}
 			],
 			"externalAccess": false,
-			"favorites": [
-				"KpUvqwyAqx8"
-			],
 			"id": "XRx2x8w50on",
-			"lastUpdated": "2020-04-16T08:20:09.902",
+			"lastUpdated": "2019-04-29T10:12:27.928",
 			"name": "RMNCAH",
 			"publicAccess": "r-------",
 			"translations": [
@@ -2985,115 +3113,76 @@
 					"id": "e4NlJyExHPj"
 				},
 				{
-					"id": "MzYEREexpDM"
+					"id": "EmksquFm4DJ"
 				},
 				{
-					"id": "SPKKzLb5389"
-				},
-				{
-					"id": "DVIGOKCmnd8"
+					"id": "U1Y5H3ruLPD"
 				},
 				{
 					"id": "UX5BdEApNEI"
 				},
 				{
-					"id": "ThhTw7jEPsC"
+					"id": "ylXbHIzTg7x"
 				},
 				{
-					"id": "b9f35x2djwF"
+					"id": "GkfXbG5tG1S"
 				},
 				{
-					"id": "iRuJCkcGDov"
+					"id": "k1QRv1lrOQs"
 				},
 				{
-					"id": "alJibw2mTO6"
-				},
-				{
-					"id": "gnhcFIap1vN"
+					"id": "ccsNVDSzNfX"
 				},
 				{
 					"id": "b4e4QZfBe5x"
 				},
 				{
-					"id": "zlR4t4qRTZR"
+					"id": "Zr4GSWRPQaM"
 				},
 				{
-					"id": "cDVlZtmYpBQ"
-				},
-				{
-					"id": "xGXryTKcNY2"
+					"id": "b9f35x2djwF"
 				},
 				{
 					"id": "KwM3KUO7kg4"
 				},
 				{
-					"id": "Zr4GSWRPQaM"
-				},
-				{
-					"id": "Whob66sPjEE"
-				},
-				{
-					"id": "rpSllz1AKMa"
-				},
-				{
 					"id": "qRfZ7sdScVv"
 				},
 				{
-					"id": "n6R5483SG14"
+					"id": "ALyeW8OBDrh"
 				},
 				{
 					"id": "m3dbw4Or7xs"
 				},
 				{
-					"id": "ylXbHIzTg7x"
-				},
-				{
-					"id": "oSfYVRt4sAn"
-				},
-				{
 					"id": "PEXOeNaxOz0"
-				},
-				{
-					"id": "aCJadIVZ815"
 				},
 				{
 					"id": "hjoN5yNAHoP"
 				},
 				{
-					"id": "illIO5sBPjx"
-				},
-				{
-					"id": "kKq3dRugzhF"
+					"id": "zXhn9sH8oXD"
 				},
 				{
 					"id": "kZ3uuGsjfBH"
 				},
 				{
+					"id": "kKq3dRugzhF"
+				},
+				{
 					"id": "aoUZk8o1ula"
 				},
 				{
-					"id": "IY9YdW4nbhE"
+					"id": "t3eSNlyXlSt"
 				},
 				{
 					"id": "ZNz5XzwJZK5"
 				},
 				{
-					"id": "KlAhwKD5lYm"
-				},
-				{
 					"id": "PBSxUYML4vn"
 				},
 				{
-					"id": "jr9xTOXzDKJ"
-				},
-				{
-					"id": "PH78zjodtpG"
-				},
-				{
 					"id": "KifLPgn8kkk"
-				},
-				{
-					"id": "LBkdosq7QjD"
 				},
 				{
 					"id": "mX4OsXFUW5A"
@@ -3102,31 +3191,19 @@
 					"id": "FgNnsRgCs8r"
 				},
 				{
-					"id": "Dg7dZlcVZGE"
-				},
-				{
-					"id": "clN7gBXNEPT"
-				},
-				{
-					"id": "HPZunOd021x"
-				},
-				{
-					"id": "hFyOhDujxki"
+					"id": "t63W8x8sDvq"
 				},
 				{
 					"id": "MfHDRuISx5E"
 				},
 				{
-					"id": "nqn330c9jOa"
+					"id": "IY9YdW4nbhE"
 				},
 				{
 					"id": "hEbQdwFHUzr"
 				},
 				{
-					"id": "t63W8x8sDvq"
-				},
-				{
-					"id": "Xn5C1TDrCkr"
+					"id": "clN7gBXNEPT"
 				},
 				{
 					"id": "g8GiLWe3JzN"
@@ -3135,37 +3212,37 @@
 					"id": "Ec4z30wDGVH"
 				},
 				{
-					"id": "JUD9VmMvrI0"
+					"id": "bVi8tilV7uO"
+				},
+				{
+					"id": "nicBvg2xoZx"
+				},
+				{
+					"id": "MzYEREexpDM"
 				},
 				{
 					"id": "Vgr5AiRKANz"
 				},
 				{
-					"id": "U1Y5H3ruLPD"
+					"id": "ids6pWvZmh3"
 				},
 				{
-					"id": "iyh3qMkbTe5"
+					"id": "roSz8mCKvXo"
 				},
 				{
-					"id": "t3eSNlyXlSt"
+					"id": "zlR4t4qRTZR"
 				},
 				{
-					"id": "y8YZCvBmBK3"
-				},
-				{
-					"id": "XoEBUcTy62Q"
+					"id": "YBjvDwAKAgZ"
 				},
 				{
 					"id": "ePPf0F5klqt"
 				},
 				{
-					"id": "DzpJ77sHAaQ"
+					"id": "zJnHulDK3si"
 				},
 				{
 					"id": "eM7UECzxWnh"
-				},
-				{
-					"id": "YQF5aH1USqa"
 				},
 				{
 					"id": "kQjyaO9FBtb"
@@ -3174,19 +3251,16 @@
 					"id": "Z2Df1NeNaEj"
 				},
 				{
+					"id": "nqn330c9jOa"
+				},
+				{
 					"id": "IzgsCWHHGBG"
 				},
 				{
-					"id": "ChpaxILo7IO"
+					"id": "PH78zjodtpG"
 				},
 				{
-					"id": "VFZAVTULTSd"
-				},
-				{
-					"id": "OjGUSxKM05J"
-				},
-				{
-					"id": "bVi8tilV7uO"
+					"id": "Whob66sPjEE"
 				},
 				{
 					"id": "Aii5EOk1xEW"
@@ -3195,88 +3269,40 @@
 					"id": "Gjex4LrpKbB"
 				},
 				{
-					"id": "LRufo0zqmvg"
-				},
-				{
-					"id": "uHg0RQeJNpw"
-				},
-				{
-					"id": "PPRB8AW3Pse"
-				},
-				{
-					"id": "vhqt3xIZ5Ut"
-				},
-				{
-					"id": "Gl4aMQhoxS6"
-				},
-				{
-					"id": "fuIpFYTrp5m"
-				},
-				{
 					"id": "wbAmtpfMvJ8"
-				},
-				{
-					"id": "XXDXVGzvSx1"
-				},
-				{
-					"id": "HrNswM9rs4n"
-				},
-				{
-					"id": "ids6pWvZmh3"
-				},
-				{
-					"id": "EeIEcimWybJ"
-				},
-				{
-					"id": "zJnHulDK3si"
-				},
-				{
-					"id": "ccsNVDSzNfX"
-				},
-				{
-					"id": "JWVdWMhNGSI"
-				},
-				{
-					"id": "X1gqmqv6gvT"
-				},
-				{
-					"id": "Ehw00wViRfW"
-				},
-				{
-					"id": "S3oGwzm9RqX"
-				},
-				{
-					"id": "YBjvDwAKAgZ"
-				},
-				{
-					"id": "oshwEXipmih"
-				},
-				{
-					"id": "nicBvg2xoZx"
-				},
-				{
-					"id": "lMRhTK17SDQ"
 				},
 				{
 					"id": "KCWfSkwvp2t"
 				},
 				{
-					"id": "OsDAfNhFtyX"
+					"id": "XXDXVGzvSx1"
+				},
+				{
+					"id": "n6R5483SG14"
+				},
+				{
+					"id": "ThhTw7jEPsC"
+				},
+				{
+					"id": "J9K0zzwTlUY"
+				},
+				{
+					"id": "JWVdWMhNGSI"
+				},
+				{
+					"id": "oshwEXipmih"
+				},
+				{
+					"id": "lMRhTK17SDQ"
+				},
+				{
+					"id": "aCJadIVZ815"
 				},
 				{
 					"id": "oCvwO2UvZD1"
 				},
 				{
-					"id": "wwtcF9fypyQ"
-				},
-				{
-					"id": "roSz8mCKvXo"
-				},
-				{
-					"id": "jkKEMhzQlhT"
-				},
-				{
-					"id": "ZbMLAo7LTuz"
+					"id": "alJibw2mTO6"
 				},
 				{
 					"id": "tkL7UlM3HGM"
@@ -3285,16 +3311,22 @@
 					"id": "o63QMqOyYg7"
 				},
 				{
+					"id": "uHg0RQeJNpw"
+				},
+				{
+					"id": "hFyOhDujxki"
+				},
+				{
 					"id": "DWO9EyfG3Fl"
 				},
 				{
-					"id": "K4lCaYeEMvM"
+					"id": "RO9sDGI6t0W"
+				},
+				{
+					"id": "YQF5aH1USqa"
 				},
 				{
 					"id": "u4MVw6vtaVq"
-				},
-				{
-					"id": "zXhn9sH8oXD"
 				},
 				{
 					"id": "Qgu1gY7fKiC"
@@ -3312,22 +3344,10 @@
 					"id": "mGNOMd9KSEX"
 				},
 				{
-					"id": "J9K0zzwTlUY"
-				},
-				{
-					"id": "BvmZb48wAcM"
-				},
-				{
-					"id": "GkfXbG5tG1S"
-				},
-				{
-					"id": "ALyeW8OBDrh"
-				},
-				{
-					"id": "S6Sz0UU3mPG"
+					"id": "HrNswM9rs4n"
 				}
 			],
-			"lastUpdated": "2020-04-27T12:29:14.935",
+			"lastUpdated": "2019-06-25T19:13:29.709",
 			"name": "RMNCAH",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3361,46 +3381,37 @@
 					"id": "e4NlJyExHPj"
 				},
 				{
-					"id": "VFZAVTULTSd"
-				},
-				{
-					"id": "OjGUSxKM05J"
-				},
-				{
-					"id": "nqn330c9jOa"
-				},
-				{
-					"id": "ids6pWvZmh3"
-				},
-				{
 					"id": "qRfZ7sdScVv"
 				},
 				{
 					"id": "DWO9EyfG3Fl"
 				},
 				{
-					"id": "Ehw00wViRfW"
-				},
-				{
 					"id": "UX5BdEApNEI"
-				},
-				{
-					"id": "eM7UECzxWnh"
 				},
 				{
 					"id": "GkfXbG5tG1S"
 				},
 				{
-					"id": "oCvwO2UvZD1"
+					"id": "eM7UECzxWnh"
+				},
+				{
+					"id": "k1QRv1lrOQs"
+				},
+				{
+					"id": "ids6pWvZmh3"
 				},
 				{
 					"id": "Z2Df1NeNaEj"
 				},
 				{
-					"id": "fuIpFYTrp5m"
+					"id": "oCvwO2UvZD1"
+				},
+				{
+					"id": "nqn330c9jOa"
 				}
 			],
-			"lastUpdated": "2020-04-27T12:29:31.217",
+			"lastUpdated": "2019-04-28T05:37:14.854",
 			"name": "RMNCAH - Childhood and Young Adolescence",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3434,64 +3445,22 @@
 					"id": "XXDXVGzvSx1"
 				},
 				{
-					"id": "ZNz5XzwJZK5"
-				},
-				{
-					"id": "PBSxUYML4vn"
-				},
-				{
-					"id": "PH78zjodtpG"
-				},
-				{
-					"id": "y8YZCvBmBK3"
-				},
-				{
-					"id": "EeIEcimWybJ"
-				},
-				{
-					"id": "JWVdWMhNGSI"
-				},
-				{
-					"id": "S3oGwzm9RqX"
-				},
-				{
-					"id": "mX4OsXFUW5A"
-				},
-				{
-					"id": "FgNnsRgCs8r"
-				},
-				{
-					"id": "Dg7dZlcVZGE"
-				},
-				{
-					"id": "lMRhTK17SDQ"
-				},
-				{
-					"id": "HPZunOd021x"
-				},
-				{
-					"id": "iRuJCkcGDov"
-				},
-				{
-					"id": "gnhcFIap1vN"
-				},
-				{
 					"id": "b4e4QZfBe5x"
 				},
 				{
 					"id": "IzgsCWHHGBG"
 				},
 				{
-					"id": "ChpaxILo7IO"
-				},
-				{
-					"id": "xGXryTKcNY2"
-				},
-				{
 					"id": "tkL7UlM3HGM"
 				},
 				{
-					"id": "Xn5C1TDrCkr"
+					"id": "uHg0RQeJNpw"
+				},
+				{
+					"id": "ZNz5XzwJZK5"
+				},
+				{
+					"id": "PBSxUYML4vn"
 				},
 				{
 					"id": "Ec4z30wDGVH"
@@ -3503,46 +3472,28 @@
 					"id": "Aii5EOk1xEW"
 				},
 				{
-					"id": "ylXbHIzTg7x"
+					"id": "mX4OsXFUW5A"
 				},
 				{
-					"id": "Qgu1gY7fKiC"
+					"id": "FgNnsRgCs8r"
 				},
 				{
 					"id": "eM54myJGX6k"
 				},
 				{
-					"id": "Vgr5AiRKANz"
+					"id": "ylXbHIzTg7x"
 				},
 				{
-					"id": "mGNOMd9KSEX"
-				},
-				{
-					"id": "PEXOeNaxOz0"
-				},
-				{
-					"id": "uHg0RQeJNpw"
-				},
-				{
-					"id": "BvmZb48wAcM"
+					"id": "lMRhTK17SDQ"
 				},
 				{
 					"id": "hjoN5yNAHoP"
 				},
 				{
-					"id": "illIO5sBPjx"
-				},
-				{
 					"id": "kZ3uuGsjfBH"
-				},
-				{
-					"id": "Gl4aMQhoxS6"
-				},
-				{
-					"id": "S6Sz0UU3mPG"
 				}
 			],
-			"lastUpdated": "2020-04-27T12:07:17.032",
+			"lastUpdated": "2019-04-28T05:37:17.779",
 			"name": "RMNCAH - Maternal and Newborn Health",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3573,130 +3524,106 @@
 			"id": "lO4bfTs7T8G",
 			"indicators": [
 				{
-					"id": "t3eSNlyXlSt"
-				},
-				{
-					"id": "MzYEREexpDM"
-				},
-				{
-					"id": "DVIGOKCmnd8"
+					"id": "n6R5483SG14"
 				},
 				{
 					"id": "ThhTw7jEPsC"
 				},
 				{
-					"id": "DzpJ77sHAaQ"
-				},
-				{
-					"id": "YQF5aH1USqa"
-				},
-				{
-					"id": "b9f35x2djwF"
-				},
-				{
-					"id": "alJibw2mTO6"
-				},
-				{
-					"id": "zlR4t4qRTZR"
-				},
-				{
-					"id": "bVi8tilV7uO"
-				},
-				{
-					"id": "Zr4GSWRPQaM"
-				},
-				{
-					"id": "Whob66sPjEE"
-				},
-				{
-					"id": "rpSllz1AKMa"
-				},
-				{
-					"id": "n6R5483SG14"
-				},
-				{
-					"id": "m3dbw4Or7xs"
-				},
-				{
-					"id": "oSfYVRt4sAn"
-				},
-				{
-					"id": "aCJadIVZ815"
-				},
-				{
-					"id": "kKq3dRugzhF"
-				},
-				{
-					"id": "vhqt3xIZ5Ut"
-				},
-				{
-					"id": "aoUZk8o1ula"
-				},
-				{
-					"id": "IY9YdW4nbhE"
-				},
-				{
-					"id": "HrNswM9rs4n"
-				},
-				{
-					"id": "jr9xTOXzDKJ"
-				},
-				{
-					"id": "zJnHulDK3si"
-				},
-				{
-					"id": "ccsNVDSzNfX"
-				},
-				{
-					"id": "LBkdosq7QjD"
-				},
-				{
-					"id": "nicBvg2xoZx"
-				},
-				{
-					"id": "clN7gBXNEPT"
-				},
-				{
-					"id": "KCWfSkwvp2t"
-				},
-				{
-					"id": "hFyOhDujxki"
-				},
-				{
-					"id": "OsDAfNhFtyX"
-				},
-				{
-					"id": "roSz8mCKvXo"
-				},
-				{
-					"id": "ZbMLAo7LTuz"
-				},
-				{
-					"id": "MfHDRuISx5E"
-				},
-				{
-					"id": "hEbQdwFHUzr"
-				},
-				{
-					"id": "t63W8x8sDvq"
-				},
-				{
-					"id": "zXhn9sH8oXD"
-				},
-				{
-					"id": "J9K0zzwTlUY"
+					"id": "EmksquFm4DJ"
 				},
 				{
 					"id": "U1Y5H3ruLPD"
 				},
 				{
-					"id": "iyh3qMkbTe5"
+					"id": "zlR4t4qRTZR"
+				},
+				{
+					"id": "J9K0zzwTlUY"
+				},
+				{
+					"id": "t63W8x8sDvq"
+				},
+				{
+					"id": "MfHDRuISx5E"
+				},
+				{
+					"id": "zJnHulDK3si"
+				},
+				{
+					"id": "aCJadIVZ815"
+				},
+				{
+					"id": "IY9YdW4nbhE"
+				},
+				{
+					"id": "ccsNVDSzNfX"
+				},
+				{
+					"id": "alJibw2mTO6"
+				},
+				{
+					"id": "Zr4GSWRPQaM"
+				},
+				{
+					"id": "b9f35x2djwF"
+				},
+				{
+					"id": "Whob66sPjEE"
+				},
+				{
+					"id": "hEbQdwFHUzr"
+				},
+				{
+					"id": "hFyOhDujxki"
+				},
+				{
+					"id": "clN7gBXNEPT"
+				},
+				{
+					"id": "RO9sDGI6t0W"
+				},
+				{
+					"id": "bVi8tilV7uO"
+				},
+				{
+					"id": "YQF5aH1USqa"
+				},
+				{
+					"id": "nicBvg2xoZx"
+				},
+				{
+					"id": "MzYEREexpDM"
 				},
 				{
 					"id": "ALyeW8OBDrh"
+				},
+				{
+					"id": "m3dbw4Or7xs"
+				},
+				{
+					"id": "zXhn9sH8oXD"
+				},
+				{
+					"id": "HrNswM9rs4n"
+				},
+				{
+					"id": "kKq3dRugzhF"
+				},
+				{
+					"id": "roSz8mCKvXo"
+				},
+				{
+					"id": "aoUZk8o1ula"
+				},
+				{
+					"id": "KCWfSkwvp2t"
+				},
+				{
+					"id": "t3eSNlyXlSt"
 				}
 			],
-			"lastUpdated": "2020-04-27T12:05:43.070",
+			"lastUpdated": "2019-04-28T05:37:16.013",
 			"name": "RMNCAH - Mortality",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3733,13 +3660,13 @@
 					"id": "ePPf0F5klqt"
 				},
 				{
-					"id": "PH78zjodtpG"
-				},
-				{
 					"id": "bFFptiqjRAk"
 				},
 				{
 					"id": "o63QMqOyYg7"
+				},
+				{
+					"id": "PH78zjodtpG"
 				}
 			],
 			"lastUpdated": "2019-04-28T05:37:16.869",
@@ -3773,36 +3700,6 @@
 			"id": "RRcDhY8kEtf",
 			"indicators": [
 				{
-					"id": "gnhcFIap1vN"
-				},
-				{
-					"id": "cDVlZtmYpBQ"
-				},
-				{
-					"id": "jkKEMhzQlhT"
-				},
-				{
-					"id": "SPKKzLb5389"
-				},
-				{
-					"id": "KlAhwKD5lYm"
-				},
-				{
-					"id": "g8GiLWe3JzN"
-				},
-				{
-					"id": "KifLPgn8kkk"
-				},
-				{
-					"id": "K4lCaYeEMvM"
-				},
-				{
-					"id": "YBjvDwAKAgZ"
-				},
-				{
-					"id": "XoEBUcTy62Q"
-				},
-				{
 					"id": "Gjex4LrpKbB"
 				},
 				{
@@ -3815,13 +3712,16 @@
 					"id": "kQjyaO9FBtb"
 				},
 				{
-					"id": "PPRB8AW3Pse"
+					"id": "g8GiLWe3JzN"
+				},
+				{
+					"id": "KifLPgn8kkk"
 				},
 				{
 					"id": "wbAmtpfMvJ8"
 				}
 			],
-			"lastUpdated": "2020-04-24T11:52:04.647",
+			"lastUpdated": "2019-04-28T05:37:18.932",
 			"name": "RMNCAH - Sexual and reproductive health",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3848,41 +3748,6 @@
 		}
 	],
 	"indicators": [
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "MAL_PER_OF_CASES_TREAT_ACTS_0-4",
-			"created": "2020-04-24T13:31:17.950",
-			"denominator": "1",
-			"denominatorDescription": "Confirmed malaria cases (confirmed + presumed) 0-4y",
-			"description": "(Number of full ACT treatment courses distributed to children under 5/ total number of malaria cases (confirmed+presumed))*100",
-			"id": "fuIpFYTrp5m",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-24T13:32:08.821",
-			"legendSets": [],
-			"name": "[CONFIG] MAL - Percentage of cases (confirmed + presumed) treated with ACTs 0-4y",
-			"numerator": "-1",
-			"numeratorDescription": "Treatment with ACT 0-4y",
-			"publicAccess": "r-------",
-			"shortName": "Cases treated with ACTs 0-4 (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
 		{
 			"annualized": false,
 			"attributeValues": [],
@@ -4171,41 +4036,6 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_ANC_SYPH_TRT",
-			"created": "2020-04-08T10:00:22.875",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients treated for syphilis",
-			"id": "HPZunOd021x",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T10:00:22.875",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - ANC client syphilis treated (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients treated for syphilis",
-			"publicAccess": "r-------",
-			"shortName": "ANC syphilis treated (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
 			"created": "2019-05-17T16:28:49.111",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -4290,76 +4120,6 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_ANC_BP",
-			"created": "2020-04-03T14:22:02.237",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients with blood pressure measured.",
-			"id": "Xn5C1TDrCkr",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T10:08:56.443",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - ANC clients with blood pressure measured (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients with blood pressure measured",
-			"publicAccess": "r-------",
-			"shortName": "ANC BP measured (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_ANC_BP_3TRI",
-			"created": "2020-04-08T10:10:21.943",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients with blood pressure measured in third (3rd) trimester.",
-			"id": "S3oGwzm9RqX",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T10:10:21.943",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - ANC clients with blood pressure measured in third (3rd) trimester (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients with blood pressure measured in third (3rd) trimester",
-			"publicAccess": "r-------",
-			"shortName": "ANC BP measured in 3rd trimester (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
 			"code": "RMNCAH_ANCHB",
 			"created": "2019-04-23T19:56:42.184",
 			"denominator": "1",
@@ -4391,87 +4151,6 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "CPN taux Hb mésuré (%)"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_ANC_IPTP3",
-			"created": "2020-04-11T15:25:11.478",
-			"denominator": "1",
-			"denominatorDescription": "RMNCAH ANC 1st visit",
-			"description": "Percentage of ANC clients who received the third dose of IPTp: Intermittent preventive therapy for malaria during pregnancy",
-			"id": "Dg7dZlcVZGE",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-11T15:25:11.478",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - ANC IPTp3  (%)",
-			"numerator": "-1",
-			"numeratorDescription": "IPTp 3rd dose",
-			"publicAccess": "r-------",
-			"shortName": "ANC IPTp3 (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_TT2_COV",
-			"created": "2017-06-09T09:02:10.534",
-			"denominator": "1",
-			"denominatorDescription": "Expected pregnancies (pop data)",
-			"description": "Percentage of antenatal clients who received at least 2 Tetanus Toxoid doses",
-			"id": "uHg0RQeJNpw",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T14:30:20.190",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - ANC TT2 (tetanus) coverage (%)",
-			"numerator": "-1",
-			"numeratorDescription": "TT2 doses given to pregnant women",
-			"publicAccess": "r-------",
-			"shortName": "ANC TT2 coverage (%)",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Pourcentage des clientes qui ont reçu deux doses de vaccin anti-tétanique en soins prénatals"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Couverture VAT2 pour les femmes enceintes (%)"
 				}
 			],
 			"user": {
@@ -4552,13 +4231,13 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-08T15:10:47.328",
+			"lastUpdated": "2019-04-28T05:37:28.947",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Birth Live in facility with documented birthweight (%)",
+			"name": "[CONFIG] RMNCAH - Babies with documented birthweight (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Live births with documented birth weight",
 			"publicAccess": "r-------",
-			"shortName": "Live facility births documented birth-weight (%)",
+			"shortName": "Newborn documented birth-weight (%)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -4576,42 +4255,6 @@
 					"value": "Nouveaux-nés avec poids de naissance documenté (%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_BIRTH_PreTERM",
-			"created": "2020-04-08T14:35:09.482",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Number of live births in facility",
-			"description": "Percentage of births in health facility that are pre-term (less than 37 weeks gestation)",
-			"id": "BvmZb48wAcM",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T15:11:07.732",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Birth Pre-term(%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of pre-term births - under 37weeks gestation",
-			"publicAccess": "r-------",
-			"shortName": "Birth Pre-term (%)",
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -4712,57 +4355,6 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Mort-nés macérés"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_SB",
-			"created": "2019-04-23T20:26:37.118",
-			"denominator": "1",
-			"denominatorDescription": "Live and still births in facility",
-			"description": "Stillbirth as a percentage of all births in health facilities. (Baby born with no sign of life and weighing at least 1000g or after 28 weeks gestation)",
-			"id": "ylXbHIzTg7x",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T15:11:28.956",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Birth still rate in facility (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Still births in facility",
-			"publicAccess": "r-------",
-			"shortName": "Still birth rate (%)",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Mort-nés en pourcentage de toutes les naissances dans les formations sanitaires. (Bébé né sans signe de vie et pesant au moins 1000g ou après 28 semaines de gestation)"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Taux de mortinaissance institutionnelle (%)"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Taux de mort-nés (%)"
 				}
 			],
 			"user": {
@@ -4883,60 +4475,24 @@
 			]
 		},
 		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_SCRN_CERV_CNCR_COV",
-			"created": "2020-04-08T11:39:46.034",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Women of reproductive age (15-49y)",
-			"description": "Percentage of women of reproductive age (15 to 49 years) who were screened for cervical cancer using any of the following methods: visual Inspection with acetic acid/vinegar (VIA), pap smear, human papilloma virus (HPV) test.",
-			"id": "SPKKzLb5389",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T11:39:46.034",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Cervical cancer screening coverage women 15-49y (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Women 15-49y screened for cervical cancer",
-			"publicAccess": "r-------",
-			"shortName": "Cervical cancer screening coverage women 15-49y(%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_CRTPN_AMOX_OS",
+			"code": "RMNCAH_CRTPN_AMOX",
 			"created": "2019-04-24T20:29:13.985",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of children who received treatment for pneumonia with Amoxicillin oral syrup",
+			"description": "Number of children who received treatment for pneumonia with Amoxicillin",
 			"id": "GkfXbG5tG1S",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-07T15:18:46.674",
+			"lastUpdated": "2019-04-28T05:38:14.259",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Child received treatment for pneumonia with Amoxicillin oral syrup",
+			"name": "[CONFIG] RMNCAH - Child received treatment for pneumonia with Amoxicillin",
 			"numerator": "-1",
 			"numeratorDescription": "Child received treatment for pneumonia with Amoxicillin",
 			"publicAccess": "r-------",
-			"shortName": "Child treated for pneumonia Amoxicillin syrup",
+			"shortName": "Child treated for pneumonia Amoxicillin",
 			"translations": [
 				{
 					"locale": "fr",
@@ -5126,333 +4682,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_FPFT_M",
-			"created": "2020-04-02T15:06:29.010",
-			"decimals": 0,
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of clients who accepted a family planning method for the 1st time disaggregated by method",
-			"id": "K4lCaYeEMvM",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-02T15:06:29.010",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Contraception first time user by method",
-			"numerator": "-1",
-			"numeratorDescription": "Contraception first time user",
-			"publicAccess": "r-------",
-			"shortName": "Contraception 1st time user ",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_CYPR",
-			"created": "2020-04-11T16:28:13.632",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Female population 15-49y /12",
-			"description": "Couple year protection rate, calculated using units of contraceptives distributed with factors, female population. See guidance for formula",
-			"id": "cDVlZtmYpBQ",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-11T16:28:13.632",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Couple year protection rate (CYPR) (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Sum of units of contraceptives distributed divided by factor",
-			"publicAccess": "r-------",
-			"shortName": "CYP rate (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_ALL",
-			"created": "2020-04-27T11:58:30.894",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to all causes",
-			"id": "vhqt3xIZ5Ut",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:58:30.894",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y all causes",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y all causes",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y all causes",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_BRTH_TRAUMA_ASPH",
+			"code": "RMNCAH_DCACC",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4years due to birth trauma/asphyxia",
-			"id": "alJibw2mTO6",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:06:33.412",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y birth trauma/asphyxia",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y birth trauma/asphyxia",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y birth trauma/asphyxia",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de déces infantile par violence"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Déces infantile par violence"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Déces infantile par violence"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_CONG",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to congenital anomalies",
-			"id": "Whob66sPjEE",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:09:46.503",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y congenital anomalies",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y congenital anomalies",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y congenital anomalies",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par anomalies congénitales"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile anomalies congénitales"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile anomalies congénitales"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_DIARR",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4years due to diarrhoea, and the dehydration caused by diarrhoea",
-			"id": "IY9YdW4nbhE",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:11:29.364",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y diarrhoea",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y diarrhoea",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y diarrhoea",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par diarrhée et par la deshydratation causée par la diarrhée"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA -  Décès infantile diarrhée"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile diarrhée"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_HIV",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4years due to opportunistic infections from HIV",
-			"id": "hFyOhDujxki",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T10:55:51.887",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y HIV",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y HIV",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y HIV",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de déces infantiles causés par les infections opportunistes suite au VIH"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Déces infantile VIH"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Déces infantile VIH"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_INJ",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4years due to injuries",
+			"description": "Number of child deaths due to accidents like road accidents, drowning, snake bites etc",
 			"id": "MfHDRuISx5E",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T10:57:51.543",
+			"lastUpdated": "2019-04-28T05:37:56.032",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y injuries",
+			"name": "[CONFIG] RMNCAH - Death child accident",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y injuries",
+			"numeratorDescription": "Death child accident",
 			"publicAccess": "r-------",
-			"shortName": "Child death 0-4y injuries",
+			"shortName": "Child death accident",
 			"translations": [
 				{
 					"locale": "fr",
@@ -5488,261 +4733,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_MAL",
+			"code": "RMNCAH_DCPARI",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to malaria",
-			"id": "bVi8tilV7uO",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T12:00:31.001",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y malaria",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y malaria",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y malaria",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par paludisme"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile paludisme"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile paludisme"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_MSLS",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to measles",
-			"id": "m3dbw4Or7xs",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:22:22.957",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y measles",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y measles",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y measles",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par rougeole"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile rougeole"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile rougeole"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_MENG",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to meningitis",
-			"id": "b9f35x2djwF",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:48:48.081",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y meningitis",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y meningitis",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y meningitis",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par infection à méningocoque"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile infection à méningocoque"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile infection à méningocoque"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_NCD",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4years due to non communicable diseases (NCDs)",
-			"id": "zXhn9sH8oXD",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:08:28.616",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y non communicable diseases (NCDs)",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y non communicable diseases",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y NCD",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantile par complication médicale ou chirurgicale"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile par complication de soin médical ou chirurgical"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile complication médicale ou chirurgicale"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_OTH_INF",
-			"created": "2020-04-27T12:03:15.726",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to other infections",
-			"id": "LBkdosq7QjD",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T12:03:15.726",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y other infections",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y other infections",
-			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y other infections",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_PNEU",
-			"created": "2019-04-24T19:53:21.819",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to pneumonia",
+			"description": "Number of child deaths due to acute respiratory disease",
 			"id": "zlR4t4qRTZR",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:04:09.297",
+			"lastUpdated": "2019-04-28T05:37:56.953",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y pneumonia",
+			"name": "[CONFIG] RMNCAH - Death child acute respiratory disease",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y pneumonia",
+			"numeratorDescription": "Death child acute respiratory disease",
 			"publicAccess": "r-------",
-			"shortName": "Child death 0-4y pneumonia",
+			"shortName": "Child death acute respiratory disease",
 			"translations": [
 				{
 					"locale": "fr",
@@ -5778,37 +4784,37 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_PRM",
+			"code": "RMNCAH_DCASS",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to prematurity",
-			"id": "U1Y5H3ruLPD",
+			"description": "Number of child deaths due to assault",
+			"id": "alJibw2mTO6",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:17:04.722",
+			"lastUpdated": "2019-04-28T05:37:49.293",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y prematurity",
+			"name": "[CONFIG] RMNCAH - Death child assault",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y prematurity",
+			"numeratorDescription": "Death child assault",
 			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y prematurity",
+			"shortName": "Death child assault",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par petit poids de naissance ou prématurité"
+					"value": "Nombre de déces infantile par violence"
 				},
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile petit poids de naissance ou prématurité"
+					"value": "SSRMNEA - Déces infantile par violence"
 				},
 				{
 					"locale": "fr",
 					"property": "SHORT_NAME",
-					"value": "Décès infantile petit poids de naissance ou prématurité"
+					"value": "Déces infantile par violence"
 				}
 			],
 			"user": {
@@ -5829,37 +4835,37 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_SPSIS",
+			"code": "RMNCAH_DCCMS",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to sepsis",
-			"id": "nicBvg2xoZx",
+			"description": "Number of child deaths due to medical, surgical complications",
+			"id": "zXhn9sH8oXD",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:15:37.491",
+			"lastUpdated": "2019-04-28T05:37:48.131",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y sepsis",
+			"name": "[CONFIG] RMNCAH - Death child complications of medical and surgical care",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y sepsis",
+			"numeratorDescription": "Death child complications of medical and surgical care",
 			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y sepsis",
+			"shortName": "Death child medical, surgical complications",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par interventions force de l'ordre ou opération de guerre"
+					"value": "Nombre de décès infantile par complication médicale ou chirurgicale"
 				},
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile interventions force de l'ordre ou opération de guerre"
+					"value": "SSRMNEA - Décès infantile par complication de soin médical ou chirurgical"
 				},
 				{
 					"locale": "fr",
 					"property": "SHORT_NAME",
-					"value": "Décès infantile interventions force de l'ordre ou opération de guerre"
+					"value": "Décès infantile complication médicale ou chirurgicale"
 				}
 			],
 			"user": {
@@ -5880,22 +4886,175 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_0-4y_TT",
+			"code": "RMNCAH_DCCBD",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 0-4 years due to tetanus",
+			"description": "Number of child deaths due to congenital birth defects",
+			"id": "Whob66sPjEE",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:37.497",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child congenital birth defects",
+			"numerator": "-1",
+			"numeratorDescription": "Death child congenital birth defects",
+			"publicAccess": "r-------",
+			"shortName": "Death child congenital birth defects",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantile par anomalies congénitales"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile anomalies congénitales"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile anomalies congénitales"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCD",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to diarrhoea, and the dehydration caused by diarrhoea",
+			"id": "IY9YdW4nbhE",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:20.771",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child diarrhoea",
+			"numerator": "-1",
+			"numeratorDescription": "Death child diarrhoea",
+			"publicAccess": "r-------",
+			"shortName": "Death child diarrhoea",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantile par diarrhée et par la deshydratation causée par la diarrhée"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA -  Décès infantile diarrhée"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile diarrhée"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCHIV",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to opportunistic infections from HIV",
+			"id": "hFyOhDujxki",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:55.147",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child HIV",
+			"numerator": "-1",
+			"numeratorDescription": "Death child HIV",
+			"publicAccess": "r-------",
+			"shortName": "Death child HIV",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de déces infantiles causés par les infections opportunistes suite au VIH"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Déces infantile VIH"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Déces infantile VIH"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCISH",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to intentional self-harm",
 			"id": "ThhTw7jEPsC",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:13:27.665",
+			"lastUpdated": "2019-04-28T05:37:38.568",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 0-4y tetanus",
+			"name": "[CONFIG] RMNCAH - Death child intentional self-harm",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 0-4y tetanus",
+			"numeratorDescription": "Death child intentional self-harm",
 			"publicAccess": "r-------",
-			"shortName": "Death child 0-4y tetanus",
+			"shortName": "Death child intentional self-harm",
 			"translations": [
 				{
 					"locale": "fr",
@@ -5931,22 +5090,175 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_ARI",
+			"code": "RMNCAH_DCLIOW",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to acute respiratory infection (ARI)",
+			"description": "Number of child deaths due to legal intervention and war",
+			"id": "nicBvg2xoZx",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:41.753",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child legal interventions and operations of war",
+			"numerator": "-1",
+			"numeratorDescription": "Death child legal interventions and operations of war",
+			"publicAccess": "r-------",
+			"shortName": "Death child legal intervention and war",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par interventions force de l'ordre ou opération de guerre"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile interventions force de l'ordre ou opération de guerre"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile interventions force de l'ordre ou opération de guerre"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCLBWPRM",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to low birth weight and prematurity",
+			"id": "U1Y5H3ruLPD",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:50.217",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child low birth weight and prematurity",
+			"numerator": "-1",
+			"numeratorDescription": "Death child low birth weight and prematurity",
+			"publicAccess": "r-------",
+			"shortName": "Death child LBW and prematurity",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par petit poids de naissance ou prématurité"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile petit poids de naissance ou prématurité"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile petit poids de naissance ou prématurité"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCMAL",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to malaria",
+			"id": "bVi8tilV7uO",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:46.241",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child malaria",
+			"numerator": "-1",
+			"numeratorDescription": "Death child malaria",
+			"publicAccess": "r-------",
+			"shortName": "Death child malaria",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par paludisme"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile paludisme"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile paludisme"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCMLN",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to malnutrition",
 			"id": "clN7gBXNEPT",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:20:56.567",
+			"lastUpdated": "2019-04-28T05:37:43.170",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y acute respiratory infection (ARI)",
+			"name": "[CONFIG] RMNCAH - Death child malnutrition",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y acute respiratory infection (ARI)",
+			"numeratorDescription": "Death child malnutrition",
 			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y ARI",
+			"shortName": "Death child malnutrition",
 			"translations": [
 				{
 					"locale": "fr",
@@ -5982,37 +5294,37 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_ALL",
+			"code": "RMNCAH_DCMSLS",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to all causes",
-			"id": "J9K0zzwTlUY",
+			"description": "Number of child deaths due to measles",
+			"id": "m3dbw4Or7xs",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:34:12.209",
+			"lastUpdated": "2019-04-28T05:37:52.113",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y all causes",
+			"name": "[CONFIG] RMNCAH - Death child measles",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y all causes",
+			"numeratorDescription": "Death child measles",
 			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y all causes",
+			"shortName": "Death child measles",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par  cause non spécifiée"
+					"value": "Nombre de décès infantiles causés par rougeole"
 				},
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile cause non spécifiée"
+					"value": "SSRMNEA - Décès infantile rougeole"
 				},
 				{
 					"locale": "fr",
 					"property": "SHORT_NAME",
-					"value": "Décès infantile  cause non spécifiée"
+					"value": "Décès infantile rougeole"
 				}
 			],
 			"user": {
@@ -6033,232 +5345,73 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_DIARR",
-			"created": "2020-04-27T11:48:32.325",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to diarrhoea, and the dehydration caused by diarrhoea",
-			"id": "jr9xTOXzDKJ",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:48:32.325",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y diarrhoeal diseases",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y diarrhoeal diseases",
-			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y diarrhoeal diseases",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_INJ",
-			"created": "2020-04-27T11:38:50.275",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to injuries",
-			"id": "DzpJ77sHAaQ",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:38:50.275",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y injuries",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y injuries",
-			"publicAccess": "r-------",
-			"shortName": "Child death 5-9y injuries",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_MAL",
-			"created": "2020-04-27T11:42:38.547",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to malaria",
-			"id": "iyh3qMkbTe5",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:44:44.868",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y malaria",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y malaria",
-			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y malaria",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_MSLS",
-			"created": "2020-04-27T11:50:59.210",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to measles",
-			"id": "OsDAfNhFtyX",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:50:59.210",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y measles",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y measles",
-			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y measles",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_MENG",
-			"created": "2020-04-27T11:47:08.484",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to meningitis/encephalitis",
-			"id": "oSfYVRt4sAn",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:47:08.484",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y meningitis/encephalitis",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y meningitis/encephalitis",
-			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y meningitis",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_NCD",
-			"created": "2020-04-27T11:53:26.770",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to non communicable diseases (NCDs)",
-			"id": "ZbMLAo7LTuz",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-27T11:53:26.770",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y non communicable diseases (NCDs)",
-			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y non-communicable diseases (NCD)",
-			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y NCD",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_OTH_INF",
+			"code": "RMNCAH_DCMI",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to other infections",
+			"description": "Number of child deaths due to meningococcal infection",
+			"id": "b9f35x2djwF",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:40.873",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child meningococcal infection",
+			"numerator": "-1",
+			"numeratorDescription": "Death child meningococcal infection",
+			"publicAccess": "r-------",
+			"shortName": "Death child meningococcal infection",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par infection à méningocoque"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile infection à méningocoque"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile infection à méningocoque"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCN",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to neoplasms - abnormal mass of tissue growth, benign or malignant",
 			"id": "t63W8x8sDvq",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:25:35.921",
+			"lastUpdated": "2019-04-28T05:37:44.442",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y other infections",
+			"name": "[CONFIG] RMNCAH - Death child neoplasms",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y other infections",
+			"numeratorDescription": "Death child neoplasms",
 			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y other infections",
+			"shortName": "Death child neoplasms",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6294,22 +5447,73 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_CHILD_5-9y_PRTSIS",
+			"code": "RMNCAH_DCUS",
 			"created": "2019-04-24T19:53:21.819",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of child deaths 5-9 years due to pertusis",
+			"description": "Number of child deaths due to unspecified causes",
+			"id": "J9K0zzwTlUY",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:39.683",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death child unspecified cause",
+			"numerator": "-1",
+			"numeratorDescription": "Death child unspecified",
+			"publicAccess": "r-------",
+			"shortName": "Death child unspecified cause",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par  cause non spécifiée"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile cause non spécifiée"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile  cause non spécifiée"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_DCWC",
+			"created": "2019-04-24T19:53:21.819",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of child deaths due to whooping cough",
 			"id": "ALyeW8OBDrh",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-27T11:37:02.634",
+			"lastUpdated": "2019-04-28T05:37:53.121",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death child 5-9y pertusis",
+			"name": "[CONFIG] RMNCAH - Death child whooping cough",
 			"numerator": "-1",
-			"numeratorDescription": "Death child 5-9y pertusis",
+			"numeratorDescription": "Death child whooping cough",
 			"publicAccess": "r-------",
-			"shortName": "Death child 5-9y pertusis",
+			"shortName": "Death child whooping cough",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6345,6 +5549,57 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "RMNCAH_NDBT",
+			"created": "2019-04-24T20:00:05.736",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of Neonatal deaths due to birth trauma",
+			"id": "YQF5aH1USqa",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:37:54.025",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death neonatal birth trauma",
+			"numerator": "-1",
+			"numeratorDescription": "Death neonatal birth trauma",
+			"publicAccess": "r-------",
+			"shortName": "Death neonatal birth trauma",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès infantiles causés par traumatisme"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès infantile traumatisme"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès infantile traumatisme"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "RMNCAH_NDCA",
 			"created": "2019-04-24T20:00:05.737",
 			"denominator": "1",
@@ -6354,13 +5609,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-16T10:19:29.408",
+			"lastUpdated": "2019-04-28T05:38:04.519",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal congenital ",
+			"name": "[CONFIG] RMNCAH - Death neonatal congenital malformations, deformations and abnormalities",
 			"numerator": "-1",
-			"numeratorDescription": "Death neonatal congenital",
+			"numeratorDescription": "Death neonatal congenital  birth defects: malformations, deformations and abnormalities",
 			"publicAccess": "r-------",
-			"shortName": "Death neonatal congenital ",
+			"shortName": "Death neonatal congenital abnormalities",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6396,22 +5651,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_NEO_DIARR",
+			"code": "RMNCAH_NDCCS",
 			"created": "2019-04-24T20:00:05.737",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to diarrhoea",
+			"description": "Number of Neonatal deaths due to convulsions and disorders of cerebral status",
 			"id": "KCWfSkwvp2t",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-16T10:20:28.503",
+			"lastUpdated": "2019-04-28T05:38:06.704",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal diarrhoea",
+			"name": "[CONFIG] RMNCAH - Death neonatal convulsions disorders of cerebral status",
 			"numerator": "-1",
-			"numeratorDescription": "Death neonatal diarrhoea",
+			"numeratorDescription": "Death neonatal convulsions disorders of cerebral status",
 			"publicAccess": "r-------",
-			"shortName": "Death neonatal diarrhoea",
+			"shortName": "Death neonatal cerebral status",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6447,22 +5702,124 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_DEATH_NEO_INTRA",
+			"code": "RMNCAH_NDFG",
 			"created": "2019-04-24T20:00:05.737",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to intrapartum related events",
+			"description": "Number of Neonatal deaths due to foetal growth issues",
+			"id": "EmksquFm4DJ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:38:07.550",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death neonatal disorder related to foetal growth",
+			"numerator": "-1",
+			"numeratorDescription": "Death neonatal disorder related to foetal growth",
+			"publicAccess": "r-------",
+			"shortName": "Death neonatal foetal growth",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés partroubles relatifs aux problèmes de croissance foetale"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès néonatal troubles relatifs à la croissance foetale"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal troubles relatifs à la croissance foetale"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_NDIN",
+			"created": "2019-04-24T20:00:05.737",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of Neonatal deaths due to infections",
+			"id": "zJnHulDK3si",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:38:03.638",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death neonatal infection",
+			"numerator": "-1",
+			"numeratorDescription": "Death neonatal infection",
+			"publicAccess": "r-------",
+			"shortName": "Death neonatal infection",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par infection"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès néonatal infection"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal infection"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_NDCIE",
+			"created": "2019-04-24T20:00:05.737",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of Neonatal deaths due to intrapartum complication",
 			"id": "roSz8mCKvXo",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-16T10:23:26.483",
+			"lastUpdated": "2019-04-28T05:38:01.860",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal intrapartum related events",
+			"name": "[CONFIG] RMNCAH - Death neonatal intrapartum complication",
 			"numerator": "-1",
-			"numeratorDescription": "Death neonatal intrapartum related events",
+			"numeratorDescription": "Death neonatal intrapartum complication",
 			"publicAccess": "r-------",
-			"shortName": "Death neonatal intrapartum related events",
+			"shortName": "Death neonatal intrapartum complication",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6478,6 +5835,108 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Décès néonatal complications intrapartum"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_NDLBWPR",
+			"created": "2019-04-24T20:00:05.737",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of Neonatal deaths due to low birth weight prematurity",
+			"id": "aCJadIVZ815",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:38:05.585",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death neonatal low birth weight and prematurity",
+			"numerator": "-1",
+			"numeratorDescription": "Death neonatal low birth weight and prematurity",
+			"publicAccess": "r-------",
+			"shortName": "Death neonatal low birth weight prematurity",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par petit poids de naissance et prématurité"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès néonatal petit poids de naissance et prématurité"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal petit poids de naissance et prématurité"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_NDMS",
+			"created": "2019-04-24T20:00:05.737",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of Neonatal deaths due to miscellaneous causes",
+			"id": "RO9sDGI6t0W",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-04-28T05:38:02.766",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Death neonatal miscellaneous",
+			"numerator": "-1",
+			"numeratorDescription": "Death neonatal miscellaneous",
+			"publicAccess": "r-------",
+			"shortName": "Death neonatal miscellaneous",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de décès néonatals causés par diverses causes"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Décès néonatal diverses causes"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Décès néonatal diverses causes"
 				}
 			],
 			"user": {
@@ -6553,18 +6012,18 @@
 			"created": "2019-04-24T20:00:05.737",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to pneumonia",
+			"description": "Number of Neonatal deaths due to respiratory cardiovascular causes",
 			"id": "HrNswM9rs4n",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-23T22:22:22.831",
+			"lastUpdated": "2019-04-28T05:38:08.396",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal pneumonia",
+			"name": "[CONFIG] RMNCAH - Death neonatal respiratory and cardiovascular disorder",
 			"numerator": "-1",
-			"numeratorDescription": "Death neonatal pneumonia",
+			"numeratorDescription": "Death neonatal respiratory and cardiovascular disorder",
 			"publicAccess": "r-------",
-			"shortName": "Death neonatal pneumonia",
+			"shortName": "Death neonatal respiratory cardiovascular",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6600,175 +6059,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_NDLBWPR",
+			"code": "RMNCAH_NDUSC",
 			"created": "2019-04-24T20:00:05.737",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to pre-term birth complications",
-			"id": "aCJadIVZ815",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T22:20:10.924",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal pre-term birth complications",
-			"numerator": "-1",
-			"numeratorDescription": "Death neonatal pre-term birth complications",
-			"publicAccess": "r-------",
-			"shortName": "Death neonatal pre-term birth",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par petit poids de naissance et prématurité"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès néonatal petit poids de naissance et prématurité"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal petit poids de naissance et prématurité"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_NEO_SEPSS",
-			"created": "2019-04-24T20:00:05.737",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to sepsis or meningitis",
-			"id": "zJnHulDK3si",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-16T10:22:40.929",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal sepsis or meningitis",
-			"numerator": "-1",
-			"numeratorDescription": "Death neonatal sepsis or meningitis",
-			"publicAccess": "r-------",
-			"shortName": "Death neonatal sepsis or meningitis",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès néonatals causés par infection"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès néonatal infection"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès néonatal infection"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_NEO_TT",
-			"created": "2019-04-24T20:00:05.736",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths due to tetanus",
-			"id": "YQF5aH1USqa",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-16T10:18:47.764",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal tetanus",
-			"numerator": "-1",
-			"numeratorDescription": "Death neonatal tetanus",
-			"publicAccess": "r-------",
-			"shortName": "Death neonatal tetanus",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "Nombre de décès infantiles causés par traumatisme"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "SSRMNEA - Décès infantile traumatisme"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Décès infantile traumatisme"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_DEATH_NEO_UNCLASS",
-			"created": "2019-04-24T20:00:05.737",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of Neonatal deaths unclassified",
+			"description": "Number of Neonatal deaths due to unspecified cause",
 			"id": "Zr4GSWRPQaM",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-16T10:17:14.305",
+			"lastUpdated": "2019-04-28T05:38:00.609",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death neonatal unclassified",
+			"name": "[CONFIG] RMNCAH - Death neonatal unspecified cause",
 			"numerator": "-1",
-			"numeratorDescription": "Death neonatal unclassified",
+			"numeratorDescription": "Death neonatal unspecified cause",
 			"publicAccess": "r-------",
-			"shortName": "Death neonatal unclassified",
+			"shortName": "Death neonatal unspecified cause",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6786,41 +6092,6 @@
 					"value": "Décès néonatal cause non spécifiée"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PD",
-			"created": "2020-04-23T01:41:53.817",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Death of a fetus or a newborn in the perinatal period commences at 22 weeks (154 days) of gestation, until 7 days after birth (WHO)",
-			"id": "JUD9VmMvrI0",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T01:41:53.817",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Death perinatal in facility",
-			"numerator": "-1",
-			"numeratorDescription": " Death perinatal in facility",
-			"publicAccess": "r-------",
-			"shortName": "Death perinatal in facility",
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6899,13 +6170,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-04-23T22:39:22.191",
+			"lastUpdated": "2019-04-28T05:37:58.685",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Deaths maternal in facility",
+			"name": "[CONFIG] RMNCAH - Deaths maternal",
 			"numerator": "-1",
 			"numeratorDescription": "Death maternal",
 			"publicAccess": "r-------",
-			"shortName": "Deaths maternal facility",
+			"shortName": "Deaths maternal",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6941,22 +6212,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_MDRV",
+			"code": "RMNCAH_MDA",
 			"created": "2019-04-23T20:27:55.180",
 			"denominator": "1",
 			"denominatorDescription": "Death maternal",
-			"description": "Percentage of maternal deaths reviewed.",
+			"description": "Percentage of maternal deaths audited.",
 			"id": "ccsNVDSzNfX",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-07T12:24:01.491",
+			"lastUpdated": "2019-04-28T05:37:57.833",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Deaths maternal reviewed (%)",
+			"name": "[CONFIG] RMNCAH - Deaths maternal audited (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Death maternal audited",
 			"publicAccess": "r-------",
-			"shortName": "Deaths maternal reviewed (%)",
+			"shortName": "Deaths maternal audited (%)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -6974,41 +6245,6 @@
 					"value": "Décès maternels audités (%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_MD_HMIS",
-			"created": "2020-04-23T22:43:24.576",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of maternal deaths reported in the HMIS",
-			"id": "rpSllz1AKMa",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T22:43:24.576",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Deaths maternal total in HMIS",
-			"numerator": "-1",
-			"numeratorDescription": "Death maternal",
-			"publicAccess": "r-------",
-			"shortName": "Deaths maternal HMIS",
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7078,22 +6314,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_PDRV",
+			"code": "RMNCAH_PDA",
 			"created": "2019-04-23T20:28:47.206",
 			"denominator": "1",
 			"denominatorDescription": "Death perinatal",
-			"description": "Percentage of perinatal deaths reviewed.",
+			"description": "Percentage of perinatal deaths audited.",
 			"id": "n6R5483SG14",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-07T12:24:19.394",
+			"lastUpdated": "2019-04-28T05:38:10.239",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Deaths perinatal reviewed (%)",
+			"name": "[CONFIG] RMNCAH - Deaths perinatal audited (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Death perinatal audited",
 			"publicAccess": "r-------",
-			"shortName": "Deaths perinatal reviewed (%)",
+			"shortName": "Deaths perinatal audited (%)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -7111,41 +6347,6 @@
 					"value": "Décès périnatals audités (%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PD_HMIS",
-			"created": "2020-04-23T22:47:21.712",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of perinatal deaths reported in the HMIS",
-			"id": "DVIGOKCmnd8",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T22:47:21.712",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Deaths perinatal total in HMIS",
-			"numerator": "-1",
-			"numeratorDescription": "Death perinatal in HMIS",
-			"publicAccess": "r-------",
-			"shortName": "Deaths perinatal HMIS",
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7298,18 +6499,18 @@
 			"created": "2019-04-24T09:56:36.256",
 			"denominator": "1",
 			"denominatorDescription": "Children 0-9 years diagnosed with diarrhoea",
-			"description": "Percentage of children diagnosed with diarrhoea who received treatment with ORS only.",
+			"description": "Percentage of children diagnosed with diarrhoea who received treatment with ORS.",
 			"id": "nqn330c9jOa",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-06T14:23:21.550",
+			"lastUpdated": "2019-04-28T05:38:11.378",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Diarrhoea treated with ORS only in children 0-9 years (%)",
+			"name": "[CONFIG] RMNCAH - Diarrhoea treated with ORS in children 0-9 years (%)",
 			"numerator": "-1",
-			"numeratorDescription": "Children 0-9 years treated for diarrhoea with ORS only",
+			"numeratorDescription": "Children 0-9 years treated for diarrhoea with ORS",
 			"publicAccess": "r-------",
-			"shortName": "Diarrhoea treated ORS only 0-9y (%)",
+			"shortName": "Diarrhoea treated ORS 0-9y (%)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -7345,6 +6546,57 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "RMNCAH_DT_ZINC",
+			"created": "2019-04-24T09:57:16.234",
+			"denominator": "1",
+			"denominatorDescription": "Children 0-9 years diagnosed with diarrhoea",
+			"description": "Percentage of children diagnosed with diarrhoea who received treatment with zinc.",
+			"id": "k1QRv1lrOQs",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-04-28T05:38:13.128",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - Diarrhoea treated with zinc in children 0-9 years (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Children 0-9 years treated for diarrhoea with zinc",
+			"publicAccess": "r-------",
+			"shortName": "Diarrhoea treated zinc 0-9y (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Pourcentage d'enfants diagnostiqués diarrhéiques qui ont reçu du zinc"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Diarrhée traitée avec zinc chez les enfants de 0-9 ans (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Diarrhée traitée avec zinc 0-9 ans (%)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "RMNCAH_DT",
 			"created": "2019-04-23T20:19:24.483",
 			"denominator": "1",
@@ -7354,7 +6606,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-29T17:44:41.183",
+			"lastUpdated": "2019-04-28T05:38:37.573",
 			"legendSets": [],
 			"name": "[CONFIG] RMNCAH - Diarrhoea treatment in children 0-9 years (%)",
 			"numerator": "-1",
@@ -7394,268 +6646,19 @@
 			]
 		},
 		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_FGM",
-			"created": "2020-04-23T13:38:01.027",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of women with Female genital mutilation (FGM) reported or observed",
-			"id": "jkKEMhzQlhT",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T13:38:01.027",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Female genital mutilation (FGM)",
-			"numerator": "-1",
-			"numeratorDescription": "Number Female genital mutilation (FGM)",
-			"publicAccess": "r-------",
-			"shortName": "Female genital mutilation (FGM)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_FGM%",
-			"created": "2020-04-08T14:55:18.676",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of women with Female genital mutilation (FGM) reported or observed",
-			"id": "KlAhwKD5lYm",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T13:37:30.747",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Female genital mutilation (FGM) (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number Female genital mutilation (FGM)",
-			"publicAccess": "r-------",
-			"shortName": "Female genital mutilation (FGM)%",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_GYN_ABORT_CARE",
-			"created": "2020-04-23T13:36:12.504",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of women presenting for gynecological indications related to abortion",
-			"id": "XoEBUcTy62Q",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T13:38:12.379",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Gynaecology abortion care",
-			"numerator": "-1",
-			"numeratorDescription": "Number of women presenting for gynecological indications related to abortion",
-			"publicAccess": "r-------",
-			"shortName": "Gynaecology abortion care",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_GYN_ABORT_CARE%",
-			"created": "2020-04-08T15:02:10.485",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Number of women presenting for gynecological indications",
-			"description": "Percentage of women presenting for gynecological indications related to abortion",
-			"id": "PPRB8AW3Pse",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T13:36:23.882",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Gynaecology abortion care (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of women presenting for gynecological indications related to abortion",
-			"publicAccess": "r-------",
-			"shortName": "Gynaecology abortion care%",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PMTCT_TEST_COV_KNWN_HIV+",
-			"created": "2020-04-23T21:49:48.952",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients with known HIV+ status at ANC entry",
-			"id": "xGXryTKcNY2",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T21:52:26.893",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - HIV PMTCT testing coverage rate - Known HIV+ at ANC entry (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients with known HIV+ status",
-			"publicAccess": "r-------",
-			"shortName": "PMTCT testing coverage - known HIV+ (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PMTCT_TEST_COV_HIV+",
-			"created": "2020-04-23T21:52:10.447",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients who tested HIV+ during ANC ",
-			"id": "ChpaxILo7IO",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T21:52:10.447",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - HIV PMTCT testing coverage rate - Tested HIV+ during ANC (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients who tested HIV+ during ANC",
-			"publicAccess": "r-------",
-			"shortName": "PMTCT testing coverage - tested HIV+ (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PMTCT_TEST_COV_HIV-",
-			"created": "2020-04-23T21:55:00.718",
-			"denominator": "1",
-			"denominatorDescription": "ANC 1st visit",
-			"description": "Percentage of antenatal clients who tested HIV- (neg) during ANC ",
-			"id": "Gl4aMQhoxS6",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T21:55:00.718",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - HIV PMTCT testing coverage rate - Tested HIV- (neg) during ANC (%)",
-			"numerator": "-1",
-			"numeratorDescription": "ANC clients who tested HIV- (neg) during ANC",
-			"publicAccess": "r-------",
-			"shortName": "PMTCT testing coverage - tested HIV- (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
 			"annualized": true,
 			"attributeValues": [],
 			"code": "RMNCAH_INST_DELIV",
 			"created": "2015-05-21T14:50:04.767",
 			"decimals": 1,
 			"denominator": "1",
-			"denominatorDescription": "Estimated number of live births",
+			"denominatorDescription": "Expected pregnancies",
 			"description": "Percentage of expected deliveries that take place in a health facility",
 			"id": "lMRhTK17SDQ",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-08T11:18:32.745",
+			"lastUpdated": "2019-04-28T05:38:30.863",
 			"legendSets": [],
 			"name": "[CONFIG] RMNCAH - Institutional delivery rate (%)",
 			"numerator": "-1",
@@ -7746,149 +6749,6 @@
 			]
 		},
 		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_IPTP3_COV",
-			"created": "2020-04-08T13:04:09.526",
-			"denominator": "1",
-			"denominatorDescription": "Expected pregnancies (pop data) in areas with risk of malaria",
-			"description": "Percentage of expected pregnant women who received the third dose of IPTp: Intermittent preventive therapy for malaria during pregnancy",
-			"id": "EeIEcimWybJ",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T13:04:09.526",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - IPTp3 coverage (%)",
-			"numerator": "-1",
-			"numeratorDescription": "IPTp 3rd dose",
-			"publicAccess": "r-------",
-			"shortName": "IPTp3 coverage (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_NN_KMC",
-			"created": "2020-04-08T14:46:13.027",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Number of live births in facility",
-			"description": "Percentage of newborns initiated in KMC (or admitted to KMC unit if separate unit exists)",
-			"id": "y8YZCvBmBK3",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T14:46:13.027",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Newborns on kangaroo mother care (KMC) (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of newborns on Kangaroo mother care",
-			"publicAccess": "r-------",
-			"shortName": "Newborns KMC (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_NN_RESUS_BM",
-			"created": "2020-04-08T14:39:43.716",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Number of live births in facility",
-			"description": "Percentage of newborns resuscitated with bag and mask",
-			"id": "S6Sz0UU3mPG",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T14:39:43.716",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Newborns resuscitated with bag and mask (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of newborns resuscitated with bag and mask",
-			"publicAccess": "r-------",
-			"shortName": "Newborns resuscitated bag and mask (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": true,
-			"attributeValues": [],
-			"code": "RMNCAH_NN_TRT_INFECTN",
-			"created": "2020-04-08T14:37:58.561",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": "Number of live births in facility",
-			"description": "Percentage of births in health facility that are pre-term (less than 37 weeks gestation)",
-			"id": "illIO5sBPjx",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-08T14:37:58.561",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Newborns treated for neonatal infection (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of newborns treated for neonatal infection",
-			"publicAccess": "r-------",
-			"shortName": "Newborns treated for neonatal infection (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
 			"annualized": false,
 			"attributeValues": [],
 			"code": "RMNCAH_ND",
@@ -7942,197 +6802,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_PND_ARI",
-			"created": "2020-04-07T13:49:11.500",
-			"denominator": "1",
-			"denominatorDescription": "Children 0-9 years with symptoms of acute respiratory illness (ARI)",
-			"description": "Percentage of children with symptoms of acute respiratory illness (ARI) correctly diagnosed with pneumonia.",
-			"id": "X1gqmqv6gvT",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-07T15:20:59.435",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia diagnosis in children 0-9 years with ARI (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Children 0-9 years diagnosed with pneumonia",
-			"publicAccess": "r-------",
-			"shortName": "Pneumonia diagnosis 0-9y (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PND_0-4",
-			"created": "2020-04-07T15:23:49.346",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of children aged 0-4 years correctly diagnosed with pneumonia.",
-			"id": "wwtcF9fypyQ",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-13T13:41:59.970",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia number diagnosed in children 0-4 years",
-			"numerator": "-1",
-			"numeratorDescription": "Children diagnosed with pneumonia 0-4 years",
-			"publicAccess": "r-------",
-			"shortName": "Pneumonia diagnosis 0-4y",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PND_5-9",
-			"created": "2020-04-13T13:40:49.015",
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of children aged 5-9 years correctly diagnosed with pneumonia.",
-			"id": "LRufo0zqmvg",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-13T13:41:15.816",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia number diagnosed in children 5-9 years",
-			"numerator": "-1",
-			"numeratorDescription": "Children diagnosed with pneumonia 5-9 years",
-			"publicAccess": "r-------",
-			"shortName": "Pneumonia diagnosis 5-9y",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PNT_AMOX_TAB",
-			"created": "2020-04-07T14:22:09.953",
-			"denominator": "1",
-			"denominatorDescription": "Children 0-9 years diagnosed with pneumonia",
-			"description": "Percentage of children correctly diagnosed with pneumonia who received treatment with Amoxicillin dispersed tablet",
-			"id": "OjGUSxKM05J",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-07T14:22:09.953",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia treated with Amoxicillin dispersed tablet in children 0-9 years (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Children 0-9 years treated for pneumonia with amoxicillin dispersed tablet",
-			"publicAccess": "r-------",
-			"shortName": "Pneumonia treated with Amoxicillin tablet 0-9y (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
 			"code": "RMNCAH_PNT_AMOX",
-			"created": "2020-04-07T14:43:52.279",
-			"denominator": "1",
-			"denominatorDescription": "Children 0-9 years diagnosed with pneumonia",
-			"description": "Percentage of children correctly diagnosed with pneumonia who received treatment with Amoxicillin (either dispersed tablet or oral syrup)",
-			"id": "VFZAVTULTSd",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-07T14:43:52.279",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia treated with Amoxicillin in children 0-9 years (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Children 0-9 years treated for pneumonia with amoxicillin dispersed tablet or oral syrup",
-			"publicAccess": "r-------",
-			"shortName": "Pneumonia treated with Amoxicillin 0-9y (%)",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_PNT_AMOX_OS",
 			"created": "2019-04-24T09:46:18.399",
 			"denominator": "1",
 			"denominatorDescription": "Children 0-9 years diagnosed with pneumonia",
-			"description": "Percentage of children correctly diagnosed with pneumonia who received treatment with Amoxicillin oral syrup",
+			"description": "Percentage of children correctly diagnosed with pneumonia who received treatment with amoxicillin.",
 			"id": "ids6pWvZmh3",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-07T14:20:51.638",
+			"lastUpdated": "2019-04-28T05:38:22.189",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Pneumonia treated with Amoxicillin oral syrup in children 0-9 years (%)",
+			"name": "[CONFIG] RMNCAH - Pneumonia treated with amoxicillin in children 0-9 years (%)",
 			"numerator": "-1",
-			"numeratorDescription": "Children 0-9 years treated for pneumonia with amoxicillin oral syrup",
+			"numeratorDescription": "Children 0-9 years treated for pneumonia with amoxicillin",
 			"publicAccess": "r-------",
-			"shortName": "Pneumonia treated with Amoxicillin syrup 0-9y (%)",
+			"shortName": "Pneumonia treated with amoxicillin 0-9y (%)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -8842,12 +7527,12 @@
 			"decimals": 1,
 			"denominator": "1",
 			"denominatorDescription": " Delivery in facility",
-			"description": "Percentage of postpartum women delivering in facility initiating a contraceptive method before discharge. \n“Initiated\" refers to women who either leave with an FP method or intend to begin a method that day (e.g. fertility awareness method). It combines both those women who “leave with” a method and those who “accept” a method prior to discharge or leaving the facility.",
+			"description": "Percentage of postpartum women delivering in facility initiating a contraceptive method before discharge. \n\n“Initiated\" refers to women who either leave with an FP method or intend to begin a method that day (e.g. fertility awareness method). It combines both those women who “leave with” a method and those who “accept” a method prior to discharge or leaving the facility.",
 			"id": "YBjvDwAKAgZ",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-08T14:47:12.069",
+			"lastUpdated": "2019-04-28T05:37:28.099",
 			"legendSets": [],
 			"name": "[CONFIG] RMNCAH - Postpartum family planning acceptors (%)",
 			"numerator": "-1",
@@ -8889,24 +7574,85 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "RMNCAH_PP_FP_COUNS",
-			"created": "2020-04-08T14:51:30.501",
-			"decimals": 1,
+			"code": "RMNCAH_SB",
+			"created": "2019-04-23T20:26:37.118",
 			"denominator": "1",
-			"denominatorDescription": " Delivery in facility",
-			"description": "Percentage of women delivering at facility counseled on postpartum family planning prior to discharge",
-			"id": "gnhcFIap1vN",
+			"denominatorDescription": "Live and still births in facility",
+			"description": "Stillbirth as a percentage of all births in health facilities. (Baby born with no sign of life and weighing at least 1000g or after 28 weeks gestation)",
+			"id": "ylXbHIzTg7x",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2020-04-08T14:51:30.501",
+			"lastUpdated": "2019-04-28T05:38:35.718",
 			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Postpartum received family planning counselling (%)",
+			"name": "[CONFIG] RMNCAH - Stillbirth rate in facility (%)",
 			"numerator": "-1",
-			"numeratorDescription": "Postpartum woman received FP counseling before discharge",
+			"numeratorDescription": "Still births in facility",
 			"publicAccess": "r-------",
-			"shortName": "Postpartum FP counselling",
-			"translations": [],
+			"shortName": "Still birth rate (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Mort-nés en pourcentage de toutes les naissances dans les formations sanitaires. (Bébé né sans signe de vie et pesant au moins 1000g ou après 28 semaines de gestation)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Taux de mortinaissance institutionnelle (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux de mort-nés (%)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "DKERleFxdOs"
+				},
+				{
+					"access": "rw------",
+					"id": "Kqg4vo1AOKb"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "RMNCAH_TT2_COV",
+			"created": "2017-06-09T09:02:10.534",
+			"denominator": "1",
+			"denominatorDescription": "Expected pregnancies (pop data)",
+			"description": "Percentage of antenatal clients who received at least 2 Tetanus Toxoid doses",
+			"id": "uHg0RQeJNpw",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-04-28T05:37:34.585",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - TT2 coverage for pregnant women (%)",
+			"numerator": "-1",
+			"numeratorDescription": "TT2 doses given to pregnant women",
+			"publicAccess": "r-------",
+			"shortName": "CHW TT2 coverage (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Pourcentage des clientes qui ont reçu deux doses de vaccin anti-tétanique en soins prénatals"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - Couverture VAT2 pour les femmes enceintes (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8972,78 +7718,6 @@
 					"id": "Kqg4vo1AOKb"
 				}
 			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_ECLAMP_MgSO4",
-			"created": "2020-04-08T14:49:48.280",
-			"decimals": 1,
-			"denominator": "1",
-			"denominatorDescription": " Delivery in facility",
-			"description": "Percentage of women with severe pre-eclampsia/eclampsia who receive the initial dose of MgSO4 (loading dose) in health facility",
-			"id": "iRuJCkcGDov",
-			"indicatorType": {
-				"id": "hmSnCXmLYwt"
-			},
-			"lastUpdated": "2020-04-23T14:11:52.232",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH - Women with severe pre-eclampsia/ eclamspsia treated with loading dose of MgSO4 (%)",
-			"numerator": "-1",
-			"numeratorDescription": "Number of women with severe pre-eclampsia/eclampsia who receive the initial dose of MgSO4",
-			"publicAccess": "r-------",
-			"shortName": "Pre-eclampsia/ eclamspsia treated MgSO4",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
-		},
-		{
-			"annualized": false,
-			"attributeValues": [],
-			"code": "RMNCAH_TB_C_NEWREL_04",
-			"created": "2020-04-23T17:41:33.568",
-			"decimals": 0,
-			"denominator": "1",
-			"denominatorDescription": "1",
-			"description": "Number of TB cases aged 0-4 in given year (new and relapse, all forms)",
-			"id": "Ehw00wViRfW",
-			"indicatorType": {
-				"id": "kHy61PbChXr"
-			},
-			"lastUpdated": "2020-04-23T17:42:55.561",
-			"legendSets": [],
-			"name": "[CONFIG] RMNCAH TB - Notified TB cases (new and relapse, all forms) aged 0-4",
-			"numerator": "-1",
-			"numeratorDescription": "Number of TB cases aged 0-4 (new and relapse only)",
-			"publicAccess": "r-------",
-			"shortName": "TB notification 0-4",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "DKERleFxdOs"
-				},
-				{
-					"access": "rw------",
-					"id": "Kqg4vo1AOKb"
-				}
-			]
 		}
 	],
 	"indicatorTypes": [
@@ -9078,7 +7752,7 @@
 			]
 		}
 	],
-	"package": "RMNCAH_DASHBOARD_V0.1_DHIS2.30_2020-04-30T12:07",
+	"package": "RMNCAH_DASHBOARD_V0.1_DHIS2.32_2020-04-30T12:59",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -9090,15 +7764,9 @@
 				"pe"
 			],
 			"completedOnly": false,
-			"created": "2020-04-23T22:48:26.951",
+			"created": "2019-04-24T19:15:52.646",
 			"cumulative": false,
 			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "rpSllz1AKMa"
-					}
-				},
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
@@ -9110,31 +7778,13 @@
 					"indicator": {
 						"id": "ccsNVDSzNfX"
 					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "DVIGOKCmnd8"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "JUD9VmMvrI0"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "n6R5483SG14"
-					}
 				}
 			],
 			"dataElementGroupSetDimensions": [],
+			"description": "",
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
 			"externalAccess": false,
-			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
@@ -9145,10 +7795,10 @@
 			"hideTitle": false,
 			"id": "SXjpUVdtS8c",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-04-23T22:48:26.951",
+			"lastUpdated": "2019-04-30T17:55:15.412",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
-			"name": "RMNCAH - Maternal and Perinatal deaths reviewed - yearly",
+			"name": "RMNCAH - Maternal deaths and deaths audited - yearly",
 			"numberType": "VALUE",
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -9212,8 +7862,6 @@
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
-			"subscribers": [],
-			"title": "12-Maternal mortality and maternal/perinatal death reviews among deaths reported in HMIS",
 			"topLimit": 0,
 			"translations": [
 				{
@@ -9246,7 +7894,7 @@
 			"attributeValues": [],
 			"created": "2019-04-25T06:39:52.309",
 			"id": "DKERleFxdOs",
-			"lastUpdated": "2020-04-24T11:20:53.563",
+			"lastUpdated": "2020-03-23T10:26:03.045",
 			"managedGroups": [],
 			"name": "RMNCAH access",
 			"publicAccess": "r-------",
@@ -9275,7 +7923,7 @@
 			"attributeValues": [],
 			"created": "2019-04-25T06:40:15.326",
 			"id": "Kqg4vo1AOKb",
-			"lastUpdated": "2020-04-24T11:20:53.586",
+			"lastUpdated": "2020-03-23T10:26:03.054",
 			"managedGroups": [],
 			"name": "RMNCAH admin",
 			"publicAccess": "r-------",
