@@ -1,0 +1,149 @@
+{
+  "export": [
+    {
+      "_basePath": "./RMNCAH/",
+      "_code": "RMNCAH",
+      "_name": "RMNCAH complete",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "DKERleFxdOs",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "Kqg4vo1AOKb",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "ACMniTcvego",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate",
+      "_url": [
+        "https://who-dev.dhis2.org/dev"
+      ],
+      "_version": "1.0",
+      "dashboardIds": [
+        "XRx2x8w50on"
+      ],
+      "dataElementGroupIds": [
+        "zXmBu7vpmSw",
+        "SOJjpyFYKAn",
+        "yujAo6i9uHG",
+        "BOf7lTvD5pu",
+        "u57qasZrEqw",
+        "DtwnESgIBh4",
+        "gDwHOp9bAdJ",
+        "GynKupv5MlH",
+        "ri242cU0Sm5",
+        "cab3G0F47ha",
+        "VGJHJGsfdRR"
+      ],
+      "dataSetIds": [
+        "tQc4Gv2Jwco"
+      ],
+      "exportDataSetIds": [
+        "ol29VzeJoEU"
+      ],
+      "exportIndicatorGroupsIds": [
+        "uDy8xg2ofrw"
+      ],
+      "indicatorGroupIds": [
+        "uDy8xg2ofrw",
+        "Qc4lDXPFGh7",
+        "VQy2Db1ToNM",
+        "lO4bfTs7T8G",
+        "NBoBsBLsTOW",
+        "RRcDhY8kEtf"
+      ],
+      "validationRuleGroupIds": [
+        "jbQsokz3Q44"
+      ]
+    },
+    {
+      "_basePath": "./RMNCAH/",
+      "_code": "RMNCAH",
+      "_name": "RMNCAH dashboard",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "DKERleFxdOs",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "Kqg4vo1AOKb",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "dashboardAggregate",
+      "_url": [
+        "https://who-dev.dhis2.org/dev"
+      ],
+      "_version": "1.0",
+      "dashboardIds": [
+        "XRx2x8w50on"
+      ],
+      "exportIndicatorGroupsIds": [
+        "uDy8xg2ofrw"
+      ],
+      "indicatorGroupIds": [
+        "uDy8xg2ofrw",
+        "Qc4lDXPFGh7",
+        "VQy2Db1ToNM",
+        "lO4bfTs7T8G",
+        "NBoBsBLsTOW",
+        "RRcDhY8kEtf"
+      ]
+    }
+  ]
+}
