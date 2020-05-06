@@ -3,7 +3,7 @@
     {
       "_basePath": "./IMM/", 
       "_code": "IMM", 
-      "_name": "Immunization - no adverse events",
+      "_name": "Immunization",
       "_prefix": "[CONFIG]",
       "_ownership": {
         "modeOwner": "OVERWRITE",
@@ -11,17 +11,17 @@
         "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "mJXfg1R1L29",
-            "metadata": "EDIT",
+            "metadata": "VIEW",
             "data": "EDIT"
           },
           {
             "id": "LPrZIVYQGUv",
-            "metadata": "EDIT",
-            "data": "EDIT"
+            "metadata": "NONE",
+            "data": "NONE"
           },
           {
           "id": "T6DZORCrELb",
@@ -30,8 +30,18 @@
           },
           {
           "id": "JVenB84tY1X",
-          "metadata": "EDIT",
+          "metadata": "VIEW",
           "data": "EDIT"
+          },
+          {
+            "id": "J3mFUNTreYY",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "gum1e8w6CmI",
+            "metadata": "VIEW",
+            "data": "EDIT"
           }
           ],      
         "groupExport": true,
@@ -51,15 +61,28 @@
       },
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_epi"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.0.0",
+      "customObjects": [
+        {
+          "objectIds": ["wOcoDe5zTRJ"],
+          "objectType": "trackedEntityAttributes"
+        }
+      ],
+      "dashboardIds": [
+        "duxpAkzVD9r",
+        "jEZlIePnBUV"
+      ],
       "exportIndicatorGroupsIds": [
-        "jWbf0RIUhji"
+        "hwOnv7hS8qk"
       ], 
       "indicatorGroupIds": [
-        "jWbf0RIUhji"
-      ], 
+        "hwOnv7hS8qk"
+      ],
+      "programIndicatorGroupIds": [
+        "Lesc1szBJGe"
+      ],
       "programIds": [
         "SSLpOM0r1U7"
       ]
