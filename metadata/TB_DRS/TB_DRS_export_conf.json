@@ -1,57 +1,58 @@
 {
-    "export": [
-      {
-        "_basePath": "./TB_DRS/", 
-        "_code": "TB_DRS", 
-        "_name": "Anti-Tuberculosis Drugs Resistance Survey (DRS)",
-        "_prefix": "[CONFIG]",
-        "_ownership": {
-          "modeOwner": "OVERWRITE",
-          "modeLastUpdated": "REMOVE",
-          "ownerId": "vUeLeQMSwhN"
-        },
-        "_sharing": {
-          "groupMode": "OVERWRITE",
-          "groups": [
-            {
-              "id": "byS9SDFsd9p",
-              "metadata": "VIEW",
-              "data": "EDIT"
-            },
-            {
-              "id": "LHhbGJKXmzz",
-              "metadata": "VIEW",
-              "data": "VIEW"
-            },
-            {
-              "id": "vN3X85Hxzno",
-              "metadata": "EDIT",
-              "data": "NONE"
-            }  
-          ],
-          "groupExport": true,
-          "userMode": "REMOVE",
-          "users": [
-            {
-              "id": "vUeLeQMSwhN",
-              "metadata": "EDIT",
-              "data": "EDIT"
-            }  
-          ],
-          "userExport": false,
-          "publicAccess": {
-            "metadata": "NONE",
+  "export": [
+    {
+      "_basePath": "./TB_DRS/",
+      "_code": "TB_DRS",
+      "_name": "Anti-Tuberculosis Drugs Resistance Survey (DRS)",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "byS9SDFsd9p",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "LHhbGJKXmzz",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "vN3X85Hxzno",
+            "metadata": "EDIT",
             "data": "NONE"
           }
-        },
-        "_type": "tracker",
-        "_url": [
-          "https://who-dev.dhis2.org/tracker_dev/"
-        ], 
-        "_version": "0.9.0",
-        "customObjects": [{
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "NONE",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker",
+      "_url": [
+        "https://who-dev.dhis2.org/tracker_dev/"
+      ],
+      "_version": "0.9.0",
+      "customObjects": [
+        {
           "objectType": "constants",
-          "objectIds":  [
+          "objectIds": [
             "R9XmbNHMmzn",
             "aYPQMlxAZsz",
             "rSS2dY6gwLJ",
@@ -62,27 +63,20 @@
             "rLrc9TDD0mk",
             "gpHvGqGxYFJ",
             "oIvsPo6FxL9",
-            "m02GN55Mf1m",
             "Q67DDsupq7v",
             "dAPAScvFPfX",
             "anpSc1tmlft",
             "aCaNdqUIDZl",
             "yxPHZFwMTN6",
-            "hcYnwacIHvh",
-            "JZmTRs9Or2W",
             "NlOX3oV4gWe",
             "RJNE1o9cw7Y",
             "m4c79OHEKCG",
-            "IkzzEtAxk6T",
             "XO1V9o5C95J",
-            "YTckNuuSLke",
-            "LBzdfXWvrvt",
-            "ef2WCp48ihZ",
             "UxcTzMRQsfa",
             "VUlsMrm4D8k",
             "CVQR2ZtZWxk",
             "ZDpLleSK08x",
-            "Wl80MwV0iVu",
+            "m02GN55Mf1m",
             "uOJYEwV7XfN",
             "cRldkiBh5xv",
             "lqaf0KfpHGd",
@@ -93,71 +87,59 @@
             "t7Okdm8VgDV",
             "dgjpdQO2Iva",
             "UL61U78GWCg",
-            "Ife8yYvIT4E",
             "x6v8O6EZo0U",
-            "zYMtWb922Me",
-            "ryZan5Dv67X",
-            "CjJNy5gm9rj",
             "KjvwSybuWJU",
             "BJTzi3WWjhT",
             "aZq11UuXPP6",
             "GL5JTtBvbEC",
-            "JxYAiYw48fy",
+            "Wl80MwV0iVu",
             "zJoEjvstp2d",
             "eM3UfUO7W8O",
             "s8WPR943gGS",
             "bHPYGfrFNV2",
             "wNxsAieLWYc",
-            "fHD21eQCV99",
-            "GV8Lm3InnkT",
             "Fw8wOlTETPt",
             "Czx5FuOqF9i",
             "NvA1K4hFJbc",
-            "Nm0u0E9xLe9",
             "dTwKm1u2VhY",
-            "GhMh5yhfeNt",
-            "EVFGxtvHcSA",
-            "XTfp1ARNjg6",
             "r70ONQRhaHY",
             "RFqmLP5W5di",
             "KIeI2d8xalG",
             "bywBn5DxVdi",
-            "adw2V563lNW",
+            "JxYAiYw48fy",
             "lelJEADYpeI",
             "ZBpqH7xJLBO",
             "F9DTb5zl8rS",
             "VY15auehssY",
             "Ic5asMdbpH8",
-            "zred2yoMRda",
-            "jt0qFpjsy8F",
             "b1KgVOel21P",
             "HhKitGif8RV",
             "xfltmyqC3p0",
-            "rcMMGdMpY9c",
             "a4PpEfSutcV",
-            "FtYDwluFz8s",
-            "ZlyOmFbYoW5",
-            "CCmxtEJx07W",
             "QaioqMbO0TX",
             "Xt5GU9kBD7q",
             "mU5iEABeF2K",
             "Nb6oHqjCCZq",
+            "adw2V563lNW",
             "SNNuElZZC55",
-            "HKK3inVbLJK",
             "AiyTLOJHMkl",
+            "HKK3inVbLJK",
             "KkypNdLNW1f",
             "MC7QUDr9YKC"
-        ]
-        }],
-        "dataElementGroupIds": [
-          "SfwwoCbB1m3"
-        ],
-        "exportIndicatorGroupsIds": [], 
-        "indicatorGroupIds": [], 
-        "programIds": [
-          "KYzHf1Ta6C4"
-        ]
-      }
-    ]
-  }
-  
+          ]
+        }
+      ],
+      "dataElementGroupIds": [
+        "SfwwoCbB1m3"
+      ],
+      "exportIndicatorGroupsIds": [],
+      "indicatorGroupIds": [],
+      "programIndicatorGroupIds": [
+        "kmqHGVM4yxV"
+      ],
+      "programIds": [
+        "KYzHf1Ta6C4"
+      ]
+    }
+  ]
+}
