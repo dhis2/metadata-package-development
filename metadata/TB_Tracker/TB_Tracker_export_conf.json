@@ -8,7 +8,7 @@
       "_ownership": {
         "modeOwner": "OVERWRITE",
         "modeLastUpdated": "REMOVE",
-        "ownerId": "Ia1Xtxa5eG8"
+        "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
         "groupMode": "OVERWRITE",
@@ -21,34 +21,115 @@
           {
             "id": "Ubzlyfqm1gO",
             "metadata": "EDIT",
-            "data": "VIEW"
+            "data": "NONE"
           },
           {
             "id": "UKWx4jJcrKt",
-            "metadata": "NONE",
+            "metadata": "VIEW",
             "data": "EDIT"
           },
           {
             "id": "zBZXkRW0PJy",
-            "metadata": "NONE",
+            "metadata": "VIEW",
             "data": "EDIT"
           }
         ],
         "groupExport": true,
         "userMode": "REMOVE",
-        "users": [],
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
         "userExport": false,
         "publicAccess": {
-          "metadata": "VIEW",
+          "metadata": "NONE",
           "data": "NONE"
         }
       },
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_dev"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.1.0",
-      
+      "customObjects": [
+        {
+          "objectType": "constants",
+          "objectIds":  [
+            "Q67DDsupq7v",
+            "dAPAScvFPfX",
+            "anpSc1tmlft",
+            "aCaNdqUIDZl",
+            "yxPHZFwMTN6",
+            "NlOX3oV4gWe",
+            "RJNE1o9cw7Y",
+            "m4c79OHEKCG",
+            "XO1V9o5C95J",
+            "UxcTzMRQsfa",
+            "VUlsMrm4D8k",
+            "CVQR2ZtZWxk",
+            "ZDpLleSK08x",
+            "uOJYEwV7XfN",
+            "cRldkiBh5xv",
+            "lqaf0KfpHGd",
+            "FDtk4otxDse",
+            "n9zOOsLO0QP",
+            "Fu3MdbwqDaj",
+            "jELcK3uisIZ",
+            "t7Okdm8VgDV",
+            "dgjpdQO2Iva",
+            "UL61U78GWCg",
+            "x6v8O6EZo0U",
+            "KjvwSybuWJU",
+            "BJTzi3WWjhT",
+            "aZq11UuXPP6",
+            "GL5JTtBvbEC",
+            "zJoEjvstp2d",
+            "eM3UfUO7W8O",
+            "s8WPR943gGS",
+            "bHPYGfrFNV2",
+            "wNxsAieLWYc",
+            "Fw8wOlTETPt",
+            "Czx5FuOqF9i",
+            "NvA1K4hFJbc",
+            "dTwKm1u2VhY",
+            "r70ONQRhaHY",
+            "RFqmLP5W5di",
+            "KIeI2d8xalG",
+            "bywBn5DxVdi",
+            "lelJEADYpeI",
+            "ZBpqH7xJLBO",
+            "F9DTb5zl8rS",
+            "VY15auehssY",
+            "Ic5asMdbpH8",
+            "b1KgVOel21P",
+            "HhKitGif8RV",
+            "xfltmyqC3p0",
+            "a4PpEfSutcV",
+            "QaioqMbO0TX",
+            "Xt5GU9kBD7q",
+            "mU5iEABeF2K",
+            "Nb6oHqjCCZq",
+            "q1ah12sKfG3",
+            "yF0xR5nDSXa",
+            "riDIK5mvDzW",
+            "iSKEqcuVAui",
+            "qpAseG5vJyS",
+            "H4ObQDbhnTA",
+            "cFoFDkXKcXC",
+            "zBicQdPbHfj",
+            "HjN2Bgnusyy",
+            "OQxeAIyQUeB",
+            "BpRfvWQcvTo",
+            "W8Fm1pJuJPL",
+            "ESUffSPwmju",
+            "govArZqiFzY",
+            "GxOlFoUKbHB"
+          ]
+        }
+      ],
       "dataElementGroupIds": [
         "K97n4JS39z9"
       ], 
@@ -57,11 +138,14 @@
       ], 
       "indicatorGroupIds": [
         "tAKC8OODCJl"
-      ], 
+      ],
+      "programIndicatorGroupIds": [
+        "ByComvoqyPP",
+        "rfOllbK3gIL"
+      ],
       "programIds": [
         "Lt6P15ps7f6"
       ]
     }
-    
   ]
 }
