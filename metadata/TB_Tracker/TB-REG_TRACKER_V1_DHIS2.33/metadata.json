@@ -775,9 +775,9 @@
 		{
 			"attributeValues": [],
 			"created": "2020-03-23T20:57:36.658",
-			"description": "Value \"1\" = include lists of First-line and Second-line drugs in the Treatment Stage.\nValue \"0\" = exclude lists of First-line and Second-line drugs from the Treatment Stage.",
+			"description": "Value \"2\" = include lists of First-line and Second-line drugs in the Treatment Stage.\nValue \"1\" = exclude lists of First-line and Second-line drugs from the Treatment Stage.",
 			"id": "GxOlFoUKbHB",
-			"lastUpdated": "2020-03-23T20:57:52.851",
+			"lastUpdated": "2020-05-28T10:00:35.865",
 			"name": "TB-015: Treatment - Lists of First-line and Second-line drugs",
 			"publicAccess": "--------",
 			"shortName": "First-line and Second-line drugs",
@@ -804,7 +804,7 @@
 					"id": "zBZXkRW0PJy"
 				}
 			],
-			"value": 0
+			"value": 1
 		},
 		{
 			"attributeValues": [],
@@ -2627,10 +2627,10 @@
 					"id": "WrG6slZ7nlG"
 				},
 				{
-					"id": "QDa04y5c0Bf"
+					"id": "Ey5hCmNIHtp"
 				},
 				{
-					"id": "Ey5hCmNIHtp"
+					"id": "QDa04y5c0Bf"
 				},
 				{
 					"id": "dwi6P6D2iFg"
@@ -3557,7 +3557,7 @@
 		},
 		{
 			"aggregationLevels": [],
-			"aggregationType": "SUM",
+			"aggregationType": "DEFAULT",
 			"attributeValues": [],
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
@@ -3565,7 +3565,7 @@
 			"created": "2019-03-06T20:19:22.592",
 			"domainType": "TRACKER",
 			"id": "QDa04y5c0Bf",
-			"lastUpdated": "2019-03-06T20:19:22.592",
+			"lastUpdated": "2020-05-28T11:02:04.364",
 			"legendSets": [],
 			"name": "Date RIF resistance first detected",
 			"publicAccess": "--------",
@@ -18588,7 +18588,7 @@
 			"version": 4
 		}
 	],
-	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-05-26T14:08",
+	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-05-29T10:43",
 	"programIndicatorGroups": [
 		{
 			"created": "2018-06-07T11:23:07.255",
@@ -32050,7 +32050,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cJcjvvIs1Vr",
-					"lastUpdated": "2020-05-15T08:31:03.360",
+					"lastUpdated": "2020-05-28T11:08:44.182",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -32072,7 +32072,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hMgEYDi57uB",
-					"lastUpdated": "2020-05-15T08:31:03.360",
+					"lastUpdated": "2020-05-28T11:08:44.182",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -32083,9 +32083,9 @@
 			"created": "2019-05-27T19:14:08.565",
 			"displayInForm": true,
 			"expression": "d2:daysBetween(#{mPdMZNWVrOQ.QDa04y5c0Bf}, #{RB3a5MXMe8g.KbBzirlv7BU})",
-			"filter": "d2:hasValue(#{mPdMZNWVrOQ.QDa04y5c0Bf})",
+			"filter": "d2:count(#{mPdMZNWVrOQ.UJ7JPl1LB9y})  > 0 && #{RB3a5MXMe8g.s84QVMsGP0W} == 'SECOND_LINE_TREATMENT'",
 			"id": "HdGEwlnAt84",
-			"lastUpdated": "2020-05-15T08:31:03.360",
+			"lastUpdated": "2020-05-28T11:08:44.182",
 			"legendSets": [],
 			"name": "Days from RIF resistance detected to start of second-line treatment",
 			"program": {
@@ -46616,16 +46616,15 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2020-03-01T18:59:12.671",
-			"id": "zPhmYyLcZO1",
-			"lastUpdated": "2020-04-16T10:58:15.029",
+			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
+			"created": "2020-02-07T16:31:15.734",
+			"id": "OtqsoRCmLJY",
+			"lastUpdated": "2020-05-27T13:55:20.035",
+			"location": "feedback",
 			"programRule": {
-				"id": "bvKU4RArJjo"
+				"id": "Y8WFkcBC4lf"
 			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "j3YS4WZzWmg"
-			}
+			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"content": "#{DSTresAmCm}",
@@ -46649,6 +46648,30 @@
 				"id": "alAoqqSMlSC"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "BiTvo0thrD1",
+			"lastUpdated": "2020-05-28T08:54:02.090",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "ei9HQAyKWRw"
+			}
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "Y4qy19ycsg3",
+			"lastUpdated": "2020-05-28T08:54:02.090",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "SYFN66iGDKN"
+			}
 		},
 		{
 			"created": "2020-02-14T13:57:53.598",
@@ -46687,17 +46710,6 @@
 				"id": "alAoqqSMlSC"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
-			"created": "2020-02-07T16:31:15.734",
-			"id": "d1dHzRHW5XU",
-			"lastUpdated": "2020-05-22T11:53:12.494",
-			"location": "feedback",
-			"programRule": {
-				"id": "Y8WFkcBC4lf"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"created": "2020-02-14T14:16:00.584",
@@ -46915,6 +46927,19 @@
 				"id": "ZJOYEMNAtzb"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-04-24T10:33:35.389",
+			"data": "''",
+			"dataElement": {
+				"id": "QDa04y5c0Bf"
+			},
+			"id": "m8s57YV9gm7",
+			"lastUpdated": "2020-05-28T08:28:54.070",
+			"programRule": {
+				"id": "fTGQSqswlQz"
+			},
+			"programRuleActionType": "ASSIGN"
 		},
 		{
 			"created": "2020-03-01T20:38:35.318",
@@ -47268,6 +47293,18 @@
 				"id": "ov1MiHaD9Xe"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Patient's age (months)",
+			"created": "2020-01-20T10:28:20.075",
+			"data": "d2:monthsBetween(A{DateBirth}, V{current_date})",
+			"id": "GxJMVWFlOm0",
+			"lastUpdated": "2020-05-28T09:09:48.576",
+			"location": "indicators",
+			"programRule": {
+				"id": "xy71ub4TsF5"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
 		},
 		{
 			"created": "2020-02-21T16:35:42.672",
@@ -47694,18 +47731,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "KYaE7W0K4wF",
-			"lastUpdated": "2020-04-16T10:58:15.029",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "lpD58ED9tir"
-			}
-		},
-		{
 			"created": "2020-03-01T20:07:01.372",
 			"dataElement": {
 				"id": "m1qdvx91gZz"
@@ -47964,18 +47989,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "IWHg2SzFkrP",
-			"lastUpdated": "2020-04-16T10:58:15.029",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "gNMtQmMSDB1"
-			}
-		},
-		{
 			"created": "2018-06-14T20:06:59.914",
 			"dataElement": {
 				"id": "D4z4o6JR9M0"
@@ -48051,19 +48064,6 @@
 			"programStageSection": {
 				"id": "SYFN66iGDKN"
 			}
-		},
-		{
-			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
-			"created": "2020-02-07T13:50:16.355",
-			"dataElement": {
-				"id": "V6RVBzCr3Kl"
-			},
-			"id": "lf3VyNl2rNz",
-			"lastUpdated": "2020-05-22T11:53:12.494",
-			"programRule": {
-				"id": "Y8WFkcBC4lf"
-			},
-			"programRuleActionType": "SHOWWARNING"
 		},
 		{
 			"created": "2020-05-15T07:11:17.929",
@@ -48356,6 +48356,18 @@
 			"programRuleActionType": "SHOWERROR"
 		},
 		{
+			"content": "Patient's age (years)",
+			"created": "2020-01-20T10:28:20.075",
+			"data": "d2:yearsBetween(A{DateBirth}, V{current_date})",
+			"id": "uX5rj5qk2q7",
+			"lastUpdated": "2020-05-28T09:08:52.802",
+			"location": "indicators",
+			"programRule": {
+				"id": "rOG0oCUnsRh"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
 			"created": "2020-03-01T19:40:02.846",
 			"dataElement": {
 				"id": "nulxcFUqHFK"
@@ -48438,6 +48450,18 @@
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
 				"id": "DCWT6cB6w8L"
+			}
+		},
+		{
+			"created": "2020-03-01T18:59:12.671",
+			"id": "JbUPPdwNdVT",
+			"lastUpdated": "2020-05-28T08:54:02.090",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "j3YS4WZzWmg"
 			}
 		},
 		{
@@ -48784,18 +48808,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "bvDqwa6qtfA",
-			"lastUpdated": "2020-04-16T10:58:15.029",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "SYFN66iGDKN"
-			}
-		},
-		{
 			"created": "2020-02-13T13:45:51.936",
 			"dataElement": {
 				"id": "dyqHwVB1oij"
@@ -49109,18 +49121,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Days from RIF resistance detected to start of second line treatment",
-			"created": "2020-05-06T21:39:59.818",
-			"data": "d2:daysBetween(#{FIRST_RIF_RESISTANCE_DATE}, #{TreatmentSecondLineStartDate})",
-			"id": "Hdq1vdCrLrT",
-			"lastUpdated": "2020-05-06T22:02:58.257",
-			"location": "indicators",
-			"programRule": {
-				"id": "QPgeWfV1Zfx"
-			},
-			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
-		},
-		{
 			"content": "#{CaseClassification}",
 			"created": "2020-03-20T22:47:08.904",
 			"data": "RR/MDR",
@@ -49409,6 +49409,18 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "RFul4BYWOyJ",
+			"lastUpdated": "2020-05-28T08:54:02.090",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "lpD58ED9tir"
+			}
+		},
+		{
 			"created": "2020-02-25T09:24:17.374",
 			"id": "mTaaZYTUVdg",
 			"lastUpdated": "2020-04-16T11:41:32.514",
@@ -49655,6 +49667,19 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
+			"created": "2020-02-07T13:50:16.355",
+			"dataElement": {
+				"id": "V6RVBzCr3Kl"
+			},
+			"id": "MD0uPiJl2ET",
+			"lastUpdated": "2020-05-27T13:55:20.035",
+			"programRule": {
+				"id": "Y8WFkcBC4lf"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
 			"content": "Treatment episode outcome cannot be Cured when treatment category is Second-line treatment regimen and site of disease is extrapulmonary",
 			"created": "2018-06-08T09:12:17.324",
 			"dataElement": {
@@ -49762,6 +49787,18 @@
 				"id": "kUADOirWNMC"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-05-28T11:12:28.700",
+			"id": "OymUhIjyNxk",
+			"lastUpdated": "2020-05-28T11:12:28.700",
+			"programRule": {
+				"id": "W1OWf6FhL0F"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "WGjZwerRYUf"
+			}
 		},
 		{
 			"created": "2017-11-24T12:46:20.584",
@@ -50176,6 +50213,18 @@
 				"id": "UgRq1QNPADR"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "TvQfKa9dzOV",
+			"lastUpdated": "2020-05-28T08:54:02.090",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "gNMtQmMSDB1"
+			}
 		},
 		{
 			"created": "2018-06-14T20:06:59.914",
@@ -50705,18 +50754,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Patient's age",
-			"created": "2020-01-20T10:28:20.075",
-			"data": "d2:concatenate(d2:yearsBetween(A{DateBirth}, V{current_date}),' ','YO')",
-			"id": "oTDdE9Di28f",
-			"lastUpdated": "2020-05-22T07:46:20.092",
-			"location": "indicators",
-			"programRule": {
-				"id": "rOG0oCUnsRh"
-			},
-			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
-		},
-		{
 			"created": "2020-02-13T08:40:55.222",
 			"dataElement": {
 				"id": "CxjSGmVSIrD"
@@ -51179,18 +51216,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "SyN4mnIviLI",
-			"lastUpdated": "2020-04-16T10:58:15.029",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "ei9HQAyKWRw"
-			}
-		},
-		{
 			"content": "Please, set date of birth to January 1.",
 			"created": "2020-05-19T08:10:18.113",
 			"id": "Ht58YY75yM9",
@@ -51594,10 +51619,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "dcaolQW0f8t"
+					"id": "DNsWAJduyMD"
 				},
 				{
-					"id": "DNsWAJduyMD"
+					"id": "dcaolQW0f8t"
 				}
 			],
 			"translations": []
@@ -51738,10 +51763,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "OYNJUGWnV8E"
+					"id": "LjLZajC2jAX"
 				},
 				{
-					"id": "LjLZajC2jAX"
+					"id": "OYNJUGWnV8E"
 				}
 			],
 			"translations": []
@@ -51760,6 +51785,23 @@
 			"programRuleActions": [
 				{
 					"id": "m4j4P1TKBIi"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "!d2:hasValue('DATE_RR_DETECTED_PREV') && !d2:hasValue('RRdetectedCurrent')",
+			"created": "2020-05-28T08:28:54.239",
+			"id": "fTGQSqswlQz",
+			"lastUpdated": "2020-05-28T08:28:54.239",
+			"name": "Clear \"Date RIF Resistance First Detected\"",
+			"priority": 12,
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "m8s57YV9gm7"
 				}
 			],
 			"translations": []
@@ -51837,10 +51879,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "a6lkW7OND7J"
+					"id": "SmNLsroInb1"
 				},
 				{
-					"id": "SmNLsroInb1"
+					"id": "a6lkW7OND7J"
 				}
 			],
 			"programStage": {
@@ -52302,10 +52344,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "iYNpAeTYwHY"
+					"id": "QzfjpaAB0rr"
 				},
 				{
-					"id": "QzfjpaAB0rr"
+					"id": "iYNpAeTYwHY"
 				}
 			],
 			"programStage": {
@@ -52876,30 +52918,30 @@
 			"translations": []
 		},
 		{
-			"condition": "C{GxOlFoUKbHB} == 0",
+			"condition": "C{GxOlFoUKbHB} == 1",
 			"created": "2020-03-23T21:05:07.374",
 			"description": "Treatment Stage: Hide First-Line and second-line drugs",
 			"id": "bvKU4RArJjo",
-			"lastUpdated": "2020-04-16T10:58:15.352",
+			"lastUpdated": "2020-05-28T08:54:02.114",
 			"name": "CONSTANT - Treatment: Hide First-Line and second-line drugs",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "IWHg2SzFkrP"
+					"id": "JbUPPdwNdVT"
 				},
 				{
-					"id": "SyN4mnIviLI"
+					"id": "Y4qy19ycsg3"
 				},
 				{
-					"id": "KYaE7W0K4wF"
+					"id": "TvQfKa9dzOV"
 				},
 				{
-					"id": "bvDqwa6qtfA"
+					"id": "RFul4BYWOyJ"
 				},
 				{
-					"id": "zPhmYyLcZO1"
+					"id": "BiTvo0thrD1"
 				}
 			],
 			"programStage": {
@@ -53287,10 +53329,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "hIIELjcm8Ho"
+					"id": "SuWFN2aDYNE"
 				},
 				{
-					"id": "SuWFN2aDYNE"
+					"id": "hIIELjcm8Ho"
 				}
 			],
 			"translations": []
@@ -53307,10 +53349,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "PWEfnhfDPCO"
+					"id": "p72t0L0jmtm"
 				},
 				{
-					"id": "p72t0L0jmtm"
+					"id": "PWEfnhfDPCO"
 				}
 			],
 			"translations": []
@@ -53675,17 +53717,35 @@
 			"translations": []
 		},
 		{
-			"condition": "d2:hasValue( A{DateBirth} )",
-			"created": "2020-03-23T17:11:54.545",
-			"id": "rOG0oCUnsRh",
-			"lastUpdated": "2020-05-22T07:46:20.095",
-			"name": "Display Age in Widget",
+			"condition": "d2:hasValue( A{DateBirth} ) && (d2:yearsBetween(A{DateBirth}, V{current_date})   <  2)",
+			"created": "2020-05-28T09:09:48.579",
+			"description": "Display Age ( <2) in the top bar",
+			"id": "xy71ub4TsF5",
+			"lastUpdated": "2020-05-28T09:09:48.579",
+			"name": "Display Age ( < 2) in the top bar",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "oTDdE9Di28f"
+					"id": "GxJMVWFlOm0"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( A{DateBirth} ) && (d2:yearsBetween(A{DateBirth}, V{current_date})  >= 2)",
+			"created": "2020-03-23T17:11:54.545",
+			"description": "Display Age ( >= 2) in the top bar",
+			"id": "rOG0oCUnsRh",
+			"lastUpdated": "2020-05-28T09:08:52.808",
+			"name": "Display Age ( >= 2) in the top bar",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "uX5rj5qk2q7"
 				}
 			],
 			"translations": []
@@ -53844,22 +53904,6 @@
 			"translations": []
 		},
 		{
-			"condition": "d2:hasValue('FIRST_RIF_RESISTANCE_DATE') && #{TreatmentRegimen} == 'SECOND_LINE_TREATMENT'",
-			"created": "2020-05-06T21:39:59.831",
-			"id": "QPgeWfV1Zfx",
-			"lastUpdated": "2020-05-06T22:02:58.262",
-			"name": "Display number of days from the date RIF Resistance was detected until the start of the second-line treatment",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "Hdq1vdCrLrT"
-				}
-			],
-			"translations": []
-		},
-		{
 			"condition": "d2:hasValue('MONTHS_SINCE_ENROLLMENT')",
 			"created": "2020-04-03T11:15:18.035",
 			"description": "Display number of months since Enrollment in the Top Bar",
@@ -53899,17 +53943,17 @@
 			"created": "2020-02-07T13:40:42.590",
 			"description": "Display reminder to retest patient for HIV if the HIV Status date is +6 months",
 			"id": "Y8WFkcBC4lf",
-			"lastUpdated": "2020-05-22T11:53:12.502",
+			"lastUpdated": "2020-05-27T13:55:20.043",
 			"name": "Display reminder to retest HIV",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "d1dHzRHW5XU"
+					"id": "MD0uPiJl2ET"
 				},
 				{
-					"id": "lf3VyNl2rNz"
+					"id": "OtqsoRCmLJY"
 				}
 			],
 			"translations": []
@@ -53932,13 +53976,13 @@
 					"id": "luRT2wLjKqM"
 				},
 				{
-					"id": "sfyGqkQf9fj"
-				},
-				{
 					"id": "P3zyBrQiAxq"
 				},
 				{
 					"id": "ZLOlHYe6Crc"
+				},
+				{
+					"id": "sfyGqkQf9fj"
 				}
 			],
 			"translations": []
@@ -53978,10 +54022,10 @@
 					"id": "psOaGZnAkHp"
 				},
 				{
-					"id": "ANDO2zHXJkq"
+					"id": "iCpswjkifT1"
 				},
 				{
-					"id": "iCpswjkifT1"
+					"id": "ANDO2zHXJkq"
 				}
 			],
 			"programStage": {
@@ -54152,6 +54196,9 @@
 					"id": "FIC5KnhXsp6"
 				},
 				{
+					"id": "OQBMxDmTfWO"
+				},
+				{
 					"id": "P6FhzBcOvUS"
 				},
 				{
@@ -54159,9 +54206,6 @@
 				},
 				{
 					"id": "a6Cx1WGhNGe"
-				},
-				{
-					"id": "OQBMxDmTfWO"
 				}
 			],
 			"translations": []
@@ -55267,10 +55311,10 @@
 					"id": "WqJY1VrvcAg"
 				},
 				{
-					"id": "W2oMYx7akxa"
+					"id": "ZQapExEAiDH"
 				},
 				{
-					"id": "ZQapExEAiDH"
+					"id": "W2oMYx7akxa"
 				}
 			],
 			"translations": []
@@ -55417,10 +55461,10 @@
 					"id": "K2CRtdFD8Vl"
 				},
 				{
-					"id": "yHW6zf6n9kH"
+					"id": "iq7M26w2HPj"
 				},
 				{
-					"id": "iq7M26w2HPj"
+					"id": "yHW6zf6n9kH"
 				}
 			],
 			"programStage": {
@@ -55516,6 +55560,9 @@
 			},
 			"programRuleActions": [
 				{
+					"id": "uhdFffq2HwH"
+				},
+				{
 					"id": "aPQyppfrpA8"
 				},
 				{
@@ -55523,9 +55570,6 @@
 				},
 				{
 					"id": "aty7Zpj4KXJ"
-				},
-				{
-					"id": "uhdFffq2HwH"
 				}
 			],
 			"translations": []
@@ -55640,6 +55684,25 @@
 			"translations": []
 		},
 		{
+			"condition": "true",
+			"created": "2020-05-28T11:12:28.714",
+			"id": "W1OWf6FhL0F",
+			"lastUpdated": "2020-05-28T11:12:28.714",
+			"name": "Lab: Hide Status Section",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "OymUhIjyNxk"
+				}
+			],
+			"programStage": {
+				"id": "mPdMZNWVrOQ"
+			},
+			"translations": []
+		},
+		{
 			"condition": "!d2:hasValue('TB_LAMP_MTB_CURRENT')",
 			"created": "2020-03-23T12:26:44.793",
 			"id": "QD9LlkEDDsW",
@@ -55672,10 +55735,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "Nv4ndLHYLI2"
+					"id": "qol1aiR3X0f"
 				},
 				{
-					"id": "qol1aiR3X0f"
+					"id": "Nv4ndLHYLI2"
 				}
 			],
 			"programStage": {
@@ -55694,10 +55757,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "pHnrIm7yqOm"
+					"id": "n4EE4dR6LQT"
 				},
 				{
-					"id": "n4EE4dR6LQT"
+					"id": "pHnrIm7yqOm"
 				}
 			],
 			"programStage": {
@@ -55740,10 +55803,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "JJx8jx9Aj8O"
+					"id": "ZNst7WQbH8X"
 				},
 				{
-					"id": "ZNst7WQbH8X"
+					"id": "JJx8jx9Aj8O"
 				}
 			],
 			"programStage": {
@@ -55890,10 +55953,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "Y57wsH6n1XC"
+					"id": "eVJCHTZP3TQ"
 				},
 				{
-					"id": "eVJCHTZP3TQ"
+					"id": "Y57wsH6n1XC"
 				}
 			],
 			"translations": []
@@ -55910,10 +55973,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "fBvEGT3RygF"
+					"id": "CY8AbPIVGFg"
 				},
 				{
-					"id": "CY8AbPIVGFg"
+					"id": "fBvEGT3RygF"
 				}
 			],
 			"translations": []
@@ -56072,10 +56135,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "wYw6A0Asyl0"
+					"id": "Z9msVlJ3NVH"
 				},
 				{
-					"id": "Z9msVlJ3NVH"
+					"id": "wYw6A0Asyl0"
 				}
 			],
 			"programStage": {
@@ -56296,10 +56359,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "qMA2lOtsAm4"
+					"id": "rG7OOUqNAYH"
 				},
 				{
-					"id": "rG7OOUqNAYH"
+					"id": "qMA2lOtsAm4"
 				},
 				{
 					"id": "Y4nN2kKygky"
@@ -56844,13 +56907,13 @@
 			},
 			"programRuleActions": [
 				{
+					"id": "szlz0relRBK"
+				},
+				{
 					"id": "ie8MA05QQLV"
 				},
 				{
 					"id": "TA4tOC2vvI4"
-				},
-				{
-					"id": "szlz0relRBK"
 				},
 				{
 					"id": "fVeoTnGdAlN"
@@ -59213,7 +59276,7 @@
 				"id": "z0j1fZQHoSB"
 			},
 			"id": "Gp3b3QVgH4B",
-			"lastUpdated": "2020-03-09T12:08:41.852",
+			"lastUpdated": "2020-05-28T08:57:22.455",
 			"name": "LAB_LPA_FQ_2LI_MTBC_DETECTED_NEWEST",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -59241,12 +59304,12 @@
 				"id": "Zd7703kfnOC"
 			},
 			"id": "xuSqYhHhasb",
-			"lastUpdated": "2020-03-09T12:08:56.823",
+			"lastUpdated": "2020-05-28T08:57:27.414",
 			"name": "LAB_LPA_RIF_INH_MTBC_DETECTED_NEWEST",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
-			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
 			"useCodeForOptionSet": true
 		},
 		{
@@ -60845,7 +60908,7 @@
 			},
 			"displayInReports": false,
 			"id": "GumZdigpBqn",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60863,7 +60926,7 @@
 			},
 			"displayInReports": false,
 			"id": "isVUu91N8DR",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60881,7 +60944,7 @@
 			},
 			"displayInReports": false,
 			"id": "PUSxFStqJjp",
-			"lastUpdated": "2020-05-20T09:21:45.765",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60899,7 +60962,7 @@
 			},
 			"displayInReports": true,
 			"id": "ESinK9llGNV",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60917,7 +60980,7 @@
 			},
 			"displayInReports": false,
 			"id": "PsPXiU1cK8x",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60935,7 +60998,7 @@
 			},
 			"displayInReports": false,
 			"id": "XGBQRH3Gu9e",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -60953,7 +61016,7 @@
 			},
 			"displayInReports": false,
 			"id": "J1s63oq0KOp",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60971,7 +61034,7 @@
 			},
 			"displayInReports": false,
 			"id": "snaz5rSy1gF",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -60989,7 +61052,7 @@
 			},
 			"displayInReports": false,
 			"id": "TJIJBERlxLi",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61007,7 +61070,7 @@
 			},
 			"displayInReports": false,
 			"id": "Y39d8CskPVk",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61025,7 +61088,7 @@
 			},
 			"displayInReports": false,
 			"id": "uYGYcQZXOn6",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61043,7 +61106,7 @@
 			},
 			"displayInReports": true,
 			"id": "SCI5eOLNd9K",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61061,7 +61124,7 @@
 			},
 			"displayInReports": false,
 			"id": "viD4BckQ8Vv",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61079,7 +61142,7 @@
 			},
 			"displayInReports": false,
 			"id": "pktS0jSSsVb",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61096,7 +61159,7 @@
 			},
 			"displayInReports": false,
 			"id": "cG6ux5wCJbx",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61114,7 +61177,7 @@
 			},
 			"displayInReports": false,
 			"id": "hQUzEFn5LAR",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61132,7 +61195,7 @@
 			},
 			"displayInReports": false,
 			"id": "BYLCrJKGuBx",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61150,7 +61213,7 @@
 			},
 			"displayInReports": false,
 			"id": "D4LC8LF7UJ0",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61168,7 +61231,7 @@
 			},
 			"displayInReports": false,
 			"id": "lf1XrC5AnL0",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61186,7 +61249,7 @@
 			},
 			"displayInReports": false,
 			"id": "NkOPn3vpShT",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61204,7 +61267,7 @@
 			},
 			"displayInReports": false,
 			"id": "bNVu8UrOp4J",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61222,7 +61285,7 @@
 			},
 			"displayInReports": false,
 			"id": "a4lrsD33uaW",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.645",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61240,7 +61303,7 @@
 			},
 			"displayInReports": false,
 			"id": "rsMsaVXD6ZW",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61258,7 +61321,7 @@
 			},
 			"displayInReports": false,
 			"id": "bW0IDG8vPgx",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61276,7 +61339,7 @@
 			},
 			"displayInReports": false,
 			"id": "yS1wAqBizDQ",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61294,7 +61357,7 @@
 			},
 			"displayInReports": false,
 			"id": "KtVg4iyNnyV",
-			"lastUpdated": "2020-05-20T09:21:45.775",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61312,7 +61375,7 @@
 			},
 			"displayInReports": false,
 			"id": "ZO5gK5qFqCe",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61330,7 +61393,7 @@
 			},
 			"displayInReports": false,
 			"id": "NjFmyjn6Pfx",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61348,7 +61411,7 @@
 			},
 			"displayInReports": false,
 			"id": "f5pEvJw4uoK",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61366,7 +61429,7 @@
 			},
 			"displayInReports": false,
 			"id": "YykbxLSR2Pr",
-			"lastUpdated": "2020-05-20T09:21:45.778",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61384,7 +61447,7 @@
 			},
 			"displayInReports": true,
 			"id": "qBZJfj09CcJ",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61402,7 +61465,7 @@
 			},
 			"displayInReports": false,
 			"id": "aTYpl7sfcIJ",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61420,7 +61483,7 @@
 			},
 			"displayInReports": false,
 			"id": "vs7oBL194qz",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61438,7 +61501,7 @@
 			},
 			"displayInReports": false,
 			"id": "TL5ivTYd2hi",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -61456,7 +61519,7 @@
 			},
 			"displayInReports": false,
 			"id": "YqKrXmXsV0f",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61474,7 +61537,7 @@
 			},
 			"displayInReports": false,
 			"id": "fzJeiAUPm8n",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61492,7 +61555,7 @@
 			},
 			"displayInReports": false,
 			"id": "JUyfiMc5E9g",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61510,7 +61573,7 @@
 			},
 			"displayInReports": false,
 			"id": "BLcnKsqltHZ",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61528,7 +61591,7 @@
 			},
 			"displayInReports": false,
 			"id": "crIQsA6ZuIK",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61546,7 +61609,7 @@
 			},
 			"displayInReports": false,
 			"id": "NNuL2yReOWk",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61564,7 +61627,7 @@
 			},
 			"displayInReports": false,
 			"id": "vnBzTewpRwq",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61582,7 +61645,7 @@
 			},
 			"displayInReports": false,
 			"id": "w2QNIveYjHn",
-			"lastUpdated": "2020-05-20T09:21:45.779",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61600,7 +61663,7 @@
 			},
 			"displayInReports": false,
 			"id": "vpsm0d4pn7p",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61618,7 +61681,7 @@
 			},
 			"displayInReports": false,
 			"id": "dI1KZQ4ogIR",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61636,7 +61699,7 @@
 			},
 			"displayInReports": false,
 			"id": "taikWYjHgIz",
-			"lastUpdated": "2020-05-20T09:21:45.778",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61654,7 +61717,7 @@
 			},
 			"displayInReports": false,
 			"id": "CScZ4YoL10s",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61672,7 +61735,7 @@
 			},
 			"displayInReports": false,
 			"id": "M8OulpeuqPD",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61690,7 +61753,7 @@
 			},
 			"displayInReports": false,
 			"id": "qGnOBeCEqGc",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61708,7 +61771,7 @@
 			},
 			"displayInReports": false,
 			"id": "fjOIXMOghCj",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61726,7 +61789,7 @@
 			},
 			"displayInReports": false,
 			"id": "IwyGFQyzZKz",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61744,7 +61807,7 @@
 			},
 			"displayInReports": false,
 			"id": "zcROLJ7H1qS",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61762,7 +61825,7 @@
 			},
 			"displayInReports": false,
 			"id": "UbppJBCWpGR",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61780,7 +61843,7 @@
 			},
 			"displayInReports": false,
 			"id": "Nd8fMyVSUP6",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61798,7 +61861,7 @@
 			},
 			"displayInReports": false,
 			"id": "b7YmGiGsR5t",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61816,7 +61879,7 @@
 			},
 			"displayInReports": false,
 			"id": "PhDMPJSZZpb",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61834,7 +61897,7 @@
 			},
 			"displayInReports": false,
 			"id": "SQcMKMxyvv2",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -61852,7 +61915,7 @@
 			},
 			"displayInReports": true,
 			"id": "oO77vNanhEt",
-			"lastUpdated": "2020-05-20T09:21:45.779",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61870,7 +61933,7 @@
 			},
 			"displayInReports": false,
 			"id": "T0x1skhJYBe",
-			"lastUpdated": "2020-05-20T09:21:45.779",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61888,7 +61951,7 @@
 			},
 			"displayInReports": false,
 			"id": "sbukQPXIw8d",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61906,7 +61969,7 @@
 			},
 			"displayInReports": false,
 			"id": "dWn3qQgNPQu",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61924,7 +61987,7 @@
 			},
 			"displayInReports": false,
 			"id": "gOCKo3C8DwU",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61942,7 +62005,7 @@
 			},
 			"displayInReports": false,
 			"id": "LY7BhWLcKxi",
-			"lastUpdated": "2020-05-20T09:21:45.778",
+			"lastUpdated": "2020-05-28T08:16:05.654",
 			"programStage": {
 				"id": "UZn8sMwz7Nm"
 			},
@@ -61959,7 +62022,7 @@
 			},
 			"displayInReports": false,
 			"id": "z03JmCD5hep",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61977,7 +62040,7 @@
 			},
 			"displayInReports": true,
 			"id": "xceJq4633XW",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -61995,7 +62058,7 @@
 			},
 			"displayInReports": false,
 			"id": "RtbOLe9Ob52",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62013,7 +62076,7 @@
 			},
 			"displayInReports": false,
 			"id": "vP2TSiEOssB",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62031,7 +62094,7 @@
 			},
 			"displayInReports": true,
 			"id": "LOghFQrxQzT",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62049,7 +62112,7 @@
 			},
 			"displayInReports": false,
 			"id": "SVfIN7ifoqs",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62067,7 +62130,7 @@
 			},
 			"displayInReports": false,
 			"id": "EA8WLoVEyLe",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62085,7 +62148,7 @@
 			},
 			"displayInReports": false,
 			"id": "TT0O32DtXti",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62103,7 +62166,7 @@
 			},
 			"displayInReports": false,
 			"id": "YJv4u9UMB8l",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62121,7 +62184,7 @@
 			},
 			"displayInReports": false,
 			"id": "obLdjB870Ov",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62139,7 +62202,7 @@
 			},
 			"displayInReports": false,
 			"id": "UjlT5j3OZxu",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.645",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62157,7 +62220,7 @@
 			},
 			"displayInReports": false,
 			"id": "IuVQDN9NXfa",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62175,7 +62238,7 @@
 			},
 			"displayInReports": false,
 			"id": "ghQFJOOjy5u",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62193,7 +62256,7 @@
 			},
 			"displayInReports": false,
 			"id": "Wn5AM7cUPNs",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62211,7 +62274,7 @@
 			},
 			"displayInReports": true,
 			"id": "HL1GarpV1xL",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62229,7 +62292,7 @@
 			},
 			"displayInReports": false,
 			"id": "YYnVnsWD1Ma",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62247,7 +62310,7 @@
 			},
 			"displayInReports": false,
 			"id": "ihVEErUOTDT",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -62265,7 +62328,7 @@
 			},
 			"displayInReports": false,
 			"id": "kdWlJAU2zpp",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62283,7 +62346,7 @@
 			},
 			"displayInReports": false,
 			"id": "XKTwVlB05We",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62301,7 +62364,7 @@
 			},
 			"displayInReports": false,
 			"id": "z5xJwORm0SC",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62319,7 +62382,7 @@
 			},
 			"displayInReports": false,
 			"id": "RJ8aNzm2kML",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62337,7 +62400,7 @@
 			},
 			"displayInReports": false,
 			"id": "G31Vbi2jzBc",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62355,7 +62418,7 @@
 			},
 			"displayInReports": false,
 			"id": "GyguzQx38cu",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62373,7 +62436,7 @@
 			},
 			"displayInReports": false,
 			"id": "dErmwq5uEx0",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62391,7 +62454,7 @@
 			},
 			"displayInReports": false,
 			"id": "MI1Y2gT3rhI",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62409,7 +62472,7 @@
 			},
 			"displayInReports": true,
 			"id": "pRXUzzYdzqk",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62427,7 +62490,7 @@
 			},
 			"displayInReports": false,
 			"id": "rULBVyKVp5G",
-			"lastUpdated": "2020-05-20T09:21:45.775",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62445,7 +62508,7 @@
 			},
 			"displayInReports": false,
 			"id": "q3Ug8d5q7rP",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62463,7 +62526,7 @@
 			},
 			"displayInReports": false,
 			"id": "XprE0aWGj0H",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62481,7 +62544,7 @@
 			},
 			"displayInReports": false,
 			"id": "C3POKnwqjwF",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62499,7 +62562,7 @@
 			},
 			"displayInReports": false,
 			"id": "A4Q3so5GPoX",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62517,7 +62580,7 @@
 			},
 			"displayInReports": false,
 			"id": "AX2ZOb2yVgb",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62535,7 +62598,7 @@
 			},
 			"displayInReports": false,
 			"id": "ddr5OE5l439",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62553,7 +62616,7 @@
 			},
 			"displayInReports": false,
 			"id": "yQLEk52IBt4",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62571,7 +62634,7 @@
 			},
 			"displayInReports": false,
 			"id": "NVH3h61h2lT",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62589,7 +62652,7 @@
 			},
 			"displayInReports": false,
 			"id": "PMNeOTrHNnm",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62607,7 +62670,7 @@
 			},
 			"displayInReports": true,
 			"id": "ZbBbA3Y39Bk",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62625,7 +62688,7 @@
 			},
 			"displayInReports": false,
 			"id": "Sy4QNa7QmTz",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62643,7 +62706,7 @@
 			},
 			"displayInReports": false,
 			"id": "d5Bi6j5V9Tl",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62661,7 +62724,7 @@
 			},
 			"displayInReports": false,
 			"id": "crzcFU5KOi4",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -62679,7 +62742,7 @@
 			},
 			"displayInReports": false,
 			"id": "AAwSc8boNvU",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62697,7 +62760,7 @@
 			},
 			"displayInReports": false,
 			"id": "vtWInIi6JwI",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62715,7 +62778,7 @@
 			},
 			"displayInReports": false,
 			"id": "OQtAl3OokzD",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62733,7 +62796,7 @@
 			},
 			"displayInReports": false,
 			"id": "RQCGbuF6Ach",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62751,7 +62814,7 @@
 			},
 			"displayInReports": false,
 			"id": "q3Ih2c5zdOO",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62769,7 +62832,7 @@
 			},
 			"displayInReports": false,
 			"id": "IrAmnUpdofy",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62787,7 +62850,7 @@
 			},
 			"displayInReports": false,
 			"id": "TUwJuRDWNbs",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62805,7 +62868,7 @@
 			},
 			"displayInReports": false,
 			"id": "xRUlcD1yhez",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62823,7 +62886,7 @@
 			},
 			"displayInReports": false,
 			"id": "xcV77tMlpuC",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62841,7 +62904,7 @@
 			},
 			"displayInReports": false,
 			"id": "yPLfQPnPS0l",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62859,7 +62922,7 @@
 			},
 			"displayInReports": true,
 			"id": "d51asOoku6v",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62877,7 +62940,7 @@
 			},
 			"displayInReports": false,
 			"id": "kjHUTVKV0gH",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62895,7 +62958,7 @@
 			},
 			"displayInReports": false,
 			"id": "PQ7nwvi6PGG",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62913,7 +62976,7 @@
 			},
 			"displayInReports": false,
 			"id": "PfH7TorctgP",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62931,7 +62994,7 @@
 			},
 			"displayInReports": false,
 			"id": "WUKx9QwNVd4",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62949,7 +63012,7 @@
 			},
 			"displayInReports": false,
 			"id": "fex9SHVEO2A",
-			"lastUpdated": "2020-05-20T09:21:45.778",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -62966,7 +63029,7 @@
 			},
 			"displayInReports": false,
 			"id": "k4KZWTfHvJb",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -62984,7 +63047,7 @@
 			},
 			"displayInReports": false,
 			"id": "Pp3F07GYT5V",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63002,7 +63065,7 @@
 			},
 			"displayInReports": false,
 			"id": "cYxDIgqbKVt",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63020,7 +63083,7 @@
 			},
 			"displayInReports": false,
 			"id": "CHeCKGPyBM9",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63038,7 +63101,7 @@
 			},
 			"displayInReports": false,
 			"id": "fDJ70m4erC3",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63056,7 +63119,7 @@
 			},
 			"displayInReports": false,
 			"id": "YVbDQ3eEz48",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63074,7 +63137,7 @@
 			},
 			"displayInReports": true,
 			"id": "W7dLjuqajbi",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63092,7 +63155,7 @@
 			},
 			"displayInReports": false,
 			"id": "n0WwZzsxPqF",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63110,7 +63173,7 @@
 			},
 			"displayInReports": false,
 			"id": "e61RowZmVoL",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63128,7 +63191,7 @@
 			},
 			"displayInReports": false,
 			"id": "tL1LYuIMwhR",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63146,7 +63209,7 @@
 			},
 			"displayInReports": false,
 			"id": "jCHkYiY1Msi",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63164,7 +63227,7 @@
 			},
 			"displayInReports": false,
 			"id": "A3JISKvcznv",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63182,7 +63245,7 @@
 			},
 			"displayInReports": false,
 			"id": "KEfSC4hfoEe",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63200,7 +63263,7 @@
 			},
 			"displayInReports": false,
 			"id": "L3juuI4NiTX",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -63218,7 +63281,7 @@
 			},
 			"displayInReports": false,
 			"id": "lHOWt2nktL9",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.645",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63236,7 +63299,7 @@
 			},
 			"displayInReports": false,
 			"id": "rfvjAS9tdvm",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63254,7 +63317,7 @@
 			},
 			"displayInReports": false,
 			"id": "mF1OIISUsxg",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63272,7 +63335,7 @@
 			},
 			"displayInReports": false,
 			"id": "H0Ak9ye3gB2",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63290,7 +63353,7 @@
 			},
 			"displayInReports": false,
 			"id": "qpbgPpoNwHM",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.645",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63308,7 +63371,7 @@
 			},
 			"displayInReports": false,
 			"id": "crzYT6D3vEE",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63326,7 +63389,7 @@
 			},
 			"displayInReports": false,
 			"id": "KwyZGdVZA6b",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63344,7 +63407,7 @@
 			},
 			"displayInReports": false,
 			"id": "dQ6EIHF8ffc",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63362,7 +63425,7 @@
 			},
 			"displayInReports": true,
 			"id": "DBa1tJAHlmq",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63380,7 +63443,7 @@
 			},
 			"displayInReports": false,
 			"id": "EbTFZmPv6jj",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63398,7 +63461,7 @@
 			},
 			"displayInReports": false,
 			"id": "V6l1TgAAyYn",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63416,7 +63479,7 @@
 			},
 			"displayInReports": false,
 			"id": "Qe8dppjr9L3",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63434,7 +63497,7 @@
 			},
 			"displayInReports": false,
 			"id": "on1ekZsZmWp",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63452,7 +63515,7 @@
 			},
 			"displayInReports": true,
 			"id": "h3b03biGooj",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63470,7 +63533,7 @@
 			},
 			"displayInReports": true,
 			"id": "Y3aGaYzbigj",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63488,7 +63551,7 @@
 			},
 			"displayInReports": false,
 			"id": "LVIV4f8Cb1z",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63506,7 +63569,7 @@
 			},
 			"displayInReports": false,
 			"id": "tqsFU7DU9Hh",
-			"lastUpdated": "2020-05-20T09:21:45.773",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63524,7 +63587,7 @@
 			},
 			"displayInReports": false,
 			"id": "TavtNoV2I4T",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63542,7 +63605,7 @@
 			},
 			"displayInReports": false,
 			"id": "CTykgUe3axt",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63560,7 +63623,7 @@
 			},
 			"displayInReports": false,
 			"id": "Zxz0Uex7CTF",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63578,7 +63641,7 @@
 			},
 			"displayInReports": false,
 			"id": "kIMXnCMdcjh",
-			"lastUpdated": "2020-05-20T09:21:45.776",
+			"lastUpdated": "2020-05-28T08:16:05.652",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63596,7 +63659,7 @@
 			},
 			"displayInReports": false,
 			"id": "wz9g1qS88Lk",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63614,7 +63677,7 @@
 			},
 			"displayInReports": false,
 			"id": "SoyHUrOcllY",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63632,7 +63695,7 @@
 			},
 			"displayInReports": false,
 			"id": "cdxegWrcida",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63650,7 +63713,7 @@
 			},
 			"displayInReports": true,
 			"id": "lpLAgrGJfFW",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63668,7 +63731,7 @@
 			},
 			"displayInReports": false,
 			"id": "mJ8rjQzCKu4",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -63686,7 +63749,7 @@
 			},
 			"displayInReports": false,
 			"id": "h6DGhTgOxhI",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -63704,7 +63767,7 @@
 			},
 			"displayInReports": false,
 			"id": "rPaqYMXd0Xy",
-			"lastUpdated": "2020-05-20T09:21:45.777",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
@@ -63722,7 +63785,7 @@
 			},
 			"displayInReports": false,
 			"id": "Kh6byRpCMxJ",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63740,7 +63803,7 @@
 			},
 			"displayInReports": false,
 			"id": "xyizmfOrkYO",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63758,7 +63821,7 @@
 			},
 			"displayInReports": false,
 			"id": "YQKy3W1PAI9",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63776,7 +63839,7 @@
 			},
 			"displayInReports": true,
 			"id": "D9VfLxL0htG",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63794,7 +63857,7 @@
 			},
 			"displayInReports": false,
 			"id": "orf4j9rwynL",
-			"lastUpdated": "2020-05-20T09:21:45.763",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63812,7 +63875,7 @@
 			},
 			"displayInReports": true,
 			"id": "fcU2NKymimc",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63830,7 +63893,7 @@
 			},
 			"displayInReports": false,
 			"id": "IcIV9tHs17q",
-			"lastUpdated": "2020-05-20T09:21:45.772",
+			"lastUpdated": "2020-05-28T08:16:05.649",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63848,7 +63911,7 @@
 			},
 			"displayInReports": false,
 			"id": "NO5NDkF3qK8",
-			"lastUpdated": "2020-05-20T09:21:45.771",
+			"lastUpdated": "2020-05-28T08:16:05.648",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63866,7 +63929,7 @@
 			},
 			"displayInReports": true,
 			"id": "Vc7rxY52wGh",
-			"lastUpdated": "2020-05-20T09:21:45.764",
+			"lastUpdated": "2020-05-28T08:16:05.646",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63884,7 +63947,7 @@
 			},
 			"displayInReports": false,
 			"id": "snd0iscq2wd",
-			"lastUpdated": "2020-05-20T09:21:45.770",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63902,7 +63965,7 @@
 			},
 			"displayInReports": false,
 			"id": "i4IYI61CBEd",
-			"lastUpdated": "2020-05-20T09:21:45.762",
+			"lastUpdated": "2020-05-28T08:16:05.645",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63920,7 +63983,7 @@
 			},
 			"displayInReports": false,
 			"id": "PJK2FuDuCWL",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -63938,7 +64001,7 @@
 			},
 			"displayInReports": false,
 			"id": "Hlimit05sQM",
-			"lastUpdated": "2020-05-20T09:21:45.774",
+			"lastUpdated": "2020-05-28T08:16:05.650",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -63956,7 +64019,7 @@
 			},
 			"displayInReports": false,
 			"id": "rWBJTmAVA8Z",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"programStage": {
 				"id": "ODD4lMPm0JX"
 			},
@@ -63974,7 +64037,7 @@
 			},
 			"displayInReports": false,
 			"id": "QzOlk26Jj5Q",
-			"lastUpdated": "2020-05-20T09:21:45.769",
+			"lastUpdated": "2020-05-28T08:16:05.647",
 			"programStage": {
 				"id": "mPdMZNWVrOQ"
 			},
@@ -64001,7 +64064,7 @@
 			"generatedByEnrollmentDate": true,
 			"hideDueDate": true,
 			"id": "mPdMZNWVrOQ",
-			"lastUpdated": "2020-05-20T09:21:45.760",
+			"lastUpdated": "2020-05-28T08:16:05.643",
 			"minDaysFromStart": 0,
 			"name": "Laboratory Results",
 			"notificationTemplates": [],
@@ -64033,7 +64096,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Qe8dppjr9L3",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64066,7 +64129,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tqsFU7DU9Hh",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64099,7 +64162,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "WUKx9QwNVd4",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64132,7 +64195,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "kdWlJAU2zpp",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64165,7 +64228,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "crzYT6D3vEE",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64198,7 +64261,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "n0WwZzsxPqF",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64231,7 +64294,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "b7YmGiGsR5t",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64264,7 +64327,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CHeCKGPyBM9",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64297,7 +64360,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "mF1OIISUsxg",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64330,7 +64393,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hQUzEFn5LAR",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64363,7 +64426,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "z5xJwORm0SC",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64396,7 +64459,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "A3JISKvcznv",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64429,7 +64492,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Sy4QNa7QmTz",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64462,7 +64525,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YqKrXmXsV0f",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64495,7 +64558,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NVH3h61h2lT",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64528,7 +64591,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "AAwSc8boNvU",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64561,7 +64624,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xceJq4633XW",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64594,7 +64657,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tL1LYuIMwhR",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64627,7 +64690,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xyizmfOrkYO",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64660,7 +64723,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "BYLCrJKGuBx",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64693,7 +64756,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gOCKo3C8DwU",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64726,7 +64789,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PQ7nwvi6PGG",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64759,7 +64822,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "uYGYcQZXOn6",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64792,7 +64855,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "EbTFZmPv6jj",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64825,7 +64888,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "D9VfLxL0htG",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64858,7 +64921,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ddr5OE5l439",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64891,7 +64954,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "snd0iscq2wd",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64924,7 +64987,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "A4Q3so5GPoX",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64957,7 +65020,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RJ8aNzm2kML",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -64990,7 +65053,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "k4KZWTfHvJb",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65023,7 +65086,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Wn5AM7cUPNs",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65056,7 +65119,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NO5NDkF3qK8",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65089,7 +65152,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "SoyHUrOcllY",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65122,7 +65185,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YQKy3W1PAI9",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65155,7 +65218,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "GumZdigpBqn",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65188,7 +65251,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "SVfIN7ifoqs",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65221,7 +65284,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "on1ekZsZmWp",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65254,7 +65317,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "sbukQPXIw8d",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65287,7 +65350,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "LOghFQrxQzT",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65320,7 +65383,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "HL1GarpV1xL",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65353,7 +65416,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IuVQDN9NXfa",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65386,7 +65449,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ghQFJOOjy5u",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65419,7 +65482,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "OQtAl3OokzD",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65452,7 +65515,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PMNeOTrHNnm",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65485,7 +65548,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "yPLfQPnPS0l",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65518,7 +65581,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PhDMPJSZZpb",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65551,7 +65614,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fDJ70m4erC3",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65584,7 +65647,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CTykgUe3axt",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65617,7 +65680,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Vc7rxY52wGh",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65650,7 +65713,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "J1s63oq0KOp",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65683,7 +65746,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "d51asOoku6v",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65716,7 +65779,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "LVIV4f8Cb1z",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65749,7 +65812,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TT0O32DtXti",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65782,7 +65845,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fcU2NKymimc",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65815,7 +65878,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "lf1XrC5AnL0",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65848,7 +65911,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "XKTwVlB05We",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65881,7 +65944,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dWn3qQgNPQu",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65914,7 +65977,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Pp3F07GYT5V",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65947,7 +66010,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "a4lrsD33uaW",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.645",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -65980,7 +66043,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "H0Ak9ye3gB2",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66013,7 +66076,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "z03JmCD5hep",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66046,7 +66109,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "G31Vbi2jzBc",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66079,7 +66142,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "GyguzQx38cu",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66112,7 +66175,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cdxegWrcida",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66145,7 +66208,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RtbOLe9Ob52",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66178,7 +66241,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "zcROLJ7H1qS",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66211,7 +66274,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "lHOWt2nktL9",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.645",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66244,7 +66307,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "MI1Y2gT3rhI",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66277,7 +66340,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IrAmnUpdofy",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66310,7 +66373,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "lpLAgrGJfFW",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66343,7 +66406,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "W7dLjuqajbi",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66376,7 +66439,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ESinK9llGNV",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66409,7 +66472,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "orf4j9rwynL",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66442,7 +66505,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cYxDIgqbKVt",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66475,7 +66538,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vpsm0d4pn7p",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66508,7 +66571,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NNuL2yReOWk",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66541,7 +66604,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "KwyZGdVZA6b",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66574,7 +66637,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PfH7TorctgP",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66607,7 +66670,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "d5Bi6j5V9Tl",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66640,7 +66703,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "UbppJBCWpGR",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66673,7 +66736,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "qpbgPpoNwHM",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.645",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66706,7 +66769,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Nd8fMyVSUP6",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66739,7 +66802,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "viD4BckQ8Vv",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66772,7 +66835,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aTYpl7sfcIJ",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66805,7 +66868,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "BLcnKsqltHZ",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66838,7 +66901,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PUSxFStqJjp",
-					"lastUpdated": "2020-05-20T09:21:45.765",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66871,7 +66934,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "wz9g1qS88Lk",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66904,7 +66967,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vP2TSiEOssB",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66937,7 +67000,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Kh6byRpCMxJ",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -66970,7 +67033,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Zxz0Uex7CTF",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67003,7 +67066,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Hlimit05sQM",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67036,7 +67099,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IcIV9tHs17q",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67069,7 +67132,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CScZ4YoL10s",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67102,7 +67165,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NjFmyjn6Pfx",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67135,7 +67198,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "kjHUTVKV0gH",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67168,7 +67231,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vnBzTewpRwq",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67201,7 +67264,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "JUyfiMc5E9g",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67234,7 +67297,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fzJeiAUPm8n",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67267,7 +67330,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "DBa1tJAHlmq",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67300,7 +67363,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vs7oBL194qz",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67333,7 +67396,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YJv4u9UMB8l",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67366,7 +67429,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "UjlT5j3OZxu",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.645",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67399,7 +67462,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "isVUu91N8DR",
-					"lastUpdated": "2020-05-20T09:21:45.770",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67432,7 +67495,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TUwJuRDWNbs",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67465,7 +67528,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "h3b03biGooj",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67498,7 +67561,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "yS1wAqBizDQ",
-					"lastUpdated": "2020-05-20T09:21:45.774",
+					"lastUpdated": "2020-05-28T08:16:05.650",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67531,7 +67594,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "obLdjB870Ov",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67564,7 +67627,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "i4IYI61CBEd",
-					"lastUpdated": "2020-05-20T09:21:45.762",
+					"lastUpdated": "2020-05-28T08:16:05.645",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67597,7 +67660,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "yQLEk52IBt4",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67630,7 +67693,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xRUlcD1yhez",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67663,7 +67726,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RQCGbuF6Ach",
-					"lastUpdated": "2020-05-20T09:21:45.771",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67696,7 +67759,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "q3Ug8d5q7rP",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67729,7 +67792,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "QzOlk26Jj5Q",
-					"lastUpdated": "2020-05-20T09:21:45.769",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67762,7 +67825,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZbBbA3Y39Bk",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67795,7 +67858,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "snaz5rSy1gF",
-					"lastUpdated": "2020-05-20T09:21:45.772",
+					"lastUpdated": "2020-05-28T08:16:05.648",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67828,7 +67891,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fjOIXMOghCj",
-					"lastUpdated": "2020-05-20T09:21:45.773",
+					"lastUpdated": "2020-05-28T08:16:05.649",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67861,7 +67924,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PsPXiU1cK8x",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67894,7 +67957,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "jCHkYiY1Msi",
-					"lastUpdated": "2020-05-20T09:21:45.764",
+					"lastUpdated": "2020-05-28T08:16:05.647",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67927,7 +67990,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "pRXUzzYdzqk",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -67960,7 +68023,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TJIJBERlxLi",
-					"lastUpdated": "2020-05-20T09:21:45.763",
+					"lastUpdated": "2020-05-28T08:16:05.646",
 					"programStage": {
 						"id": "mPdMZNWVrOQ"
 					},
@@ -68089,7 +68152,7 @@
 			"generatedByEnrollmentDate": true,
 			"hideDueDate": false,
 			"id": "UZn8sMwz7Nm",
-			"lastUpdated": "2020-05-20T09:21:45.778",
+			"lastUpdated": "2020-05-28T08:16:05.653",
 			"minDaysFromStart": 180,
 			"name": "Outcome",
 			"notificationTemplates": [],
@@ -68121,7 +68184,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "oO77vNanhEt",
-					"lastUpdated": "2020-05-20T09:21:45.779",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68154,7 +68217,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "taikWYjHgIz",
-					"lastUpdated": "2020-05-20T09:21:45.778",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68187,7 +68250,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "w2QNIveYjHn",
-					"lastUpdated": "2020-05-20T09:21:45.779",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68220,7 +68283,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "T0x1skhJYBe",
-					"lastUpdated": "2020-05-20T09:21:45.779",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68253,7 +68316,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YykbxLSR2Pr",
-					"lastUpdated": "2020-05-20T09:21:45.778",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68286,7 +68349,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "LY7BhWLcKxi",
-					"lastUpdated": "2020-05-20T09:21:45.778",
+					"lastUpdated": "2020-05-28T08:16:05.654",
 					"programStage": {
 						"id": "UZn8sMwz7Nm"
 					},
@@ -68391,7 +68454,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": true,
 			"id": "ODD4lMPm0JX",
-			"lastUpdated": "2020-05-20T09:21:45.758",
+			"lastUpdated": "2020-05-28T08:16:05.641",
 			"minDaysFromStart": 0,
 			"name": "TB Registration",
 			"notificationTemplates": [],
@@ -68423,7 +68486,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "qBZJfj09CcJ",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68459,7 +68522,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "SCI5eOLNd9K",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68495,7 +68558,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bW0IDG8vPgx",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68531,7 +68594,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NkOPn3vpShT",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68567,7 +68630,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rWBJTmAVA8Z",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68603,7 +68666,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "h6DGhTgOxhI",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68639,7 +68702,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cG6ux5wCJbx",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"lastUpdatedBy": {
 						"id": "eRSXu5h8eDN"
 					},
@@ -68675,7 +68738,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "crzcFU5KOi4",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68708,7 +68771,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PJK2FuDuCWL",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68741,7 +68804,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "L3juuI4NiTX",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68774,7 +68837,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TL5ivTYd2hi",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68807,7 +68870,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ihVEErUOTDT",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68840,7 +68903,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "mJ8rjQzCKu4",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68873,7 +68936,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rsMsaVXD6ZW",
-					"lastUpdated": "2020-05-20T09:21:45.760",
+					"lastUpdated": "2020-05-28T08:16:05.643",
 					"programStage": {
 						"id": "ODD4lMPm0JX"
 					},
@@ -68948,10 +69011,10 @@
 			"executionDateLabel": "Date of treatment initiation",
 			"featureType": "NONE",
 			"generatedByEnrollmentDate": true,
-			"hideDueDate": false,
+			"hideDueDate": true,
 			"id": "RB3a5MXMe8g",
-			"lastUpdated": "2020-05-20T09:21:45.774",
-			"minDaysFromStart": 0,
+			"lastUpdated": "2020-05-28T08:16:05.650",
+			"minDaysFromStart": 7,
 			"name": "Treatment",
 			"notificationTemplates": [],
 			"openAfterEnrollment": false,
@@ -68982,7 +69045,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Y3aGaYzbigj",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69015,7 +69078,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bNVu8UrOp4J",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69048,7 +69111,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YYnVnsWD1Ma",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69081,7 +69144,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "q3Ih2c5zdOO",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69114,7 +69177,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "XprE0aWGj0H",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69147,7 +69210,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "V6l1TgAAyYn",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69180,7 +69243,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xcV77tMlpuC",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69213,7 +69276,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "kIMXnCMdcjh",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69246,7 +69309,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "SQcMKMxyvv2",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69279,7 +69342,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "e61RowZmVoL",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69312,7 +69375,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dI1KZQ4ogIR",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69345,7 +69408,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "M8OulpeuqPD",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69378,7 +69441,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "YVbDQ3eEz48",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69411,7 +69474,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "D4LC8LF7UJ0",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69444,7 +69507,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dErmwq5uEx0",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69477,7 +69540,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "KEfSC4hfoEe",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69510,7 +69573,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IwyGFQyzZKz",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69543,7 +69606,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rULBVyKVp5G",
-					"lastUpdated": "2020-05-20T09:21:45.775",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69576,7 +69639,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "C3POKnwqjwF",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69609,7 +69672,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "AX2ZOb2yVgb",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69642,7 +69705,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "XGBQRH3Gu9e",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69675,7 +69738,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "KtVg4iyNnyV",
-					"lastUpdated": "2020-05-20T09:21:45.775",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69708,7 +69771,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "crIQsA6ZuIK",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69741,7 +69804,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dQ6EIHF8ffc",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69774,7 +69837,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TavtNoV2I4T",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69807,7 +69870,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "f5pEvJw4uoK",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69840,7 +69903,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "qGnOBeCEqGc",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69873,7 +69936,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vtWInIi6JwI",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69906,7 +69969,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rPaqYMXd0Xy",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69939,7 +70002,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZO5gK5qFqCe",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -69972,7 +70035,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "rfvjAS9tdvm",
-					"lastUpdated": "2020-05-20T09:21:45.776",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -70005,7 +70068,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Y39d8CskPVk",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -70038,7 +70101,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "EA8WLoVEyLe",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -70071,7 +70134,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fex9SHVEO2A",
-					"lastUpdated": "2020-05-20T09:21:45.778",
+					"lastUpdated": "2020-05-28T08:16:05.653",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -70103,7 +70166,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "pktS0jSSsVb",
-					"lastUpdated": "2020-05-20T09:21:45.777",
+					"lastUpdated": "2020-05-28T08:16:05.652",
 					"programStage": {
 						"id": "RB3a5MXMe8g"
 					},
@@ -72861,7 +72924,7 @@
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:29.091",
 			"id": "pyu2ZlNKbzQ",
-			"lastUpdated": "2020-05-26T08:18:35.732",
+			"lastUpdated": "2020-05-27T11:32:02.729",
 			"managedGroups": [],
 			"name": "TB access",
 			"publicAccess": "--------",
