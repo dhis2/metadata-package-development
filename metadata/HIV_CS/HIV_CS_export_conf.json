@@ -1,0 +1,55 @@
+{
+    "export": [
+      {
+        "_basePath": "./HIV_CS/", 
+        "_code": "HIV_CS", 
+        "_name": "HIV Case Surveillance",
+        "_prefix": "[CONFIG]",
+        "_ownership": {
+          "modeOwner": "OVERWRITE",
+          "modeLastUpdated": "REMOVE",
+          "ownerId": "vUeLeQMSwhN"
+        },
+        "_sharing": {
+          "groupMode": "OVERWRITE",
+          "groups": [
+            {
+              "id": "pm1eqD1fqwx",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "groupExport": true,
+          "userMode": "REMOVE",
+          "users": [
+            {
+              "id": "vUeLeQMSwhN",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "userExport": false,
+          "publicAccess": {
+            "metadata": "NONE",
+            "data": "NONE"
+          }
+        },
+        "_type": "tracker", 
+        "_url": [
+          "https://who-dev.dhis2.org/tracker_dev"
+        ], 
+        "_version": "1.0.0",
+        "dataElementGroupIds": [
+          "pGlRt4xB9rz"
+        ],
+        "exportIndicatorGroupsIds": [], 
+        "indicatorGroupIds": [],
+        "programIndicatorGroupIds": [
+          "KKvBWmeIsvN"
+        ],
+        "programIds": [
+          "Xh88p1nyefp"
+        ]
+      }
+    ]
+  }

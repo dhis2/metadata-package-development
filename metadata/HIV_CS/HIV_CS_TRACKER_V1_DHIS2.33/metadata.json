@@ -1,0 +1,7977 @@
+{
+	"categories": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.772",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "GLevLNI9wkl",
+			"lastUpdated": "2020-06-05T05:58:31.589",
+			"name": "default",
+			"publicAccess": "--------",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"categoryCombos": [
+		{
+			"categories": [
+				{
+					"id": "GLevLNI9wkl"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.779",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bjDvmb4bfuf",
+			"lastUpdated": "2020-03-18T18:16:54.025",
+			"name": "default",
+			"publicAccess": "--------",
+			"skipTotal": false,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"categoryOptionCombos": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.783",
+			"id": "HllvX50cXC0",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-05-07T07:25:33.798",
+			"name": "default",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				}
+			]
+		}
+	],
+	"categoryOptions": [
+		{
+			"attributeValues": [],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.744",
+			"id": "xYerKDKCefk",
+			"lastUpdated": "2020-05-07T07:25:33.984",
+			"name": "default",
+			"organisationUnits": [],
+			"publicAccess": "--------",
+			"shortName": "default",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "default"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "nb",
+					"property": "SHORT_NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "по умолчанию"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"dataElementGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-02-10T13:14:21.848",
+			"dataElements": [
+				{
+					"id": "GCmEFuwLpDN"
+				},
+				{
+					"id": "TQtuEvZ1eF6"
+				},
+				{
+					"id": "F0GpDqqavuI"
+				},
+				{
+					"id": "TmAJxu1XNKh"
+				},
+				{
+					"id": "EZAZ8aIV3kB"
+				},
+				{
+					"id": "vAS6qdqF6Gf"
+				},
+				{
+					"id": "zsM4K8kNPSo"
+				},
+				{
+					"id": "ncsvQhFKcKc"
+				},
+				{
+					"id": "mUMvkV72WQZ"
+				},
+				{
+					"id": "EGjmPoKhHpM"
+				},
+				{
+					"id": "UiX8eZZl3Nt"
+				},
+				{
+					"id": "VjsXqPWaMNN"
+				},
+				{
+					"id": "uiBCTI2XL2m"
+				},
+				{
+					"id": "FRRIujn3jHD"
+				},
+				{
+					"id": "fxXDe8OZ86q"
+				},
+				{
+					"id": "v4K5u8wftrq"
+				},
+				{
+					"id": "Lu4jo7fSTb3"
+				},
+				{
+					"id": "cDt3CvgtlQs"
+				}
+			],
+			"id": "pGlRt4xB9rz",
+			"lastUpdated": "2020-03-18T18:16:13.723",
+			"name": "HIV Case Surveillance",
+			"publicAccess": "--------",
+			"shortName": "HIV case surveillance",
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Эпиднадзор ВИЧ"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Эпиднадзор ВИЧ"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-12T14:59:20.892",
+			"domainType": "TRACKER",
+			"formName": "TB test result/IPT Eligibility if negative",
+			"id": "F0GpDqqavuI",
+			"lastUpdated": "2020-06-05T11:24:07.518",
+			"legendSets": [],
+			"name": "HIV  TPT Eligibility",
+			"optionSet": {
+				"id": "bH53OxRWzdK"
+			},
+			"publicAccess": "--------",
+			"shortName": "delete HIV TPT Eligibility",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-11T08:51:54.766",
+			"domainType": "TRACKER",
+			"formName": "Days of ART provided",
+			"id": "ncsvQhFKcKc",
+			"lastUpdated": "2020-06-05T11:25:08.745",
+			"legendSets": [],
+			"name": "HIV - Days of ART Provided",
+			"publicAccess": "--------",
+			"shortName": "HIV - Days of ARTProvided",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "INTEGER_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-03-19T15:32:50.445",
+			"description": "What is the current status of this PLHIV",
+			"domainType": "TRACKER",
+			"formName": "Treatment Status",
+			"id": "rcUsYgOnlyF",
+			"lastUpdated": "2020-04-03T10:21:18.721",
+			"legendSets": [],
+			"name": "HIV - Treatment Status",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"publicAccess": "--------",
+			"shortName": "Status",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-04-03T14:02:20.741",
+			"description": "The viral load for this patient is less than 1000",
+			"domainType": "TRACKER",
+			"id": "S4IJiirQVHY",
+			"lastUpdated": "2020-04-03T14:02:20.741",
+			"legendSets": [],
+			"name": "HIV - Viral load <1000",
+			"publicAccess": "--------",
+			"shortName": "Viral load <1000",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T19:52:15.028",
+			"description": "Age when patient was diagnosed with HIV ( Option: Calculate date of HIV positive date -date og Birth)",
+			"domainType": "TRACKER",
+			"formName": "Age when diagnosed with HIV",
+			"id": "zsM4K8kNPSo",
+			"lastUpdated": "2020-02-10T19:52:15.028",
+			"legendSets": [],
+			"name": "HIV Age at Diagnosis",
+			"publicAccess": "--------",
+			"shortName": "HIV Age at Diagnosis",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:14:37.201",
+			"description": "ARV Regimen Type ",
+			"domainType": "TRACKER",
+			"formName": "ARV regimen ",
+			"id": "GCmEFuwLpDN",
+			"lastUpdated": "2020-03-03T10:33:06.496",
+			"legendSets": [],
+			"name": "HIV ARV Regimen Type",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"publicAccess": "--------",
+			"shortName": "ARV Regimen Type",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-03-30T12:03:28.632",
+			"description": "Date when the patient began their ART treatment for the first time ",
+			"domainType": "TRACKER",
+			"formName": "Date of treatment initiation",
+			"id": "Lv3c5VSA9t3",
+			"lastUpdated": "2020-04-03T10:05:54.795",
+			"legendSets": [],
+			"name": "HIV date of treatment initiation",
+			"publicAccess": "--------",
+			"shortName": "HIV date of ART initiation",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:32:12.527",
+			"description": "HIV Follow-up Method",
+			"domainType": "TRACKER",
+			"formName": "Follow-up Method",
+			"id": "FRRIujn3jHD",
+			"lastUpdated": "2020-02-12T13:19:30.396",
+			"legendSets": [],
+			"name": "HIV Follow-up Method",
+			"optionSet": {
+				"id": "Thh5XshrW4i"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV Follow-up Method",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:34:30.517",
+			"domainType": "TRACKER",
+			"id": "vAS6qdqF6Gf",
+			"lastUpdated": "2020-02-10T20:34:30.517",
+			"legendSets": [],
+			"name": "HIV Follow-up Notes",
+			"publicAccess": "--------",
+			"shortName": "HIV Follow-up Notes",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "LONG_TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:33:56.119",
+			"description": "HIV Follow-Up Outcome",
+			"domainType": "TRACKER",
+			"formName": "Follow-Up Outcome",
+			"id": "uiBCTI2XL2m",
+			"lastUpdated": "2020-02-12T13:19:57.055",
+			"legendSets": [],
+			"name": "HIV Follow-Up Outcome",
+			"optionSet": {
+				"id": "jkgTCobqE43"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV Follow-Up Outcome",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-13T09:26:06.689",
+			"description": "This is the approximate date when this patient will run out of medicine. Set a refill appointment around this date.",
+			"domainType": "TRACKER",
+			"formName": "Last date with ART ",
+			"id": "EGjmPoKhHpM",
+			"lastUpdated": "2020-04-03T10:15:55.138",
+			"legendSets": [],
+			"name": "HIV Last Day With ART",
+			"publicAccess": "--------",
+			"shortName": "HIV last day with ART",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T19:43:40.380",
+			"description": "Date of documented positive HIV test",
+			"domainType": "TRACKER",
+			"formName": "Date of HIV positive test",
+			"id": "fxXDe8OZ86q",
+			"lastUpdated": "2020-02-10T19:43:40.380",
+			"legendSets": [],
+			"name": "HIV Positive Date",
+			"publicAccess": "--------",
+			"shortName": "HIV Positive Date",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-14T11:02:17.889",
+			"description": "What viral load did this patient have on their last visit",
+			"domainType": "TRACKER",
+			"formName": "Previous viral load value",
+			"id": "UiX8eZZl3Nt",
+			"lastUpdated": "2020-03-04T13:39:36.469",
+			"legendSets": [],
+			"name": "HIV Previous Viral Load Value",
+			"publicAccess": "--------",
+			"shortName": "HIV Previous Viral Load Value",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T19:46:08.937",
+			"description": "Probable mode of HIV transmission",
+			"domainType": "TRACKER",
+			"formName": "Probable mode of transmision",
+			"id": "cDt3CvgtlQs",
+			"lastUpdated": "2020-02-10T19:49:51.800",
+			"legendSets": [],
+			"name": "HIV Probable Mode of Transmission",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV probable mode of transmission",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-05-20T07:04:32.503",
+			"domainType": "TRACKER",
+			"formName": "Restart TPT treatment",
+			"id": "Bn9otKySZvP",
+			"lastUpdated": "2020-05-20T07:04:32.503",
+			"legendSets": [],
+			"name": "HIV TPT restart treatment",
+			"publicAccess": "--------",
+			"shortName": "HIV TPT restart treatment",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-04-03T09:00:10.570",
+			"description": "Has this person began their ART treatment?",
+			"domainType": "TRACKER",
+			"formName": "Treatment Started",
+			"id": "c82CE0oy0Nj",
+			"lastUpdated": "2020-04-03T09:00:10.570",
+			"legendSets": [],
+			"name": "HIV Treatment Started",
+			"publicAccess": "--------",
+			"shortName": "HIV treatment started",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "BOOLEAN",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:15:21.835",
+			"description": "HIV Treatment Stop Reason",
+			"domainType": "TRACKER",
+			"formName": "Reason for stopped treatment",
+			"id": "VjsXqPWaMNN",
+			"lastUpdated": "2020-02-11T11:17:56.204",
+			"legendSets": [],
+			"name": "HIV Treatment Stop Reason",
+			"optionSet": {
+				"id": "p4i20eISTFi"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV Treatment Stop Reason",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-04-03T10:50:38.148",
+			"domainType": "TRACKER",
+			"formName": "Viral load status",
+			"id": "LGz6njGUAP6",
+			"lastUpdated": "2020-04-03T10:57:12.537",
+			"legendSets": [],
+			"name": "HIV Viral Load Status",
+			"optionSet": {
+				"id": "ADgTXaBsHFi"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV Viral Load Status",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:13:12.636",
+			"domainType": "TRACKER",
+			"formName": "Viral load test date",
+			"id": "v4K5u8wftrq",
+			"lastUpdated": "2020-03-04T13:39:10.168",
+			"legendSets": [],
+			"name": "HIV Viral Load Test Date",
+			"publicAccess": "--------",
+			"shortName": "HIV Viral Load Test Date ",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:19:27.404",
+			"description": "HIV Viral Load Test Result",
+			"domainType": "TRACKER",
+			"formName": "Viral load test results (entered as a number)",
+			"id": "EZAZ8aIV3kB",
+			"lastUpdated": "2020-02-10T20:19:27.404",
+			"legendSets": [],
+			"name": "HIV Viral Load Test Result",
+			"publicAccess": "--------",
+			"shortName": "HIV Viral Load Test Result",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:07:26.693",
+			"description": "TPT Date Completed",
+			"domainType": "TRACKER",
+			"formName": "TPT date completed",
+			"id": "TQtuEvZ1eF6",
+			"lastUpdated": "2020-03-04T13:44:18.866",
+			"legendSets": [],
+			"name": "TPT Date Completed",
+			"publicAccess": "--------",
+			"shortName": "TPT Date Completed",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:02:18.564",
+			"description": "TPT Date Eligible",
+			"domainType": "TRACKER",
+			"formName": "Date deemed eligible for TPT",
+			"id": "TmAJxu1XNKh",
+			"lastUpdated": "2020-02-11T14:30:34.182",
+			"legendSets": [],
+			"name": "TPT Date Eligible",
+			"publicAccess": "--------",
+			"shortName": "TPT Date Eligible",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:03:13.455",
+			"description": "TBT Date Initiated",
+			"domainType": "TRACKER",
+			"formName": "TPT date initiated",
+			"id": "Lu4jo7fSTb3",
+			"lastUpdated": "2020-04-06T21:05:39.504",
+			"legendSets": [],
+			"name": "TPT Date Initiated",
+			"publicAccess": "--------",
+			"shortName": "TPT Date Initiated",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "DATE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-26T16:24:02.739",
+			"domainType": "TRACKER",
+			"formName": "This patient is eligible for TPT",
+			"id": "HYEdbJEeJbz",
+			"lastUpdated": "2020-02-26T16:24:02.739",
+			"legendSets": [],
+			"name": "TPT Eligibility",
+			"publicAccess": "--------",
+			"shortName": "TPT Eligibility",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TRUE_ONLY",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-02-10T20:06:56.213",
+			"description": "TPT Regimen",
+			"domainType": "TRACKER",
+			"formName": "TPT regimen",
+			"id": "mUMvkV72WQZ",
+			"lastUpdated": "2020-03-04T13:44:07.850",
+			"legendSets": [],
+			"name": "TPT Regimen",
+			"optionSet": {
+				"id": "sE3uCjDohG9"
+			},
+			"publicAccess": "--------",
+			"shortName": "TPT Regimen",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		}
+	],
+	"dataEntryForms": [
+		{
+			"created": "2020-02-13T09:27:29.184",
+			"format": 0,
+			"id": "rvLyxsyBGRe",
+			"lastUpdated": "2020-02-13T09:27:29.184",
+			"name": "Visit",
+			"translations": []
+		}
+	],
+	"options": [
+		{
+			"attributeValues": [],
+			"code": "1a - TDF-3TC-EFV",
+			"created": "2017-11-27T16:48:51.627",
+			"id": "bYzbkRadHoo",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "1a - TDF-3TC-EFV",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1b - AZT-3TC-EFV",
+			"created": "2017-11-27T16:48:51.627",
+			"id": "MwiuvILhZdu",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "1b - AZT-3TC-EFV",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1c - AZT-3TC-NVP",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "ZWBOFD5pxzx",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "1c - AZT-3TC-NVP",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1d - ABC+3TC+EFV",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "XhJcmOG6Hmx",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "1d - ABC+3TC+EFV",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1e - AZT-3TC-ABC",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "L7smdVlJUIV",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "1e - AZT-3TC-ABC",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1f - TDF/3TC+NVP",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "TAfcuGxh6j3",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "1f - TDF/3TC+NVP",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "1g - Others",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "Yt0rT4BqmL8",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "1g - Others",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 7,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2a - TDF-3TC-LPVr",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "KMxwCPSxmYB",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "2a - TDF-3TC-LPVr",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2b - TDF-3TC-ATVr",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "eMmdxJMdOQd",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "2b - TDF-3TC-ATVr",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 9,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2c - AZT-3TC-LPVr",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "X2pzDTLoBw9",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "2c - AZT-3TC-LPVr",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 10,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2d - AZT-3TC-ATVr",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "q6BRYeJBxql",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "2d - AZT-3TC-ATVr",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 11,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2e - ABC+3TC+LPV/r",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "WPK3mlTWb17",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "2e - ABC+3TC+LPV/r",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 12,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "2f - ABC+3TC+ATV/r",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "G9T1FtOu2W6",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "2f - ABC+3TC+ATV/r",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 13,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4a - AZT-3TC-EFV",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "uMbz8JguPi2",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "4a - AZT-3TC-EFV",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 14,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4b - AZT-3TC-NVP",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "B06Y3jQUioh",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "4b - AZT-3TC-NVP",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 15,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4d - AZT+3TC+LPV/r",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "oGwzHzmnxR6",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "4d - AZT+3TC+LPV/r",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 17,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "4d - TDF+3TC+EFV",
+			"created": "2017-11-27T16:48:51.628",
+			"id": "ykeTtpx59vJ",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "4d - TDF+3TC+EFV",
+			"optionSet": {
+				"id": "i1ZlYkC3v1Z"
+			},
+			"sortOrder": 16,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "CHANGE_STATUS",
+			"created": "2020-05-04T19:09:26.434",
+			"id": "TJxE0W2rXdk",
+			"lastUpdated": "2020-05-04T19:09:26.496",
+			"name": "Change in patient status ",
+			"optionSet": {
+				"id": "jkgTCobqE43"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Commercial_Sex",
+			"created": "2020-05-15T11:04:44.930",
+			"id": "ucraupxnXY5",
+			"lastUpdated": "2020-05-15T11:04:44.975",
+			"name": "Commercial sex",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "DEAD",
+			"created": "2020-03-19T15:33:59.710",
+			"id": "WeEyIMERboR",
+			"lastUpdated": "2020-03-19T15:34:00.232",
+			"name": "Dead",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "DEAD",
+			"created": "2020-02-11T11:15:01.104",
+			"id": "aVYyY4teKWr",
+			"lastUpdated": "2020-02-11T11:15:01.673",
+			"name": "Deceased",
+			"optionSet": {
+				"id": "p4i20eISTFi"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Female",
+			"created": "2017-11-27T03:05:52.797",
+			"id": "sfwEiEAL3jd",
+			"lastUpdated": "2020-03-18T18:13:52.911",
+			"name": "Female",
+			"optionSet": {
+				"id": "P0RAq93jsi9"
+			},
+			"sortOrder": 2,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Femenino"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Femenino"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "HETEROSEXUAL",
+			"created": "2020-05-15T11:05:08.898",
+			"id": "xK8D4jpucDw",
+			"lastUpdated": "2020-05-15T11:05:08.929",
+			"name": "Heterosexual sex",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "HOMEVISIT",
+			"created": "2020-02-10T20:28:22.319",
+			"id": "yerPPxlAdIq",
+			"lastUpdated": "2020-02-10T20:28:22.829",
+			"name": "Home Visit",
+			"optionSet": {
+				"id": "Thh5XshrW4i"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "INJECTINGDRUG",
+			"created": "2020-02-14T11:54:00.434",
+			"id": "uHsYfGDT5uv",
+			"lastUpdated": "2020-02-14T11:54:00.910",
+			"name": "Injecting drug use",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NOSHOW",
+			"created": "2020-02-11T11:14:27.583",
+			"id": "O7VEp7r5I0H",
+			"lastUpdated": "2020-02-12T10:42:37.169",
+			"name": "Lost to Follow-up",
+			"optionSet": {
+				"id": "p4i20eISTFi"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "LTFU",
+			"created": "2020-03-19T15:35:02.506",
+			"id": "R3obSEPtLzw",
+			"lastUpdated": "2020-03-19T15:35:03.020",
+			"name": "Lost to follow-up",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Male",
+			"created": "2017-11-27T03:05:52.797",
+			"id": "CCmTVwwDtak",
+			"lastUpdated": "2020-03-18T18:13:43.663",
+			"name": "Male",
+			"optionSet": {
+				"id": "P0RAq93jsi9"
+			},
+			"sortOrder": 1,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Masculino"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Masculino"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "MOVED",
+			"created": "2020-02-11T11:14:48.915",
+			"id": "KoVNW4N96Xp",
+			"lastUpdated": "2020-02-11T11:14:49.447",
+			"name": "Moved to a different location",
+			"optionSet": {
+				"id": "p4i20eISTFi"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NE",
+			"created": "2017-11-27T03:05:52.797",
+			"id": "e3emldLnOYi",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "NE - Negative TB Screen, Eligible for IPT",
+			"optionSet": {
+				"id": "bH53OxRWzdK"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NNE",
+			"created": "2017-11-27T03:05:52.797",
+			"id": "WDNNlsNoNgI",
+			"lastUpdated": "2018-05-19T16:51:25.473",
+			"name": "NNE - Negative TB Screen, NOT Eligible for IPT",
+			"optionSet": {
+				"id": "bH53OxRWzdK"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NORESPONSE",
+			"created": "2020-02-12T10:45:27.608",
+			"id": "xBtbvFUE2vS",
+			"lastUpdated": "2020-05-18T11:00:05.251",
+			"name": "No response / not found",
+			"optionSet": {
+				"id": "jkgTCobqE43"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NOTSUPRESSED",
+			"created": "2020-04-03T10:51:51.660",
+			"id": "BO9LyUypH19",
+			"lastUpdated": "2020-04-03T10:51:52.196",
+			"name": "Not supressed",
+			"optionSet": {
+				"id": "ADgTXaBsHFi"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "OTHER",
+			"created": "2020-02-10T20:28:35.039",
+			"id": "YQwZ6qwjJha",
+			"lastUpdated": "2020-03-18T18:13:26.377",
+			"name": "Other",
+			"optionSet": {
+				"id": "Thh5XshrW4i"
+			},
+			"sortOrder": 4,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Otro"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Outro"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Другие"
+				},
+				{
+					"locale": "uz@Cyrl",
+					"property": "NAME",
+					"value": "Бошқалар"
+				},
+				{
+					"locale": "uz@Latn",
+					"property": "NAME",
+					"value": "Boshqalar"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "OTHERUNDETERMINED",
+			"created": "2020-02-14T11:54:35.348",
+			"id": "BGu55OkUNte",
+			"lastUpdated": "2020-02-14T11:54:35.925",
+			"name": "Other/undetermined",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P",
+			"created": "2017-11-27T03:05:52.797",
+			"id": "JUanc6BB9hr",
+			"lastUpdated": "2018-05-19T16:51:25.472",
+			"name": "P - Positive for TB",
+			"optionSet": {
+				"id": "bH53OxRWzdK"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "PhoneCall",
+			"created": "2020-02-10T20:28:08.200",
+			"id": "XVlMbRg6MzX",
+			"lastUpdated": "2020-02-10T20:28:08.688",
+			"name": "Phone Call",
+			"optionSet": {
+				"id": "Thh5XshrW4i"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "RESCHEDULED",
+			"created": "2020-02-12T10:44:53.857",
+			"id": "I4YdNHiGE28",
+			"lastUpdated": "2020-05-18T10:59:01.875",
+			"name": "Reinitiated on ART",
+			"optionSet": {
+				"id": "jkgTCobqE43"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "RETAINED",
+			"created": "2020-03-19T15:33:31.873",
+			"id": "pkzPtYJa11c",
+			"lastUpdated": "2020-03-19T15:33:32.389",
+			"name": "Retained on ART",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "Scheduled",
+			"created": "2020-05-18T10:59:32.801",
+			"id": "zoTuDieF91u",
+			"lastUpdated": "2020-05-18T10:59:32.840",
+			"name": "Scheduled for clinical follow-up",
+			"optionSet": {
+				"id": "jkgTCobqE43"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "HOMOSEX",
+			"created": "2020-02-14T11:52:07.519",
+			"id": "laa17F7WB8k",
+			"lastUpdated": "2020-02-14T11:52:08.085",
+			"name": "Sex between men",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "SMS",
+			"created": "2020-02-10T20:27:53.331",
+			"id": "jnljBOtLLGZ",
+			"lastUpdated": "2020-02-10T20:27:53.828",
+			"name": "SMS",
+			"optionSet": {
+				"id": "Thh5XshrW4i"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "TREATMENTSTOPPED",
+			"created": "2020-03-19T15:34:19.366",
+			"id": "Pcl7hWI6pja",
+			"lastUpdated": "2020-03-19T15:34:19.803",
+			"name": "Stopped Treatment",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "SUPRESSED",
+			"created": "2020-04-03T10:51:34.384",
+			"id": "XDrxonhRB9i",
+			"lastUpdated": "2020-04-03T10:51:34.919",
+			"name": "Suppressed",
+			"optionSet": {
+				"id": "ADgTXaBsHFi"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "tbt1",
+			"created": "2020-02-10T20:04:40.015",
+			"id": "eE2fij5nA7a",
+			"lastUpdated": "2020-02-10T20:04:40.517",
+			"name": "TBT OPTION 1",
+			"optionSet": {
+				"id": "sE3uCjDohG9"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "tbt2",
+			"created": "2020-02-10T20:04:52.248",
+			"id": "awaNe00iTq9",
+			"lastUpdated": "2020-02-10T20:04:52.811",
+			"name": "tbt2",
+			"optionSet": {
+				"id": "sE3uCjDohG9"
+			},
+			"sortOrder": 2,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "tbt3",
+			"created": "2020-02-10T20:05:03.329",
+			"id": "oQ4GTpYmSNU",
+			"lastUpdated": "2020-02-10T20:05:03.841",
+			"name": "tbt3",
+			"optionSet": {
+				"id": "sE3uCjDohG9"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "TRANSFEROUT",
+			"created": "2020-03-19T15:34:40.627",
+			"id": "QZZol09tP8t",
+			"lastUpdated": "2020-03-19T15:34:41.138",
+			"name": "Transfer-out",
+			"optionSet": {
+				"id": "Y0L733DyTP2"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "TG",
+			"created": "2020-04-03T08:20:00.568",
+			"id": "NewWFaxCL0f",
+			"lastUpdated": "2020-04-03T08:20:01.144",
+			"name": "Transgender",
+			"optionSet": {
+				"id": "P0RAq93jsi9"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "MOTHERTOCHILD",
+			"created": "2020-02-14T11:54:17.847",
+			"id": "QTecd5QwDaU",
+			"lastUpdated": "2020-04-03T12:01:00.515",
+			"name": "Vertical",
+			"optionSet": {
+				"id": "Hr7i8z2nmfW"
+			},
+			"sortOrder": 3,
+			"translations": []
+		}
+	],
+	"optionSets": [
+		{
+			"attributeValues": [],
+			"created": "2017-11-27T03:05:52.978",
+			"id": "P0RAq93jsi9",
+			"lastUpdated": "2020-04-03T08:20:01.451",
+			"name": "HIV - Sex",
+			"options": [
+				{
+					"id": "CCmTVwwDtak"
+				},
+				{
+					"id": "sfwEiEAL3jd"
+				},
+				{
+					"id": "NewWFaxCL0f"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 4
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-03-19T15:33:19.656",
+			"id": "Y0L733DyTP2",
+			"lastUpdated": "2020-03-19T15:35:03.309",
+			"name": "HIV - STATUS",
+			"options": [
+				{
+					"id": "pkzPtYJa11c"
+				},
+				{
+					"id": "WeEyIMERboR"
+				},
+				{
+					"id": "Pcl7hWI6pja"
+				},
+				{
+					"id": "QZZol09tP8t"
+				},
+				{
+					"id": "R3obSEPtLzw"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 5
+		},
+		{
+			"attributeValues": [],
+			"created": "2017-11-27T16:48:51.707",
+			"id": "i1ZlYkC3v1Z",
+			"lastUpdated": "2018-05-29T14:01:11.026",
+			"name": "HIV ART - Regimens (all)",
+			"options": [
+				{
+					"id": "bYzbkRadHoo"
+				},
+				{
+					"id": "MwiuvILhZdu"
+				},
+				{
+					"id": "ZWBOFD5pxzx"
+				},
+				{
+					"id": "XhJcmOG6Hmx"
+				},
+				{
+					"id": "L7smdVlJUIV"
+				},
+				{
+					"id": "TAfcuGxh6j3"
+				},
+				{
+					"id": "Yt0rT4BqmL8"
+				},
+				{
+					"id": "KMxwCPSxmYB"
+				},
+				{
+					"id": "eMmdxJMdOQd"
+				},
+				{
+					"id": "X2pzDTLoBw9"
+				},
+				{
+					"id": "q6BRYeJBxql"
+				},
+				{
+					"id": "WPK3mlTWb17"
+				},
+				{
+					"id": "G9T1FtOu2W6"
+				},
+				{
+					"id": "uMbz8JguPi2"
+				},
+				{
+					"id": "B06Y3jQUioh"
+				},
+				{
+					"id": "ykeTtpx59vJ"
+				},
+				{
+					"id": "oGwzHzmnxR6"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 1
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-02-10T20:27:43.387",
+			"id": "Thh5XshrW4i",
+			"lastUpdated": "2020-02-10T20:28:36.317",
+			"name": "HIV Follow-up Methods",
+			"options": [
+				{
+					"id": "jnljBOtLLGZ"
+				},
+				{
+					"id": "XVlMbRg6MzX"
+				},
+				{
+					"id": "yerPPxlAdIq"
+				},
+				{
+					"id": "YQwZ6qwjJha"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 4
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-02-10T20:29:08.021",
+			"id": "jkgTCobqE43",
+			"lastUpdated": "2020-05-18T11:00:23.007",
+			"name": "HIV Follow-up Outcomes",
+			"options": [
+				{
+					"id": "I4YdNHiGE28"
+				},
+				{
+					"id": "zoTuDieF91u"
+				},
+				{
+					"id": "TJxE0W2rXdk"
+				},
+				{
+					"id": "xBtbvFUE2vS"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 9
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-02-10T19:46:42.884",
+			"id": "Hr7i8z2nmfW",
+			"lastUpdated": "2020-05-15T11:06:19.991",
+			"name": "HIV Modes of Transmission",
+			"options": [
+				{
+					"id": "xK8D4jpucDw"
+				},
+				{
+					"id": "uHsYfGDT5uv"
+				},
+				{
+					"id": "QTecd5QwDaU"
+				},
+				{
+					"id": "BGu55OkUNte"
+				},
+				{
+					"id": "laa17F7WB8k"
+				},
+				{
+					"id": "ucraupxnXY5"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 12
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-02-11T11:14:01.207",
+			"id": "p4i20eISTFi",
+			"lastUpdated": "2020-02-11T11:15:02.097",
+			"name": "HIV treatment stopped reasons",
+			"options": [
+				{
+					"id": "O7VEp7r5I0H"
+				},
+				{
+					"id": "KoVNW4N96Xp"
+				},
+				{
+					"id": "aVYyY4teKWr"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 3
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-04-03T10:51:02.001",
+			"id": "ADgTXaBsHFi",
+			"lastUpdated": "2020-04-03T10:56:48.296",
+			"name": "HIV Viral Load Status",
+			"options": [
+				{
+					"id": "XDrxonhRB9i"
+				},
+				{
+					"id": "BO9LyUypH19"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 3
+		},
+		{
+			"attributeValues": [],
+			"created": "2017-11-27T03:05:52.974",
+			"id": "bH53OxRWzdK",
+			"lastUpdated": "2018-05-19T16:51:25.611",
+			"name": "TB - IPT Eligibility if negative",
+			"options": [
+				{
+					"id": "JUanc6BB9hr"
+				},
+				{
+					"id": "e3emldLnOYi"
+				},
+				{
+					"id": "WDNNlsNoNgI"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 2
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-02-10T20:04:24.666",
+			"id": "sE3uCjDohG9",
+			"lastUpdated": "2020-02-10T20:05:04.805",
+			"name": "TBT Regimen",
+			"options": [
+				{
+					"id": "eE2fij5nA7a"
+				},
+				{
+					"id": "awaNe00iTq9"
+				},
+				{
+					"id": "oQ4GTpYmSNU"
+				}
+			],
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 3
+		}
+	],
+	"package": "HIV_CS_TRACKER_V1.0.0_DHIS2.33_2020-06-05T12:28",
+	"programIndicatorGroups": [
+		{
+			"created": "2020-02-14T08:21:40.852",
+			"id": "KKvBWmeIsvN",
+			"lastUpdated": "2020-03-25T09:29:24.626",
+			"name": "HIV Case Surveillance",
+			"programIndicators": [],
+			"publicAccess": "--------",
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Эпиднадзор ВИЧ"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"programIndicators": [
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-02-14T08:38:24.107",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "TLTdO2tZgBI",
+					"lastUpdated": "2020-05-20T10:52:25.784",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-02-14T08:38:24.106",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "MJmUaMQjIQ2",
+					"lastUpdated": "2020-05-20T10:52:25.784",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-02-14T08:38:24.106",
+			"description": "HIV Initiated on treatment same day as positive test",
+			"expression": "V{enrollment_count}",
+			"filter": "\n d2:daysBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, V{enrollment_date}) == 0",
+			"id": "d9qLxh9s3W4",
+			"lastUpdated": "2020-05-20T10:52:25.783",
+			"legendSets": [],
+			"name": "HIV - Initiated on ART same day as test",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV - Initiated on ART same day as test",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "#{ang4CLldbIu.Lv3c5VSA9t3}",
+					"created": "2020-05-20T09:48:10.192",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ikC35jCXkbv",
+					"lastUpdated": "2020-05-20T09:48:10.192",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-26T13:36:48.914",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jYjezlAUXfX",
+					"lastUpdated": "2020-05-20T09:48:10.191",
+					"offsetPeriods": -1,
+					"offsetPeriodType": "SixMonthly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-26T13:36:48.914",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "YhzDV4uCNnY",
+					"lastUpdated": "2020-05-20T09:48:10.192",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-03-26T13:36:48.914",
+			"decimals": 0,
+			"expression": "V{enrollment_count}",
+			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3})",
+			"id": "mD1FkYiHhzD",
+			"lastUpdated": "2020-05-20T09:48:10.191",
+			"legendSets": [],
+			"name": "HIV - Initiated on ART this period",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV initiated on ART this period",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-26T13:36:48.914",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lbWMdk6ZOvY",
+					"lastUpdated": "2020-05-07T18:03:53.141",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-26T13:36:48.914",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gixPzZnAuiK",
+					"lastUpdated": "2020-05-07T18:03:53.141",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-03-26T13:49:51.605",
+			"decimals": 0,
+			"description": "How many people have started their treatment within 14 days of enrollment",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3}) && d2:daysBetween(V{enrollment_date},#{ang4CLldbIu.Lv3c5VSA9t3}) <= 14",
+			"id": "mdbVnIgl9la",
+			"lastUpdated": "2020-05-07T18:03:53.141",
+			"legendSets": [],
+			"name": "HIV - Initiated on ART within 14 days",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV initiated on ART <=14 days",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "tz4HHFkfvQQ",
+					"lastUpdated": "2020-05-20T11:06:55.583",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.402",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "IQsNOVUANHw",
+					"lastUpdated": "2020-05-20T11:06:55.583",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-03-30T11:32:48.402",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0",
+			"id": "HbGqaNgXCgB",
+			"lastUpdated": "2020-05-20T11:06:55.582",
+			"legendSets": [],
+			"name": "HIV People Living with HIV (New)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV (New)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "mcdBgaHYKLp",
+					"lastUpdated": "2020-05-20T11:54:33.279",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T11:06:48.735",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0",
+			"id": "HY5WGeOQPmC",
+			"lastUpdated": "2020-05-20T11:54:33.278",
+			"legendSets": [],
+			"name": "HIV People Living with HIV (Total)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV (Total)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T13:28:33.269",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Ky8kF6ZDL4U",
+					"lastUpdated": "2020-05-20T13:28:33.269",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "plH9i8EZRXN",
+					"lastUpdated": "2020-05-20T13:28:33.268",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T13:28:33.269",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "HO7rsC4fXCQ",
+					"lastUpdated": "2020-05-20T13:28:33.269",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T13:28:33.268",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died. Must have had HIV test results 6 months before the latest event. Must have had a visit within the period",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6",
+			"id": "F7MId52qZF3",
+			"lastUpdated": "2020-05-20T13:28:33.268",
+			"legendSets": [],
+			"name": "HIV People Living with HIV eligible for viral load (Visit this period)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV, viral load eligible (Visited)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T12:36:03.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "GmNee5dvNJ8",
+					"lastUpdated": "2020-05-20T13:25:14.524",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "NnkznfuLnVA",
+					"lastUpdated": "2020-05-20T13:25:14.524",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T13:25:14.524",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died. Must have had HIV test results 6 months before the latest event.",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6",
+			"id": "CqBImYzG6eC",
+			"lastUpdated": "2020-05-20T13:25:14.524",
+			"legendSets": [],
+			"name": "HIV People Living with HIV eligible for viral load test (Total)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV, viral load eligible (total)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T13:17:27.320",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "FqMWb8xnD2G",
+					"lastUpdated": "2020-05-20T13:18:32.322",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "aXaOs9Dgmqi",
+					"lastUpdated": "2020-05-20T13:18:32.321",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T13:17:27.320",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "wvA1fvhJUZr",
+					"lastUpdated": "2020-05-20T13:18:32.322",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T13:17:27.319",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3})",
+			"id": "txddFRXV0Fe",
+			"lastUpdated": "2020-05-20T13:18:32.321",
+			"legendSets": [],
+			"name": "HIV People Living with HIV on ART (New on ART this period)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV on ART (New)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QA15ntzD0ld",
+					"lastUpdated": "2020-05-20T11:54:42.159",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T11:18:09.205",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3})",
+			"id": "sgSyf8CKyR5",
+			"lastUpdated": "2020-05-20T11:54:42.159",
+			"legendSets": [],
+			"name": "HIV People Living with HIV on ART (Total)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV on ART (Total)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T12:36:03.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "XgK6aQCBAS5",
+					"lastUpdated": "2020-05-20T13:22:58.997",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "p6y6ARDbSXp",
+					"lastUpdated": "2020-05-20T13:22:58.997",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T13:22:58.997",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died. Must have had HIV test results 6 months before the latest event.",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:daysBetween(V{analytics_period_start},#{ang4CLldbIu.v4K5u8wftrq})>=0  && d2:daysBetween(#{ang4CLldbIu.v4K5u8wftrq}, V{analytics_period_end})>=0 ",
+			"id": "YkDsYAlmaAc",
+			"lastUpdated": "2020-05-20T13:22:58.997",
+			"legendSets": [],
+			"name": "HIV People Living with HIV who have viral load results (New VL result this period)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV with viral load results (new)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T12:36:03.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "d8vduQYX0Cq",
+					"lastUpdated": "2020-05-20T13:23:16.411",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "r6NEJZWpqde",
+					"lastUpdated": "2020-05-20T13:23:16.411",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T12:36:03.289",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died. Must have had HIV test results 6 months before the latest event.",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6",
+			"id": "vv3E9DfCJDu",
+			"lastUpdated": "2020-05-20T13:23:16.411",
+			"legendSets": [],
+			"name": "HIV People Living with HIV who have viral load results (Total)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV with viral load results",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-20T12:36:03.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "EgjMJh0dEKh",
+					"lastUpdated": "2020-05-20T13:33:40.173",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-03-30T11:32:48.403",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "t50aL9Akr4y",
+					"lastUpdated": "2020-05-20T13:33:40.173",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-05-20T13:31:23.321",
+			"decimals": 0,
+			"description": "Everyone enrolled in this programme is a PLHIV except those who have transferred out and those who have died. Must have had HIV test results 6 months before the latest event. VL < 1000",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:hasValue(#{ang4CLldbIu.S4IJiirQVHY})",
+			"id": "QK8q8CTP6HJ",
+			"lastUpdated": "2020-05-20T13:33:40.173",
+			"legendSets": [],
+			"name": "HIV People Living with HIV who have viral load suppression (Total)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "PLHIV with viral load suppression",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-04-01T11:39:09.526",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Vwsbqj7IWHh",
+					"lastUpdated": "2020-05-20T11:01:14.171",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-07T18:01:50.072",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "yQ4ciwYSqAR",
+					"lastUpdated": "2020-05-20T11:01:14.171",
+					"offsetPeriods": -1,
+					"offsetPeriodType": "SixMonthly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-07T18:01:50.072",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "wsKLUROBXUp",
+					"lastUpdated": "2020-05-20T11:01:14.171",
+					"offsetPeriods": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-04-01T11:39:09.525",
+			"decimals": 0,
+			"expression": "V{enrollment_count}",
+			"filter": "d2:daysBetween(#{ang4CLldbIu.EGjmPoKhHpM},V{analytics_period_start}) >= 28",
+			"id": "FdAz7i0pxO1",
+			"lastUpdated": "2020-05-20T11:01:14.171",
+			"legendSets": [],
+			"name": "HIV PLHIV with more than 28 days since the end of last prescription period",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV No medicine 28 days or more",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.846",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "XTgjAjHWKCh",
+					"lastUpdated": "2020-05-20T09:58:07.177",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.845",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "mQMsOzUjMtQ",
+					"lastUpdated": "2020-05-20T09:58:07.177",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-02-14T09:31:51.845",
+			"description": "Patients being surveilled who died whilst under surveillance",
+			"expression": "V{event_count}",
+			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Dead' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'DEAD'",
+			"id": "GzPV0aucKsL",
+			"lastUpdated": "2020-05-20T09:58:07.177",
+			"legendSets": [],
+			"name": "HIV reported patient death",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV patient death",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.846",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "XHGNMAQc2jh",
+					"lastUpdated": "2020-05-20T09:58:29.627",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.845",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jJboPyoha1O",
+					"lastUpdated": "2020-05-20T09:58:29.627",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-05-20T10:59:23.674",
+			"description": "Patients being surveilled who are lost to follow up whilst under surveillance",
+			"expression": "V{event_count}",
+			"filter": "#{ang4CLldbIu.rcUsYgOnlyF} == 'Lost to follow-up' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'LTFU'",
+			"id": "v3JxTePzgY0",
+			"lastUpdated": "2020-05-20T09:58:29.627",
+			"legendSets": [],
+			"name": "HIV reported patient lost to follow up",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV patient LTFU",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.846",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "rpb7jGxlsAY",
+					"lastUpdated": "2020-05-20T09:58:15.593",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.845",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PscIvnX2FDO",
+					"lastUpdated": "2020-05-20T09:58:15.593",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-05-20T11:00:52.263",
+			"description": "Patients being surveilled who arre reported transferred out or \"moved to a different location\"",
+			"expression": "V{event_count}",
+			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Transfer-out' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'TRANSFEROUT'",
+			"id": "DsLihHMl6hI",
+			"lastUpdated": "2020-05-20T09:58:15.593",
+			"legendSets": [],
+			"name": "HIV reported patient move to different location",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV patient transferred",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		},
+		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.846",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gktIz3q4NGG",
+					"lastUpdated": "2020-05-20T09:58:43.203",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-02-14T09:31:51.845",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "jmFu3qUJJY2",
+					"lastUpdated": "2020-05-20T09:58:43.203",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-05-20T09:44:06.902",
+			"description": "Patients who are reported stopped treatment",
+			"expression": "V{event_count}",
+			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Stopped Treatment' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'TREATMENTSTOPPED'",
+			"id": "Dj2lknI0RHa",
+			"lastUpdated": "2020-05-20T09:58:43.203",
+			"legendSets": [],
+			"name": "HIV reported patient stopped treatment",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"publicAccess": "--------",
+			"shortName": "HIV patient stopped treatment",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"programRuleActions": [
+		{
+			"created": "2020-04-03T11:56:51.525",
+			"id": "W4qzpx53FQv",
+			"lastUpdated": "2020-04-03T11:56:51.525",
+			"programRule": {
+				"id": "lEicuM1ELe8"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "E2XxsfQ5gAw"
+			}
+		},
+		{
+			"created": "2020-05-04T14:02:05.906",
+			"dataElement": {
+				"id": "ncsvQhFKcKc"
+			},
+			"id": "urQ86EAkth9",
+			"lastUpdated": "2020-05-04T14:21:23.711",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-02-26T16:30:10.729",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"id": "ZrQ1mjY9xGD",
+			"lastUpdated": "2020-04-06T21:04:41.284",
+			"programRule": {
+				"id": "S7jJk8oVx3E"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "tkLnqqjD8u1"
+			}
+		},
+		{
+			"created": "2020-05-04T14:02:05.906",
+			"dataElement": {
+				"id": "LGz6njGUAP6"
+			},
+			"id": "ONLF4Foza8b",
+			"lastUpdated": "2020-05-04T14:21:23.711",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-02-14T11:07:55.375",
+			"data": "#{HIV Viral Load}",
+			"dataElement": {
+				"id": "UiX8eZZl3Nt"
+			},
+			"id": "AGxTKsEzpx3",
+			"lastUpdated": "2020-02-17T14:06:25.221",
+			"programRule": {
+				"id": "oo3EDy9na3c"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-03-30T12:31:50.572",
+			"data": "#{Date of Initiation previous}",
+			"dataElement": {
+				"id": "Lv3c5VSA9t3"
+			},
+			"id": "tnXDxNrR5da",
+			"lastUpdated": "2020-03-31T15:24:04.224",
+			"programRule": {
+				"id": "xiMJ5cEgJfN"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-05-04T14:02:05.906",
+			"dataElement": {
+				"id": "S4IJiirQVHY"
+			},
+			"id": "iHEARC72x8X",
+			"lastUpdated": "2020-05-04T14:21:23.710",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Viral Load tests should not be conducted before 6 months on ART",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"id": "p3wWHo7YomT",
+			"lastUpdated": "2020-05-04T13:35:18.836",
+			"programRule": {
+				"id": "MCpWpL3Fb8Y"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "If a patient changed status (died, moved, decided to stop treatment, etc.) you must complete a visit stage and record it.",
+			"created": "2020-05-04T19:12:59.982",
+			"dataElement": {
+				"id": "uiBCTI2XL2m"
+			},
+			"id": "XrEASc8OUOr",
+			"lastUpdated": "2020-05-04T19:12:59.982",
+			"programRule": {
+				"id": "aE5Uc6sW8dL"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"created": "2020-02-26T16:30:10.729",
+			"id": "cSkHoB2iwfW",
+			"lastUpdated": "2020-04-01T07:35:49.892",
+			"programRule": {
+				"id": "hCvSfbSiOUR"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "tkLnqqjD8u1"
+			}
+		},
+		{
+			"content": "Viral Load tests should not be conducted before 6 months on ART",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "LGz6njGUAP6"
+			},
+			"id": "u5Ym3vA7Qjb",
+			"lastUpdated": "2020-05-04T12:55:45.565",
+			"programRule": {
+				"id": "HlyEkb2OkDX"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-05-04T14:02:05.906",
+			"dataElement": {
+				"id": "v4K5u8wftrq"
+			},
+			"id": "zfCwqUf4wkZ",
+			"lastUpdated": "2020-05-04T14:21:23.711",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Viral load fields are only available to patients who have been on ART for six months or more.",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "rcUsYgOnlyF"
+			},
+			"id": "Mkd2cFLLX7w",
+			"lastUpdated": "2020-05-04T13:28:19.234",
+			"programRule": {
+				"id": "nCEVmOVXATp"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"content": "Lost to follow-up is only for patients who have been out of medicine for 28 days or more. This patient does not qualigy to be LTFU ",
+			"created": "2020-03-20T11:58:55.026",
+			"dataElement": {
+				"id": "rcUsYgOnlyF"
+			},
+			"id": "QBFcXX8FT8Q",
+			"lastUpdated": "2020-04-06T10:48:22.034",
+			"programRule": {
+				"id": "qgyfb07Rze6"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"content": "This person is in viral suppression ",
+			"created": "2020-05-04T13:52:42.265",
+			"id": "av0NyatBKs7",
+			"lastUpdated": "2020-05-04T13:52:42.265",
+			"location": "indicators",
+			"programRule": {
+				"id": "g8LDxurfW21"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
+			"created": "2020-05-04T14:02:05.906",
+			"dataElement": {
+				"id": "EGjmPoKhHpM"
+			},
+			"id": "pfTv7ZPcLgm",
+			"lastUpdated": "2020-05-04T14:21:23.710",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Days Without Medicine",
+			"created": "2020-02-17T14:22:58.239",
+			"data": "d2:daysBetween( #{Last Day With Medicine}, V{current_date} )",
+			"id": "sfDhRLPz357",
+			"lastUpdated": "2020-05-04T16:15:17.348",
+			"location": "indicators",
+			"programRule": {
+				"id": "GxoeUZf5aWb"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
+			"content": "Patient has not had an appointment for more than 90 days. Unless this follow-up was successful, complete a \"Stopped Treatment\" stage and register them as \"Lost to follow-up\" .",
+			"created": "2020-02-20T10:00:13.143",
+			"dataElement": {
+				"id": "FRRIujn3jHD"
+			},
+			"id": "rmeTVVcbHC7",
+			"lastUpdated": "2020-03-19T15:53:26.582",
+			"programRule": {
+				"id": "Z5sfFPDSeri"
+			},
+			"programRuleActionType": "WARNINGONCOMPLETE"
+		},
+		{
+			"content": "Days Since Last Visit",
+			"created": "2020-02-17T14:22:58.239",
+			"data": "d2:daysBetween( #{Latest Viral Load Test Date}, V{current_date} )",
+			"id": "YVvYHCgLLpV",
+			"lastUpdated": "2020-03-20T13:51:22.292",
+			"location": "indicators",
+			"programRule": {
+				"id": "pGYEzi6g38g"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
+			"content": "Test date cannot be before the date of birth of the patient",
+			"created": "2020-02-11T10:06:47.038",
+			"dataElement": {
+				"id": "fxXDe8OZ86q"
+			},
+			"id": "PCmm7xsCCx3",
+			"lastUpdated": "2020-02-11T10:24:06.447",
+			"programRule": {
+				"id": "gZy3eQsP9Lx"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"created": "2020-05-20T07:27:36.749",
+			"dataElement": {
+				"id": "Bn9otKySZvP"
+			},
+			"id": "FvumZtqNhJj",
+			"lastUpdated": "2020-05-20T08:22:34.973",
+			"programRule": {
+				"id": "t6qVz4JsE4a"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-05-04T14:02:05.905",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"id": "zpbBKS54uga",
+			"lastUpdated": "2020-05-04T14:21:23.711",
+			"programRule": {
+				"id": "p7XMeDbTSbL"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-02-28T09:55:41.629",
+			"data": "#{TPT Regimen From previous}",
+			"dataElement": {
+				"id": "mUMvkV72WQZ"
+			},
+			"id": "lxQcKYiMyX2",
+			"lastUpdated": "2020-05-20T07:21:14.071",
+			"programRule": {
+				"id": "rhdEpzJFAFn"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-05-04T13:40:39.727",
+			"dataElement": {
+				"id": "UiX8eZZl3Nt"
+			},
+			"id": "bKiKiO9Ypdj",
+			"lastUpdated": "2020-05-04T13:40:39.727",
+			"programRule": {
+				"id": "amEUbPOt1T3"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-02-13T10:53:51.068",
+			"data": "d2:addDays( V{event_date}, #{HIV days with Medicine} )",
+			"dataElement": {
+				"id": "EGjmPoKhHpM"
+			},
+			"id": "lyVj5gFu1LX",
+			"lastUpdated": "2020-02-20T10:40:49.658",
+			"programRule": {
+				"id": "apjLE7Hu2mN"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "Viral Load tests should not be conducted before 6 months on ART",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "v4K5u8wftrq"
+			},
+			"id": "COglvpTh75B",
+			"lastUpdated": "2020-05-04T13:32:38.061",
+			"programRule": {
+				"id": "WsE6Mh7fd8x"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Viral Load",
+			"created": "2020-02-17T14:14:56.245",
+			"data": "#{HIV Viral Load Latest}",
+			"id": "z34slwznO9y",
+			"lastUpdated": "2020-02-17T14:14:56.245",
+			"location": "indicators",
+			"programRule": {
+				"id": "xr4PnRTTFjr"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
+			"content": "Viral Load tests should not be conducted before 6 months on ART",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "UiX8eZZl3Nt"
+			},
+			"id": "je8s4xiJcET",
+			"lastUpdated": "2020-05-04T13:33:11.022",
+			"programRule": {
+				"id": "AM5N1a3jqec"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-02-28T09:55:41.629",
+			"data": "true",
+			"dataElement": {
+				"id": "HYEdbJEeJbz"
+			},
+			"id": "b0xkUgWB4KW",
+			"lastUpdated": "2020-05-20T07:11:16.280",
+			"programRule": {
+				"id": "MvAYneJFL2Q"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-02-11T09:30:19.158",
+			"data": "d2:yearsBetween(A{AGE}, #{HIV_TEST_DATE} )",
+			"dataElement": {
+				"id": "zsM4K8kNPSo"
+			},
+			"id": "O1cYsm9p5LC",
+			"lastUpdated": "2020-02-11T09:58:51.684",
+			"programRule": {
+				"id": "NkKReOZIHIX"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "Viral Load tests should not be conducted before 6 months on ART",
+			"created": "2020-04-06T10:41:30.213",
+			"dataElement": {
+				"id": "S4IJiirQVHY"
+			},
+			"id": "L6215u2Ef36",
+			"lastUpdated": "2020-05-04T13:35:37.772",
+			"programRule": {
+				"id": "NnMsYNsDDJn"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Telephone Number",
+			"created": "2020-02-13T10:41:15.264",
+			"data": "A{Phone Number}",
+			"id": "Yf4cJyRxtN1",
+			"lastUpdated": "2020-02-13T10:41:15.264",
+			"location": "feedback",
+			"programRule": {
+				"id": "lfTZ4R0Qees"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
+			"created": "2020-02-28T09:55:41.629",
+			"data": "#{Date they became eligible for TPT}",
+			"dataElement": {
+				"id": "TmAJxu1XNKh"
+			},
+			"id": "yEKtwvZELRr",
+			"lastUpdated": "2020-05-20T07:11:05.078",
+			"programRule": {
+				"id": "xRECtYcrv6u"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-02-28T09:55:41.629",
+			"data": "#{TPT Date Initiated Previous}",
+			"dataElement": {
+				"id": "Lu4jo7fSTb3"
+			},
+			"id": "ip21RA9vAj0",
+			"lastUpdated": "2020-05-20T07:10:53.139",
+			"programRule": {
+				"id": "O9TJOZkACxU"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-02-28T09:55:41.629",
+			"data": "#{TPT Date previously Completed }",
+			"dataElement": {
+				"id": "mUMvkV72WQZ"
+			},
+			"id": "waGeBZFXpTw",
+			"lastUpdated": "2020-05-20T07:10:17.603",
+			"programRule": {
+				"id": "DICAiThz6Px"
+			},
+			"programRuleActionType": "ASSIGN"
+		}
+	],
+	"programRules": [
+		{
+			"condition": "d2:hasValue( 'HIV_TEST_DATE' )",
+			"created": "2020-02-11T09:29:24.517",
+			"id": "NkKReOZIHIX",
+			"lastUpdated": "2020-02-11T09:58:51.827",
+			"name": "Calculate Age at HIV+ Test",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "O1cYsm9p5LC"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( 'Latest Viral Load Test Date', V{current_date} )  > 0   &&  d2:hasValue  ( 'Latest Viral Load Test Date' )",
+			"created": "2020-02-17T14:22:58.348",
+			"id": "pGYEzi6g38g",
+			"lastUpdated": "2020-03-20T13:51:22.476",
+			"name": "Days Since Last Visit",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "YVvYHCgLLpV"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Last Day With Medicine}, V{current_date} )  > 28  && d2:hasValue( 'Last Day With Medicine')",
+			"created": "2020-02-17T15:07:20.059",
+			"id": "GxoeUZf5aWb",
+			"lastUpdated": "2020-05-04T16:15:17.352",
+			"name": "Days Without Medicine",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "sfDhRLPz357"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Date of Initiation previous' )",
+			"created": "2020-03-30T12:31:50.804",
+			"description": "THis is so that we have a constant date for when the treatment was initiated and we can calculate indicators. ",
+			"id": "xiMJ5cEgJfN",
+			"lastUpdated": "2020-03-31T15:24:04.456",
+			"name": "display date of treatment initiation ",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "tnXDxNrR5da"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Previously TPT eligible' )  && !#{TPT_Restart_Treatment}",
+			"created": "2020-02-28T09:54:20.886",
+			"description": "Displays the date a patient became eligible for TPT from the first time they became eligible.",
+			"id": "xRECtYcrv6u",
+			"lastUpdated": "2020-05-20T07:11:05.083",
+			"name": "Display date they became eligible for TPT",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "yEKtwvZELRr"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'HIV_TEST_DATE' )  && (#{HIV_TEST_DATE}    <    A{AGE})",
+			"created": "2020-02-11T10:06:47.153",
+			"description": "The HIV test cannot be before the patient was born",
+			"id": "gZy3eQsP9Lx",
+			"lastUpdated": "2020-02-11T10:24:06.609",
+			"name": "Display Error if Test Date Before Birth",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "PCmm7xsCCx3"
+				}
+			],
+			"programStage": {
+				"id": "K5ac7u3V5bB"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Previously TPT eligible' )  && !#{TPT_Restart_Treatment}",
+			"created": "2020-03-31T15:31:12.405",
+			"description": "Displays if previously eligible for TPT",
+			"id": "MvAYneJFL2Q",
+			"lastUpdated": "2020-05-20T07:11:16.285",
+			"name": "Display if previously eligible for TPT",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "b0xkUgWB4KW"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'HIV Viral Load Latest' ) ",
+			"created": "2020-02-17T14:14:56.355",
+			"id": "xr4PnRTTFjr",
+			"lastUpdated": "2020-02-17T14:14:56.355",
+			"name": "Display Latest HIV Viral Load",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "z34slwznO9y"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Previously TPT eligible' )  && !#{TPT_Restart_Treatment}",
+			"created": "2020-02-28T10:07:05.273",
+			"description": "Displays the TPT regimen the patient is following",
+			"id": "rhdEpzJFAFn",
+			"lastUpdated": "2020-05-20T07:21:14.076",
+			"name": "Display TP Regimen previously adopted",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "lxQcKYiMyX2"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Previously TPT eligible' )  && d2:hasValue( 'TPT Date previously Completed ' )  && !#{TPT_Restart_Treatment}",
+			"created": "2020-02-28T10:10:39.854",
+			"description": "Displays the date a treatment was completed it if was previously completed.",
+			"id": "DICAiThz6Px",
+			"lastUpdated": "2020-05-20T07:10:17.610",
+			"name": "Display TPT date completed if completed",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "waGeBZFXpTw"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'TPT Date Initiated Previous' )  && !#{TPT_Restart_Treatment}",
+			"created": "2020-02-28T14:00:24.398",
+			"description": "Displays the date a treatment was initiated it if was previously initiated",
+			"id": "O9TJOZkACxU",
+			"lastUpdated": "2020-05-20T07:10:53.144",
+			"name": "Display TPT date initiated if initiated",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "ip21RA9vAj0"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "#{Follow-up_Result}  == 'CHANGE_STATUS'",
+			"created": "2020-05-04T19:12:59.994",
+			"id": "aE5Uc6sW8dL",
+			"lastUpdated": "2020-05-04T19:12:59.994",
+			"name": "Display warning \"If a person changed patient status, you must record it in the visit stage)",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "XrEASc8OUOr"
+				}
+			],
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"translations": []
+		},
+		{
+			"condition": "!#{Eligible for TPT} ",
+			"created": "2020-02-26T16:30:10.856",
+			"id": "hCvSfbSiOUR",
+			"lastUpdated": "2020-04-01T07:35:50.093",
+			"name": "hide if not TPT eligible ",
+			"priority": 1,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "cSkHoB2iwfW"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "!d2:hasValue( 'HIV Viral Load Latest')",
+			"created": "2020-05-04T13:40:39.736",
+			"id": "amEUbPOt1T3",
+			"lastUpdated": "2020-05-04T13:40:39.736",
+			"name": "Hide Previous viral load value if Previous viral load results are empty",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "bKiKiO9Ypdj"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "!d2:hasValue( 'TPT Date previously Completed' )",
+			"created": "2020-05-20T07:27:36.758",
+			"id": "t6qVz4JsE4a",
+			"lastUpdated": "2020-05-20T08:22:34.981",
+			"name": "Hide restart TPT if has not previously finnished",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "FvumZtqNhJj"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "#{Patient Status} != 'RETAINED'",
+			"created": "2020-05-04T14:02:05.917",
+			"id": "p7XMeDbTSbL",
+			"lastUpdated": "2020-05-04T14:21:23.720",
+			"name": "Hide Treatment details if dead",
+			"priority": 1,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "urQ86EAkth9"
+				},
+				{
+					"id": "zfCwqUf4wkZ"
+				},
+				{
+					"id": "ONLF4Foza8b"
+				},
+				{
+					"id": "iHEARC72x8X"
+				},
+				{
+					"id": "zpbBKS54uga"
+				},
+				{
+					"id": "pfTv7ZPcLgm"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "!#{HIV Treatment Started  yes no}",
+			"created": "2020-04-03T11:56:51.683",
+			"description": "Hide treatment section if treatment not started",
+			"id": "lEicuM1ELe8",
+			"lastUpdated": "2020-04-03T11:56:51.683",
+			"name": "Hide treatment section if treatment not started",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "W4qzpx53FQv"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation} , V{event_date} )   <= 180",
+			"created": "2020-04-06T20:55:55.283",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, then hide Viral load status",
+			"id": "HlyEkb2OkDX",
+			"lastUpdated": "2020-05-04T12:55:45.578",
+			"name": "Hide viral load status",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "u5Ym3vA7Qjb"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
+			"created": "2020-04-06T21:06:57.580",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, thenHide Viral load test <1000",
+			"id": "NnMsYNsDDJn",
+			"lastUpdated": "2020-05-04T13:35:37.776",
+			"name": "Hide viral load test <1000",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "L6215u2Ef36"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
+			"created": "2020-04-06T20:51:19.655",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, thenHide Viral load test date",
+			"id": "WsE6Mh7fd8x",
+			"lastUpdated": "2020-05-04T13:32:38.074",
+			"name": "Hide viral load test date",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "COglvpTh75B"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
+			"created": "2020-04-06T20:53:31.049",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, thenHide Viral load test results",
+			"id": "MCpWpL3Fb8Y",
+			"lastUpdated": "2020-05-04T13:35:18.843",
+			"name": "Hide viral load test results",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "p3wWHo7YomT"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "#{HIV viral load less than 1000}",
+			"created": "2020-04-06T21:04:41.438",
+			"description": "Hide Viral load test results if viral load is under 1000",
+			"id": "S7jJk8oVx3E",
+			"lastUpdated": "2020-04-06T21:04:41.438",
+			"name": "Hide Viral load test results if viral load is under 1000",
+			"priority": 1,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "ZrQ1mjY9xGD"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
+			"created": "2020-04-06T20:54:01.843",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, thenHide Viral load test results previous",
+			"id": "AM5N1a3jqec",
+			"lastUpdated": "2020-05-04T13:33:11.025",
+			"name": "Hide viral load test results previous",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "je8s4xiJcET"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'HIV Viral Load' )",
+			"created": "2020-02-14T11:07:55.480",
+			"id": "oo3EDy9na3c",
+			"lastUpdated": "2020-02-17T14:06:25.386",
+			"name": "HIV Previous viral load value",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "AGxTKsEzpx3"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'HIV days with Medicine' )",
+			"created": "2020-02-13T10:53:51.172",
+			"description": "Date of current Event PLUS amount of days with Medicine",
+			"id": "apjLE7Hu2mN",
+			"lastUpdated": "2020-02-20T10:40:49.816",
+			"name": "HIV Show value for suggested next visit date",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "lyVj5gFu1LX"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Last Day With Medicine' )   &&  d2:daysBetween( 'Last Day With Medicine', V{event_date} )  <= 28",
+			"created": "2020-03-20T11:58:55.186",
+			"id": "qgyfb07Rze6",
+			"lastUpdated": "2020-04-06T10:48:22.229",
+			"name": "If patient has had medicine for less than 28 days, do not mark as LTFU",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "QBFcXX8FT8Q"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		},
+		{
+			"condition": "#{HIV viral load less than 1000} ",
+			"created": "2020-05-04T13:52:42.271",
+			"id": "g8LDxurfW21",
+			"lastUpdated": "2020-05-04T13:52:42.271",
+			"name": "If Viral load under 100 = Viral Supression",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "av0NyatBKs7"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:daysBetween( 'Last Day With Medicine', V{current_date} )  >= 28",
+			"created": "2020-02-20T10:00:13.263",
+			"description": "If a patient has not had medicine for more than 28 days, then they are lost to follow-up. It counts days since last visit and current date",
+			"id": "Z5sfFPDSeri",
+			"lastUpdated": "2020-03-19T15:53:26.797",
+			"name": "Mark as Lost to Follow-up",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "rmeTVVcbHC7"
+				}
+			],
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Follow-up method' )",
+			"created": "2020-02-12T13:25:21.565",
+			"description": "if a phone number was entered, it shows it.",
+			"id": "lfTZ4R0Qees",
+			"lastUpdated": "2020-03-18T18:16:29.569",
+			"name": "Show Phone Number",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "Yf4cJyRxtN1"
+				}
+			],
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "DESCRIPTION",
+					"value": "Показать номер телефона, если указан"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Показать номер телефона"
+				}
+			]
+		},
+		{
+			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
+			"created": "2020-04-06T10:41:30.418",
+			"description": "If the days between the date of initiation or previous date of initiation are less than 180, then show message \"Viral load tests should only be performed after six months on treatment\"",
+			"id": "nCEVmOVXATp",
+			"lastUpdated": "2020-05-04T13:28:19.245",
+			"name": "Show viral load testing warning.",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleActions": [
+				{
+					"id": "Mkd2cFLLX7w"
+				}
+			],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"translations": []
+		}
+	],
+	"programRuleVariables": [
+		{
+			"created": "2020-02-11T09:29:48.158",
+			"id": "To5ACdJcRsI",
+			"lastUpdated": "2020-02-11T09:45:43.363",
+			"name": "AGE",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "mAWcalQYYyk"
+			},
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-04-03T12:40:11.225",
+			"dataElement": {
+				"id": "Lv3c5VSA9t3"
+			},
+			"id": "j694XMlvH56",
+			"lastUpdated": "2020-04-03T12:40:11.225",
+			"name": "Date of Initiation",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-03-30T12:28:25.787",
+			"dataElement": {
+				"id": "Lv3c5VSA9t3"
+			},
+			"id": "ArgkdjBDmeX",
+			"lastUpdated": "2020-03-30T12:29:18.937",
+			"name": "Date of Initiation previous",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-28T09:52:50.362",
+			"dataElement": {
+				"id": "TmAJxu1XNKh"
+			},
+			"id": "obat0IcKw1b",
+			"lastUpdated": "2020-02-28T09:52:50.362",
+			"name": "Date they became eligible for TPT",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-26T16:25:46.782",
+			"dataElement": {
+				"id": "HYEdbJEeJbz"
+			},
+			"id": "uLb8IUkhq7K",
+			"lastUpdated": "2020-02-26T16:25:46.782",
+			"name": "Eligible for TPT",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-03-31T15:27:42.488",
+			"dataElement": {
+				"id": "HYEdbJEeJbz"
+			},
+			"id": "sqQ38WQnrFK",
+			"lastUpdated": "2020-03-31T15:27:57.715",
+			"name": "Eligible for TPT previous",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-12T13:30:26.663",
+			"dataElement": {
+				"id": "FRRIujn3jHD"
+			},
+			"id": "tvkbR8fwnZa",
+			"lastUpdated": "2020-02-12T13:30:26.663",
+			"name": "Follow-up method",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-02-12T11:15:35.965",
+			"dataElement": {
+				"id": "uiBCTI2XL2m"
+			},
+			"id": "VBwzXgy8tBx",
+			"lastUpdated": "2020-02-13T09:57:37.419",
+			"name": "Follow-up Result",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-05-04T19:10:35.257",
+			"dataElement": {
+				"id": "uiBCTI2XL2m"
+			},
+			"id": "kq74tPZJjcT",
+			"lastUpdated": "2020-05-04T19:10:35.257",
+			"name": "Follow-up_Result",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-02-13T10:51:12.477",
+			"dataElement": {
+				"id": "ncsvQhFKcKc"
+			},
+			"id": "MMVPQfsVjAj",
+			"lastUpdated": "2020-02-13T10:51:12.477",
+			"name": "HIV days with Medicine",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-13T10:48:46.794",
+			"dataElement": {
+				"id": "EGjmPoKhHpM"
+			},
+			"id": "M627vI1hf0o",
+			"lastUpdated": "2020-02-13T10:49:51.833",
+			"name": "HIV Show suggested date for next visit",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-04-03T11:55:34.964",
+			"dataElement": {
+				"id": "c82CE0oy0Nj"
+			},
+			"id": "K2TKO6p8yyJ",
+			"lastUpdated": "2020-04-03T11:55:34.964",
+			"name": "HIV Treatment Started  yes no",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-02-11T11:27:12.059",
+			"dataElement": {
+				"id": "VjsXqPWaMNN"
+			},
+			"id": "fzu2z3aCJiB",
+			"lastUpdated": "2020-02-11T13:34:43.272",
+			"name": "HIV Treatment Stop Reason",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-02-14T11:01:17.592",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"id": "Cv1dgM8HLhT",
+			"lastUpdated": "2020-02-17T14:09:03.939",
+			"name": "HIV Viral Load",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-17T14:10:55.836",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"id": "aOslhWyR5E2",
+			"lastUpdated": "2020-02-17T14:15:13.583",
+			"name": "HIV Viral Load Latest",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-04-06T21:02:21.689",
+			"dataElement": {
+				"id": "S4IJiirQVHY"
+			},
+			"id": "a8xbweti5v2",
+			"lastUpdated": "2020-04-06T21:02:21.689",
+			"name": "HIV viral load less than 1000",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-11T09:58:35.246",
+			"dataElement": {
+				"id": "fxXDe8OZ86q"
+			},
+			"id": "Hrp9KnTVaVF",
+			"lastUpdated": "2020-02-11T09:58:35.246",
+			"name": "HIV_TEST_DATE",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-17T14:58:26.446",
+			"dataElement": {
+				"id": "EGjmPoKhHpM"
+			},
+			"id": "C9t1CYYd03J",
+			"lastUpdated": "2020-05-04T16:16:21.810",
+			"name": "Last Day With Medicine",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-17T14:24:40.183",
+			"dataElement": {
+				"id": "v4K5u8wftrq"
+			},
+			"id": "vHa4KH83lA4",
+			"lastUpdated": "2020-02-17T14:24:40.183",
+			"name": "Latest Viral Load Test Date",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-03-19T15:51:05.215",
+			"dataElement": {
+				"id": "rcUsYgOnlyF"
+			},
+			"id": "jTQoOMqGq67",
+			"lastUpdated": "2020-03-19T15:51:05.215",
+			"name": "Patient STATUS",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-03-20T11:32:29.766",
+			"dataElement": {
+				"id": "rcUsYgOnlyF"
+			},
+			"id": "W7qpYjYMc7Y",
+			"lastUpdated": "2020-03-20T11:32:29.766",
+			"name": "Patient Status",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": true
+		},
+		{
+			"created": "2020-02-12T13:23:19.813",
+			"id": "IYsyLeIdMjU",
+			"lastUpdated": "2020-02-12T13:23:19.813",
+			"name": "Phone Number",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "TEI_ATTRIBUTE",
+			"trackedEntityAttribute": {
+				"id": "ciCR6BBvIT4"
+			},
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-28T10:01:58.041",
+			"dataElement": {
+				"id": "HYEdbJEeJbz"
+			},
+			"id": "A2zvRgyFUeo",
+			"lastUpdated": "2020-02-28T10:01:58.041",
+			"name": "Previously TPT eligible",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-28T13:58:50.079",
+			"dataElement": {
+				"id": "Lu4jo7fSTb3"
+			},
+			"id": "xCS0RYxuGML",
+			"lastUpdated": "2020-02-28T13:58:50.079",
+			"name": "TPT Date Initiated Previous",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-28T10:07:57.431",
+			"dataElement": {
+				"id": "TQtuEvZ1eF6"
+			},
+			"id": "wNsyAWJGzDY",
+			"lastUpdated": "2020-02-28T10:07:57.431",
+			"name": "TPT Date previously Completed ",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-02-28T10:05:54.556",
+			"dataElement": {
+				"id": "mUMvkV72WQZ"
+			},
+			"id": "du0TX8Qv394",
+			"lastUpdated": "2020-02-28T10:05:54.556",
+			"name": "TPT Regimen From previous",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_PREVIOUS_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
+			"created": "2020-05-20T07:08:38.961",
+			"dataElement": {
+				"id": "Bn9otKySZvP"
+			},
+			"id": "JTBtbn1dTMO",
+			"lastUpdated": "2020-05-20T07:08:38.961",
+			"name": "TPT_Restart_Treatment",
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		}
+	],
+	"programs": [
+		{
+			"accessLevel": "PROTECTED",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"completeEventsExpiryDays": 0,
+			"created": "2020-02-10T13:07:30.660",
+			"description": "HIV case surveillance and treatment follow up",
+			"displayFrontPageList": true,
+			"displayIncidentDate": false,
+			"expiryDays": 0,
+			"id": "Xh88p1nyefp",
+			"ignoreOverdueEvents": false,
+			"lastUpdated": "2020-06-05T11:08:01.341",
+			"maxTeiCountToReturn": 5,
+			"minAttributesRequiredToSearch": 1,
+			"name": "HIV Case Surveillance ",
+			"notificationTemplates": [],
+			"onlyEnrollOnce": true,
+			"organisationUnits": [],
+			"programSections": [],
+			"programStages": [
+				{
+					"id": "K5ac7u3V5bB"
+				},
+				{
+					"id": "ang4CLldbIu"
+				},
+				{
+					"id": "UvYb6qJpQu0"
+				}
+			],
+			"programTrackedEntityAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Address",
+					"displayShortName": "HIV Case Surveillance Address",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hNLcTbw4AKe",
+					"lastUpdated": "2020-06-05T11:08:01.344",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Address",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 7,
+					"trackedEntityAttribute": {
+						"id": "VCtm2pySeEV"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Administrative Unit",
+					"displayShortName": "HIV Case Surveillance Administrative Unit",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bC3rF43j2kH",
+					"lastUpdated": "2020-06-05T11:08:01.344",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Administrative Unit",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 6,
+					"trackedEntityAttribute": {
+						"id": "q1vDBskejQV"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "ORGANISATION_UNIT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": true,
+					"displayName": "HIV Case Surveillance  Date of birth (age)",
+					"displayShortName": "HIV Case Surveillance DoB (age)",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "GJMrdHGwFSE",
+					"lastUpdated": "2020-06-05T11:08:01.343",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Date of birth (age)",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 4,
+					"trackedEntityAttribute": {
+						"id": "mAWcalQYYyk"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "AGE"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Date of birth is estimated",
+					"displayShortName": "HIV Case Surveillance Estimated DoB",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "j2Yfm98DfCj",
+					"lastUpdated": "2020-06-05T11:08:01.342",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Date of birth is estimated",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 3,
+					"trackedEntityAttribute": {
+						"id": "Z1rLc1rVHK8"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TRUE_ONLY"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": true,
+					"displayName": "HIV Case Surveillance  First name",
+					"displayShortName": "HIV Case Surveillance First name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hYyb4XcCkfk",
+					"lastUpdated": "2020-06-05T11:08:01.342",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  First name",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 1,
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-17T11:22:40.468",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Health Facility Code",
+					"displayShortName": "HIV Case Surveillance Health Facility Code",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "dt73H1guRF6",
+					"lastUpdated": "2020-06-05T11:08:01.344",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Health Facility Code",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 10,
+					"trackedEntityAttribute": {
+						"id": "sWn0CERcUYj"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-17T11:28:38.513",
+					"displayInList": true,
+					"displayName": "HIV Case Surveillance  HIV Program ID",
+					"displayShortName": "HIV Case Surveillance HIV Program",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "H3s0mnbhMtV",
+					"lastUpdated": "2020-06-05T11:08:01.346",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  HIV Program ID",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 11,
+					"trackedEntityAttribute": {
+						"id": "iZWtxl8sCi6"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-10T13:11:17.477",
+					"displayInList": true,
+					"displayName": "HIV Case Surveillance  Last name",
+					"displayShortName": "HIV Case Surveillance Last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "c5o7aZOvO7W",
+					"lastUpdated": "2020-06-05T11:08:01.342",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Last name",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 2,
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-12T13:22:40.511",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Mobile phone number",
+					"displayShortName": "HIV Case Surveillance Mobile number",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ULN5RFykk3w",
+					"lastUpdated": "2020-06-05T11:08:01.344",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Mobile phone number",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": true,
+					"sortOrder": 8,
+					"trackedEntityAttribute": {
+						"id": "ciCR6BBvIT4"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "PHONE_NUMBER"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-17T11:22:40.468",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  National ID",
+					"displayShortName": "HIV Case Surveillance National ID",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hnW2VE7QUJE",
+					"lastUpdated": "2020-06-05T11:08:01.344",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  National ID",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 9,
+					"trackedEntityAttribute": {
+						"id": "Ewi7FUfcHAD"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-02-17T11:28:38.513",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  NHIS ID",
+					"displayShortName": "HIV Case Surveillance HIV NHIS ID",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "sIgBiw2Zajz",
+					"lastUpdated": "2020-06-05T11:08:01.350",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  NHIS ID",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 12,
+					"trackedEntityAttribute": {
+						"id": "u101Hz0Lemb"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-05-04T13:46:11.380",
+					"displayInList": false,
+					"displayName": "HIV Case Surveillance  Sex M, F, TG",
+					"displayShortName": "HIV Case Surveillance Sex M,F,TG",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "eAZyvGVhQLZ",
+					"lastUpdated": "2020-06-05T11:08:01.343",
+					"mandatory": false,
+					"name": "HIV Case Surveillance  Sex M, F, TG",
+					"program": {
+						"id": "Xh88p1nyefp"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 5,
+					"trackedEntityAttribute": {
+						"id": "Jt68iauILtD"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				}
+			],
+			"programType": "WITH_REGISTRATION",
+			"publicAccess": "--------",
+			"selectEnrollmentDatesInFuture": false,
+			"selectIncidentDatesInFuture": false,
+			"shortName": "HIV Case Surveillance",
+			"skipOffline": false,
+			"style": {
+				"color": "#d32f2f",
+				"icon": "ribbon_negative"
+			},
+			"trackedEntityType": {
+				"id": "MCPQUTHX1Ze"
+			},
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Эпиднадзор ВИЧ"
+				}
+			],
+			"useFirstStageDuringRegistration": true,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"version": 26
+		}
+	],
+	"programStageDataElements": [
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-12T10:41:30.339",
+			"dataElement": {
+				"id": "uiBCTI2XL2m"
+			},
+			"displayInReports": false,
+			"id": "aoFee0cWnu7",
+			"lastUpdated": "2020-06-05T11:09:16.854",
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:25:03.573",
+			"dataElement": {
+				"id": "HYEdbJEeJbz"
+			},
+			"displayInReports": false,
+			"id": "VoazWLenW3H",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 12
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-10T20:26:21.263",
+			"dataElement": {
+				"id": "v4K5u8wftrq"
+			},
+			"displayInReports": false,
+			"id": "zn8wdIlQVlC",
+			"lastUpdated": "2020-06-05T11:09:16.852",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 0
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:12:16.133",
+			"dataElement": {
+				"id": "Lu4jo7fSTb3"
+			},
+			"displayInReports": false,
+			"id": "TJHkKM6zF2H",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 10
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-10T20:26:21.264",
+			"dataElement": {
+				"id": "EZAZ8aIV3kB"
+			},
+			"displayInReports": false,
+			"id": "Xwgo63MhTg8",
+			"lastUpdated": "2020-06-05T11:09:16.850",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-12T10:41:30.340",
+			"dataElement": {
+				"id": "FRRIujn3jHD"
+			},
+			"displayInReports": false,
+			"id": "eLpiFctHuek",
+			"lastUpdated": "2020-06-05T11:09:16.854",
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-11T08:53:14.411",
+			"dataElement": {
+				"id": "ncsvQhFKcKc"
+			},
+			"displayInReports": false,
+			"id": "bn6urkZLrPa",
+			"lastUpdated": "2020-06-05T11:09:16.850",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 4
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": true,
+			"created": "2020-02-10T20:01:06.824",
+			"dataElement": {
+				"id": "zsM4K8kNPSo"
+			},
+			"displayInReports": true,
+			"id": "DFzAWlGzOf4",
+			"lastUpdated": "2020-06-05T11:09:16.848",
+			"programStage": {
+				"id": "K5ac7u3V5bB"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:12:16.133",
+			"dataElement": {
+				"id": "TQtuEvZ1eF6"
+			},
+			"displayInReports": false,
+			"id": "v4GrbinPvk4",
+			"lastUpdated": "2020-06-05T11:09:16.850",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 8
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-12T15:03:42.596",
+			"dataElement": {
+				"id": "cDt3CvgtlQs"
+			},
+			"displayInReports": false,
+			"id": "LfOPNQxDuDE",
+			"lastUpdated": "2020-06-05T11:09:16.848",
+			"programStage": {
+				"id": "K5ac7u3V5bB"
+			},
+			"renderOptionsAsRadio": false,
+			"renderType": {
+				"DESKTOP": {
+					"decimalPoints": null,
+					"max": null,
+					"min": null,
+					"step": null,
+					"type": "HORIZONTAL_RADIOBUTTONS"
+				},
+				"MOBILE": {
+					"decimalPoints": null,
+					"max": null,
+					"min": null,
+					"step": null,
+					"type": "HORIZONTAL_RADIOBUTTONS"
+				}
+			},
+			"skipSynchronization": false,
+			"sortOrder": 4
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:12:16.134",
+			"dataElement": {
+				"id": "mUMvkV72WQZ"
+			},
+			"displayInReports": false,
+			"id": "PFC4fmNJ8rq",
+			"lastUpdated": "2020-06-05T11:09:16.853",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 11
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-04-03T10:52:53.978",
+			"dataElement": {
+				"id": "LGz6njGUAP6"
+			},
+			"displayInReports": false,
+			"id": "M8R9kVNB1by",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 16
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": true,
+			"created": "2020-02-10T20:01:06.823",
+			"dataElement": {
+				"id": "fxXDe8OZ86q"
+			},
+			"displayInReports": true,
+			"id": "HoaXJrJboT0",
+			"lastUpdated": "2020-06-05T11:09:16.848",
+			"programStage": {
+				"id": "K5ac7u3V5bB"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 1
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-03-30T12:24:57.071",
+			"dataElement": {
+				"id": "Lv3c5VSA9t3"
+			},
+			"displayInReports": false,
+			"id": "TRGE7N0sWur",
+			"lastUpdated": "2020-06-05T11:09:16.853",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 14
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-10T20:26:21.264",
+			"dataElement": {
+				"id": "GCmEFuwLpDN"
+			},
+			"displayInReports": false,
+			"id": "gYqyvYulULL",
+			"lastUpdated": "2020-06-05T11:09:16.852",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 3
+		},
+		{
+			"allowFutureDate": true,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-13T09:27:29.209",
+			"dataElement": {
+				"id": "EGjmPoKhHpM"
+			},
+			"displayInReports": false,
+			"id": "Vv83sPIuMh6",
+			"lastUpdated": "2020-06-05T11:09:16.853",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 5
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:12:16.133",
+			"dataElement": {
+				"id": "F0GpDqqavuI"
+			},
+			"displayInReports": false,
+			"id": "g7fWomjorMf",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 7
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-04-06T21:01:48.159",
+			"dataElement": {
+				"id": "S4IJiirQVHY"
+			},
+			"displayInReports": false,
+			"id": "h4B0CpOSJp9",
+			"lastUpdated": "2020-06-05T11:09:16.850",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 17
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-14T11:04:26.685",
+			"dataElement": {
+				"id": "UiX8eZZl3Nt"
+			},
+			"displayInReports": false,
+			"id": "bndSjDI86Pe",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 2
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-05-20T07:06:02.887",
+			"dataElement": {
+				"id": "Bn9otKySZvP"
+			},
+			"displayInReports": false,
+			"id": "DCdft9nMZcZ",
+			"lastUpdated": "2020-06-05T11:09:16.852",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 18
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-26T16:12:16.134",
+			"dataElement": {
+				"id": "TmAJxu1XNKh"
+			},
+			"displayInReports": false,
+			"id": "f1effkwaBvk",
+			"lastUpdated": "2020-06-05T11:09:16.851",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 9
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-03-19T15:47:48.926",
+			"dataElement": {
+				"id": "rcUsYgOnlyF"
+			},
+			"displayInReports": false,
+			"id": "Nhl9rTCyHZL",
+			"lastUpdated": "2020-06-05T11:09:16.852",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 13
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-04-03T10:11:26.768",
+			"dataElement": {
+				"id": "c82CE0oy0Nj"
+			},
+			"displayInReports": false,
+			"id": "uCjIAlXp9qo",
+			"lastUpdated": "2020-06-05T11:09:16.853",
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 15
+		},
+		{
+			"allowFutureDate": false,
+			"allowProvidedElsewhere": false,
+			"compulsory": false,
+			"created": "2020-02-12T10:41:30.340",
+			"dataElement": {
+				"id": "vAS6qdqF6Gf"
+			},
+			"displayInReports": false,
+			"id": "rooKGSGx2G3",
+			"lastUpdated": "2020-06-05T11:09:16.854",
+			"programStage": {
+				"id": "UvYb6qJpQu0"
+			},
+			"renderOptionsAsRadio": false,
+			"skipSynchronization": false,
+			"sortOrder": 3
+		}
+	],
+	"programStages": [
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2020-02-12T10:41:30.339",
+			"description": "Used when a patient has ran out of medicine and not shown to a refill appointment.",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"executionDateLabel": "Date of follow up",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": true,
+			"id": "UvYb6qJpQu0",
+			"lastUpdated": "2020-06-05T11:09:16.853",
+			"minDaysFromStart": 0,
+			"name": "Follow-up",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-12T10:41:30.340",
+					"dataElement": {
+						"id": "FRRIujn3jHD"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "eLpiFctHuek",
+					"lastUpdated": "2020-06-05T11:09:16.854",
+					"programStage": {
+						"id": "UvYb6qJpQu0"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-12T10:41:30.339",
+					"dataElement": {
+						"id": "uiBCTI2XL2m"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "aoFee0cWnu7",
+					"lastUpdated": "2020-06-05T11:09:16.854",
+					"programStage": {
+						"id": "UvYb6qJpQu0"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-12T10:41:30.340",
+					"dataElement": {
+						"id": "vAS6qdqF6Gf"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "rooKGSGx2G3",
+					"lastUpdated": "2020-06-05T11:09:16.854",
+					"programStage": {
+						"id": "UvYb6qJpQu0"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 3,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "--------",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 4,
+			"style": {
+				"color": "#f57f17"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": true,
+			"blockEntryForm": false,
+			"created": "2020-02-10T20:01:06.823",
+			"description": "Initial Case Report",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"executionDateLabel": "Initial Case Report",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "K5ac7u3V5bB",
+			"lastUpdated": "2020-06-05T11:09:16.846",
+			"minDaysFromStart": 0,
+			"name": "Initial Case Report",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": true,
+					"created": "2020-02-10T20:01:06.823",
+					"dataElement": {
+						"id": "fxXDe8OZ86q"
+					},
+					"displayInReports": true,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "HoaXJrJboT0",
+					"lastUpdated": "2020-06-05T11:09:16.848",
+					"programStage": {
+						"id": "K5ac7u3V5bB"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": true,
+					"created": "2020-02-10T20:01:06.824",
+					"dataElement": {
+						"id": "zsM4K8kNPSo"
+					},
+					"displayInReports": true,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DFzAWlGzOf4",
+					"lastUpdated": "2020-06-05T11:09:16.848",
+					"programStage": {
+						"id": "K5ac7u3V5bB"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-12T15:03:42.596",
+					"dataElement": {
+						"id": "cDt3CvgtlQs"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "LfOPNQxDuDE",
+					"lastUpdated": "2020-06-05T11:09:16.848",
+					"programStage": {
+						"id": "K5ac7u3V5bB"
+					},
+					"renderOptionsAsRadio": false,
+					"renderType": {
+						"DESKTOP": {
+							"decimalPoints": null,
+							"max": null,
+							"min": null,
+							"step": null,
+							"type": "HORIZONTAL_RADIOBUTTONS"
+						},
+						"MOBILE": {
+							"decimalPoints": null,
+							"max": null,
+							"min": null,
+							"step": null,
+							"type": "HORIZONTAL_RADIOBUTTONS"
+						}
+					},
+					"skipSynchronization": false,
+					"sortOrder": 4,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "--------",
+			"remindCompleted": false,
+			"repeatable": false,
+			"sortOrder": 1,
+			"style": {
+				"color": "#e3f2fd"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": true,
+			"blockEntryForm": false,
+			"created": "2020-02-10T20:26:21.263",
+			"dataEntryForm": {
+				"id": "rvLyxsyBGRe"
+			},
+			"displayGenerateEventBox": true,
+			"dueDateLabel": "Next visit date",
+			"enableUserAssignment": false,
+			"executionDateLabel": "Visit Date",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": true,
+			"id": "ang4CLldbIu",
+			"lastUpdated": "2020-06-05T11:09:16.849",
+			"minDaysFromStart": 0,
+			"name": "Visit",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-10T20:26:21.263",
+					"dataElement": {
+						"id": "v4K5u8wftrq"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zn8wdIlQVlC",
+					"lastUpdated": "2020-06-05T11:09:16.852",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-10T20:26:21.264",
+					"dataElement": {
+						"id": "EZAZ8aIV3kB"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Xwgo63MhTg8",
+					"lastUpdated": "2020-06-05T11:09:16.850",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-14T11:04:26.685",
+					"dataElement": {
+						"id": "UiX8eZZl3Nt"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bndSjDI86Pe",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 2,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-10T20:26:21.264",
+					"dataElement": {
+						"id": "GCmEFuwLpDN"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gYqyvYulULL",
+					"lastUpdated": "2020-06-05T11:09:16.852",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 3,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-11T08:53:14.411",
+					"dataElement": {
+						"id": "ncsvQhFKcKc"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bn6urkZLrPa",
+					"lastUpdated": "2020-06-05T11:09:16.850",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 4,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": true,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-13T09:27:29.209",
+					"dataElement": {
+						"id": "EGjmPoKhHpM"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Vv83sPIuMh6",
+					"lastUpdated": "2020-06-05T11:09:16.853",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 5,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:12:16.133",
+					"dataElement": {
+						"id": "F0GpDqqavuI"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "g7fWomjorMf",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 7,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:12:16.133",
+					"dataElement": {
+						"id": "TQtuEvZ1eF6"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "v4GrbinPvk4",
+					"lastUpdated": "2020-06-05T11:09:16.850",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 8,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:12:16.134",
+					"dataElement": {
+						"id": "TmAJxu1XNKh"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "f1effkwaBvk",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 9,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:12:16.133",
+					"dataElement": {
+						"id": "Lu4jo7fSTb3"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "TJHkKM6zF2H",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 10,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:12:16.134",
+					"dataElement": {
+						"id": "mUMvkV72WQZ"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "PFC4fmNJ8rq",
+					"lastUpdated": "2020-06-05T11:09:16.853",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 11,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-02-26T16:25:03.573",
+					"dataElement": {
+						"id": "HYEdbJEeJbz"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "VoazWLenW3H",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 12,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-03-19T15:47:48.926",
+					"dataElement": {
+						"id": "rcUsYgOnlyF"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Nhl9rTCyHZL",
+					"lastUpdated": "2020-06-05T11:09:16.852",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 13,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-03-30T12:24:57.071",
+					"dataElement": {
+						"id": "Lv3c5VSA9t3"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "TRGE7N0sWur",
+					"lastUpdated": "2020-06-05T11:09:16.853",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 14,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-04-03T10:11:26.768",
+					"dataElement": {
+						"id": "c82CE0oy0Nj"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uCjIAlXp9qo",
+					"lastUpdated": "2020-06-05T11:09:16.853",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 15,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-04-03T10:52:53.978",
+					"dataElement": {
+						"id": "LGz6njGUAP6"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "M8R9kVNB1by",
+					"lastUpdated": "2020-06-05T11:09:16.851",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 16,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-04-06T21:01:48.159",
+					"dataElement": {
+						"id": "S4IJiirQVHY"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "h4B0CpOSJp9",
+					"lastUpdated": "2020-06-05T11:09:16.850",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 17,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-05-20T07:06:02.887",
+					"dataElement": {
+						"id": "Bn9otKySZvP"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DCdft9nMZcZ",
+					"lastUpdated": "2020-06-05T11:09:16.852",
+					"programStage": {
+						"id": "ang4CLldbIu"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 18,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [
+				{
+					"id": "wP6lGz66tig"
+				},
+				{
+					"id": "tkLnqqjD8u1"
+				},
+				{
+					"id": "E2XxsfQ5gAw"
+				}
+			],
+			"publicAccess": "--------",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 2,
+			"style": {
+				"color": "#1976d2"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"validationStrategy": "ON_COMPLETE"
+		}
+	],
+	"programStageSections": [
+		{
+			"created": "2020-02-26T16:12:16.070",
+			"dataElements": [
+				{
+					"id": "c82CE0oy0Nj"
+				},
+				{
+					"id": "Lv3c5VSA9t3"
+				},
+				{
+					"id": "HYEdbJEeJbz"
+				}
+			],
+			"id": "wP6lGz66tig",
+			"lastUpdated": "2020-05-20T07:06:02.868",
+			"name": "Clinical Surveillance",
+			"programIndicators": [],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 0,
+			"translations": []
+		},
+		{
+			"created": "2020-02-26T16:12:16.071",
+			"dataElements": [
+				{
+					"id": "Bn9otKySZvP"
+				},
+				{
+					"id": "TmAJxu1XNKh"
+				},
+				{
+					"id": "Lu4jo7fSTb3"
+				},
+				{
+					"id": "mUMvkV72WQZ"
+				},
+				{
+					"id": "TQtuEvZ1eF6"
+				}
+			],
+			"id": "tkLnqqjD8u1",
+			"lastUpdated": "2020-05-20T07:06:02.868",
+			"name": "TPT",
+			"programIndicators": [],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"created": "2020-04-03T08:57:25.528",
+			"dataElements": [
+				{
+					"id": "rcUsYgOnlyF"
+				},
+				{
+					"id": "v4K5u8wftrq"
+				},
+				{
+					"id": "S4IJiirQVHY"
+				},
+				{
+					"id": "EZAZ8aIV3kB"
+				},
+				{
+					"id": "UiX8eZZl3Nt"
+				},
+				{
+					"id": "LGz6njGUAP6"
+				},
+				{
+					"id": "ncsvQhFKcKc"
+				},
+				{
+					"id": "EGjmPoKhHpM"
+				}
+			],
+			"id": "E2XxsfQ5gAw",
+			"lastUpdated": "2020-05-20T07:06:02.868",
+			"name": "Treatment",
+			"programIndicators": [],
+			"programStage": {
+				"id": "ang4CLldbIu"
+			},
+			"renderType": {
+				"DESKTOP": {
+					"type": "LISTING"
+				},
+				"MOBILE": {
+					"type": "LISTING"
+				}
+			},
+			"sortOrder": 2,
+			"translations": []
+		}
+	],
+	"programTrackedEntityAttributes": [
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": false,
+			"id": "j2Yfm98DfCj",
+			"lastUpdated": "2020-06-05T11:08:01.342",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 3,
+			"trackedEntityAttribute": {
+				"id": "Z1rLc1rVHK8"
+			}
+		},
+		{
+			"created": "2020-02-17T11:22:40.468",
+			"displayInList": false,
+			"id": "dt73H1guRF6",
+			"lastUpdated": "2020-06-05T11:08:01.344",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 10,
+			"trackedEntityAttribute": {
+				"id": "sWn0CERcUYj"
+			}
+		},
+		{
+			"created": "2020-02-17T11:28:38.513",
+			"displayInList": false,
+			"id": "sIgBiw2Zajz",
+			"lastUpdated": "2020-06-05T11:08:01.350",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 12,
+			"trackedEntityAttribute": {
+				"id": "u101Hz0Lemb"
+			}
+		},
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": true,
+			"id": "c5o7aZOvO7W",
+			"lastUpdated": "2020-06-05T11:08:01.342",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 2,
+			"trackedEntityAttribute": {
+				"id": "aW66s2QSosT"
+			}
+		},
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": true,
+			"id": "GJMrdHGwFSE",
+			"lastUpdated": "2020-06-05T11:08:01.343",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 4,
+			"trackedEntityAttribute": {
+				"id": "mAWcalQYYyk"
+			}
+		},
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": true,
+			"id": "hYyb4XcCkfk",
+			"lastUpdated": "2020-06-05T11:08:01.342",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 1,
+			"trackedEntityAttribute": {
+				"id": "TfdH5KvFmMy"
+			}
+		},
+		{
+			"created": "2020-02-17T11:28:38.513",
+			"displayInList": true,
+			"id": "H3s0mnbhMtV",
+			"lastUpdated": "2020-06-05T11:08:01.346",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 11,
+			"trackedEntityAttribute": {
+				"id": "iZWtxl8sCi6"
+			}
+		},
+		{
+			"created": "2020-05-04T13:46:11.380",
+			"displayInList": false,
+			"id": "eAZyvGVhQLZ",
+			"lastUpdated": "2020-06-05T11:08:01.343",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 5,
+			"trackedEntityAttribute": {
+				"id": "Jt68iauILtD"
+			}
+		},
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": false,
+			"id": "hNLcTbw4AKe",
+			"lastUpdated": "2020-06-05T11:08:01.344",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 7,
+			"trackedEntityAttribute": {
+				"id": "VCtm2pySeEV"
+			}
+		},
+		{
+			"created": "2020-02-12T13:22:40.511",
+			"displayInList": false,
+			"id": "ULN5RFykk3w",
+			"lastUpdated": "2020-06-05T11:08:01.344",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 8,
+			"trackedEntityAttribute": {
+				"id": "ciCR6BBvIT4"
+			}
+		},
+		{
+			"created": "2020-02-17T11:22:40.468",
+			"displayInList": false,
+			"id": "hnW2VE7QUJE",
+			"lastUpdated": "2020-06-05T11:08:01.344",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": false,
+			"sortOrder": 9,
+			"trackedEntityAttribute": {
+				"id": "Ewi7FUfcHAD"
+			}
+		},
+		{
+			"created": "2020-02-10T13:11:17.477",
+			"displayInList": false,
+			"id": "bC3rF43j2kH",
+			"lastUpdated": "2020-06-05T11:08:01.344",
+			"mandatory": false,
+			"program": {
+				"id": "Xh88p1nyefp"
+			},
+			"programTrackedEntityAttributeGroups": [],
+			"renderOptionsAsRadio": false,
+			"searchable": true,
+			"sortOrder": 6,
+			"trackedEntityAttribute": {
+				"id": "q1vDBskejQV"
+			}
+		}
+	],
+	"trackedEntityAttributes": [
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2018-05-29T21:07:28.490",
+			"description": "\nGeographic location of the case.",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "VCtm2pySeEV",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:41:39.675",
+			"legendSets": [],
+			"name": "Address",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Address",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Endereço"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Адрес"
+				},
+				{
+					"locale": "uz@Cyrl",
+					"property": "NAME",
+					"value": "Манзили"
+				},
+				{
+					"locale": "uz@Cyrl",
+					"property": "SHORT_NAME",
+					"value": "Манзили"
+				},
+				{
+					"locale": "uz@Latn",
+					"property": "NAME",
+					"value": "Manzili"
+				},
+				{
+					"locale": "uz@Latn",
+					"property": "SHORT_NAME",
+					"value": "Manzili"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2019-02-12T14:14:26.534",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "q1vDBskejQV",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:40:45.907",
+			"legendSets": [],
+			"name": "Administrative Unit",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Administrative Unit",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "ORGANISATION_UNIT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2018-02-21T12:46:34.176",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Date of birth (age)",
+			"generated": false,
+			"id": "mAWcalQYYyk",
+			"inherit": false,
+			"lastUpdated": "2020-05-22T07:26:51.016",
+			"legendSets": [],
+			"name": "Date of birth (age)",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "DoB (age)",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data de nascimento (idade)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Дата рождения (возраст)"
+				},
+				{
+					"locale": "uz@Cyrl",
+					"property": "NAME",
+					"value": "Туғилган йили (Ёши)"
+				},
+				{
+					"locale": "uz@Latn",
+					"property": "NAME",
+					"value": "Tug`ilgan yili (yoshi)"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "AGE"
+		},
+		{
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2018-01-18T14:19:33.786",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "Z1rLc1rVHK8",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:39:48.949",
+			"legendSets": [],
+			"name": "Date of birth is estimated",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Estimated DoB",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data de nascimento foi estimada"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Приблизительная дата рождения"
+				},
+				{
+					"locale": "uz@Cyrl",
+					"property": "NAME",
+					"value": "Туғилган йили тахминий"
+				},
+				{
+					"locale": "uz@Latn",
+					"property": "NAME",
+					"value": "Tug`ilgan yili taxminiy"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TRUE_ONLY"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:23:24.765",
+			"description": "\nThe name of the patient or initials",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "TfdH5KvFmMy",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:09:44.127",
+			"legendSets": [],
+			"name": "First name",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "First name",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Nombre"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "Nombre"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Primeiro Nome"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Primeiro Nome"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Имя"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Имя"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-01-21T17:34:04.124",
+			"description": "From master facility list",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Health facility code",
+			"generated": false,
+			"id": "sWn0CERcUYj",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:42:47.159",
+			"legendSets": [],
+			"name": "Health Facility Code",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Health Facility Code",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-02-17T11:25:37.017",
+			"description": "HIV Program ID (For example, ART Number)",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Program ID",
+			"generated": true,
+			"id": "iZWtxl8sCi6",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:43:05.043",
+			"legendSets": [],
+			"name": "HIV Program ID",
+			"orgunitScope": false,
+			"pattern": "\"HIVCS_\"+SEQUENTIAL(#######)",
+			"publicAccess": "--------",
+			"shortName": "HIV Program",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": true,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:23:38.798",
+			"description": "Family name of the patient.",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "aW66s2QSosT",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:39:30.658",
+			"legendSets": [],
+			"name": "Last name",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Last name",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Apellido"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "Apellido"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Apelido"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Фамилия"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2017-11-23T15:22:06.406",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "ciCR6BBvIT4",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:41:57.429",
+			"legendSets": [],
+			"name": "Mobile phone number",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Mobile number",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "FORM_NAME",
+					"value": "Номер телефона"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Номер мобильного телефона"
+				}
+			],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "PHONE_NUMBER"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2016-05-21T12:22:40.091",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"generated": false,
+			"id": "Ewi7FUfcHAD",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:42:17.486",
+			"legendSets": [],
+			"name": "National ID",
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "National ID",
+			"skipSynchronization": false,
+			"translations": [
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Национальный ИН"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Национальный ИН"
+				}
+			],
+			"unique": true,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-02-17T11:24:40.473",
+			"description": "The National Health Information System ID ",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "NHIS ID",
+			"generated": true,
+			"id": "u101Hz0Lemb",
+			"inherit": true,
+			"lastUpdated": "2020-05-26T10:44:02.891",
+			"legendSets": [],
+			"name": "NHIS ID",
+			"orgunitScope": false,
+			"pattern": "\"NHIS_\" + RANDOM(#######)",
+			"publicAccess": "--------",
+			"shortName": "HIV NHIS ID",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": true,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-04-03T08:19:13.072",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Sex",
+			"generated": false,
+			"id": "Jt68iauILtD",
+			"inherit": false,
+			"lastUpdated": "2020-05-26T10:40:23.539",
+			"legendSets": [],
+			"name": "Sex M, F, TG",
+			"optionSet": {
+				"id": "P0RAq93jsi9"
+			},
+			"orgunitScope": false,
+			"pattern": "",
+			"publicAccess": "--------",
+			"shortName": "Sex M,F,TG",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"valueType": "TEXT"
+		}
+	],
+	"trackedEntityTypes": [
+		{
+			"allowAuditLog": false,
+			"attributeValues": [],
+			"code": "Person",
+			"created": "2017-11-01T00:00:00.000",
+			"description": "Person",
+			"featureType": "NONE",
+			"id": "MCPQUTHX1Ze",
+			"lastUpdated": "2020-06-05T11:02:18.979",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Person",
+			"publicAccess": "--------",
+			"trackedEntityTypeAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-05-22T07:24:53.122",
+					"displayInList": false,
+					"displayName": "Person Date of birth (age)",
+					"displayShortName": "null DoB (age)",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "sWaFojiAdn8",
+					"lastUpdated": "2020-05-22T07:24:53.180",
+					"name": "Person Date of birth (age)",
+					"searchable": false,
+					"trackedEntityAttribute": {
+						"id": "mAWcalQYYyk"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "AGE"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person First name",
+					"displayShortName": "null First name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "hKZ9AJpnVcG",
+					"lastUpdated": "2020-05-22T07:24:53.176",
+					"name": "Person First name",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person Last name",
+					"displayShortName": "null Last name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "gqLw62UZlrD",
+					"lastUpdated": "2020-05-22T07:24:53.176",
+					"name": "Person Last name",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2019-05-07T05:43:04.188",
+					"displayInList": true,
+					"displayName": "Person Unique Identifier",
+					"displayShortName": "null Unique Identifier",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "A6hUWdP9myD",
+					"lastUpdated": "2020-05-22T07:24:53.176",
+					"name": "Person Unique Identifier",
+					"searchable": true,
+					"trackedEntityAttribute": {
+						"id": "KSr2yTdu1AI"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				}
+			],
+			"translations": [
+				{
+					"locale": "es",
+					"property": "DESCRIPTION",
+					"value": "Persona"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Persona"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Person"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rwrw----",
+					"id": "pm1eqD1fqwx"
+				}
+			]
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-06-05T11:00:29.793",
+			"id": "pm1eqD1fqwx",
+			"lastUpdated": "2020-06-05T12:20:34.069",
+			"managedGroups": [],
+			"name": "HIV Case Surveillance",
+			"publicAccess": "--------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "pm1eqD1fqwx"
+				}
+			],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2020-05-04T12:58:35.756",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
+		}
+	]
+}
