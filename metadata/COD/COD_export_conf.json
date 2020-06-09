@@ -13,7 +13,7 @@
         "ownerId": "vUeLeQMSwhN"
       },      
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "OaBG9GmS9Rx",
@@ -48,7 +48,7 @@
       }, 
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_dev"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.2.0",
       "customObjects": [
@@ -90,7 +90,7 @@
         "ownerId": "vUeLeQMSwhN"
       },      
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "OaBG9GmS9Rx",
@@ -125,7 +125,7 @@
       }, 
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_dev"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.2.0", 
       "customObjects": [

@@ -1,0 +1,108 @@
+{
+"programs": [
+    {
+        "accessLevel": "OPEN",
+        "attributeValues": [],
+        "categoryCombo": {
+            "id": "bjDvmb4bfuf"
+        },
+        "completeEventsExpiryDays": 0,
+        "created": "2015-01-27T16:31:01.312",
+        "displayFrontPageList": true,
+        "displayIncidentDate": false,
+        "enrollmentDateLabel": "Date of death",
+        "expiryDays": 0,
+        "featureType": "NONE",
+        "id": "fOKN0TJ7Lmi",
+        "ignoreOverdueEvents": false,
+        "lastUpdated": "2020-03-18T18:16:51.287",
+        "maxTeiCountToReturn": 0,
+        "minAttributesRequiredToSearch": 1,
+        "name": "Cause of death (registration)",
+        "notificationTemplates": [],
+        "onlyEnrollOnce": true,
+        "organisationUnits": [],
+        "programSections": [],
+        "programStages": [
+            {
+                "id": "mjnjkIyjsUj"
+            }
+        ],
+        "programTrackedEntityAttributes": [
+            {
+                "access": {
+                    "delete": true,
+                    "externalize": true,
+                    "manage": true,
+                    "read": true,
+                    "update": true,
+                    "write": true
+                },
+                "allowFutureDate": false,
+                "attributeValues": [],
+                "created": "2018-01-17T13:42:59.051",
+                "displayInList": true,
+                "displayName": "Cause of death (registration) System Case ID",
+                "displayShortName": "Cause of death (registration) System Case ID",
+                "externalAccess": false,
+                "favorite": false,
+                "favorites": [],
+                "id": "FZKeQO87uBL",
+                "lastUpdated": "2018-06-11T18:21:19.175",
+                "mandatory": true,
+                "name": "Cause of death (registration) System Case ID",
+                "program": {
+                    "id": "fOKN0TJ7Lmi"
+                },
+                "programTrackedEntityAttributeGroups": [],
+                "renderOptionsAsRadio": false,
+                "searchable": true,
+                "sortOrder": 1,
+                "trackedEntityAttribute": {
+                    "id": "flGbXLXCrEo"
+                },
+                "translations": [],
+                "userAccesses": [],
+                "userGroupAccesses": [],
+                "valueType": "TEXT"
+            }
+        ],
+        "programType": "WITH_REGISTRATION",
+        "publicAccess": "r-------",
+        "selectEnrollmentDatesInFuture": false,
+        "selectIncidentDatesInFuture": false,
+        "shortName": "Cause of death (registration)",
+        "skipOffline": false,
+        "trackedEntityType": {
+            "id": "nEenWmSyUEp"
+        },
+        "translations": [
+            {
+                "locale": "fr",
+                "property": "NAME",
+                "value": "Cause de décès (enregistrement)"
+            }
+        ],
+        "useFirstStageDuringRegistration": false,
+        "user": {
+            "id": "vUeLeQMSwhN"
+        },
+        "userAccesses": [],
+        "userGroupAccesses": [
+            {
+                "access": "r-r-----",
+                "id": "OaBG9GmS9Rx"
+            },
+            {
+                "access": "rwr-----",
+                "id": "GCI348yKvGT"
+            },
+            {
+                "access": "r-rw----",
+                "id": "ZrBVcRHEZAJ"
+            }
+        ],
+        "version": 68
+    }
+]
+}
