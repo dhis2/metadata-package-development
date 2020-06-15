@@ -1,72 +1,4 @@
 {
-	"attributes": [
-		{
-			"categoryAttribute": false,
-			"categoryOptionAttribute": false,
-			"categoryOptionComboAttribute": false,
-			"categoryOptionGroupAttribute": false,
-			"categoryOptionGroupSetAttribute": false,
-			"code": "DATA_ELEMENT_AGG",
-			"constantAttribute": false,
-			"created": "2020-04-29T10:54:23.521",
-			"dataElementAttribute": false,
-			"dataElementGroupAttribute": false,
-			"dataElementGroupSetAttribute": false,
-			"dataSetAttribute": false,
-			"description": "Data element for aggregate data export",
-			"documentAttribute": false,
-			"id": "vudyDP7jUy5",
-			"indicatorAttribute": false,
-			"indicatorGroupAttribute": false,
-			"lastUpdated": "2020-05-19T12:39:07.125",
-			"legendSetAttribute": false,
-			"mandatory": false,
-			"name": "Data element for aggregate data export",
-			"optionAttribute": false,
-			"optionSetAttribute": false,
-			"organisationUnitAttribute": false,
-			"organisationUnitGroupAttribute": false,
-			"organisationUnitGroupSetAttribute": false,
-			"programAttribute": false,
-			"programIndicatorAttribute": true,
-			"programStageAttribute": false,
-			"publicAccess": "--------",
-			"sectionAttribute": false,
-			"shortName": "Data element for aggregate data export",
-			"sqlViewAttribute": false,
-			"trackedEntityAttributeAttribute": false,
-			"trackedEntityTypeAttribute": false,
-			"translations": [],
-			"unique": false,
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userAttribute": false,
-			"userGroupAccesses": [
-				{
-					"access": "r-------",
-					"id": "pyu2ZlNKbzQ"
-				},
-				{
-					"access": "rw------",
-					"id": "Ubzlyfqm1gO"
-				},
-				{
-					"access": "r-------",
-					"id": "UKWx4jJcrKt"
-				},
-				{
-					"access": "r-------",
-					"id": "zBZXkRW0PJy"
-				}
-			],
-			"userGroupAttribute": false,
-			"validationRuleAttribute": false,
-			"validationRuleGroupAttribute": false,
-			"valueType": "TEXT"
-		}
-	],
 	"categories": [
 		{
 			"attributeValues": [],
@@ -80,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2020-05-19T11:27:41.385",
+			"lastUpdated": "2020-06-10T12:10:17.923",
 			"name": "default",
 			"publicAccess": "--------",
 			"translations": [
@@ -289,7 +221,7 @@
 			"created": "2020-02-21T08:03:24.956",
 			"description": "Value \"1\" = include Sputum Smear Microscopy in the list of tests available at the NRLs in your country.\nValue \"0\" = exclude Sputum Smear Microscopy from the list of tests available at the NRLs in your country.",
 			"id": "q1ah12sKfG3",
-			"lastUpdated": "2020-05-06T23:24:47.414",
+			"lastUpdated": "2020-06-04T08:07:18.070",
 			"name": "TB-001: Laboratory Test - Sputum Smear Microscopy",
 			"publicAccess": "--------",
 			"shortName": "TB Sputum Smear Microscopy",
@@ -775,9 +707,9 @@
 		{
 			"attributeValues": [],
 			"created": "2020-03-23T20:57:36.658",
-			"description": "Value \"2\" = include lists of First-line and Second-line drugs in the Treatment Stage.\nValue \"1\" = exclude lists of First-line and Second-line drugs from the Treatment Stage.",
+			"description": "Value \"1\" = include lists of First-line and Second-line drugs in the Treatment Stage.\nValue \"2\" = exclude lists of First-line and Second-line drugs from the Treatment Stage.",
 			"id": "GxOlFoUKbHB",
-			"lastUpdated": "2020-05-28T10:00:35.865",
+			"lastUpdated": "2020-06-08T09:30:45.501",
 			"name": "TB-015: Treatment - Lists of First-line and Second-line drugs",
 			"publicAccess": "--------",
 			"shortName": "First-line and Second-line drugs",
@@ -804,7 +736,7 @@
 					"id": "zBZXkRW0PJy"
 				}
 			],
-			"value": 1
+			"value": 2
 		},
 		{
 			"attributeValues": [],
@@ -16543,7 +16475,7 @@
 			"created": "2015-03-23T01:41:28.852",
 			"factor": 100,
 			"id": "e1jRVY5Mcq0",
-			"lastUpdated": "2020-05-07T07:25:34.149",
+			"lastUpdated": "2020-06-08T09:42:51.257",
 			"name": "Percentage",
 			"number": false,
 			"translations": [
@@ -16551,6 +16483,11 @@
 					"locale": "es",
 					"property": "NAME",
 					"value": "Por 100"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
 				},
 				{
 					"locale": "pt",
@@ -16871,7 +16808,7 @@
 			"code": "FEMALE",
 			"created": "2016-05-21T12:26:12.090",
 			"id": "AZK4rjJCss5",
-			"lastUpdated": "2020-05-04T12:58:36.113",
+			"lastUpdated": "2020-06-08T09:42:50.398",
 			"name": "Female",
 			"optionSet": {
 				"id": "hiQ3QFheQ3O"
@@ -17003,7 +16940,7 @@
 			"code": "MALE",
 			"created": "2016-05-21T12:26:04.313",
 			"id": "UrUdMteQzlT",
-			"lastUpdated": "2020-05-04T12:58:36.113",
+			"lastUpdated": "2020-06-08T09:42:50.398",
 			"name": "Male",
 			"optionSet": {
 				"id": "hiQ3QFheQ3O"
@@ -17171,7 +17108,7 @@
 			"code": "NO",
 			"created": "2018-01-19T08:53:15.588",
 			"id": "PLlPgcfbL1D",
-			"lastUpdated": "2020-05-04T12:58:36.113",
+			"lastUpdated": "2020-06-08T09:42:50.398",
 			"name": "No",
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
@@ -17770,7 +17707,7 @@
 			"code": "UNKNOWN",
 			"created": "2018-01-19T08:53:24.125",
 			"id": "TKD1XJ4ZhMO",
-			"lastUpdated": "2020-05-04T12:58:36.113",
+			"lastUpdated": "2020-06-08T09:42:50.399",
 			"name": "Unknown",
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
@@ -17827,7 +17764,7 @@
 			"code": "YES",
 			"created": "2018-01-19T08:53:10.604",
 			"id": "CvivP1rh4ii",
-			"lastUpdated": "2020-05-04T12:58:36.113",
+			"lastUpdated": "2020-06-08T09:42:50.399",
 			"name": "Yes",
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
@@ -17956,7 +17893,7 @@
 			"attributeValues": [],
 			"created": "2016-05-21T12:25:50.167",
 			"id": "hiQ3QFheQ3O",
-			"lastUpdated": "2020-05-07T07:25:35.307",
+			"lastUpdated": "2020-06-08T09:42:50.517",
 			"name": "Sex",
 			"options": [
 				{
@@ -18531,7 +18468,7 @@
 			"code": "YES_NO_UNKNOWN",
 			"created": "2014-12-18T22:42:07.435",
 			"id": "bLA3AqDKdwx",
-			"lastUpdated": "2020-05-04T12:58:36.339",
+			"lastUpdated": "2020-06-08T09:42:50.517",
 			"name": "Yes/No/Unknown",
 			"options": [
 				{
@@ -18588,7 +18525,7 @@
 			"version": 4
 		}
 	],
-	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-05-29T10:43",
+	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-06-15T15:19",
 	"programIndicatorGroups": [
 		{
 			"created": "2018-06-07T11:23:07.255",
@@ -22584,15 +22521,14 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T08:44:13.210",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "PTlP6AtBoXe",
+					"id": "wiBGDswIAk9",
 					"lastUpdated": "2020-05-01T15:48:36.110",
-					"offsetPeriods": -1,
-					"offsetPeriodType": "Yearly",
+					"offsetPeriods": 0,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -22608,14 +22544,15 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T08:44:13.210",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "wiBGDswIAk9",
+					"id": "PTlP6AtBoXe",
 					"lastUpdated": "2020-05-01T15:48:36.110",
-					"offsetPeriods": 0,
+					"offsetPeriods": -1,
+					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -22720,15 +22657,13 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T09:06:32.885",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "ln5BfxOab6A",
+					"id": "pSXd1yjF46x",
 					"lastUpdated": "2020-05-01T15:49:29.760",
-					"offsetPeriods": -3,
-					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -22744,13 +22679,15 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T09:06:32.885",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "pSXd1yjF46x",
+					"id": "ln5BfxOab6A",
 					"lastUpdated": "2020-05-01T15:49:29.760",
+					"offsetPeriods": -3,
+					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -22855,15 +22792,13 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T10:04:39.218",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "rQ96ilVXWH3",
+					"id": "ZBE5ndhD1cX",
 					"lastUpdated": "2020-05-01T15:49:50.630",
-					"offsetPeriods": -3,
-					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -22879,13 +22814,15 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T10:04:39.218",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "ZBE5ndhD1cX",
+					"id": "rQ96ilVXWH3",
 					"lastUpdated": "2020-05-01T15:49:50.630",
+					"offsetPeriods": -3,
+					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -23079,15 +23016,17 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T09:04:50.361",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "pGVTdvoVvgp",
+					"id": "owKCx61FVlg",
 					"lastUpdated": "2020-04-30T12:31:10.520",
+					"offsetPeriods": -1,
+					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -23101,17 +23040,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T09:04:50.361",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "owKCx61FVlg",
+					"id": "pGVTdvoVvgp",
 					"lastUpdated": "2020-04-30T12:31:10.520",
-					"offsetPeriods": -1,
-					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -23265,15 +23202,14 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T10:16:23.967",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "nNmsUjeceo8",
+					"id": "Mnij3UuGnXi",
 					"lastUpdated": "2020-05-01T15:50:21.712",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
+					"offsetPeriods": 0,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -23289,14 +23225,15 @@
 					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T10:16:23.967",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Mnij3UuGnXi",
+					"id": "nNmsUjeceo8",
 					"lastUpdated": "2020-05-01T15:50:21.712",
-					"offsetPeriods": 0,
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -25907,14 +25844,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hO8gwWVkkXs",
+					"id": "Q2RkrgiMXDi",
 					"lastUpdated": "2020-05-02T17:08:45.980",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -25931,14 +25868,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Q2RkrgiMXDi",
+					"id": "hO8gwWVkkXs",
 					"lastUpdated": "2020-05-02T17:08:45.980",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -25999,14 +25936,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "PCovcMvAbz1",
+					"id": "WcrCkyKhnqi",
 					"lastUpdated": "2020-04-30T10:55:16.041",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26023,14 +25960,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "WcrCkyKhnqi",
+					"id": "PCovcMvAbz1",
 					"lastUpdated": "2020-04-30T10:55:16.041",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26091,14 +26028,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "a46eQ919cPV",
+					"id": "evoAlO3F9QE",
 					"lastUpdated": "2020-04-30T10:55:41.014",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26115,14 +26052,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "evoAlO3F9QE",
+					"id": "a46eQ919cPV",
 					"lastUpdated": "2020-04-30T10:55:41.014",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26183,14 +26120,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "jOlkqvkjUUu",
+					"id": "B4cXZvC2bvV",
 					"lastUpdated": "2020-04-30T10:56:11.725",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26207,14 +26144,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "B4cXZvC2bvV",
+					"id": "jOlkqvkjUUu",
 					"lastUpdated": "2020-04-30T10:56:11.725",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26275,14 +26212,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "O8YCK2AlZoe",
+					"id": "s74D1OFRDDs",
 					"lastUpdated": "2020-04-30T10:56:46.809",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26299,14 +26236,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "s74D1OFRDDs",
+					"id": "O8YCK2AlZoe",
 					"lastUpdated": "2020-04-30T10:56:46.809",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26367,14 +26304,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "DYP5YlEUGgY",
+					"id": "hqAsbTuZh9D",
 					"lastUpdated": "2020-04-30T10:57:24.091",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26391,14 +26328,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hqAsbTuZh9D",
+					"id": "DYP5YlEUGgY",
 					"lastUpdated": "2020-04-30T10:57:24.091",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26459,14 +26396,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "tICwe3VtWTu",
+					"id": "vvuna8QxKwS",
 					"lastUpdated": "2020-05-02T17:09:31.409",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26483,14 +26420,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "vvuna8QxKwS",
+					"id": "tICwe3VtWTu",
 					"lastUpdated": "2020-05-02T17:09:31.409",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26551,15 +26488,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "pzyHcyDpCJh",
-					"lastUpdated": "2020-05-01T15:10:46.577",
+					"id": "zLpAPshSB4Z",
+					"lastUpdated": "2020-05-01T15:10:46.578",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -26575,15 +26512,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "zLpAPshSB4Z",
-					"lastUpdated": "2020-05-01T15:10:46.578",
+					"id": "pzyHcyDpCJh",
+					"lastUpdated": "2020-05-01T15:10:46.577",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -26643,14 +26580,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "RNJsi9rWQQx",
+					"id": "LV8qYzO4FqB",
 					"lastUpdated": "2020-05-01T15:10:55.046",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26667,14 +26604,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "LV8qYzO4FqB",
+					"id": "RNJsi9rWQQx",
 					"lastUpdated": "2020-05-01T15:10:55.046",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26735,14 +26672,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "iMtKCFWjIzl",
+					"id": "KhhCaBPfGb9",
 					"lastUpdated": "2020-05-01T15:11:02.828",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26759,14 +26696,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "KhhCaBPfGb9",
+					"id": "iMtKCFWjIzl",
 					"lastUpdated": "2020-05-01T15:11:02.828",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26827,14 +26764,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "D93ccPOIwPK",
+					"id": "B1do2cuMj22",
 					"lastUpdated": "2020-05-01T15:11:24.020",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26851,14 +26788,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "B1do2cuMj22",
+					"id": "D93ccPOIwPK",
 					"lastUpdated": "2020-05-01T15:11:24.020",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26919,14 +26856,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "BUmZjnXmDcV",
+					"id": "VjuhwLH601w",
 					"lastUpdated": "2020-05-01T15:11:18.874",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -26943,14 +26880,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "VjuhwLH601w",
+					"id": "BUmZjnXmDcV",
 					"lastUpdated": "2020-05-01T15:11:18.874",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27011,14 +26948,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "FZzNo4WKG5r",
+					"id": "HOAcPV4dpww",
 					"lastUpdated": "2020-05-02T17:11:19.175",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27035,14 +26972,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "HOAcPV4dpww",
+					"id": "FZzNo4WKG5r",
 					"lastUpdated": "2020-05-02T17:11:19.175",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27103,14 +27040,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "BNJqKZvpMXV",
+					"id": "QFaJuOSTpAp",
 					"lastUpdated": "2020-04-30T14:17:26.164",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27127,14 +27064,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "QFaJuOSTpAp",
+					"id": "BNJqKZvpMXV",
 					"lastUpdated": "2020-04-30T14:17:26.164",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27195,14 +27132,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "aTbNzkaFz92",
+					"id": "q8NhaNS9j5r",
 					"lastUpdated": "2020-04-30T14:18:02.451",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27219,14 +27156,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "q8NhaNS9j5r",
+					"id": "aTbNzkaFz92",
 					"lastUpdated": "2020-04-30T14:18:02.451",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27287,14 +27224,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Rwuh8HDkUeC",
+					"id": "zN77J62wzdy",
 					"lastUpdated": "2020-04-30T14:18:21.980",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27311,14 +27248,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "zN77J62wzdy",
+					"id": "Rwuh8HDkUeC",
 					"lastUpdated": "2020-04-30T14:18:21.980",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27379,14 +27316,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hUJJVyMYh2n",
+					"id": "h7v4Qdgw1R0",
 					"lastUpdated": "2020-04-30T14:18:49.129",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27403,14 +27340,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "h7v4Qdgw1R0",
+					"id": "hUJJVyMYh2n",
 					"lastUpdated": "2020-04-30T14:18:49.129",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27471,14 +27408,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "UTgphBWB6FD",
+					"id": "hROaPPnEqkS",
 					"lastUpdated": "2020-04-30T14:19:10.142",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27495,14 +27432,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hROaPPnEqkS",
+					"id": "UTgphBWB6FD",
 					"lastUpdated": "2020-04-30T14:19:10.142",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27563,14 +27500,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "aw7hgwNpslF",
+					"id": "cs02sE47bKc",
 					"lastUpdated": "2020-05-02T17:11:51.530",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27587,14 +27524,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "cs02sE47bKc",
+					"id": "aw7hgwNpslF",
 					"lastUpdated": "2020-05-02T17:11:51.530",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
@@ -27655,15 +27592,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "TT8xLlyC1bL",
-					"lastUpdated": "2020-04-30T14:20:18.641",
+					"id": "hEhx038CrrJ",
+					"lastUpdated": "2020-04-30T14:20:18.642",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -27679,15 +27616,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "ENROLLMENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hEhx038CrrJ",
-					"lastUpdated": "2020-04-30T14:20:18.642",
+					"id": "TT8xLlyC1bL",
+					"lastUpdated": "2020-04-30T14:20:18.641",
 					"offsetPeriods": -1,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -27747,30 +27684,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T14:27:32.745",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "zGuUjJOhELH",
-					"lastUpdated": "2020-05-02T17:13:58.558",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -27803,6 +27716,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "BzMl8N5PiVK",
+					"lastUpdated": "2020-05-02T17:13:58.558",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T14:27:32.745",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "zGuUjJOhELH",
 					"lastUpdated": "2020-05-02T17:13:58.558",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -27864,30 +27801,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-04-30T14:30:46.442",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "dH3DRIevZpJ",
-					"lastUpdated": "2020-05-02T17:12:15.388",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -27921,6 +27834,30 @@
 					"favorites": [],
 					"id": "yOMdiZQNMkD",
 					"lastUpdated": "2020-05-02T17:12:15.389",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-04-30T14:30:46.442",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "dH3DRIevZpJ",
+					"lastUpdated": "2020-05-02T17:12:15.388",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -27981,30 +27918,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:39:47.094",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "tAevTEtSNFg",
-					"lastUpdated": "2020-05-02T17:12:25.067",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28038,6 +27951,30 @@
 					"favorites": [],
 					"id": "NQOmkwkmEnX",
 					"lastUpdated": "2020-05-02T17:12:25.068",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:39:47.094",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "tAevTEtSNFg",
+					"lastUpdated": "2020-05-02T17:12:25.067",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -28098,30 +28035,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:41:36.575",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "DNdltL92QN5",
-					"lastUpdated": "2020-05-02T17:12:29.942",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28154,6 +28067,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "reQmiDeOfw6",
+					"lastUpdated": "2020-05-02T17:12:29.942",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:41:36.575",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DNdltL92QN5",
 					"lastUpdated": "2020-05-02T17:12:29.942",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28215,15 +28152,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:42:30.165",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "UgVhuldsrY7",
-					"lastUpdated": "2020-05-02T17:12:35.762",
+					"id": "FxClMWCN5jS",
+					"lastUpdated": "2020-05-02T17:12:35.763",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -28263,15 +28200,15 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:42:30.165",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "FxClMWCN5jS",
-					"lastUpdated": "2020-05-02T17:12:35.763",
+					"id": "UgVhuldsrY7",
+					"lastUpdated": "2020-05-02T17:12:35.762",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -28332,30 +28269,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:46:02.648",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "R1wI8cwWIhU",
-					"lastUpdated": "2020-05-02T17:12:41.382",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28388,6 +28301,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gq2XYC0ofZC",
+					"lastUpdated": "2020-05-02T17:12:41.382",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:46:02.648",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "R1wI8cwWIhU",
 					"lastUpdated": "2020-05-02T17:12:41.382",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28449,30 +28386,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:49:08.238",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "JMmiYx8kRZD",
-					"lastUpdated": "2020-05-02T17:12:59.771",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28505,6 +28418,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "W42UoOqJIXl",
+					"lastUpdated": "2020-05-02T17:12:59.771",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:49:08.238",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JMmiYx8kRZD",
 					"lastUpdated": "2020-05-02T17:12:59.771",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28566,30 +28503,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:50:01.935",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "yBidCdWUgDI",
-					"lastUpdated": "2020-05-02T17:13:12.742",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28622,6 +28535,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "UAhvCj22I0E",
+					"lastUpdated": "2020-05-02T17:13:12.742",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:50:01.935",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "yBidCdWUgDI",
 					"lastUpdated": "2020-05-02T17:13:12.742",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28683,30 +28620,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:50:59.472",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "SyTnjO4uYWF",
-					"lastUpdated": "2020-05-02T17:13:18.885",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28739,6 +28652,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "L8M1LFPUkdv",
+					"lastUpdated": "2020-05-02T17:13:18.885",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:50:59.472",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "SyTnjO4uYWF",
 					"lastUpdated": "2020-05-02T17:13:18.885",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28800,14 +28737,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:51:44.240",
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2018-06-07T09:13:59.286",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "nuwAKHKY3iq",
+					"id": "pTTjOmywK1r",
 					"lastUpdated": "2020-05-02T17:13:28.206",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28848,14 +28785,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
-					"boundaryTarget": "ENROLLMENT_DATE",
-					"created": "2018-06-07T09:13:59.286",
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:51:44.240",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "pTTjOmywK1r",
+					"id": "nuwAKHKY3iq",
 					"lastUpdated": "2020-05-02T17:13:28.206",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -28917,30 +28854,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:53:40.207",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "kjizTRbPMhq",
-					"lastUpdated": "2020-05-02T17:13:33.578",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -28974,6 +28887,30 @@
 					"favorites": [],
 					"id": "iUKFoFKiNaU",
 					"lastUpdated": "2020-05-02T17:13:33.579",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:53:40.207",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "kjizTRbPMhq",
+					"lastUpdated": "2020-05-02T17:13:33.578",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
 					"translations": [],
@@ -29034,30 +28971,6 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2020-05-01T14:55:23.533",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "KmO5Lyc0q7M",
-					"lastUpdated": "2020-05-02T17:13:38.545",
-					"offsetPeriods": -2,
-					"offsetPeriodType": "Yearly",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
 					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
@@ -29090,6 +29003,30 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "FmL1O6uStLn",
+					"lastUpdated": "2020-05-02T17:13:38.545",
+					"offsetPeriods": -2,
+					"offsetPeriodType": "Yearly",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2020-05-01T14:55:23.533",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "KmO5Lyc0q7M",
 					"lastUpdated": "2020-05-02T17:13:38.545",
 					"offsetPeriods": -2,
 					"offsetPeriodType": "Yearly",
@@ -35693,6 +35630,94 @@
 			]
 		},
 		{
+			"aggregationType": "COUNT",
+			"analyticsPeriodBoundaries": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-06-08T10:38:15.009",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "E6YrGd9G2hP",
+					"lastUpdated": "2020-06-08T12:32:53.656",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "ENROLLMENT_DATE",
+					"created": "2020-06-08T10:38:15.010",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "B9sJjTCqLhZ",
+					"lastUpdated": "2020-06-08T12:32:53.656",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"created": "2020-06-08T10:38:15.009",
+			"decimals": 0,
+			"description": "Enrolled cases that have not started on treatment",
+			"expression": "V{enrollment_count}",
+			"filter": "d2:hasValue(#{RB3a5MXMe8g.s84QVMsGP0W}) == false && d2:countIfValue(#{RB3a5MXMe8g.s84QVMsGP0W},'FIRST_LINE_TREATMENT') == 0 && d2:countIfValue(#{RB3a5MXMe8g.s84QVMsGP0W},'SECOND_LINE_TREATMENT') == 0",
+			"id": "GNgsosCnVv3",
+			"lastUpdated": "2020-06-08T12:32:53.655",
+			"legendSets": [],
+			"name": "TB - Cases that have not started on treatment",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"publicAccess": "--------",
+			"shortName": "Cases not on treatment",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-------",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-------",
+					"id": "zBZXkRW0PJy"
+				}
+			]
+		},
+		{
 			"aggregationType": "CUSTOM",
 			"analyticsPeriodBoundaries": [
 				{
@@ -39000,7 +39025,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "GIsPm3A109a",
-					"lastUpdated": "2020-05-12T11:01:45.380",
+					"lastUpdated": "2020-06-15T15:18:36.653",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -39022,21 +39047,14 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "nENQvhAhrSE",
-					"lastUpdated": "2020-05-12T11:01:45.381",
+					"lastUpdated": "2020-06-15T15:18:36.653",
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [
-				{
-					"attribute": {
-						"id": "vudyDP7jUy5"
-					},
-					"value": "TB_NEW_LABCONF"
-				}
-			],
+			"attributeValues": [],
 			"code": "TB_NEW_LABCONF",
 			"created": "2020-05-05T07:23:02.067",
 			"decimals": 0,
@@ -39044,7 +39062,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && \n\n(#{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_NEW' && \n\n(#{ODD4lMPm0JX.XfqbpoBl2VS} == 'SITE_PULMONARY' || #{ODD4lMPm0JX.XfqbpoBl2VS} == 'SITE_BOTH') && \n\n(d2:countIfValue(#{mPdMZNWVrOQ.CiyzVihv21K}, 'POSITIVE') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.iD9wKzRYCLc}, 'POSITIVE') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Zos365qSyj0}, 'POSITIVE') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.bNGqfxvPbPo}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Lr8yX1aTLf4}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.TPeXlGuQWUQ}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.CxjSGmVSIrD}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.lmXKhJA5nk1} , 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Zd7703kfnOC}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.z0j1fZQHoSB} , 'DETECTED') > 0))\n\n",
 			"id": "zUjUpQKcgc9",
-			"lastUpdated": "2020-05-13T20:00:52.254",
+			"lastUpdated": "2020-06-15T15:18:36.652",
 			"legendSets": [],
 			"name": "TB_AGG - New pulmonary TB cases, bacteriologically confirmed",
 			"program": {
@@ -46253,32 +46271,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "GeneXpert rifampicin can not be \"Resistant\" when MTB result is \"Not detected\"",
-			"created": "2018-06-10T13:41:38.412",
-			"dataElement": {
-				"id": "F6kH0qcMT7Z"
-			},
-			"id": "PSidJXxmVtm",
-			"lastUpdated": "2020-02-17T09:54:33.492",
-			"programRule": {
-				"id": "le9W1BPaAj4"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
-			"content": "Patient's age cannot be greater than 120 years!",
-			"created": "2017-11-27T10:08:07.244",
-			"id": "rILBFaJyY9t",
-			"lastUpdated": "2020-05-22T11:51:36.550",
-			"programRule": {
-				"id": "SSpRt9vj5a0"
-			},
-			"programRuleActionType": "SHOWERROR",
-			"trackedEntityAttribute": {
-				"id": "mAWcalQYYyk"
-			}
-		},
-		{
 			"created": "2020-01-07T16:44:44.809",
 			"dataElement": {
 				"id": "UIzR3p4nlMI"
@@ -46311,18 +46303,6 @@
 				"id": "VFjTb394lD2"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"created": "2019-03-07T18:43:02.381",
-			"id": "szlz0relRBK",
-			"lastUpdated": "2020-05-05T21:07:09.760",
-			"programRule": {
-				"id": "ov1MiHaD9Xe"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "jd63d3mK5bW"
-			}
 		},
 		{
 			"created": "2020-02-14T13:57:53.598",
@@ -46530,10 +46510,10 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of birth can not be in the future",
+			"content": "You entered a patient’s date of birth that is in the future. Date of birth cannot be after today’s date. Please review this date.",
 			"created": "2017-11-27T10:08:07.244",
 			"id": "SuWFN2aDYNE",
-			"lastUpdated": "2020-05-22T07:30:19.149",
+			"lastUpdated": "2020-06-15T09:34:24.683",
 			"programRule": {
 				"id": "UfQ378gSBCa"
 			},
@@ -46580,13 +46560,13 @@
 			"programRuleActionType": "SHOWWARNING"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "bXaGYMAnfNH"
 			},
 			"id": "l6B1DhcX4yQ",
-			"lastUpdated": "2020-02-20T18:15:24.676",
+			"lastUpdated": "2020-06-15T09:34:13.801",
 			"programRule": {
 				"id": "n5Z7gqKZsnS"
 			},
@@ -46616,17 +46596,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
-			"created": "2020-02-07T16:31:15.734",
-			"id": "OtqsoRCmLJY",
-			"lastUpdated": "2020-05-27T13:55:20.035",
-			"location": "feedback",
-			"programRule": {
-				"id": "Y8WFkcBC4lf"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
-		},
-		{
 			"content": "#{DSTresAmCm}",
 			"created": "2016-10-06T11:04:40.033",
 			"id": "kSXX37kM3oN",
@@ -46650,28 +46619,30 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "BiTvo0thrD1",
-			"lastUpdated": "2020-05-28T08:54:02.090",
-			"programRule": {
-				"id": "bvKU4RArJjo"
+			"content": "You entered a CPT start date that is before the patient’s date of birth. CPT start date must be on or after date of birth. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "CNWvvdTP3m3"
 			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "ei9HQAyKWRw"
-			}
+			"id": "HqjXZD1Z2dr",
+			"lastUpdated": "2020-06-15T09:19:07.158",
+			"programRule": {
+				"id": "W4Z7zPaJUcA"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "Y4qy19ycsg3",
-			"lastUpdated": "2020-05-28T08:54:02.090",
-			"programRule": {
-				"id": "bvKU4RArJjo"
+			"content": "You entered an HIV status date that is before the patient’s date of birth. HIV status date must be on or after date of birth. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "V6RVBzCr3Kl"
 			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "SYFN66iGDKN"
-			}
+			"id": "IDNlGMCzPnh",
+			"lastUpdated": "2020-06-15T09:19:29.973",
+			"programRule": {
+				"id": "voL1qX3Jy6T"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-02-14T13:57:53.598",
@@ -46710,6 +46681,18 @@
 				"id": "alAoqqSMlSC"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "eYm1n8q2PDf",
+			"lastUpdated": "2020-06-08T09:31:05.932",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "lpD58ED9tir"
+			}
 		},
 		{
 			"created": "2020-02-14T14:16:00.584",
@@ -46770,6 +46753,17 @@
 				"id": "v5nV6pnsC6d"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "The HIV status date is more than 6 months old. Consider retesting for HIV.",
+			"created": "2020-02-07T16:31:15.734",
+			"id": "psb9MEBkzOY",
+			"lastUpdated": "2020-06-15T06:50:37.203",
+			"location": "feedback",
+			"programRule": {
+				"id": "Y8WFkcBC4lf"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"created": "2020-04-16T11:45:47.406",
@@ -46866,16 +46860,6 @@
 				"id": "Meja9tgN8Fj"
 			},
 			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"content": "Already on first line treatment regimen.",
-			"created": "2018-01-12T13:21:00.675",
-			"id": "MHV4bfgTVib",
-			"lastUpdated": "2020-05-05T20:47:30.297",
-			"programRule": {
-				"id": "pxHF4k6lOyg"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2018-06-14T20:06:59.914",
@@ -46991,19 +46975,6 @@
 			"programRuleActionType": "SHOWWARNING"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "uEV8flIOeYI"
-			},
-			"id": "hj7eZHOfLrV",
-			"lastUpdated": "2020-02-20T18:16:47.287",
-			"programRule": {
-				"id": "F6rsp5bxUoA"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-02-14T13:57:53.598",
 			"data": "''",
 			"dataElement": {
@@ -47042,10 +47013,10 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Drug resistance detected and patient is on first-line treatment.",
+			"content": "Drug resistance is detected, but patient is on first-line treatment.",
 			"created": "2017-11-24T15:25:34.360",
 			"id": "c5Db3YL076v",
-			"lastUpdated": "2020-05-19T11:51:04.327",
+			"lastUpdated": "2020-06-15T09:34:26.072",
 			"location": "feedback",
 			"programRule": {
 				"id": "Biaw9nKhMQr"
@@ -47147,13 +47118,13 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "D4z4o6JR9M0"
 			},
 			"id": "kDEUcgKxkog",
-			"lastUpdated": "2020-02-20T18:18:57.799",
+			"lastUpdated": "2020-06-15T09:34:15.442",
 			"programRule": {
 				"id": "GWZsesG0sgI"
 			},
@@ -47172,13 +47143,13 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "vezbpFOckNI"
 			},
 			"id": "OKhGE04FQiJ",
-			"lastUpdated": "2020-02-20T18:21:11.712",
+			"lastUpdated": "2020-06-15T09:34:11.613",
 			"programRule": {
 				"id": "fhyG2cHwQWE"
 			},
@@ -47209,19 +47180,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "CPT start date must be on or after date of birth",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "CNWvvdTP3m3"
-			},
-			"id": "mWTqIAtmzLN",
-			"lastUpdated": "2018-06-10T17:41:24.236",
-			"programRule": {
-				"id": "W4Z7zPaJUcA"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-03-01T20:50:23.078",
 			"dataElement": {
 				"id": "ASr2gFadIie"
@@ -47246,23 +47204,36 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "wi4NRarMSuv"
 			},
 			"id": "zXr1abxRhWk",
-			"lastUpdated": "2020-02-20T18:17:40.677",
+			"lastUpdated": "2020-06-15T09:34:10.873",
 			"programRule": {
 				"id": "cmEUKlrQrxr"
 			},
 			"programRuleActionType": "SHOWERROR"
 		},
 		{
-			"content": "Report date must be on or after the date of enrollment.",
+			"content": "You entered an ART start date that is before the patient’s date of birth. ART start date must be on or after date of birth. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "WrG6slZ7nlG"
+			},
+			"id": "zx5iKzWAjNX",
+			"lastUpdated": "2020-06-15T09:35:53.831",
+			"programRule": {
+				"id": "UD5VjrlmdR2"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
+			"content": "You entered a date for this section that is before the date of diagnosis. This date must be after the date of diagnosis. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"id": "huVkT7Za2Kn",
-			"lastUpdated": "2020-02-12T11:25:19.215",
+			"lastUpdated": "2020-06-15T09:34:17.274",
 			"programRule": {
 				"id": "duaOyYbv5r2"
 			},
@@ -47278,21 +47249,6 @@
 				"id": "uyBB2KcpxLw"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"created": "2019-03-06T15:05:10.614",
-			"dataElement": {
-				"id": "s84QVMsGP0W"
-			},
-			"id": "TA4tOC2vvI4",
-			"lastUpdated": "2020-05-05T21:07:09.760",
-			"option": {
-				"id": "PtV4QCiCFTh"
-			},
-			"programRule": {
-				"id": "ov1MiHaD9Xe"
-			},
-			"programRuleActionType": "HIDEFIELD"
 		},
 		{
 			"content": "Patient's age (months)",
@@ -47341,18 +47297,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2018-01-11T13:53:59.143",
-			"id": "H23sqsoz6Ae",
-			"lastUpdated": "2020-05-19T11:54:23.886",
-			"programRule": {
-				"id": "LpKWv4PVI8U"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "lpD58ED9tir"
-			}
-		},
-		{
 			"created": "2020-01-24T08:40:04.930",
 			"dataElement": {
 				"id": "qt2LpZN8Hb3"
@@ -47399,6 +47343,34 @@
 				"id": "mcMdzWxEgZu"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2019-03-06T15:05:10.614",
+			"dataElement": {
+				"id": "s84QVMsGP0W"
+			},
+			"id": "BQtJQQGVoDD",
+			"lastUpdated": "2020-06-15T07:01:15.845",
+			"option": {
+				"id": "PtV4QCiCFTh"
+			},
+			"programRule": {
+				"id": "ov1MiHaD9Xe"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "You entered an ART start date that is before the HIV status date. ART start date must be on or after HIV status date. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "WrG6slZ7nlG"
+			},
+			"id": "cSE6h4yTcyS",
+			"lastUpdated": "2020-06-15T09:20:31.826",
+			"programRule": {
+				"id": "T5s2O2fnrIw"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2018-06-14T20:06:59.914",
@@ -47526,17 +47498,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "#{DSTresHCB}",
-			"created": "2020-04-13T09:44:56.408",
-			"data": "H CB; ",
-			"id": "qpmQ5TbdYid",
-			"lastUpdated": "2020-04-13T10:26:54.304",
-			"programRule": {
-				"id": "eyCrtJciRE2"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
 			"content": "A patient whose treatment was interrupted for 2 consecutive months or more.",
 			"created": "2020-03-04T06:51:40.518",
 			"dataElement": {
@@ -47565,6 +47526,17 @@
 			"programRuleActionType": "HIDEOPTION"
 		},
 		{
+			"content": "#{DSTresHCB}",
+			"created": "2020-04-13T09:44:56.408",
+			"data": "H CB; ",
+			"id": "qpmQ5TbdYid",
+			"lastUpdated": "2020-04-13T10:26:54.304",
+			"programRule": {
+				"id": "eyCrtJciRE2"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
 			"created": "2020-04-16T11:45:47.406",
 			"id": "dHcDAjyg0ee",
 			"lastUpdated": "2020-04-16T11:58:00.042",
@@ -47577,13 +47549,13 @@
 			}
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "mFCcHXpopRD"
 			},
 			"id": "CrkXkyWmMZ2",
-			"lastUpdated": "2020-02-17T09:49:38.849",
+			"lastUpdated": "2020-06-15T09:34:18.028",
 			"programRule": {
 				"id": "S8gDa0OjQIq"
 			},
@@ -47612,6 +47584,19 @@
 				"id": "UgRq1QNPADR"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "You entered a CPT start date before the HIV status date. CPT start date must be on or after HIV status date. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "CNWvvdTP3m3"
+			},
+			"id": "lEez49iz1CE",
+			"lastUpdated": "2020-06-15T09:20:04.542",
+			"programRule": {
+				"id": "aBOm8gomhWa"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"content": "#{RRdetectedCurrent}",
@@ -47648,6 +47633,35 @@
 				"id": "Meja9tgN8Fj"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "If the month and day of birth are unknown: set the month to January and the day to 1. If the month is known, but the day of birth is unknown: set the day to 1.",
+			"created": "2020-05-19T08:10:18.113",
+			"id": "rEmGJ6DZ2di",
+			"lastUpdated": "2020-06-15T06:16:57.276",
+			"programRule": {
+				"id": "phtSTAYPHDi"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"trackedEntityAttribute": {
+				"id": "Z1rLc1rVHK8"
+			}
+		},
+		{
+			"created": "2020-05-20T09:30:50.673",
+			"data": "''",
+			"dataElement": {
+				"id": "AycLmJbEv9M"
+			},
+			"id": "eUCvaBDN5ia",
+			"lastUpdated": "2020-06-15T13:50:51.171",
+			"programRule": {
+				"id": "Qt1dpUflhQu"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "nAT3r0soVyh"
+			}
 		},
 		{
 			"content": "#{DSTresMfxCB}",
@@ -47706,13 +47720,13 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "xagezRGPgQo"
 			},
 			"id": "GrWfyaJL2SM",
-			"lastUpdated": "2020-02-17T15:35:25.216",
+			"lastUpdated": "2020-06-15T09:34:18.849",
 			"programRule": {
 				"id": "rcBmE3uTdD8"
 			},
@@ -47800,6 +47814,17 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"content": "You entered a date without specifying the treatment regimen. Please select a treatment regimen.",
+			"created": "2020-06-15T07:09:12.093",
+			"id": "lIhvSUFXYjh",
+			"lastUpdated": "2020-06-15T07:20:13.846",
+			"location": "feedback",
+			"programRule": {
+				"id": "SBLJgpP1ru8"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
 			"created": "2020-03-01T20:10:49.332",
 			"dataElement": {
 				"id": "wgEYFWwfv7z"
@@ -47864,19 +47889,6 @@
 			"programRuleActionType": "HIDEOPTION"
 		},
 		{
-			"content": "HIV Status is unknown. Consider testing for HIV.",
-			"created": "2017-11-24T12:46:20.584",
-			"dataElement": {
-				"id": "ehtg3U5qmuI"
-			},
-			"id": "JPnCmzh8V2W",
-			"lastUpdated": "2020-05-22T11:53:51.748",
-			"programRule": {
-				"id": "q2pZ5zANR1o"
-			},
-			"programRuleActionType": "SHOWWARNING"
-		},
-		{
 			"created": "2020-02-13T08:40:55.222",
 			"dataElement": {
 				"id": "cQUTagw2Jtw"
@@ -47889,19 +47901,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Truenat rifampicin can not be \"Resistant\" when MTB result is \"Not detected\"",
-			"created": "2018-06-10T13:41:38.412",
-			"dataElement": {
-				"id": "vVLgOXwlIVj"
-			},
-			"id": "RKYlyiasmER",
-			"lastUpdated": "2020-04-16T09:27:39.844",
-			"programRule": {
-				"id": "UZtkMgBR3EU"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-03-20T22:45:33.753",
 			"dataElement": {
 				"id": "T9YJ0gs7n3n"
@@ -47912,6 +47911,19 @@
 				"id": "K5lwAgtIp4F"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Patient's age cannot be greater than 120 years.",
+			"created": "2017-11-27T10:08:07.244",
+			"id": "SpncCCOOZJn",
+			"lastUpdated": "2020-06-15T10:28:02.940",
+			"programRule": {
+				"id": "SSpRt9vj5a0"
+			},
+			"programRuleActionType": "SHOWERROR",
+			"trackedEntityAttribute": {
+				"id": "mAWcalQYYyk"
+			}
 		},
 		{
 			"created": "2020-02-14T13:57:53.598",
@@ -48013,13 +48025,13 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "qhbOlKrEPzT"
 			},
 			"id": "H2I2Q5P09bT",
-			"lastUpdated": "2020-03-20T09:59:11.099",
+			"lastUpdated": "2020-06-15T09:34:20.262",
 			"programRule": {
 				"id": "MWNxZGFHUy8"
 			},
@@ -48039,19 +48051,6 @@
 				"id": "MR8SdkcKX1g"
 			},
 			"programRuleActionType": "HIDEOPTION"
-		},
-		{
-			"content": "ART start date must be on or after HIV status date",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "WrG6slZ7nlG"
-			},
-			"id": "ukgDxlCYjWK",
-			"lastUpdated": "2019-02-12T12:22:42.879",
-			"programRule": {
-				"id": "T5s2O2fnrIw"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-02-14T11:57:33.283",
@@ -48305,22 +48304,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2020-05-20T09:30:50.673",
-			"data": "''",
-			"dataElement": {
-				"id": "AycLmJbEv9M"
-			},
-			"id": "A8iUamYMdpq",
-			"lastUpdated": "2020-05-25T08:43:46.456",
-			"programRule": {
-				"id": "Qt1dpUflhQu"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "nAT3r0soVyh"
-			}
-		},
-		{
 			"content": "Treatment regimen",
 			"created": "2019-03-06T19:37:40.184",
 			"data": "#{TreatmentRegimenVariable}",
@@ -48331,29 +48314,6 @@
 				"id": "WY94qMK6Ysi"
 			},
 			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
-		},
-		{
-			"content": "A{DateBirth}",
-			"created": "2019-03-07T19:27:12.529",
-			"id": "AVTHLftlHYM",
-			"lastUpdated": "2020-05-22T11:51:36.549",
-			"programRule": {
-				"id": "SSpRt9vj5a0"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "CPT start date must be on or after HIV status date",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "CNWvvdTP3m3"
-			},
-			"id": "NmaIWHmx8Ye",
-			"lastUpdated": "2019-02-12T12:21:18.632",
-			"programRule": {
-				"id": "aBOm8gomhWa"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"content": "Patient's age (years)",
@@ -48453,18 +48413,6 @@
 			}
 		},
 		{
-			"created": "2020-03-01T18:59:12.671",
-			"id": "JbUPPdwNdVT",
-			"lastUpdated": "2020-05-28T08:54:02.090",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "j3YS4WZzWmg"
-			}
-		},
-		{
 			"content": "#{DSTresCfz}",
 			"created": "2019-03-07T21:08:05.431",
 			"id": "qK0vidllzDq",
@@ -48510,19 +48458,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Already on second line treatment regimen.",
-			"created": "2018-01-12T13:19:33.528",
-			"dataElement": {
-				"id": "wtZuz8Im69G"
-			},
-			"id": "mCZvzNn5bC9",
-			"lastUpdated": "2020-05-05T21:11:32.415",
-			"programRule": {
-				"id": "OACS9R8yLJs"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-03-01T17:57:12.653",
 			"dataElement": {
 				"id": "nulxcFUqHFK"
@@ -48559,6 +48494,17 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"content": "Drug resistance is not confirmed, but patient is on second-line treatment.",
+			"created": "2017-11-25T21:26:33.608",
+			"id": "Cd8k7sekBfo",
+			"lastUpdated": "2020-06-15T11:06:01.911",
+			"location": "feedback",
+			"programRule": {
+				"id": "xoCMDMzuGhJ"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
 			"created": "2020-02-17T09:51:24.062",
 			"dataElement": {
 				"id": "mFCcHXpopRD"
@@ -48593,6 +48539,19 @@
 				"id": "aIbtD3KEYiR"
 			},
 			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
+		},
+		{
+			"content": "You entered a date without specifying the outcome. Please select a treatment outcome or select denotify if this is not a TB case.",
+			"created": "2018-06-17T20:21:51.834",
+			"dataElement": {
+				"id": "wtZuz8Im69G"
+			},
+			"id": "Qk95ivMCPV6",
+			"lastUpdated": "2020-06-15T07:09:12.093",
+			"programRule": {
+				"id": "nasXvaEoFP8"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-03-01T20:33:59.173",
@@ -48665,13 +48624,13 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "xyczZvsuaWr"
 			},
 			"id": "jtrqFSS1yI1",
-			"lastUpdated": "2020-04-16T11:10:31.311",
+			"lastUpdated": "2020-06-15T09:34:19.563",
 			"programRule": {
 				"id": "jdzLwzkqGvB"
 			},
@@ -48688,17 +48647,6 @@
 				"id": "KWrKRZMqeRq"
 			},
 			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"content": "Outcome is overdue",
-			"created": "2018-06-14T19:41:52.481",
-			"id": "islYuepDWH4",
-			"lastUpdated": "2020-05-25T11:23:29.729",
-			"location": "feedback",
-			"programRule": {
-				"id": "t1hjlCWKM0J"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"created": "2018-06-14T20:06:59.914",
@@ -48750,10 +48698,10 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "MTB not detected. This may not be a TB case.",
+			"content": "Laboratory test was carried out and MTB was not detected.",
 			"created": "2018-06-10T10:04:23.433",
 			"id": "ni1I0sePM4x",
-			"lastUpdated": "2020-04-11T21:52:44.503",
+			"lastUpdated": "2020-06-15T09:34:22.473",
 			"location": "feedback",
 			"programRule": {
 				"id": "fweDnS312ta"
@@ -48969,17 +48917,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "No drug resistance detected, but patient is on second-line treatment.",
-			"created": "2017-11-25T21:26:33.608",
-			"id": "swiOGSK44HC",
-			"lastUpdated": "2020-05-19T11:55:09.854",
-			"location": "feedback",
-			"programRule": {
-				"id": "xoCMDMzuGhJ"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
-		},
-		{
 			"content": "#{DSTresHCC}",
 			"created": "2020-04-13T09:47:09.342",
 			"data": "H CC; ",
@@ -48989,17 +48926,6 @@
 				"id": "p5etdw51BLo"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "Laboratory tests have to be carried out and results have to be entered in the “Laboratory Results” form.",
-			"created": "2020-02-07T16:31:15.734",
-			"id": "l4Emy2xja0A",
-			"lastUpdated": "2020-04-03T11:32:00.361",
-			"location": "feedback",
-			"programRule": {
-				"id": "LzOoWYkCz68"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"content": "Previously treated patients have received 1 month or more of anti-TB drugs in the past. Relapse patients have previously been treated for TB, were declared cured or treatment completed at the end of their most recent course of treatment, and are now diagnosed with a recurrent episode of TB (either a true relapse or a new episode of TB caused by reinfection).",
@@ -49036,6 +48962,18 @@
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
 				"id": "gNMtQmMSDB1"
+			}
+		},
+		{
+			"created": "2018-01-11T13:53:59.143",
+			"id": "N5o5FcBmh4h",
+			"lastUpdated": "2020-06-15T11:12:06.264",
+			"programRule": {
+				"id": "LpKWv4PVI8U"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "lpD58ED9tir"
 			}
 		},
 		{
@@ -49144,19 +49082,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "HIV status date must be on or after date of birth",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "V6RVBzCr3Kl"
-			},
-			"id": "hGqw5cFyRLh",
-			"lastUpdated": "2019-02-12T12:19:42.976",
-			"programRule": {
-				"id": "voL1qX3Jy6T"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-02-14T14:16:00.584",
 			"dataElement": {
 				"id": "Lr8yX1aTLf4"
@@ -49227,6 +49152,28 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"content": "Positive smear result recorded for extrapulmonary TB. Please double check the reported \"Site of disease\". If the site of disease is correct, you can ignore this message.",
+			"created": "2018-06-11T11:17:15.057",
+			"id": "raDNDsqucWq",
+			"lastUpdated": "2020-06-15T11:31:00.061",
+			"location": "feedback",
+			"programRule": {
+				"id": "chpN8GEd7kj"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
+			"content": "When laboratory test results are available please enter them in the “Laboratory Results” section.",
+			"created": "2020-02-07T16:31:15.734",
+			"id": "Xo5hBo3tgmE",
+			"lastUpdated": "2020-06-15T07:02:22.839",
+			"location": "feedback",
+			"programRule": {
+				"id": "LzOoWYkCz68"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
 			"content": "#{DSTresZ}",
 			"created": "2019-03-07T21:19:31.925",
 			"id": "Xo5DOiVnwmT",
@@ -49271,19 +49218,6 @@
 				"id": "KYR8EALo128"
 			},
 			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"content": "Select an outcome or specify if this is not a TB case.",
-			"created": "2018-06-17T20:21:51.834",
-			"dataElement": {
-				"id": "wtZuz8Im69G"
-			},
-			"id": "jt67aU9kfHa",
-			"lastUpdated": "2020-05-22T12:21:22.312",
-			"programRule": {
-				"id": "nasXvaEoFP8"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-01-07T16:44:44.809",
@@ -49371,19 +49305,6 @@
 			}
 		},
 		{
-			"content": "Positive smear result recorded. Site of disease should be Pulmonary or Pulmonary and extrapulmonary.",
-			"created": "2018-06-08T12:45:15.424",
-			"dataElement": {
-				"id": "XfqbpoBl2VS"
-			},
-			"id": "DNsWAJduyMD",
-			"lastUpdated": "2020-04-16T11:11:47.367",
-			"programRule": {
-				"id": "chpN8GEd7kj"
-			},
-			"programRuleActionType": "SHOWWARNING"
-		},
-		{
 			"created": "2020-03-01T19:41:41.737",
 			"dataElement": {
 				"id": "KWijdprKE8o"
@@ -49409,18 +49330,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "RFul4BYWOyJ",
-			"lastUpdated": "2020-05-28T08:54:02.090",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "lpD58ED9tir"
-			}
-		},
-		{
 			"created": "2020-02-25T09:24:17.374",
 			"id": "mTaaZYTUVdg",
 			"lastUpdated": "2020-04-16T11:41:32.514",
@@ -49431,6 +49340,16 @@
 			"programStageSection": {
 				"id": "tRZOF77eACa"
 			}
+		},
+		{
+			"content": "Only one regimen change allowed per enrolment",
+			"created": "2019-03-06T15:08:46.470",
+			"id": "Gu5wyjHYKeB",
+			"lastUpdated": "2020-06-15T07:01:15.845",
+			"programRule": {
+				"id": "ov1MiHaD9Xe"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-03-01T19:49:15.187",
@@ -49456,6 +49375,18 @@
 				"id": "alAoqqSMlSC"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "klNq42PeBNF",
+			"lastUpdated": "2020-06-08T09:31:05.932",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "ei9HQAyKWRw"
+			}
 		},
 		{
 			"created": "2020-03-01T20:16:21.634",
@@ -49606,6 +49537,19 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"content": "You entered a date without specifying the treatment regimen. Please select a treatment regimen.",
+			"created": "2018-06-17T20:21:51.834",
+			"dataElement": {
+				"id": "s84QVMsGP0W"
+			},
+			"id": "ZpmvWddGZiL",
+			"lastUpdated": "2020-06-15T07:20:13.846",
+			"programRule": {
+				"id": "SBLJgpP1ru8"
+			},
+			"programRuleActionType": "SHOWERROR"
+		},
+		{
 			"created": "2018-06-14T20:06:59.914",
 			"dataElement": {
 				"id": "ug1acEAsTfd"
@@ -49631,18 +49575,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2020-03-01T19:09:17.507",
-			"dataElement": {
-				"id": "nG3H0zGCpXg"
-			},
-			"id": "nHaRPjw1HGu",
-			"lastUpdated": "2020-03-01T19:09:17.507",
-			"programRule": {
-				"id": "wmXda1OfAYF"
-			},
-			"programRuleActionType": "HIDEFIELD"
-		},
-		{
 			"created": "2020-03-01T21:00:35.696",
 			"dataElement": {
 				"id": "GZ5Vqh8wdI1"
@@ -49651,6 +49583,18 @@
 			"lastUpdated": "2020-03-01T21:00:35.696",
 			"programRule": {
 				"id": "ON359prH6rh"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-03-01T19:09:17.507",
+			"dataElement": {
+				"id": "nG3H0zGCpXg"
+			},
+			"id": "nHaRPjw1HGu",
+			"lastUpdated": "2020-03-01T19:09:17.507",
+			"programRule": {
+				"id": "wmXda1OfAYF"
 			},
 			"programRuleActionType": "HIDEFIELD"
 		},
@@ -49667,32 +49611,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "The HIV Status date is more than 6 months old. Consider retesting for HIV.",
-			"created": "2020-02-07T13:50:16.355",
-			"dataElement": {
-				"id": "V6RVBzCr3Kl"
-			},
-			"id": "MD0uPiJl2ET",
-			"lastUpdated": "2020-05-27T13:55:20.035",
-			"programRule": {
-				"id": "Y8WFkcBC4lf"
-			},
-			"programRuleActionType": "SHOWWARNING"
-		},
-		{
-			"content": "Treatment episode outcome cannot be Cured when treatment category is Second-line treatment regimen and site of disease is extrapulmonary",
-			"created": "2018-06-08T09:12:17.324",
-			"dataElement": {
-				"id": "wtZuz8Im69G"
-			},
-			"id": "LxUqyQ0UvzL",
-			"lastUpdated": "2020-05-15T06:43:13.777",
-			"programRule": {
-				"id": "XSoxhSWx1dj"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"content": "#{DSTresAm}",
 			"created": "2019-03-07T21:07:37.116",
 			"id": "ioB7RNcwiLo",
@@ -49701,19 +49619,6 @@
 				"id": "AaLJV5xaNDS"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "ART start date must be on or after date of birth",
-			"created": "2018-06-10T15:26:55.862",
-			"dataElement": {
-				"id": "WrG6slZ7nlG"
-			},
-			"id": "ca1tBA4Z01I",
-			"lastUpdated": "2018-06-10T17:41:12.071",
-			"programRule": {
-				"id": "UD5VjrlmdR2"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-03-01T18:24:32.902",
@@ -49740,10 +49645,10 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of birth can not be after notification date",
+			"content": "You entered a patient’s date of birth that is after the date of diagnosis. Date of birth cannot be after the date of diagnosis. Please review both dates.",
 			"created": "2017-11-27T10:08:07.244",
 			"id": "PWEfnhfDPCO",
-			"lastUpdated": "2020-05-22T07:30:31.752",
+			"lastUpdated": "2020-06-15T09:34:23.185",
 			"programRule": {
 				"id": "RF68nMu9hNM"
 			},
@@ -49751,17 +49656,6 @@
 			"trackedEntityAttribute": {
 				"id": "mAWcalQYYyk"
 			}
-		},
-		{
-			"content": "Only two treatment events can be added. Please delete the last event.",
-			"created": "2019-03-06T15:14:13.123",
-			"id": "fVeoTnGdAlN",
-			"lastUpdated": "2020-05-05T21:07:09.760",
-			"location": "feedback",
-			"programRule": {
-				"id": "ov1MiHaD9Xe"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"created": "2018-06-14T19:35:16.396",
@@ -49798,6 +49692,18 @@
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
 				"id": "WGjZwerRYUf"
+			}
+		},
+		{
+			"created": "2019-03-07T18:43:02.381",
+			"id": "oG2lUBNDSH0",
+			"lastUpdated": "2020-06-15T07:01:15.844",
+			"programRule": {
+				"id": "ov1MiHaD9Xe"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "jd63d3mK5bW"
 			}
 		},
 		{
@@ -49849,6 +49755,18 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "eWVF17hQ7Cg",
+			"lastUpdated": "2020-06-08T09:31:05.932",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "gNMtQmMSDB1"
+			}
+		},
+		{
 			"created": "2020-05-20T09:30:50.673",
 			"data": "''",
 			"dataElement": {
@@ -49860,6 +49778,19 @@
 				"id": "UY8MT0U1yoK"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+			"created": "2018-06-10T15:26:55.862",
+			"dataElement": {
+				"id": "uEV8flIOeYI"
+			},
+			"id": "Khd7qtIEjP0",
+			"lastUpdated": "2020-06-15T09:36:57.035",
+			"programRule": {
+				"id": "F6rsp5bxUoA"
+			},
+			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"created": "2020-03-01T17:57:12.653",
@@ -50012,13 +49943,13 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "TX30Ikr7clr"
 			},
 			"id": "kvJrwPIyje4",
-			"lastUpdated": "2020-04-16T09:20:44.314",
+			"lastUpdated": "2020-06-15T09:34:21.712",
 			"programRule": {
 				"id": "WyowVFQNnrl"
 			},
@@ -50046,6 +49977,19 @@
 				"id": "S1iRKyMyNDd"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "The HIV status date is more than 6 months old. Consider retesting for HIV.",
+			"created": "2020-02-07T13:50:16.355",
+			"dataElement": {
+				"id": "V6RVBzCr3Kl"
+			},
+			"id": "vkKqvFaQ47M",
+			"lastUpdated": "2020-06-15T06:50:37.203",
+			"programRule": {
+				"id": "Y8WFkcBC4lf"
+			},
+			"programRuleActionType": "SHOWWARNING"
 		},
 		{
 			"created": "2018-06-14T20:06:59.914",
@@ -50165,6 +50109,43 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"content": "You entered a date without specifying the outcome. Please select a treatment outcome or select denotify if this is not a TB case.",
+			"created": "2020-06-15T07:09:12.093",
+			"id": "aP3d8eNuhyR",
+			"lastUpdated": "2020-06-15T07:09:12.093",
+			"location": "feedback",
+			"programRule": {
+				"id": "nasXvaEoFP8"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
+			"content": "HIV status is unknown. Consider testing for HIV.",
+			"created": "2017-11-24T12:46:20.584",
+			"dataElement": {
+				"id": "ehtg3U5qmuI"
+			},
+			"id": "cfwMAKlBXlo",
+			"lastUpdated": "2020-06-15T11:35:10.739",
+			"location": "feedback",
+			"programRule": {
+				"id": "q2pZ5zANR1o"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
+			"created": "2020-03-23T21:05:07.225",
+			"id": "PyniOxgo4fX",
+			"lastUpdated": "2020-06-08T09:31:05.932",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "SYFN66iGDKN"
+			}
+		},
+		{
 			"created": "2020-02-14T13:57:53.598",
 			"data": "''",
 			"dataElement": {
@@ -50215,18 +50196,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2020-03-23T21:05:07.225",
-			"id": "TvQfKa9dzOV",
-			"lastUpdated": "2020-05-28T08:54:02.090",
-			"programRule": {
-				"id": "bvKU4RArJjo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "gNMtQmMSDB1"
-			}
-		},
-		{
 			"created": "2018-06-14T20:06:59.914",
 			"dataElement": {
 				"id": "BMBQRUWGC96"
@@ -50261,13 +50230,13 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "BMBQRUWGC96"
 			},
 			"id": "HOME1vsRFkg",
-			"lastUpdated": "2020-03-20T09:53:33.497",
+			"lastUpdated": "2020-06-15T09:34:20.994",
 			"programRule": {
 				"id": "G3EbLZXRNJz"
 			},
@@ -50478,19 +50447,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "GeneXpert Ultra rifampicin can not be \"Resistant\" when MTB result is \"Not detected\"",
-			"created": "2018-06-10T13:41:38.412",
-			"dataElement": {
-				"id": "d2nso3iTDyC"
-			},
-			"id": "w0tNt0BHYCo",
-			"lastUpdated": "2020-02-17T09:53:53.911",
-			"programRule": {
-				"id": "X8RNL1KP6i6"
-			},
-			"programRuleActionType": "SHOWERROR"
-		},
-		{
 			"created": "2020-03-01T18:05:35.492",
 			"dataElement": {
 				"id": "R25K2kAAG4g"
@@ -50523,17 +50479,6 @@
 				"id": "kwbbicEX3UG"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "Positive smear result recorded. Review the reported \"Site of disease\".",
-			"created": "2018-06-11T11:17:15.057",
-			"id": "dcaolQW0f8t",
-			"lastUpdated": "2020-04-16T11:11:47.367",
-			"location": "feedback",
-			"programRule": {
-				"id": "chpN8GEd7kj"
-			},
-			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"created": "2020-03-01T16:57:20.856",
@@ -50586,13 +50531,13 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "uFkaH9jzpcp"
 			},
 			"id": "wCNEVNFwSsB",
-			"lastUpdated": "2020-02-21T11:11:28.690",
+			"lastUpdated": "2020-06-15T09:34:16.505",
 			"programRule": {
 				"id": "b0pv7Mco16K"
 			},
@@ -50634,6 +50579,17 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"content": "When outcome is available enter it in the “Outcome” section.",
+			"created": "2018-06-14T19:41:52.481",
+			"id": "vfH40uSUcvp",
+			"lastUpdated": "2020-06-15T09:07:32.595",
+			"location": "feedback",
+			"programRule": {
+				"id": "t1hjlCWKM0J"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
+		},
+		{
 			"content": "#{RRdetectedCurrent}",
 			"created": "2019-05-22T10:50:56.669",
 			"data": "#{DST_SUB_LM_ResultDate}",
@@ -50657,13 +50613,13 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "cQUTagw2Jtw"
 			},
 			"id": "sMbrTxKwp0K",
-			"lastUpdated": "2020-02-20T18:13:06.628",
+			"lastUpdated": "2020-06-15T09:34:12.487",
 			"programRule": {
 				"id": "Zij8h3ds7xy"
 			},
@@ -50703,6 +50659,17 @@
 				"id": "zpYoI6g5ZMN"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "Only two treatment events can be added. Please delete the last event.",
+			"created": "2019-03-06T15:14:13.123",
+			"id": "ynQgaSJxj6Q",
+			"lastUpdated": "2020-06-15T07:01:15.845",
+			"location": "feedback",
+			"programRule": {
+				"id": "ov1MiHaD9Xe"
+			},
+			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
 			"content": "#{CaseClassification}",
@@ -50778,13 +50745,13 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Date of lab result must be on or after date of sample collection",
+			"content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
 			"created": "2018-06-10T15:26:55.862",
 			"dataElement": {
 				"id": "Wg7Df5kgpaF"
 			},
 			"id": "Ei0eg9t682R",
-			"lastUpdated": "2020-02-20T18:15:58.302",
+			"lastUpdated": "2020-06-15T09:34:14.694",
 			"programRule": {
 				"id": "XtxkST1l7KD"
 			},
@@ -50849,16 +50816,6 @@
 				"id": "vkkL2FL0Tm8"
 			},
 			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"content": "Only one regimen change allowed per enrolment",
-			"created": "2019-03-06T15:08:46.470",
-			"id": "ie8MA05QQLV",
-			"lastUpdated": "2020-05-05T21:07:09.760",
-			"programRule": {
-				"id": "ov1MiHaD9Xe"
-			},
-			"programRuleActionType": "SHOWERROR"
 		},
 		{
 			"content": "Treatment completed as recommended by the national policy without evidence of failure AND three or more consecutive cultures taken at least 30 days apart are negative after the intensive phase. For Treatment failed, lack of conversion by the end of the intensive phase implies that the patient does not convert within the maximum duration of intensive phase applied by the programme. If no maximum duration is defined, an 8-month cut-off is proposed. For regimens without a clear distinction between intensive and continuation phases, a cut-off 8 months after the start of treatment is suggested to determine when the criteria for Cured, Treatment completed and Treatment failed start to apply.",
@@ -50967,18 +50924,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"created": "2018-06-17T20:14:09.228",
-			"dataElement": {
-				"id": "Lj1yD6S1Qio"
-			},
-			"id": "d7v8fEHvE5X",
-			"lastUpdated": "2020-05-19T11:43:51.610",
-			"programRule": {
-				"id": "yIjGxwB8kq9"
-			},
-			"programRuleActionType": "HIDEFIELD"
-		},
-		{
 			"created": "2020-05-15T07:50:04.605",
 			"dataElement": {
 				"id": "wtZuz8Im69G"
@@ -50992,6 +50937,18 @@
 				"id": "fCMEJvGpJCK"
 			},
 			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2018-06-17T20:14:09.228",
+			"dataElement": {
+				"id": "Lj1yD6S1Qio"
+			},
+			"id": "d7v8fEHvE5X",
+			"lastUpdated": "2020-05-19T11:43:51.610",
+			"programRule": {
+				"id": "yIjGxwB8kq9"
+			},
+			"programRuleActionType": "HIDEFIELD"
 		},
 		{
 			"created": "2020-04-16T11:45:47.406",
@@ -51112,18 +51069,6 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
-			"content": "Date of Registration",
-			"created": "2020-01-20T10:28:20.075",
-			"data": "V{enrollment_date}",
-			"id": "yUKto1JMEIh",
-			"lastUpdated": "2020-01-20T17:48:20.911",
-			"location": "indicators",
-			"programRule": {
-				"id": "i4Syz9yBhJP"
-			},
-			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
-		},
-		{
 			"created": "2020-04-16T08:50:47.652",
 			"dataElement": {
 				"id": "qt2LpZN8Hb3"
@@ -51216,19 +51161,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"content": "Please, set date of birth to January 1.",
-			"created": "2020-05-19T08:10:18.113",
-			"id": "Ht58YY75yM9",
-			"lastUpdated": "2020-05-22T07:31:27.347",
-			"programRule": {
-				"id": "phtSTAYPHDi"
-			},
-			"programRuleActionType": "SHOWWARNING",
-			"trackedEntityAttribute": {
-				"id": "Z1rLc1rVHK8"
-			}
-		},
-		{
 			"created": "2020-02-13T08:48:30.410",
 			"dataElement": {
 				"id": "ug1acEAsTfd"
@@ -51287,6 +51219,18 @@
 			"programStageSection": {
 				"id": "ZOdf9cyEtDe"
 			}
+		},
+		{
+			"content": "Date of diagnosis",
+			"created": "2020-01-20T10:28:20.075",
+			"data": "V{enrollment_date}",
+			"id": "oB4BQsK9gNe",
+			"lastUpdated": "2020-06-15T07:07:04.977",
+			"location": "indicators",
+			"programRule": {
+				"id": "i4Syz9yBhJP"
+			},
+			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
 		},
 		{
 			"created": "2020-01-07T15:53:38.261",
@@ -51441,6 +51385,18 @@
 				"id": "H7tPdPg91Cv"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2020-03-01T18:59:12.671",
+			"id": "b9AN4L1uPfe",
+			"lastUpdated": "2020-06-08T09:31:05.932",
+			"programRule": {
+				"id": "bvKU4RArJjo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "j3YS4WZzWmg"
+			}
 		},
 		{
 			"created": "2020-03-01T20:55:52.301",
@@ -51612,17 +51568,14 @@
 			"created": "2018-06-08T12:45:15.437",
 			"description": "Check if site of disease is valid if smear result is positive",
 			"id": "chpN8GEd7kj",
-			"lastUpdated": "2020-04-16T11:11:47.577",
+			"lastUpdated": "2020-06-15T11:31:00.072",
 			"name": "Baseline: Site of disease from smear result pulmonary",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "DNsWAJduyMD"
-				},
-				{
-					"id": "dcaolQW0f8t"
+					"id": "raDNDsqucWq"
 				}
 			],
 			"translations": []
@@ -51963,7 +51916,7 @@
 			"created": "2020-03-01T19:09:17.623",
 			"description": "Hide Ethambutol from list of drugs used for Initial DST in liquid media if not used",
 			"id": "wmXda1OfAYF",
-			"lastUpdated": "2020-03-01T19:09:17.623",
+			"lastUpdated": "2020-06-09T20:19:02.809",
 			"name": "CONSTANT - Hide Initial DST in LM - Ethambutol",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -51973,7 +51926,18 @@
 					"id": "nHaRPjw1HGu"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher l'éthambutol de la liste des médicaments utilisés pour la TSM initial en milieu liquide s'il n'est pas utilisé"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher le TSM initial dans LM - Ethambutol"
+				}
+			]
 		},
 		{
 			"condition": "C{lqaf0KfpHGd}   == 0",
@@ -52201,7 +52165,7 @@
 			"created": "2020-03-01T20:10:49.441",
 			"description": "Hide Isoniazid CB from list of drugs used for Initial DST in solid media if not used",
 			"id": "x56WrfsLnAY",
-			"lastUpdated": "2020-03-01T20:10:49.441",
+			"lastUpdated": "2020-06-09T20:19:02.960",
 			"name": "CONSTANT - Hide Initial DST in SM - Isoniazid CB",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52211,14 +52175,25 @@
 					"id": "kBikmcJRK6z"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher l'isoniazide CB de la liste des médicaments utilisés pour le TSM initial en milieu solide s'il n'est pas utilisé"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher la TSM initiale - Isoniazide CB"
+				}
+			]
 		},
 		{
 			"condition": "C{dAPAScvFPfX}   == 0",
 			"created": "2020-03-01T20:10:01.810",
 			"description": "Hide Isoniazid CC from list of drugs used for Initial DST in solid media if not used",
 			"id": "sYTzxcezzqo",
-			"lastUpdated": "2020-03-01T20:10:01.810",
+			"lastUpdated": "2020-06-09T20:19:02.217",
 			"name": "CONSTANT - Hide Initial DST in SM - Isoniazid CC",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52228,14 +52203,25 @@
 					"id": "GGg32Kz8hk2"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher l'isoniazide CC de la liste des médicaments utilisés pour le TSM initial en milieu solide s'il n'est pas utilisé"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher le TSM initial dans la SM - Isoniazide CC"
+				}
+			]
 		},
 		{
 			"condition": "C{NlOX3oV4gWe}   == 0",
 			"created": "2020-03-01T20:12:16.848",
 			"description": "Hide Levofloxacin from list of drugs used for Initial DST in solid media if not used",
 			"id": "qk8wvulE6j2",
-			"lastUpdated": "2020-03-01T20:12:16.848",
+			"lastUpdated": "2020-06-09T20:19:01.926",
 			"name": "CONSTANT - Hide Initial DST in SM - Levofloxacin",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52245,7 +52231,18 @@
 					"id": "tf361xeBgCk"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher la lévofloxacine de la liste des médicaments utilisés pour le TSM initial en milieu solide si elle n'est pas utilisée"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher le TSM initial dans la SM - Lévofloxacine"
+				}
+			]
 		},
 		{
 			"condition": "C{CVQR2ZtZWxk}   == 0",
@@ -52763,7 +52760,7 @@
 			"created": "2020-03-01T21:06:46.864",
 			"description": "Hide Isoniazid CC from list of drugs used for Subsequent DST in solid media if not used",
 			"id": "hSifLCqKFwY",
-			"lastUpdated": "2020-03-01T21:06:46.864",
+			"lastUpdated": "2020-06-09T20:19:01.643",
 			"name": "CONSTANT - Hide Subsequent DST in SM - Isoniazid CC",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52773,7 +52770,18 @@
 					"id": "EGS5rIrmzyV"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher l'isoniazide CC de la liste des médicaments utilisés pour la TSM ultérieure en milieu solide s'il n'est pas utilisé"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher la TSM subséquent - Isoniazide CC"
+				}
+			]
 		},
 		{
 			"condition": "C{Fw8wOlTETPt}   == 0",
@@ -52797,7 +52805,7 @@
 			"created": "2020-03-01T21:09:28.508",
 			"description": "Hide Linezolid from list of drugs used for Subsequent DST in solid media if not used",
 			"id": "iLRrfeyOtt9",
-			"lastUpdated": "2020-03-01T21:09:28.508",
+			"lastUpdated": "2020-06-09T20:19:01.785",
 			"name": "CONSTANT - Hide Subsequent DST in SM - Linezolid",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52807,14 +52815,25 @@
 					"id": "MInaAkraCPe"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher le linézolide de la liste des médicaments utilisés pour la TSM ultérieure en milieu solide s'il n'est pas utilisé"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher les TSD ultérieures dans SM - Linezolid"
+				}
+			]
 		},
 		{
 			"condition": "C{NvA1K4hFJbc}   == 0",
 			"created": "2020-03-01T21:10:16.979",
 			"description": "Hide Moxifloxacin CB from list of drugs used for Subsequent DST in solid media if not used",
 			"id": "PxN2xn7ncEI",
-			"lastUpdated": "2020-03-01T21:10:16.979",
+			"lastUpdated": "2020-06-09T20:19:01.084",
 			"name": "CONSTANT - Hide Subsequent DST in SM - Moxifloxacin CB",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -52824,7 +52843,18 @@
 					"id": "GxV552Sb7gc"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher la moxifloxacine CB de la liste des médicaments utilisés pour les TDS ultérieures en milieu solide si elle n'est pas utilisée"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "CONSTANT - Cacher le TSM subséquent dans la SM - Moxifloxacine CB"
+				}
+			]
 		},
 		{
 			"condition": "C{Czx5FuOqF9i}   == 0",
@@ -52918,30 +52948,30 @@
 			"translations": []
 		},
 		{
-			"condition": "C{GxOlFoUKbHB} == 1",
+			"condition": "C{GxOlFoUKbHB} == 2",
 			"created": "2020-03-23T21:05:07.374",
 			"description": "Treatment Stage: Hide First-Line and second-line drugs",
 			"id": "bvKU4RArJjo",
-			"lastUpdated": "2020-05-28T08:54:02.114",
+			"lastUpdated": "2020-06-08T09:31:06.073",
 			"name": "CONSTANT - Treatment: Hide First-Line and second-line drugs",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "JbUPPdwNdVT"
+					"id": "klNq42PeBNF"
 				},
 				{
-					"id": "Y4qy19ycsg3"
+					"id": "PyniOxgo4fX"
 				},
 				{
-					"id": "TvQfKa9dzOV"
+					"id": "eWVF17hQ7Cg"
 				},
 				{
-					"id": "RFul4BYWOyJ"
+					"id": "b9AN4L1uPfe"
 				},
 				{
-					"id": "BiTvo0thrD1"
+					"id": "eYm1n8q2PDf"
 				}
 			],
 			"programStage": {
@@ -52954,17 +52984,14 @@
 			"created": "2020-03-01T13:42:34.623",
 			"description": "Age cannot be greater than 120 years",
 			"id": "SSpRt9vj5a0",
-			"lastUpdated": "2020-05-22T11:51:36.561",
+			"lastUpdated": "2020-06-15T10:28:02.945",
 			"name": "Date validation: Age cannot be greater than 120 years",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "AVTHLftlHYM"
-				},
-				{
-					"id": "rILBFaJyY9t"
+					"id": "SpncCCOOZJn"
 				}
 			],
 			"translations": []
@@ -52974,14 +53001,14 @@
 			"created": "2018-06-10T15:26:55.871",
 			"description": "The date of starting ART must be on or after the date of birth",
 			"id": "UD5VjrlmdR2",
-			"lastUpdated": "2018-06-10T17:41:12.082",
+			"lastUpdated": "2020-06-15T09:35:53.843",
 			"name": "Date validation: date ART started must be on or after DoB",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "ca1tBA4Z01I"
+					"id": "zx5iKzWAjNX"
 				}
 			],
 			"translations": []
@@ -52991,14 +53018,14 @@
 			"created": "2019-02-12T12:22:42.938",
 			"description": "The date of starting ART must be on or after HIV status date",
 			"id": "T5s2O2fnrIw",
-			"lastUpdated": "2019-02-12T12:22:42.938",
+			"lastUpdated": "2020-06-15T09:20:31.832",
 			"name": "Date validation: date ART started must be on or after HIV status date",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "ukgDxlCYjWK"
+					"id": "cSE6h4yTcyS"
 				}
 			],
 			"translations": []
@@ -53008,14 +53035,14 @@
 			"created": "2018-06-10T15:26:55.871",
 			"description": "The date of starting CPT must be on or after the date of birth",
 			"id": "W4Z7zPaJUcA",
-			"lastUpdated": "2018-06-10T17:41:24.246",
+			"lastUpdated": "2020-06-15T09:19:07.168",
 			"name": "Date validation: date CPT started must be on or after DoB",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "mWTqIAtmzLN"
+					"id": "HqjXZD1Z2dr"
 				}
 			],
 			"translations": []
@@ -53025,14 +53052,14 @@
 			"created": "2019-02-12T12:21:18.664",
 			"description": "The date of starting CPT must be on or after the HIV status date",
 			"id": "aBOm8gomhWa",
-			"lastUpdated": "2019-02-12T12:21:18.664",
+			"lastUpdated": "2020-06-15T09:20:04.548",
 			"name": "Date validation: date CPT started must be on or after HIV status date",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "NmaIWHmx8Ye"
+					"id": "lEez49iz1CE"
 				}
 			],
 			"translations": []
@@ -53242,14 +53269,14 @@
 			"created": "2020-02-20T18:16:47.413",
 			"description": "The date for Subsequent DST SM lab results must be on or after date of sample collection",
 			"id": "F6rsp5bxUoA",
-			"lastUpdated": "2020-02-20T18:16:47.413",
+			"lastUpdated": "2020-06-15T09:36:57.040",
 			"name": "Date validation: Date for Subsequent DST SM lab results must be on or after date of sample collection",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "hj7eZHOfLrV"
+					"id": "Khd7qtIEjP0"
 				}
 			],
 			"programStage": {
@@ -53362,14 +53389,14 @@
 			"created": "2019-02-12T12:19:43.005",
 			"description": "The date of HIV status must be on or after the date of birth",
 			"id": "voL1qX3Jy6T",
-			"lastUpdated": "2019-02-12T12:19:43.005",
+			"lastUpdated": "2020-06-15T09:19:29.983",
 			"name": "Date validation: date of HIV status must be on or after DoB",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "hGqw5cFyRLh"
+					"id": "IDNlGMCzPnh"
 				}
 			],
 			"translations": []
@@ -53405,57 +53432,6 @@
 			"programRuleActions": [
 				{
 					"id": "HWtXBBGC2SG"
-				}
-			],
-			"translations": []
-		},
-		{
-			"condition": "#{TreatmentRegimen} == 'FIRST_LINE_TREATMENT' && #{Outcome} == 'RETURN_TO_FIRST_LINE'",
-			"created": "2018-01-12T11:15:09.675",
-			"description": "Prevent \"move to first line\" if currently on first line",
-			"id": "pxHF4k6lOyg",
-			"lastUpdated": "2020-05-05T20:47:30.314",
-			"name": "DELETE_Outcome: prevent \"move to first line\" if currently on first line",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "MHV4bfgTVib"
-				}
-			],
-			"translations": []
-		},
-		{
-			"condition": "#{TreatmentRegimen} == 'SECOND_LINE_TREATMENT' && #{Outcome} == 'MOVE_TO_SECOND_LINE'",
-			"created": "2018-01-12T11:15:09.675",
-			"description": "Prevent \"move to second line\" if currently on second line",
-			"id": "OACS9R8yLJs",
-			"lastUpdated": "2020-05-05T21:11:32.428",
-			"name": "DELETE_Outcome: prevent \"move to second line\" if currently on second line",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "mCZvzNn5bC9"
-				}
-			],
-			"translations": []
-		},
-		{
-			"condition": "!d2:hasValue( 'TreatmentRegimenCurrent' ) || \n#{TreatmentRegimenCurrent} ==  'FIRST_LINE_TREATMENT'",
-			"created": "2017-11-24T09:57:17.614",
-			"description": "Hide details on second-line treatment unless treatment category is set to second-line",
-			"id": "LpKWv4PVI8U",
-			"lastUpdated": "2020-05-19T11:54:23.909",
-			"name": "DELETE_Treatment: hide second-line options unless category is second-line",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "H23sqsoz6Ae"
 				}
 			],
 			"translations": []
@@ -53874,31 +53850,14 @@
 			"condition": "d2:hasValue( 'enrollment_date' )",
 			"created": "2020-01-20T10:28:20.195",
 			"id": "i4Syz9yBhJP",
-			"lastUpdated": "2020-01-20T17:48:21.030",
+			"lastUpdated": "2020-06-15T07:07:04.982",
 			"name": "Display Enrollment Date in Widget",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "yUKto1JMEIh"
-				}
-			],
-			"translations": []
-		},
-		{
-			"condition": "A{DATE_BIRTH_EST} == true  && !d2:hasValue(A{DateBirth})",
-			"created": "2020-05-19T08:10:18.233",
-			"description": "Prompt the user to set date of birth to January 1 if date of birth is estimated",
-			"id": "phtSTAYPHDi",
-			"lastUpdated": "2020-05-22T07:31:27.354",
-			"name": "Display notification if date of birth is estimated",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "Ht58YY75yM9"
+					"id": "oB4BQsK9gNe"
 				}
 			],
 			"translations": []
@@ -53926,34 +53885,31 @@
 			"created": "2020-02-13T16:21:46.646",
 			"description": "Display reminder to provide Laboratory Results",
 			"id": "LzOoWYkCz68",
-			"lastUpdated": "2020-04-03T11:32:00.574",
+			"lastUpdated": "2020-06-15T07:02:22.843",
 			"name": "Display reminder to provide Laboratory Results",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "l4Emy2xja0A"
+					"id": "Xo5hBo3tgmE"
 				}
 			],
 			"translations": []
 		},
 		{
-			"condition": "d2:hasValue( 'DateHIVstatus' )  &&  (d2:monthsBetween( #{DateHIVstatus}, V{enrollment_date} )  > 6) && #{HIVstatus} != 'YES'",
-			"created": "2020-02-07T13:40:42.590",
-			"description": "Display reminder to retest patient for HIV if the HIV Status date is +6 months",
-			"id": "Y8WFkcBC4lf",
-			"lastUpdated": "2020-05-27T13:55:20.043",
-			"name": "Display reminder to retest HIV",
+			"condition": "A{DATE_BIRTH_EST} == true  && !d2:hasValue(A{DateBirth})",
+			"created": "2020-05-19T08:10:18.233",
+			"description": "Prompt the user to set date of birth to January 1 if date of birth is estimated",
+			"id": "phtSTAYPHDi",
+			"lastUpdated": "2020-06-15T06:16:57.294",
+			"name": "Enrollment: display notification if date of birth is estimated",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "MD0uPiJl2ET"
-				},
-				{
-					"id": "OtqsoRCmLJY"
+					"id": "rEmGJ6DZ2di"
 				}
 			],
 			"translations": []
@@ -54131,16 +54087,16 @@
 		{
 			"condition": "#{HIVstatus}  == \"UNKNOWN\"",
 			"created": "2020-03-23T16:13:23.233",
-			"description": "Display warning message if HIV Status is Unknown",
+			"description": "Display message if HIV Status is Unknown",
 			"id": "q2pZ5zANR1o",
-			"lastUpdated": "2020-05-22T11:53:51.753",
-			"name": "HIV: Display warning message if HIV Status is Unknown",
+			"lastUpdated": "2020-06-15T11:35:10.749",
+			"name": "HIV: Display message if HIV Status is Unknown",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "JPnCmzh8V2W"
+					"id": "cfwMAKlBXlo"
 				}
 			],
 			"translations": []
@@ -54506,7 +54462,7 @@
 			"created": "2019-02-11T19:59:26.655",
 			"description": "Set the status of resistance to Bdq based on current event and previous status",
 			"id": "uyBB2KcpxLw",
-			"lastUpdated": "2020-04-07T06:29:37.347",
+			"lastUpdated": "2020-06-09T20:19:02.656",
 			"name": "Lab: assign status of resistance - Bdq resistant",
 			"priority": 1,
 			"program": {
@@ -54517,7 +54473,13 @@
 					"id": "GzkQGJCsTEH"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Lab: assign status of resistance - Bdq resistant"
+				}
+			]
 		},
 		{
 			"condition": "(d2:countIfValue('DST_INIT_SM_Cfz', 'RESISTANT') + d2:countIfValue('DST_INIT_LM_Cfz', 'RESISTANT') + d2:countIfValue('DST_SUB_SM_Cfz', 'RESISTANT') + d2:countIfValue('DST_SUB_LM_Cfz', 'RESISTANT')) == 0",
@@ -54664,7 +54626,7 @@
 			"created": "2019-02-11T19:59:26.654",
 			"description": "Set the status of resistance to H CB based on current event and previous status",
 			"id": "zpYoI6g5ZMN",
-			"lastUpdated": "2020-04-13T09:44:06.697",
+			"lastUpdated": "2020-06-09T20:19:03.374",
 			"name": "Lab: assign status of resistance - H CB not resistant",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -54674,14 +54636,25 @@
 					"id": "yQQWozcNomY"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Définir le statut de la résistance au H CB en fonction de l'événement en cours et du statut précédent"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Lab: assign status of resistance - H CB not resistant"
+				}
+			]
 		},
 		{
 			"condition": "d2:countIfValue('DST_INIT_SM_HCB', 'RESISTANT') > 0 || d2:countIfValue('DST_INIT_LM_HCB', 'RESISTANT') > 0 || d2:countIfValue('DST_SUB_SM_HCB', 'RESISTANT') > 0 || d2:countIfValue('DST_SUB_LM_HCB', 'RESISTANT') > 0",
 			"created": "2019-02-11T19:59:26.655",
 			"description": "Set the status of resistance to H CB based on current event and previous status",
 			"id": "eyCrtJciRE2",
-			"lastUpdated": "2020-04-13T10:26:54.490",
+			"lastUpdated": "2020-06-09T20:19:01.466",
 			"name": "Lab: assign status of resistance - H CB resistant",
 			"priority": 1,
 			"program": {
@@ -54692,7 +54665,13 @@
 					"id": "qpmQ5TbdYid"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Définir le statut de la résistance au H CB en fonction de l'événement en cours et du statut précédent"
+				}
+			]
 		},
 		{
 			"condition": "(d2:countIfValue('DST_INIT_SM_HCC', 'RESISTANT') + d2:countIfValue('DST_INIT_LM_HCC', 'RESISTANT') + d2:countIfValue('DST_SUB_SM_HCC', 'RESISTANT') + d2:countIfValue('DST_SUB_LM_HCC', 'RESISTANT')) == 0",
@@ -54786,7 +54765,7 @@
 			"created": "2020-04-07T06:28:39.057",
 			"description": "Set the status of resistance to Km based on current event and previous status",
 			"id": "rdmT7qPhyDl",
-			"lastUpdated": "2020-04-07T06:28:39.057",
+			"lastUpdated": "2020-06-09T20:19:02.069",
 			"name": "Lab: assign status of resistance - Km resistant",
 			"priority": 1,
 			"program": {
@@ -54797,7 +54776,13 @@
 					"id": "liF2YU4PDAD"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Lab: assign status of resistance - Km resistant"
+				}
+			]
 		},
 		{
 			"condition": "(d2:countIfValue('DST_INIT_SM_Lfx', 'RESISTANT') + d2:countIfValue('DST_INIT_LM_Lfx', 'RESISTANT') + d2:countIfValue('DST_SUB_SM_Lfx', 'RESISTANT') + d2:countIfValue('DST_SUB_LM_Lfx', 'RESISTANT')) == 0",
@@ -55007,46 +54992,6 @@
 					"id": "Plfnx6Aw2Y2"
 				}
 			],
-			"translations": []
-		},
-		{
-			"condition": "#{GeneXMTBCurrent} == 'NOT_DETECTED' && #{GeneXRifampicinCurrent} == 'RESISTANT'",
-			"created": "2018-06-10T13:41:38.421",
-			"description": "GeneXpert test for rifampicin cannot be \"Resistant\" if MTB is \"Not detected\"",
-			"id": "le9W1BPaAj4",
-			"lastUpdated": "2020-02-17T09:54:33.644",
-			"name": "Lab: GeneXpert MTB and rifampicin consistency",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "PSidJXxmVtm"
-				}
-			],
-			"programStage": {
-				"id": "mPdMZNWVrOQ"
-			},
-			"translations": []
-		},
-		{
-			"condition": "#{GeneXUltraMTBCurrent} == 'NOT_DETECTED' && #{GeneXUltraRifampicinCurrent} == 'RESISTANT'",
-			"created": "2020-02-17T09:53:54.015",
-			"description": "GeneXpert Ultra test for rifampicin cannot be \"Resistant\" if MTB is \"Not detected\"",
-			"id": "X8RNL1KP6i6",
-			"lastUpdated": "2020-02-17T09:53:54.015",
-			"name": "Lab: GeneXpert Ultra MTB and rifampicin consistency",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "w0tNt0BHYCo"
-				}
-			],
-			"programStage": {
-				"id": "mPdMZNWVrOQ"
-			},
 			"translations": []
 		},
 		{
@@ -55667,7 +55612,7 @@
 			"created": "2020-02-12T15:37:54.371",
 			"description": "Hide Hide Final RIF/INH LPA Results for Rifampicin and Isoniazid fields unless MTBc is detected",
 			"id": "LVPvzo6Baw0",
-			"lastUpdated": "2020-04-16T08:53:51.256",
+			"lastUpdated": "2020-06-09T20:19:00.923",
 			"name": "LAB: Hide Final RIF/INH LPA Results for Rifampicin and Isoniazid fields",
 			"priority": 3,
 			"program": {
@@ -55681,7 +55626,18 @@
 					"id": "XGGYNcijJAw"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Cacher Cacher les résultats finaux RIF/INH TSL pour les champs de rifampicine et d'isoniazide, à moins que du MTBc ne soit détecté"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "LAB : Masquer les résultats finaux du TSL RIF/INH pour les champs de rifampicine et d'isoniazide"
+				}
+			]
 		},
 		{
 			"condition": "true",
@@ -56040,26 +55996,6 @@
 					"id": "WRcWFDmU56r"
 				}
 			],
-			"translations": []
-		},
-		{
-			"condition": "#{TB_TRUENAT_MTB_CURRENT} == 'NOT_DETECTED' && #{TB_TRUENAT_RIF_CURRENT} == 'RESISTANT'",
-			"created": "2020-03-20T10:16:25.250",
-			"description": "Truenat test for rifampicin cannot be \"Resistant\" if MTB is \"Not detected\"",
-			"id": "UZtkMgBR3EU",
-			"lastUpdated": "2020-04-16T09:27:40.085",
-			"name": "Lab: Truenat MTB and rifampicin consistency",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "RKYlyiasmER"
-				}
-			],
-			"programStage": {
-				"id": "mPdMZNWVrOQ"
-			},
 			"translations": []
 		},
 		{
@@ -56445,31 +56381,34 @@
 			"condition": "!d2:hasValue('NotTB') && !d2:hasValue('Outcome') && V{program_stage_id} == 'UZn8sMwz7Nm'",
 			"created": "2018-06-17T20:21:51.845",
 			"id": "nasXvaEoFP8",
-			"lastUpdated": "2020-05-22T12:21:22.320",
-			"name": "Outcome: denotification or outcome is required",
+			"lastUpdated": "2020-06-15T07:09:12.104",
+			"name": "Outcome: Error and message - denotification or outcome is required",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "jt67aU9kfHa"
+					"id": "Qk95ivMCPV6"
+				},
+				{
+					"id": "aP3d8eNuhyR"
 				}
 			],
 			"translations": []
 		},
 		{
-			"condition": "!d2:hasValue('Outcome') || (d2:weeksBetween(#{OutcomeDue}, V{event_date} )  <= 0)",
+			"condition": "(!d2:hasValue('Outcome')   || !d2:hasValue('OutcomeDue')) || (d2:weeksBetween(#{OutcomeDue}, V{event_date} )  <= 0)",
 			"created": "2020-05-25T08:22:50.985",
 			"description": "Hide delay in weeks",
 			"id": "Qt1dpUflhQu",
-			"lastUpdated": "2020-05-25T08:43:46.467",
+			"lastUpdated": "2020-06-15T13:50:51.181",
 			"name": "Outcome: Hide delay in weeks if not overdue",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "A8iUamYMdpq"
+					"id": "eUCvaBDN5ia"
 				}
 			],
 			"programStage": {
@@ -56482,7 +56421,7 @@
 			"created": "2018-06-17T20:15:08.092",
 			"description": "If and outcome is selected, hide the \"denotification\" field",
 			"id": "yIjGxwB8kq9",
-			"lastUpdated": "2020-05-19T11:43:51.617",
+			"lastUpdated": "2020-06-09T20:19:03.244",
 			"name": "Outcome: hide denotification if outcome selected",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -56492,7 +56431,18 @@
 					"id": "d7v8fEHvE5X"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Si et résultat est sélectionné, cacher le champ \"dénotification\""
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Résultat : cacher la dénotification si le résultat est sélectionné"
+				}
+			]
 		},
 		{
 			"condition": "!d2:hasValue('TreatmentRegimen')",
@@ -56572,23 +56522,6 @@
 			"translations": []
 		},
 		{
-			"condition": "(#{SiteDisease} == 'SITE_EXTRA_PULMONARY' || #{SiteDisease} == 'SITE_BOTH') && #{TreatmentRegimen} == 'SECOND_LINE_TREATMENT' && #{Outcome} == 'CURED'",
-			"created": "2018-01-18T14:54:26.539",
-			"description": "Prevent selection of \"cured\" as treatment outcome if the treatment category is Second-line treatment regimen and site of disease is extrapulmonary",
-			"id": "XSoxhSWx1dj",
-			"lastUpdated": "2020-05-15T06:43:13.782",
-			"name": "Outcome: prevent selection of \"cured\" for 2nd line extrapulmonary cases",
-			"program": {
-				"id": "Lt6P15ps7f6"
-			},
-			"programRuleActions": [
-				{
-					"id": "LxUqyQ0UvzL"
-				}
-			],
-			"translations": []
-		},
-		{
 			"condition": "#{ConfirmationMethod} == 'CONFIRMATION_CLINICAL'",
 			"created": "2018-01-18T14:54:26.539",
 			"description": "Prevent selection of \"cured\" as treatment outcome if the patient is clinically diagnosed",
@@ -56610,14 +56543,34 @@
 			"created": "2018-06-14T19:41:52.499",
 			"description": "Show a message if passed the outcome due date (based on date of diagnosis) and no outcome is recorded",
 			"id": "t1hjlCWKM0J",
-			"lastUpdated": "2020-05-25T11:23:29.732",
+			"lastUpdated": "2020-06-15T09:07:32.605",
 			"name": "Outcome: warning if estimated outcome is overdue",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "islYuepDWH4"
+					"id": "vfH40uSUcvp"
+				}
+			],
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'DateHIVstatus' )  &&  (d2:monthsBetween( #{DateHIVstatus}, V{enrollment_date} )  > 6) && #{HIVstatus} != 'YES'",
+			"created": "2020-02-07T13:40:42.590",
+			"description": "Display reminder to retest patient for HIV if the HIV Status date is +6 months",
+			"id": "Y8WFkcBC4lf",
+			"lastUpdated": "2020-06-15T06:50:37.252",
+			"name": "Registration: display reminder to retest HIV",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "psb9MEBkzOY"
+				},
+				{
+					"id": "vkKqvFaQ47M"
 				}
 			],
 			"translations": []
@@ -56643,7 +56596,7 @@
 			"condition": "#{TreatmentRegimenPrevious} == 'FIRST_LINE_TREATMENT'",
 			"created": "2019-03-06T19:16:43.848",
 			"id": "dx7BkeMco7Z",
-			"lastUpdated": "2020-02-11T11:13:17.749",
+			"lastUpdated": "2020-06-09T20:19:01.256",
 			"name": "Treatment: assign first line treatment start date from previous event",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -56656,7 +56609,13 @@
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Treatment: assign first line treatment start date from previous event"
+				}
+			]
 		},
 		{
 			"condition": "#{TreatmentRegimenCurrent} == 'FIRST_LINE_TREATMENT'",
@@ -56681,7 +56640,7 @@
 			"condition": "#{TreatmentRegimenPrevious} == 'SECOND_LINE_TREATMENT'",
 			"created": "2019-03-06T19:20:00.234",
 			"id": "tnXwGDObIfL",
-			"lastUpdated": "2020-02-10T15:53:53.858",
+			"lastUpdated": "2020-06-09T20:19:02.370",
 			"name": "Treatment: assign second line treatment start date from previous event",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -56694,7 +56653,13 @@
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Treatment: assign second line treatment start date from previous event"
+				}
+			]
 		},
 		{
 			"condition": "#{TreatmentRegimenCurrent} == 'SECOND_LINE_TREATMENT'",
@@ -56738,7 +56703,7 @@
 			"condition": "#{TreatmentRegimenCurrent} != 'SECOND_LINE_TREATMENT' && #{TreatmentRegimenPrevious} != 'SECOND_LINE_TREATMENT'",
 			"created": "2019-03-06T19:12:44.648",
 			"id": "uv5FPnv7BLa",
-			"lastUpdated": "2020-05-05T21:12:02.063",
+			"lastUpdated": "2020-06-09T20:19:02.518",
 			"name": "Treatment: deassign second line treatment start date",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -56751,7 +56716,13 @@
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Treatment: deassign second line treatment start date"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue('TreatmentRegimen') && #{TreatmentRegimen} != \"SECOND_LINE_TREATMENT\" && (#{CaseClassification} == \"RR\" || #{CaseClassification} == \"DR\" || #{CaseClassification} == \"MDR\" || #{CaseClassification} == \"XDR\" || #{CaseClassification} == \"Mono Res\" || #{CaseClassification} == \"Poly Res\")",
@@ -56771,18 +56742,48 @@
 			"translations": []
 		},
 		{
-			"condition": "#{TreatmentRegimen} == 'SECOND_LINE_TREATMENT' && #{CaseClassification} == 'DS'",
+			"condition": "#{TreatmentRegimen} == 'SECOND_LINE_TREATMENT' && \n(!d2:hasValue( 'SmearResultDateNewest' )  && \n!d2:hasValue( 'GeneXpertResultDateNewest' )  && \n!d2:hasValue( 'GeneXpertUltraResultDateNewest' )  && \n!d2:hasValue( 'LiquidCultureResultDateNewest' )  && \n!d2:hasValue( 'SolidCultureResultDateNewest' )  && \n!d2:hasValue( 'DST_INIT_SM_ResultDateNewest' )  && \n!d2:hasValue( 'DST_INIT_LM_ResultDateNewest' )  && \n!d2:hasValue( 'DST_SUB_SM_ResultDateNewest' )  && \n!d2:hasValue( 'DST_SUB_LM_ResultDateNewest' )  && \n!d2:hasValue( 'LPA_RIF_INH_ResultDateNewest' )  && \n!d2:hasValue( 'TB_LAMP_RESULT_DATE_NEWEST' )  && \n!d2:hasValue( 'TB_TRUENAT_RESULT_DATE_NEWEST' )  && \n!d2:hasValue( 'TB_LF_LAM_RESULT_DATE_NEWEST' )  && \n!d2:hasValue( 'LPA_FQ_2LI_ResultDateNewest' ))",
 			"created": "2017-11-25T21:26:33.615",
 			"description": "Drug resistance not detected, but case is registered on second-line",
 			"id": "xoCMDMzuGhJ",
-			"lastUpdated": "2020-05-19T11:55:09.863",
+			"lastUpdated": "2020-06-15T11:06:01.920",
 			"name": "Treatment: drug resistance not detected, but case is registered on second-line",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "swiOGSK44HC"
+					"id": "Cd8k7sekBfo"
+				}
+			],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "La résistance aux médicaments n'est pas détectée, mais le cas est enregistré en deuxième ligne"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Traitement : la résistance aux médicaments n'est pas détectée, mais le cas est enregistré en deuxième ligne"
+				}
+			]
+		},
+		{
+			"condition": "!d2:hasValue('TreatmentRegimenCurrent') && V{program_stage_id} == 'RB3a5MXMe8g' && d2:count('TreatmentRegimenPrevious')  < 2",
+			"created": "2020-06-15T07:13:51.111",
+			"id": "SBLJgpP1ru8",
+			"lastUpdated": "2020-06-15T07:20:13.853",
+			"name": "Treatment: Error and message - Treatment Regimen is required",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "lIhvSUFXYjh"
+				},
+				{
+					"id": "ZpmvWddGZiL"
 				}
 			],
 			"translations": []
@@ -56791,7 +56792,7 @@
 			"condition": "#{TreatmentRegimenPrevious} == 'FIRST_LINE_TREATMENT'",
 			"created": "2019-03-06T15:06:16.139",
 			"id": "zsIzPyV43qb",
-			"lastUpdated": "2020-05-19T11:56:09.594",
+			"lastUpdated": "2020-06-09T20:19:03.552",
 			"name": "Treatment: Hide first line regimen option if first line regimen in previous event",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -56804,7 +56805,13 @@
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Traitement : Cacher l'option de régime de première ligne si régime de première ligne dans l'événement précédent"
+				}
+			]
 		},
 		{
 			"condition": "!d2:hasValue('TreatmentRegimenCurrent')",
@@ -56843,6 +56850,23 @@
 			"programStage": {
 				"id": "RB3a5MXMe8g"
 			},
+			"translations": []
+		},
+		{
+			"condition": "!d2:hasValue( 'TreatmentRegimenCurrent' ) || \n#{TreatmentRegimenCurrent} ==  'FIRST_LINE_TREATMENT'",
+			"created": "2017-11-24T09:57:17.614",
+			"description": "Hide details on second-line treatment unless treatment category is set to second-line",
+			"id": "LpKWv4PVI8U",
+			"lastUpdated": "2020-06-15T11:12:06.363",
+			"name": "Treatment: hide second-line options unless category is second-line",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"programRuleActions": [
+				{
+					"id": "N5o5FcBmh4h"
+				}
+			],
 			"translations": []
 		},
 		{
@@ -56900,23 +56924,23 @@
 			"condition": "d2:count('TreatmentRegimenPrevious') == 2",
 			"created": "2019-03-06T15:05:10.668",
 			"id": "ov1MiHaD9Xe",
-			"lastUpdated": "2020-05-05T21:07:09.786",
+			"lastUpdated": "2020-06-15T07:01:15.876",
 			"name": "Treatment: Prevent completing third event - maximum two (one change of regimen) allowed",
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programRuleActions": [
 				{
-					"id": "szlz0relRBK"
+					"id": "oG2lUBNDSH0"
 				},
 				{
-					"id": "ie8MA05QQLV"
+					"id": "ynQgaSJxj6Q"
 				},
 				{
-					"id": "TA4tOC2vvI4"
+					"id": "BQtJQQGVoDD"
 				},
 				{
-					"id": "fVeoTnGdAlN"
+					"id": "Gu5wyjHYKeB"
 				}
 			],
 			"programStage": {
@@ -57090,7 +57114,7 @@
 		{
 			"created": "2017-11-23T21:36:07.949",
 			"id": "sK5GAfN0nWi",
-			"lastUpdated": "2020-05-22T07:33:27.637",
+			"lastUpdated": "2020-06-15T10:24:44.898",
 			"name": "DateBirth",
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -60426,8 +60450,8 @@
 			"expiryDays": 0,
 			"featureType": "NONE",
 			"id": "Lt6P15ps7f6",
-			"ignoreOverdueEvents": false,
-			"lastUpdated": "2020-05-22T07:26:38.034",
+			"ignoreOverdueEvents": true,
+			"lastUpdated": "2020-06-10T07:48:48.008",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "TB Case Surveillance",
@@ -60469,7 +60493,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "jsDpO8qknx3",
-					"lastUpdated": "2020-05-22T07:26:38.036",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": false,
 					"name": "TB Case Surveillance Address",
 					"program": {
@@ -60505,7 +60529,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "KwYTprVNXJP",
-					"lastUpdated": "2020-05-22T07:26:38.036",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": false,
 					"name": "TB Case Surveillance Administrative Area of Residence",
 					"program": {
@@ -60541,7 +60565,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "EcXmoNn84AM",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": true,
 					"name": "TB Case Surveillance Date of birth (age)",
 					"program": {
@@ -60571,14 +60595,14 @@
 					"allowFutureDate": false,
 					"attributeValues": [],
 					"created": "2018-01-18T14:19:53.546",
-					"displayInList": false,
+					"displayInList": true,
 					"displayName": "TB Case Surveillance Date of birth is estimated",
 					"displayShortName": "TB Case Surveillance Estimated DoB",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
 					"id": "UL8nsHjf333",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": false,
 					"name": "TB Case Surveillance Date of birth is estimated",
 					"program": {
@@ -60586,7 +60610,7 @@
 					},
 					"programTrackedEntityAttributeGroups": [],
 					"renderOptionsAsRadio": false,
-					"searchable": false,
+					"searchable": true,
 					"sortOrder": 6,
 					"trackedEntityAttribute": {
 						"id": "Z1rLc1rVHK8"
@@ -60615,7 +60639,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RGggZsUAgKg",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": true,
 					"name": "TB Case Surveillance First name",
 					"program": {
@@ -60651,7 +60675,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "JYZMYTu5OwS",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": false,
 					"name": "TB Case Surveillance Foreign-born",
 					"program": {
@@ -60688,7 +60712,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NL0A0PV9OKc",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": true,
 					"name": "TB Case Surveillance Gender",
 					"program": {
@@ -60725,7 +60749,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aQ9uwwF98rj",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": true,
 					"name": "TB Case Surveillance Last name",
 					"program": {
@@ -60761,7 +60785,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "I74MBNn3W3t",
-					"lastUpdated": "2020-05-22T07:26:38.036",
+					"lastUpdated": "2020-06-10T07:48:48.012",
 					"mandatory": false,
 					"name": "TB Case Surveillance Mobile phone number",
 					"program": {
@@ -60798,7 +60822,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "WGAYdyLvlHd",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": true,
 					"name": "TB Case Surveillance National ID",
 					"program": {
@@ -60835,7 +60859,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ngmTjpcWtTZ",
-					"lastUpdated": "2020-05-22T07:26:38.035",
+					"lastUpdated": "2020-06-10T07:48:48.010",
 					"mandatory": false,
 					"name": "TB Case Surveillance TB Registration Number",
 					"program": {
@@ -60856,6 +60880,9 @@
 			],
 			"programType": "WITH_REGISTRATION",
 			"publicAccess": "--------",
+			"relatedProgram": {
+				"id": "KYzHf1Ta6C4"
+			},
 			"selectEnrollmentDatesInFuture": false,
 			"selectIncidentDatesInFuture": false,
 			"shortName": "TB Case Surveillance",
@@ -60891,7 +60918,7 @@
 					"id": "zBZXkRW0PJy"
 				}
 			],
-			"version": 66
+			"version": 68
 		}
 	],
 	"programStageDataElements": [
@@ -71709,7 +71736,7 @@
 			"created": "2019-02-12T14:16:37.523",
 			"displayInList": true,
 			"id": "ngmTjpcWtTZ",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71726,7 +71753,7 @@
 			"created": "2020-05-22T07:26:38.004",
 			"displayInList": true,
 			"id": "EcXmoNn84AM",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": true,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71743,7 +71770,7 @@
 			"created": "2020-02-06T11:07:14.136",
 			"displayInList": false,
 			"id": "KwYTprVNXJP",
-			"lastUpdated": "2020-05-22T07:26:38.036",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71759,16 +71786,16 @@
 		{
 			"allowFutureDate": false,
 			"created": "2018-01-18T14:19:53.546",
-			"displayInList": false,
+			"displayInList": true,
 			"id": "UL8nsHjf333",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
 			},
 			"programTrackedEntityAttributeGroups": [],
 			"renderOptionsAsRadio": false,
-			"searchable": false,
+			"searchable": true,
 			"sortOrder": 6,
 			"trackedEntityAttribute": {
 				"id": "Z1rLc1rVHK8"
@@ -71778,7 +71805,7 @@
 			"created": "2020-02-06T11:07:14.136",
 			"displayInList": false,
 			"id": "JYZMYTu5OwS",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71796,7 +71823,7 @@
 			"created": "2019-02-12T14:16:37.523",
 			"displayInList": true,
 			"id": "jsDpO8qknx3",
-			"lastUpdated": "2020-05-22T07:26:38.036",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71814,7 +71841,7 @@
 			"created": "2018-01-18T14:19:53.542",
 			"displayInList": true,
 			"id": "aQ9uwwF98rj",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": true,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71832,7 +71859,7 @@
 			"created": "2018-01-18T14:19:53.535",
 			"displayInList": true,
 			"id": "WGAYdyLvlHd",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": true,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71850,7 +71877,7 @@
 			"created": "2018-01-18T14:19:53.554",
 			"displayInList": true,
 			"id": "NL0A0PV9OKc",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": true,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71867,7 +71894,7 @@
 			"created": "2020-01-20T10:55:35.430",
 			"displayInList": true,
 			"id": "I74MBNn3W3t",
-			"lastUpdated": "2020-05-22T07:26:38.036",
+			"lastUpdated": "2020-06-10T07:48:48.012",
 			"mandatory": false,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71885,7 +71912,7 @@
 			"created": "2018-01-18T14:19:53.539",
 			"displayInList": true,
 			"id": "RGggZsUAgKg",
-			"lastUpdated": "2020-05-22T07:26:38.035",
+			"lastUpdated": "2020-06-10T07:48:48.010",
 			"mandatory": true,
 			"program": {
 				"id": "Lt6P15ps7f6"
@@ -71911,7 +71938,7 @@
 			"generated": false,
 			"id": "VCtm2pySeEV",
 			"inherit": false,
-			"lastUpdated": "2020-05-26T10:41:39.675",
+			"lastUpdated": "2020-06-10T06:35:28.195",
 			"legendSets": [],
 			"name": "Address",
 			"orgunitScope": false,
@@ -71986,7 +72013,7 @@
 			"generated": false,
 			"id": "ljHL8NnSEAD",
 			"inherit": false,
-			"lastUpdated": "2020-03-18T18:16:04.610",
+			"lastUpdated": "2020-06-10T06:34:11.549",
 			"legendSets": [],
 			"name": "Administrative Area of Residence",
 			"orgunitScope": false,
@@ -72052,7 +72079,7 @@
 			"generated": false,
 			"id": "mAWcalQYYyk",
 			"inherit": false,
-			"lastUpdated": "2020-05-22T07:26:51.016",
+			"lastUpdated": "2020-06-10T06:33:02.419",
 			"legendSets": [],
 			"name": "Date of birth (age)",
 			"orgunitScope": false,
@@ -72117,7 +72144,7 @@
 			"generated": false,
 			"id": "Z1rLc1rVHK8",
 			"inherit": false,
-			"lastUpdated": "2020-05-26T10:39:48.949",
+			"lastUpdated": "2020-06-10T06:32:13.990",
 			"legendSets": [],
 			"name": "Date of birth is estimated",
 			"orgunitScope": false,
@@ -72183,7 +72210,7 @@
 			"generated": false,
 			"id": "TfdH5KvFmMy",
 			"inherit": false,
-			"lastUpdated": "2020-05-26T10:09:44.127",
+			"lastUpdated": "2020-06-10T06:27:58.273",
 			"legendSets": [],
 			"name": "First name",
 			"orgunitScope": false,
@@ -72322,7 +72349,7 @@
 			"generated": false,
 			"id": "CklPZdOd6H1",
 			"inherit": false,
-			"lastUpdated": "2020-05-19T08:30:37.840",
+			"lastUpdated": "2020-06-10T06:31:10.653",
 			"legendSets": [],
 			"name": "Gender",
 			"optionSet": {
@@ -72421,7 +72448,7 @@
 			"generated": false,
 			"id": "aW66s2QSosT",
 			"inherit": false,
-			"lastUpdated": "2020-05-26T10:39:30.658",
+			"lastUpdated": "2020-06-10T06:30:22.097",
 			"legendSets": [],
 			"name": "Last name",
 			"orgunitScope": false,
@@ -72740,7 +72767,7 @@
 			"description": "Person",
 			"featureType": "NONE",
 			"id": "MCPQUTHX1Ze",
-			"lastUpdated": "2020-05-26T09:56:33.276",
+			"lastUpdated": "2020-06-10T09:23:44.796",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "Person",
@@ -72756,19 +72783,19 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"created": "2020-05-22T07:24:53.122",
-					"displayInList": false,
-					"displayName": "Person Date of birth (age)",
-					"displayShortName": "null DoB (age)",
+					"created": "2020-03-04T15:09:17.295",
+					"displayInList": true,
+					"displayName": "Person Date of Birth (age)",
+					"displayShortName": "null DoB (Age)",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "sWaFojiAdn8",
-					"lastUpdated": "2020-05-22T07:24:53.180",
-					"name": "Person Date of birth (age)",
+					"id": "ZH5AmeeQOdK",
+					"lastUpdated": "2020-06-08T09:42:51.606",
+					"name": "Person Date of Birth (age)",
 					"searchable": false,
 					"trackedEntityAttribute": {
-						"id": "mAWcalQYYyk"
+						"id": "wOcoDe5zTRJ"
 					},
 					"trackedEntityType": {
 						"id": "MCPQUTHX1Ze"
@@ -72796,7 +72823,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hKZ9AJpnVcG",
-					"lastUpdated": "2020-05-22T07:24:53.176",
+					"lastUpdated": "2020-06-08T09:42:51.606",
 					"name": "Person First name",
 					"searchable": true,
 					"trackedEntityAttribute": {
@@ -72828,7 +72855,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gqLw62UZlrD",
-					"lastUpdated": "2020-05-22T07:24:53.176",
+					"lastUpdated": "2020-06-08T09:42:51.606",
 					"name": "Person Last name",
 					"searchable": true,
 					"trackedEntityAttribute": {
@@ -72860,7 +72887,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "A6hUWdP9myD",
-					"lastUpdated": "2020-05-22T07:24:53.176",
+					"lastUpdated": "2020-06-08T09:42:51.606",
 					"name": "Person Unique Identifier",
 					"searchable": true,
 					"trackedEntityAttribute": {
@@ -72921,7 +72948,7 @@
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:29.091",
 			"id": "pyu2ZlNKbzQ",
-			"lastUpdated": "2020-05-27T11:32:02.729",
+			"lastUpdated": "2020-06-04T10:40:36.529",
 			"managedGroups": [],
 			"name": "TB access",
 			"publicAccess": "--------",
@@ -72958,7 +72985,7 @@
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:42.988",
 			"id": "Ubzlyfqm1gO",
-			"lastUpdated": "2020-05-26T08:18:35.767",
+			"lastUpdated": "2020-06-11T03:05:01.156",
 			"managedGroups": [],
 			"name": "TB admin",
 			"publicAccess": "--------",
@@ -72995,7 +73022,7 @@
 			"attributeValues": [],
 			"created": "2018-06-06T10:40:10.713",
 			"id": "UKWx4jJcrKt",
-			"lastUpdated": "2020-05-26T08:18:35.783",
+			"lastUpdated": "2020-06-11T03:05:01.236",
 			"managedGroups": [],
 			"name": "TB data capture",
 			"publicAccess": "--------",
@@ -73032,7 +73059,7 @@
 			"attributeValues": [],
 			"created": "2018-06-17T19:45:25.334",
 			"id": "zBZXkRW0PJy",
-			"lastUpdated": "2020-05-26T08:18:35.778",
+			"lastUpdated": "2020-06-11T03:05:01.228",
 			"managedGroups": [],
 			"name": "TB lab data capture",
 			"publicAccess": "--------",
@@ -73073,7 +73100,7 @@
 			"dataViewOrganisationUnits": [],
 			"firstName": "Admin",
 			"id": "vUeLeQMSwhN",
-			"lastUpdated": "2020-05-04T12:58:35.756",
+			"lastUpdated": "2020-06-08T09:42:50.151",
 			"organisationUnits": [],
 			"surname": "WHO",
 			"teiSearchOrganisationUnits": [],
