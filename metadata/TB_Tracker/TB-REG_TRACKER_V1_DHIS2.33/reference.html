@@ -29,6 +29,10 @@
         <li><a href="#indicatorGroups">Indicator Groups</a></li>
         <li><a href="#indicatorTypes">Indicator Types</a></li>
         <li><a href="#programIndicatorGroups">Program Indicator Groups</a></li>
+        <li><a href="#dashboards">Dashboards</a></li>
+        <li><a href="#charts">Charts</a></li>
+        <li><a href="#maps">Maps</a></li>
+        <li><a href="#eventReports">Event Reports</a></li>
         <li><a href="#userGroups">User Groups</a></li>
       </ul>
     </div>
@@ -56,11 +60,11 @@
       </tr>
       <tr>
         <th>Created</th>
-        <td>2020-06-15T15:19</td>
+        <td>2020-06-26T13:50</td>
       </tr>
       <tr>
         <th>Identifier</th>
-        <td>TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-06-15T15:19</td>
+        <td>TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-06-26T13:50</td>
       </tr>
     </table>
     <h2 id="trackedEntityTypes">Tracked entity types</h2>
@@ -72,7 +76,7 @@
       </tr>
       <tr>
         <td>Person</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>MCPQUTHX1Ze</td>
       </tr>
     </table>
@@ -113,7 +117,7 @@
         <td></td>
         <td>
           Geographic location of the case.</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>VCtm2pySeEV</td>
       </tr>
       <tr>
@@ -126,15 +130,15 @@
       <tr>
         <td>Date of birth (age)</td>
         <td></td>
-        <td>undefined</td>
-        <td>2020-06-10</td>
+        <td>Date of birth plus calculated age.</td>
+        <td>2020-06-23</td>
         <td>mAWcalQYYyk</td>
       </tr>
       <tr>
         <td>Date of birth is estimated</td>
         <td></td>
         <td>undefined</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>Z1rLc1rVHK8</td>
       </tr>
       <tr>
@@ -142,7 +146,7 @@
         <td></td>
         <td>
           The name of the patient or initials</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>TfdH5KvFmMy</td>
       </tr>
       <tr>
@@ -156,14 +160,14 @@
         <td>Gender</td>
         <td></td>
         <td>Gender of Person</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>CklPZdOd6H1</td>
       </tr>
       <tr>
         <td>Last name</td>
         <td></td>
         <td>Family name of the patient.</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>aW66s2QSosT</td>
       </tr>
       <tr>
@@ -191,7 +195,7 @@
         <td>TB Registration Number</td>
         <td></td>
         <td>undefined</td>
-        <td>2020-03-18</td>
+        <td>2020-06-19</td>
         <td>ntelZthDPpR</td>
       </tr>
     </table>
@@ -212,7 +216,7 @@
       </tr>
       <tr>
         <th>Last updated:</th>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
       </tr>
       <tr>
         <th>UID:</th>
@@ -228,22 +232,22 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>2020-05-28</td>
+        <td>2020-06-26</td>
         <td>mPdMZNWVrOQ</td>
       </tr>
       <tr>
         <td>Outcome</td>
-        <td>2020-05-28</td>
+        <td>2020-06-26</td>
         <td>UZn8sMwz7Nm</td>
       </tr>
       <tr>
         <td>TB Registration</td>
-        <td>2020-05-28</td>
+        <td>2020-06-26</td>
         <td>ODD4lMPm0JX</td>
       </tr>
       <tr>
         <td>Treatment</td>
-        <td>2020-05-28</td>
+        <td>2020-06-26</td>
         <td>RB3a5MXMe8g</td>
       </tr>
     </table>
@@ -291,8 +295,18 @@
       </tr>
       <tr>
         <td>TB Registration</td>
+        <td>TB Registration status</td>
+        <td>TB case - Denotified?</td>
+      </tr>
+      <tr>
+        <td>TB Registration</td>
         <td>Risk Factors</td>
         <td>TB risk factor - undernourishment</td>
+      </tr>
+      <tr>
+        <td>TB Registration</td>
+        <td>TB Registration status</td>
+        <td>TB Resistance Classification</td>
       </tr>
       <tr>
         <td>TB Registration</td>
@@ -391,7 +405,7 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Status</td>
+        <td>Laboratory status</td>
         <td>Date RIF resistance detected</td>
       </tr>
       <tr>
@@ -741,8 +755,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Status</td>
+        <td>Laboratory status</td>
         <td>Date RIF resistance first detected</td>
+      </tr>
+      <tr>
+        <td>Laboratory Results</td>
+        <td>Laboratory status</td>
+        <td>TB Resistance Classification</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -771,18 +790,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - Bdq </td>
-      </tr>
-      <tr>
-        <td>Laboratory Results</td>
         <td>LPA (Fluoroquinolones / Second-line Injectables)</td>
         <td>Lab: TB LPA FQ/2LI Specimen Number</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
         <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - Cfz </td>
+        <td>Lab: Subsequent DST SM - Bdq </td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -791,13 +805,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)</td>
-        <td>Lab: TB Subsequent DST Liquid Media Specimen Number</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - Cfz </td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - Dlm </td>
+        <td>Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)</td>
+        <td>Lab: TB Subsequent DST Liquid Media Specimen Number</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -806,18 +820,23 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - Dlm </td>
+      </tr>
+      <tr>
+        <td>Laboratory Results</td>
         <td>TB-LAMP</td>
         <td>TB Lab: TB-LAMP</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - E</td>
+        <td>TB-LAMP</td>
+        <td>TB Lab: TB-LAMP Date</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>TB-LAMP</td>
-        <td>TB Lab: TB-LAMP Date</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - E</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -831,13 +850,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - H CC</td>
+        <td>LF-LAM</td>
+        <td>TB Lab: LF-LAM</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>LF-LAM</td>
-        <td>TB Lab: LF-LAM</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - H CC</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -856,13 +875,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>LF-LAM</td>
-        <td>TB Lab: LF-LAM specimen number</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - Lfx</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - Lfx</td>
+        <td>LF-LAM</td>
+        <td>TB Lab: LF-LAM specimen number</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -876,13 +895,13 @@
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
-        <td>Lab: Subsequent DST SM - Mfx CB</td>
+        <td>Truenat</td>
+        <td>TB Lab: Truenat MTB</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
-        <td>Truenat</td>
-        <td>TB Lab: Truenat MTB</td>
+        <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
+        <td>Lab: Subsequent DST SM - Mfx CB</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -908,11 +927,6 @@
         <td>Laboratory Results</td>
         <td>Subsequent Phenotypic DST in Solid Media (e.g. LJ) - Final Results</td>
         <td>Lab: Subsequent DST SM - R</td>
-      </tr>
-      <tr>
-        <td>Laboratory Results</td>
-        <td>Status</td>
-        <td>TB Resistance Classification</td>
       </tr>
       <tr>
         <td>Laboratory Results</td>
@@ -1026,7 +1040,7 @@
       </tr>
       <tr>
         <td>Treatment</td>
-        <td>Status</td>
+        <td>Treatment status</td>
         <td>TB first-line treatment start date</td>
       </tr>
       <tr>
@@ -1041,13 +1055,13 @@
       </tr>
       <tr>
         <td>Treatment</td>
-        <td>Second-line (Other)</td>
-        <td>Treatment Second-line - Amx/Clv</td>
+        <td>Treatment status</td>
+        <td>TB second-line treatment start date</td>
       </tr>
       <tr>
         <td>Treatment</td>
-        <td>Status</td>
-        <td>TB second-line treatment start date</td>
+        <td>Second-line (Other)</td>
+        <td>Treatment Second-line - Amx/Clv</td>
       </tr>
       <tr>
         <td>Treatment</td>
@@ -1091,7 +1105,12 @@
       </tr>
       <tr>
         <td>Treatment</td>
-        <td>Status</td>
+        <td>Treatment status</td>
+        <td>TB: Treatment Initiation delay (days)</td>
+      </tr>
+      <tr>
+        <td>Treatment</td>
+        <td>Treatment status</td>
         <td>TB outcome due date</td>
       </tr>
       <tr>
@@ -1116,7 +1135,7 @@
       </tr>
       <tr>
         <td>Outcome</td>
-        <td>Status</td>
+        <td>Outcome status</td>
         <td>TB: Treatment Outcome delay (weeks)</td>
       </tr>
       <tr>
@@ -1140,6 +1159,15 @@
         <th>Analytics Type</th>
         <th>Last updated</th>
         <th>UID</th>
+      </tr>
+      <tr>
+        <td> TB/HIV on ART</td>
+        <td>TB/HIV - ART</td>
+        <td>TB_HIV_POS_ART</td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-23</td>
+        <td>z6ynKOp9PMS</td>
       </tr>
       <tr>
         <td>2.01(i) - TB case - Pulmonary TB cases, bacteriologically confirmed - New, or previous treatment history unknown</td>
@@ -1435,7 +1463,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>bS1ZVLaujxF</td>
       </tr>
       <tr>
@@ -1444,7 +1472,7 @@
         <td></td>
         <td>Confirmed MDR-TB cases on second-line treatment regimen, excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>efyDakQPlNV</td>
       </tr>
       <tr>
@@ -1453,7 +1481,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>lva8WWCgm6I</td>
       </tr>
       <tr>
@@ -1462,7 +1490,7 @@
         <td></td>
         <td>Not laboratory-confirmed RR/MDR-TB cases on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>MwZSCg7C9DU</td>
       </tr>
       <tr>
@@ -1471,21 +1499,21 @@
         <td></td>
         <td>Laboratory-confirmed RR-TB or MDR-TB patients who started treatment for MDR-TB (Second-line treatment)</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>o8aunPo6Lek</td>
       </tr>
       <tr>
         <td>2.19 - TB Treatment - RR and MDR cases (Age <15) who started treatment for MDR-TB</td> <td>RR/MDR cases - 2nd line - Age <15</td> <td>
         </td>
         <td>RR/MDR-TB cases (Age <15) started on second-line treatment regimen</td> <td>ENROLLMENT</td>
-        <td>2020-05-22</td>
+        <td>2020-06-25</td>
         <td>oNynyr6rNtl</td>
       </tr>
       <tr>
         <td>2.19b - TB Treatment - RR and MDR cases (Age <15) who started treatment for MDR-TB - (Offset 1 year)</td> <td>RR/MDR cases - 2nd line - Age <15 - offset</td> <td>
         </td>
         <td>RR/MDR-TB cases (Age <15) started on second-line treatment regimen</td> <td>ENROLLMENT</td>
-        <td>2020-05-22</td>
+        <td>2020-06-25</td>
         <td>QeY8kipz7E2</td>
       </tr>
       <tr>
@@ -1494,7 +1522,7 @@
         <td></td>
         <td>Laboratory-confirmed XDR-TB patients who started treatment for XDR-TB (Second-line treatment)</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>tsCchEKn7Br</td>
       </tr>
       <tr>
@@ -1521,7 +1549,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>iePYwzgp7ol</td>
       </tr>
       <tr>
@@ -1530,7 +1558,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>FIWaUqszG5L</td>
       </tr>
       <tr>
@@ -1593,7 +1621,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>AQUPGk2RiyX</td>
       </tr>
       <tr>
@@ -1602,7 +1630,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>WcF7wOPcINj</td>
       </tr>
       <tr>
@@ -1611,7 +1639,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>Dy0ypgU2HJb</td>
       </tr>
       <tr>
@@ -1620,7 +1648,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>goRIAhBdWI8</td>
       </tr>
       <tr>
@@ -1629,7 +1657,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>Ga3wBXN0Mtd</td>
       </tr>
       <tr>
@@ -1665,7 +1693,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-05-22</td>
+        <td>2020-06-25</td>
         <td>GZYHbHjsf12</td>
       </tr>
       <tr>
@@ -1674,7 +1702,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-05-22</td>
+        <td>2020-06-25</td>
         <td>nRbutMsw93F</td>
       </tr>
       <tr>
@@ -1701,7 +1729,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-22</td>
+        <td>2020-06-25</td>
         <td>TrGi5iJmFFm</td>
       </tr>
       <tr>
@@ -1710,7 +1738,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-22</td>
+        <td>2020-06-25</td>
         <td>e9tXCLfhv63</td>
       </tr>
       <tr>
@@ -1719,7 +1747,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>IjDJnGx9ltW</td>
       </tr>
       <tr>
@@ -1728,7 +1756,7 @@
         <td></td>
         <td> </td>
         <td>ENROLLMENT</td>
-        <td>2020-04-28</td>
+        <td>2020-06-25</td>
         <td>sRMkfFBN5C9</td>
       </tr>
       <tr>
@@ -1944,7 +1972,7 @@
         <td></td>
         <td>RR/MDR-TB cases started on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>K9xltx7wXIb</td>
       </tr>
       <tr>
@@ -1953,7 +1981,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>loeESUTz5DN</td>
       </tr>
       <tr>
@@ -1962,7 +1990,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen - Treatment failed</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>bLPtxJ52Xjw</td>
       </tr>
       <tr>
@@ -1971,7 +1999,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen - Died</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>TylI5dxJdUl</td>
       </tr>
       <tr>
@@ -1980,7 +2008,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen - Lost to follow-up</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>bxca3bJItoQ</td>
       </tr>
       <tr>
@@ -1989,7 +2017,7 @@
         <td></td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen - Not evaluated</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>clCbQFGkMYA</td>
       </tr>
       <tr>
@@ -1998,7 +2026,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>rEH6P6rDI70</td>
       </tr>
       <tr>
@@ -2007,7 +2035,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>z8pnOFkWAYl</td>
       </tr>
       <tr>
@@ -2016,7 +2044,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen - Treatment failed</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>uyVkItSis8Z</td>
       </tr>
       <tr>
@@ -2025,7 +2053,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen - Died</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>DVc4NJAGzGB</td>
       </tr>
       <tr>
@@ -2034,7 +2062,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen - Lost to follow-up</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>nAos1lanETk</td>
       </tr>
       <tr>
@@ -2043,7 +2071,7 @@
         <td></td>
         <td>Confirmed XDR-TB cases on second-line treatment regimen - Not evaluated</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>p3VRjjM3ZM7</td>
       </tr>
       <tr>
@@ -2322,7 +2350,7 @@
         <td></td>
         <td>Confirmed RR-TB cases on second-line treatment regimen, including MDR and XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-04-15</td>
+        <td>2020-06-25</td>
         <td>sVs2yFYJDGW</td>
       </tr>
       <tr>
@@ -2331,7 +2359,7 @@
         <td></td>
         <td>Confirmed RR-TB cases on second-line treatment regimen, including MDR and XDR cases, started on 2nd line treatment.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>Ep3B5uisiII</td>
       </tr>
       <tr>
@@ -2342,6 +2370,15 @@
         <td>ENROLLMENT</td>
         <td>2020-05-28</td>
         <td>HdGEwlnAt84</td>
+      </tr>
+      <tr>
+        <td>DELETE_New and relapse DS-TB cases registered in the previous year - Cured or treatment completed</td>
+        <td>New and relapse DS-TB: Cured/Completed</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-25</td>
+        <td>ybDHKrh7QC2</td>
       </tr>
       <tr>
         <td>DELETE_TB confirmed RR and MDR cases (excluding XDR)</td>
@@ -2360,6 +2397,105 @@
         <td>ENROLLMENT</td>
         <td>2020-05-02</td>
         <td>UC5A1tourVG</td>
+      </tr>
+      <tr>
+        <td>Lab-confirmed RR/MDR-TB</td>
+        <td>RR/MDR-TB lab-confirmed cases</td>
+        <td>TB_LAB_CONF_RRMDR</td>
+        <td>Confirmed RR/MDR-TB cases excluding XDR cases</td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-25</td>
+        <td>TsGkTLQxLYN</td>
+      </tr>
+      <tr>
+        <td>Lab-confirmed RR/MDR-TB started MDR treatment</td>
+        <td>RR/MDR-TB cases - MDR treatment</td>
+        <td>TB_LAB_CONF_RRMDR_TX</td>
+        <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases.</td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-25</td>
+        <td>NhdSPPqMQ6G</td>
+      </tr>
+      <tr>
+        <td>New and relapse cases (all TB forms)</td>
+        <td>TB - new and relapse case</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-23</td>
+        <td>UG8KMWTNHTA</td>
+      </tr>
+      <tr>
+        <td>New and relapse cases registered in the previous year</td>
+        <td>New and relapse TB</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>RTVZ6viHiST</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Completed</td>
+        <td>New and relapse DS-TB: Completed</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>MarJBwWbuX8</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Cured</td>
+        <td>New and relapse DS-TB: Cured</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>kI4SUMqwaSK</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Cured or treatment completed</td>
+        <td>New/ relapse DS-TB: Cured/Completed</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-25</td>
+        <td>wQWTOm3n7RC</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Died</td>
+        <td>New and relapse DS-TB: Died</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>St3jDtJRslC</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Failed</td>
+        <td>New and relapse DS-TB: Failed</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>gXdZvVlriyU</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Lost to follow-up</td>
+        <td>New and relapse DS-TB: Lost to follow-up</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>yGFpCtuXgQj</td>
+      </tr>
+      <tr>
+        <td>New and relapse DS-TB cases registered in the previous year - Not evaluated</td>
+        <td>New and relapse DS-TB: Not evaluated</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>z1J7ACEYJgy</td>
       </tr>
       <tr>
         <td>NOTCAPTURED_TB case - new - site unknown</td>
@@ -2405,6 +2541,15 @@
         <td>ENROLLMENT</td>
         <td>2020-03-24</td>
         <td>BuPYplhNCpH</td>
+      </tr>
+      <tr>
+        <td>Previously treated (including relapse) TB patients diagnosed without using a WHO recommended rapid diagnostic test</td>
+        <td>Tested w/o rapid diagnostic test</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-25</td>
+        <td>TnSBORHgIL2</td>
       </tr>
       <tr>
         <td>R_Months since enrollment</td>
@@ -2477,15 +2622,6 @@
         <td>ENROLLMENT</td>
         <td>2020-03-30</td>
         <td>ru1PamXNQhj</td>
-      </tr>
-      <tr>
-        <td>R_TB cases notified (total)</td>
-        <td>TB cases</td>
-        <td></td>
-        <td>All TB cases, i.e. all cases enrolled in the TB program except those that were denotified (i.e. "Not TB" indicated).</td>
-        <td>ENROLLMENT</td>
-        <td>2020-03-24</td>
-        <td>svi5rSf4zNR</td>
       </tr>
       <tr>
         <td>R_TB cases resistant to Isoniazid</td>
@@ -2659,15 +2795,6 @@
         <td>xSwVPpr49iJ</td>
       </tr>
       <tr>
-        <td>R_TB/HIV - HIV status result recorded (positive or negative)</td>
-        <td>HIV positive/negative recorded</td>
-        <td></td>
-        <td> </td>
-        <td>ENROLLMENT</td>
-        <td>2020-03-31</td>
-        <td>SzBkyKHWux0</td>
-      </tr>
-      <tr>
         <td>R_TB/HIV - HIV status unknown</td>
         <td>TB/HIV unknown</td>
         <td></td>
@@ -2693,15 +2820,6 @@
         <td>ENROLLMENT</td>
         <td>2020-05-22</td>
         <td>WlgSirxU9bG</td>
-      </tr>
-      <tr>
-        <td>TB - Patients tested for susceptibility to rifampicin</td>
-        <td>Tested for susceptibility to rifampicin</td>
-        <td></td>
-        <td> </td>
-        <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
-        <td>HMxJoOFyaC6</td>
       </tr>
       <tr>
         <td>TB case - previously treated - pulmonary, bacteriologically confirmed</td>
@@ -2731,6 +2849,15 @@
         <td>wIWezCzFIWx</td>
       </tr>
       <tr>
+        <td>TB cases notified (total)</td>
+        <td>TB cases</td>
+        <td></td>
+        <td>All TB cases, i.e. all cases enrolled in the TB program except those that were denotified (i.e. "Not TB" indicated).</td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-19</td>
+        <td>svi5rSf4zNR</td>
+      </tr>
+      <tr>
         <td>TB cases with valid test result for rifampicin</td>
         <td>TB cases with valid rifampicin test</td>
         <td></td>
@@ -2745,7 +2872,7 @@
         <td></td>
         <td>TB cases resistant to at least rifampicin, but not isoniazid, i.e. excluding MDR and XDR cases</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-01</td>
+        <td>2020-06-25</td>
         <td>jqPP4x1pJP0</td>
       </tr>
       <tr>
@@ -2756,6 +2883,15 @@
         <td>ENROLLMENT</td>
         <td>2020-05-06</td>
         <td>RIuJAIU6Ke9</td>
+      </tr>
+      <tr>
+        <td>TB LL - Patients with unknown HIV Status</td>
+        <td>LL - unknown HIV Status</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-18</td>
+        <td>qZH8m6Lr0Hq</td>
       </tr>
       <tr>
         <td>TB new cases confirmed by Xpert/Xpert Ultra</td>
@@ -2821,12 +2957,30 @@
         <td>fW00N22cQKu</td>
       </tr>
       <tr>
+        <td>TB/HIV - positive</td>
+        <td>TB/HIV - positive</td>
+        <td>TB_HIV_POS</td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-23</td>
+        <td>MjW9Kd1tdR6</td>
+      </tr>
+      <tr>
+        <td>TB/HIV - tested</td>
+        <td>HIV positive/negative recorded</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-23</td>
+        <td>SzBkyKHWux0</td>
+      </tr>
+      <tr>
         <td>TB_AGG - Laboratory confirmed MDR-TB cases (excluding XDR)</td>
         <td>MDR-TB cases (excl XDR)</td>
         <td>TB_CONF_MDR</td>
         <td>MDR-TB cases. Cases resistant to at least rifampicin and isoniazid, but not both fluroquinolones and second-line injectables (excluding streptomycin) i.e. excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>rp8sBCRlPXK</td>
       </tr>
       <tr>
@@ -2835,7 +2989,7 @@
         <td>TB_CONF_RRMDR</td>
         <td>Confirmed RR/MDR-TB cases excluding XDR cases</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>pkN8Etipkfm</td>
       </tr>
       <tr>
@@ -3051,7 +3205,7 @@
         <td>TB_MDR_COH</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>yVo8pfW8opl</td>
       </tr>
       <tr>
@@ -3060,7 +3214,7 @@
         <td>TB_HIVMDR_COH</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>WXGJbirp6DL</td>
       </tr>
       <tr>
@@ -3069,7 +3223,7 @@
         <td>TB_XDR_COH</td>
         <td>TB cases resistant to at least rifampicin, isoniazid, fluoroquinolones and second-line injectables (excluding Streptomycin), that are on 2nd line regimen</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>zgjfcJiBlED</td>
       </tr>
       <tr>
@@ -3105,7 +3259,7 @@
         <td>TB_MDR_CUR</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, that are cured.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>Z7r9H312QOu</td>
       </tr>
       <tr>
@@ -3114,7 +3268,7 @@
         <td>TB_HIVMDR_CUR</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, that are cured.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>ZeSCOQzujFZ</td>
       </tr>
       <tr>
@@ -3123,7 +3277,7 @@
         <td>TB_XDR_CUR</td>
         <td>XDR-TB cases on 2nd line regimen that are cured.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>oPnDPdsC9Ic</td>
       </tr>
       <tr>
@@ -3168,7 +3322,7 @@
         <td>TB_MDR_DIED</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, that died.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>tRlRFI5clem</td>
       </tr>
       <tr>
@@ -3177,7 +3331,7 @@
         <td>TB_HIVMDR_DIED</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, that died</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>lXNyCenjXnr</td>
       </tr>
       <tr>
@@ -3186,7 +3340,7 @@
         <td>TB_XDR_DIED</td>
         <td>XDR-TB cases on 2nd line regimen that tied.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>NRdnhrWhU5x</td>
       </tr>
       <tr>
@@ -3231,7 +3385,7 @@
         <td>TB_MDR_LOST</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, that are lost to follow-up.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>WR5MkUOzYQx</td>
       </tr>
       <tr>
@@ -3240,7 +3394,7 @@
         <td>TB_HIVMDR_LOST</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, that are lost to follow-up</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>KgPvXVYytRH</td>
       </tr>
       <tr>
@@ -3249,7 +3403,7 @@
         <td>TB_XDR_LOST</td>
         <td>XDR-TB cases on 2nd line regimen that are lost to follow-up.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>aRIhTkvSCDu</td>
       </tr>
       <tr>
@@ -3294,7 +3448,7 @@
         <td>TB_MDR_NEVAL</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, that are not evaluated.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>AMBYD2z0chD</td>
       </tr>
       <tr>
@@ -3303,7 +3457,7 @@
         <td>TB_HIVMDR_NEVAL</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, that are not evaluated</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>cQKLW4zJWY7</td>
       </tr>
       <tr>
@@ -3312,7 +3466,7 @@
         <td>TB_XDR_NEVAL</td>
         <td>XDR-TB cases on 2nd line regimen that are not evaluated.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>YsxMI4Dv7s7</td>
       </tr>
       <tr>
@@ -3357,7 +3511,7 @@
         <td>TB_MDR_CMPLT</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, that completed treatment.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>oYKZO6PawO4</td>
       </tr>
       <tr>
@@ -3366,7 +3520,7 @@
         <td>TB_HIVMDR_CMPLT</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, that complete treatment.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>ZkenguAQ0U6</td>
       </tr>
       <tr>
@@ -3375,7 +3529,7 @@
         <td>TB_XDR_CMPLT</td>
         <td>XDR-TB cases on 2nd line regimen that complete treatment.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>vuG9jUefhvX</td>
       </tr>
       <tr>
@@ -3420,7 +3574,7 @@
         <td>TB_MDR_FAIL</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases, where treatment failed.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>S1QUkIjBtRh</td>
       </tr>
       <tr>
@@ -3429,7 +3583,7 @@
         <td>TB_HIVMDR_FAIL</td>
         <td>Confirmed RR/MDR-TB cases that are HIV positive, on second-line treatment regimen, excluding XDR cases, where treatment failed.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>QC5QxnAGu9D</td>
       </tr>
       <tr>
@@ -3438,7 +3592,7 @@
         <td>TB_XDR_FAIL</td>
         <td>XDR-TB cases on 2nd line regimen where treatment failed.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-13</td>
+        <td>2020-06-25</td>
         <td>tKlafE4iYmF</td>
       </tr>
       <tr>
@@ -3465,7 +3619,7 @@
         <td>TB_CONF_RRMDR_TX</td>
         <td>Confirmed RR/MDR-TB cases on second-line treatment regimen, excluding XDR cases.</td>
         <td>ENROLLMENT</td>
-        <td>2020-05-02</td>
+        <td>2020-06-25</td>
         <td>vlzsn2ahiPt</td>
       </tr>
       <tr>
@@ -3620,6 +3774,42 @@
         <td>ENROLLMENT</td>
         <td>2020-05-13</td>
         <td>bxCmHHPPzDQ</td>
+      </tr>
+      <tr>
+        <td>TEST_New and relapse DS-TB cases registered in the previous year - Cured or treatment completed</td>
+        <td>TEST_New and relapse DS-TB: Cured/Completed</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>fPCKWuH92La</td>
+      </tr>
+      <tr>
+        <td>TEST_Treatment Initiation Delay</td>
+        <td>Treatment Initiation Delay</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-19</td>
+        <td>Usptyey77KX</td>
+      </tr>
+      <tr>
+        <td>TEST_YEARS_BETWEEN_New and relapse cases registered in the previous year</td>
+        <td>TEST_New and relapse TB</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-24</td>
+        <td>BYSxSzsrjLD</td>
+      </tr>
+      <tr>
+        <td>Tested for RR-TB</td>
+        <td>Tested for susceptibility to rifampicin</td>
+        <td></td>
+        <td> </td>
+        <td>ENROLLMENT</td>
+        <td>2020-06-26</td>
+        <td>HMxJoOFyaC6</td>
       </tr>
     </table>
     <h4 id="programRules">Program Rules</h4>
@@ -4409,6 +4599,18 @@
         <td>aIbtD3KEYiR</td>
       </tr>
       <tr>
+        <td>Display Outcome definition "Died" if case not on Treatment</td>
+        <td>Display Outcome definition "Died" if case not on Treatment</td>
+        <td>2020-06-19</td>
+        <td>uhGVwiRYlHq</td>
+      </tr>
+      <tr>
+        <td>Display Outcome definition "Lost to follow-up" if case is not on treatment</td>
+        <td>Display utcome definition "Lost to follow-up" if case is not on treatment</td>
+        <td>2020-06-19</td>
+        <td>b5h61KtaHyj</td>
+      </tr>
+      <tr>
         <td>Display reminder to provide Laboratory Results</td>
         <td>Display reminder to provide Laboratory Results</td>
         <td>2020-06-15</td>
@@ -4453,19 +4655,19 @@
       <tr>
         <td>HIV: Hide ART start date unless ART is started</td>
         <td>Hide ART start date unless ART is started</td>
-        <td>2020-05-13</td>
+        <td>2020-06-23</td>
         <td>iaew36EWn8e</td>
       </tr>
       <tr>
         <td>HIV: Hide CPT start date unless CPT is started</td>
         <td>undefined</td>
-        <td>2020-05-13</td>
+        <td>2020-06-23</td>
         <td>V584Z7tOaXj</td>
       </tr>
       <tr>
         <td>HIV: hide HIV Number, ART and CPT unless positive</td>
         <td>Hide the fields related to HIV number ART and CPT unless the person is HIV positive</td>
-        <td>2020-05-13</td>
+        <td>2020-06-23</td>
         <td>Meja9tgN8Fj</td>
       </tr>
       <tr>
@@ -5116,7 +5318,7 @@
       <tr>
         <td>Outcome: prevent selection of "cured" if clinically diagnosed</td>
         <td>Prevent selection of "cured" as treatment outcome if the patient is clinically diagnosed</td>
-        <td>2020-05-19</td>
+        <td>2020-06-15</td>
         <td>UOJC4yC2aoj</td>
       </tr>
       <tr>
@@ -5132,10 +5334,34 @@
         <td>Y8WFkcBC4lf</td>
       </tr>
       <tr>
+        <td>TB Registration - Assign value "Denotified Case" to patient status</td>
+        <td>TB Registration - Assign value "Denotified case" to patient status</td>
+        <td>2020-06-23</td>
+        <td>pv85CHg2psm</td>
+      </tr>
+      <tr>
+        <td>TB Registration - Assign value "TB Case" to patient status</td>
+        <td>TB Registration - Assign value "Denotified case" to patient status</td>
+        <td>2020-06-23</td>
+        <td>W903jnuR9DB</td>
+      </tr>
+      <tr>
+        <td>TB Registration: Hide TB Status Section</td>
+        <td>Hide TB Status Section</td>
+        <td>2020-06-26</td>
+        <td>QbwSqlY4gGx</td>
+      </tr>
+      <tr>
         <td>Treatment : set treatment start date</td>
         <td>Assign treatment start date when treatment regimen has been selected and there was no previous regimen, or if a new regimen is selected AND the previous treatment start date is different from the current.</td>
         <td>2020-05-19</td>
         <td>WqIL99ateGS</td>
+      </tr>
+      <tr>
+        <td>Treatment: Assign "No value" to delay in days</td>
+        <td>Assign no value to delay in days</td>
+        <td>2020-06-19</td>
+        <td>VQDCodU4MmB</td>
       </tr>
       <tr>
         <td>Treatment: assign first line treatment start date from previous event</td>
@@ -5162,6 +5388,18 @@
         <td>CoT3CKSvJba</td>
       </tr>
       <tr>
+        <td>Treatment: Calculate Treatment Initiation delay in days (first treatment event)</td>
+        <td>Assign delay in days between Treatment Initiation date of diagnosis</td>
+        <td>2020-06-19</td>
+        <td>KN1yc4MV3P9</td>
+      </tr>
+      <tr>
+        <td>Treatment: Calculate Treatment Initiation delay in days (second treatment event)</td>
+        <td>Assign delay in days between Treatment Initiation date of diagnosis</td>
+        <td>2020-06-19</td>
+        <td>jEKqEElMOqZ</td>
+      </tr>
+      <tr>
         <td>Treatment: deassign first line treatment start date</td>
         <td>undefined</td>
         <td>2020-02-11</td>
@@ -5172,6 +5410,12 @@
         <td>undefined</td>
         <td>2020-06-09</td>
         <td>uv5FPnv7BLa</td>
+      </tr>
+      <tr>
+        <td>Treatment: Display Treatment Initiation delay in days</td>
+        <td>Display delay in days between Treatment Initiation date of diagnosis</td>
+        <td>2020-06-19</td>
+        <td>NXT3pzrG6qe</td>
       </tr>
       <tr>
         <td>Treatment: drug resistance detected, but case is registered on first-line</td>
@@ -5262,67 +5506,67 @@
       </tr>
       <tr>
         <td>Address</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>jsDpO8qknx3</td>
         <td>VCtm2pySeEV</td>
       </tr>
       <tr>
         <td>Administrative Area of Residence</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>KwYTprVNXJP</td>
         <td>ljHL8NnSEAD</td>
       </tr>
       <tr>
         <td>Date of birth (age)</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>EcXmoNn84AM</td>
         <td>mAWcalQYYyk</td>
       </tr>
       <tr>
         <td>Date of birth is estimated</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>UL8nsHjf333</td>
         <td>Z1rLc1rVHK8</td>
       </tr>
       <tr>
         <td>First name</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>RGggZsUAgKg</td>
         <td>TfdH5KvFmMy</td>
       </tr>
       <tr>
         <td>Foreign-born</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>JYZMYTu5OwS</td>
         <td>xdRQzKcARGt</td>
       </tr>
       <tr>
         <td>Gender</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>NL0A0PV9OKc</td>
         <td>CklPZdOd6H1</td>
       </tr>
       <tr>
         <td>Last name</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>aQ9uwwF98rj</td>
         <td>aW66s2QSosT</td>
       </tr>
       <tr>
         <td>Mobile phone number</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>I74MBNn3W3t</td>
         <td>ciCR6BBvIT4</td>
       </tr>
       <tr>
         <td>National ID</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>WGAYdyLvlHd</td>
         <td>Ewi7FUfcHAD</td>
       </tr>
       <tr>
         <td>TB Registration Number</td>
-        <td>2020-06-10</td>
+        <td>2020-06-19</td>
         <td>ngmTjpcWtTZ</td>
         <td>ntelZthDPpR</td>
       </tr>
@@ -5391,15 +5635,6 @@
         <td>default</td>
         <td>2020-05-28</td>
         <td>QDa04y5c0Bf</td>
-      </tr>
-      <tr>
-        <td>DELETE_Did not start TB treatment</td>
-        <td>No TB treatment</td>
-        <td></td>
-        <td></td>
-        <td>default</td>
-        <td>2020-05-19</td>
-        <td>S0Q8pFnzUMv</td>
       </tr>
       <tr>
         <td>HIV Infection</td>
@@ -6149,6 +6384,15 @@
         <td>Y4W9L0ROIts</td>
       </tr>
       <tr>
+        <td>TB case - Denotified?</td>
+        <td>Patient status</td>
+        <td></td>
+        <td>System data element used for indicators</td>
+        <td>default</td>
+        <td>2020-06-22</td>
+        <td>dQUSq6y4B03</td>
+      </tr>
+      <tr>
         <td>TB DRS LAB: Culture in Liquid Media (e.g. MGIT)</td>
         <td>Culture in Liquid Media (e.g. MGIT)</td>
         <td></td>
@@ -6662,6 +6906,15 @@
         <td>cMiU42qZMbL</td>
       </tr>
       <tr>
+        <td>TB: Treatment Initiation delay (days)</td>
+        <td>Treatment initiation delay</td>
+        <td></td>
+        <td>Number of days between date of diagnosis and treatment initiation date</td>
+        <td>default</td>
+        <td>2020-06-19</td>
+        <td>B7uqbrRKr2T</td>
+      </tr>
+      <tr>
         <td>TB: Treatment Outcome delay (weeks)</td>
         <td>Treatment outcome delay</td>
         <td></td>
@@ -6943,7 +7196,7 @@
       <tr>
         <td>TB Case Surveillance</td>
         <td>TB Case Surveillance</td>
-        <td>2020-05-20</td>
+        <td>2020-06-19</td>
         <td>K97n4JS39z9</td>
       </tr>
     </table>
@@ -7335,6 +7588,10 @@
       </tr>
       <tr>
         <td>TB Case Surveillance</td>
+        <td>TB: Treatment Initiation delay (days)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance</td>
         <td>Treatment outcome</td>
       </tr>
       <tr>
@@ -7668,7 +7925,7 @@
       </tr>
       <tr>
         <td>default</td>
-        <td>2020-03-18</td>
+        <td>2020-06-26</td>
         <td>bjDvmb4bfuf</td>
         <td>default</td>
       </tr>
@@ -7683,7 +7940,7 @@
       </tr>
       <tr>
         <td>default</td>
-        <td>2020-06-10</td>
+        <td>2020-06-26</td>
         <td>GLevLNI9wkl</td>
         <td>default</td>
       </tr>
@@ -7697,7 +7954,7 @@
       </tr>
       <tr>
         <td>default</td>
-        <td>2020-05-07</td>
+        <td>2020-06-26</td>
         <td>xYerKDKCefk</td>
       </tr>
     </table>
@@ -7710,7 +7967,7 @@
       </tr>
       <tr>
         <td>default</td>
-        <td>2020-05-07</td>
+        <td>2020-06-26</td>
         <td>HllvX50cXC0</td>
       </tr>
     </table>
@@ -7736,7 +7993,7 @@
       </tr>
       <tr>
         <td>Sex</td>
-        <td>2020-06-08</td>
+        <td>2020-06-26</td>
         <td>hiQ3QFheQ3O</td>
         <td>Male; Female</td>
       </tr>
@@ -7808,7 +8065,7 @@
       </tr>
       <tr>
         <td>Yes/No/Unknown</td>
-        <td>2020-06-08</td>
+        <td>2020-06-26</td>
         <td>bLA3AqDKdwx</td>
         <td>Yes; No; Unknown</td>
       </tr>
@@ -7909,7 +8166,7 @@
         <td>Sex</td>
         <td>Female</td>
         <td>FEMALE</td>
-        <td>2020-06-08</td>
+        <td>2020-06-23</td>
         <td>AZK4rjJCss5</td>
       </tr>
       <tr>
@@ -7951,7 +8208,7 @@
         <td>Sex</td>
         <td>Male</td>
         <td>MALE</td>
-        <td>2020-06-08</td>
+        <td>2020-06-23</td>
         <td>UrUdMteQzlT</td>
       </tr>
       <tr>
@@ -8296,7 +8553,7 @@
         <td>confirmed XDR-TB cases</td>
         <td>TB cases resistant to rifampicin with valid DST result for fluoroquinolone and any second line injectible (except streptomycins)</td>
         <td>Percentage</td>
-        <td>2019-12-04</td>
+        <td>2020-06-25</td>
         <td>yaNVrBHdZAU</td>
       </tr>
       <tr>
@@ -8342,6 +8599,17 @@
         <td>Percentage</td>
         <td>2019-08-09</td>
         <td>ernBS52PLuO</td>
+      </tr>
+      <tr>
+        <td>TB - Completed (New and relapse DS-TB) (%)</td>
+        <td>Completed (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Completed (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>bQNk7XfCVaT</td>
       </tr>
       <tr>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor alcohol (%)</td>
@@ -8399,6 +8667,28 @@
         <td>WJA1KKbptmR</td>
       </tr>
       <tr>
+        <td>TB - Cured (New and relapse DS-TB) (%)</td>
+        <td>Cured (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Cured (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>Vx27NM3lvXP</td>
+      </tr>
+      <tr>
+        <td>TB - Died (New and relapse DS-TB) (%)</td>
+        <td>Died (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Died (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>hRnrxBIhyDF</td>
+      </tr>
+      <tr>
         <td>TB - DST coverage for TB patients (%)</td>
         <td>TB DST coverage (%)</td>
         <td></td>
@@ -8408,6 +8698,17 @@
         <td>Percentage</td>
         <td>2020-05-06</td>
         <td>eLIiulCvyEz</td>
+      </tr>
+      <tr>
+        <td>TB - Failed (New and relapse DS-TB) (%)</td>
+        <td>Failed (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Failed (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>RFHqjdWbiF0</td>
       </tr>
       <tr>
         <td>TB - HIV positive notified TB cases confirmed by Xpert (%)</td>
@@ -8421,6 +8722,17 @@
         <td>ne8BLQ5tLHQ</td>
       </tr>
       <tr>
+        <td>TB - Lost to follow-up (New and relapse DS-TB) (%)</td>
+        <td>Lost-to-follow-up (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Lost to follow-up (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>COt9AAFSa8i</td>
+      </tr>
+      <tr>
         <td>TB - New notified TB cases confirmed by Xpert (%)</td>
         <td>New cases confirmed by Xpert (%)</td>
         <td></td>
@@ -8430,6 +8742,17 @@
         <td>Percentage</td>
         <td>2019-08-12</td>
         <td>OrofJdjYWD5</td>
+      </tr>
+      <tr>
+        <td>TB - Not evaluated (New and relapse DS-TB) (%)</td>
+        <td>Not evaluated (New and relapse DS-TB) (%)</td>
+        <td></td>
+        <td></td>
+        <td>Not evaluated (DS-TB)</td>
+        <td>Total new and relapse registered</td>
+        <td>Percentage</td>
+        <td>2020-06-24</td>
+        <td>yomoDu4G8da</td>
       </tr>
       <tr>
         <td>TB - Notified smear negative TB cases confirmed by Xpert (%)</td>
@@ -8564,6 +8887,17 @@
         <td>wHad4MToV4c</td>
       </tr>
       <tr>
+        <td>TB - Treatment success rate for new and relapse DS-TB (%)</td>
+        <td>Cured/completed DS-TB (%)</td>
+        <td></td>
+        <td></td>
+        <td>New and relapse DS-TB: cured and completed</td>
+        <td>New and relapse cases registered</td>
+        <td>Percentage</td>
+        <td>2020-06-25</td>
+        <td>VsOw9l8nTib</td>
+      </tr>
+      <tr>
         <td>TB - Treatment success with risk factor alcohol (%)</td>
         <td>Treatment success with risk factor alcohol (%)</td>
         <td></td>
@@ -8617,9 +8951,9 @@
         <th>UID</th>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td></td>
-        <td>2020-05-06</td>
+        <td>2020-06-24</td>
         <td>tAKC8OODCJl</td>
       </tr>
     </table>
@@ -8630,159 +8964,187 @@
         <th>Indicator</th>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - TB cases detected by Xpert/Xpert Ultra MTB/RIF that are rifampicin resistant (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Cured (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Bacteriologically confirmed previously treated cases with DST test for rifampicin (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - TB cases notified that start on treatment (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor miner (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - HIV positive notified TB cases confirmed by Xpert (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Rifampicin susceptible TB cases initiated on first line regimen (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Not evaluated (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success in HIV positive TB cases (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Treatment success rate for new and relapse DS-TB (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Bacteriologically confirmed cases with DST test for rifampicin (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor diabetes (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success with risk factor undernourishment (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - New notified TB cases confirmed by Xpert (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Bacteriologically confirmed new cases with DST test for rifampicin (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Notified smear negative TB cases confirmed by Xpert (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed TB cases notified confirmed by Xpert MTB (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed TB cases notified confirmed by sputum smear (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Lost to follow-up (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Rifimpacin resistant cases with DST results for fluoroquinolones and second line injectables (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Outcomes: Cured RR/MDR treated cases (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success in those with any social risk factors (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Notified smear positive TB cases confirmed by Xpert/Xpert Ultra (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed TB cases notified confirmed by culture (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>R_TB - TB cases with risk factor diabetes (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Bacteriologically confirmed retreatment cases with valid test result for rifampicin resistance (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Died (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Previously treated TB cases detected by Xpert/Xpert Ultra MTB/RIF that are rifampicin resistant (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor prison (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor alcohol (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>R_TB - TB cases with risk factor smoking (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Completed (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>R_TB - TB cases with risk factor undernourishment (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success with risk factor smoking (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - TB cases notified that did not start on treatment and died (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - New TB cases detected by Xpert/Xpert Ultra MTB that are rifampicin resistant (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Confirmed RR/MDR-TB cases with risk factor smoking (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Previously treated notified TB cases confirmed by Xpert/Xpert Ultra (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - XDR Tested and confirmed (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success with risk factor alcohol (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - TB cases notified that did not start on treatment lost to follow-up (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
+        <td>TB - Failed (New and relapse DS-TB) (%)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>R_TB - TB cases with risk factor alcohol (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - Treatment success with risk factor diabetes (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - DST coverage for TB patients (%)</td>
       </tr>
       <tr>
-        <td>TB (from case-based)</td>
+        <td>TB Case Surveillance (Tracker)</td>
         <td>TB - RR-/MDR-TB confirmed cases enrolled on MDR-TB treatment (%)</td>
       </tr>
     </table>
@@ -8797,7 +9159,7 @@
       <tr>
         <td>Percentage</td>
         <td>100</td>
-        <td>2020-06-08</td>
+        <td>2020-06-26</td>
         <td>e1jRVY5Mcq0</td>
       </tr>
     </table>
@@ -8814,6 +9176,12 @@
         <td></td>
         <td>2020-05-06</td>
         <td>ByComvoqyPP</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td></td>
+        <td>2020-06-25</td>
+        <td>GKaacrZF7iJ</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
@@ -8846,11 +9214,11 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Outcome: treatment completed - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
+        <td>TB_AGG - New and relapse TB cases - 25-34 years female</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - New and relapse TB cases - 25-34 years female</td>
+        <td>TB_AGG - Outcome: treatment completed - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
@@ -8886,6 +9254,10 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
+        <td>Tested for RR-TB</td>
+      </tr>
+      <tr>
+        <td>TB (For Aggregate Reporting)</td>
         <td>TB_AGG - Outcome: treatment completed - clinically diagnosed new and relapse cases</td>
       </tr>
       <tr>
@@ -8894,11 +9266,11 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Outcome: lost to follow-up - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
+        <td>TB_AGG - Outcome: cured - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Outcome: cured - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
+        <td>TB_AGG - Outcome: lost to follow-up - confirmed RR and MDR HIV-positive cases on second-line treatment regimen (excluding XDR)</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
@@ -8966,11 +9338,11 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Outcome: death - confirmed XDR cases on second line regimen</td>
+        <td>TB_AGG - New and relapse TB cases - 65+ years female</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - New and relapse TB cases - 65+ years female</td>
+        <td>TB_AGG - Outcome: death - confirmed XDR cases on second line regimen</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
@@ -9046,11 +9418,11 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Outcome - confirmed XDR cases on second line regimen (cohort)</td>
+        <td>TB_AGG - New and relapse TB cases - 0-4 years female</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - New and relapse TB cases - 0-4 years female</td>
+        <td>TB_AGG - Outcome - confirmed XDR cases on second line regimen (cohort)</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
@@ -9086,10 +9458,6 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB_AGG - Laboratory confirmed MDR-TB cases (excluding XDR)</td>
-      </tr>
-      <tr>
-        <td>TB (For Aggregate Reporting)</td>
         <td>R_Months since enrollment</td>
       </tr>
       <tr>
@@ -9099,6 +9467,10 @@
       <tr>
         <td>TB (For Aggregate Reporting)</td>
         <td>TB_AGG - Previously treated pulmonary TB cases, clinically diagnosed</td>
+      </tr>
+      <tr>
+        <td>TB (For Aggregate Reporting)</td>
+        <td>TB_AGG - Laboratory confirmed MDR-TB cases (excluding XDR)</td>
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
@@ -9146,10 +9518,6 @@
       </tr>
       <tr>
         <td>TB (For Aggregate Reporting)</td>
-        <td>TB - Patients tested for susceptibility to rifampicin</td>
-      </tr>
-      <tr>
-        <td>TB (For Aggregate Reporting)</td>
         <td>TB_AGG - New and relapse TB cases - 45-54 years female</td>
       </tr>
       <tr>
@@ -9191,6 +9559,70 @@
       <tr>
         <td>TB (For Aggregate Reporting)</td>
         <td>TB_AGG - New and relapse TB cases - 5-14 years female</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse cases registered in the previous year</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>TB/HIV - positive</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>TB/HIV - tested</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Cured</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Died</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>Lab-confirmed RR/MDR-TB started MDR treatment</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Failed</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Completed</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse cases (all TB forms)</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>Tested for RR-TB</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>DELETE_New and relapse DS-TB cases registered in the previous year - Cured or treatment completed</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Not evaluated</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>New and relapse DS-TB cases registered in the previous year - Lost to follow-up</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>Previously treated (including relapse) TB patients diagnosed without using a WHO recommended rapid diagnostic test</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td> TB/HIV on ART</td>
+      </tr>
+      <tr>
+        <td>TB Case Surveillance (core)</td>
+        <td>Lab-confirmed RR/MDR-TB</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
@@ -9256,11 +9688,11 @@
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.29.03(a) - TB/HIV - Pulmonary TB cases, bacteriologically confirmed with test results for rifampicin - Resistant to rifampicin - HIV unknown</td>
+        <td>2.09.10 - TB case - New and relapse TB cases - 20-24 years female</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.09.10 - TB case - New and relapse TB cases - 20-24 years female</td>
+        <td>2.29.03(a) - TB/HIV - Pulmonary TB cases, bacteriologically confirmed with test results for rifampicin - Resistant to rifampicin - HIV unknown</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
@@ -9454,11 +9886,11 @@
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.30.01(a) - TB/Age - Pulmonary TB cases, bacteriologically confirmed with test results for rifampicin - Resistant to rifampicin - Age(0-14)</td>
+        <td>2.42.02 - TB Outcome - New and relapse TB cases registered in the previous year, 0-14 years, (bacteriologically confirmed or clinically diagnosed, pulmonary or extrapulmonary) - Cured or treatment completed</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.42.02 - TB Outcome - New and relapse TB cases registered in the previous year, 0-14 years, (bacteriologically confirmed or clinically diagnosed, pulmonary or extrapulmonary) - Cured or treatment completed</td>
+        <td>2.30.01(a) - TB/Age - Pulmonary TB cases, bacteriologically confirmed with test results for rifampicin - Resistant to rifampicin - Age(0-14)</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
@@ -9502,11 +9934,11 @@
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.31(ii) - TB test - Pulmonary RR/MDR TB cases, bacteriologically confirmed - resistant to any fluoroquinolone</td>
+        <td>2.40.04 - TB Outcome - New and relapse HIV-positive TB cases registered in the previous year (bacteriologically confirmed or clinically diagnosed, pulmonary or extrapulmonary) - Died</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
-        <td>2.40.04 - TB Outcome - New and relapse HIV-positive TB cases registered in the previous year (bacteriologically confirmed or clinically diagnosed, pulmonary or extrapulmonary) - Died</td>
+        <td>2.31(ii) - TB test - Pulmonary RR/MDR TB cases, bacteriologically confirmed - resistant to any fluoroquinolone</td>
       </tr>
       <tr>
         <td>TB Case Surveillance - GTB Report</td>
@@ -9593,6 +10025,256 @@
         <td>2.04 - TB case - Previously treated patients, excluding relapse cases (pulmonary or extrapulmonary, bacteriologically confirmed or clinically diagnosed)</td>
       </tr>
     </table>
+    <h2 id="dashboards">Dashboards</h2>
+    <h3>TB core indicators</h3>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Name:</th>
+        <td>TB core indicators</td>
+      </tr>
+      <tr>
+        <th>Last updated:</th>
+        <td>2020-06-24</td>
+      </tr>
+      <tr>
+        <th>UID:</th>
+        <td>TFr3hdGobbN</td>
+      </tr>
+    </table>
+    <h4>Dashboard items</h4>
+    <table>
+      <tr>
+        <th>Content/item type</th>
+        <th>Content name</th>
+        <th>Content UID</th>
+        <th>Last updated</th>
+        <th>Dashboard Item UID</th>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Treatment outcomes for DS-TB new and relapse (%)</td>
+        <td>bZ3BsrJ1lXH</td>
+        <td>2020-06-24</td>
+        <td>LGv7gNyRqZf</td>
+      </tr>
+      <tr>
+        <td>Map</td>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>gyz38GFUaf7</td>
+        <td>2020-06-24</td>
+        <td>ES2YF6VO6xV</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Treatment success rate for new and relapse DS-TB (%)</td>
+        <td>Z9P1vqpyOQC</td>
+        <td>2020-06-24</td>
+        <td>l4cePGpOtMs</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Cascade of care for RR/MDR-TB</td>
+        <td>wvZJ7I88BQf</td>
+        <td>2020-06-24</td>
+        <td>Yym4lPBxgV3</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>TB/HIV cascade of care</td>
+        <td>lYgjQOu3G2e</td>
+        <td>2020-06-24</td>
+        <td>yDxYB4UabGH</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>ruHUaT9geGr</td>
+        <td>2020-06-24</td>
+        <td>WTGWZmCX1Wx</td>
+      </tr>
+    </table>
+    <h3>TB TestReports</h3>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Name:</th>
+        <td>TB TestReports</td>
+      </tr>
+      <tr>
+        <th>Last updated:</th>
+        <td>2020-06-25</td>
+      </tr>
+      <tr>
+        <th>UID:</th>
+        <td>SZyUynAiGgM</td>
+      </tr>
+    </table>
+    <h4>Dashboard items</h4>
+    <table>
+      <tr>
+        <th>Content/item type</th>
+        <th>Content name</th>
+        <th>Content UID</th>
+        <th>Last updated</th>
+        <th>Dashboard Item UID</th>
+      </tr>
+      <tr>
+        <td>Event report</td>
+        <td>Delays in TB Treatment initiation</td>
+        <td>bd1eqZ3DeA4</td>
+        <td>2020-06-25</td>
+        <td>Fl5vtUKBEJT</td>
+      </tr>
+      <tr>
+        <td>Event report</td>
+        <td>TB patients with unknown HIV status</td>
+        <td>q4HUtieyl1s</td>
+        <td>2020-06-25</td>
+        <td>v9Jx3HNqpmi</td>
+      </tr>
+      <tr>
+        <td>Event report</td>
+        <td>List of patients with no Treatment Initiation Date</td>
+        <td>qmuoJ2ROwUb</td>
+        <td>2020-06-25</td>
+        <td>cCtA7jBYlk8</td>
+      </tr>
+      <tr>
+        <td>Event report</td>
+        <td>List of patients with no Outcome</td>
+        <td>bTvGzCZecxK</td>
+        <td>2020-06-25</td>
+        <td>wbASm5U5KZc</td>
+      </tr>
+      <tr>
+        <td>Event report</td>
+        <td>Overview of all patients - current year</td>
+        <td>wWwqzbkVF5G</td>
+        <td>2020-06-25</td>
+        <td>bW2PsggnaGu</td>
+      </tr>
+    </table>
+    <h2 id="charts">Charts</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Cascade of care for RR/MDR-TB</td>
+        <td>Cascade of care for RR/MDR-TB - current quarter</td>
+        <td>2020-06-25</td>
+        <td>wvZJ7I88BQf</td>
+      </tr>
+      <tr>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>TB case notifications (all cases, all forms) -current quarter</td>
+        <td>2020-06-19</td>
+        <td>ruHUaT9geGr</td>
+      </tr>
+      <tr>
+        <td>TB/HIV cascade of care</td>
+        <td>TB/HIV cascade of care - current quarter</td>
+        <td>2020-06-23</td>
+        <td>lYgjQOu3G2e</td>
+      </tr>
+      <tr>
+        <td>Treatment outcomes for DS-TB new and relapse (%)</td>
+        <td>Treatment outcomes for DS-TB new and relapse (%) - current quarter</td>
+        <td>2020-06-25</td>
+        <td>bZ3BsrJ1lXH</td>
+      </tr>
+      <tr>
+        <td>Treatment success rate for new and relapse DS-TB (%)</td>
+        <td>Treatment success rate for new and relapse DS-TB (%)</td>
+        <td>2020-06-24</td>
+        <td>Z9P1vqpyOQC</td>
+      </tr>
+    </table>
+    <h2 id="maps">Maps</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>TB case notifications (all cases, all forms) - current quarter</td>
+        <td>2020-06-24</td>
+        <td>gyz38GFUaf7</td>
+      </tr>
+    </table>
+    <h3>Map views</h3>
+    <table>
+      <tr>
+        <th>Parent map name</th>
+        <th>Parent map UID</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>gyz38GFUaf7</td>
+        <td>2020-06-24</td>
+        <td>a9BsC49Q5eN</td>
+      </tr>
+      <tr>
+        <td>TB case notifications (all cases, all forms)</td>
+        <td>gyz38GFUaf7</td>
+        <td>2020-06-24</td>
+        <td>AXsJzjPcckN</td>
+      </tr>
+    </table>
+    <h2 id="eventReports">Event reports</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Delays in TB Treatment initiation</td>
+        <td>Delays in TB Treatment initiation - this year, last five years</td>
+        <td>2020-06-25</td>
+        <td>bd1eqZ3DeA4</td>
+      </tr>
+      <tr>
+        <td>List of patients with no Outcome</td>
+        <td>List of patients with no Outcome</td>
+        <td>2020-05-22</td>
+        <td>bTvGzCZecxK</td>
+      </tr>
+      <tr>
+        <td>List of patients with no Treatment Initiation Date</td>
+        <td>List of patients with no Treatment Initiation Date</td>
+        <td>2020-05-22</td>
+        <td>qmuoJ2ROwUb</td>
+      </tr>
+      <tr>
+        <td>Overview of all patients - current year</td>
+        <td>Overview of all patients - current year</td>
+        <td>2020-05-22</td>
+        <td>wWwqzbkVF5G</td>
+      </tr>
+      <tr>
+        <td>TB patients with unknown HIV status</td>
+        <td>This is a list of all TB patients whose HIV infection status is unknown. Please review these patients and consider testing them for HIV or enter the data if the status is known.</td>
+        <td>2020-06-18</td>
+        <td>q4HUtieyl1s</td>
+      </tr>
+    </table>
     <h2 id="userGroups">User Groups</h2>
     <table>
       <tr>
@@ -9602,22 +10284,22 @@
       </tr>
       <tr>
         <td>TB access</td>
-        <td>2020-06-04</td>
+        <td>2020-06-25</td>
         <td>pyu2ZlNKbzQ</td>
       </tr>
       <tr>
         <td>TB admin</td>
-        <td>2020-06-11</td>
+        <td>2020-06-24</td>
         <td>Ubzlyfqm1gO</td>
       </tr>
       <tr>
         <td>TB data capture</td>
-        <td>2020-06-11</td>
+        <td>2020-06-25</td>
         <td>UKWx4jJcrKt</td>
       </tr>
       <tr>
         <td>TB lab data capture</td>
-        <td>2020-06-11</td>
+        <td>2020-06-24</td>
         <td>zBZXkRW0PJy</td>
       </tr>
     </table>
@@ -9630,7 +10312,7 @@
       </tr>
       <tr>
         <td>who</td>
-        <td>2020-06-08</td>
+        <td>2020-06-23</td>
         <td>vUeLeQMSwhN</td>
       </tr>
     </table>
