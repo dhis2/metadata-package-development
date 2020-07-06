@@ -30,8 +30,8 @@
           ],
           "userExport": false,
           "publicAccess": {
-            "metadata": "NONE",
-            "data": "NONE"
+            "metadata": "VIEW",
+            "data": "VIEW"
           }
         },
         "_type": "tracker", 
@@ -39,13 +39,21 @@
           "https://who-dev.dhis2.org/tracker_dev"
         ], 
         "_version": "1.0.0",
+        "dashboardIds": [
+          "JzHjN7ckYQ0",
+          "vHJr37SQiie",
+          "wvMQ7MWdBiZ",
+          "Uy1cjNuoJcJ",
+          "hltk73PwPCr"
+        ],
         "dataElementGroupIds": [
           "pGlRt4xB9rz"
         ],
         "exportIndicatorGroupsIds": [], 
         "indicatorGroupIds": [],
         "programIndicatorGroupIds": [
-          "KKvBWmeIsvN"
+          "KKvBWmeIsvN",
+          "s7DBTTX68Lk"
         ],
         "programIds": [
           "Xh88p1nyefp"
