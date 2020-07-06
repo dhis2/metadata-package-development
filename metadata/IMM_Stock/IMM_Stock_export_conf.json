@@ -7,11 +7,11 @@
       "_prefix": "[CONFIG]",
       "_ownership": {
         "modeOwner": "OVERWRITE",
-        "modeLastUpdated": "REMOVE",
+        "modeLastUpdated": "IGNORE",
         "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "JVenB84tY1X",
@@ -39,11 +39,16 @@
         "https://who.dhis2.org/tracker_epi"
       ],
       "_version": "1.0.0",
+      "dashboardIds": [
+        "NsU70gI3mNh"
+      ],
       "exportIndicatorGroupsIds": [
-        "IratxVbStzY"
+        "IratxVbStzY",
+        "zcQRGoQMQeC"
       ],
       "indicatorGroupIds": [
-        "IratxVbStzY"
+        "IratxVbStzY",
+        "zcQRGoQMQeC"
       ],
       "programIds": [
         "GCg2ljFLRFN"
