@@ -1,8 +1,8 @@
 {
   "export": [
     {
-      "_basePath": "./IMM/", 
-      "_code": "IMM", 
+      "_basePath": "./IMM/",
+      "_code": "IMM",
       "_name": "Immunization",
       "_prefix": "[CONFIG]",
       "_ownership": {
@@ -24,14 +24,14 @@
             "data": "NONE"
           },
           {
-          "id": "T6DZORCrELb",
-          "metadata": "EDIT",
-          "data": "EDIT"
+            "id": "T6DZORCrELb",
+            "metadata": "EDIT",
+            "data": "EDIT"
           },
           {
-          "id": "JVenB84tY1X",
-          "metadata": "VIEW",
-          "data": "EDIT"
+            "id": "JVenB84tY1X",
+            "metadata": "VIEW",
+            "data": "EDIT"
           },
           {
             "id": "J3mFUNTreYY",
@@ -43,7 +43,7 @@
             "metadata": "VIEW",
             "data": "EDIT"
           }
-          ],      
+        ],
         "groupExport": true,
         "userMode": "REMOVE",
         "users": [
@@ -59,14 +59,16 @@
           "data": "NONE"
         }
       },
-      "_type": "tracker", 
+      "_type": "tracker",
       "_url": [
         "https://who-dev.dhis2.org/tracker_dev"
-      ], 
+      ],
       "_version": "1.0.0",
       "customObjects": [
         {
-          "objectIds": ["wOcoDe5zTRJ"],
+          "objectIds": [
+            "wOcoDe5zTRJ"
+          ],
           "objectType": "trackedEntityAttributes"
         }
       ],
@@ -76,7 +78,7 @@
       ],
       "exportIndicatorGroupsIds": [
         "hwOnv7hS8qk"
-      ], 
+      ],
       "indicatorGroupIds": [
         "hwOnv7hS8qk"
       ],
