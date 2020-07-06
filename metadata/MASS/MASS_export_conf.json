@@ -1,0 +1,52 @@
+{
+    "export": [
+      {
+        "_basePath": "./MASS/", 
+        "_code": "MASS", 
+        "_name": "Mass campaign",
+        "_prefix": "[CONFIG]",
+        "_ownership": {
+          "modeOwner": "OVERWRITE",
+          "modeLastUpdated": "REMOVE",
+          "ownerId": "vUeLeQMSwhN"
+        },
+        "_sharing": {
+          "groupMode": "OVERWRITE",
+          "groups": [
+            {
+              "id": "JVenB84tY1X",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "groupExport": true,
+          "userMode": "REMOVE",
+          "users": [
+            {
+              "id": "vUeLeQMSwhN",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "userExport": false,
+          "publicAccess": {
+            "metadata": "NONE",
+            "data": "NONE"
+          }
+        },
+        "_type": "tracker", 
+        "_url": [
+          "https://who.dhis2.org/tracker_epi"
+        ], 
+        "_version": "1.0.0",
+        "dashboardIds": [],
+        "dataElementGroupIds": [],
+        "exportIndicatorGroupsIds": [], 
+        "indicatorGroupIds": [],
+        "programIndicatorGroupIds": [],
+        "programIds": [
+          "BQYNeUGh2Fz"
+        ]
+      }
+    ]
+  }
