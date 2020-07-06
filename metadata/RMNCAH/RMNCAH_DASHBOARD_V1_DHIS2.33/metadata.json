@@ -7724,7 +7724,7 @@
 		{
 			"created": "2015-03-23T01:42:43.716",
 			"factor": 1,
-			"id": "kHy61PbChXr",
+			"id": "CqNPn5KzksS",
 			"lastUpdated": "2018-01-16T09:52:47.071",
 			"name": "Numerator only (number)",
 			"number": true,
@@ -7733,13 +7733,14 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Numérateur seulement"
-				}
+				},
+				{"property":"NAME","locale":"es","value":"Solo numerador (número)"}
 			]
 		},
 		{
 			"created": "2015-03-23T01:41:28.852",
 			"factor": 100,
-			"id": "hmSnCXmLYwt",
+			"id": "e1jRVY5Mcq0",
 			"lastUpdated": "2018-01-16T09:52:47.072",
 			"name": "Percentage",
 			"number": false,
@@ -7748,7 +7749,8 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Pourcentage"
-				}
+				},
+				{"property":"NAME","locale":"pt","value":"Percentagem"},{"property":"NAME","locale":"es","value":"Por 100"},{"property":"NAME","locale":"ru","value":"Процент"}
 			]
 		}
 	],
