@@ -3,7 +3,7 @@
     {
       "_basePath": "./BRN/", 
       "_code": "BRN", 
-      "_name": "Birth notification",
+      "_name": "Birth, Stillbirth, and Death Notification for CRVS",
       "_prefix": "[CONFIG]",
       "_ownership": {
         "modeOwner": "OVERWRITE",
@@ -11,7 +11,7 @@
         "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "UcecONzws6W",
@@ -44,11 +44,27 @@
         "https://who.dhis2.org/tracker_epi"
       ], 
       "_version": "1.0.0",
-      "exportIndicatorGroupsIds": [
-        "kijrl9Etx1E"
-      ], 
+      "customObjects": [
+        {
+          "objectIds": [
+            "Hl6UfQ5GIrm",
+            "zssnF4t1zzb"
+          ],
+          "objectType": "programIndicators"
+        },
+        {
+          "objectIds": ["wOcoDe5zTRJ"],
+          "objectType": "trackedEntityAttributes"
+        }
+      ],
       "indicatorGroupIds": [
-        "kijrl9Etx1E"
+        "wQEVZXHToPL"
+      ],
+      "exportIndicatorGroupIds": [
+        "wQEVZXHToPL"
+      ],
+      "dashboardIds": [
+        "FHTeyDK7pS1"
       ],
       "programIds": [
         "FTBBLOT3sO7"

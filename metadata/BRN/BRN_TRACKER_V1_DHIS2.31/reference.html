@@ -27,6 +27,8 @@
         <li><a href="#indicators">Indicators</a></li>
         <li><a href="#indicatorGroups">Indicator Groups</a></li>
         <li><a href="#indicatorTypes">Indicator Types</a></li>
+        <li><a href="#dashboards">Dashboards</a></li>
+        <li><a href="#charts">Charts</a></li>
         <li><a href="#userGroups">User Groups</a></li>
       </ul>
     </div>
@@ -54,11 +56,11 @@
       </tr>
       <tr>
         <th>Created</th>
-        <td>2020-02-25T10:15</td>
+        <td>2020-06-08T07:48</td>
       </tr>
       <tr>
         <th>Identifier</th>
-        <td>BRN_TRACKER_V1.0.0_DHIS2.31_2020-02-25T10:15</td>
+        <td>BRN_TRACKER_V1.0.0_DHIS2.31_2020-06-08T07:48</td>
       </tr>
     </table>
     <h2 id="trackedEntityTypes">Tracked entity types</h2>
@@ -70,7 +72,7 @@
       </tr>
       <tr>
         <td>Person</td>
-        <td>2019-12-09</td>
+        <td>2020-03-27</td>
         <td>MCPQUTHX1Ze</td>
       </tr>
     </table>
@@ -79,6 +81,10 @@
       <tr>
         <th>Tracked Entity Type</th>
         <th>Tracked Entity Type Attribute</th>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>ZH5AmeeQOdK</td>
       </tr>
       <tr>
         <td>Person</td>
@@ -108,6 +114,13 @@
         <td>undefined</td>
         <td>2019-11-15</td>
         <td>ArHk8hosBBh</td>
+      </tr>
+      <tr>
+        <td>Date of Birth (age)</td>
+        <td></td>
+        <td>undefined</td>
+        <td>2020-03-04</td>
+        <td>wOcoDe5zTRJ</td>
       </tr>
       <tr>
         <td>Date of Birth (if known)</td>
@@ -423,6 +436,24 @@
         <th>Analytics Type</th>
         <th>Last updated</th>
         <th>UID</th>
+      </tr>
+      <tr>
+        <td>Birth Registration_Delayed Notification (within legal period)</td>
+        <td>BR_Timely notification, 2-12 months after birth</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2019-11-15</td>
+        <td>Hl6UfQ5GIrm</td>
+      </tr>
+      <tr>
+        <td>Birth Registration_Timely Notification (within legal period)</td>
+        <td>BR_Timely notification, 2 months after birth</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2019-11-15</td>
+        <td>zssnF4t1zzb</td>
       </tr>
       <tr>
         <td>CRVS_Birth_All Notification</td>
@@ -917,7 +948,7 @@
       </tr>
       <tr>
         <td>default</td>
-        <td>2020-01-31</td>
+        <td>2020-05-27</td>
         <td>GLevLNI9wkl</td>
         <td>default</td>
       </tr>
@@ -1446,15 +1477,26 @@
         <th>UID </th>
       </tr>
       <tr>
-        <td>Morten's test indicator</td>
-        <td>MortenTestInd</td>
-        <td>MTI001</td>
-        <td>Test Indicator for Import/Export</td>
-        <td>This minus that</td>
-        <td>Denomination</td>
+        <td>BR+Imm: Birth notifications in legal period that were delayed (%)</td>
+        <td>BIRTH_NOTIFS_PERCENT_DELAYED_LEGAL</td>
+        <td></td>
+        <td></td>
+        <td>All timely birth notifications within legal period</td>
+        <td>All timely and delayed notifications from CRVS and Immunization programs</td>
         <td>Percentage</td>
-        <td>2020-02-24</td>
-        <td>ckBUQbFsgk4</td>
+        <td>2019-11-15</td>
+        <td>SCyGd5g50KJ</td>
+      </tr>
+      <tr>
+        <td>BR+Imm: Birth notifications in legal period that were timely (%)</td>
+        <td>BIRTH_NOTIFS_PERCENT_TIMELY_LEGAL</td>
+        <td></td>
+        <td></td>
+        <td>All timely birth notifications within legal period</td>
+        <td>All timely and delayed notifications from CRVS and Immunization programs</td>
+        <td>Percentage</td>
+        <td>2019-11-15</td>
+        <td>fFoD0vhiRPk</td>
       </tr>
     </table>
     <h2 id="indicatorGroups">Indicator Groups</h2>
@@ -1466,10 +1508,10 @@
         <th>UID</th>
       </tr>
       <tr>
-        <td>Test Indicator Group for import export</td>
+        <td>Birth, Stillbirth and Death notification</td>
         <td></td>
-        <td>2020-02-24</td>
-        <td>kijrl9Etx1E</td>
+        <td>2020-04-21</td>
+        <td>wQEVZXHToPL</td>
       </tr>
     </table>
     <h3>Indicator Groups - Indicators</h3>
@@ -1479,8 +1521,12 @@
         <th>Indicator</th>
       </tr>
       <tr>
-        <td>Test Indicator Group for import export</td>
-        <td>Morten's test indicator</td>
+        <td>Birth, Stillbirth and Death notification</td>
+        <td>BR+Imm: Birth notifications in legal period that were timely (%)</td>
+      </tr>
+      <tr>
+        <td>Birth, Stillbirth and Death notification</td>
+        <td>BR+Imm: Birth notifications in legal period that were delayed (%)</td>
       </tr>
     </table>
     <h2 id="indicatorTypes">Indicator types</h2>
@@ -1498,6 +1544,129 @@
         <td>e1jRVY5Mcq0</td>
       </tr>
     </table>
+    <h2 id="dashboards">Dashboards</h2>
+    <h3>CRVS Birth Notification Statistics</h3>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Name:</th>
+        <td>CRVS Birth Notification Statistics</td>
+      </tr>
+      <tr>
+        <th>Last updated:</th>
+        <td>2019-11-18</td>
+      </tr>
+      <tr>
+        <th>UID:</th>
+        <td>FHTeyDK7pS1</td>
+      </tr>
+    </table>
+    <h4>Dashboard items</h4>
+    <table>
+      <tr>
+        <th>Content/item type</th>
+        <th>Content name</th>
+        <th>Content UID</th>
+        <th>Last updated</th>
+        <th>Dashboard Item UID</th>
+      </tr>
+      <tr>
+        <td>Percentage</td>
+        <td>undefined</td>
+        <td>undefined</td>
+        <td>2019-11-18</td>
+        <td>OHdknpJwJGF</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td> Percentage births timely and untimely notified during the legal period</td>
+        <td>AyIbdVDEnp4</td>
+        <td>2019-11-18</td>
+        <td>fq3YM135LAw</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Births notified by place of birth</td>
+        <td>mAthqVMGWJE</td>
+        <td>2019-11-18</td>
+        <td>mYL0fwpSGfl</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Timely notification in children <1 year</td> <td>u5Vl8H0Udu8</td>
+        <td>2019-11-18</td>
+        <td>JXtMNSPDG38</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Births notified immediately after delivery</td>
+        <td>h1Z6byhfD0P</td>
+        <td>2019-11-18</td>
+        <td>T5FQlJmKSRO</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Birth Certificate Received Before First Immunization Visit</td>
+        <td>StxobUmnbbV</td>
+        <td>2019-11-18</td>
+        <td>OwhKUgMjx3V</td>
+      </tr>
+      <tr>
+        <td>Chart</td>
+        <td>Birth Registered Before First Immunization Visit</td>
+        <td>AruoPpg8Rge</td>
+        <td>2019-11-18</td>
+        <td>qqKFtd5gjGW</td>
+      </tr>
+    </table>
+    <h2 id="charts">Charts</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td> Percentage births timely and untimely notified during the legal period</td>
+        <td> </td>
+        <td>2019-11-15</td>
+        <td>AyIbdVDEnp4</td>
+      </tr>
+      <tr>
+        <td>Birth Certificate Received Before First Immunization Visit</td>
+        <td> </td>
+        <td>2019-02-11</td>
+        <td>StxobUmnbbV</td>
+      </tr>
+      <tr>
+        <td>Birth Registered Before First Immunization Visit</td>
+        <td> </td>
+        <td>2019-02-11</td>
+        <td>AruoPpg8Rge</td>
+      </tr>
+      <tr>
+        <td>Births notified by place of birth</td>
+        <td> </td>
+        <td>2019-03-19</td>
+        <td>mAthqVMGWJE</td>
+      </tr>
+      <tr>
+        <td>Births notified immediately after delivery</td>
+        <td> </td>
+        <td>2019-04-05</td>
+        <td>h1Z6byhfD0P</td>
+      </tr>
+      <tr>
+        <td>Timely notification in children <1 year</td> <td>
+        </td>
+        <td>2019-03-19</td>
+        <td>u5Vl8H0Udu8</td>
+      </tr>
+    </table>
     <h2 id="userGroups">User Groups</h2>
     <table>
       <tr>
@@ -1507,12 +1676,12 @@
       </tr>
       <tr>
         <td>Birth notification access</td>
-        <td>2020-02-06</td>
+        <td>2020-04-20</td>
         <td>UcecONzws6W</td>
       </tr>
       <tr>
         <td>Birth notification admin</td>
-        <td>2020-02-06</td>
+        <td>2020-04-20</td>
         <td>LPrZIVYQGUv</td>
       </tr>
     </table>
