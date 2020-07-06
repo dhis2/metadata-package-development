@@ -1,49 +1,67 @@
 {
-    "export": [
-      {
-        "_basePath": "./IMM_AEFI/", 
-        "_code": "IMM-AEFI", 
-        "_name": "Immunization - Adverse events following immunization",
-        "_prefix": "[CONFIG]",
-        "_ownership": {
-          "modeOwner": "OVERWRITE",
-          "modeLastUpdated": "REMOVE",
-          "ownerId": "vUeLeQMSwhN"
-        },
-        "_sharing": {
-          "groupMode": "FILTER",
-          "groups": [
-            {
-              "id": "JVenB84tY1X",
-              "metadata": "EDIT",
-              "data": "EDIT"
-            }
-          ],
-          "groupExport": false,
-          "userMode": "REMOVE",
-          "users": [
-            {
-              "id": "vUeLeQMSwhN",
-              "metadata": "EDIT",
-              "data": "EDIT"
-            }
-          ],
-          "userExport": false,
-          "publicAccess": {
+  "export": [
+    {
+      "_basePath": "./IMM_AEFI/",
+      "_code": "IMM-AEFI",
+      "_name": "Immunization - Adverse events following immunization",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "JVenB84tY1X",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          },
+          {
+            "id": "J3mFUNTreYY",
             "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "J66x2D13WIj",
+            "metadata": "NONE",
             "data": "NONE"
           }
-        },
-        "_type": "tracker", 
-        "_url": [
-          "https://who.dhis2.org/tracker_epi"
-        ], 
-        "_version": "1.0.0",
-        "exportIndicatorGroupsIds": [], 
-        "indicatorGroupIds": [], 
-        "programIds": [
-          "EZkN8vYZwjR"
-        ]
-      }
-    ]
-  }
+        ],
+        "groupExport": false,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "NONE",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker",
+      "_url": [
+        "https://who-dev.dhis2.org/tracker_dev"
+      ],
+      "_version": "1.0.0",
+      "dashboardIds": [
+        "DWVt2GbJfM9",
+        "EO0tHkp4YQn",
+        "p8T2BE6RU60"
+      ],
+      "dataElementGroupIds": [
+        "YWOEpNm704F"
+      ],
+      "exportIndicatorGroupsIds": [],
+      "indicatorGroupIds": [],
+      "programIds": [
+        "EZkN8vYZwjR"
+      ]
+    }
+  ]
+}
