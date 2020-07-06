@@ -14,7 +14,7 @@
         "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
               "id": "pyu2ZlNKbzQ",
@@ -38,9 +38,7 @@
       },  
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
+        "https://who-dev.dhis2.org/dev_233"
       ], 
       "_version": "1.1.1", 
       "customObjects": [
@@ -59,8 +57,7 @@
         "dp6xqlPGxbA", 
         "xJXvUOEhnE9", 
         "CKcF4jgN0hK", 
-        "L2UmLVcb6Dm",
-        "u0ZDGUlrxz8"
+        "L2UmLVcb6Dm"
       ], 
       "exportIndicatorGroupsIds": [], 
       "indicatorGroupIds": [
@@ -84,7 +81,7 @@
         "ownerId": "vUeLeQMSwhN"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
               "id": "pyu2ZlNKbzQ",
@@ -113,9 +110,7 @@
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
+        "https://who-dev.dhis2.org/dev_233"
       ], 
       "_version": "1.1.1", 
       "customObjects": [
@@ -142,8 +137,7 @@
         "dp6xqlPGxbA", 
         "xJXvUOEhnE9", 
         "CKcF4jgN0hK", 
-        "L2UmLVcb6Dm",
-        "u0ZDGUlrxz8"
+        "L2UmLVcb6Dm"
       ], 
       "dataElementGroupIds": [
         "VGJHJGsfdRR", 
