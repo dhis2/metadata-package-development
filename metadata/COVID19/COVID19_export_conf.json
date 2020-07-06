@@ -46,7 +46,7 @@
       },
       "_type": "tracker", 
       "_url": [
-        "https://covid.dhis2.org/tracker"
+        "https://covid19.dhis2.org/dev"
       ], 
       "_version": "1.0.0",
       "customObjects": [
@@ -67,9 +67,12 @@
       ],
       "exportIndicatorGroupsIds": [
         "wHaaL5jnb25"
-      ], 
+      ],
       "indicatorGroupIds": [
         "wHaaL5jnb25"
+      ],
+      "programIndicatorGroupIds": [
+        "MUAt4OHK6UQ"
       ],
       "programIds": [
         "uYjxkTbwRNf",
