@@ -41,7 +41,7 @@
       },
       "_type": "tracker", 
       "_url": [
-        "https://who.dhis2.org/tracker_epi"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.0.0",
       "customObjects": [
@@ -53,7 +53,9 @@
           "objectType": "programIndicators"
         },
         {
-          "objectIds": ["wOcoDe5zTRJ"],
+          "objectIds": [
+            "wOcoDe5zTRJ"
+          ],
           "objectType": "trackedEntityAttributes"
         }
       ],
