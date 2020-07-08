@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    </meta>
+    <title>Metadata reference</title>
+  </head>
+
+  <body>
+    <h1>Metadata reference</h1>
+    <div id="tocContainer">
+      <ul>
+        <li><a href="#package">Package ID</a></li>
+        <li><a href="#indicators">Indicators</a></li>
+        <li><a href="#indicatorGroups">Indicator Groups</a></li>
+        <li><a href="#indicatorTypes">Indicator Types</a></li>
+        <li><a href="#dashboards">Dashboards</a></li>
+        <li><a href="#visualizations">Visualizations</a></li>
+        <li><a href="#userGroups">User Groups</a></li>
+      </ul>
+    </div>
+    <h2>Package info</h2>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Code</th>
+        <td>MAL-EL</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>DASHBOARD</td>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td>V1.0</td>
+      </tr>
+      <tr>
+        <th>DHIS2 version</th>
+        <td>DHIS2.34</td>
+      </tr>
+      <tr>
+        <th>Created</th>
+        <td>2020-06-11T12:08</td>
+      </tr>
+      <tr>
+        <th>Identifier</th>
+        <td>MAL-EL_DASHBOARD_V1.0_DHIS2.34_2020-06-11T12:08</td>
+      </tr>
+    </table>
+    <h2 id="indicators">Indicators</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Numerator</th>
+        <th>Denominator</th>
+        <th>Type</th>
+        <th>Last updated</th>
+        <th>UID </th>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Foci classified (%)</td>
+        <td>Foci classified (%)</td>
+        <td>MAL_PROP_FOCI_CLASS</td>
+        <td>Number of foci investigated and classified divided by total number of foci in the registry multiplied by 100 (in a year)</td>
+        <td>Foci classified</td>
+        <td>New foci identified</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>dKbHt6OB5x1</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Foci identified (new+old) in past 5 years (including current calendar year)</td>
+        <td>Foci identified, new and old (list of foci)</td>
+        <td>MAL_FOCI_IDENT_NEW_OLD</td>
+        <td>Number of malaria foci identified (new+old) identified in the past 5 years (including current calendar year)</td>
+        <td>Foci identified (new+old) in past 5 years (including current calendar year)</td>
+        <td>1</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>RLxhxT7sO0R</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Foci investigated (%)</td>
+        <td>Foci investigated (%)</td>
+        <td>MAL_PROP_FOCI_INVEST</td>
+        <td>Number of foci investigated divided by total number of foci in the registry multiplied by 100 (in a year)</td>
+        <td>Foci investigated</td>
+        <td>Malaria foci identified (new)</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>AdyubP1OaxP</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Malaria cases classified as local</td>
+        <td>Malaria local</td>
+        <td>MAL_CASES_CLASS_LOCAL</td>
+        <td>Number of cases confirmed as malaria that are investigated and classified as either indigenous or introduced</td>
+        <td>Malaria cases classified as local</td>
+        <td>1</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>npqu6fhBVpe</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Malaria cases confirmed </td>
+        <td>Malaria confirmed </td>
+        <td>MAL_TOT_MAL_CONF_CASES</td>
+        <td>Number of malaria cases confirmed as positive with microscopy and/or RDT</td>
+        <td>Total malaria confirmed cases</td>
+        <td>1</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>rPYLomUceL4</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Malaria confirmed MEAN+2 STD (threshold)</td>
+        <td>Malaria confirmed threshold 2</td>
+        <td>MAL_CONF_THRES2</td>
+        <td></td>
+        <td>Malaria confirmed MEDIAN+2 STD (threshold)</td>
+        <td>1</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>tIWGvDkU6lb</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Malaria confirmed MEDIAN (threshold)</td>
+        <td>Malaria confirmed threshold</td>
+        <td>MAL_CONF_THRES</td>
+        <td></td>
+        <td>Malaria confirmed MEDIAN (threshold)</td>
+        <td>1</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>bA6kgEyRkg0</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Percentage of malaria cases classified</td>
+        <td>% of malaria cases classified</td>
+        <td>MAL_PER_CASES_CLASS</td>
+        <td>situations in which a diagnostic test cannot be performed in a timely</td>
+        <td>Malaria cases classified</td>
+        <td>Total malaria confirmed cases (Micr+RDT)</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>bZojnzkbvrZ</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Percentage of malaria cases investigated</td>
+        <td>% of malaria cases investigated</td>
+        <td>MAL_PER_CASES_INVES</td>
+        <td>Number of positive cases detected through PCD and investigated by total number of cases detected through PCD multiplied by 00 </td>
+        <td>Malaria cases investigated</td>
+        <td>Total positives</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>sl7EVPFXps8</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Percentage of P. falciparum</td>
+        <td>% P. falciparum</td>
+        <td>MAL_PER_PF</td>
+        <td>Percentage of positive cases due to P. falciparum parasite ((number of cases due to P. falciparum only + mix infection with P. falciparum/ all positive cases)x100)</td>
+        <td>Sum (Pf+mixed Micr+RDT)</td>
+        <td>Confirmed malaria cases</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>Uzmk0S9IwWn</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Percentage of P. vivax</td>
+        <td>% P. vivax</td>
+        <td>MAL_PER_PV</td>
+        <td>Percentage of positive cases due to P. vivax parasite ((number of cases due to P. vivax only + mix infection with P. vivax/ all positive cases)x100)</td>
+        <td>P. vivax (microscopy) + P. vivax (RDT)</td>
+        <td>Confirmed malaria cases</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>EEuvMCljxc9</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Proportion of foci (active, residual non-active) with zero local cases</td>
+        <td>% of foci with zero local cases</td>
+        <td>MAL_PER_FOCI_ZERO_LOCAL_CASES</td>
+        <td>Proportion of foci (active, residual non-active) with zero local cases</td>
+        <td>Foci classified as endemic or active (with confirmed local cases for at least the past 2 years)</td>
+        <td>New foci identified</td>
+        <td>Numerator only (number)</td>
+        <td>2019-10-22</td>
+        <td>N8S7Vnntced</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Reporting completeness - DTH (%)</td>
+        <td>Mortality reporting completeness (%)</td>
+        <td>MAL_DTH_REP_COMP_(%)</td>
+        <td>Number of malaria deaths reported by health facilities (public, private and NGO) divided by total number of health facilities expected to report </td>
+        <td>Number of Health Facility reports received Deaths</td>
+        <td>Number of Health Facility reports expected to report Deaths</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>x2piMpdUU68</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Reporting completeness - IPD (%)</td>
+        <td>Inpatient reporting completeness (%)</td>
+        <td>MAL_IPD_REP_COMP_(%)</td>
+        <td>Number of inpatient malaria cases reported by health facilities (public, private and NGO) divided by total number of health facilities expected to report </td>
+        <td>Number of Health Facility reports received Inpatient</td>
+        <td>Number of Health Facility reports expected to report Inpatient</td>
+        <td>Percentage</td>
+        <td>2019-10-22</td>
+        <td>xZPfJVUrSsm</td>
+      </tr>
+      <tr>
+        <td>[CONFIG] MAL - Reporting completeness - OPD (%)</td>
+        <td>OPD reporting completeness (%)</td>
+        <td>MAL_OPD_REP_COMP_(%)</td>
+        <td>Number of outpatient malaria cases reported by health facilities (public, private, NGO and community) divided by total number of health facilities expected to report </td>
+        <td>Number of Health Facility reports received Outpatient</td>
+        <td>Number of Health Facility reports expected to report Outpatient</td>
+        <td>Percentage</td>
+        <td>2019-10-28</td>
+        <td>yobFlvQGbSO</td>
+      </tr>
+    </table>
+    <h2 id="indicatorGroups">Indicator Groups</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td></td>
+        <td>2020-04-24</td>
+        <td>YKVsWm3b47n</td>
+      </tr>
+    </table>
+    <h3>Indicator Groups - Indicators</h3>
+    <table>
+      <tr>
+        <th>Indicator Group</th>
+        <th>Indicator</th>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Percentage of P. falciparum</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Malaria confirmed MEAN+2 STD (threshold)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Malaria cases confirmed </td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Foci investigated (%)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Reporting completeness - IPD (%)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Malaria cases classified as local</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Percentage of malaria cases classified</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Reporting completeness - OPD (%)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Foci identified (new+old) in past 5 years (including current calendar year)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Percentage of malaria cases investigated</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Proportion of foci (active, residual non-active) with zero local cases</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Malaria confirmed MEDIAN (threshold)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Reporting completeness - DTH (%)</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Percentage of P. vivax</td>
+      </tr>
+      <tr>
+        <td>Malaria</td>
+        <td>[CONFIG] MAL - Foci classified (%)</td>
+      </tr>
+    </table>
+    <h2 id="indicatorTypes">Indicator types</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Factor</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Numerator only (number)</td>
+        <td>1</td>
+        <td>2018-01-16</td>
+        <td>kHy61PbChXr</td>
+      </tr>
+      <tr>
+        <td>Percentage</td>
+        <td>100</td>
+        <td>2018-01-16</td>
+        <td>hmSnCXmLYwt</td>
+      </tr>
+    </table>
+    <h2 id="dashboards">Dashboards</h2>
+    <h3>Malaria Elimination</h3>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Name:</th>
+        <td>Malaria Elimination</td>
+      </tr>
+      <tr>
+        <th>Last updated:</th>
+        <td>2019-10-22</td>
+      </tr>
+      <tr>
+        <th>UID:</th>
+        <td>b8F1kKlV9Fk</td>
+      </tr>
+    </table>
+    <h4>Dashboard items</h4>
+    <table>
+      <tr>
+        <th>Content/item type</th>
+        <th>Content name</th>
+        <th>Content UID</th>
+        <th>Last updated</th>
+        <th>Dashboard Item UID</th>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Surveillance (cases and threshold) - last 12 months</td>
+        <td>bIwPfcT9JVN</td>
+        <td>2019-10-20</td>
+        <td>JIwgBYsqp5J</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Percent P.F and P.v</td>
+        <td>PvxM8Xg87Nj</td>
+        <td>2019-10-20</td>
+        <td>xQiwj7LABJm</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of cases investigated and classified</td>
+        <td>sV93XsyzYKh</td>
+        <td>2019-10-20</td>
+        <td>X3DsfWcC2Cz</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of foci investigated and classified</td>
+        <td>E0Ct7kfn7ah</td>
+        <td>2019-10-20</td>
+        <td>BkQyoFMYVei</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of foci with zero local cases</td>
+        <td>uE5LUxEM6sT</td>
+        <td>2019-10-20</td>
+        <td>PLRIsIlzbW2</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Report completeness</td>
+        <td>hQwk2byL539</td>
+        <td>2019-10-20</td>
+        <td>khbUS36sTys</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Confirmed cases and Foci</td>
+        <td>teaDKAvi59w</td>
+        <td>2019-10-20</td>
+        <td>efZGfuQaLQO</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Confirmed cases and Foci</td>
+        <td>aBCOG3NeVon</td>
+        <td>2019-10-20</td>
+        <td>UWm7wNOGTHG</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Percent P.F and P.v</td>
+        <td>V5hgP357C9f</td>
+        <td>2019-10-20</td>
+        <td>G91X6FRCnJt</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of cases investigated and classified</td>
+        <td>jsaymgD3TfZ</td>
+        <td>2019-10-20</td>
+        <td>agFPpsXbwRH</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of foci investigated and classified</td>
+        <td>oRXnqWYlWP5</td>
+        <td>2019-10-20</td>
+        <td>fdfVdMcKAKH</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Proportion of foci with zero local cases</td>
+        <td>SxiXWx4gFQN</td>
+        <td>2019-10-20</td>
+        <td>LYvhzMB6lXG</td>
+      </tr>
+      <tr>
+        <td>Visualization</td>
+        <td>MAL - Report completeness for malaria</td>
+        <td>lFI58Q1aW8Q</td>
+        <td>2019-10-20</td>
+        <td>IfIz0OvA2SN</td>
+      </tr>
+    </table>
+    <h2 id="visualizations">Visualizations</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>MAL - Confirmed cases and Foci</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>teaDKAvi59w</td>
+      </tr>
+      <tr>
+        <td>MAL - Confirmed cases and Foci</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>aBCOG3NeVon</td>
+      </tr>
+      <tr>
+        <td>MAL - Percent P.F and P.v</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>V5hgP357C9f</td>
+      </tr>
+      <tr>
+        <td>MAL - Percent P.F and P.v</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>PvxM8Xg87Nj</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of cases investigated and classified</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>sV93XsyzYKh</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of cases investigated and classified</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>jsaymgD3TfZ</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of foci investigated and classified</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>oRXnqWYlWP5</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of foci investigated and classified</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>E0Ct7kfn7ah</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of foci with zero local cases</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>uE5LUxEM6sT</td>
+      </tr>
+      <tr>
+        <td>MAL - Proportion of foci with zero local cases</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>SxiXWx4gFQN</td>
+      </tr>
+      <tr>
+        <td>MAL - Report completeness</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>hQwk2byL539</td>
+      </tr>
+      <tr>
+        <td>MAL - Report completeness for malaria</td>
+        <td> </td>
+        <td>2019-06-29</td>
+        <td>lFI58Q1aW8Q</td>
+      </tr>
+      <tr>
+        <td>MAL - Surveillance (cases and threshold) - last 12 months</td>
+        <td> </td>
+        <td>2019-10-20</td>
+        <td>bIwPfcT9JVN</td>
+      </tr>
+    </table>
+    <h2 id="userGroups">User Groups</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Malaria access</td>
+        <td>2020-04-24</td>
+        <td>ZXEVDM9XRea</td>
+      </tr>
+      <tr>
+        <td>Malaria admin</td>
+        <td>2020-04-24</td>
+        <td>suMb19wGXPR</td>
+      </tr>
+      <tr>
+        <td>Malaria data capture</td>
+        <td>2020-04-24</td>
+        <td>fRSrUJ6SMGH</td>
+      </tr>
+    </table>
+  </body>
+
+</html>
