@@ -1,0 +1,5250 @@
+{
+	"categoryOptionGroups": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2017-06-04T19:45:41.126",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "f5VxIY91Jz3",
+			"lastUpdated": "2019-06-28T12:39:53.056",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "[CONFIG] 0-14 years",
+			"publicAccess": "r-------",
+			"shortName": "0-14 years",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2017-06-06T09:56:16.663",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "SqvDE9fTeGl",
+			"lastUpdated": "2019-06-29T07:43:06.684",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "[CONFIG] 15+ years",
+			"publicAccess": "r-------",
+			"shortName": "15+ years",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2020-03-18T09:45:55.954",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bqoVhX2RfG4",
+			"lastUpdated": "2020-03-18T09:45:55.954",
+			"lastUpdatedBy": {
+				"id": "KpUvqwyAqx8"
+			},
+			"name": "[CONFIG] Female",
+			"publicAccess": "r-------",
+			"shortName": "Female",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Féminin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Féminin"
+				}
+			],
+			"user": {
+				"id": "KpUvqwyAqx8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2020-03-18T09:45:55.951",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "EVYKU2fIc6G",
+			"lastUpdated": "2020-03-18T09:45:55.951",
+			"lastUpdatedBy": {
+				"id": "KpUvqwyAqx8"
+			},
+			"name": "[CONFIG] Male",
+			"publicAccess": "r-------",
+			"shortName": "Male",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Masculin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masculin"
+				}
+			],
+			"user": {
+				"id": "KpUvqwyAqx8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2017-06-04T19:46:36.892",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "YXE2HxNf3YB",
+			"lastUpdated": "2019-06-29T07:43:15.345",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "[CONFIG] Other/unknown age",
+			"publicAccess": "r-------",
+			"shortName": "Other/unknown age",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [],
+			"created": "2017-06-04T19:55:19.838",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "SZJNeRyrh22",
+			"lastUpdated": "2019-06-29T07:43:11.992",
+			"lastUpdatedBy": {
+				"id": "CgkjuVe0nUq"
+			},
+			"name": "[CONFIG] Other/unknown sex",
+			"publicAccess": "r-------",
+			"shortName": "Other/unknown sex",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Autre/sexe non connu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Autre/sexe non connu"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"categoryOptionGroupSets": [
+		{
+			"attributeValues": [],
+			"categoryOptionGroups": [
+				{
+					"id": "f5VxIY91Jz3"
+				},
+				{
+					"id": "SqvDE9fTeGl"
+				},
+				{
+					"id": "YXE2HxNf3YB"
+				}
+			],
+			"created": "2017-06-06T09:54:51.593",
+			"dataDimension": true,
+			"dataDimensionType": "DISAGGREGATION",
+			"description": "Age categorisation in years.",
+			"id": "P9P3HGBjI5B",
+			"lastUpdated": "2019-06-28T12:39:49.793",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "Age in years  (0-14, 15+, unknown)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryOptionGroups": [
+				{
+					"id": "bqoVhX2RfG4"
+				},
+				{
+					"id": "EVYKU2fIc6G"
+				},
+				{
+					"id": "SZJNeRyrh22"
+				}
+			],
+			"created": "2017-06-04T19:55:56.555",
+			"dataDimension": true,
+			"dataDimensionType": "DISAGGREGATION",
+			"description": "Sex (with unknown)",
+			"id": "XxEFGdwxOJ0",
+			"lastUpdated": "2019-06-29T07:42:51.231",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "Sex (with unknown)",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Sexe (avec inconnu)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Sexe (avec inconnu)"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Sexe (avec inconnu)"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"dashboards": [
+		{
+			"created": "2018-07-11T11:15:59.831",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:12:16.288",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "bCMiCx5yJDZ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:12:16.362",
+					"map": {
+						"id": "Vf3ASwHkAmu"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:12:16.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "sXRmIoonkxp",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:12:16.364",
+					"map": {
+						"id": "t6lhTAiujEe"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 20,
+					"x": 19,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:12:16.289",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "dDuqItmcL36",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:12:16.364",
+					"map": {
+						"id": "eu3QTttWA2p"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 20,
+					"x": 39,
+					"y": 0
+				}
+			],
+			"externalAccess": false,
+			"favorites": [],
+			"id": "VjFMk8X026U",
+			"lastUpdated": "2019-06-28T12:39:37.096",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV Burden",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"created": "2018-07-11T10:51:45.452",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-12T06:05:45.771",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "nIA5bdm0wPQ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-12T06:05:45.771",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "sbsctgkgtxi"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T10:52:35.006",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uh02i8YxoN2",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T10:52:35.006",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "W9BIjYTO9Py"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T10:53:50.115",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "QZfcLzJWauA",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T10:53:50.115",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "YRItoGE02Gc"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T10:56:57.836",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "coEhEClMS5b",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T10:56:57.836",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "yM52YmNwPdT"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-12T06:21:34.299",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JURPIzK3GRR",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-12T06:21:39.363",
+					"lastUpdatedBy": {
+						"id": "jB4WJmaNuGT"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "DOUBLE_WIDTH",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "CInLEIQcstz"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:06:43.420",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "iXvO7cOqdAx",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:06:43.420",
+					"map": {
+						"id": "MZMtrkoUQzW"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:07:12.222",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "uGobU3TTDZZ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:07:12.222",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "MlwuLdHcS0Y"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:07:16.977",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bj0dK3QOLs2",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:07:16.977",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "yZx4xQJ1AIt"
+					}
+				}
+			],
+			"externalAccess": false,
+			"id": "fX1kkuqS47y",
+			"lastUpdated": "2019-06-28T12:39:37.146",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV District (SNU2)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"created": "2018-07-11T11:07:59.403",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-12T06:05:51.793",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "HQMbQQlWA5L",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-12T06:05:51.793",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "sbsctgkgtxi"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:08:45.551",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "cQPHqT5WT7k",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:08:45.551",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "W9BIjYTO9Py"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:08:57.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Hn8SpMOfbkR",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:08:57.463",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "YRItoGE02Gc"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:14:24.359",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "R9mBl80z4gR",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:14:24.359",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "W5YurJlBYxS"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:14:27.961",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "DhGugWmf82U",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:14:27.961",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "neY7yCy63LJ"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:12:18.390",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "aOd1P9Jy9Bx",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:12:18.390",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "MlwuLdHcS0Y"
+					}
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2018-07-11T11:12:21.639",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "qCqeB2Is75g",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2018-07-11T11:12:21.639",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "yZx4xQJ1AIt"
+					}
+				}
+			],
+			"externalAccess": false,
+			"id": "mN578Bop2g3",
+			"lastUpdated": "2019-06-28T12:39:37.198",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV Facility",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"created": "2015-08-11T07:12:07.504",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "jnd7OXSZ3td",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.297",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "sbsctgkgtxi"
+					},
+					"width": 29,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "XnNRP887MgT",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.299",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "W9BIjYTO9Py"
+					},
+					"width": 29,
+					"x": 29,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "Yybjz35BBy4",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.299",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "YRItoGE02Gc"
+					},
+					"width": 24,
+					"x": 0,
+					"y": 20
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "FVRKyWnT7MK",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.300",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "HIeML0i1tW6"
+					},
+					"width": 12,
+					"x": 24,
+					"y": 20
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "Jlt2k4A7zOK",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.300",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "yM52YmNwPdT"
+					},
+					"width": 22,
+					"x": 36,
+					"y": 20
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "QfXeDVl4ONy",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.301",
+					"reports": [],
+					"resources": [],
+					"shape": "DOUBLE_WIDTH",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "CInLEIQcstz"
+					},
+					"width": 34,
+					"x": 24,
+					"y": 40
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.152",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "ribZrhKrUDJ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.301",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "FXLnt2rX2GF"
+					},
+					"width": 24,
+					"x": 0,
+					"y": 40
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.153",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "RkiBAK4tecO",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.301",
+					"map": {
+						"id": "VFaZffBlMro"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 29,
+					"y": 60
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.153",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "YCl3k5LY0vQ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.302",
+					"map": {
+						"id": "YLGtwHbfxqG"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 0,
+					"y": 60
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.153",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "Dl6kcsXm54p",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.303",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "MlwuLdHcS0Y"
+					},
+					"width": 29,
+					"x": 29,
+					"y": 80
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2019-05-10T11:14:30.153",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "ELciLRjAxS6",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-05-10T11:14:30.303",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "yZx4xQJ1AIt"
+					},
+					"width": 29,
+					"x": 0,
+					"y": 80
+				}
+			],
+			"externalAccess": false,
+			"favorites": [],
+			"id": "q9qKbXTDgEh",
+			"lastUpdated": "2019-06-28T12:39:37.250",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV National",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Cascade VIH 90-90-90 "
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"code": "HIV",
+			"created": "2017-06-06T13:48:19.111",
+			"id": "HX1nmjQyvdd",
+			"indicators": [
+				{
+					"id": "bD67D0kVEJQ"
+				},
+				{
+					"id": "JSUnuftClqK"
+				},
+				{
+					"id": "LV138qS9eCD"
+				},
+				{
+					"id": "iKW4AMU5YDp"
+				},
+				{
+					"id": "drqhQa67F9m"
+				},
+				{
+					"id": "PTA21lKepjs"
+				},
+				{
+					"id": "zqzX3zcosD5"
+				},
+				{
+					"id": "RnSeEFXobZg"
+				},
+				{
+					"id": "JUvYLsNo43H"
+				},
+				{
+					"id": "WJ7pO9GJMNJ"
+				},
+				{
+					"id": "tsMR4m66ili"
+				},
+				{
+					"id": "aLH7eJpIxvn"
+				},
+				{
+					"id": "hcgmW20YI1J"
+				}
+			],
+			"lastUpdated": "2019-06-28T12:39:24.431",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-07-11T11:19:28.870",
+			"id": "I13HBLJTJMb",
+			"indicators": [
+				{
+					"id": "h7bxqdKWYCa"
+				}
+			],
+			"lastUpdated": "2019-06-29T07:15:50.095",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "Population estimates",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GEN_E_POP_TOT",
+			"created": "2018-02-01T13:57:00.861",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Estimated total population",
+			"id": "h7bxqdKWYCa",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-29T07:15:11.991",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] GEN - Population total",
+			"numerator": "-1",
+			"numeratorDescription": "total population",
+			"publicAccess": "r-------",
+			"shortName": "Population",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Population"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population totale"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2018-06-29T13:08:05.158",
+			"denominator": "1",
+			"denominatorDescription": "Estimated number of people living with HIV",
+			"id": "iKW4AMU5YDp",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:20.846",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "aviopx5x4wQ"
+				}
+			],
+			"name": "[CONFIG] HIV - ART coverage rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV currently receiving ART",
+			"publicAccess": "r-------",
+			"shortName": "ART coverage (%)",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_ART_12M_RET",
+			"created": "2015-10-19T13:53:39.762",
+			"denominator": "1",
+			"denominatorDescription": "Started ART 12 months ago",
+			"id": "JUvYLsNo43H",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:20.898",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "aviopx5x4wQ"
+				}
+			],
+			"name": "[CONFIG] HIV - ART retention rate after 12 months (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Retained on ART last 12 months",
+			"publicAccess": "r-------",
+			"shortName": "ART 12 month retention rate (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux de retention sous TAR à 12 mois (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de rétention sous TAR après 12 mois (%)"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": true,
+			"attributeValues": [],
+			"created": "2015-05-25T05:46:02.262",
+			"decimals": 0,
+			"denominator": "1",
+			"denominatorDescription": "Total population",
+			"description": "Estimated HIV prevalence rate in percent.",
+			"id": "RnSeEFXobZg",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:20.951",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - Estimated HIV prevalence rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Estimated people living with HIV",
+			"publicAccess": "r-------",
+			"shortName": "HIV prevalence (%)",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2018-07-11T12:27:48.244",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of cases of HIV expected in a geographical area",
+			"id": "WJ7pO9GJMNJ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.000",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - Estimated people living with HIV",
+			"numerator": "-1",
+			"numeratorDescription": "HIV - Estimated people living with HIV",
+			"publicAccess": "r-------",
+			"shortName": "PLHIV estimate",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_TEST_POSITIVITY",
+			"created": "2015-05-25T05:46:02.262",
+			"denominator": "1",
+			"denominatorDescription": "HIV tests performed",
+			"description": "Percentage of all HIV tests performed that are HIV positive",
+			"id": "bD67D0kVEJQ",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.050",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - HIV test positivity rate (%)",
+			"numerator": "-1",
+			"numeratorDescription": "HIV tests positive",
+			"publicAccess": "r-------",
+			"shortName": "HIV test positivity (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux de positivité VIH(%)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de positivité des tests VIH (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Pourcentage de tous les tests réalisés et qui sont VIH positifs"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_TESTS",
+			"created": "2018-02-15T09:04:50.242",
+			"decimals": 0,
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "JSUnuftClqK",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.102",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - HIV tests performed",
+			"numerator": "-1",
+			"numeratorDescription": "HIV tests performed",
+			"publicAccess": "r-------",
+			"shortName": "HIV tests performed",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Tests VIH réalisés"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Tests VIH réalisés"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_TESTS+",
+			"created": "2018-01-16T09:31:59.853",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "HIV tests found to be positive",
+			"id": "LV138qS9eCD",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.166",
+			"lastUpdatedBy": {
+				"id": "bem6yy1CuBk"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - HIV tests positive ",
+			"numerator": "-1",
+			"numeratorDescription": "HIV tests positive ",
+			"publicAccess": "r-------",
+			"shortName": "HIV tests positive ",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Tests VIH positifs"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Tests VIH positifs"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Tests VIH qui sont positifs"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2015-10-19T14:13:49.289",
+			"denominator": "1",
+			"denominatorDescription": "PLHIV currently on ART",
+			"id": "PTA21lKepjs",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.214",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "aviopx5x4wQ"
+				}
+			],
+			"name": "[CONFIG] HIV - HIV viral load testing coverage annualized (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV tested for viral load",
+			"publicAccess": "r-------",
+			"shortName": "Viral load testing coverage annualized (%)",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_ONART",
+			"created": "2018-01-16T09:31:59.853",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "aLH7eJpIxvn",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.264",
+			"lastUpdatedBy": {
+				"id": "bem6yy1CuBk"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - PLHIV currently on ART",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV currently on ART",
+			"publicAccess": "r-------",
+			"shortName": "Currently on ART ",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "PVVIH actuellement sous TAR"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PVVIH actuellement sous TAR"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_ONART_NEW",
+			"created": "2018-01-16T09:31:59.853",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "tsMR4m66ili",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.317",
+			"lastUpdatedBy": {
+				"id": "bem6yy1CuBk"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - PLHIV new on ART ",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV new on ART",
+			"publicAccess": "r-------",
+			"shortName": "New on ART ",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Nouveaux PVVIH sous TAR"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nouveaux PVVIH sous TAR"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_ONART_12M",
+			"created": "2018-01-16T09:31:59.853",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "hcgmW20YI1J",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.369",
+			"lastUpdatedBy": {
+				"id": "bem6yy1CuBk"
+			},
+			"legendSets": [],
+			"name": "[CONFIG] HIV - PLHIV retained on ART last 12 months ",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV retained on ART last 12 months",
+			"publicAccess": "r-------",
+			"shortName": "Retained on ART last 12 months ",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "PVVIH retenues sous TAR les 12 derniers mois"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PVVIH retenues sous TAR les 12 derniers mois"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_TEST_VIRSUPP",
+			"created": "2015-10-19T14:13:49.289",
+			"denominator": "1",
+			"denominatorDescription": "PLHIV with viral load tests",
+			"id": "zqzX3zcosD5",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.417",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "aviopx5x4wQ"
+				}
+			],
+			"name": "[CONFIG] HIV - PLHIV tested that are virologically suppressed (%)",
+			"numerator": "-1",
+			"numeratorDescription": "PLHIV virologically suppressed",
+			"publicAccess": "r-------",
+			"shortName": "Virologically suppressed (%)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "PVVIH avec suppression charge virale (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PVVIH présentant une suppression de la charge virale (%)"
+				}
+			],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "HIV_TREAT",
+			"created": "2015-05-25T05:46:02.262",
+			"denominator": "1",
+			"denominatorDescription": "HIV tests positive",
+			"description": "Number of new on ART during the period divided by the number of HIV positive tests",
+			"id": "drqhQa67F9m",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-06-28T12:39:21.467",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendSets": [
+				{
+					"id": "aviopx5x4wQ"
+				}
+			],
+			"name": "[CONFIG] HIV - Ratio of new on ART to newly diagnosed (%)",
+			"numerator": "-1",
+			"numeratorDescription": "New on ART",
+			"publicAccess": "r-------",
+			"shortName": "New on ART to newly diagnosed (%)",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:42:43.716",
+			"factor": 1,
+			"id": "kHy61PbChXr",
+			"lastUpdated": "2018-01-16T09:52:47.071",
+			"name": "Numerator only (number)",
+			"number": true,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement"
+				}
+			]
+		},
+		{
+			"created": "2015-03-23T01:41:28.852",
+			"factor": 100,
+			"id": "hmSnCXmLYwt",
+			"lastUpdated": "2018-01-16T09:52:47.072",
+			"name": "Percentage",
+			"number": false,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
+				}
+			]
+		}
+	],
+	"legendSets": [
+		{
+			"attributeValues": [],
+			"created": "2018-02-16T05:50:46.664",
+			"id": "aviopx5x4wQ",
+			"lastUpdated": "2019-06-28T12:39:17.403",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legends": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#00AFFF",
+					"created": "2018-06-29T13:32:27.082",
+					"displayName": "Greater than 100%",
+					"endValue": 150,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ZrYgX2ojLj5",
+					"lastUpdated": "2018-06-29T13:32:27.082",
+					"name": "Greater than 100%",
+					"startValue": 100,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#6EE634",
+					"created": "2018-06-29T13:32:27.082",
+					"displayName": "90% to 110%",
+					"endValue": 100,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "iCBaHMc9w9O",
+					"lastUpdated": "2018-06-29T13:32:27.082",
+					"name": "90% to 110%",
+					"startValue": 90,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#FFF100",
+					"created": "2018-06-29T13:32:27.082",
+					"displayName": "75% to 89%",
+					"endValue": 90,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "bPM6VHCCvzo",
+					"lastUpdated": "2018-06-29T13:32:27.082",
+					"name": "75% to 89%",
+					"startValue": 75,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#FF9234",
+					"created": "2018-06-29T13:32:27.081",
+					"displayName": "60% to 75%",
+					"endValue": 75,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "geCVGvs2JPS",
+					"lastUpdated": "2018-06-29T13:32:27.081",
+					"name": "60% to 75%",
+					"startValue": 60,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"color": "#FF0000",
+					"created": "2018-06-29T13:32:27.082",
+					"displayName": "Below 60%",
+					"endValue": 60,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "CXStL4SSJ8G",
+					"lastUpdated": "2018-06-29T13:32:27.082",
+					"name": "Below 60%",
+					"startValue": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"name": "HIV default (%)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"maps": [
+		{
+			"basemap": "osmLight",
+			"created": "2018-07-11T12:30:59.732",
+			"externalAccess": false,
+			"id": "Vf3ASwHkAmu",
+			"lastUpdated": "2019-06-28T12:39:14.174",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 4,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"colorScale": "#ffffd4,#fed98e,#fe9929,#cc4c02",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-07-11T12:30:59.732",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "h7bxqdKWYCa"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "GEN - Population total",
+					"displayName": "GEN - Population total",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "XqEV5IuQl3f",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-07-11T12:30:59.732",
+					"layer": "thematic1",
+					"method": 2,
+					"name": "GEN - Population total",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
+				}
+			],
+			"name": "GEN - Population estimate",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2018-08-09T11:12:43.426",
+			"externalAccess": false,
+			"id": "VFaZffBlMro",
+			"lastUpdated": "2019-06-28T12:39:14.225",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-08-09T11:12:43.426",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "iKW4AMU5YDp"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - ART coverage rate (%)",
+					"displayName": "HIV - ART coverage rate (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "GgqMiSMaNiH",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "###000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-08-09T11:12:43.426",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "aviopx5x4wQ"
+					},
+					"method": 1,
+					"name": "HIV - ART coverage rate (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": true,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "HIV - ART coverage",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2018-08-09T11:14:59.257",
+			"externalAccess": false,
+			"id": "YLGtwHbfxqG",
+			"lastUpdated": "2019-06-28T12:39:14.275",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-08-09T11:14:59.257",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "JUvYLsNo43H"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - ART retention rate after 12 months (%)",
+					"displayName": "HIV - ART retention rate after 12 months (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "YLVOk0i3vmj",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-08-09T11:14:59.257",
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "aviopx5x4wQ"
+					},
+					"method": 1,
+					"name": "HIV - ART retention rate after 12 months (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "HIV - ART retention rate (12 months)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2018-07-11T11:03:02.059",
+			"externalAccess": false,
+			"id": "MZMtrkoUQzW",
+			"lastUpdated": "2019-06-28T12:39:14.325",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-07-11T11:03:02.059",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "JUvYLsNo43H"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - ART retention rate after 12 months (%)",
+					"displayName": "HIV - ART retention rate after 12 months (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "ZrZj0vNBtM5",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-07-11T11:03:02.059",
+					"layer": "thematic2",
+					"legendSet": {
+						"id": "aviopx5x4wQ"
+					},
+					"method": 1,
+					"name": "HIV - ART retention rate after 12 months (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 5,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-07-11T11:03:02.059",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "JUvYLsNo43H"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - ART retention rate after 12 months (%)",
+					"displayName": "HIV - ART retention rate after 12 months (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "EHFyu5nMKjv",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "####000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-07-11T11:06:02.262",
+					"lastUpdatedBy": {
+						"id": "jB4WJmaNuGT"
+					},
+					"layer": "thematic1",
+					"legendSet": {
+						"id": "aviopx5x4wQ"
+					},
+					"method": 1,
+					"name": "HIV - ART retention rate after 12 months (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 5,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": true,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": true,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "HIV - ART retention rate (12 months) by user and sub-orgunits",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2018-07-11T12:36:05.696",
+			"externalAccess": false,
+			"id": "eu3QTttWA2p",
+			"lastUpdated": "2019-06-28T12:39:14.374",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 4,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"colorScale": "#ffffd4,#fed98e,#fe9929,#cc4c02",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-07-11T12:36:05.696",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "RnSeEFXobZg"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - Estimated HIV prevalence rate (%)",
+					"displayName": "HIV - Estimated HIV prevalence rate (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "ShRolJyWvbE",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "##000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-07-11T12:36:05.696",
+					"layer": "thematic1",
+					"method": 2,
+					"name": "HIV - Estimated HIV prevalence rate (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
+				}
+			],
+			"name": "HIV - Estimated HIV prevalence",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2018-07-11T12:31:27.430",
+			"externalAccess": false,
+			"id": "t6lhTAiujEe",
+			"lastUpdated": "2019-06-28T12:39:14.426",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 4,
+					"colorHigh": "00ff00",
+					"colorLow": "ff0000",
+					"colorScale": "#ffffd4,#fed98e,#fe9929,#cc4c02",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2018-07-11T12:31:27.430",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "WJ7pO9GJMNJ"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "HIV - Estimated people living with HIV",
+					"displayName": "HIV - Estimated people living with HIV",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "NOfArVLn7te",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labelFontColor": "#000000",
+					"labelFontSize": "11px",
+					"labelFontStyle": "normal",
+					"labelFontWeight": "normal",
+					"labels": false,
+					"lastUpdated": "2018-07-11T12:31:27.430",
+					"layer": "thematic1",
+					"method": 2,
+					"name": "HIV - Estimated people living with HIV",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 15,
+					"radiusLow": 5,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": true,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
+				}
+			],
+			"name": "HIV - PLHIV estimate",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			]
+		}
+	],
+	"package": "HIV_DASHBOARD_V1.0_DHIS2.34_2020-06-11T12:10",
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2018-02-11T19:54:27.127",
+			"id": "ISvRhzmu8Ck",
+			"lastUpdated": "2020-04-24T11:20:53.570",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"managedGroups": [],
+			"name": "HIV access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"users": []
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-02-11T19:54:18.281",
+			"id": "TAVOXarP781",
+			"lastUpdated": "2020-04-24T11:20:53.581",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"managedGroups": [],
+			"name": "HIV admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"users": []
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-05-16T09:21:10.275",
+			"id": "OqrNUeHDEQZ",
+			"lastUpdated": "2020-05-16T09:21:10.275",
+			"lastUpdatedBy": {
+				"id": "KpUvqwyAqx8"
+			},
+			"managedGroups": [],
+			"name": "HIV data capture",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "KpUvqwyAqx8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": []
+		}
+	],
+	"visualizations": [
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"ou"
+			],
+			"completedOnly": false,
+			"created": "2018-07-12T06:07:06.018",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "drqhQa67F9m"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JUvYLsNo43H"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zqzX3zcosD5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "PTA21lKepjs"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "YRItoGE02Gc",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.442",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV - 2nd and 3rd 90s",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Percent (%)",
+			"rangeAxisMaxValue": 100,
+			"rangeAxisMinValue": 0,
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"targetLineLabel": "90%",
+			"targetLineValue": 90,
+			"title": "2nd and 3rd 90s",
+			"topLimit": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"ou"
+			],
+			"completedOnly": false,
+			"created": "2018-08-09T11:09:07.311",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "iKW4AMU5YDp"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "HIeML0i1tW6",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.495",
+			"lastUpdatedBy": {
+				"id": "mF8i9czW87x"
+			},
+			"name": "HIV - ART coverage - last month",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Percent (%)",
+			"rangeAxisMaxValue": 100,
+			"rangeAxisMinValue": 0,
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"targetLineLabel": "90%",
+			"targetLineValue": 90,
+			"title": "ART coverage",
+			"topLimit": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2018-08-09T11:11:14.882",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "WJ7pO9GJMNJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "iKW4AMU5YDp"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "FXLnt2rX2GF",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:11.137",
+			"lastUpdatedBy": {
+				"id": "mF8i9czW87x"
+			},
+			"legendDisplayStrategy": "BY_DATA_ITEM",
+			"legendDisplayStyle": "FILL",
+			"name": "HIV - ART coverage by sub-orgunits",
+			"noSpaceBetweenColumns": false,
+			"numberType": "VALUE",
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"title": "ART coverage",
+			"topLimit": 0,
+			"translations": [],
+			"type": "PIVOT_TABLE",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2018-07-12T06:21:19.132",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "tsMR4m66ili"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "aLH7eJpIxvn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "drqhQa67F9m"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JUvYLsNo43H"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zqzX3zcosD5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "PTA21lKepjs"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "CInLEIQcstz",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:11.189",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "BY_DATA_ITEM",
+			"legendDisplayStyle": "FILL",
+			"name": "HIV - ART performance by sub-orgunits",
+			"noSpaceBetweenColumns": false,
+			"numberType": "VALUE",
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"title": "ART performance",
+			"topLimit": 0,
+			"translations": [],
+			"type": "PIVOT_TABLE",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"ou"
+			],
+			"completedOnly": false,
+			"created": "2018-08-06T13:16:42.589",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "LV138qS9eCD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "tsMR4m66ili"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "hcgmW20YI1J"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 12 months.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time.",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "sbsctgkgtxi",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.546",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV - HIV cascade",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "PLHIV",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"title": "HIV cascade",
+			"topLimit": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "EVYKU2fIc6G"
+						},
+						{
+							"id": "bqoVhX2RfG4"
+						},
+						{
+							"id": "SZJNeRyrh22"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "XxEFGdwxOJ0"
+					}
+				}
+			],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"XxEFGdwxOJ0"
+			],
+			"completedOnly": false,
+			"created": "2018-07-11T11:15:34.186",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "LV138qS9eCD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "tsMR4m66ili"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "hcgmW20YI1J"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 12 months by gender.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time by gender.",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "W9BIjYTO9Py",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.596",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV - HIV cascade by gender - last 12 months",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "PLHIV",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"title": "HIV cascade by gender",
+			"topLimit": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2018-08-09T11:18:16.395",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JSUnuftClqK"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "LV138qS9eCD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bD67D0kVEJQ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "drqhQa67F9m"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "yM52YmNwPdT",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:11.237",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "HIV - HIV testing performance by sub-orgunits",
+			"noSpaceBetweenColumns": false,
+			"numberType": "VALUE",
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"title": "Testing performance by orgunit",
+			"topLimit": 0,
+			"translations": [],
+			"type": "PIVOT_TABLE",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": true,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-05-25T09:21:21.127",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JUvYLsNo43H"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zqzX3zcosD5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "PTA21lKepjs"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "yZx4xQJ1AIt",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-05-25T09:21:21.127",
+			"lastUpdatedBy": {
+				"id": "KpUvqwyAqx8"
+			},
+			"name": "HIV - Trend in ART retention and VL suppression",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Percent (%)",
+			"rangeAxisMaxValue": 100,
+			"rangeAxisMinValue": 0,
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"targetLineLabel": "90%",
+			"targetLineValue": 90,
+			"title": "Trend in ART retention and VL suppression",
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "KpUvqwyAqx8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2018-07-11T11:14:12.479",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "bD67D0kVEJQ"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "neY7yCy63LJ",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.925",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV - Trend in HIV test positivity",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Percent (%)",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"targetLineLabel": "Target",
+			"title": "Trend in HIV test positivity",
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2018-07-11T11:13:30.909",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "JSUnuftClqK"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "W5YurJlBYxS",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-06-28T12:39:41.979",
+			"lastUpdatedBy": {
+				"id": "jB4WJmaNuGT"
+			},
+			"name": "HIV - Trend in HIV testing",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Tests",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"targetLineLabel": "Target",
+			"title": "Trend in HIV testing",
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "jB4WJmaNuGT"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-05-25T09:22:06.006",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "LV138qS9eCD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "tsMR4m66ili"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "MlwuLdHcS0Y",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-05-25T09:22:06.006",
+			"lastUpdatedBy": {
+				"id": "KpUvqwyAqx8"
+			},
+			"name": "HIV - Trend in newly diagnosed and new on ART",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"rangeAxisLabel": "Tests/PLHIV",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"targetLineLabel": "Target",
+			"title": "Trend in newly diagnosed and new on ART",
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "KpUvqwyAqx8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "HIV admin",
+					"id": "TAVOXarP781",
+					"userGroupUid": "TAVOXarP781"
+				},
+				{
+					"access": "r-------",
+					"displayName": "HIV access",
+					"id": "ISvRhzmu8Ck",
+					"userGroupUid": "ISvRhzmu8Ck"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		}
+	]
+}
