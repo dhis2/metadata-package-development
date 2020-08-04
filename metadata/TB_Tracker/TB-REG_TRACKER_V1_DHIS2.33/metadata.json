@@ -28079,7 +28079,7 @@
 			"version": 4
 		}
 	],
-	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-08-04T06:50",
+	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-08-04T07:42",
 	"programIndicatorGroups": [
 		{
 			"created": "2018-06-07T11:23:07.255",
@@ -75270,7 +75270,7 @@
 			"featureType": "NONE",
 			"id": "Lt6P15ps7f6",
 			"ignoreOverdueEvents": true,
-			"lastUpdated": "2020-08-03T11:38:54.462",
+			"lastUpdated": "2020-08-04T07:03:14.957",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "TB Case Surveillance",
@@ -75311,7 +75311,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bMYK8keEjLZ",
-					"lastUpdated": "2020-08-03T11:38:54.467",
+					"lastUpdated": "2020-08-04T07:03:14.961",
 					"mandatory": false,
 					"name": "TB Case Surveillance Address",
 					"program": {
@@ -75347,7 +75347,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "KwYTprVNXJP",
-					"lastUpdated": "2020-08-03T11:38:54.467",
+					"lastUpdated": "2020-08-04T07:03:14.961",
 					"mandatory": false,
 					"name": "TB Case Surveillance Administrative Area of Residence",
 					"program": {
@@ -75383,7 +75383,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "EcXmoNn84AM",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.960",
 					"mandatory": true,
 					"name": "TB Case Surveillance Date of birth (age)",
 					"program": {
@@ -75420,7 +75420,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "UL8nsHjf333",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.960",
 					"mandatory": false,
 					"name": "TB Case Surveillance Date of birth is estimated",
 					"program": {
@@ -75457,7 +75457,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aQ9uwwF98rj",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.959",
 					"mandatory": true,
 					"name": "TB Case Surveillance Family name",
 					"program": {
@@ -75493,7 +75493,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "JYZMYTu5OwS",
-					"lastUpdated": "2020-08-03T11:38:54.467",
+					"lastUpdated": "2020-08-04T07:03:14.960",
 					"mandatory": false,
 					"name": "TB Case Surveillance Foreign-born",
 					"program": {
@@ -75530,7 +75530,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RGggZsUAgKg",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.960",
 					"mandatory": true,
 					"name": "TB Case Surveillance Given name",
 					"program": {
@@ -75566,7 +75566,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tFv8IsTNRIV",
-					"lastUpdated": "2020-08-03T11:38:54.467",
+					"lastUpdated": "2020-08-04T07:03:14.961",
 					"mandatory": false,
 					"name": "TB Case Surveillance Mobile phone number",
 					"program": {
@@ -75603,7 +75603,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "WGAYdyLvlHd",
-					"lastUpdated": "2020-08-03T11:38:54.465",
+					"lastUpdated": "2020-08-04T07:03:14.958",
 					"mandatory": true,
 					"name": "TB Case Surveillance National ID",
 					"program": {
@@ -75640,7 +75640,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NL0A0PV9OKc",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.960",
 					"mandatory": true,
 					"name": "TB Case Surveillance Sex",
 					"program": {
@@ -75677,7 +75677,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ngmTjpcWtTZ",
-					"lastUpdated": "2020-08-03T11:38:54.466",
+					"lastUpdated": "2020-08-04T07:03:14.959",
 					"mandatory": false,
 					"name": "TB Case Surveillance TB Registration Number",
 					"program": {
@@ -75764,7 +75764,7 @@
 					"id": "zBZXkRW0PJy"
 				}
 			],
-			"version": 78
+			"version": 79
 		}
 	],
 	"programStages": [
@@ -84957,6 +84957,102 @@
 				}
 			],
 			"valueType": "TEXT"
+		}
+	],
+	"trackedEntityInstanceFilters": [
+		{
+			"code": "all_active_enrollments",
+			"created": "2020-04-28T14:21:05.903",
+			"description": "This provides a list of all patients registered in the system who are currently being followed for TB (regardless of treatment initiation status and patients waiting for treatment outcome).",
+			"enrollmentStatus": "ACTIVE",
+			"eventFilters": [
+				{
+					"assignedUsers": []
+				}
+			],
+			"followup": false,
+			"id": "DDYEZxtXUoJ",
+			"lastUpdated": "2020-06-15T13:20:13.187",
+			"name": "All current TB patients",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"sortOrder": 1
+		},
+		{
+			"code": "enrollment_pending",
+			"created": "2020-06-18T13:12:10.305",
+			"description": "This provides a list of TB patients who have an outcome recorded, but the enrollment has not yet been completed in systems. Please click on the “complete” button in the Enrollment section.",
+			"enrollmentStatus": "ACTIVE",
+			"eventFilters": [
+				{
+					"assignedUsers": [],
+					"eventCreatedPeriod": {
+						"periodFrom": -1000,
+						"periodTo": 100
+					},
+					"eventStatus": "COMPLETED",
+					"programStage": "UZn8sMwz7Nm"
+				}
+			],
+			"followup": false,
+			"id": "Q8v3oAYr09t",
+			"lastUpdated": "2020-06-19T08:20:43.837",
+			"name": "Enrollment completion pending",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"sortOrder": 4
+		},
+		{
+			"code": "no_outcome",
+			"created": "2020-04-27T16:55:31.785",
+			"description": "This provides a list of TB patients where an outcome is expected, but is not yet entered in the system. Please enter the outcome for these patients.",
+			"enrollmentStatus": "ACTIVE",
+			"eventFilters": [
+				{
+					"assignedUsers": [],
+					"eventCreatedPeriod": {
+						"periodFrom": -300,
+						"periodTo": 300
+					},
+					"eventStatus": "SCHEDULE",
+					"programStage": "UZn8sMwz7Nm"
+				}
+			],
+			"followup": false,
+			"id": "mrhsMwDhxfc",
+			"lastUpdated": "2020-06-15T12:44:50.714",
+			"name": "Outcome record missing",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"sortOrder": 3
+		},
+		{
+			"code": "not_started_treatment",
+			"created": "2020-04-27T16:08:38.056",
+			"description": "This provides a list of patients who have been diagnosed with TB and who have not yet started treatment. Please follow-up with these patients and start treatment.",
+			"enrollmentStatus": "ACTIVE",
+			"eventFilters": [
+				{
+					"assignedUsers": [],
+					"eventCreatedPeriod": {
+						"periodFrom": -100,
+						"periodTo": 100
+					},
+					"eventStatus": "SCHEDULE",
+					"programStage": "RB3a5MXMe8g"
+				}
+			],
+			"followup": false,
+			"id": "xOeDy8UoNoL",
+			"lastUpdated": "2020-06-15T12:43:47.328",
+			"name": "Treatment initiation pending",
+			"program": {
+				"id": "Lt6P15ps7f6"
+			},
+			"sortOrder": 2
 		}
 	],
 	"trackedEntityTypes": [
