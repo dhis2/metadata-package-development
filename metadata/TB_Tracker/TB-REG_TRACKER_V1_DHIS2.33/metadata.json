@@ -85055,6 +85055,226 @@
 			"sortOrder": 2
 		}
 	],
+	"trackedEntityTypes": [
+		{
+			"allowAuditLog": false,
+			"attributeValues": [],
+			"code": "Person",
+			"created": "2017-11-01T00:00:00.000",
+			"description": "Person",
+			"featureType": "NONE",
+			"id": "MCPQUTHX1Ze",
+			"lastUpdated": "2020-08-04T08:29:27.489",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Person",
+			"publicAccess": "--------",
+			"trackedEntityTypeAttributes": [
+				{
+					"lastUpdated": "2020-08-04T13:48:17.292",
+					"id": "gqLw62UZlrD",
+					"created": "2019-05-07T05:43:04.188",
+					"name": "Person Family name",
+					"displayName": "Person Family name",
+					"displayShortName": "Person Family name",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": true,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.295",
+					"id": "hKZ9AJpnVcG",
+					"created": "2019-05-07T05:43:04.188",
+					"name": "Person Given name",
+					"displayName": "Person Given name",
+					"displayShortName": "Person Given name",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": true,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.296",
+					"id": "gUjhWYex6uQ",
+					"created": "2020-08-04T13:39:42.367",
+					"name": "Person National ID",
+					"displayName": "Person National ID",
+					"displayShortName": "Person National ID",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": false,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "Ewi7FUfcHAD"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.296",
+					"id": "caj7qW3sAth",
+					"created": "2020-08-04T13:48:17.240",
+					"name": "Person Date of birth (age)",
+					"displayName": "Person Date of birth (age)",
+					"displayShortName": "Person DoB (age)",
+					"externalAccess": false,
+					"valueType": "AGE",
+					"searchable": false,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "mAWcalQYYyk"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				}
+			],
+			"translations": [
+				{
+					"locale": "es",
+					"property": "DESCRIPTION",
+					"value": "Persona"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Persona"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Personne"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Personne"
+				},
+				{
+					"locale": "nb",
+					"property": "DESCRIPTION",
+					"value": "Person"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Person"
+				},
+				{
+					"locale": "uz",
+					"property": "DESCRIPTION",
+					"value": "Шахс"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Шахс"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "DESCRIPTION",
+					"value": "Shaxs"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "Shaxs"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-rw----",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-rw----",
+					"id": "zBZXkRW0PJy"
+				}
+			]
+		}
+	],
     "trackedEntityTypeAttributes": [
         {
             "lastUpdated": "2020-08-04T13:48:17.292",
