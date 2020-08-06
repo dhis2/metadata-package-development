@@ -397,7 +397,7 @@ The use of list of first-line and second-line drugs in the treatment stage can b
 |:--|:--|
 |Lists of First-line and Second-line drugs|GxOlFoUKbHB|
 
-#### Configuring tracker capture interface,  widgets and top bar
+#### Configuring tracker capture interface, widgets and top bar
 
 You must configure tracker capture dashboard after the package has been installed. This configuration includes data entry forms, widgets and top bar.
 
