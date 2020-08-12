@@ -55,7 +55,9 @@
         {
           "objectIds": [
           	"fn3zQtRrETh", 
-          	"KdIAkgUzCv7", 
+            "KdIAkgUzCv7",
+            "xzxuZVKZw3A",
+            "hMLDxoR33ej",
           	"Siuqk0lMzC7", 
           	"dS3uFpYtlss", 
           	"nWsSOLLJPjG", 
@@ -66,6 +68,9 @@
           "objectType": "sqlViews"
         }
       ],
+      "dashboardIds": [
+        "gskAdA5a2d4"
+      ],
       "dataElementGroupIds": [
         "d3vHSfeqO0H"
       ], 
@@ -75,6 +80,9 @@
       "indicatorGroupIds": [
         "lyJCPVakzLD"
       ], 
+      "programIndicatorGroupIds": [
+        "gutwPaCL7O7"
+      ],
       "programIds": [
         "fOKN0TJ7Lmi"
       ]
@@ -119,7 +127,7 @@
         ],
         "userExport": false,
         "publicAccess": {
-          "metadata": "VIEW",
+          "metadata": "NONE",
           "data": "NONE"
         }
       }, 
@@ -132,7 +140,9 @@
         {
           "objectIds": [
             "nOrVs1Gi9Nt",
-          	"iy8xEmIhMph", 
+            "iy8xEmIhMph",
+            "ojaXg9yV9is",
+            "atLa12jpN4y",
           	"Siuqk0lMzC7", 
           	"dS3uFpYtlss", 
           	"nWsSOLLJPjG", 
@@ -142,6 +152,9 @@
           ], 
           "objectType": "sqlViews"
         }
+      ],
+      "dashboardIds": [
+        "wBFR85ExTPr"
       ],
       "dataElementGroupIds": [
         "d3vHSfeqO0H"
