@@ -397,6 +397,44 @@ The use of list of first-line and second-line drugs in the treatment stage can b
 |:--|:--|
 |Lists of First-line and Second-line drugs|GxOlFoUKbHB|
 
+#### Configuring tracker capture interface, widgets and top bar
+
+You must configure tracker capture dashboard after the package has been installed. This configuration includes data entry forms, widgets and top bar.
+
+##### Data entry forms
+* After registering the first (test) case, access the **Settings** menu in the tracker capture form and select **Show/Hide Widgets**
+* Switch from **Timeline Data Entry** to **Tabular Data Entry**
+* Make sure that **Enrollment**, **Feedback** and **Profile** widgets are selected. Click **Close**.
+* Adjust the widgets on the screen as shown below:
+
+|Enrollment| Profile |
+|:-|:-|
+|**Feedback**||
+|**Tabular Data Entry**||
+
+##### Top Bar
+* Access the **Settings** menu and select **Top bar settings**
+* Select **Activate top bar**
+* Select required information fields and assign their **Sort order**
+
+|Recommended fields| Sort order |
+|:--|:--|
+|**Attributes**||
+|TB Registration Number|2|
+|**Indicators**||
+|Case classification|8|
+|Patient's age (months)|4|
+|Treatment regimen|9|
+|Resistance classification|7|
+|Months since diagnosis|3|
+|Patient's age (years)|5|
+|Date of diagnosis|1|
+|Resistance|10|
+|HIV Status|6|
+
+* Click **Save**
+* Return to the **Settings** menu. Click **Saved dashboard layout as default**. Lock layoit for all users.
+
 #### Reporting case-based data into aggregate TB reports
 The TB case-based surveillance tracker captures data that can be fed into standard, aggregate reporting (i.e. monthly, quarterly, or more frequently as determined by the country). An aggregate TB system design in DHIS2 can be accessed at [who.dhis2.org/documentation/#tb](https://who.dhis2.org/documentation/#tb)
 Mapping of **program indicators** in TB Case Surveillance tracker with **data elements** and **category option combinations** in the aggregate package is required for the reporting process.

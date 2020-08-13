@@ -1,4 +1,319 @@
 {
+	"attributes": [
+		{
+			"lastUpdated": "2020-05-19T12:38:17.184",
+			"id": "iehcXLBKVWM",
+			"created": "2020-05-19T12:38:17.184",
+			"name": "Code (ICD-10)",
+			"shortName": "ICD-10",
+			"indicatorAttribute": false,
+			"indicatorGroupAttribute": false,
+			"publicAccess": "rw------",
+			"userGroupAttribute": false,
+			"dataElementAttribute": false,
+			"constantAttribute": false,
+			"valueType": "TEXT",
+			"categoryOptionAttribute": false,
+			"optionSetAttribute": false,
+			"displayDescription": "ICD-10 code",
+			"sqlViewAttribute": false,
+			"legendSetAttribute": false,
+			"displayFormName": "Code (ICD-10)",
+			"trackedEntityAttributeAttribute": true,
+			"organisationUnitAttribute": false,
+			"dataSetAttribute": false,
+			"documentAttribute": false,
+			"unique": true,
+			"validationRuleGroupAttribute": false,
+			"favorite": false,
+			"dataElementGroupAttribute": false,
+			"sectionAttribute": false,
+			"trackedEntityTypeAttribute": false,
+			"userAttribute": false,
+			"displayName": "Code (ICD-10)",
+			"description": "ICD-10 code",
+			"mandatory": false,
+			"categoryOptionGroupAttribute": false,
+			"displayShortName": "ICD-10",
+			"externalAccess": false,
+			"programStageAttribute": false,
+			"programAttribute": false,
+			"categoryAttribute": false,
+			"categoryOptionComboAttribute": false,
+			"categoryOptionGroupSetAttribute": false,
+			"validationRuleAttribute": false,
+			"programIndicatorAttribute": false,
+			"organisationUnitGroupAttribute": false,
+			"dataElementGroupSetAttribute": false,
+			"organisationUnitGroupSetAttribute": false,
+			"optionAttribute": false,
+			"access": {
+				"read": true,
+				"update": true,
+				"externalize": true,
+				"delete": true,
+				"write": true,
+				"manage": true
+			},
+			"translations": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-------",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-------",
+					"id": "zBZXkRW0PJy"
+				}
+			],
+			"attributeValues": [],
+			"userAccesses": [],
+			"favorites": []
+		},
+		{
+			"lastUpdated": "2020-05-19T12:37:43.870",
+			"id": "mpXON5igCG1",
+			"created": "2020-05-19T12:37:43.870",
+			"name": "Code (Loinc)",
+			"shortName": "Loinc",
+			"indicatorAttribute": false,
+			"indicatorGroupAttribute": false,
+			"publicAccess": "rw------",
+			"userGroupAttribute": false,
+			"dataElementAttribute": false,
+			"constantAttribute": false,
+			"valueType": "TEXT",
+			"categoryOptionAttribute": false,
+			"optionSetAttribute": false,
+			"displayDescription": "Loinc code",
+			"sqlViewAttribute": false,
+			"legendSetAttribute": false,
+			"displayFormName": "Code (Loinc)",
+			"trackedEntityAttributeAttribute": true,
+			"organisationUnitAttribute": false,
+			"dataSetAttribute": false,
+			"documentAttribute": false,
+			"unique": true,
+			"validationRuleGroupAttribute": false,
+			"favorite": false,
+			"dataElementGroupAttribute": false,
+			"sectionAttribute": false,
+			"trackedEntityTypeAttribute": false,
+			"userAttribute": false,
+			"displayName": "Code (Loinc)",
+			"description": "Loinc code",
+			"mandatory": false,
+			"categoryOptionGroupAttribute": false,
+			"displayShortName": "Loinc",
+			"externalAccess": false,
+			"programStageAttribute": false,
+			"programAttribute": false,
+			"categoryAttribute": false,
+			"categoryOptionComboAttribute": false,
+			"categoryOptionGroupSetAttribute": false,
+			"validationRuleAttribute": false,
+			"programIndicatorAttribute": false,
+			"organisationUnitGroupAttribute": false,
+			"dataElementGroupSetAttribute": false,
+			"organisationUnitGroupSetAttribute": false,
+			"optionAttribute": false,
+			"access": {
+				"read": true,
+				"update": true,
+				"externalize": true,
+				"delete": true,
+				"write": true,
+				"manage": true
+			},
+			"translations": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-------",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-------",
+					"id": "zBZXkRW0PJy"
+				}
+			],
+			"attributeValues": [],
+			"userAccesses": [],
+			"favorites": []
+		},
+		{
+			"lastUpdated": "2020-05-19T12:37:17.517",
+			"id": "I6u65yRc0ct",
+			"created": "2020-05-19T12:37:17.517",
+			"name": "Code (SNOMED)",
+			"shortName": "SNOMED",
+			"indicatorAttribute": false,
+			"indicatorGroupAttribute": false,
+			"publicAccess": "rw------",
+			"userGroupAttribute": false,
+			"dataElementAttribute": false,
+			"constantAttribute": false,
+			"valueType": "TEXT",
+			"categoryOptionAttribute": false,
+			"optionSetAttribute": false,
+			"displayDescription": "SNOMED code",
+			"sqlViewAttribute": false,
+			"legendSetAttribute": false,
+			"displayFormName": "Code (SNOMED)",
+			"trackedEntityAttributeAttribute": true,
+			"organisationUnitAttribute": false,
+			"dataSetAttribute": false,
+			"documentAttribute": false,
+			"unique": true,
+			"validationRuleGroupAttribute": false,
+			"favorite": false,
+			"dataElementGroupAttribute": false,
+			"sectionAttribute": false,
+			"trackedEntityTypeAttribute": false,
+			"userAttribute": false,
+			"displayName": "Code (SNOMED)",
+			"description": "SNOMED code",
+			"mandatory": false,
+			"categoryOptionGroupAttribute": false,
+			"displayShortName": "SNOMED",
+			"externalAccess": false,
+			"programStageAttribute": false,
+			"programAttribute": false,
+			"categoryAttribute": false,
+			"categoryOptionComboAttribute": false,
+			"categoryOptionGroupSetAttribute": false,
+			"validationRuleAttribute": false,
+			"programIndicatorAttribute": false,
+			"organisationUnitGroupAttribute": false,
+			"dataElementGroupSetAttribute": false,
+			"organisationUnitGroupSetAttribute": false,
+			"optionAttribute": false,
+			"access": {
+				"read": true,
+				"update": true,
+				"externalize": true,
+				"delete": true,
+				"write": true,
+				"manage": true
+			},
+			"translations": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-------",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-------",
+					"id": "zBZXkRW0PJy"
+				}
+			],
+			"attributeValues": [],
+			"userAccesses": [],
+			"favorites": []
+		},
+		{
+			"lastUpdated": "2020-05-19T12:39:07.125",
+			"id": "vudyDP7jUy5",
+			"created": "2020-04-29T10:54:23.521",
+			"name": "Data element for aggregate data export",
+			"shortName": "Data element for aggregate data export",
+			"code": "DATA_ELEMENT_AGG",
+			"indicatorAttribute": false,
+			"indicatorGroupAttribute": false,
+			"publicAccess": "rw------",
+			"userGroupAttribute": false,
+			"dataElementAttribute": false,
+			"constantAttribute": false,
+			"valueType": "TEXT",
+			"categoryOptionAttribute": false,
+			"optionSetAttribute": false,
+			"displayDescription": "Data element for aggregate data export",
+			"sqlViewAttribute": false,
+			"legendSetAttribute": false,
+			"displayFormName": "Data element for aggregate data export",
+			"trackedEntityAttributeAttribute": false,
+			"organisationUnitAttribute": false,
+			"dataSetAttribute": false,
+			"documentAttribute": false,
+			"unique": false,
+			"validationRuleGroupAttribute": false,
+			"favorite": false,
+			"dataElementGroupAttribute": false,
+			"sectionAttribute": false,
+			"trackedEntityTypeAttribute": false,
+			"userAttribute": false,
+			"displayName": "Data element for aggregate data export",
+			"description": "Data element for aggregate data export",
+			"mandatory": false,
+			"categoryOptionGroupAttribute": false,
+			"displayShortName": "Data element for aggregate data export",
+			"externalAccess": false,
+			"programStageAttribute": false,
+			"programAttribute": false,
+			"categoryAttribute": false,
+			"categoryOptionComboAttribute": false,
+			"categoryOptionGroupSetAttribute": false,
+			"validationRuleAttribute": false,
+			"programIndicatorAttribute": true,
+			"organisationUnitGroupAttribute": false,
+			"dataElementGroupSetAttribute": false,
+			"organisationUnitGroupSetAttribute": false,
+			"optionAttribute": false,
+			"access": {
+				"read": true,
+				"update": true,
+				"externalize": true,
+				"delete": true,
+				"write": true,
+				"manage": true
+			},
+			"translations": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-------",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-------",
+					"id": "zBZXkRW0PJy"
+				}
+			],
+			"attributeValues": [],
+			"userAccesses": [],
+			"favorites": []
+		}
+	],
 	"categories": [
 		{
 			"attributeValues": [],
@@ -45047,7 +45362,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_CONF_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_CONF_MDR",
 			"created": "2019-05-24T12:11:13.449",
 			"decimals": 0,
@@ -45168,7 +45490,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_CONF_RRMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_CONF_RRMDR",
 			"created": "2020-05-02T15:45:22.727",
 			"decimals": 0,
@@ -45290,7 +45619,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_04F",
 			"created": "2020-05-06T11:30:58.408",
 			"decimals": 0,
@@ -45412,7 +45748,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_04M",
 			"created": "2020-05-06T11:29:43.191",
 			"decimals": 0,
@@ -45534,7 +45877,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_1524F",
 			"created": "2017-11-25T22:17:58.568",
 			"decimals": 0,
@@ -45656,7 +46006,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_1524M",
 			"created": "2017-11-25T22:17:58.568",
 			"decimals": 0,
@@ -45778,7 +46135,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_2534F",
 			"created": "2020-05-06T11:37:04.659",
 			"decimals": 0,
@@ -45900,7 +46264,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_2534M",
 			"created": "2020-05-06T11:36:35.384",
 			"decimals": 0,
@@ -46022,7 +46393,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_3544F",
 			"created": "2020-05-06T11:39:47.100",
 			"decimals": 0,
@@ -46144,7 +46522,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_3544M",
 			"created": "2020-05-06T11:37:39.159",
 			"decimals": 0,
@@ -46266,7 +46651,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_4554F",
 			"created": "2020-05-06T11:41:04.058",
 			"decimals": 0,
@@ -46388,7 +46780,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_4554M",
 			"created": "2020-05-06T11:40:40.743",
 			"decimals": 0,
@@ -46510,7 +46909,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_514F",
 			"created": "2017-11-25T22:17:58.568",
 			"decimals": 0,
@@ -46632,7 +47038,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_514M",
 			"created": "2017-11-25T22:17:58.568",
 			"decimals": 0,
@@ -46754,7 +47167,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_5564F",
 			"created": "2020-05-06T11:42:05.790",
 			"decimals": 0,
@@ -46876,7 +47296,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_5564M",
 			"created": "2020-05-06T11:41:37.714",
 			"decimals": 0,
@@ -46998,7 +47425,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_65F",
 			"created": "2020-05-06T11:43:19.019",
 			"decimals": 0,
@@ -47120,7 +47554,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_65M",
 			"created": "2020-05-06T11:42:47.918",
 			"decimals": 0,
@@ -47241,7 +47682,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEW_EP",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEW_EP",
 			"created": "2020-05-06T10:58:32.282",
 			"decimals": 0,
@@ -47351,7 +47799,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RDST_NEW",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RDST_NEW",
 			"created": "2018-06-07T09:13:59.286",
 			"decimals": 0,
@@ -47461,7 +47916,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEW_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEW_LABCONF",
 			"created": "2020-05-05T07:23:02.067",
 			"decimals": 0,
@@ -47571,7 +48033,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEW_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEW_CLINDX",
 			"created": "2017-11-25T21:41:25.716",
 			"decimals": 0,
@@ -47686,7 +48155,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_UNCONF_RRMDR_TX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_UNCONF_RRMDR_TX",
 			"created": "2020-05-02T15:57:43.048",
 			"decimals": 0,
@@ -47809,7 +48285,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_COH",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -47937,7 +48420,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_COH",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -48068,7 +48558,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_COH",
 			"created": "2020-05-02T16:12:08.047",
 			"decimals": 0,
@@ -48189,7 +48686,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_COH",
 			"created": "2019-05-24T12:25:49.428",
 			"decimals": 0,
@@ -48310,7 +48814,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_COH",
 			"created": "2019-05-24T12:27:49.942",
 			"decimals": 0,
@@ -48431,7 +48942,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_COH",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -48559,7 +49077,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV_COH",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_COH",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -48686,7 +49211,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_CUR",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -48808,7 +49340,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_CUR",
 			"created": "2019-05-24T12:30:17.501",
 			"decimals": 0,
@@ -48930,7 +49469,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_CUR",
 			"created": "2019-05-24T12:36:13.437",
 			"decimals": 0,
@@ -49052,7 +49598,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_CUR",
 			"created": "2019-05-24T12:41:33.185",
 			"decimals": 0,
@@ -49174,7 +49727,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_CUR",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -49296,7 +49856,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_CUR",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -49418,7 +49985,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_DIED",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -49540,7 +50114,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_DIED",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -49662,7 +50243,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_DIED",
 			"created": "2019-05-24T12:31:15.182",
 			"decimals": 0,
@@ -49784,7 +50372,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_DIED",
 			"created": "2019-05-24T12:37:43.766",
 			"decimals": 0,
@@ -49906,7 +50501,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_DIED",
 			"created": "2019-05-24T12:51:34.046",
 			"decimals": 0,
@@ -50027,7 +50629,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_DIED",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -50149,7 +50758,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_DIED",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -50271,7 +50887,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_LOST",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -50393,7 +51016,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_LOST",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -50515,7 +51145,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_LOST",
 			"created": "2019-05-24T12:31:56.708",
 			"decimals": 0,
@@ -50637,7 +51274,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_LOST",
 			"created": "2019-05-24T12:38:18.338",
 			"decimals": 0,
@@ -50759,7 +51403,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_LOST",
 			"created": "2019-05-24T12:52:06.922",
 			"decimals": 0,
@@ -50881,7 +51532,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_LOST",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51003,7 +51661,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_LOST",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51125,7 +51790,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_NEVAL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51247,7 +51919,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_NEVAL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51369,7 +52048,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_NEVAL",
 			"created": "2019-05-24T12:32:45.875",
 			"decimals": 0,
@@ -51491,7 +52177,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_NEVAL",
 			"created": "2019-05-24T12:38:59.888",
 			"decimals": 0,
@@ -51613,7 +52306,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_NEVAL",
 			"created": "2019-05-24T12:52:32.494",
 			"decimals": 0,
@@ -51735,7 +52435,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_NEVAL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51857,7 +52564,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_NEVAL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -51979,7 +52693,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_CMPLT",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -52101,7 +52822,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_CMPLT",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -52223,7 +52951,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_CMPLT",
 			"created": "2019-05-24T12:33:36.564",
 			"decimals": 0,
@@ -52345,7 +53080,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_CMPLT",
 			"created": "2019-05-24T12:39:35.151",
 			"decimals": 0,
@@ -52467,7 +53209,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_CMPLT",
 			"created": "2019-05-24T12:53:08.110",
 			"decimals": 0,
@@ -52589,7 +53338,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_CMPLT",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -52711,7 +53467,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_CMPLT",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -52833,7 +53596,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_LABCONF_FAIL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -52955,7 +53725,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_NEWREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_NEWREL_CLINDX_FAIL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -53077,7 +53854,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_MDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_MDR_FAIL",
 			"created": "2019-05-24T12:34:11.040",
 			"decimals": 0,
@@ -53199,7 +53983,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVMDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVMDR_FAIL",
 			"created": "2019-05-24T12:40:15.188",
 			"decimals": 0,
@@ -53321,7 +54112,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_XDR",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_XDR_FAIL",
 			"created": "2019-05-24T12:53:42.905",
 			"decimals": 0,
@@ -53443,7 +54241,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_FAIL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -53565,7 +54370,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_TBHIV",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_TBHIV_FAIL",
 			"created": "2018-01-15T13:15:21.748",
 			"decimals": 0,
@@ -53686,7 +54498,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_CONF_RRMDR_TX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_CONF_RRMDR_TX",
 			"created": "2020-05-02T15:43:14.099",
 			"decimals": 0,
@@ -53807,7 +54626,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_PRESUMPTIVE_TEST",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_PRESUMPTIVE_TEST",
 			"created": "2020-05-06T12:10:36.471",
 			"expression": "V{enrollment_count}",
@@ -53915,7 +54741,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_PRESUMPTIVE_TESTPOS",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_PRESUMPTIVE_TESTPOS",
 			"created": "2020-05-06T12:14:26.025",
 			"expression": "V{enrollment_count}",
@@ -54023,7 +54856,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_LABCONF",
 			"created": "2020-05-05T07:26:54.270",
 			"decimals": 0,
@@ -54133,7 +54973,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL_EP",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_EP",
 			"created": "2020-05-06T10:42:05.731",
 			"decimals": 0,
@@ -54243,7 +55090,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RDST_RET",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RDST_RET",
 			"created": "2018-06-07T09:13:59.286",
 			"decimals": 0,
@@ -54353,7 +55207,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_NREL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_NREL_CLINDX",
 			"created": "2017-11-25T21:41:25.716",
 			"decimals": 0,
@@ -54468,7 +55329,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_REL_EP",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_REL_EP",
 			"created": "2020-05-06T11:08:53.569",
 			"decimals": 0,
@@ -54578,7 +55446,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_REL_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_REL_LABCONF",
 			"created": "2020-05-05T07:25:19.846",
 			"decimals": 0,
@@ -54688,7 +55563,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RET_REL_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RET_REL_CLINDX",
 			"created": "2020-05-06T10:54:21.507",
 			"decimals": 0,
@@ -54803,7 +55685,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIV_ART",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIV_ART",
 			"created": "2017-11-25T22:28:35.865",
 			"decimals": 0,
@@ -54918,7 +55807,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVTEST_POS",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVTEST_POS",
 			"created": "2017-11-25T22:28:35.865",
 			"decimals": 0,
@@ -55033,7 +55929,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_HIVTEST",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_HIVTEST",
 			"created": "2020-05-02T17:54:38.912",
 			"decimals": 0,
@@ -55143,7 +56046,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_OTH_EP",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_OTH_EP",
 			"created": "2017-11-25T21:41:25.716",
 			"decimals": 0,
@@ -55258,7 +56168,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_RDST_UNK",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_RDST_UNK",
 			"created": "2018-06-07T09:13:59.286",
 			"decimals": 0,
@@ -55368,7 +56285,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_OTH_LABCONF",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_OTH_LABCONF",
 			"created": "2020-05-05T07:28:05.917",
 			"decimals": 0,
@@ -55478,7 +56402,14 @@
 				}
 			],
 			"analyticsType": "ENROLLMENT",
-			"attributeValues": [],
+            "attributeValues": [
+                {
+                    "value": "TB_OTH_CLINDX",
+                    "attribute": {
+                        "id": "vudyDP7jUy5"
+                    }
+                }
+            ],
 			"code": "TB_OTH_CLINDX",
 			"created": "2017-11-25T21:41:25.716",
 			"decimals": 0,
@@ -85053,6 +85984,226 @@
 				"id": "Lt6P15ps7f6"
 			},
 			"sortOrder": 2
+		}
+	],
+	"trackedEntityTypes": [
+		{
+			"allowAuditLog": false,
+			"attributeValues": [],
+			"code": "Person",
+			"created": "2017-11-01T00:00:00.000",
+			"description": "Person",
+			"featureType": "NONE",
+			"id": "MCPQUTHX1Ze",
+			"lastUpdated": "2020-08-04T08:29:27.489",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Person",
+			"publicAccess": "--------",
+			"trackedEntityTypeAttributes": [
+				{
+					"lastUpdated": "2020-08-04T13:48:17.292",
+					"id": "gqLw62UZlrD",
+					"created": "2019-05-07T05:43:04.188",
+					"name": "Person Family name",
+					"displayName": "Person Family name",
+					"displayShortName": "Person Family name",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": true,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "aW66s2QSosT"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.295",
+					"id": "hKZ9AJpnVcG",
+					"created": "2019-05-07T05:43:04.188",
+					"name": "Person Given name",
+					"displayName": "Person Given name",
+					"displayShortName": "Person Given name",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": true,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "TfdH5KvFmMy"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.296",
+					"id": "gUjhWYex6uQ",
+					"created": "2020-08-04T13:39:42.367",
+					"name": "Person National ID",
+					"displayName": "Person National ID",
+					"displayShortName": "Person National ID",
+					"externalAccess": false,
+					"valueType": "TEXT",
+					"searchable": false,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "Ewi7FUfcHAD"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				},
+				{
+					"lastUpdated": "2020-08-04T13:48:17.296",
+					"id": "caj7qW3sAth",
+					"created": "2020-08-04T13:48:17.240",
+					"name": "Person Date of birth (age)",
+					"displayName": "Person Date of birth (age)",
+					"displayShortName": "Person DoB (age)",
+					"externalAccess": false,
+					"valueType": "AGE",
+					"searchable": false,
+					"displayInList": true,
+					"favorite": false,
+					"access": {
+						"read": true,
+						"update": true,
+						"externalize": true,
+						"delete": true,
+						"write": true,
+						"manage": true
+					},
+					"trackedEntityAttribute": {
+						"id": "mAWcalQYYyk"
+					},
+					"trackedEntityType": {
+						"id": "MCPQUTHX1Ze"
+					},
+					"favorites": [],
+					"translations": [],
+					"userGroupAccesses": [],
+					"attributeValues": [],
+					"userAccesses": []
+				}
+			],
+			"translations": [
+				{
+					"locale": "es",
+					"property": "DESCRIPTION",
+					"value": "Persona"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Persona"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Personne"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Personne"
+				},
+				{
+					"locale": "nb",
+					"property": "DESCRIPTION",
+					"value": "Person"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Person"
+				},
+				{
+					"locale": "uz",
+					"property": "DESCRIPTION",
+					"value": "Шахс"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Шахс"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "DESCRIPTION",
+					"value": "Shaxs"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "Shaxs"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "pyu2ZlNKbzQ"
+				},
+				{
+					"access": "rw------",
+					"id": "Ubzlyfqm1gO"
+				},
+				{
+					"access": "r-rw----",
+					"id": "UKWx4jJcrKt"
+				},
+				{
+					"access": "r-rw----",
+					"id": "zBZXkRW0PJy"
+				}
+			]
 		}
 	],
     "trackedEntityTypeAttributes": [
