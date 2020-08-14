@@ -59156,7 +59156,7 @@
     ],
     "programRuleActions": [
         {
-            "content": "A patient who dies for any reason during the course of treatment.",
+            "content": "Un patient qui meurt pour une raison quelconque au cours du traitement.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -59459,7 +59459,7 @@
         {
             "content": "#{ClassificationVariable}",
             "created": "2019-03-05T07:38:13.508",
-            "data": "Clinically diagnosed",
+            "data": "diagnostiqué cliniquement",
             "id": "wLnqM7EbSDI",
             "lastUpdated": "2020-07-24T12:04:37.890",
             "programRule": {
@@ -59505,7 +59505,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a patient’s date of birth that is in the future. Date of birth cannot be after today’s date. Please review this date.",
+            "content": "Vous avez saisi une date de naissance du patient qui est dans le futur. La date de naissance ne peut pas être postérieure à la date d'aujourd'hui. Veuillez vérifier cette date.",
             "created": "2017-11-27T10:08:07.244",
             "id": "SuWFN2aDYNE",
             "lastUpdated": "2020-06-15T09:34:24.683",
@@ -59530,7 +59530,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "A pulmonary TB patient with bacteriologically confirmed TB at the beginning of treatment who was smear- or culture-negative in the last month of treatment and on at least one previous occasion.",
+            "content": "Un patient atteint de TB pulmonaire chez qui l’affection a été confirmée bactériologiquement en début de traitement qui présente des résultats négatifs selon l’examen des frottis ou la mise en culture au cours du dernier mois de traitement et au moins une fois auparavant.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -59543,7 +59543,7 @@
             "programRuleActionType": "SHOWWARNING"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "bXaGYMAnfNH"
@@ -59602,7 +59602,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered an HIV status date that is before the patient’s date of birth. HIV status date must be on or after date of birth. Please check both dates.",
+            "content": "Vous avez saisi une date de statut VIH antérieure à la date de naissance du patient. La date de statut VIH doit être égale ou postérieure à la date de naissance. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "V6RVBzCr3Kl"
@@ -59693,7 +59693,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Resistance",
+            "content": "Résistance",
             "created": "2017-11-24T15:02:26.906",
             "data": "d2:concatenate(#{DSTresR}, #{DSTresH}, #{DSTresHCC}, #{DSTresHCB}, #{DSTresZ}, #{DSTresE}, #{DSTresLfx}, #{DSTresMfxCC}, #{DSTresMfxCB}, #{DSTresAm}, #{DSTresBdq}, #{DSTresDlm}, #{DSTresLzd}, #{DSTresCfz}, #{DSTresKm}, #{DSTresAmCm}, #{DSTresFQ})",
             "id": "WRcWFDmU56r",
@@ -59707,7 +59707,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:39:15.277",
-            "data": "Mono Res",
+            "data": "Mono rés",
             "id": "JpPOyW2H4eA",
             "lastUpdated": "2020-03-20T18:30:26.211",
             "programRule": {
@@ -59741,7 +59741,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "The HIV status date is more than 6 months old. Consider retesting for HIV.",
+            "content": "Le statut VIH date de plus de six mois. Envisagez de tester à nouveau pour le VIH",
             "created": "2020-02-07T16:31:15.734",
             "id": "psb9MEBkzOY",
             "lastUpdated": "2020-06-15T06:50:37.203",
@@ -59815,7 +59815,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:39:15.277",
-            "data": "DR",
+            "data": "PR",
             "id": "pCPE2wePTwe",
             "lastUpdated": "2020-08-03T10:54:23.543",
             "programRule": {
@@ -59935,7 +59935,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Previously treated patients have received 1 month or more of anti-TB drugs in the past. Other previously treated patients are those who have previously been treated for TB but whose outcome after their most recent course of treatment is unknown or undocumented.",
+            "content": "Les patients déjà traités ont reçu dans le passé un traitement antituberculeux pendant un mois ou plus. Les autres patients déjà traités sont ceux qui ont déjà reçu un traitement antituberculeux, mais chez qui les résultats du dernier traitement sont soit inconnus soit non documentés.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -59974,7 +59974,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Drug resistance is detected, but patient is on first-line treatment.",
+            "content": "Une résistance aux médicaments est détectée, mais le patient est sous traitement de première intention.",
             "created": "2017-11-24T15:25:34.360",
             "id": "c5Db3YL076v",
             "lastUpdated": "2020-06-15T09:34:26.072",
@@ -60000,7 +60000,7 @@
             "programRuleActionType": "HIDEOPTION"
         },
         {
-            "content": "Resistance classification",
+            "content": "Classification de résistance",
             "created": "2017-11-24T14:41:03.494",
             "data": "#{CaseClassification}",
             "id": "LjLZajC2jAX",
@@ -60104,7 +60104,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "D4z4o6JR9M0"
@@ -60129,7 +60129,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "vezbpFOckNI"
@@ -60166,7 +60166,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Only two treatment events can be added. Please delete the last event.",
+            "content": "Seulement deux événements de traitement peuvent être ajoutés. Veuillez supprimer le dernier événement.",
             "created": "2019-03-06T15:14:13.123",
             "id": "dInzZpCJ6yx",
             "lastUpdated": "2020-06-15T16:09:29.426",
@@ -60189,7 +60189,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "wi4NRarMSuv"
@@ -60202,7 +60202,7 @@
             "programRuleActionType": "SHOWERROR"
         },
         {
-            "content": "You entered an ART start date that is before the patient’s date of birth. ART start date must be on or after date of birth. Please check both dates.",
+            "content": "Vous avez saisi une date de début de TAR antérieure à la date de naissance du patient. La date de début du TAR doit être égale ou postérieure à la date de naissance. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "WrG6slZ7nlG"
@@ -60226,7 +60226,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a date for this section that is before the date of diagnosis. This date must be after the date of diagnosis. Please check both dates.",
+            "content": "Vous avez saisi une date pour cette section qui est antérieure à la date du diagnostic. Cette date doit être postérieure à la date du diagnostic. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "id": "huVkT7Za2Kn",
             "lastUpdated": "2020-06-15T09:34:17.274",
@@ -60272,7 +60272,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:34:21.217",
-            "data": "DS",
+            "data": "PS",
             "id": "RvzI3vv53kj",
             "lastUpdated": "2020-08-03T10:54:56.146",
             "programRule": {
@@ -60341,7 +60341,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered an ART start date that is before the HIV status date. ART start date must be on or after HIV status date. Please check both dates.",
+            "content": "Vous avez saisi une date de début de TAR antérieure à la date de statut VIH. La date de début du TAR doit être égale ou postérieure à la date de statut VIH. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "WrG6slZ7nlG"
@@ -60391,7 +60391,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "A TB patient whose sputum smear or culture is positive at month 5 or later during treatment.",
+            "content": "Un patient atteint de TB avec un résultat positif selon l’examen des frottis ou la mise en culture à 5 mois de traitement ou plus tard.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -60462,7 +60462,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "A patient whose treatment was interrupted for 2 consecutive months or more.",
+            "content": "Un patient dont le traitement a été interrompu pendant deux mois consécutifs ou plus.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -60490,7 +60490,7 @@
             "programRuleActionType": "HIDEOPTION"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "mFCcHXpopRD"
@@ -60538,7 +60538,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "New patients have never been treated for TB or have taken anti-TB drugs for less than 1 month.",
+            "content": "Les nouveaux patients n’ont jamais reçu de traitement antituberculeux ou ont suivi un tel traitement depuis moins d’un mois.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -60623,7 +60623,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Patient's age (years)",
+            "content": "Âge du patient (ans)",
             "created": "2020-01-20T10:28:20.075",
             "data": "d2:yearsBetween(A{DateBirth}, V{current_date})",
             "id": "ReknKIeNt9t",
@@ -60647,7 +60647,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "xagezRGPgQo"
@@ -60741,7 +60741,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a date without specifying the treatment regimen. Please select a treatment regimen.",
+            "content": "Vous avez saisi une date sans préciser le schéma thérapeutique. Veuillez sélectionner un schéma de traitement.",
             "created": "2020-06-15T07:09:12.093",
             "id": "lIhvSUFXYjh",
             "lastUpdated": "2020-06-15T07:20:13.846",
@@ -60828,7 +60828,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Patient's age cannot be greater than 120 years.",
+            "content": "L'âge du patient ne peut pas être supérieur à 120 ans.",
             "created": "2017-11-27T10:08:07.244",
             "id": "SpncCCOOZJn",
             "lastUpdated": "2020-06-15T10:28:02.940",
@@ -60854,7 +60854,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Previously treated patients have received 1 month or more of anti-TB drugs in the past. Treatment after loss to follow-up patients have previously been treated for TB and were declared lost to follow-up at the end of their most recent course of treatment. (These were previously known as treatment after default patients.",
+            "content": "Les patients déjà traités ont reçu dans le passé un traitement antituberculeux pendant un mois ou plus. Les patients traités après avoir été perdus de vue ont déjà reçu un traitement antituberculeux et ont été déclarés Perdus de vue à l’issue de leur dernier traitement. (On parlait auparavant de patients traités après interruption).",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -60940,7 +60940,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "qhbOlKrEPzT"
@@ -61020,7 +61020,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2020-03-20T22:47:08.904",
-            "data": "MDR",
+            "data": "MR",
             "id": "HHlIYEJVpId",
             "lastUpdated": "2020-04-13T11:04:08.839",
             "programRule": {
@@ -61041,7 +61041,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Previously treated patients have received 1 month or more of anti-TB drugs in the past. Treatment after failure patients are those who have previously been treated for TB and whose treatment failed at the end of their most recent course of treatment.",
+            "content": "Les patients déjà traités ont reçu dans le passé un traitement antituberculeux pendant un mois ou plus. Les patients traités après échec ont déjà reçu un traitement antituberculeux et été déclarés Échec thérapeutique à l'issue de leur dernier traitement.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -61177,7 +61177,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2020-03-20T22:47:08.904",
-            "data": "RR/MDR",
+            "data": "RR/MR",
             "id": "zfyhVdZFp5X",
             "lastUpdated": "2020-07-24T12:03:54.298",
             "programRule": {
@@ -61199,7 +61199,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:39:35.434",
-            "data": "MDR",
+            "data": "MR",
             "id": "n4KYOXaaOqB",
             "lastUpdated": "2020-03-20T18:25:39.641",
             "programRule": {
@@ -61219,7 +61219,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Treatment regimen",
+            "content": "Schéma de traitement",
             "created": "2019-03-06T19:37:40.184",
             "data": "#{TreatmentRegimenVariable}",
             "id": "HOO2QadEe6M",
@@ -61352,7 +61352,7 @@
         {
             "content": "#{HIV_STATUS}",
             "created": "2020-05-22T08:06:41.144",
-            "data": "Positive",
+            "data": "Positif",
             "id": "Jy0pog8vdoQ",
             "lastUpdated": "2020-05-22T08:06:41.144",
             "programRule": {
@@ -61361,7 +61361,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "A TB patient who dies for any reason before starting or during the course of treatment.",
+            "content": "Un patient atteint de TB qui meurt pour une raison quelconque au cours du traitement ou avant de l’avoir commencé.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -61401,7 +61401,7 @@
         {
             "content": "#{TreatmentRegimenVariable}",
             "created": "2019-03-06T19:38:22.461",
-            "data": "First-line Treatment",
+            "data": "Traitement de première intention",
             "id": "TIngg63AfKM",
             "lastUpdated": "2020-02-21T16:05:49.951",
             "programRule": {
@@ -61410,7 +61410,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Drug resistance is not confirmed, but patient is on second-line treatment.",
+            "content": "La résistance aux médicaments n'est pas confirmée, mais le patient est sous traitement de deuxième intention.",
             "created": "2017-11-25T21:26:33.608",
             "id": "Cd8k7sekBfo",
             "lastUpdated": "2020-06-15T11:06:01.911",
@@ -61445,7 +61445,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a date without specifying the outcome. Please select a treatment outcome or select denotify if this is not a TB case.",
+            "content": "Vous avez saisi une date sans préciser le résultat. Veuillez sélectionner un résultat de traitement ou sélectionner dénotifier s'il ne s'agit pas d'un cas de TB.",
             "created": "2018-06-17T20:21:51.834",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -61528,7 +61528,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "xyczZvsuaWr"
@@ -61615,7 +61615,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Laboratory test was carried out and MTB was not detected.",
+            "content": "Test de laboratoire a été effectué et le MTB n'a pas été détecté.",
             "created": "2018-06-10T10:04:23.433",
             "id": "ni1I0sePM4x",
             "lastUpdated": "2020-06-15T09:34:22.473",
@@ -61626,7 +61626,7 @@
             "programRuleActionType": "DISPLAYTEXT"
         },
         {
-            "content": "If the month and day of birth are unknown: set the month to January and the day to 1. If the month is known, but the day of birth is unknown: set the day to 1.",
+            "content": "Si le mois et le jour de naissance sont inconnus : choisissez Janvier comme mois et le 1er comme jour. Si le mois est connu et seul le jour de naissance est inconnu : sélectionnez le 1er jour du mois.",
             "created": "2020-05-19T08:10:18.113",
             "id": "kDOhBYv8V2x",
             "lastUpdated": "2020-07-07T14:11:11.878",
@@ -61641,7 +61641,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2020-03-20T22:47:08.904",
-            "data": "DS",
+            "data": "PS",
             "id": "Z2MTriJwS2c",
             "lastUpdated": "2020-04-13T11:04:05.725",
             "programRule": {
@@ -61723,7 +61723,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Patients with unknown previous TB treatment history do not fit into any of the categories listed.",
+            "content": "Les patients sans antécédents connus de traitement antituberculeux ne rentrent dans aucune des catégories listées.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -61870,7 +61870,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Previously treated patients have received 1 month or more of anti-TB drugs in the past. Relapse patients have previously been treated for TB, were declared cured or treatment completed at the end of their most recent course of treatment, and are now diagnosed with a recurrent episode of TB (either a true relapse or a new episode of TB caused by reinfection).",
+            "content": "Les patients déjà traités ont reçu dans le passé un traitement antituberculeux pendant un mois ou plus. Les patients en rechute ont déjà reçu un traitement antituberculeux, ont été, à la fin de leur dernier traitement, classés dans la catégorie Guérison ou Traitement terminé, et sont aujourd’hui diagnostiqués comme présentant un épisode récurrent de TB (rechute proprement dite ou nouvel épisode de TB dû à une réinfection).",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "cv1d5PIjzGb"
@@ -61956,7 +61956,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2020-03-20T22:47:08.904",
-            "data": "XDR",
+            "data": "UR",
             "id": "q9umUGVr7Gn",
             "lastUpdated": "2020-04-13T11:04:13.633",
             "programRule": {
@@ -62094,7 +62094,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Positive smear result recorded for extrapulmonary TB. Please double check the reported \"Site of disease\". If the site of disease is correct, you can ignore this message.",
+            "content": "Résultat de frottis positif enregistré pour la TB extrapulmonaire. Veuillez vérifier le «Site de la maladie» signalé. Si le site de la maladie est correct, vous pouvez ignorer ce message.",
             "created": "2018-06-11T11:17:15.057",
             "id": "raDNDsqucWq",
             "lastUpdated": "2020-06-15T11:31:00.061",
@@ -62105,7 +62105,7 @@
             "programRuleActionType": "DISPLAYTEXT"
         },
         {
-            "content": "When laboratory test results are available please enter them in the “Laboratory Results” section.",
+            "content": "Lorsque les résultats des tests de laboratoire sont disponibles, veuillez les saisir dans la section «Résultats de laboratoire».",
             "created": "2020-02-07T16:31:15.734",
             "id": "Xo5hBo3tgmE",
             "lastUpdated": "2020-06-15T07:02:22.839",
@@ -62210,7 +62210,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "A TB patient who dies for any reason before starting or during the course of treatment.",
+            "content": "Un patient atteint de TB qui meurt pour une raison quelconque au cours du traitement ou avant de l’avoir commencé.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -62435,7 +62435,7 @@
             "programRuleActionType": "HIDEOPTION"
         },
         {
-            "content": "Months since diagnosis",
+            "content": "Mois depuis le diagnostic",
             "created": "2020-04-03T11:05:31.239",
             "data": "#{MONTHS_SINCE_ENROLLMENT}",
             "id": "QiySL6KLt6A",
@@ -62507,7 +62507,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "A TB patient who did not start treatment or whose treatment was interrupted for 2 consecutive months or more.",
+            "content": "Un patient atteint de TB qui n’a pas entamé de traitement ou celui-ci a été interrompu pendant deux mois consécutifs ou plus.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -62532,7 +62532,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a date without specifying the treatment regimen. Please select a treatment regimen.",
+            "content": "Vous avez saisi une date sans préciser le schéma thérapeutique. Veuillez sélectionner un schéma de traitement.",
             "created": "2018-06-17T20:21:51.834",
             "dataElement": {
                 "id": "s84QVMsGP0W"
@@ -62640,7 +62640,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a patient’s date of birth that is after the date of diagnosis. Date of birth cannot be after the date of diagnosis. Please review both dates.",
+            "content": "Vous avez saisi une date de naissance du patient postérieure à la date du diagnostic. La date de naissance ne peut pas être postérieure à la date du diagnostic. Veuillez vérifier les deux dates.",
             "created": "2017-11-27T10:08:07.244",
             "id": "PWEfnhfDPCO",
             "lastUpdated": "2020-06-15T09:34:23.185",
@@ -62655,7 +62655,7 @@
         {
             "content": "#{HIV_STATUS}",
             "created": "2020-05-22T08:06:41.144",
-            "data": "Unknown",
+            "data": "Inconnu",
             "id": "ZZk6M4wlpab",
             "lastUpdated": "2020-08-03T11:03:53.567",
             "programRule": {
@@ -62701,7 +62701,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "A patient for whom no treatment outcome is assigned. (This includes cases “transferred out” to another treatment unit and whose treatment outcome is unknown)",
+            "content": "Un patient à qui aucun résultat thérapeutique n’a été assigné. (Y compris les cas «Transférés» vers une autre unité de traitement et ceux dont le résultat thérapeutique n'est pas connu)",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -62762,7 +62762,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "uEV8flIOeYI"
@@ -62960,7 +62960,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "TX30Ikr7clr"
@@ -62996,7 +62996,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "The HIV status date is more than 6 months old. Consider retesting for HIV.",
+            "content": "Le statut VIH date de plus de six mois. Envisagez de tester à nouveau pour le VIH",
             "created": "2020-02-07T13:50:16.355",
             "dataElement": {
                 "id": "V6RVBzCr3Kl"
@@ -63035,7 +63035,7 @@
         {
             "content": "#{HIV_STATUS}",
             "created": "2020-05-22T08:06:41.144",
-            "data": "Negative",
+            "data": "Négatif",
             "id": "YtA5EF2BXss",
             "lastUpdated": "2020-05-22T08:07:06.821",
             "programRule": {
@@ -63055,7 +63055,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Patient's age (months)",
+            "content": "Âge du patient (mois)",
             "created": "2020-01-20T10:28:20.075",
             "data": "d2:monthsBetween(A{DateBirth}, V{current_date})",
             "id": "Fptim25YIAp",
@@ -63138,7 +63138,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a date without specifying the outcome. Please select a treatment outcome or select denotify if this is not a TB case.",
+            "content": "Vous avez saisi une date sans préciser le résultat. Veuillez sélectionner un résultat de traitement ou sélectionner dénotifier s'il ne s'agit pas d'un cas de TB.",
             "created": "2020-06-15T07:09:12.093",
             "id": "aP3d8eNuhyR",
             "lastUpdated": "2020-06-15T07:09:12.093",
@@ -63149,7 +63149,7 @@
             "programRuleActionType": "DISPLAYTEXT"
         },
         {
-            "content": "HIV status is unknown. Consider testing for HIV.",
+            "content": "Le statut VIH est inconnu. Envisagez de tester pour le VIH.",
             "created": "2017-11-24T12:46:20.584",
             "dataElement": {
                 "id": "ehtg3U5qmuI"
@@ -63259,7 +63259,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "BMBQRUWGC96"
@@ -63498,7 +63498,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Only one regimen change allowed per enrollment",
+            "content": "Un seul changement de régime autorisé par inscription",
             "created": "2019-03-06T15:08:46.470",
             "id": "DO0B4COiEDh",
             "lastUpdated": "2020-06-15T16:09:29.426",
@@ -63532,7 +63532,7 @@
             }
         },
         {
-            "content": "Treatment completed as recommended by the national policy without evidence of failure BUT no record that three or more consecutive cultures taken at least 30 days apart are negative after the intensive phase. For Treatment failed, lack of conversion by the end of the intensive phase implies that the patient does not convert within the maximum duration of intensive phase applied by the programme. If no maximum duration is defined, an 8-month cut-off is proposed. For regimens without a clear distinction between intensive and continuation phases, a cut-off 8 months after the start of treatment is suggested to determine when the criteria for Cured, Treatment completed and Treatment failed start to apply.",
+            "content": "Le traitement a été terminé conformément aux recommandations nationales, sans signe d’échec MAIS rien n’indique qu’après la phase intensive trois cultures ou plus aient été réalisées à au moins 30 jours d’intervalle et qu’elles aient produit des résultats négatifs. Pour l'Échec thérapeutique, une absence de conversion avant la fin de la phase intensive implique que le patient ne convertit pas dans la durée maximale de la phase intensive appliquée par le programme. En l’absence de définition de la durée maximale, on propose de fixer ce seuil à huit mois. Pour les schémas thérapeutiques sans distinction claire entre les phases intensive et la phase d'entretien, un seuil de huit mois après le début du traitement est proposé pour déterminer à quel moment les critères de Guérison, de Traitement terminé et d'Échec thérapeutique commencent à s'appliquer.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -63570,7 +63570,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "uFkaH9jzpcp"
@@ -63595,7 +63595,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "When outcome is available enter it in the “Outcome” section.",
+            "content": "Lorsque le résultat est disponible, entrez-le dans la section «Résultat».",
             "created": "2018-06-14T19:41:52.481",
             "id": "vfH40uSUcvp",
             "lastUpdated": "2020-06-15T09:07:32.595",
@@ -63629,7 +63629,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "cQUTagw2Jtw"
@@ -63654,7 +63654,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Treatment terminated or need for permanent regimen change of at least two anti-TB drugs because of: lack of conversion by the end of the intensive phase, or bacteriological reversion in the continuation phase after conversion to negative, or evidence of additional acquired resistance to fluoroquinolones or second-line injectable drugs, or adverse drug reactions (ADRs). For Treatment failed, lack of conversion by the end of the intensive phase implies that the patient does not convert within the maximum duration of intensive phase applied by the programme. If no maximum duration is defined, an 8-month cut-off is proposed. For regimens without a clear distinction between intensive and continuation phases, a cut-off 8 months after the start of treatment is suggested to determine when the criteria for Cured, Treatment completed and Treatment failed start to apply. The terms “conversion” and “reversion” of culture as used here are defined as follows: Conversion (to negative): culture is considered to have converted to negative when two consecutive cultures, taken at least 30 days apart, are found to be negative. In such a case, the specimen collection date of the first negative culture is used as the date of conversion. Reversion (to positive): culture is considered to have reverted to positive when, after an initial conversion, two consecutive cultures, taken at least 30 days apart, are found to be positive. For the purpose of defining Treatment failed, reversion is considered only when it occurs in the continuation phase.",
+            "content": "Il a été mis fin au traitement ou le schéma doit être modifié pour deux antituberculeux au moins, en raison : d’une absence de conversion avant la fin de la phase intensive, ou d’une réversion bactériologique survenant durant la phase d’entretien qui suit la conversion au statut négatif, ou de signes d’acquisition d’une résistance supplémentaire aux fluoroquinolones ou aux médicaments injectables de deuxième intention, ou de réactions indésirables (RI). Pour l'Échec thérapeutique, une absence de conversion avant la fin de la phase intensive implique que le patient ne convertit pas dans la durée maximale de la phase intensive appliquée par le programme. En l’absence de définition de la durée maximale, on propose de fixer ce seuil à huit mois. Pour les schémas dans lesquels la phase intensive et la phase d’entretien ne sont pas clairement distinguées, il est proposé que les critères définitoires des catégories Guérison, Traitement terminé et Échec thérapeutique commencent à s’appliquer huit mois après le début du traitement. Ici, les termes « conversion » et « réversion » sont définis comme suit en rapport avec les cultures : Conversion (au statut négatif) : deux cultures consécutives, réalisées à au moins 30 jours d’intervalle, ont produit des résultats négatifs. On considère alors comme date de conversion la date à laquelle l’échantillon de la première culture négative a été collecté. Réversion (vers un statut positif) : après une conversion initiale, deux cultures consécutives, réalisées à au moins 30 jours d’intervalle, ont produit des résultats positifs. Lorsqu’il s’agit de définir l’Échec thérapeutique, la réversion n’est prise en compte que si elle survient au cours de la phase d’entretien.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -63679,7 +63679,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:39:15.277",
-            "data": "Poly Res",
+            "data": "Poly rés",
             "id": "QKV2EosghES",
             "lastUpdated": "2019-05-23T08:54:38.424",
             "programRule": {
@@ -63750,7 +63750,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates.",
+            "content": "Vous avez saisi un résultat de laboratoire d'une date antérieure à la date de prélèvement de l'échantillon. La date des résultats de laboratoire doit être égale ou postérieure à la date de prélèvement de l'échantillon. Veuillez vérifier les deux dates.",
             "created": "2018-06-10T15:26:55.862",
             "dataElement": {
                 "id": "Wg7Df5kgpaF"
@@ -63775,7 +63775,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "A TB patient who completed treatment without evidence of failure BUT with no record to show that sputum smear or culture results in the last month of treatment and on at least one previous occasion were negative, either because tests were not done or because results are unavailable.",
+            "content": "Un patient atteint de TB qui a terminé le traitement sans signe d’échec, MAIS on ne dispose pas de données indiquant que les résultats de l’examen des frottis ou de la mise en culture ont été négatifs au cours du dernier mois de traitement et au moins une fois auparavant, soit parce que les tests n’ont pas été réalisés soit parce que les résultats ne sont pas disponibles.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -63788,7 +63788,7 @@
             "programRuleActionType": "SHOWWARNING"
         },
         {
-            "content": "A TB patient for whom no treatment outcome is assigned. This includes cases “transferred out” to another treatment unit as well as cases for whom the treatment outcome is unknown to the reporting unit.",
+            "content": "Un patient atteint de TB à qui aucun résultat thérapeutique n’a été assigné, y compris les cas « Transférés » vers une autre unité de traitement et ceux dont le résultat thérapeutique n'est pas connu par l'unité chargée de la déclaration.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -63823,7 +63823,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Treatment completed as recommended by the national policy without evidence of failure AND three or more consecutive cultures taken at least 30 days apart are negative after the intensive phase. For Treatment failed, lack of conversion by the end of the intensive phase implies that the patient does not convert within the maximum duration of intensive phase applied by the programme. If no maximum duration is defined, an 8-month cut-off is proposed. For regimens without a clear distinction between intensive and continuation phases, a cut-off 8 months after the start of treatment is suggested to determine when the criteria for Cured, Treatment completed and Treatment failed start to apply.",
+            "content": "Le traitement a été termniné conformément aux recommandations nationales, sans signe d’échec, ET, après la phase intensive, trois cultures ou plus ont été réalisées à au moins 30 jours d’intervalle et elles ont produit des résultats négatifs. Pour l'Échec thérapeutique, une absence de conversion avant la fin de la phase intensive implique que le patient ne convertit pas dans la durée maximale de la phase intensive appliquée par le programme. En l’absence de définition de la durée maximale, on propose de fixer ce seuil à huit mois. Pour les schémas dans lesquels la phase intensive et la phase d’entretien ne sont pas clairement distinguées, il est proposé que les critères définitoires des catégories Guérison, Traitement terminé et Échec thérapeutique commencent à s’appliquer huit mois après le début du traitement.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -63861,7 +63861,7 @@
         {
             "content": "#{CaseClassification}",
             "created": "2017-11-24T14:40:03.460",
-            "data": "XDR",
+            "data": "UR",
             "id": "m4j4P1TKBIi",
             "lastUpdated": "2020-03-03T12:53:59.525",
             "programRule": {
@@ -63872,7 +63872,7 @@
         {
             "content": "#{TreatmentRegimenVariable}",
             "created": "2019-03-06T19:38:22.461",
-            "data": "Second-line Treatment",
+            "data": "Traitement de deuxième intention",
             "id": "S2C3FfiVLu8",
             "lastUpdated": "2020-02-21T16:06:18.926",
             "programRule": {
@@ -64097,7 +64097,7 @@
             "programRuleActionType": "ASSIGN"
         },
         {
-            "content": "Case classification",
+            "content": "Classification des cas",
             "created": "2019-03-05T07:34:03.102",
             "data": "#{ClassificationVariable}",
             "id": "BSYjDM4RShK",
@@ -64133,7 +64133,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "HIV Status",
+            "content": "Statut VIH",
             "created": "2020-05-22T08:04:30.490",
             "data": "#{HIV_STATUS}",
             "id": "bTi4XdOKwg3",
@@ -64304,7 +64304,7 @@
         {
             "content": "#{ClassificationVariable}",
             "created": "2019-03-05T07:38:41.700",
-            "data": "Bacteriologically confirmed",
+            "data": "confirmé bactériologiquement",
             "id": "CY8AbPIVGFg",
             "lastUpdated": "2020-05-20T08:23:20.419",
             "programRule": {
@@ -64359,7 +64359,7 @@
             }
         },
         {
-            "content": "A TB patient who did not start treatment or whose treatment was interrupted for 2 consecutive months or more.",
+            "content": "Un patient atteint de TB qui n’a pas entamé de traitement ou celui-ci a été interrompu pendant deux mois consécutifs ou plus.",
             "created": "2020-03-04T06:51:40.518",
             "dataElement": {
                 "id": "wtZuz8Im69G"
@@ -76983,7 +76983,7 @@
             ]
         },
         {
-            "condition": "d2:hasValue('TreatmentRegimen') && #{TreatmentRegimen} != \"SECOND_LINE_TREATMENT\" && (#{CaseClassification} == \"RR\" || #{CaseClassification} == \"DR\" || #{CaseClassification} == \"MDR\" || #{CaseClassification} == \"XDR\" || #{CaseClassification} == \"Mono Res\" || #{CaseClassification} == \"Poly Res\")",
+            "condition": "d2:hasValue('TreatmentRegimen') && #{TreatmentRegimen} != \"SECOND_LINE_TREATMENT\" && (#{CaseClassification} == \"RR\" || #{CaseClassification} == \"PR\" || #{CaseClassification} == \"MR\" || #{CaseClassification} == \"UR\" || #{CaseClassification} == \"Mono rés\" || #{CaseClassification} == \"Poly rés\")",
             "created": "2017-11-24T15:21:42.304",
             "description": "La résistance aux médicaments est détectée, mais le cas est enregistré au régime de prémier intention ",
             "id": "Biaw9nKhMQr",
@@ -80925,7 +80925,7 @@
             "created": "2016-06-18T10:14:42.810",
             "displayFrontPageList": true,
             "displayIncidentDate": false,
-            "enrollmentDateLabel": "Date of Diagnosis",
+            "enrollmentDateLabel": "Date du diagnostic",
             "expiryDays": 0,
             "featureType": "NONE",
             "id": "Lt6P15ps7f6",
@@ -81440,7 +81440,7 @@
             "description": "Résultats du laboratoire",
             "displayGenerateEventBox": false,
             "enableUserAssignment": false,
-            "executionDateLabel": "Date of sample collection",
+            "executionDateLabel": "Date de prélèvement de l'échantillon",
             "featureType": "NONE",
             "generatedByEnrollmentDate": true,
             "hideDueDate": true,
@@ -85460,9 +85460,9 @@
             },
             "description": "Résultat",
             "displayGenerateEventBox": false,
-            "dueDateLabel": "Expected date of Outcome",
+            "dueDateLabel": "Date prévue du résultat",
             "enableUserAssignment": false,
-            "executionDateLabel": "Date of outcome",
+            "executionDateLabel": "Date du résultat",
             "featureType": "NONE",
             "generatedByEnrollmentDate": true,
             "hideDueDate": false,
@@ -85804,7 +85804,7 @@
             },
             "displayGenerateEventBox": false,
             "enableUserAssignment": false,
-            "executionDateLabel": "Date of data capture in DHIS2",
+            "executionDateLabel": "Date de saisie des données",
             "featureType": "NONE",
             "generatedByEnrollmentDate": false,
             "hideDueDate": true,
@@ -86339,7 +86339,7 @@
             "displayGenerateEventBox": false,
             "dueDateLabel": "Expected date of treatment initiation",
             "enableUserAssignment": false,
-            "executionDateLabel": "Date of treatment initiation",
+            "executionDateLabel": "Date de début du traitement",
             "featureType": "NONE",
             "generatedByEnrollmentDate": true,
             "hideDueDate": true,
@@ -90588,7 +90588,7 @@
         {
             "code": "all_active_enrollments",
             "created": "2020-04-28T14:21:05.903",
-            "description": "This provides a list of all patients registered in the system who are currently being followed for TB (regardless of treatment initiation status and patients waiting for treatment outcome).",
+            "description": "Voici une liste de tous les patients enregistrés dans le système qui sont actuellement suivis pour la TB (quel que soit l'état de l'initiation du traitement, et patients en attente de l'issue du traitement).",
             "enrollmentStatus": "ACTIVE",
             "eventFilters": [
                 {
@@ -90598,7 +90598,7 @@
             "followup": false,
             "id": "DDYEZxtXUoJ",
             "lastUpdated": "2020-06-15T13:20:13.187",
-            "name": "All current TB patients",
+            "name": "Tous les patients TB actuels",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
@@ -90607,7 +90607,7 @@
         {
             "code": "enrollment_pending",
             "created": "2020-06-18T13:12:10.305",
-            "description": "This provides a list of TB patients who have an outcome recorded, but the enrollment has not yet been completed in systems. Please click on the “complete” button in the Enrollment section.",
+            "description": "Voici une liste des patients atteints de TB avec un résultat enregistré, mais pour lesquels l'inscription n'a pas été complêtée dans les systèmes. Veuillez cliquer sur le bouton « compléter » dans la section Inscription.",
             "enrollmentStatus": "ACTIVE",
             "eventFilters": [
                 {
@@ -90623,7 +90623,7 @@
             "followup": false,
             "id": "Q8v3oAYr09t",
             "lastUpdated": "2020-06-19T08:20:43.837",
-            "name": "Enrollment completion pending",
+            "name": "Achèvement de l'inscription en attente",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
@@ -90632,7 +90632,7 @@
         {
             "code": "no_outcome",
             "created": "2020-04-27T16:55:31.785",
-            "description": "This provides a list of TB patients where an outcome is expected, but is not yet entered in the system. Please enter the outcome for these patients.",
+            "description": "Voici une liste de tous les patients atteints de TB pour lesquels un résultat est attendu, mais pas encore saisi dans le système. Veuillez saisir le résultat pour ces patients.",
             "enrollmentStatus": "ACTIVE",
             "eventFilters": [
                 {
@@ -90648,7 +90648,7 @@
             "followup": false,
             "id": "mrhsMwDhxfc",
             "lastUpdated": "2020-06-15T12:44:50.714",
-            "name": "Outcome record missing",
+            "name": "Enregistrement du résultat manquant",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
@@ -90657,7 +90657,7 @@
         {
             "code": "not_started_treatment",
             "created": "2020-04-27T16:08:38.056",
-            "description": "This provides a list of patients who have been diagnosed with TB and who have not yet started treatment. Please follow-up with these patients and start treatment.",
+            "description": "Voici une liste de tous les patients qui ont reçu un diagnostic de TB et qui n'ont pas encore commencé le traitement. Veuillez faire un suivi avec ces patients et commencer le traitement.",
             "enrollmentStatus": "ACTIVE",
             "eventFilters": [
                 {
@@ -90673,7 +90673,7 @@
             "followup": false,
             "id": "xOeDy8UoNoL",
             "lastUpdated": "2020-06-15T12:43:47.328",
-            "name": "Treatment initiation pending",
+            "name": "Début du traitement en attente",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
