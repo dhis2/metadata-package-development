@@ -25918,124 +25918,6 @@
             ]
         }
     ],
-    "mapViews": [
-        {
-            "attributeDimensions": [],
-            "categoryDimensions": [],
-            "categoryOptionGroupSetDimensions": [],
-            "classes": 3,
-            "colorScale": "#fff7bc,#fec44f,#d95f0e",
-            "columnDimensions": [
-                "dx"
-            ],
-            "created": "2020-07-30T09:14:45.091",
-            "dataDimensionItems": [
-                {
-                    "dataDimensionItemType": "PROGRAM_INDICATOR",
-                    "programIndicator": {
-                        "id": "svi5rSf4zNR"
-                    }
-                }
-            ],
-            "dataElementDimensions": [],
-            "endDate": "2020-07-30T00:00:00.000",
-            "eventClustering": false,
-            "eventPointRadius": 0,
-            "filterDimensions": [
-                "pe"
-            ],
-            "id": "oHYntYlPiWw",
-            "itemOrganisationUnitGroups": [],
-            "labels": true,
-            "lastUpdated": "2020-07-30T09:14:45.168",
-            "layer": "thematic",
-            "method": 3,
-            "opacity": 0.9,
-            "organisationUnitGroupSetDimensions": [],
-            "organisationUnitLevels": [
-                4
-            ],
-            "organisationUnits": [],
-            "periods": [],
-            "program": {
-                "id": "Lt6P15ps7f6"
-            },
-            "relativePeriods": {
-                "biMonthsThisYear": false,
-                "last12Months": false,
-                "last12Weeks": false,
-                "last14Days": false,
-                "last2SixMonths": false,
-                "last3Days": false,
-                "last3Months": false,
-                "last4BiWeeks": false,
-                "last4Quarters": false,
-                "last4Weeks": false,
-                "last52Weeks": false,
-                "last5FinancialYears": false,
-                "last5Years": false,
-                "last6BiMonths": false,
-                "last6Months": false,
-                "last7Days": false,
-                "lastBimonth": false,
-                "lastBiWeek": false,
-                "lastFinancialYear": false,
-                "lastMonth": false,
-                "lastQuarter": false,
-                "lastSixMonth": false,
-                "lastWeek": false,
-                "lastYear": false,
-                "monthsLastYear": false,
-                "monthsThisYear": false,
-                "quartersLastYear": false,
-                "quartersThisYear": false,
-                "thisBimonth": false,
-                "thisBiWeek": false,
-                "thisDay": false,
-                "thisFinancialYear": false,
-                "thisMonth": false,
-                "thisQuarter": true,
-                "thisSixMonth": false,
-                "thisWeek": false,
-                "thisYear": false,
-                "weeksThisYear": false,
-                "yesterday": false
-            },
-            "renderingStrategy": "SINGLE",
-            "startDate": "2019-07-30T00:00:00.000",
-            "translations": [],
-            "userOrganisationUnit": false,
-            "userOrganisationUnitChildren": false,
-            "userOrganisationUnitGrandChildren": false
-        },
-        {
-            "attributeDimensions": [],
-            "categoryDimensions": [],
-            "categoryOptionGroupSetDimensions": [],
-            "columnDimensions": [],
-            "created": "2020-07-30T09:14:45.084",
-            "dataDimensionItems": [],
-            "dataElementDimensions": [],
-            "eventClustering": false,
-            "eventPointRadius": 0,
-            "filterDimensions": [],
-            "id": "cbG5mnrmwfD",
-            "itemOrganisationUnitGroups": [],
-            "labels": true,
-            "lastUpdated": "2020-07-30T09:14:45.168",
-            "layer": "boundary",
-            "opacity": 1,
-            "organisationUnitGroupSetDimensions": [],
-            "organisationUnitLevels": [],
-            "organisationUnits": [],
-            "periods": [],
-            "renderingStrategy": "SINGLE",
-            "translations": [],
-            "userOrganisationUnit": true,
-            "userOrganisationUnitChildren": true,
-            "userOrganisationUnitGrandChildren": true
-        }
-    ],
     "options": [
         {
             "attributeValues": [],
@@ -41019,7 +40901,7 @@
             "id": "pFhfF6xssTm",
             "lastUpdated": "2020-08-04T08:32:16.149",
             "legendSets": [],
-            "name": "2.42.02 - TB Outcome - Résultats TB - Cas de TB nouveaux et rechutes enregistrés l'année précédente, 0-14 ans, (confirmés bactériologiquement ou diagnostiqués cliniquement, pulmonaire ou extrapulmonaire) - Guérison ou traitement terminé",
+            "name": "2.42.02 - Résultats TB - Cas de TB nouveaux et rechutes enregistrés l'année précédente, 0-14 ans, (confirmés bactériologiquement ou diagnostiqués cliniquement, pulmonaire ou extrapulmonaire) - Guérison ou traitement terminé",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
@@ -56475,7 +56357,7 @@
             "id": "QC5QxnAGu9D",
             "lastUpdated": "2020-08-04T08:31:56.693",
             "legendSets": [],
-            "name": "TB_AGG - Résultat : échec thérapeutique - cas RR et MR confirmés mis sous traitement de deuxième intention (UR exclus)",
+            "name": "TB_AGG - Résultat : échec thérapeutique - cas RR et MR confirmés positifs pour le VIH mis sous traitement de deuxième intention (UR exclus)",
             "program": {
                 "id": "Lt6P15ps7f6"
             },
@@ -57883,7 +57765,7 @@
                 "id": "Lt6P15ps7f6"
             },
             "publicAccess": "--------",
-            "shortName": "TB - rechutes - extrapulmonaire",
+            "shortName": "TB - rechutes, extrapulmonaire",
             "translations": [
                 {
                     "locale": "en",
@@ -58003,7 +57885,7 @@
                 "id": "Lt6P15ps7f6"
             },
             "publicAccess": "--------",
-            "shortName": "TB - rechutes - pulmonaire - bact",
+            "shortName": "TB - rechutes, pulmonaire, bact",
             "translations": [
                 {
                     "locale": "en",
@@ -61992,7 +61874,7 @@
         {
             "content": "#{ConfirmationMethod}",
             "created": "2019-05-21T13:36:20.690",
-            "data": "'CONFIRMATION_BACTERIOLOGICAL'",
+            "data": "CONFIRMATION_BACTERIOLOGICAL",
             "id": "fBvEGT3RygF",
             "lastUpdated": "2020-05-20T08:23:20.419",
             "programRule": {
