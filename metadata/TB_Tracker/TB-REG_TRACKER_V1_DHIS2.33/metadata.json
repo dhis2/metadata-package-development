@@ -71531,7 +71531,7 @@
 			]
 		},
 		{
-			"condition": "!d2:hasValue('NotTB') && !d2:hasValue('Outcome') && V{program_stage_id} == 'UZn8sMwz7Nm'",
+			"condition": "#{NotTB} != true && !d2:hasValue('Outcome') && V{program_stage_id} == 'UZn8sMwz7Nm'",
 			"created": "2018-06-17T20:21:51.845",
 			"id": "nasXvaEoFP8",
 			"lastUpdated": "2020-06-29T13:44:23.834",
@@ -71697,7 +71697,7 @@
 			]
 		},
 		{
-			"condition": "d2:hasValue('NotTB')",
+			"condition": "#{NotTB} == true",
 			"created": "2018-06-17T20:14:09.240",
 			"description": "If the case is marked as \"denotified\", hide the \"Outcome\" field",
 			"id": "uVvznXzOCa5",
