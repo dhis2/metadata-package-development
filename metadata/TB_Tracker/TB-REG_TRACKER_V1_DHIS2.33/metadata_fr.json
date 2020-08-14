@@ -62752,7 +62752,7 @@
             "programRuleActionType": "HIDEFIELD"
         },
         {
-            "content": "Date of diagnosis",
+            "content": "Date du diagnostic",
             "created": "2020-01-20T10:28:20.075",
             "data": "V{enrollment_date}",
             "id": "WGP4cNPRj4R",
@@ -64370,7 +64370,7 @@
             ]
         },
         {
-            "condition": "#{TreatmentRegimen}  == 'SECOND_LINE_TREATMENT' && \n(d2:countIfValue('DST_INIT_SM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_R', 'RESISTANT') == 0 && #{TreatmentRegimen}  == 'SECOND_LINE_TREATMENT' && \n(d2:countIfValue('DST_INIT_SM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_R', 'RESISTANT') == 0 && \nd2:countIfValue('GeneXRIF', 'RESISTANT') == 0 &&\nd2:countIfValue('GeneXUltraRIF', 'RESISTANT') == 0 && \nd2:countIfValue('TB_TRUENAT_RIF', 'RESISTANT') == 0 && \nd2:countIfValue('LPAIsoniazid', 'RESISTANT') == 0  &&\nd2:countIfValue('LPA_R', 'RESISTANT') == 0 &&\nd2:countIfValue('SmearResult', 'POSITIVE')  ==  0  &&\nd2:countIfValue('SolidCultureResult', 'MTB') ==  0 && \nd2:countIfValue('LiquidCultureResult', 'MTB') ==  0 && \nd2:countIfValue('TB_LAMP_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('TB_LF_LAM_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('TB_TRUENAT_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('GeneXMTB', 'DETECTED') ==  0 && \nd2:countIfValue('GeneXUltraMTB', 'DETECTED') ==  0 && \nd2:countIfValue('LAB_LPA_RIF_INH_MTBC_DETECTED_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('LAB_LPA_FQ_2LI_MTBC_DETECTED_NEWEST', 'DETECTED') ==  0)",
+            "condition": "#{TreatmentRegimen}  == 'SECOND_LINE_TREATMENT' && \n(d2:countIfValue('DST_INIT_SM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_SM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_INIT_LM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_SM_R', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_HCC', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_HCB', 'RESISTANT') == 0 && \nd2:countIfValue('DST_SUB_LM_R', 'RESISTANT') == 0 && \nd2:countIfValue('GeneXRIF', 'RESISTANT') == 0 &&\nd2:countIfValue('GeneXUltraRIF', 'RESISTANT') == 0 && \nd2:countIfValue('TB_TRUENAT_RIF', 'RESISTANT') == 0 && \nd2:countIfValue('LPAIsoniazid', 'RESISTANT') == 0  &&\nd2:countIfValue('LPA_R', 'RESISTANT') == 0 &&\nd2:countIfValue('SmearResult', 'POSITIVE')  ==  0  &&\nd2:countIfValue('SolidCultureResult', 'MTB') ==  0 && \nd2:countIfValue('LiquidCultureResult', 'MTB') ==  0 && \nd2:countIfValue('TB_LAMP_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('TB_LF_LAM_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('TB_TRUENAT_MTB_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('GeneXMTB', 'DETECTED') ==  0 && \nd2:countIfValue('GeneXUltraMTB', 'DETECTED') ==  0 && \nd2:countIfValue('LAB_LPA_RIF_INH_MTBC_DETECTED_NEWEST', 'DETECTED') ==  0 && \nd2:countIfValue('LAB_LPA_FQ_2LI_MTBC_DETECTED_NEWEST', 'DETECTED') ==  0)",
             "created": "2020-04-20T21:58:22.768",
             "description": "Attribuer une classification de résistance RR/MR temporaire pour les cas diagnostiqués cliniquement mis sous traitement de deuxième intention",
             "id": "ZlfHtHE6tXe",
@@ -89622,13 +89622,13 @@
             "description": "Date de naissance plus calcul d'âge",
             "displayInListNoProgram": false,
             "displayOnVisitSchedule": false,
-            "formName": "date de naissance (âge)",
+            "formName": "Date de naissance (âge)",
             "generated": false,
             "id": "mAWcalQYYyk",
             "inherit": false,
             "lastUpdated": "2020-08-13T13:26:26.414",
             "legendSets": [],
-            "name": "date de naissance (âge)",
+            "name": "Date de naissance (âge)",
             "orgunitScope": false,
             "pattern": "",
             "publicAccess": "--------",
