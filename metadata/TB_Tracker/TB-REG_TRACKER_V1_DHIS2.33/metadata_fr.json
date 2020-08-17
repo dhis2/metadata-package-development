@@ -1,4 +1,67 @@
 {
+    "attributes": [
+        {
+            "lastUpdated": "2020-08-13T13:19:29.949",
+            "id": "vudyDP7jUy5",
+            "created": "2020-04-29T10:54:23.521",
+            "name": "Data element for aggregate data export",
+            "shortName": "Data element for aggregate data export",
+            "code": "DATA_ELEMENT_AGG",
+            "indicatorAttribute": false,
+            "indicatorGroupAttribute": false,
+            "publicAccess": "rw------",
+            "userGroupAttribute": false,
+            "dataElementAttribute": false,
+            "constantAttribute": false,
+            "valueType": "TEXT",
+            "categoryOptionAttribute": false,
+            "optionSetAttribute": false,
+            "sqlViewAttribute": false,
+            "legendSetAttribute": false,
+            "trackedEntityAttributeAttribute": false,
+            "organisationUnitAttribute": false,
+            "dataSetAttribute": false,
+            "documentAttribute": false,
+            "unique": false,
+            "validationRuleGroupAttribute": false,
+            "dataElementGroupAttribute": false,
+            "sectionAttribute": false,
+            "trackedEntityTypeAttribute": false,
+            "userAttribute": false,
+            "description": "Data element for aggregate data export",
+            "mandatory": false,
+            "categoryOptionGroupAttribute": false,
+            "programStageAttribute": false,
+            "programAttribute": false,
+            "categoryAttribute": false,
+            "categoryOptionComboAttribute": false,
+            "categoryOptionGroupSetAttribute": false,
+            "validationRuleAttribute": false,
+            "programIndicatorAttribute": true,
+            "organisationUnitGroupAttribute": false,
+            "dataElementGroupSetAttribute": false,
+            "organisationUnitGroupSetAttribute": false,
+            "optionAttribute": false,
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "uz",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "uz",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz",
+                    "value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+                }
+            ],
+            "userAccesses": []
+        }
+    ],
     "categories": [
         {
             "attributeValues": [],
