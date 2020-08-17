@@ -5423,9 +5423,6 @@
                     "id": "GKCCcIyrJmn"
                 },
                 {
-                    "id": "GmyStA9gg1E"
-                },
-                {
                     "id": "GZ5Vqh8wdI1"
                 },
                 {
@@ -16300,113 +16297,6 @@
                     "locale": "uz_UZ",
                     "property": "SHORT_NAME",
                     "value": "Laboratoriyada keyingi DST qattiq muhitda - R"
-                }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "pyu2ZlNKbzQ"
-                },
-                {
-                    "access": "rw------",
-                    "id": "Ubzlyfqm1gO"
-                },
-                {
-                    "access": "r-------",
-                    "id": "UKWx4jJcrKt"
-                },
-                {
-                    "access": "r-------",
-                    "id": "zBZXkRW0PJy"
-                }
-            ],
-            "valueType": "TEXT",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "created": "2020-02-18T18:04:45.308",
-            "description": "Test de sensibilité aux médicaments (laboratoire) pour la streptomycine (S), TS ultérieur",
-            "domainType": "TRACKER",
-            "formName": "Streptomycine (S)",
-            "id": "GmyStA9gg1E",
-            "lastUpdated": "2020-08-13T13:18:45.911",
-            "legendSets": [],
-            "name": "TB Lab : DST ultérieur SM - S",
-            "optionSet": {
-                "id": "ekhfzhURD44"
-            },
-            "publicAccess": "--------",
-            "shortName": "Lab Test de Sensibilité ultérieur - S",
-            "translations": [
-                {
-                    "locale": "en",
-                    "property": "DESCRIPTION",
-                    "value": "Drug susceptibility testing (Lab) for Streptomycin (S), Subsequent DST SM"
-                },
-                {
-                    "locale": "en",
-                    "property": "FORM_NAME",
-                    "value": "Streptomycin (S)"
-                },
-                {
-                    "locale": "en",
-                    "property": "NAME",
-                    "value": "TB Lab: Subsequent DST SM - S"
-                },
-                {
-                    "locale": "en",
-                    "property": "SHORT_NAME",
-                    "value": "Lab Subsequent DST SM - S"
-                },
-                {
-                    "locale": "pt",
-                    "property": "FORM_NAME",
-                    "value": "Estreptomicina (S)"
-                },
-                {
-                    "locale": "ru",
-                    "property": "FORM_NAME",
-                    "value": "Стрептомицин (S)"
-                },
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "ДСТ (лаборатор) Стрептомицин (S) учун, кейинги ДСТ қаттиқ муҳитда"
-                },
-                {
-                    "locale": "uz",
-                    "property": "FORM_NAME",
-                    "value": "Стрептомицин (S)"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Лабораторияда кейинги ДСТ қаттиқ муҳитда - S"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "DESCRIPTION",
-                    "value": "DST (laborator) Streptomitsin (S) uchun, keyingi DST qattiq muhitda"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "FORM_NAME",
-                    "value": "Streptomitsin (S)"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "SHORT_NAME",
-                    "value": "Laboratoriyada keyingi DST qattiq muhitda - S"
                 }
             ],
             "user": {
@@ -79401,20 +79291,6 @@
             "useCodeForOptionSet": false
         },
         {
-            "created": "2020-02-19T09:01:52.272",
-            "dataElement": {
-                "id": "FLZoHUdPJ7j"
-            },
-            "id": "lI0wu3RqOE1",
-            "lastUpdated": "2020-02-19T09:01:52.272",
-            "name": "DST_SUB_LM_S_CURRENT",
-            "program": {
-                "id": "Lt6P15ps7f6"
-            },
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
-            "useCodeForOptionSet": true
-        },
-        {
             "created": "2020-02-19T09:02:11.849",
             "dataElement": {
                 "id": "agZKnJWKdQK"
@@ -79805,20 +79681,6 @@
             },
             "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM",
             "useCodeForOptionSet": false
-        },
-        {
-            "created": "2020-02-19T09:21:28.104",
-            "dataElement": {
-                "id": "GmyStA9gg1E"
-            },
-            "id": "xclAbv9ddM8",
-            "lastUpdated": "2020-02-19T09:21:28.104",
-            "name": "DST_SUB_SM_S_CURRENT",
-            "program": {
-                "id": "Lt6P15ps7f6"
-            },
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
-            "useCodeForOptionSet": true
         },
         {
             "created": "2020-02-19T09:21:49.586",
