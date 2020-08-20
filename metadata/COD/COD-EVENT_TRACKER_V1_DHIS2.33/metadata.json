@@ -18,7 +18,7 @@
 			"id": "vudyDP7jUy5",
 			"indicatorAttribute": false,
 			"indicatorGroupAttribute": false,
-			"lastUpdated": "2020-05-19T12:39:07.125",
+			"lastUpdated": "2020-08-13T13:19:29.949",
 			"legendSetAttribute": false,
 			"mandatory": false,
 			"name": "Data element for aggregate data export",
@@ -30,13 +30,29 @@
 			"programAttribute": false,
 			"programIndicatorAttribute": true,
 			"programStageAttribute": false,
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sectionAttribute": false,
 			"shortName": "Data element for aggregate data export",
 			"sqlViewAttribute": false,
 			"trackedEntityAttributeAttribute": false,
 			"trackedEntityTypeAttribute": false,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "uz",
+					"property": "DESCRIPTION",
+					"value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+				},
+				{
+					"locale": "uz",
+					"property": "SHORT_NAME",
+					"value": "Умумий маълумотларни экспорт қилиш учун маълумотлар элементи"
+				}
+			],
 			"unique": false,
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -76,9 +92,9 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2020-08-04T08:41:02.021",
+			"lastUpdated": "2020-08-19T20:24:39.437",
 			"name": "default",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "ar",
@@ -157,9 +173,9 @@
 			"created": "2018-01-17T10:28:58.779",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bjDvmb4bfuf",
-			"lastUpdated": "2020-08-04T08:41:02.437",
+			"lastUpdated": "2020-08-13T13:25:48.098",
 			"name": "default",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"skipTotal": false,
 			"translations": [
 				{
@@ -243,7 +259,7 @@
 			"created": "2018-01-17T10:28:58.783",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-08-04T08:41:02.914",
+			"lastUpdated": "2020-08-13T13:25:48.241",
 			"name": "default",
 			"translations": [
 				{
@@ -300,10 +316,10 @@
 			"code": "default",
 			"created": "2018-01-17T10:28:58.744",
 			"id": "xYerKDKCefk",
-			"lastUpdated": "2020-08-04T08:41:03.247",
+			"lastUpdated": "2020-08-13T13:25:48.389",
 			"name": "default",
 			"organisationUnits": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "default",
 			"translations": [
 				{
@@ -312,18 +328,8 @@
 					"value": "الافتراضي"
 				},
 				{
-					"locale": "ar",
-					"property": "SHORT_NAME",
-					"value": "الافتراضي"
-				},
-				{
 					"locale": "es",
 					"property": "NAME",
-					"value": "default"
-				},
-				{
-					"locale": "es",
-					"property": "SHORT_NAME",
 					"value": "default"
 				},
 				{
@@ -332,18 +338,8 @@
 					"value": "défaut"
 				},
 				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "défaut"
-				},
-				{
 					"locale": "id",
 					"property": "NAME",
-					"value": "Standar"
-				},
-				{
-					"locale": "id",
-					"property": "SHORT_NAME",
 					"value": "Standar"
 				},
 				{
@@ -352,18 +348,8 @@
 					"value": "standard"
 				},
 				{
-					"locale": "nb",
-					"property": "SHORT_NAME",
-					"value": "standard"
-				},
-				{
 					"locale": "pt",
 					"property": "NAME",
-					"value": "Padrão"
-				},
-				{
-					"locale": "pt",
-					"property": "SHORT_NAME",
 					"value": "Padrão"
 				},
 				{
@@ -372,24 +358,54 @@
 					"value": "по умолчанию"
 				},
 				{
-					"locale": "ru",
-					"property": "SHORT_NAME",
-					"value": "по умолчанию"
-				},
-				{
 					"locale": "uz",
 					"property": "NAME",
-					"value": "стандарт"
-				},
-				{
-					"locale": "uz",
-					"property": "SHORT_NAME",
 					"value": "стандарт"
 				},
 				{
 					"locale": "uz_UZ",
 					"property": "NAME",
 					"value": "standart"
+				},
+				{
+					"locale": "ar",
+					"property": "SHORT_NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "id",
+					"property": "SHORT_NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "nb",
+					"property": "SHORT_NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "uz",
+					"property": "SHORT_NAME",
+					"value": "стандарт"
 				},
 				{
 					"locale": "uz_UZ",
@@ -477,7 +493,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
 			"rangeAxisMinValue": 0,
@@ -617,7 +633,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
 			"rangeAxisMinValue": 0,
@@ -847,7 +863,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -1075,7 +1091,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
 			"rangeAxisMinValue": 0,
@@ -1305,7 +1321,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
 			"rangeAxisMinValue": 0,
@@ -1433,7 +1449,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisDecimals": 0,
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
@@ -1562,7 +1578,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"rangeAxisLabel": "Percentage of all deaths",
 			"rangeAxisMaxValue": 100,
 			"rangeAxisMinValue": 0,
@@ -2040,7 +2056,7 @@
 			"id": "wBFR85ExTPr",
 			"lastUpdated": "2018-08-29T12:24:10.332",
 			"name": "Cause of death",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -2075,160 +2091,160 @@
 			"created": "2018-08-28T10:00:34.849",
 			"dataElements": [
 				{
+					"id": "AbSABtFkjxr"
+				},
+				{
 					"id": "cDHBbG4cAHU"
-				},
-				{
-					"id": "E6jCMHDEGpF"
-				},
-				{
-					"id": "CHYn3Y8YUjK"
-				},
-				{
-					"id": "FlzVuMSdC2F"
-				},
-				{
-					"id": "PRtKZR83Sgc"
-				},
-				{
-					"id": "Zp1elSUYpwI"
-				},
-				{
-					"id": "doSQuLwznxE"
-				},
-				{
-					"id": "pHvHXawQdzI"
-				},
-				{
-					"id": "EJRqgkUWbtq"
-				},
-				{
-					"id": "Kg37g6hfvFR"
 				},
 				{
 					"id": "cgYpqCgnVF2"
 				},
 				{
-					"id": "w8aO6bZlsok"
-				},
-				{
-					"id": "IocYobI3K3H"
-				},
-				{
-					"id": "gSVdd4lqbFe"
-				},
-				{
-					"id": "RLPSwlZI8ll"
-				},
-				{
-					"id": "jbwfFz4EOgE"
-				},
-				{
-					"id": "uvIEH3s4W8h"
-				},
-				{
-					"id": "UUrqCmPloWO"
-				},
-				{
-					"id": "GwzGtLQTt31"
-				},
-				{
-					"id": "K7ac6P41YA1"
-				},
-				{
-					"id": "YUcJrLWmGyv"
-				},
-				{
-					"id": "UoL9vGPT0qF"
-				},
-				{
-					"id": "fEnDOQZUB9V"
-				},
-				{
-					"id": "Xrt5RLiE5N8"
-				},
-				{
-					"id": "W2YJeu3JG8C"
-				},
-				{
-					"id": "XvfpVOXCZvb"
-				},
-				{
-					"id": "OcFZusuDOia"
-				},
-				{
-					"id": "uohUQpjhWSt"
-				},
-				{
-					"id": "tdt3CTgwnU3"
-				},
-				{
-					"id": "NtO2qt0qeVa"
-				},
-				{
-					"id": "YC3AioXWlfR"
-				},
-				{
-					"id": "I672Kv6Leb6"
-				},
-				{
-					"id": "uwzsPAUJSs7"
-				},
-				{
-					"id": "su2yfVQ6EBD"
-				},
-				{
-					"id": "AbSABtFkjxr"
-				},
-				{
-					"id": "Ni84dctuoiK"
-				},
-				{
-					"id": "Fm6cUmmiY3d"
-				},
-				{
-					"id": "Pdn0awI0bhm"
-				},
-				{
-					"id": "GG9lRn8z4P0"
-				},
-				{
-					"id": "wzaw1u6RK2R"
-				},
-				{
-					"id": "Q9gr2dFSGxI"
-				},
-				{
-					"id": "jeK5z6acB3N"
-				},
-				{
-					"id": "nf91S8RgCEB"
-				},
-				{
-					"id": "jTpvdsQbfaT"
-				},
-				{
-					"id": "WnZFRHNeG6Z"
-				},
-				{
-					"id": "gspC25T3WXw"
+					"id": "CHYn3Y8YUjK"
 				},
 				{
 					"id": "dbXDFWZtlrh"
 				},
 				{
-					"id": "tj7epDG3vAW"
+					"id": "doSQuLwznxE"
+				},
+				{
+					"id": "E6jCMHDEGpF"
+				},
+				{
+					"id": "EJRqgkUWbtq"
+				},
+				{
+					"id": "fEnDOQZUB9V"
+				},
+				{
+					"id": "FlzVuMSdC2F"
+				},
+				{
+					"id": "Fm6cUmmiY3d"
+				},
+				{
+					"id": "GG9lRn8z4P0"
+				},
+				{
+					"id": "gspC25T3WXw"
+				},
+				{
+					"id": "gSVdd4lqbFe"
+				},
+				{
+					"id": "GwzGtLQTt31"
+				},
+				{
+					"id": "I672Kv6Leb6"
+				},
+				{
+					"id": "IocYobI3K3H"
+				},
+				{
+					"id": "jbwfFz4EOgE"
+				},
+				{
+					"id": "jeK5z6acB3N"
+				},
+				{
+					"id": "jTpvdsQbfaT"
+				},
+				{
+					"id": "K7ac6P41YA1"
+				},
+				{
+					"id": "Kg37g6hfvFR"
+				},
+				{
+					"id": "nf91S8RgCEB"
+				},
+				{
+					"id": "Ni84dctuoiK"
+				},
+				{
+					"id": "NtO2qt0qeVa"
+				},
+				{
+					"id": "OcFZusuDOia"
+				},
+				{
+					"id": "Pdn0awI0bhm"
+				},
+				{
+					"id": "pHvHXawQdzI"
+				},
+				{
+					"id": "PRtKZR83Sgc"
+				},
+				{
+					"id": "Q9gr2dFSGxI"
+				},
+				{
+					"id": "RLPSwlZI8ll"
 				},
 				{
 					"id": "SnSeql5YI9s"
 				},
 				{
+					"id": "su2yfVQ6EBD"
+				},
+				{
+					"id": "tdt3CTgwnU3"
+				},
+				{
+					"id": "tj7epDG3vAW"
+				},
+				{
+					"id": "uohUQpjhWSt"
+				},
+				{
+					"id": "UoL9vGPT0qF"
+				},
+				{
+					"id": "UUrqCmPloWO"
+				},
+				{
+					"id": "uvIEH3s4W8h"
+				},
+				{
+					"id": "uwzsPAUJSs7"
+				},
+				{
+					"id": "W2YJeu3JG8C"
+				},
+				{
+					"id": "w8aO6bZlsok"
+				},
+				{
+					"id": "WnZFRHNeG6Z"
+				},
+				{
+					"id": "wzaw1u6RK2R"
+				},
+				{
+					"id": "Xrt5RLiE5N8"
+				},
+				{
+					"id": "XvfpVOXCZvb"
+				},
+				{
+					"id": "YC3AioXWlfR"
+				},
+				{
+					"id": "YUcJrLWmGyv"
+				},
+				{
 					"id": "z6xqbLdqXzd"
+				},
+				{
+					"id": "Zp1elSUYpwI"
 				}
 			],
 			"id": "d3vHSfeqO0H",
 			"lastUpdated": "2020-06-26T11:47:21.772",
 			"name": "CoD",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "CoD",
 			"translations": [
 				{
@@ -2281,7 +2297,7 @@
 				}
 			],
 			"name": "Age in years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Age in years",
 			"translations": [
 				{
@@ -2334,7 +2350,7 @@
 			"lastUpdated": "2020-06-26T11:47:14.370",
 			"legendSets": [],
 			"name": "Age of mother in years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Age of mother in years",
 			"translations": [
 				{
@@ -2386,7 +2402,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Autopsy findings used",
 			"translations": [
 				{
@@ -2443,7 +2459,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Autopsy requested",
 			"translations": [
 				{
@@ -2496,7 +2512,7 @@
 			"lastUpdated": "2020-03-18T18:13:02.302",
 			"legendSets": [],
 			"name": "Birth weight in grams",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Birth weight in grams",
 			"translations": [
 				{
@@ -2544,7 +2560,7 @@
 			"lastUpdated": "2020-03-18T18:13:03.534",
 			"legendSets": [],
 			"name": "Cause A is underlying cause",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause A is underlying",
 			"translations": [
 				{
@@ -2592,7 +2608,7 @@
 			"lastUpdated": "2020-03-18T18:13:03.109",
 			"legendSets": [],
 			"name": "Cause B is underlying cause",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause B is underlying",
 			"translations": [
 				{
@@ -2640,7 +2656,7 @@
 			"lastUpdated": "2020-06-26T11:47:16.402",
 			"legendSets": [],
 			"name": "Cause C is underlying cause",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause C is underlying",
 			"translations": [
 				{
@@ -2688,7 +2704,7 @@
 			"lastUpdated": "2020-06-26T11:47:15.366",
 			"legendSets": [],
 			"name": "Cause D is underlying cause",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause D is underlying",
 			"translations": [
 				{
@@ -2741,7 +2757,7 @@
 			"optionSet": {
 				"id": "nbcADZuow7x"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death A (immediate)",
 			"translations": [
 				{
@@ -2794,7 +2810,7 @@
 			"lastUpdated": "2020-06-26T11:47:16.884",
 			"legendSets": [],
 			"name": "Cause of death A (immediate) - specified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death A (immediate) - specified",
 			"translations": [
 				{
@@ -2847,7 +2863,7 @@
 			"optionSet": {
 				"id": "nbcADZuow7x"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death B",
 			"translations": [
 				{
@@ -2900,7 +2916,7 @@
 			"lastUpdated": "2020-06-26T11:47:14.512",
 			"legendSets": [],
 			"name": "Cause of death B - specified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death B - specified",
 			"translations": [
 				{
@@ -2953,7 +2969,7 @@
 			"optionSet": {
 				"id": "nbcADZuow7x"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death C",
 			"translations": [
 				{
@@ -3006,7 +3022,7 @@
 			"lastUpdated": "2020-06-26T11:47:15.235",
 			"legendSets": [],
 			"name": "Cause of death C - specified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death C - specified",
 			"translations": [
 				{
@@ -3059,7 +3075,7 @@
 			"optionSet": {
 				"id": "nbcADZuow7x"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death D",
 			"translations": [
 				{
@@ -3112,7 +3128,7 @@
 			"lastUpdated": "2020-03-18T18:13:02.718",
 			"legendSets": [],
 			"name": "Cause of death D - specified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Cause of death D - specified",
 			"translations": [
 				{
@@ -3160,7 +3176,7 @@
 			"lastUpdated": "2020-06-08T09:42:51.048",
 			"legendSets": [],
 			"name": "Completed weeks of pregnancy",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Completed weeks of pregnancy",
 			"translations": [
 				{
@@ -3209,7 +3225,7 @@
 			"lastUpdated": "2020-06-26T11:47:13.611",
 			"legendSets": [],
 			"name": "Date of birth",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Date of birth",
 			"translations": [
 				{
@@ -3218,18 +3234,8 @@
 					"value": "تاريخ الميلاد"
 				},
 				{
-					"locale": "ar",
-					"property": "SHORT_NAME",
-					"value": "تاريخ الميلاد"
-				},
-				{
 					"locale": "es",
 					"property": "NAME",
-					"value": "Fecha de Nacimiento"
-				},
-				{
-					"locale": "es",
-					"property": "SHORT_NAME",
 					"value": "Fecha de Nacimiento"
 				},
 				{
@@ -3238,34 +3244,44 @@
 					"value": "Date de naissance"
 				},
 				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Date de naissance"
-				},
-				{
 					"locale": "nb",
 					"property": "NAME",
 					"value": "Fødselsdato"
 				},
 				{
-					"locale": "nb",
-					"property": "SHORT_NAME",
-					"value": "Fødselsdato"
-				},
-				{
 					"locale": "pt",
 					"property": "NAME",
-					"value": "Data de nascimento"
-				},
-				{
-					"locale": "pt",
-					"property": "SHORT_NAME",
 					"value": "Data de nascimento"
 				},
 				{
 					"locale": "ru",
 					"property": "NAME",
 					"value": "Дата рождения"
+				},
+				{
+					"locale": "ar",
+					"property": "SHORT_NAME",
+					"value": "تاريخ الميلاد"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "Fecha de Nacimiento"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Date de naissance"
+				},
+				{
+					"locale": "nb",
+					"property": "SHORT_NAME",
+					"value": "Fødselsdato"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data de nascimento"
 				},
 				{
 					"locale": "ru",
@@ -3307,7 +3323,7 @@
 			"lastUpdated": "2020-03-18T18:13:06.205",
 			"legendSets": [],
 			"name": "Date of birth is unknown",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Date of birth is unknown",
 			"translations": [
 				{
@@ -3357,7 +3373,7 @@
 			"lastUpdated": "2020-06-08T09:42:51.049",
 			"legendSets": [],
 			"name": "Date of injury",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Date of injury",
 			"translations": [
 				{
@@ -3416,7 +3432,7 @@
 			"lastUpdated": "2020-03-18T18:13:02.509",
 			"legendSets": [],
 			"name": "Date of surgery",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Date of surgery",
 			"translations": [
 				{
@@ -3473,7 +3489,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Pregnancy in the last year",
 			"translations": [
 				{
@@ -3527,7 +3543,7 @@
 			"lastUpdated": "2020-06-26T11:47:14.182",
 			"legendSets": [],
 			"name": "Description of external cause",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Description of external cause",
 			"translations": [
 				{
@@ -3580,7 +3596,7 @@
 			"lastUpdated": "2020-03-18T18:13:02.057",
 			"legendSets": [],
 			"name": "Estimated age",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Estimated age",
 			"translations": [
 				{
@@ -3631,7 +3647,7 @@
 			"optionSet": {
 				"id": "SCQSVm7h5ez"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Estimated age - periodtype",
 			"translations": [
 				{
@@ -3679,7 +3695,7 @@
 			"lastUpdated": "2020-08-04T08:41:03.641",
 			"legendSets": [],
 			"name": "Hours newborn survived",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Hours newborn survived",
 			"translations": [
 				{
@@ -3730,7 +3746,7 @@
 			"optionSet": {
 				"id": "pDIfKQVivxg"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Manner of death",
 			"translations": [
 				{
@@ -3781,7 +3797,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Multiple pregnancies",
 			"translations": [
 				{
@@ -3830,7 +3846,7 @@
 			"lastUpdated": "2020-03-18T18:13:04.975",
 			"legendSets": [],
 			"name": "Other significant conditions contributing to death",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Other significant conditions contributing to death",
 			"translations": [
 				{
@@ -3882,7 +3898,7 @@
 			"optionSet": {
 				"id": "SCQSVm7h5ez"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Periodtype - onset to death - cause A",
 			"translations": [
 				{
@@ -3934,7 +3950,7 @@
 			"optionSet": {
 				"id": "SCQSVm7h5ez"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Periodtype - onset to death - cause B",
 			"translations": [
 				{
@@ -3986,7 +4002,7 @@
 			"optionSet": {
 				"id": "SCQSVm7h5ez"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Periodtype - onset to death - cause C",
 			"translations": [
 				{
@@ -4038,7 +4054,7 @@
 			"optionSet": {
 				"id": "SCQSVm7h5ez"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Periodtype - onset to death - cause D",
 			"translations": [
 				{
@@ -4090,7 +4106,7 @@
 			"optionSet": {
 				"id": "uDH1pDHvFeg"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Place of occurence of external cause",
 			"translations": [
 				{
@@ -4144,7 +4160,7 @@
 			"lastUpdated": "2020-06-08T09:42:51.058",
 			"legendSets": [],
 			"name": "Place of occurence of external cause - specify",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Place of occurence of external cause - specify",
 			"translations": [
 				{
@@ -4201,7 +4217,7 @@
 			"optionSet": {
 				"id": "X2ZZMVE1uxi"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Pregnancy conditions",
 			"translations": [
 				{
@@ -4257,7 +4273,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Pregnancy contributed to death",
 			"translations": [
 				{
@@ -4306,7 +4322,7 @@
 			"lastUpdated": "2020-06-26T11:47:15.925",
 			"legendSets": [],
 			"name": "Reason for surgery (disease or condition)",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Reason for surgery",
 			"translations": [
 				{
@@ -4363,7 +4379,7 @@
 			"optionSet": {
 				"id": "rlYDq7U043q"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Sex",
 			"translations": [
 				{
@@ -4372,18 +4388,8 @@
 					"value": "الجنس"
 				},
 				{
-					"locale": "ar",
-					"property": "SHORT_NAME",
-					"value": "الجنس"
-				},
-				{
 					"locale": "de",
 					"property": "NAME",
-					"value": "Sexo"
-				},
-				{
-					"locale": "de",
-					"property": "SHORT_NAME",
 					"value": "Sexo"
 				},
 				{
@@ -4392,18 +4398,8 @@
 					"value": "Sexo"
 				},
 				{
-					"locale": "es",
-					"property": "SHORT_NAME",
-					"value": "Sexo"
-				},
-				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Sexe"
-				},
-				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
 					"value": "Sexe"
 				},
 				{
@@ -4412,18 +4408,8 @@
 					"value": "Jenis Kelamin"
 				},
 				{
-					"locale": "id",
-					"property": "SHORT_NAME",
-					"value": "Jenis Kelamin"
-				},
-				{
 					"locale": "nb",
 					"property": "NAME",
-					"value": "Kjønn"
-				},
-				{
-					"locale": "nb",
-					"property": "SHORT_NAME",
 					"value": "Kjønn"
 				},
 				{
@@ -4432,34 +4418,64 @@
 					"value": "Sexo"
 				},
 				{
-					"locale": "pt",
-					"property": "SHORT_NAME",
-					"value": "Sexo"
-				},
-				{
 					"locale": "ru",
 					"property": "NAME",
 					"value": "Пол"
 				},
 				{
-					"locale": "ru",
-					"property": "SHORT_NAME",
-					"value": "Пол"
-				},
-				{
 					"locale": "uz",
 					"property": "NAME",
-					"value": "Жинси"
-				},
-				{
-					"locale": "uz",
-					"property": "SHORT_NAME",
 					"value": "Жинси"
 				},
 				{
 					"locale": "uz_UZ",
 					"property": "NAME",
 					"value": "Jinsi"
+				},
+				{
+					"locale": "ar",
+					"property": "SHORT_NAME",
+					"value": "الجنس"
+				},
+				{
+					"locale": "de",
+					"property": "SHORT_NAME",
+					"value": "Sexo"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "Sexo"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Sexe"
+				},
+				{
+					"locale": "id",
+					"property": "SHORT_NAME",
+					"value": "Jenis Kelamin"
+				},
+				{
+					"locale": "nb",
+					"property": "SHORT_NAME",
+					"value": "Kjønn"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Sexo"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "Пол"
+				},
+				{
+					"locale": "uz",
+					"property": "SHORT_NAME",
+					"value": "Жинси"
 				},
 				{
 					"locale": "uz_UZ",
@@ -4506,7 +4522,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Surgery last 4 weeks",
 			"translations": [
 				{
@@ -4565,7 +4581,7 @@
 			"lastUpdated": "2020-03-18T18:13:05.591",
 			"legendSets": [],
 			"name": "Time from onset to death - cause A",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Time from onset to death - cause A",
 			"translations": [
 				{
@@ -4614,7 +4630,7 @@
 			"lastUpdated": "2020-06-26T11:47:15.736",
 			"legendSets": [],
 			"name": "Time from onset to death - cause B",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Time from onset to death - cause B",
 			"translations": [
 				{
@@ -4663,7 +4679,7 @@
 			"lastUpdated": "2020-06-26T11:47:16.229",
 			"legendSets": [],
 			"name": "Time from onset to death - cause C",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Time from onset to death - cause C",
 			"translations": [
 				{
@@ -4712,7 +4728,7 @@
 			"lastUpdated": "2020-03-18T18:13:00.876",
 			"legendSets": [],
 			"name": "Time from onset to death - cause D",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Time from onset to death - cause D",
 			"translations": [
 				{
@@ -4764,7 +4780,7 @@
 			"optionSet": {
 				"id": "nbZP1HIXQoN"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Time from pregnancy",
 			"translations": [
 				{
@@ -4821,7 +4837,7 @@
 			"optionSet": {
 				"id": "GuXxjKZFBFd"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Underlying cause of death",
 			"translations": [
 				{
@@ -4874,7 +4890,7 @@
 			"lastUpdated": "2020-03-18T18:13:04.111",
 			"legendSets": [],
 			"name": "Underlying cause of death - ICD-10",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Underlying cause of death - ICD-10",
 			"translations": [
 				{
@@ -4922,7 +4938,7 @@
 			"lastUpdated": "2020-03-18T18:13:04.761",
 			"legendSets": [],
 			"name": "Underlying cause of death - ICD-10-SMoL",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Underlying cause of death - ICD-10-SMoL",
 			"translations": [
 				{
@@ -4973,7 +4989,7 @@
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Stillborn",
 			"translations": [
 				{
@@ -5068,7 +5084,7 @@
 			"programStage": {
 				"id": "wmSb9TmevMn"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
 				"last12Months": false,
@@ -5195,7 +5211,7 @@
 			"programStage": {
 				"id": "wmSb9TmevMn"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
 				"last12Months": false,
@@ -5322,7 +5338,7 @@
 			"programStage": {
 				"id": "wmSb9TmevMn"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
 				"last12Months": false,
@@ -5411,64 +5427,76 @@
 			"id": "MGJMEpceMz9",
 			"indicators": [
 				{
-					"id": "nCdnzRCJJQ9"
-				},
-				{
-					"id": "D8SDEoUPqQC"
-				},
-				{
-					"id": "cS7Xa91Ex53"
-				},
-				{
-					"id": "XwRCVMgCnQ0"
-				},
-				{
-					"id": "GucJ6ZF1xvB"
-				},
-				{
-					"id": "czFCcRGZNKn"
-				},
-				{
-					"id": "pS7Kdhg1Cwt"
-				},
-				{
-					"id": "Lano1YhMvyl"
+					"id": "AvCGQOtqrCS"
 				},
 				{
 					"id": "BAOr0qywPhT"
 				},
 				{
-					"id": "M5BcJA5z9SF"
+					"id": "cS7Xa91Ex53"
 				},
 				{
-					"id": "gi5SLwtO3Ic"
+					"id": "czFCcRGZNKn"
 				},
 				{
-					"id": "fZtsYQ0LGfI"
-				},
-				{
-					"id": "JnKatO63Twz"
-				},
-				{
-					"id": "rNgzTteLORP"
-				},
-				{
-					"id": "nctmAIMgAti"
-				},
-				{
-					"id": "mNOLPlorVBG"
-				},
-				{
-					"id": "iGyJVHzQNVE"
+					"id": "D8SDEoUPqQC"
 				},
 				{
 					"id": "E8rlAocf1Dn"
 				},
 				{
-					"id": "tvgUE8Z3skN"
+					"id": "fZtsYQ0LGfI"
+				},
+				{
+					"id": "gi5SLwtO3Ic"
+				},
+				{
+					"id": "GucJ6ZF1xvB"
+				},
+				{
+					"id": "iGyJVHzQNVE"
+				},
+				{
+					"id": "JnKatO63Twz"
 				},
 				{
 					"id": "KBx3avAtpmt"
+				},
+				{
+					"id": "Lano1YhMvyl"
+				},
+				{
+					"id": "M5BcJA5z9SF"
+				},
+				{
+					"id": "mNOLPlorVBG"
+				},
+				{
+					"id": "nCdnzRCJJQ9"
+				},
+				{
+					"id": "nctmAIMgAti"
+				},
+				{
+					"id": "OgWgT9uT0rP"
+				},
+				{
+					"id": "pS7Kdhg1Cwt"
+				},
+				{
+					"id": "r76Fif0JvSB"
+				},
+				{
+					"id": "RgUsk9rLeYE"
+				},
+				{
+					"id": "rNgzTteLORP"
+				},
+				{
+					"id": "tDVdQCWbDpa"
+				},
+				{
+					"id": "tvgUE8Z3skN"
 				},
 				{
 					"id": "tz3LMh3k1et"
@@ -5477,27 +5505,15 @@
 					"id": "XECrcntufAl"
 				},
 				{
+					"id": "XwRCVMgCnQ0"
+				},
+				{
 					"id": "yt9xhdnpvQF"
-				},
-				{
-					"id": "tDVdQCWbDpa"
-				},
-				{
-					"id": "OgWgT9uT0rP"
-				},
-				{
-					"id": "AvCGQOtqrCS"
-				},
-				{
-					"id": "r76Fif0JvSB"
-				},
-				{
-					"id": "RgUsk9rLeYE"
 				}
 			],
 			"lastUpdated": "2018-01-17T12:04:08.095",
 			"name": "Cause of death",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -5536,7 +5552,7 @@
 			"name": "00 Unclassified of all deaths (%)",
 			"numerator": "I{tcrg0ZvPGyw}",
 			"numeratorDescription": "00 Unclassified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Unclassified (%)",
 			"translations": [
 				{
@@ -5585,7 +5601,7 @@
 			"name": "01 Certain infectious and parasitic diseases of all deaths (%)",
 			"numerator": "I{lJL72ssOBcn}",
 			"numeratorDescription": "01 Certain infectious and parasitic diseases",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Certain infectious and parasitic diseases (%)",
 			"translations": [
 				{
@@ -5634,7 +5650,7 @@
 			"name": "02 Neoplasms of all deaths (%)",
 			"numerator": "I{pHqyF2lVpg7}",
 			"numeratorDescription": "02 Neoplasms",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Neoplasms (%)",
 			"translations": [
 				{
@@ -5683,7 +5699,7 @@
 			"name": "03 Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism of all deaths (%)",
 			"numerator": "I{yvxAh7MZaYY}",
 			"numeratorDescription": "03 Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Blood, blood-forming organs, immune disorders (%)",
 			"translations": [
 				{
@@ -5732,7 +5748,7 @@
 			"name": "04 Endocrine, nutritional and metabolic diseases of all deaths (%)",
 			"numerator": "I{b8Y58d26mk4}",
 			"numeratorDescription": "04 Endocrine, nutritional and metabolic diseases",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Endocrine, nutritional and metabolic diseases (%)",
 			"translations": [
 				{
@@ -5781,7 +5797,7 @@
 			"name": "05 Mental and behavioural disorders of all deaths (%)",
 			"numerator": "I{Mv9siBusI0z}",
 			"numeratorDescription": "05 Mental and behavioural disorders",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Mental and behavioural disorders (%)",
 			"translations": [
 				{
@@ -5830,7 +5846,7 @@
 			"name": "06 Diseases of the nervous system of all deaths (%)",
 			"numerator": "I{BvAY7qYseUl}",
 			"numeratorDescription": "06 Diseases of the nervous system",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the nervous system (%)",
 			"translations": [
 				{
@@ -5879,7 +5895,7 @@
 			"name": "07 Diseases of the eye and adnexa of all deaths (%)",
 			"numerator": "I{Op0wPGaHd8e}",
 			"numeratorDescription": "07 Diseases of the eye and adnexa",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the eye and adnexa (%)",
 			"translations": [
 				{
@@ -5928,7 +5944,7 @@
 			"name": "08 Diseases of the ear and mastoid process of all deaths (%)",
 			"numerator": "I{R0J326MJa9v}",
 			"numeratorDescription": "08 Diseases of the ear and mastoid process",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the ear and mastoid process (%)",
 			"translations": [
 				{
@@ -5977,7 +5993,7 @@
 			"name": "09 Diseases of the circulatory system of all deaths (%)",
 			"numerator": "I{tFfFEFBlza3}",
 			"numeratorDescription": "09 Diseases of the circulatory system",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the circulatory system (%)",
 			"translations": [
 				{
@@ -6026,7 +6042,7 @@
 			"name": "10 Diseases of the respiratory system of all deaths (%)",
 			"numerator": "I{D7NTpOFbe5a}",
 			"numeratorDescription": "10 Diseases of the respiratory system",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the respiratory system (%)",
 			"translations": [
 				{
@@ -6075,7 +6091,7 @@
 			"name": "11 Diseases of the digestive system of all deaths (%)",
 			"numerator": "I{oSOFimmRe4A}",
 			"numeratorDescription": "11 Diseases of the digestive system",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the digestive system (%)",
 			"translations": [
 				{
@@ -6124,7 +6140,7 @@
 			"name": "12 Diseases of the skin and subcutaneous tissue of all deaths (%)",
 			"numerator": "I{OTI3ZDvEeVC}",
 			"numeratorDescription": "12 Diseases of the skin and subcutaneous tissue",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the skin and subcutaneous tissue (%)",
 			"translations": [
 				{
@@ -6173,7 +6189,7 @@
 			"name": "13 Diseases of the muscoloskeletal system and connective tissue of all deaths (%)",
 			"numerator": "I{ZGE6ZudpZQP}",
 			"numeratorDescription": "13 Diseases of the muscoloskeletal system and connective tissue",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Muscoloskeletal system and connective tissue (%)",
 			"translations": [
 				{
@@ -6222,7 +6238,7 @@
 			"name": "14 Diseases of the genitourinary system of all deaths (%)",
 			"numerator": "I{Yb9I1xFXG9R}",
 			"numeratorDescription": "14 Diseases of the genitourinary system",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the genitourinary system (%)",
 			"translations": [
 				{
@@ -6271,7 +6287,7 @@
 			"name": "15 Pregnancy, childbirth and the puerperium of all deaths (%)",
 			"numerator": "I{tzjgRq6pDnk}",
 			"numeratorDescription": "15 Pregnancy, childbirth and the puerperium",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Pregnancy, childbirth and the puerperium (%)",
 			"translations": [
 				{
@@ -6320,7 +6336,7 @@
 			"name": "16 Certain conditions orginating in the perinatal period of all deaths (%)",
 			"numerator": "I{LQtzlLIR8fX}",
 			"numeratorDescription": "16 Certain conditions orginating in the perinatal period",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Conditions orginating in the perinatal period (%)",
 			"translations": [
 				{
@@ -6369,7 +6385,7 @@
 			"name": "17 Congenital malformations, deformations and chromosomal abnormalities of all deaths (%)",
 			"numerator": "I{lPPdubQBbuR}",
 			"numeratorDescription": "17 Congenital malformations, deformations and chromosomal abnormalities",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Congenital malform, deform, chromosomal abnorm (%)",
 			"translations": [
 				{
@@ -6418,7 +6434,7 @@
 			"name": "18 Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified of all deaths (%)",
 			"numerator": "I{iegF5kcCWlB}",
 			"numeratorDescription": "18 Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Symptoms, signs, findings not elsewhere class (%)",
 			"translations": [
 				{
@@ -6467,7 +6483,7 @@
 			"name": "20 External causes of morbidity and mortality of all deaths (%)",
 			"numerator": "I{GQdv3ZlTjm3}",
 			"numeratorDescription": "20 External causes of morbidity and mortality",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "External causes of morbidity and mortality (%)",
 			"translations": [
 				{
@@ -6516,7 +6532,7 @@
 			"name": "Deaths 0-4 years of all deaths (%)",
 			"numerator": "I{MSC4ZB20NVC}",
 			"numeratorDescription": "Deaths 0-4 years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 0-4 y (%)",
 			"translations": [
 				{
@@ -6565,7 +6581,7 @@
 			"name": "Deaths 15-44 years of all deaths (%)",
 			"numerator": "I{TFM1jYCRB6A}",
 			"numeratorDescription": "Deaths 15-44 years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 15-44 y (%)",
 			"translations": [
 				{
@@ -6614,7 +6630,7 @@
 			"name": "Deaths 45+ years of all deaths (%)",
 			"numerator": "I{To8DaKLWJLU}",
 			"numeratorDescription": "Deaths 45+ years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 45+ y (%)",
 			"translations": [
 				{
@@ -6663,7 +6679,7 @@
 			"name": "Deaths 5-14 years of all deaths (%)",
 			"numerator": "I{XmeB1HezzVQ}",
 			"numeratorDescription": "Deaths 5-14 years",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 5-14 y (%)",
 			"translations": [
 				{
@@ -6712,7 +6728,7 @@
 			"name": "Deaths female of all deaths (%)",
 			"numerator": "I{Y0fAzL2ALwY}",
 			"numeratorDescription": "Deaths female",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths female (%)",
 			"translations": [
 				{
@@ -6761,7 +6777,7 @@
 			"name": "Deaths male of all deaths (%)",
 			"numerator": "I{aopY6za3IHl}",
 			"numeratorDescription": "Deaths male",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths male (%)",
 			"translations": [
 				{
@@ -6810,7 +6826,7 @@
 			"name": "Deaths unknown age of all deaths (%)",
 			"numerator": "I{AGHvJfB9v46}",
 			"numeratorDescription": "Deaths with unknown age",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths unknown age (%)",
 			"translations": [
 				{
@@ -6859,7 +6875,7 @@
 			"name": "Deaths unknown sex of all deaths (%)",
 			"numerator": "I{V9J4CtjoOx4}",
 			"numeratorDescription": "Deaths with unknown sex",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths unknown sex (%)",
 			"translations": [
 				{
@@ -7049,7 +7065,7 @@
 				}
 			],
 			"name": "CoD: Age group (broad)",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"symbolizer": "color",
 			"translations": [
 				{
@@ -30881,13 +30897,39 @@
 			"code": "|U071|FR8288",
 			"created": "2020-07-27T09:02:24.611",
 			"id": "Hm8myRRMWp8",
-			"lastUpdated": "2020-07-27T09:02:25.518",
+			"lastUpdated": "2020-08-13T13:25:48.695",
 			"name": "COVID-19",
 			"optionSet": {
 				"id": "nbcADZuow7x"
 			},
 			"sortOrder": 1767,
-			"translations": []
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "COVID-19"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVID-19"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Covid-19"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVID-19"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "COVID-19"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -72478,7 +72520,7 @@
 			"code": "NO",
 			"created": "2018-01-19T08:53:15.588",
 			"id": "PLlPgcfbL1D",
-			"lastUpdated": "2020-08-04T08:43:53.505",
+			"lastUpdated": "2020-08-13T13:27:39.988",
 			"name": "No",
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
@@ -93307,7 +93349,7 @@
 					"id": "oa90ydOOgRL"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112131,7 +112173,7 @@
 					"id": "XSG1a5yWe6Q"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112196,7 +112238,7 @@
 					"id": "zeO3sqDyTFV"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112264,7 +112306,7 @@
 					"id": "AsaQrcd3lBK"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112335,7 +112377,7 @@
 					"id": "PzMj0phQC1M"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -112376,7 +112418,7 @@
 					"id": "J5PKRLzoeLW"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112426,7 +112468,7 @@
 					"id": "SQFme3F2D4i"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112479,7 +112521,7 @@
 					"id": "SvuENShAeTT"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -112526,7 +112568,7 @@
 					"id": "TKD1XJ4ZhMO"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "ar",
@@ -112591,33 +112633,11 @@
 			"version": 4
 		}
 	],
-	"package": "COD-EVENT_TRACKER_V1.2.0_DHIS2.33_2020-08-06T09:28",
+	"package": "COD-EVENT_TRACKER_V1.2.0_DHIS2.33_2020-08-20T14:04",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
 			"analyticsPeriodBoundaries": [
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-					"attributeValues": [],
-					"boundaryTarget": "EVENT_DATE",
-					"created": "2018-06-05T12:10:27.157",
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "txlvDsURbAP",
-					"lastUpdated": "2020-06-17T15:52:10.314",
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
 				{
 					"access": {
 						"delete": true,
@@ -112635,6 +112655,28 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bUnZziX3Ss1",
+					"lastUpdated": "2020-06-17T15:52:10.314",
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"attributeValues": [],
+					"boundaryTarget": "EVENT_DATE",
+					"created": "2018-06-05T12:10:27.157",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "txlvDsURbAP",
 					"lastUpdated": "2020-06-17T15:52:10.314",
 					"translations": [],
 					"userAccesses": [],
@@ -112662,7 +112704,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Unclassified",
 			"translations": [
 				{
@@ -112758,7 +112800,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Certain infectious and parasitic diseases",
 			"translations": [
 				{
@@ -112854,7 +112896,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Neoplasms",
 			"translations": [
 				{
@@ -112950,7 +112992,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Blood, blood-forming organs, immune disorders",
 			"translations": [
 				{
@@ -113046,7 +113088,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Endocrine, nutritional and metabolic diseases",
 			"translations": [
 				{
@@ -113142,7 +113184,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Mental and behavioural disorders",
 			"translations": [
 				{
@@ -113187,14 +113229,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "TfSguqm9zYn",
+					"id": "QHJ6Q7OiwNF",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113209,14 +113251,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "QHJ6Q7OiwNF",
+					"id": "TfSguqm9zYn",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113238,7 +113280,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the nervous system",
 			"translations": [
 				{
@@ -113334,7 +113376,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the eye and adnexa",
 			"translations": [
 				{
@@ -113430,7 +113472,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the ear and mastoid process",
 			"translations": [
 				{
@@ -113526,7 +113568,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the circulatory system",
 			"translations": [
 				{
@@ -113622,7 +113664,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the respiratory system",
 			"translations": [
 				{
@@ -113667,14 +113709,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "XuiVnkLMPDo",
+					"id": "g1BRGrRVKbT",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113689,14 +113731,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "g1BRGrRVKbT",
+					"id": "XuiVnkLMPDo",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113718,7 +113760,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the digestive system",
 			"translations": [
 				{
@@ -113814,7 +113856,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the skin and subcutaneous tissue",
 			"translations": [
 				{
@@ -113859,14 +113901,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "PIiLbQwqYe6",
+					"id": "hQjq1joZpOZ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113881,14 +113923,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "hQjq1joZpOZ",
+					"id": "PIiLbQwqYe6",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -113910,7 +113952,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Muscoloskeletal system and connective tissue",
 			"translations": [
 				{
@@ -114006,7 +114048,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Diseases of the genitourinary system",
 			"translations": [
 				{
@@ -114102,7 +114144,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Pregnancy, childbirth and the puerperium",
 			"translations": [
 				{
@@ -114147,14 +114189,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "wLHHuWIYNfZ",
+					"id": "p8r4SwnADh3",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114169,14 +114211,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "p8r4SwnADh3",
+					"id": "wLHHuWIYNfZ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114198,7 +114240,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Conditions orginating in the perinatal period",
 			"translations": [
 				{
@@ -114294,7 +114336,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Congenital malform, deform, chromosomal abnorm",
 			"translations": [
 				{
@@ -114339,14 +114381,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "vfTC8VVleJZ",
+					"id": "qmWWjMk66zZ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114361,14 +114403,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "qmWWjMk66zZ",
+					"id": "vfTC8VVleJZ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114390,7 +114432,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Symptoms, signs, findings not elsewhere classified",
 			"translations": [
 				{
@@ -114435,14 +114477,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "XolOyBSkyM0",
+					"id": "gq4MNvT8L2B",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114457,14 +114499,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "gq4MNvT8L2B",
+					"id": "XolOyBSkyM0",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114486,7 +114528,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "External causes of morbidity and mortality",
 			"translations": [
 				{
@@ -114582,7 +114624,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Age at death in years",
 			"translations": [
 				{
@@ -114632,14 +114674,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Y6GBAd6Cao1",
+					"id": "bn88A02vmrK",
 					"lastUpdated": "2018-08-29T09:45:37.404",
 					"translations": [],
 					"userAccesses": [],
@@ -114654,14 +114696,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "bn88A02vmrK",
+					"id": "Y6GBAd6Cao1",
 					"lastUpdated": "2018-08-29T09:45:37.404",
 					"translations": [],
 					"userAccesses": [],
@@ -114682,7 +114724,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 0-4 years",
 			"translations": [
 				{
@@ -114777,7 +114819,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 15-44 years",
 			"translations": [
 				{
@@ -114822,14 +114864,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "iHpVmRzqw2s",
+					"id": "BSJ7XrqZHPJ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114844,14 +114886,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "BSJ7XrqZHPJ",
+					"id": "iHpVmRzqw2s",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -114872,7 +114914,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 45+ years",
 			"translations": [
 				{
@@ -114967,7 +115009,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths 5-14 years",
 			"translations": [
 				{
@@ -115012,14 +115054,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "pkTollfj5e1",
+					"id": "LCfb4XiFyQX",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115034,14 +115076,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "LCfb4XiFyQX",
+					"id": "pkTollfj5e1",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115062,7 +115104,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths female",
 			"translations": [
 				{
@@ -115157,7 +115199,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths male",
 			"translations": [
 				{
@@ -115202,14 +115244,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "tboVMuOXd5N",
+					"id": "BKhOXxKbBFQ",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115224,14 +115266,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "BKhOXxKbBFQ",
+					"id": "tboVMuOXd5N",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115251,7 +115293,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths registered (total)",
 			"translations": [
 				{
@@ -115296,14 +115338,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "wm073AScNLW",
+					"id": "WIhRciMkFvt",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115318,14 +115360,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "WIhRciMkFvt",
+					"id": "wm073AScNLW",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115346,7 +115388,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths with unknown age",
 			"translations": [
 				{
@@ -115391,14 +115433,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "XbT8vMCwGEg",
+					"id": "De4Af6VyaGU",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115413,14 +115455,14 @@
 						"update": true,
 						"write": true
 					},
-					"analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+					"analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
 					"attributeValues": [],
 					"boundaryTarget": "EVENT_DATE",
 					"created": "2018-06-05T12:10:27.157",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "De4Af6VyaGU",
+					"id": "XbT8vMCwGEg",
 					"lastUpdated": "2018-06-05T12:10:27.157",
 					"translations": [],
 					"userAccesses": [],
@@ -115441,7 +115483,7 @@
 			"program": {
 				"id": "jo4akTBhEqq"
 			},
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"shortName": "Deaths unknown sex",
 			"translations": [
 				{
@@ -115477,181 +115519,14 @@
 	],
 	"programRuleActions": [
 		{
-			"created": "2016-07-07T12:07:29.831",
-			"data": "d2:split(#{CauseBcode}, '|', 0)",
+			"created": "2016-05-09T16:51:32.385",
 			"dataElement": {
-				"id": "tdt3CTgwnU3"
+				"id": "Ni84dctuoiK"
 			},
-			"id": "nX4x5K0b62k",
+			"id": "a3LTMGxIpWe",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "a5exvYDMawd"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:53:07.712",
-			"dataElement": {
-				"id": "GG9lRn8z4P0"
-			},
-			"id": "VIkSYno7Yq5",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RrZMPm9gg26"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "ZC6tWeDlLhL"
-			}
-		},
-		{
-			"created": "2017-07-06T16:17:27.099",
-			"data": "d2:split(#{CauseAcode}, '|', 1)",
-			"dataElement": {
-				"id": "nf91S8RgCEB"
-			},
-			"id": "oYj2vUyb07U",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "dsyYjnlZURC"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Causes C-D were cleared because they require cause A",
-			"created": "2016-01-20T20:41:13.083",
-			"dataElement": {
-				"id": "uvIEH3s4W8h"
-			},
-			"id": "C6fHlN8g0Xe",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RrZMPm9gg26"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-23T11:24:20.122",
-			"dataElement": {
-				"id": "Pdn0awI0bhm"
-			},
-			"id": "iTEAUaKx3NG",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "JHORv7d5GtF"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2018-04-06T12:27:47.631",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "WwG7SrADsNH",
-			"lastUpdated": "2018-04-06T12:29:19.681",
-			"programRule": {
-				"id": "PKpw7Ft1XWH"
-			},
-			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"created": "2016-07-07T12:05:48.441",
-			"data": "''",
-			"dataElement": {
-				"id": "tdt3CTgwnU3"
-			},
-			"id": "qiHGUHPdEFr",
-			"lastUpdated": "2018-09-24T12:05:00.319",
-			"programRule": {
-				"id": "QjUuURmKIl2"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:57:21.698",
-			"dataElement": {
-				"id": "IocYobI3K3H"
-			},
-			"id": "eHz45krDSHU",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "HmRzk2UoYF0"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:52:17.450",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "ppBZ4HPWIHi",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "P9gQhz6BvOb"
-			}
-		},
-		{
-			"content": "Cause D is underlying cause was cleared because it requires a diagnosis for Cause D",
-			"created": "2015-09-22T13:29:19.471",
-			"dataElement": {
-				"id": "IocYobI3K3H"
-			},
-			"id": "CiWXl8Pi5If",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "xQnW2JqS9JP"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:41:41.489",
-			"dataElement": {
-				"id": "uvIEH3s4W8h"
-			},
-			"id": "J32o3JPCOeI",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:41:41.832",
-			"dataElement": {
-				"id": "OcFZusuDOia"
-			},
-			"id": "Zde5I6Sd18n",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
+				"id": "mvV0K5Wjxdr"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -115675,27 +115550,39 @@
 			}
 		},
 		{
-			"content": "Please validate the reported age of mother",
-			"created": "2016-04-18T13:04:34.204",
-			"dataElement": {
-				"id": "E6jCMHDEGpF"
-			},
-			"id": "Uc6jJO7BYV3",
+			"content": "Information on date of birth is required. Enter a date of birth, or select 'date or birth unknown' ",
+			"created": "2016-06-28T09:57:15.838",
+			"id": "a8843ScOl38",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "BGIU2PkpHxM"
+				"id": "hzZqsGAX5wm"
 			},
-			"programRuleActionType": "SHOWWARNING",
+			"programRuleActionType": "ERRORONCOMPLETE",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
 		},
 		{
-			"created": "2016-04-19T08:41:43.791",
+			"created": "2016-01-20T14:25:13.601",
 			"dataElement": {
-				"id": "PRtKZR83Sgc"
+				"id": "cDHBbG4cAHU"
 			},
-			"id": "v8gWxvAvrQx",
+			"id": "aDHb3zlDr8G",
+			"lastUpdated": "2018-04-06T13:02:07.264",
+			"programRule": {
+				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:42.491",
+			"dataElement": {
+				"id": "GG9lRn8z4P0"
+			},
+			"id": "aGoNk26gyuZ",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "npVHCJ39QZO"
@@ -115706,11 +115593,72 @@
 			}
 		},
 		{
-			"created": "2016-04-19T08:49:26.043",
-			"dataElement": {
-				"id": "W2YJeu3JG8C"
+			"content": "Information on sex is required. If sex is not know, select 'Unknown'.",
+			"created": "2016-07-07T11:08:18.343",
+			"id": "aleJirgEJxz",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "gTMW5IMc7Cf"
 			},
-			"id": "ZUJXUWzyF27",
+			"programRuleActionType": "ERRORONCOMPLETE",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:00:11.184",
+			"data": "d2:floor(#{EstAge}/52)",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "aOuPa1HndBm",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "EVzDdCmbi7E"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-05-09T16:51:32.066",
+			"dataElement": {
+				"id": "dbXDFWZtlrh"
+			},
+			"id": "bS8O3dV8tGR",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "mvV0K5Wjxdr"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:03:35.217",
+			"data": "d2:yearsBetween(#{DoB},V{event_date})",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "BuIkqMo5VBC",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "rGCtd3njYQj"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Causes C-D were cleared because they require cause A",
+			"created": "2016-01-20T20:41:13.083",
+			"dataElement": {
+				"id": "uvIEH3s4W8h"
+			},
+			"id": "C6fHlN8g0Xe",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "RrZMPm9gg26"
@@ -115721,14 +115669,14 @@
 			}
 		},
 		{
-			"created": "2016-05-10T09:53:31.921",
+			"created": "2016-01-20T20:41:13.126",
 			"dataElement": {
-				"id": "K7ac6P41YA1"
+				"id": "OcFZusuDOia"
 			},
-			"id": "K1cP9bwxyR5",
+			"id": "cAAuTDYVGRj",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "HZbpMMwWyOk"
+				"id": "RrZMPm9gg26"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -115752,104 +115700,15 @@
 			}
 		},
 		{
-			"created": "2016-01-21T20:57:46.235",
-			"dataElement": {
-				"id": "jTpvdsQbfaT"
-			},
-			"id": "FrQtysocxNy",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "drqdLeOTlLh"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Age estimate information is incomplete - enter both number and period type",
-			"created": "2016-08-09T11:03:43.599",
-			"id": "hWzhf8tooE7",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "oJqHuSa4Uat"
-			},
-			"programRuleActionType": "ERRORONCOMPLETE",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-08T16:02:18.678",
-			"data": "d2:floor(#{EstAge}/365)",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "nsvuJWSj3TF",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "LAS9FsppY7u"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-22T13:07:27.469",
-			"dataElement": {
-				"id": "Zp1elSUYpwI"
-			},
-			"id": "UYbltm0bmCz",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "Q8Am9abKTFJ"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Cause A is underlying cause was cleared because it requires a diagnosis for Cause A",
-			"created": "2016-01-20T20:39:17.644",
-			"dataElement": {
-				"id": "jTpvdsQbfaT"
-			},
-			"id": "OFOgyG3xwKW",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-22T13:20:46.180",
-			"dataElement": {
-				"id": "Kg37g6hfvFR"
-			},
-			"id": "jSaxImOcrwH",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:57:46.531",
+			"content": "Cause D is underlying cause was cleared because it requires a diagnosis for Cause D",
+			"created": "2015-09-22T13:29:19.471",
 			"dataElement": {
 				"id": "IocYobI3K3H"
 			},
-			"id": "s4DcVyyy5pH",
+			"id": "CiWXl8Pi5If",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "drqdLeOTlLh"
+				"id": "xQnW2JqS9JP"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -115857,65 +115716,98 @@
 			}
 		},
 		{
-			"content": "Please verify date of birth or age estimate. Age in years is reported as ",
-			"created": "2016-08-09T11:21:25.101",
-			"data": "#{AgeYears}",
+			"created": "2016-04-21T09:53:34.064",
 			"dataElement": {
 				"id": "Fm6cUmmiY3d"
 			},
-			"id": "n4SjtMWgALt",
+			"id": "cOlSasiszS3",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "l1gE1mcW4sQ"
-			},
-			"programRuleActionType": "ERRORONCOMPLETE",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Time from pregnancy only applicable if woman was pregnant within last year",
-			"created": "2017-07-06T15:59:06.289",
-			"dataElement": {
-				"id": "Pdn0awI0bhm"
-			},
-			"id": "kNB6PJg0d9L",
-			"lastUpdated": "2018-04-06T11:15:09.012",
-			"programRule": {
-				"id": "sk3TmeulUeC"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-20T14:36:55.143",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "FDWiWWPYCqf",
-			"lastUpdated": "2018-04-06T13:02:07.264",
-			"programRule": {
-				"id": "bZj2zXX7yV3"
+				"id": "IICbXDbdL6m"
 			},
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
-				"id": "E6uZhRHxq4y"
+				"id": "ZC6tWeDlLhL"
 			}
 		},
 		{
 			"created": "2017-07-06T16:17:27.099",
-			"data": "''",
+			"data": "d2:split(#{CauseCcode}, '|', 1)",
 			"dataElement": {
 				"id": "nf91S8RgCEB"
 			},
-			"id": "pSoGYEQ02hB",
-			"lastUpdated": "2018-09-24T12:05:00.319",
+			"id": "CT3y1foKLK0",
+			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "QjUuURmKIl2"
+				"id": "Dn0RkPmFPSj"
 			},
 			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:01:03.653",
+			"data": "#{EstAge}",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "D11kjQhazF1",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "iBQr5CyTgOG"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-20T14:25:13.512",
+			"dataElement": {
+				"id": "XvfpVOXCZvb"
+			},
+			"id": "Dcep7M2IFud",
+			"lastUpdated": "2018-04-06T13:02:07.265",
+			"programRule": {
+				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Please validate age and pregnancy status",
+			"created": "2017-09-14T09:58:55.309",
+			"dataElement": {
+				"id": "Q9gr2dFSGxI"
+			},
+			"id": "dKq3QyVDlkm",
+			"lastUpdated": "2018-04-06T13:07:40.657",
+			"programRule": {
+				"id": "pSyT4Yh4iJD"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"programStage": {
+				"id": "wmSb9TmevMn"
+			},
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Diagnosis for cause C must be selected before it can be set as underlying cause",
+			"created": "2016-01-20T20:40:45.361",
+			"dataElement": {
+				"id": "PRtKZR83Sgc"
+			},
+			"id": "dQjTXdOlab2",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "IICbXDbdL6m"
+			},
+			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
@@ -115936,30 +115828,29 @@
 			}
 		},
 		{
-			"created": "2016-07-07T12:07:28.526",
-			"data": "d2:split(#{CauseBcode}, '|', 0)",
+			"created": "2015-09-22T13:07:27.503",
 			"dataElement": {
-				"id": "jeK5z6acB3N"
+				"id": "FlzVuMSdC2F"
 			},
-			"id": "JlhgjoMkGxR",
+			"id": "ehcPZ5ESOSs",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "a5exvYDMawd"
+				"id": "Q8Am9abKTFJ"
 			},
-			"programRuleActionType": "ASSIGN",
+			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
 		},
 		{
-			"created": "2016-04-19T08:49:26.446",
+			"created": "2016-01-21T20:57:21.698",
 			"dataElement": {
-				"id": "su2yfVQ6EBD"
+				"id": "IocYobI3K3H"
 			},
-			"id": "jj7lc2hKaKa",
+			"id": "eHz45krDSHU",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "RrZMPm9gg26"
+				"id": "HmRzk2UoYF0"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -115983,27 +115874,241 @@
 			}
 		},
 		{
-			"content": "Date of injury should be on or after date of birth and on or before date of death",
-			"created": "2016-07-25T08:43:10.759",
+			"content": "Cause D was cleared because it requires cause C",
+			"created": "2016-04-19T08:50:28.718",
 			"dataElement": {
-				"id": "YC3AioXWlfR"
+				"id": "GG9lRn8z4P0"
 			},
-			"id": "Xrj4ln70Uxg",
+			"id": "euCqxn8x3Xz",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "EJ35tjEpvdy"
+				"id": "IICbXDbdL6m"
 			},
-			"programRuleActionType": "SHOWERROR",
+			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
 		},
 		{
-			"created": "2016-04-19T08:49:25.757",
+			"content": "Please validate completed weeks of pregancy",
+			"created": "2016-04-18T13:02:41.526",
 			"dataElement": {
-				"id": "GG9lRn8z4P0"
+				"id": "UUrqCmPloWO"
 			},
-			"id": "rNqX7JUjel7",
+			"id": "F2cIdqzbYz0",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "uhYbhYJA2E0"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Specifying a cause as freetext is only possible when [Not listed] is selected in the dropdown",
+			"created": "2016-01-20T14:17:40.672",
+			"dataElement": {
+				"id": "doSQuLwznxE"
+			},
+			"id": "F4PvexbRMGH",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "NREgDr41Oqk"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-20T14:36:55.143",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "FDWiWWPYCqf",
+			"lastUpdated": "2018-04-06T13:02:07.264",
+			"programRule": {
+				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "E6uZhRHxq4y"
+			}
+		},
+		{
+			"created": "2016-01-21T20:58:13.398",
+			"dataElement": {
+				"id": "IocYobI3K3H"
+			},
+			"id": "fhfccxp2gNW",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "OZcaa4PVi1A"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2017-07-06T16:17:27.099",
+			"data": "d2:split(#{CauseBcode}, '|', 1)",
+			"dataElement": {
+				"id": "nf91S8RgCEB"
+			},
+			"id": "fHUvPU93zgv",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "a5exvYDMawd"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-21T20:57:46.235",
+			"dataElement": {
+				"id": "jTpvdsQbfaT"
+			},
+			"id": "FrQtysocxNy",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "drqdLeOTlLh"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Cause B is underlying cause was cleared because it requires a diagnosis for Cause B",
+			"created": "2015-09-22T13:28:18.824",
+			"dataElement": {
+				"id": "gSVdd4lqbFe"
+			},
+			"id": "Fxn8ANAV3gu",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "RrZMPm9gg26"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2015-09-22T13:04:38.009",
+			"dataElement": {
+				"id": "UoL9vGPT0qF"
+			},
+			"id": "G4jpJnb1YE1",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "mSdda5ltDoi"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2018-04-06T11:15:09.009",
+			"dataElement": {
+				"id": "WnZFRHNeG6Z"
+			},
+			"id": "g4Mv0wN8FUO",
+			"lastUpdated": "2018-04-06T11:15:09.009",
+			"programRule": {
+				"id": "sk3TmeulUeC"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2016-04-19T08:41:43.471",
+			"dataElement": {
+				"id": "gSVdd4lqbFe"
+			},
+			"id": "G5DNeIc8pHR",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Please validate birth weight",
+			"created": "2016-04-18T11:59:21.325",
+			"dataElement": {
+				"id": "cDHBbG4cAHU"
+			},
+			"id": "gAiwW6liwvS",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "Moi1mHxuTnJ"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2017-07-06T16:17:27.099",
+			"data": "d2:split(#{CauseDcode}, '|', 1)",
+			"dataElement": {
+				"id": "nf91S8RgCEB"
+			},
+			"id": "gC2SYLHKGQg",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "EDYiaxVade4"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:05:48.441",
+			"data": "d2:split(#{CauseAcode}, '|', 0)",
+			"dataElement": {
+				"id": "tdt3CTgwnU3"
+			},
+			"id": "gqjNIt3L7jB",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "dsyYjnlZURC"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:44.092",
+			"dataElement": {
+				"id": "IocYobI3K3H"
+			},
+			"id": "hEVY6ZlQsdt",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:49:26.991",
+			"dataElement": {
+				"id": "IocYobI3K3H"
+			},
+			"id": "hPipsOeVMSo",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "RrZMPm9gg26"
@@ -116029,15 +116134,28 @@
 			}
 		},
 		{
-			"created": "2016-07-08T16:03:35.217",
-			"data": "d2:yearsBetween(#{DoB},V{event_date})",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "BuIkqMo5VBC",
+			"content": "Age estimate information is incomplete - enter both number and period type",
+			"created": "2016-08-09T11:03:43.599",
+			"id": "hWzhf8tooE7",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "rGCtd3njYQj"
+				"id": "oJqHuSa4Uat"
+			},
+			"programRuleActionType": "ERRORONCOMPLETE",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:09:00.954",
+			"data": "d2:split(#{CauseCcode}, '|', 0)",
+			"dataElement": {
+				"id": "jeK5z6acB3N"
+			},
+			"id": "I7li6ArvpAm",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "Dn0RkPmFPSj"
 			},
 			"programRuleActionType": "ASSIGN",
 			"programStageSection": {
@@ -116045,118 +116163,11 @@
 			}
 		},
 		{
-			"created": "2016-04-19T08:41:43.471",
+			"created": "2016-01-20T20:41:13.168",
 			"dataElement": {
-				"id": "gSVdd4lqbFe"
+				"id": "fEnDOQZUB9V"
 			},
-			"id": "G5DNeIc8pHR",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-23T11:24:20.196",
-			"dataElement": {
-				"id": "Q9gr2dFSGxI"
-			},
-			"id": "l6OghN2Ijpo",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "JHORv7d5GtF"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-18T13:48:23.573",
-			"dataElement": {
-				"id": "WnZFRHNeG6Z"
-			},
-			"id": "sq7DAy835Ba",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "JHORv7d5GtF"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Please validate completed weeks of pregancy",
-			"created": "2016-04-18T13:02:41.526",
-			"dataElement": {
-				"id": "UUrqCmPloWO"
-			},
-			"id": "F2cIdqzbYz0",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "uhYbhYJA2E0"
-			},
-			"programRuleActionType": "SHOWWARNING",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-07T11:03:34.053",
-			"dataElement": {
-				"id": "NtO2qt0qeVa"
-			},
-			"id": "mFVQtZfc4qY",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RKM0dvOxl5q"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:58:12.937",
-			"dataElement": {
-				"id": "gSVdd4lqbFe"
-			},
-			"id": "UdEeOkhWqFq",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "OZcaa4PVi1A"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-22T13:02:46.495",
-			"dataElement": {
-				"id": "z6xqbLdqXzd"
-			},
-			"id": "zULe7HHWhGc",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "bC56im19lTx"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Cause B is underlying cause was cleared because it requires a diagnosis for Cause B",
-			"created": "2015-09-22T13:28:18.824",
-			"dataElement": {
-				"id": "gSVdd4lqbFe"
-			},
-			"id": "Fxn8ANAV3gu",
+			"id": "Im4sZWMREKH",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "RrZMPm9gg26"
@@ -116167,14 +116178,14 @@
 			}
 		},
 		{
-			"created": "2016-01-20T14:25:13.467",
+			"created": "2015-09-23T11:24:20.122",
 			"dataElement": {
-				"id": "SnSeql5YI9s"
+				"id": "Pdn0awI0bhm"
 			},
-			"id": "PLntNLi00xL",
-			"lastUpdated": "2018-04-06T13:02:07.265",
+			"id": "iTEAUaKx3NG",
+			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "bZj2zXX7yV3"
+				"id": "JHORv7d5GtF"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116182,14 +116193,14 @@
 			}
 		},
 		{
-			"created": "2016-07-07T11:02:10.265",
+			"created": "2016-04-19T08:41:42.804",
 			"dataElement": {
-				"id": "YC3AioXWlfR"
+				"id": "W2YJeu3JG8C"
 			},
-			"id": "UPNBB64N2dy",
+			"id": "J21CwIWe1ER",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "uaynjlKU9oo"
+				"id": "npVHCJ39QZO"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116197,15 +116208,75 @@
 			}
 		},
 		{
-			"content": "Specifying a cause as freetext is only possible when [Not listed] is selected in the dropdown",
-			"created": "2016-01-20T14:17:40.672",
+			"created": "2016-04-19T08:41:41.489",
 			"dataElement": {
-				"id": "doSQuLwznxE"
+				"id": "uvIEH3s4W8h"
 			},
-			"id": "F4PvexbRMGH",
+			"id": "J32o3JPCOeI",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "NREgDr41Oqk"
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:49:26.446",
+			"dataElement": {
+				"id": "su2yfVQ6EBD"
+			},
+			"id": "jj7lc2hKaKa",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "RrZMPm9gg26"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:07:28.526",
+			"data": "d2:split(#{CauseBcode}, '|', 0)",
+			"dataElement": {
+				"id": "jeK5z6acB3N"
+			},
+			"id": "JlhgjoMkGxR",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "a5exvYDMawd"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-21T20:59:05.417",
+			"dataElement": {
+				"id": "jTpvdsQbfaT"
+			},
+			"id": "jOsYoD8kjqX",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "pBR3cy5lGw1"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2015-09-22T13:20:46.180",
+			"dataElement": {
+				"id": "Kg37g6hfvFR"
+			},
+			"id": "jSaxImOcrwH",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116228,103 +116299,45 @@
 			}
 		},
 		{
-			"content": "Please validate birth weight",
-			"created": "2016-04-18T11:59:21.325",
+			"created": "2016-05-10T09:53:31.921",
 			"dataElement": {
-				"id": "cDHBbG4cAHU"
+				"id": "K7ac6P41YA1"
 			},
-			"id": "gAiwW6liwvS",
+			"id": "K1cP9bwxyR5",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "Moi1mHxuTnJ"
+				"id": "HZbpMMwWyOk"
 			},
-			"programRuleActionType": "SHOWWARNING",
+			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
 		},
 		{
-			"created": "2016-01-20T20:41:13.126",
+			"created": "2016-04-21T09:53:07.446",
 			"dataElement": {
-				"id": "OcFZusuDOia"
+				"id": "uvIEH3s4W8h"
 			},
-			"id": "cAAuTDYVGRj",
+			"id": "kee7yEPXN4y",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "RrZMPm9gg26"
 			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:52:17.999",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "Wa0NSFAyncV",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
-				"id": "ZC6tWeDlLhL"
+				"id": "BeoOx7aQlZf"
 			}
 		},
 		{
-			"created": "2016-01-20T14:41:07.835",
+			"content": "Time from pregnancy only applicable if woman was pregnant within last year",
+			"created": "2017-07-06T15:59:06.289",
 			"dataElement": {
-				"id": "NtO2qt0qeVa"
+				"id": "Pdn0awI0bhm"
 			},
-			"id": "p5gWep1phi8",
-			"lastUpdated": "2018-04-06T12:51:04.551",
+			"id": "kNB6PJg0d9L",
+			"lastUpdated": "2018-04-06T11:15:09.012",
 			"programRule": {
-				"id": "Q1kblbyM9tC"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:53:34.064",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "cOlSasiszS3",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "IICbXDbdL6m"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "ZC6tWeDlLhL"
-			}
-		},
-		{
-			"content": "Selecting an underlying cause is required.",
-			"created": "2016-07-07T11:17:49.160",
-			"id": "TdPN9q6xFex",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "aTr7jakU0In"
-			},
-			"programRuleActionType": "ERRORONCOMPLETE",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:57:46.394",
-			"dataElement": {
-				"id": "PRtKZR83Sgc"
-			},
-			"id": "Mn9ZjPyXTAY",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "drqdLeOTlLh"
+				"id": "sk3TmeulUeC"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116347,15 +116360,15 @@
 			}
 		},
 		{
-			"created": "2017-07-06T16:17:27.099",
-			"data": "d2:split(#{CauseDcode}, '|', 1)",
+			"created": "2016-07-07T12:05:47.836",
+			"data": "''",
 			"dataElement": {
-				"id": "nf91S8RgCEB"
+				"id": "jeK5z6acB3N"
 			},
-			"id": "gC2SYLHKGQg",
-			"lastUpdated": "2018-01-17T11:51:59.558",
+			"id": "KvdcxXyIFjl",
+			"lastUpdated": "2018-09-24T12:05:00.319",
 			"programRule": {
-				"id": "EDYiaxVade4"
+				"id": "QjUuURmKIl2"
 			},
 			"programRuleActionType": "ASSIGN",
 			"programStageSection": {
@@ -116363,30 +116376,14 @@
 			}
 		},
 		{
-			"created": "2016-07-08T16:00:57.221",
-			"data": "d2:floor(#{EstAge}/12)",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "V6Ejg0HkJjN",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "q0LPMkRm8fu"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:58:13.398",
+			"created": "2016-04-19T08:50:28.986",
 			"dataElement": {
 				"id": "IocYobI3K3H"
 			},
-			"id": "fhfccxp2gNW",
+			"id": "l6fD6pFEYVY",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "OZcaa4PVi1A"
+				"id": "IICbXDbdL6m"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116394,14 +116391,14 @@
 			}
 		},
 		{
-			"created": "2016-04-19T08:41:42.491",
+			"created": "2015-09-23T11:24:20.196",
 			"dataElement": {
-				"id": "GG9lRn8z4P0"
+				"id": "Q9gr2dFSGxI"
 			},
-			"id": "aGoNk26gyuZ",
+			"id": "l6OghN2Ijpo",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "npVHCJ39QZO"
+				"id": "JHORv7d5GtF"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116409,15 +116406,14 @@
 			}
 		},
 		{
-			"content": "Specifying a cause as freetext is only possible when [Not listed] is selected in the dropdown",
-			"created": "2016-01-20T14:17:04.577",
+			"created": "2016-07-07T11:03:34.053",
 			"dataElement": {
-				"id": "I672Kv6Leb6"
+				"id": "NtO2qt0qeVa"
 			},
-			"id": "Yrq69WTYWir",
+			"id": "mFVQtZfc4qY",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "EQm1qiMfAV5"
+				"id": "RKM0dvOxl5q"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116425,88 +116421,14 @@
 			}
 		},
 		{
-			"created": "2016-07-07T12:09:01.574",
-			"data": "d2:split(#{CauseCcode}, '|', 0)",
+			"created": "2016-01-21T20:57:46.394",
 			"dataElement": {
-				"id": "tdt3CTgwnU3"
+				"id": "PRtKZR83Sgc"
 			},
-			"id": "VGQqnevd7sb",
+			"id": "Mn9ZjPyXTAY",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "Dn0RkPmFPSj"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:58:12.632",
-			"dataElement": {
-				"id": "jTpvdsQbfaT"
-			},
-			"id": "p640aOPUN5S",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "OZcaa4PVi1A"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-05-10T09:58:28.986",
-			"dataElement": {
-				"id": "uohUQpjhWSt"
-			},
-			"id": "WTXV7n4gs9n",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "Z3ejaSvFH6P"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Information on date of birth is required. Enter a date of birth, or select 'date or birth unknown' ",
-			"created": "2016-06-28T09:57:15.838",
-			"id": "a8843ScOl38",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "hzZqsGAX5wm"
-			},
-			"programRuleActionType": "ERRORONCOMPLETE",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:49:26.991",
-			"dataElement": {
-				"id": "IocYobI3K3H"
-			},
-			"id": "hPipsOeVMSo",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RrZMPm9gg26"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2017-07-06T16:24:07.564",
-			"dataElement": {
-				"id": "tdt3CTgwnU3"
-			},
-			"id": "UXiCoB0gf1M",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "CgGDp7ujwuo"
+				"id": "drqdLeOTlLh"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116529,11 +116451,76 @@
 			}
 		},
 		{
-			"created": "2016-04-19T08:41:44.092",
+			"content": "Please verify date of birth or age estimate. Age in years is reported as ",
+			"created": "2016-08-09T11:21:25.101",
+			"data": "#{AgeYears}",
 			"dataElement": {
-				"id": "IocYobI3K3H"
+				"id": "Fm6cUmmiY3d"
 			},
-			"id": "hEVY6ZlQsdt",
+			"id": "n4SjtMWgALt",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "l1gE1mcW4sQ"
+			},
+			"programRuleActionType": "ERRORONCOMPLETE",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:02:18.678",
+			"data": "d2:floor(#{EstAge}/365)",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "nsvuJWSj3TF",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "LAS9FsppY7u"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-20T14:14:44.030",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "nT1QjW7sOlt",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "JHORv7d5GtF"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "WvPGf37nC8y"
+			}
+		},
+		{
+			"created": "2016-07-07T12:07:29.831",
+			"data": "d2:split(#{CauseBcode}, '|', 0)",
+			"dataElement": {
+				"id": "tdt3CTgwnU3"
+			},
+			"id": "nX4x5K0b62k",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "a5exvYDMawd"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Cause A is underlying cause was cleared because it requires a diagnosis for Cause A",
+			"created": "2016-01-20T20:39:17.644",
+			"dataElement": {
+				"id": "jTpvdsQbfaT"
+			},
+			"id": "OFOgyG3xwKW",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "npVHCJ39QZO"
@@ -116544,15 +116531,15 @@
 			}
 		},
 		{
-			"content": "Diagnosis for cause C must be selected before it can be set as underlying cause",
-			"created": "2016-01-20T20:40:45.361",
+			"content": "Causes B-D were cleared because they require cause A",
+			"created": "2015-09-22T13:20:46.111",
 			"dataElement": {
-				"id": "PRtKZR83Sgc"
+				"id": "Xrt5RLiE5N8"
 			},
-			"id": "dQjTXdOlab2",
+			"id": "ojI3WEXY9Kc",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "IICbXDbdL6m"
+				"id": "npVHCJ39QZO"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116560,28 +116547,15 @@
 			}
 		},
 		{
-			"content": "Information on sex is required. If sex is not know, select 'Unknown'.",
-			"created": "2016-07-07T11:08:18.343",
-			"id": "aleJirgEJxz",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "gTMW5IMc7Cf"
-			},
-			"programRuleActionType": "ERRORONCOMPLETE",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-08T16:01:03.653",
-			"data": "#{EstAge}",
+			"created": "2017-07-06T16:17:27.099",
+			"data": "d2:split(#{CauseAcode}, '|', 1)",
 			"dataElement": {
-				"id": "Fm6cUmmiY3d"
+				"id": "nf91S8RgCEB"
 			},
-			"id": "D11kjQhazF1",
+			"id": "oYj2vUyb07U",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "iBQr5CyTgOG"
+				"id": "dsyYjnlZURC"
 			},
 			"programRuleActionType": "ASSIGN",
 			"programStageSection": {
@@ -116589,46 +116563,77 @@
 			}
 		},
 		{
-			"created": "2017-07-06T16:24:07.748",
+			"created": "2016-01-20T14:41:07.835",
+			"dataElement": {
+				"id": "NtO2qt0qeVa"
+			},
+			"id": "p5gWep1phi8",
+			"lastUpdated": "2018-04-06T12:51:04.551",
+			"programRule": {
+				"id": "Q1kblbyM9tC"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-21T20:58:12.632",
+			"dataElement": {
+				"id": "jTpvdsQbfaT"
+			},
+			"id": "p640aOPUN5S",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "OZcaa4PVi1A"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-20T14:25:13.467",
+			"dataElement": {
+				"id": "SnSeql5YI9s"
+			},
+			"id": "PLntNLi00xL",
+			"lastUpdated": "2018-04-06T13:02:07.265",
+			"programRule": {
+				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-21T09:52:17.450",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "ppBZ4HPWIHi",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "P9gQhz6BvOb"
+			}
+		},
+		{
+			"created": "2017-07-06T16:17:27.099",
+			"data": "''",
 			"dataElement": {
 				"id": "nf91S8RgCEB"
 			},
-			"id": "vcswnSR2nao",
-			"lastUpdated": "2018-01-17T11:51:59.558",
+			"id": "pSoGYEQ02hB",
+			"lastUpdated": "2018-09-24T12:05:00.319",
 			"programRule": {
-				"id": "CgGDp7ujwuo"
+				"id": "QjUuURmKIl2"
 			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:50:29.514",
-			"dataElement": {
-				"id": "su2yfVQ6EBD"
-			},
-			"id": "vLHDUotwaxr",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "IICbXDbdL6m"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-22T13:07:27.503",
-			"dataElement": {
-				"id": "FlzVuMSdC2F"
-			},
-			"id": "ehcPZ5ESOSs",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "Q8Am9abKTFJ"
-			},
-			"programRuleActionType": "HIDEFIELD",
+			"programRuleActionType": "ASSIGN",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
@@ -116642,6 +116647,52 @@
 			"lastUpdated": "2018-04-06T13:02:07.264",
 			"programRule": {
 				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:05:48.441",
+			"data": "''",
+			"dataElement": {
+				"id": "tdt3CTgwnU3"
+			},
+			"id": "qiHGUHPdEFr",
+			"lastUpdated": "2018-09-24T12:05:00.319",
+			"programRule": {
+				"id": "QjUuURmKIl2"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:42.164",
+			"dataElement": {
+				"id": "fEnDOQZUB9V"
+			},
+			"id": "QMGEFOYcbBB",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:43.133",
+			"dataElement": {
+				"id": "su2yfVQ6EBD"
+			},
+			"id": "QpGldCPm6xU",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116665,17 +116716,16 @@
 			}
 		},
 		{
-			"created": "2016-07-08T16:02:14.903",
-			"data": "d2:floor(#{EstAge}/8760)",
+			"created": "2016-01-21T20:59:05.703",
 			"dataElement": {
-				"id": "Fm6cUmmiY3d"
+				"id": "PRtKZR83Sgc"
 			},
-			"id": "YsfIeDQiUPK",
+			"id": "qzTZ6n8JycC",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "J31Jc49bmav"
+				"id": "pBR3cy5lGw1"
 			},
-			"programRuleActionType": "ASSIGN",
+			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
 				"id": "sliGwNTfmJS"
 			}
@@ -116696,55 +116746,14 @@
 			}
 		},
 		{
-			"created": "2016-07-25T09:04:44.520",
-			"id": "ZLG4puQe2ad",
+			"created": "2016-04-19T08:49:25.757",
+			"dataElement": {
+				"id": "GG9lRn8z4P0"
+			},
+			"id": "rNqX7JUjel7",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "uaynjlKU9oo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "DzAiGmANV8W"
-			}
-		},
-		{
-			"created": "2018-04-06T12:27:47.631",
-			"data": "null",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "vuXZVlmB9h6",
-			"lastUpdated": "2018-04-06T12:29:19.681",
-			"programRule": {
-				"id": "PKpw7Ft1XWH"
-			},
-			"programRuleActionType": "ASSIGN"
-		},
-		{
-			"created": "2016-07-07T12:05:47.836",
-			"data": "''",
-			"dataElement": {
-				"id": "jeK5z6acB3N"
-			},
-			"id": "KvdcxXyIFjl",
-			"lastUpdated": "2018-09-24T12:05:00.319",
-			"programRule": {
-				"id": "QjUuURmKIl2"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-07T11:02:09.083",
-			"dataElement": {
-				"id": "AbSABtFkjxr"
-			},
-			"id": "ZO0hnpzDeuR",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "uaynjlKU9oo"
+				"id": "RrZMPm9gg26"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -116752,398 +116761,14 @@
 			}
 		},
 		{
-			"created": "2016-07-07T12:09:49.657",
-			"data": "d2:split(#{CauseDcode}, '|', 0)",
-			"dataElement": {
-				"id": "jeK5z6acB3N"
-			},
-			"id": "WE1GNHMprgK",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "EDYiaxVade4"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Please validate age and pregnancy status",
-			"created": "2017-09-14T09:58:55.309",
-			"dataElement": {
-				"id": "Q9gr2dFSGxI"
-			},
-			"id": "dKq3QyVDlkm",
-			"lastUpdated": "2018-04-06T13:07:40.657",
-			"programRule": {
-				"id": "pSyT4Yh4iJD"
-			},
-			"programRuleActionType": "SHOWWARNING",
-			"programStage": {
-				"id": "wmSb9TmevMn"
-			},
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Causes B-D were cleared because they require cause A",
-			"created": "2015-09-22T13:20:46.111",
-			"dataElement": {
-				"id": "Xrt5RLiE5N8"
-			},
-			"id": "ojI3WEXY9Kc",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-20T14:25:13.689",
-			"dataElement": {
-				"id": "E6jCMHDEGpF"
-			},
-			"id": "tD5TPXmcEOt",
-			"lastUpdated": "2018-04-06T13:02:07.264",
-			"programRule": {
-				"id": "bZj2zXX7yV3"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-07T12:09:00.954",
-			"data": "d2:split(#{CauseCcode}, '|', 0)",
-			"dataElement": {
-				"id": "jeK5z6acB3N"
-			},
-			"id": "I7li6ArvpAm",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "Dn0RkPmFPSj"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:50:28.986",
+			"created": "2016-01-21T20:57:46.531",
 			"dataElement": {
 				"id": "IocYobI3K3H"
 			},
-			"id": "l6fD6pFEYVY",
+			"id": "s4DcVyyy5pH",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "IICbXDbdL6m"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2015-09-22T13:04:38.009",
-			"dataElement": {
-				"id": "UoL9vGPT0qF"
-			},
-			"id": "G4jpJnb1YE1",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "mSdda5ltDoi"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:49:26.720",
-			"dataElement": {
-				"id": "PRtKZR83Sgc"
-			},
-			"id": "ueNjThsPjrO",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RrZMPm9gg26"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:41:42.164",
-			"dataElement": {
-				"id": "fEnDOQZUB9V"
-			},
-			"id": "QMGEFOYcbBB",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-07-08T16:00:11.184",
-			"data": "d2:floor(#{EstAge}/52)",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "aOuPa1HndBm",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "EVzDdCmbi7E"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2017-07-06T16:17:27.099",
-			"data": "d2:split(#{CauseCcode}, '|', 1)",
-			"dataElement": {
-				"id": "nf91S8RgCEB"
-			},
-			"id": "CT3y1foKLK0",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "Dn0RkPmFPSj"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-20T14:25:13.601",
-			"dataElement": {
-				"id": "cDHBbG4cAHU"
-			},
-			"id": "aDHb3zlDr8G",
-			"lastUpdated": "2018-04-06T13:02:07.264",
-			"programRule": {
-				"id": "bZj2zXX7yV3"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-19T08:41:42.804",
-			"dataElement": {
-				"id": "W2YJeu3JG8C"
-			},
-			"id": "J21CwIWe1ER",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:59:05.703",
-			"dataElement": {
-				"id": "PRtKZR83Sgc"
-			},
-			"id": "qzTZ6n8JycC",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "pBR3cy5lGw1"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2017-07-06T16:17:27.099",
-			"data": "d2:split(#{CauseBcode}, '|', 1)",
-			"dataElement": {
-				"id": "nf91S8RgCEB"
-			},
-			"id": "fHUvPU93zgv",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "a5exvYDMawd"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:57:21.549",
-			"dataElement": {
-				"id": "PRtKZR83Sgc"
-			},
-			"id": "YSJdLvR6Hk9",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "HmRzk2UoYF0"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-21T20:59:05.417",
-			"dataElement": {
-				"id": "jTpvdsQbfaT"
-			},
-			"id": "jOsYoD8kjqX",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "pBR3cy5lGw1"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2018-04-06T11:15:09.009",
-			"dataElement": {
-				"id": "WnZFRHNeG6Z"
-			},
-			"id": "g4Mv0wN8FUO",
-			"lastUpdated": "2018-04-06T11:15:09.009",
-			"programRule": {
-				"id": "sk3TmeulUeC"
-			},
-			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"created": "2016-05-09T16:51:32.066",
-			"dataElement": {
-				"id": "dbXDFWZtlrh"
-			},
-			"id": "bS8O3dV8tGR",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "mvV0K5Wjxdr"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:52:17.718",
-			"dataElement": {
-				"id": "Fm6cUmmiY3d"
-			},
-			"id": "UEQMqHa7KCV",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "BeoOx7aQlZf"
-			}
-		},
-		{
-			"created": "2015-09-22T13:26:06.926",
-			"dataElement": {
-				"id": "W2YJeu3JG8C"
-			},
-			"id": "wD3BEd5azqF",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "IICbXDbdL6m"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-04-21T09:53:07.446",
-			"dataElement": {
-				"id": "uvIEH3s4W8h"
-			},
-			"id": "kee7yEPXN4y",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "RrZMPm9gg26"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "BeoOx7aQlZf"
-			}
-		},
-		{
-			"created": "2016-04-19T08:41:43.133",
-			"dataElement": {
-				"id": "su2yfVQ6EBD"
-			},
-			"id": "QpGldCPm6xU",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "npVHCJ39QZO"
-			},
-			"programRuleActionType": "HIDEFIELD",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "Date or birth must be before or on date of death",
-			"created": "2016-04-11T10:46:07.620",
-			"dataElement": {
-				"id": "UoL9vGPT0qF"
-			},
-			"id": "VZvvpAU5xje",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "DDZ6pEgqKXV"
-			},
-			"programRuleActionType": "SHOWERROR",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"content": "To be completed only if value is 24 or less",
-			"created": "2016-04-16T20:29:42.902",
-			"dataElement": {
-				"id": "NtO2qt0qeVa"
-			},
-			"id": "zdxrL3OqJxH",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "oo0BHzgPSK8"
-			},
-			"programRuleActionType": "SHOWERROR",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-05-09T16:51:32.385",
-			"dataElement": {
-				"id": "Ni84dctuoiK"
-			},
-			"id": "a3LTMGxIpWe",
-			"lastUpdated": "2018-01-17T11:51:59.558",
-			"programRule": {
-				"id": "mvV0K5Wjxdr"
+				"id": "drqdLeOTlLh"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -117167,11 +116792,85 @@
 			}
 		},
 		{
-			"created": "2016-01-20T20:41:13.168",
+			"created": "2016-01-18T13:48:23.573",
 			"dataElement": {
-				"id": "fEnDOQZUB9V"
+				"id": "WnZFRHNeG6Z"
 			},
-			"id": "Im4sZWMREKH",
+			"id": "sq7DAy835Ba",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "JHORv7d5GtF"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-20T14:25:13.689",
+			"dataElement": {
+				"id": "E6jCMHDEGpF"
+			},
+			"id": "tD5TPXmcEOt",
+			"lastUpdated": "2018-04-06T13:02:07.264",
+			"programRule": {
+				"id": "bZj2zXX7yV3"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Selecting an underlying cause is required.",
+			"created": "2016-07-07T11:17:49.160",
+			"id": "TdPN9q6xFex",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "aTr7jakU0In"
+			},
+			"programRuleActionType": "ERRORONCOMPLETE",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Please validate the reported age of mother",
+			"created": "2016-04-18T13:04:34.204",
+			"dataElement": {
+				"id": "E6jCMHDEGpF"
+			},
+			"id": "Uc6jJO7BYV3",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "BGIU2PkpHxM"
+			},
+			"programRuleActionType": "SHOWWARNING",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-21T20:58:12.937",
+			"dataElement": {
+				"id": "gSVdd4lqbFe"
+			},
+			"id": "UdEeOkhWqFq",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "OZcaa4PVi1A"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:49:26.720",
+			"dataElement": {
+				"id": "PRtKZR83Sgc"
+			},
+			"id": "ueNjThsPjrO",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
 				"id": "RrZMPm9gg26"
@@ -117182,46 +116881,29 @@
 			}
 		},
 		{
-			"content": "Cause D was cleared because it requires cause C",
-			"created": "2016-04-19T08:50:28.718",
+			"created": "2016-04-21T09:52:17.718",
 			"dataElement": {
-				"id": "GG9lRn8z4P0"
+				"id": "Fm6cUmmiY3d"
 			},
-			"id": "euCqxn8x3Xz",
+			"id": "UEQMqHa7KCV",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "IICbXDbdL6m"
+				"id": "npVHCJ39QZO"
 			},
-			"programRuleActionType": "HIDEFIELD",
+			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
-				"id": "sliGwNTfmJS"
+				"id": "BeoOx7aQlZf"
 			}
 		},
 		{
-			"created": "2016-07-07T12:05:48.441",
-			"data": "d2:split(#{CauseAcode}, '|', 0)",
+			"created": "2016-07-07T11:02:10.265",
 			"dataElement": {
-				"id": "tdt3CTgwnU3"
+				"id": "YC3AioXWlfR"
 			},
-			"id": "gqjNIt3L7jB",
+			"id": "UPNBB64N2dy",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "dsyYjnlZURC"
-			},
-			"programRuleActionType": "ASSIGN",
-			"programStageSection": {
-				"id": "sliGwNTfmJS"
-			}
-		},
-		{
-			"created": "2016-01-20T14:25:13.512",
-			"dataElement": {
-				"id": "XvfpVOXCZvb"
-			},
-			"id": "Dcep7M2IFud",
-			"lastUpdated": "2018-04-06T13:02:07.265",
-			"programRule": {
-				"id": "bZj2zXX7yV3"
+				"id": "uaynjlKU9oo"
 			},
 			"programRuleActionType": "HIDEFIELD",
 			"programStageSection": {
@@ -117244,18 +116926,378 @@
 			}
 		},
 		{
-			"created": "2016-01-20T14:14:44.030",
+			"created": "2017-07-06T16:24:07.564",
+			"dataElement": {
+				"id": "tdt3CTgwnU3"
+			},
+			"id": "UXiCoB0gf1M",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "CgGDp7ujwuo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2015-09-22T13:07:27.469",
+			"dataElement": {
+				"id": "Zp1elSUYpwI"
+			},
+			"id": "UYbltm0bmCz",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "Q8Am9abKTFJ"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:00:57.221",
+			"data": "d2:floor(#{EstAge}/12)",
 			"dataElement": {
 				"id": "Fm6cUmmiY3d"
 			},
-			"id": "nT1QjW7sOlt",
+			"id": "V6Ejg0HkJjN",
 			"lastUpdated": "2018-01-17T11:51:59.558",
 			"programRule": {
-				"id": "JHORv7d5GtF"
+				"id": "q0LPMkRm8fu"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:43.791",
+			"dataElement": {
+				"id": "PRtKZR83Sgc"
+			},
+			"id": "v8gWxvAvrQx",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2017-07-06T16:24:07.748",
+			"dataElement": {
+				"id": "nf91S8RgCEB"
+			},
+			"id": "vcswnSR2nao",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "CgGDp7ujwuo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:09:01.574",
+			"data": "d2:split(#{CauseCcode}, '|', 0)",
+			"dataElement": {
+				"id": "tdt3CTgwnU3"
+			},
+			"id": "VGQqnevd7sb",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "Dn0RkPmFPSj"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-21T09:53:07.712",
+			"dataElement": {
+				"id": "GG9lRn8z4P0"
+			},
+			"id": "VIkSYno7Yq5",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "RrZMPm9gg26"
 			},
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
-				"id": "WvPGf37nC8y"
+				"id": "ZC6tWeDlLhL"
+			}
+		},
+		{
+			"created": "2016-04-19T08:50:29.514",
+			"dataElement": {
+				"id": "su2yfVQ6EBD"
+			},
+			"id": "vLHDUotwaxr",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "IICbXDbdL6m"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2018-04-06T12:27:47.631",
+			"data": "null",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "vuXZVlmB9h6",
+			"lastUpdated": "2018-04-06T12:29:19.681",
+			"programRule": {
+				"id": "PKpw7Ft1XWH"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"content": "Date or birth must be before or on date of death",
+			"created": "2016-04-11T10:46:07.620",
+			"dataElement": {
+				"id": "UoL9vGPT0qF"
+			},
+			"id": "VZvvpAU5xje",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "DDZ6pEgqKXV"
+			},
+			"programRuleActionType": "SHOWERROR",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-21T09:52:17.999",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "Wa0NSFAyncV",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "ZC6tWeDlLhL"
+			}
+		},
+		{
+			"created": "2015-09-22T13:26:06.926",
+			"dataElement": {
+				"id": "W2YJeu3JG8C"
+			},
+			"id": "wD3BEd5azqF",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "IICbXDbdL6m"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-07T12:09:49.657",
+			"data": "d2:split(#{CauseDcode}, '|', 0)",
+			"dataElement": {
+				"id": "jeK5z6acB3N"
+			},
+			"id": "WE1GNHMprgK",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "EDYiaxVade4"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-05-10T09:58:28.986",
+			"dataElement": {
+				"id": "uohUQpjhWSt"
+			},
+			"id": "WTXV7n4gs9n",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "Z3ejaSvFH6P"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2018-04-06T12:27:47.631",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "WwG7SrADsNH",
+			"lastUpdated": "2018-04-06T12:29:19.681",
+			"programRule": {
+				"id": "PKpw7Ft1XWH"
+			},
+			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"content": "Date of injury should be on or after date of birth and on or before date of death",
+			"created": "2016-07-25T08:43:10.759",
+			"dataElement": {
+				"id": "YC3AioXWlfR"
+			},
+			"id": "Xrj4ln70Uxg",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "EJ35tjEpvdy"
+			},
+			"programRuleActionType": "SHOWERROR",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "Specifying a cause as freetext is only possible when [Not listed] is selected in the dropdown",
+			"created": "2016-01-20T14:17:04.577",
+			"dataElement": {
+				"id": "I672Kv6Leb6"
+			},
+			"id": "Yrq69WTYWir",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "EQm1qiMfAV5"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-08T16:02:14.903",
+			"data": "d2:floor(#{EstAge}/8760)",
+			"dataElement": {
+				"id": "Fm6cUmmiY3d"
+			},
+			"id": "YsfIeDQiUPK",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "J31Jc49bmav"
+			},
+			"programRuleActionType": "ASSIGN",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-01-21T20:57:21.549",
+			"dataElement": {
+				"id": "PRtKZR83Sgc"
+			},
+			"id": "YSJdLvR6Hk9",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "HmRzk2UoYF0"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:41:41.832",
+			"dataElement": {
+				"id": "OcFZusuDOia"
+			},
+			"id": "Zde5I6Sd18n",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "npVHCJ39QZO"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"content": "To be completed only if value is 24 or less",
+			"created": "2016-04-16T20:29:42.902",
+			"dataElement": {
+				"id": "NtO2qt0qeVa"
+			},
+			"id": "zdxrL3OqJxH",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "oo0BHzgPSK8"
+			},
+			"programRuleActionType": "SHOWERROR",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-07-25T09:04:44.520",
+			"id": "ZLG4puQe2ad",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "uaynjlKU9oo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "DzAiGmANV8W"
+			}
+		},
+		{
+			"created": "2016-07-07T11:02:09.083",
+			"dataElement": {
+				"id": "AbSABtFkjxr"
+			},
+			"id": "ZO0hnpzDeuR",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "uaynjlKU9oo"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2016-04-19T08:49:26.043",
+			"dataElement": {
+				"id": "W2YJeu3JG8C"
+			},
+			"id": "ZUJXUWzyF27",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "RrZMPm9gg26"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
+			}
+		},
+		{
+			"created": "2015-09-22T13:02:46.495",
+			"dataElement": {
+				"id": "z6xqbLdqXzd"
+			},
+			"id": "zULe7HHWhGc",
+			"lastUpdated": "2018-01-17T11:51:59.558",
+			"programRule": {
+				"id": "bC56im19lTx"
+			},
+			"programRuleActionType": "HIDEFIELD",
+			"programStageSection": {
+				"id": "sliGwNTfmJS"
 			}
 		}
 	],
@@ -117275,25 +117317,25 @@
 					"id": "aDHb3zlDr8G"
 				},
 				{
+					"id": "Dcep7M2IFud"
+				},
+				{
 					"id": "FDWiWWPYCqf"
 				},
 				{
-					"id": "tD5TPXmcEOt"
-				},
-				{
-					"id": "R4xhhUuqLSS"
-				},
-				{
-					"id": "q2cvkcxdyk1"
-				},
-				{
-					"id": "Dcep7M2IFud"
+					"id": "hpKZvRxQR1j"
 				},
 				{
 					"id": "PLntNLi00xL"
 				},
 				{
-					"id": "hpKZvRxQR1j"
+					"id": "q2cvkcxdyk1"
+				},
+				{
+					"id": "R4xhhUuqLSS"
+				},
+				{
+					"id": "tD5TPXmcEOt"
 				}
 			],
 			"translations": [
@@ -117807,10 +117849,10 @@
 					"id": "cdKJ42odN75"
 				},
 				{
-					"id": "oYj2vUyb07U"
+					"id": "gqjNIt3L7jB"
 				},
 				{
-					"id": "gqjNIt3L7jB"
+					"id": "oYj2vUyb07U"
 				}
 			],
 			"translations": [
@@ -117839,19 +117881,25 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "OFOgyG3xwKW"
+					"id": "aGoNk26gyuZ"
 				},
 				{
-					"id": "jSaxImOcrwH"
+					"id": "G5DNeIc8pHR"
 				},
 				{
-					"id": "v8gWxvAvrQx"
+					"id": "hEVY6ZlQsdt"
 				},
 				{
 					"id": "J21CwIWe1ER"
 				},
 				{
-					"id": "Wa0NSFAyncV"
+					"id": "J32o3JPCOeI"
+				},
+				{
+					"id": "jSaxImOcrwH"
+				},
+				{
+					"id": "OFOgyG3xwKW"
 				},
 				{
 					"id": "ojI3WEXY9Kc"
@@ -117860,31 +117908,25 @@
 					"id": "ppBZ4HPWIHi"
 				},
 				{
-					"id": "J32o3JPCOeI"
-				},
-				{
-					"id": "Zde5I6Sd18n"
-				},
-				{
-					"id": "G5DNeIc8pHR"
-				},
-				{
-					"id": "UEQMqHa7KCV"
-				},
-				{
-					"id": "hEVY6ZlQsdt"
+					"id": "QMGEFOYcbBB"
 				},
 				{
 					"id": "QpGldCPm6xU"
 				},
 				{
-					"id": "QMGEFOYcbBB"
+					"id": "UEQMqHa7KCV"
 				},
 				{
 					"id": "uSJWioUIEHu"
 				},
 				{
-					"id": "aGoNk26gyuZ"
+					"id": "v8gWxvAvrQx"
+				},
+				{
+					"id": "Wa0NSFAyncV"
+				},
+				{
+					"id": "Zde5I6Sd18n"
 				}
 			],
 			"translations": [
@@ -117912,10 +117954,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "Jwzuxrasmht"
+					"id": "eHz45krDSHU"
 				},
 				{
-					"id": "eHz45krDSHU"
+					"id": "Jwzuxrasmht"
 				},
 				{
 					"id": "YSJdLvR6Hk9"
@@ -117974,13 +118016,13 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "nX4x5K0b62k"
+					"id": "fHUvPU93zgv"
 				},
 				{
 					"id": "JlhgjoMkGxR"
 				},
 				{
-					"id": "fHUvPU93zgv"
+					"id": "nX4x5K0b62k"
 				}
 			],
 			"translations": [
@@ -118009,37 +118051,37 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "VIkSYno7Yq5"
-				},
-				{
-					"id": "ueNjThsPjrO"
-				},
-				{
 					"id": "C6fHlN8g0Xe"
-				},
-				{
-					"id": "kee7yEPXN4y"
 				},
 				{
 					"id": "cAAuTDYVGRj"
 				},
 				{
-					"id": "Im4sZWMREKH"
-				},
-				{
-					"id": "ZUJXUWzyF27"
-				},
-				{
 					"id": "Fxn8ANAV3gu"
+				},
+				{
+					"id": "hPipsOeVMSo"
+				},
+				{
+					"id": "Im4sZWMREKH"
 				},
 				{
 					"id": "jj7lc2hKaKa"
 				},
 				{
+					"id": "kee7yEPXN4y"
+				},
+				{
 					"id": "rNqX7JUjel7"
 				},
 				{
-					"id": "hPipsOeVMSo"
+					"id": "ueNjThsPjrO"
+				},
+				{
+					"id": "VIkSYno7Yq5"
+				},
+				{
+					"id": "ZUJXUWzyF27"
 				}
 			],
 			"translations": [
@@ -118070,10 +118112,10 @@
 					"id": "FrQtysocxNy"
 				},
 				{
-					"id": "s4DcVyyy5pH"
+					"id": "Mn9ZjPyXTAY"
 				},
 				{
-					"id": "Mn9ZjPyXTAY"
+					"id": "s4DcVyyy5pH"
 				}
 			],
 			"translations": [
@@ -118164,22 +118206,22 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "wD3BEd5azqF"
+					"id": "cOlSasiszS3"
 				},
 				{
 					"id": "dQjTXdOlab2"
 				},
 				{
-					"id": "vLHDUotwaxr"
-				},
-				{
 					"id": "euCqxn8x3Xz"
 				},
 				{
-					"id": "cOlSasiszS3"
+					"id": "l6fD6pFEYVY"
 				},
 				{
-					"id": "l6fD6pFEYVY"
+					"id": "vLHDUotwaxr"
+				},
+				{
+					"id": "wD3BEd5azqF"
 				}
 			],
 			"translations": [
@@ -118207,13 +118249,13 @@
 			},
 			"programRuleActions": [
 				{
+					"id": "fhfccxp2gNW"
+				},
+				{
 					"id": "p640aOPUN5S"
 				},
 				{
 					"id": "UdEeOkhWqFq"
-				},
-				{
-					"id": "fhfccxp2gNW"
 				}
 			],
 			"translations": [
@@ -118269,13 +118311,13 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "WE1GNHMprgK"
+					"id": "ELo8nKIBjFK"
 				},
 				{
 					"id": "gC2SYLHKGQg"
 				},
 				{
-					"id": "ELo8nKIBjFK"
+					"id": "WE1GNHMprgK"
 				}
 			],
 			"translations": [
@@ -118332,13 +118374,13 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "qzTZ6n8JycC"
-				},
-				{
 					"id": "dWMGkGwNuS0"
 				},
 				{
 					"id": "jOsYoD8kjqX"
+				},
+				{
+					"id": "qzTZ6n8JycC"
 				}
 			],
 			"translations": [
@@ -118369,10 +118411,10 @@
 					"id": "KvdcxXyIFjl"
 				},
 				{
-					"id": "qiHGUHPdEFr"
+					"id": "pSoGYEQ02hB"
 				},
 				{
-					"id": "pSoGYEQ02hB"
+					"id": "qiHGUHPdEFr"
 				}
 			],
 			"translations": [
@@ -118428,13 +118470,13 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "vcswnSR2nao"
-				},
-				{
 					"id": "KsPFV6gxPKN"
 				},
 				{
 					"id": "UXiCoB0gf1M"
+				},
+				{
+					"id": "vcswnSR2nao"
 				}
 			],
 			"translations": [
@@ -118493,13 +118535,13 @@
 					"id": "mZmHrDt340D"
 				},
 				{
-					"id": "ZO0hnpzDeuR"
+					"id": "UPNBB64N2dy"
 				},
 				{
 					"id": "ZLG4puQe2ad"
 				},
 				{
-					"id": "UPNBB64N2dy"
+					"id": "ZO0hnpzDeuR"
 				}
 			],
 			"translations": [
@@ -118782,16 +118824,16 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "l6OghN2Ijpo"
-				},
-				{
-					"id": "sq7DAy835Ba"
-				},
-				{
 					"id": "iTEAUaKx3NG"
 				},
 				{
+					"id": "l6OghN2Ijpo"
+				},
+				{
 					"id": "nT1QjW7sOlt"
+				},
+				{
+					"id": "sq7DAy835Ba"
 				}
 			],
 			"translations": [
@@ -118819,10 +118861,10 @@
 			},
 			"programRuleActions": [
 				{
-					"id": "bS8O3dV8tGR"
+					"id": "a3LTMGxIpWe"
 				},
 				{
-					"id": "a3LTMGxIpWe"
+					"id": "bS8O3dV8tGR"
 				}
 			],
 			"translations": [
@@ -119333,7 +119375,7 @@
 			],
 			"programTrackedEntityAttributes": [],
 			"programType": "WITHOUT_REGISTRATION",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"selectEnrollmentDatesInFuture": false,
 			"selectIncidentDatesInFuture": false,
 			"shortName": "Cause of death (event)",
@@ -121087,7 +121129,7 @@
 					"id": "Aofqtjwpohz"
 				}
 			],
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"remindCompleted": false,
 			"repeatable": false,
 			"sortOrder": 1,
@@ -121545,7 +121587,7 @@
 			"id": "uEiEMsYLwwo",
 			"lastUpdated": "2018-04-19T11:02:06.314",
 			"name": "Cause of death validation report (anonymous)",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
 				"last12Months": false,
@@ -121624,7 +121666,7 @@
 			"id": "nOrVs1Gi9Nt",
 			"lastUpdated": "2020-06-05T13:41:05.671",
 			"name": "CoD: Anacod export 2017",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "WITH anacodsource AS (\n         SELECT analytics_event_jo4aktbheqq.yearly AS year,\n            analytics_event_jo4aktbheqq.\"nf91S8RgCEB\" AS code,\n            analytics_event_jo4aktbheqq.\"Fm6cUmmiY3d\" AS age,\n            analytics_event_jo4aktbheqq.\"cgYpqCgnVF2\" AS sex\n           FROM analytics_event_jo4aktbheqq\n           where analytics_event_jo4aktbheqq.yearly = '2017'\n        ), codes AS (\n         SELECT anacodsource.code,\n            anacodsource.sex\n           FROM anacodsource\n          WHERE (anacodsource.code IS NOT NULL)\n          GROUP BY anacodsource.code, anacodsource.sex\n          ORDER BY anacodsource.code\n        )\n SELECT 'AAA'::text AS code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (anacodsource.sex = codes.sex)) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes group by sex\nUNION ALL\n SELECT codes.code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex))) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes;",
 			"type": "VIEW",
 			"user": {
@@ -121654,7 +121696,7 @@
 			"id": "iy8xEmIhMph",
 			"lastUpdated": "2020-06-05T13:41:38.821",
 			"name": "CoD: Anacod export 2018",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "WITH anacodsource AS (\n         SELECT analytics_event_jo4aktbheqq.yearly AS year,\n            analytics_event_jo4aktbheqq.\"nf91S8RgCEB\" AS code,\n            analytics_event_jo4aktbheqq.\"Fm6cUmmiY3d\" AS age,\n            analytics_event_jo4aktbheqq.\"cgYpqCgnVF2\" AS sex\n           FROM analytics_event_jo4aktbheqq\n           where analytics_event_jo4aktbheqq.yearly = '2018'\n        ), codes AS (\n         SELECT anacodsource.code,\n            anacodsource.sex\n           FROM anacodsource\n          WHERE (anacodsource.code IS NOT NULL)\n          GROUP BY anacodsource.code, anacodsource.sex\n          ORDER BY anacodsource.code\n        )\n SELECT 'AAA'::text AS code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (anacodsource.sex = codes.sex)) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes group by sex\nUNION ALL\n SELECT codes.code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex))) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes;",
 			"type": "VIEW",
 			"user": {
@@ -121684,7 +121726,7 @@
 			"id": "ojaXg9yV9is",
 			"lastUpdated": "2020-06-05T13:42:17.558",
 			"name": "CoD: Anacod export 2019",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "WITH anacodsource AS (\n         SELECT analytics_event_jo4aktbheqq.yearly AS year,\n            analytics_event_jo4aktbheqq.\"nf91S8RgCEB\" AS code,\n            analytics_event_jo4aktbheqq.\"Fm6cUmmiY3d\" AS age,\n            analytics_event_jo4aktbheqq.\"cgYpqCgnVF2\" AS sex\n           FROM analytics_event_jo4aktbheqq\n           where analytics_event_jo4aktbheqq.yearly = '2019'\n        ), codes AS (\n         SELECT anacodsource.code,\n            anacodsource.sex\n           FROM anacodsource\n          WHERE (anacodsource.code IS NOT NULL)\n          GROUP BY anacodsource.code, anacodsource.sex\n          ORDER BY anacodsource.code\n        )\n SELECT 'AAA'::text AS code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (anacodsource.sex = codes.sex)) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes group by sex\nUNION ALL\n SELECT codes.code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex))) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes;",
 			"type": "VIEW",
 			"user": {
@@ -121714,7 +121756,7 @@
 			"id": "atLa12jpN4y",
 			"lastUpdated": "2020-06-05T13:42:39.050",
 			"name": "CoD: Anacod export 2020",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "WITH anacodsource AS (\n         SELECT analytics_event_jo4aktbheqq.yearly AS year,\n            analytics_event_jo4aktbheqq.\"nf91S8RgCEB\" AS code,\n            analytics_event_jo4aktbheqq.\"Fm6cUmmiY3d\" AS age,\n            analytics_event_jo4aktbheqq.\"cgYpqCgnVF2\" AS sex\n           FROM analytics_event_jo4aktbheqq\n           where analytics_event_jo4aktbheqq.yearly = '2020'\n        ), codes AS (\n         SELECT anacodsource.code,\n            anacodsource.sex\n           FROM anacodsource\n          WHERE (anacodsource.code IS NOT NULL)\n          GROUP BY anacodsource.code, anacodsource.sex\n          ORDER BY anacodsource.code\n        )\n SELECT 'AAA'::text AS code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (anacodsource.sex = codes.sex)) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.sex = codes.sex) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.sex = codes.sex) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes group by sex\nUNION ALL\n SELECT codes.code,\n        CASE\n            WHEN (codes.sex = 'MALE'::text) THEN 1\n            WHEN (codes.sex = 'FEMALE'::text) THEN 2\n            ELSE 9\n        END AS sex,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex))) AS \"all\",\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age = (0)::double precision))) AS age_0,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (1)::double precision)) AND (anacodsource.age <= (4)::double precision))) AS age_1_4,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (5)::double precision)) AND (anacodsource.age <= (9)::double precision))) AS age_5_9,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (10)::double precision)) AND (anacodsource.age <= (14)::double precision))) AS age_10_14,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (15)::double precision)) AND (anacodsource.age <= (19)::double precision))) AS age_15_19,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (20)::double precision)) AND (anacodsource.age <= (24)::double precision))) AS age_20_24,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (25)::double precision)) AND (anacodsource.age <= (29)::double precision))) AS age_25_29,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (30)::double precision)) AND (anacodsource.age <= (34)::double precision))) AS age_30_34,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (35)::double precision)) AND (anacodsource.age <= (39)::double precision))) AS age_35_39,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (40)::double precision)) AND (anacodsource.age <= (44)::double precision))) AS age_40_44,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (45)::double precision)) AND (anacodsource.age <= (49)::double precision))) AS age_45_49,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (50)::double precision)) AND (anacodsource.age <= (54)::double precision))) AS age_50_54,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (55)::double precision)) AND (anacodsource.age <= (59)::double precision))) AS age_55_59,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (60)::double precision)) AND (anacodsource.age <= (64)::double precision))) AS age_60_64,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (65)::double precision)) AND (anacodsource.age <= (69)::double precision))) AS age_65_69,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (70)::double precision)) AND (anacodsource.age <= (74)::double precision))) AS age_70_74,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (75)::double precision)) AND (anacodsource.age <= (79)::double precision))) AS age_75_79,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (80)::double precision)) AND (anacodsource.age <= (84)::double precision))) AS age_80_84,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (85)::double precision)) AND (anacodsource.age <= (89)::double precision))) AS age_85_89,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE ((((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (90)::double precision)) AND (anacodsource.age <= (94)::double precision))) AS age_90_94,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age >= (95)::double precision))) AS age_95plus,\n    ( SELECT count(*) AS count\n           FROM anacodsource\n          WHERE (((anacodsource.code = codes.code) AND (anacodsource.sex = codes.sex)) AND (anacodsource.age IS NULL))) AS age_unknown\n   FROM codes;",
 			"type": "VIEW",
 			"user": {
@@ -121745,7 +121787,7 @@
 			"id": "Siuqk0lMzC7",
 			"lastUpdated": "2018-01-25T08:07:32.321",
 			"name": "CoD: Dictionary entries mixing main- and sub-categories",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select \r\n\toptsub.name,\r\n\toptsub.code\r\nfrom \r\n\toptionvalue optsub\r\nleft join\r\n\toptionvalue optmain on \r\n\tsplit_part(optsub.code, '.', 1) = split_part(optmain.code, '|', 1)\r\n\r\nwhere \r\n\toptsub.optionsetid = (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and \r\n\toptsub.code like '%.%|%|%' and\r\n\toptmain.optionsetid = (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and \r\n\toptmain.code not like '%.%|%|%'\r\ngroup by\r\n\toptsub.name,\r\n\toptsub.code\r\nunion all\r\nselect \r\n\toptmain.name,\r\n\toptmain.code\r\nfrom \r\n\toptionvalue optsub\r\nleft join\r\n\toptionvalue optmain on \r\n\tsplit_part(optsub.code, '.', 1) = split_part(optmain.code, '|', 1)\r\n\r\nwhere \r\n\toptsub.optionsetid = (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and \r\n\toptsub.code like '%.%|%|%' and\r\n\toptmain.optionsetid = (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and \r\n\toptmain.code not like '%.%|%|%'\r\ngroup by\r\n\toptmain.name,\r\n\toptmain.code;",
 			"type": "VIEW",
 			"user": {
@@ -121776,7 +121818,7 @@
 			"id": "dS3uFpYtlss",
 			"lastUpdated": "2018-01-25T08:07:32.323",
 			"name": "CoD: Dictionary entries with invalid code format",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select \r\n\tname,code \r\nfrom \r\n\toptionvalue \r\nwhere \r\n\toptionsetid in (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and\r\n\tcode != '[NOT LISTED]' and \r\n\tcode not like '%|%|%'\r\norder by sort_order;",
 			"type": "VIEW",
 			"user": {
@@ -121807,7 +121849,7 @@
 			"id": "nWsSOLLJPjG",
 			"lastUpdated": "2018-01-25T08:07:32.323",
 			"name": "CoD: Dictionary entries with invalid ICD-SMoL reference",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select \r\n\tname,\r\n\tcode, \r\n\tsplit_part(code, '|', 1) as icd_smol\r\nfrom \r\n\toptionvalue \r\nwhere \r\n\toptionsetid in (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and\r\n\tsplit_part(code, '|', 1) not in (select code from optionvalue where optionsetid in (select optionsetid from optionset where code = 'ICD_SMOL')) and\r\n\tcode != '[NOT LISTED]'\r\norder by icd_smol;",
 			"type": "VIEW",
 			"user": {
@@ -121838,7 +121880,7 @@
 			"id": "DNveLCRg2zU",
 			"lastUpdated": "2018-01-25T08:07:32.323",
 			"name": "CoD: Dictionary terms with ICD (for IRIS)",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select name,icd[2] from (\r\n    select name,regexp_split_to_array(code, '\\|') as icd from optionvalue where optionsetid = \r\n\t(select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') order by sort_order\r\n) tb;",
 			"type": "VIEW",
 			"user": {
@@ -121869,7 +121911,7 @@
 			"id": "ekC6LY25qMk",
 			"lastUpdated": "2018-01-25T08:07:32.323",
 			"name": "CoD: Next dictionary index number",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select \r\n\tleft(split_part(code, '|', 3), length(split_part(code, '|', 3)) - 5) as termtype,\r\n\tlpad((1+max(right(split_part(code, '|', 3), 5)::int))::text, 5, '0') as nextvalue\r\nfrom \r\n\toptionvalue \r\nwhere \r\n\toptionsetid = (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY') and\r\n\tcode like '5%|%|%' and\r\n        left(split_part(code, '|', 3), length(split_part(code, '|', 3)) - 5) != 'INT'\r\ngroup by termtype;",
 			"type": "QUERY",
 			"user": {
@@ -121900,7 +121942,7 @@
 			"id": "ZVl5kudO8Vt",
 			"lastUpdated": "2018-01-25T08:07:32.323",
 			"name": "CoD: Terms not found in dictionary",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"sqlQuery": "select upper(value) as term, count(*) as count from trackedentitydatavalue where dataelementid in (select dataelementid from dataelement where uid in ('RLPSwlZI8ll', 'EJRqgkUWbtq', 'I672Kv6Leb6', 'doSQuLwznxE')) group by value order by count desc;",
 			"type": "VIEW",
 			"user": {
@@ -121928,10 +121970,10 @@
 			"attributeValues": [],
 			"created": "2020-06-08T10:44:59.527",
 			"id": "OaBG9GmS9Rx",
-			"lastUpdated": "2020-06-25T11:46:03.781",
+			"lastUpdated": "2020-08-20T06:41:26.967",
 			"managedGroups": [],
 			"name": "Cause of death access",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -121967,10 +122009,10 @@
 			"attributeValues": [],
 			"created": "2018-01-19T11:07:51.073",
 			"id": "GCI348yKvGT",
-			"lastUpdated": "2020-07-31T03:05:09.645",
+			"lastUpdated": "2020-08-20T06:41:27.389",
 			"managedGroups": [],
 			"name": "Cause of death admin",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
@@ -122006,10 +122048,10 @@
 			"attributeValues": [],
 			"created": "2020-06-08T10:45:20.604",
 			"id": "ZrBVcRHEZAJ",
-			"lastUpdated": "2020-07-31T03:05:09.662",
+			"lastUpdated": "2020-08-20T06:41:27.423",
 			"managedGroups": [],
 			"name": "Cause of death data capture",
-			"publicAccess": "r-------",
+			"publicAccess": "--------",
 			"translations": [
 				{
 					"locale": "fr",
