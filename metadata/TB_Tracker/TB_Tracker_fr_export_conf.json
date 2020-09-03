@@ -1,0 +1,164 @@
+{
+  "export": [
+    {
+      "_basePath": "./TB_Tracker/", 
+      "_code": "TB-REG-FR", 
+      "_name": "TB (registration)",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+              "id": "pyu2ZlNKbzQ",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "Ubzlyfqm1gO",
+            "metadata": "EDIT",
+            "data": "NONE"
+          },
+          {
+            "id": "UKWx4jJcrKt",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "zBZXkRW0PJy",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "NONE",
+          "data": "NONE"
+        }
+      },
+      "_type": "tracker", 
+      "_url": [
+        "https://who-demos.dhis2.org/fr-demo"
+      ], 
+      "_version": "1.1.0",
+      "dashboardIds": [
+        "TFr3hdGobbN",
+        "SZyUynAiGgM"
+      ],
+      "customObjects": [
+        {
+          "objectType": "constants",
+          "objectIds": [
+            "x6v8O6EZo0U",
+            "KjvwSybuWJU",
+            "GL5JTtBvbEC",
+            "BJTzi3WWjhT",
+            "n9zOOsLO0QP",
+            "lqaf0KfpHGd",
+            "cRldkiBh5xv",
+            "t7Okdm8VgDV",
+            "aZq11UuXPP6",
+            "UL61U78GWCg",
+            "dgjpdQO2Iva",
+            "FDtk4otxDse",
+            "uOJYEwV7XfN",
+            "XO1V9o5C95J",
+            "RJNE1o9cw7Y",
+            "UxcTzMRQsfa",
+            "ZDpLleSK08x",
+            "VUlsMrm4D8k",
+            "yxPHZFwMTN6",
+            "anpSc1tmlft",
+            "dAPAScvFPfX",
+            "NlOX3oV4gWe",
+            "CVQR2ZtZWxk",
+            "m4c79OHEKCG",
+            "aCaNdqUIDZl",
+            "Q67DDsupq7v",
+            "AiyTLOJHMkl",
+            "a4PpEfSutcV",
+            "QaioqMbO0TX",
+            "Nb6oHqjCCZq",
+            "Xt5GU9kBD7q",
+            "Ic5asMdbpH8",
+            "F9DTb5zl8rS",
+            "ZBpqH7xJLBO",
+            "b1KgVOel21P",
+            "mU5iEABeF2K",
+            "xfltmyqC3p0",
+            "HhKitGif8RV",
+            "VY15auehssY",
+            "lelJEADYpeI",
+            "dTwKm1u2VhY",
+            "r70ONQRhaHY",
+            "bywBn5DxVdi",
+            "RFqmLP5W5di",
+            "wNxsAieLWYc",
+            "s8WPR943gGS",
+            "eM3UfUO7W8O",
+            "Fw8wOlTETPt",
+            "KIeI2d8xalG",
+            "NvA1K4hFJbc",
+            "Czx5FuOqF9i",
+            "bHPYGfrFNV2",
+            "zJoEjvstp2d",
+            "qpAseG5vJyS",
+            "iSKEqcuVAui",
+            "OQxeAIyQUeB",
+            "HjN2Bgnusyy",
+            "riDIK5mvDzW",
+            "govArZqiFzY",
+            "ESUffSPwmju",
+            "q1ah12sKfG3",
+            "W8Fm1pJuJPL",
+            "BpRfvWQcvTo",
+            "yF0xR5nDSXa",
+            "zBicQdPbHfj",
+            "H4ObQDbhnTA",
+            "cFoFDkXKcXC",
+            "GxOlFoUKbHB"
+          ]
+        },
+        {
+          "objectType": "trackedEntityInstanceFilters",
+          "objectIds": [
+            "DDYEZxtXUoJ",
+            "Q8v3oAYr09t",
+            "mrhsMwDhxfc",
+            "xOeDy8UoNoL"
+          ]
+        }
+      ],
+      "dataElementGroupIds": [
+        "K97n4JS39z9"
+      ], 
+      "exportIndicatorGroupsIds": [
+        "tAKC8OODCJl"
+      ], 
+      "indicatorGroupIds": [
+        "tAKC8OODCJl"
+      ],
+      "programIndicatorGroupIds": [
+        "ByComvoqyPP",
+        "rfOllbK3gIL",
+        "GKaacrZF7iJ"
+      ],
+      "programIds": [
+        "Lt6P15ps7f6"
+      ]
+    }
+  ]
+}
