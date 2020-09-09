@@ -1,0 +1,102 @@
+{
+    "export": [ 
+    {
+      "_basePath": "../GF/",
+      "_code": "GF", 
+      "_name": "GF complete", 
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "qPeyZhmwGO9"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "OV6VRqVnUpc",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "scwcBOlqgDE",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate", 
+      "_url": ["https://who-dev.dhis2.org/temp234"], 
+      "_version": "1.0",
+   
+      "dashboardIds": [
+		"eddaoDbIKLe"
+      ], 
+      "dataElementGroupIds": [
+      "rYylbqmI3nc"
+      ], 
+      "dataSetIds": [
+        "M1Ko9YIx4q2", 
+        "kcTW5ovu65U"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "knn3fJsP9BX"
+      ], 
+      "validationRuleGroupIds": []
+    },
+      {
+      "_basePath": "../GF/", 
+      "_code": "GF", 
+      "_name": "GF Indicator-Only", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "qPeyZhmwGO9"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "OV6VRqVnUpc",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "scwcBOlqgDE",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "dashboardAggregate", 
+      "_url":["https://who-dev.dhis2.org/temp234"], 
+      "_version": "1.0", 
+      "dashboardIds": [
+        "eddaoDbIKLe"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "knn3fJsP9BX"
+      ]
+    }
+  ]
+}
