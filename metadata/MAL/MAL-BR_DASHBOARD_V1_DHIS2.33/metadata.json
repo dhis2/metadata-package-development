@@ -7,15 +7,12 @@
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "yuathFHLjNe",
 			"lastUpdated": "2019-06-29T07:43:52.875",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "[CONFIG] 0-4 years",
 			"publicAccess": "r-------",
 			"shortName": "0-4 years",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -40,15 +37,12 @@
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "SqvDE9fTeGl",
 			"lastUpdated": "2019-06-29T07:43:06.684",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "[CONFIG] 15+ years",
 			"publicAccess": "r-------",
 			"shortName": "15+ years",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -73,15 +67,12 @@
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "V9t81g7Wspa",
 			"lastUpdated": "2020-03-18T09:45:55.956",
-			"lastUpdatedBy": {
-				"id": "KpUvqwyAqx8"
-			},
 			"name": "[CONFIG] 5-14 years",
 			"publicAccess": "r-------",
 			"shortName": "5-14 y",
 			"translations": [],
 			"user": {
-				"id": "KpUvqwyAqx8"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -92,16 +83,13 @@
 			"created": "2017-06-04T19:46:36.892",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "YXE2HxNf3YB",
-			"lastUpdated": "2019-06-29T07:43:15.345",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
-			"name": "[CONFIG] Other/unknown age",
+			"lastUpdated": "2020-09-01T05:39:25.546",
+			"name": "[CONFIG] Unknown age",
 			"publicAccess": "r-------",
-			"shortName": "Other/unknown age",
+			"shortName": "Unknown age",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -143,9 +131,6 @@
 			"description": "Age categorisation in years.",
 			"id": "AzDcxg4bW1N",
 			"lastUpdated": "2019-06-29T07:42:46.552",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "Age in years (0-4, 5-14, 15+, unknown)",
 			"publicAccess": "r-------",
 			"translations": [
@@ -156,7 +141,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -210,9 +195,6 @@
 			"id": "zt23Bi5f3F3",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:01.421",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - % of All Deaths and Admissions (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -277,7 +259,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -327,9 +309,6 @@
 			"id": "uX3m5YW9cuM",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:03:51.567",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Case Confirmation (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -394,7 +373,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -450,9 +429,6 @@
 			"id": "tU3rJIp9STm",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:03:53.192",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Case Fatality - OPD and Admissions (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -517,7 +493,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -579,9 +555,6 @@
 			"id": "XG7LBCz7nQn",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:03:54.601",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Conf cases & ABER",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -646,7 +619,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -702,9 +675,6 @@
 			"id": "tq6l6xuECZo",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:03:58.642",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Deaths",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -769,7 +739,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -840,9 +810,6 @@
 			"id": "Q0H2GvXlpYB",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:03:57.311",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Deaths",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -907,7 +874,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -964,9 +931,6 @@
 			"id": "mmdI4h7KdLL",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-24T10:47:26.041",
-			"lastUpdatedBy": {
-				"id": "N4ubTyAgfZA"
-			},
 			"name": "MAL - IPD",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1032,7 +996,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "N4ubTyAgfZA"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1088,9 +1052,6 @@
 			"id": "wSudey0Yc2R",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:02.774",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - OPD",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1155,7 +1116,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "mF8i9czW87x"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1211,9 +1172,6 @@
 			"id": "zbZhaW2GXQV",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:05.554",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Percent Tested (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1278,7 +1236,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1334,9 +1292,6 @@
 			"id": "SKJkOTlS8vN",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:06.885",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Positivity",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1401,7 +1356,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1463,9 +1418,6 @@
 			"id": "pnEMZYfUAZt",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:08.234",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Proportion",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1530,7 +1482,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1586,9 +1538,6 @@
 			"id": "v5tVurZ9vUf",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:13.595",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Ratio Consultancy and Admissions (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1653,7 +1602,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1715,9 +1664,6 @@
 			"id": "eqbjzgCFSFs",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:16.290",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Reporting Comp",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1782,7 +1728,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1844,9 +1790,6 @@
 			"id": "bIwPfcT9JVN",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:17.616",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Surveillance (cases and threshold) - last 12 months",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1911,7 +1854,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -1967,9 +1910,6 @@
 			"id": "QqZNdTABzsZ",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:18.973",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Testing",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2034,7 +1974,7 @@
 			],
 			"type": "LINE",
 			"user": {
-				"id": "mF8i9czW87x"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -2090,9 +2030,6 @@
 			"id": "Mbgcb9pdFR1",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-10-20T13:04:20.301",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "MAL - Testing (QL)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2157,7 +2094,489 @@
 			],
 			"type": "AREA",
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-09-24T18:48:26.820",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Ec4z30wDGVH"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "rd71eVlLezw"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Ffi38WOC65w"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "ALL",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "odF8xIAXyzh",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-09-24T18:48:26.820",
+			"name": "MAL - Trend in coverages: ANC1, IPTp1 and IPTp3",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"title": "Malaria Testing",
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-09-29T18:37:03.607",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "blS3OjRXn0c"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "VoN285Q7FQG"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vK4qNvAtZsG"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "ALL",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "yJNAGE2iN7e",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-09-29T18:37:03.607",
+			"name": "MAL - Trend in coverages: ANC1, ITNs to pregnant women and infants",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"title": "Malaria Testing",
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-09-19T13:07:06.929",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "blS3OjRXn0c"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "PHKTIO5iFgA"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lRBSFNlbk3D"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "ALL",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Xx6WI5IfnoQ",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-09-23T19:48:57.868",
+			"name": "MAL - Trend in MAL - Percentage of estimated pregnancies benefiting from ANC visit and receipt of 1,2 and 3 doses of IPTp",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"title": "MAL - Trend in MAL - Percentage of estimated pregnancies benefiting from ANC visit and receipt of 1,",
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-09-19T13:07:31.119",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "blS3OjRXn0c"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "VoN285Q7FQG"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "ALL",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "iSZUMq4XZyd",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2019-09-23T19:49:19.873",
+			"name": "MAL - Trend in MAL - Percentage of estimated pregnancies benefiting from ANC visit and receipt of an ITN",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"title": "MAL - Trend in MAL - Percentage of estimated pregnancies benefiting from ANC visit and receipt of an",
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -2786,9 +3205,6 @@
 			],
 			"id": "sLldHZZgnFx",
 			"lastUpdated": "2019-10-22T11:06:57.672",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "Malaria Burden Reduction",
 			"publicAccess": "r-------",
 			"translations": [
@@ -2799,7 +3215,185 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			]
+		},
+		{
+			"created": "2019-09-19T09:50:09.150",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-02-18T11:28:02.469",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 29,
+					"id": "DU6QNCEaZBx",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-02-18T11:28:02.563",
+					"map": {
+						"id": "uNj85CCHumE"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 28,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-02-18T11:28:02.469",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 29,
+					"id": "e7GxLaKwTNk",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-02-18T11:28:02.564",
+					"map": {
+						"id": "XFGdbwY5OA9"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 29,
+					"y": 29
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-02-18T11:28:02.469",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 29,
+					"id": "VEpAXSbCpZk",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-02-18T11:28:02.564",
+					"map": {
+						"id": "R2aoozdWrnW"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 0,
+					"y": 29
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-02-18T11:28:02.469",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 29,
+					"id": "VJ0s3O43N5M",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-02-18T11:28:02.564",
+					"map": {
+						"id": "ZEBh5DFbW73"
+					},
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 29,
+					"y": 0
+				}
+			],
+			"externalAccess": false,
+			"favorites": [
+				"RyTbQ06zSK0"
+			],
+			"id": "VUUrmGS7x42",
+			"lastUpdated": "2020-02-18T11:28:02.562",
+			"name": "Malaria Maps",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PALU - Cartes"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3072,9 +3666,6 @@
 			],
 			"id": "GEq9y3pVbrb",
 			"lastUpdated": "2019-10-22T11:06:32.507",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"name": "Malaria Quality Control",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3085,7 +3676,185 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "Malaria admin",
+					"id": "suMb19wGXPR",
+					"userGroupUid": "suMb19wGXPR"
+				},
+				{
+					"access": "r-------",
+					"displayName": "Malaria access",
+					"id": "ZXEVDM9XRea",
+					"userGroupUid": "ZXEVDM9XRea"
+				}
+			]
+		},
+		{
+			"created": "2019-09-19T09:55:24.428",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "yJNAGE2iN7e"
+					},
+					"contentCount": 1,
+					"created": "2019-09-19T13:13:16.625",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 18,
+					"id": "FE6Gs0kiknP",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-09-21T18:41:47.988",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "odF8xIAXyzh"
+					},
+					"contentCount": 1,
+					"created": "2019-09-19T13:13:16.625",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 18,
+					"id": "iG90O2UgrG0",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-09-21T18:41:47.988",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 29,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "iSZUMq4XZyd"
+					},
+					"contentCount": 1,
+					"created": "2019-09-19T13:13:16.625",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 18,
+					"id": "CpeqQWlVPlI",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-09-21T18:41:47.989",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 29,
+					"y": 18
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Xx6WI5IfnoQ"
+					},
+					"contentCount": 1,
+					"created": "2019-09-19T13:13:16.625",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 18,
+					"id": "xnIYGQ09XTW",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2019-09-21T18:41:47.989",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 29,
+					"x": 0,
+					"y": 18
+				}
+			],
+			"externalAccess": false,
+			"favorites": [
+				"RyTbQ06zSK0"
+			],
+			"id": "Ly3jbrmhRpB",
+			"lastUpdated": "2019-10-22T11:07:09.072",
+			"name": "Malaria Trends and Coverage",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PALU - Tendances et couvertures"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3112,10 +3881,10 @@
 			"id": "YKVsWm3b47n",
 			"indicators": [
 				{
-					"id": "J06o672aumY"
+					"id": "K1DkT2kokjD"
 				},
 				{
-					"id": "K1DkT2kokjD"
+					"id": "J06o672aumY"
 				},
 				{
 					"id": "SqFthnK8FJY"
@@ -3124,10 +3893,16 @@
 					"id": "lL9BxL5FSNv"
 				},
 				{
+					"id": "vK4qNvAtZsG"
+				},
+				{
 					"id": "VxAkjvBMvfp"
 				},
 				{
 					"id": "tIWGvDkU6lb"
+				},
+				{
+					"id": "YbO5j3XYABU"
 				},
 				{
 					"id": "rPYLomUceL4"
@@ -3139,6 +3914,9 @@
 					"id": "FdfpxYmcsC3"
 				},
 				{
+					"id": "rd71eVlLezw"
+				},
+				{
 					"id": "xZPfJVUrSsm"
 				},
 				{
@@ -3148,7 +3926,19 @@
 					"id": "FHm610XVh02"
 				},
 				{
+					"id": "lRBSFNlbk3D"
+				},
+				{
+					"id": "PHKTIO5iFgA"
+				},
+				{
+					"id": "acDxsQjnEof"
+				},
+				{
 					"id": "rJT9jsfSplB"
+				},
+				{
+					"id": "VoN285Q7FQG"
 				},
 				{
 					"id": "yobFlvQGbSO"
@@ -3157,13 +3947,16 @@
 					"id": "oAJpTsMsRxv"
 				},
 				{
-					"id": "AF99VXqV5Fe"
-				},
-				{
 					"id": "BhoZ0XenErj"
 				},
 				{
+					"id": "AF99VXqV5Fe"
+				},
+				{
 					"id": "V3ddhQv64m9"
+				},
+				{
+					"id": "Ffi38WOC65w"
 				},
 				{
 					"id": "cDyuNvxtBQn"
@@ -3184,6 +3977,9 @@
 					"id": "x2piMpdUU68"
 				},
 				{
+					"id": "blS3OjRXn0c"
+				},
+				{
 					"id": "l0TE4LdzE8j"
 				},
 				{
@@ -3200,14 +3996,11 @@
 				}
 			],
 			"lastUpdated": "2020-04-24T13:31:18.113",
-			"lastUpdatedBy": {
-				"id": "Tht9uNzYn8C"
-			},
 			"name": "Malaria",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3224,6 +4017,31 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2017-06-07T13:41:44.138",
+			"id": "uDy8xg2ofrw",
+			"indicators": [
+				{
+					"id": "Ec4z30wDGVH"
+				}
+			],
+			"lastUpdated": "2020-04-27T12:29:14.935",
+			"name": "RMNCAH",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
 		}
 	],
 	"indicators": [
@@ -3240,9 +4058,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:15.085",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - % of all-admissions/all outpatients",
 			"numerator": "-1",
@@ -3262,7 +4077,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3293,9 +4108,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:13.935",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - % of all-deaths/all admissions",
 			"numerator": "-1",
@@ -3315,7 +4127,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3346,9 +4158,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:09.222",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - % of malaria tested cases by RDT",
 			"numerator": "-1",
@@ -3368,7 +4177,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3399,9 +4208,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:10.254",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [
 				{
 					"id": "kZFJ670FpB6"
@@ -3425,7 +4231,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3456,9 +4262,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:58.740",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [
 				{
 					"id": "phSksJ6YPO4"
@@ -3482,7 +4285,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3501,6 +4304,43 @@
 			]
 		},
 		{
+			"annualized": true,
+			"attributeValues": [],
+			"code": "MAL_API",
+			"created": "2016-03-11T07:27:14.044",
+			"denominator": "1",
+			"denominatorDescription": "Population at risk*Foci classified as endemic or active (with confirmed local cases for at least the past 2 years)",
+			"description": "(Confirmed cases during 1 year/population at risk) x 1000",
+			"id": "YbO5j3XYABU",
+			"indicatorType": {
+				"id": "zpa0vUC7IWd"
+			},
+			"lastUpdated": "2019-10-22T11:06:40.121",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Annual malaria parasite incidence (API)",
+			"numerator": "-1",
+			"numeratorDescription": "Total malaria confirmed cases",
+			"publicAccess": "r-------",
+			"shortName": "API",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "l'incidence parasitaire annuelle (IPA)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PALU - l'incidence parasitaire annuelle (IPA)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
 			"annualized": false,
 			"attributeValues": [],
 			"code": "MAL_CASE_FATAL_RATE_MAL_IPD",
@@ -3513,9 +4353,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:04.525",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Case fatality rate (malaria admissions)",
 			"numerator": "-1",
@@ -3535,7 +4372,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3566,9 +4403,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:03.403",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Case fatality rate (malaria outpatients)",
 			"numerator": "-1",
@@ -3588,7 +4422,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3619,9 +4453,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:23.586",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria cases confirmed ",
 			"numerator": "-1",
@@ -3641,7 +4472,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3672,9 +4503,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:24.571",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria cases positive microscopy",
 			"numerator": "-1",
@@ -3694,7 +4522,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3725,9 +4553,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:28.895",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria cases tested with microscopy ",
 			"numerator": "-1",
@@ -3747,7 +4572,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3778,9 +4603,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:30.162",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria cases tested with RDT ",
 			"numerator": "-1",
@@ -3800,7 +4622,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3830,9 +4652,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:19.549",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria confirmed MEAN+2 STD (threshold)",
 			"numerator": "-1",
@@ -3852,7 +4671,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3882,9 +4701,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:20.523",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria confirmed MEDIAN (threshold)",
 			"numerator": "-1",
@@ -3904,7 +4720,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3935,9 +4751,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:33.513",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria deaths inpatient",
 			"numerator": "-1",
@@ -3957,7 +4770,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -3988,9 +4801,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-06-29T07:05:58.913",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Malaria inpatient admissions",
 			"numerator": "-1",
@@ -3999,7 +4809,7 @@
 			"shortName": "Malaria admissions",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4020,6 +4830,38 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "MAL_TPR",
+			"created": "2016-05-05T06:57:15.619",
+			"decimals": 2,
+			"denominator": "1",
+			"denominatorDescription": "Total tested (Micr + RDT)",
+			"id": "acDxsQjnEof",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-10-22T11:07:05.496",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Malaria test positivity rate (Micr/RDT) (%)",
+			"numerator": "-1",
+			"numeratorDescription": "Total positive cases (Micr + RDT)",
+			"publicAccess": "r-------",
+			"shortName": "TPR",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PALU - Taux de positivité (Micr/TDR)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "MAL_NON_MAL_IPD_DTH",
 			"created": "2016-04-26T16:58:06.096",
 			"denominator": "1",
@@ -4030,9 +4872,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:34.532",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Non-malaria deaths inpatient",
 			"numerator": "-1",
@@ -4052,7 +4891,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4083,9 +4922,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:21.611",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Non-malaria inpatient cases",
 			"numerator": "-1",
@@ -4105,7 +4941,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": []
@@ -4123,9 +4959,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:17.551",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Non-malaria outpatient cases",
 			"numerator": "-1",
@@ -4145,7 +4978,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4166,6 +4999,43 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "MAL_PER_INFANTS_REC_ITN",
+			"created": "2019-09-18T17:02:35.545",
+			"denominator": "1",
+			"denominatorDescription": "GEN - Population expected pregnant women",
+			"description": "Percentage of infants received an ITN",
+			"id": "vK4qNvAtZsG",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-10-22T11:06:07.657",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Percentage of infants received an ITN",
+			"numerator": "-1",
+			"numeratorDescription": "LLINs distributed to infants",
+			"publicAccess": "r-------",
+			"shortName": "Percentage of infants received an ITN",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "% d'enfants ayant un MILDA"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "PALU - % d'enfants ayant un MILDA"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "MAL_PER_MAL_DTH",
 			"created": "2016-04-26T17:02:22.129",
 			"denominator": "1",
@@ -4176,9 +5046,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:49.377",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Percentage of malaria deaths",
 			"numerator": "-1",
@@ -4198,7 +5065,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4229,9 +5096,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:45.042",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Percentage of malaria IPD",
 			"numerator": "-1",
@@ -4251,7 +5115,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4282,9 +5146,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:48.142",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Percentage of malaria OPD cases",
 			"numerator": "-1",
@@ -4304,7 +5165,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4323,6 +5184,110 @@
 			]
 		},
 		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MAL_PER_PW_ATTEND_ANC1",
+			"created": "2019-09-18T16:57:06.463",
+			"denominator": "1",
+			"denominatorDescription": "GEN - Population expected pregnant women",
+			"description": "Percentage of pregnant women attending ANC 1st visit",
+			"id": "blS3OjRXn0c",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-09-29T18:37:46.822",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Percentage of pregnant women attending ANC1",
+			"numerator": "-1",
+			"numeratorDescription": "MAL - ANC 1st visit (malaria)",
+			"publicAccess": "r-------",
+			"shortName": "Percentage of preganant women attending ANC1",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MAL_PER_PW_REC_ITN",
+			"created": "2019-09-18T17:18:04.190",
+			"denominator": "1",
+			"denominatorDescription": "GEN - Population expected pregnant women",
+			"description": "Percentage of pregnant women received an ITN",
+			"id": "VoN285Q7FQG",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-09-20T20:39:46.602",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Percentage of pregnant women received an ITN",
+			"numerator": "-1",
+			"numeratorDescription": "LLINs distributed to pregnant women",
+			"publicAccess": "r-------",
+			"shortName": "Percentage of pregnant women received an ITN",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MAL_PER_PW_REC_IPT1",
+			"created": "2019-09-18T17:03:27.853",
+			"denominator": "1",
+			"denominatorDescription": "GEN - Population expected pregnant women",
+			"description": "Percentage of pregnant women received IPT1",
+			"id": "PHKTIO5iFgA",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-10-09T12:11:07.400",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Percentage of pregnant women received IPT1",
+			"numerator": "-1",
+			"numeratorDescription": "SP course received for IPTp (1st dose)",
+			"publicAccess": "r-------",
+			"shortName": "Percentage of pregnant women received IPT1",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MAL_PER_PW_REC_IPT3",
+			"created": "2019-09-18T17:04:35.899",
+			"denominator": "1",
+			"denominatorDescription": "GEN - Population expected pregnant women",
+			"description": "Percentage of pregnant women received IPT3",
+			"id": "lRBSFNlbk3D",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2019-09-20T20:39:46.602",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - Percentage of pregnant women received IPT3",
+			"numerator": "-1",
+			"numeratorDescription": "SP course received for IPTp (3rd dose)",
+			"publicAccess": "r-------",
+			"shortName": "Percentage of pregnant women received IPT3",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
 			"annualized": true,
 			"attributeValues": [],
 			"code": "MAL_RATIO_OF_POP_IPD",
@@ -4335,9 +5300,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:55.712",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Ratio of admissions",
 			"numerator": "-1",
@@ -4357,7 +5319,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4388,9 +5350,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:06:56.685",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Ratio of consultations",
 			"numerator": "-1",
@@ -4410,7 +5369,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4441,9 +5400,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:00.965",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Reporting completeness - DTH (%)",
 			"numerator": "-1",
@@ -4463,7 +5419,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4494,9 +5450,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:02.118",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Reporting completeness - IPD (%)",
 			"numerator": "-1",
@@ -4516,7 +5469,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4547,9 +5500,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-28T23:18:31.207",
-			"lastUpdatedBy": {
-				"id": "N4ubTyAgfZA"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Reporting completeness - OPD (%)",
 			"numerator": "-1",
@@ -4569,7 +5519,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4600,9 +5550,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:07.785",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [
 				{
 					"id": "JUG5nRDqRFl"
@@ -4626,7 +5573,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4647,6 +5594,58 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "MAL_SP_COURS_RECV_IPTP1",
+			"created": "2019-09-24T18:46:48.578",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of 1st dose full treatment course of sulphadoxine-pyrimethamine received for intermittent preventive treatment in pregnancy (IPTp) ",
+			"id": "rd71eVlLezw",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-09-24T18:46:48.578",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - SP course received for IPTp (1st dose)",
+			"numerator": "-1",
+			"numeratorDescription": "MAL - SP course received for IPTp (1st dose)",
+			"publicAccess": "r-------",
+			"shortName": "SP course received for IPTp (1st dose)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "MAL_SP_COURS_RECV_IPTP3",
+			"created": "2019-09-24T18:47:34.917",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of 3rd dose full treatment course of sulphadoxine-pyrimethamine received for intermittent preventive treatment in pregnancy (IPTp) ",
+			"id": "Ffi38WOC65w",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-09-24T18:47:34.917",
+			"legendSets": [],
+			"name": "[CONFIG] MAL - SP course received for IPTp (3rd dose)",
+			"numerator": "-1",
+			"numeratorDescription": "MAL - SP course received for IPTp (3rd dose)",
+			"publicAccess": "r-------",
+			"shortName": "SP course received for IPTp (3rd dose)",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "MAL_TRP_RDT",
 			"created": "2016-03-10T16:17:16.995",
 			"denominator": "1",
@@ -4657,9 +5656,6 @@
 				"id": "hmSnCXmLYwt"
 			},
 			"lastUpdated": "2019-10-22T11:07:06.801",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Test positivity rate (RDT)",
 			"numerator": "-1",
@@ -4679,7 +5675,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4710,9 +5706,6 @@
 				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2019-10-22T11:06:22.610",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "[CONFIG] MAL - Total reported malaria cases (confirmed + presumed) ",
 			"numerator": "-1",
@@ -4732,7 +5725,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4749,6 +5742,48 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "RMNCAH_ANC1",
+			"created": "2019-04-24T20:27:07.814",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "First visit by a pregnant woman to a health facility to primarily receive antenatal care. The first antenatal visit may be referred to as a ‘booking or scheduled visit’ when various processes are done as per the national policy.",
+			"id": "Ec4z30wDGVH",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2019-05-24T20:28:18.640",
+			"legendSets": [],
+			"name": "[CONFIG] RMNCAH - ANC 1st visit ",
+			"numerator": "-1",
+			"numeratorDescription": "ANC 1st visit",
+			"publicAccess": "r-------",
+			"shortName": "ANC 1st visit ",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "CPN1"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "SSRMNEA - CPN1"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Première visite d'une femme enceinte dans un établissement de santé pour y recevoir principalement des soins prénatals. La première visite prénatale peut être considérée comme une «visite de rendenz-vous ou programmée» lorsque divers processus sont effectués conformément à la politique nationale."
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
 		}
 	],
 	"indicatorTypes": [
@@ -4756,7 +5791,7 @@
 			"created": "2015-03-23T01:42:43.716",
 			"factor": 1,
 			"id": "kHy61PbChXr",
-			"lastUpdated": "2018-01-16T09:52:47.071",
+			"lastUpdated": "2020-09-09T10:37:13.192",
 			"name": "Numerator only (number)",
 			"number": true,
 			"translations": [
@@ -4766,6 +5801,15 @@
 					"value": "Numérateur seulement"
 				}
 			]
+		},
+		{
+			"created": "2015-03-23T00:41:41.340",
+			"factor": 1000,
+			"id": "zpa0vUC7IWd",
+			"lastUpdated": "2017-05-28T21:02:04.754",
+			"name": "Per 1000",
+			"number": false,
+			"translations": []
 		},
 		{
 			"created": "2015-03-23T01:41:28.852",
@@ -4789,9 +5833,6 @@
 			"created": "2017-06-27T08:12:09.658",
 			"id": "phSksJ6YPO4",
 			"lastUpdated": "2019-09-20T20:35:30.077",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legends": [
 				{
 					"access": {
@@ -4873,7 +5914,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -4896,9 +5937,6 @@
 			"created": "2017-06-15T14:51:58.863",
 			"id": "JUG5nRDqRFl",
 			"lastUpdated": "2019-06-29T07:03:04.722",
-			"lastUpdatedBy": {
-				"id": "mF8i9czW87x"
-			},
 			"legends": [
 				{
 					"access": {
@@ -5105,7 +6143,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5128,9 +6166,6 @@
 			"created": "2017-06-15T14:49:50.353",
 			"id": "kZFJ670FpB6",
 			"lastUpdated": "2019-06-29T07:03:01.499",
-			"lastUpdatedBy": {
-				"id": "mF8i9czW87x"
-			},
 			"legends": [
 				{
 					"access": {
@@ -5287,7 +6322,7 @@
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5306,7 +6341,554 @@
 			]
 		}
 	],
-	"package": "MAL-BR_DASHBOARD_V1.0_DHIS2.33_2020-06-11T12:08",
+	"maps": [
+		{
+			"basemap": "osmLight",
+			"created": "2019-09-25T19:35:03.109",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "uNj85CCHumE",
+			"lastUpdated": "2019-09-25T19:35:03.109",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:03.107",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "YbO5j3XYABU"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "MAL - Annual malaria parasite incidence (API)",
+					"displayName": "MAL - Annual malaria parasite incidence (API)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "zL25F3MNZ1T",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2019-09-25T19:35:03.107",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "JUG5nRDqRFl"
+					},
+					"method": 1,
+					"name": "MAL - Annual malaria parasite incidence (API)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "MAL: Incidence of confirmed malaria cases",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2019-09-25T19:35:16.020",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "ZEBh5DFbW73",
+			"lastUpdated": "2019-09-25T19:35:16.020",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:16.011",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "acDxsQjnEof"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "MAL - Malaria test positivity rate (Micr/RDT) (%)",
+					"displayName": "MAL - Malaria test positivity rate (Micr/RDT) (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "DPEoAEJDnAp",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": false,
+					"lastUpdated": "2019-09-25T19:35:16.011",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "JUG5nRDqRFl"
+					},
+					"method": 1,
+					"name": "MAL - Malaria test positivity rate (Micr/RDT) (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "MAL: Malaria test positivity rate",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2019-09-25T19:35:29.581",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "R2aoozdWrnW",
+			"lastUpdated": "2019-09-25T19:35:29.581",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:29.576",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "VxAkjvBMvfp"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "MAL - % of suspected malaria cases tested",
+					"displayName": "MAL - % of suspected malaria cases tested",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "IFKH5HBSlY2",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2019-09-25T19:35:29.576",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "kZFJ670FpB6"
+					},
+					"method": 1,
+					"name": "MAL - % of suspected malaria cases tested",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "MAL: Percentage of suspected cases tested",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"basemap": "osmLight",
+			"created": "2019-09-25T19:35:39.162",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "XFGdbwY5OA9",
+			"lastUpdated": "2019-09-25T19:35:39.162",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#a50f15,#de2d26,#fb6a4a,#fcae91,#fee5d9",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2019-09-25T19:35:39.161",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "yobFlvQGbSO"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "MAL - Reporting completeness - OPD (%)",
+					"displayName": "MAL - Reporting completeness - OPD (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "lCCvh1Ghh0s",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": false,
+					"lastUpdated": "2019-09-25T19:35:39.161",
+					"layer": "thematic",
+					"method": 2,
+					"name": "MAL - Reporting completeness - OPD (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": true,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": false,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "MAL: Rate of completeness of reporting by health facilities (OPD)",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"package": "MAL-BR_DASHBOARD_V1.1.0_DHIS2.33_2020-09-12T16:59",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -5349,9 +6931,6 @@
 			"id": "T4eg1e5rjXE",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:58.118",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Conf cases & ABER",
@@ -5420,7 +6999,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5476,9 +7055,6 @@
 			"id": "Cyy6FR0wEGe",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:55.100",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Deaths",
@@ -5547,7 +7123,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5603,9 +7179,6 @@
 			"id": "GmqjzU8Crmi",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:52.010",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - IPD",
@@ -5674,7 +7247,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5736,9 +7309,6 @@
 			"id": "qo7xD7OTGcF",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:48.978",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Microscopy",
@@ -5807,7 +7377,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -5869,9 +7439,6 @@
 			"id": "wleqcZVkF9U",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:45.937",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Positivity",
@@ -5940,7 +7507,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6008,9 +7575,6 @@
 			"id": "uZ03Z5GgJJ0",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:42.899",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Proportion",
@@ -6079,7 +7643,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6189,9 +7753,6 @@
 			"id": "yieNDIkKEu2",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:39.866",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - QL Surveillance - 01",
@@ -6261,7 +7822,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6329,9 +7890,6 @@
 			"id": "d1RmmimorCK",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-29T06:58:36.805",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "MAL - Reporting completeness",
@@ -6400,7 +7958,7 @@
 			"topLimit": 0,
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6428,15 +7986,12 @@
 			"created": "2018-01-19T13:16:50.221",
 			"id": "ZXEVDM9XRea",
 			"lastUpdated": "2020-04-24T11:20:53.565",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"managedGroups": [],
 			"name": "Malaria access",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6453,22 +8008,23 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			],
-			"users": []
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:12.627",
 			"id": "suMb19wGXPR",
-			"lastUpdated": "2020-04-24T11:20:53.579",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
+			"lastUpdated": "2020-09-03T19:33:00.753",
 			"managedGroups": [],
 			"name": "Malaria admin",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -6485,39 +8041,66 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			],
-			"users": []
-		},
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
 		{
 			"attributeValues": [],
-			"created": "2018-06-06T10:40:10.712",
-			"id": "fRSrUJ6SMGH",
-			"lastUpdated": "2020-04-24T11:20:53.559",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
-			"managedGroups": [],
-			"name": "Malaria data capture",
-			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "jB4WJmaNuGT"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-07-13T12:28:39.402",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
 				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
-			"users": []
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"lastUpdatedBy": {
+					"id": "jB4WJmaNuGT"
+				},
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"user": {
+					"id": "jB4WJmaNuGT"
+				},
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
 		}
 	]
 }

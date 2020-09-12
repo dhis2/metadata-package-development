@@ -2,51 +2,38 @@
 	"dataElementGroups": [
 		{
 			"attributeValues": [],
-			"created": "2018-03-22T20:57:38.734",
+			"created": "2019-10-09T09:50:44.420",
 			"dataElements": [
 				{
-					"id": "CxI1FHE4oEh"
+					"id": "tuOTgWfDO6m"
 				},
 				{
-					"id": "UwaQ0MJzXBz"
+					"id": "TNTW2ruEVEu"
 				},
 				{
-					"id": "S3AqkeU4DET"
+					"id": "pUC8tgzn0lV"
 				},
 				{
-					"id": "wAHUeGPbH9A"
+					"id": "X0luAFiy268"
 				},
 				{
-					"id": "kdMT3AuDzj1"
+					"id": "IIU1O0Z4l49"
 				},
 				{
-					"id": "CWHBMa4nC9J"
+					"id": "JkOyLRb3dpX"
 				}
 			],
-			"id": "dNNpRuO7kbn",
-			"lastUpdated": "2019-06-29T07:33:21.752",
-			"name": "Malaria cross borders and MMP",
+			"id": "x9ko6Zdd2Dm",
+			"lastUpdated": "2019-10-09T09:50:44.420",
+			"name": "Malaria old records only",
 			"publicAccess": "r-------",
-			"shortName": "Malaria cross borders and MMP",
+			"shortName": "Malaria historical",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			]
+			"userGroupAccesses": []
 		}
 	],
 	"dataElements": [
@@ -55,44 +42,31 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "VkQPxB6VdoG"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_POS_CROSS_BORDERS",
-			"created": "2016-05-09T06:54:36.600",
-			"description": "Number of positive cases with either microscopy or RDT in administrative area bordering international border",
+			"code": "MAL_CONFI_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.843",
+			"description": "Cases confirmed as positive with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Number of malaria positive from cross-borders",
-			"id": "UwaQ0MJzXBz",
-			"lastUpdated": "2019-10-20T13:02:22.185",
+			"formName": "Positive (micr+RDT)",
+			"id": "X0luAFiy268",
+			"lastUpdated": "2019-10-20T13:01:24.449",
 			"legendSets": [],
-			"name": "MAL - Malaria positive from cross-borders",
+			"name": "MAL - Malaria confirmed cases (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "Positive from cross-borders",
+			"shortName": "Positive (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Nombre positive de paludisme de la population transfrontalière"
+					"value": "Total Positive Cases (Micr + RDT)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		},
@@ -101,44 +75,31 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_POS_CROSS_BORDERS_FOLLO_14D",
-			"created": "2016-03-10T07:53:29.940",
-			"description": "Number of suspected malaria cases positive with either microscopy or RDT in administrative area bordering international border",
+			"code": "MAL_TEST_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.324",
+			"description": "Suspected cases tested with both microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Number of malaria positive from cross-borders followed for 14 days",
-			"id": "wAHUeGPbH9A",
-			"lastUpdated": "2019-10-20T13:02:23.527",
+			"formName": "Tested (micr+RDT)",
+			"id": "tuOTgWfDO6m",
+			"lastUpdated": "2019-10-20T13:01:23.124",
 			"legendSets": [],
-			"name": "MAL - Malaria positive from cross-borders followed for 14 days",
+			"name": "MAL - Malaria tested cases (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "Positive from cross-borders followed for 14 days",
+			"shortName": "Tested (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Population transfrontalièresuivi pendant 14 jours"
+					"value": "Total Tested (Micr + RDT)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		},
@@ -147,44 +108,31 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "VkQPxB6VdoG"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_TEST_CROSS_BORDERS",
-			"created": "2016-05-09T06:54:36.111",
-			"description": "Number of suspected cases tested with either microscopy or RDT in administrative area bordering international border",
+			"code": "MAL_MIX_SPECIES_MICR_RDT",
+			"created": "2016-04-26T14:19:00.353",
+			"description": "Cases confirmed as mixed infection with P.falciparum and P.vivax with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Number of malaria tested from cross-borders",
-			"id": "CxI1FHE4oEh",
-			"lastUpdated": "2019-10-20T13:02:20.843",
+			"formName": "Mixed (micr+RDT)",
+			"id": "TNTW2ruEVEu",
+			"lastUpdated": "2019-10-20T13:01:28.455",
 			"legendSets": [],
-			"name": "MAL - Malaria tested from cross-borders",
+			"name": "MAL - Mixed malaria species  (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "Tested from cross-borders",
+			"shortName": "Mixed (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Nombre testé pour le paludisme de la population transfrontalière"
+					"value": "Mixed (micr)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		},
@@ -193,44 +141,31 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_MM_POP_FOLLO_UP_FOR_14D",
-			"created": "2016-03-10T08:08:14.505",
-			"description": "Number of migrant and mobile population (MMP) that are are followed-up for 14 days (with testing using microscopy or RDT at intervals)",
+			"code": "MAL_MIX_OTHER_SPECIES_MICR_RDT",
+			"created": "2016-04-26T14:19:00.869",
+			"description": "Cases confirmed as P.malariae or P. ovale or P. knowlesi with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Number of migrant and mobile population (MMP) followed up for 14 days",
-			"id": "kdMT3AuDzj1",
-			"lastUpdated": "2019-10-20T13:02:46.486",
+			"formName": "Other species (micr+RDT)",
+			"id": "JkOyLRb3dpX",
+			"lastUpdated": "2019-10-20T13:01:33.833",
 			"legendSets": [],
-			"name": "MAL - Migrant and mobile population (MMP) followed up for 14 days",
+			"name": "MAL - Mixed/Other malaria species (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "MMP followed up for 14 days",
+			"shortName": "Other species (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Nombre de migrants et mobile populations suivi pendant 14 jours"
+					"value": "Autres espèces (micr)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		},
@@ -239,44 +174,31 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_MM_POP_POS",
-			"created": "2016-05-09T08:54:37.584",
-			"description": "Number of migrant and mobile population (MMP) that are positive with either microscopy and RDT",
+			"code": "MAL_PF_MICR_RDT",
+			"created": "2016-04-26T14:18:59.345",
+			"description": "Cases confirmed as P.falciparum positive with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Number of migrant and mobile population (MMP) positive",
-			"id": "CWHBMa4nC9J",
-			"lastUpdated": "2019-10-20T13:02:45.144",
+			"formName": "P. falciparum (micr+RDT)",
+			"id": "IIU1O0Z4l49",
+			"lastUpdated": "2019-10-20T13:01:25.784",
 			"legendSets": [],
-			"name": "MAL - Migrant and mobile population (MMP) positive",
+			"name": "MAL - Plasmodium falciparum (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "MMP positive",
+			"shortName": "P. falciparum (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Nombre de migrants et mobile populations positive (MMP)"
+					"value": "P. falciparum (micr)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		},
@@ -285,49 +207,181 @@
 			"aggregationType": "SUM",
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "bjDvmb4bfuf"
+				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_MM_POP_TEST",
-			"created": "2016-05-09T08:54:37.092",
-			"description": "Number of migrant and mobile population (MMP) suspected and tested with either microscopy and RDT",
+			"code": "MAL_PV_MICR_RDT",
+			"created": "2016-04-26T14:18:59.849",
+			"description": "Cases confirmed as P.vivax positive with microscopy",
 			"domainType": "AGGREGATE",
-			"formName": "Number of migrant and mobile population (MMP) tested",
-			"id": "S3AqkeU4DET",
-			"lastUpdated": "2019-10-20T13:02:43.781",
+			"formName": "P. vivax (micr+RDT)",
+			"id": "pUC8tgzn0lV",
+			"lastUpdated": "2019-10-20T13:01:27.128",
 			"legendSets": [],
-			"name": "MAL - Migrant and mobile population (MMP) tested",
+			"name": "MAL - Plasmodium vivax (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "MMP tested",
+			"shortName": "P. vivax (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Nombre de migrants et mobile populations testés (MMP)"
+					"value": "P. vivax (micr)"
 				}
 			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"valueType": "INTEGER_ZERO_OR_POSITIVE",
 			"zeroIsSignificant": true
 		}
 	],
-	"package": "MAL-MMG_CUSTOM_V1.1.0_DHIS2.33_2020-09-12T16:58",
+	"dataSets": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"compulsoryDataElementOperands": [],
+			"compulsoryFieldsCompleteOnly": false,
+			"created": "2018-03-22T20:38:14.680",
+			"dataElementDecoration": false,
+			"dataInputPeriods": [],
+			"dataSetElements": [
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "X0luAFiy268"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "JkOyLRb3dpX"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "pUC8tgzn0lV"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "TNTW2ruEVEu"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "tuOTgWfDO6m"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "IIU1O0Z4l49"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				}
+			],
+			"expiryDays": 0,
+			"fieldCombinationRequired": false,
+			"id": "F7OVox4TtLP",
+			"indicators": [],
+			"lastUpdated": "2018-06-28T12:52:13.852",
+			"legendSets": [],
+			"mobile": false,
+			"name": "[old records only] Malaria cases",
+			"notifyCompletingUser": false,
+			"noValueRequiresComment": false,
+			"openFuturePeriods": 0,
+			"organisationUnits": [],
+			"periodType": "Monthly",
+			"publicAccess": "r-r-----",
+			"renderAsTabs": false,
+			"renderHorizontally": false,
+			"skipOffline": false,
+			"timelyDays": 15,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validCompleteOnly": false,
+			"version": 3
+		}
+	],
+	"package": "MAL-HIST_CUSTOM_V1.1.0_DHIS2.33_2020-09-12T16:58",
+	"sections": [
+		{
+			"attributeValues": [],
+			"created": "2018-03-22T20:41:48.947",
+			"dataElements": [
+				{
+					"id": "tuOTgWfDO6m"
+				},
+				{
+					"id": "IIU1O0Z4l49"
+				},
+				{
+					"id": "pUC8tgzn0lV"
+				},
+				{
+					"id": "TNTW2ruEVEu"
+				},
+				{
+					"id": "JkOyLRb3dpX"
+				},
+				{
+					"id": "X0luAFiy268"
+				}
+			],
+			"dataSet": {
+				"id": "F7OVox4TtLP"
+			},
+			"greyedFields": [],
+			"id": "Ms74sn15vUt",
+			"indicators": [],
+			"lastUpdated": "2018-03-22T20:52:05.104",
+			"name": "Malaria Cases",
+			"showColumnTotals": false,
+			"showRowTotals": true,
+			"sortOrder": 1,
+			"translations": []
+		}
+	],
 	"userGroups": [
 		{
 			"attributeValues": [],

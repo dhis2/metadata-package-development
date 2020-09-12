@@ -1270,6 +1270,11 @@
         <th>Available</th>
       </tr>
       <tr>
+        <td rowspan=1>GEN_PREG_EXPECT</td>
+        <td align="left">GEN - Population expected pregnant women</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
         <td rowspan=1>MAL_ANC_VISIT</td>
         <td align="left">MAL - ANC 1st visit (malaria)</td>
         <td align="center">▢</td>
@@ -1282,6 +1287,41 @@
       <tr>
         <td rowspan=1>MAL_CONF_MEDIAN</td>
         <td align="left">MAL - Malaria confirmed MEDIAN (threshold)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=6>RMNCAH_ANC1</td>
+        <td align="left">RMNCAH - ANC 1st visit</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;"><em>Age (reproductive and maternal)</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>10-14 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>15-19 years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 48px;"><em>20+ years</em></p>
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px; margin-bottom: 48px"><em>Other disaggregations, specify:</em></p>
+        </td>
         <td align="center">▢</td>
       </tr>
     </table>
@@ -1377,6 +1417,23 @@
       <tr>
         <td>
           <p style="margin: 0px; margin-left: 24px;">Denominator: Population at risk
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_API</td>
+        <td align="left">MAL - Annual malaria parasite incidence (API)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Total malaria confirmed cases
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population at risk*Foci classified as endemic or active (with confirmed local cases for at least the past 2 years)
         </td>
         <td align="center">▢</td>
       </tr>
@@ -1551,6 +1608,23 @@
         <td align="center">▢</td>
       </tr>
       <tr>
+        <td rowspan=3>MAL_TPR</td>
+        <td align="left">MAL - Malaria test positivity rate (Micr/RDT) (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Total positive cases (Micr + RDT)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Total tested (Micr + RDT)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
         <td rowspan=3>MAL_NON_MAL_IPD_DTH</td>
         <td align="left">MAL - Non-malaria deaths inpatient</td>
         <td align="center">▢</td>
@@ -1602,6 +1676,23 @@
         <td align="center">▢</td>
       </tr>
       <tr>
+        <td rowspan=3>MAL_PER_INFANTS_REC_ITN</td>
+        <td align="left">MAL - Percentage of infants received an ITN</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: LLINs distributed to infants
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: GEN - Population expected pregnant women
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
         <td rowspan=3>MAL_PER_MAL_DTH</td>
         <td align="left">MAL - Percentage of malaria deaths</td>
         <td align="center">▢</td>
@@ -1649,6 +1740,74 @@
       <tr>
         <td>
           <p style="margin: 0px; margin-left: 24px;">Denominator: All-cause OPD
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_PER_PW_ATTEND_ANC1</td>
+        <td align="left">MAL - Percentage of pregnant women attending ANC1</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MAL - ANC 1st visit (malaria)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: GEN - Population expected pregnant women
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_PER_PW_REC_ITN</td>
+        <td align="left">MAL - Percentage of pregnant women received an ITN</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: LLINs distributed to pregnant women
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: GEN - Population expected pregnant women
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_PER_PW_REC_IPT1</td>
+        <td align="left">MAL - Percentage of pregnant women received IPT1</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: SP course received for IPTp (1st dose)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: GEN - Population expected pregnant women
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_PER_PW_REC_IPT3</td>
+        <td align="left">MAL - Percentage of pregnant women received IPT3</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: SP course received for IPTp (3rd dose)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: GEN - Population expected pregnant women
         </td>
         <td align="center">▢</td>
       </tr>
@@ -1755,6 +1914,40 @@
         <td align="center">▢</td>
       </tr>
       <tr>
+        <td rowspan=3>MAL_SP_COURS_RECV_IPTP1</td>
+        <td align="left">MAL - SP course received for IPTp (1st dose)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MAL - SP course received for IPTp (1st dose)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>MAL_SP_COURS_RECV_IPTP3</td>
+        <td align="left">MAL - SP course received for IPTp (3rd dose)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MAL - SP course received for IPTp (3rd dose)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
         <td rowspan=3>MAL_TRP_RDT</td>
         <td align="left">MAL - Test positivity rate (RDT)</td>
         <td align="center">▢</td>
@@ -1779,6 +1972,23 @@
       <tr>
         <td>
           <p style="margin: 0px; margin-left: 24px;">Numerator: Total malaria cases (confirmed+presumed)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>RMNCAH_ANC1</td>
+        <td align="left">RMNCAH - ANC 1st visit </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: ANC 1st visit
         </td>
         <td align="center">▢</td>
       </tr>
