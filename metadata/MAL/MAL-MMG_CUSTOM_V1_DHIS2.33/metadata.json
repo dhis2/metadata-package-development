@@ -17,23 +17,20 @@
 					"id": "wAHUeGPbH9A"
 				},
 				{
-					"id": "CWHBMa4nC9J"
+					"id": "kdMT3AuDzj1"
 				},
 				{
-					"id": "kdMT3AuDzj1"
+					"id": "CWHBMa4nC9J"
 				}
 			],
 			"id": "dNNpRuO7kbn",
 			"lastUpdated": "2019-06-29T07:33:21.752",
-			"lastUpdatedBy": {
-				"id": "mF8i9czW87x"
-			},
 			"name": "Malaria cross borders and MMP",
 			"publicAccess": "r-------",
 			"shortName": "Malaria cross borders and MMP",
 			"translations": [],
 			"user": {
-				"id": "mF8i9czW87x"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -67,9 +64,6 @@
 			"formName": "Number of malaria positive from cross-borders",
 			"id": "UwaQ0MJzXBz",
 			"lastUpdated": "2019-10-20T13:02:22.185",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Malaria positive from cross-borders",
 			"publicAccess": "r-------",
@@ -82,7 +76,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -116,9 +110,6 @@
 			"formName": "Number of malaria positive from cross-borders followed for 14 days",
 			"id": "wAHUeGPbH9A",
 			"lastUpdated": "2019-10-20T13:02:23.527",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Malaria positive from cross-borders followed for 14 days",
 			"publicAccess": "r-------",
@@ -131,7 +122,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -165,9 +156,6 @@
 			"formName": "Number of malaria tested from cross-borders",
 			"id": "CxI1FHE4oEh",
 			"lastUpdated": "2019-10-20T13:02:20.843",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Malaria tested from cross-borders",
 			"publicAccess": "r-------",
@@ -180,7 +168,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -214,9 +202,6 @@
 			"formName": "Number of migrant and mobile population (MMP) followed up for 14 days",
 			"id": "kdMT3AuDzj1",
 			"lastUpdated": "2019-10-20T13:02:46.486",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Migrant and mobile population (MMP) followed up for 14 days",
 			"publicAccess": "r-------",
@@ -229,7 +214,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -263,9 +248,6 @@
 			"formName": "Number of migrant and mobile population (MMP) positive",
 			"id": "CWHBMa4nC9J",
 			"lastUpdated": "2019-10-20T13:02:45.144",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Migrant and mobile population (MMP) positive",
 			"publicAccess": "r-------",
@@ -278,7 +260,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -312,9 +294,6 @@
 			"formName": "Number of migrant and mobile population (MMP) tested",
 			"id": "S3AqkeU4DET",
 			"lastUpdated": "2019-10-20T13:02:43.781",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"legendSets": [],
 			"name": "MAL - Migrant and mobile population (MMP) tested",
 			"publicAccess": "r-------",
@@ -327,7 +306,7 @@
 				}
 			],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -348,22 +327,19 @@
 			"zeroIsSignificant": true
 		}
 	],
-	"package": "MAL-MMG_CUSTOM_V1.0_DHIS2.33_2020-06-11T12:08",
+	"package": "MAL-MMG_CUSTOM_V1.1.0_DHIS2.33_2020-09-12T16:58",
 	"userGroups": [
 		{
 			"attributeValues": [],
 			"created": "2018-01-19T13:16:50.221",
 			"id": "ZXEVDM9XRea",
 			"lastUpdated": "2020-04-24T11:20:53.565",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"managedGroups": [],
 			"name": "Malaria access",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -380,22 +356,23 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			],
-			"users": []
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:12.627",
 			"id": "suMb19wGXPR",
-			"lastUpdated": "2020-04-24T11:20:53.579",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
+			"lastUpdated": "2020-09-03T19:33:00.753",
 			"managedGroups": [],
 			"name": "Malaria admin",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -412,22 +389,23 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			],
-			"users": []
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"created": "2018-06-06T10:40:10.712",
 			"id": "fRSrUJ6SMGH",
 			"lastUpdated": "2020-04-24T11:20:53.559",
-			"lastUpdatedBy": {
-				"id": "jB4WJmaNuGT"
-			},
 			"managedGroups": [],
 			"name": "Malaria data capture",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
-				"id": "jB4WJmaNuGT"
+				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
 			"userGroupAccesses": [
@@ -444,7 +422,66 @@
 					"userGroupUid": "ZXEVDM9XRea"
 				}
 			],
-			"users": []
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-07-13T12:28:39.402",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"lastUpdatedBy": {
+					"id": "jB4WJmaNuGT"
+				},
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"user": {
+					"id": "jB4WJmaNuGT"
+				},
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
 		}
 	]
 }

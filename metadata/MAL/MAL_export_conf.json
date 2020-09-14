@@ -1,7 +1,7 @@
 {
   "export": [
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-BR", 
       "_name": "Malaria burden reduction dashboard", 
       "_prefix": "[CONFIG]", 
@@ -35,10 +35,8 @@
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0", 
       "dashboardIds": [
        "sLldHZZgnFx", 
@@ -53,7 +51,7 @@
       ]
     }, 
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-BR", 
       "_name": "Malaria burden reduction", 
       "_prefix": "[CONFIG]", 
@@ -92,10 +90,8 @@
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0", 
       "customObjects": [
         {
@@ -136,7 +132,7 @@
       ]
     }, 
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-EL", 
       "_name": "Malaria elimination", 
       "_prefix": "[CONFIG]", 
@@ -175,10 +171,8 @@
       }, 
       "_type": "completeAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0", 
       "dashboardIds": [
         "b8F1kKlV9Fk",
@@ -216,7 +210,7 @@
       ]
     }, 
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-EL", 
       "_name": "Malaria elimination dashboard", 
       "_prefix": "[CONFIG]", 
@@ -250,10 +244,8 @@
       }, 
       "_type": "dashboardAggregate", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0", 
       "dashboardIds": [
         "b8F1kKlV9Fk",
@@ -266,7 +258,7 @@
       ]
     },
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-MMG", 
       "_name": "Malaria cross-border and mobile and migrant populations", 
       "_prefix": "[CONFIG]", 
@@ -305,10 +297,8 @@
       },
       "_type": "custom", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0",
       "customObjects": [
       	{
@@ -329,7 +319,7 @@
       "validationRuleGroupIds": []
     },
     {
-      "_basePath": "./MAL/", 
+      "_basePath": "../MAL/", 
       "_code": "MAL-HIST", 
       "_name": "Malaria historical data", 
       "_prefix": "[CONFIG]", 
@@ -368,10 +358,8 @@
       },
       "_type": "custom", 
       "_url": [
-        "https://who.dhis2.org/ref_base", 
-        "https://who.dhis2.org/ref_plus1", 
-        "https://who.dhis2.org/ref_plus2"
-      ], 
+        "https://who-dev.dhis2.org/temp234", 
+        "https://who-dev.dhis2.org/temp233" ], 
       "_version": "1.1.0",
       "customObjects": [
       	{

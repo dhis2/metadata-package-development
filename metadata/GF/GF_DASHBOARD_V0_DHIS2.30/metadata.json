@@ -1,0 +1,2922 @@
+{
+	"charts": [
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-09-03T19:19:16.543",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Gub1eIlvZOy"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Z48MqaUk1cq"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "m6t9Skkt54D"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": true,
+			"id": "g8o4JmZQiPF",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:16.373",
+			"name": "GF - Current, new and PMTCT ART clients in last 3 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-09-03T19:19:55.989",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "I2jDteTsZ3U"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "DccLbeKHLHg"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Zs0n7UT9iPu"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Nl8T61OZVJg",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:16.376",
+			"name": "GF - Notified TB cases from non-national provider in the last 3 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-09-03T19:20:16.006",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "oD6mIwrpD7U"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "GVp1JSCTIJJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "MqV6JzOevxg"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "aE4vTSRGuAA",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:16.377",
+			"name": "GF - Suspected malaria cases tested in the last 3 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2020-09-03T19:21:37.660",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "lf2fk1uIwga"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "nZ0wh8lywzZ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "p7RjC6myyIX"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "g4P6EfYKoXy",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:16.379",
+			"name": "GF - TB Cases notified, TB/HIV and DR-TB in the last 3 months",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		}
+	],
+	"dashboards": [
+		{
+			"created": "2020-08-29T11:54:53.812",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 12,
+					"id": "fKuxduUU26W",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.176",
+					"reports": [],
+					"reportTable": {
+						"id": "iCcux8uJr71"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 25,
+					"x": 30,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 11,
+					"id": "oPOqt0DvQdB",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.177",
+					"reports": [],
+					"reportTable": {
+						"id": "bSb1T54EJat"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 25,
+					"x": 30,
+					"y": 12
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "g4P6EfYKoXy"
+					},
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "xpJM5V1pxC4",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.177",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 26,
+					"x": 4,
+					"y": 23
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "aE4vTSRGuAA"
+					},
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 24,
+					"id": "ZUltwHaeqLt",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.177",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 26,
+					"x": 4,
+					"y": 43
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Nl8T61OZVJg"
+					},
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "lhIx4KDmpYP",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.177",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 25,
+					"x": 30,
+					"y": 23
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 16,
+					"id": "oV7wY1qSKcD",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.177",
+					"reports": [],
+					"reportTable": {
+						"id": "cBgnmR2SB1t"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 25,
+					"x": 30,
+					"y": 51
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 8,
+					"id": "awwG2EknuZv",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.178",
+					"reports": [],
+					"reportTable": {
+						"id": "f3GYz4GB83V"
+					},
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "REPORT_TABLE",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 25,
+					"x": 30,
+					"y": 43
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "g8o4JmZQiPF"
+					},
+					"contentCount": 1,
+					"created": "2020-08-31T07:15:16.463",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "FjozzEfV8SW",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-09-09T10:37:17.178",
+					"reports": [],
+					"resources": [],
+					"shape": "NORMAL",
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 26,
+					"x": 4,
+					"y": 0
+				}
+			],
+			"description": "Summary of the Global Fund Report Indicators",
+			"externalAccess": false,
+			"favorites": [
+				"KpUvqwyAqx8"
+			],
+			"id": "eddaoDbIKLe",
+			"lastUpdated": "2020-09-09T10:37:17.174",
+			"name": "Global Fund Report",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		}
+	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-08-29T10:19:23.538",
+			"id": "knn3fJsP9BX",
+			"indicators": [
+				{
+					"id": "w19pUXokFxE"
+				},
+				{
+					"id": "lf2fk1uIwga"
+				},
+				{
+					"id": "vkpdbqZRaOZ"
+				},
+				{
+					"id": "Zs0n7UT9iPu"
+				},
+				{
+					"id": "MqV6JzOevxg"
+				},
+				{
+					"id": "Y9DSINfInry"
+				},
+				{
+					"id": "iNNZlzdKpRW"
+				},
+				{
+					"id": "XS4DElO0YoA"
+				},
+				{
+					"id": "AofWgGaedF0"
+				},
+				{
+					"id": "HTRvCeJHaYV"
+				},
+				{
+					"id": "GNuvFPQrIJv"
+				},
+				{
+					"id": "nZ0wh8lywzZ"
+				},
+				{
+					"id": "GVp1JSCTIJJ"
+				},
+				{
+					"id": "DccLbeKHLHg"
+				},
+				{
+					"id": "pCNavhG2vYJ"
+				},
+				{
+					"id": "Gub1eIlvZOy"
+				},
+				{
+					"id": "p7RjC6myyIX"
+				},
+				{
+					"id": "Z48MqaUk1cq"
+				},
+				{
+					"id": "xSR1eLTJfIr"
+				},
+				{
+					"id": "zcdaerYVoDR"
+				},
+				{
+					"id": "m6t9Skkt54D"
+				},
+				{
+					"id": "RhH0JQXQEyp"
+				},
+				{
+					"id": "DUqScDxrwf3"
+				},
+				{
+					"id": "UDhmgZG68ac"
+				},
+				{
+					"id": "itZuxhBYjvl"
+				},
+				{
+					"id": "V6uP6HNVJr1"
+				},
+				{
+					"id": "y3Oyv8FBgPy"
+				},
+				{
+					"id": "FCy8k8QNDOn"
+				},
+				{
+					"id": "I2jDteTsZ3U"
+				},
+				{
+					"id": "oD6mIwrpD7U"
+				},
+				{
+					"id": "AOsBUiafdks"
+				},
+				{
+					"id": "pZpbgUVFDk6"
+				}
+			],
+			"lastUpdated": "2020-09-09T10:37:14.147",
+			"name": "GF Reporting",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_CM-1a",
+			"created": "2020-09-03T18:32:32.972",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of suspected malaria cases that receive a parasitological test at public sector health facilities",
+			"id": "oD6mIwrpD7U",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.650",
+			"legendSets": [],
+			"name": "[CONFIG] GF_CM-1a - Suspected malaria cases tested in public facilities",
+			"numerator": "-1",
+			"numeratorDescription": "Suspected malaria cases tested in pub. facilities",
+			"publicAccess": "r-------",
+			"shortName": "Suspected malaria cases tested in pub. facilities",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_CM-1b",
+			"created": "2020-09-03T18:32:32.972",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of suspected malaria cases that receive a parasitological test in the community",
+			"id": "MqV6JzOevxg",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.651",
+			"legendSets": [],
+			"name": "[CONFIG] GF_CM-1b - Suspected malaria cases tested in the community",
+			"numerator": "-1",
+			"numeratorDescription": "Suspected malaria cases tested in the community",
+			"publicAccess": "r-------",
+			"shortName": "Suspected malaria cases tested in the community",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_CM-1c",
+			"created": "2020-09-03T18:32:32.972",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of suspected malaria cases that receive a parasitological test at private sector sites",
+			"id": "GVp1JSCTIJJ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.652",
+			"legendSets": [],
+			"name": "[CONFIG] GF_CM-1c - Suspected malaria cases tested at private sector sites",
+			"numerator": "-1",
+			"numeratorDescription": "Suspected malaria cases tested at private sector sites",
+			"publicAccess": "r-------",
+			"shortName": "Suspected malaria cases tested at private sites",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-1a",
+			"created": "2020-09-03T18:32:32.968",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of MSM reached with HIV prevention programs- defined package of services",
+			"id": "xSR1eLTJfIr",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.652",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-1a - MSM reached with HIV prevention services",
+			"numerator": "-1",
+			"numeratorDescription": "MSM reached with HIV prevention services",
+			"publicAccess": "r-------",
+			"shortName": "MSM reached with HIV prevention services",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-1b",
+			"created": "2020-09-03T18:32:32.968",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of TG reached with HIV prevention programs- defined package of services",
+			"id": "pZpbgUVFDk6",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.652",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-1b - TG reached with HIV prevention services",
+			"numerator": "-1",
+			"numeratorDescription": "TG reached with HIV prevention services",
+			"publicAccess": "r-------",
+			"shortName": "TG reached with HIV prevention services",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-1c",
+			"created": "2020-09-03T18:32:32.969",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of sex workers reached with HIV prevention programs- defined package of services",
+			"id": "iNNZlzdKpRW",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.653",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-1c - Sex workers reached with HIV prevention services",
+			"numerator": "-1",
+			"numeratorDescription": "Sex workers reached with HIV prevention services",
+			"publicAccess": "r-------",
+			"shortName": "Sex workers reached with HIV prevention services",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-1d",
+			"created": "2020-09-03T18:32:32.969",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of people who inject drugs reached with HIV prevention programs- defined package of services",
+			"id": "FCy8k8QNDOn",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.653",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-1d - IDU reached with HIV prevention services",
+			"numerator": "-1",
+			"numeratorDescription": "IDU reached with HIV prevention services",
+			"publicAccess": "r-------",
+			"shortName": "IDU reached with HIV prevention services",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-3a",
+			"created": "2020-09-03T18:32:32.970",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of MSM that have received an HIV test during the reporting period and know their results",
+			"id": "AofWgGaedF0",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.653",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-3a - MSM HIV tested and know their results",
+			"numerator": "-1",
+			"numeratorDescription": "MSM HIV tested  and know their results",
+			"publicAccess": "r-------",
+			"shortName": "MSM HIV tested and know their results",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-3b",
+			"created": "2020-09-03T18:32:32.970",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of TG that have received an HIV test during the reporting period and know their results",
+			"id": "GNuvFPQrIJv",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.653",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-3b - TG that recieved HIV test and know their results",
+			"numerator": "-1",
+			"numeratorDescription": "TG HIV tested and know their results",
+			"publicAccess": "r-------",
+			"shortName": "TG that recieved HIV test and know their results",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-3c",
+			"created": "2020-09-03T18:32:32.970",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of sex workers that have received an HIV test during the reporting period and know their results",
+			"id": "XS4DElO0YoA",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.654",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-3c - SW HIV tested and know their results",
+			"numerator": "-1",
+			"numeratorDescription": "SW HIV tested and know their results",
+			"publicAccess": "r-------",
+			"shortName": "SW HIV tested and know their results",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_KP-3d",
+			"created": "2020-09-03T18:32:32.971",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of people who inject drugs that have received an HIV test during the reporting period and know their results",
+			"id": "w19pUXokFxE",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.654",
+			"legendSets": [],
+			"name": "[CONFIG] GF_KP-3d - IDU HIV tested and know their results",
+			"numerator": "-1",
+			"numeratorDescription": "IDU HIV tested and know their results",
+			"publicAccess": "r-------",
+			"shortName": "IDU HIV tested and know their results",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_MDR TB-3",
+			"created": "2020-09-03T18:32:32.972",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of case with drug-resistant TB (RR-TB and/or MDR-TB) that began second-line treatment",
+			"id": "p7RjC6myyIX",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.654",
+			"legendSets": [],
+			"name": "[CONFIG] GF_MDR TB-3 - TB cases with DR TB that began 2nd-line treatment",
+			"numerator": "-1",
+			"numeratorDescription": "TB cases with DR TB that began 2nd-line treatment",
+			"publicAccess": "r-------",
+			"shortName": "TB cases with DR TB that began 2nd-line treatment",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_PMTCT-2.1",
+			"created": "2020-09-03T18:32:32.967",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of HIV+ pregnant women receiving ART for PMTCT (Number of HIV-positive women who received ART) during pregnancy and/or labour and delivery)",
+			"id": "m6t9Skkt54D",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.654",
+			"legendSets": [],
+			"name": "[CONFIG] GF_PMTCT-2.1 - HIV+ pregnant women receiving ART for PMTCT",
+			"numerator": "-1",
+			"numeratorDescription": "HIV+ pregnant women receiving ART for PMTCT",
+			"publicAccess": "r-------",
+			"shortName": "HIV+ pregnant women receiving ART for PMTCT",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RE-ART",
+			"created": "2020-09-03T18:32:32.974",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports expected in the period for HIV/ART",
+			"id": "AOsBUiafdks",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.655",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RE-ART - Reports expected in the period for HIV/ART",
+			"numerator": "-1",
+			"numeratorDescription": "Reports expected in the period for HIV/ART",
+			"publicAccess": "r-------",
+			"shortName": "Reports expected in the period for HIV/ART",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RE-KP",
+			"created": "2020-09-03T18:32:32.975",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports expected in the period for KP",
+			"id": "pCNavhG2vYJ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.655",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RE-KP - Reports expected in the period for KP",
+			"numerator": "-1",
+			"numeratorDescription": "Reports expected in the period for KP",
+			"publicAccess": "r-------",
+			"shortName": "Reports expected in the period for KP",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RE-MAL",
+			"created": "2020-09-03T18:32:32.974",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports expected in the period for Malaria",
+			"id": "itZuxhBYjvl",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.655",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RE-MAL - Reports expected in the period for Malaria",
+			"numerator": "-1",
+			"numeratorDescription": "Reports expected in the period for Malaria",
+			"publicAccess": "r-------",
+			"shortName": "Reports expected in the period for Malaria",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RE-TB",
+			"created": "2020-09-03T18:32:32.974",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports expected in the period for TB",
+			"id": "HTRvCeJHaYV",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.656",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RE-TB - Reports expected in the period for TB",
+			"numerator": "-1",
+			"numeratorDescription": "Reports expected in the period for TB",
+			"publicAccess": "r-------",
+			"shortName": "Reports expected in the period for TB",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RR-ART",
+			"created": "2020-09-03T18:32:32.973",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports received in the period for HIV/ART",
+			"id": "Y9DSINfInry",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.656",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RR-ART - Reports received in the period for HIV/ART",
+			"numerator": "-1",
+			"numeratorDescription": "Reports received in the period for HIV/ART",
+			"publicAccess": "r-------",
+			"shortName": "Reports received in the period for HIV/ART",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RR-KP",
+			"created": "2020-09-03T18:32:32.975",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports received in the period for KP",
+			"id": "UDhmgZG68ac",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.656",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RR-KP - Reports received in the period for KP",
+			"numerator": "-1",
+			"numeratorDescription": "Reports received in the period for KP",
+			"publicAccess": "r-------",
+			"shortName": "Reports received in the period for KP",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RR-MAL",
+			"created": "2020-09-03T18:32:32.974",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports received in the period for Malaria",
+			"id": "DUqScDxrwf3",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.657",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RR-MAL - Reports received in the period for Malaria",
+			"numerator": "-1",
+			"numeratorDescription": "Reports received in the period for Malaria",
+			"publicAccess": "r-------",
+			"shortName": "Reports received in the period for Malaria",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_RR-TB",
+			"created": "2020-09-03T18:32:32.974",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of reports received in the period for TB",
+			"id": "zcdaerYVoDR",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.657",
+			"legendSets": [],
+			"name": "[CONFIG] GF_RR-TB - Reports received in the period for TB",
+			"numerator": "-1",
+			"numeratorDescription": "Reports received in the period for TB",
+			"publicAccess": "r-------",
+			"shortName": "Reports received in the period for TB",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TB/HIV-3.1",
+			"created": "2020-09-03T18:32:32.972",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of HIV+ new and relapsed TB patients started on TB treatment who are already on ART or start on ART during TB treatment",
+			"id": "nZ0wh8lywzZ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.657",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TB/HIV-3.1 - TB/HIV patients on ART ",
+			"numerator": "-1",
+			"numeratorDescription": "TB/HIV patients on ART ",
+			"publicAccess": "r-------",
+			"shortName": "TB/HIV patients on ART ",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCP-1",
+			"created": "2020-09-03T18:32:32.973",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of notified TB cases of all forms of TB-(i.e. bacteriologically confirmed + clinically diagnosed), includes new and relapse cases",
+			"id": "lf2fk1uIwga",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.657",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCP-1 - Notified TB cases of all forms",
+			"numerator": "-1",
+			"numeratorDescription": "Notified TB cases of all forms",
+			"publicAccess": "r-------",
+			"shortName": "Notified TB cases of all forms",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCP-7a",
+			"created": "2020-09-03T18:32:32.973",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of notified TB cases (all forms) contributed by non-national TB program providers – private/non-governmental facilities",
+			"id": "DccLbeKHLHg",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.658",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCP-7a - Notified TB cases from non-national provider - private facilities",
+			"numerator": "-1",
+			"numeratorDescription": "Notified TB cases from privatel facilities",
+			"publicAccess": "r-------",
+			"shortName": "TB from non-national provider - private facilities",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCP-7b",
+			"created": "2020-09-03T18:32:32.973",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of notified TB cases (all forms) contributed by non-national TB program providers – public sector",
+			"id": "I2jDteTsZ3U",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.658",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCP-7b - Notified TB cases from non-national provider - public sector",
+			"numerator": "-1",
+			"numeratorDescription": "Notified TB cases  from public sector",
+			"publicAccess": "r-------",
+			"shortName": "TB from non-national provider - public sector",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCP-7c",
+			"created": "2020-09-03T18:32:32.973",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of notified TB cases (all forms) contributed by non-national TB program providers – community referrals",
+			"id": "Zs0n7UT9iPu",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.659",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCP-7c - Notified TB cases from non-national provider - community referrals",
+			"numerator": "-1",
+			"numeratorDescription": "Notified TB cases from community referrals",
+			"publicAccess": "r-------",
+			"shortName": "TB from non-national provider-community referrals",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCS-1.1",
+			"created": "2020-09-03T18:32:32.964",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of adults and children currently receiving ART",
+			"id": "Gub1eIlvZOy",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.659",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCS-1.1 - Currently receiving ART",
+			"numerator": "-1",
+			"numeratorDescription": "Currently receiving ART",
+			"publicAccess": "r-------",
+			"shortName": "Currently receiving ART",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_TCS-New",
+			"created": "2020-09-03T18:32:32.966",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of adults and children newly initiated ART",
+			"id": "Z48MqaUk1cq",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.659",
+			"legendSets": [],
+			"name": "[CONFIG] GF_TCS-New - Newly initiated ART",
+			"numerator": "-1",
+			"numeratorDescription": "Newly initiated ART",
+			"publicAccess": "r-------",
+			"shortName": "Newly initiated ART",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_VC-3",
+			"created": "2020-09-03T18:32:32.971",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of LLINs distributed to at-risk-populations-continuous distribution ( at-risk pops: Children 0-5, Other population group, Pregnant women, School children)",
+			"id": "vkpdbqZRaOZ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.659",
+			"legendSets": [],
+			"name": "[CONFIG] GF_VC-3 - LLINs distributed to at-risk-populations",
+			"numerator": "-1",
+			"numeratorDescription": "LLINs distributed to at-risk-populations",
+			"publicAccess": "r-------",
+			"shortName": "LLINs distributed to at-risk-populations",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_VC-5",
+			"created": "2020-09-03T18:32:32.971",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of households in targeted areas that received IRS",
+			"id": "y3Oyv8FBgPy",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.660",
+			"legendSets": [],
+			"name": "[CONFIG] GF_VC-5 - Households in targeted areas that received IRS",
+			"numerator": "-1",
+			"numeratorDescription": "Households in targeted areas that received IRS",
+			"publicAccess": "r-------",
+			"shortName": "Households in targeted areas that received IRS",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_YP-2",
+			"created": "2020-09-03T18:32:32.971",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of adolescent girls and young women (AGYW) reached with HIV prevention programs- defined package of services",
+			"id": "RhH0JQXQEyp",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.660",
+			"legendSets": [],
+			"name": "[CONFIG] GF_YP-2 - AGYW reached with HIV prevention services",
+			"numerator": "-1",
+			"numeratorDescription": "AGYW reached with HIV prevention services",
+			"publicAccess": "r-------",
+			"shortName": "AGYW reached with HIV prevention services",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "GF_YP-3",
+			"created": "2020-09-03T18:32:32.971",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Number of adolescent girls and young women (AGYW) who were tested for HIV and received their results during the reporting period",
+			"id": "V6uP6HNVJr1",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-09T10:37:13.660",
+			"legendSets": [],
+			"name": "[CONFIG] GF_YP-3 - AGYW who were tested HIV and received results",
+			"numerator": "-1",
+			"numeratorDescription": "AGYW who were tested HIV and received results",
+			"publicAccess": "r-------",
+			"shortName": "AGYW who were tested HIV and received results",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			]
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:42:43.716",
+			"factor": 1,
+			"id": "kHy61PbChXr",
+			"lastUpdated": "2020-09-09T10:37:13.192",
+			"name": "Numerator only (number)",
+			"number": true,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement"
+				}
+			]
+		}
+	],
+	"package": "GF_DASHBOARD_V1.0_DHIS2.30_2020-09-09T12:39",
+	"reportTables": [
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2020-09-03T19:15:28.365",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "y3Oyv8FBgPy"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "vkpdbqZRaOZ"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "f3GYz4GB83V",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:15.705",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "GF - Households that received IRS and LLINs distributed in last 3 months",
+			"numberType": "VALUE",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2020-09-03T19:16:03.003",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "xSR1eLTJfIr"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "iNNZlzdKpRW"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "pZpbgUVFDk6"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "FCy8k8QNDOn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "RhH0JQXQEyp"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "bSb1T54EJat",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:15.708",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "GF - KP and PP reached with HIV prevention services in last 3 months",
+			"numberType": "VALUE",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2020-09-03T19:16:36.360",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "AofWgGaedF0"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "XS4DElO0YoA"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "GNuvFPQrIJv"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "w19pUXokFxE"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "V6uP6HNVJr1"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "iCcux8uJr71",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:15.710",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "GF - KP and PP tested for HIV and know their results in last 3 months",
+			"numberType": "VALUE",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2020-09-03T19:17:08.170",
+			"cumulative": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "Y9DSINfInry"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "AOsBUiafdks"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "UDhmgZG68ac"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "pCNavhG2vYJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "DUqScDxrwf3"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "itZuxhBYjvl"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "zcdaerYVoDR"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "HTRvCeJHaYV"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "cBgnmR2SB1t",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-09-09T10:37:15.713",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "GF - Report Completeness Summary in the last 3 months",
+			"numberType": "VALUE",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": true,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": true,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportParams": {
+				"paramGrandParentOrganisationUnit": false,
+				"paramOrganisationUnit": false,
+				"paramParentOrganisationUnit": false,
+				"paramReportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-08-30T11:47:18.610",
+			"id": "OV6VRqVnUpc",
+			"lastUpdated": "2020-09-09T10:37:08.209",
+			"managedGroups": [],
+			"name": "GF Access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"users": [
+				{
+					"id": "qPeyZhmwGO9"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-08-31T07:16:44.883",
+			"id": "scwcBOlqgDE",
+			"lastUpdated": "2020-09-09T10:37:08.211",
+			"managedGroups": [],
+			"name": "GF Admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "qPeyZhmwGO9"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"displayName": "GF Access",
+					"id": "OV6VRqVnUpc",
+					"userGroupUid": "OV6VRqVnUpc"
+				},
+				{
+					"access": "rw------",
+					"displayName": "GF Admin",
+					"id": "scwcBOlqgDE",
+					"userGroupUid": "scwcBOlqgDE"
+				}
+			],
+			"users": [
+				{
+					"id": "qPeyZhmwGO9"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2020-09-03T19:31:56.440",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "qPeyZhmwGO9",
+			"lastUpdated": "2020-09-09T10:37:06.441",
+			"organisationUnits": [],
+			"surname": "GF",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2020-09-03T19:33:00.452",
+				"disabled": false,
+				"displayName": "Admin GF",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "fjKpCfkvWrU",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2020-09-03T19:33:00.452",
+				"name": "Admin GF",
+				"passwordLastUpdated": "2020-09-03T19:33:00.452",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "qPeyZhmwGO9"
+				},
+				"username": "gf",
+				"userRoles": [
+					{
+						"id": "eUBN10qd5Tp"
+					}
+				]
+			}
+		}
+	]
+}
