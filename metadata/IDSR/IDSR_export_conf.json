@@ -1,0 +1,279 @@
+{
+  "export": [
+    {
+      "_basePath": "../IDSR/",
+      "_code": "IDSR-WND", 
+      "_name": "IDSR with no disaggregations", 
+      "_prefix": "",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "HgvQMs6OLY8",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "go1JmjGyJac",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "IU4WMR0MQIm",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate", 
+      "_url": ["https://who-demos.dhis2.org/surv-temp234"], 
+      "_version": "1.0",
+      "customObjects": [
+                {
+                    "objectIds": ["vclhob0deoe","nrJQj0Kxp03","b64lroD7kZI","r64RbaAOIri","Frp6BqdLOsQ","eZad6JpXT0E","sieOmlObW8L","C1ocEPMZUWn","Fk8VrgQxtwq","RVjbAoItU8B","nShrFb9wexG","iuNfzUx351B","SQ5BUEZpsgd","BlwExnIXNEA","mdYA6Hfl2J4","XhrFVuATU9L","hub5RjpxB7b"],
+                    "objectType": "predictors"
+                },
+                {
+                    "objectIds": ["I3570OWVcKN","XRFwVZNgo0p","WpKu7cyd7Zo","DkmMEcubiPv","dbdfZyjDco2","lXepqiS7wQi","Z1lCDUuuuHg","U9azl7BliKu","mZ08SCurQVX","v1n8aztMcYN","cPLAnOTldta","iLEkjJcYTJd","k2hYvS8LTFl","j3t0jhGOHhP","ZYvr5OITjBa","qFGp7kAZ5Me","RGXZgVrOQyo","f45l3xKDAPs","I5V4NUxtTre","f3MTBlkGjZw","BSyp9DU4HWn","jUaZniVe1Uq","yCjneRUc565","fVYqPV4Yfuv","KNruIU8QeKP"],
+                    "objectType": "dataElements"
+                },
+                {
+ 					"objectIds": ["rbnCYeVsf99","hdZoVVTIqAB","hZADOqoTfCd","w2iZCr1yuyW","KmsiTTRKukj","pVGPPQO2l5a","G3hmodqXksf","PHZVCOOFSxM","SDTCkYf3yty","V6hrsxzaRWa","Gazfp4C0d0g","cQEzLU5zHVR","aFfdM1c5sRa","VEwTo9pxktu","bBHXT6w6ALO","uD7QDfNEpI2","VDhSNgO5aEM","iZQRc4CWmIr","clKgNLbcRAp","OAaX0TBYliv","VYk6cMXgCY9","y1CNMa8WFB8","GRC7Xyb28sn","RK8hP0YA6DY","U4Ya6XzPc1t","hHsJACKkI5f","uYw7H8L6Zme","D4ChC06lIXi","fxF64ipVSq8","P0G458GzYBz","ffNQctZ9uxd"],
+ 					"objectType": "indicators"
+ 				}
+            ],
+      "dashboardIds": [
+        "lVT6XzDBOwn",
+		"JP3tqN90yFm",
+		"iA0Cnyzzbzz",
+		"cmJSUVWW728",
+		"zSz4Ot5OCXR",
+		"F1IeB5VhNHS",
+		"emf8ExRBR6b",
+		"yxinfcyn55y",
+		"xobqPyWbQit",
+		"ZwDMLtwOdWB",
+		"SBKXkyxol3L",
+		"XsjhOBMvlcW",
+		"ViUjlBVHiHq",
+		"sT6eC7JKz4I",
+		"QTjsxM6B0cd",
+		"sTGxyTfrVnP",
+		"XKD0x2g9gK1"
+      ], 
+      "dataElementGroupIds": [
+        "ZE7pzepVQfy",
+		"a9IzOxtrNAe"
+      ], 
+      "dataSetIds": [
+         "MlWyNDcDoQf",
+         "OTvkNTijYQY",
+         "NuFW4zoIXC0"
+      ], 
+      "indicatorGroupIds": [
+        "FW8wnqkjmr6",
+        "HSVL7Rh9JMw",
+        "rnPpen0eECz"
+      ], 
+      "validationRuleGroupIds": [
+        "iOEfzRCqPEK"
+      ],
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": []
+    },
+    {
+      "_basePath": "../IDSR/",
+      "_code": "IDSR", 
+      "_name": "IDSR", 
+      "_prefix": "",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "HgvQMs6OLY8",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "go1JmjGyJac",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "IU4WMR0MQIm",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate", 
+      "_url": ["https://who-demos.dhis2.org/surv-temp234"], 
+      "_version": "1.0",
+      "customObjects": [
+                {
+                    "objectIds": ["vclhob0deoe","nrJQj0Kxp03","b64lroD7kZI","r64RbaAOIri","Frp6BqdLOsQ","eZad6JpXT0E","sieOmlObW8L","C1ocEPMZUWn","Fk8VrgQxtwq","RVjbAoItU8B","nShrFb9wexG","iuNfzUx351B","SQ5BUEZpsgd","BlwExnIXNEA","mdYA6Hfl2J4","XhrFVuATU9L","hub5RjpxB7b"],
+                    "objectType": "predictors"
+                },
+                {
+                    "objectIds": ["I3570OWVcKN","XRFwVZNgo0p","WpKu7cyd7Zo","DkmMEcubiPv","dbdfZyjDco2","lXepqiS7wQi","Z1lCDUuuuHg","U9azl7BliKu","mZ08SCurQVX","v1n8aztMcYN","cPLAnOTldta","iLEkjJcYTJd","k2hYvS8LTFl","j3t0jhGOHhP","ZYvr5OITjBa","qFGp7kAZ5Me","RGXZgVrOQyo","f45l3xKDAPs","I5V4NUxtTre","f3MTBlkGjZw","BSyp9DU4HWn","jUaZniVe1Uq","yCjneRUc565","fVYqPV4Yfuv","KNruIU8QeKP"],
+                    "objectType": "dataElements"
+                },
+                {
+ 					"objectIds": ["rbnCYeVsf99","hdZoVVTIqAB","hZADOqoTfCd","w2iZCr1yuyW","KmsiTTRKukj","pVGPPQO2l5a","G3hmodqXksf","PHZVCOOFSxM","SDTCkYf3yty","V6hrsxzaRWa","Gazfp4C0d0g","cQEzLU5zHVR","aFfdM1c5sRa","VEwTo9pxktu","bBHXT6w6ALO","uD7QDfNEpI2","VDhSNgO5aEM","iZQRc4CWmIr","clKgNLbcRAp","OAaX0TBYliv","VYk6cMXgCY9","y1CNMa8WFB8","GRC7Xyb28sn","RK8hP0YA6DY","U4Ya6XzPc1t","hHsJACKkI5f","uYw7H8L6Zme","D4ChC06lIXi","fxF64ipVSq8","P0G458GzYBz","ffNQctZ9uxd"],
+ 					"objectType": "indicators"
+ 				}
+            ],
+      "dashboardIds": [
+        "lVT6XzDBOwn",
+		"JP3tqN90yFm",
+		"iA0Cnyzzbzz",
+		"cmJSUVWW728",
+		"zSz4Ot5OCXR",
+		"F1IeB5VhNHS",
+		"emf8ExRBR6b",
+		"yxinfcyn55y",
+		"xobqPyWbQit",
+		"ZwDMLtwOdWB",
+		"SBKXkyxol3L",
+		"XsjhOBMvlcW",
+		"ViUjlBVHiHq",
+		"sT6eC7JKz4I",
+		"QTjsxM6B0cd",
+		"sTGxyTfrVnP",
+		"XKD0x2g9gK1"
+      ], 
+      "dataElementGroupIds": [
+        "ZE7pzepVQfy",
+		"a9IzOxtrNAe",
+		"m9yPuQEqxmS"
+      ], 
+      "dataSetIds": [
+      "MlWyNDcDoQf",
+    	"ZyZmZTUwctj"
+      ], 
+      "indicatorGroupIds": [
+        "FW8wnqkjmr6",
+        "HSVL7Rh9JMw",
+        "rnPpen0eECz"
+      ], 
+      "validationRuleGroupIds": [
+        "iOEfzRCqPEK"
+      ],
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": []
+    },
+    {
+      "_basePath": "../IDSR/",
+      "_code": "IDSR", 
+      "_name": "IDSR Dashboard", 
+      "_prefix": "",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "HgvQMs6OLY8",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "go1JmjGyJac",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "IU4WMR0MQIm",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "dashboardAggregate", 
+     "_url": ["https://who-demos.dhis2.org/surv-temp234"], 
+      "_version": "1.0",
+      "customObjects": [
+                {
+                    "objectIds": ["vclhob0deoe","nrJQj0Kxp03","b64lroD7kZI","r64RbaAOIri","Frp6BqdLOsQ","eZad6JpXT0E","sieOmlObW8L","C1ocEPMZUWn","Fk8VrgQxtwq","RVjbAoItU8B","nShrFb9wexG","iuNfzUx351B","SQ5BUEZpsgd","BlwExnIXNEA","mdYA6Hfl2J4","XhrFVuATU9L","hub5RjpxB7b"],
+                    "objectType": "predictors"
+                },
+                {
+ 					"objectIds": ["yCjneRUc565","k2hYvS8LTFl","fVYqPV4Yfuv","j3t0jhGOHhP","ZYvr5OITjBa","qFGp7kAZ5Me","Z1lCDUuuuHg","mZ08SCurQVX","KNruIU8QeKP","I3570OWVcKN","RGXZgVrOQyo","f45l3xKDAPs","I5V4NUxtTre","f3MTBlkGjZw","BSyp9DU4HWn","jUaZniVe1Uq"],
+                	"objectType": "dataElements"
+                },
+                {
+ 					"objectIds": ["a9IzOxtrNAe"],
+                	"objectType": "dataElementGroups"
+                },
+                {
+ 				"objectIds": ["rbnCYeVsf99","hdZoVVTIqAB","hZADOqoTfCd","w2iZCr1yuyW","KmsiTTRKukj","pVGPPQO2l5a","G3hmodqXksf","PHZVCOOFSxM","SDTCkYf3yty","V6hrsxzaRWa","Gazfp4C0d0g","cQEzLU5zHVR","aFfdM1c5sRa","VEwTo9pxktu","bBHXT6w6ALO","uD7QDfNEpI2","VDhSNgO5aEM","iZQRc4CWmIr","clKgNLbcRAp","OAaX0TBYliv","VYk6cMXgCY9","y1CNMa8WFB8","GRC7Xyb28sn","RK8hP0YA6DY","U4Ya6XzPc1t","hHsJACKkI5f","uYw7H8L6Zme","D4ChC06lIXi","fxF64ipVSq8","P0G458GzYBz","ffNQctZ9uxd"],
+ 				"objectType": "indicators"
+ 				}
+            ],
+      "dashboardIds": [
+        "lVT6XzDBOwn",
+		"JP3tqN90yFm",
+		"iA0Cnyzzbzz",
+		"cmJSUVWW728",
+		"zSz4Ot5OCXR",
+		"F1IeB5VhNHS",
+		"emf8ExRBR6b",
+		"yxinfcyn55y",
+		"xobqPyWbQit",
+		"ZwDMLtwOdWB",
+		"SBKXkyxol3L",
+		"XsjhOBMvlcW",
+		"ViUjlBVHiHq",
+		"sT6eC7JKz4I",
+		"QTjsxM6B0cd",
+		"sTGxyTfrVnP",
+		"XKD0x2g9gK1"
+      ],
+      "indicatorGroupIds": [
+        "FW8wnqkjmr6",
+        "HSVL7Rh9JMw",
+        "rnPpen0eECz"
+      ], 
+      "exportIndicatorGroupsIds": []
+    }
+  ]
+}
+
+
