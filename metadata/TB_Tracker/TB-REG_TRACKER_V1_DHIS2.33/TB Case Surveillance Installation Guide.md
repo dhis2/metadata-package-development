@@ -367,7 +367,7 @@ TB Case Surveillance Tracker package includes a set of tests and a list of drugs
 | LPA (Rifampicin / Isoniazid)  |ESUffSPwmju|
 | LPA (Fluoroquinolones / Second-line Injectables)  |govArZqiFzY|
 
-For Phenotypic DST, the applicable drugs can also be pre-configured according to the country standards during the initial setup by adjusting the values of constants.The package includes following first- and second-line drugs in both Initial and Subsequent DST sections: 
+For Phenotypic DST, the applicable drugs can also be pre-configured according to the country standards during the initial setup by adjusting the values of constants. The package includes the following first- and second-line drugs in both Initial and Subsequent DST sections: 
 
 |TB Drug| Initial Phenotypic DST in Solid Media (e.g. LJ) |Initial Phenotypic DST in Liquid Media (e.g. MGIT)|Subsequent Phenotypic DST in Solid Media (e.g. LJ)|Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)|
 |:--|:--|:--|:--|:--|
