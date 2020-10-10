@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2020-10-08T11:44:25.487",
+			"lastUpdated": "2020-10-10T12:20:51.291",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -85,7 +85,7 @@
 			"created": "2018-01-17T10:28:58.779",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bjDvmb4bfuf",
-			"lastUpdated": "2020-09-24T06:43:25.613",
+			"lastUpdated": "2020-10-10T12:20:51.459",
 			"name": "default",
 			"publicAccess": "r-------",
 			"skipTotal": false,
@@ -163,7 +163,7 @@
 			"created": "2018-01-17T10:28:58.783",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-09-24T06:43:25.750",
+			"lastUpdated": "2020-10-10T12:20:51.655",
 			"name": "default",
 			"translations": [
 				{
@@ -220,7 +220,7 @@
 			"code": "default",
 			"created": "2018-01-17T10:28:58.744",
 			"id": "xYerKDKCefk",
-			"lastUpdated": "2020-09-24T06:43:25.900",
+			"lastUpdated": "2020-10-10T12:20:51.830",
 			"name": "default",
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
@@ -371,7 +371,7 @@
 			"hideTitle": true,
 			"id": "B45PDFcbuHs",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-01T13:35:50.231",
+			"lastUpdated": "2020-10-10T12:21:57.933",
 			"name": "HIV - Cascade, Cumulative, last 6 months",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -428,7 +428,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"subtitle": "Active Cases in Case Surveillance Tracker, by Month",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Inclui todas as inscrições desde a última execução de análise; exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERÊNCIA\"; UO do usuário"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -504,7 +510,7 @@
 			"hideTitle": false,
 			"id": "ChiW0QCYsoQ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-09T11:32:58.303",
+			"lastUpdated": "2020-10-10T12:21:58.111",
 			"name": "PLHIV, Cases by Reported Mode of Transmission (Cumulative to end of quarter)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -560,7 +566,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERIDO\""
+				}
+			],
 			"type": "AREA",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -606,7 +618,7 @@
 			"hideTitle": false,
 			"id": "F8jbT7QbQOi",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T07:34:13.954",
+			"lastUpdated": "2020-10-10T12:21:58.283",
 			"name": "HIV - Tested Positive and on ART (%)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -666,7 +678,18 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Por mês de teste positivo"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - testado positivo e em TARV (%)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1448,7 +1471,7 @@
 			"hideTitle": false,
 			"id": "JxQki1vvSq6",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T07:23:09.577",
+			"lastUpdated": "2020-10-10T12:21:58.421",
 			"name": "PLHIV - Initiated on ART within 14 days",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1508,7 +1531,18 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pessoas vivendo com HIV que iniciaram o TARV dentro de 14 dias ou se inscreveram no programa"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "PVHIV - iniciada em TARV dentro de 14 dias"
+				}
+			],
 			"type": "STACKED_COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1565,7 +1599,7 @@
 			"hideTitle": false,
 			"id": "Jz5QANzFZnp",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T11:16:23.060",
+			"lastUpdated": "2020-10-10T12:21:58.596",
 			"name": "HIV TPT Cascade this year",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1625,7 +1659,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV TPT Cascade este ano"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1689,7 +1729,7 @@
 			"hideTitle": false,
 			"id": "k1UByb9qmse",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-09T11:14:48.474",
+			"lastUpdated": "2020-10-10T12:21:59.579",
 			"name": "PLHIV, Enrollments by Gender (Cumulative to end of quarter)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1745,7 +1785,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERIDO\""
+				}
+			],
 			"type": "AREA",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -1815,7 +1861,7 @@
 			"hideTitle": false,
 			"id": "M7vkuYqrZNI",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-01T13:54:50.876",
+			"lastUpdated": "2020-10-10T12:21:58.775",
 			"name": "HIV - Cascade, Active Cases Through End of This Year",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1871,7 +1917,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Inclui todas as inscrições desde a última execução de análise; exclui inscrições marcadas como \"MORTO\" ou \"PERDIDO PARA SEGUIMENTO\", UO do usuário"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -2166,7 +2218,7 @@
 			"hideTitle": true,
 			"id": "nIj1eWinEZw",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-01T13:33:09.583",
+			"lastUpdated": "2020-10-10T12:21:59.728",
 			"name": "HIV - Program Cascade, Active Cases on ART last 6 months",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2223,7 +2275,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"subtitle": "Active Cases in Case Surveillance Tracker, by Month",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Inclui todas as inscrições desde a última execução de análise; exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERÊNCIA\"; UO do usuário"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -2407,7 +2465,7 @@
 			"hideTitle": false,
 			"id": "p2g3v3VoBRF",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-15T14:49:26.003",
+			"lastUpdated": "2020-10-10T12:21:59.878",
 			"name": "HIV - Viral Load Tests, New",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2463,7 +2521,18 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Apenas novo por mês; exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERÊNCIA\"; UO do usuário"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - testes de carga viral, novo"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -2621,7 +2690,7 @@
 			"hideTitle": false,
 			"id": "PRHBnRA0nCZ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-09-17T15:54:38.411",
+			"lastUpdated": "2020-10-10T12:21:58.940",
 			"name": "HIV - PLHIV and on ART, New",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2678,7 +2747,18 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"subtitle": "New in case surveillance tracker enrollments and new on ART by month",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Apenas novo por mês; exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERÊNCIA\"; UO do usuário"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - PVHIV e em TARV, Novo"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -2729,7 +2809,7 @@
 			"hideTitle": false,
 			"id": "ps2h9StSxb3",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T12:05:20.978",
+			"lastUpdated": "2020-10-10T12:22:00.027",
 			"name": "HIV - VL Test Eligibility and Results by Month",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2789,7 +2869,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Elegibilidade do teste VL e resultados por mês"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -2982,7 +3068,7 @@
 			"hideTitle": false,
 			"id": "rIUI6cWrFDY",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-09T11:14:17.126",
+			"lastUpdated": "2020-10-10T12:22:00.169",
 			"name": "PLHIV, Cases by Age (Cumulative to end of quarter)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3038,7 +3124,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exclui inscrições marcadas como \"MORTO\" ou \"TRANSFERIDO\""
+				}
+			],
 			"type": "AREA",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3108,7 +3200,7 @@
 			"hideTitle": false,
 			"id": "RmoFauv1u9d",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-01T13:55:12.166",
+			"lastUpdated": "2020-10-10T12:21:59.096",
 			"name": "HIV - Cascade, Active Cases Through End of Last Year",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3164,7 +3256,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Inclui todas as inscrições desde a última execução de análise; exclui inscrições marcadas como \"MORTO\" ou \"PERDIDO PARA SEGUIMENTO\", UO do usuário"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3357,7 +3455,7 @@
 			"hideTitle": false,
 			"id": "VR7NwguSGU9",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T07:45:26.663",
+			"lastUpdated": "2020-10-10T12:21:59.271",
 			"name": "Tested Positive this year, Initiated ART within 14 days",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3417,7 +3515,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Testado positivo este ano, ART iniciado em 14 dias"
+				}
+			],
 			"type": "SINGLE_VALUE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3786,7 +3890,7 @@
 			"hideTitle": false,
 			"id": "ZmxEOhZP9UJ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T07:42:25.889",
+			"lastUpdated": "2020-10-10T12:21:59.424",
 			"name": "Tested Positive this year and on ART",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3846,7 +3950,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Testado positivo este ano e no ART"
+				}
+			],
 			"type": "SINGLE_VALUE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3977,10 +4087,21 @@
 				"INklrVzD22r"
 			],
 			"id": "hltk73PwPCr",
-			"lastUpdated": "2020-09-18T12:20:22.186",
+			"lastUpdated": "2020-10-10T12:22:00.536",
 			"name": "HIV CS 5. - TB Preventive Treatment",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Elegível, iniciado, concluído"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV CS 5. - Tratamento Preventivo de TB"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -4531,10 +4652,21 @@
 				"INklrVzD22r"
 			],
 			"id": "Uy1cjNuoJcJ",
-			"lastUpdated": "2020-09-18T10:02:52.784",
+			"lastUpdated": "2020-10-10T12:22:00.321",
 			"name": "HIV CS 4. - Viral Load",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "testes de carga viral de rotina todos os meses % recém-iniciado que recebeu carga viral @ 6 meses, e% suprimido Indicador de coorte"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV CS 4. - Carga viral"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -5748,10 +5880,16 @@
 				"INklrVzD22r"
 			],
 			"id": "vHJr37SQiie",
-			"lastUpdated": "2020-10-09T12:40:43.566",
+			"lastUpdated": "2020-10-10T12:22:00.687",
 			"name": "HIV CS - 2. Case Reporting & Demographics",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV CS - 2. Relatório de casos e dados demográficos"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6405,10 +6543,21 @@
 				"INklrVzD22r"
 			],
 			"id": "wvMQ7MWdBiZ",
-			"lastUpdated": "2020-10-01T13:26:59.124",
+			"lastUpdated": "2020-10-10T12:22:00.884",
 			"name": "HIV CS 3. - ART Linkage & Retention",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "transferências oficiais e não oficiais, perdidas para acompanhamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV CS 3. - Ligação e retenção de ART"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6482,7 +6631,7 @@
 				}
 			],
 			"id": "pGlRt4xB9rz",
-			"lastUpdated": "2020-08-04T08:41:58.209",
+			"lastUpdated": "2020-10-10T12:21:47.720",
 			"name": "HIV Case Surveillance",
 			"publicAccess": "r-------",
 			"shortName": "HIV case surveillance",
@@ -6496,6 +6645,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Surveillance des cas VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vigilância de casos de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Vigilância de casos de HIV"
 				},
 				{
 					"locale": "ru",
@@ -6532,12 +6691,28 @@
 			"domainType": "TRACKER",
 			"formName": "Restart TPT treatment",
 			"id": "Bn9otKySZvP",
-			"lastUpdated": "2020-05-20T07:04:32.503",
+			"lastUpdated": "2020-10-10T12:21:49.150",
 			"legendSets": [],
 			"name": "HIV TPT restart treatment",
 			"publicAccess": "r-------",
 			"shortName": "HIV TPT restart treatment",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Reinicie o tratamento TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV TPT reiniciar o tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV TPT reiniciar o tratamento"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6563,12 +6738,33 @@
 			"domainType": "TRACKER",
 			"formName": "Treatment Started",
 			"id": "c82CE0oy0Nj",
-			"lastUpdated": "2020-09-29T10:40:02.516",
+			"lastUpdated": "2020-10-10T12:21:50.947",
 			"legendSets": [],
 			"name": "HIV Treatment Started",
 			"publicAccess": "r-------",
 			"shortName": "HIV treatment started",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Esta pessoa iniciou o tratamento ART?"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Tratamento Iniciado"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Tratamento de HIV iniciado"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Tratamento de HIV iniciado"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6594,7 +6790,7 @@
 			"domainType": "TRACKER",
 			"formName": "Probable mode of transmision",
 			"id": "cDt3CvgtlQs",
-			"lastUpdated": "2020-02-10T19:49:51.800",
+			"lastUpdated": "2020-10-10T12:21:51.088",
 			"legendSets": [],
 			"name": "HIV Probable Mode of Transmission",
 			"optionSet": {
@@ -6602,7 +6798,28 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV probable mode of transmission",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Modo provável de transmissão do HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Modo provável de transmissão"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Modo provável de transmissão de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV provável modo de transmissão"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6628,12 +6845,33 @@
 			"domainType": "TRACKER",
 			"formName": "Last date with ART ",
 			"id": "EGjmPoKhHpM",
-			"lastUpdated": "2020-04-03T10:15:55.138",
+			"lastUpdated": "2020-10-10T12:21:49.345",
 			"legendSets": [],
 			"name": "HIV Last Day With ART",
 			"publicAccess": "r-------",
 			"shortName": "HIV last day with ART",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Esta é a data aproximada em que este paciente ficará sem medicamento. Marque um horário para reabastecimento em torno desta data."
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Último encontro com ART"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV no último dia com TARV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV último dia com ART"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6659,7 +6897,7 @@
 			"domainType": "TRACKER",
 			"formName": "Viral load test results (entered as a number)",
 			"id": "EZAZ8aIV3kB",
-			"lastUpdated": "2020-08-04T08:41:58.674",
+			"lastUpdated": "2020-10-10T12:21:48.060",
 			"legendSets": [],
 			"name": "HIV Viral Load Test Result",
 			"publicAccess": "r-------",
@@ -6684,6 +6922,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultat du test de charge virale du VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Resultado do teste de carga viral de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Resultados do teste de carga viral (inseridos como um número)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Resultado do teste de carga viral de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultado do teste de carga viral de HIV"
 				}
 			],
 			"user": {
@@ -6710,7 +6968,7 @@
 			"domainType": "TRACKER",
 			"formName": "TB test result/IPT Eligibility if negative",
 			"id": "F0GpDqqavuI",
-			"lastUpdated": "2020-08-04T08:41:59.085",
+			"lastUpdated": "2020-10-10T12:21:48.287",
 			"legendSets": [],
 			"name": "HIV  TPT Eligibility",
 			"optionSet": {
@@ -6728,6 +6986,21 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Éligibilité au TPT VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Resultado do teste TB / Elegibilidade IPT se negativo"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Elegibilidade para HIV TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Excluir elegibilidade para HIV TPT"
 				}
 			],
 			"user": {
@@ -6755,7 +7028,7 @@
 			"domainType": "TRACKER",
 			"formName": "Follow-up Method",
 			"id": "FRRIujn3jHD",
-			"lastUpdated": "2020-08-04T08:41:59.465",
+			"lastUpdated": "2020-10-10T12:21:48.464",
 			"legendSets": [],
 			"name": "HIV Follow-up Method",
 			"optionSet": {
@@ -6783,6 +7056,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Méthode de suivi du VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Método de Acompanhamento de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Método de Acompanhamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Método de Acompanhamento de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Método de Acompanhamento de HIV"
 				}
 			],
 			"user": {
@@ -6810,12 +7103,33 @@
 			"domainType": "TRACKER",
 			"formName": "Date of HIV positive test",
 			"id": "fxXDe8OZ86q",
-			"lastUpdated": "2020-02-10T19:43:40.380",
+			"lastUpdated": "2020-10-10T12:21:51.226",
 			"legendSets": [],
 			"name": "HIV Positive Date",
 			"publicAccess": "r-------",
 			"shortName": "HIV Positive Date",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data do teste de HIV positivo documentado"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data do teste HIV positivo"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data de HIV positivo"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data de HIV positivo"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6841,7 +7155,7 @@
 			"domainType": "TRACKER",
 			"formName": "ARV regimen ",
 			"id": "GCmEFuwLpDN",
-			"lastUpdated": "2020-08-04T08:41:59.828",
+			"lastUpdated": "2020-10-10T12:21:48.620",
 			"legendSets": [],
 			"name": "HIV ARV Regimen Type",
 			"optionSet": {
@@ -6869,6 +7183,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Type de régime ARV"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Tipo de regime ARV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Regime ARV"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Tipo de regime ARV para HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Tipo de regime ARV"
 				}
 			],
 			"user": {
@@ -6895,7 +7229,7 @@
 			"domainType": "TRACKER",
 			"formName": "This patient is eligible for TPT",
 			"id": "HYEdbJEeJbz",
-			"lastUpdated": "2020-08-04T08:42:00.150",
+			"lastUpdated": "2020-10-10T12:21:48.775",
 			"legendSets": [],
 			"name": "TPT Eligibility",
 			"publicAccess": "r-------",
@@ -6915,6 +7249,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Éligibilité au TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Este paciente é elegível para TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Elegibilidade TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Elegibilidade TPT"
 				}
 			],
 			"user": {
@@ -6941,7 +7290,7 @@
 			"domainType": "TRACKER",
 			"formName": "Viral load status",
 			"id": "LGz6njGUAP6",
-			"lastUpdated": "2020-04-03T10:57:12.537",
+			"lastUpdated": "2020-10-10T12:21:49.487",
 			"legendSets": [],
 			"name": "HIV Viral Load Status",
 			"optionSet": {
@@ -6949,7 +7298,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV Viral Load Status",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Status de carga viral"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Status de carga viral de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Status de carga viral de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -6975,7 +7340,7 @@
 			"domainType": "TRACKER",
 			"formName": "TPT date initiated",
 			"id": "Lu4jo7fSTb3",
-			"lastUpdated": "2020-08-04T08:42:00.500",
+			"lastUpdated": "2020-10-10T12:21:48.967",
 			"legendSets": [],
 			"name": "TPT Date Initiated",
 			"publicAccess": "r-------",
@@ -6995,6 +7360,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TPT date d'initiation"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data de início TBT"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data de início TBT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data de início do TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data de início do TPT"
 				}
 			],
 			"user": {
@@ -7022,12 +7407,33 @@
 			"domainType": "TRACKER",
 			"formName": "Date of treatment initiation",
 			"id": "Lv3c5VSA9t3",
-			"lastUpdated": "2020-04-03T10:05:54.795",
+			"lastUpdated": "2020-10-10T12:21:49.748",
 			"legendSets": [],
 			"name": "HIV date of treatment initiation",
 			"publicAccess": "r-------",
 			"shortName": "HIV date of ART initiation",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data em que o paciente iniciou seu tratamento ART pela primeira vez"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data de início do tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV data de início do tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV data de início da TARV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7053,7 +7459,7 @@
 			"domainType": "TRACKER",
 			"formName": "TPT regimen",
 			"id": "mUMvkV72WQZ",
-			"lastUpdated": "2020-03-04T13:44:07.850",
+			"lastUpdated": "2020-10-10T12:21:51.377",
 			"legendSets": [],
 			"name": "TPT Regimen",
 			"optionSet": {
@@ -7061,7 +7467,28 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "TPT Regimen",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Regime TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Regime TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Regime TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Regime TPT"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7086,12 +7513,28 @@
 			"domainType": "TRACKER",
 			"formName": "Days of ART provided",
 			"id": "ncsvQhFKcKc",
-			"lastUpdated": "2020-06-05T11:25:08.745",
+			"lastUpdated": "2020-10-10T12:21:51.514",
 			"legendSets": [],
 			"name": "HIV - Days of ART Provided",
 			"publicAccess": "r-------",
 			"shortName": "HIV - Days of ARTProvided",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Dias de ART fornecidos"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Dias de TARV fornecidos"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV - Dias de ARTP fornecidos"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7117,7 +7560,7 @@
 			"domainType": "TRACKER",
 			"formName": "Treatment Status",
 			"id": "rcUsYgOnlyF",
-			"lastUpdated": "2020-07-08T10:57:07.986",
+			"lastUpdated": "2020-10-10T12:21:47.897",
 			"legendSets": [],
 			"name": "HIV - Treatment Status",
 			"optionSet": {
@@ -7130,6 +7573,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Statut"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Qual é a situação atual desta PVHIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Status de tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Status de tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Status"
 				},
 				{
 					"locale": "ru",
@@ -7171,12 +7634,28 @@
 			"description": "The viral load for this patient is less than 1000",
 			"domainType": "TRACKER",
 			"id": "S4IJiirQVHY",
-			"lastUpdated": "2020-04-03T14:02:20.741",
+			"lastUpdated": "2020-10-10T12:21:49.932",
 			"legendSets": [],
 			"name": "HIV - Viral load <1000",
 			"publicAccess": "r-------",
 			"shortName": "Viral load <1000",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A carga viral para este paciente é inferior a 1000"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - carga viral <1000"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Carga viral <1000"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7202,12 +7681,33 @@
 			"domainType": "TRACKER",
 			"formName": "Date deemed eligible for TPT",
 			"id": "TmAJxu1XNKh",
-			"lastUpdated": "2020-02-11T14:30:34.182",
+			"lastUpdated": "2020-10-10T12:21:50.501",
 			"legendSets": [],
 			"name": "TPT Date Eligible",
 			"publicAccess": "r-------",
 			"shortName": "TPT Date Eligible",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Elegível para Data TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data considerada elegível para TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Elegível para Data TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Elegível para Data TPT"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7233,12 +7733,33 @@
 			"domainType": "TRACKER",
 			"formName": "TPT date completed",
 			"id": "TQtuEvZ1eF6",
-			"lastUpdated": "2020-03-04T13:44:18.866",
+			"lastUpdated": "2020-10-10T12:21:50.080",
 			"legendSets": [],
 			"name": "TPT Date Completed",
 			"publicAccess": "r-------",
 			"shortName": "TPT Date Completed",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data TPT Concluída"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data TPT concluída"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data TPT Concluída"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data TPT Concluída"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7264,7 +7785,7 @@
 			"domainType": "TRACKER",
 			"formName": "Follow-Up Outcome",
 			"id": "uiBCTI2XL2m",
-			"lastUpdated": "2020-02-12T13:19:57.055",
+			"lastUpdated": "2020-10-10T12:21:51.661",
 			"legendSets": [],
 			"name": "HIV Follow-Up Outcome",
 			"optionSet": {
@@ -7272,7 +7793,28 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV Follow-Up Outcome",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Resultado de acompanhamento de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Resultado de Acompanhamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Resultado de acompanhamento de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultado de acompanhamento de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7298,12 +7840,33 @@
 			"domainType": "TRACKER",
 			"formName": "Previous viral load value",
 			"id": "UiX8eZZl3Nt",
-			"lastUpdated": "2020-03-04T13:39:36.469",
+			"lastUpdated": "2020-10-10T12:21:50.659",
 			"legendSets": [],
 			"name": "HIV Previous Viral Load Value",
 			"publicAccess": "r-------",
 			"shortName": "HIV Previous Viral Load Value",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Qual carga viral esse paciente teve em sua última consulta"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Valor de carga viral anterior"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Valor de carga viral anterior de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Valor de carga viral anterior de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7328,12 +7891,28 @@
 			"domainType": "TRACKER",
 			"formName": "Viral load test date",
 			"id": "v4K5u8wftrq",
-			"lastUpdated": "2020-03-04T13:39:10.168",
+			"lastUpdated": "2020-10-10T12:21:51.836",
 			"legendSets": [],
 			"name": "HIV Viral Load Test Date",
 			"publicAccess": "r-------",
 			"shortName": "HIV Viral Load Test Date ",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data do teste de carga viral"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data do teste de carga viral de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data do teste de carga viral de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7357,12 +7936,23 @@
 			"created": "2020-02-10T20:34:30.517",
 			"domainType": "TRACKER",
 			"id": "vAS6qdqF6Gf",
-			"lastUpdated": "2020-02-10T20:34:30.517",
+			"lastUpdated": "2020-10-10T12:21:51.979",
 			"legendSets": [],
 			"name": "HIV Follow-up Notes",
 			"publicAccess": "r-------",
 			"shortName": "HIV Follow-up Notes",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Notas de acompanhamento de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Notas de acompanhamento de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7388,7 +7978,7 @@
 			"domainType": "TRACKER",
 			"formName": "Reason for stopped treatment",
 			"id": "VjsXqPWaMNN",
-			"lastUpdated": "2020-02-11T11:17:56.204",
+			"lastUpdated": "2020-10-10T12:21:50.801",
 			"legendSets": [],
 			"name": "HIV Treatment Stop Reason",
 			"optionSet": {
@@ -7396,7 +7986,28 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV Treatment Stop Reason",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Motivo de interrupção do tratamento do HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Razão para interromper o tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Motivo de interrupção do tratamento do HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Motivo de interrupção do tratamento do HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7422,12 +8033,33 @@
 			"domainType": "TRACKER",
 			"formName": "Age when diagnosed with HIV",
 			"id": "zsM4K8kNPSo",
-			"lastUpdated": "2020-02-10T19:52:15.028",
+			"lastUpdated": "2020-10-10T12:21:52.136",
 			"legendSets": [],
 			"name": "HIV Age at Diagnosis",
 			"publicAccess": "r-------",
 			"shortName": "HIV Age at Diagnosis",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Idade em que o paciente foi diagnosticado com HIV (Opção: Calcular data de HIV positivo data -data og Nascimento)"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Idade quando diagnosticado com HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Idade do HIV no diagnóstico"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Idade do HIV no diagnóstico"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7477,13 +8109,18 @@
 			"created": "2020-02-13T09:27:29.184",
 			"format": 0,
 			"id": "rvLyxsyBGRe",
-			"lastUpdated": "2020-08-04T08:42:02.770",
+			"lastUpdated": "2020-10-10T12:21:57.669",
 			"name": "Visit",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Visite"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "visita"
 				}
 			]
 		}
@@ -7496,10 +8133,16 @@
 			"external": true,
 			"externalAccess": false,
 			"id": "TEi83i86buD",
-			"lastUpdated": "2020-06-15T14:10:05.259",
+			"lastUpdated": "2020-10-10T12:22:01.094",
 			"name": "HIV Indicator Descriptions: Overall",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Descrições de indicadores de HIV: Geral"
+				}
+			],
 			"url": "https://who-dev.dhis2.org/tracker_dev/api/programIndicators?filter=name:ilike:Total&filter=program.id:eq:Xh88p1nyefp&paging=false&fields=id,name,shortName,description",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -7544,7 +8187,7 @@
 			"hideTitle": false,
 			"id": "Brw5CeNlGbk",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T12:28:30.527",
+			"lastUpdated": "2020-10-10T12:22:01.267",
 			"name": "HIV - Visit Last month status, by district",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -7609,7 +8252,13 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Visite a situação do último mês, por distrito"
+				}
+			],
 			"type": "STACKED_COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -7662,7 +8311,7 @@
 			"hideTitle": false,
 			"id": "FrdwzlGYC4r",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-24T20:55:03.196",
+			"lastUpdated": "2020-10-10T12:22:01.417",
 			"name": "HIV - Reported Status Last Month. by Sex",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -7732,7 +8381,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"subtitle": "By Sex and Latest Status",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Status relatado no mês passado. por sexo"
+				}
+			],
 			"type": "STACKED_COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -7915,7 +8570,7 @@
 			"hideTitle": false,
 			"id": "hHmP3wjdqiv",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-24T21:07:01.444",
+			"lastUpdated": "2020-10-10T12:22:01.868",
 			"name": "HIV - Visit by Sex and Treatment Status",
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -7986,7 +8641,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Visita por sexo e status de tratamento"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8045,7 +8706,7 @@
 			"hideTitle": false,
 			"id": "S5WE5dc0hiZ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T10:44:52.041",
+			"lastUpdated": "2020-10-10T12:22:01.577",
 			"name": "HIV - TPT Regimens",
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -8113,7 +8774,13 @@
 			"subscribers": [],
 			"timeField": "TmAJxu1XNKh",
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Regimes TPT"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8165,7 +8832,7 @@
 			"hideTitle": false,
 			"id": "VztTOyOsrUR",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-01T13:03:56.932",
+			"lastUpdated": "2020-10-10T12:22:01.719",
 			"name": "HIV - Visit by Treatment Status and District",
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -8231,7 +8898,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Visita por estado de tratamento e distrito"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8447,14 +9120,40 @@
 			"indicatorType": {
 				"id": "e1jRVY5Mcq0"
 			},
-			"lastUpdated": "2020-06-25T11:55:15.029",
+			"lastUpdated": "2020-10-10T12:22:02.027",
 			"legendSets": [],
 			"name": "HIV PLHIV Eligible for VL Test with VL Results this period (%)",
 			"numerator": "I{YkDsYAlmaAc}",
 			"numeratorDescription": "PLHIV with VL result",
 			"publicAccess": "r-------",
 			"shortName": "HIV % Eligible PLHIV with VL results this period",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "PVHIV iniciada em ART"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Deve ter tido uma visita neste período e ser elegível para o teste de VL (em tratamento 6 meses ou mais)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV PVHIV elegível para teste de VL com resultados de VL neste período (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "PVHIV com resultado VL"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV% elegível PVHIV com resultados de VL neste período"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8476,14 +9175,35 @@
 			"indicatorType": {
 				"id": "e1jRVY5Mcq0"
 			},
-			"lastUpdated": "2020-06-25T07:44:24.361",
+			"lastUpdated": "2020-10-10T12:22:02.167",
 			"legendSets": [],
 			"name": "HIV - Initiated ART within 14 days of positive test (%)",
 			"numerator": "I{mdbVnIgl9la} + I{d9qLxh9s3W4}",
 			"numeratorDescription": "HIV - Tested positive within period & Initiated on ART 0-14 days",
 			"publicAccess": "r-------",
 			"shortName": "HIV POS Linkage - early start",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "HIV - testado positivo dentro do período e iniciado em ART"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - ART iniciado em 14 dias após o teste positivo (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "HIV - testado positivo no período e iniciado em ART 0-14 dias"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Ligação HIV POS - início precoce"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8535,14 +9255,35 @@
 			"indicatorType": {
 				"id": "e1jRVY5Mcq0"
 			},
-			"lastUpdated": "2020-06-25T11:49:37.128",
+			"lastUpdated": "2020-10-10T12:22:02.457",
 			"legendSets": [],
 			"name": "HIV - Tested Positive on ART (%)",
 			"numerator": "I{WI2exJjeucm}",
 			"numeratorDescription": "HIV - Tested positive within period & Initiated on ART",
 			"publicAccess": "r-------",
 			"shortName": "HIV POS Linkage",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "HIV - Teste positivo dentro do período"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - testado positivo em ART (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "HIV - testado positivo no período e iniciado em ART"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Ligação HIV POS"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8564,14 +9305,35 @@
 			"indicatorType": {
 				"id": "e1jRVY5Mcq0"
 			},
-			"lastUpdated": "2020-06-25T12:12:42.645",
+			"lastUpdated": "2020-10-10T12:22:02.312",
 			"legendSets": [],
 			"name": "HIV - VL Test, Suppressed this period (%)",
 			"numerator": "I{g3vz9bpxBx8}",
 			"numeratorDescription": "VL Suppressed",
 			"publicAccess": "r-------",
 			"shortName": "HIV -VL Suppressed this period (%)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "Resultado de VL neste período"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Teste de VL, suprimido neste período (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "VL Suprimido"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV -VL suprimido neste período (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8652,14 +9414,35 @@
 			"indicatorType": {
 				"id": "e1jRVY5Mcq0"
 			},
-			"lastUpdated": "2020-06-25T11:55:27.007",
+			"lastUpdated": "2020-10-10T12:22:02.605",
 			"legendSets": [],
 			"name": "HIV - VL Eligible and Ever Received VL Test (%)",
 			"numerator": "I{vv3E9DfCJDu}",
 			"numeratorDescription": "HIV People Living with HIV who have viral load results (Total)",
 			"publicAccess": "r-------",
 			"shortName": "HIV - VL Test %",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "Elegível para teste VL"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - VL Eligible and Ever Received VL Test (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "Pessoas com HIV que vivem com HIV com resultados de carga viral (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV -% Teste de VL"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9026,13 +9809,19 @@
 			"code": "DEAD",
 			"created": "2020-02-11T11:15:01.104",
 			"id": "aVYyY4teKWr",
-			"lastUpdated": "2020-02-11T11:15:01.673",
+			"lastUpdated": "2020-10-10T12:21:44.470",
 			"name": "Deceased",
 			"optionSet": {
 				"id": "p4i20eISTFi"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Falecido"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9052,13 +9841,19 @@
 			"code": "4b - AZT-3TC-NVP",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "B06Y3jQUioh",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:39.852",
 			"name": "4b - AZT-3TC-NVP",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 15,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "4b - AZT-3TC-NVP"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9078,52 +9873,116 @@
 			"code": "OTHERTPT",
 			"created": "2020-09-07T08:30:31.523",
 			"id": "Bbuq6iWwczn",
-			"lastUpdated": "2020-09-07T08:30:31.672",
+			"lastUpdated": "2020-10-10T12:21:39.694",
 			"name": "Other",
 			"optionSet": {
 				"id": "sE3uCjDohG9"
 			},
 			"sortOrder": 8,
-			"translations": []
+			"translations": [
+				{
+					"locale": "ar",
+					"property": "NAME",
+					"value": "أخرى"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Otro"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Autre"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Lain-lain"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Andre"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Outros"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Другой"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Бошқалар"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "Boshqalar"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "OTHERUNDETERMINED",
 			"created": "2020-02-14T11:54:35.348",
 			"id": "BGu55OkUNte",
-			"lastUpdated": "2020-02-14T11:54:35.925",
+			"lastUpdated": "2020-10-10T12:21:40.063",
 			"name": "Other/undetermined",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 4,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Outro / indeterminado"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "NOTSUPRESSED",
 			"created": "2020-04-03T10:51:51.660",
 			"id": "BO9LyUypH19",
-			"lastUpdated": "2020-04-03T10:51:52.196",
+			"lastUpdated": "2020-10-10T12:21:40.243",
 			"name": "Not supressed",
 			"optionSet": {
 				"id": "ADgTXaBsHFi"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Não suprimido"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "1a - TDF-3TC-EFV",
 			"created": "2017-11-27T16:48:51.627",
 			"id": "bYzbkRadHoo",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:44.649",
 			"name": "1a - TDF-3TC-EFV",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1a - TDF-3TC-EFV"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9189,143 +10048,209 @@
 			"code": "NE",
 			"created": "2017-11-27T03:05:52.797",
 			"id": "e3emldLnOYi",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:44.830",
 			"name": "NE - Negative TB Screen, Eligible for IPT",
 			"optionSet": {
 				"id": "bH53OxRWzdK"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "NE - Tela TB negativa, qualificada para IPT"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "2b - TDF-3TC-ATVr",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "eMmdxJMdOQd",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:44.978",
 			"name": "2b - TDF-3TC-ATVr",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 9,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2b - TDF-3TC-ATVr"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "2f - ABC+3TC+ATV/r",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "G9T1FtOu2W6",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:40.615",
 			"name": "2f - ABC+3TC+ATV/r",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 13,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2f - ABC+3TC+ATV/r"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "RESCHEDULED",
 			"created": "2020-02-12T10:44:53.857",
 			"id": "I4YdNHiGE28",
-			"lastUpdated": "2020-05-18T10:59:01.875",
+			"lastUpdated": "2020-10-10T12:21:40.804",
 			"name": "Reinitiated on ART",
 			"optionSet": {
 				"id": "jkgTCobqE43"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Reiniciado em ART"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "SMS",
 			"created": "2020-02-10T20:27:53.331",
 			"id": "jnljBOtLLGZ",
-			"lastUpdated": "2020-02-10T20:27:53.828",
+			"lastUpdated": "2020-10-10T12:21:45.162",
 			"name": "SMS",
 			"optionSet": {
 				"id": "Thh5XshrW4i"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "SMS"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "P",
 			"created": "2017-11-27T03:05:52.797",
 			"id": "JUanc6BB9hr",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:40.967",
 			"name": "P - Positive for TB",
 			"optionSet": {
 				"id": "bH53OxRWzdK"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "P - Positivo para TB"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "2a - TDF-3TC-LPVr",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "KMxwCPSxmYB",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:41.178",
 			"name": "2a - TDF-3TC-LPVr",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 8,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2a - TDF-3TC-LPVr"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "MOVED",
 			"created": "2020-02-11T11:14:48.915",
 			"id": "KoVNW4N96Xp",
-			"lastUpdated": "2020-02-11T11:14:49.447",
+			"lastUpdated": "2020-10-10T12:21:41.356",
 			"name": "Moved to a different location",
 			"optionSet": {
 				"id": "p4i20eISTFi"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Movido para um local diferente"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "1e - AZT-3TC-ABC",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "L7smdVlJUIV",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:41.555",
 			"name": "1e - AZT-3TC-ABC",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 5,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1e - AZT-3TC-ABC"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "HOMOSEX",
 			"created": "2020-02-14T11:52:07.519",
 			"id": "laa17F7WB8k",
-			"lastUpdated": "2020-02-14T11:52:08.085",
+			"lastUpdated": "2020-10-10T12:21:45.354",
 			"name": "Sex between men",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 5,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Sexo entre homens"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "1b - AZT-3TC-EFV",
 			"created": "2017-11-27T16:48:51.627",
 			"id": "MwiuvILhZdu",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:41.734",
 			"name": "1b - AZT-3TC-EFV",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1b - AZT-3TC-EFV"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9345,104 +10270,152 @@
 			"code": "TG",
 			"created": "2020-04-03T08:20:00.568",
 			"id": "NewWFaxCL0f",
-			"lastUpdated": "2020-04-03T08:20:01.144",
+			"lastUpdated": "2020-10-10T12:21:41.915",
 			"name": "Transgender",
 			"optionSet": {
 				"id": "P0RAq93jsi9"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Transgênero"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "NOSHOW",
 			"created": "2020-02-11T11:14:27.583",
 			"id": "O7VEp7r5I0H",
-			"lastUpdated": "2020-02-12T10:42:37.169",
+			"lastUpdated": "2020-10-10T12:21:42.077",
 			"name": "Lost to Follow-up",
 			"optionSet": {
 				"id": "p4i20eISTFi"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Perdido para seguimento"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "4d - AZT+3TC+LPV/r",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "oGwzHzmnxR6",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:45.567",
 			"name": "4d - AZT+3TC+LPV/r",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 17,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "4d - AZT+3TC+LPV/r"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "TREATMENTSTOPPED",
 			"created": "2020-03-19T15:34:19.366",
 			"id": "Pcl7hWI6pja",
-			"lastUpdated": "2020-03-19T15:34:19.803",
+			"lastUpdated": "2020-10-10T12:21:42.260",
 			"name": "Stopped Treatment",
 			"optionSet": {
 				"id": "Y0L733DyTP2"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Tratamento interrompido"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "RETAINED",
 			"created": "2020-03-19T15:33:31.873",
 			"id": "pkzPtYJa11c",
-			"lastUpdated": "2020-03-19T15:33:32.389",
+			"lastUpdated": "2020-10-10T12:21:45.733",
 			"name": "Retained on ART",
 			"optionSet": {
 				"id": "Y0L733DyTP2"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Retido em ART"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "2d - AZT-3TC-ATVr",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "q6BRYeJBxql",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:45.881",
 			"name": "2d - AZT-3TC-ATVr",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 11,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2d - AZT-3TC-ATVr"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "MOTHERTOCHILD",
 			"created": "2020-02-14T11:54:17.847",
 			"id": "QTecd5QwDaU",
-			"lastUpdated": "2020-04-03T12:01:00.515",
+			"lastUpdated": "2020-10-10T12:21:42.423",
 			"name": "Vertical",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vertical"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "TRANSFEROUT",
 			"created": "2020-03-19T15:34:40.627",
 			"id": "QZZol09tP8t",
-			"lastUpdated": "2020-03-19T15:34:41.138",
+			"lastUpdated": "2020-10-10T12:21:42.583",
 			"name": "Transfer-out",
 			"optionSet": {
 				"id": "Y0L733DyTP2"
 			},
 			"sortOrder": 4,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Transfer-out"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9560,13 +10533,19 @@
 			"code": "1f - TDF/3TC+NVP",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "TAfcuGxh6j3",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:42.743",
 			"name": "1f - TDF/3TC+NVP",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 6,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1f - TDF/3TC+NVP"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9586,65 +10565,95 @@
 			"code": "CHANGE_STATUS",
 			"created": "2020-05-04T19:09:26.434",
 			"id": "TJxE0W2rXdk",
-			"lastUpdated": "2020-05-04T19:09:26.496",
+			"lastUpdated": "2020-10-10T12:21:42.917",
 			"name": "Change in patient status ",
 			"optionSet": {
 				"id": "jkgTCobqE43"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Mudança no estado do paciente"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "Commercial_Sex",
 			"created": "2020-05-15T11:04:44.930",
 			"id": "ucraupxnXY5",
-			"lastUpdated": "2020-05-15T11:04:44.975",
+			"lastUpdated": "2020-10-10T12:21:46.361",
 			"name": "Commercial sex",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 6,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Sexo comercial"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "INJECTINGDRUG",
 			"created": "2020-02-14T11:54:00.434",
 			"id": "uHsYfGDT5uv",
-			"lastUpdated": "2020-02-14T11:54:00.910",
+			"lastUpdated": "2020-10-10T12:21:46.032",
 			"name": "Injecting drug use",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Uso de drogas injetáveis"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "4a - AZT-3TC-EFV",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "uMbz8JguPi2",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:46.218",
 			"name": "4a - AZT-3TC-EFV",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 14,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "4a - AZT-3TC-EFV"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "NNE",
 			"created": "2017-11-27T03:05:52.797",
 			"id": "WDNNlsNoNgI",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:43.082",
 			"name": "NNE - Negative TB Screen, NOT Eligible for IPT",
 			"optionSet": {
 				"id": "bH53OxRWzdK"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "NNE - Tela TB negativa, NÃO elegível para IPT"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9695,78 +10704,114 @@
 			"code": "2e - ABC+3TC+LPV/r",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "WPK3mlTWb17",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:43.235",
 			"name": "2e - ABC+3TC+LPV/r",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 12,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2e - ABC+3TC+LPV/r"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "2c - AZT-3TC-LPVr",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "X2pzDTLoBw9",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:43.423",
 			"name": "2c - AZT-3TC-LPVr",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 10,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "2c - AZT-3TC-LPVr"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "NORESPONSE",
 			"created": "2020-02-12T10:45:27.608",
 			"id": "xBtbvFUE2vS",
-			"lastUpdated": "2020-05-18T11:00:05.251",
+			"lastUpdated": "2020-10-10T12:21:46.555",
 			"name": "No response / not found",
 			"optionSet": {
 				"id": "jkgTCobqE43"
 			},
 			"sortOrder": 4,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Sem resposta / não encontrado"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "SUPRESSED",
 			"created": "2020-04-03T10:51:34.384",
 			"id": "XDrxonhRB9i",
-			"lastUpdated": "2020-04-03T10:51:34.919",
+			"lastUpdated": "2020-10-10T12:21:43.593",
 			"name": "Suppressed",
 			"optionSet": {
 				"id": "ADgTXaBsHFi"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Suprimido"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "1d - ABC+3TC+EFV",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "XhJcmOG6Hmx",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:43.962",
 			"name": "1d - ABC+3TC+EFV",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 4,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1d - ABC+3TC+EFV"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "HETEROSEXUAL",
 			"created": "2020-05-15T11:05:08.898",
 			"id": "xK8D4jpucDw",
-			"lastUpdated": "2020-05-15T11:05:08.929",
+			"lastUpdated": "2020-10-10T12:21:46.720",
 			"name": "Heterosexual sex",
 			"optionSet": {
 				"id": "Hr7i8z2nmfW"
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Heterosexual sex"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9786,39 +10831,57 @@
 			"code": "PhoneCall",
 			"created": "2020-02-10T20:28:08.200",
 			"id": "XVlMbRg6MzX",
-			"lastUpdated": "2020-02-10T20:28:08.688",
+			"lastUpdated": "2020-10-10T12:21:43.742",
 			"name": "Phone Call",
 			"optionSet": {
 				"id": "Thh5XshrW4i"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Chamada telefónica"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "HOMEVISIT",
 			"created": "2020-02-10T20:28:22.319",
 			"id": "yerPPxlAdIq",
-			"lastUpdated": "2020-02-10T20:28:22.829",
+			"lastUpdated": "2020-10-10T12:21:46.890",
 			"name": "Home Visit",
 			"optionSet": {
 				"id": "Thh5XshrW4i"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Visita domiciliar"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "4d - TDF+3TC+EFV",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "ykeTtpx59vJ",
-			"lastUpdated": "2018-05-19T16:51:25.472",
+			"lastUpdated": "2020-10-10T12:21:47.051",
 			"name": "4d - TDF+3TC+EFV",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 16,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "4d - TDF+3TC+EFV"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9884,13 +10947,19 @@
 			"code": "1g - Others",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "Yt0rT4BqmL8",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:44.133",
 			"name": "1g - Others",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 7,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1g - Outros"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
@@ -9910,26 +10979,38 @@
 			"code": "Scheduled",
 			"created": "2020-05-18T10:59:32.801",
 			"id": "zoTuDieF91u",
-			"lastUpdated": "2020-05-18T10:59:32.840",
+			"lastUpdated": "2020-10-10T12:21:47.190",
 			"name": "Scheduled for clinical follow-up",
 			"optionSet": {
 				"id": "jkgTCobqE43"
 			},
 			"sortOrder": 2,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Programado para acompanhamento clínico"
+				}
+			]
 		},
 		{
 			"attributeValues": [],
 			"code": "1c - AZT-3TC-NVP",
 			"created": "2017-11-27T16:48:51.628",
 			"id": "ZWBOFD5pxzx",
-			"lastUpdated": "2018-05-19T16:51:25.473",
+			"lastUpdated": "2020-10-10T12:21:44.297",
 			"name": "1c - AZT-3TC-NVP",
 			"optionSet": {
 				"id": "i1ZlYkC3v1Z"
 			},
 			"sortOrder": 3,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "1c - AZT-3TC-NVP"
+				}
+			]
 		}
 	],
 	"optionSets": [
@@ -9937,7 +11018,7 @@
 			"attributeValues": [],
 			"created": "2020-04-03T10:51:02.001",
 			"id": "ADgTXaBsHFi",
-			"lastUpdated": "2020-04-03T10:56:48.296",
+			"lastUpdated": "2020-10-10T12:22:02.748",
 			"name": "HIV Viral Load Status",
 			"options": [
 				{
@@ -9948,7 +11029,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Status de carga viral de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9966,7 +11053,7 @@
 			"attributeValues": [],
 			"created": "2017-11-27T03:05:52.974",
 			"id": "bH53OxRWzdK",
-			"lastUpdated": "2018-05-19T16:51:25.611",
+			"lastUpdated": "2020-10-10T12:22:03.584",
 			"name": "TB - IPT Eligibility if negative",
 			"options": [
 				{
@@ -9980,7 +11067,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TB - Elegibilidade IPT se negativa"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9998,7 +11091,7 @@
 			"attributeValues": [],
 			"created": "2020-02-10T19:46:42.884",
 			"id": "Hr7i8z2nmfW",
-			"lastUpdated": "2020-05-15T11:06:19.991",
+			"lastUpdated": "2020-10-10T12:22:02.919",
 			"name": "HIV Modes of Transmission",
 			"options": [
 				{
@@ -10021,7 +11114,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Modos de transmissão do HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10039,7 +11138,7 @@
 			"attributeValues": [],
 			"created": "2017-11-27T16:48:51.707",
 			"id": "i1ZlYkC3v1Z",
-			"lastUpdated": "2018-05-29T14:01:11.026",
+			"lastUpdated": "2020-10-10T12:22:03.721",
 			"name": "HIV ART - Regimens (all)",
 			"options": [
 				{
@@ -10095,7 +11194,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "ART para HIV - Regimes (todos)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10113,7 +11218,7 @@
 			"attributeValues": [],
 			"created": "2020-02-10T20:29:08.021",
 			"id": "jkgTCobqE43",
-			"lastUpdated": "2020-05-18T11:00:23.007",
+			"lastUpdated": "2020-10-10T12:22:03.885",
 			"name": "HIV Follow-up Outcomes",
 			"options": [
 				{
@@ -10130,7 +11235,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Resultados de acompanhamento de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10148,7 +11259,7 @@
 			"attributeValues": [],
 			"created": "2017-11-27T03:05:52.978",
 			"id": "P0RAq93jsi9",
-			"lastUpdated": "2020-04-03T08:20:01.451",
+			"lastUpdated": "2020-10-10T12:22:03.060",
 			"name": "HIV - Sex",
 			"options": [
 				{
@@ -10162,7 +11273,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Sexo"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10180,7 +11297,7 @@
 			"attributeValues": [],
 			"created": "2020-02-11T11:14:01.207",
 			"id": "p4i20eISTFi",
-			"lastUpdated": "2020-02-11T11:15:02.097",
+			"lastUpdated": "2020-10-10T12:22:04.049",
 			"name": "HIV treatment stopped reasons",
 			"options": [
 				{
@@ -10194,7 +11311,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV treatment stopped reasons"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10212,7 +11335,7 @@
 			"attributeValues": [],
 			"created": "2020-02-10T20:04:24.666",
 			"id": "sE3uCjDohG9",
-			"lastUpdated": "2020-09-07T08:30:31.813",
+			"lastUpdated": "2020-10-10T12:22:04.192",
 			"name": "TBT Regimen",
 			"options": [
 				{
@@ -10241,7 +11364,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Regime TBT"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10259,7 +11388,7 @@
 			"attributeValues": [],
 			"created": "2020-02-10T20:27:43.387",
 			"id": "Thh5XshrW4i",
-			"lastUpdated": "2020-02-10T20:28:36.317",
+			"lastUpdated": "2020-10-10T12:22:03.245",
 			"name": "HIV Follow-up Methods",
 			"options": [
 				{
@@ -10276,7 +11405,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Métodos de acompanhamento de HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10294,7 +11429,7 @@
 			"attributeValues": [],
 			"created": "2020-03-19T15:33:19.656",
 			"id": "Y0L733DyTP2",
-			"lastUpdated": "2020-03-19T15:35:03.309",
+			"lastUpdated": "2020-10-10T12:22:03.413",
 			"name": "HIV - STATUS",
 			"options": [
 				{
@@ -10314,7 +11449,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV-ESTADO"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10329,12 +11470,12 @@
 			"version": 5
 		}
 	],
-	"package": "HIV_CS_TRACKER_V1.0.0_DHIS2.33_2020-10-10T10:54",
+	"package": "HIV_CS_TRACKER_V1.0.0_DHIS2.33_2020-10-10T12:37",
 	"programIndicatorGroups": [
 		{
 			"created": "2020-02-14T08:21:40.852",
 			"id": "KKvBWmeIsvN",
-			"lastUpdated": "2020-06-17T14:10:49.547",
+			"lastUpdated": "2020-10-10T12:22:04.348",
 			"name": "HIV Case Surveillance - All",
 			"programIndicators": [
 				{
@@ -10425,9 +11566,9 @@
 			"publicAccess": "r-------",
 			"translations": [
 				{
-					"locale": "ru",
+					"locale": "pt",
 					"property": "NAME",
-					"value": "Эпиднадзор ВИЧ"
+					"value": "Vigilância de casos de HIV - todos"
 				}
 			],
 			"user": {
@@ -10444,7 +11585,7 @@
 		{
 			"created": "2020-06-17T14:10:38.445",
 			"id": "s7DBTTX68Lk",
-			"lastUpdated": "2020-06-17T14:10:38.445",
+			"lastUpdated": "2020-10-10T12:22:04.489",
 			"name": "HIV Case Surveillance - Demographics",
 			"programIndicators": [
 				{
@@ -10479,7 +11620,13 @@
 				}
 			],
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vigilância de casos de HIV - dados demográficos"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10527,7 +11674,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=20 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=24",
 			"id": "ce7vhcYFweL",
-			"lastUpdated": "2020-06-19T16:16:53.636",
+			"lastUpdated": "2020-10-10T12:22:08.933",
 			"legendSets": [],
 			"name": "HIV - Age 20-24 (Total)",
 			"program": {
@@ -10535,7 +11682,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (20-24 Age, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 20-24 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (20-24 anos, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10604,7 +11767,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6",
 			"id": "CqBImYzG6eC",
-			"lastUpdated": "2020-05-20T13:25:14.524",
+			"lastUpdated": "2020-10-10T12:22:04.685",
 			"legendSets": [],
 			"name": "HIV People Living with HIV eligible for viral load test (Total)",
 			"program": {
@@ -10612,7 +11775,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV, viral load eligible (total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, excepto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas vivendo com HIV qualificadas para teste de carga viral (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV, carga viral elegível (total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10702,7 +11881,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.TmAJxu1XNKh})",
 			"id": "D0ISlaPzS1d",
-			"lastUpdated": "2020-06-25T16:27:55.141",
+			"lastUpdated": "2020-10-10T12:22:04.900",
 			"legendSets": [],
 			"name": "HIV - TPT Eligible this period",
 			"program": {
@@ -10710,7 +11889,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV - TPT Eligible this period",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - TPT elegível neste período"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV - TPT elegível neste período"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10825,7 +12015,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "\n d2:daysBetween(#{K5ac7u3V5bB.fxXDe8OZ86q},#{ang4CLldbIu.Lv3c5VSA9t3}) == 0",
 			"id": "d9qLxh9s3W4",
-			"lastUpdated": "2020-06-25T12:22:14.789",
+			"lastUpdated": "2020-10-10T12:22:09.147",
 			"legendSets": [],
 			"name": "HIV - Initiated on ART same day as test",
 			"program": {
@@ -10833,7 +12023,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV - Initiated on ART same day as test",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "HIV iniciado no mesmo dia do teste positivo"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - iniciado no TARV no mesmo dia do teste"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV - iniciado no TARV no mesmo dia do teste"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10879,7 +12085,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && A{Jt68iauILtD}==\"Male\" && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "DfRgB9P0TWH",
-			"lastUpdated": "2020-06-19T15:56:28.855",
+			"lastUpdated": "2020-10-10T12:22:05.054",
 			"legendSets": [],
 			"name": "HIV People Living with HIV (Male, Total)",
 			"program": {
@@ -10887,7 +12093,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Male, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV Pessoas Vivendo com HIV (Masculino, Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (masculino, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10954,7 +12176,7 @@
 			"expression": "V{event_count}",
 			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Stopped Treatment' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'TREATMENTSTOPPED'",
 			"id": "Dj2lknI0RHa",
-			"lastUpdated": "2020-05-20T09:58:43.203",
+			"lastUpdated": "2020-10-10T12:22:05.223",
 			"legendSets": [],
 			"name": "HIV reported patient stopped treatment",
 			"program": {
@@ -10962,7 +12184,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV patient stopped treatment",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pacientes que relataram interromper o tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Paciente relatado por HIV interrompeu o tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Paciente com HIV interrompeu o tratamento"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11029,7 +12267,7 @@
 			"expression": "V{event_count}",
 			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Transfer-out' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'TRANSFEROUT'",
 			"id": "DsLihHMl6hI",
-			"lastUpdated": "2020-05-20T09:58:15.593",
+			"lastUpdated": "2020-10-10T12:22:05.454",
 			"legendSets": [],
 			"name": "HIV reported patient move to different location",
 			"program": {
@@ -11037,7 +12275,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV patient transferred",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pacientes sob vigilância que relataram ter sido transferidos ou \"movidos para um local diferente\""
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Paciente com HIV relatado muda para local diferente"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Paciente HIV transferido"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11106,7 +12360,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:daysBetween(V{analytics_period_start},PS_EVENTDATE:ang4CLldbIu)>=0  && d2:daysBetween(PS_EVENTDATE:ang4CLldbIu, V{analytics_period_end})>=0 ",
 			"id": "F7MId52qZF3",
-			"lastUpdated": "2020-06-25T08:15:44.627",
+			"lastUpdated": "2020-10-10T12:22:05.650",
 			"legendSets": [],
 			"name": "HIV People Living with HIV eligible for viral load (New visit this period)",
 			"program": {
@@ -11114,7 +12368,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV, viral load eligible (Visited)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento. Deve ter tido uma visita no período"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV People Living with HIV eligible for viral load (New visit this period)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV, carga viral elegível (visitada)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11206,7 +12476,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(#{ang4CLldbIu.EGjmPoKhHpM},V{analytics_period_start}) >= 28",
 			"id": "FdAz7i0pxO1",
-			"lastUpdated": "2020-05-20T11:01:14.171",
+			"lastUpdated": "2020-10-10T12:22:05.962",
 			"legendSets": [],
 			"name": "HIV PLHIV with more than 28 days since the end of last prescription period",
 			"program": {
@@ -11214,7 +12484,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV No medicine 28 days or more",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV PVHIV com mais de 28 dias desde o final do último período de prescrição"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV Sem medicamento 28 dias ou mais"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11260,7 +12541,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && !d2:hasValue(A{mAWcalQYYyk})",
 			"id": "FKG589VQ57R",
-			"lastUpdated": "2020-06-19T16:19:21.593",
+			"lastUpdated": "2020-10-10T12:22:05.817",
 			"legendSets": [],
 			"name": "HIV - Age Unknown (Total)",
 			"program": {
@@ -11268,7 +12549,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Unknown Age, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade Desconhecida (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (idade desconhecida, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11358,7 +12655,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lu4jo7fSTb3}) && d2:hasValue(#{ang4CLldbIu.TmAJxu1XNKh})",
 			"id": "g11s0MlrZSb",
-			"lastUpdated": "2020-06-25T16:28:27.075",
+			"lastUpdated": "2020-10-10T12:22:09.327",
 			"legendSets": [],
 			"name": "HIV - TPT Initiated this period",
 			"program": {
@@ -11366,7 +12663,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV - TPT Initiated this period",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - TPT iniciado neste período"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV - TPT iniciado neste período"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11435,7 +12743,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:hasValue(#{ang4CLldbIu.S4IJiirQVHY})&& d2:daysBetween(V{analytics_period_start},#{ang4CLldbIu.v4K5u8wftrq})>=0  && d2:daysBetween(#{ang4CLldbIu.v4K5u8wftrq}, V{analytics_period_end})>=0 ",
 			"id": "g3vz9bpxBx8",
-			"lastUpdated": "2020-06-15T14:32:34.315",
+			"lastUpdated": "2020-10-10T12:22:09.493",
 			"legendSets": [],
 			"name": "HIV People Living with HIV who have viral load suppression (New VL result this period)",
 			"program": {
@@ -11443,7 +12751,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV with viral load suppression, new",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento. VL <1000"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas com HIV que vivem com HIV que têm supressão de carga viral (novo resultado de VL neste período)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV com supressão de carga viral, novo"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11610,7 +12934,7 @@
 			"expression": "V{event_count}",
 			"filter": "#{ang4CLldbIu.rcUsYgOnlyF}== 'Dead' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'DEAD'",
 			"id": "GzPV0aucKsL",
-			"lastUpdated": "2020-05-20T09:58:07.177",
+			"lastUpdated": "2020-10-10T12:22:06.132",
 			"legendSets": [],
 			"name": "HIV reported patient death",
 			"program": {
@@ -11618,7 +12942,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV patient death",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pacientes sob vigilância que morreram durante a vigilância"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Morte de paciente relatada por HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Morte de paciente HIV"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11710,7 +13050,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q}) ",
 			"id": "HbGqaNgXCgB",
-			"lastUpdated": "2020-10-09T12:46:13.539",
+			"lastUpdated": "2020-10-10T12:22:06.655",
 			"legendSets": [],
 			"name": "HIV People Living with HIV (New)",
 			"program": {
@@ -11718,7 +13058,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (New)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV Pessoas Vivendo com HIV (Novo)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (novo)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11764,7 +13120,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && #{K5ac7u3V5bB.cDt3CvgtlQs}==\"MOTHERTOCHILD\"",
 			"id": "HR8UVbYbHzt",
-			"lastUpdated": "2020-06-15T16:18:31.497",
+			"lastUpdated": "2020-10-10T12:22:06.287",
 			"legendSets": [],
 			"name": "HIV - Transmission Vertical (Total)",
 			"program": {
@@ -11772,7 +13128,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Vertical transmission, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Vertical (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PLHIV (transmissão vertical, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11818,7 +13190,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0",
 			"id": "HY5WGeOQPmC",
-			"lastUpdated": "2020-09-25T15:37:53.444",
+			"lastUpdated": "2020-10-10T12:22:06.486",
 			"legendSets": [],
 			"name": "HIV People Living with HIV Cases (Total)",
 			"program": {
@@ -11826,7 +13198,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11872,7 +13255,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=10 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=14",
 			"id": "Hz1kNlARGQc",
-			"lastUpdated": "2020-06-19T16:16:07.250",
+			"lastUpdated": "2020-10-10T12:22:06.824",
 			"legendSets": [],
 			"name": "HIV - Age 10-14 (Total)",
 			"program": {
@@ -11880,7 +13263,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (10-14, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 10-14 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (10-14, Total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11971,7 +13370,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lu4jo7fSTb3}) && d2:hasValue(#{ang4CLldbIu.TmAJxu1XNKh}) && d2:hasValue(#{ang4CLldbIu.TQtuEvZ1eF6}) ",
 			"id": "kKPhZj8pyzU",
-			"lastUpdated": "2020-06-25T16:27:23.993",
+			"lastUpdated": "2020-10-10T12:22:09.670",
 			"legendSets": [],
 			"name": "HIV - TPT Completed this period",
 			"program": {
@@ -11979,7 +13378,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV - TPT Completed this period",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - TPT concluído neste período"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV - TPT concluído neste período"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12025,7 +13435,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=25 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=49",
 			"id": "LcLuqY1lC1b",
-			"lastUpdated": "2020-06-19T16:17:57.368",
+			"lastUpdated": "2020-10-10T12:22:06.973",
 			"legendSets": [],
 			"name": "HIV - Age 25-49 (Total)",
 			"program": {
@@ -12033,7 +13443,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (25-49 Age, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 25-49 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (25-49 anos, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12148,7 +13574,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3})",
 			"id": "mD1FkYiHhzD",
-			"lastUpdated": "2020-06-24T21:33:01.148",
+			"lastUpdated": "2020-10-10T12:22:09.869",
 			"legendSets": [],
 			"name": "HIV - Initiated on ART within this period",
 			"program": {
@@ -12156,7 +13582,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV initiated on ART this period",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - iniciado em TARV dentro deste período"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV iniciou em TARV neste período"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12271,7 +13708,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3}) && d2:daysBetween(#{ang4CLldbIu.Lv3c5VSA9t3},#{K5ac7u3V5bB.fxXDe8OZ86q}) <= 14 && d2:daysBetween(#{ang4CLldbIu.Lv3c5VSA9t3},#{K5ac7u3V5bB.fxXDe8OZ86q}) >= 1",
 			"id": "mdbVnIgl9la",
-			"lastUpdated": "2020-06-25T12:22:02.774",
+			"lastUpdated": "2020-10-10T12:22:10.209",
 			"legendSets": [],
 			"name": "HIV - Initiated on ART 1-14 days after test",
 			"program": {
@@ -12279,7 +13716,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV initiated on ART 1-14 days after test",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Quantas pessoas começaram o tratamento em até 14 dias após a inscrição"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - iniciado em ART 1-14 dias após o teste"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV iniciado em ART 1-14 dias após o teste"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12395,7 +13848,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3}) && d2:daysBetween(#{ang4CLldbIu.Lv3c5VSA9t3},#{K5ac7u3V5bB.fxXDe8OZ86q}) >= 15 ",
 			"id": "MerE3PADLDD",
-			"lastUpdated": "2020-06-24T21:39:07.015",
+			"lastUpdated": "2020-10-10T12:22:07.126",
 			"legendSets": [],
 			"name": "HIV - Initiated on ART 15+ days after test",
 			"program": {
@@ -12403,7 +13856,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV initiated on ART 15+ days after test",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Quantas pessoas começaram o tratamento em até 14 dias após a inscrição"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - iniciado em ART 15+ dias após o teste"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV iniciado em ART 15+ dias após o teste"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12449,7 +13918,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=50",
 			"id": "mW1KwTgite8",
-			"lastUpdated": "2020-06-19T16:18:31.124",
+			"lastUpdated": "2020-10-10T12:22:10.021",
 			"legendSets": [],
 			"name": "HIV - Age 50+ (Total)",
 			"program": {
@@ -12457,7 +13926,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (50+ Age, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Mais de 50 anos (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (idade acima de 50, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12649,7 +14134,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:hasValue(#{ang4CLldbIu.S4IJiirQVHY})",
 			"id": "QK8q8CTP6HJ",
-			"lastUpdated": "2020-05-20T13:33:40.173",
+			"lastUpdated": "2020-10-10T12:22:07.298",
 			"legendSets": [],
 			"name": "HIV People Living with HIV who have viral load suppression (Total)",
 			"program": {
@@ -12657,7 +14142,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV with viral load suppression",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento. VL <1000"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas com HIV vivendo com HIV e com supressão de carga viral (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV com supressão de carga viral"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12703,7 +14204,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && (#{K5ac7u3V5bB.cDt3CvgtlQs}==\"HOMOSEX\" || #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HOMOWOMEN\" || #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HOMOMEN\"  || #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HOMOWOMEN\" )",
 			"id": "S2Q3S9bVT5V",
-			"lastUpdated": "2020-06-19T14:42:26.718",
+			"lastUpdated": "2020-10-10T12:22:07.469",
 			"legendSets": [],
 			"name": "HIV - Transmission Homosexual (Total)",
 			"program": {
@@ -12711,7 +14212,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Homosexual Transmitted, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Homossexual (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (transmissão homossexual, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12757,7 +14274,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && #{K5ac7u3V5bB.cDt3CvgtlQs}==\"OTHERUNDETERMINED\"",
 			"id": "sg3dWhEcy6r",
-			"lastUpdated": "2020-06-15T16:18:18.874",
+			"lastUpdated": "2020-10-10T12:22:10.349",
 			"legendSets": [],
 			"name": "HIV - Transmission Other (Total)",
 			"program": {
@@ -12765,7 +14282,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Other transmission, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Outra (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PLHIV (outra transmissão, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12811,7 +14344,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3})",
 			"id": "sgSyf8CKyR5",
-			"lastUpdated": "2020-05-20T11:54:42.159",
+			"lastUpdated": "2020-10-10T12:22:10.499",
 			"legendSets": [],
 			"name": "HIV People Living with HIV on ART (Total)",
 			"program": {
@@ -12819,7 +14352,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV on ART (Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas com HIV vivendo com HIV em TARV (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV em TARV (total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12865,7 +14414,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && !d2:hasValue(A{Jt68iauILtD}) && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "SSMxrNDSutB",
-			"lastUpdated": "2020-06-19T15:24:12.844",
+			"lastUpdated": "2020-10-10T12:22:07.615",
 			"legendSets": [],
 			"name": "HIV People Living with HIV (NA Sex, Total)",
 			"program": {
@@ -12873,7 +14422,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (NA Sex, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV People Living with HIV (NA Sex, Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (sexo NA, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12919,7 +14484,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && A{Jt68iauILtD}==\"TG\" && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "T0zDcGuovDl",
-			"lastUpdated": "2020-06-19T15:37:11.890",
+			"lastUpdated": "2020-10-10T12:22:07.759",
 			"legendSets": [],
 			"name": "HIV People Living with HIV (Transgender, Total)",
 			"program": {
@@ -12927,7 +14492,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (TG, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas HIV Vivendo com HIV (Transgênero, Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (TG, Total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -12973,7 +14554,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=0 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=4",
 			"id": "TAWgKc10Z7b",
-			"lastUpdated": "2020-06-19T16:15:15.995",
+			"lastUpdated": "2020-10-10T12:22:07.909",
 			"legendSets": [],
 			"name": "HIV - Age 00-4 (Total)",
 			"program": {
@@ -12981,7 +14562,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (0-4, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram. Idade na inscrição."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 00-4 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (0-4, Total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13095,7 +14692,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "tUkytCarojr",
-			"lastUpdated": "2020-06-25T12:20:51.435",
+			"lastUpdated": "2020-10-10T12:22:10.819",
 			"legendSets": [],
 			"name": "HIV - Tested positive within period",
 			"program": {
@@ -13103,7 +14700,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV Tested positive ",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Teste positivo dentro do período"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV testado positivo"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13318,7 +14926,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3}) && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "txddFRXV0Fe",
-			"lastUpdated": "2020-06-25T08:54:19.610",
+			"lastUpdated": "2020-10-10T12:22:10.995",
 			"legendSets": [],
 			"name": "HIV People Living with HIV on ART (New on ART this period)",
 			"program": {
@@ -13326,7 +14934,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV on ART (New)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas com HIV vivendo com HIV em TARV (Novo em TARV neste período)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV em ART (novo)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13372,7 +14996,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && #{K5ac7u3V5bB.cDt3CvgtlQs}==\"Commercial_Sex\"",
 			"id": "uOKYVsEfPKm",
-			"lastUpdated": "2020-06-15T16:17:32.935",
+			"lastUpdated": "2020-10-10T12:22:11.146",
 			"legendSets": [],
 			"name": "HIV - Transmission Commercial (Total)",
 			"program": {
@@ -13380,7 +15004,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Commercial, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Comercial (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (Comercial, Total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13426,7 +15066,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 &&  d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=5 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=9",
 			"id": "uPyzO7grF0C",
-			"lastUpdated": "2020-06-19T16:15:42.972",
+			"lastUpdated": "2020-10-10T12:22:11.289",
 			"legendSets": [],
 			"name": "HIV - Age 05-9 (Total)",
 			"program": {
@@ -13434,7 +15074,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (5-9 Transmitted, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 05-9 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (5-9 transmitido, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13501,7 +15157,7 @@
 			"expression": "V{event_count}",
 			"filter": "#{ang4CLldbIu.rcUsYgOnlyF} == 'Lost to follow-up' ||#{ang4CLldbIu.rcUsYgOnlyF} == 'LTFU'",
 			"id": "v3JxTePzgY0",
-			"lastUpdated": "2020-05-20T09:58:29.627",
+			"lastUpdated": "2020-10-10T12:22:11.431",
 			"legendSets": [],
 			"name": "HIV reported patient lost to follow up",
 			"program": {
@@ -13509,7 +15165,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV patient LTFU",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pacientes sob vigilância que perderam o acompanhamento enquanto estavam sob vigilância"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Paciente relatado por HIV perdeu para acompanhamento"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Paciente com HIV LTFU"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13555,7 +15227,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && (#{K5ac7u3V5bB.cDt3CvgtlQs}==\"HETEROSEXUAL\" || #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HETEROMEN\" || #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HETEROWOMEN\"|| #{K5ac7u3V5bB.cDt3CvgtlQs}==\"HETEROSEX\")",
 			"id": "v4MsuuR3T4V",
-			"lastUpdated": "2020-06-19T14:45:30.447",
+			"lastUpdated": "2020-10-10T12:22:11.574",
 			"legendSets": [],
 			"name": "HIV - Transmission Heterosexual (Total)",
 			"program": {
@@ -13563,7 +15235,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Heterosexual Transmitted, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Heterossexual (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (transmissão heterossexual, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13609,7 +15297,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && A{Jt68iauILtD}==\"Female\" && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "VJFhXqOOMWO",
-			"lastUpdated": "2020-06-19T15:24:26.817",
+			"lastUpdated": "2020-10-10T12:22:08.091",
 			"legendSets": [],
 			"name": "HIV People Living with HIV (Female, Total)",
 			"program": {
@@ -13617,7 +15305,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Female, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV Pessoas Vivendo com HIV (Feminino, Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (feminino, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13663,7 +15367,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && !d2:hasValue(#{K5ac7u3V5bB.cDt3CvgtlQs})",
 			"id": "vNbihmwll7S",
-			"lastUpdated": "2020-06-15T16:30:18.860",
+			"lastUpdated": "2020-10-10T12:22:11.756",
 			"legendSets": [],
 			"name": "HIV - Transmission Unknown (Total)",
 			"program": {
@@ -13671,7 +15375,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (Unknown transmission, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Transmissão Desconhecida (Total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PLHIV (transmissão desconhecida, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13740,7 +15460,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6",
 			"id": "vv3E9DfCJDu",
-			"lastUpdated": "2020-05-20T13:23:16.411",
+			"lastUpdated": "2020-10-10T12:22:11.905",
 			"legendSets": [],
 			"name": "HIV People Living with HIV who have viral load results (Total)",
 			"program": {
@@ -13748,7 +15468,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV with viral load results",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, excepto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas com HIV que vivem com HIV com resultados de carga viral (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV com resultados de carga viral"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13862,7 +15598,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{ang4CLldbIu.Lv3c5VSA9t3}) && d2:hasValue(#{K5ac7u3V5bB.fxXDe8OZ86q})",
 			"id": "WI2exJjeucm",
-			"lastUpdated": "2020-06-25T12:20:55.490",
+			"lastUpdated": "2020-10-10T12:22:08.264",
 			"legendSets": [],
 			"name": "HIV - Tested positive within period & Initiated on ART",
 			"program": {
@@ -13870,7 +15606,18 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "HIV initiated on ART, tested positive ",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - testado positivo no período e iniciado em ART"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV iniciado em ART, teste positivo"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13916,7 +15663,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'TRANSFEROUT') == 0 && \nd2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0  && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=15 && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<=19",
 			"id": "Ye9CF8ffeOj",
-			"lastUpdated": "2020-06-19T16:16:39.558",
+			"lastUpdated": "2020-10-10T12:22:08.430",
 			"legendSets": [],
 			"name": "HIV - Age 15-19 (Total)",
 			"program": {
@@ -13924,7 +15671,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV (15-19 Age, Total)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Idade 15-19 (total)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV (15-19 anos, total)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13993,7 +15756,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{ang4CLldbIu.rcUsYgOnlyF},'DIED') == 0 && d2:hasValue(#{ang4CLldbIu.v4K5u8wftrq}) && d2:monthsBetween(#{K5ac7u3V5bB.fxXDe8OZ86q}, PS_EVENTDATE:ang4CLldbIu) >= 6 && d2:daysBetween(V{analytics_period_start},#{ang4CLldbIu.v4K5u8wftrq})>=0  && d2:daysBetween(#{ang4CLldbIu.v4K5u8wftrq}, V{analytics_period_end})>=0",
 			"id": "YkDsYAlmaAc",
-			"lastUpdated": "2020-07-03T10:03:40.173",
+			"lastUpdated": "2020-10-10T12:22:08.579",
 			"legendSets": [],
 			"name": "HIV People Living with HIV who have viral load results (New VL result this period)",
 			"program": {
@@ -14001,7 +15764,23 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV with viral load results (new)",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, excepto aqueles que foram transferidos e aqueles que morreram. Deve ter obtido o resultado do teste de HIV 6 meses antes do último evento."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoas que vivem com HIV e que têm resultados de carga viral (novo resultado de VL neste período)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "PVHIV com resultados de carga viral (novo)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -14147,7 +15926,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfCondition(V{analytics_period_start}, '>= d2:addDays(#{ang4CLldbIu.v4K5u8wftrq}, 30)') >=1",
 			"id": "ZJlV7GatpOq",
-			"lastUpdated": "2020-07-03T10:15:29.421",
+			"lastUpdated": "2020-10-10T12:22:08.739",
 			"legendSets": [],
 			"name": "HIV Retained on ART 6 months after 1st VL test",
 			"program": {
@@ -14155,7 +15934,13 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "PLHIV ART and VL Retention",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Todos os inscritos neste programa são PVHIV, exceto aqueles que foram transferidos e aqueles que morreram."
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -14600,7 +16385,7 @@
 			"condition": "#{Follow-up_Result}  == 'CHANGE_STATUS'",
 			"created": "2020-05-04T19:12:59.994",
 			"id": "aE5Uc6sW8dL",
-			"lastUpdated": "2020-05-04T19:12:59.994",
+			"lastUpdated": "2020-10-10T12:21:54.066",
 			"name": "Display warning \"If a person changed patient status, you must record it in the visit stage)",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14613,13 +16398,19 @@
 			"programStage": {
 				"id": "UvYb6qJpQu0"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Exibir aviso \"Se uma pessoa alterou o status do paciente, você deve registrá-lo na fase de visita)"
+				}
+			]
 		},
 		{
 			"condition": "!d2:hasValue( 'HIV Viral Load Latest')",
 			"created": "2020-05-04T13:40:39.736",
 			"id": "amEUbPOt1T3",
-			"lastUpdated": "2020-05-04T13:40:39.736",
+			"lastUpdated": "2020-10-10T12:21:54.210",
 			"name": "Hide Previous viral load value if Previous viral load results are empty",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14629,14 +16420,20 @@
 					"id": "bKiKiO9Ypdj"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Ocultar o valor da carga viral anterior se os resultados da carga viral anterior estiverem vazios"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV days with Medicine' )",
 			"created": "2020-02-13T10:53:51.172",
 			"description": "Date of current Event PLUS amount of days with Medicine",
 			"id": "apjLE7Hu2mN",
-			"lastUpdated": "2020-09-07T08:23:06.337",
+			"lastUpdated": "2020-10-10T12:21:54.347",
 			"name": "HIV Show value for suggested next visit date",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14649,14 +16446,25 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data do evento atual MAIS quantidade de dias com medicamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV Mostrar valor para a próxima data de visita sugerida"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'TPT Date previously Completed ' )  && !#{TPT_Restart_Treatment}\n",
 			"created": "2020-02-28T10:10:39.854",
 			"description": "Displays the date a treatment was completed it if was previously completed.",
 			"id": "DICAiThz6Px",
-			"lastUpdated": "2020-09-28T12:25:10.555",
+			"lastUpdated": "2020-10-10T12:21:52.818",
 			"name": "Display TPT date completed if completed",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14669,13 +16477,24 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exibe a data em que um tratamento foi concluído, se tiver sido concluído anteriormente."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Exibir data TPT concluída se concluída"
+				}
+			]
 		},
 		{
 			"condition": "#{HIV viral load less than 1000} ",
 			"created": "2020-05-04T13:52:42.271",
 			"id": "g8LDxurfW21",
-			"lastUpdated": "2020-05-04T13:52:42.271",
+			"lastUpdated": "2020-10-10T12:21:54.487",
 			"name": "If Viral load under 100 = Viral Supression",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14685,13 +16504,19 @@
 					"id": "av0NyatBKs7"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Se a carga viral abaixo de 100 = Supressão viral"
+				}
+			]
 		},
 		{
 			"condition": "d2:daysBetween( #{Last Day With Medicine}, V{current_date} )  > 28  && d2:hasValue( 'Last Day With Medicine')",
 			"created": "2020-02-17T15:07:20.059",
 			"id": "GxoeUZf5aWb",
-			"lastUpdated": "2020-10-01T07:59:22.359",
+			"lastUpdated": "2020-10-10T12:21:52.982",
 			"name": "Days Without Medicine",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14701,14 +16526,20 @@
 					"id": "LNc8TAdVd8R"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Dias sem remédio"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV_TEST_DATE' )  && (#{HIV_TEST_DATE}    <    A{AGE})",
 			"created": "2020-02-11T10:06:47.153",
 			"description": "The HIV test cannot be before the patient was born",
 			"id": "gZy3eQsP9Lx",
-			"lastUpdated": "2020-02-11T10:24:06.609",
+			"lastUpdated": "2020-10-10T12:21:54.661",
 			"name": "Display Error if Test Date Before Birth",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14721,13 +16552,24 @@
 			"programStage": {
 				"id": "K5ac7u3V5bB"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "O teste de HIV não pode ser antes do nascimento do paciente"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Exibir erro se a data do teste antes do nascimento"
+				}
+			]
 		},
 		{
 			"condition": "!#{Eligible for TPT}",
 			"created": "2020-02-26T16:30:10.856",
 			"id": "hCvSfbSiOUR",
-			"lastUpdated": "2020-10-01T08:28:21.159",
+			"lastUpdated": "2020-10-10T12:21:54.802",
 			"name": "hide if not TPT eligible ",
 			"priority": 1,
 			"program": {
@@ -14741,14 +16583,20 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "ocultar se não for elegível para TPT"
+				}
+			]
 		},
 		{
 			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} ) <= 180",
 			"created": "2020-04-06T20:55:55.283",
 			"description": "If the days between the date of initiation or previous date of initiation are less than 180, then hide Viral load status",
 			"id": "HlyEkb2OkDX",
-			"lastUpdated": "2020-09-28T21:14:32.943",
+			"lastUpdated": "2020-10-10T12:21:53.144",
 			"name": "Hide viral load fields if days between the date of initiation are less than 180",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14770,7 +16618,13 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Se os dias entre a data de início ou a data anterior de início forem inferiores a 180, oculte o status da carga viral"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV Treatment Started  previously' )",
@@ -14797,7 +16651,7 @@
 			"created": "2020-04-03T11:56:51.683",
 			"description": "Hide treatment section if treatment not started",
 			"id": "lEicuM1ELe8",
-			"lastUpdated": "2020-10-01T08:28:37.472",
+			"lastUpdated": "2020-10-10T12:21:54.980",
 			"name": "Hide treatment section if treatment not started",
 			"priority": 2,
 			"program": {
@@ -14811,14 +16665,25 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Ocultar a seção de tratamento se o tratamento não for iniciado"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Ocultar a seção de tratamento se o tratamento não for iniciado"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Follow-up method' )",
 			"created": "2020-02-12T13:25:21.565",
 			"description": "if a phone number was entered, it shows it.",
 			"id": "lfTZ4R0Qees",
-			"lastUpdated": "2020-03-18T18:16:29.569",
+			"lastUpdated": "2020-10-10T12:21:52.335",
 			"name": "Show Phone Number",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14832,6 +16697,16 @@
 				"id": "UvYb6qJpQu0"
 			},
 			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "se um número de telefone foi inserido, ele mostra."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Mostrar número de telefone"
+				},
 				{
 					"locale": "ru",
 					"property": "DESCRIPTION",
@@ -14849,7 +16724,7 @@
 			"created": "2020-03-31T15:31:12.405",
 			"description": "Displays if previously eligible for TPT",
 			"id": "MvAYneJFL2Q",
-			"lastUpdated": "2020-05-20T07:11:16.285",
+			"lastUpdated": "2020-10-10T12:21:53.294",
 			"name": "Display if previously eligible for TPT",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14862,14 +16737,25 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exibe se anteriormente elegível para TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Exibir se anteriormente qualificado para TPT"
+				}
+			]
 		},
 		{
 			"condition": "d2:daysBetween( #{Date of Initiation}, V{event_date} )   <= 180",
 			"created": "2020-04-06T10:41:30.418",
 			"description": "If the days between the date of initiation or previous date of initiation are less than 180, then show message \"Viral load tests should only be performed after six months on treatment\"",
 			"id": "nCEVmOVXATp",
-			"lastUpdated": "2020-09-28T15:46:46.185",
+			"lastUpdated": "2020-10-10T12:21:55.119",
 			"name": "Show viral load testing warning.",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14882,13 +16768,24 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Se os dias entre a data de início ou a data anterior de início forem inferiores a 180, mostre a mensagem \"Testes de carga viral só devem ser realizados após seis meses de tratamento\""
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Mostrar aviso de teste de carga viral."
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV_TEST_DATE' )",
 			"created": "2020-02-11T09:29:24.517",
 			"id": "NkKReOZIHIX",
-			"lastUpdated": "2020-02-11T09:58:51.827",
+			"lastUpdated": "2020-10-10T12:21:53.431",
 			"name": "Calculate Age at HIV+ Test",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14898,14 +16795,20 @@
 					"id": "O1cYsm9p5LC"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Calcule a idade no teste de HIV +"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'TPT Date Initiated Previous' )  && !#{TPT_Restart_Treatment}",
 			"created": "2020-02-28T14:00:24.398",
 			"description": "Displays the date a treatment was initiated it if was previously initiated",
 			"id": "O9TJOZkACxU",
-			"lastUpdated": "2020-05-20T07:10:53.144",
+			"lastUpdated": "2020-10-10T12:21:53.572",
 			"name": "Display TPT date initiated if initiated",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14918,13 +16821,24 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Mostra a data em que um tratamento foi iniciado se foi iniciado anteriormente"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Exibir data TPT iniciada se iniciada"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV Viral Load' )",
 			"created": "2020-02-14T11:07:55.480",
 			"id": "oo3EDy9na3c",
-			"lastUpdated": "2020-02-17T14:06:25.386",
+			"lastUpdated": "2020-10-10T12:21:55.304",
 			"name": "HIV Previous viral load value",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14937,13 +16851,19 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Valor de carga viral anterior de HIV"
+				}
+			]
 		},
 		{
 			"condition": "#{Patient Status} != 'RETAINED'",
 			"created": "2020-05-04T14:02:05.917",
 			"id": "p7XMeDbTSbL",
-			"lastUpdated": "2020-05-04T14:21:23.720",
+			"lastUpdated": "2020-10-10T12:21:55.495",
 			"name": "Hide Treatment details if dead",
 			"priority": 1,
 			"program": {
@@ -14969,13 +16889,19 @@
 					"id": "zpbBKS54uga"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Ocultar detalhes do tratamento se morto"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Patient Status' ) && (#{Patient Status}== 'LTFU') && d2:hasValue( 'Last Day With Medicine' )   &&  d2:daysBetween( #{Last Day With Medicine}, V{event_date} )  <= 28",
 			"created": "2020-03-20T11:58:55.186",
 			"id": "qgyfb07Rze6",
-			"lastUpdated": "2020-10-01T08:04:28.117",
+			"lastUpdated": "2020-10-10T12:21:55.663",
 			"name": "If patient has had medicine for less than 28 days, do not mark as LTFU",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -14988,14 +16914,20 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Se o paciente tomou medicamento por menos de 28 dias, não marque como LTFU"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'TPT Regimen From previous' )  && !#{TPT_Restart_Treatment}",
 			"created": "2020-02-28T10:07:05.273",
 			"description": "Displays the TPT regimen the patient is following",
 			"id": "rhdEpzJFAFn",
-			"lastUpdated": "2020-09-29T11:38:28.135",
+			"lastUpdated": "2020-10-10T12:21:55.823",
 			"name": "Display TPT Regimen previously adopted",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -15008,14 +16940,20 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exibe o regime TPT que o paciente está seguindo"
+				}
+			]
 		},
 		{
 			"condition": "#{HIV viral load less than 1000}",
 			"created": "2020-04-06T21:04:41.438",
 			"description": "Hide Viral load test results if viral load is under 1000",
 			"id": "S7jJk8oVx3E",
-			"lastUpdated": "2020-04-06T21:04:41.438",
+			"lastUpdated": "2020-10-10T12:21:53.718",
 			"name": "Hide Viral load test results if viral load is under 1000",
 			"priority": 1,
 			"program": {
@@ -15029,7 +16967,18 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Oculte os resultados do teste de carga viral se a carga viral estiver abaixo de 1000"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Oculte os resultados do teste de carga viral se a carga viral estiver abaixo de 1000"
+				}
+			]
 		},
 		{
 			"condition": "!#{TPT Date previously Completed }",
@@ -15052,7 +17001,7 @@
 			"created": "2020-03-30T12:31:50.804",
 			"description": "THis is so that we have a constant date for when the treatment was initiated and we can calculate indicators. ",
 			"id": "xiMJ5cEgJfN",
-			"lastUpdated": "2020-03-31T15:24:04.456",
+			"lastUpdated": "2020-10-10T12:21:55.970",
 			"name": "display date of treatment initiation ",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -15065,13 +17014,24 @@
 			"programStage": {
 				"id": "ang4CLldbIu"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Isso é para que tenhamos uma data constante de início do tratamento e possamos calcular indicadores."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "exibir data de início do tratamento"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'HIV Viral Load Latest' ) ",
 			"created": "2020-02-17T14:14:56.355",
 			"id": "xr4PnRTTFjr",
-			"lastUpdated": "2020-07-08T10:57:10.339",
+			"lastUpdated": "2020-10-10T12:21:52.639",
 			"name": "Display Latest HIV Viral Load",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -15086,6 +17046,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Afficher la dernière charge virale du VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "exibir dados de início do tratamento"
 				}
 			]
 		},
@@ -15094,7 +17059,7 @@
 			"created": "2020-02-28T09:54:20.886",
 			"description": "Displays the date a patient became eligible for TPT from the first time they became eligible.",
 			"id": "xRECtYcrv6u",
-			"lastUpdated": "2020-08-04T08:42:00.868",
+			"lastUpdated": "2020-10-10T12:21:52.494",
 			"name": "Display date they became eligible for TPT",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -15117,6 +17082,16 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Afficher la date à laquelle ils sont devenus éligibles au TPT"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Exibe a data em que um paciente se tornou elegível para TPT a partir da primeira vez em que se tornou elegível."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Data de exibição em que se tornaram elegíveis para TPT"
 				}
 			]
 		},
@@ -15125,7 +17100,7 @@
 			"created": "2020-02-20T10:00:13.263",
 			"description": "If a patient has not had medicine for more than 28 days, then they are lost to follow-up. It counts days since last visit and current date",
 			"id": "Z5sfFPDSeri",
-			"lastUpdated": "2020-10-01T07:51:21.425",
+			"lastUpdated": "2020-10-10T12:21:53.889",
 			"name": "Mark as Lost to Follow-up",
 			"program": {
 				"id": "Xh88p1nyefp"
@@ -15138,7 +17113,18 @@
 			"programStage": {
 				"id": "UvYb6qJpQu0"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Se um paciente não toma remédio há mais de 28 dias, ele perde o acompanhamento. Conta os dias desde a última visita e a data atual"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Marcar como perdida para acompanhamento"
+				}
+			]
 		}
 	],
 	"programRuleVariables": [
@@ -15564,7 +17550,7 @@
 			"expiryDays": 0,
 			"id": "Xh88p1nyefp",
 			"ignoreOverdueEvents": false,
-			"lastUpdated": "2020-09-15T10:43:11.676",
+			"lastUpdated": "2020-10-10T12:21:56.700",
 			"maxTeiCountToReturn": 5,
 			"minAttributesRequiredToSearch": 1,
 			"name": "HIV Case Surveillance ",
@@ -16011,6 +17997,21 @@
 					"value": "Surveillance des cas VIH"
 				},
 				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Vigilância de casos de HIV e acompanhamento de tratamento"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vigilância de casos de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Vigilância de casos de HIV"
+				},
+				{
 					"locale": "ru",
 					"property": "SHORT_NAME",
 					"value": "Эпиднадзор ВИЧ"
@@ -16047,7 +18048,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": false,
 			"id": "ang4CLldbIu",
-			"lastUpdated": "2020-09-28T21:13:49.585",
+			"lastUpdated": "2020-10-10T12:21:56.463",
 			"minDaysFromStart": 0,
 			"name": "Visit",
 			"notificationTemplates": [],
@@ -16642,6 +18643,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Visite"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "visita"
 				}
 			],
 			"user": {
@@ -16669,7 +18675,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": false,
 			"id": "K5ac7u3V5bB",
-			"lastUpdated": "2020-09-28T21:13:49.583",
+			"lastUpdated": "2020-10-10T12:21:56.299",
 			"minDaysFromStart": 0,
 			"name": "Initial Case Report",
 			"notificationTemplates": [],
@@ -16813,6 +18819,16 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Rapport de cas initial"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Relatório de Caso Inicial"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Relatório de Caso Inicial"
 				}
 			],
 			"user": {
@@ -16840,7 +18856,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": true,
 			"id": "UvYb6qJpQu0",
-			"lastUpdated": "2020-09-28T21:13:49.588",
+			"lastUpdated": "2020-10-10T12:21:56.148",
 			"minDaysFromStart": 0,
 			"name": "Follow-up",
 			"notificationTemplates": [],
@@ -16981,6 +18997,11 @@
 				},
 				{
 					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Usado quando um paciente ficou sem medicamento e não compareceu a uma consulta de recarga."
+				},
+				{
+					"locale": "pt",
 					"property": "NAME",
 					"value": "Acompanhamento"
 				},
@@ -17108,7 +19129,7 @@
 				}
 			],
 			"id": "tkLnqqjD8u1",
-			"lastUpdated": "2020-09-28T21:13:49.566",
+			"lastUpdated": "2020-10-10T12:21:47.405",
 			"name": "TPT",
 			"programIndicators": [],
 			"programStage": {
@@ -17123,7 +19144,13 @@
 				}
 			},
 			"sortOrder": 1,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TPT"
+				}
+			]
 		},
 		{
 			"created": "2020-02-26T16:12:16.070",
@@ -17139,7 +19166,7 @@
 				}
 			],
 			"id": "wP6lGz66tig",
-			"lastUpdated": "2020-09-28T21:13:49.566",
+			"lastUpdated": "2020-10-10T12:21:47.568",
 			"name": "Clinical Surveillance",
 			"programIndicators": [],
 			"programStage": {
@@ -17154,7 +19181,13 @@
 				}
 			},
 			"sortOrder": 0,
-			"translations": []
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vigilância Clínica"
+				}
+			]
 		}
 	],
 	"reportTables": [
@@ -17478,7 +19511,7 @@
 			"hideTitle": false,
 			"id": "JmAddDaVNs2",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T11:27:46.686",
+			"lastUpdated": "2020-10-10T12:22:12.080",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - Viral Load tests this month and last 3 months",
@@ -17551,7 +19584,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Testes de carga viral neste mês e nos últimos 3 meses"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -17793,7 +19832,7 @@
 			"hideTitle": false,
 			"id": "QgzrubS8YKo",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-25T12:11:19.945",
+			"lastUpdated": "2020-10-10T12:22:12.333",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - Viral Load tests this month by district",
@@ -17862,7 +19901,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - Testes de carga viral este mês por distrito"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -18060,7 +20105,7 @@
 			"hideTitle": false,
 			"id": "tU9RH0c3Wyq",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-06-24T21:40:45.403",
+			"lastUpdated": "2020-10-10T12:22:12.481",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - ART Initiation ranges",
@@ -18133,7 +20178,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "HIV - intervalos de iniciação de ART"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -18214,7 +20265,7 @@
 			"hideTitle": false,
 			"id": "w2d0XT59gqd",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2020-10-09T11:32:16.120",
+			"lastUpdated": "2020-10-10T12:22:12.633",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "PLHIV - Reported Transmission of Cases by Location",
@@ -18283,7 +20334,13 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Total até a data"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -18311,7 +20368,7 @@
 			"generated": false,
 			"id": "aW66s2QSosT",
 			"inherit": false,
-			"lastUpdated": "2020-08-13T13:17:40.124",
+			"lastUpdated": "2020-10-10T12:02:03.623",
 			"legendSets": [],
 			"name": "Family name",
 			"orgunitScope": false,
@@ -18334,6 +20391,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Nom de famille"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Family name of the patient"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Sobrenome"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Sobrenome"
 				}
 			],
 			"unique": false,
@@ -18359,7 +20431,7 @@
 			"generated": false,
 			"id": "ciCR6BBvIT4",
 			"inherit": false,
-			"lastUpdated": "2020-08-04T08:31:35.099",
+			"lastUpdated": "2020-10-10T12:03:00.087",
 			"legendSets": [],
 			"name": "Mobile phone number",
 			"orgunitScope": false,
@@ -18377,6 +20449,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Numéro de téléphone portable"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "número de celular"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Número de celular"
 				},
 				{
 					"locale": "ru",
@@ -18512,7 +20594,7 @@
 			"generated": true,
 			"id": "iZWtxl8sCi6",
 			"inherit": false,
-			"lastUpdated": "2020-07-08T10:57:12.315",
+			"lastUpdated": "2020-10-10T12:21:57.137",
 			"legendSets": [],
 			"name": "HIV Program ID",
 			"orgunitScope": false,
@@ -18535,6 +20617,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Programme VIH "
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "ID do programa de HIV (por exemplo, número ART)"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "ID do programa"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "ID do programa de HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Programa de HIV"
 				}
 			],
 			"unique": true,
@@ -18561,7 +20663,7 @@
 			"generated": false,
 			"id": "Jt68iauILtD",
 			"inherit": false,
-			"lastUpdated": "2020-09-29T13:23:06.330",
+			"lastUpdated": "2020-10-10T12:21:56.999",
 			"legendSets": [],
 			"name": "Gender M, F, TG",
 			"optionSet": {
@@ -18574,44 +20676,14 @@
 			"skipSynchronization": false,
 			"translations": [
 				{
-					"locale": "ar",
-					"property": "FORM_NAME",
-					"value": "الجنس"
-				},
-				{
-					"locale": "de",
-					"property": "FORM_NAME",
-					"value": "Sexo"
-				},
-				{
-					"locale": "es",
-					"property": "FORM_NAME",
-					"value": "Sexo"
-				},
-				{
 					"locale": "fr",
 					"property": "FORM_NAME",
-					"value": "Sexe"
-				},
-				{
-					"locale": "id",
-					"property": "FORM_NAME",
-					"value": "Jenis Kelamin"
-				},
-				{
-					"locale": "nb",
-					"property": "FORM_NAME",
-					"value": "Kjønn"
+					"value": "sexe"
 				},
 				{
 					"locale": "pt",
 					"property": "FORM_NAME",
-					"value": "Sexo"
-				},
-				{
-					"locale": "ru",
-					"property": "FORM_NAME",
-					"value": "Пол"
+					"value": "Género"
 				},
 				{
 					"locale": "uz",
@@ -18649,7 +20721,7 @@
 			"generated": false,
 			"id": "mAWcalQYYyk",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:43:26.051",
+			"lastUpdated": "2020-10-10T12:20:52.246",
 			"legendSets": [],
 			"name": "Date of birth (age)",
 			"orgunitScope": false,
@@ -18680,6 +20752,11 @@
 				},
 				{
 					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data de nascimento mais idade calculada"
+				},
+				{
+					"locale": "pt",
 					"property": "FORM_NAME",
 					"value": "Data de nascimento (idade)"
 				},
@@ -18687,6 +20764,11 @@
 					"locale": "pt",
 					"property": "NAME",
 					"value": "Data de nascimento (idade)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DoB (idade)"
 				},
 				{
 					"locale": "ru",
@@ -18759,7 +20841,7 @@
 			"generated": false,
 			"id": "sWn0CERcUYj",
 			"inherit": false,
-			"lastUpdated": "2020-08-04T08:35:58.884",
+			"lastUpdated": "2020-10-10T12:18:47.830",
 			"legendSets": [],
 			"name": "Health Facility Code",
 			"orgunitScope": false,
@@ -18787,6 +20869,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Code de l'établissement de santé"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Da lista mestre de instalações"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Código de estabelecimento de saúde"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Código de estabelecimento de saúde"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Código de estabelecimento de saúde"
 				}
 			],
 			"unique": false,
@@ -18813,7 +20915,7 @@
 			"generated": false,
 			"id": "TfdH5KvFmMy",
 			"inherit": false,
-			"lastUpdated": "2020-08-13T13:17:39.645",
+			"lastUpdated": "2020-10-10T12:02:02.986",
 			"legendSets": [],
 			"name": "Given name",
 			"orgunitScope": false,
@@ -18841,6 +20943,16 @@
 					"locale": "pt",
 					"property": "DESCRIPTION",
 					"value": "Nome do paciente ou iniciais"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Nome dado"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Nome dado"
 				},
 				{
 					"locale": "uz_UZ",
@@ -18873,7 +20985,7 @@
 			"generated": true,
 			"id": "u101Hz0Lemb",
 			"inherit": true,
-			"lastUpdated": "2020-08-04T08:41:57.827",
+			"lastUpdated": "2020-10-10T12:21:57.328",
 			"legendSets": [],
 			"name": "NHIS ID",
 			"orgunitScope": false,
@@ -18896,6 +21008,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "ID VIH du SNIS"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "O ID do Sistema Nacional de Informações de Saúde"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "ID NHIS"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "ID NHIS"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "HIV NHIS ID"
 				}
 			],
 			"unique": true,
@@ -18922,7 +21054,7 @@
 			"generated": false,
 			"id": "VCtm2pySeEV",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:38:46.786",
+			"lastUpdated": "2020-10-10T12:02:03.457",
 			"legendSets": [],
 			"name": "Address (current)",
 			"orgunitScope": false,
@@ -18945,6 +21077,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Adresse (actuelle)"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Endereço residencial atual do paciente"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Endereço (atual)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Endereço (atual)"
 				}
 			],
 			"unique": false,
@@ -18970,7 +21117,7 @@
 			"generated": false,
 			"id": "Z1rLc1rVHK8",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:44:01.210",
+			"lastUpdated": "2020-10-10T12:21:56.855",
 			"legendSets": [],
 			"name": "Date of birth is estimated",
 			"orgunitScope": false,
@@ -18993,6 +21140,11 @@
 					"locale": "pt",
 					"property": "NAME",
 					"value": "Data de nascimento foi estimada"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DoB estimado"
 				},
 				{
 					"locale": "ru",
@@ -19043,7 +21195,7 @@
 			"description": "Person",
 			"featureType": "NONE",
 			"id": "MCPQUTHX1Ze",
-			"lastUpdated": "2020-08-13T13:42:51.158",
+			"lastUpdated": "2020-10-10T12:02:04.153",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "Person",
@@ -19210,6 +21362,16 @@
 					"value": "Person"
 				},
 				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pessoa"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoa"
+				},
+				{
 					"locale": "uz",
 					"property": "DESCRIPTION",
 					"value": "Шахс"
@@ -19247,7 +21409,7 @@
 			"attributeValues": [],
 			"created": "2020-06-05T11:00:29.793",
 			"id": "pm1eqD1fqwx",
-			"lastUpdated": "2020-09-28T09:34:24.821",
+			"lastUpdated": "2020-10-10T12:21:57.527",
 			"managedGroups": [],
 			"name": "HIV Case Surveillance",
 			"publicAccess": "r-------",
@@ -19256,6 +21418,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Surveillance des cas VIH"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Vigilância de casos de HIV"
 				},
 				{
 					"locale": "ru",
