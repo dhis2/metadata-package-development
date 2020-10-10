@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2020-10-08T11:44:25.487",
+			"lastUpdated": "2020-10-10T12:20:51.291",
 			"name": "default",
 			"publicAccess": "--------",
 			"translations": [
@@ -97,7 +97,7 @@
 			"created": "2018-01-17T10:28:58.779",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bjDvmb4bfuf",
-			"lastUpdated": "2020-09-24T06:43:25.613",
+			"lastUpdated": "2020-10-10T12:20:51.459",
 			"name": "default",
 			"publicAccess": "--------",
 			"skipTotal": false,
@@ -187,7 +187,7 @@
 			"created": "2018-01-17T10:28:58.783",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2020-09-24T06:43:25.750",
+			"lastUpdated": "2020-10-10T12:20:51.655",
 			"name": "default",
 			"translations": [
 				{
@@ -244,7 +244,7 @@
 			"code": "default",
 			"created": "2018-01-17T10:28:58.744",
 			"id": "xYerKDKCefk",
-			"lastUpdated": "2020-09-24T06:43:25.900",
+			"lastUpdated": "2020-10-10T12:20:51.830",
 			"name": "default",
 			"organisationUnits": [],
 			"publicAccess": "--------",
@@ -1163,7 +1163,7 @@
 			"created": "2020-01-22T11:37:34.060",
 			"description": "Value \"1\" = include Amikacin in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Amikacin from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "a4PpEfSutcV",
-			"lastUpdated": "2020-09-24T06:41:41.949",
+			"lastUpdated": "2020-10-10T12:18:53.445",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Amikacin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Am",
@@ -1182,6 +1182,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent en milieu liquide - Am"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui amicacina na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido.\nValor \"2\" = excluir amicacina da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - amicacina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Am"
 				}
 			],
 			"user": {
@@ -1213,7 +1228,7 @@
 			"created": "2020-01-22T09:57:45.112",
 			"description": "Value \"1\" = include Pyrazinamide in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Pyrazinamide from the list of drugs available for Initial Phenotypic DST testing in solid media.\n\n* Pyrazinamide can only be tested when using liquid media.",
 			"id": "aCaNdqUIDZl",
-			"lastUpdated": "2020-09-24T06:41:42.108",
+			"lastUpdated": "2020-10-10T12:18:53.584",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Pyrazinamide",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Z",
@@ -1232,6 +1247,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial en milieux solides - Z"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui pirazinamida na lista de medicamentos disponíveis para o teste inicial de DST fenotípico em meio sólido.\nValor \"2\" = excluir a pirazinamida da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\n\n* A pirazinamida só pode ser testada em meio líquido."
 				}
 			],
 			"user": {
@@ -1263,7 +1283,7 @@
 			"created": "2020-01-24T08:24:24.905",
 			"description": "Value \"1\" = include Ethambutol Result in LPA Test.\nValue \"2\" = exclude Ethambutol Result from LPA Test.",
 			"id": "AiyTLOJHMkl",
-			"lastUpdated": "2020-08-13T13:19:05.095",
+			"lastUpdated": "2020-10-10T12:03:00.766",
 			"name": "TB-Drugs: LPA (Fluoroquinolones / Second Line Injectables) - Ethambutol",
 			"publicAccess": "--------",
 			"shortName": "Ethambutol Result",
@@ -1282,6 +1302,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultat sur l'éthambutol"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Resultado de Etambutol no Teste LPA. Valor \"2\" = exclui Resultado de Etambutol do Teste LPA."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: LPA (fluoroquinolonas / injetáveis ​​de segunda linha) - Etambutol"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultado de Etambutol"
 				},
 				{
 					"locale": "ru",
@@ -1318,7 +1353,7 @@
 			"created": "2020-01-22T09:56:32.344",
 			"description": "Value \"1\" = include Isoniazid CB in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Isoniazid CB from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "anpSc1tmlft",
-			"lastUpdated": "2020-09-24T06:41:37.669",
+			"lastUpdated": "2020-10-10T12:18:48.506",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Isoniazid CB",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - H CB",
@@ -1378,7 +1413,7 @@
 			"created": "2020-01-22T09:52:23.025",
 			"description": "Value \"1\" = include Linezolid in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Linezolid from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "aZq11UuXPP6",
-			"lastUpdated": "2020-09-24T06:41:42.241",
+			"lastUpdated": "2020-10-10T12:18:53.733",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Linezolid",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Lzd",
@@ -1428,7 +1463,7 @@
 			"created": "2020-01-22T11:35:29.633",
 			"description": "Value \"1\" = include Levofloxacin in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Levofloxacin from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "b1KgVOel21P",
-			"lastUpdated": "2020-09-24T06:41:42.378",
+			"lastUpdated": "2020-10-10T12:18:53.871",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Levofloxacin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Lfx",
@@ -1478,7 +1513,7 @@
 			"created": "2020-01-22T10:10:52.536",
 			"description": "Value \"1\" = include Pyrazinamide in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Pyrazinamide from the list of drugs available for Subsequent Phenotypic DST testing in solid media.\n\n* Pyrazinamide can only be tested when using liquid media. ",
 			"id": "bHPYGfrFNV2",
-			"lastUpdated": "2020-09-24T06:41:42.516",
+			"lastUpdated": "2020-10-10T12:18:54.006",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Pyrazinamide",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Z",
@@ -1528,7 +1563,7 @@
 			"created": "2020-01-22T09:48:14.351",
 			"description": "Value \"1\" = include Delamanid in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Delamanid from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "BJTzi3WWjhT",
-			"lastUpdated": "2020-09-24T06:41:38.252",
+			"lastUpdated": "2020-10-10T12:18:49.192",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Delamanid",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Dlm",
@@ -1547,6 +1582,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initiale en milieu liquide - Dlm"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Delamanid na lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido.\nValor \"2\" = exclui Delamanid da lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio líquido - Delamanida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em meio líquido - Dlm"
 				}
 			],
 			"user": {
@@ -1638,7 +1688,7 @@
 			"created": "2020-01-22T10:16:01.220",
 			"description": "Value \"1\" = include Clofazimine in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Clofazimine from the list of drugs available for Subsequent Phenotypic DST testing in solid media.\n\n* Clofazimine can only be tested when using liquid media. ",
 			"id": "bywBn5DxVdi",
-			"lastUpdated": "2020-09-24T06:41:42.654",
+			"lastUpdated": "2020-10-10T12:18:54.141",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Clofazimine",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Cfz",
@@ -1758,7 +1808,7 @@
 			"created": "2020-01-22T09:27:43.880",
 			"description": "Value \"1\" = include Isoniazid CC in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Isoniazid CC from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "cRldkiBh5xv",
-			"lastUpdated": "2020-09-24T06:41:42.806",
+			"lastUpdated": "2020-10-10T12:18:54.332",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Isoniazid CC",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - H CC",
@@ -1808,7 +1858,7 @@
 			"created": "2020-01-22T10:04:35.420",
 			"description": "Value \"1\" = include Linezolid in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Linezolid from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "CVQR2ZtZWxk",
-			"lastUpdated": "2020-09-24T06:41:38.406",
+			"lastUpdated": "2020-10-10T12:18:49.353",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Linezolid",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Lzd",
@@ -1827,6 +1877,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "La TS initiale dans les médias solides - Lzd"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Linezolida na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido. Valor \"2\" = exclui Linezolida da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em mídia sólida - Linezolida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Lzd"
 				}
 			],
 			"user": {
@@ -1858,7 +1923,7 @@
 			"created": "2020-01-22T10:12:47.974",
 			"description": "Value \"1\" = include Moxifloxacin CC in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Moxifloxacin CC from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "Czx5FuOqF9i",
-			"lastUpdated": "2020-09-24T06:41:38.608",
+			"lastUpdated": "2020-10-10T12:18:49.522",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Moxifloxacin CC",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Mfx CC",
@@ -1877,6 +1942,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "La TS subséquent dans les médias solides - Mfx CC"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Moxifloxacina CC na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido. Valor \"2\" = excluir Moxifloxacina CC da lista de medicamentos disponíveis para teste DST fenotípico subsequente em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio sólido - Moxifloxacina CC"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em mídia sólida - Mfx CC"
 				}
 			],
 			"user": {
@@ -1908,7 +1988,7 @@
 			"created": "2020-01-22T09:55:02.580",
 			"description": "Value \"1\" = include Isoniazid CC in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Isoniazid CC from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "dAPAScvFPfX",
-			"lastUpdated": "2020-09-24T06:41:42.963",
+			"lastUpdated": "2020-10-10T12:18:54.540",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Isoniazid CC",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - H CC",
@@ -1958,7 +2038,7 @@
 			"created": "2020-01-22T09:41:30.568",
 			"description": "Value \"1\" = include Moxifloxacin CC in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Moxifloxacin CC from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "dgjpdQO2Iva",
-			"lastUpdated": "2020-09-24T06:41:43.243",
+			"lastUpdated": "2020-10-10T12:18:54.901",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Moxifloxacin CC",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Mfx CC",
@@ -2008,7 +2088,7 @@
 			"created": "2020-01-22T10:13:30.992",
 			"description": "Value \"1\" = include Amikacin in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Amikacin from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "dTwKm1u2VhY",
-			"lastUpdated": "2020-09-24T06:41:43.098",
+			"lastUpdated": "2020-10-10T12:18:54.748",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Amikacin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Am",
@@ -2058,7 +2138,7 @@
 			"created": "2020-01-22T10:10:14.639",
 			"description": "Value \"1\" = include Isoniazid CC in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Isoniazid CC from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "eM3UfUO7W8O",
-			"lastUpdated": "2020-09-24T06:41:37.816",
+			"lastUpdated": "2020-10-10T12:18:48.668",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Isoniazid CC",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - H CC",
@@ -2183,7 +2263,7 @@
 			"created": "2020-01-22T11:06:13.404",
 			"description": "Value \"1\" = include Isoniazid CB in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Isoniazid CB from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "F9DTb5zl8rS",
-			"lastUpdated": "2020-09-24T06:41:37.384",
+			"lastUpdated": "2020-10-10T12:18:48.174",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Isoniazid CB",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - H CB",
@@ -2202,6 +2282,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TDS ultérieur en mileu liquide - H CB"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Isoniazida CB na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido. Valor \"2\" = excluir Isoniazida CB da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - Isoniazida CB"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - H CB"
 				},
 				{
 					"locale": "uz",
@@ -2243,7 +2338,7 @@
 			"created": "2020-01-22T09:30:12.302",
 			"description": "Value \"1\" = include Pyrazinamide in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Pyrazinamide from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "FDtk4otxDse",
-			"lastUpdated": "2020-09-24T06:41:38.764",
+			"lastUpdated": "2020-10-10T12:18:49.684",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Pyrazinamide",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Z",
@@ -2262,6 +2357,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial en milieu liquide - Z"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui pirazinamida na lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido.\nValor \"2\" = excluir a pirazinamida da lista de medicamentos disponíveis para o teste inicial de DST fenotípico em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio líquido - pirazinamida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em meio líquido - Z"
 				}
 			],
 			"user": {
@@ -2293,7 +2403,7 @@
 			"created": "2020-01-22T10:12:18.460",
 			"description": "Value \"1\" = include Levofloxacin in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Levofloxacin from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "Fw8wOlTETPt",
-			"lastUpdated": "2020-09-24T06:41:38.950",
+			"lastUpdated": "2020-10-10T12:18:49.843",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Levofloxacin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Lfx",
@@ -2312,6 +2422,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent dans les médias solides - Lfx"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Levofloxacina na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido. Valor \"2\" = exclui Levofloxacin da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Medicamentos para TB: DST fenotípico subsequente em meio sólido - Levofloxacina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em mídia sólida - Lfx"
 				}
 			],
 			"user": {
@@ -2343,7 +2468,7 @@
 			"created": "2020-01-22T09:52:44.259",
 			"description": "Value \"1\" = include Clofazimine in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Clofazimine from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "GL5JTtBvbEC",
-			"lastUpdated": "2020-09-24T06:41:39.089",
+			"lastUpdated": "2020-10-10T12:18:50.003",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Clofazimine",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Cfz",
@@ -2362,6 +2487,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initiale en milieu liquide - Cfz"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = incluir a clofazimina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio líquido. Valor \"2\" = excluir a clofazimina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Medicamentos para TB: DST fenotípico inicial em meio líquido - clofazimina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em meio líquido - Cfz"
 				}
 			],
 			"user": {
@@ -2583,7 +2723,7 @@
 			"created": "2020-01-22T11:35:49.664",
 			"description": "Value \"1\" = include Moxifloxacin CC in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Moxifloxacin CC from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "HhKitGif8RV",
-			"lastUpdated": "2020-09-24T06:41:39.223",
+			"lastUpdated": "2020-10-10T12:18:50.162",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Moxifloxacin CC",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Mfx CC",
@@ -2602,6 +2742,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "DST subséquente en milieu liquide - Mfx CC"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Moxifloxacina CC na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido. Valor \"2\" = excluir Moxifloxacina CC da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - Moxifloxacina CC"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Mfx CC"
 				}
 			],
 			"user": {
@@ -2688,7 +2843,7 @@
 			"created": "2020-01-22T11:07:05.820",
 			"description": "Value \"1\" = include Ethambutol in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Ethambutol from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "Ic5asMdbpH8",
-			"lastUpdated": "2020-09-24T06:41:39.363",
+			"lastUpdated": "2020-10-10T12:18:50.333",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Ethambutol",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - E",
@@ -2707,6 +2862,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquente en milieu liquide - E"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Etambutol na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido.\nValor \"2\" = exclui o etambutol da lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - Etambutol"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - E"
 				}
 			],
 			"user": {
@@ -2798,7 +2968,7 @@
 			"created": "2020-01-22T10:15:37.471",
 			"description": "Value \"1\" = include Linezolid in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Linezolid from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "KIeI2d8xalG",
-			"lastUpdated": "2020-09-24T06:41:39.493",
+			"lastUpdated": "2020-10-10T12:18:50.523",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Linezolid",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Lzd",
@@ -2817,6 +2987,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent dans les milieux solides - Lzd"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Linezolida na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido.\nValor \"2\" = excluir Linezolida da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio sólido - Linezolida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em mídia sólida - Lzd"
 				}
 			],
 			"user": {
@@ -2848,7 +3033,7 @@
 			"created": "2020-01-22T09:47:51.395",
 			"description": "Value \"1\" = include Bedaquiline in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Bedaquiline from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "KjvwSybuWJU",
-			"lastUpdated": "2020-09-24T06:41:39.624",
+			"lastUpdated": "2020-10-10T12:18:50.729",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Bedaquiline",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Bdq",
@@ -2867,6 +3052,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial en milieu liquide - Bdq"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui a bedaquilina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio líquido.\nValor \"2\" = exclui a bedaquilina da lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio líquido - bedaquilina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em meio líquido - Bdq"
 				}
 			],
 			"user": {
@@ -2898,7 +3098,7 @@
 			"created": "2020-01-22T09:12:37.087",
 			"description": "Value \"1\" = include Rifampicin in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Rifampicin from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "lelJEADYpeI",
-			"lastUpdated": "2020-09-24T06:41:43.394",
+			"lastUpdated": "2020-10-10T12:18:55.070",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Rifampicin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - R",
@@ -2948,7 +3148,7 @@
 			"created": "2020-01-22T09:28:09.487",
 			"description": "Value \"1\" = include Isoniazid CB in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Isoniazid CB from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "lqaf0KfpHGd",
-			"lastUpdated": "2020-09-24T06:41:37.959",
+			"lastUpdated": "2020-10-10T12:18:48.834",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Isoniazid CB",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - H CB",
@@ -3008,7 +3208,7 @@
 			"created": "2020-01-22T10:01:26.616",
 			"description": "Value \"1\" = include Moxifloxacin CB in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Moxifloxacin CB from the list of drugs available for Initial Phenotypic DST testing in solid media.\n\n* CB (Clinical breakpoint) corresponds to higher concentration testing for Moxifloxacin (2.0 mg/L in 7H10 or 1.0 mg/L in MGIT)",
 			"id": "m4c79OHEKCG",
-			"lastUpdated": "2020-09-24T06:41:43.532",
+			"lastUpdated": "2020-10-10T12:18:55.208",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Moxifloxacin CB",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Mfx CB",
@@ -3058,7 +3258,7 @@
 			"created": "2020-01-22T11:40:40.720",
 			"description": "Value \"1\" = include Linezolid in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Linezolid from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "mU5iEABeF2K",
-			"lastUpdated": "2020-09-24T06:41:43.698",
+			"lastUpdated": "2020-10-10T12:18:55.370",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Linezolid",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Lzd",
@@ -3108,7 +3308,7 @@
 			"created": "2020-01-22T09:39:55.054",
 			"description": "Value \"1\" = include Ethambutol in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Ethambutol from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "n9zOOsLO0QP",
-			"lastUpdated": "2020-09-24T06:41:43.851",
+			"lastUpdated": "2020-10-10T12:18:55.537",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Ethambutol",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - E",
@@ -3158,7 +3358,7 @@
 			"created": "2020-01-22T11:41:11.065",
 			"description": "Value \"1\" = include Clofazimine in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Clofazimine from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "Nb6oHqjCCZq",
-			"lastUpdated": "2020-09-24T06:41:39.784",
+			"lastUpdated": "2020-10-10T12:18:51.183",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Clofazimine",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Cfz",
@@ -3177,6 +3377,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent en milieu liquide - Cfz"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui a clofazimina na lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio líquido. Valor \"2\" = exclui a clofazimina da lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - clofazimina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Cfz"
 				}
 			],
 			"user": {
@@ -3208,7 +3423,7 @@
 			"created": "2020-01-22T10:00:50.983",
 			"description": "Value \"1\" = include Levofloxacin in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Levofloxacin from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "NlOX3oV4gWe",
-			"lastUpdated": "2020-09-24T06:41:39.942",
+			"lastUpdated": "2020-10-10T12:18:51.321",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Levofloxacin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Lfx",
@@ -3227,6 +3442,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial dans les milieux solides - Lfx"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Levofloxacina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\nValor \"2\" = excluir Levofloxacina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - Levofloxacina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Lfx"
 				}
 			],
 			"user": {
@@ -3258,7 +3488,7 @@
 			"created": "2020-01-22T10:09:41.174",
 			"description": "Value \"1\" = include Moxifloxacin CB in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Moxifloxacin CB from the list of drugs available for Subsequent Phenotypic DST testing in solid media.\n\n* CB (Clinical breakpoint) corresponds to higher concentration testing for Moxifloxacin (2.0 mg/L in 7H10 or 1.0 mg/L in MGIT)",
 			"id": "NvA1K4hFJbc",
-			"lastUpdated": "2020-09-24T06:41:40.101",
+			"lastUpdated": "2020-10-10T12:18:51.459",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Moxifloxacin CB",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Mfx CB",
@@ -3277,6 +3507,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent dans les médias solides - Mfx CB"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Moxifloxacina CB na lista de medicamentos disponíveis para teste DST fenotípico subsequente em meio sólido.\nValor \"2\" = exclui Moxifloxacina CB da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio sólido.\n\n* CB (ponto de corte clínico) corresponde a um teste de concentração mais alto para Moxifloxacina (2,0 mg / L em 7H10 ou 1,0 mg / L em MGIT)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas TB: DST fenotípico subsequente em meio sólido - Moxifloxacina CB"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em mídia sólida - Mfx CB"
 				}
 			],
 			"user": {
@@ -3438,7 +3683,7 @@
 			"created": "2020-01-22T09:11:20.118",
 			"description": "Value \"1\" = include Rifampicin in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Rifampicin from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "Q67DDsupq7v",
-			"lastUpdated": "2020-09-24T06:41:40.270",
+			"lastUpdated": "2020-10-10T12:18:51.612",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Rifampicin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - R",
@@ -3457,6 +3702,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initiale dans les milieux solides - R"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui rifampicina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido. Valor \"2\" = exclui Rifampicina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Medicamentos para TB: DST fenotípico inicial em meio sólido - rifampicina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - R"
 				}
 			],
 			"user": {
@@ -3488,7 +3748,7 @@
 			"created": "2020-01-22T11:40:05.433",
 			"description": "Value \"1\" = include Bedaquiline in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Bedaquiline from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "QaioqMbO0TX",
-			"lastUpdated": "2020-09-24T06:41:40.416",
+			"lastUpdated": "2020-10-10T12:18:51.752",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Bedaquiline",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Bdq",
@@ -3507,6 +3767,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent en milieu liquide - Bdq"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui a bedaquilina na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido.\nValor \"2\" = exclui a bedaquilina da lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - bedaquilina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Bdq"
 				}
 			],
 			"user": {
@@ -3598,7 +3873,7 @@
 			"created": "2020-01-22T10:14:43.212",
 			"description": "Value \"1\" = include Bedaquiline in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Bedaquiline from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "r70ONQRhaHY",
-			"lastUpdated": "2020-09-24T06:41:44.027",
+			"lastUpdated": "2020-10-10T12:18:55.710",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Bedaquiline",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Bdq",
@@ -3648,7 +3923,7 @@
 			"created": "2020-01-22T10:15:05.939",
 			"description": "Value \"1\" = include Delamanid in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Delamanid from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "RFqmLP5W5di",
-			"lastUpdated": "2020-09-24T06:41:40.568",
+			"lastUpdated": "2020-10-10T12:18:52.050",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Delamanid",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - Dlm",
@@ -3667,6 +3942,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent dans les médias solides - Dlm"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Delamanid na lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio sólido.\nValor \"2\" = exclui Delamanid da lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio sólido - Delamanida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em mídia sólida - Dlm"
 				}
 			],
 			"user": {
@@ -3758,7 +4048,7 @@
 			"created": "2020-01-22T10:01:07.878",
 			"description": "Value \"1\" = include Moxifloxacin CC in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Moxifloxacin CC from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "RJNE1o9cw7Y",
-			"lastUpdated": "2020-09-24T06:41:40.744",
+			"lastUpdated": "2020-10-10T12:18:52.188",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Moxifloxacin CC",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Mfx CC",
@@ -3777,6 +4067,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial dans les milieux solides - Mfx CC"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Moxifloxacina CC na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\nValor \"2\" = excluir Moxifloxacina CC da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - Moxifloxacina CC"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Mfx CC"
 				}
 			],
 			"user": {
@@ -3808,7 +4113,7 @@
 			"created": "2020-01-22T10:08:57.957",
 			"description": "Value \"1\" = include Isoniazid CB in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Isoniazid CB from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "s8WPR943gGS",
-			"lastUpdated": "2020-09-24T06:41:38.093",
+			"lastUpdated": "2020-10-10T12:18:49.013",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Isoniazid CB",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - H CB",
@@ -3868,7 +4173,7 @@
 			"created": "2020-01-22T09:41:09.274",
 			"description": "Value \"1\" = include Levofloxacin in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Levofloxacin from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "t7Okdm8VgDV",
-			"lastUpdated": "2020-09-24T06:41:44.162",
+			"lastUpdated": "2020-10-10T12:18:55.877",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Levofloxacin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Lfx",
@@ -3918,7 +4223,7 @@
 			"created": "2020-01-22T09:41:56.132",
 			"description": "Value \"1\" = include Moxifloxacin CB in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Moxifloxacin CB from the list of drugs available for Initial Phenotypic DST testing in liquid media.\n\n* CB (Clinical breakpoint) corresponds to higher concentration testing for Moxifloxacin (2.0 mg/L in 7H10 or 1.0 mg/L in MGIT)",
 			"id": "UL61U78GWCg",
-			"lastUpdated": "2020-09-24T06:41:40.918",
+			"lastUpdated": "2020-10-10T12:18:52.326",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Moxifloxacin CB",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Mfx CB",
@@ -3937,6 +4242,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial en milieu liquide - Mfx CB"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Moxifloxacina CB na lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido. Valor \"2\" = exclui Moxifloxacina CB da lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio líquido. * CB (ponto de corte clínico) corresponde ao teste de concentração mais alto para Moxifloxacina (2,0 mg / L em 7H10 ou 1,0 mg / L em MGIT)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio líquido - Moxifloxacina CB"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em meio líquido - Mfx CB"
 				}
 			],
 			"user": {
@@ -3968,7 +4288,7 @@
 			"created": "2020-01-21T13:33:07.861",
 			"description": "Value \"1\" = include Rifampicin in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Rifampicin from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "uOJYEwV7XfN",
-			"lastUpdated": "2020-09-24T06:41:44.292",
+			"lastUpdated": "2020-10-10T12:18:56.018",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Rifampicin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - R",
@@ -4018,7 +4338,7 @@
 			"created": "2020-01-22T10:03:21.070",
 			"description": "Value \"1\" = include Bedaquiline in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Bedaquiline from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "UxcTzMRQsfa",
-			"lastUpdated": "2020-09-24T06:41:41.083",
+			"lastUpdated": "2020-10-10T12:18:52.487",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Bedaquiline",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Bdq",
@@ -4037,6 +4357,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initiale dans les milieux solides - Bdq"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui a bedaquilina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\nValor \"2\" = exclui a bedaquilina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - bedaquilina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Bdq"
 				}
 			],
 			"user": {
@@ -4068,7 +4403,7 @@
 			"created": "2020-01-22T10:03:38.845",
 			"description": "Value \"1\" = include Delamanid in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Delamanid from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "VUlsMrm4D8k",
-			"lastUpdated": "2020-09-24T06:41:41.216",
+			"lastUpdated": "2020-10-10T12:18:52.638",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Delamanid",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Dlm",
@@ -4087,6 +4422,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial dans les milieux solides - Dlm"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Delamanid na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido. Valor \"2\" = exclui Delamanid da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - Delamanid"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Dlm"
 				}
 			],
 			"user": {
@@ -4118,7 +4468,7 @@
 			"created": "2020-01-22T11:06:44.115",
 			"description": "Value \"1\" = include Pyrazinamide in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Pyrazinamide from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "VY15auehssY",
-			"lastUpdated": "2020-09-24T06:41:41.347",
+			"lastUpdated": "2020-10-10T12:18:52.847",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Pyrazinamide",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Z",
@@ -4137,6 +4487,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent en milieu liquide - Z"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui pirazinamida na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido. Valor \"2\" = excluir a pirazinamida da lista de medicamentos disponíveis para o teste DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - pirazinamida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Z"
 				}
 			],
 			"user": {
@@ -4228,7 +4593,7 @@
 			"created": "2020-01-22T10:11:21.445",
 			"description": "Value \"1\" = include Ethambutol in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Ethambutol from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "wNxsAieLWYc",
-			"lastUpdated": "2020-09-24T06:41:44.454",
+			"lastUpdated": "2020-10-10T12:18:56.169",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Ethambutol",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - E",
@@ -4278,7 +4643,7 @@
 			"created": "2020-01-22T09:42:37.293",
 			"description": "Value \"1\" = include Amikacin in the list of drugs available for Initial Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Amikacin from the list of drugs available for Initial Phenotypic DST testing in liquid media.",
 			"id": "x6v8O6EZo0U",
-			"lastUpdated": "2020-09-24T06:41:44.597",
+			"lastUpdated": "2020-10-10T12:18:56.328",
 			"name": "TB-Drugs: Initial Phenotypic DST in Liquid Media - Amikacin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Liquid Media - Am",
@@ -4328,7 +4693,7 @@
 			"created": "2020-01-22T11:36:41.607",
 			"description": "Value \"1\" = include Moxifloxacin CB in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Moxifloxacin CB from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\n\n* CB (Clinical breakpoint) corresponds to higher concentration testing for Moxifloxacin (2.0 mg/L in 7H10 or 1.0 mg/L in MGIT)",
 			"id": "xfltmyqC3p0",
-			"lastUpdated": "2020-09-24T06:41:44.772",
+			"lastUpdated": "2020-10-10T12:18:56.487",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Moxifloxacin CB",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Mfx CB",
@@ -4378,7 +4743,7 @@
 			"created": "2020-01-22T10:02:08.127",
 			"description": "Value \"1\" = include Amikacin in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Amikacin from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "XO1V9o5C95J",
-			"lastUpdated": "2020-09-24T06:41:41.529",
+			"lastUpdated": "2020-10-10T12:18:52.992",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Amikacin",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Am",
@@ -4397,6 +4762,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "DST initial dans en milieux solides - Am"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui amicacina na lista de medicamentos disponíveis para teste de DST fenotípico inicial em meio sólido.\nValor \"2\" = exclui Amicacina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - amicacina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Am"
 				}
 			],
 			"user": {
@@ -4428,7 +4808,7 @@
 			"created": "2020-01-22T11:40:23.380",
 			"description": "Value \"1\" = include Delamanid in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Delamanid from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "Xt5GU9kBD7q",
-			"lastUpdated": "2020-09-24T06:41:41.684",
+			"lastUpdated": "2020-10-10T12:18:53.149",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Delamanid",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - Dlm",
@@ -4447,6 +4827,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS subséquent en milieu liquide - Dlm"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Delamanid na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido. Valor \"2\" = exclui Delamanid da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - Delamanida"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - Dlm"
 				}
 			],
 			"user": {
@@ -4538,7 +4933,7 @@
 			"created": "2020-01-22T09:59:51.299",
 			"description": "Value \"1\" = include Ethambutol in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Ethambutol from the list of drugs available for Initial Phenotypic DST testing in solid media.",
 			"id": "yxPHZFwMTN6",
-			"lastUpdated": "2020-09-24T06:41:44.914",
+			"lastUpdated": "2020-10-10T12:18:56.638",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Ethambutol",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - E",
@@ -4648,7 +5043,7 @@
 			"created": "2020-01-22T11:05:00.513",
 			"description": "Value \"1\" = include Isoniazid CC in the list of drugs available for Subsequent Phenotypic DST testing in liquid media.\nValue \"2\" = exclude Isoniazid CC from the list of drugs available for Subsequent Phenotypic DST testing in liquid media.",
 			"id": "ZBpqH7xJLBO",
-			"lastUpdated": "2020-09-24T06:41:37.525",
+			"lastUpdated": "2020-10-10T12:18:48.338",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Liquid Media - Isoniazid CC",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Liquid Media - H CC",
@@ -4667,6 +5062,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TDS ultérieur en mileu liquide - H CC"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Isoniazida CC na lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido. Valor \"2\" = excluir Isoniazida CC da lista de medicamentos disponíveis para teste de DST fenotípico subsequente em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico subsequente em meio líquido - Isoniazida CC"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST subsequente em meio líquido - H CC"
 				},
 				{
 					"locale": "uz",
@@ -4708,7 +5118,7 @@
 			"created": "2020-01-22T10:05:26.145",
 			"description": "Value \"1\" = include Clofazimine in the list of drugs available for Initial Phenotypic DST testing in solid media.\nValue \"2\" = exclude Clofazimine from the list of drugs available for Initial Phenotypic DST testing in solid media.\n\n* Clofazimine can only be tested when using liquid media.",
 			"id": "ZDpLleSK08x",
-			"lastUpdated": "2020-09-24T06:41:41.817",
+			"lastUpdated": "2020-10-10T12:18:53.286",
 			"name": "TB-Drugs: Initial Phenotypic DST in Solid Media - Clofazimine",
 			"publicAccess": "--------",
 			"shortName": "Initial DST in Solid Media - Cfz",
@@ -4727,6 +5137,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "TS initial dans les milieux solides - Cfz"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Valor \"1\" = inclui Clofazimina na lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\nValor \"2\" = excluir Clofazimina da lista de medicamentos disponíveis para o teste de DST fenotípico inicial em meio sólido.\n\n* A clofazimina só pode ser testada em meio líquido."
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Drogas para TB: DST fenotípico inicial em meio sólido - clofazimina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DST inicial em mídia sólida - Cfz"
 				}
 			],
 			"user": {
@@ -4758,7 +5183,7 @@
 			"created": "2020-01-22T09:12:01.862",
 			"description": "Value \"1\" = include Rifampicin in the list of drugs available for Subsequent Phenotypic DST testing in solid media.\nValue \"2\" = exclude Rifampicin from the list of drugs available for Subsequent Phenotypic DST testing in solid media.",
 			"id": "zJoEjvstp2d",
-			"lastUpdated": "2020-09-24T06:41:45.050",
+			"lastUpdated": "2020-10-10T12:18:56.775",
 			"name": "TB-Drugs: Subsequent Phenotypic DST in Solid Media - Rifampicin",
 			"publicAccess": "--------",
 			"shortName": "Subsequent DST in Solid Media - R",
@@ -7045,7 +7470,7 @@
 			"domainType": "TRACKER",
 			"formName": "Subsequent DST in Solid Media (e.g. LJ)",
 			"id": "BNkkWpCKgLR",
-			"lastUpdated": "2020-09-24T06:41:27.393",
+			"lastUpdated": "2020-10-10T12:18:41.937",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST in Solid Media (e.g. LJ)",
 			"publicAccess": "--------",
@@ -7144,7 +7569,7 @@
 			"domainType": "TRACKER",
 			"formName": "Date of final results",
 			"id": "bXaGYMAnfNH",
-			"lastUpdated": "2020-09-24T06:41:30.408",
+			"lastUpdated": "2020-10-10T12:18:45.967",
 			"legendSets": [],
 			"name": "TB Lab: Date of Final Initial DST Results (Solid Media)",
 			"publicAccess": "--------",
@@ -8018,7 +8443,7 @@
 			"domainType": "TRACKER",
 			"formName": "Sputum Smear Microscopy",
 			"id": "Dd95Kl4aXZf",
-			"lastUpdated": "2020-09-24T06:41:27.541",
+			"lastUpdated": "2020-10-10T12:18:42.124",
 			"legendSets": [],
 			"name": "TB Lab: Sputum Smear Microscopy",
 			"publicAccess": "--------",
@@ -8256,7 +8681,7 @@
 			"domainType": "TRACKER",
 			"formName": "Amikacin (Am)",
 			"id": "DjVjz7PNXJA",
-			"lastUpdated": "2020-09-24T06:39:33.894",
+			"lastUpdated": "2020-10-10T12:18:42.278",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST LM - Am",
 			"optionSet": {
@@ -8308,7 +8733,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Amikatsin (Am)"
+					"value": "Аmikatsin (Am)"
 				}
 			],
 			"user": {
@@ -8743,7 +9168,7 @@
 			"domainType": "TRACKER",
 			"formName": "Final result - Fluoroquinolones (FQ)",
 			"id": "E61DoZgoPH2",
-			"lastUpdated": "2020-09-24T06:41:29.871",
+			"lastUpdated": "2020-10-10T12:18:45.446",
 			"legendSets": [],
 			"name": "TB Lab: Final LPA (FQ/2LI) Result - Fluoroquinolones",
 			"optionSet": {
@@ -9202,7 +9627,7 @@
 			"domainType": "TRACKER",
 			"formName": "Rifampicin (R)",
 			"id": "ema8JjkIDTz",
-			"lastUpdated": "2020-09-24T06:39:41.571",
+			"lastUpdated": "2020-10-10T12:18:43.625",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST LM - R",
 			"optionSet": {
@@ -9254,7 +9679,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Rifampitsin R"
+					"value": "Rifampitsin (R)"
 				}
 			],
 			"user": {
@@ -9900,7 +10325,7 @@
 			"domainType": "TRACKER",
 			"formName": "Rifampicin (R)",
 			"id": "FjsunwwqBMk",
-			"lastUpdated": "2020-09-24T06:39:35.230",
+			"lastUpdated": "2020-10-10T12:18:42.488",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST SM - R",
 			"optionSet": {
@@ -9962,7 +10387,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Rifampitsin R"
+					"value": "Rifampitsin (R)"
 				},
 				{
 					"locale": "uz_UZ",
@@ -10007,7 +10432,7 @@
 			"domainType": "TRACKER",
 			"formName": "Specimen type",
 			"id": "FKxBceeFNuR",
-			"lastUpdated": "2020-09-24T06:41:30.109",
+			"lastUpdated": "2020-10-10T12:18:45.600",
 			"legendSets": [],
 			"name": "TB Lab: Specimen Type used for LPA (FQ/2LI)",
 			"optionSet": {
@@ -10646,7 +11071,7 @@
 			"domainType": "TRACKER",
 			"formName": "Initial DST in Liquid Media (e.g. MGIT)",
 			"id": "HkZ1hGWBqlZ",
-			"lastUpdated": "2020-09-24T06:41:27.869",
+			"lastUpdated": "2020-10-10T12:18:42.647",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST in Liquid Media (e.g. MGIT)",
 			"publicAccess": "--------",
@@ -10993,7 +11418,7 @@
 			"domainType": "TRACKER",
 			"formName": "Amikacin (Am)",
 			"id": "IBqX2HMQV4T",
-			"lastUpdated": "2020-09-24T06:39:36.150",
+			"lastUpdated": "2020-10-10T12:18:42.815",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST LM - Am",
 			"optionSet": {
@@ -11045,7 +11470,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Amikatsin (Am)"
+					"value": "Аmikatsin (Am)"
 				}
 			],
 			"user": {
@@ -12037,7 +12462,7 @@
 			"domainType": "TRACKER",
 			"formName": "Bedaquiline (Bdq)",
 			"id": "jC2yaMqEOPb",
-			"lastUpdated": "2020-09-24T06:39:42.292",
+			"lastUpdated": "2020-10-10T12:18:43.768",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST SM - Bdq ",
 			"optionSet": {
@@ -12089,7 +12514,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Bedaqvilin (Bdq)"
+					"value": "Bedakvilin (Bdq)"
 				}
 			],
 			"user": {
@@ -12129,7 +12554,7 @@
 			"domainType": "TRACKER",
 			"formName": "Bedaquiline (Bdq)",
 			"id": "jD5CwNpVmb3",
-			"lastUpdated": "2020-09-24T06:39:42.425",
+			"lastUpdated": "2020-10-10T12:18:43.931",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST SM - Bdq",
 			"optionSet": {
@@ -12176,7 +12601,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Bedaqvilin (Bdq)"
+					"value": "Bedakvilin (Bdq)"
 				}
 			],
 			"user": {
@@ -14203,7 +14628,7 @@
 			"domainType": "TRACKER",
 			"formName": "Amikacin (Am)",
 			"id": "nBVHqtynKKg",
-			"lastUpdated": "2020-09-24T06:39:43.198",
+			"lastUpdated": "2020-10-10T12:18:44.079",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST SM - Am",
 			"optionSet": {
@@ -14255,7 +14680,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Amikatsin (Am)"
+					"value": "Аmikatsin (Am)"
 				}
 			],
 			"user": {
@@ -14690,7 +15115,7 @@
 			"domainType": "TRACKER",
 			"formName": "Bedaquiline (Bdq)",
 			"id": "oKdArKmQaar",
-			"lastUpdated": "2020-09-24T06:39:43.926",
+			"lastUpdated": "2020-10-10T12:18:44.221",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST LM - Bdq ",
 			"optionSet": {
@@ -14742,7 +15167,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Bedaqvilin (Bdq)"
+					"value": "Bedakvilin (Bdq)"
 				}
 			],
 			"user": {
@@ -15071,7 +15496,7 @@
 			"domainType": "TRACKER",
 			"formName": "Isoniazid - critical concentration (H CC)",
 			"id": "OXN8xMgpVvC",
-			"lastUpdated": "2020-09-24T06:39:37.996",
+			"lastUpdated": "2020-10-10T12:18:42.997",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST LM - H CC",
 			"optionSet": {
@@ -15108,7 +15533,7 @@
 				{
 					"locale": "uz",
 					"property": "FORM_NAME",
-					"value": "Изониазид - критик дазада (I КД)"
+					"value": "Изониазид - критик дозада (I КД)"
 				},
 				{
 					"locale": "uz_UZ",
@@ -15158,7 +15583,7 @@
 			"domainType": "TRACKER",
 			"formName": "Initial DST in Solid Media (e.g. LJ)",
 			"id": "OZV3tzf7bux",
-			"lastUpdated": "2020-09-24T06:41:28.327",
+			"lastUpdated": "2020-10-10T12:18:43.166",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST in Solid Media (e.g. LJ)",
 			"publicAccess": "--------",
@@ -15349,7 +15774,7 @@
 			"domainType": "TRACKER",
 			"formName": "Specimen type",
 			"id": "p3L4HYkzU4o",
-			"lastUpdated": "2020-09-24T06:41:30.559",
+			"lastUpdated": "2020-10-10T12:18:46.137",
 			"legendSets": [],
 			"name": "TB Lab: Specimen Type used for LPA (RIF/INH)",
 			"optionSet": {
@@ -15421,7 +15846,7 @@
 			"domainType": "TRACKER",
 			"formName": "Amikacin (Am)",
 			"id": "peAahjwkqNX",
-			"lastUpdated": "2020-09-24T06:39:44.599",
+			"lastUpdated": "2020-10-10T12:18:44.510",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST SM - Am",
 			"optionSet": {
@@ -15473,7 +15898,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Amikatsin (Am)"
+					"value": "Аmikatsin (Am)"
 				}
 			],
 			"user": {
@@ -15789,7 +16214,7 @@
 			"domainType": "TRACKER",
 			"formName": "Rifampicin (R)",
 			"id": "pXViXBpKM6Y",
-			"lastUpdated": "2020-09-24T06:39:44.448",
+			"lastUpdated": "2020-10-10T12:18:44.370",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST LM - R",
 			"optionSet": {
@@ -15841,7 +16266,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Rifampitsin R"
+					"value": "Rifampitsin (R)"
 				}
 			],
 			"user": {
@@ -16145,7 +16570,7 @@
 			"domainType": "TRACKER",
 			"formName": "Culture in Solid Media (e.g. LJ)",
 			"id": "QQEolquguCi",
-			"lastUpdated": "2020-09-24T06:41:28.639",
+			"lastUpdated": "2020-10-10T12:18:43.308",
 			"legendSets": [],
 			"name": "TB Lab: Culture in Solid Media (e.g. LJ)",
 			"publicAccess": "--------",
@@ -16259,7 +16684,7 @@
 			"domainType": "TRACKER",
 			"formName": "Final result - Kanamycin (Km)",
 			"id": "qt2LpZN8Hb3",
-			"lastUpdated": "2020-09-24T06:41:33.311",
+			"lastUpdated": "2020-10-10T12:18:46.655",
 			"legendSets": [],
 			"name": "TB Lab: Final LPA (FQ/2LI) Result - Km",
 			"optionSet": {
@@ -16598,7 +17023,7 @@
 			"domainType": "TRACKER",
 			"formName": "Rifampicin (R)",
 			"id": "RAtv78ZXQec",
-			"lastUpdated": "2020-09-24T06:39:39.356",
+			"lastUpdated": "2020-10-10T12:18:43.473",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST SM - R",
 			"optionSet": {
@@ -16650,7 +17075,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Rifampitsin R"
+					"value": "Rifampitsin (R)"
 				}
 			],
 			"user": {
@@ -18102,7 +18527,7 @@
 			"domainType": "TRACKER",
 			"formName": "Subsequent DST in Liquid Media (e.g. MGIT)",
 			"id": "uaewAATQgBJ",
-			"lastUpdated": "2020-09-24T06:41:29.577",
+			"lastUpdated": "2020-10-10T12:18:44.955",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST in Liquid Media (e.g. MGIT)",
 			"publicAccess": "--------",
@@ -18284,7 +18709,7 @@
 			"domainType": "TRACKER",
 			"formName": "Date of final results",
 			"id": "uEV8flIOeYI",
-			"lastUpdated": "2020-09-24T06:41:30.695",
+			"lastUpdated": "2020-10-10T12:18:46.309",
 			"legendSets": [],
 			"name": "TB Lab: Date of Final Subsequent DST Results (Solid Media)",
 			"publicAccess": "--------",
@@ -18514,7 +18939,7 @@
 			"domainType": "TRACKER",
 			"formName": "Culture in Liquid Media (e.g. MGIT)",
 			"id": "uI7p5xLE1C8",
-			"lastUpdated": "2020-09-24T06:41:29.427",
+			"lastUpdated": "2020-10-10T12:18:44.718",
 			"legendSets": [],
 			"name": "TB Lab: Culture in Liquid Media (e.g. MGIT)",
 			"publicAccess": "--------",
@@ -19798,7 +20223,7 @@
 			"domainType": "TRACKER",
 			"formName": "Date of final results",
 			"id": "Wg7Df5kgpaF",
-			"lastUpdated": "2020-09-24T06:41:30.273",
+			"lastUpdated": "2020-10-10T12:18:45.752",
 			"legendSets": [],
 			"name": "TB Lab: Date of Final Initial DST Results (Liquid Media)",
 			"publicAccess": "--------",
@@ -19954,7 +20379,7 @@
 			"domainType": "TRACKER",
 			"formName": "Date of final results",
 			"id": "wi4NRarMSuv",
-			"lastUpdated": "2020-09-24T06:41:30.835",
+			"lastUpdated": "2020-10-10T12:18:46.494",
 			"legendSets": [],
 			"name": "TB Lab: Date of Final Subsequent DST Results (Liquid Media)",
 			"publicAccess": "--------",
@@ -21179,7 +21604,7 @@
 			"domainType": "TRACKER",
 			"formName": "Moxifloxacin - critical concentration (Mfx CC)",
 			"id": "yiGr4JTFLv3",
-			"lastUpdated": "2020-08-13T13:18:59.115",
+			"lastUpdated": "2020-10-10T12:18:45.139",
 			"legendSets": [],
 			"name": "TB Lab: Initial DST LM - Mfx CC",
 			"optionSet": {
@@ -21221,7 +21646,7 @@
 				{
 					"locale": "uz",
 					"property": "FORM_NAME",
-					"value": "Моксифлоксацин - критик дозада (Mfx КД)"
+					"value": "Моксифлоксацин - критик концентрацияда (Mfx КК)"
 				},
 				{
 					"locale": "uz",
@@ -21780,7 +22205,7 @@
 			"domainType": "TRACKER",
 			"formName": "Bedaquiline (Bdq)",
 			"id": "zcmsN575vwZ",
-			"lastUpdated": "2020-09-24T06:39:46.915",
+			"lastUpdated": "2020-10-10T12:18:45.297",
 			"legendSets": [],
 			"name": "TB Lab: Subsequent DST LM - Bdq ",
 			"optionSet": {
@@ -21832,7 +22257,7 @@
 				{
 					"locale": "uz_UZ",
 					"property": "FORM_NAME",
-					"value": "Bedaqvilin (Bdq)"
+					"value": "Bedakvilin (Bdq)"
 				}
 			],
 			"user": {
@@ -24804,7 +25229,7 @@
 			"code": "NO_GROWTH",
 			"created": "2019-12-23T20:01:27.592",
 			"id": "iRIdWqmsuhn",
-			"lastUpdated": "2020-09-24T06:41:36.947",
+			"lastUpdated": "2020-10-10T12:18:47.182",
 			"name": "No growth",
 			"optionSet": {
 				"id": "rB88xT5ggFg"
@@ -25135,7 +25560,7 @@
 			"code": "RESISTANT",
 			"created": "2020-04-11T19:48:18.902",
 			"id": "O9zjp4LJUeu",
-			"lastUpdated": "2020-09-24T06:41:36.656",
+			"lastUpdated": "2020-10-10T12:18:46.857",
 			"name": "Resistant",
 			"optionSet": {
 				"id": "q75AsvLUWVp"
@@ -25208,7 +25633,7 @@
 			"code": "SUSCEPTIBLE",
 			"created": "2020-04-11T19:48:02.867",
 			"id": "p3SXa0Go6cJ",
-			"lastUpdated": "2020-09-24T06:41:37.096",
+			"lastUpdated": "2020-10-10T12:18:47.349",
 			"name": "Susceptible",
 			"optionSet": {
 				"id": "q75AsvLUWVp"
@@ -25247,7 +25672,7 @@
 			"code": "NO",
 			"created": "2018-01-19T08:53:15.588",
 			"id": "PLlPgcfbL1D",
-			"lastUpdated": "2020-09-24T06:45:22.775",
+			"lastUpdated": "2020-10-10T12:23:25.466",
 			"name": "No",
 			"optionSet": {
 				"id": "bLA3AqDKdwx"
@@ -25403,7 +25828,7 @@
 			"code": "HISTORY_FAILED",
 			"created": "2017-11-24T10:07:16.215",
 			"id": "qpIqHMGtCw6",
-			"lastUpdated": "2020-08-04T08:31:30.761",
+			"lastUpdated": "2020-10-10T12:02:59.539",
 			"name": "Treatment after failure",
 			"optionSet": {
 				"id": "cEiPBSWUO5S"
@@ -25414,6 +25839,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Traitement après échec"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Tratamento após falha"
 				}
 			]
 		},
@@ -25476,7 +25906,7 @@
 			"code": "RESISTANT",
 			"created": "2016-07-12T12:16:44.267",
 			"id": "RrdcLAuvPke",
-			"lastUpdated": "2020-09-24T06:41:36.798",
+			"lastUpdated": "2020-10-10T12:18:47.039",
 			"name": "Resistant",
 			"optionSet": {
 				"id": "ekhfzhURD44"
@@ -26865,7 +27295,7 @@
 			"version": 5
 		}
 	],
-	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-10-10T10:24",
+	"package": "TB-REG_TRACKER_V1.1.0_DHIS2.33_2020-10-10T12:36",
 	"programIndicatorGroups": [
 		{
 			"created": "2018-06-07T11:23:07.255",
@@ -30591,7 +31021,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && (#{RB3a5MXMe8g.s84QVMsGP0W} != 'SECOND_LINE_TREATMENT') && (#{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_FAILED' || #{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_LOST_TO_FOLLOWUP' || #{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_OTHER_PREV' )",
 			"id": "czdztQdLtvp",
-			"lastUpdated": "2020-09-24T06:40:07.521",
+			"lastUpdated": "2020-10-10T12:03:15.610",
 			"legendSets": [],
 			"name": "TB_AGG - Outcome - previously treated (excluding relapse) cases registered (cohort)",
 			"program": {
@@ -30614,6 +31044,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultats: déjà traités, hors rechutes"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultados tratados anteriormente, exclui recidiva"
 				},
 				{
 					"locale": "uz",
@@ -34932,7 +35367,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && (#{RB3a5MXMe8g.s84QVMsGP0W} != 'SECOND_LINE_TREATMENT') && (#{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_NEW' || #{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_RELAPSE') && \n\n(d2:countIfValue(#{mPdMZNWVrOQ.CiyzVihv21K}, 'MTB')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.iD9wKzRYCLc}, 'MTB')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.Zos365qSyj0}, 'POSITIVE')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.bNGqfxvPbPo}, 'DETECTED')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.Lr8yX1aTLf4}, 'DETECTED') ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.TPeXlGuQWUQ}, 'DETECTED')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.CxjSGmVSIrD}, 'DETECTED')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.lmXKhJA5nk1} , 'DETECTED')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.Zd7703kfnOC}, 'DETECTED')  ==  0  && \nd2:countIfValue(#{mPdMZNWVrOQ.z0j1fZQHoSB} , 'DETECTED')  ==  0)",
 			"id": "GYEaZfyLm4T",
-			"lastUpdated": "2020-09-24T06:40:00.646",
+			"lastUpdated": "2020-10-10T12:03:14.093",
 			"legendSets": [],
 			"name": "TB_AGG - Outcome - clinically diagnosed new and relapse cases registered (cohort)",
 			"program": {
@@ -34955,6 +35390,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultats diag clin nouveaux rechutes cohorte"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultados clindx nova coorte de recaída"
 				},
 				{
 					"locale": "ru",
@@ -43174,7 +43614,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && \n\n(((d2:countIfValue(#{mPdMZNWVrOQ.RAtv78ZXQec},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.F6kH0qcMT7Z},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Gey1agRf0Kh},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.d2nso3iTDyC},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.ema8JjkIDTz},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.pXViXBpKM6Y},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.FjsunwwqBMk},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.vVLgOXwlIVj},'RESISTANT') > 0)&&\n(d2:countIfValue(#{mPdMZNWVrOQ.dyqHwVB1oij},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.wgEYFWwfv7z},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.OXN8xMgpVvC},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.nulxcFUqHFK},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Ei5mffgPCHN},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.KJ55m8WkSCO},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.A2iF5Ix8pAf},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.R25K2kAAG4g},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.UIzR3p4nlMI},'RESISTANT') == 0)) ||\n((d2:countIfValue(#{mPdMZNWVrOQ.RAtv78ZXQec},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.F6kH0qcMT7Z},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Gey1agRf0Kh},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.d2nso3iTDyC},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.ema8JjkIDTz},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.pXViXBpKM6Y},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.FjsunwwqBMk},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.vVLgOXwlIVj},'RESISTANT') > 0)&&\n(d2:countIfValue(#{mPdMZNWVrOQ.dyqHwVB1oij},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.wgEYFWwfv7z},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.OXN8xMgpVvC},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.nulxcFUqHFK},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.Ei5mffgPCHN},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.KJ55m8WkSCO},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.A2iF5Ix8pAf},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.R25K2kAAG4g},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.UIzR3p4nlMI},'RESISTANT') > 0) &&\n\n((d2:countIfValue(#{mPdMZNWVrOQ.pTRWioGFFod},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.KWijdprKE8o},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.un8hXdOPwzh},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Y1VpjCBrpEc},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Jps4U0wxlyI},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.LgnTOBA3Fuk},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.F4fNZ8htdHP},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.yiGr4JTFLv3},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.TJLwFGwpGFU},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.ASr2gFadIie},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.iGcMnwWVhKh},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.xZfTs7RfeIU},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.E61DoZgoPH2},'RESISTANT') == 0) ||\n\n(d2:countIfValue(#{mPdMZNWVrOQ.peAahjwkqNX},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.C2owWE9gaoe},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.DjVjz7PNXJA},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.IBqX2HMQV4T},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.nBVHqtynKKg},'RESISTANT') == 0))) ||\n#{RB3a5MXMe8g.T9YJ0gs7n3n} == 'RR' ||\n#{RB3a5MXMe8g.T9YJ0gs7n3n} == 'MDR') && \n\nd2:countIfValue(#{RB3a5MXMe8g.s84QVMsGP0W}, 'SECOND_LINE_TREATMENT')  > 0",
 			"id": "NhdSPPqMQ6G",
-			"lastUpdated": "2020-09-24T06:40:03.289",
+			"lastUpdated": "2020-10-10T12:03:14.388",
 			"legendSets": [],
 			"name": "Lab-confirmed RR/MDR-TB started MDR treatment",
 			"program": {
@@ -43197,6 +43637,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Cas de TB-RR/MR - Traitement MR"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "RR / TBMR confirmado em laboratório iniciou tratamento MDR"
 				},
 				{
 					"locale": "uz",
@@ -48777,7 +49222,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && #{ODD4lMPm0JX.ehtg3U5qmuI} == 'YES' && #{ODD4lMPm0JX.Y4W9L0ROIts} == 'YES'",
 			"id": "Rz1R6RuKUwJ",
-			"lastUpdated": "2020-08-04T08:31:58.139",
+			"lastUpdated": "2020-10-10T12:03:14.650",
 			"legendSets": [],
 			"name": "TB_AGG - TB/HIV - HIV positive on ART",
 			"program": {
@@ -48795,6 +49240,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Patients TB/VIH sous TAR"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "TB / HIV em TARV"
 				},
 				{
 					"locale": "uz",
@@ -51278,7 +51728,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && \n\n(((d2:countIfValue(#{mPdMZNWVrOQ.RAtv78ZXQec},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.F6kH0qcMT7Z},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Gey1agRf0Kh},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.d2nso3iTDyC},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.ema8JjkIDTz},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.pXViXBpKM6Y},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.FjsunwwqBMk},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.vVLgOXwlIVj},'RESISTANT') > 0)&&\n(d2:countIfValue(#{mPdMZNWVrOQ.dyqHwVB1oij},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.wgEYFWwfv7z},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.OXN8xMgpVvC},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.nulxcFUqHFK},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Ei5mffgPCHN},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.KJ55m8WkSCO},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.A2iF5Ix8pAf},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.R25K2kAAG4g},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.UIzR3p4nlMI},'RESISTANT') == 0)) ||\n((d2:countIfValue(#{mPdMZNWVrOQ.RAtv78ZXQec},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.F6kH0qcMT7Z},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Gey1agRf0Kh},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.d2nso3iTDyC},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.ema8JjkIDTz},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.pXViXBpKM6Y},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.FjsunwwqBMk},'RESISTANT') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.vVLgOXwlIVj},'RESISTANT') > 0)&&\n(d2:countIfValue(#{mPdMZNWVrOQ.dyqHwVB1oij},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.wgEYFWwfv7z},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.OXN8xMgpVvC},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.nulxcFUqHFK},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.Ei5mffgPCHN},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.KJ55m8WkSCO},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.A2iF5Ix8pAf},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.R25K2kAAG4g},'RESISTANT') > 0 ||\nd2:countIfValue(#{mPdMZNWVrOQ.UIzR3p4nlMI},'RESISTANT') > 0) &&\n\n((d2:countIfValue(#{mPdMZNWVrOQ.pTRWioGFFod},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.KWijdprKE8o},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.un8hXdOPwzh},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Y1VpjCBrpEc},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.Jps4U0wxlyI},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.LgnTOBA3Fuk},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.F4fNZ8htdHP},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.yiGr4JTFLv3},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.TJLwFGwpGFU},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.ASr2gFadIie},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.iGcMnwWVhKh},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.xZfTs7RfeIU},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.E61DoZgoPH2},'RESISTANT') == 0) ||\n\n(d2:countIfValue(#{mPdMZNWVrOQ.peAahjwkqNX},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.C2owWE9gaoe},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.DjVjz7PNXJA},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.IBqX2HMQV4T},'RESISTANT') == 0 &&\nd2:countIfValue(#{mPdMZNWVrOQ.nBVHqtynKKg},'RESISTANT') == 0))) ||\n#{RB3a5MXMe8g.T9YJ0gs7n3n} == 'RR' ||\n#{RB3a5MXMe8g.T9YJ0gs7n3n} == 'MDR')",
 			"id": "TsGkTLQxLYN",
-			"lastUpdated": "2020-08-04T08:32:00.023",
+			"lastUpdated": "2020-10-10T12:03:15.168",
 			"legendSets": [],
 			"name": "Lab-confirmed RR/MDR-TB",
 			"program": {
@@ -51301,6 +51751,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Cas confirmés en laboratoire de RR/MR-TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "RR / MDR-TB confirmado em laboratório"
 				},
 				{
 					"locale": "uz",
@@ -51969,7 +52424,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && (#{RB3a5MXMe8g.s84QVMsGP0W} != 'SECOND_LINE_TREATMENT') && (#{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_NEW' || #{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_RELAPSE') && #{ODD4lMPm0JX.ehtg3U5qmuI} == 'YES'",
 			"id": "usOS0aEFimg",
-			"lastUpdated": "2020-09-24T06:40:11.401",
+			"lastUpdated": "2020-10-10T12:03:15.867",
 			"legendSets": [],
 			"name": "TB_AGG - Outcome - TB/HIV new and relapse cases registered (cohort)",
 			"program": {
@@ -51992,6 +52447,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultats TB/VIH nouveaux et rechutes cohorte"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultados TB / HIV coorte nova e recaidas"
 				},
 				{
 					"locale": "uz",
@@ -53293,7 +53753,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:hasValue(#{UZn8sMwz7Nm.Lj1yD6S1Qio}) == false && (#{RB3a5MXMe8g.s84QVMsGP0W} != 'SECOND_LINE_TREATMENT') && (#{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_NEW' || #{ODD4lMPm0JX.cv1d5PIjzGb} == 'HISTORY_RELAPSE') &&\n\n(d2:countIfValue(#{mPdMZNWVrOQ.CiyzVihv21K}, 'MTB') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.iD9wKzRYCLc}, 'MTB') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Zos365qSyj0}, 'POSITIVE') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.bNGqfxvPbPo}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Lr8yX1aTLf4}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.TPeXlGuQWUQ}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.CxjSGmVSIrD}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.lmXKhJA5nk1} , 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.Zd7703kfnOC}, 'DETECTED') > 0 || \nd2:countIfValue(#{mPdMZNWVrOQ.z0j1fZQHoSB} , 'DETECTED') > 0)",
 			"id": "Vq2QZrz5t7e",
-			"lastUpdated": "2020-09-24T06:40:04.750",
+			"lastUpdated": "2020-10-10T12:03:15.399",
 			"legendSets": [],
 			"name": "TB_AGG - Outcome - bacteriologically confirmed new and relapse cases registered (cohort)",
 			"program": {
@@ -53316,6 +53776,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Résultats conflabo nouveaux rechutes cohorte"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Resultados do laboratio confirmado nova coorte de recaída"
 				},
 				{
 					"locale": "uz",
@@ -87867,7 +88332,7 @@
 			"generated": false,
 			"id": "aW66s2QSosT",
 			"inherit": false,
-			"lastUpdated": "2020-08-13T13:17:40.124",
+			"lastUpdated": "2020-10-10T12:02:03.623",
 			"legendSets": [],
 			"name": "Family name",
 			"orgunitScope": false,
@@ -87890,6 +88355,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Nom de famille"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Family name of the patient"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Sobrenome"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Sobrenome"
 				}
 			],
 			"unique": false,
@@ -87927,7 +88407,7 @@
 			"generated": false,
 			"id": "ciCR6BBvIT4",
 			"inherit": false,
-			"lastUpdated": "2020-08-04T08:31:35.099",
+			"lastUpdated": "2020-10-10T12:03:00.087",
 			"legendSets": [],
 			"name": "Mobile phone number",
 			"orgunitScope": false,
@@ -87945,6 +88425,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Numéro de téléphone portable"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "número de celular"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Número de celular"
 				},
 				{
 					"locale": "ru",
@@ -88353,7 +88843,7 @@
 			"generated": false,
 			"id": "mAWcalQYYyk",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:43:26.051",
+			"lastUpdated": "2020-10-10T12:20:52.246",
 			"legendSets": [],
 			"name": "Date of birth (age)",
 			"orgunitScope": false,
@@ -88384,6 +88874,11 @@
 				},
 				{
 					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data de nascimento mais idade calculada"
+				},
+				{
+					"locale": "pt",
 					"property": "FORM_NAME",
 					"value": "Data de nascimento (idade)"
 				},
@@ -88391,6 +88886,11 @@
 					"locale": "pt",
 					"property": "NAME",
 					"value": "Data de nascimento (idade)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DoB (idade)"
 				},
 				{
 					"locale": "ru",
@@ -88569,7 +89069,7 @@
 			"generated": false,
 			"id": "TfdH5KvFmMy",
 			"inherit": false,
-			"lastUpdated": "2020-08-13T13:17:39.645",
+			"lastUpdated": "2020-10-10T12:02:02.986",
 			"legendSets": [],
 			"name": "Given name",
 			"orgunitScope": false,
@@ -88597,6 +89097,16 @@
 					"locale": "pt",
 					"property": "DESCRIPTION",
 					"value": "Nome do paciente ou iniciais"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Nome dado"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Nome dado"
 				},
 				{
 					"locale": "uz_UZ",
@@ -88640,7 +89150,7 @@
 			"generated": false,
 			"id": "VCtm2pySeEV",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:38:46.786",
+			"lastUpdated": "2020-10-10T12:02:03.457",
 			"legendSets": [],
 			"name": "Address (current)",
 			"orgunitScope": false,
@@ -88663,6 +89173,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Adresse (actuelle)"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Endereço residencial atual do paciente"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Endereço (atual)"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Endereço (atual)"
 				}
 			],
 			"unique": false,
@@ -88788,7 +89313,7 @@
 			"generated": false,
 			"id": "Z1rLc1rVHK8",
 			"inherit": false,
-			"lastUpdated": "2020-09-24T06:44:01.210",
+			"lastUpdated": "2020-10-10T12:21:56.855",
 			"legendSets": [],
 			"name": "Date of birth is estimated",
 			"orgunitScope": false,
@@ -88811,6 +89336,11 @@
 					"locale": "pt",
 					"property": "NAME",
 					"value": "Data de nascimento foi estimada"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "DoB estimado"
 				},
 				{
 					"locale": "ru",
@@ -88969,7 +89499,7 @@
 			"description": "Person",
 			"featureType": "NONE",
 			"id": "MCPQUTHX1Ze",
-			"lastUpdated": "2020-08-13T13:42:51.158",
+			"lastUpdated": "2020-10-10T12:02:04.153",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "Person",
@@ -89134,6 +89664,16 @@
 					"locale": "nb",
 					"property": "NAME",
 					"value": "Person"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Pessoa"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Pessoa"
 				},
 				{
 					"locale": "uz",
