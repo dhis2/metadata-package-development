@@ -1,0 +1,101 @@
+{
+  "export": [
+           {
+      "_basePath": "../COVID19/",
+      "_code": "COVID19", 
+      "_name": "COVID19 complete", 
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "F0YhCM0Pi73"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "DoYehxUvmwT",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "w4iJeNKy9br",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate", 
+      "_url": ["https://who-dev.dhis2.org/temp234"], 
+      "_version": "2.0",
+   
+      "dashboardIds": [
+		"GdRQEdWJEMH"
+      ], 
+      "dataElementGroupIds": [
+      "TIo5wZmgN8F"
+      ], 
+      "dataSetIds": [
+        "uKtOZwDnIpM"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "UGXgY58CxjG"
+      ], 
+      "validationRuleGroupIds": ["WY7h5pKok2I"]
+    }, 
+    {
+      "_basePath": "../COVID19/", 
+      "_code": "COVID19", 
+      "_name": "COVID 19 dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "F0YhCM0Pi73"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "DoYehxUvmwT",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "w4iJeNKy9br",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "dashboardAggregate", 
+      "_url": ["https://who-dev.dhis2.org/temp234"], 
+      "_version": "2.0", 
+      "dashboardIds": [
+      		"GdRQEdWJEMH"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+			"UGXgY58CxjG"
+      ]
+    }
+  ]
+}

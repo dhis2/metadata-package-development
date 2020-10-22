@@ -1,0 +1,5267 @@
+{
+	"categories": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "UPvKbcqTEY3"
+				},
+				{
+					"id": "J205eXYNH7q"
+				},
+				{
+					"id": "ftXCKvbuGgj"
+				},
+				{
+					"id": "dENFBee17Oi"
+				},
+				{
+					"id": "GERCWxK3mvz"
+				},
+				{
+					"id": "bY3NyagrzeD"
+				},
+				{
+					"id": "tTmsWzvoEUv"
+				},
+				{
+					"id": "BOCPEdURsYX"
+				},
+				{
+					"id": "TEBfAmuOSJk"
+				},
+				{
+					"id": "gHA96noC0iO"
+				},
+				{
+					"id": "Po7T5dd3tQs"
+				},
+				{
+					"id": "xWXUBYNycnE"
+				},
+				{
+					"id": "c2hLbh0drQI"
+				},
+				{
+					"id": "WNPpyVkVaL3"
+				}
+			],
+			"code": "AGE_CV19",
+			"created": "2020-09-17T06:19:56.245",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "RrZWSJ6CsLs",
+			"lastUpdated": "2020-10-06T06:04:21.391",
+			"name": "Age (COVID19)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2017-05-28T11:18:42.889",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "GLevLNI9wkl",
+			"lastUpdated": "2020-10-12T16:08:54.879",
+			"name": "default",
+			"publicAccess": "r-------",
+			"translations": [],
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"code": "SEX_WITH_UNK",
+			"created": "2020-09-17T06:19:56.340",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "b7peexUktxt",
+			"lastUpdated": "2020-09-22T08:15:17.528",
+			"name": "Sex (with unknown)",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Sexe (avec inconnu)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Sexe (avec inconnu)"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryCombos": [
+		{
+			"categories": [
+				{
+					"id": "RrZWSJ6CsLs"
+				},
+				{
+					"id": "b7peexUktxt"
+				}
+			],
+			"code": "AGE_SEX_CV19",
+			"created": "2020-09-17T06:24:42.247",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "UPxdJOxz2I7",
+			"lastUpdated": "2020-09-17T21:21:50.444",
+			"name": "Age and sex (COVID-19)",
+			"publicAccess": "r-------",
+			"skipTotal": false,
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"categories": [
+				{
+					"id": "GLevLNI9wkl"
+				}
+			],
+			"code": "default",
+			"created": "2017-05-28T11:18:42.893",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bjDvmb4bfuf",
+			"lastUpdated": "2020-05-11T08:29:36.221",
+			"name": "default",
+			"publicAccess": "r-------",
+			"skipTotal": false,
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryOptionCombos": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "UPvKbcqTEY3"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T21:21:50.415",
+			"id": "X7SGUlfmJa5",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T21:21:50.415",
+			"name": "0-4 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "UPvKbcqTEY3"
+				}
+			],
+			"created": "2020-09-17T21:21:50.403",
+			"id": "d1XzGx028Z8",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T21:21:50.403",
+			"name": "0-4 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "UPvKbcqTEY3"
+				}
+			],
+			"created": "2020-09-17T21:21:50.433",
+			"id": "Ter1Z3EGkQM",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T21:21:50.433",
+			"name": "0-4 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "ftXCKvbuGgj"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.859",
+			"id": "vvpjmqp0psR",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.859",
+			"name": "10-14 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "ftXCKvbuGgj"
+				}
+			],
+			"created": "2020-09-17T06:45:50.807",
+			"id": "SV1RvPdmAkj",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.807",
+			"name": "10-14 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "ftXCKvbuGgj"
+				}
+			],
+			"created": "2020-09-17T06:45:50.909",
+			"id": "XUXU9zyHXN9",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.909",
+			"name": "10-14 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "dENFBee17Oi"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.862",
+			"id": "F9pPSHdgzwj",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.862",
+			"name": "15-19 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "dENFBee17Oi"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.811",
+			"id": "sx3u16x80nV",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.811",
+			"name": "15-19 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "dENFBee17Oi"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.912",
+			"id": "CTWSo1P4qyZ",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.912",
+			"name": "15-19 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "GERCWxK3mvz"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.865",
+			"id": "SIxMfxXNBVo",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.865",
+			"name": "20-29 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "GERCWxK3mvz"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.815",
+			"id": "bB5hQrGwaD1",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.815",
+			"name": "20-29 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "GERCWxK3mvz"
+				}
+			],
+			"created": "2020-09-17T06:45:50.915",
+			"id": "EjYC7RAtkkQ",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.915",
+			"name": "20-29 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "bY3NyagrzeD"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.871",
+			"id": "GiRwR3FD86i",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.871",
+			"name": "30-39 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "bY3NyagrzeD"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.818",
+			"id": "S17lTK4VVeE",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.818",
+			"name": "30-39 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "bY3NyagrzeD"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.918",
+			"id": "bAO3xBqTyUk",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.918",
+			"name": "30-39 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "tTmsWzvoEUv"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.874",
+			"id": "JepUukzD91g",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.874",
+			"name": "40-49 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "tTmsWzvoEUv"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.820",
+			"id": "MysvJzZ0ADY",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.820",
+			"name": "40-49 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "tTmsWzvoEUv"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.921",
+			"id": "ejldVLyrIy7",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.921",
+			"name": "40-49 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "J205eXYNH7q"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.857",
+			"id": "g5XAclU6mWm",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.857",
+			"name": "5-9 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "J205eXYNH7q"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.802",
+			"id": "bm2siOxEk6w",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.802",
+			"name": "5-9 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "J205eXYNH7q"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.906",
+			"id": "S7DctIRHOH4",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.906",
+			"name": "5-9 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "BOCPEdURsYX"
+				}
+			],
+			"created": "2020-09-17T06:45:50.877",
+			"id": "cfJ88kcKfs2",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.877",
+			"name": "50-59 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "BOCPEdURsYX"
+				}
+			],
+			"created": "2020-09-17T06:45:50.822",
+			"id": "Hqno1sfL72D",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.822",
+			"name": "50-59 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "BOCPEdURsYX"
+				}
+			],
+			"created": "2020-09-17T06:45:50.923",
+			"id": "nux1VokaZmF",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.923",
+			"name": "50-59 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "TEBfAmuOSJk"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.879",
+			"id": "ABYB6U68hMU",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.879",
+			"name": "60-64 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "TEBfAmuOSJk"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.826",
+			"id": "vsG6W671YoN",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.826",
+			"name": "60-64 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "TEBfAmuOSJk"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.926",
+			"id": "YUMOQHnN8pn",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.926",
+			"name": "60-64 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "gHA96noC0iO"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.882",
+			"id": "SZ9ccMeGlS6",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.882",
+			"name": "65-69 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "gHA96noC0iO"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.829",
+			"id": "H0mzaMCOq2e",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.829",
+			"name": "65-69 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "gHA96noC0iO"
+				}
+			],
+			"created": "2020-09-17T06:45:50.929",
+			"id": "llEP85jmlnN",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.929",
+			"name": "65-69 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "Po7T5dd3tQs"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.884",
+			"id": "D0g8d1tsNnv",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.884",
+			"name": "70-74 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "Po7T5dd3tQs"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.832",
+			"id": "oEsLwo2ah7U",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.832",
+			"name": "70-74 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "Po7T5dd3tQs"
+				}
+			],
+			"created": "2020-09-17T06:45:50.931",
+			"id": "JC2mJwkcXQ2",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.931",
+			"name": "70-74 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "xWXUBYNycnE"
+				}
+			],
+			"created": "2020-09-17T06:45:50.888",
+			"id": "Lic97hqxsNP",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.888",
+			"name": "75-79 years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "xWXUBYNycnE"
+				}
+			],
+			"created": "2020-09-17T06:45:50.839",
+			"id": "PgmLRiqPKgd",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.839",
+			"name": "75-79 years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "xWXUBYNycnE"
+				}
+			],
+			"created": "2020-09-17T06:45:50.934",
+			"id": "byqkmEDJ42u",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.934",
+			"name": "75-79 years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "c2hLbh0drQI"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.891",
+			"id": "RzvnXjQu1cm",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.891",
+			"name": "80+ years, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "c2hLbh0drQI"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.845",
+			"id": "zjOFUnSP4cf",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.845",
+			"name": "80+ years, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "c2hLbh0drQI"
+				},
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"created": "2020-09-17T06:45:50.937",
+			"id": "P6caJBLkaq9",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.937",
+			"name": "80+ years, Unknown Sex",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "DEFAULT",
+			"created": "2017-05-28T11:18:42.894",
+			"id": "HllvX50cXC0",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-03-26T14:56:23.296",
+			"name": "default",
+			"translations": [
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				},
+				{
+					"id": "IoqDBYr0rH5"
+				}
+			],
+			"created": "2020-09-17T06:45:50.854",
+			"id": "GHDbaPccoPh",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.854",
+			"name": "Female, 0-14 years",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "IoqDBYr0rH5"
+				}
+			],
+			"created": "2020-09-17T06:45:50.781",
+			"id": "KMTXoNkoiAc",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.781",
+			"name": "Male, 0-14 years",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "WNPpyVkVaL3"
+				},
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"created": "2020-09-17T06:45:50.898",
+			"id": "w1W0eGecUME",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.898",
+			"name": "Unknown age, Female",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "WNPpyVkVaL3"
+				},
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"created": "2020-09-17T06:45:50.851",
+			"id": "BAJrVjxh8K9",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.851",
+			"name": "Unknown age, Male",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				},
+				{
+					"id": "WNPpyVkVaL3"
+				}
+			],
+			"created": "2020-09-17T06:45:50.939",
+			"id": "meAnvpEpz8M",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-09-17T06:45:50.939",
+			"name": "Unknown age, Unknown Sex",
+			"translations": []
+		}
+	],
+	"categoryOptionGroups": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "UPvKbcqTEY3"
+				}
+			],
+			"code": "P0Y--P5Y",
+			"created": "2020-09-17T06:37:11.604",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "yuathFHLjNe",
+			"lastUpdated": "2020-09-17T06:37:11.604",
+			"name": "0-4 years",
+			"publicAccess": "r-------",
+			"shortName": "0-4 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "ftXCKvbuGgj"
+				}
+			],
+			"code": "P10Y--P15Y",
+			"created": "2020-09-17T06:37:11.607",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "RoYZKp6iDnH",
+			"lastUpdated": "2020-09-17T06:37:11.607",
+			"name": "10-14 years",
+			"publicAccess": "r-------",
+			"shortName": "10-14 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "dENFBee17Oi"
+				}
+			],
+			"code": "P15Y--P20Y",
+			"created": "2020-09-17T06:37:11.607",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "qiaJA9sMzj2",
+			"lastUpdated": "2020-09-17T06:37:11.607",
+			"name": "15-19 years",
+			"publicAccess": "r-------",
+			"shortName": "15-19 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "GERCWxK3mvz"
+				}
+			],
+			"code": "P20Y--P30Y",
+			"created": "2020-09-17T06:37:10.887",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "p84eezwJhMd",
+			"lastUpdated": "2020-09-17T06:37:10.887",
+			"name": "20-29 years",
+			"publicAccess": "r-------",
+			"shortName": "20-29 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "bY3NyagrzeD"
+				}
+			],
+			"code": "P30Y--P40Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "u87kL0SUYZa",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "30-39 years",
+			"publicAccess": "r-------",
+			"shortName": "30-39 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "tTmsWzvoEUv"
+				}
+			],
+			"code": "P40Y--P50Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "nuU9qXctcQE",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "40-49 years",
+			"publicAccess": "r-------",
+			"shortName": "40-49 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "J205eXYNH7q"
+				}
+			],
+			"code": "P5Y--P10Y",
+			"created": "2020-09-17T06:37:11.606",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "Mcv3dvoK2iM",
+			"lastUpdated": "2020-09-17T06:37:11.606",
+			"name": "5-9 years",
+			"publicAccess": "r-------",
+			"shortName": "5-9 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "BOCPEdURsYX"
+				}
+			],
+			"code": "P50Y--P60Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "IpuKFEXhtUJ",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "50-59 years",
+			"publicAccess": "r-------",
+			"shortName": "50-59 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "TEBfAmuOSJk"
+				}
+			],
+			"code": "P60Y--P65Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "JrQqLgsGgFr",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "60-64 years",
+			"publicAccess": "r-------",
+			"shortName": "60-64 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "gHA96noC0iO"
+				}
+			],
+			"code": "P65Y--P70Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "Bap549vCg8U",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "65-69 years",
+			"publicAccess": "r-------",
+			"shortName": "65-69 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "Po7T5dd3tQs"
+				}
+			],
+			"code": "P70Y--P75Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "t1JMgMVyoac",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "70-74 years",
+			"publicAccess": "r-------",
+			"shortName": "70-74 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "xWXUBYNycnE"
+				}
+			],
+			"code": "P75Y--P80Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "FplLHwIitbU",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "75-79 years",
+			"publicAccess": "r-------",
+			"shortName": "75-79 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "c2hLbh0drQI"
+				}
+			],
+			"code": "P80Y--P9999Y",
+			"created": "2020-09-17T06:37:10.888",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "v1e6orGTL3f",
+			"lastUpdated": "2020-09-17T06:37:10.888",
+			"name": "80+ years",
+			"publicAccess": "r-------",
+			"shortName": "80+ y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "FFA9e1yIXCT"
+				}
+			],
+			"code": "F",
+			"created": "2020-09-17T06:37:11.597",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bqoVhX2RfG4",
+			"lastUpdated": "2020-09-17T06:37:11.597",
+			"name": "Female",
+			"publicAccess": "r-------",
+			"shortName": "Female",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Féminin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Féminin"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "MP15bHaQh2x"
+				}
+			],
+			"code": "M",
+			"created": "2020-09-17T06:37:11.566",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "EVYKU2fIc6G",
+			"lastUpdated": "2020-09-17T06:37:11.566",
+			"name": "Male",
+			"publicAccess": "r-------",
+			"shortName": "Male",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Masculin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masculin"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "kuP5EmQRFke"
+				}
+			],
+			"code": "UNK_SEX",
+			"created": "2020-09-17T06:37:11.599",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "SZJNeRyrh22",
+			"lastUpdated": "2020-09-17T06:37:11.599",
+			"name": "Unknown Sex",
+			"publicAccess": "r-------",
+			"shortName": "Unk Sex",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Autre/sexe non connu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Autre/sexe non connu"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryOptionGroupSets": [
+		{
+			"attributeValues": [],
+			"categoryOptionGroups": [
+				{
+					"id": "yuathFHLjNe"
+				},
+				{
+					"id": "Mcv3dvoK2iM"
+				},
+				{
+					"id": "RoYZKp6iDnH"
+				},
+				{
+					"id": "qiaJA9sMzj2"
+				},
+				{
+					"id": "p84eezwJhMd"
+				},
+				{
+					"id": "u87kL0SUYZa"
+				},
+				{
+					"id": "nuU9qXctcQE"
+				},
+				{
+					"id": "IpuKFEXhtUJ"
+				},
+				{
+					"id": "JrQqLgsGgFr"
+				},
+				{
+					"id": "Bap549vCg8U"
+				},
+				{
+					"id": "t1JMgMVyoac"
+				},
+				{
+					"id": "FplLHwIitbU"
+				},
+				{
+					"id": "v1e6orGTL3f"
+				},
+				{
+					"id": "SZJNeRyrh22"
+				}
+			],
+			"created": "2020-09-17T06:37:27.591",
+			"dataDimension": true,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "nd6HGxbW3D5",
+			"lastUpdated": "2020-09-17T07:09:12.061",
+			"name": "Age in years for COVID-19(0-4,5-9,10-14,15-19,20-29,30-39,40-49,50-59,60-64,65-69,70-74,75-79,80+,Unk)",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"categoryOptionGroups": [
+				{
+					"id": "bqoVhX2RfG4"
+				},
+				{
+					"id": "EVYKU2fIc6G"
+				},
+				{
+					"id": "SZJNeRyrh22"
+				}
+			],
+			"created": "2020-09-17T06:37:27.870",
+			"dataDimension": true,
+			"dataDimensionType": "DISAGGREGATION",
+			"description": "Sex (with unknown)",
+			"id": "XxEFGdwxOJ0",
+			"lastUpdated": "2020-09-17T06:37:27.870",
+			"name": "Sex (with unknown)",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Sexe (avec inconnu)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Sexe (avec inconnu)"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Sexe (avec inconnu)"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryOptions": [
+		{
+			"attributeValues": [],
+			"code": "0-14Y",
+			"created": "2016-02-15T15:45:39.078",
+			"id": "IoqDBYr0rH5",
+			"lastUpdated": "2019-07-03T06:27:23.549",
+			"name": "0-14 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "0-14 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "0-14 ans"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "0-14 ans"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P0Y--P5Y",
+			"created": "2020-09-17T06:16:50.525",
+			"id": "UPvKbcqTEY3",
+			"lastUpdated": "2020-09-17T06:16:50.525",
+			"name": "0-4 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "0-4 y",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "0-4"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "0-4 ans"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P10Y--P15Y",
+			"created": "2020-09-17T06:16:50.529",
+			"id": "ftXCKvbuGgj",
+			"lastUpdated": "2020-09-17T06:16:50.529",
+			"name": "10-14 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "10-14 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P15Y--P20Y",
+			"created": "2020-09-17T06:16:50.530",
+			"id": "dENFBee17Oi",
+			"lastUpdated": "2020-09-17T06:16:50.530",
+			"name": "15-19 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "15-19 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P20Y--P30Y",
+			"created": "2020-09-17T06:16:50.531",
+			"id": "GERCWxK3mvz",
+			"lastUpdated": "2020-09-17T06:16:50.531",
+			"name": "20-29 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "20-29 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P30Y--P40Y",
+			"created": "2020-09-17T06:16:49.782",
+			"id": "bY3NyagrzeD",
+			"lastUpdated": "2020-09-17T06:16:49.782",
+			"name": "30-39 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "30-39 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P40Y--P50Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "tTmsWzvoEUv",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "40-49 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "40-49 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P5Y--P10Y",
+			"created": "2020-09-17T06:16:50.528",
+			"id": "J205eXYNH7q",
+			"lastUpdated": "2020-09-17T06:16:50.528",
+			"name": "5-9 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "5-9 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P50Y--P60Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "BOCPEdURsYX",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "50-59 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "50-59 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P60Y--P65Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "TEBfAmuOSJk",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "60-64 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "60-64 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P65Y--P70Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "gHA96noC0iO",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "65-69 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "65-69 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P70Y--P75Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "Po7T5dd3tQs",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "70-74 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "70-74 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P75Y--P80Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "xWXUBYNycnE",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "75-79 years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "75-79 y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "P80Y--P9999Y",
+			"created": "2020-09-17T06:16:49.783",
+			"id": "c2hLbh0drQI",
+			"lastUpdated": "2020-09-17T06:16:49.783",
+			"name": "80+ years",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "80+ y",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "DEFAULT",
+			"created": "2017-05-28T11:18:42.872",
+			"id": "xYerKDKCefk",
+			"lastUpdated": "2018-05-30T19:24:23.012",
+			"name": "default",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "default",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "F",
+			"created": "2020-09-17T06:16:50.518",
+			"id": "FFA9e1yIXCT",
+			"lastUpdated": "2020-09-17T06:16:50.518",
+			"name": "Female",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "Female",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Femme"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Femme"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "M",
+			"created": "2020-09-17T06:16:50.516",
+			"id": "MP15bHaQh2x",
+			"lastUpdated": "2020-09-17T06:16:50.516",
+			"name": "Male",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "Male",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Masculin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masculin"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNK_AGE",
+			"created": "2020-09-17T06:16:50.531",
+			"id": "WNPpyVkVaL3",
+			"lastUpdated": "2020-09-17T06:16:50.531",
+			"name": "Unknown age",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "Unknown age",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Âge inconnu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Âge inconnu"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"attributeValues": [],
+			"code": "UNK_SEX",
+			"created": "2020-09-17T06:16:50.522",
+			"id": "kuP5EmQRFke",
+			"lastUpdated": "2020-09-17T06:16:50.522",
+			"name": "Unknown Sex",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "Unk Sex",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Sexe inconnu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Sexe inconnu"
+				}
+			],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dashboards": [
+		{
+			"created": "2020-10-05T19:50:11.409",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.096",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 19,
+					"id": "btrkVNdRwnO",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.201",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "jTGq07MlmMp"
+					},
+					"width": 39,
+					"x": 20,
+					"y": 63
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 21,
+					"id": "jmn7HoMmBHC",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.201",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "oaBx9hR7FFR"
+					},
+					"width": 19,
+					"x": 40,
+					"y": 42
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 19,
+					"id": "JNHOYQEIN3V",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "BGGBmj9Yuu7"
+					},
+					"width": 19,
+					"x": 1,
+					"y": 63
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 22,
+					"id": "P7syfXG9dNm",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "eha82bnB8N1"
+					},
+					"width": 20,
+					"x": 20,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 22,
+					"id": "IeZQZcgmAfV",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "E6w4iwPkaRM"
+					},
+					"width": 20,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 22,
+					"id": "KWM5EsM8hYR",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"map": {
+						"id": "AwrThZVBW5g"
+					},
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 40,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "qTkvVnIP5Ri",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "WcRHBfw09Iq"
+					},
+					"width": 20,
+					"x": 20,
+					"y": 22
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "KMsy5gLLUWr",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "E94X1H21okK"
+					},
+					"width": 19,
+					"x": 1,
+					"y": 22
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 21,
+					"id": "JZ4Jt9JxsVh",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.202",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "neIuzgRUO0N"
+					},
+					"width": 19,
+					"x": 1,
+					"y": 42
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 21,
+					"id": "YocjDGUCP18",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.203",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "pQ6jw6r59Op"
+					},
+					"width": 20,
+					"x": 20,
+					"y": 42
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2020-10-12T11:31:47.097",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 20,
+					"id": "dbn6GloPaRP",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2020-10-12T11:31:47.203",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "VISUALIZATION",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"visualization": {
+						"id": "Sf2KIcQRyMj"
+					},
+					"width": 19,
+					"x": 40,
+					"y": 22
+				}
+			],
+			"externalAccess": false,
+			"favorites": [
+				"KpUvqwyAqx8"
+			],
+			"id": "GdRQEdWJEMH",
+			"lastUpdated": "2020-10-12T11:32:38.946",
+			"name": "COVID19 - Aggregate Weekly Surveillance",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				}
+			]
+		}
+	],
+	"dataElementGroups": [
+		{
+			"attributeValues": [],
+			"code": "CV19",
+			"created": "2020-09-17T06:50:11.861",
+			"dataElements": [
+				{
+					"id": "sWCFbUawFDa"
+				},
+				{
+					"id": "bmbNyNoJcXP"
+				},
+				{
+					"id": "rBw83gVQLHK"
+				},
+				{
+					"id": "VnkErE22ELJ"
+				},
+				{
+					"id": "pZtyMNtYPLM"
+				},
+				{
+					"id": "N59eghaBpM7"
+				},
+				{
+					"id": "E1pXvzyZzKB"
+				},
+				{
+					"id": "cW0odY9vhrd"
+				},
+				{
+					"id": "SU1j9CmCuW9"
+				},
+				{
+					"id": "fJ7Qi1zcdAR"
+				},
+				{
+					"id": "DI9JgEJ3t8v"
+				}
+			],
+			"id": "TIo5wZmgN8F",
+			"lastUpdated": "2020-09-17T06:52:46.991",
+			"name": "COVID-19",
+			"publicAccess": "r-------",
+			"shortName": "COVID-19",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_NEW_CONF_PROB_HW_CASES",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Cases Among Health Workers (Confirmed + Probable)",
+			"id": "SU1j9CmCuW9",
+			"lastUpdated": "2020-10-06T06:01:48.973",
+			"legendSets": [],
+			"name": "COVID19 - New Cases Among HW (Confirmed + Probable)",
+			"publicAccess": "r-------",
+			"shortName": "New Cases Among HW (Confirmed + Probable)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"code": "CV19_NEW_CONF_CASES",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Confirmed Cases",
+			"id": "bmbNyNoJcXP",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Confirmed Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Confirmed Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"code": "CV19_NEW_CONF_DEATHS",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Confirmed Deaths",
+			"id": "rBw83gVQLHK",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Confirmed Deaths",
+			"publicAccess": "r-------",
+			"shortName": "New Confirmed Deaths",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_NEW_CONF_PROB_HW_DEATHS",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Deaths Among Health Workers (Confirmed + Probable)",
+			"id": "DI9JgEJ3t8v",
+			"lastUpdated": "2020-10-06T06:02:04.554",
+			"legendSets": [],
+			"name": "COVID19 - New Deaths Among HW (Confirmed + Probable)",
+			"publicAccess": "r-------",
+			"shortName": "New Deaths Among HW (Confirmed + Probable)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_NEW_CONF_PROB_DISCHARGED",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Discharged Cases",
+			"id": "fJ7Qi1zcdAR",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Discharged Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Discharged Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_NEW_CONF_PROB_HOSPITALIZED",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Hospitalized Cases",
+			"id": "cW0odY9vhrd",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Hospitalized Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Hospitalized Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"code": "CV19_NEW_PROB_CASES",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Probable Cases",
+			"id": "VnkErE22ELJ",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Probable Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Probable Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "UPxdJOxz2I7"
+			},
+			"code": "CV19_NEW_PROB_DEATHS",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "New Probable Deaths",
+			"id": "N59eghaBpM7",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - New Probable Deaths",
+			"publicAccess": "r-------",
+			"shortName": "New Probable Deaths",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_TESTED",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "Number of Persons Tested for COVID-19",
+			"id": "E1pXvzyZzKB",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - Tested",
+			"publicAccess": "r-------",
+			"shortName": "Tested",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_TESTED_PCR",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "Number of persons Tested with PCR Assay",
+			"id": "pZtyMNtYPLM",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - Tested with PCR Assay",
+			"publicAccess": "r-------",
+			"shortName": "Tested with PCR Assay",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "COUNT",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "CV19_TRANS_CLASS",
+			"created": "2020-09-17T06:27:03.620",
+			"domainType": "AGGREGATE",
+			"formName": "Transmission Classification",
+			"id": "sWCFbUawFDa",
+			"lastUpdated": "2020-09-17T06:27:03.620",
+			"legendSets": [],
+			"name": "COVID19 - Transmission Classification",
+			"optionSet": {
+				"id": "QLANS0Gen0m"
+			},
+			"publicAccess": "r-------",
+			"shortName": "Transmission Classification",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		}
+	],
+	"dataSets": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "AGG_WEEKLY_SURV",
+			"compulsoryDataElementOperands": [],
+			"compulsoryFieldsCompleteOnly": false,
+			"created": "2020-09-17T06:59:07.864",
+			"dataElementDecoration": false,
+			"dataInputPeriods": [],
+			"dataSetElements": [
+				{
+					"dataElement": {
+						"id": "cW0odY9vhrd"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "VnkErE22ELJ"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "pZtyMNtYPLM"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "DI9JgEJ3t8v"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "fJ7Qi1zcdAR"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "N59eghaBpM7"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "bmbNyNoJcXP"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "E1pXvzyZzKB"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "sWCFbUawFDa"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "rBw83gVQLHK"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "SU1j9CmCuW9"
+					},
+					"dataSet": {
+						"id": "uKtOZwDnIpM"
+					}
+				}
+			],
+			"expiryDays": 0,
+			"fieldCombinationRequired": false,
+			"id": "uKtOZwDnIpM",
+			"indicators": [],
+			"lastUpdated": "2020-09-17T07:04:36.881",
+			"legendSets": [],
+			"mobile": false,
+			"name": "COVID19 - Aggregate Weekly Surveillance",
+			"notifyCompletingUser": false,
+			"noValueRequiresComment": false,
+			"openFuturePeriods": 0,
+			"organisationUnits": [],
+			"periodType": "Weekly",
+			"publicAccess": "r-r-----",
+			"renderAsTabs": false,
+			"renderHorizontally": true,
+			"shortName": "Aggregate Weekly Surveillance",
+			"skipOffline": false,
+			"timelyDays": 15,
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validCompleteOnly": false,
+			"version": 2
+		}
+	],
+	"indicatorGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-09-17T07:12:21.838",
+			"id": "UGXgY58CxjG",
+			"indicators": [
+				{
+					"id": "yzyWxXoSCny"
+				},
+				{
+					"id": "ZTklbd8JtLn"
+				},
+				{
+					"id": "VJHMO9gHkV5"
+				},
+				{
+					"id": "TmKNBHtBx6D"
+				},
+				{
+					"id": "x6IelBioEX1"
+				},
+				{
+					"id": "K2JqazsxhvP"
+				},
+				{
+					"id": "NP88sGFKpCQ"
+				},
+				{
+					"id": "DnleIypnqxJ"
+				},
+				{
+					"id": "pxqFjCNLkzD"
+				},
+				{
+					"id": "jgyO0rV708H"
+				},
+				{
+					"id": "C6A59SObXV6"
+				},
+				{
+					"id": "U89bOzPbFyA"
+				},
+				{
+					"id": "cJZS7kSFFGl"
+				},
+				{
+					"id": "LeNVLm6SL1x"
+				}
+			],
+			"lastUpdated": "2020-10-06T05:54:04.828",
+			"name": "COVID19",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				}
+			]
+		}
+	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_ACTIVE_CASES",
+			"created": "2020-10-05T17:10:00.387",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "ZTklbd8JtLn",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-10-06T06:01:03.599",
+			"legendSets": [],
+			"name": "COVID19 - Active cases",
+			"numerator": "(#{bmbNyNoJcXP} + #{VnkErE22ELJ}) - (#{fJ7Qi1zcdAR}+ #{rBw83gVQLHK}+#{N59eghaBpM7})",
+			"numeratorDescription": "Active Cases",
+			"publicAccess": "r-------",
+			"shortName": "Active cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_CASE_FATALITY_RATE",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "#{bmbNyNoJcXP}+#{VnkErE22ELJ}",
+			"denominatorDescription": "All cases (Confirmed + Probable)",
+			"id": "LeNVLm6SL1x",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-05T20:32:51.397",
+			"legendSets": [],
+			"name": "COVID19 - Case fatality rate (%)",
+			"numerator": "#{rBw83gVQLHK}+#{N59eghaBpM7}",
+			"numeratorDescription": "Death (Confirmed + Probable)",
+			"publicAccess": "r-------",
+			"shortName": "Case Fatality rate (%)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_CASE_FATALITY_RATE_HW",
+			"created": "2020-10-05T20:09:07.854",
+			"denominator": "#{SU1j9CmCuW9}",
+			"denominatorDescription": "New Cases Among HW (Confirmed + Probable)",
+			"id": "NP88sGFKpCQ",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-06T06:00:06.742",
+			"legendSets": [],
+			"name": "COVID19 - Case fatality rate among HW (%)",
+			"numerator": "#{DI9JgEJ3t8v}",
+			"numeratorDescription": "New Deaths Among HW (Confirmed + Probable)",
+			"publicAccess": "r-------",
+			"shortName": "Case fatality rate HW (%)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_CLOSED_CASES",
+			"created": "2020-10-05T16:55:24.138",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "VJHMO9gHkV5",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-10-06T05:56:04.304",
+			"legendSets": [],
+			"name": "COVID19 - Closed cases",
+			"numerator": "#{fJ7Qi1zcdAR} + #{rBw83gVQLHK}+#{N59eghaBpM7}",
+			"numeratorDescription": "Closed cases",
+			"publicAccess": "r-------",
+			"shortName": "Closed cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_NEW_CONF_CASES",
+			"created": "2020-09-17T06:15:39.811",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "TmKNBHtBx6D",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.811",
+			"legendSets": [],
+			"name": "COVID19 - New Confirmed cases",
+			"numerator": "#{bmbNyNoJcXP}",
+			"numeratorDescription": "New Confirmed cases",
+			"publicAccess": "r-------",
+			"shortName": "New Confirmed cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_NEW_CONF_DEATHS",
+			"created": "2020-09-17T06:15:39.811",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "yzyWxXoSCny",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.811",
+			"legendSets": [],
+			"name": "COVID19 - New Confirmed Deaths",
+			"numerator": "#{rBw83gVQLHK}",
+			"numeratorDescription": "New Confirmed Deaths",
+			"publicAccess": "r-------",
+			"shortName": "New Confirmed Deaths",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_NEW_CONF_PROB_DISCHARGED",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "U89bOzPbFyA",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.812",
+			"legendSets": [],
+			"name": "COVID19 - New Discharged Cases",
+			"numerator": "#{fJ7Qi1zcdAR}",
+			"numeratorDescription": "New Discharged Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Discharged Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_NEW_CONF_PROB_HOSPITALIZED",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "DnleIypnqxJ",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.812",
+			"legendSets": [],
+			"name": "COVID19 - New Hospitalized Cases",
+			"numerator": "#{cW0odY9vhrd}",
+			"numeratorDescription": "New Hospitalized Cases",
+			"publicAccess": "r-------",
+			"shortName": "New Hospitalized Cases",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_POSITIVITY_RATE",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "#{E1pXvzyZzKB}",
+			"denominatorDescription": "Tested",
+			"id": "C6A59SObXV6",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-05T20:47:39.198",
+			"legendSets": [],
+			"name": "COVID19 - Positivity rate (%)",
+			"numerator": "#{bmbNyNoJcXP}",
+			"numeratorDescription": "New Confirmed cases",
+			"publicAccess": "r-------",
+			"shortName": "Positivity rate (%)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_%_HW_AMONGST_REPORTED_CASES",
+			"created": "2020-10-05T20:16:49.246",
+			"denominator": "#{bmbNyNoJcXP}",
+			"denominatorDescription": "New Confirmed Cases",
+			"id": "x6IelBioEX1",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-06T06:25:51.129",
+			"legendSets": [],
+			"name": "COVID19 - Proportion of HW amongst reported cases (%)",
+			"numerator": "#{SU1j9CmCuW9}",
+			"numeratorDescription": "New Cases Among HW (Confirmed + Probable)",
+			"publicAccess": "r-------",
+			"shortName": "HW among confirmed cases (%)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_%_PCR_TESTS",
+			"created": "2020-10-05T20:35:29.939",
+			"denominator": "#{E1pXvzyZzKB}",
+			"denominatorDescription": "Tested",
+			"id": "cJZS7kSFFGl",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-05T20:35:29.939",
+			"legendSets": [],
+			"name": "COVID19 - Proportion of PCR tests (%)",
+			"numerator": "#{pZtyMNtYPLM}",
+			"numeratorDescription": "Tested with PCR Assay",
+			"publicAccess": "r-------",
+			"shortName": "Proportion of PCR tests",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_RECOVERY_RATE",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "#{bmbNyNoJcXP}+#{VnkErE22ELJ}",
+			"denominatorDescription": "All cases (Confirmed + Probable)",
+			"id": "K2JqazsxhvP",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2020-10-05T17:31:07.203",
+			"legendSets": [],
+			"name": "COVID19 - Recovery rate (%)",
+			"numerator": "#{fJ7Qi1zcdAR}",
+			"numeratorDescription": "New Discharged Cases",
+			"publicAccess": "r-------",
+			"shortName": "Recovery rate (%)",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_TESTED",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "pxqFjCNLkzD",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.812",
+			"legendSets": [],
+			"name": "COVID19 - Tested",
+			"numerator": "#{E1pXvzyZzKB}",
+			"numeratorDescription": "Tested",
+			"publicAccess": "r-------",
+			"shortName": "Tested",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CV19_TESTED_PCR",
+			"created": "2020-09-17T06:15:39.812",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "jgyO0rV708H",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2020-09-17T06:15:39.812",
+			"legendSets": [],
+			"name": "COVID19 - Tested with PCR Assay",
+			"numerator": "#{pZtyMNtYPLM}",
+			"numeratorDescription": "Tested with PCR Assay",
+			"publicAccess": "r-------",
+			"shortName": "Tested with PCR Assay",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:42:43.716",
+			"factor": 1,
+			"id": "kHy61PbChXr",
+			"lastUpdated": "2020-09-09T10:37:13.192",
+			"name": "Numerator only (number)",
+			"number": true,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement"
+				}
+			]
+		},
+		{
+			"created": "2015-03-23T01:41:28.852",
+			"factor": 100,
+			"id": "hmSnCXmLYwt",
+			"lastUpdated": "2018-01-16T09:52:47.072",
+			"name": "Percentage",
+			"number": false,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pourcentage"
+				}
+			]
+		}
+	],
+	"maps": [
+		{
+			"basemap": "bingLight",
+			"created": "2020-10-05T18:04:56.322",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "AwrThZVBW5g",
+			"lastUpdated": "2020-10-05T18:04:56.322",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2020-10-05T18:04:56.322",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "BigUFwCduUF",
+					"displayName": "BigUFwCduUF",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "BigUFwCduUF",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2020-10-05T18:04:56.322",
+					"layer": "boundary",
+					"name": "BigUFwCduUF",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2020-10-05T18:04:56.322",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "TmKNBHtBx6D"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
+					"displayFormName": "COVID19 - New Confirmed cases",
+					"displayName": "COVID19 - New Confirmed cases",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "y9n0wxeewlR",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2020-10-05T18:04:56.322",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVID19 - New Confirmed cases",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
+				}
+			],
+			"name": "COVID19 - Cumulative confirmed cases by subnational",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"options": [
+		{
+			"attributeValues": [],
+			"code": "CLUSTERS",
+			"created": "2020-09-17T06:16:25.036",
+			"id": "NzPq5MlxCmh",
+			"lastUpdated": "2020-09-17T06:16:25.082",
+			"name": "Clusters",
+			"optionSet": {
+				"id": "QLANS0Gen0m"
+			},
+			"sortOrder": 3,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "COMMUNITY",
+			"created": "2020-09-17T06:16:25.036",
+			"id": "zUdhwKZdpT8",
+			"lastUpdated": "2020-09-17T06:16:25.082",
+			"name": "Community",
+			"optionSet": {
+				"id": "QLANS0Gen0m"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "NO_CASES",
+			"created": "2020-09-17T06:16:25.035",
+			"id": "mF5r1p7sKcq",
+			"lastUpdated": "2020-09-17T06:16:25.081",
+			"name": "No cases",
+			"optionSet": {
+				"id": "QLANS0Gen0m"
+			},
+			"sortOrder": 1,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "SPORADIC",
+			"created": "2020-09-17T06:16:25.036",
+			"id": "AXl3Z9rLjLi",
+			"lastUpdated": "2020-09-17T06:16:25.082",
+			"name": "Sporadic",
+			"optionSet": {
+				"id": "QLANS0Gen0m"
+			},
+			"sortOrder": 2,
+			"translations": []
+		}
+	],
+	"optionSets": [
+		{
+			"attributeValues": [],
+			"code": "CV19_TRANS_CLASS",
+			"created": "2020-09-17T06:16:13.537",
+			"id": "QLANS0Gen0m",
+			"lastUpdated": "2020-09-17T06:16:13.537",
+			"name": "Transmission Classification",
+			"options": [
+				{
+					"id": "mF5r1p7sKcq"
+				},
+				{
+					"id": "AXl3Z9rLjLi"
+				},
+				{
+					"id": "NzPq5MlxCmh"
+				},
+				{
+					"id": "zUdhwKZdpT8"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT",
+			"version": 5
+		}
+	],
+	"package": "COVID19_COMPLETE_V2.0_DHIS2.34_2020-10-12T16:12",
+	"sections": [
+		{
+			"attributeValues": [],
+			"created": "2020-09-17T07:02:07.877",
+			"dataElements": [
+				{
+					"id": "SU1j9CmCuW9"
+				},
+				{
+					"id": "bmbNyNoJcXP"
+				},
+				{
+					"id": "rBw83gVQLHK"
+				},
+				{
+					"id": "DI9JgEJ3t8v"
+				},
+				{
+					"id": "fJ7Qi1zcdAR"
+				},
+				{
+					"id": "cW0odY9vhrd"
+				},
+				{
+					"id": "VnkErE22ELJ"
+				},
+				{
+					"id": "N59eghaBpM7"
+				},
+				{
+					"id": "E1pXvzyZzKB"
+				},
+				{
+					"id": "pZtyMNtYPLM"
+				},
+				{
+					"id": "sWCFbUawFDa"
+				}
+			],
+			"dataSet": {
+				"id": "uKtOZwDnIpM"
+			},
+			"greyedFields": [],
+			"id": "i9rpQqB3Hfh",
+			"indicators": [],
+			"lastUpdated": "2020-09-17T07:02:07.877",
+			"name": "Aggregate Weekly Surveillance",
+			"showColumnTotals": false,
+			"showRowTotals": true,
+			"sortOrder": 1,
+			"translations": []
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2020-03-19T18:44:15.212",
+			"id": "DoYehxUvmwT",
+			"lastUpdated": "2020-04-24T11:20:53.550",
+			"managedGroups": [],
+			"name": "COVID19 access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "F0YhCM0Pi73"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-03-19T12:42:53.559",
+			"id": "w4iJeNKy9br",
+			"lastUpdated": "2020-09-21T19:31:11.982",
+			"managedGroups": [],
+			"name": "COVID19 admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "F0YhCM0Pi73"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2020-10-12T13:32:51.501",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "F0YhCM0Pi73",
+			"lastUpdated": "2020-10-12T13:39:11.720",
+			"organisationUnits": [],
+			"surname": "COVID19",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2020-10-12T13:34:50.530",
+				"disabled": false,
+				"displayName": "Admin COVID19",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "LaHRBxbAm9S",
+				"invitation": false,
+				"lastUpdated": "2020-10-12T13:34:50.530",
+				"name": "Admin COVID19",
+				"passwordLastUpdated": "2020-10-12T13:34:50.530",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "F0YhCM0Pi73"
+				},
+				"username": "covid19",
+				"userRoles": []
+			}
+		}
+	],
+	"validationRuleGroups": [
+		{
+			"attributeValues": [],
+			"code": "CV19",
+			"created": "2020-10-06T06:28:21.505",
+			"id": "WY7h5pKok2I",
+			"lastUpdated": "2020-10-06T06:54:01.669",
+			"name": "COVID-19",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			],
+			"validationRules": [
+				{
+					"id": "gZwUbrTOa0g"
+				},
+				{
+					"id": "bO8rXNzj0iR"
+				}
+			]
+		}
+	],
+	"validationRules": [
+		{
+			"attributeValues": [],
+			"created": "2020-10-06T06:31:35.400",
+			"id": "bO8rXNzj0iR",
+			"importance": "MEDIUM",
+			"instruction": "New Cases hospitalised should be less than or equal to All new cases reported",
+			"lastUpdated": "2020-10-06T06:50:08.181",
+			"leftSide": {
+				"description": "New Cases hospitalised",
+				"expression": "#{cW0odY9vhrd}",
+				"missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+				"slidingWindow": false
+			},
+			"name": "COVID19 - New Cases hospitalised <= All New Cases",
+			"operator": "less_than_or_equal_to",
+			"organisationUnitLevels": [],
+			"periodType": "Weekly",
+			"publicAccess": "r-------",
+			"rightSide": {
+				"description": "All New Cases",
+				"expression": "#{VnkErE22ELJ} + #{bmbNyNoJcXP}",
+				"missingValueStrategy": "SKIP_IF_ALL_VALUES_MISSING",
+				"slidingWindow": false
+			},
+			"skipFormValidation": false,
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2020-10-06T06:43:55.970",
+			"id": "gZwUbrTOa0g",
+			"importance": "MEDIUM",
+			"instruction": "Test with PCR should be less than or equal to tested",
+			"lastUpdated": "2020-10-06T06:43:55.970",
+			"leftSide": {
+				"description": "Tested with PCR",
+				"expression": "#{pZtyMNtYPLM}",
+				"missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+				"slidingWindow": false
+			},
+			"name": "COVID19 - PCR tests <= tested",
+			"operator": "less_than_or_equal_to",
+			"organisationUnitLevels": [],
+			"periodType": "Weekly",
+			"publicAccess": "r-------",
+			"rightSide": {
+				"description": "Tested",
+				"expression": "#{E1pXvzyZzKB}",
+				"missingValueStrategy": "SKIP_IF_ANY_VALUE_MISSING",
+				"slidingWindow": false
+			},
+			"skipFormValidation": false,
+			"translations": [],
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"displayName": "COVID19 admin",
+					"id": "w4iJeNKy9br",
+					"userGroupUid": "w4iJeNKy9br"
+				},
+				{
+					"access": "r-------",
+					"displayName": "COVID19 access",
+					"id": "DoYehxUvmwT",
+					"userGroupUid": "DoYehxUvmwT"
+				}
+			]
+		}
+	],
+	"visualizations": [
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T17:20:31.112",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ZTklbd8JtLn"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "VJHMO9gHkV5"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "ALL",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": true,
+			"hideTitle": true,
+			"id": "Sf2KIcQRyMj",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T17:20:31.112",
+			"name": "COVID19 - Active and Closed Cases last 12 weeks",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": true,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "STACKED_COLUMN",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T17:44:10.540",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "LeNVLm6SL1x"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "K2JqazsxhvP"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "ALL",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "pQ6jw6r59Op",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T17:44:10.540",
+			"name": "COVID19 - Case recovery and fatality rates last 12 weeks",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": true,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T19:49:10.484",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "VJHMO9gHkV5"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ZTklbd8JtLn"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "ALL",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": true,
+			"hideTitle": true,
+			"id": "neIuzgRUO0N",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T19:49:10.484",
+			"name": "COVID19 - Closed and active cases at subnational last months",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "STACKED_COLUMN",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "bqoVhX2RfG4"
+						},
+						{
+							"id": "EVYKU2fIc6G"
+						},
+						{
+							"id": "SZJNeRyrh22"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "XxEFGdwxOJ0"
+					}
+				}
+			],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"XxEFGdwxOJ0"
+			],
+			"completedOnly": false,
+			"created": "2020-10-06T05:46:54.796",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "TmKNBHtBx6D"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"dx"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "ALL",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "E94X1H21okK",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-06T05:47:17.642",
+			"name": "COVID19 - Confirmed cases by sex in the last 14 weeks",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": true,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "STACKED_COLUMN",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T16:44:10.450",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "pxqFjCNLkzD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "TmKNBHtBx6D"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "DnleIypnqxJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "U89bOzPbFyA"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "yzyWxXoSCny"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "E6w4iwPkaRM",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T19:57:56.395",
+			"name": "COVID19 - Cumulative tests conducted, cases reported, hospitalised, discharged and deaths  ",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [
+				{
+					"categoryOptionGroups": [
+						{
+							"id": "yuathFHLjNe"
+						},
+						{
+							"id": "Mcv3dvoK2iM"
+						},
+						{
+							"id": "RoYZKp6iDnH"
+						},
+						{
+							"id": "qiaJA9sMzj2"
+						},
+						{
+							"id": "p84eezwJhMd"
+						},
+						{
+							"id": "u87kL0SUYZa"
+						},
+						{
+							"id": "nuU9qXctcQE"
+						},
+						{
+							"id": "IpuKFEXhtUJ"
+						},
+						{
+							"id": "JrQqLgsGgFr"
+						},
+						{
+							"id": "Bap549vCg8U"
+						},
+						{
+							"id": "t1JMgMVyoac"
+						},
+						{
+							"id": "FplLHwIitbU"
+						},
+						{
+							"id": "v1e6orGTL3f"
+						},
+						{
+							"id": "SZJNeRyrh22"
+						}
+					],
+					"categoryOptionGroupSet": {
+						"id": "nd6HGxbW3D5"
+					}
+				}
+			],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"nd6HGxbW3D5"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T19:44:00.126",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "yzyWxXoSCny"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"dx"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "ALL",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "WcRHBfw09Iq",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T19:44:00.126",
+			"name": "COVID19 - Deaths by age groups last weeks",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": true,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "AREA",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T20:51:02.250",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "NP88sGFKpCQ"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": true,
+			"hideTitle": true,
+			"id": "BGGBmj9Yuu7",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T20:51:02.250",
+			"name": "COVID19 - Fatality rate amongst HW",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "GAUGE",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T20:50:24.455",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "x6IelBioEX1"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": true,
+			"hideTitle": true,
+			"id": "oaBx9hR7FFR",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T20:50:24.455",
+			"name": "COVID19 - HW amongst reported cases this year",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "GAUGE",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T16:48:56.221",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "TmKNBHtBx6D"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "yzyWxXoSCny"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "eha82bnB8N1",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T19:57:38.817",
+			"name": "COVID19 - New confirmed cases and deaths in the last 12 weeks",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": true,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": true,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "LINE",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2020-10-05T20:46:47.716",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "pxqFjCNLkzD"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "jgyO0rV708H"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "cJZS7kSFFGl"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "TmKNBHtBx6D"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "C6A59SObXV6"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "jTGq07MlmMp",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2020-10-05T20:46:47.716",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "COVID19 - Tested, tests with PCR and positivity rate by subnational level this year",
+			"noSpaceBetweenColumns": false,
+			"numberType": "VALUE",
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-r-----",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"ou"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"type": "PIVOT_TABLE",
+			"user": {
+				"id": "F0YhCM0Pi73"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
+		}
+	]
+}
