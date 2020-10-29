@@ -1,37 +1,25 @@
-## TB case surveillance tracker installation guide
+# TB case surveillance tracker installation guide
 
-<p style="text-align: right">
-Last updated 04/08/2020</p>
+Last updated 04/08/2020
 
+Package Version 1.0.0
 
-<p style="text-align: right">
-Package Version 1.0.0</p>
+DHIS2 Version compatibility 2.33.5 and above
 
+Demo: [https://who-demos.dhis2.org/tracker_demo](https://who-demos.dhis2.org/tracker_demo)
 
-<p style="text-align: right">
-DHIS2 Version compatibility 2.33.5 and above</p>
-
-
-<p style="text-align: right">
-Demo: <a href="https://who-demos.dhis2.org/tracker_demo">https://who-demos.dhis2.org</a></p>
-
-Username: TB_Demo </br>
+Username: TB_Demo
 Password: TBDemo2020!
 
-
-
-### Overview
+## Overview
 
 The TB Case Surveillance tracker package was developed using DHIS2.33.5. This was done in order to support some of the latest features in DHIS2. In order to use the package, it is recommended that you install it into a DHIS2 instance using DHIS2 2.33.5 or above. If you will be setting this up on a new instance, please refer to the [DHIS2 installation guide](https://docs.dhis2.org/master/en/dhis2_system_administration_guide/installation.html). This document covers the installation of the following packages:
-
-
 
 1. TB Case Surveillance tracker program
 
 You will have to follow the instructions to ensure that the package is installed and configured correctly.
 
-
-### Installation
+## Installation
 
 Installation of the module consists of several steps:
 
@@ -42,128 +30,54 @@ Installation of the module consists of several steps:
 
 It is recommended to first read through each section before starting the installation and configuration process in DHIS2. Sections that are not applicable have been identified, depending on if you are importing into a new instance of DHIS2 or a DHIS2 instance with metadata already present. The procedure outlined in this document should be tested in a test/staging environment before either being repeated or transferred to a production instance of DHIS2.
 
-
-### Requirements 
+## Requirements 
 
 In order to install the module, an administrator user account on DHIS2 is required. The procedure outlined in this document should be tested in a test/staging environment before being performed on a production instance of DHIS2.
 
 Great care should be taken to ensure that the server itself and the DHIS2 application is well secured, to restrict access to the data being collected. Details on securing a DHIS2 system is outside the scope of this document, and we refer to the [DHIS2 documentation](http://dhis2.org/documentation).
 
-### Preparing the metadata file
+## Preparing the metadata file
 
 **NOTE:** If you are installing the package on a new instance of DHIS2, you can skip the “Preparing the metadata file” section and move immediately to the section on “
 
-### Importing a metadata file into DHIS2
+## Importing a metadata file into DHIS2
 
 While not always necessary, it can often be advantageous to make certain modifications to the metadata file before importing it into DHIS2.
 
-#### Default data dimension (if applicable)
+### Default data dimension (if applicable)
 
 In early versions of DHIS2, the UID of the default data dimension was auto-generated. Thus, while all DHIS2 instances have a default category option, data element category, category combination and category option combination, the UIDs of these defaults can be different. Later versions of DHIS2 have hardcoded UIDs for the default dimension, and these UIDs are used in the configuration packages.
 
 To avoid conflicts when importing the metadata, it is advisable to search and replace the entire .json file for all occurrences of these default objects, replacing UIDs of the .json file with the UIDs of the database in which the file will be imported. Table 1 shows the UIDs which should be replaced, as well as the API endpoints to identify the existing UIDs.
 
-
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Category
-   </td>
-   <td>GLevLNI9wkl
-   </td>
-   <td>../api/categories.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option
-   </td>
-   <td>xYerKDKCefk
-   </td>
-   <td>../api/categoryOptions.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category combination
-   </td>
-   <td>bjDvmb4bfuf
-   </td>
-   <td>../api/categoryCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option combination
-   </td>
-   <td>HllvX50cXC0
-   </td>
-   <td>../api/categoryOptionCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-</table>
-
+|Object|UID|API endpoint|
+|:--|:--|:--|
+|Category|GLevLNI9wkl|`../api/categories.json?filter=name:eq:default`|
+|Category option|xYerKDKCefk|`../api/categoryOptions.json?filter=name:eq:default`|
+|Category combination|bjDvmb4bfuf|`../api/categoryCombos.json?filter=name:eq:default`|
+|Category option combination|HllvX50cXC0|`../api/categoryOptionCombos.json?filter=name:eq:default`|
 
 For example, if importing a configuration package into https://play.dhis2.org/demo, the UID of the default category option combination could be identified through https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default as bRowv6yZOF2. 
 
 You could then search and replace all occurrences of HllvX50cXC0 with bRowv6yZOF2 in the .json file, as that is the ID of default in the system you are importing into. **_Note that this search and replace operation must be done with a plain text editor_**, not a word processor like Microsoft Word.
 
 
-#### Indicator types
+### Indicator types
 
 Indicator type is another type of object that can create import conflict because certain names are used in different DHIS2 databases (.e.g "Percentage"). Since Indicator types are defined simply by their factor and whether or not they are simple numbers without a denominator, they are unambiguous and can be replaced through a search and replace of the UIDs. This avoids potential import conflicts, and avoids creating duplicate indicator types. Table 2 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
 
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Percentage
-   </td>
-   <td>hmSnCXmLYwt
-   </td>
-   <td>../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100
-   </td>
-  </tr>
-</table>
+|Object|UID|API endpoint|
+|:--|:--|:--|
+|Percentage|hmSnCXmLYwt|`../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100`|
 
-
-
-#### Tracked Entity Type
+### Tracked Entity Type
 
 Like indicator types, you may have already existing tracked entity types in your DHIS2 database. The references to the tracked entity type should be changed to reflect what is in your system so you do not create duplicates. Table 3 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
 
-
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Person
-   </td>
-   <td>MCPQUTHX1Ze
-   </td>
-   <td>../api/trackedEntityTypes.json?filter=name:eq:Person
-   </td>
-  </tr>
-</table>
-
-
+|Object|UID|API endpoint|
+|:--|:--|:--|
+|Person|MCPQUTHX1Ze|`../api/trackedEntityTypes.json?filter=name:eq:Person`|
 
 ### Importing metadata
 
@@ -195,11 +109,9 @@ A third and more complicated approach is to modify the .json file to re-use exis
 *   the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
 *   future updates to the configuration package will be complicated.
 
-
 ### Additional configuration
 
 Once all metadata has been successfully imported, there are a few steps that need to be taken before the module is functional.
-
 
 #### Sharing
 
@@ -219,113 +131,17 @@ There are four user groups that come with the package:
 
 By default the following is assigned to these user groups
 
-<table>
-  <tr>
-   <td rowspan="2" ><strong>Object</strong>
-   </td>
-   <td colspan="4" ><strong>User Group</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><em>TB access</em>
-   </td>
-   <td><em>TB admin</em>
-   </td>
-   <td><em>TB data capture</em>
-   </td>
-   <td><em>TB lab data capture</em>
-   </td>
-  </tr>
-  <tr>
-   <td><em>Tracked entity type</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program Stages</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-   <td>
-   <strong>Group access is limited to stages: </strong><em>TB Registration and Laboratory Results<em>
-  <p>
-   Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Dashboards</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-  </tr>
-</table>
-
+|Object|User Group: <br> TB access|User Group: <br> TB admin|User Group: <br> TB data capture|User Group: <br> TB lab data capture|
+|:--|:--|:--|:--|:--|
+|Tracked entity type|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Metadata:** can view <br> **Data:** can capture and view|
+|Program|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Metadata:** can view <br> **Data:** can capture and view|
+|Program Stages|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Group access is limited to stages: TB Registration and Laboratory Results** <br> **Metadata:** can view <br> **Data:** can capture and view|
+|Dashboards|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can view|
 
 You will want to assign your users to the appropriate user group based on their role within the system. You may want to enable sharing for other objects in the package depending on your set up. Refer to the [DHIS2 Documentation](https://docs.dhis2.org/master/en/dhis2_user_manual_en/about-sharing-of-objects.html) for more information on configuring sharing.
 
 
-#### User Roles
+### User Roles
 
 Users will need user roles in order to engage with the various applications within DHIS2. The following minimum roles are recommended:
 
@@ -334,11 +150,11 @@ Users will need user roles in order to engage with the various applications with
 
 Refer to the [DHIS2 Documentation](http://dhis2.org/documentation) for more information on configuring user roles.
 
-#### Organisation Units
+### Organisation Units
 
 You must assign the program to organisation units within your own hierarchy in order to be able to see the program in tracker capture.
 
-#### Duplicated metadata
+### Duplicated metadata
 
 **NOTE:** This section only applies if you are importing into a DHIS2 database in which there is already meta-data present. If you are working with a new DHIS2 instance, you may skip this section.
 
@@ -346,7 +162,7 @@ Even when metadata has been successfully imported without any import conflicts, 
 
 One important thing to keep in mind is that DHIS2 has tools that can hide some of the complexities of potential duplications in metadata. For example, where duplicate option sets exist, they can be hidden for groups of users through [sharing](https://docs.dhis2.org/master/en/user/html/sharing.html).
 
-#### Constants
+### Constants
 
 TB Case Surveillance Tracker package includes a set of tests and a list of drugs that can be modified by the implementing country according to national context (e.g. which drugs and tests are used/available in country). The use of constants and corresponding program rules enables a system admin in an implementing country to easily ‘turn on’ or ‘turn off’ types of drugs and tests depending on availability in country. When the complete package is installed into a DHIS2 instance, all data elements for all tests and drugs included in this package are included in the system. The constant displaying lists of drugs in the Treatment Stage is set to **2** while all other constants are set to **1** (enabling the related data elements for data entry) and can be set to **2** by an implementer or system admin according to country context if not needed (disabling the related data elements for data entry). If a test or drug later becomes available in the country, an admin can simply re-enable the data elements by changing the constant from a value of **2** to a value of **1**.
 
@@ -397,11 +213,11 @@ The use of list of first-line and second-line drugs in the treatment stage can b
 |:--|:--|
 |Lists of First-line and Second-line drugs|GxOlFoUKbHB|
 
-#### Configuring tracker capture interface, widgets and top bar
+### Configuring tracker capture interface, widgets and top bar
 
 You must configure tracker capture dashboard after the package has been installed. This configuration includes data entry forms, widgets and top bar.
 
-##### Data entry forms
+#### Data entry forms
 * After registering the first (test) case, access the **Settings** menu in the tracker capture form and select **Show/Hide Widgets**
 * Switch from **Timeline Data Entry** to **Tabular Data Entry**
 * Make sure that **Enrollment**, **Feedback** and **Profile** widgets are selected. Click **Close**.
@@ -412,12 +228,12 @@ You must configure tracker capture dashboard after the package has been installe
 |**Feedback**||
 |**Tabular Data Entry**||
 
-##### Top Bar
+#### Top Bar
 * Access the **Settings** menu and select **Top bar settings**
 * Select **Activate top bar**
 * Select required information fields and assign their **Sort order**
 
-|Recommended fields| Sort order |
+|Recommended fields|Sort order|
 |:--|:--|
 |**Attributes**||
 |TB Registration Number|2|
@@ -435,20 +251,17 @@ You must configure tracker capture dashboard after the package has been installe
 * Click **Save**
 * Return to the **Settings** menu. Click **Saved dashboard layout as default**. Lock layoit for all users.
 
-#### Reporting case-based data into aggregate TB reports
+### Reporting case-based data into aggregate TB reports
 The TB case-based surveillance tracker captures data that can be fed into standard, aggregate reporting (i.e. monthly, quarterly, or more frequently as determined by the country). An aggregate TB system design in DHIS2 can be accessed at [who.dhis2.org/documentation/#tb](https://who.dhis2.org/documentation/#tb)
 Mapping of **program indicators** in TB Case Surveillance tracker with **data elements** and **category option combinations** in the aggregate package is required for the reporting process.
 
-
-
-### Adapting the tracker program
+## Adapting the tracker program
 
 Once the programme has been imported, you might want to make certain modifications to the programme. Examples of local adaptations that _could_ be made include:
 
 *   Adding additional variables to the form.
 *   Adapting data element/option names according to national conventions.
 *   Adding translations to variables and/or the data entry form.
-*   Modifying program indicators based on local case definitions
+*   Modifying program indicators based on local case definitions.
 
-However, it is strongly recommended to take great caution if you decide to change or remove any of the included form/metadata. There is a danger that modifications could break functionality, for example program rules and program indicators. 
-
+However, it is strongly recommended to take great caution if you decide to change or remove any of the included form/metadata. There is a danger that modifications could break functionality, for example program rules and program indicators.
