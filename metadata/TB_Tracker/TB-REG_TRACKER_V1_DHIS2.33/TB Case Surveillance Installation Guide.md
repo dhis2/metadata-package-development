@@ -249,7 +249,7 @@ You must configure tracker capture dashboard after the package has been installe
 |HIV Status|6|
 
 * Click **Save**
-* Return to the **Settings** menu. Click **Saved dashboard layout as default**. Lock layoit for all users.
+* Return to the **Settings** menu. Click **Saved dashboard layout as default**. Lock layout for all users.
 
 ### Reporting case-based data into aggregate TB reports
 The TB case-based surveillance tracker captures data that can be fed into standard, aggregate reporting (i.e. monthly, quarterly, or more frequently as determined by the country). An aggregate TB system design in DHIS2 can be accessed at [who.dhis2.org/documentation/#tb](https://who.dhis2.org/documentation/#tb)
