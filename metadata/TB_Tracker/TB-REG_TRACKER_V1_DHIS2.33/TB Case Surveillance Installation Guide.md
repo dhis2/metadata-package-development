@@ -131,8 +131,9 @@ There are four user groups that come with the package:
 
 By default the following is assigned to these user groups
 
-|Object|User Group: <br> TB access|User Group: <br> TB admin|User Group: <br> TB data capture|User Group: <br> TB lab data capture|
+|Object|User Groups| | | |
 |:--|:--|:--|:--|:--|
+| |TB access|TB admin|TB data capture|TB lab data capture|
 |Tracked entity type|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Metadata:** can view <br> **Data:** can capture and view|
 |Program|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Metadata:** can view <br> **Data:** can capture and view|
 |Program Stages|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can capture and view|**Group access is limited to stages: TB Registration and Laboratory Results** <br> **Metadata:** can view <br> **Data:** can capture and view|
