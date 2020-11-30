@@ -38,9 +38,7 @@ Great care should be taken to ensure that the server itself and the DHIS2 applic
 
 ## Preparing the metadata file
 
-**NOTE:** If you are installing the package on a new instance of DHIS2, you can skip the “Preparing the metadata file” section and move immediately to the section on “
-
-## Importing a metadata file into DHIS2
+**NOTE:** If you are installing the package on a new instance of DHIS2, you can skip the “Preparing the metadata file” section and move immediately to the section on [Importing a metadata file into DHIS2](#importing-a-metadata-file-into-dhis2)
 
 While not always necessary, it can often be advantageous to make certain modifications to the metadata file before importing it into DHIS2.
 
