@@ -24,7 +24,7 @@ You will have to follow the instructions to ensure that the package is installed
 Installation of the module consists of several steps:
 
 1. [Preparing](#preparing-the-metadata-file) the metadata file.
-2. [Importing](#importing-a-metadata-file-into-dhis2) the metadata file into DHIS2.
+2. [Importing](#importing-metadata) the metadata file into DHIS2.
 3. [Configuring](#additional-configuration) the imported metadata.
 4. [Adapting](#adapting-the-tracker-program) the program after being imported
 
@@ -38,7 +38,7 @@ Great care should be taken to ensure that the server itself and the DHIS2 applic
 
 ## Preparing the metadata file
 
-**NOTE:** If you are installing the package on a new instance of DHIS2, you can skip the “Preparing the metadata file” section and move immediately to the section on [Importing a metadata file into DHIS2](#importing-a-metadata-file-into-dhis2)
+**NOTE:** If you are installing the package on a new instance of DHIS2, you can skip the “Preparing the metadata file” section and move immediately to the section on [Importing a metadata file into DHIS2](#importing-metadata)
 
 While not always necessary, it can often be advantageous to make certain modifications to the metadata file before importing it into DHIS2.
 
@@ -77,13 +77,13 @@ Like indicator types, you may have already existing tracked entity types in your
 |:--|:--|:--|
 |Person|MCPQUTHX1Ze|`../api/trackedEntityTypes.json?filter=name:eq:Person`|
 
-### Importing metadata
+## Importing metadata
 
 The .json metadata file is imported through the [Import/Export](https://docs.dhis2.org/master/en/user/html/import_export.html) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import of the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](#handling-import-conflicts) section below.
 
 If the "dry run"/"validate" import works without error, attempt to import the metadata. If the import succeeds without any errors, you can proceed to [configure](#additional-configuration) the module. In some cases, import conflicts or issues are not shown during the "dry run", but appear when the actual import is attempted. In this case, the import summary will list any errors that need to be resolved.
 
-#### Handling import conflicts
+### Handling import conflicts
 
 **NOTE:** If you are importing into a new DHIS2 instance, you will not have to worry about import conflicts, as there is nothing in the database you are importing to to conflict with. Follow the instructions to import the metadata then please proceed to the “[Additional configuration](#additional-configuration)” section.
 
@@ -111,7 +111,7 @@ A third and more complicated approach is to modify the .json file to re-use exis
 
 Once all metadata has been successfully imported, there are a few steps that need to be taken before the module is functional.
 
-#### Sharing
+### Sharing
 
 First, you will have to use the _Sharing_ functionality of DHIS2 to configure which users (user groups) should see the metadata and data associated with the programme as well as who can register/enter data into the program. By default, sharing has been configured for the following:
 
