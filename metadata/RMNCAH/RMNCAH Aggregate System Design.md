@@ -1,4 +1,4 @@
-﻿# RMNCAH Digital Data Package Aggregate System Design
+# RMNCAH Digital Data Package Aggregate System Design
 
 Last updated April 30, 2020
 DHIS2 Version compatibility: 2.30 - 2.34
