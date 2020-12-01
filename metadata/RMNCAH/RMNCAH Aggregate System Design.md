@@ -6,18 +6,18 @@ Demo: [https://who-demos.dhis2.org/demo](https://who-demos.dhis2.org/demo)
 
 ## Introduction
 
-This document describes the conceptual system design in DHIS2 for the Reproductive, Maternal, Newborn, Child and Adolescent Health (RMNCAH) configuration package for aggregate reporting. The package is designed to facilitate the capture and analysis of a core set of indicators through routine health management information systems (HMIS) as described in the [WHO Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1) (last updated October 2019). 
+This document describes the conceptual system design in DHIS2 for the Reproductive, Maternal, Newborn, Child and Adolescent Health (RMNCAH) configuration package for aggregate reporting. The package is designed to facilitate the capture and analysis of a core set of indicators through routine health management information systems (HMIS) as described in the [WHO Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1) (last updated October 2019).
 
 The RMNCAH package includes two main components:
 
-1. Aggregate data reporting component (data set, data elements, category combinations for required disaggregation, etc). 
+1. Aggregate data reporting component (data set, data elements, category combinations for required disaggregation, etc).
 2. Dashboard component:  focusing on how the data collection part of the configuration has been designed in DHIS2 (i.e. data sets and data elements).
 
 This document is intended for use by DHIS2 implementers at country and regional level to be able to support implementation and localisation of the configuration package while adhering to the design principles set forth.
 
 ## Overview
 
-The RMNCAH configuration package for aggregate reporting contains the following datasets for entering input data: 
+The RMNCAH configuration package for aggregate reporting contains the following datasets for entering input data:
 |Name|Periodicity|Purpose|
 |:--|:--|:--|
 |RMNCAH|Monthly|Reporting of health facility data related to reproductive, maternal, newborn, child and adolescent health|
@@ -28,96 +28,95 @@ This section will present the main sections (tables) of the immunisation dataset
 
 ### Antenatal Care 1st Visit
 
-![Antenatal Care 1st Visit](images/image01.png "Antenatal Care 1st Visit")
+![Antenatal Care 1st Visit](resources/images/image01.png "Antenatal Care 1st Visit")
 
-*   This section has been configured with data elements using a disaggregation for age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarised automatically during data entry
-*   In analysis, this allows us to quickly add in the breakdown of ANC visits by age and pivot them as required. 
+* This section has been configured with data elements using a disaggregation for age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarised automatically during data entry
+* In analysis, this allows us to quickly add in the breakdown of ANC visits by age and pivot them as required.
 
 ### Maternal Health
 
-![Maternal Health](images/image02.png "Maternal Health")
+![Maternal Health](resources/images/image02.png "Maternal Health")
 
 ### Delivery by Age
 
-![Delivery by Age](images/image03.png "Delivery by Age")
+![Delivery by Age](resources/images/image03.png "Delivery by Age")
 
-*   Data elements contain age disaggregation; the total is summarised automatically. 
+* Data elements contain age disaggregation; the total is summarised automatically.
 
 ### Delivery: Live & Still births
 
-![Delivery: Live & Still births](images/image04.png "Delivery: Live & Still births")
+![Delivery: Live & Still births](resources/images/image04.png "Delivery: Live & Still births")
 
-*   The inclusion of ‘population live births’ and ‘live births in facility’ provide denominators for core coverage indicators, such as PNC coverage. 
+* The inclusion of ‘population live births’ and ‘live births in facility’ provide denominators for core coverage indicators, such as PNC coverage.
 
 ### Postpartum care
 
-![Postpartum care](images/image05.png "Postpartum care")
+![Postpartum care](resources/images/image05.png "Postpartum care")
 
-*   This section has been configured as individual data elements. No disaggregations are required here.
+* This section has been configured as individual data elements. No disaggregations are required here.
 
-### Family planning by age & sex 
+### Family planning by age & sex
 
-![Family planning by age & sex](images/image06.png "Family planning by age & sex")
+![Family planning by age & sex](resources/images/image06.png "Family planning by age & sex")
 
-*   This section has been configured with data elements using a disaggregation for sex (M/F) and  age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarised automatically during data entry
-*   In analysis, this allows us to quickly add in the breakdown of first-time family planning use by age & sex and pivot them as required. 
+* This section has been configured with data elements using a disaggregation for sex (M/F) and  age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarised automatically during data entry
+* In analysis, this allows us to quickly add in the breakdown of first-time family planning use by age & sex and pivot them as required.
 
 ### Family planning by method
 
-![Family planning by method](images/image07.png "Family planning by method")
+![Family planning by method](resources/images/image07.png "Family planning by method")
 
-*   This section enables data entry for first-time FP planning users by method; and Postpartum FP use by method
+* This section enables data entry for first-time FP planning users by method; and Postpartum FP use by method
 
 ### Sexual & Reproductive Health
 
-![Sexual & Reproductive Health](images/image08.png "Sexual & Reproductive Health")
+![Sexual & Reproductive Health](resources/images/image08.png "Sexual & Reproductive Health")
 
-*   This section enables data entry for generating Couple Years of Protection indicator, which uses a denominator (population female 15-29 years) and units of contraception
-*   This section has been configured as individual data elements. No disaggregations are required here.
+* This section enables data entry for generating Couple Years of Protection indicator, which uses a denominator (population female 15-29 years) and units of contraception
+* This section has been configured as individual data elements. No disaggregations are required here.
 
 ### Child Health
 
-![Child Health](images/image09.png "Child Health")
+![Child Health](resources/images/image09.png "Child Health")
 
-*   Data elements in this section use an age disaggregation (0-4, 5-9). The total is summed automatically in data entry and can also be used in the analytics.
+* Data elements in this section use an age disaggregation (0-4, 5-9). The total is summed automatically in data entry and can also be used in the analytics.
 
 ### Mortality: Maternal
 
-![Mortality: Maternal](images/image10.png "Mortality: Maternal")
+![Mortality: Maternal](resources/images/image10.png "Mortality: Maternal")
 
-
-*   This section has been configured with data elements using a disaggregation for age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarized automatically during data entry
-*   In analysis, this allows us to quickly add in the breakdown of maternal mortality by age and pivot them as required. 
+* This section has been configured with data elements using a disaggregation for age (10-14 yrs, 15-19 yrs, 20+ yrs); the total is summarized automatically during data entry
+* In analysis, this allows us to quickly add in the breakdown of maternal mortality by age and pivot them as required.
 
 ### Mortality: Death Reviews Maternal & Perinatal
 
-![Mortality: Death Reviews Maternal & Perinatal](images/image11.png "Mortality: Death Reviews Maternal & Perinatal")
+![Mortality: Death Reviews Maternal & Perinatal](resources/images/image11.png "Mortality: Death Reviews Maternal & Perinatal")
 
 ### Mortality: Neonatal
 
-![Mortality: Neonatal](images/image12.png "Mortality: Neonatal")
+![Mortality: Neonatal](resources/images/image12.png "Mortality: Neonatal")
 
-*   This section has been configured as individual data elements. No disaggregations are required here.
+* This section has been configured as individual data elements. No disaggregations are required here.
 
 ### Mortality: Child
 
-![Mortality: Child](images/image13.png "Mortality: Child")
+![Mortality: Child](resources/images/image13.png "Mortality: Child")
 
-*   Data elements in this section use an age disaggregation (0-4, 5-9). The total is summed automatically in data entry and can also be used in the analytics.
+* Data elements in this section use an age disaggregation (0-4, 5-9). The total is summed automatically in data entry and can also be used in the analytics.
 
 ### Mortality: Adolescent
 
-![Mortality: Adolescent](images/image14.png "Mortality: Adolescent")
+![Mortality: Adolescent](resources/images/image14.png "Mortality: Adolescent")
 
-*   This section consists of a single data element with disaggregation by sex (Male/Female) and Age (10-14, 15-19). The total is summed automatically in data entry and can also be used in the analytics.
+* This section consists of a single data element with disaggregation by sex (Male/Female) and Age (10-14, 15-19). The total is summed automatically in data entry and can also be used in the analytics.
 
-### Data elements from other health area datasets 
+### Data elements from other health area datasets
 
-The following data elements are included in the WHO demo configuration, but are excluded from the RMNCAH metadata package itself. 
+The following data elements are included in the WHO demo configuration, but are excluded from the RMNCAH metadata package itself.
 
 ## Validation Rules
 
-The following validations rules have been configured and enforced in the system. 
+The following validations rules have been configured and enforced in the system.
 
 |Name|Operator|Instruction|Left Side description|Right Side description|
 |:--|:--|:--|:--|:--|
@@ -166,53 +165,53 @@ All these validation rules have been created, they can be enforced in the system
 
 Essentially, we cannot  report _**ANC 1st  visit (20+ years) before 12 weeks**_ more than _**ANC 1st  visit (20+ years).**_ Here ANC 1st  visit (20+years) before 12 weeks=103 and ANC 1st  visit (20+years)=100 and therefore we see a violation flagged.
 
-![Validation fig. 1](images/image15.png "Validation fig. 1")
+![Validation fig. 1](resources/images/image15.png "Validation fig. 1")
 
 This can be easily corrected for erroneous entries and the validation is passed otherwise, this violation will be logged in the system for  future validation rule analysis. Depending on the dataset configuration, form completion can be disallowed until all the validations failures are addressed. This same logic should apply to all these rules if they are enforced in the system.
 
-![Validation fig. 2](images/image16.png "Validation fig. 2")
+![Validation fig. 2](resources/images/image16.png "Validation fig. 2")
 
 ## RMNCAH Outputs
 
 The RMNCAH outputs included in the aggregate package include:
 
-*   Indicators 
-    *   Aligned to core indicator list contained in WHO Health Facility Data Analysis Guide for RMNCAH Programme Managers
-*   Analytical outputs
-    *   Charts
-    *   Pivot Tables 
-    *   Maps
-*   Dashboard 
-    *   Aligned to Figures 4-18 in WHO Health Facility Data Analysis Guide for RMNCAH Programme Managers, which provides example data visualizations and interpretation guidance
+* Indicators
+  * Aligned to core indicator list contained in WHO Health Facility Data Analysis Guide for RMNCAH Programme Managers
+* Analytical outputs
+  * Charts
+  * Pivot Tables
+  * Maps
+* Dashboard
+  * Aligned to Figures 4-18 in WHO Health Facility Data Analysis Guide for RMNCAH Programme Managers, which provides example data visualizations and interpretation guidance
 
 ### Dashboard
 
-Dashboard items (charts and pivot table) are aligned to the WHO [Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1). 
+Dashboard items (charts and pivot table) are aligned to the WHO [Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1).
 
-### Indicators 
+### Indicators
 
 RMNCAH-specific indicators contain the prefix ‘RMNCAH’. Some indicators used by RMNCAH programme managers for analysis are captured by other health programmes, such as malaria, HIV or immunisation. In these cases, the indicators retain the prefix from the vertical health program that generally captured the indicator. For example, immunisation coverage is ‘borrowed’ from the EPI programme package and indicators that are part of the core RMNCAH indicator list retain their ‘EPI’ prefixes:
 
-All Core Facility Indicators included in the WHO [Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1) are included in an Indicator Group with the dashboard package, even those that are not necessarily represented in the dashboard. This allows data users of the dashboard package to carry out additional analysis in DHIS2, such as referencing other indicators when investigating issues or questions that arise out of reviewing the dashboard. 
+All Core Facility Indicators included in the WHO [Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1) are included in an Indicator Group with the dashboard package, even those that are not necessarily represented in the dashboard. This allows data users of the dashboard package to carry out additional analysis in DHIS2, such as referencing other indicators when investigating issues or questions that arise out of reviewing the dashboard.
 
 #### Indicator Groups
 
 The following indicator groups have been configured as part of the package:
 
-*   RMNCAH: includes_ all _RMNCAH indicators configured for the package
-*   RMNCAH - Childhood and Young Adolescence
-*   RMNCAH - Maternal and Newborn Health: includes indicators related to ANC, delivery, stillbirth, etc. 
-*   RMNCAH - Mortality: includes indicators related to adolescent, child, neonatal, and maternal deaths
-*   RMNCAH - Postnatal: includes indicators related to PNC visits for mother, child, and documented birthweight
-*   RMNCAH - Sexual and reproductive health: includes indicators related to contraception use, postpartum care, couple year protection, and cervical cancer screening coverage
+* RMNCAH: includes _all_ RMNCAH indicators configured for the package
+* RMNCAH - Childhood and Young Adolescence
+* RMNCAH - Maternal and Newborn Health: includes indicators related to ANC, delivery, stillbirth, etc.
+* RMNCAH - Mortality: includes indicators related to adolescent, child, neonatal, and maternal deaths
+* RMNCAH - Postnatal: includes indicators related to PNC visits for mother, child, and documented birthweight
+* RMNCAH - Sexual and reproductive health: includes indicators related to contraception use, postpartum care, couple year protection, and cervical cancer screening coverage
 
-A detailed overview of these items, including their names and descriptions, can be found in the metadata reference guide. 
+A detailed overview of these items, including their names and descriptions, can be found in the metadata reference guide.
 
-## References 
+## References
 
 1. [WHO Analysis and Use of Health Facility Data Guidance for RMNCAH Programme Managers](https://www.who.int/healthinfo/FacilityAnalysisGuidance_RMNCAH.pdf?ua=1) (October 2019)
 2. WHO toolkit for analysis and use of health facility data, accessed at: [https://www.who.int/healthinfo/tools_data_analysis_routine_facility/en/](https://www.who.int/healthinfo/tools_data_analysis_routine_facility/en/)
 
 ## Acknowledgements
 
-The WHO RMNCAH digital data package for DHIS2 was designed in collaboration with the World Health Organisation, UNICEF, Norwegian Institute of Public Health and University of Oslo Health Information Systems Programme. 
+The WHO RMNCAH digital data package for DHIS2 was designed in collaboration with the World Health Organisation, UNICEF, Norwegian Institute of Public Health and University of Oslo Health Information Systems Programme.

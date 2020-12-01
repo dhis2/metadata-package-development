@@ -30,7 +30,7 @@ Installation of the module consists of several steps:
 
 It is recommended to first read through each section before starting the installation and configuration process in DHIS2. Sections that are not applicable have been identified, depending on if you are importing into a new instance of DHIS2 or a DHIS2 instance with metadata already present. The procedure outlined in this document should be tested in a test/staging environment before either being repeated or transferred to a production instance of DHIS2.
 
-## Requirements 
+## Requirements
 
 In order to install the module, an administrator user account on DHIS2 is required. The procedure outlined in this document should be tested in a test/staging environment before being performed on a production instance of DHIS2.
 
@@ -55,15 +55,13 @@ To avoid conflicts when importing the metadata, it is advisable to search and re
 |Category combination|bjDvmb4bfuf|`../api/categoryCombos.json?filter=name:eq:default`|
 |Category option combination|HllvX50cXC0|`../api/categoryOptionCombos.json?filter=name:eq:default`|
 
-For example, if importing a configuration package into https://play.dhis2.org/demo, the UID of the default category option combination could be identified through https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default as bRowv6yZOF2. 
+For example, if importing a configuration package into <https://play.dhis2.org/demo>, the UID of the default category option combination could be identified through <https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default> as bRowv6yZOF2.
 
 You could then search and replace all occurrences of HllvX50cXC0 with bRowv6yZOF2 in the .json file, as that is the ID of default in the system you are importing into. **_Note that this search and replace operation must be done with a plain text editor_**, not a word processor like Microsoft Word.
-
 
 ### Indicator types
 
 Indicator type is another type of object that can create import conflict because certain names are used in different DHIS2 databases (.e.g "Percentage"). Since Indicator types are defined simply by their factor and whether or not they are simple numbers without a denominator, they are unambiguous and can be replaced through a search and replace of the UIDs. This avoids potential import conflicts, and avoids creating duplicate indicator types. Table 2 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
-
 
 |Object|UID|API endpoint|
 |:--|:--|:--|
@@ -95,17 +93,17 @@ Rename the existing object in your DHIS2 database for which there is a conflict.
 
 **_Alternative 2_**
 
-Rename the object for which there is a conflict in the .json file. The advantage of this approach is that the existing DHIS2 metadata is left as-is. This can be a factor when there is training material or documentation such as SOPs of data dictionaries linked to the object in question, and it does not involve any risk of confusing users by modifying the metadata they are familiar with. 
+Rename the object for which there is a conflict in the .json file. The advantage of this approach is that the existing DHIS2 metadata is left as-is. This can be a factor when there is training material or documentation such as SOPs of data dictionaries linked to the object in question, and it does not involve any risk of confusing users by modifying the metadata they are familiar with.
 
 Note that for both alternative 1 and 2, the modification can be as simple as adding a small pre/post-fix to the name, to minimise the risk of confusion.
 
 **_Alternative 3_**
 
-A third and more complicated approach is to modify the .json file to re-use existing metadata. For example, in cases where an option set already exists for a certain concept (e.g. "sex"), that option set could be removed from the .json file and all references to its UID replaced with the corresponding option set already in the database. The big advantage of this (which is not limited to the cases where there is a direct import conflict) is to avoid creating duplicate metadata in the database. There are some key considerations to make when performing this type of modification: 
+A third and more complicated approach is to modify the .json file to re-use existing metadata. For example, in cases where an option set already exists for a certain concept (e.g. "sex"), that option set could be removed from the .json file and all references to its UID replaced with the corresponding option set already in the database. The big advantage of this (which is not limited to the cases where there is a direct import conflict) is to avoid creating duplicate metadata in the database. There are some key considerations to make when performing this type of modification:
 
-*   it requires expert knowledge of the detailed metadata structure of DHIS2
-*   the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
-*   future updates to the configuration package will be complicated.
+* it requires expert knowledge of the detailed metadata structure of DHIS2
+* the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
+* future updates to the configuration package will be complicated.
 
 ### Additional configuration
 
@@ -115,17 +113,17 @@ Once all metadata has been successfully imported, there are a few steps that nee
 
 First, you will have to use the _Sharing_ functionality of DHIS2 to configure which users (user groups) should see the metadata and data associated with the programme as well as who can register/enter data into the program. By default, sharing has been configured for the following:
 
-*   Tracked entity type
-*   Program
-*   Program stages
-*   Dashboards
+* Tracked entity type
+* Program
+* Program stages
+* Dashboards
 
 There are four user groups that come with the package:
 
-*   TB admin
-*   TB access
-*   TB data capture
-*   TB lab data capture
+* TB admin
+* TB access
+* TB data capture
+* TB lab data capture
 
 By default the following is assigned to these user groups
 
@@ -138,7 +136,6 @@ By default the following is assigned to these user groups
 |Dashboards|**Metadata:** can view <br> **Data:** can view|**Metadata:** can edit and view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can view|**Metadata:** can view <br> **Data:** can view|
 
 You will want to assign your users to the appropriate user group based on their role within the system. You may want to enable sharing for other objects in the package depending on your set up. Refer to the [DHIS2 Documentation](https://docs.dhis2.org/master/en/dhis2_user_manual_en/about-sharing-of-objects.html) for more information on configuring sharing.
-
 
 ### User Roles
 
@@ -182,7 +179,7 @@ TB Case Surveillance Tracker package includes a set of tests and a list of drugs
 | LPA (Rifampicin / Isoniazid)  |ESUffSPwmju|
 | LPA (Fluoroquinolones / Second-line Injectables)  |govArZqiFzY|
 
-For Phenotypic DST, the applicable drugs can also be pre-configured according to the country standards during the initial setup by adjusting the values of constants. The package includes the following first- and second-line drugs in both Initial and Subsequent DST sections: 
+For Phenotypic DST, the applicable drugs can also be pre-configured according to the country standards during the initial setup by adjusting the values of constants. The package includes the following first- and second-line drugs in both Initial and Subsequent DST sections:
 
 |TB Drug| Initial Phenotypic DST in Solid Media (e.g. LJ) |Initial Phenotypic DST in Liquid Media (e.g. MGIT)|Subsequent Phenotypic DST in Solid Media (e.g. LJ)|Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)|
 |:--|:--|:--|:--|:--|
@@ -217,6 +214,7 @@ The use of list of first-line and second-line drugs in the treatment stage can b
 You must configure tracker capture dashboard after the package has been installed. This configuration includes data entry forms, widgets and top bar.
 
 #### Data entry forms
+
 * After registering the first (test) case, access the **Settings** menu in the tracker capture form and select **Show/Hide Widgets**
 * Switch from **Timeline Data Entry** to **Tabular Data Entry**
 * Make sure that **Enrollment**, **Feedback** and **Profile** widgets are selected. Click **Close**.
@@ -228,6 +226,7 @@ You must configure tracker capture dashboard after the package has been installe
 |**Tabular Data Entry**||
 
 #### Top Bar
+
 * Access the **Settings** menu and select **Top bar settings**
 * Select **Activate top bar**
 * Select required information fields and assign their **Sort order**
@@ -251,6 +250,7 @@ You must configure tracker capture dashboard after the package has been installe
 * Return to the **Settings** menu. Click **Saved dashboard layout as default**. Lock layout for all users.
 
 ### Reporting case-based data into aggregate TB reports
+
 The TB case-based surveillance tracker captures data that can be fed into standard, aggregate reporting (i.e. monthly, quarterly, or more frequently as determined by the country). An aggregate TB system design in DHIS2 can be accessed at [who.dhis2.org/documentation/#tb](https://who.dhis2.org/documentation/#tb)
 Mapping of **program indicators** in TB Case Surveillance tracker with **data elements** and **category option combinations** in the aggregate package is required for the reporting process.
 
@@ -258,9 +258,9 @@ Mapping of **program indicators** in TB Case Surveillance tracker with **data el
 
 Once the programme has been imported, you might want to make certain modifications to the programme. Examples of local adaptations that _could_ be made include:
 
-*   Adding additional variables to the form.
-*   Adapting data element/option names according to national conventions.
-*   Adding translations to variables and/or the data entry form.
-*   Modifying program indicators based on local case definitions.
+* Adding additional variables to the form.
+* Adapting data element/option names according to national conventions.
+* Adding translations to variables and/or the data entry form.
+* Modifying program indicators based on local case definitions.
 
 However, it is strongly recommended to take great caution if you decide to change or remove any of the included form/metadata. There is a danger that modifications could break functionality, for example program rules and program indicators.
