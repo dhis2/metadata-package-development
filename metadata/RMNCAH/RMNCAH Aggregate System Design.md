@@ -17,7 +17,8 @@ This document is intended for use by DHIS2 implementers at country and regional 
 
 ## Overview
 
-The RMNCAH configuration package for aggregate reporting contains the following datasets for entering input data: 
+The RMNCAH configuration package for aggregate reporting contains the following datasets for entering input data:
+
 |Name|Periodicity|Purpose|
 |:--|:--|:--|
 |RMNCAH|Monthly|Reporting of health facility data related to reproductive, maternal, newborn, child and adolescent health|
