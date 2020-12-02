@@ -63,7 +63,7 @@ Additional geographical components are also captured as other dimensions:
 #### Program Description
 
 |Stage|Description|
-|--|--|--|
+|--|--|
 |**Registration**|The Tracked Entity is the traveler, which is represented by the Tracked Entity Type of ‘person.’ The TEI is configured to collect a geographic ‘point’ during registration. These can be analyzed in a map.|
 |**Enrollment details**|Enrollment date<br>The first Program Stage is configured to appear on the Registration page so that a user does not need to click through to add the first event.|
 |**Attributes**|Attributes include basic personal information and unique case identifiers<br>- Passport number<br>- Local Case ID<br>- Age<br>- First Name<br>- Surname<br>- Country of residence<br>- Sex<br>- Date of birth<br>- Local address<br>- Home address<br>- Telephone (local)<br>- Telephone (foreign)<br>- Emergency contact<br>- Emergency contact phone<br>- Email|
