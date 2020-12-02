@@ -1,8 +1,11 @@
 # COVID-19 Points of Entry Tracker System Design v0.3.1
 
 Last updated 24/03/2020
+
 Package version: 0.3.1
+
 DHIS2 Version compatibility 2.33.2
+
 Demo: <https://covid.dhis2.org/>
 
 ## Purpose
@@ -133,7 +136,7 @@ Users can also generate an Event Report to see:
 1. Travelers by nationality and/or originating country
 2. Referrals to health facility
 
-## **References**
+## References
 
 * DHIS2 COVID-19 [Tracker Package Installation Guide](https://docs.google.com/document/d/1iILgYYYDXDKpizkxY08syMfrw_9POzMMIMwd5Nb7yl4/edit#heading=h.imcis8rm8nq6)
 * World Health Organisation (WHO) [technical guidance for the management of ill persons at points of entry](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/points-of-entry-and-mass-gatherings) (interim guidance, published 19 March 2020)
