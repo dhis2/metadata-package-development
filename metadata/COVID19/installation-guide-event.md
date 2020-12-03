@@ -1,16 +1,16 @@
 # Event Package Installation Guide v0.3.2
 
-<ul style="text-align: right">
-  <li style="list-style: none">Last updated 27/03/2020</li>
-  <li style="list-style: none">Package Version 0.3.2</li>
-  <li style="list-style: none">DHIS2 Version compatibility 2.33.2</li>
-  <li style="list-style: none">Demo: <a href="https://covid.dhis2.org/">https://covid.dhis2.org/</a></li>
-</ul>
+Last updated 27/03/2020
+
+Package Version 0.3.2
+
+DHIS2 Version compatibility 2.33.2
+
+Demo: <https://covid.dhis2.org/>
 
 ## Overview
 
 The COVID-19 event package was developed using DHIS2.33.2. This was done in order to support some of the latest features in DHIS2. In order to use the package, it is recommended that you install it into a DHIS2 instance using DHIS2 2.33.2 or above. If you will be setting this up on a new instance, please refer to the [DHIS2 installation guide](https://docs.dhis2.org/master/en/dhis2_system_administration_guide/installation.html).
-
 
 ## Installation
 
@@ -41,50 +41,12 @@ In early versions of DHIS2, the UID of the default data dimension was auto-gener
 
 To avoid conflicts when importing the metadata, it is advisable to search and replace the entire .json file for all occurrences of these default objects, replacing UIDs of the .json file with the UIDs of the database in which the file will be imported. Table 1 shows the UIDs which should be replaced, as well as the API endpoints to identify the existing UIDs.
 
-
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Category
-   </td>
-   <td>GLevLNI9wkl
-   </td>
-   <td>../api/categories.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option
-   </td>
-   <td>xYerKDKCefk
-   </td>
-   <td>../api/categoryOptions.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category combination
-   </td>
-   <td>bjDvmb4bfuf
-   </td>
-   <td>../api/categoryCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option combination
-   </td>
-   <td>HllvX50cXC0
-   </td>
-   <td>../api/categoryOptionCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-</table>
-
+|Object|UID|API endpoint|
+|--|--|--|
+|Category|GLevLNI9wkl|../api/categories.json?filter=name:eq:default|
+|Category option|xYerKDKCefk|../api/categoryOptions.json?filter=name:eq:default|
+|Category combination|bjDvmb4bfuf|../api/categoryCombos.json?filter=name:eq:default|
+|Category option combination|HllvX50cXC0|../api/categoryOptionCombos.json?filter=name:eq:default|
 
 For example, if importing a configuration package into [https://play.dhis2.org/demo](https://play.dhis2.org/demo), the UID of the default category option combination could be identified through [https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default](https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default) as `bRowv6yZOF2`.
 
@@ -94,24 +56,9 @@ You could then search and replace all occurrences of `HllvX50cXC0` with `bRowv6y
 
 Indicator type is another type of object that can create import conflict because certain names are used in different DHIS2 databases (.e.g "Percentage"). Since Indicator types are defined simply by their factor and whether or not they are simple numbers without a denominator, they are unambiguous and can be replaced through a search and replace of the UIDs. This avoids potential import conflicts, and avoids creating duplicate indicator types. Table 2 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Percentage
-   </td>
-   <td>DadSzqgyAex
-   </td>
-   <td>../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100
-   </td>
-  </tr>
-</table>
+|Object|UID|API endpoint|
+|--|--|--|
+|Percentage|DadSzqgyAex|../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100|
 
 ## Importing metadata
 
@@ -139,9 +86,9 @@ Note that for both alternative 1 and 2, the modification can be as simple as add
 
 A third and more complicated approach is to modify the .json file to re-use existing metadata. For example, in cases where an option set already exists for a certain concept (e.g. "sex"), that option set could be removed from the .json file and all references to its UID replaced with the corresponding option set already in the database. The big advantage of this (which is not limited to the cases where there is a direct import conflict) is to avoid creating duplicate metadata in the database. There are some key considerations to make when performing this type of modification:
 
-*   it requires expert knowledge of the detailed metadata structure of DHIS2
-*   the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
-*   future updates to the configuration package will be complicated.
+* it requires expert knowledge of the detailed metadata structure of DHIS2
+* the approach does not work for all types of objects. In particular, certain types of objects have dependencies which are complicated to solve in this way, for example related to disaggregations.
+* future updates to the configuration package will be complicated.
 
 ## Additional configuration
 
@@ -162,54 +109,11 @@ There are three user groups that come with the package:
 
 By default the following is assigned to these user groups
 
-<table>
-  <tr>
-   <td rowspan="2" ><strong>Object</strong>
-   </td>
-   <td colspan="3" ><strong>User Group</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><em>COVID19 access</em>
-   </td>
-   <td><em>COVID19 admin</em>
-   </td>
-   <td><em>COVID19 data capture</em>
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program Stage</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-</table>
+|Object|User Group|||
+|--|--|--|--|
+||_*COVID19 access*_|_*COVID19 admin*_|_*COVID19 data capture*_|
+|_*Program*_|Metadata: can view <br> Data: can view|Metadata: can edit and view <br> Data: can view|Metadata: can view <br> Data: can capture and view|
+|_*Program Stage*_|Metadata: can view <br> Data: can view|Metadata: can edit and view <br> Data: can view|Metadata: can view <br> Data: can capture and view
 
 You will want to assign your users to the appropriate user group based on their role within the system. You may want to enable sharing for other objects in the package depending on your set up. Refer to the [DHIS2 Documentation](https://docs.dhis2.org/master/en/dhis2_user_manual_en/about-sharing-of-objects.html) for more information on configuring sharing.
 
@@ -233,7 +137,6 @@ You must assign the program to organisation units within your own hierarchy in o
 Even when metadata has been successfully imported without any import conflicts, there can be duplicates in the metadata - data elements, tracked entity attributes or option sets that already exist. As was noted in the section above on resolving conflict, an important issue to keep in mind is that decisions on making changes to the metadata in DHIS2 also needs to take into account other documents and resources that are in different ways associated with both the existing metadata, and the metadata that has been imported through the configuration package. Resolving duplicates is thus not only a matter of "cleaning up the database", but also making sure that this is done without, for example, breaking potential integrating with other systems, the possibility to use training material, breaking SOPs etc. This will very much be context-dependent.
 
 One important thing to keep in mind is that DHIS2 has tools that can hide some of the complexities of potential duplications in metadata. For example, where duplicate option sets exist, they can be hidden for groups of users through [sharing](https://docs.dhis2.org/master/en/user/html/sharing.html).
-
 
 ## Adapting the event program
 

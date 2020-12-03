@@ -6,7 +6,7 @@ Package version: 0.3.1
 
 DHIS2 Version compatibility 2.33.2
 
-Demo: <https://covid.dhis2.org/>
+Demo: <https://covid19.dhis2.org/>
 
 ## Purpose
 
@@ -38,7 +38,7 @@ DHIS2 digital data packages are optimized for Android data collection with the D
 
 The Points of Entry program workflow is based on the following scenario
 
-![alt_text](resources/images/POE_image01.png "image_tooltip")
+![Scenario](resources/images/POE_image01.png "Scenario")
 
 In this design, it is assumed a traveler would complete their enrollment in the POE under the following scenarios:
 
@@ -49,7 +49,7 @@ In this design, it is assumed a traveler would complete their enrollment in the 
 
 ### Structure: Points of Entry Screening Tracker Program
 
-![drawing](resources/images/POE_image02.png "image_tooltip")
+![Structure](resources/images/POE_image02.png "Structure")
 
 #### Consideration for Organisation Units & Geography
 
@@ -71,23 +71,15 @@ Additional geographical components are also captured as other dimensions:
 |**Stage 2:**<br>**Follow-up (within 14 days)**<br>**(repeatable)**|Data is entered at this stage if any interim follow-up is performed before the end of 14 days. Event coordinates can be captured (i.e. the current location of the traveler at the time follow-up was completed) to present in a map.<br>- Symptoms<br>- Referral (user may select an Organisation Unit in a Data Element configured as type OU, for example to select a health facility where a traveler was referred after reporting symptoms)<br><br>If a traveler has symptoms and is referred to a health facility for testing, the traveler should be enrolled into the Case based Surveillance program. The enrollment may be closed if no further monitoring & follow-up is planned in this program.<br><br>The data entry form is blocked after completion; no further changes can be made without authorization.|
 |**Stage 3:**<br>**Follow-up (after 14 days)**<br>**(non-repeatable)**|Data is entered at this stage at the end of 14 days. Event coordinates can be captured (i.e. the current location of the traveler at the time follow-up was completed) to present in a map.<br>- Symptoms<br>- Referral (user may select an Organisation Unit in a Data Element configured as type OU, for example to select a health facility where a traveler was referred after reporting symptoms)<br>- Case clearance<br><br>If a traveler has symptoms and is referred to a health facility for testing, the traveler should be enrolled into the Case based Surveillance program. The enrollment should be closed at the completion of 14 day follow-up.<br><br>The data entry form is blocked after completion; no further changes can be made without authorization.
 
-#### Enrollment
+![Enrollment](resources/images/POE_image03.png "Enrollment")
 
-![alt_text](resources/images/POE_image03.png "image_tooltip")
+![Program Stage 1 - Screening at POE](resources/images/POE_image04.png "Program Stage 1 - Screening at POE")
 
-#### Program Stage 1 - Screening at POE
+![Program Stage 1 - Screening at POE](resources/images/POE_image05.png "Program Stage 1 - Screening at POE")
 
-![alt_text](resources/images/POE_image04.png "image_tooltip")
+![Program Stage 2: Follow-up (within 14 days)](resources/images/POE_image06.png "Program Stage 2: Follow-up (within 14 days)")
 
-![alt_text](resources/images/POE_image05.png "image_tooltip")
-
-#### Program Stage 2: Follow-up (within 14 days)
-
-![alt_text](resources/images/POE_image06.png "image_tooltip")
-
-#### Program Stage 3: Follow up (after 14 days)
-
-![alt_text](resources/images/POE_image07.png "image_tooltip")
+![Program Stage 3: Follow up (after 14 days)](resources/images/POE_image07.png "Program Stage 3: Follow up (after 14 days)")
 
 #### How to refer the TEI to another Organisation Unit
 

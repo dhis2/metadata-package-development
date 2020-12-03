@@ -1,11 +1,11 @@
 # Tracker Packages Installation Guide
 
-<ul style="text-align: right">
-  <li style="list-style: none">Last updated 27/03/2020</li>
-  <listyle="list-style: none">Package Version 0.3.3</li>
-  <li style="list-style: none">DHIS2 Version compatibility 2.33.2 and above</li>
-  <li style="list-style: none""> Demo: <a href="https://covid.dhis2.org/">https://covid.dhis2.org/</a></li>
-</ul>
+Last updated 27/03/2020
+
+Package Version 0.3.3
+DHIS2 Version compatibility 2.33.2 and above
+
+Demo: <https://covid19.dhis2.org>
 
 ## Overview
 
@@ -43,52 +43,16 @@ While not always necessary, it can often be advantageous to make certain modific
 
 In early versions of DHIS2, the UID of the default data dimension was auto-generated. Thus, while all DHIS2 instances have a default category option, data element category, category combination and category option combination, the UIDs of these defaults can be different. Later versions of DHIS2 have hardcoded UIDs for the default dimension, and these UIDs are used in the configuration packages.
 
-To avoid conflicts when importing the metadata, it is advisable to search and replace the entire .json file for all occurrences of these default objects, replacing UIDs of the .json file with the UIDs of the database in which the file will be imported. Table 1 shows the UIDs which should be replaced, as well as the API endpoints to identify the existing UIDs.
+To avoid conflicts when importing the metadata, it is advisable to search and replace the entire .json file for all occurrences of these default objects, replacing UIDs of the .json file with the UIDs of the database in which the file will be imported. Table 1 shows the UIDs which should be replaced, as well as the API endpoints to identify the existing UIDs
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Category
-   </td>
-   <td>GLevLNI9wkl
-   </td>
-   <td>../api/categories.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option
-   </td>
-   <td>xYerKDKCefk
-   </td>
-   <td>../api/categoryOptions.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category combination
-   </td>
-   <td>bjDvmb4bfuf
-   </td>
-   <td>../api/categoryCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-  <tr>
-   <td>Category option combination
-   </td>
-   <td>HllvX50cXC0
-   </td>
-   <td>../api/categoryOptionCombos.json?filter=name:eq:default
-   </td>
-  </tr>
-</table>
+|Object|UID|API endpoint|
+|--|--|--|
+|Category|GLevLNI9wkl|../api/categories.json?filter=name:eq:default|
+|Category option|xYerKDKCefk|../api/categoryOptions.json?filter=name:eq:default|
+|Category combination|bjDvmb4bfuf|../api/categoryCombos.json?filter=name:eq:default|
+|Category option combination|HllvX50cXC0|../api/categoryOptionCombos.json?filter=name:eq:default|
 
-For example, if importing a configuration package into https://play.dhis2.org/demo, the UID of the default category option combination could be identified through https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default as bRowv6yZOF2.
+For example, if importing a configuration package into <https://play.dhis2.org/demo>, the UID of the default category option combination could be identified through <https://play.dhis2.org/demo/api/categoryOptionCombos.json?filter=name:eq:default> as bRowv6yZOF2.
 
 You could then search and replace all occurrences of HllvX50cXC0 with bRowv6yZOF2 in the .json file, as that is the ID of default in the system you are importing into. ***Note that this search and replace operation must be done with a plain text editor***, not a word processor like Microsoft Word.
 
@@ -96,49 +60,18 @@ You could then search and replace all occurrences of HllvX50cXC0 with bRowv6yZOF
 
 Indicator type is another type of object that can create import conflict because certain names are used in different DHIS2 databases (.e.g "Percentage"). Since Indicator types are defined simply by their factor and whether or not they are simple numbers without a denominator, they are unambiguous and can be replaced through a search and replace of the UIDs. This avoids potential import conflicts, and avoids creating duplicate indicator types. Table 2 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Percentage
-   </td>
-   <td>hmSnCXmLYwt
-   </td>
-   <td>../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100
-   </td>
-  </tr>
-</table>
-
-
+|Object|UID|API endpoint|
+|--|--|--|
+|Numerator only (number)|kHy61PbChXr|../api/indicatorTypes.json?filter=number:eq:true&filter=factor:eq:1|
+|Percentage|hmSnCXmLYwt|../api/indicatorTypes.json?filter=number:eq:false&filter=factor:eq:100|
 
 #### Tracked Entity Type
 
 Like indicator types, you may have already existing tracked entity types in your DHIS2 database. The references to the tracked entity type should be changed to reflect what is in your system so you do not create duplicates. Table 3 shows the UIDs which could be replaced, as well as the API endpoints to identify the existing UIDs
 
-<table>
-  <tr>
-   <td>Object
-   </td>
-   <td>UID
-   </td>
-   <td>API endpoint
-   </td>
-  </tr>
-  <tr>
-   <td>Person
-   </td>
-   <td>MCPQUTHX1Ze
-   </td>
-   <td>../api/trackedEntityTypes.json?filter=name:eq:Person
-   </td>
-  </tr>
-</table>
+|Object|UID|API endpoint|
+|--|--|--|
+|Person|MCPQUTHX1Ze|../api/trackedEntityTypes.json?filter=name:eq:Person|
 
 ## Importing metadata
 
@@ -189,86 +122,13 @@ There are three user groups that come with the package:
 
 By default the following is assigned to these user groups
 
-<table>
-  <tr>
-   <td rowspan="2" ><strong>Object</strong>
-   </td>
-   <td colspan="3" ><strong>User Group</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><em>COVID19 access</em>
-   </td>
-   <td><em>COVID19 admin</em>
-   </td>
-   <td><em>COVID19 data capture</em>
-   </td>
-  </tr>
-  <tr>
-   <td><em>Tracked entity type</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Program Stages</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can capture and view
-   </td>
-  </tr>
-  <tr>
-   <td><em>Dashboards</em>
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can edit and view
-<p>
-Data: can view
-   </td>
-   <td>Metadata : can view
-<p>
-Data: can view
-   </td>
-  </tr>
-</table>
+|Object|User Group|||
+|--|--|--|--|
+||_COVID19 access_|_COVID19 admin_|_COVID19 data capture_|
+|_*Tracked entity type*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
+|_*Program*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
+|_*Program Stages*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
+|_*Dashboards*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can view|
 
 You will want to assign your users to the appropriate user group based on their role within the system. You may want to enable sharing for other objects in the package depending on your set up. Refer to the [DHIS2 Documentation](https://docs.dhis2.org/master/en/dhis2_user_manual_en/about-sharing-of-objects.html) for more information on configuring sharing.
 

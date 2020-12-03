@@ -1,8 +1,11 @@
 # Aggregate Package Installation Guide
 
 Last updated 27/03/2020
+
 Package Version 0.3.2
+
 DHIS2 Version compatibility 2.30 - 2.33
+
 Demo: <https://covid.dhis2.org/>
 
 ## Overview

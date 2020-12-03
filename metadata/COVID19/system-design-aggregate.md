@@ -149,7 +149,7 @@ Please refer to the [installation guidance](https://www.dhis2.org/covid-19) for 
 
 ## Indicators
 
-From the data captured, we can calculate at least the following indicators -- many of which are recommended by the WHO for [weekly reporting](https://apps.who.int/iris/bitstream/handle/10665/331506/WHO-2019-nCoV-SurveillanceGuidance-2020.6-eng.pdf)-- and present them in a dashboard. All COVID-19 program indicators are assigned to the Indicator Group &#39;COVID19&#39;.
+From the data captured, we can calculate at least the following indicators, many of which are recommended by the WHO for [weekly reporting](https://apps.who.int/iris/bitstream/handle/10665/331506/WHO-2019-nCoV-SurveillanceGuidance-2020.6-eng.pdf) and present them in a dashboard. All COVID-19 program indicators are assigned to the Indicator Group &#39;COVID19&#39;.
 
 | **name** | **description** |
 | --- | --- |

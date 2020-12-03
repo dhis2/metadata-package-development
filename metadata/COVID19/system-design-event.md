@@ -1,8 +1,11 @@
 # COVID-19 Surveillance Event Program System Design
 
 Last updated 19/03/2020
+
 Package version: 0.3.2
+
 DHIS2 Version compatibility 2.33.2
+
 Demo: <https://covid.dhis2.org/>
 
 ## Purpose
