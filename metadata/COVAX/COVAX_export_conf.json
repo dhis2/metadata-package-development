@@ -1,0 +1,54 @@
+{
+    "export": [
+      {
+        "_basePath": "./COVAX/",
+        "_code": "COVAX",
+        "_name": "COVID-19 Vaccination Registry",
+        "_prefix": "[CONFIG]",
+        "_ownership": {
+          "modeOwner": "OVERWRITE",
+          "modeLastUpdated": "OVERWRITE",
+          "ownerId": "vUeLeQMSwhN"
+        },
+        "_sharing": {
+          "groupMode": "OVERWRITE",
+          "groups": [
+            {
+              "id": "AEAQ9LktNze",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "groupExport": true,
+          "userMode": "REMOVE",
+          "users": [
+            {
+              "id": "vUeLeQMSwhN",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "userExport": false,
+          "publicAccess": {
+            "metadata": "VIEW",
+            "data": "VIEW"
+          }
+        },
+        "_type": "tracker",
+        "_url": [
+          "https://who-dev.dhis2.org/tracker_dev"
+        ],
+        "_version": "0.1.0",
+        "dashboardIds": [],
+        "dataElementGroupIds": [
+          "bJW73wIwGyB"
+        ],
+        "exportIndicatorGroupsIds": [],
+        "indicatorGroupIds": [],
+        "programIds": [
+          "yDuAzyqYABS"
+        ]
+      }
+    ]
+  }
+  
