@@ -55,15 +55,44 @@
         ],
         "userExport": false,
         "publicAccess": {
-          "metadata": "NONE",
-          "data": "NONE"
+          "metadata": "VIEW",
+          "data": "VIEW"
         }
       },
       "_type": "tracker",
       "_url": [
-        "https://who-dev.dhis2.org/tracker_dev"
+        "https://who-dev.dhis2.org/tracker_dev",
+        "https://who-sandbox.dhis2.org/tracker_dev234"
       ],
       "_version": "1.0.0",
+      "customObjects": [
+        {
+          "objectIds": [
+            "LbT5aALwcOj"
+          ],
+          "objectType": "dataElements"
+        },
+        {
+          "objectIds": [
+            "c6Y8XeDFFkN"
+          ],
+          "objectType": "optionSets"
+        },
+        {
+          "objectIds": [
+            "TrhGLijMX6L",
+            "b9ghoh8ZZEN"
+          ],
+          "objectType": "options"
+        },
+        {
+          "objectIds": [
+            "mAWcalQYYyk",
+            "Ewi7FUfcHAD"
+          ],
+          "objectType": "trackedEntityAttributes"
+        }
+      ],
       "dashboardIds": [
         "Dwp14f6LzSo",
         "p8T2BE6RU60"
