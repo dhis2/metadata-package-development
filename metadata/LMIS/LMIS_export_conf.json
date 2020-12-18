@@ -1,0 +1,87 @@
+{
+    "export": [ 
+    {
+      "_basePath": "../LMIS/",
+      "_code": "LMIS", 
+      "_name": "LMIS complete", 
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "dO0Z6jb54LZ",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "pYKORibPZEp",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+        	{
+              "id": "j6tlQ56IAet",
+              "metadata": "VIEW",
+              "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "completeAggregate", 
+      "_url": ["https://who-dev.dhis2.org/dev"], 
+      "_version": "0.1",
+        	 "customObjects": [
+        		 {
+        		 "objectIds": ["k5oM1u4kpCb","ce0WwqHhVH1","RGetwkZsRXo","wh5KJJPZ2w7","nqFTRkBEaMd","MsRhloUb460","Jq21bNzQDq6","FI1sLa1hDb1","zKXBN1jGXIu","wswCPFCyUG8","zCXWGi6fEsw","x4CIsntvniz","vRfTmlOxzFa","xiI6aQRNUVX","f1XLmFIwlrK","CbvSCPmaz5d","ket0CCCIHKs","mm9hChdAyl3","lCUNJpZTDQJ","J3UT51fnJjS","rL482g0s5JL","f2zrEcfETgL","Eqy5Nnb0Rpz","DZTSUh1DFyX","xi2S1d7LJBc","hGNzrW1xbQN","vBNyVNLGZ5D","ClIQBqasYpm","u6rtNvz2C98","SgRaBPYdJfg","sj3URzajB3C","e4QSHL8T5Fm","mDpLYl0sbQd","K8jFJ0e67kU","KQf9KBm7VW5","BzFJFOFMVCu","EHDTSPxpLco","bK3hiVktvHR","dlUf7CDF3l8","e92Z61nHBJY","DKdvXuIfxwl","RfRy5y9ANl2","skv1s6LGh0N","zbgm5GueWu9"],
+        		 "objectType": "indicators"
+        		 },
+        		 {
+        		"objectIds": ["FFN3XNUfxUJ","IHFoEstZjfl","pMaektY4E9s"],
+        		 "objectType": "indicatorGroups"
+        		 }
+        		 ,
+        		 {
+        		 "objectIds": ["kPEbqT7kswf","w6a92TbnVya","MUraSmIz6TK","DT6MpifpG2l","qA4QITVR4M2","uE66dpFP10h","TOmKeDnDicG","Rc77fYcnqTQ","acbN2iRiVo9","uss7ydeNXfY","IWZmf5J4pWA"],
+        		 "objectType": "predictors"
+        		 }
+        		 ,
+        		 {
+        			"objectIds": ["xjHbKETc1xK","tAQ7FWqG5If","IHWCsPyt7h2"],
+        			"objectType": "predictorGroups"
+        		 }
+        		 
+        	 ],
+      "dashboardIds": [], 
+      "dataElementGroupIds": [
+      "w1IvWU3EdlU",
+      "cWFV4unGXXn",
+      "vkLzv5SqH4a"
+      ], 
+      "dataSetIds": [
+        "bZmE2DR3XZe", 
+        "PRiItBuYx0e",
+        "ujLQPjUBfVR"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [],  
+      "validationRuleGroupIds": [
+      "li0SLZnRx6a",
+      "XJsWwoDMpAj",
+      "eq208zh8pOc"
+      ],
+      "predictorGroupIds": [],
+      "indicatorGroupIds": []
+    }
+  ]
+}
