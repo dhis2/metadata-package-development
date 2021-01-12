@@ -1,0 +1,1377 @@
+{
+	"categories": [
+		{
+			"attributeValues": [],
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.772",
+			"dataDimension": false,
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "GLevLNI9wkl",
+			"lastUpdated": "2021-01-12T12:59:38.738",
+			"name": "default",
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "ar",
+					"property": "NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "výchozí"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "стандарт"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "standart"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryCombos": [
+		{
+			"categories": [
+				{
+					"id": "GLevLNI9wkl"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.779",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "bjDvmb4bfuf",
+			"lastUpdated": "2021-01-12T12:59:38.900",
+			"name": "default",
+			"publicAccess": "r-------",
+			"skipTotal": false,
+			"translations": [
+				{
+					"locale": "ar",
+					"property": "NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "výchozí"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "стандарт"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "standart"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"categoryOptionCombos": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"categoryOptions": [
+				{
+					"id": "xYerKDKCefk"
+				}
+			],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.783",
+			"id": "HllvX50cXC0",
+			"ignoreApproval": false,
+			"lastUpdated": "2021-01-12T12:59:39.064",
+			"name": "default",
+			"translations": [
+				{
+					"locale": "ar",
+					"property": "NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "výchozí"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "стандарт"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "standart"
+				}
+			]
+		}
+	],
+	"categoryOptions": [
+		{
+			"attributeValues": [],
+			"code": "default",
+			"created": "2018-01-17T10:28:58.744",
+			"id": "xYerKDKCefk",
+			"lastUpdated": "2021-01-12T12:59:39.223",
+			"name": "default",
+			"organisationUnits": [],
+			"publicAccess": "r-r-----",
+			"shortName": "default",
+			"translations": [
+				{
+					"locale": "ar",
+					"property": "NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "ar",
+					"property": "SHORT_NAME",
+					"value": "الافتراضي"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "výchozí"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "výchozí"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "default"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "default"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "défaut"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "id",
+					"property": "SHORT_NAME",
+					"value": "Standar"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "nb",
+					"property": "SHORT_NAME",
+					"value": "standard"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Padrão"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "ru",
+					"property": "SHORT_NAME",
+					"value": "по умолчанию"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "стандарт"
+				},
+				{
+					"locale": "uz",
+					"property": "SHORT_NAME",
+					"value": "стандарт"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "NAME",
+					"value": "standart"
+				},
+				{
+					"locale": "uz_UZ",
+					"property": "SHORT_NAME",
+					"value": "standart"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-11-23T08:32:30.928",
+			"domainType": "TRACKER",
+			"formName": "Doeses on hand at end of shift",
+			"id": "eNl6EKSFbJ0",
+			"lastUpdated": "2021-01-12T14:21:53.833",
+			"legendSets": [],
+			"name": "EPI - Vials on Hand",
+			"publicAccess": "r-------",
+			"shortName": "EPI - Vials on Hand",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-11-23T08:29:24.803",
+			"domainType": "TRACKER",
+			"formName": "Doses distributed to patients ",
+			"id": "jGYGY934OJa",
+			"lastUpdated": "2021-01-12T14:21:53.833",
+			"legendSets": [],
+			"name": "EPI - Doses Distributed to Patients ",
+			"publicAccess": "r-------",
+			"shortName": "EPI - Doses Distributed to Patients ",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-11-23T08:28:39.351",
+			"domainType": "TRACKER",
+			"formName": "Doses Received ",
+			"id": "PGlhRO1cBQJ",
+			"lastUpdated": "2021-01-12T14:21:53.833",
+			"legendSets": [],
+			"name": "EPI - Vials Received ",
+			"publicAccess": "r-------",
+			"shortName": "EPI - Vials Received ",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-11-23T08:30:25.795",
+			"domainType": "TRACKER",
+			"formName": "Vials discarded (broken vials, expired, or wastage)",
+			"id": "TIlgxyquUD0",
+			"lastUpdated": "2021-01-12T14:21:53.833",
+			"legendSets": [],
+			"name": "EPI - Vials Discarded",
+			"publicAccess": "r-------",
+			"shortName": "EPI - Vials Discarded",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2020-11-23T08:31:25.403",
+			"domainType": "TRACKER",
+			"formName": "Doses redistributed out to another facility or back to central medical stores",
+			"id": "YVqrsUuxegW",
+			"lastUpdated": "2021-01-12T14:21:53.833",
+			"legendSets": [],
+			"name": "EPI - Vials Redistributed",
+			"publicAccess": "r-------",
+			"shortName": "EPI - Vials Redistributed ",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		}
+	],
+	"package": "COVAXLOGX_TRACKER_V0.1.0_DHIS2.33_2021-01-12T16:03",
+	"programIndicators": [
+		{
+			"aggregationType": "SUM",
+			"analyticsPeriodBoundaries": [],
+			"analyticsType": "EVENT",
+			"attributeValues": [],
+			"code": "7038319037380",
+			"created": "2020-12-07T13:05:47.320",
+			"displayInForm": true,
+			"expression": "#{Lwg5wXyQKCl.PGlhRO1cBQJ} - (#{UdWdsDxTaR8.YVqrsUuxegW} + #{y6PdFyzeqb4.jGYGY934OJa} + #{fCMGg49bk9w.TIlgxyquUD0})",
+			"filter": "A{Jo2adHWxuKM} == \"7038319037380\"",
+			"id": "H0auwnRdbUM",
+			"lastUpdated": "2021-01-12T14:21:54.646",
+			"legendSets": [],
+			"name": "EPI - Stock on hand: 7038319037380",
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"publicAccess": "r-------",
+			"shortName": "7038319037380",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		},
+		{
+			"aggregationType": "SUM",
+			"analyticsPeriodBoundaries": [],
+			"analyticsType": "ENROLLMENT",
+			"attributeValues": [],
+			"created": "2020-12-01T10:23:14.237",
+			"displayInForm": true,
+			"expression": "#{Lwg5wXyQKCl.PGlhRO1cBQJ} - (#{UdWdsDxTaR8.YVqrsUuxegW} + #{y6PdFyzeqb4.jGYGY934OJa} + #{fCMGg49bk9w.TIlgxyquUD0})",
+			"id": "PI8gwQg5ubq",
+			"lastUpdated": "2021-01-12T14:21:54.646",
+			"legendSets": [],
+			"name": "EPI - Vial stock on hand",
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"publicAccess": "r-------",
+			"shortName": "EPI - Vial stock on hand",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"programNotificationTemplates": [
+		{
+			"created": "2020-11-23T09:07:59.050",
+			"deliveryChannels": [],
+			"id": "pkU5U5TdLJo",
+			"lastUpdated": "2021-01-12T14:21:54.072",
+			"messageTemplate": "V{org_unit_name} has recorded a stock out of A{fUlTNOpEyP0} on V{current_date}",
+			"name": "Stock-out Warning",
+			"notificationRecipient": "USERS_AT_ORGANISATION_UNIT",
+			"notificationTrigger": "COMPLETION",
+			"subjectTemplate": "A{fUlTNOpEyP0} has recorded a stock-out"
+		}
+	],
+	"programs": [
+		{
+			"accessLevel": "OPEN",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"completeEventsExpiryDays": 0,
+			"created": "2020-11-23T09:00:04.571",
+			"displayFrontPageList": true,
+			"displayIncidentDate": true,
+			"enrollmentDateLabel": "Date of initial stock received ",
+			"expiryDays": 0,
+			"id": "HLSgxk1QqK6",
+			"ignoreOverdueEvents": false,
+			"incidentDateLabel": "Data of data capture",
+			"lastUpdated": "2021-01-12T14:22:51.434",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Vaccine Stock",
+			"notificationTemplates": [],
+			"onlyEnrollOnce": true,
+			"organisationUnits": [],
+			"programSections": [
+				{
+					"id": "uidCTJkpUPx"
+				}
+			],
+			"programStages": [
+				{
+					"id": "Lwg5wXyQKCl"
+				},
+				{
+					"id": "y6PdFyzeqb4"
+				},
+				{
+					"id": "qSQsB8oSprO"
+				},
+				{
+					"id": "fCMGg49bk9w"
+				},
+				{
+					"id": "UdWdsDxTaR8"
+				}
+			],
+			"programTrackedEntityAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T09:00:04.295",
+					"displayInList": true,
+					"displayName": "Vaccine Stock Vaccine Picture",
+					"displayShortName": "Vaccine Stock Vaccine Picture",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "x8koaKmEH3I",
+					"lastUpdated": "2021-01-12T14:22:51.435",
+					"mandatory": false,
+					"name": "Vaccine Stock Vaccine Picture",
+					"program": {
+						"id": "HLSgxk1QqK6"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 1,
+					"trackedEntityAttribute": {
+						"id": "jcrkwfxldNW"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "IMAGE"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T09:00:04.295",
+					"displayInList": true,
+					"displayName": "Vaccine Stock Vaccine Name",
+					"displayShortName": "Vaccine Stock Vaccine Name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "IhSVs69v1QW",
+					"lastUpdated": "2021-01-12T14:22:51.435",
+					"mandatory": false,
+					"name": "Vaccine Stock Vaccine Name",
+					"program": {
+						"id": "HLSgxk1QqK6"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 2,
+					"trackedEntityAttribute": {
+						"id": "fUlTNOpEyP0"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T09:00:04.295",
+					"displayInList": false,
+					"displayName": "Vaccine Stock Vaccine Dosage",
+					"displayShortName": "Vaccine Stock Vaccine Dosage",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ZSaWhrwKgcf",
+					"lastUpdated": "2021-01-12T14:22:51.435",
+					"mandatory": false,
+					"name": "Vaccine Stock Vaccine Dosage",
+					"program": {
+						"id": "HLSgxk1QqK6"
+					},
+					"programTrackedEntityAttributeGroups": [],
+					"renderOptionsAsRadio": false,
+					"searchable": false,
+					"sortOrder": 3,
+					"trackedEntityAttribute": {
+						"id": "HELjt7hjuYn"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "NUMBER"
+				}
+			],
+			"programType": "WITH_REGISTRATION",
+			"publicAccess": "r-r-----",
+			"selectEnrollmentDatesInFuture": false,
+			"selectIncidentDatesInFuture": false,
+			"shortName": "Vaccine Stock",
+			"skipOffline": false,
+			"style": {
+				"color": "#64b5f6",
+				"icon": "pwid_outline"
+			},
+			"trackedEntityType": {
+				"id": "laYu7xfuUDO"
+			},
+			"translations": [],
+			"useFirstStageDuringRegistration": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"version": 7
+		}
+	],
+	"programStages": [
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": true,
+			"blockEntryForm": false,
+			"created": "2020-12-01T10:17:40.989",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "fCMGg49bk9w",
+			"lastUpdated": "2021-01-12T14:22:51.385",
+			"minDaysFromStart": 0,
+			"name": "Discarded",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-12-01T10:17:40.989",
+					"dataElement": {
+						"id": "TIlgxyquUD0"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "eoS8XtDLFpL",
+					"lastUpdated": "2021-01-12T14:22:51.387",
+					"programStage": {
+						"id": "fCMGg49bk9w"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "r-r-----",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 4,
+			"style": {
+				"color": "#e57373",
+				"icon": "no_outline"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2020-11-23T09:00:04.522",
+			"description": "Stock received",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"executionDateLabel": "Data of stock received ",
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "Lwg5wXyQKCl",
+			"lastUpdated": "2021-01-12T14:22:51.379",
+			"minDaysFromStart": 0,
+			"name": "Resupply",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-11-23T09:00:04.522",
+					"dataElement": {
+						"id": "PGlhRO1cBQJ"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "JY0FOW5l48y",
+					"lastUpdated": "2021-01-12T14:22:51.381",
+					"programStage": {
+						"id": "Lwg5wXyQKCl"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "r-r-----",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 1,
+			"style": {
+				"color": "#00acc1",
+				"icon": "positive_positive"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2020-11-23T09:02:24.528",
+			"description": "Physical count of dosages at the end of the shift",
+			"displayGenerateEventBox": false,
+			"enableUserAssignment": false,
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "qSQsB8oSprO",
+			"lastUpdated": "2021-01-12T14:22:51.384",
+			"minDaysFromStart": 0,
+			"name": "Stock on Hand",
+			"notificationTemplates": [
+				{
+					"id": "pkU5U5TdLJo"
+				}
+			],
+			"openAfterEnrollment": false,
+			"periodType": "Daily",
+			"preGenerateUID": false,
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": true,
+					"created": "2020-11-23T09:02:24.528",
+					"dataElement": {
+						"id": "eNl6EKSFbJ0"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Vedt1Gth1OV",
+					"lastUpdated": "2021-01-12T14:22:51.385",
+					"programStage": {
+						"id": "qSQsB8oSprO"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "r-r-----",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 3,
+			"style": {
+				"color": "#64b5f6",
+				"icon": "yes_positive"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": true,
+			"blockEntryForm": false,
+			"created": "2020-12-01T10:17:40.990",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "UdWdsDxTaR8",
+			"lastUpdated": "2021-01-12T14:22:51.387",
+			"minDaysFromStart": 0,
+			"name": "Redistributed ",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-12-01T10:17:40.990",
+					"dataElement": {
+						"id": "YVqrsUuxegW"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "j3AQKh6PC10",
+					"lastUpdated": "2021-01-12T14:22:51.388",
+					"programStage": {
+						"id": "UdWdsDxTaR8"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "r-r-----",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 5,
+			"style": {
+				"color": "#fbc02d",
+				"icon": "negative_outline"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		},
+		{
+			"allowGenerateNextVisit": false,
+			"attributeValues": [],
+			"autoGenerateEvent": false,
+			"blockEntryForm": false,
+			"created": "2020-11-23T09:00:04.523",
+			"description": "Supply distributed to patients, redistributed to another facility, or supply discarded. ",
+			"displayGenerateEventBox": true,
+			"enableUserAssignment": false,
+			"generatedByEnrollmentDate": false,
+			"hideDueDate": false,
+			"id": "y6PdFyzeqb4",
+			"lastUpdated": "2021-01-12T14:22:51.382",
+			"minDaysFromStart": 0,
+			"name": "Distributed to Patients ",
+			"notificationTemplates": [],
+			"openAfterEnrollment": false,
+			"preGenerateUID": false,
+			"program": {
+				"id": "HLSgxk1QqK6"
+			},
+			"programStageDataElements": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2020-11-23T09:00:04.523",
+					"dataElement": {
+						"id": "jGYGY934OJa"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "sGgcX0My1EF",
+					"lastUpdated": "2021-01-12T14:22:51.383",
+					"programStage": {
+						"id": "y6PdFyzeqb4"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 1,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				}
+			],
+			"programStageSections": [],
+			"publicAccess": "r-r-----",
+			"remindCompleted": false,
+			"repeatable": true,
+			"sortOrder": 2,
+			"style": {
+				"color": "#e57373",
+				"icon": "syringe_outline"
+			},
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"validationStrategy": "ON_COMPLETE"
+		}
+	],
+	"trackedEntityAttributes": [
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-11-23T08:44:20.586",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Name",
+			"generated": false,
+			"id": "fUlTNOpEyP0",
+			"inherit": false,
+			"lastUpdated": "2021-01-12T14:21:53.902",
+			"legendSets": [],
+			"name": "Vaccine Name",
+			"orgunitScope": true,
+			"pattern": "",
+			"publicAccess": "r-------",
+			"shortName": "Vaccine Name",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": true,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "TEXT"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-11-23T08:45:40.173",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Dosage (mL)",
+			"generated": false,
+			"id": "HELjt7hjuYn",
+			"inherit": false,
+			"lastUpdated": "2021-01-12T14:21:53.902",
+			"legendSets": [],
+			"name": "Vaccine Dosage",
+			"orgunitScope": true,
+			"pattern": "",
+			"publicAccess": "r-------",
+			"shortName": "Vaccine Dosage",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "NUMBER"
+		},
+		{
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"confidential": false,
+			"created": "2020-11-23T08:46:55.397",
+			"displayInListNoProgram": false,
+			"displayOnVisitSchedule": false,
+			"formName": "Picture",
+			"generated": false,
+			"id": "jcrkwfxldNW",
+			"inherit": false,
+			"lastUpdated": "2021-01-12T14:21:53.902",
+			"legendSets": [],
+			"name": "Vaccine Picture",
+			"orgunitScope": true,
+			"pattern": "",
+			"publicAccess": "r-------",
+			"shortName": "Vaccine Picture",
+			"skipSynchronization": false,
+			"translations": [],
+			"unique": false,
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "IMAGE"
+		}
+	],
+	"trackedEntityTypes": [
+		{
+			"allowAuditLog": false,
+			"attributeValues": [],
+			"created": "2020-11-23T08:43:11.210",
+			"featureType": "NONE",
+			"id": "laYu7xfuUDO",
+			"lastUpdated": "2021-01-12T14:21:53.913",
+			"maxTeiCountToReturn": 0,
+			"minAttributesRequiredToSearch": 1,
+			"name": "Vaccine",
+			"publicAccess": "r-r-----",
+			"style": {
+				"color": "#64b5f6",
+				"icon": "syringe_outline"
+			},
+			"trackedEntityTypeAttributes": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T08:53:55.664",
+					"displayInList": true,
+					"displayName": "Vaccine Vaccine Picture",
+					"displayShortName": "null Vaccine Picture",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "KKizxk9WkQt",
+					"lastUpdated": "2021-01-12T14:21:53.913",
+					"mandatory": true,
+					"name": "Vaccine Vaccine Picture",
+					"searchable": false,
+					"trackedEntityAttribute": {
+						"id": "jcrkwfxldNW"
+					},
+					"trackedEntityType": {
+						"id": "laYu7xfuUDO"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "IMAGE"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T08:53:55.665",
+					"displayInList": false,
+					"displayName": "Vaccine Vaccine Dosage",
+					"displayShortName": "null Vaccine Dosage",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "lNBOkrKdxeS",
+					"lastUpdated": "2021-01-12T14:21:53.914",
+					"mandatory": true,
+					"name": "Vaccine Vaccine Dosage",
+					"searchable": false,
+					"trackedEntityAttribute": {
+						"id": "HELjt7hjuYn"
+					},
+					"trackedEntityType": {
+						"id": "laYu7xfuUDO"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "NUMBER"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T08:53:55.665",
+					"displayInList": true,
+					"displayName": "Vaccine Vaccine Barcode",
+					"displayShortName": "null Vaccine Barcode",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "UeQwIHhyupx",
+					"lastUpdated": "2021-01-12T14:21:53.914",
+					"mandatory": true,
+					"name": "Vaccine Vaccine Barcode",
+					"searchable": false,
+					"trackedEntityAttribute": {
+						"id": "Jo2adHWxuKM"
+					},
+					"trackedEntityType": {
+						"id": "laYu7xfuUDO"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"created": "2020-11-23T08:53:55.665",
+					"displayInList": true,
+					"displayName": "Vaccine Vaccine Name",
+					"displayShortName": "null Vaccine Name",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "ZNg2PmQQAzM",
+					"lastUpdated": "2021-01-12T14:21:53.914",
+					"mandatory": true,
+					"name": "Vaccine Vaccine Name",
+					"searchable": false,
+					"trackedEntityAttribute": {
+						"id": "fUlTNOpEyP0"
+					},
+					"trackedEntityType": {
+						"id": "laYu7xfuUDO"
+					},
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"valueType": "TEXT"
+				}
+			],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2020-07-07T10:42:27.285",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
+		}
+	]
+}

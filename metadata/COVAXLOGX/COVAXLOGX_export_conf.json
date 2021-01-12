@@ -1,0 +1,47 @@
+{
+    "export": [
+      {
+        "_basePath": "./COVAXLOGX/",
+        "_code": "COVAXLOGX",
+        "_name": "Vaccine Stock",
+        "_prefix": "[CONFIG]",
+        "_ownership": {
+          "modeOwner": "OVERWRITE",
+          "modeLastUpdated": "REMOVE",
+          "ownerId": "vUeLeQMSwhN"
+        },
+        "_sharing": {
+          "groupMode": "OVERWRITE",
+          "groups": [],
+          "groupExport": true,
+          "userMode": "REMOVE",
+          "users": [
+            {
+              "id": "vUeLeQMSwhN",
+              "metadata": "EDIT",
+              "data": "EDIT"
+            }
+          ],
+          "userExport": false,
+          "publicAccess": {
+            "metadata": "VIEW",
+            "data": "VIEW"
+          }
+        },
+        "_type": "tracker",
+        "_url": [
+          "https://who-dev.dhis2.org/tracker_dev"
+        ],
+        "_version": "0.1.0",
+        "customObjects": [],
+        "dashboardIds": [],
+        "dataElementGroupIds": [],
+        "exportIndicatorGroupsIds": [],
+        "indicatorGroupIds": [],
+        "programIds": [
+          "HLSgxk1QqK6"
+        ]
+      }
+    ]
+  }
+  
