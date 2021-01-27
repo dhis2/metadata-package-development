@@ -1,0 +1,3175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    </meta>
+    <title>Metadata reference</title>
+  </head>
+
+  <body>
+    <h1>Metadata reference</h1>
+    <div id="tocContainer">
+      <ul>
+        <li><a href="#package">Package ID</a></li>
+        <li><a href="#trackedEntityTypes">Tracked Entity Types</a></li>
+        <li><a href="#trackedEntityAttributes">Tracked Entity Attributes</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#programRules">Program Rules</a></li>
+        <li><a href="#programIndicators">Program Indicators</a></li>
+        <li><a href="#dataElements">Data Elements</a></li>
+        <li><a href="#dataElementGroups">Data Element Groups</a></li>
+        <li><a href="#categoryCombos">Category Combos</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#categoryOptions">Category Options</a></li>
+        <li><a href="#categoryOptionCombos">Category Option Combos</a></li>
+        <li><a href="#optionSets">Option Sets</a></li>
+        <li><a href="#options">Options</a></li>
+        <li><a href="#indicatorGroups">Indicator Groups</a></li>
+        <li><a href="#indicators">Indicators</a></li>
+        <li><a href="#indicatorTypes">Indicator Types</a></li>
+        <li><a href="#dashboards">Dashboards</a></li>
+        <li><a href="#charts">Charts</a></li>
+        <li><a href="#reportTables">Report Tables</a></li>
+        <li><a href="#maps">Maps</a></li>
+        <li><a href="#eventReports">Event Reports</a></li>
+        <li><a href="#eventCharts">Event Charts</a></li>
+        <li><a href="#trackedEntityInstanceFilters">Tracked Entity Instance Filters</a></li>
+        <li><a href="#programNotificationTemplates">ProgramNotificationTemplates</a></li>
+        <li><a href="#userGroups">User Groups</a></li>
+      </ul>
+    </div>
+    <h2>Package info</h2>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Code</th>
+        <td>COVAX</td>
+      </tr>
+      <tr>
+        <th>Type</th>
+        <td>TRACKER</td>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td>V1.0.0</td>
+      </tr>
+      <tr>
+        <th>DHIS2 version</th>
+        <td>DHIS2.33</td>
+      </tr>
+      <tr>
+        <th>Created</th>
+        <td>2021-01-27T11:39</td>
+      </tr>
+      <tr>
+        <th>Identifier</th>
+        <td>COVAX_TRACKER_V1.0.0_DHIS2.33_2021-01-27T11:39</td>
+      </tr>
+    </table>
+    <h2 id="trackedEntityTypes">Tracked entity types</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>2021-01-20</td>
+        <td>MCPQUTHX1Ze</td>
+      </tr>
+    </table>
+    <h3>Tracked Entity Type - Tracked Entity Type Attributes</h3>
+    <table>
+      <tr>
+        <th>Tracked Entity Type</th>
+        <th>Tracked Entity Type Attribute</th>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>gqLw62UZlrD</td>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>hKZ9AJpnVcG</td>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>loHxNJH4IvV</td>
+      </tr>
+      <tr>
+        <td>Person</td>
+        <td>qb8PkSObwqh</td>
+      </tr>
+    </table>
+    <h2 id="trackedEntityAttributes">Tracked entity attributes</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX Unique System Identifier (EPI)</td>
+        <td></td>
+        <td>System-generated unique ID following pattern: CURRENT_DATE(yyyy-MM-dd) followed by a random number (#####)</td>
+        <td>2021-01-22</td>
+        <td>aJJvi3jiLZr</td>
+      </tr>
+      <tr>
+        <td>Family name</td>
+        <td></td>
+        <td>Family name of the patient</td>
+        <td>2021-01-22</td>
+        <td>aW66s2QSosT</td>
+      </tr>
+      <tr>
+        <td>Mobile phone number</td>
+        <td></td>
+        <td></td>
+        <td>2021-01-22</td>
+        <td>ciCR6BBvIT4</td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td></td>
+        <td>Sex of Person</td>
+        <td>2021-01-22</td>
+        <td>CklPZdOd6H1</td>
+      </tr>
+      <tr>
+        <td>National ID</td>
+        <td></td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>Ewi7FUfcHAD</td>
+      </tr>
+      <tr>
+        <td>COVID - Occupation</td>
+        <td>occupation</td>
+        <td>Client occupation from the pre-defined list</td>
+        <td>2020-11-24</td>
+        <td>LY2bDXpNvS7</td>
+      </tr>
+      <tr>
+        <td>Date of birth (age)</td>
+        <td></td>
+        <td>Date of birth plus calculated age</td>
+        <td>2021-01-22</td>
+        <td>mAWcalQYYyk</td>
+      </tr>
+      <tr>
+        <td>Given name</td>
+        <td></td>
+        <td>The name of the patient or initials</td>
+        <td>2021-01-22</td>
+        <td>TfdH5KvFmMy</td>
+      </tr>
+      <tr>
+        <td>Address (current)</td>
+        <td></td>
+        <td>Current home address of the patient/case </td>
+        <td>2021-01-22</td>
+        <td>VCtm2pySeEV</td>
+      </tr>
+      <tr>
+        <td>Area Urban Rural</td>
+        <td>area_urban_rural</td>
+        <td>Whether client lives in an urban or rural setting</td>
+        <td>2020-11-24</td>
+        <td>YCqoNJZKvAG</td>
+      </tr>
+      <tr>
+        <td>Date of birth is estimated</td>
+        <td></td>
+        <td></td>
+        <td>2021-01-22</td>
+        <td>Z1rLc1rVHK8</td>
+      </tr>
+    </table>
+    <h2 id="programs">Programs</h2>
+    <h3>COVID-19 Vaccination Registry</h3>
+    <table>
+      <tr>
+        <th>Property</th>
+        <td>Value</td>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td>COVID-19 Vaccination Registry</td>
+      </tr>
+      <tr>
+        <th>Tracked Entity Type:</th>
+        <td>Person</td>
+      </tr>
+      <tr>
+        <th>Last updated:</th>
+        <td>2021-01-20</td>
+      </tr>
+      <tr>
+        <th>UID:</th>
+        <td>yDuAzyqYABS</td>
+      </tr>
+    </table>
+    <h4>Program Stages</h4>
+    <table>
+      <tr>
+        <th>Program Stage</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>2021-01-27</td>
+        <td>a1jCssI2LkW</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>2021-01-27</td>
+        <td>FhmnMGI5RWG</td>
+      </tr>
+    </table>
+    <h4>Program Stage - Program Stage Section - Data Element</h4>
+    <table>
+      <tr>
+        <th>Program Stage</th>
+        <th>Program Stage Section</th>
+        <th>Data Element</th>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td></td>
+        <td>COVAX - Eligibility</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX - Vaccine Type</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX - Dose Number</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX- Batch Number</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX - Dose Expiry Date</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX - Last Dose</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX Suggested date for next dose</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Pregnancy</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Pregnancy gestation</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Pre-immunization Questions</td>
+        <td>COVAX Previously infected with COVID</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td></td>
+        <td>COVAX Date of remission</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Underlying condition</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Underlying condition Other</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Immunodeficiency</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td></td>
+        <td>COVAX Recent infection with a temperature > 39 degree C </td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Cardiovascular Disease</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Pre-immunization Questions</td>
+        <td>COVAX Allergic reaction after first dose</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Chronic Lung Disease</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Diabetes</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Malignancy</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Neurological/Neuromuscular</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Underlying Conditions</td>
+        <td>COVAX - Renal Disease</td>
+      </tr>
+      <tr>
+        <td>Vaccination </td>
+        <td>Vaccination information</td>
+        <td>COVAX - Multiple products used - Explain</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td></td>
+        <td>AEFI - Vaccine 1 name</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Vaccines given</td>
+        <td>AEFI - Vaccination 1 date</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Other Signs and symptoms</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI_Serious adverse event following immunization</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Death</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Life threatening</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Hospitalization</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Persistent or significant disability</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Congenital anomaly</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Fever</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI_Redness</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI_Swelling</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI_Malaise</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFi_Weakness </td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Vaccines given</td>
+        <td>AEFI - Batch/lot number (Vaccine 1)</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Vaccines given</td>
+        <td>AEFI - Expiry date (Vaccine 1)</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI_Nonserious adverse event following immunization</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>COVAX AEFI - Bell's Palsy</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>COVAX AEFI - Lymphadenopathy</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Adverse event details</td>
+        <td>AEFI - Anaphylaxis</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Vaccines given</td>
+        <td>COVAX AEFI - Vaccine name</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Vaccines given</td>
+        <td>COVAX AEFI Manufacturer Name</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Pregnancy</td>
+        <td>COVAX - Pregnancy</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Pregnancy</td>
+        <td>COVAX - Pregnancy gestation</td>
+      </tr>
+      <tr>
+        <td>Adverse event notification</td>
+        <td>Underlying conditions</td>
+        <td>COVAX - Underlying condition</td>
+      </tr>
+    </table>
+    <h2 id="programIndicators">Program Indicators</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Analytics Type</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Vaccine Uptake (COVAX 2) </td>
+        <td>Vaccine Uptake (COVAX 2) </td>
+        <td></td>
+        <td>Number of people who have had any dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>A2Vtdh2mndr</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (60+)</td>
+        <td>Received last dose (60+)</td>
+        <td>COV-c (60+)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>a6kCEcImBlW</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Male 60+)</td>
+        <td>First dose - Number of people (Male 60+)</td>
+        <td>COV-1 (Male 60+)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>aIIHyDy8AMW</td>
+      </tr>
+      <tr>
+        <td>ZZZVaccine Uptake (COVAX 1)</td>
+        <td>ZZZVaccine Uptake (COVAX 1)</td>
+        <td></td>
+        <td>Number of doses given of COVAX 1</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>ApGCVA6qhKT</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose </td>
+        <td>First dose - Number of people</td>
+        <td>COV-1</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>AXweWKC4B3L</td>
+      </tr>
+      <tr>
+        <td>ZZZNumber of people (Female) receiving a second, third or booster dose </td>
+        <td>ZZZ2nd, 3rd, booster dose - Number of females</td>
+        <td>ZZCOV-2 (Female)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-18</td>
+        <td>BEw3zmRnGo4</td>
+      </tr>
+      <tr>
+        <td>AEFI - Number of incidents -pregnant or lactating</td>
+        <td>AEFI - Number of incidents preg</td>
+        <td></td>
+        <td>Number of AEFI incidents amongst pregnant or lactating women.</td>
+        <td>EVENT</td>
+        <td>2021-01-19</td>
+        <td>BGcdrIw9GCg</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (0-59)</td>
+        <td>Received last dose (0-59)</td>
+        <td>COV-c (0-59)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>BtB8fMhK2gH</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (60+)</td>
+        <td>2nd, 3rd, booster dose - Number of people (60+)</td>
+        <td>COV-2 (60+)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>CI0pKfEiWom</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Numerator (30 days since enrollment, no final dose)</td>
+        <td>Dropout_rate_30_days_n</td>
+        <td></td>
+        <td>Crosses 30 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>cq2a28RsAFT</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Numerator COVAX1 (10 days since enrollment, no final dose)</td>
+        <td>Dropout_rate_10_days_n</td>
+        <td></td>
+        <td>Crosses 10 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>dIAw5mn6Wqp</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product</td>
+        <td>Received last dose</td>
+        <td>COV-c</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>DNWp4zqrALv</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Numerator COVAX2 (21 days since enrollment, no final dose)</td>
+        <td>Dropout_rate_21_days_n</td>
+        <td></td>
+        <td>Crosses 21 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>Fj0B6zTlckL</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Male 0-59)</td>
+        <td>Received last dose (Male 0-59)</td>
+        <td>COV-c (Male 0-59)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>FZNIlzPRMmL</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Female 60+)</td>
+        <td>2nd, 3rd, booster dose - (Female 60+)</td>
+        <td>COV-2 (Female 60+)</td>
+        <td>Number of females who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>h9G7i6mQKef</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Male)</td>
+        <td>First dose - Number of people (Male)</td>
+        <td>COV-1 Male</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>HCe7qiP0GoC</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Male 0-59)</td>
+        <td>First dose - Number of people (Male 0-59)</td>
+        <td>COV-1 (Male 0-59)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>hqm8znlAzkT</td>
+      </tr>
+      <tr>
+        <td>ZZZNumber of people (Male) receiving a second, third or booster dose </td>
+        <td>ZZZ2nd, 3rd, booster dose - Number of males</td>
+        <td>ZZZCOV-2 (Male)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-18</td>
+        <td>IXW8ahBF3Pl</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Female)</td>
+        <td>First dose - Number of people (Female)</td>
+        <td>COV-1 Female</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>kKr4FSA1O0Z</td>
+      </tr>
+      <tr>
+        <td>Doses given - </td>
+        <td>1st, 2nd, 3rd, booster dose - Number of doses - </td>
+        <td>COV-n</td>
+        <td>Number of doses (first, second, third, or booster dose) of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>kNzRGpiCvg4</td>
+      </tr>
+      <tr>
+        <td>Vaccine Uptake (COVAX 1) </td>
+        <td>Vaccine Uptake (COVAX 1) </td>
+        <td></td>
+        <td>Number of doses given of COVAX 1</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>M3jBOeFxHO0</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Male 0-59)</td>
+        <td>2nd, 3rd or booster dose - (Male 0-59)</td>
+        <td>COV-2 (Male 0-59)</td>
+        <td>Number of males who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>MGjwUUNsE60</td>
+      </tr>
+      <tr>
+        <td>AEFI - Number of incidents</td>
+        <td>AEFI - Number of incidents</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-19</td>
+        <td>MTYHIaNuwYg</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (60+)</td>
+        <td>First dose - Number of people (60+)</td>
+        <td>COV-1 (60+)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>MUXThnNRCk6</td>
+      </tr>
+      <tr>
+        <td>ZZZNumber of people receiving a first dose</td>
+        <td>ZZZFirst dose - Number of people</td>
+        <td>ZZZCOV-1</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-18</td>
+        <td>P2OSNv6tWuj</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Male)</td>
+        <td>Received last dose (Male)</td>
+        <td>COV-c Male</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>pbiKvW0Xv5Y</td>
+      </tr>
+      <tr>
+        <td>AEFI - incidents amongst people with underlying conditions - JM</td>
+        <td>AEFI with underlying conditions-JM</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-19</td>
+        <td>PyTX96wHx1x</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Male 60+)</td>
+        <td>2nd, 3rd, booster dose - (Male 60+)</td>
+        <td>COV-2 (Male 60+)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>qh0kIjHZbP8</td>
+      </tr>
+      <tr>
+        <td>AEFI - among COVAX3 clients</td>
+        <td>AEFI among COVAX3 clients</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-20</td>
+        <td>QlZFskLMPKH</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Female 0-59)</td>
+        <td>First dose - Number of people (Female 0-59)</td>
+        <td>COV-1 (Female 0-59)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>RJ6pdxga9Od</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Denominator COVAX3 (28 days since enrollment)</td>
+        <td>Dropout_rate_28_days_D</td>
+        <td></td>
+        <td>Crosses 28 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>rqwQndYRiXO</td>
+      </tr>
+      <tr>
+        <td>ZZZVaccine Uptake (COVAX 2)</td>
+        <td>ZZZVaccine Uptake (COVAX 2)</td>
+        <td></td>
+        <td>Number of people who have had any dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>rtoIINJSfAf</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (0-59)</td>
+        <td>First dose - Number of people (0-59)</td>
+        <td>COV-1 (0-59)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>SqD0kovH0CS</td>
+      </tr>
+      <tr>
+        <td>zzzNumber of people receiving a second, third or booster dose </td>
+        <td>zzz2nd, 3rd, booster dose - Number of people </td>
+        <td>zzzCOV-2 </td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-18</td>
+        <td>sYIBsws6qUG</td>
+      </tr>
+      <tr>
+        <td>ZZZVaccine Uptake (COVAX 3)</td>
+        <td>ZZZVaccine Uptake (COVAX 3)</td>
+        <td></td>
+        <td>Number of people who have had any dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>T4Fcv5Khfe8</td>
+      </tr>
+      <tr>
+        <td>AEFI - among COVAX1 clients</td>
+        <td>AEFI among COVAX1 clients</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-20</td>
+        <td>tlkzwgXqGDx</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Denominator COVAX1 (10 days since enrollment)</td>
+        <td>Dropout_rate_10_days_D</td>
+        <td></td>
+        <td>Crosses 30 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>toRV4TP9yQK</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Female)</td>
+        <td>Received last dose (Female)</td>
+        <td>COV-c Female</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>UWXUTVN709H</td>
+      </tr>
+      <tr>
+        <td>ZZZNumber of doses given</td>
+        <td>ZZZ1st, 2nd, 3rd, booster dose - Number of people </td>
+        <td>ZZZCOV-n</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>UzbfnPqo0LV</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Male) </td>
+        <td>2nd, 3rd, booster dose - Number of males </td>
+        <td>COV-2 (Male)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>UzPqw49tyym</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Denominator (30 days since enrollment)</td>
+        <td>Dropout_rate_30_days_D</td>
+        <td></td>
+        <td>Crosses 30 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-18</td>
+        <td>V7SgYaK5lyF</td>
+      </tr>
+      <tr>
+        <td>AEFI - among COVAX2 clients</td>
+        <td>AEFI among COVAX2 clients</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-20</td>
+        <td>Vh7QKrjnOK3</td>
+      </tr>
+      <tr>
+        <td>AEFI - incidents amongst people with underlying conditions</td>
+        <td>AEFI with underlying conditions</td>
+        <td></td>
+        <td> </td>
+        <td>EVENT</td>
+        <td>2021-01-19</td>
+        <td>WeUKTLkIHLe</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Female) JM</td>
+        <td>2nd, 3rd, booster dose - Number of females JM</td>
+        <td>COV-2 (Female)-JM</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>wkaRLVNi6Fm</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a first dose (Female 60+)</td>
+        <td>First dose - Number of people (Female 60+)</td>
+        <td>COV-1 (Female 60+)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>x4L0LuEBHhW</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Numerator COVAX3 (28 days since enrollment, no final dose)</td>
+        <td>Dropout_rate_28_days_n</td>
+        <td></td>
+        <td>Crosses 28 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>xE7kgNbrb5v</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Female 60+)</td>
+        <td>Received last dose (Female 60+)</td>
+        <td>COV-c (Female 60+)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>XFUvVgqPukT</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Female 0-59)</td>
+        <td>2nd, 3rd or booster dose - (Female 0-59)</td>
+        <td>COV-2 (Female 0-59)</td>
+        <td>Number of females who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>xY4T9hHXNji</td>
+      </tr>
+      <tr>
+        <td>Vaccine Uptake (COVAX 3) </td>
+        <td>Vaccine Uptake (COVAX 3) </td>
+        <td></td>
+        <td>Number of people who have had any dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-20</td>
+        <td>z7eWopCMD1k</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (0-59)</td>
+        <td>2nd, 3rd or booster dose - Number of people (0-59)</td>
+        <td>COV-2 (0-59)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>zgt8n5PIAAf</td>
+      </tr>
+      <tr>
+        <td>Underlying conditions - People with</td>
+        <td>Underlying conditions - People with</td>
+        <td></td>
+        <td>COunt of people who have one or more underlying conditions</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>Zn0UuSRYyJw</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Male 60+)</td>
+        <td>Received last dose (Male 60+)</td>
+        <td>COV-c (Male 60+)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>zovL7DKBRuK</td>
+      </tr>
+      <tr>
+        <td>Number of people who received the last recommended dose for the respective vaccine product (Female 0-59)</td>
+        <td>Received last dose (Female 0-59)</td>
+        <td>COV-c (Female 0-59)</td>
+        <td>Number of people who have had a last recommended dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>Zp39TSOR8eW</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose </td>
+        <td>2nd, 3rd, booster dose - Number of people</td>
+        <td>COV-2</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td>2021-01-18</td>
+        <td>zr25iLoCE4g</td>
+      </tr>
+      <tr>
+        <td>COV-C Dropout: Denominator COVAX2 (21 days since enrollment)</td>
+        <td>Dropout_rate_21_days_D</td>
+        <td></td>
+        <td>Crosses 21 days since enrollment date this period</td>
+        <td>ENROLLMENT</td>
+        <td>2021-01-14</td>
+        <td>ZS6qo9BSrcI</td>
+      </tr>
+    </table>
+    <h4 id="programRules">Program Rules</h4>
+    <table>
+      <tr>
+        <th>Program rule</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>if there was an allergic reaction after the first dose, fill out an AEFI stage</td>
+        <td></td>
+        <td>2021-01-26</td>
+        <td>A6Oy09dbQwn</td>
+      </tr>
+      <tr>
+        <td>If patient has had underlying diseases, transfer that value to following stage</td>
+        <td>Rule transfers date of remission and if person has previously had covid</td>
+        <td>2021-01-19</td>
+        <td>AmgPexdbztQ</td>
+      </tr>
+      <tr>
+        <td>Show warning if the client is a health worker</td>
+        <td>If the client is a health worker, show a warning in the top bar</td>
+        <td>2020-12-03</td>
+        <td>biYqhZM5HXe</td>
+      </tr>
+      <tr>
+        <td>Hide Trimester if nor pregnant AEFI</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>d3SLrS5zUWS</td>
+      </tr>
+      <tr>
+        <td>If Age is under 18, then warn that COVAX 1 is recommended for ages 18 and up</td>
+        <td></td>
+        <td>2021-01-26</td>
+        <td>e0WJRMhSrZy</td>
+      </tr>
+      <tr>
+        <td>If client has a history of Chronic lung disease show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>gmBh14b7tYb</td>
+      </tr>
+      <tr>
+        <td>If patient has had covid, assign value to data element of current event</td>
+        <td>Rule transfers date of remission and if person has previously had covid</td>
+        <td>2021-01-08</td>
+        <td>GtxjhHBQdLQ</td>
+      </tr>
+      <tr>
+        <td>Hide serious AEFI if not serious</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>gVJOn6jSat9</td>
+      </tr>
+      <tr>
+        <td>Show warning: If previous dose was first, then this shoul be second</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>HDGNEGd5wnd</td>
+      </tr>
+      <tr>
+        <td>Hide Trimester if nor pregnant</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>HdOtRsvVzgY</td>
+      </tr>
+      <tr>
+        <td>Show warning: If previous dose was second then this should be the third dose, or a booster dose</td>
+        <td></td>
+        <td>2020-12-08</td>
+        <td>hdPflHqZKO3</td>
+      </tr>
+      <tr>
+        <td>Hide pregnancy if not a woman AEFI</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>hF9pFAruPoT</td>
+      </tr>
+      <tr>
+        <td>Reminder on complete that they still need to complete an AEFI investigation</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>hOma5VXboQV</td>
+      </tr>
+      <tr>
+        <td>Hide underlying conditions if none</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>I0FZ4YQgxfD</td>
+      </tr>
+      <tr>
+        <td>if client has a history of Chronic lung disease, add value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>i0YmXeSnrqn</td>
+      </tr>
+      <tr>
+        <td>if client has a history of immunodeficiency assign value to current event</td>
+        <td></td>
+        <td>2021-01-07</td>
+        <td>i5tOyWRc3S1</td>
+      </tr>
+      <tr>
+        <td>If client has a history of Cardiovascular disease show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>j16AULHWXur</td>
+      </tr>
+      <tr>
+        <td>if client has a history of cardiovascular disease assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>jNtY9t6b120</td>
+      </tr>
+      <tr>
+        <td>if client has a history of malignancy assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>K9Vjkz1xOw1</td>
+      </tr>
+      <tr>
+        <td>if client has a history of Diabetes assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>KGBdMuY2ASs</td>
+      </tr>
+      <tr>
+        <td>if client has a history of Renal disease assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>l8opvp32VAd</td>
+      </tr>
+      <tr>
+        <td>Show warning if person has had covid within 90 days of vaccination date</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>LO6XtDyCbya</td>
+      </tr>
+      <tr>
+        <td>Show vaccine type from previous vaccination event</td>
+        <td></td>
+        <td>2021-01-07</td>
+        <td>nU9WWRKt7PL</td>
+      </tr>
+      <tr>
+        <td>if client has a history of neurological deficiency assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>OdSVYvgu6G2</td>
+      </tr>
+      <tr>
+        <td>Calculate age </td>
+        <td></td>
+        <td>2021-01-26</td>
+        <td>oPUB5us9T8e</td>
+      </tr>
+      <tr>
+        <td>If client has a history of OTHER disease show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>ParDbFN1amU</td>
+      </tr>
+      <tr>
+        <td>If Age is under 18, then warn that COVAX 3 is recommended for ages 18 and up</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>ppbeGorruVj</td>
+      </tr>
+      <tr>
+        <td>if client has a history of Other assign value to current event</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>QEq5oRr4UEw</td>
+      </tr>
+      <tr>
+        <td>Show warning: If previous dose was second and the vaccine was COVAX 1 then there should be no more doses </td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>qLCtAeQQOP3</td>
+      </tr>
+      <tr>
+        <td>If client has a history of Renal Disease show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>qrIXRSq77JN</td>
+      </tr>
+      <tr>
+        <td>Assign a suggested date for next dose COVAX 1</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>QWOOvnYfKbN</td>
+      </tr>
+      <tr>
+        <td>If client has a history of Diabetes show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>r9NQ2R4eFIO</td>
+      </tr>
+      <tr>
+        <td>Assign a suggested date for next dose COVAX 3</td>
+        <td>Assigns a next suggested dose date 28 days after this dose, based on CDC recommendations</td>
+        <td>2021-01-13</td>
+        <td>Rhh99IrHe3P</td>
+      </tr>
+      <tr>
+        <td>if client has a history of malignancy show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>SDfSLD0WFOL</td>
+      </tr>
+      <tr>
+        <td>Last dose - complete programme</td>
+        <td></td>
+        <td>2020-12-08</td>
+        <td>SkBUqyO9zG0</td>
+      </tr>
+      <tr>
+        <td>Hide pregnancy if not a woman</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>srC0NIzM3Ou</td>
+      </tr>
+      <tr>
+        <td>Hide other AEFI if no serious or non serious AEFIs are present</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>t2SWBTYj39q</td>
+      </tr>
+      <tr>
+        <td>If Age is under 16, then warn that COVAX 2 is recommended for ages 16 and up</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>TRR2ODBsnkN</td>
+      </tr>
+      <tr>
+        <td>If client has a history of immunodeficiency show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>ucrvgwsRCim</td>
+      </tr>
+      <tr>
+        <td>If previous vaccine is same as current vaccine, hide explanation field</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>vd1vZsjDft4</td>
+      </tr>
+      <tr>
+        <td>Hide non serious AEFI if not serious</td>
+        <td></td>
+        <td>2021-01-14</td>
+        <td>Vf6fXJHKHNa</td>
+      </tr>
+      <tr>
+        <td>If client has a history of Neurological disease show it on indicator panel</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>vqQMyfw3i3u</td>
+      </tr>
+      <tr>
+        <td>Send notification if overdue</td>
+        <td></td>
+        <td>2021-01-26</td>
+        <td>W0YQaz1qRJb</td>
+      </tr>
+      <tr>
+        <td>If previous vaccine is differente than current vaccine, show warning.</td>
+        <td></td>
+        <td>2021-01-27</td>
+        <td>XTLv9YqOtNX</td>
+      </tr>
+      <tr>
+        <td>Hide anaphylaxis DE if first dose</td>
+        <td>Hides a DE where one is asked about allergic reactions to previopus dose</td>
+        <td>2021-01-11</td>
+        <td>zLLHG561wsq</td>
+      </tr>
+      <tr>
+        <td>Assign a suggested date for next dose COVAX 2</td>
+        <td></td>
+        <td>2021-01-13</td>
+        <td>ZT3tLrXXadf</td>
+      </tr>
+    </table>
+    <h4>Program Tracked Entity Attributes</h4>
+    <table>
+      <tr>
+        <th>Tracked Entity Attribute Name</th>
+        <th>Last updated</th>
+        <th>Program Tracked Entity Attribute UID</th>
+        <th>Tracked Entity Attribute UID</th>
+      </tr>
+      <tr>
+        <td>National ID</td>
+        <td>2021-01-20</td>
+        <td>aec8etc85Rz</td>
+        <td>Ewi7FUfcHAD</td>
+      </tr>
+      <tr>
+        <td>COVAX Unique System Identifier (EPI)</td>
+        <td>2021-01-20</td>
+        <td>SnNKiozu7ig</td>
+        <td>aJJvi3jiLZr</td>
+      </tr>
+      <tr>
+        <td>Given name</td>
+        <td>2021-01-20</td>
+        <td>s2slttllN6D</td>
+        <td>TfdH5KvFmMy</td>
+      </tr>
+      <tr>
+        <td>Family name</td>
+        <td>2021-01-20</td>
+        <td>CbvQnJ9vOOd</td>
+        <td>aW66s2QSosT</td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>2021-01-20</td>
+        <td>kbwzu78u3JT</td>
+        <td>CklPZdOd6H1</td>
+      </tr>
+      <tr>
+        <td>Date of birth is estimated</td>
+        <td>2021-01-20</td>
+        <td>rTP0y6uH00I</td>
+        <td>Z1rLc1rVHK8</td>
+      </tr>
+      <tr>
+        <td>Date of birth (age)</td>
+        <td>2021-01-20</td>
+        <td>zTWSj3Lg5KP</td>
+        <td>mAWcalQYYyk</td>
+      </tr>
+      <tr>
+        <td>Mobile phone number</td>
+        <td>2021-01-20</td>
+        <td>PHJMFCL6U60</td>
+        <td>ciCR6BBvIT4</td>
+      </tr>
+      <tr>
+        <td>Address (current)</td>
+        <td>2021-01-20</td>
+        <td>fWwyEWSOqKq</td>
+        <td>VCtm2pySeEV</td>
+      </tr>
+      <tr>
+        <td>Area Urban Rural</td>
+        <td>2021-01-20</td>
+        <td>RoqT2SALnAc</td>
+        <td>YCqoNJZKvAG</td>
+      </tr>
+      <tr>
+        <td>COVID - Occupation</td>
+        <td>2021-01-20</td>
+        <td>wDMdtxPUmcA</td>
+        <td>LY2bDXpNvS7</td>
+      </tr>
+    </table>
+    <h2 id="dataElements">Data Elements</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Categorycombo</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine Type</td>
+        <td>COVAX - Vaccine Type</td>
+        <td>vaccine_type</td>
+        <td>COVAX - Vaccine Type</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>bbnyNYD1wgS</td>
+      </tr>
+      <tr>
+        <td>COVAX - Underlying condition</td>
+        <td>COVAX - Underlying condition</td>
+        <td>Comcondition_present</td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>bCtWZGjSWM8</td>
+      </tr>
+      <tr>
+        <td>COVAX - Pregnancy</td>
+        <td>COVAX - Pregnancy</td>
+        <td>Comcond_pregnant</td>
+        <td>Is the patient pregnant or lactating?</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>BfNZcj99yz4</td>
+      </tr>
+      <tr>
+        <td>COVAX - Chronic Lung Disease</td>
+        <td>COVAX_Chronic Lung Disease</td>
+        <td>Covax_Comcond_lung</td>
+        <td>Chronic Lung Disease</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>C0Bony47eKp</td>
+      </tr>
+      <tr>
+        <td>COVAX - Pregnancy gestation</td>
+        <td>COVAX - Pregnancy gestation</td>
+        <td>covax_pregnancy_gestation</td>
+        <td>Pregnancy gestation (weeks)</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>CBAs12YL4g7</td>
+      </tr>
+      <tr>
+        <td>AEFI - Other Signs and symptoms</td>
+        <td>Other Signs and symptoms</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>ci3S3BH6wZn</td>
+      </tr>
+      <tr>
+        <td>AEFI - Death</td>
+        <td>Death</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>DOA6ZFMro84</td>
+      </tr>
+      <tr>
+        <td>AEFI - Vaccination 1 date</td>
+        <td>Vaccination 1 date</td>
+        <td></td>
+        <td>Date when the vaccine was administered</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>dOkuCjpD978</td>
+      </tr>
+      <tr>
+        <td>COVAX - Underlying condition Other</td>
+        <td>COVAX - Underlying condition Other</td>
+        <td>covax_Comcond_other</td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>dpyQUtizp7s</td>
+      </tr>
+      <tr>
+        <td>COVAX - Last Dose</td>
+        <td>COVAX - Last Dose</td>
+        <td></td>
+        <td>This is the last dose in the course</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>DSOWCIdQ8Tr</td>
+      </tr>
+      <tr>
+        <td>COVAX Allergic reaction after first dose</td>
+        <td>COVAX allergic reaction</td>
+        <td></td>
+        <td>If you have had a severe allergic reaction (anaphylaxis) or an immediate allergic reaction—even if it was not severe—after getting the first dose of the vaccine, you should not get another dose of an mRNA COVID-19 vaccine. An immediate allergic reaction means a reaction within 4 hours of getting vaccinated, including symptoms such as hives, swelling, or wheezing (respiratory distress).</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>dWoveSw6b79</td>
+      </tr>
+      <tr>
+        <td>COVAX Suggested date for next dose</td>
+        <td>Next dose date</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>FFWcps4MfuH</td>
+      </tr>
+      <tr>
+        <td>AEFI_Swelling</td>
+        <td>Swelling</td>
+        <td></td>
+        <td>Local reaction at the vaccine site; swelling.</td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>frc5a6rebzx</td>
+      </tr>
+      <tr>
+        <td>COVAX - Renal Disease</td>
+        <td>COVAX - Renal Disease</td>
+        <td>Covax_Comcond_renal</td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>gW4pd818Sw8</td>
+      </tr>
+      <tr>
+        <td>AEFI - Hospitalization</td>
+        <td>Hospitalization</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>Il1lTfknLdd</td>
+      </tr>
+      <tr>
+        <td>AEFI_Serious adverse event following immunization</td>
+        <td>Serious adverse event following immunization</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>kQCVFWE2MPb</td>
+      </tr>
+      <tr>
+        <td>COVAX Recent infection with a temperature > 39 degree C </td>
+        <td>COVAX Recent infection temperature > 39 degree C</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>l08HtGca4rp</td>
+      </tr>
+      <tr>
+        <td>AEFI - Life threatening</td>
+        <td>Life threatening</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-14</td>
+        <td>lATDYNmTLKD</td>
+      </tr>
+      <tr>
+        <td>COVAX - Cardiovascular Disease</td>
+        <td>COVAX Cardiovascular Disease</td>
+        <td>Covax_Comcond_cardi</td>
+        <td>Cardiovascular disease, including hypertension</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>LNHAYF3qdZl</td>
+      </tr>
+      <tr>
+        <td>AEFI - Batch/lot number (Vaccine 1)</td>
+        <td>Batch/lot number (Vaccine 1)</td>
+        <td></td>
+        <td>Batch/Lot number of each of the vaccines mentioned above</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>LNqkAlvGplL</td>
+      </tr>
+      <tr>
+        <td>COVAX Previously infected with COVID</td>
+        <td>Previously infected with COVID</td>
+        <td></td>
+        <td>Has the patient been infected with COVID-19 within the last 90 days?</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>LOU9t0aR0z7</td>
+      </tr>
+      <tr>
+        <td>AEFI - Congenital anomaly</td>
+        <td>Congenital anomaly</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-14</td>
+        <td>lSBsxcQU0kO</td>
+      </tr>
+      <tr>
+        <td>AEFI - Persistent or significant disability</td>
+        <td>Persistent or significant disability</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-14</td>
+        <td>lsO8n8ZmLAB</td>
+      </tr>
+      <tr>
+        <td>COVAX - Dose Number</td>
+        <td>COVAX - Dose Number</td>
+        <td>dose_number</td>
+        <td>Defines if this is the first vs the second dose, for example</td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>LUIsbsm3okG</td>
+      </tr>
+      <tr>
+        <td>AEFI - Anaphylaxis</td>
+        <td>Anaphylaxis</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>MkIgCrCTFyE</td>
+      </tr>
+      <tr>
+        <td>COVAX - Immunodeficiency</td>
+        <td>COVAX - Immunodeficiency</td>
+        <td>Covax_Comcond_immuno</td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>MuZ9dMVXpuM</td>
+      </tr>
+      <tr>
+        <td>AEFI_Redness</td>
+        <td>Redness</td>
+        <td></td>
+        <td>Local reaction at the vaccine site; redness</td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>npe76bK3aks</td>
+      </tr>
+      <tr>
+        <td>COVAX - Multiple products used - Explain</td>
+        <td>Multiple products explanation</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>OAxinuYFDG6</td>
+      </tr>
+      <tr>
+        <td>COVAX - Eligibility</td>
+        <td>COVAX - Eligibility</td>
+        <td>eligible</td>
+        <td>Whether the client is eligible for the vaccine</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>OXBnk0mWcOw</td>
+      </tr>
+      <tr>
+        <td>COVAX Date of remission</td>
+        <td>Date of remission COVID</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>oZiX5uHkacg</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI - Bell's Palsy</td>
+        <td>Bell's Palsy</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>PuCFugChuxx</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI Manufacturer Name</td>
+        <td>Manufacturer Name</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>rpkH9ZPGJcX</td>
+      </tr>
+      <tr>
+        <td>AEFI - Fever</td>
+        <td>Fever</td>
+        <td></td>
+        <td>Does the case have fever or not</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>rzhHSqK3lQq</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI - Lymphadenopathy</td>
+        <td>Lymphadenopathy</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>S1hrcFVHKoh</td>
+      </tr>
+      <tr>
+        <td>COVAX - Diabetes</td>
+        <td>COVAX Diabetes</td>
+        <td>Covax_Comcond_diabetes</td>
+        <td></td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>TT1h0vGu5da</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI - Vaccine name</td>
+        <td>Vaccine name</td>
+        <td></td>
+        <td>The vaccine that is suspected to have caused the AEFI (provide brand name, if possible) </td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>u6OlTToQfhr</td>
+      </tr>
+      <tr>
+        <td>AEFI - Vaccine 1 name</td>
+        <td>Vaccine 1 name</td>
+        <td></td>
+        <td>The vaccine that is suspected to have caused the AEFI (provide brand name, if possible) </td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>uSVcZzSM3zg</td>
+      </tr>
+      <tr>
+        <td>AEFI_Nonserious adverse event following immunization</td>
+        <td>Non-serious adverse event following immunization</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2020-11-27</td>
+        <td>V5CfmqTsKrv</td>
+      </tr>
+      <tr>
+        <td>COVAX - Neurological/Neuromuscular</td>
+        <td>Neurological/Neuromuscular</td>
+        <td>Comcond_neuro</td>
+        <td>Chronic neurological or neuromuscular disease</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>VCetMtYu1DY</td>
+      </tr>
+      <tr>
+        <td>AEFI - Expiry date (Vaccine 1)</td>
+        <td>Expiry date</td>
+        <td></td>
+        <td>The date of expiry for each vaccine</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>VFrc8SNFYm7</td>
+      </tr>
+      <tr>
+        <td>AEFI_Malaise</td>
+        <td>Malaise</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>W1NqJjlHHid</td>
+      </tr>
+      <tr>
+        <td>AEFi_Weakness </td>
+        <td>Weakness </td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td>2020-11-25</td>
+        <td>Xr5W8Ry1gY9</td>
+      </tr>
+      <tr>
+        <td>COVAX - Malignancy</td>
+        <td>COVAX - Malignancy</td>
+        <td>Covax_Comcond_malig</td>
+        <td>COVAX - Malignancy</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>xVxLMku5DMX</td>
+      </tr>
+      <tr>
+        <td>COVAX- Batch Number</td>
+        <td>COVAX - Batch Number</td>
+        <td></td>
+        <td>Batch number for this vaccine dose</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>Yp1F4txx8tm</td>
+      </tr>
+      <tr>
+        <td>COVAX - Dose Expiry Date</td>
+        <td>COVAX - Dose Expiry Date</td>
+        <td>dose_expiry_date</td>
+        <td>Date dose of expiration</td>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>YTQulAldGOs</td>
+      </tr>
+    </table>
+    <h2>Data Element Groups</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>Covid vaccine registry</td>
+        <td>2020-12-16</td>
+        <td>bJW73wIwGyB</td>
+      </tr>
+    </table>
+    <h3>Data Element Groups - Data Elements</h3>
+    <table>
+      <tr>
+        <th>Data Element Group</th>
+        <th>Data Element</th>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Vaccine Type</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Underlying condition</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Pregnancy</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Chronic Lung Disease</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Pregnancy gestation</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Underlying condition Other</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Last Dose</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX Suggested date for next dose</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Renal Disease</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Cardiovascular Disease</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX Previously infected with COVID</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Dose Number</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Immunodeficiency</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Multiple products used - Explain</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Eligibility</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX Date of remission</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Diabetes</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Neurological/Neuromuscular</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Malignancy</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX- Batch Number</td>
+      </tr>
+      <tr>
+        <td>COVAX - Covid-19 vaccination registry</td>
+        <td>COVAX - Dose Expiry Date</td>
+      </tr>
+    </table>
+    <h2 id="categoryCombos">Category Combinations</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+        <th>Categories</th>
+      </tr>
+      <tr>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>bjDvmb4bfuf</td>
+        <td>default</td>
+      </tr>
+    </table>
+    <h2 id="categories">Data Element Categories</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+        <th>Category options</th>
+      </tr>
+      <tr>
+        <td>default</td>
+        <td>2021-01-27</td>
+        <td>GLevLNI9wkl</td>
+        <td>default</td>
+      </tr>
+    </table>
+    <h2 id="categoryOptions">Data Element Category Options</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>xYerKDKCefk</td>
+      </tr>
+    </table>
+    <h2 id="categoryOptionCombos">Category Option Combination</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>default</td>
+        <td>2021-01-22</td>
+        <td>HllvX50cXC0</td>
+      </tr>
+    </table>
+    <h2 id="optionSets">Option Sets</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+        <th>Options</th>
+      </tr>
+      <tr>
+        <td>Yes/No/Unknown</td>
+        <td>2021-01-12</td>
+        <td>bLA3AqDKdwx</td>
+        <td>Yes; No; Unknown</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>2020-11-24</td>
+        <td>CNNH0YKxRh9</td>
+        <td>Healthcare worker; Law enforcement/ Firefighter; Banker; Driver / housekeeping staff; Teacher; Hotelier / airline personel; Retail (essential); Retail (non essential); Social worker/ volunteer; Retired; Student; Unemployed; Other</td>
+      </tr>
+      <tr>
+        <td>COVAX Manufacturers</td>
+        <td>2021-01-22</td>
+        <td>DtOGtoLbaB5</td>
+        <td>Manufacturer 1; Manufacturer 2; Manufacturer 3</td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>2021-01-22</td>
+        <td>hiQ3QFheQ3O</td>
+        <td>Male; Female</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI Pregnancy</td>
+        <td>2021-01-22</td>
+        <td>ilxtWultuYP</td>
+        <td>Pregnant; Lactating; No</td>
+      </tr>
+      <tr>
+        <td>COVAX trimester</td>
+        <td>2021-01-22</td>
+        <td>kgDmgTYZICP</td>
+        <td>1st Trimester (1-12 weeks); 2nd Trimester (13-28 weeks); 3rd Trimester (20-40 weeks)</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>2021-01-22</td>
+        <td>kvgPHkIUf2e</td>
+        <td>BCG 0.05; Cholera:inactivated oral; COVID 19 : AstraZeneca; COVID 19 : Moderna; COVID 19 : Novavax; COVID 19: Others; Diphtheria-Tetanus; Diphtheria-Tetanus (acellular); Diphtheria-Tetanus (acellular) - Hepatitis B -Haemophilus influenzae type B -Polio (inactivated); Diphtheria-Tetanus (reduced antigen content); Diphtheria-Tetanus-Pertussis (whole cell); Diphtheria-Tetanus-Pertussis (whole cell)-Haemophilus influenzae type B; Diphtheria-Tetanus-Pertussis (whole cell)-Hepatitis B; Haemophilus influenzae type B; Hepatitis A; Hepatitis B; HPV; Influenza,pandemic H1N1; Influenza,seasonal; Japanese Encephalitis (Inactivated); another 24 options not shown.</td>
+      </tr>
+      <tr>
+        <td>COVAX Dose</td>
+        <td>2021-01-22</td>
+        <td>oj3CWm4hpPb</td>
+        <td>1st dose; 2nd dose; 3rd dose; Booster dose</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine types</td>
+        <td>2021-01-22</td>
+        <td>VQo3HkUlMHc</td>
+        <td>COVAX1; COVAX2; COVAX3</td>
+      </tr>
+      <tr>
+        <td>Area Urban Rural</td>
+        <td>2020-11-24</td>
+        <td>VWzgQENmzPK</td>
+        <td>Urban; Rural</td>
+      </tr>
+    </table>
+    <h2 id="options">Options</h2>
+    <table>
+      <tr>
+        <th>Option Set Name</th>
+        <th>Name</th>
+        <th>Code</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX Manufacturers</td>
+        <td>Manufacturer 1</td>
+        <td>manufacturer1</td>
+        <td>2021-01-14</td>
+        <td>A9OSdfNI6IT</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Teacher</td>
+        <td>teacher</td>
+        <td>2020-11-24</td>
+        <td>ahtoNsMUVFa</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Rubella</td>
+        <td>Rubella</td>
+        <td>2021-01-14</td>
+        <td>aJ5VGSBAdxS</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Pneumococcal (conjugate)</td>
+        <td>PCV (Pneumococcal conjugate vaccine)</td>
+        <td>2021-01-14</td>
+        <td>aU2vYQd5p89</td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>Female</td>
+        <td>FEMALE</td>
+        <td>2021-01-12</td>
+        <td>AZK4rjJCss5</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Meningococcal A conjugate ACYW-135 (polysaccharide)</td>
+        <td>Meningococcal A conjugate ACYW-135 (polysaccharide)</td>
+        <td>2021-01-14</td>
+        <td>b1sMzajJLCj</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine types</td>
+        <td>COVAX2</td>
+        <td>COVAX2</td>
+        <td>2021-01-13</td>
+        <td>B26BIJSeQy0</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Meningococcal A conjugate A+C</td>
+        <td>Meningococcal A conjugate A+C</td>
+        <td>2021-01-22</td>
+        <td>BJQuwQFEHAM</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>COVID 19 : Moderna</td>
+        <td>COVID 19 : Moderna</td>
+        <td>2021-01-19</td>
+        <td>bmPk6nCXhB8</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)-Hepatitis B</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)-Hepatitis B</td>
+        <td>2021-01-14</td>
+        <td>BSOhDi3vR22</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Hotelier / airline personel</td>
+        <td>hotelier_airline_personel</td>
+        <td>2020-11-24</td>
+        <td>bVYOqnn9R2r</td>
+      </tr>
+      <tr>
+        <td>COVAX Manufacturers</td>
+        <td>Manufacturer 3</td>
+        <td>manufacturer3</td>
+        <td>2021-01-14</td>
+        <td>caHzedoEw6F</td>
+      </tr>
+      <tr>
+        <td>Yes/No/Unknown</td>
+        <td>Yes</td>
+        <td>YES</td>
+        <td>2021-01-12</td>
+        <td>CvivP1rh4ii</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral</td>
+        <td>bOPV</td>
+        <td>2021-01-14</td>
+        <td>D0B5zwiHkdy</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Typhoid</td>
+        <td>Typhoid</td>
+        <td>2021-01-14</td>
+        <td>DKVoER65NZw</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus (acellular)</td>
+        <td>Diphtheria-Tetanus (acellular)</td>
+        <td>2021-01-14</td>
+        <td>dUJ4kahpxlP</td>
+      </tr>
+      <tr>
+        <td>COVAX Dose</td>
+        <td>2nd dose</td>
+        <td>DOSE2</td>
+        <td>2020-11-25</td>
+        <td>DYJrGkIG11J</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 2</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 2</td>
+        <td>2021-01-14</td>
+        <td>E9siQX19czV</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Meningococcal A conjugate (paediatric)</td>
+        <td>Meningococcal A conjugate (paediatric)</td>
+        <td>2021-01-14</td>
+        <td>ecZj8W3oJDk</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Law enforcement/ Firefighter</td>
+        <td>law_enforcement_firefighter</td>
+        <td>2020-11-24</td>
+        <td>EErrO8Fyu43</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>HPV</td>
+        <td>HPV</td>
+        <td>2021-01-14</td>
+        <td>fq8giiUY9oL</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Unemployed</td>
+        <td>unemployed</td>
+        <td>2020-11-24</td>
+        <td>fWAvnP7mf98</td>
+      </tr>
+      <tr>
+        <td>COVAX Dose</td>
+        <td>1st dose</td>
+        <td>DOSE1</td>
+        <td>2020-11-25</td>
+        <td>G08Evdkx5dY</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>COVID 19: Others</td>
+        <td>COVID 19: Others</td>
+        <td>2021-01-14</td>
+        <td>gdKcsiQNykE</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Student</td>
+        <td>student</td>
+        <td>2020-11-24</td>
+        <td>GUiVk7RiR3p</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI Pregnancy</td>
+        <td>No</td>
+        <td>not_pregnant</td>
+        <td>2021-01-15</td>
+        <td>gVqGaROtask</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Driver / housekeeping staff</td>
+        <td>driver_housekeeping_staff</td>
+        <td>2020-11-24</td>
+        <td>Gx9kgkrZj9y</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Healthcare worker</td>
+        <td>healthcare_worker</td>
+        <td>2020-11-24</td>
+        <td>HGNGJ3lHrFG</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Rabies</td>
+        <td>Rabies</td>
+        <td>2021-01-14</td>
+        <td>hlpkeOSdnbu</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Tetanus toxoid</td>
+        <td>Tetanus toxoid</td>
+        <td>2021-01-14</td>
+        <td>HxcQrJFkCyU</td>
+      </tr>
+      <tr>
+        <td>Area Urban Rural</td>
+        <td>Rural</td>
+        <td>RURAL</td>
+        <td>2020-11-24</td>
+        <td>HxFNfoxk7ac</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 3</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 3</td>
+        <td>2021-01-14</td>
+        <td>hYgUkU7NEU4</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Rotavirus (Rotarix)</td>
+        <td>Rotavirus</td>
+        <td>2021-01-14</td>
+        <td>i4ZD5jlaEEi</td>
+      </tr>
+      <tr>
+        <td>Area Urban Rural</td>
+        <td>Urban</td>
+        <td>URBAN</td>
+        <td>2020-11-24</td>
+        <td>IHYwYAtvjCY</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 1</td>
+        <td>Polio Vaccine - Oral (OPV) Monovalent Type 1</td>
+        <td>2021-01-14</td>
+        <td>iPAyM2YQk8M</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Other</td>
+        <td>other</td>
+        <td>2020-11-24</td>
+        <td>jbAJfe9Nqtk</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Measles and Rubella</td>
+        <td>Measles and Rubella</td>
+        <td>2021-01-14</td>
+        <td>JI8aXpxAc3O</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Influenza,seasonal</td>
+        <td>Influenza,seasonal</td>
+        <td>2021-01-14</td>
+        <td>JrItrsgkiSV</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Japanese Encephalitis (live,attenuated)</td>
+        <td>Japanese Encephalitis (live,attenuated)</td>
+        <td>2021-01-14</td>
+        <td>KfmCGeAAmaU</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Cholera:inactivated oral</td>
+        <td>Cholera:inactivated oral</td>
+        <td>2021-01-14</td>
+        <td>kRoUTPvXHgZ</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Hepatitis A</td>
+        <td>Hepatitis A</td>
+        <td>2021-01-14</td>
+        <td>muFz5f425hA</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Japanese Encephalitis (Inactivated)</td>
+        <td>Japanese Encephalitis (Inactivated)</td>
+        <td>2021-01-14</td>
+        <td>My1dsGJSEvB</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>COVID 19 : AstraZeneca</td>
+        <td>COVID 19 : AstraZeneca</td>
+        <td>2021-01-22</td>
+        <td>n79BaaHkK0C</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>COVID 19 : Novavax</td>
+        <td>COVID 19 : Novavax</td>
+        <td>2021-01-19</td>
+        <td>ngzgDka7dTr</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Pentavalent (DPT-Hep B-Hib)</td>
+        <td> Pentavalent (DPT-Hep B-Hib)</td>
+        <td>2021-01-14</td>
+        <td>Nup6LYEmjhi</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus (reduced antigen content)</td>
+        <td>Diphtheria-Tetanus (reduced antigen content)</td>
+        <td>2021-01-14</td>
+        <td>pKTnjFo9COJ</td>
+      </tr>
+      <tr>
+        <td>Yes/No/Unknown</td>
+        <td>No</td>
+        <td>NO</td>
+        <td>2021-01-22</td>
+        <td>PLlPgcfbL1D</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral (OPV) Bivalent Types 1 and 3</td>
+        <td>Polio Vaccine - Oral (OPV) Bivalent Types 1 and 3</td>
+        <td>2021-01-14</td>
+        <td>PLpI7zquB3D</td>
+      </tr>
+      <tr>
+        <td>COVAX Dose</td>
+        <td>Booster dose</td>
+        <td>BOOSTER</td>
+        <td>2020-12-08</td>
+        <td>PoeQ0Zb1avN</td>
+      </tr>
+      <tr>
+        <td>COVAX trimester</td>
+        <td>3rd Trimester (20-40 weeks)</td>
+        <td>3trimester</td>
+        <td>2021-01-14</td>
+        <td>Q3obJT1MXov</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus</td>
+        <td>Diptheria-Tetanus</td>
+        <td>2021-01-14</td>
+        <td>qn4b1jgRPFt</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)</td>
+        <td>2021-01-14</td>
+        <td>rJqz6pSj3si</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI Pregnancy</td>
+        <td>Pregnant</td>
+        <td>COVAXPregnant</td>
+        <td>2021-01-14</td>
+        <td>scFBcsNG5JT</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Social worker/ volunteer</td>
+        <td>social_worker_volunteer</td>
+        <td>2020-11-24</td>
+        <td>SD1oprpITgl</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Influenza,pandemic H1N1</td>
+        <td>Influenza,pandemic H1N1</td>
+        <td>2021-01-14</td>
+        <td>sOHU2KjbsLl</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Retail (non essential)</td>
+        <td>retail_non_essential</td>
+        <td>2020-11-24</td>
+        <td>SVcm0QZbxYn</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Retired</td>
+        <td>retired</td>
+        <td>2020-11-24</td>
+        <td>Sw1isix3dwU</td>
+      </tr>
+      <tr>
+        <td>Yes/No/Unknown</td>
+        <td>Unknown</td>
+        <td>UNKNOWN</td>
+        <td>2021-01-22</td>
+        <td>TKD1XJ4ZhMO</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine - Oral (OPV) Trivalent</td>
+        <td>Polio Vaccine - Oral (OPV) Trivalent</td>
+        <td>2021-01-14</td>
+        <td>uFa7M3tz4YS</td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td>Male</td>
+        <td>MALE</td>
+        <td>2021-01-12</td>
+        <td>UrUdMteQzlT</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Banker</td>
+        <td>banker</td>
+        <td>2020-11-24</td>
+        <td>UvR0km5ntbi</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>BCG 0.05</td>
+        <td>BCG</td>
+        <td>2021-01-14</td>
+        <td>v6U27UZdWHO</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine types</td>
+        <td>COVAX1</td>
+        <td>COVAX1</td>
+        <td>2021-01-13</td>
+        <td>wCXR8ztOP2N</td>
+      </tr>
+      <tr>
+        <td>COVAX trimester</td>
+        <td>2nd Trimester (13-28 weeks)</td>
+        <td>2trimester</td>
+        <td>2021-01-14</td>
+        <td>wEsSrYnDsRk</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Measles,Mumps and Rubella</td>
+        <td>Measles,Mumps and Rubella</td>
+        <td>2021-01-22</td>
+        <td>Wl3FI0neH2l</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Measles</td>
+        <td>Measles</td>
+        <td>2021-01-12</td>
+        <td>xa9vrhem6l5</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Hepatitis B</td>
+        <td>Hepatitis B (Hep B)</td>
+        <td>2021-01-14</td>
+        <td>xBhmeD8LHXC</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Polio Vaccine- Inactivated (IPV)</td>
+        <td>Polio (IPV)</td>
+        <td>2021-01-14</td>
+        <td>XHXb4sOMRzW</td>
+      </tr>
+      <tr>
+        <td>COVAX Dose</td>
+        <td>3rd dose</td>
+        <td>DOSE3</td>
+        <td>2020-11-25</td>
+        <td>xl5HHvHV2XH</td>
+      </tr>
+      <tr>
+        <td>COVAX AEFI Pregnancy</td>
+        <td>Lactating</td>
+        <td>COVAXLactating</td>
+        <td>2021-01-14</td>
+        <td>xmyy2NiyJaI</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Meningococcal A conjugate ACYW-135 (conjugate vaccine)</td>
+        <td>Meningococcal A conjugate ACYW-135 (conjugate vaccine)</td>
+        <td>2021-01-14</td>
+        <td>xrdO4MYjuLz</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Meningococcal A conjugate</td>
+        <td>Meningococcal A conjugate</td>
+        <td>2021-01-14</td>
+        <td>XV2R9f00cZA</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Other Vaccine (Specify)</td>
+        <td>Other Vaccine</td>
+        <td>2021-01-14</td>
+        <td>Yawfhw0ObTW</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine types</td>
+        <td>COVAX3</td>
+        <td>COVAX3</td>
+        <td>2021-01-13</td>
+        <td>yeTPD0qoaz7</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)-Haemophilus influenzae type B</td>
+        <td>Diphtheria-Tetanus-Pertussis (whole cell)-Haemophilus influenzae type B</td>
+        <td>2021-01-22</td>
+        <td>z7xruNgtCUI</td>
+      </tr>
+      <tr>
+        <td>COVAX Manufacturers</td>
+        <td>Manufacturer 2</td>
+        <td>manufacturer2</td>
+        <td>2021-01-14</td>
+        <td>z978nuyyRl7</td>
+      </tr>
+      <tr>
+        <td>COVAX trimester</td>
+        <td>1st Trimester (1-12 weeks)</td>
+        <td>1trimester</td>
+        <td>2021-01-14</td>
+        <td>zDqDiyA8ySB</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Haemophilus influenzae type B</td>
+        <td>Haemophilus influenzae type B</td>
+        <td>2021-01-22</td>
+        <td>ZexdFUmUFgD</td>
+      </tr>
+      <tr>
+        <td>Occupation - COVID</td>
+        <td>Retail (essential)</td>
+        <td>retail_essentials</td>
+        <td>2020-11-24</td>
+        <td>zIN2FnIIZC2</td>
+      </tr>
+      <tr>
+        <td>Vaccine</td>
+        <td>Diphtheria-Tetanus (acellular) - Hepatitis B -Haemophilus influenzae type B -Polio (inactivated)</td>
+        <td>Diphtheria-Tetanus (acellular) - Hepatitis B -Haemophilus influenzae type B -Polio (inactivated)</td>
+        <td>2021-01-22</td>
+        <td>ZM09G0HaYYv</td>
+      </tr>
+    </table>
+    <h2 id="indicatorGroups">Indicator Groups</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td></td>
+        <td>2021-01-18</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+    </table>
+    <h3>Indicator Groups - Indicators</h3>
+    <table>
+      <tr>
+        <th>Indicator Group</th>
+        <th>Indicator</th>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 2 (21 days)</td>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 3 (21 days)</td>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 1 (10 days)</td>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td>COVAX % AEFI pregnant or lactating</td>
+      </tr>
+      <tr>
+        <td>COVID Vaccine Registry</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c</td>
+      </tr>
+    </table>
+    <h2 id="indicators">Indicators</h2>
+    <table>
+      <tr>
+        <th>UID</th>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Code</th>
+        <th>Description</th>
+        <th>Numerator</th>
+        <th>Denominator</th>
+        <th>Type</th>
+        <th>Last updated</th>
+        <th>Indicator group UID</th>
+      </tr>
+      <tr>
+        <td>DFAxSmMm5pJ</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 2 (21 days)</td>
+        <td>Drop-out from COV-1 to COV-c COVAX2</td>
+        <td>COV-1-COV-c COVAX2</td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
+        </td>
+        <td>COV-1 - COV-c</td>
+        <td>COV-1</td>
+        <td>Percentage</td>
+        <td>2021-01-14</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+      <tr>
+        <td>H7YS9Fxl1mR</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 3 (21 days)</td>
+        <td>Drop-out from COV-1 to COV-c COVAX3</td>
+        <td>COV-1-COV-c COVAX3</td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
+        </td>
+        <td>COV-1 - COV-c</td>
+        <td>COV-1</td>
+        <td>Percentage</td>
+        <td>2021-01-14</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+      <tr>
+        <td>KI5DoTUGLEE</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c COVAX 1 (10 days)</td>
+        <td>Drop-out from COV-1 to COV-c COVAX1</td>
+        <td>COV-1-COV-c COVAX1</td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
+        </td>
+        <td>COV-1 - COV-c</td>
+        <td>COV-1</td>
+        <td>Percentage</td>
+        <td>2021-01-14</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+      <tr>
+        <td>o4WWc51MqBK</td>
+        <td>COVAX % AEFI pregnant or lactating</td>
+        <td>COVAX PLW AEFI</td>
+        <td></td>
+        <td></td>
+        <td>Pregnant women with AEFI</td>
+        <td>Number of AEFIS</td>
+        <td>Percentage</td>
+        <td>2021-01-18</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+      <tr>
+        <td>qbNdD4CF8K5</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c</td>
+        <td>Drop-out from COV-1 to COV-c</td>
+        <td>COV-1-COV-c</td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
+        </td>
+        <td>CPV-1 - COV-c</td>
+        <td>COV-1</td>
+        <td>Percentage</td>
+        <td>2021-01-05</td>
+        <td>mhdLWWUIqUp</td>
+      </tr>
+      <tr>
+        <td>UOJnfVB7yny</td>
+        <td>COVAX % of AEFI with underlying conditions</td>
+        <td>COVAX AEFI and underlying conds.</td>
+        <td></td>
+        <td></td>
+        <td>AEFI people with und. conditions</td>
+        <td>number of AEFI incidents</td>
+        <td>Percentage</td>
+        <td>2021-01-18</td>
+        <td></td>
+      </tr>
+    </table>
+    <h2 id="indicatorTypes">Indicator types</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Factor</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Percentage</td>
+        <td>100</td>
+        <td>2021-01-12</td>
+        <td>e1jRVY5Mcq0</td>
+      </tr>
+    </table>
+    <h2 id="dashboards">Dashboards</h2>
+    <h3>COVID-19 vaccine registry</h3>
+    <table>
+      <tr>
+        <td>Name</td>
+        <td>Last updated</td>
+        <td>UID</td>
+      </tr>
+      <tr>
+        <td>COVID-19 vaccine registry</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+    </table>
+    <h4>Dashboard items</h4>
+    <table>
+      <tr>
+        <th>Content UID</th>
+        <th>Content/item type</th>
+        <th>Content name</th>
+        <th>Dashboard Item UID</th>
+        <th>Last updated</th>
+        <th>Dashboard UID</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>TEXT</td>
+        <td></td>
+        <td>yGO7K9navzb</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>x5QXfibEfvi</td>
+        <td>Chart</td>
+        <td>COVAX - AEFIs by vaccine type</td>
+        <td>eJOw1RvZ3cb</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>TEXT</td>
+        <td></td>
+        <td>Ar6hHusJH20</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>TEXT</td>
+        <td></td>
+        <td>wkVdR09w1ZV</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>TEXT</td>
+        <td></td>
+        <td>uoycKmEiRNz</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>bU85wqGzJZ1</td>
+        <td>Chart</td>
+        <td>COVAX-AEFI overview</td>
+        <td>kfswR3wjM2x</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>wHd33PaphEC</td>
+        <td>Pivot table</td>
+        <td>COVAX - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)</td>
+        <td>UACnzvlcufQ</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>gNsB9zivLTy</td>
+        <td>Chart</td>
+        <td>COVAX - At least one underlying condition</td>
+        <td>Y61weOrxJXS</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>Rg6dWNrfsd5</td>
+        <td>Chart</td>
+        <td>COVAX-AEFI by type of event</td>
+        <td>MMtepyTqsqM</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>s6jZJUdQbyy</td>
+        <td>Chart</td>
+        <td>COVAX - Serious AEFI</td>
+        <td>tsLzbXbSIXL</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>ZgY2MuWz8Vu</td>
+        <td>Chart</td>
+        <td>COVAX - Non-serious AEFI</td>
+        <td>Dpil6P5Ua0B</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>vFkbMQiABfj</td>
+        <td>Chart</td>
+        <td>COVAX - Underlying conditions</td>
+        <td>ytFTqxSW9AV</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>Db3MWC56CBp</td>
+        <td>Map</td>
+        <td>COVAX-Dropout rates</td>
+        <td>XaeVdRGnR7J</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>GJPPSQuVt4N</td>
+        <td>Chart</td>
+        <td>COVAX - Number of doses administered</td>
+        <td>ULSr3ZoJctd</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>cgMKXl648C2</td>
+        <td>Event report</td>
+        <td>COVAX - Summary of doses</td>
+        <td>HJDKEwltTyy</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>QTONjOuZmh4</td>
+        <td>Event chart</td>
+        <td>COVAX - Occupation - HCWs</td>
+        <td>KA0lBNvirHU</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>ZFd7uKfZpli</td>
+        <td>Event chart</td>
+        <td>COVAX - Area of origin</td>
+        <td>OehlMy5dFc5</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>aUjo2Myd25f</td>
+        <td>Chart</td>
+        <td>COVAX - Complete vaccination uptake</td>
+        <td>OvN5kvyDCAs</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>KV7fffdXnlY</td>
+        <td>Chart</td>
+        <td>COVAX - Vaccine uptake by sex</td>
+        <td>LHsZfeujSZz</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>BWlYGFBDbO2</td>
+        <td>Chart</td>
+        <td>COVAX - Vaccine uptake by age group</td>
+        <td>ZFrKEvxoOSO</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>MzSAvoJ0vLr</td>
+        <td>Chart</td>
+        <td>COVAX - Vaccine uptake, last month</td>
+        <td>zqLvFWIAsbq</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>cOH1OjReS14</td>
+        <td>Map</td>
+        <td>COVAX-Number of doses given, last month</td>
+        <td>BKU0qpNqRJt</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>Hbs3xGj7XoN</td>
+        <td>Chart</td>
+        <td>COVAX - Drop-out from COV-1 to COV-c</td>
+        <td>LPZvKzUrssT</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+      <tr>
+        <td>vmNUVdhuxN7</td>
+        <td>Chart</td>
+        <td>COVAX - Cumulative number of given doses, Last 4 weeks</td>
+        <td>uO249BXzjbw</td>
+        <td>2021-01-25</td>
+        <td>YYtAbckt77l</td>
+      </tr>
+    </table>
+    <h2 id="charts">Charts</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - Complete vaccination uptake</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>aUjo2Myd25f</td>
+      </tr>
+      <tr>
+        <td>COVAX-AEFI overview</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>bU85wqGzJZ1</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine uptake by age group</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>BWlYGFBDbO2</td>
+      </tr>
+      <tr>
+        <td>COVAX - Number of doses administered</td>
+        <td>TEST TEST</td>
+        <td>2021-01-18</td>
+        <td>GJPPSQuVt4N</td>
+      </tr>
+      <tr>
+        <td>COVAX - At least one underlying condition</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>gNsB9zivLTy</td>
+      </tr>
+      <tr>
+        <td>COVAX - Drop-out from COV-1 to COV-c</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>Hbs3xGj7XoN</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine uptake by sex</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>KV7fffdXnlY</td>
+      </tr>
+      <tr>
+        <td>COVAX - Vaccine uptake, last month</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>MzSAvoJ0vLr</td>
+      </tr>
+      <tr>
+        <td>COVAX-AEFI by type of event</td>
+        <td> </td>
+        <td>2021-01-20</td>
+        <td>Rg6dWNrfsd5</td>
+      </tr>
+      <tr>
+        <td>COVAX - Serious AEFI</td>
+        <td> </td>
+        <td>2021-01-19</td>
+        <td>s6jZJUdQbyy</td>
+      </tr>
+      <tr>
+        <td>COVAX - Underlying conditions</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>vFkbMQiABfj</td>
+      </tr>
+      <tr>
+        <td>COVAX - Cumulative number of given doses, Last 4 weeks</td>
+        <td>TEST TEST</td>
+        <td>2021-01-18</td>
+        <td>vmNUVdhuxN7</td>
+      </tr>
+      <tr>
+        <td>COVAX - AEFIs by vaccine type</td>
+        <td> </td>
+        <td>2021-01-19</td>
+        <td>x5QXfibEfvi</td>
+      </tr>
+      <tr>
+        <td>COVAX - Non-serious AEFI</td>
+        <td> </td>
+        <td>2021-01-19</td>
+        <td>ZgY2MuWz8Vu</td>
+      </tr>
+    </table>
+    <h2 id="reportTables">Report tables</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>wHd33PaphEC</td>
+      </tr>
+    </table>
+    <h2 id="maps">Maps</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX-Number of doses given, last month</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>cOH1OjReS14</td>
+      </tr>
+      <tr>
+        <td>COVAX-Dropout rates</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>Db3MWC56CBp</td>
+      </tr>
+    </table>
+    <h2 id="eventReports">Event reports</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - Summary of doses</td>
+        <td> </td>
+        <td>2021-01-22</td>
+        <td>cgMKXl648C2</td>
+      </tr>
+    </table>
+    <h2 id="eventCharts">Event charts</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>COVAX - Occupation - HCWs</td>
+        <td> </td>
+        <td>2021-01-18</td>
+        <td>QTONjOuZmh4</td>
+      </tr>
+      <tr>
+        <td>COVAX - Area of origin</td>
+        <td> </td>
+        <td>2021-01-11</td>
+        <td>ZFd7uKfZpli</td>
+      </tr>
+    </table>
+    <h2 id="trackedEntityInstanceFilters">Tracked Entity Instance Filters</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Completed clients</td>
+        <td>2021-01-19</td>
+        <td>BL5aSffv0wj</td>
+      </tr>
+      <tr>
+        <td>Clients with an overdue vaccine dose</td>
+        <td>2021-01-18</td>
+        <td>CGr9zm3rBD4</td>
+      </tr>
+      <tr>
+        <td>Clients with a scheduled visit</td>
+        <td>2021-01-18</td>
+        <td>frBrgF1IKeA</td>
+      </tr>
+      <tr>
+        <td>All clients</td>
+        <td>2021-01-18</td>
+        <td>goSkjeySiRY</td>
+      </tr>
+    </table>
+    <h2 id="programNotificationTemplates">ProgramNotificationTemplates</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>UID</th>
+        <th>Last updated</th>
+      </tr>
+      <tr>
+        <td>Overdue vaccine dose</td>
+        <td>dzW10q0QMvN</td>
+        <td>2021-01-26</td>
+      </tr>
+      <tr>
+        <td>Notification of appointment</td>
+        <td>I8XmjYX1rBC</td>
+        <td>2021-01-26</td>
+      </tr>
+    </table>
+    <h2 id="userGroups">User Groups</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Covid immunization</td>
+        <td>2021-01-27</td>
+        <td>AEAQ9LktNze</td>
+      </tr>
+    </table>
+    <h2>Users</h2>
+    <table>
+      <tr>
+        <th>Username</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>who</td>
+        <td>2020-07-07</td>
+        <td>vUeLeQMSwhN</td>
+      </tr>
+    </table>
+  </body>
+
+</html>

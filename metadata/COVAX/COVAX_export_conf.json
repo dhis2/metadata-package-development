@@ -1,54 +1,147 @@
 {
-    "export": [
-      {
-        "_basePath": "./COVAX/",
-        "_code": "COVAX",
-        "_name": "COVID-19 Vaccination Registry",
-        "_prefix": "[CONFIG]",
-        "_ownership": {
-          "modeOwner": "OVERWRITE",
-          "modeLastUpdated": "OVERWRITE",
-          "ownerId": "vUeLeQMSwhN"
-        },
-        "_sharing": {
-          "groupMode": "OVERWRITE",
-          "groups": [
-            {
-              "id": "AEAQ9LktNze",
-              "metadata": "EDIT",
-              "data": "EDIT"
-            }
-          ],
-          "groupExport": true,
-          "userMode": "REMOVE",
-          "users": [
-            {
-              "id": "vUeLeQMSwhN",
-              "metadata": "EDIT",
-              "data": "EDIT"
-            }
-          ],
-          "userExport": false,
-          "publicAccess": {
-            "metadata": "VIEW",
-            "data": "VIEW"
+  "export": [
+    {
+      "_basePath": "./COVAX/",
+      "_code": "COVAX",
+      "_name": "COVID-19 Vaccination Registry",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "AEAQ9LktNze",
+            "metadata": "EDIT",
+            "data": "EDIT"
           }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "tracker",
+      "_url": [
+        "https://who-dev.dhis2.org/tracker_dev"
+      ],
+      "_version": "1.0.0",
+      "customObjects": [
+        {
+          "objectType": "trackedEntityInstanceFilters",
+          "objectIds": [
+            "goSkjeySiRY",
+            "frBrgF1IKeA",
+            "CGr9zm3rBD4",
+            "BL5aSffv0wj"
+          ]
         },
-        "_type": "tracker",
-        "_url": [
-          "https://who-dev.dhis2.org/tracker_dev"
-        ],
-        "_version": "0.1.0",
-        "dashboardIds": [],
-        "dataElementGroupIds": [
-          "bJW73wIwGyB"
-        ],
-        "exportIndicatorGroupsIds": [],
-        "indicatorGroupIds": [],
-        "programIds": [
-          "yDuAzyqYABS"
-        ]
-      }
-    ]
-  }
-  
+        {
+          "objectType": "dataElements",
+          "objectIds": [
+            "PuCFugChuxx",
+            "S1hrcFVHKoh",
+            "rpkH9ZPGJcX",
+            "u6OlTToQfhr",
+            "dWoveSw6b79",
+            "l08HtGca4rp"
+          ]
+        },
+        {
+          "objectType": "indicators",
+          "objectIds": [
+            "qbNdD4CF8K5"
+          ]
+        },
+        {
+          "objectType": "programIndicators",
+          "objectIds": [
+            "tlkzwgXqGDx",
+            "Vh7QKrjnOK3",
+            "QlZFskLMPKH",
+            "WeUKTLkIHLe",
+            "PyTX96wHx1x",
+            "MTYHIaNuwYg",
+            "BGcdrIw9GCg",
+            "V7SgYaK5lyF",
+            "toRV4TP9yQK",
+            "ZS6qo9BSrcI",
+            "rqwQndYRiXO",
+            "cq2a28RsAFT",
+            "dIAw5mn6Wqp",
+            "Fj0B6zTlckL",
+            "xE7kgNbrb5v",
+            "kNzRGpiCvg4",
+            "AXweWKC4B3L",
+            "hqm8znlAzkT",
+            "SqD0kovH0CS",
+            "MUXThnNRCk6",
+            "RJ6pdxga9Od",
+            "x4L0LuEBHhW",
+            "kKr4FSA1O0Z",
+            "aIIHyDy8AMW",
+            "HCe7qiP0GoC",
+            "zr25iLoCE4g",
+            "UzPqw49tyym",
+            "zgt8n5PIAAf",
+            "CI0pKfEiWom",
+            "xY4T9hHXNji",
+            "h9G7i6mQKef",
+            "wkaRLVNi6Fm",
+            "MGjwUUNsE60",
+            "qh0kIjHZbP8",
+            "DNWp4zqrALv",
+            "BtB8fMhK2gH",
+            "a6kCEcImBlW",
+            "Zp39TSOR8eW",
+            "XFUvVgqPukT",
+            "UWXUTVN709H",
+            "FZNIlzPRMmL",
+            "zovL7DKBRuK",
+            "pbiKvW0Xv5Y",
+            "Zn0UuSRYyJw",
+            "M3jBOeFxHO0",
+            "A2Vtdh2mndr",
+            "z7eWopCMD1k",
+            "UzbfnPqo0LV",
+            "BEw3zmRnGo4",
+            "IXW8ahBF3Pl",
+            "P2OSNv6tWuj",
+            "sYIBsws6qUG",
+            "ApGCVA6qhKT",
+            "rtoIINJSfAf",
+            "T4Fcv5Khfe8"
+          ]
+        }
+      ],
+      "dashboardIds": [
+        "YYtAbckt77l"
+      ],
+      "dataElementGroupIds": [
+        "bJW73wIwGyB"
+      ],
+      "exportIndicatorGroupsIds": [
+        "mhdLWWUIqUp"
+      ],
+      "indicatorGroupIds": [
+        "mhdLWWUIqUp"
+      ],
+      "programIds": [
+        "yDuAzyqYABS"
+      ]
+    }
+  ]
+}
