@@ -189,14 +189,14 @@
 		{
 			"attributeValues": [],
 			"categoryOptions": [],
-			"code": "P0Y--59Y",
+			"code": "P0Y--60Y",
 			"created": "2021-01-16T22:52:36.470",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "fqborXHhXZG",
-			"lastUpdated": "2021-01-27T13:23:14.766",
-			"name": "[CONFIG] 0-59 years",
+			"lastUpdated": "2021-01-18T10:17:05.091",
+			"name": "[CONFIG] <60 years",
 			"publicAccess": "r-------",
-			"shortName": "0-59 y",
+			"shortName": "<60 y",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -286,22 +286,11 @@
 			"created": "2021-01-16T23:00:44.621",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "KS058ZLL570",
-			"lastUpdated": "2021-01-28T14:55:37.340",
+			"lastUpdated": "2021-01-18T10:17:05.091",
 			"name": "[CONFIG] Contamination",
 			"publicAccess": "r-------",
 			"shortName": "Contamination",
-			"translations": [
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Contamination"
-				},
-				{
-					"locale": "pt",
-					"property": "SHORT_NAME",
-					"value": "Contamination"
-				}
-			],
+			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
 			},
@@ -649,7 +638,6 @@
 	"charts": [
 		{
 			"aggregationType": "DEFAULT",
-			"category": "hEcLht1oMFl",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -699,7 +687,8 @@
 			"filterDimensions": [
 				"ou",
 				"pe",
-				"dx"
+				"dx",
+				"dX05HKf9jgk"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -758,7 +747,8 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "dX05HKf9jgk",
+			"series": "hEcLht1oMFl",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -785,7 +775,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -869,6 +860,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -895,7 +887,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1011,6 +1004,7 @@
 				"yesterday": false
 			},
 			"series": "lKWQD9CDlOA",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1037,7 +1031,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1127,6 +1122,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1153,7 +1149,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1243,6 +1240,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1269,7 +1267,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1359,6 +1358,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1385,7 +1385,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1393,13 +1394,19 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
-			"created": "2021-01-28T12:19:46.904",
+			"created": "2021-01-21T11:40:13.425",
 			"cumulativeValues": true,
 			"dataDimensionItems": [
 				{
 					"dataDimensionItemType": "INDICATOR",
 					"indicator": {
 						"id": "oB4qA3ZKs89"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "ktUQ6Yk8Ztv"
 					}
 				}
 			],
@@ -1416,8 +1423,8 @@
 			"hideTitle": false,
 			"id": "NBIo8UnkJsU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-28T12:19:46.904",
-			"name": "COVAX - Number of people given 1st - this and last 6 months",
+			"lastUpdated": "2021-01-21T11:40:13.425",
+			"name": "COVAX - Number of people given 1st and last dose - this and last 6 months",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -1469,6 +1476,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1495,11 +1503,11 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "dX05HKf9jgk",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -1535,7 +1543,8 @@
 			"favorites": [],
 			"filterDimensions": [
 				"ou",
-				"pe"
+				"pe",
+				"dx"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -1594,7 +1603,8 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "dx",
+			"series": "dX05HKf9jgk",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1621,7 +1631,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1723,6 +1734,7 @@
 				"yesterday": false
 			},
 			"series": "dX05HKf9jgk",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1749,7 +1761,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1851,6 +1864,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1877,7 +1891,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1974,6 +1989,7 @@
 				"yesterday": false
 			},
 			"series": "ou",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2000,7 +2016,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2122,6 +2139,7 @@
 				"yesterday": false
 			},
 			"series": "flirf9mAeha",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2148,7 +2166,8 @@
 			],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"constants": [
@@ -2922,6 +2941,9 @@
 					"id": "AvwcVy7Yfv4"
 				},
 				{
+					"id": "AXQfVQKvZJu"
+				},
+				{
 					"id": "b3znXSaQjkD"
 				},
 				{
@@ -3030,6 +3052,9 @@
 					"id": "KLFHy7LdaEp"
 				},
 				{
+					"id": "ktUQ6Yk8Ztv"
+				},
+				{
 					"id": "kx79vq5XdQd"
 				},
 				{
@@ -3093,7 +3118,13 @@
 					"id": "q7a0Mh2fRC1"
 				},
 				{
+					"id": "qgyGe1hrTU8"
+				},
+				{
 					"id": "QH43B8PD9V5"
+				},
+				{
+					"id": "qjnUyy7KWYf"
 				},
 				{
 					"id": "QkFx0Jr0EST"
@@ -3136,6 +3167,9 @@
 				},
 				{
 					"id": "TJqiY5fLP8C"
+				},
+				{
+					"id": "u56y5tRtmXY"
 				},
 				{
 					"id": "U7Xq3jiK8Fy"
@@ -3204,6 +3238,9 @@
 					"id": "YBLUIQSCFPJ"
 				},
 				{
+					"id": "YClBh4hwpk7"
+				},
+				{
 					"id": "yJ9izFBk1bB"
 				},
 				{
@@ -3231,7 +3268,7 @@
 					"id": "zTMJ8UYjlCU"
 				}
 			],
-			"lastUpdated": "2021-01-28T11:54:30.052",
+			"lastUpdated": "2021-01-21T14:01:42.378",
 			"name": "COVAX - Vaccination",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -3268,7 +3305,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.572",
+			"lastUpdated": "2021-01-20T19:08:54.441",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Opening balance syringes with needle 1ml",
 			"numerator": "-1",
@@ -3307,13 +3344,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.825",
+			"lastUpdated": "2021-01-20T19:08:54.441",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Opening balance cold box",
+			"name": "[CONFIG] COVAX - Opening balance cold boxes",
 			"numerator": "-1",
-			"numeratorDescription": "Opening balance cold box",
+			"numeratorDescription": "Opening balance cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance cold box",
+			"shortName": "Opening balance cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3341,18 +3378,18 @@
 			"created": "2021-01-20T19:08:54.455",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Days the centre was stocked out of the item",
+			"description": " Days the centre was stocked out of the item",
 			"id": "ANmlPnVtTTa",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.235",
+			"lastUpdated": "2021-01-20T19:08:54.455",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stockout days - Vaccine 3 (vials)",
+			"name": "[CONFIG] COVAX - Stockout days - Vaccine3 vials",
 			"numerator": "-1",
 			"numeratorDescription": "Stockout days - Vaccine3",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days - Vaccine 3 (vials)",
+			"shortName": "Stockout days - Vaccine3 vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3385,7 +3422,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.171",
+			"lastUpdated": "2021-01-20T19:08:54.444",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Proportion of target frontline healthcare workers given 1st dose",
 			"numerator": "-1",
@@ -3415,16 +3452,55 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
+			"code": "CVX_PEOPLE_WITH_EXISTING_COND_LAST_DOSE",
+			"created": "2021-01-20T19:08:54.443",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "People with underlying medical conditions given last dose",
+			"id": "AXQfVQKvZJu",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2021-01-21T11:14:03.146",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Target people with existing medical conditions given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target people with underlying medical conditions given last dose",
+			"publicAccess": "r-------",
+			"shortName": "People with existing conditions given last dose",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
 			"code": "CVX_STAFF_AVAILABLE_%",
 			"created": "2021-01-20T19:08:54.446",
 			"denominator": "1",
-			"denominatorDescription": "Expected staff",
+			"denominatorDescription": "Expected staff ",
 			"description": "Proportion of staff available",
 			"id": "b3znXSaQjkD",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.182",
+			"lastUpdated": "2021-01-20T19:08:54.446",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Proportion of staff available",
 			"numerator": "-1",
@@ -3454,22 +3530,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_SAFETY_BOX",
+			"code": "CVX_STOCK_ON_HAND_SAFETY_BOXES",
 			"created": "2021-01-20T19:08:54.462",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "B7vM2EWHmrP",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.818",
+			"lastUpdated": "2021-01-20T19:08:54.462",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand safety box",
+			"name": "[CONFIG] COVAX - Stock on hand safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand safety box",
+			"shortName": "Stock on hand safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3502,13 +3578,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.831",
+			"lastUpdated": "2021-01-20T19:08:54.442",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Opening balance - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Opening balance - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Opening balance - Vaccine2 doses",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance - Vaccine 2 (doses)",
+			"shortName": "Opening balance - Vaccine2 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3532,22 +3608,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_FRONTLINE_HCW_2ND_DOSE",
+			"code": "CVX_FRONTLINE_HCW_2PLUS_DOSE",
 			"created": "2021-01-20T19:08:54.440",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Frontline healthcare workers given 2nd dose",
+			"description": "Frontline healthcare workers given 2+ dose",
 			"id": "BgtZgNWFVfb",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.846",
+			"lastUpdated": "2021-01-21T11:04:38.372",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Frontline healthcare workers given 2nd dose",
+			"name": "[CONFIG] COVAX - Frontline healthcare workers given 2+ dose",
 			"numerator": "-1",
 			"numeratorDescription": "Frontline healthcare workers given 2+ dose",
 			"publicAccess": "r-------",
-			"shortName": "Frontline healthcare workers given 2nd dose",
+			"shortName": "Frontline healthcare workers given 2+ dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3580,7 +3656,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.419",
+			"lastUpdated": "2021-01-20T19:08:54.437",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Distributed syringes with needle 1ml",
 			"numerator": "-1",
@@ -3614,16 +3690,16 @@
 			"created": "2021-01-21T11:33:14.900",
 			"denominator": "1",
 			"denominatorDescription": "Given 1st dose",
-			"description": "(1st dose - 2nd dose)/1st dose",
+			"description": "(1st dose - last dose)/1st dose",
 			"id": "btAPoZyKLSW",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.946",
+			"lastUpdated": "2021-01-21T11:33:14.900",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Drop out rates among frontline healthcare workers(%)",
 			"numerator": "-1",
-			"numeratorDescription": "Given 1st dose - Given second dose",
+			"numeratorDescription": "Given 1st dose - Given last dose",
 			"publicAccess": "r-------",
 			"shortName": "Drop out rates among frontline HCW (%)",
 			"translations": [],
@@ -3649,22 +3725,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STAFF_EXPECTED_AT_POC",
+			"code": "CVX_STAFF_EXPECTED_AT_CENTRE_TODAY",
 			"created": "2021-01-20T19:08:54.450",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Staff expected at PoC during the reporting period",
+			"description": "Staff expected at centre today",
 			"id": "ByzkeCHudEH",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.688",
+			"lastUpdated": "2021-01-20T19:08:54.450",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Staff expected at PoC",
+			"name": "[CONFIG] COVAX - Staff expected at centre today",
 			"numerator": "-1",
-			"numeratorDescription": "Staff expected at PoC",
+			"numeratorDescription": "Staff expected at centre today",
 			"publicAccess": "r-------",
-			"shortName": "Staff expected at PoC",
+			"shortName": "Staff expected at centre today",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3692,16 +3768,16 @@
 			"created": "2021-01-21T11:31:36.727",
 			"denominator": "1",
 			"denominatorDescription": "Given 1st dose",
-			"description": "(1st dose - 2nd dose)/1st dose",
+			"description": "(1st dose - last dose)/1st dose",
 			"id": "c4p6bfoOh0B",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.041",
+			"lastUpdated": "2021-01-21T11:31:48.152",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Drop out rates among essential workers(%)",
 			"numerator": "-1",
-			"numeratorDescription": "Given 1st dose - Given second dose",
+			"numeratorDescription": "Given 1st dose - Given last dose",
 			"publicAccess": "r-------",
 			"shortName": "Drop out rates among essential workers (%)",
 			"translations": [],
@@ -3736,7 +3812,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.840",
+			"lastUpdated": "2021-01-20T19:39:55.402",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closed vials wastage (%)",
 			"numerator": "-1",
@@ -3770,12 +3846,12 @@
 			"created": "2021-01-20T19:08:54.457",
 			"denominator": "1",
 			"denominatorDescription": "Expected reports",
-			"description": "Proportion of all vaccination centres that submitted their report",
+			"description": "Proportion of all vaccination centres that submitted their report ",
 			"id": "cEUzKKCa7fv",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.207",
+			"lastUpdated": "2021-01-20T19:08:54.457",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Vaccine stock reporting rates",
 			"numerator": "-1",
@@ -3814,7 +3890,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.764",
+			"lastUpdated": "2021-01-20T19:08:54.449",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed - Vaccine1 doses",
 			"numerator": "-1",
@@ -3844,22 +3920,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_VACCINE3_DOSES",
+			"code": "CVX_STOCK_ON_HAND_VACCINE3_DOSES",
 			"created": "2021-01-20T19:08:54.453",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "CydbboFk0yH",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.578",
+			"lastUpdated": "2021-01-20T19:08:54.453",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Stock on hand - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand - Vaccine3 doses",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand - Vaccine 3 (doses)",
+			"shortName": "Stock on hand - Vaccine3 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3887,18 +3963,18 @@
 			"created": "2021-01-20T19:08:54.454",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Days the centre was stocked out of the item",
+			"description": " Days the centre was stocked out of the item",
 			"id": "eA3THL80DDH",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.419",
+			"lastUpdated": "2021-01-20T19:08:54.454",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stockout days - Vaccine 1 (vials)",
+			"name": "[CONFIG] COVAX - Stockout days - Vaccine1 vials",
 			"numerator": "-1",
 			"numeratorDescription": "Stockout days - Vaccine1",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days - Vaccine 1 (vials)",
+			"shortName": "Stockout days - Vaccine1 vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -3931,7 +4007,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.658",
+			"lastUpdated": "2021-01-20T19:08:54.454",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Stockout days syringes with needle 1ml",
 			"numerator": "-1",
@@ -3970,7 +4046,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.758",
+			"lastUpdated": "2021-01-20T19:08:54.454",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Stockout days vaccination cards",
 			"numerator": "-1",
@@ -4009,13 +4085,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.577",
+			"lastUpdated": "2021-01-20T19:08:54.436",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded closed vials - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Discarded - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Discarded - Vaccine2 doses",
 			"publicAccess": "r-------",
-			"shortName": "Discarded closed vials - Vaccine 2 (doses)",
+			"shortName": "Discarded - Vaccine2 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4042,19 +4118,19 @@
 			"code": "CVX_STOCK_DISCREPANCY_VIALS",
 			"created": "2021-01-20T19:08:54.450",
 			"denominator": "1",
-			"denominatorDescription": "Stock at hand",
+			"denominatorDescription": "Stock on hand",
 			"description": "(Closing balance-Stock on hand)/Stock on hand",
 			"id": "ffjCEkN7xC2",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.806",
+			"lastUpdated": "2021-01-20T19:08:54.450",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Stock discrepancy rate (%)",
 			"numerator": "-1",
-			"numeratorDescription": "Closing balance-Stock at hand",
+			"numeratorDescription": "Closing balance-Stock on hand",
 			"publicAccess": "r-------",
-			"shortName": "Stock discrepancy rate (%)",
+			"shortName": "Stock discrepancy rate",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4087,7 +4163,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.469",
+			"lastUpdated": "2021-01-20T19:08:54.449",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed vials",
 			"numerator": "-1",
@@ -4126,7 +4202,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.704",
+			"lastUpdated": "2021-01-20T19:08:54.432",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closing balance vaccination cards",
 			"numerator": "-1",
@@ -4165,13 +4241,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.136",
+			"lastUpdated": "2021-01-20T19:08:54.441",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Opening balance - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Opening balance - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Opening balance - Vaccine1 doses",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance - Vaccine 1 (doses)",
+			"shortName": "Opening balance - Vaccine1 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4195,22 +4271,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_CARDS",
+			"code": "CVX_STOCK_ON_HAND_CARDS",
 			"created": "2021-01-20T19:08:54.452",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "G9jRzY6zmJg",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.974",
+			"lastUpdated": "2021-01-20T19:08:54.452",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand vaccination cards",
+			"name": "[CONFIG] COVAX - Stock on hand vaccination cards",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand vaccination cards",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand vaccination cards",
+			"shortName": "Stock on hand vaccination cards",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4234,22 +4310,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_ESSENTIAL_WORKERS_2ND_DOSE",
+			"code": "CVX_ESSENTIAL_WORKERS_2PLUS_DOSE",
 			"created": "2021-01-20T19:08:54.440",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Essential workers given 2nd dose",
+			"description": "Essential workers given 2+ dose",
 			"id": "gZEoyKpx4hE",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.327",
+			"lastUpdated": "2021-01-21T11:03:45.169",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Essential workers given 2nd dose",
+			"name": "[CONFIG] COVAX - Essential workers given 2+ dose",
 			"numerator": "-1",
 			"numeratorDescription": "Essential workers given 2+ dose",
 			"publicAccess": "r-------",
-			"shortName": "Essential workers given 2nd dose",
+			"shortName": "Essential workers given 2+ dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4277,12 +4353,12 @@
 			"created": "2021-01-20T19:08:54.456",
 			"denominator": "1",
 			"denominatorDescription": "Expected reports",
-			"description": "Proportion of all vaccination centres that submitted their report",
+			"description": "Proportion of all vaccination centres that submitted their report ",
 			"id": "h3NchPC73cV",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.456",
+			"lastUpdated": "2021-01-20T19:08:54.456",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Vaccination reporting rates",
 			"numerator": "-1",
@@ -4321,13 +4397,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.952",
+			"lastUpdated": "2021-01-20T19:08:54.442",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Opening balance - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Opening balance - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Opening balance - Vaccine3 doses",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance - Vaccine 3 (doses)",
+			"shortName": "Opening balance - Vaccine3 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4360,13 +4436,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.946",
+			"lastUpdated": "2021-01-20T19:08:54.432",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 1 (doses)",
+			"shortName": "Closing balance vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4399,13 +4475,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.009",
+			"lastUpdated": "2021-01-20T19:08:54.436",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded closed vials - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Discarded - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Discarded - Vaccine1 doses",
 			"publicAccess": "r-------",
-			"shortName": "Discarded closed vials - Vaccine 1 (doses)",
+			"shortName": "Discarded - Vaccine1 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4438,7 +4514,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.566",
+			"lastUpdated": "2021-01-20T19:08:54.455",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target frontline healthcare workers",
 			"numerator": "-1",
@@ -4468,7 +4544,7 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCKOUT_DAYS_SAFETY_BOX",
+			"code": "CVX_STOCKOUT_DAYS_SAFETY_BOXES",
 			"created": "2021-01-20T19:08:54.462",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -4477,13 +4553,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.727",
+			"lastUpdated": "2021-01-20T19:08:54.462",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stockout days safety box",
+			"name": "[CONFIG] COVAX - Stockout days safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Stockout days safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days safety box",
+			"shortName": "Stockout days safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4516,7 +4592,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.203",
+			"lastUpdated": "2021-01-20T19:08:54.457",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Vaccination reporting rates on time",
 			"numerator": "-1",
@@ -4555,7 +4631,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.157",
+			"lastUpdated": "2021-01-20T19:08:54.447",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Received vaccination cards",
 			"numerator": "-1",
@@ -4594,13 +4670,13 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.425",
+			"lastUpdated": "2021-01-21T10:09:08.922",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Vaccine 2 uptake (%)",
+			"name": "[CONFIG] COVAX - Vaccine2 uptake (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Vaccine2 doses given",
 			"publicAccess": "r-------",
-			"shortName": "Vaccine 2 uptake (%)",
+			"shortName": "Vaccine2 uptake (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4624,7 +4700,7 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_RECEIVED_COLD_BOX",
+			"code": "CVX_RECEIVED_COLD_BOXES",
 			"created": "2021-01-20T19:08:54.446",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -4633,13 +4709,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.764",
+			"lastUpdated": "2021-01-20T19:08:54.446",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Received cold box",
+			"name": "[CONFIG] COVAX - Received cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Received cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Received cold box",
+			"shortName": "Received cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4663,22 +4739,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STAFF_AVAILABLE_AT_POC",
+			"code": "CVX_STAFF_AVAILABLE_AT_CENTRE_TODAY",
 			"created": "2021-01-20T19:08:54.449",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Staff available at PoC during the reporting period",
+			"description": "Staff available at centre today",
 			"id": "jFlfqS1M9Hj",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.654",
+			"lastUpdated": "2021-01-20T19:08:54.449",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Staff available at PoC",
+			"name": "[CONFIG] COVAX - Staff available at centre today",
 			"numerator": "-1",
-			"numeratorDescription": "Staff available at PoC",
+			"numeratorDescription": "Staff available at centre today",
 			"publicAccess": "r-------",
-			"shortName": "Staff available at PoC",
+			"shortName": "Staff available at centre today",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4711,7 +4787,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.972",
+			"lastUpdated": "2021-01-20T19:33:17.756",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Wastage rate (%)",
 			"numerator": "-1",
@@ -4750,13 +4826,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.249",
+			"lastUpdated": "2021-01-20T19:08:54.439",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Doses per vial - Vaccine 3",
+			"name": "[CONFIG] COVAX - Doses in a vial - Vaccine3",
 			"numerator": "-1",
 			"numeratorDescription": "Doses in a vial - Vaccine3",
 			"publicAccess": "r-------",
-			"shortName": "Doses per vial - Vaccine 3",
+			"shortName": "Doses in a vial - Vaccine3",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4789,13 +4865,52 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.675",
+			"lastUpdated": "2021-01-20T19:08:54.447",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Received - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Received - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Received - Vaccine2 doses",
 			"publicAccess": "r-------",
-			"shortName": "Received - Vaccine 2 (doses)",
+			"shortName": "Received - Vaccine2 doses",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CVX_PEOPLE_LAST_DOSE",
+			"created": "2021-01-20T19:08:54.443",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"description": "Target people vaccinated last dose",
+			"id": "ktUQ6Yk8Ztv",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2021-01-21T11:12:47.608",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Target people given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target people given last dose",
+			"publicAccess": "r-------",
+			"shortName": "Target people given last dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4828,7 +4943,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.863",
+			"lastUpdated": "2021-01-20T19:08:54.431",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closing balance syringes with needle 1ml",
 			"numerator": "-1",
@@ -4858,7 +4973,7 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_DISCARDED__OPEN_VIALS_VACCINE1",
+			"code": "CVX_DISCARDED_VIALS",
 			"created": "2021-01-20T19:08:54.437",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -4867,13 +4982,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.649",
+			"lastUpdated": "2021-01-20T19:08:54.437",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded closed vials - Vaccine 1",
+			"name": "[CONFIG] COVAX - Discarded vials",
 			"numerator": "-1",
-			"numeratorDescription": "Discarded closed vials - Vaccine 1",
+			"numeratorDescription": "Discarded vials",
 			"publicAccess": "r-------",
-			"shortName": "Discarded closed vials - Vaccine 1",
+			"shortName": "Discarded vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -4906,7 +5021,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.877",
+			"lastUpdated": "2021-01-20T19:38:38.927",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Opened vials wastage (%)",
 			"numerator": "-1",
@@ -4945,7 +5060,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.147",
+			"lastUpdated": "2021-01-20T19:08:54.438",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Distributed vials",
 			"numerator": "-1",
@@ -4984,7 +5099,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.569",
+			"lastUpdated": "2021-01-20T19:08:54.455",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target people with existing medical conditions",
 			"numerator": "-1",
@@ -5023,13 +5138,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.371",
+			"lastUpdated": "2021-01-20T19:08:54.438",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Distributed - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Distributed - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Distributed - Vaccine2 doses",
 			"publicAccess": "r-------",
-			"shortName": "Distributed - Vaccine 2 (doses)",
+			"shortName": "Distributed - Vaccine2 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5062,13 +5177,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.906",
+			"lastUpdated": "2021-01-20T19:08:54.434",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 2 (vials)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine2 vials",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 2 (vials)",
+			"shortName": "Closing balance - Vaccine2 vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5101,7 +5216,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.540",
+			"lastUpdated": "2021-01-20T19:08:54.447",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Received syringes with needle 1ml",
 			"numerator": "-1",
@@ -5140,7 +5255,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.900",
+			"lastUpdated": "2021-01-20T19:08:54.427",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - AEFIs by vaccine and severity",
 			"numerator": "-1",
@@ -5179,13 +5294,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.477",
+			"lastUpdated": "2021-01-20T19:08:54.448",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Received - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Received - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Received - Vaccine3 doses",
 			"publicAccess": "r-------",
-			"shortName": "Received - Vaccine 3 (doses)",
+			"shortName": "Received - Vaccine3 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5218,7 +5333,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.500",
+			"lastUpdated": "2021-01-20T19:08:54.439",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Essential workers given 1st dose",
 			"numerator": "-1",
@@ -5248,22 +5363,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_VACCINE1_DOSES",
+			"code": "CVX_STOCK_ON_HAND_VACCINE1_DOSES",
 			"created": "2021-01-20T19:08:54.452",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "o2sAk0ai7X9",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.206",
+			"lastUpdated": "2021-01-20T19:08:54.452",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Stock on hand - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand - Vaccine1 doses",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand - Vaccine 1 (doses)",
+			"shortName": "Stock on hand - Vaccine1 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5296,7 +5411,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.097",
+			"lastUpdated": "2021-01-21T11:46:24.713",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Doses discarded by reasons",
 			"numerator": "-1",
@@ -5335,7 +5450,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.533",
+			"lastUpdated": "2021-01-20T19:08:54.442",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target people given 1st dose",
 			"numerator": "-1",
@@ -5374,13 +5489,13 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.726",
+			"lastUpdated": "2021-01-21T10:10:12.303",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Vaccine 3 uptake (%)",
+			"name": "[CONFIG] COVAX - Vaccine3 uptake (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Vaccine3 doses given",
 			"publicAccess": "r-------",
-			"shortName": "Vaccine 3 uptake (%)",
+			"shortName": "Vaccine3 uptake (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5413,13 +5528,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.610",
+			"lastUpdated": "2021-01-20T19:08:54.433",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 1 (vials)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine1 vials",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 1 (vials)",
+			"shortName": "Closing balance vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5452,7 +5567,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.009",
+			"lastUpdated": "2021-01-20T19:08:54.440",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Frontline healthcare workers given 1st dose",
 			"numerator": "-1",
@@ -5482,22 +5597,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_ESSENTIAL_WORKERS_BOOSTER_DOSE",
+			"code": "CVX_ESSENTIAL_WORKERS_LAST_DOSE",
 			"created": "2021-01-21T11:17:51.448",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Essential workers given booster dose",
+			"description": "Essential workers given last dose",
 			"id": "pqED8vVfjlf",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.802",
+			"lastUpdated": "2021-01-21T11:17:51.448",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Essential workers given booster dose",
+			"name": "[CONFIG] COVAX - Essential workers given last dose",
 			"numerator": "-1",
-			"numeratorDescription": "Essential workers given booster dose",
+			"numeratorDescription": "Essential workers given last dose",
 			"publicAccess": "r-------",
-			"shortName": "Essential workers given booster dose",
+			"shortName": "Essential workers given last dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5530,7 +5645,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.901",
+			"lastUpdated": "2021-01-20T19:08:54.448",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed syringes with needle 1ml",
 			"numerator": "-1",
@@ -5569,13 +5684,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.957",
+			"lastUpdated": "2021-01-20T19:08:54.448",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Redistributed cold box",
+			"name": "[CONFIG] COVAX - Redistributed cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Redistributed cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Redistributed cold box",
+			"shortName": "Redistributed cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5608,13 +5723,52 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.886",
+			"lastUpdated": "2021-01-20T19:08:54.443",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target people with existing medical conditions given 1st dose",
 			"numerator": "-1",
 			"numeratorDescription": "Target people with existing medical conditions given 1st dose",
 			"publicAccess": "r-------",
 			"shortName": "People with existing conditions given 1st dose",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CVX_EXISTING_CONDS_GIVEN_LAST_DOSE_%",
+			"created": "2021-01-20T19:08:54.445",
+			"denominator": "1",
+			"denominatorDescription": "Target people with underlying medical conditions",
+			"description": "Proportion of target people with existing medical conditions given last dose",
+			"id": "qgyGe1hrTU8",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2021-01-21T11:11:06.833",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Proportion of target people with underlying medical conditions given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target people with existing conditions given last dose",
+			"publicAccess": "r-------",
+			"shortName": "People with existing cond given last dose (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5647,13 +5801,52 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.039",
+			"lastUpdated": "2021-01-20T19:08:54.443",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Proportion of target essential workers given 1st dose",
 			"numerator": "-1",
 			"numeratorDescription": "Target essential workers who received 1st dose",
 			"publicAccess": "r-------",
 			"shortName": "Target essential workers who received 1st dose (%)",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CVX_ESS_WORKERS_GIVEN_LAST_DOSE_%",
+			"created": "2021-01-20T19:08:54.444",
+			"denominator": "1",
+			"denominatorDescription": "Target essential workers",
+			"description": "Proportion of essential workers given last dose",
+			"id": "qjnUyy7KWYf",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2021-01-21T11:15:19.735",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Proportion of target essential workers given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target essential workers given last dose ",
+			"publicAccess": "r-------",
+			"shortName": "Target essential workers given last dose (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5686,13 +5879,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.043",
+			"lastUpdated": "2021-01-20T19:08:54.435",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded cold box",
+			"name": "[CONFIG] COVAX - Discarded cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Discarded cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Discarded cold box",
+			"shortName": "Discarded cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5725,13 +5918,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.967",
+			"lastUpdated": "2021-01-20T19:08:54.462",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Redistributed safety box",
+			"name": "[CONFIG] COVAX - Redistributed safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Redistributed safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Redistributed safety box",
+			"shortName": "Redistributed safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5764,7 +5957,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.688",
+			"lastUpdated": "2021-01-20T19:08:54.449",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed - Vaccine2 doses",
 			"numerator": "-1",
@@ -5803,13 +5996,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.703",
+			"lastUpdated": "2021-01-20T19:08:54.439",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Doses per vial - Vaccine 2",
+			"name": "[CONFIG] COVAX - Doses in a vial - Vaccine2",
 			"numerator": "-1",
 			"numeratorDescription": "Doses in a vial - Vaccine2",
 			"publicAccess": "r-------",
-			"shortName": "Doses per vial - Vaccine 2",
+			"shortName": "Doses in a vial - Vaccine2",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5842,7 +6035,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.892",
+			"lastUpdated": "2021-01-20T19:08:54.445",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Proportion of target people with underlying medical conditions given 1st dose",
 			"numerator": "-1",
@@ -5881,7 +6074,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.646",
+			"lastUpdated": "2021-01-20T19:08:54.441",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Opening balance vaccination cards",
 			"numerator": "-1",
@@ -5915,16 +6108,16 @@
 			"created": "2021-01-20T19:08:54.439",
 			"denominator": "1",
 			"denominatorDescription": "Given 1st dose",
-			"description": "(1st dose - 2nd dose)/1st dose",
+			"description": "(1st dose - last dose)/1st dose",
 			"id": "SBiW9NeXZeE",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.676",
+			"lastUpdated": "2021-01-21T11:37:15.883",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Drop out rates among all people targeted",
 			"numerator": "-1",
-			"numeratorDescription": "Given 1st dose - Given second dose",
+			"numeratorDescription": "Given 1st dose - Given last dose",
 			"publicAccess": "r-------",
 			"shortName": "Drop out rates among all (%)",
 			"translations": [],
@@ -5954,16 +6147,16 @@
 			"created": "2021-01-21T11:36:03.260",
 			"denominator": "1",
 			"denominatorDescription": "Given 1st dose",
-			"description": "(1st dose - 2nd dose)/1st dose",
+			"description": "(1st dose - last dose)/1st dose",
 			"id": "sCEtYxBxsIc",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.571",
+			"lastUpdated": "2021-01-21T11:36:03.260",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Drop out rates among people with underlying medical conditions(%)",
 			"numerator": "-1",
-			"numeratorDescription": "Given 1st dose - Given second dose",
+			"numeratorDescription": "Given 1st dose - Given last dose",
 			"publicAccess": "r-------",
 			"shortName": "Drop out rates - people with underlying cond (%)",
 			"translations": [],
@@ -5998,13 +6191,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.373",
+			"lastUpdated": "2021-01-20T19:08:54.447",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Received - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Received - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Received - Vaccine1 doses",
 			"publicAccess": "r-------",
-			"shortName": "Received - Vaccine 1 (doses)",
+			"shortName": "Received - Vaccine1 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6037,7 +6230,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.669",
+			"lastUpdated": "2021-01-20T19:08:54.457",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Vaccine stock reporting rates on time",
 			"numerator": "-1",
@@ -6076,13 +6269,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.811",
+			"lastUpdated": "2021-01-20T19:08:54.436",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded closed vials - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Discarded - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Discarded - Vaccine3 doses",
 			"publicAccess": "r-------",
-			"shortName": "Discarded closed vials - Vaccine 3 (doses)",
+			"shortName": "Discarded - Vaccine3 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6115,7 +6308,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.614",
+			"lastUpdated": "2021-01-20T19:08:54.449",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed - Vaccine3 doses",
 			"numerator": "-1",
@@ -6154,7 +6347,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.004",
+			"lastUpdated": "2021-01-20T19:08:54.448",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Received vials",
 			"numerator": "-1",
@@ -6193,13 +6386,52 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.567",
+			"lastUpdated": "2021-01-20T19:08:54.456",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target population",
 			"numerator": "-1",
 			"numeratorDescription": "Target population",
 			"publicAccess": "r-------",
 			"shortName": "Target population",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CVX_PEOPLE_GIVEN_LAST_DOSE_%",
+			"created": "2021-01-20T19:08:54.445",
+			"denominator": "1",
+			"denominatorDescription": "Target population",
+			"description": "Proportion of target people given last dose",
+			"id": "u56y5tRtmXY",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2021-01-21T11:09:41.251",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Proportion of target people given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target people given last dose",
+			"publicAccess": "r-------",
+			"shortName": "Target people given last dose (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6232,7 +6464,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.541",
+			"lastUpdated": "2021-01-20T19:08:54.445",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Proportion of target people given 1st dose",
 			"numerator": "-1",
@@ -6271,7 +6503,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.918",
+			"lastUpdated": "2021-01-20T19:08:54.435",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closing balance vials",
 			"numerator": "-1",
@@ -6310,13 +6542,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.945",
+			"lastUpdated": "2021-01-20T19:08:54.461",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Opening balance safety box",
+			"name": "[CONFIG] COVAX - Opening balance safety boxes",
 			"numerator": "-1",
-			"numeratorDescription": "Opening balance safety box",
+			"numeratorDescription": "Opening balance safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance safety box",
+			"shortName": "Opening balance safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6340,22 +6572,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_COLD_BOX",
+			"code": "CVX_STOCK_ON_HAND_COLD_BOXES",
 			"created": "2021-01-20T19:08:54.450",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "UjzjMQpG41z",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.566",
+			"lastUpdated": "2021-01-20T19:08:54.450",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand cold box",
+			"name": "[CONFIG] COVAX - Stock on hand cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand cold box",
+			"shortName": "Stock on hand cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6388,13 +6620,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.189",
+			"lastUpdated": "2021-01-20T19:08:54.437",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Distributed cold box",
+			"name": "[CONFIG] COVAX - Distributed cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Distributed cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Distributed cold box",
+			"shortName": "Distributed cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6427,7 +6659,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.987",
+			"lastUpdated": "2021-01-20T19:08:54.436",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Discarded syringes with needle 1ml",
 			"numerator": "-1",
@@ -6466,7 +6698,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.959",
+			"lastUpdated": "2021-01-20T19:08:54.437",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Distributed vaccination cards",
 			"numerator": "-1",
@@ -6505,13 +6737,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.217",
+			"lastUpdated": "2021-01-20T19:08:54.435",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 3 (vials)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine3 vials",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 3 (vials)",
+			"shortName": "Closing balance - Vaccine3 vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6535,22 +6767,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_FRONTLINE_HCW_BOOSTER_DOSE",
+			"code": "CVX_FRONTLINE_HCW_LAST_DOSE",
 			"created": "2021-01-21T11:18:49.753",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Frontline healthcare workers given booster dose",
+			"description": "Frontline healthcare workers given last dose",
 			"id": "vBJQTfzca4x",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.239",
+			"lastUpdated": "2021-01-21T11:18:49.753",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Frontline healthcare workers given booster dose",
+			"name": "[CONFIG] COVAX - Frontline healthcare workers given last dose",
 			"numerator": "-1",
-			"numeratorDescription": "Frontline healthcare workers given booster dose",
+			"numeratorDescription": "Frontline healthcare workers given last dose",
 			"publicAccess": "r-------",
-			"shortName": "Frontline healthcare workers given booster dose",
+			"shortName": "Frontline healthcare workers given last dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6574,22 +6806,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_VIALS",
+			"code": "CVX_STOCK_ON_HAND_VIALS",
 			"created": "2021-01-20T19:08:54.453",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "VFdnTyYvS5c",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.290",
+			"lastUpdated": "2021-01-20T19:08:54.453",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand vials",
+			"name": "[CONFIG] COVAX - Stock on hand vials",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand vials",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand vials",
+			"shortName": "Stock on hand vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6613,7 +6845,7 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCKOUT_DAYS_COLD_BOX",
+			"code": "CVX_STOCKOUT_DAYS_COLD_BOXES",
 			"created": "2021-01-20T19:08:54.453",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -6622,13 +6854,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.766",
+			"lastUpdated": "2021-01-20T19:08:54.453",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stockout days cold box",
+			"name": "[CONFIG] COVAX - Stockout days cold boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Stockout days cold boxes",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days cold box",
+			"shortName": "Stockout days cold boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6661,13 +6893,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.902",
+			"lastUpdated": "2021-01-20T19:08:54.461",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Distributed safety box",
+			"name": "[CONFIG] COVAX - Distributed safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Distributed safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Distributed safety box",
+			"shortName": "Distributed safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6700,7 +6932,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.136",
+			"lastUpdated": "2021-01-20T19:08:54.455",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Target essential workers",
 			"numerator": "-1",
@@ -6730,7 +6962,7 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_RECEIVED_SAFETY_BOX",
+			"code": "CVX_RECEIVED_SAFETY_BOXES",
 			"created": "2021-01-20T19:08:54.462",
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -6739,13 +6971,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.425",
+			"lastUpdated": "2021-01-20T19:08:54.462",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Received safety box",
+			"name": "[CONFIG] COVAX - Received safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Received safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Received safety box",
+			"shortName": "Received safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6773,18 +7005,18 @@
 			"created": "2021-01-20T19:08:54.454",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Days the centre was stocked out of the item",
+			"description": " Days the centre was stocked out of the item",
 			"id": "WMjFkieChKj",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.670",
+			"lastUpdated": "2021-01-20T19:08:54.454",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stockout days - Vaccine 2 (vials)",
+			"name": "[CONFIG] COVAX - Stockout days - Vaccine2 vials",
 			"numerator": "-1",
 			"numeratorDescription": "Stockout days - Vaccine2",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days - Vaccine 2 (vials)",
+			"shortName": "Stockout days - Vaccine2 vials",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6817,7 +7049,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.476",
+			"lastUpdated": "2021-01-20T19:08:54.456",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Used vials",
 			"numerator": "-1",
@@ -6856,13 +7088,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.903",
+			"lastUpdated": "2021-01-20T19:08:54.438",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Distributed - Vaccine 1 (doses)",
+			"name": "[CONFIG] COVAX - Distributed - Vaccine1 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Distributed - Vaccine1 doses",
 			"publicAccess": "r-------",
-			"shortName": "Distributed - Vaccine 1 (doses)",
+			"shortName": "Distributed - Vaccine1 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6895,13 +7127,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.162",
+			"lastUpdated": "2021-01-20T19:08:54.438",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Distributed - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Distributed - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Distributed - Vaccine3 doses",
 			"publicAccess": "r-------",
-			"shortName": "Distributed - Vaccine 3 (doses)",
+			"shortName": "Distributed - Vaccine3 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6934,9 +7166,9 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.630",
+			"lastUpdated": "2021-01-21T10:06:55.242",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Vaccine 1 uptake (%)",
+			"name": "[CONFIG] COVAX - Vaccine1 uptake (%)",
 			"numerator": "-1",
 			"numeratorDescription": "Vaccine1 doses given",
 			"publicAccess": "r-------",
@@ -6973,7 +7205,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.767",
+			"lastUpdated": "2021-01-20T19:08:54.436",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Discarded vaccination cards",
 			"numerator": "-1",
@@ -7012,7 +7244,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.285",
+			"lastUpdated": "2021-01-20T19:08:54.457",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Vaccine usage rate (%)",
 			"numerator": "-1",
@@ -7051,13 +7283,52 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.140",
+			"lastUpdated": "2021-01-20T19:08:54.435",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 3 (doses)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine3 doses",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 3 (doses)",
+			"shortName": "Closing balance - Vaccine3 doses",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "I9x6Bd4MwXc"
+				},
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				}
+			]
+		},
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"code": "CVX_FRONTLINE_HCW_GIVEN_LAST_DOSE_%",
+			"created": "2021-01-20T19:08:54.444",
+			"denominator": "1",
+			"denominatorDescription": "Target frontline healthcare workers",
+			"description": "Proportion of frontline healthcare workers given last dose",
+			"id": "YClBh4hwpk7",
+			"indicatorType": {
+				"id": "hmSnCXmLYwt"
+			},
+			"lastUpdated": "2021-01-21T11:08:43.735",
+			"legendSets": [],
+			"name": "[CONFIG] COVAX - Proportion of target frontline healthcare workers given last dose",
+			"numerator": "-1",
+			"numeratorDescription": "Target frontline healthcare workers  given last dose",
+			"publicAccess": "r-------",
+			"shortName": "Frontline healthcare workers given last dose (%)",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7090,7 +7361,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.882",
+			"lastUpdated": "2021-01-20T19:08:54.458",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closing balance safety boxes",
 			"numerator": "-1",
@@ -7129,7 +7400,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.801",
+			"lastUpdated": "2021-01-20T19:08:54.448",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Redistributed vaccination cards",
 			"numerator": "-1",
@@ -7168,7 +7439,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.764",
+			"lastUpdated": "2021-01-20T19:08:54.430",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Closing balance cold boxes",
 			"numerator": "-1",
@@ -7207,13 +7478,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.000",
+			"lastUpdated": "2021-01-20T19:08:54.460",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Discarded safety box",
+			"name": "[CONFIG] COVAX - Discarded safety boxes",
 			"numerator": "-1",
 			"numeratorDescription": "Discarded safety boxes",
 			"publicAccess": "r-------",
-			"shortName": "Discarded safety box",
+			"shortName": "Discarded safety boxes",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7237,22 +7508,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_VACCINE2_DOSES",
+			"code": "CVX_STOCK_ON_HAND_VACCINE2_DOSES",
 			"created": "2021-01-20T19:08:54.453",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "zcN15JQUWc7",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.768",
+			"lastUpdated": "2021-01-20T19:08:54.453",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Stock on hand - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand - Vaccine2 doses",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand - Vaccine 2 (doses)",
+			"shortName": "Stock on hand - Vaccine2 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7276,22 +7547,22 @@
 		{
 			"annualized": false,
 			"attributeValues": [],
-			"code": "CVX_STOCK_AT_HAND_SYRINGES_WITH_ NEEDLE_1ML",
+			"code": "CVX_STOCK_ON_HAND_SYRINGES_WITH_ NEEDLE_1ML",
 			"created": "2021-01-20T19:08:54.452",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Stock on-hand at the center after a physical stock count",
+			"description": "Stock on-hand at the center after a physical stock count ",
 			"id": "zdTKcWr73Sk",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.692",
+			"lastUpdated": "2021-01-20T19:08:54.452",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Stock at hand syringes with needle 1ml",
+			"name": "[CONFIG] COVAX - Stock on hand syringes with needle 1ml",
 			"numerator": "-1",
 			"numeratorDescription": "Stock on hand syringes with needle 1ml",
 			"publicAccess": "r-------",
-			"shortName": "Stock at hand syringes with needle 1ml",
+			"shortName": "Stock on hand syringes with needle 1ml",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7324,13 +7595,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.215",
+			"lastUpdated": "2021-01-20T19:08:54.434",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Closing balance - Vaccine 2 (doses)",
+			"name": "[CONFIG] COVAX - Closing balance - Vaccine2 doses",
 			"numerator": "-1",
 			"numeratorDescription": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"publicAccess": "r-------",
-			"shortName": "Closing balance - Vaccine 2 (doses)",
+			"shortName": "Closing balance - Vaccine2 doses",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7363,13 +7634,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.902",
+			"lastUpdated": "2021-01-20T19:08:54.438",
 			"legendSets": [],
-			"name": "[CONFIG] COVAX - Doses per vial - Vaccine 1",
+			"name": "[CONFIG] COVAX - Doses in a vial - Vaccine1",
 			"numerator": "-1",
 			"numeratorDescription": "Doses in a vial - Vaccine1",
 			"publicAccess": "r-------",
-			"shortName": "Doses per vial - Vaccine 1",
+			"shortName": "Doses in a vial - Vaccine1",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7402,7 +7673,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.584",
+			"lastUpdated": "2021-01-20T19:08:54.442",
 			"legendSets": [],
 			"name": "[CONFIG] COVAX - Opening balance vials",
 			"numerator": "-1",
@@ -7436,19 +7707,14 @@
 			"created": "2015-03-23T01:41:28.852",
 			"factor": 100,
 			"id": "hmSnCXmLYwt",
-			"lastUpdated": "2021-01-28T14:55:36.963",
+			"lastUpdated": "2021-01-18T10:17:10.465",
 			"name": "Percentage",
 			"number": false,
 			"translations": [
 				{
-					"locale": "uz",
+					"locale": "fr",
 					"property": "NAME",
-					"value": "Фоиз"
-				},
-				{
-					"locale": "uz_UZ",
-					"property": "NAME",
-					"value": "Foiz"
+					"value": "Pourcentage"
 				}
 			]
 		},
@@ -7457,14 +7723,14 @@
 			"created": "2015-03-23T01:42:43.716",
 			"factor": 1,
 			"id": "kHy61PbChXr",
-			"lastUpdated": "2021-01-28T14:55:37.152",
+			"lastUpdated": "2021-01-18T10:17:10.465",
 			"name": "Numerator only (number)",
 			"number": true,
 			"translations": [
 				{
-					"locale": "uz",
+					"locale": "fr",
 					"property": "NAME",
-					"value": "Фақат рақамловчи (рақам)"
+					"value": "Numérateur seulement"
 				}
 			]
 		}
@@ -7715,10 +7981,184 @@
 			"lastUpdated": "2021-01-21T06:55:19.208",
 			"mapViews": [
 				{
-					"id": "Hmk1t2v2R13"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-21T06:55:19.205",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "Hmk1t2v2R13",
+					"displayName": "Hmk1t2v2R13",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "Hmk1t2v2R13",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-01-21T06:55:19.205",
+					"layer": "boundary",
+					"name": "Hmk1t2v2R13",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "JGfnwD477bq"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-21T06:55:19.205",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "SBiW9NeXZeE"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVAX - Drop out rates among all people targeted",
+					"displayName": "COVAX - Drop out rates among all people targeted",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "JGfnwD477bq",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-01-21T06:55:19.205",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "sgVvVgTmcaF"
+					},
+					"method": 1,
+					"name": "COVAX - Drop out rates among all people targeted",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVAX - Dropout  rate at sub national level - this year",
@@ -7753,10 +8193,184 @@
 			"lastUpdated": "2021-01-21T06:54:37.303",
 			"mapViews": [
 				{
-					"id": "qniJvnI5EXg"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-21T06:54:37.300",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "qniJvnI5EXg",
+					"displayName": "qniJvnI5EXg",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "qniJvnI5EXg",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-01-21T06:54:37.300",
+					"layer": "boundary",
+					"name": "qniJvnI5EXg",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "UMDNhfpXqmC"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-21T06:54:37.300",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "U7Xq3jiK8Fy"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVAX - Proportion of target people given 1st dose",
+					"displayName": "COVAX - Proportion of target people given 1st dose",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "UMDNhfpXqmC",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-01-21T06:54:37.300",
+					"layer": "thematic",
+					"legendSet": {
+						"id": "E23Wd32t961"
+					},
+					"method": 1,
+					"name": "COVAX - Proportion of target people given 1st dose",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVAX - % of targeted people given 1st dose given by sub national level - this year",
@@ -7783,209 +8397,7 @@
 			]
 		}
 	],
-	"mapViews": [
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-01-21T06:55:19.205",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "Hmk1t2v2R13",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-21T06:55:19.205",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-01-21T06:55:19.205",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "SBiW9NeXZeE"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "JGfnwD477bq",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-21T06:55:19.205",
-			"layer": "thematic",
-			"legendSet": {
-				"id": "sgVvVgTmcaF"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-01-21T06:54:37.300",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "U7Xq3jiK8Fy"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "UMDNhfpXqmC",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-21T06:54:37.300",
-			"layer": "thematic",
-			"legendSet": {
-				"id": "E23Wd32t961"
-			},
-			"method": 1,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-01-21T06:54:37.300",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "qniJvnI5EXg",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-21T06:54:37.300",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		}
-	],
-	"package": "COVAX_AGG_DASHBOARD_V1.0_DHIS2.30_2021-01-28T18:52",
+	"package": "COVAX_AGG_DASHBOARD_V1.0_DHIS2.33_2021-01-28T18:52",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -8012,10 +8424,10 @@
 			"colTotals": true,
 			"columnDimensions": [
 				"pe",
-				"dx"
+				"dX05HKf9jgk"
 			],
 			"completedOnly": false,
-			"created": "2021-01-27T13:18:05.996",
+			"created": "2021-01-19T16:32:14.377",
 			"cumulative": false,
 			"dataDimensionItems": [
 				{
@@ -8058,7 +8470,7 @@
 			"hideTitle": false,
 			"id": "q24wzRQtygl",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-27T13:18:05.996",
+			"lastUpdated": "2021-01-19T16:32:14.377",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "COVAX - Vials received, administered, redistributed and discarded - this year",
@@ -8117,10 +8529,10 @@
 				"paramReportingPeriod": false
 			},
 			"rowDimensions": [
-				"dX05HKf9jgk"
+				"dx"
 			],
 			"rowSubTotals": false,
-			"rowTotals": false,
+			"rowTotals": true,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
 			"skipRounding": false,

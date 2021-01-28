@@ -1,383 +1,149 @@
 {
     "export": [
-      {
-        "_basePath": "./COVAX_AGG/",
-        "_code": "COVAX_AGG",
-        "_name": "COVAX_AGG dashboard",
-        "_prefix": "[CONFIG]",
-        "_ownership": {
-          "modeOwner": "OVERWRITE",
-          "modeLastUpdated": "REMOVE",
-          "ownerId": "KB1ivLZXMv8"
-        },
-        "_sharing": {
-          "groupMode": "OVERWRITE",
-          "groups": [
-            {
-              "id": "OeiDCnG3Pv2",
-              "metadata": "VIEW",
-              "data": "VIEW"
+        {
+            "_basePath": "./COVAX_AGG/",
+            "_code": "COVAX_AGG",
+            "_name": "COVAX_AGG dashboard",
+            "_prefix": "[CONFIG]",
+            "_ownership": {
+                "modeOwner": "OVERWRITE",
+                "modeLastUpdated": "REMOVE",
+                "ownerId": "KB1ivLZXMv8"
             },
-            {
-              "id": "e2QMDWpq88P",
-              "metadata": "EDIT",
-              "data": "VIEW"
+            "_sharing": {
+                "groupMode": "OVERWRITE",
+                "groups": [
+                    {
+                        "id": "e2QMDWpq88P",
+                        "metadata": "EDIT",
+                        "data": "EDIT"
+                    },
+                    {
+                        "id": "I9x6Bd4MwXc",
+                        "metadata": "VIEW",
+                        "data": "EDIT"
+                    },
+                    {
+                        "id": "OeiDCnG3Pv2",
+                        "metadata": "VIEW",
+                        "data": "VIEW"
+                    }
+                ],
+                "groupExport": true,
+                "userMode": "REMOVE",
+                "users": [],
+                "userExport": false,
+                "publicAccess": {
+                    "metadata": "VIEW",
+                    "data": "VIEW"
+                }
             },
-            {
-              "id": "e2QMDWpq88P",
-              "metadata": "VIEW",
-              "data": "EDIT"
-            }
-          ],
-          "groupExport": true,
-          "userMode": "REMOVE",
-          "users": [],
-          "userExport": false,
-          "publicAccess": {
-            "metadata": "VIEW",
-            "data": "VIEW"
-          }
-        },
-        "_type": "dashboardAggregate",
-        "_url": [
-          "https://who-dev.dhis2.org/covax_agg"
-        ],
-        "_version": "1.0",
-        "customObjects": [
-          {
-            "objectIds": [
-              "n5u7G8DQYNJ",
-              "cdLF5DVO45T",
-              "yuEFomZq3Fh",
-              "yJ9izFBk1bB",
-              "kx79vq5XdQd",
-              "fySBzigjUbH",
-              "hJKdezT5GcK",
-              "orUc26gd0BF",
-              "ZEXvmTSnv8c",
-              "N4iXbeP3T5O",
-              "YBLUIQSCFPJ",
-              "vBBejr9Qm9y",
-              "uhZxrsrhZuy",
-              "QkFx0Jr0EST",
-              "z0zjaGkserE",
-              "V735nRG647O",
-              "yB3Vf9Quskj",
-              "i0dG1vChnP6",
-              "FE4mbnWq0rv",
-              "t4hpTf9Jo4a",
-              "lGv5kC9pLPI",
-              "UsMLXbWhhEj",
-              "w42k9kZegoW",
-              "bmUnh1j8eUE",
-              "V8XFjC7JHtx",
-              "X2XYc8WNUY3",
-              "MRUsCIsRdps",
-              "XxmA3VOxZdM",
-              "lXV4Lk0aah6",
-              "O9HPe4hooiB",
-              "zqTS3RiSL3o",
-              "RkC5nQeFp1f",
-              "Kkbt3LgbCbD",
-              "SBiW9NeXZeE",
-              "c4p6bfoOh0B",
-              "btAPoZyKLSW",
-              "sCEtYxBxsIc",
-              "NtkYtrGGzGV",
-              "gZEoyKpx4hE",
-              "pqED8vVfjlf",
-              "OxPqWqw6hL6",
-              "BgtZgNWFVfb",
-              "vBJQTfzca4x",
-              "LgvcCkQIQ44",
-              "AfDDi4x9jOt",
-              "ujhVVQlwTB0",
-              "A8UE5oyhOMl",
-              "RneeVTogdGr",
-              "g2voTi7ZCxe",
-              "BbcV04tNF2n",
-              "H6nsnH2w9A9",
-              "zTMJ8UYjlCU",
-              "b3znXSaQjkD",
-              "QH43B8PD9V5",
-              "qjnUyy7KWYf",
-              "AvwcVy7Yfv4",
-              "YClBh4hwpk7",
-              "U7Xq3jiK8Fy",
-              "u56y5tRtmXY",
-              "rms4sR9JeYV",
-              "qgyGe1hrTU8",
-              "jayuvPfIQBz",
-              "wcMsZNh0GO0",
-              "N4O2KBFP7Ze",
-              "J4UW8FgK4vq",
-              "sDWeBvf4rrQ",
-              "KLFHy7LdaEp",
-              "nO5aJYGv9qb",
-              "TiylZPMlukw",
-              "Q5CvJIeZAeh",
-              "qM3QXxyUS64",
-              "q2NHWRFKJIJ",
-              "ymno3YCIqbh",
-              "cSnIflt4J3h",
-              "QZritWA9epc",
-              "tiFvalDGy3M",
-              "fQAVcB4dAQp",
-              "jFlfqS1M9Hj",
-              "ByzkeCHudEH",
-              "ffjCEkN7xC2",
-              "UjzjMQpG41z",
-              "B7vM2EWHmrP",
-              "zdTKcWr73Sk",
-              "G9jRzY6zmJg",
-              "o2sAk0ai7X9",
-              "zcN15JQUWc7",
-              "CydbboFk0yH",
-              "VFdnTyYvS5c",
-              "vn6JSZdN0Gq",
-              "ILLy5jdUwwE",
-              "EMDTyzi8eMD",
-              "f1W0R9vbMEn",
-              "eA3THL80DDH",
-              "WMjFkieChKj",
-              "ANmlPnVtTTa",
-              "wassnxEhpwM",
-              "iC5xj6Dqa0P",
-              "oB4qA3ZKs89",
-              "ktUQ6Yk8Ztv",
-              "mQYStz4mXT5",
-              "q7a0Mh2fRC1",
-              "AXQfVQKvZJu",
-              "TJqiY5fLP8C",
-              "wpfKN5vD3QG",
-              "h3NchPC73cV",
-              "Iv3tfc8gso7",
-              "y7uIwU6x8VS",
-              "j550fnnj9QU",
-              "OkkYt2JpIZ8",
-              "cEUzKKCa7fv",
-              "SvxFYXEwEwh",
-              "Yb759ffWrrD",
-              "k9kIyVQEc0o"
+            "_type": "dashboardAggregate",
+            "_url": [
+                "https://who-dev.dhis2.org/covax_agg",
+                "https://who.sandbox.dhis2.org/covax_agg_233"
             ],
-            "objectType": "indicators"
-          },
-          {
-            "objectIds": [
-              "fyC1NhjpBH5",
-              "GhXdnHkmph9",
-              "zp3l4iQWPLh"
+            "_version": "1.0",
+            "customObjects": [
+                {
+                    "objectIds": [
+                        "fyC1NhjpBH5",
+                        "GhXdnHkmph9",
+                        "zp3l4iQWPLh"
+                    ],
+                    "objectType": "constants"
+                }
             ],
-            "objectType": "constants"
-          }
-        ],
-        "dashboardIds": [
-          "fya0FUpbxX9"
-        ],
-        "indicatorGroupIds": [
-          "SKgp2iI0dJp"
-        ],
-        "exportIndicatorGroupsIds": [
-          "SKgp2iI0dJp"
-        ]
-      },
-      {
-        "_basePath": "./COVAX_AGG/",
-        "_code": "COVAX_AGG",
-        "_name": "COVAX_AGG complete",
-        "_prefix": "[CONFIG]",
-        "_ownership": {
-          "modeOwner": "OVERWRITE",
-          "modeLastUpdated": "REMOVE",
-          "ownerId": "KB1ivLZXMv8"
+            "dashboardIds": [
+                "fya0FUpbxX9"
+            ],
+            "indicatorGroupIds": [
+                "SKgp2iI0dJp"
+            ],
+            "exportIndicatorGroupsIds": [
+                "SKgp2iI0dJp"
+            ]
         },
-        "_sharing": {
-          "groupMode": "OVERWRITE",
-          "groups": [
-            {
-              "id": "OeiDCnG3Pv2",
-              "metadata": "VIEW",
-              "data": "VIEW"
+        {
+            "_basePath": "./COVAX_AGG/",
+            "_code": "COVAX_AGG",
+            "_name": "COVAX_AGG complete",
+            "_prefix": "[CONFIG]",
+            "_ownership": {
+                "modeOwner": "OVERWRITE",
+                "modeLastUpdated": "REMOVE",
+                "ownerId": "KB1ivLZXMv8"
             },
-            {
-              "id": "e2QMDWpq88P",
-              "metadata": "EDIT",
-              "data": "VIEW"
+            "_sharing": {
+                "groupMode": "OVERWRITE",
+                "groups": [
+                    {
+                        "id": "e2QMDWpq88P",
+                        "metadata": "EDIT",
+                        "data": "EDIT"
+                    },
+                    {
+                        "id": "I9x6Bd4MwXc",
+                        "metadata": "VIEW",
+                        "data": "EDIT"
+                    },
+                    {
+                        "id": "OeiDCnG3Pv2",
+                        "metadata": "VIEW",
+                        "data": "VIEW"
+                    }
+                ],
+                "groupExport": true,
+                "userMode": "REMOVE",
+                "users": [],
+                "userExport": false,
+                "publicAccess": {
+                    "metadata": "VIEW",
+                    "data": "VIEW"
+                }
             },
-            {
-              "id": "e2QMDWpq88P",
-              "metadata": "VIEW",
-              "data": "EDIT"
-            }
-          ],
-          "groupExport": true,
-          "userMode": "REMOVE",
-          "users": [],
-          "userExport": false,
-          "publicAccess": {
-            "metadata": "VIEW",
-            "data": "VIEW"
-          }
-        },
-        "_type": "completeAggregate",
-        "_url": [
-          "https://who-dev.dhis2.org/covax_agg"
-        ],
-        "_version": "1.0",
-        "customObjects": [
-          {
-            "objectIds": [
-              "n5u7G8DQYNJ",
-              "cdLF5DVO45T",
-              "yuEFomZq3Fh",
-              "yJ9izFBk1bB",
-              "kx79vq5XdQd",
-              "fySBzigjUbH",
-              "hJKdezT5GcK",
-              "orUc26gd0BF",
-              "ZEXvmTSnv8c",
-              "N4iXbeP3T5O",
-              "YBLUIQSCFPJ",
-              "vBBejr9Qm9y",
-              "uhZxrsrhZuy",
-              "QkFx0Jr0EST",
-              "z0zjaGkserE",
-              "V735nRG647O",
-              "yB3Vf9Quskj",
-              "i0dG1vChnP6",
-              "FE4mbnWq0rv",
-              "t4hpTf9Jo4a",
-              "lGv5kC9pLPI",
-              "UsMLXbWhhEj",
-              "w42k9kZegoW",
-              "bmUnh1j8eUE",
-              "V8XFjC7JHtx",
-              "X2XYc8WNUY3",
-              "MRUsCIsRdps",
-              "XxmA3VOxZdM",
-              "lXV4Lk0aah6",
-              "O9HPe4hooiB",
-              "zqTS3RiSL3o",
-              "RkC5nQeFp1f",
-              "Kkbt3LgbCbD",
-              "SBiW9NeXZeE",
-              "c4p6bfoOh0B",
-              "btAPoZyKLSW",
-              "sCEtYxBxsIc",
-              "NtkYtrGGzGV",
-              "gZEoyKpx4hE",
-              "pqED8vVfjlf",
-              "OxPqWqw6hL6",
-              "BgtZgNWFVfb",
-              "vBJQTfzca4x",
-              "LgvcCkQIQ44",
-              "AfDDi4x9jOt",
-              "ujhVVQlwTB0",
-              "A8UE5oyhOMl",
-              "RneeVTogdGr",
-              "g2voTi7ZCxe",
-              "BbcV04tNF2n",
-              "H6nsnH2w9A9",
-              "zTMJ8UYjlCU",
-              "b3znXSaQjkD",
-              "QH43B8PD9V5",
-              "qjnUyy7KWYf",
-              "AvwcVy7Yfv4",
-              "YClBh4hwpk7",
-              "U7Xq3jiK8Fy",
-              "u56y5tRtmXY",
-              "rms4sR9JeYV",
-              "qgyGe1hrTU8",
-              "jayuvPfIQBz",
-              "wcMsZNh0GO0",
-              "N4O2KBFP7Ze",
-              "J4UW8FgK4vq",
-              "sDWeBvf4rrQ",
-              "KLFHy7LdaEp",
-              "nO5aJYGv9qb",
-              "TiylZPMlukw",
-              "Q5CvJIeZAeh",
-              "qM3QXxyUS64",
-              "q2NHWRFKJIJ",
-              "ymno3YCIqbh",
-              "cSnIflt4J3h",
-              "QZritWA9epc",
-              "tiFvalDGy3M",
-              "fQAVcB4dAQp",
-              "jFlfqS1M9Hj",
-              "ByzkeCHudEH",
-              "ffjCEkN7xC2",
-              "UjzjMQpG41z",
-              "B7vM2EWHmrP",
-              "zdTKcWr73Sk",
-              "G9jRzY6zmJg",
-              "o2sAk0ai7X9",
-              "zcN15JQUWc7",
-              "CydbboFk0yH",
-              "VFdnTyYvS5c",
-              "vn6JSZdN0Gq",
-              "ILLy5jdUwwE",
-              "EMDTyzi8eMD",
-              "f1W0R9vbMEn",
-              "eA3THL80DDH",
-              "WMjFkieChKj",
-              "ANmlPnVtTTa",
-              "wassnxEhpwM",
-              "iC5xj6Dqa0P",
-              "oB4qA3ZKs89",
-              "ktUQ6Yk8Ztv",
-              "mQYStz4mXT5",
-              "q7a0Mh2fRC1",
-              "AXQfVQKvZJu",
-              "TJqiY5fLP8C",
-              "wpfKN5vD3QG",
-              "h3NchPC73cV",
-              "Iv3tfc8gso7",
-              "y7uIwU6x8VS",
-              "j550fnnj9QU",
-              "OkkYt2JpIZ8",
-              "cEUzKKCa7fv",
-              "SvxFYXEwEwh",
-              "Yb759ffWrrD",
-              "k9kIyVQEc0o"
+            "_type": "completeAggregate",
+            "_url": [
+                "https://who-dev.dhis2.org/covax_agg",
+                "https://who.sandbox.dhis2.org/covax_agg_233"
             ],
-            "objectType": "indicators"
-          },
-          {
-            "objectIds": [
-              "fyC1NhjpBH5",
-              "GhXdnHkmph9",
-              "zp3l4iQWPLh"
+            "_version": "1.0",
+            "customObjects": [
+                {
+                    "objectIds": [
+                        "fyC1NhjpBH5",
+                        "GhXdnHkmph9",
+                        "zp3l4iQWPLh"
+                    ],
+                    "objectType": "constants"
+                }
             ],
-            "objectType": "constants"
-          }
-        ],
-        "dashboardIds": [
-          "fya0FUpbxX9"
-        ],
-        "dataElementGroupIds": [
-          "Y1xqAUPAs7A"
-        ],
-        "dataSetIds": [
-          "QRyardfjc76",
-          "JYPhXEzBU2r",
-          "Le8SvNemLGm"
-        ],
-        "exportDataSetIds": [
-          "QRyardfjc76",
-          "JYPhXEzBU2r",
-          "Le8SvNemLGm"
-        ],
-        "validationRuleGroupIds": [
-          "OBpdFqWkQMK"
-        ],
-        "predictorGroupIds": [],
-        "indicatorGroupIds": [
-          "SKgp2iI0dJp"
-        ],
-        "exportIndicatorGroupsIds": [
-          "SKgp2iI0dJp"
-        ]
-      }
+            "dashboardIds": [
+                "fya0FUpbxX9"
+            ],
+            "dataElementGroupIds": [
+                "Y1xqAUPAs7A"
+            ],
+            "dataSetIds": [
+                "QRyardfjc76",
+                "JYPhXEzBU2r",
+                "Le8SvNemLGm"
+            ],
+            "exportDataSetIds": [
+                "QRyardfjc76",
+                "JYPhXEzBU2r",
+                "Le8SvNemLGm"
+            ],
+            "validationRuleGroupIds": [
+                "OBpdFqWkQMK"
+            ],
+            "predictorGroupIds": [],
+            "indicatorGroupIds": [
+                "SKgp2iI0dJp"
+            ],
+            "exportIndicatorGroupsIds": [
+                "SKgp2iI0dJp"
+            ]
+        }
     ]
-  }
+}
