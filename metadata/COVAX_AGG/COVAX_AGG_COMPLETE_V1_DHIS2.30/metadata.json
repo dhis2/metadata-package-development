@@ -1774,10 +1774,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "X4WuLNVuC6H"
+					"id": "MP15bHaQh2x"
 				},
 				{
-					"id": "MP15bHaQh2x"
+					"id": "X4WuLNVuC6H"
 				}
 			],
 			"created": "2021-01-16T18:19:36.711",
@@ -5791,15 +5791,15 @@
 				"id": "P9CXpIYGFBR"
 			},
 			"code": "CVX_DOSES_DISCARDED_BY_REASONS",
-			"created": "2021-01-20T19:06:39.878",
+			"created": "2021-01-29T10:48:40.621",
 			"domainType": "AGGREGATE",
 			"formName": "Doses discarded by reasons",
 			"id": "aGlvT5OwKRZ",
-			"lastUpdated": "2021-01-20T19:40:45.169",
+			"lastUpdated": "2021-01-29T10:48:40.621",
 			"legendSets": [],
-			"name": "COVAX - Doses discarded by reasons",
+			"name": "COVAX - Doses discarded by reason",
 			"publicAccess": "r-------",
-			"shortName": "Doses discarded by reasons",
+			"shortName": "Doses discarded by reason",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5829,17 +5829,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STAFF_AVAILABLE_AT_CENTRE_TODAY",
-			"created": "2021-01-20T19:06:39.874",
-			"description": "Total vaccination staff avialable today",
+			"code": "CVX_STAFF_AVAILABLE_AT_POC",
+			"created": "2021-01-29T10:48:40.625",
+			"description": "Total vaccination staff avialable during the reporting period",
 			"domainType": "AGGREGATE",
 			"formName": "Staff available at centre today",
 			"id": "AxmVroGCQZO",
-			"lastUpdated": "2021-01-20T19:06:39.874",
+			"lastUpdated": "2021-01-29T10:48:40.625",
 			"legendSets": [],
-			"name": "COVAX - Staff available at centre today",
+			"name": "COVAX - Staff available at PoC",
 			"publicAccess": "r-------",
-			"shortName": "Staff available at centre today",
+			"shortName": "Staff available at PoC",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5870,16 +5870,16 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_PEOPLE_WITH_UNDERLYING_CONDITIONS_1ST_DOSE",
-			"created": "2021-01-20T19:06:39.871",
-			"description": "Total people with underlying medical conditions vaccinated with COVID-19 vaccine",
+			"created": "2021-01-29T10:48:40.624",
+			"description": "People with underlying medical conditions vaccinated with the first dose",
 			"domainType": "AGGREGATE",
 			"formName": "People with existing medical conditions given 1st dose",
 			"id": "BaqWaD6pnbY",
-			"lastUpdated": "2021-01-20T19:06:39.871",
+			"lastUpdated": "2021-01-29T10:48:40.624",
 			"legendSets": [],
-			"name": "COVAX - People with at least one underlying medical conditions given 1st dose",
+			"name": "COVAX - 1st dose given to people with at least one underlying medical conditions",
 			"publicAccess": "r-------",
-			"shortName": "People with underlying conditions given 1st dose",
+			"shortName": "1st dose - People with underlying conditions",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -5910,11 +5910,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_RECEIVED_CARDS",
-			"created": "2021-01-20T19:06:39.872",
+			"created": "2021-01-29T10:48:40.630",
 			"domainType": "AGGREGATE",
 			"formName": "Received vaccination cards",
 			"id": "BeHrxrKVlAB",
-			"lastUpdated": "2021-01-20T19:06:39.872",
+			"lastUpdated": "2021-01-29T10:48:40.630",
 			"legendSets": [],
 			"name": "COVAX - Received vaccination cards",
 			"publicAccess": "r-------",
@@ -5949,12 +5949,12 @@
 				"id": "ejUQIUINJ58"
 			},
 			"code": "CVX_TARGET_POPULATION",
-			"created": "2021-01-20T19:06:39.878",
+			"created": "2021-01-29T10:48:40.619",
 			"description": "COVID-19 vaccination target population",
 			"domainType": "AGGREGATE",
 			"formName": "Target population",
 			"id": "BHgqoiEc7mS",
-			"lastUpdated": "2021-01-20T19:06:39.878",
+			"lastUpdated": "2021-01-29T10:48:40.619",
 			"legendSets": [],
 			"name": "COVAX - Target population",
 			"publicAccess": "r-------",
@@ -5989,11 +5989,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_DISCARDED_CARDS",
-			"created": "2021-01-20T19:06:39.865",
+			"created": "2021-01-29T10:48:40.626",
 			"domainType": "AGGREGATE",
 			"formName": "Discarded vaccination cards",
 			"id": "c1NTgV45W8M",
-			"lastUpdated": "2021-01-20T19:06:39.865",
+			"lastUpdated": "2021-01-29T10:48:40.626",
 			"legendSets": [],
 			"name": "COVAX - Discarded vaccination cards",
 			"publicAccess": "r-------",
@@ -6028,12 +6028,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_DISTRIBUTED_VIALS",
-			"created": "2021-01-20T19:06:39.868",
-			"description": "COVID-19 vaccine doses opening balances",
+			"created": "2021-01-29T10:48:40.628",
+			"description": "COVID-19 vaccine vials opening balances",
 			"domainType": "AGGREGATE",
 			"formName": "Distributed vials",
 			"id": "CoCPy5cKxx8",
-			"lastUpdated": "2021-01-20T19:06:39.868",
+			"lastUpdated": "2021-01-29T10:48:40.628",
 			"legendSets": [],
 			"name": "COVAX - Distributed vials",
 			"publicAccess": "r-------",
@@ -6068,12 +6068,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_OPENING_BALANCE_VIALS",
-			"created": "2021-01-20T19:06:39.871",
+			"created": "2021-01-29T10:48:40.629",
 			"description": "Total doses in a vial",
 			"domainType": "AGGREGATE",
 			"formName": "Opening balance vials",
 			"id": "DcW8k9WFCoN",
-			"lastUpdated": "2021-01-20T19:06:39.871",
+			"lastUpdated": "2021-01-29T10:48:40.629",
 			"legendSets": [],
 			"name": "COVAX - Opening balance vials",
 			"publicAccess": "r-------",
@@ -6107,16 +6107,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_OPENING_BALANCE_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.870",
+			"code": "CVX_OPENING_BALANCE_COLD_BOX",
+			"created": "2021-01-29T10:48:40.628",
 			"domainType": "AGGREGATE",
 			"formName": "Opening balance cold boxes",
 			"id": "e1YlvfQPdTe",
-			"lastUpdated": "2021-01-20T19:06:39.870",
+			"lastUpdated": "2021-01-29T10:48:40.628",
 			"legendSets": [],
-			"name": "COVAX - Opening balance cold boxes",
+			"name": "COVAX - Opening balance cold box",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance cold boxes",
+			"shortName": "Opening balance cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6147,12 +6147,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_RECEIVED_VIALS",
-			"created": "2021-01-20T19:06:39.873",
+			"created": "2021-01-29T10:48:40.630",
 			"description": "Scheduled COVID-19 vaccination doses",
 			"domainType": "AGGREGATE",
 			"formName": "Received vials",
 			"id": "ep7EfKNsX3s",
-			"lastUpdated": "2021-01-20T19:06:39.873",
+			"lastUpdated": "2021-01-29T10:48:40.630",
 			"legendSets": [],
 			"name": "COVAX - Received vials",
 			"publicAccess": "r-------",
@@ -6187,11 +6187,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_REDISTRIBUTED_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.873",
+			"created": "2021-01-29T10:48:40.631",
 			"domainType": "AGGREGATE",
 			"formName": "Redistributed syringes with needle 1ml",
 			"id": "eTsKBlD7fsX",
-			"lastUpdated": "2021-01-20T19:12:53.822",
+			"lastUpdated": "2021-01-29T10:48:40.631",
 			"legendSets": [],
 			"name": "COVAX - Redistributed syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -6226,16 +6226,16 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_FRONTLINE_HCW_1ST_DOSE",
-			"created": "2021-01-20T19:06:39.869",
-			"description": "Total Healthcare workers vaccinated with COVID-19 vaccine",
+			"created": "2021-01-29T10:48:40.623",
+			"description": "Health Care Workers vaccinated with the first dose",
 			"domainType": "AGGREGATE",
 			"formName": "Frontline healthcare workers given 1st dose",
 			"id": "FCtGm0HJryo",
-			"lastUpdated": "2021-01-20T19:06:39.869",
+			"lastUpdated": "2021-01-29T10:48:40.623",
 			"legendSets": [],
-			"name": "COVAX - Frontline healthcare workers given 1st dose",
+			"name": "COVAX - 1st dose given to HCWs",
 			"publicAccess": "r-------",
-			"shortName": "Frontline healthcare workers given 1st dose",
+			"shortName": "1st dose - HCWs",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6265,17 +6265,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STAFF_EXPECTED_AT_CENTRE_TODAY",
-			"created": "2021-01-20T19:06:39.874",
-			"description": "Total vaccination staff expected at vaccination centre",
+			"code": "CVX_STAFF_EXPECTED_AT_PoC",
+			"created": "2021-01-29T10:48:40.625",
+			"description": "Total vaccination staff expected at vaccination pont of care during the reporting period",
 			"domainType": "AGGREGATE",
 			"formName": "Staff expected at centre today",
 			"id": "FHvsTsdaer9",
-			"lastUpdated": "2021-01-20T19:06:39.874",
+			"lastUpdated": "2021-01-29T10:48:40.625",
 			"legendSets": [],
-			"name": "COVAX - Staff expected at centre today",
+			"name": "COVAX - Staff expected at PoC",
 			"publicAccess": "r-------",
-			"shortName": "Staff expected at centre today",
+			"shortName": "Staff expected at PoC",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6305,17 +6305,17 @@
 			"categoryCombo": {
 				"id": "dn78y6mGmML"
 			},
-			"code": "CVX_PEOPLE_LAST_DOSE",
-			"created": "2021-01-21T10:42:02.622",
-			"description": "Total people given last dose",
+			"code": "CVX_PEOPLE_BOOSTER_DOSE",
+			"created": "2021-01-29T10:48:40.624",
+			"description": "People receiving the booster dose of COVID-19 vaccine",
 			"domainType": "AGGREGATE",
 			"formName": "People given last dose",
 			"id": "fJzBX7mW5A9",
-			"lastUpdated": "2021-01-21T10:42:02.622",
+			"lastUpdated": "2021-01-29T10:48:40.624",
 			"legendSets": [],
-			"name": "COVAX - People given last dose",
+			"name": "COVAX - Booster given",
 			"publicAccess": "r-------",
-			"shortName": "People given last dose",
+			"shortName": "Booster dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6346,11 +6346,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_DISCARDED_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.864",
+			"created": "2021-01-29T10:48:40.626",
 			"domainType": "AGGREGATE",
 			"formName": "Discarded syringes with needle 1ml",
 			"id": "fkvWMbUYYvR",
-			"lastUpdated": "2021-01-20T19:11:44.077",
+			"lastUpdated": "2021-01-29T10:48:40.626",
 			"legendSets": [],
 			"name": "COVAX - Discarded syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -6384,16 +6384,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_DISCARDED_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.863",
+			"code": "CVX_DISCARDED_COLD_BOX",
+			"created": "2021-01-29T10:48:40.626",
 			"domainType": "AGGREGATE",
 			"formName": "Discarded cold boxes",
 			"id": "gHjdt8paeZt",
-			"lastUpdated": "2021-01-20T19:06:39.863",
+			"lastUpdated": "2021-01-29T10:48:40.626",
 			"legendSets": [],
-			"name": "COVAX - Discarded cold boxes",
+			"name": "COVAX - Discarded cold box",
 			"publicAccess": "r-------",
-			"shortName": "Discarded cold boxes",
+			"shortName": "Discarded cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6423,16 +6423,17 @@
 			"categoryCombo": {
 				"id": "dn78y6mGmML"
 			},
-			"code": "CVX_PEOPLE_2PLUS_DOSE",
-			"created": "2021-01-20T19:06:39.871",
+			"code": "CVX_PEOPLE_2ND_DOSE",
+			"created": "2021-01-29T10:48:40.624",
+			"description": "People receiving the second dose of COVID-19 vaccine",
 			"domainType": "AGGREGATE",
 			"formName": "People given 2+ dose",
 			"id": "gOf1dLB3r8G",
-			"lastUpdated": "2021-01-21T10:38:30.178",
+			"lastUpdated": "2021-01-29T10:48:40.624",
 			"legendSets": [],
-			"name": "COVAX - People given 2+ dose",
+			"name": "COVAX - 2nd dose given",
 			"publicAccess": "r-------",
-			"shortName": "People given 2+ dose",
+			"shortName": "2nd dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6463,12 +6464,12 @@
 				"id": "EIc4YmuCrB0"
 			},
 			"code": "CVX_AEFIS_BY_VACCINE_AND_SEVERITY",
-			"created": "2021-01-20T19:06:39.861",
-			"description": "Total number of serious AEFIs reported",
+			"created": "2021-01-29T10:48:40.620",
+			"description": "Serious AEFIs reported",
 			"domainType": "AGGREGATE",
 			"formName": "AEFIs by vaccine and severity",
 			"id": "Gw8sB5U5JG3",
-			"lastUpdated": "2021-01-20T19:06:39.861",
+			"lastUpdated": "2021-01-29T10:48:40.620",
 			"legendSets": [],
 			"name": "COVAX - AEFIs by vaccine and severity",
 			"publicAccess": "r-------",
@@ -6503,11 +6504,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_OPENING_BALANCE_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.870",
+			"created": "2021-01-29T10:48:40.629",
 			"domainType": "AGGREGATE",
 			"formName": "Opening balance syringes with needle 1ml",
 			"id": "heMYpVBrakv",
-			"lastUpdated": "2021-01-20T19:12:08.267",
+			"lastUpdated": "2021-01-29T10:48:40.629",
 			"legendSets": [],
 			"name": "COVAX - Opening balance syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -6541,15 +6542,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_DISCARDED_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.878",
+			"code": "CVX_DISCARDED_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.626",
 			"domainType": "AGGREGATE",
 			"id": "HlicGU8jEZL",
-			"lastUpdated": "2021-01-20T19:06:39.878",
+			"lastUpdated": "2021-01-29T10:48:40.626",
 			"legendSets": [],
-			"name": "COVAX - Discarded safety boxes",
+			"name": "COVAX - Discarded safety box",
 			"publicAccess": "r-------",
-			"shortName": "Discarded safety boxes",
+			"shortName": "Discarded safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6579,17 +6580,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_PEOPLE_WITH_UNDERLYING_CONDITIONS_LAST_DOSE",
-			"created": "2021-01-21T10:42:55.020",
-			"description": "Total people with existing medical conditions given last dose",
+			"code": "CVX_PEOPLE_WITH_UNDERLYING_CONDITIONS_BOOSTER_DOSE",
+			"created": "2021-01-29T10:48:40.625",
+			"description": "People with underlying medical conditions vaccinated with the booster dose",
 			"domainType": "AGGREGATE",
 			"formName": "People with existing medical conditions given last dose",
 			"id": "HYYuIK1V5n8",
-			"lastUpdated": "2021-01-21T10:42:55.020",
+			"lastUpdated": "2021-01-29T10:48:40.625",
 			"legendSets": [],
-			"name": "COVAX - People with at least one underlying medical conditions given last dose",
+			"name": "COVAX - Booster dose given to people with at least one underlying medical conditions",
 			"publicAccess": "r-------",
-			"shortName": "People with underlying conditions given last dose",
+			"shortName": "Booster - People with underlying conditions",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6620,11 +6621,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_RECEIVED_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.872",
+			"created": "2021-01-29T10:48:40.630",
 			"domainType": "AGGREGATE",
 			"formName": "Received syringes with needle 1ml",
 			"id": "i5pakKBw4VC",
-			"lastUpdated": "2021-01-20T19:12:35.191",
+			"lastUpdated": "2021-01-29T10:48:40.630",
 			"legendSets": [],
 			"name": "COVAX - Received syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -6658,15 +6659,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_REDISTRIBUTED_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.879",
+			"code": "CVX_REDISTRIBUTED_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.630",
 			"domainType": "AGGREGATE",
 			"id": "IA1dFNpYlvJ",
-			"lastUpdated": "2021-01-20T19:06:39.879",
+			"lastUpdated": "2021-01-29T10:48:40.630",
 			"legendSets": [],
-			"name": "COVAX - Redistributed safety boxes",
+			"name": "COVAX - Redistributed safety box",
 			"publicAccess": "r-------",
-			"shortName": "Redistributed safety boxes",
+			"shortName": "Redistributed safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6697,11 +6698,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCK_ON_HAND_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.875",
+			"created": "2021-01-29T10:48:40.632",
 			"domainType": "AGGREGATE",
 			"formName": "Stock on hand syringes with needle 1ml",
 			"id": "jhutPejtr9l",
-			"lastUpdated": "2021-01-20T19:13:16.452",
+			"lastUpdated": "2021-01-29T10:48:40.632",
 			"legendSets": [],
 			"name": "COVAX - Stock on hand syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -6736,12 +6737,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_DISCARDED_CLOSED_VIALS",
-			"created": "2021-01-20T19:06:39.865",
+			"created": "2021-01-29T10:48:40.626",
 			"description": "Number of closed vials that have been discarded",
 			"domainType": "AGGREGATE",
 			"formName": "Discarded (closed vials)",
 			"id": "jpHKXTmXBog",
-			"lastUpdated": "2021-01-27T20:21:21.196",
+			"lastUpdated": "2021-01-29T10:48:40.626",
 			"legendSets": [],
 			"name": "COVAX - Discarded (closed vials)",
 			"publicAccess": "r-------",
@@ -6775,16 +6776,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STOCK_ON_HAND_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.874",
+			"code": "CVX_STOCK_ON_HAND_COLD_BOX",
+			"created": "2021-01-29T10:48:40.631",
 			"domainType": "AGGREGATE",
 			"formName": "Stock on hand cold boxes",
 			"id": "K1ykBWJNf5C",
-			"lastUpdated": "2021-01-20T19:06:39.874",
+			"lastUpdated": "2021-01-29T10:48:40.631",
 			"legendSets": [],
-			"name": "COVAX - Stock on hand cold boxes",
+			"name": "COVAX - Stock on hand cold box",
 			"publicAccess": "r-------",
-			"shortName": "Stock on hand cold boxes",
+			"shortName": "Stock on hand cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6814,17 +6815,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_ESSENTIAL_WORKERS_LAST_DOSE",
-			"created": "2021-01-21T10:40:37.202",
-			"description": "Total Essential workers given last dose",
+			"code": "CVX_ESSENTIAL_WORKERS_BOOSTER_DOSE",
+			"created": "2021-01-29T10:48:40.622",
+			"description": "Essential workers who received a booster",
 			"domainType": "AGGREGATE",
 			"formName": "Essential workers given last dose",
 			"id": "KhFJj4Qz57c",
-			"lastUpdated": "2021-01-21T10:40:37.202",
+			"lastUpdated": "2021-01-29T10:48:40.622",
 			"legendSets": [],
-			"name": "COVAX - Essential workers given last dose",
+			"name": "COVAX - Booster dose given to essential workers",
 			"publicAccess": "r-------",
-			"shortName": "Essential workers given last dose",
+			"shortName": "Booster - Essential workers",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6855,16 +6856,16 @@
 				"id": "dn78y6mGmML"
 			},
 			"code": "CVX_PEOPLE_1ST_DOSE",
-			"created": "2021-01-20T19:06:39.871",
-			"description": "Total people vaccinated with COVID-19 vaccine",
+			"created": "2021-01-29T10:48:40.624",
+			"description": "People receiving the first dose of COVID-19 vaccine",
 			"domainType": "AGGREGATE",
 			"formName": "People given 1st dose",
 			"id": "kif9K3XRSBh",
-			"lastUpdated": "2021-01-20T19:06:39.871",
+			"lastUpdated": "2021-01-29T10:48:40.624",
 			"legendSets": [],
-			"name": "COVAX - People given 1st dose",
+			"name": "COVAX - 1st dose given",
 			"publicAccess": "r-------",
-			"shortName": "People given 1st dose",
+			"shortName": "1st dose",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6894,15 +6895,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STOCK_ON_HAND_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.879",
+			"code": "CVX_STOCK_ON_HAND_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.632",
 			"domainType": "AGGREGATE",
 			"id": "kJnQ1vmDeDe",
-			"lastUpdated": "2021-01-20T19:06:39.879",
+			"lastUpdated": "2021-01-29T10:48:40.632",
 			"legendSets": [],
-			"name": "COVAX - Stock on hand safety boxes",
+			"name": "COVAX - Stock on hand safety box",
 			"publicAccess": "r-------",
-			"shortName": "Stock on hand safety boxes",
+			"shortName": "Stock on hand safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -6933,11 +6934,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCK_ON_HAND_CARDS",
-			"created": "2021-01-20T19:06:39.875",
+			"created": "2021-01-29T10:48:40.632",
 			"domainType": "AGGREGATE",
 			"formName": "Stock on hand vaccination cards",
 			"id": "KWInDqcM0sc",
-			"lastUpdated": "2021-01-20T19:06:39.875",
+			"lastUpdated": "2021-01-29T10:48:40.632",
 			"legendSets": [],
 			"name": "COVAX - Stock on hand vaccination cards",
 			"publicAccess": "r-------",
@@ -6971,15 +6972,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_DISTRIBUTED_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.878",
+			"code": "CVX_DISTRIBUTED_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.627",
 			"domainType": "AGGREGATE",
 			"id": "l2tQDaRuqEG",
-			"lastUpdated": "2021-01-20T19:06:39.878",
+			"lastUpdated": "2021-01-29T10:48:40.627",
 			"legendSets": [],
-			"name": "COVAX - Distributed safety boxes",
+			"name": "COVAX - Distributed safety box",
 			"publicAccess": "r-------",
-			"shortName": "Distributed safety boxes",
+			"shortName": "Distributed safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7009,16 +7010,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_PEOPLE_WITH_UNDERLYING_CONDITIONS_2PLUS_DOSE",
-			"created": "2021-01-20T19:06:39.872",
+			"code": "CVX_PEOPLE_WITH_UNDERLYING_CONDITIONS_2ND_DOSE",
+			"created": "2021-01-29T10:48:40.625",
+			"description": "People with underlying medical conditions vaccinated with the second dose",
 			"domainType": "AGGREGATE",
 			"formName": "People with existing medical conditions given 2+ dose",
 			"id": "leiFl8fMdd3",
-			"lastUpdated": "2021-01-21T10:39:03.370",
+			"lastUpdated": "2021-01-29T10:48:40.625",
 			"legendSets": [],
-			"name": "COVAX - People with at least one underlying medical conditions given 2+ dose",
+			"name": "COVAX - 2nd dose given to people with at least one underlying medical conditions",
 			"publicAccess": "r-------",
-			"shortName": "People with underlying conditions given 2+ dose",
+			"shortName": "2nd dose - People with underlying conditions",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7048,16 +7050,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_FRONTLINE_HCW_2PLUS_DOSE",
-			"created": "2021-01-20T19:06:39.870",
+			"code": "CVX_FRONTLINE_HCW_2ND_DOSE",
+			"created": "2021-01-29T10:48:40.623",
+			"description": "Health Care Workers who received the second dose",
 			"domainType": "AGGREGATE",
 			"formName": "Frontline healthcare workers given 2+ dose",
 			"id": "Ly6PaH1qIV3",
-			"lastUpdated": "2021-01-21T10:37:38.665",
+			"lastUpdated": "2021-01-29T10:48:40.623",
 			"legendSets": [],
-			"name": "COVAX - Frontline healthcare workers given 2+ dose",
+			"name": "COVAX - 2nd dose given to HCWs",
 			"publicAccess": "r-------",
-			"shortName": "Frontline healthcare workers given 2+ dose",
+			"shortName": "2nd dose - HCWs",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7087,15 +7090,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_OPENING_BALANCE_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.879",
+			"code": "CVX_OPENING_BALANCE_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.628",
 			"domainType": "AGGREGATE",
 			"id": "maGZEvjJYsL",
-			"lastUpdated": "2021-01-20T19:06:39.879",
+			"lastUpdated": "2021-01-29T10:48:40.628",
 			"legendSets": [],
-			"name": "COVAX - Opening balance safety boxes",
+			"name": "COVAX - Opening balance safety box",
 			"publicAccess": "r-------",
-			"shortName": "Opening balance safety boxes",
+			"shortName": "Opening balance safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7125,16 +7128,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_RECEIVED_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.872",
+			"code": "CVX_RECEIVED_COLD_BOX",
+			"created": "2021-01-29T10:48:40.629",
 			"domainType": "AGGREGATE",
 			"formName": "Received cold boxes",
 			"id": "MhtJeFU1s3g",
-			"lastUpdated": "2021-01-20T19:06:39.872",
+			"lastUpdated": "2021-01-29T10:48:40.629",
 			"legendSets": [],
-			"name": "COVAX - Received cold boxes",
+			"name": "COVAX - Received cold box",
 			"publicAccess": "r-------",
-			"shortName": "Received cold boxes",
+			"shortName": "Received cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7165,11 +7168,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCKOUT_DAYS_CARDS",
-			"created": "2021-01-20T19:06:39.876",
+			"created": "2021-01-29T10:48:40.633",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days vaccination cards",
 			"id": "mQd64lsZ2Gj",
-			"lastUpdated": "2021-01-20T19:06:39.876",
+			"lastUpdated": "2021-01-29T10:48:40.633",
 			"legendSets": [],
 			"name": "COVAX - Stockout days vaccination cards",
 			"publicAccess": "r-------",
@@ -7204,11 +7207,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCKOUT_DAYS_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.876",
+			"created": "2021-01-29T10:48:40.633",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days syringes with needle 1ml",
 			"id": "MVmWnSreLrA",
-			"lastUpdated": "2021-01-20T19:13:28.300",
+			"lastUpdated": "2021-01-29T10:48:40.633",
 			"legendSets": [],
 			"name": "COVAX - Stockout days syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -7243,12 +7246,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_STOCK_ON_HAND_VIALS",
-			"created": "2021-01-20T19:06:39.875",
+			"created": "2021-01-29T10:48:40.632",
 			"description": "Total COVID-19 vaccine doses transferred to another facility",
 			"domainType": "AGGREGATE",
 			"formName": "Stock on hand vials",
 			"id": "Nluny8KPumM",
-			"lastUpdated": "2021-01-20T19:06:39.875",
+			"lastUpdated": "2021-01-29T10:48:40.632",
 			"legendSets": [],
 			"name": "COVAX - Stock on hand vials",
 			"publicAccess": "r-------",
@@ -7282,15 +7285,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STOCKOUT_DAYS_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.880",
+			"code": "CVX_STOCKOUT_DAYS_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.633",
 			"domainType": "AGGREGATE",
 			"id": "NzVsILZ4qeb",
-			"lastUpdated": "2021-01-20T19:06:39.880",
+			"lastUpdated": "2021-01-29T10:48:40.633",
 			"legendSets": [],
-			"name": "COVAX - Stockout days safety boxes",
+			"name": "COVAX - Stockout days safety box",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days safety boxes",
+			"shortName": "Stockout days safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7321,12 +7324,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_DISCARDED_OPEN_VIALS",
-			"created": "2021-01-27T20:18:46.062",
+			"created": "2021-01-29T10:48:40.627",
 			"description": "Number of open vials that have been discarded",
 			"domainType": "AGGREGATE",
 			"formName": "Discarded (open vials)",
 			"id": "oozfHBgiPvP",
-			"lastUpdated": "2021-01-27T20:20:57.789",
+			"lastUpdated": "2021-01-29T10:48:40.627",
 			"legendSets": [],
 			"name": "COVAX - Discarded (open vials)",
 			"publicAccess": "r-------",
@@ -7361,11 +7364,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_REDISTRIBUTED_CARDS",
-			"created": "2021-01-20T19:06:39.873",
+			"created": "2021-01-29T10:48:40.631",
 			"domainType": "AGGREGATE",
 			"formName": "Redistributed vaccination cards",
 			"id": "p9sHAm0M0WF",
-			"lastUpdated": "2021-01-20T19:06:39.873",
+			"lastUpdated": "2021-01-29T10:48:40.631",
 			"legendSets": [],
 			"name": "COVAX - Redistributed vaccination cards",
 			"publicAccess": "r-------",
@@ -7400,11 +7403,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_DISTRIBUTED_SYRINGES_WITH_ NEEDLE_1ML",
-			"created": "2021-01-20T19:06:39.867",
+			"created": "2021-01-29T10:48:40.627",
 			"domainType": "AGGREGATE",
 			"formName": "Distributed syringes with needle 1ml",
 			"id": "QFfvrOOhmqw",
-			"lastUpdated": "2021-01-20T19:12:21.775",
+			"lastUpdated": "2021-01-29T10:48:40.627",
 			"legendSets": [],
 			"name": "COVAX - Distributed syringes with needle 1ml",
 			"publicAccess": "r-------",
@@ -7438,16 +7441,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_REDISTRIBUTED_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.873",
+			"code": "CVX_REDISTRIBUTED_COLD_BOX",
+			"created": "2021-01-29T10:48:40.630",
 			"domainType": "AGGREGATE",
 			"formName": "Redistributed cold boxes",
 			"id": "sM3XJvqqU5k",
-			"lastUpdated": "2021-01-20T19:06:39.873",
+			"lastUpdated": "2021-01-29T10:48:40.630",
 			"legendSets": [],
-			"name": "COVAX - Redistributed cold boxes",
+			"name": "COVAX - Redistributed cold box",
 			"publicAccess": "r-------",
-			"shortName": "Redistributed cold boxes",
+			"shortName": "Redistributed cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7478,15 +7481,15 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCKOUT_DAYS_VACCINE3",
-			"created": "2021-01-20T19:06:39.877",
+			"created": "2021-01-29T10:48:40.634",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days vaccine3",
 			"id": "sNAklHVNhYj",
-			"lastUpdated": "2021-01-20T19:06:39.877",
+			"lastUpdated": "2021-01-29T10:48:40.634",
 			"legendSets": [],
-			"name": "COVAX - Stockout days vaccine3",
+			"name": "COVAX - Stockout days vaccine 3",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days vaccine3",
+			"shortName": "Stockout days vaccine 3",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7516,16 +7519,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_STOCKOUT_DAYS_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.875",
+			"code": "CVX_STOCKOUT_DAYS_COLD_BOX",
+			"created": "2021-01-29T10:48:40.632",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days cold boxes",
 			"id": "Sq1bNvKm7eE",
-			"lastUpdated": "2021-01-20T19:06:39.875",
+			"lastUpdated": "2021-01-29T10:48:40.632",
 			"legendSets": [],
-			"name": "COVAX - Stockout days cold boxes",
+			"name": "COVAX - Stockout days cold box",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days cold boxes",
+			"shortName": "Stockout days cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7556,15 +7559,15 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCKOUT_DAYS_VACCINE2",
-			"created": "2021-01-20T19:06:39.876",
+			"created": "2021-01-29T10:48:40.634",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days vaccine2",
 			"id": "suWcEhb54Mz",
-			"lastUpdated": "2021-01-20T19:06:39.876",
+			"lastUpdated": "2021-01-29T10:48:40.634",
 			"legendSets": [],
-			"name": "COVAX - Stockout days vaccine2",
+			"name": "COVAX - Stockout days vaccine 2",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days vaccine2",
+			"shortName": "Stockout days vaccine 2",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7594,17 +7597,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_FRONTLINE_HCW_LAST_DOSE",
-			"created": "2021-01-21T10:41:25.125",
-			"description": "Total frontline healthcare workers given last dose",
+			"code": "CVX_FRONTLINE_HCW_BOOSTER_DOSE",
+			"created": "2021-01-29T10:48:40.624",
+			"description": "Health Care Workers who received a booster",
 			"domainType": "AGGREGATE",
 			"formName": "Frontline healthcare workers given last dose",
 			"id": "u70rr83wIzM",
-			"lastUpdated": "2021-01-21T10:41:25.125",
+			"lastUpdated": "2021-01-29T10:48:40.624",
 			"legendSets": [],
-			"name": "COVAX - Frontline healthcare workers given last dose",
+			"name": "COVAX - Booster dose given to HCWs",
 			"publicAccess": "r-------",
-			"shortName": "Frontline healthcare workers given last dose",
+			"shortName": "Booster - HCWs",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7635,11 +7638,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_OPENING_BALANCE_CARDS",
-			"created": "2021-01-20T19:06:39.870",
+			"created": "2021-01-29T10:48:40.629",
 			"domainType": "AGGREGATE",
 			"formName": "Opening balance vaccination cards",
 			"id": "UE9gtRQP6RN",
-			"lastUpdated": "2021-01-20T19:06:39.870",
+			"lastUpdated": "2021-01-29T10:48:40.629",
 			"legendSets": [],
 			"name": "COVAX - Opening balance vaccination cards",
 			"publicAccess": "r-------",
@@ -7674,12 +7677,12 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_TARGET_PEOPLE_WITH_EXISTING_MEDICAL_CONDITIONS",
-			"created": "2021-01-20T19:06:39.877",
-			"description": "Estimated people with at least one underlying medical condition",
+			"created": "2021-01-29T10:48:40.619",
+			"description": "Estimated people with at least one underlying medical condition within the target area",
 			"domainType": "AGGREGATE",
 			"formName": "Target people with underlying medical conditions",
 			"id": "v2qvl9d2eqz",
-			"lastUpdated": "2021-01-21T07:40:12.132",
+			"lastUpdated": "2021-01-29T10:48:40.619",
 			"legendSets": [],
 			"name": "COVAX - Target people with at least one underlying medical condition",
 			"publicAccess": "r-------",
@@ -7714,15 +7717,15 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_STOCKOUT_DAYS_VACCINE1",
-			"created": "2021-01-20T19:06:39.876",
+			"created": "2021-01-29T10:48:40.634",
 			"domainType": "AGGREGATE",
 			"formName": "Stockout days vaccine1",
 			"id": "VISxgxU3QF1",
-			"lastUpdated": "2021-01-20T19:06:39.876",
+			"lastUpdated": "2021-01-29T10:48:40.634",
 			"legendSets": [],
-			"name": "COVAX - Stockout days vaccine1",
+			"name": "COVAX - Stockout days vaccine 1",
 			"publicAccess": "r-------",
-			"shortName": "Stockout days vaccine1",
+			"shortName": "Stockout days vaccine 1",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7753,12 +7756,12 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_TARGET_ESSENTIAL_WORKERS",
-			"created": "2021-01-20T19:06:39.877",
-			"description": "Estimated essential workers",
+			"created": "2021-01-29T10:48:40.616",
+			"description": "Estimated essential workers within the target area",
 			"domainType": "AGGREGATE",
 			"formName": "Target essential workers",
 			"id": "vkXAQQDE48p",
-			"lastUpdated": "2021-01-20T19:06:39.877",
+			"lastUpdated": "2021-01-29T10:48:40.616",
 			"legendSets": [],
 			"name": "COVAX - Target essential workers",
 			"publicAccess": "r-------",
@@ -7793,11 +7796,11 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_DISTRIBUTED_CARDS",
-			"created": "2021-01-20T19:06:39.867",
+			"created": "2021-01-29T10:48:40.628",
 			"domainType": "AGGREGATE",
 			"formName": "Distributed vaccination cards",
 			"id": "vThouKg9t52",
-			"lastUpdated": "2021-01-20T19:06:39.867",
+			"lastUpdated": "2021-01-29T10:48:40.628",
 			"legendSets": [],
 			"name": "COVAX - Distributed vaccination cards",
 			"publicAccess": "r-------",
@@ -7832,12 +7835,12 @@
 				"id": "VnRusgdMitL"
 			},
 			"code": "CVX_REDISTRIBUTED_VIALS",
-			"created": "2021-01-20T19:06:39.874",
+			"created": "2021-01-29T10:48:40.631",
 			"description": "Total COVID-19 vaccine doses received",
 			"domainType": "AGGREGATE",
 			"formName": "Redistributed vials",
 			"id": "XgTKGD53X7l",
-			"lastUpdated": "2021-01-20T19:06:39.874",
+			"lastUpdated": "2021-01-29T10:48:40.631",
 			"legendSets": [],
 			"name": "COVAX - Redistributed vials",
 			"publicAccess": "r-------",
@@ -7872,16 +7875,16 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_ESSENTIAL_WORKERS_1ST_DOSE",
-			"created": "2021-01-20T19:06:39.868",
-			"description": "Total Essential workers vaccinated with COVID-19 vaccine",
+			"created": "2021-01-29T10:48:40.621",
+			"description": "Essential workers vaccinated with the first dose",
 			"domainType": "AGGREGATE",
 			"formName": "Essential workers given 1st dose",
 			"id": "xtorWGRMKCn",
-			"lastUpdated": "2021-01-20T19:06:39.868",
+			"lastUpdated": "2021-01-29T10:48:40.621",
 			"legendSets": [],
-			"name": "COVAX - Essential workers given 1st dose",
+			"name": "COVAX - 1st dose given to essential workers",
 			"publicAccess": "r-------",
-			"shortName": "Essential workers given 1st dose",
+			"shortName": "1st dose - Essential workers",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7911,16 +7914,16 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_DISTRIBUTED_COLD_BOXES",
-			"created": "2021-01-20T19:06:39.866",
+			"code": "CVX_DISTRIBUTED_COLD_BOX",
+			"created": "2021-01-29T10:48:40.627",
 			"domainType": "AGGREGATE",
 			"formName": "Distributed cold boxes",
 			"id": "y1TIZ7EacZy",
-			"lastUpdated": "2021-01-20T19:06:39.866",
+			"lastUpdated": "2021-01-29T10:48:40.627",
 			"legendSets": [],
-			"name": "COVAX - Distributed cold boxes",
+			"name": "COVAX - Distributed cold box",
 			"publicAccess": "r-------",
-			"shortName": "Distributed cold boxes",
+			"shortName": "Distributed cold box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -7951,11 +7954,12 @@
 				"id": "bjDvmb4bfuf"
 			},
 			"code": "CVX_TARGET_FRONTLINE_HEALTHCARE_WORKERS",
-			"created": "2021-01-20T19:06:39.877",
+			"created": "2021-01-29T10:48:40.618",
+			"description": "Estimated health care workers within the target area",
 			"domainType": "AGGREGATE",
 			"formName": "Target frontline healthcare workers",
 			"id": "YC0JuESssig",
-			"lastUpdated": "2021-01-20T19:06:39.877",
+			"lastUpdated": "2021-01-29T10:48:40.618",
 			"legendSets": [],
 			"name": "COVAX - Target frontline healthcare workers",
 			"publicAccess": "r-------",
@@ -7989,16 +7993,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_ESSENTIAL_WORKERS_2PLUS_DOSE",
-			"created": "2021-01-20T19:06:39.869",
+			"code": "CVX_ESSENTIAL_WORKERS_2ND_DOSE",
+			"created": "2021-01-29T10:48:40.622",
+			"description": "Essential workers who received the second dose",
 			"domainType": "AGGREGATE",
 			"formName": "Essential workers given 2+ dose",
 			"id": "Z8SPWzgXYG5",
-			"lastUpdated": "2021-01-21T10:37:15.042",
+			"lastUpdated": "2021-01-29T10:48:40.622",
 			"legendSets": [],
-			"name": "COVAX - Essential workers given 2+ dose",
+			"name": "COVAX - 2nd dose given to essential workers",
 			"publicAccess": "r-------",
-			"shortName": "Essential workers given 2+ dose",
+			"shortName": "2nd dose - Essential woekers",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -8028,15 +8033,15 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "CVX_RECEIVED_SAFETY_BOXES",
-			"created": "2021-01-20T19:06:39.879",
+			"code": "CVX_RECEIVED_SAFETY_BOX",
+			"created": "2021-01-29T10:48:40.629",
 			"domainType": "AGGREGATE",
 			"id": "ZdJXThga9s1",
-			"lastUpdated": "2021-01-20T19:06:39.879",
+			"lastUpdated": "2021-01-29T10:48:40.629",
 			"legendSets": [],
-			"name": "COVAX - Received safety boxes",
+			"name": "COVAX - Received safety box",
 			"publicAccess": "r-------",
-			"shortName": "Received safety boxes",
+			"shortName": "Received safety box",
 			"translations": [],
 			"user": {
 				"id": "KB1ivLZXMv8"
@@ -8110,23 +8115,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "fJzBX7mW5A9"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kif9K3XRSBh"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "xtorWGRMKCn"
+						"id": "FCtGm0HJryo"
 					},
 					"dataSet": {
 						"id": "JYPhXEzBU2r"
@@ -8142,7 +8131,39 @@
 				},
 				{
 					"dataElement": {
+						"id": "kif9K3XRSBh"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "BaqWaD6pnbY"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "fJzBX7mW5A9"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
 						"id": "u70rr83wIzM"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Z8SPWzgXYG5"
 					},
 					"dataSet": {
 						"id": "JYPhXEzBU2r"
@@ -8166,55 +8187,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "aGlvT5OwKRZ"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Gw8sB5U5JG3"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Z8SPWzgXYG5"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "FCtGm0HJryo"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "FHvsTsdaer9"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "AxmVroGCQZO"
-					},
-					"dataSet": {
-						"id": "JYPhXEzBU2r"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "BaqWaD6pnbY"
 					},
 					"dataSet": {
 						"id": "JYPhXEzBU2r"
@@ -8231,6 +8204,38 @@
 				{
 					"dataElement": {
 						"id": "KhFJj4Qz57c"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "aGlvT5OwKRZ"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Gw8sB5U5JG3"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "FHvsTsdaer9"
+					},
+					"dataSet": {
+						"id": "JYPhXEzBU2r"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "xtorWGRMKCn"
 					},
 					"dataSet": {
 						"id": "JYPhXEzBU2r"
@@ -8310,7 +8315,87 @@
 				},
 				{
 					"dataElement": {
-						"id": "i5pakKBw4VC"
+						"id": "IA1dFNpYlvJ"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "vThouKg9t52"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "y1TIZ7EacZy"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "e1YlvfQPdTe"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "jhutPejtr9l"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "heMYpVBrakv"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "CoCPy5cKxx8"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "MhtJeFU1s3g"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Nluny8KPumM"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Sq1bNvKm7eE"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "UE9gtRQP6RN"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8326,7 +8411,31 @@
 				},
 				{
 					"dataElement": {
-						"id": "NzVsILZ4qeb"
+						"id": "BeHrxrKVlAB"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KWInDqcM0sc"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "jpHKXTmXBog"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ep7EfKNsX3s"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8342,7 +8451,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "mQd64lsZ2Gj"
+						"id": "suWcEhb54Mz"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8350,15 +8459,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "VISxgxU3QF1"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "e1YlvfQPdTe"
+						"id": "p9sHAm0M0WF"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8382,39 +8483,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "heMYpVBrakv"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "ep7EfKNsX3s"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "KWInDqcM0sc"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "XgTKGD53X7l"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "CoCPy5cKxx8"
+						"id": "K1ykBWJNf5C"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8430,127 +8499,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "IA1dFNpYlvJ"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "p9sHAm0M0WF"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "BeHrxrKVlAB"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oozfHBgiPvP"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Sq1bNvKm7eE"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "jpHKXTmXBog"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "MVmWnSreLrA"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "HlicGU8jEZL"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "QFfvrOOhmqw"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "sNAklHVNhYj"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "vThouKg9t52"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "UE9gtRQP6RN"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "MhtJeFU1s3g"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "y1TIZ7EacZy"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Nluny8KPumM"
-					},
-					"dataSet": {
-						"id": "Le8SvNemLGm"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "fkvWMbUYYvR"
+						"id": "mQd64lsZ2Gj"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8566,7 +8515,23 @@
 				},
 				{
 					"dataElement": {
-						"id": "jhutPejtr9l"
+						"id": "MVmWnSreLrA"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "NzVsILZ4qeb"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "HlicGU8jEZL"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8582,7 +8547,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "suWcEhb54Mz"
+						"id": "QFfvrOOhmqw"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8590,7 +8555,47 @@
 				},
 				{
 					"dataElement": {
-						"id": "K1ykBWJNf5C"
+						"id": "fkvWMbUYYvR"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "oozfHBgiPvP"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "XgTKGD53X7l"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "i5pakKBw4VC"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "VISxgxU3QF1"
+					},
+					"dataSet": {
+						"id": "Le8SvNemLGm"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "sNAklHVNhYj"
 					},
 					"dataSet": {
 						"id": "Le8SvNemLGm"
@@ -8611,16 +8616,13 @@
 					"id": "N4iXbeP3T5O"
 				},
 				{
-					"id": "H6nsnH2w9A9"
-				},
-				{
-					"id": "g2voTi7ZCxe"
-				},
-				{
 					"id": "FyC7Cf74Cao"
 				},
 				{
 					"id": "zqTS3RiSL3o"
+				},
+				{
+					"id": "g2voTi7ZCxe"
 				},
 				{
 					"id": "t4hpTf9Jo4a"
@@ -8636,6 +8638,9 @@
 				},
 				{
 					"id": "YBLUIQSCFPJ"
+				},
+				{
+					"id": "BbcV04tNF2n"
 				},
 				{
 					"id": "zcN15JQUWc7"
@@ -8659,6 +8664,9 @@
 					"id": "X2XYc8WNUY3"
 				},
 				{
+					"id": "H6nsnH2w9A9"
+				},
+				{
 					"id": "tiFvalDGy3M"
 				},
 				{
@@ -8678,9 +8686,6 @@
 				},
 				{
 					"id": "Kkbt3LgbCbD"
-				},
-				{
-					"id": "BbcV04tNF2n"
 				},
 				{
 					"id": "CydbboFk0yH"
@@ -8766,15 +8771,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "BHgqoiEc7mS"
-					},
-					"dataSet": {
-						"id": "QRyardfjc76"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "vkXAQQDE48p"
+						"id": "YC0JuESssig"
 					},
 					"dataSet": {
 						"id": "QRyardfjc76"
@@ -8790,7 +8787,15 @@
 				},
 				{
 					"dataElement": {
-						"id": "YC0JuESssig"
+						"id": "BHgqoiEc7mS"
+					},
+					"dataSet": {
+						"id": "QRyardfjc76"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "vkXAQQDE48p"
 					},
 					"dataSet": {
 						"id": "QRyardfjc76"
@@ -9199,12 +9204,12 @@
 			"created": "2021-01-20T19:08:54.441",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous period",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "A8UE5oyhOMl",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.572",
+			"lastUpdated": "2021-01-29T10:48:59.990",
 			"legendSets": [],
 			"name": "COVAX - Opening balance syringes with needle 1ml",
 			"numerator": "#{heMYpVBrakv}",
@@ -9238,12 +9243,12 @@
 			"created": "2021-01-20T19:08:54.441",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous period",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "AfDDi4x9jOt",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.825",
+			"lastUpdated": "2021-01-29T10:48:57.756",
 			"legendSets": [],
 			"name": "COVAX - Opening balance cold box",
 			"numerator": "#{e1YlvfQPdTe}",
@@ -9282,7 +9287,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.235",
+			"lastUpdated": "2021-01-29T10:48:57.703",
 			"legendSets": [],
 			"name": "COVAX - Stockout days - Vaccine 3 (vials)",
 			"numerator": "#{sNAklHVNhYj}",
@@ -9321,7 +9326,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.171",
+			"lastUpdated": "2021-01-29T10:48:59.135",
 			"legendSets": [],
 			"name": "COVAX - Proportion of target frontline healthcare workers given 1st dose",
 			"numerator": "#{FCtGm0HJryo}",
@@ -9360,7 +9365,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.182",
+			"lastUpdated": "2021-01-29T10:48:57.146",
 			"legendSets": [],
 			"name": "COVAX - Proportion of staff available",
 			"numerator": "#{AxmVroGCQZO}",
@@ -9399,7 +9404,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.818",
+			"lastUpdated": "2021-01-29T10:49:00.920",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand safety box",
 			"numerator": "#{kJnQ1vmDeDe}",
@@ -9433,12 +9438,12 @@
 			"created": "2021-01-20T19:08:54.442",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous day",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "BbcV04tNF2n",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.831",
+			"lastUpdated": "2021-01-29T10:49:00.996",
 			"legendSets": [],
 			"name": "COVAX - Opening balance - Vaccine 2 (doses)",
 			"numerator": "#{DcW8k9WFCoN.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -9477,7 +9482,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.846",
+			"lastUpdated": "2021-01-29T10:48:57.144",
 			"legendSets": [],
 			"name": "COVAX - Frontline healthcare workers given 2nd dose",
 			"numerator": "#{Ly6PaH1qIV3}",
@@ -9516,7 +9521,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.419",
+			"lastUpdated": "2021-01-29T10:48:58.464",
 			"legendSets": [],
 			"name": "COVAX - Distributed syringes with needle 1ml",
 			"numerator": "#{CoCPy5cKxx8}",
@@ -9555,7 +9560,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.946",
+			"lastUpdated": "2021-01-29T10:49:00.795",
 			"legendSets": [],
 			"name": "COVAX - Drop out rates among frontline healthcare workers(%)",
 			"numerator": "#{FCtGm0HJryo} - #{Ly6PaH1qIV3}",
@@ -9594,7 +9599,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.688",
+			"lastUpdated": "2021-01-29T10:49:01.743",
 			"legendSets": [],
 			"name": "COVAX - Staff expected at PoC",
 			"numerator": "#{FHvsTsdaer9}",
@@ -9633,7 +9638,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.041",
+			"lastUpdated": "2021-01-29T10:48:57.705",
 			"legendSets": [],
 			"name": "COVAX - Drop out rates among essential workers(%)",
 			"numerator": "#{xtorWGRMKCn} - #{Z8SPWzgXYG5}",
@@ -9672,7 +9677,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.840",
+			"lastUpdated": "2021-01-29T10:49:00.325",
 			"legendSets": [],
 			"name": "COVAX - Closed vials wastage (%)",
 			"numerator": "#{aGlvT5OwKRZ.QVo1zpPICJN} + #{aGlvT5OwKRZ.MkryG3woLLJ} + #{aGlvT5OwKRZ.lTacio9Id50} + #{aGlvT5OwKRZ.EWaVKxhCw7E} + #{aGlvT5OwKRZ.x0WvdmAkQqF} + #{aGlvT5OwKRZ.utXnwFzJgiA}",
@@ -9711,7 +9716,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.207",
+			"lastUpdated": "2021-01-29T10:48:58.932",
 			"legendSets": [],
 			"name": "COVAX - Vaccine stock reporting rates",
 			"numerator": "R{Le8SvNemLGm.ACTUAL_REPORTS}",
@@ -9750,7 +9755,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.764",
+			"lastUpdated": "2021-01-29T10:49:00.719",
 			"legendSets": [],
 			"name": "COVAX - Redistributed - Vaccine1 doses",
 			"numerator": "#{XgTKGD53X7l.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -9789,7 +9794,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.578",
+			"lastUpdated": "2021-01-29T10:48:59.417",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand - Vaccine 3 (doses)",
 			"numerator": "#{Nluny8KPumM.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -9828,7 +9833,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.419",
+			"lastUpdated": "2021-01-29T10:48:55.878",
 			"legendSets": [],
 			"name": "COVAX - Stockout days - Vaccine 1 (vials)",
 			"numerator": "#{VISxgxU3QF1}",
@@ -9867,7 +9872,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.658",
+			"lastUpdated": "2021-01-29T10:48:59.937",
 			"legendSets": [],
 			"name": "COVAX - Stockout days syringes with needle 1ml",
 			"numerator": "#{MVmWnSreLrA}",
@@ -9906,7 +9911,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.018",
+			"lastUpdated": "2021-01-29T10:48:56.973",
 			"legendSets": [],
 			"name": "COVAX - Discarded open vials - Vaccine 3",
 			"numerator": "#{oozfHBgiPvP.g8LPkyYr8vl}",
@@ -9945,7 +9950,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.758",
+			"lastUpdated": "2021-01-29T10:48:59.027",
 			"legendSets": [],
 			"name": "COVAX - Stockout days vaccination cards",
 			"numerator": "#{mQd64lsZ2Gj}",
@@ -9984,7 +9989,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.577",
+			"lastUpdated": "2021-01-29T10:49:01.661",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 2 (doses)",
 			"numerator": "#{jpHKXTmXBog.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -10018,12 +10023,12 @@
 			"created": "2021-01-20T19:08:54.450",
 			"denominator": "#{Nluny8KPumM}",
 			"denominatorDescription": "Stock at hand",
-			"description": "(Closing balance-Stock on hand)/Stock on hand",
+			"description": "(Closing balance-Stock on hand)/Stock at hand",
 			"id": "ffjCEkN7xC2",
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.806",
+			"lastUpdated": "2021-01-29T10:48:57.750",
 			"legendSets": [],
 			"name": "COVAX - Stock discrepancy rate (%)",
 			"numerator": "(#{Nluny8KPumM})-((#{DcW8k9WFCoN}+#{ep7EfKNsX3s})-(#{CoCPy5cKxx8}+#{XgTKGD53X7l}+#{jpHKXTmXBog}))",
@@ -10062,7 +10067,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.469",
+			"lastUpdated": "2021-01-29T10:49:01.180",
 			"legendSets": [],
 			"name": "COVAX - Redistributed vials",
 			"numerator": "#{XgTKGD53X7l}",
@@ -10101,7 +10106,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.098",
+			"lastUpdated": "2021-01-29T10:48:57.855",
 			"legendSets": [],
 			"name": "COVAX - Discarded open vials - Vaccine 1",
 			"numerator": "#{oozfHBgiPvP.WID1zw7icTl}",
@@ -10140,7 +10145,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.038",
+			"lastUpdated": "2021-01-29T10:48:58.044",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 2",
 			"numerator": "#{jpHKXTmXBog.WCkKHHtraD5}",
@@ -10179,7 +10184,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.704",
+			"lastUpdated": "2021-01-29T10:49:01.742",
 			"legendSets": [],
 			"name": "COVAX - Closing balance vaccination cards",
 			"numerator": "( #{UE9gtRQP6RN} + #{BeHrxrKVlAB}) - (#{c1NTgV45W8M} + #{vThouKg9t52} + #{p9sHAm0M0WF})",
@@ -10213,12 +10218,12 @@
 			"created": "2021-01-20T19:08:54.441",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count of the previous day",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "g2voTi7ZCxe",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.136",
+			"lastUpdated": "2021-01-29T10:48:58.291",
 			"legendSets": [],
 			"name": "COVAX - Opening balance - Vaccine 1 (doses)",
 			"numerator": "#{DcW8k9WFCoN.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -10257,7 +10262,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.974",
+			"lastUpdated": "2021-01-29T10:49:01.520",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand vaccination cards",
 			"numerator": "#{KWInDqcM0sc}",
@@ -10296,7 +10301,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.327",
+			"lastUpdated": "2021-01-29T10:49:00.244",
 			"legendSets": [],
 			"name": "COVAX - Essential workers given 2nd dose",
 			"numerator": "#{Z8SPWzgXYG5}",
@@ -10335,7 +10340,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.456",
+			"lastUpdated": "2021-01-29T10:49:00.122",
 			"legendSets": [],
 			"name": "COVAX - Vaccination reporting rates",
 			"numerator": "R{JYPhXEzBU2r.ACTUAL_REPORTS}",
@@ -10369,12 +10374,12 @@
 			"created": "2021-01-20T19:08:54.442",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous day",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "H6nsnH2w9A9",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.952",
+			"lastUpdated": "2021-01-29T10:48:58.456",
 			"legendSets": [],
 			"name": "COVAX - Opening balance - Vaccine 3 (doses)",
 			"numerator": "#{DcW8k9WFCoN.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -10413,7 +10418,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.946",
+			"lastUpdated": "2021-01-29T10:48:58.342",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 1 (doses)",
 			"numerator": "((#{DcW8k9WFCoN.WID1zw7icTl}+#{ep7EfKNsX3s.WID1zw7icTl})-(#{CoCPy5cKxx8.WID1zw7icTl}+#{XgTKGD53X7l.WID1zw7icTl}+#{jpHKXTmXBog.WID1zw7icTl}))*C{fyC1NhjpBH5}",
@@ -10452,7 +10457,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.009",
+			"lastUpdated": "2021-01-29T10:49:00.445",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 1 (doses)",
 			"numerator": "#{jpHKXTmXBog.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -10491,7 +10496,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.566",
+			"lastUpdated": "2021-01-29T10:48:56.155",
 			"legendSets": [],
 			"name": "COVAX - Target frontline healthcare workers",
 			"numerator": "#{YC0JuESssig}",
@@ -10530,7 +10535,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.727",
+			"lastUpdated": "2021-01-29T10:49:00.346",
 			"legendSets": [],
 			"name": "COVAX - Stockout days safety box",
 			"numerator": "#{NzVsILZ4qeb}",
@@ -10569,7 +10574,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.398",
+			"lastUpdated": "2021-01-29T10:48:57.072",
 			"legendSets": [],
 			"name": "COVAX - Discarded open vials - Vaccine 2",
 			"numerator": "#{oozfHBgiPvP.WCkKHHtraD5}",
@@ -10608,7 +10613,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.203",
+			"lastUpdated": "2021-01-29T10:48:57.586",
 			"legendSets": [],
 			"name": "COVAX - Vaccination reporting rates on time",
 			"numerator": "R{JYPhXEzBU2r.REPORTING_RATE_ON_TIME}",
@@ -10647,7 +10652,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.157",
+			"lastUpdated": "2021-01-29T10:49:00.475",
 			"legendSets": [],
 			"name": "COVAX - Received vaccination cards",
 			"numerator": "#{BeHrxrKVlAB}",
@@ -10686,7 +10691,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.425",
+			"lastUpdated": "2021-01-29T10:49:00.795",
 			"legendSets": [],
 			"name": "COVAX - Vaccine 2 uptake (%)",
 			"numerator": "#{kif9K3XRSBh.uIIFBU3NJCl} + #{kif9K3XRSBh.ZpvqjZ9iDSn}",
@@ -10725,7 +10730,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.764",
+			"lastUpdated": "2021-01-29T10:49:01.651",
 			"legendSets": [],
 			"name": "COVAX - Received cold box",
 			"numerator": "#{MhtJeFU1s3g}",
@@ -10764,7 +10769,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.654",
+			"lastUpdated": "2021-01-29T10:48:57.687",
 			"legendSets": [],
 			"name": "COVAX - Staff available at PoC",
 			"numerator": "#{AxmVroGCQZO}",
@@ -10803,7 +10808,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.972",
+			"lastUpdated": "2021-01-29T10:49:00.648",
 			"legendSets": [],
 			"name": "COVAX - Wastage rate (%)",
 			"numerator": "(#{jpHKXTmXBog.WID1zw7icTl} * C{fyC1NhjpBH5}) + (#{jpHKXTmXBog.WCkKHHtraD5} * C{GhXdnHkmph9})+(#{jpHKXTmXBog.g8LPkyYr8vl}*C{zp3l4iQWPLh})",
@@ -10842,7 +10847,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.249",
+			"lastUpdated": "2021-01-29T10:48:57.066",
 			"legendSets": [],
 			"name": "COVAX - Doses per vial - Vaccine 3",
 			"numerator": "C{zp3l4iQWPLh}",
@@ -10881,7 +10886,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.675",
+			"lastUpdated": "2021-01-29T10:49:00.281",
 			"legendSets": [],
 			"name": "COVAX - Received - Vaccine 2 (doses)",
 			"numerator": "#{ep7EfKNsX3s.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -10920,7 +10925,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.863",
+			"lastUpdated": "2021-01-29T10:48:58.289",
 			"legendSets": [],
 			"name": "COVAX - Closing balance syringes with needle 1ml",
 			"numerator": "(#{heMYpVBrakv} + #{i5pakKBw4VC}) - (#{fkvWMbUYYvR} + #{QFfvrOOhmqw} + #{eTsKBlD7fsX})",
@@ -10959,7 +10964,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.649",
+			"lastUpdated": "2021-01-29T10:48:56.681",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 1",
 			"numerator": "#{jpHKXTmXBog.WID1zw7icTl}",
@@ -10998,7 +11003,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.877",
+			"lastUpdated": "2021-01-29T10:49:01.690",
 			"legendSets": [],
 			"name": "COVAX - Opened vials wastage (%)",
 			"numerator": "#{aGlvT5OwKRZ.k3G5n6cjo1H} + #{aGlvT5OwKRZ.RPzlBMTlOxz} + #{aGlvT5OwKRZ.d7iBKO4OtOL} + #{aGlvT5OwKRZ.iemSXBenfIl} + #{aGlvT5OwKRZ.x1IX3hw1Xwl} + #{aGlvT5OwKRZ.AnEOc7eqTPG}",
@@ -11037,7 +11042,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.147",
+			"lastUpdated": "2021-01-29T10:48:58.459",
 			"legendSets": [],
 			"name": "COVAX - Distributed vials",
 			"numerator": "#{CoCPy5cKxx8}",
@@ -11076,7 +11081,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.569",
+			"lastUpdated": "2021-01-29T10:49:01.663",
 			"legendSets": [],
 			"name": "COVAX - Target people with existing medical conditions",
 			"numerator": "#{v2qvl9d2eqz}",
@@ -11115,7 +11120,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.371",
+			"lastUpdated": "2021-01-29T10:48:59.405",
 			"legendSets": [],
 			"name": "COVAX - Distributed - Vaccine 2 (doses)",
 			"numerator": "#{CoCPy5cKxx8.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -11154,7 +11159,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.906",
+			"lastUpdated": "2021-01-29T10:49:01.094",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 2 (vials)",
 			"numerator": "(#{DcW8k9WFCoN.WCkKHHtraD5}+#{ep7EfKNsX3s.WCkKHHtraD5})-(#{CoCPy5cKxx8.WCkKHHtraD5}+#{XgTKGD53X7l.WCkKHHtraD5}+#{jpHKXTmXBog.WCkKHHtraD5})",
@@ -11193,7 +11198,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.540",
+			"lastUpdated": "2021-01-29T10:48:57.841",
 			"legendSets": [],
 			"name": "COVAX - Received syringes with needle 1ml",
 			"numerator": "#{i5pakKBw4VC}",
@@ -11232,7 +11237,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.900",
+			"lastUpdated": "2021-01-29T10:49:00.933",
 			"legendSets": [],
 			"name": "COVAX - AEFIs by vaccine and severity",
 			"numerator": "#{Gw8sB5U5JG3}",
@@ -11271,7 +11276,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.477",
+			"lastUpdated": "2021-01-29T10:48:58.670",
 			"legendSets": [],
 			"name": "COVAX - Received - Vaccine 3 (doses)",
 			"numerator": "#{ep7EfKNsX3s.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -11310,7 +11315,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.500",
+			"lastUpdated": "2021-01-29T10:49:00.844",
 			"legendSets": [],
 			"name": "COVAX - Essential workers given 1st dose",
 			"numerator": "#{xtorWGRMKCn}",
@@ -11349,7 +11354,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.206",
+			"lastUpdated": "2021-01-29T10:49:01.087",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand - Vaccine 1 (doses)",
 			"numerator": "#{Nluny8KPumM.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -11388,7 +11393,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.097",
+			"lastUpdated": "2021-01-29T10:49:00.507",
 			"legendSets": [],
 			"name": "COVAX - Doses discarded by reasons",
 			"numerator": "#{aGlvT5OwKRZ}*C{zp3l4iQWPLh}",
@@ -11427,7 +11432,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.533",
+			"lastUpdated": "2021-01-29T10:49:00.244",
 			"legendSets": [],
 			"name": "COVAX - Target people given 1st dose",
 			"numerator": "#{kif9K3XRSBh}",
@@ -11466,7 +11471,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.726",
+			"lastUpdated": "2021-01-29T10:48:57.830",
 			"legendSets": [],
 			"name": "COVAX - Vaccine 3 uptake (%)",
 			"numerator": "#{kif9K3XRSBh.Vva8jEdMGyx} + #{kif9K3XRSBh.VDX4411bEwZ} + #{kif9K3XRSBh.EgYbpH9AslA} + #{kif9K3XRSBh.doV3TW4iOxr} + #{gOf1dLB3r8G.Vva8jEdMGyx} + #{gOf1dLB3r8G.VDX4411bEwZ} + #{gOf1dLB3r8G.EgYbpH9AslA} + #{gOf1dLB3r8G.doV3TW4iOxr}",
@@ -11505,7 +11510,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.610",
+			"lastUpdated": "2021-01-29T10:48:56.969",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 1 (vials)",
 			"numerator": "(#{DcW8k9WFCoN.WID1zw7icTl}+#{ep7EfKNsX3s.WID1zw7icTl})-(#{CoCPy5cKxx8.WID1zw7icTl}+#{XgTKGD53X7l.WID1zw7icTl}+#{jpHKXTmXBog.WID1zw7icTl})",
@@ -11544,7 +11549,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.009",
+			"lastUpdated": "2021-01-29T10:49:01.463",
 			"legendSets": [],
 			"name": "COVAX - Frontline healthcare workers given 1st dose",
 			"numerator": "#{FCtGm0HJryo}",
@@ -11583,7 +11588,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.802",
+			"lastUpdated": "2021-01-29T10:48:57.145",
 			"legendSets": [],
 			"name": "COVAX - Essential workers given booster dose",
 			"numerator": "#{KhFJj4Qz57c}",
@@ -11622,7 +11627,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.901",
+			"lastUpdated": "2021-01-29T10:49:00.346",
 			"legendSets": [],
 			"name": "COVAX - Redistributed syringes with needle 1ml",
 			"numerator": "#{eTsKBlD7fsX}",
@@ -11661,7 +11666,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.957",
+			"lastUpdated": "2021-01-29T10:48:56.973",
 			"legendSets": [],
 			"name": "COVAX - Redistributed cold box",
 			"numerator": "#{sM3XJvqqU5k}",
@@ -11700,7 +11705,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.886",
+			"lastUpdated": "2021-01-29T10:49:01.631",
 			"legendSets": [],
 			"name": "COVAX - Target people with existing medical conditions given 1st dose",
 			"numerator": "#{BaqWaD6pnbY}",
@@ -11739,7 +11744,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.039",
+			"lastUpdated": "2021-01-29T10:49:00.490",
 			"legendSets": [],
 			"name": "COVAX - Proportion of target essential workers given 1st dose",
 			"numerator": "#{xtorWGRMKCn}",
@@ -11778,7 +11783,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.043",
+			"lastUpdated": "2021-01-29T10:48:58.031",
 			"legendSets": [],
 			"name": "COVAX - Discarded cold box",
 			"numerator": "#{gHjdt8paeZt}",
@@ -11817,7 +11822,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.967",
+			"lastUpdated": "2021-01-29T10:48:57.908",
 			"legendSets": [],
 			"name": "COVAX - Redistributed safety box",
 			"numerator": "#{IA1dFNpYlvJ}",
@@ -11856,7 +11861,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.688",
+			"lastUpdated": "2021-01-29T10:48:56.972",
 			"legendSets": [],
 			"name": "COVAX - Redistributed - Vaccine2 doses",
 			"numerator": "#{XgTKGD53X7l.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -11895,7 +11900,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.703",
+			"lastUpdated": "2021-01-29T10:48:58.429",
 			"legendSets": [],
 			"name": "COVAX - Doses per vial - Vaccine 2",
 			"numerator": "C{GhXdnHkmph9}",
@@ -11934,7 +11939,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.892",
+			"lastUpdated": "2021-01-29T10:48:58.389",
 			"legendSets": [],
 			"name": "COVAX - Proportion of target people with underlying medical conditions given 1st dose",
 			"numerator": "#{BaqWaD6pnbY}",
@@ -11968,12 +11973,12 @@
 			"created": "2021-01-20T19:08:54.441",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical stock on hand count' of the previous period",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "RneeVTogdGr",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.646",
+			"lastUpdated": "2021-01-29T10:48:59.418",
 			"legendSets": [],
 			"name": "COVAX - Opening balance vaccination cards",
 			"numerator": "#{UE9gtRQP6RN}",
@@ -12012,7 +12017,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.676",
+			"lastUpdated": "2021-01-29T10:48:58.518",
 			"legendSets": [],
 			"name": "COVAX - Drop out rates among all people targeted",
 			"numerator": "#{kif9K3XRSBh}-#{gOf1dLB3r8G}",
@@ -12051,7 +12056,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.571",
+			"lastUpdated": "2021-01-29T10:48:58.933",
 			"legendSets": [],
 			"name": "COVAX - Drop out rates among people with underlying medical conditions(%)",
 			"numerator": "#{BaqWaD6pnbY} - #{leiFl8fMdd3}",
@@ -12090,7 +12095,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.373",
+			"lastUpdated": "2021-01-29T10:48:57.649",
 			"legendSets": [],
 			"name": "COVAX - Received - Vaccine 1 (doses)",
 			"numerator": "#{ep7EfKNsX3s.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -12129,7 +12134,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.669",
+			"lastUpdated": "2021-01-29T10:48:58.015",
 			"legendSets": [],
 			"name": "COVAX - Vaccine stock reporting rates on time",
 			"numerator": "R{Le8SvNemLGm.REPORTING_RATE_ON_TIME}",
@@ -12168,7 +12173,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.811",
+			"lastUpdated": "2021-01-29T10:49:01.180",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 3 (doses)",
 			"numerator": "#{jpHKXTmXBog.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -12207,7 +12212,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.614",
+			"lastUpdated": "2021-01-29T10:49:00.721",
 			"legendSets": [],
 			"name": "COVAX - Redistributed - Vaccine3 doses",
 			"numerator": "#{XgTKGD53X7l.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -12246,7 +12251,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.004",
+			"lastUpdated": "2021-01-29T10:49:00.259",
 			"legendSets": [],
 			"name": "COVAX - Received vials",
 			"numerator": "#{ep7EfKNsX3s}",
@@ -12285,7 +12290,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.567",
+			"lastUpdated": "2021-01-29T10:48:58.359",
 			"legendSets": [],
 			"name": "COVAX - Target population",
 			"numerator": "#{BHgqoiEc7mS}",
@@ -12324,7 +12329,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.541",
+			"lastUpdated": "2021-01-29T10:48:59.815",
 			"legendSets": [],
 			"name": "COVAX - Proportion of target people given 1st dose",
 			"numerator": "#{kif9K3XRSBh}",
@@ -12363,7 +12368,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.918",
+			"lastUpdated": "2021-01-29T10:49:00.116",
 			"legendSets": [],
 			"name": "COVAX - Closing balance vials",
 			"numerator": "(#{DcW8k9WFCoN}+#{ep7EfKNsX3s})-(#{CoCPy5cKxx8}+#{XgTKGD53X7l}+#{jpHKXTmXBog})",
@@ -12397,12 +12402,12 @@
 			"created": "2021-01-20T19:08:54.461",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous period",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "ujhVVQlwTB0",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.945",
+			"lastUpdated": "2021-01-29T10:49:00.627",
 			"legendSets": [],
 			"name": "COVAX - Opening balance safety box",
 			"numerator": "#{maGZEvjJYsL}",
@@ -12441,7 +12446,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.566",
+			"lastUpdated": "2021-01-29T10:49:01.727",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand cold box",
 			"numerator": "#{K1ykBWJNf5C}",
@@ -12480,7 +12485,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.189",
+			"lastUpdated": "2021-01-29T10:49:00.047",
 			"legendSets": [],
 			"name": "COVAX - Distributed cold box",
 			"numerator": "#{y1TIZ7EacZy}",
@@ -12519,7 +12524,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.987",
+			"lastUpdated": "2021-01-29T10:48:58.353",
 			"legendSets": [],
 			"name": "COVAX - Discarded syringes with needle 1ml",
 			"numerator": "#{fkvWMbUYYvR}",
@@ -12558,7 +12563,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.959",
+			"lastUpdated": "2021-01-29T10:48:56.824",
 			"legendSets": [],
 			"name": "COVAX - Distributed vaccination cards",
 			"numerator": "#{vThouKg9t52}",
@@ -12597,7 +12602,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.217",
+			"lastUpdated": "2021-01-29T10:49:00.347",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 3 (vials)",
 			"numerator": "(#{DcW8k9WFCoN.g8LPkyYr8vl}+#{ep7EfKNsX3s.g8LPkyYr8vl})-(#{CoCPy5cKxx8.g8LPkyYr8vl}+#{XgTKGD53X7l.g8LPkyYr8vl}+#{jpHKXTmXBog.g8LPkyYr8vl})",
@@ -12636,7 +12641,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.239",
+			"lastUpdated": "2021-01-29T10:49:01.157",
 			"legendSets": [],
 			"name": "COVAX - Frontline healthcare workers given booster dose",
 			"numerator": "#{u70rr83wIzM}",
@@ -12675,7 +12680,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.290",
+			"lastUpdated": "2021-01-29T10:49:01.167",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand vials",
 			"numerator": "#{Nluny8KPumM}",
@@ -12714,7 +12719,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.766",
+			"lastUpdated": "2021-01-29T10:49:01.553",
 			"legendSets": [],
 			"name": "COVAX - Stockout days cold box",
 			"numerator": "#{Sq1bNvKm7eE}",
@@ -12753,7 +12758,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.902",
+			"lastUpdated": "2021-01-29T10:48:59.929",
 			"legendSets": [],
 			"name": "COVAX - Distributed safety box",
 			"numerator": "#{l2tQDaRuqEG}",
@@ -12792,7 +12797,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.136",
+			"lastUpdated": "2021-01-29T10:49:00.730",
 			"legendSets": [],
 			"name": "COVAX - Target essential workers",
 			"numerator": "#{vkXAQQDE48p}",
@@ -12831,7 +12836,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.425",
+			"lastUpdated": "2021-01-29T10:48:58.423",
 			"legendSets": [],
 			"name": "COVAX - Received safety box",
 			"numerator": "#{ZdJXThga9s1}",
@@ -12870,7 +12875,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.670",
+			"lastUpdated": "2021-01-29T10:48:58.669",
 			"legendSets": [],
 			"name": "COVAX - Stockout days - Vaccine 2 (vials)",
 			"numerator": "#{suWcEhb54Mz}",
@@ -12909,7 +12914,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.476",
+			"lastUpdated": "2021-01-29T10:49:01.137",
 			"legendSets": [],
 			"name": "COVAX - Used vials",
 			"numerator": "(#{DcW8k9WFCoN}+#{ep7EfKNsX3s})-(#{XgTKGD53X7l}+#{Nluny8KPumM})",
@@ -12948,7 +12953,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.903",
+			"lastUpdated": "2021-01-29T10:48:58.006",
 			"legendSets": [],
 			"name": "COVAX - Distributed - Vaccine 1 (doses)",
 			"numerator": "#{CoCPy5cKxx8.WID1zw7icTl}*C{fyC1NhjpBH5}",
@@ -12987,7 +12992,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:16.903",
+			"lastUpdated": "2021-01-29T10:48:56.676",
 			"legendSets": [],
 			"name": "COVAX - Discarded closed vials - Vaccine 3",
 			"numerator": "#{jpHKXTmXBog.g8LPkyYr8vl}",
@@ -13026,7 +13031,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.162",
+			"lastUpdated": "2021-01-29T10:48:59.027",
 			"legendSets": [],
 			"name": "COVAX - Distributed - Vaccine 3 (doses)",
 			"numerator": "#{CoCPy5cKxx8.g8LPkyYr8vl}*C{zp3l4iQWPLh}",
@@ -13065,7 +13070,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.630",
+			"lastUpdated": "2021-01-29T10:49:01.681",
 			"legendSets": [],
 			"name": "COVAX - Vaccine 1 uptake (%)",
 			"numerator": "#{kif9K3XRSBh.IWFrV7VrJuu} + #{kif9K3XRSBh.CAfB8ipjDhr} + #{kif9K3XRSBh.S600AfMQbKQ} + #{kif9K3XRSBh.Xrbw9OSFk0m} + #{gOf1dLB3r8G.IWFrV7VrJuu} + #{gOf1dLB3r8G.CAfB8ipjDhr} + #{gOf1dLB3r8G.S600AfMQbKQ} + #{gOf1dLB3r8G.Xrbw9OSFk0m}",
@@ -13104,7 +13109,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.767",
+			"lastUpdated": "2021-01-29T10:49:01.472",
 			"legendSets": [],
 			"name": "COVAX - Discarded vaccination cards",
 			"numerator": "#{vThouKg9t52}",
@@ -13143,7 +13148,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.285",
+			"lastUpdated": "2021-01-29T10:49:00.738",
 			"legendSets": [],
 			"name": "COVAX - Vaccine usage rate (%)",
 			"numerator": "#{CoCPy5cKxx8}",
@@ -13182,7 +13187,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.140",
+			"lastUpdated": "2021-01-29T10:48:57.469",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 3 (doses)",
 			"numerator": "((#{DcW8k9WFCoN.g8LPkyYr8vl}+#{ep7EfKNsX3s.g8LPkyYr8vl})-(#{CoCPy5cKxx8.g8LPkyYr8vl}+#{XgTKGD53X7l.g8LPkyYr8vl}+#{jpHKXTmXBog.g8LPkyYr8vl})) * C{zp3l4iQWPLh}",
@@ -13221,7 +13226,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.882",
+			"lastUpdated": "2021-01-29T10:48:57.885",
 			"legendSets": [],
 			"name": "COVAX - Closing balance safety boxes",
 			"numerator": "(#{maGZEvjJYsL}+#{ZdJXThga9s1})-(#{l2tQDaRuqEG} + #{IA1dFNpYlvJ} + #{l2tQDaRuqEG})",
@@ -13260,7 +13265,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:20.801",
+			"lastUpdated": "2021-01-29T10:48:57.744",
 			"legendSets": [],
 			"name": "COVAX - Redistributed vaccination cards",
 			"numerator": "#{p9sHAm0M0WF}",
@@ -13299,7 +13304,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.764",
+			"lastUpdated": "2021-01-29T10:48:58.019",
 			"legendSets": [],
 			"name": "COVAX - Closing balance cold boxes",
 			"numerator": "(#{e1YlvfQPdTe}+#{MhtJeFU1s3g})-(#{y1TIZ7EacZy} + #{gHjdt8paeZt} + #{sM3XJvqqU5k})",
@@ -13338,7 +13343,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.000",
+			"lastUpdated": "2021-01-29T10:48:57.003",
 			"legendSets": [],
 			"name": "COVAX - Discarded safety box",
 			"numerator": "#{HlicGU8jEZL}",
@@ -13377,7 +13382,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:21.768",
+			"lastUpdated": "2021-01-29T10:49:00.633",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand - Vaccine 2 (doses)",
 			"numerator": "#{Nluny8KPumM.WCkKHHtraD5}*C{GhXdnHkmph9}",
@@ -13416,7 +13421,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.692",
+			"lastUpdated": "2021-01-29T10:49:01.168",
 			"legendSets": [],
 			"name": "COVAX - Stock at hand syringes with needle 1ml",
 			"numerator": "#{jhutPejtr9l}",
@@ -13455,7 +13460,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:18.215",
+			"lastUpdated": "2021-01-29T10:48:58.670",
 			"legendSets": [],
 			"name": "COVAX - Closing balance - Vaccine 2 (doses)",
 			"numerator": "((#{DcW8k9WFCoN.WCkKHHtraD5}+#{ep7EfKNsX3s.WCkKHHtraD5})-(#{CoCPy5cKxx8.WCkKHHtraD5}+#{XgTKGD53X7l.WCkKHHtraD5}+#{jpHKXTmXBog.WCkKHHtraD5})) * C{GhXdnHkmph9}",
@@ -13494,7 +13499,7 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:17.902",
+			"lastUpdated": "2021-01-29T10:49:01.657",
 			"legendSets": [],
 			"name": "COVAX - Doses per vial - Vaccine 1",
 			"numerator": "C{fyC1NhjpBH5}",
@@ -13528,12 +13533,12 @@
 			"created": "2021-01-20T19:08:54.442",
 			"denominator": "1",
 			"denominatorDescription": "1",
-			"description": "Opening balance equals the physical 'stock on hand count' of the previous day",
+			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "zTMJ8UYjlCU",
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-01-28T13:24:19.584",
+			"lastUpdated": "2021-01-29T10:49:00.995",
 			"legendSets": [],
 			"name": "COVAX - Opening balance vials",
 			"numerator": "#{DcW8k9WFCoN}",
@@ -14116,7 +14121,7 @@
 			"userOrganisationUnitGrandChildren": true
 		}
 	],
-	"package": "COVAX_AGG_COMPLETE_V1.0_DHIS2.30_2021-01-28T18:52",
+	"package": "COVAX_AGG_COMPLETE_V1.0_DHIS2.30_2021-01-29T11:09",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
