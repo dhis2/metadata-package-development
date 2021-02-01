@@ -17,6 +17,16 @@
             "id": "AEAQ9LktNze",
             "metadata": "EDIT",
             "data": "EDIT"
+          },
+          {
+            "id": "VLIaHu6ou8E",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "q3Nh5xhJEy2",
+            "metadata": "VIEW",
+            "data": "EDIT"
           }
         ],
         "groupExport": true,
@@ -40,6 +50,14 @@
       ],
       "_version": "1.0.0",
       "customObjects": [
+        {
+          "objectType": "userGroups",
+          "objectIds": [
+            "RWyhKm0cuQ5",
+            "kPBGgIFMNFv",
+            "J3mFUNTreYY"
+          ]
+        },
         {
           "objectType": "trackedEntityInstanceFilters",
           "objectIds": [
@@ -115,15 +133,7 @@
             "Zn0UuSRYyJw",
             "M3jBOeFxHO0",
             "A2Vtdh2mndr",
-            "z7eWopCMD1k",
-            "UzbfnPqo0LV",
-            "BEw3zmRnGo4",
-            "IXW8ahBF3Pl",
-            "P2OSNv6tWuj",
-            "sYIBsws6qUG",
-            "ApGCVA6qhKT",
-            "rtoIINJSfAf",
-            "T4Fcv5Khfe8"
+            "z7eWopCMD1k"
           ]
         }
       ],
