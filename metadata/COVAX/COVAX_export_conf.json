@@ -46,7 +46,8 @@
       },
       "_type": "tracker",
       "_url": [
-        "https://who-dev.dhis2.org/tracker_dev"
+        "https://who-dev.dhis2.org/tracker_dev",
+        "https://who.sandbox.dhis2.org/tracker_dev234"
       ],
       "_version": "1.0.0",
       "customObjects": [
@@ -70,12 +71,7 @@
         {
           "objectType": "dataElements",
           "objectIds": [
-            "PuCFugChuxx",
-            "S1hrcFVHKoh",
-            "rpkH9ZPGJcX",
-            "u6OlTToQfhr",
-            "dWoveSw6b79",
-            "l08HtGca4rp"
+            "dWoveSw6b79"
           ]
         },
         {
