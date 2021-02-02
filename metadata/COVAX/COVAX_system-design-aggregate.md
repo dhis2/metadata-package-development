@@ -215,34 +215,39 @@ The following data elements have been created and used to design the dataSet and
 ## Data Validation Rules
 
 The following data validation rules have been configured to validate data across the 3 dataSets as outlined in the on the table below. Currently all dataSets allow completion even when the rules fail but further configurations can be made to enforce the rules and additional rules can be created by implementers as deemed necessary.
+
 | **COVAX - Vaccine stock dataSet** |||||
 | --- | --- | --- | --- | --- |
 | *Name* | *Instruction* | *Left side* | *Operator* | *Right side* |
-|COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received cold boxes|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received cold boxes|Distributed+Redistributed+Discarded cold boxes|less\than\or\equal\to|Opening balance + Received cold boxes|
-|COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received syringes|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received syringes|Distributed+Redistributed+Discarded syringes|less\than\or\equal\to|Opening balance + Received syringes|
-|COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received vaccination cards|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received vaccination cards|Distributed+Redistributed+Discarded vaccination cards|less\than\or\equal\to|Opening balance + Received|
-|COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received vials|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received vials|Distributed+Redistributed+Discarded vials|less\than\or\equal\to|Opening balance + Received|
-|COVAX - Doses discarded by reasons Vs discarded stock|Doses discarded by reasons should be less than or equal to discarded stock|Doses discarded by reasons|less\than\or\equal\to|Discarded stock|
-|COVAX - Stock on hand Vs Opening balance + Received cold boxes|Stock on hand should be less than or equal to (Opening balance + Received) cold boxes|Stock on hand cold boxes|less\than\or\equal\to|Opening balance + Received cold boxes|
-|COVAX - Stock on hand Vs Opening balance + Received safety boxes|Stock on hand should be less than or equal to (Opening balance + Received) safety boxes|Stock on hand safety boxes|less\than\or\equal\to|Opening balance + Received safety boxes|
-|COVAX - Stock on hand Vs Opening balance + Received syringes with needle 1ml|Stock on hand should be less than or equal to (Opening balance + Received) syringes with needle 1ml|Stock on hand syringes with needle 1ml|less\than\or\equal\to|Opening balance + Received syringes with needle 1ml|
-|COVAX - Stock on hand Vs Opening balance + Received vaccination cards|Stock on hand should be less than or equal to (Opening balance + Received) vaccination cards|Stock on hand vaccination cards|less\than\or\equal\to|Opening balance + Received vaccination cards|
-|COVAX - Stock on hand Vs Opening balance + Received vials|Stock on hand should be less than or equal to (Opening balance + Received) vials|Stock on hand vials|less\than\or\equal\to|Opening balance + Received|
+| COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received cold boxes | Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received cold boxes | Distributed+Redistributed+Discarded cold boxes | less\than\or\equal\to | Opening balance + Received cold boxes |
+| COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received syringes|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received syringes|Distributed+Redistributed+Discarded syringes|less\than\or\equal\to|Opening balance + Received syringes|
+| COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received vaccination cards|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received vaccination cards|Distributed+Redistributed+Discarded vaccination cards|less\than\or\equal\to|Opening balance + Received|
+| COVAX - Distributed+Redistributed+Discarded Vs Opening balance+Received vials|Distributed+Redistributed+Discarded should be less than or equal to Opening balance+Received vials|Distributed+Redistributed+Discarded vials|less\than\or\equal\to|Opening balance + Received|
+| COVAX - Doses discarded by reasons Vs discarded stock|Doses discarded by reasons should be less than or equal to discarded stock|Doses discarded by reasons|less\than\or\equal\to|Discarded stock|
+| COVAX - Stock on hand Vs Opening balance + Received cold boxes|Stock on hand should be less than or equal to (Opening balance + Received) cold boxes|Stock on hand cold boxes|less\than\or\equal\to|Opening balance + Received cold boxes|
+| COVAX - Stock on hand Vs Opening balance + Received safety boxes|Stock on hand should be less than or equal to (Opening balance + Received) safety boxes|Stock on hand safety boxes|less\than\or\equal\to|Opening balance + Received safety boxes|
+| COVAX - Stock on hand Vs Opening balance + Received syringes with needle 1ml|Stock on hand should be less than or equal to (Opening balance + Received) syringes with needle 1ml|Stock on hand syringes with needle 1ml|less\than\or\equal\to|Opening balance + Received syringes with needle 1ml|
+| COVAX - Stock on hand Vs Opening balance + Received vaccination cards|Stock on hand should be less than or equal to (Opening balance + Received) vaccination cards|Stock on hand vaccination cards|less\than\or\equal\to|Opening balance + Received vaccination cards|
+| COVAX - Stock on hand Vs Opening balance + Received vials|Stock on hand should be less than or equal to (Opening balance + Received) vials|Stock on hand vials|less\than\or\equal\to|Opening balance + Received|
+
 | *COVAX - Vaccination Report* |||||
+| --- | --- | --- | --- | --- |
 | *Name* | *Instruction* | *Left side* | *Operator* | *Right side* |
-|COVAX - Essential workers given 1st dose Vs People given 1st dose|Essential workers given 1st dose should be less than or equal to People given 1st dose|Essential workers given 1st dose|less\than\or\equal\to|People given 1st dose|
-|COVAX - Essential workers given 2+ dose Vs People given 2+ dose|Essential workers given 2+ dose should be less than or equal to People given 2+ dose|Essential workers given 2+ dose|less\than\or\equal\to|People given 2+ dose|
-|COVAX - Essential workers given last dose Vs People given last dose|Essential workers given last dose should be less than or equal to People given last dose|Essential workers given last dose|less\than\or\equal\to|People given last dose|
-|COVAX - Frontline healthcare workers given 1st dose Vs People given 1st dose|Frontline healthcare workers given 1st dose should be less than or equal to People given 1st dose|Frontline healthcare workers given 1st dose|less\than\or\equal\to|People given 1st dose|
-|COVAX - Frontline healthcare workers given 2+ dose Vs People given 2+ dose|Frontline healthcare workers given 2+ dose should be less than or equal to People given 2+ dose|Frontline healthcare workers given 2+ dose|less\than\or\equal\to|People given 2+ dose|
-|COVAX - Frontline healthcare workers given last dose Vs People given last dose|Frontline healthcare workers given last dose should be less than or equal to People given last dose|Frontline healthcare workers given last dose|less\than\or\equal\to|People given last dose|
-|COVAX - People with underlying medical conditions given 1st dose Vs People given 1st dose|People with underlying medical conditions given 1st dose should be less than or equal to People given 1st dose|People with underlying medical conditions given 1st dose|less\than\or\equal\to|People given 1st dose|
-|COVAX - People with underlying medical conditions given 2+ dose Vs People given 2+ dose|People with underlying medical conditions given 2+ dose should be less than or equal to People given 2+ dose|People with underlying medical conditions given 2+ dose|less\than\or\equal\to|People given 2+ dose|
-|COVAX - People with underlying medical conditions given last dose Vs People given last dose|People with underlying medical conditions given last dose should be less than or equal to People given last dose|People with underlying medical conditions given last dose|less\than\or\equal\to|People given last dose|
-|COVAX - Staff available at centre today Vs Staff expected at centre today|Staff available at centre today should be less than or equal to staff expected at centre today|Staff available at centre today|less\than\or\equal\to|Staff expected at centre today|
+| COVAX - Essential workers given 1st dose Vs People given 1st dose | Essential workers given 1st dose should be less than or equal to People given 1st dose | Essential workers given 1st dose | less\than\or\equal\to | People given 1st dose |
+| COVAX - Essential workers given 2+ dose Vs People given 2+ dose | Essential workers given 2+ dose should be less than or equal to People given 2+ dose | Essential workers given 2+ dose | less\than\or\equal\to | People given 2+ dose |
+| COVAX - Essential workers given last dose Vs People given last dose | Essential workers given last dose should be less than or equal to People given last dose | Essential workers given last dose | less\than\or\equal\to | People given last dose |
+| COVAX - Frontline healthcare workers given 1st dose Vs People given 1st dose | Frontline healthcare workers given 1st dose should be less than or equal to People given 1st dose | Frontline healthcare workers given 1st dose | less\than\or\equal\to | People given 1st dose |
+| COVAX - Frontline healthcare workers given 2+ dose Vs People given 2+ dose|Frontline healthcare workers given 2+ dose should be less than or equal to People given 2+ dose | Frontline healthcare workers given 2+ dose | less\than\or\equal\to | People given 2+ dose |
+| COVAX - Frontline healthcare workers given last dose Vs People given last dose | Frontline healthcare workers given last dose should be less than or equal to People given last dose | Frontline healthcare workers given last dose | less\than\or\equal\to | People given last dose |
+| COVAX - People with underlying medical conditions given 1st dose Vs People given 1st dose | People with underlying medical conditions given 1st dose should be less than or equal to People given 1st dose | People with underlying medical conditions given 1st dose | less\than\or\equal\to | People given 1st dose |
+| COVAX - People with underlying medical conditions given 2+ dose Vs People given 2+ dose | People with underlying medical conditions given 2+ dose should be less than or equal to People given 2+ dose | People with underlying medical conditions given 2+ dose | less\than\or\equal\to | People given 2+ dose |
+| COVAX - People with underlying medical conditions given last dose Vs People given last dose | People with underlying medical conditions given last dose should be less than or equal to People given last dose | People with underlying medical conditions given last dose | less\than\or\equal\to | People given last dose |
+| COVAX - Staff available at centre today Vs Staff expected at centre today | Staff available at centre today should be less than or equal to staff expected at centre today | Staff available at centre today | less\than\or\equal\to | Staff expected at centre today |
+
 | *COVAX - Target Population* |||||
+| --- | --- | --- | --- | --- |
 | *Name* | *Instruction* | *Left side* | *Operator* | *Right side* |
-|COVAX - Frontline health workers+Essential workers+People with underlying medical conditions Vs Target population|Frontline health workers+Essential workers+People with underlying medical conditions should be less than or equal to Target population|Frontline health workers+Essential workers+People with underlying medical conditions|less\than\or\equal\to|Target population|
+| COVAX - Frontline health workers+Essential workers+People with underlying medical conditions Vs Target population | Frontline health workers+Essential workers+People with underlying medical conditions should be less than or equal to Target population | Frontline health workers+Essential workers+People with underlying medical conditions | less\than\or\equal\to | Target population |
 
 ## Constants
 
@@ -259,7 +264,7 @@ The following constants have been created to allow for one-time capture of numbe
 From the data captured, we can calculate at least the following indicators -- many of which are recommended by the WHO for monthly reporting-- and present them in a dashboard. All COVAX indicators are assigned to the Indicator Group "COVAX - Vaccination". Here are some of the core indicators configured in the metadata.
 
 | **Vaccination monitoring indicators** |||
-| --- |
+| --- | --- | --- |
 | **Name** | **Numerator** | **Denominator** |
 | Dropout rates among all people targeted | Given 1st dose - Given last dose | Given 1st dose |
 | Dropout rates among essential workers(%) | Given 1st dose - Given last dose | Given 1st dose |
@@ -281,7 +286,9 @@ From the data captured, we can calculate at least the following indicators -- ma
 | Opened vials wastage (%) | Opened vial doses discarded | Discarded doses |
 | Vaccination reporting rates | Actual reports received | Expected reports |
 | Vaccination reporting rates on time | Actual reports received on time | Actual reports received |
+
 | **Stock monitoring indicators** |||
+| --- | --- | --- |
 | **Name** | **Numerator** | **Denominator** |
 | Vaccine stock reporting rates | Actual reports received | Expected reports |
 | Vaccine stock reporting rates on time | Actual reports received on time | Actual reports received |
