@@ -18,7 +18,7 @@ This aggregate design has been updated to reflect new aggregate reporting requir
 
 | **Type of Surveillance Package** | **Case-based Surveillance (Tracker)** | **Case surveillance line-listing (Event)** | **Case surveillance (Aggregate)** |
 | --- | --- | --- | --- |
-| **Description** | Enrolls a case and tracks over time through laboratory confirmation &amp; case outcome | Captures critical case details in line-listing format | Enables weekly reporting of key aggregate data points |
+| **Description** | Enrolls a case and tracks over time through laboratory confirmation & case outcome | Captures critical case details in line-listing format | Enables weekly reporting of key aggregate data points |
 | **Pros** | Highly granular data and multiple time dimensions for analysis, can support decentralized workflow, all events linked to the case | More granular than aggregate and can capture key time dimensions (i.e. report date vs onset of symptoms); reduced burden of data entry compared to tracker and little complexity | Low complexity, easy to implement, most manageable when cases numbers are high |
 | **Cons** | Burden of data entry may be overwhelming when number of cases reach threshold; complexity of implementation | Does not support case-follow up or other decentralized workflows | Less granularity for detailed analysis (i.e. analysis only based on case reporting date, limited disaggregation)|
 
