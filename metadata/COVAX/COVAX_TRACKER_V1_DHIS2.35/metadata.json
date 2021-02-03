@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-02-02T23:50:47.789",
+			"lastUpdated": "2021-02-03T17:41:17.762",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -378,1416 +378,6 @@
 			]
 		}
 	],
-	"charts": [
-		{
-			"aggregationType": "DEFAULT",
-			"category": "pe",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-07T07:30:30.327",
-			"cumulativeValues": true,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "DNWp4zqrALv"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "aUjo2Myd25f",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:29.708",
-			"name": "COVAX - Complete vaccination uptake",
-			"noSpaceBetweenColumns": true,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": true,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": true,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - Kompletní absorpce očkování"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Adoption totale de la vaccination"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Toma vacinal completa"
-				}
-			],
-			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-07T07:30:30.327",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "SqD0kovH0CS"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "MUXThnNRCk6"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou",
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "BWlYGFBDbO2",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.318",
-			"name": "COVAX - Vaccine uptake by age group",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - příjem vakcíny podle věkových skupin"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Adhésion au vaccin par tranche d'âge"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Toma de vacinas por faixa etária"
-				}
-			],
-			"type": "PIE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-06T15:25:34.983",
-			"cumulativeValues": true,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "kNzRGpiCvg4"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"description": "TEST TEST",
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou",
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "GJPPSQuVt4N",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.567",
-			"name": "COVAX - Number of doses administered",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "DESCRIPTION",
-					"value": "TEST TEST"
-				},
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - počet podaných dávek"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "COVAX - Número de dosis administradas"
-				},
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "TEST TEST"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Nombre de doses administrées"
-				},
-				{
-					"locale": "pt",
-					"property": "DESCRIPTION",
-					"value": "TESTE TESTE"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Número de doses administradas"
-				}
-			],
-			"type": "SINGLE_VALUE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"category": "pe",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-18T11:40:35.835",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "Zn0UuSRYyJw"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "gNsB9zivLTy",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:30.096",
-			"name": "COVAX - At least one underlying condition",
-			"noSpaceBetweenColumns": true,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": true,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - Alespoň jedna základní podmínka"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Au moins une affection sous-jacente"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Pelo menos uma condição subjacente"
-				}
-			],
-			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"category": "pe",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-06T15:18:37.490",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "KI5DoTUGLEE"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "DFAxSmMm5pJ"
-					}
-				},
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "H7YS9Fxl1mR"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "Hbs3xGj7XoN",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.763",
-			"name": "COVAX - Drop-out from COV-1 to COV-c",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": true,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": true,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - Odpad z COV-1 do COV-c"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Abandon COV-1 à COV-c"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Desistência de COV-1 para COV-c"
-				}
-			],
-			"type": "LINE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-07T07:30:30.327",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "HCe7qiP0GoC"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "kKr4FSA1O0Z"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou",
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "KV7fffdXnlY",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.945",
-			"name": "COVAX - Vaccine uptake by sex",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - příjem vakcíny podle pohlaví"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Adhésion au vaccin par sexe"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Toma de vacinas por sexo"
-				}
-			],
-			"type": "PIE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-07T07:30:30.327",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "M3jBOeFxHO0"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "A2Vtdh2mndr"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "z7eWopCMD1k"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou",
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "MzSAvoJ0vLr",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:29.134",
-			"name": "COVAX - Vaccine uptake, last month",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": true,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - příjem vakcíny, minulý měsíc"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Adhésion au vaccin, mois dernier"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Toma de vacinas, mês passado"
-				}
-			],
-			"type": "PIE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-18T11:21:04.608",
-			"cumulativeValues": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "gW4pd818Sw8"
-						},
-						"dimensionItem": "yDuAzyqYABS.gW4pd818Sw8",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Renal Disease",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Renal Disease",
-						"displayShortName": "COVID-Vaccine COVAX - Renal Disease",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Renal Disease",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX - Renal Disease",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "xVxLMku5DMX"
-						},
-						"dimensionItem": "yDuAzyqYABS.xVxLMku5DMX",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Malignancy",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Malignancy",
-						"displayShortName": "COVID-Vaccine COVAX - Malignancy",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Malignancy",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX - Malignancy",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "TT1h0vGu5da"
-						},
-						"dimensionItem": "yDuAzyqYABS.TT1h0vGu5da",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Diabetes",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Diabetes",
-						"displayShortName": "COVID-Vaccine COVAX Diabetes",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Diabetes",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX Diabetes",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "C0Bony47eKp"
-						},
-						"dimensionItem": "yDuAzyqYABS.C0Bony47eKp",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
-						"displayShortName": "COVID-Vaccine COVAX_Chronic Lung Disease",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX_Chronic Lung Disease",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "LNHAYF3qdZl"
-						},
-						"dimensionItem": "yDuAzyqYABS.LNHAYF3qdZl",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
-						"displayShortName": "COVID-Vaccine COVAX Cardiovascular Disease",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX Cardiovascular Disease",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
-					"programDataElement": {
-						"access": {
-							"delete": true,
-							"externalize": true,
-							"manage": true,
-							"read": true,
-							"update": true,
-							"write": true
-						},
-						"aggregationType": "SUM",
-						"attributeValues": [],
-						"dataElement": {
-							"id": "MuZ9dMVXpuM"
-						},
-						"dimensionItem": "yDuAzyqYABS.MuZ9dMVXpuM",
-						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
-						"displayFormName": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
-						"displayName": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
-						"displayShortName": "COVID-Vaccine COVAX - Immunodeficiency",
-						"externalAccess": false,
-						"favorite": false,
-						"favorites": [],
-						"legendSets": [],
-						"name": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
-						"program": {
-							"id": "yDuAzyqYABS"
-						},
-						"shortName": "COVID-Vaccine COVAX - Immunodeficiency",
-						"translations": [],
-						"userAccesses": [],
-						"userGroupAccesses": [],
-						"valueType": "TRUE_ONLY"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou",
-				"pe"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "vFkbMQiABfj",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:30.448",
-			"name": "COVAX - Underlying conditions",
-			"noSpaceBetweenColumns": false,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": true,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - Základní podmínky"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Affections sous-jacentes "
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Condições subjacentes"
-				}
-			],
-			"type": "PIE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		},
-		{
-			"aggregationType": "DEFAULT",
-			"category": "pe",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"completedOnly": false,
-			"created": "2021-01-06T15:25:34.983",
-			"cumulativeValues": true,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "kNzRGpiCvg4"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"description": "TEST TEST",
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou"
-			],
-			"hideEmptyRowItems": "NONE",
-			"hideLegend": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "vmNUVdhuxN7",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:30.636",
-			"name": "COVAX - Cumulative number of given doses, Last 4 weeks",
-			"noSpaceBetweenColumns": true,
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"percentStackedValues": false,
-			"periods": [],
-			"publicAccess": "r-------",
-			"regressionType": "NONE",
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": true,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"series": "dx",
-			"seriesItems": [],
-			"showData": true,
-			"sortOrder": 0,
-			"subscribers": [],
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "DESCRIPTION",
-					"value": "TEST TEST"
-				},
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "COVAX - kumulativní počet podaných dávek, poslední 4 týdny"
-				},
-				{
-					"locale": "fr",
-					"property": "DESCRIPTION",
-					"value": "TEST TEST"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Nombre cumulé de doses administrées, 4 dernières semaines"
-				},
-				{
-					"locale": "pt",
-					"property": "DESCRIPTION",
-					"value": "TESTE TESTE"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "COVAX - Número cumulativo de doses administradas, últimas 4 semanas"
-				}
-			],
-			"type": "STACKED_COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false,
-			"yearlySeries": []
-		}
-	],
 	"dashboards": [
 		{
 			"created": "2021-01-06T15:14:40.866",
@@ -1941,15 +531,15 @@
 					"interpretationLikeCount": 0,
 					"lastUpdated": "2021-01-29T12:10:24.031",
 					"reports": [],
-					"reportTable": {
-						"id": "wHd33PaphEC"
-					},
 					"resources": [],
 					"translations": [],
-					"type": "REPORT_TABLE",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "wHd33PaphEC"
+					},
 					"width": 37,
 					"x": 21,
 					"y": 131
@@ -1964,9 +554,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "gNsB9zivLTy"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.917",
 					"externalAccess": false,
@@ -1980,10 +567,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "gNsB9zivLTy"
+					},
 					"width": 22,
 					"x": 0,
 					"y": 68
@@ -1998,9 +588,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "vFkbMQiABfj"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2014,10 +601,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "vFkbMQiABfj"
+					},
 					"width": 19,
 					"x": 22,
 					"y": 68
@@ -2066,9 +656,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "GJPPSQuVt4N"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2082,10 +669,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "GJPPSQuVt4N"
+					},
 					"width": 17,
 					"x": 24,
 					"y": 0
@@ -2202,9 +792,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "aUjo2Myd25f"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2218,10 +805,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "aUjo2Myd25f"
+					},
 					"width": 37,
 					"x": 21,
 					"y": 100
@@ -2236,9 +826,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "KV7fffdXnlY"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2252,10 +839,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "KV7fffdXnlY"
+					},
 					"width": 15,
 					"x": 29,
 					"y": 43
@@ -2270,9 +860,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "BWlYGFBDbO2"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2286,10 +873,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "BWlYGFBDbO2"
+					},
 					"width": 15,
 					"x": 14,
 					"y": 43
@@ -2304,9 +894,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "MzSAvoJ0vLr"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2320,10 +907,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "MzSAvoJ0vLr"
+					},
 					"width": 14,
 					"x": 0,
 					"y": 43
@@ -2372,9 +962,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "Hbs3xGj7XoN"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2388,10 +975,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "Hbs3xGj7XoN"
+					},
 					"width": 42,
 					"x": 0,
 					"y": 144
@@ -2406,9 +996,6 @@
 						"write": true
 					},
 					"attributeValues": [],
-					"chart": {
-						"id": "vmNUVdhuxN7"
-					},
 					"contentCount": 1,
 					"created": "2021-01-29T12:10:23.918",
 					"externalAccess": false,
@@ -2422,10 +1009,13 @@
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "CHART",
+					"type": "VISUALIZATION",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
+					"visualization": {
+						"id": "vmNUVdhuxN7"
+					},
 					"width": 34,
 					"x": 24,
 					"y": 22
@@ -2516,7 +1106,7 @@
 					"id": "TT1h0vGu5da"
 				},
 				{
-					"id": "VCetMtYu1DY"
+					"id": "hcHUkwpjcDc"
 				},
 				{
 					"id": "xVxLMku5DMX"
@@ -4502,17 +3092,17 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
-			"code": "COVAX_Comcond_neuro",
+			"code": "Comcond_neuro",
 			"created": "2020-11-25T07:46:50.404",
 			"description": "Chronic neurological or neuromuscular disease",
 			"domainType": "TRACKER",
 			"formName": "Chronic neurological or neuromuscular disease",
-			"id": "VCetMtYu1DY",
-			"lastUpdated": "2021-02-03T11:24:57.198",
+			"id": "hcHUkwpjcDc",
+			"lastUpdated": "2021-01-31T13:20:12.057",
 			"legendSets": [],
 			"name": "COVAX - Neurological/Neuromuscular",
 			"publicAccess": "r-------",
-			"shortName": "COVAX - Neurological/Neuromuscular",
+			"shortName": "Neurological/Neuromuscular",
 			"translations": [
 				{
 					"locale": "ar",
@@ -4989,7 +3579,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -4998,9 +3590,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -5125,7 +3719,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -5134,9 +3730,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -5277,7 +3875,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -5286,9 +3886,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -5820,7 +4422,7 @@
 	],
 	"maps": [
 		{
-			"basemap": "googleStreets",
+			"basemap": "bingLight",
 			"created": "2021-01-06T15:36:16.606",
 			"externalAccess": false,
 			"favorites": [],
@@ -5847,6 +4449,7 @@
 					"dataDimensionItems": [],
 					"dataElementDimensions": [],
 					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
 					"displayFormName": "e2RBzVLaz3H",
 					"displayName": "e2RBzVLaz3H",
 					"eventClustering": false,
@@ -5919,6 +4522,7 @@
 					],
 					"dataElementDimensions": [],
 					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
 					"displayFormName": "Doses given - ",
 					"displayName": "Doses given - ",
 					"endDate": "2021-01-06T00:00:00.000",
@@ -5957,7 +4561,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5966,9 +4572,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5999,6 +4607,7 @@
 					"startDate": "2020-01-06T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -6043,7 +4652,7 @@
 			]
 		},
 		{
-			"basemap": "googleStreets",
+			"basemap": "bingLight",
 			"created": "2021-01-06T15:36:16.606",
 			"externalAccess": false,
 			"favorites": [],
@@ -6082,6 +4691,7 @@
 					],
 					"dataElementDimensions": [],
 					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
 					"displayFormName": "COVAX - Drop-out from COV-1 to COV-c",
 					"displayName": "COVAX - Drop-out from COV-1 to COV-c",
 					"endDate": "2021-01-06T00:00:00.000",
@@ -6120,7 +4730,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -6129,9 +4741,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -6162,6 +4776,7 @@
 					"startDate": "2020-01-06T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -6190,6 +4805,7 @@
 					"dataDimensionItems": [],
 					"dataElementDimensions": [],
 					"dataElementGroupSetDimensions": [],
+					"digitGroupSeparator": "SPACE",
 					"displayFormName": "zbiF9YP19Ae",
 					"displayName": "zbiF9YP19Ae",
 					"eventClustering": false,
@@ -7938,7 +6554,7 @@
 			"version": 2
 		}
 	],
-	"package": "COVAX_TRACKER_V1.0.0_DHIS2.33_2021-02-03T17:43",
+	"package": "COVAX_TRACKER_V1.0.0_DHIS2.35_2021-02-03T17:43",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -12424,6 +11040,11 @@
 			"dataElement": {
 				"id": "gW4pd818Sw8"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "APV1LsAc95b",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12437,6 +11058,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "AVkkWf76BRS",
 			"lastUpdated": "2021-01-13T13:30:55.701",
 			"programRule": {
@@ -12448,6 +11074,11 @@
 			"content": "#{Age_Calculated}",
 			"created": "2021-01-23T03:01:16.234",
 			"data": "d2:yearsBetween( A{AGE}, V{current_date} )",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "aXf7pftI62L",
 			"lastUpdated": "2021-01-26T21:43:27.094",
 			"programRule": {
@@ -12460,6 +11091,11 @@
 			"dataElement": {
 				"id": "CBAs12YL4g7"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "c0Ulsjmr9Qo",
 			"lastUpdated": "2021-01-14T09:30:37.637",
 			"programRule": {
@@ -12470,6 +11106,11 @@
 		{
 			"content": "Client is a health worker.",
 			"created": "2020-12-01T14:26:46.577",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "cm74ZM68Xt9",
 			"lastUpdated": "2020-12-03T10:15:36.100",
 			"location": "indicators",
@@ -12484,6 +11125,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "D08nhg938Ka",
 			"lastUpdated": "2021-01-13T13:29:57.812",
 			"programRule": {
@@ -12498,6 +11144,11 @@
 			"dataElement": {
 				"id": "C0Bony47eKp"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "dIdDaCt10ym",
 			"lastUpdated": "2021-01-13T15:24:47.496",
 			"location": "indicators",
@@ -12509,8 +11160,13 @@
 		{
 			"created": "2021-01-14T11:37:00.703",
 			"dataElement": {
-				"id": "VCetMtYu1DY"
+				"id": "hcHUkwpjcDc"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "DtkDtPeV09s",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12523,6 +11179,11 @@
 			"dataElement": {
 				"id": "MuZ9dMVXpuM"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "DycK3iTsCrh",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12536,6 +11197,11 @@
 			"dataElement": {
 				"id": "bCtWZGjSWM8"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "e5dDEAPFX6J",
 			"lastUpdated": "2021-01-19T10:45:43.310",
 			"programRule": {
@@ -12547,6 +11213,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Neurological disease'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "EMVx2TIPzV2",
 			"lastUpdated": "2021-01-27T08:18:55.089",
 			"location": "indicators",
@@ -12562,6 +11233,11 @@
 			"dataElement": {
 				"id": "gW4pd818Sw8"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "F3KO0oivBh5",
 			"lastUpdated": "2021-01-27T14:47:56.561",
 			"location": "indicators",
@@ -12575,6 +11251,11 @@
 			"dataElement": {
 				"id": "C0Bony47eKp"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "FdSZ6zOH6H9",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12588,6 +11269,11 @@
 			"dataElement": {
 				"id": "bbnyNYD1wgS"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "FWAMhfHM4nG",
 			"lastUpdated": "2021-01-26T21:44:30.123",
 			"programRule": {
@@ -12600,6 +11286,11 @@
 			"dataElement": {
 				"id": "dpyQUtizp7s"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "gfhbWDqAQas",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12611,6 +11302,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Immunodeficiency'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "gRNFAMAzjWB",
 			"lastUpdated": "2021-01-27T08:24:12.967",
 			"location": "indicators",
@@ -12623,6 +11319,11 @@
 			"content": "Age",
 			"created": "2020-12-01T14:39:36.977",
 			"data": "d2:yearsBetween(A{AGE},V{current_date})",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "hHdW44A7m6i",
 			"lastUpdated": "2021-01-26T21:43:27.094",
 			"location": "indicators",
@@ -12636,6 +11337,11 @@
 			"dataElement": {
 				"id": "OAxinuYFDG6"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "hp2Xza5OijW",
 			"lastUpdated": "2021-01-14T14:12:53.973",
 			"programRule": {
@@ -12647,6 +11353,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Other'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "ISk2tjYpZDy",
 			"lastUpdated": "2021-01-27T08:21:12.117",
 			"location": "indicators",
@@ -12660,6 +11371,11 @@
 			"dataElement": {
 				"id": "LUIsbsm3okG"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "iuCMlkE12ER",
 			"lastUpdated": "2021-01-14T09:32:42.011",
 			"option": {
@@ -12671,23 +11387,15 @@
 			"programRuleActionType": "HIDEOPTION"
 		},
 		{
-			"content": "This client has received their last dose, please consider completing the stage and program.",
-			"created": "2020-12-07T10:31:22.153",
-			"dataElement": {
-				"id": "DSOWCIdQ8Tr"
-			},
-			"id": "jmhKVrFcuRg",
-			"lastUpdated": "2021-02-03T11:42:20.941",
-			"programRule": {
-				"id": "SkBUqyO9zG0"
-			},
-			"programRuleActionType": "SHOWWARNING"
-		},
-		{
 			"created": "2021-01-14T18:21:57.142",
 			"dataElement": {
 				"id": "BfNZcj99yz4"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "JPaaZsEt8Yu",
 			"lastUpdated": "2021-01-14T18:21:57.142",
 			"programRule": {
@@ -12701,10 +11409,33 @@
 			"dataElement": {
 				"id": "dWoveSw6b79"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "JvCg1PKOFOH",
 			"lastUpdated": "2021-01-26T21:46:26.653",
 			"programRule": {
 				"id": "A6Oy09dbQwn"
+			},
+			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"content": "This client has received their last dose, please consider completing the stage and program.",
+			"created": "2020-12-07T10:31:22.153",
+			"dataElement": {
+				"id": "DSOWCIdQ8Tr"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "k1aG4zat9LO",
+			"lastUpdated": "2020-12-08T21:06:10.087",
+			"programRule": {
+				"id": "SkBUqyO9zG0"
 			},
 			"programRuleActionType": "SHOWWARNING"
 		},
@@ -12714,6 +11445,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "njDgwBqevjp",
 			"lastUpdated": "2021-01-13T13:28:42.293",
 			"programRule": {
@@ -12728,6 +11464,11 @@
 			"dataElement": {
 				"id": "xVxLMku5DMX"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "nwOMebflumg",
 			"lastUpdated": "2021-01-27T14:48:07.337",
 			"location": "indicators",
@@ -12742,6 +11483,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "OmuEAGYoUIL",
 			"lastUpdated": "2021-01-13T13:28:42.293",
 			"programRule": {
@@ -12753,6 +11499,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Chronic lung disease'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "P2bDEBeYvmM",
 			"lastUpdated": "2021-01-27T08:17:13.978",
 			"location": "indicators",
@@ -12767,6 +11518,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "puVMfljjAj6",
 			"lastUpdated": "2021-01-13T13:30:55.701",
 			"programRule": {
@@ -12781,6 +11537,11 @@
 			"dataElement": {
 				"id": "MuZ9dMVXpuM"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "q5fvwMGTPOr",
 			"lastUpdated": "2021-01-27T14:46:58.168",
 			"location": "indicators",
@@ -12796,6 +11557,11 @@
 			"dataElement": {
 				"id": "bbnyNYD1wgS"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "RJ5J3viGBPI",
 			"lastUpdated": "2021-01-27T11:34:32.214",
 			"programRule": {
@@ -12808,6 +11574,11 @@
 			"dataElement": {
 				"id": "CBAs12YL4g7"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "SHyIeW73zZI",
 			"lastUpdated": "2021-01-14T18:21:57.142",
 			"programRule": {
@@ -12821,6 +11592,11 @@
 			"dataElement": {
 				"id": "LUIsbsm3okG"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "snPdZDTN8af",
 			"lastUpdated": "2020-12-08T21:21:22.605",
 			"location": "indicators",
@@ -12834,6 +11610,11 @@
 			"dataElement": {
 				"id": "xVxLMku5DMX"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "sUWTNuRMa6W",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12847,6 +11628,11 @@
 			"dataElement": {
 				"id": "LOU9t0aR0z7"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "sxQzYBHBRTJ",
 			"lastUpdated": "2021-01-08T10:35:05.318",
 			"programRule": {
@@ -12859,8 +11645,13 @@
 			"created": "2020-12-08T16:06:52.138",
 			"data": "true",
 			"dataElement": {
-				"id": "VCetMtYu1DY"
+				"id": "hcHUkwpjcDc"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "SYZVH5Tp6b5",
 			"lastUpdated": "2021-01-27T14:48:11.456",
 			"location": "indicators",
@@ -12876,6 +11667,11 @@
 			"dataElement": {
 				"id": "TT1h0vGu5da"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "TRKC2b2MdYm",
 			"lastUpdated": "2021-01-27T14:46:41.979",
 			"location": "indicators",
@@ -12890,6 +11686,11 @@
 			"dataElement": {
 				"id": "FFWcps4MfuH"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "uG7BxFctaaU",
 			"lastUpdated": "2021-01-13T13:29:57.812",
 			"programRule": {
@@ -12902,6 +11703,11 @@
 			"dataElement": {
 				"id": "LNHAYF3qdZl"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "UUFARmXNmUT",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12913,6 +11719,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Cardiovascular disease'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "V70KjPMAbFX",
 			"lastUpdated": "2021-01-27T08:16:59.990",
 			"location": "indicators",
@@ -12927,6 +11738,11 @@
 			"dataElement": {
 				"id": "bbnyNYD1wgS"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "vD2CActYvG4",
 			"lastUpdated": "2021-01-13T13:54:49.184",
 			"programRule": {
@@ -12940,6 +11756,11 @@
 			"dataElement": {
 				"id": "m9PgIDAJGlF"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "VNdW0ZU2VfD",
 			"lastUpdated": "2021-02-01T11:00:34.017",
 			"location": "indicators",
@@ -12952,6 +11773,11 @@
 			"content": "Vaccine previously taken",
 			"created": "2020-12-03T09:09:33.751",
 			"data": "#{Vaccine_type_previous_no_code}",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "waaOJIb1rXn",
 			"lastUpdated": "2021-01-07T09:52:05.001",
 			"location": "indicators",
@@ -12962,6 +11788,11 @@
 		},
 		{
 			"created": "2021-01-26T09:57:28.143",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "Wb8EPEWMiJO",
 			"lastUpdated": "2021-01-26T09:57:28.143",
 			"programRule": {
@@ -12975,6 +11806,11 @@
 			"dataElement": {
 				"id": "TT1h0vGu5da"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "wOEZsUfFBeX",
 			"lastUpdated": "2021-01-14T11:37:00.703",
 			"programRule": {
@@ -12989,6 +11825,11 @@
 			"dataElement": {
 				"id": "dpyQUtizp7s"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "WwOXEVRKzFG",
 			"lastUpdated": "2021-01-27T14:47:49.827",
 			"location": "indicators",
@@ -13003,6 +11844,11 @@
 			"dataElement": {
 				"id": "LUIsbsm3okG"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "x2tq5r12th9",
 			"lastUpdated": "2021-01-14T09:32:42.011",
 			"location": "indicators",
@@ -13017,6 +11863,11 @@
 			"dataElement": {
 				"id": "LUIsbsm3okG"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "xCF5KL0eK18",
 			"lastUpdated": "2021-01-13T13:57:49.215",
 			"location": "indicators",
@@ -13031,6 +11882,11 @@
 			"dataElement": {
 				"id": "LOU9t0aR0z7"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "xiiKjEiPjIy",
 			"lastUpdated": "2021-01-14T20:37:20.265",
 			"programRule": {
@@ -13044,6 +11900,11 @@
 			"dataElement": {
 				"id": "m9PgIDAJGlF"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "XIQ7Vy1rXst",
 			"lastUpdated": "2021-02-01T10:58:44.383",
 			"programRule": {
@@ -13055,6 +11916,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Renal Disease'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "xp2LfGIwDCU",
 			"lastUpdated": "2021-01-27T08:21:45.068",
 			"location": "indicators",
@@ -13069,6 +11935,11 @@
 			"dataElement": {
 				"id": "bbnyNYD1wgS"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "YbDs49BWwUV",
 			"lastUpdated": "2021-01-13T13:55:16.333",
 			"programRule": {
@@ -13081,6 +11952,11 @@
 			"dataElement": {
 				"id": "dWoveSw6b79"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "YTo4zvJ0uIb",
 			"lastUpdated": "2021-01-11T12:22:19.283",
 			"programRule": {
@@ -13092,6 +11968,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "'Diabetes'",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "zfPRAABB0eb",
 			"lastUpdated": "2021-01-27T08:17:25.940",
 			"location": "indicators",
@@ -13107,6 +11988,11 @@
 			"dataElement": {
 				"id": "LNHAYF3qdZl"
 			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "ZmapxjNTLJB",
 			"lastUpdated": "2021-01-27T14:47:08.341",
 			"location": "indicators",
@@ -13119,6 +12005,11 @@
 			"content": "Risk factor",
 			"created": "2020-12-08T16:06:52.138",
 			"data": "Malignancy",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
 			"id": "ZZEwxY3Sro3",
 			"lastUpdated": "2021-01-13T15:45:30.011",
 			"location": "indicators",
@@ -13816,17 +12707,17 @@
 			"translations": []
 		},
 		{
-			"condition": "d2:hasValue( 'Last_dose' )  && #{Last_dose} == true ",
+			"condition": "d2:hasValue( 'Last_dose' )  && #{Last_dose} == true",
 			"created": "2020-12-07T10:31:22.185",
 			"id": "SkBUqyO9zG0",
-			"lastUpdated": "2021-02-03T11:42:20.951",
+			"lastUpdated": "2020-12-08T21:06:10.091",
 			"name": "Last dose - complete programme",
 			"program": {
 				"id": "yDuAzyqYABS"
 			},
 			"programRuleActions": [
 				{
-					"id": "jmhKVrFcuRg"
+					"id": "k1aG4zat9LO"
 				}
 			],
 			"programStage": {
@@ -14083,6 +12974,20 @@
 			"useCodeForOptionSet": false
 		},
 		{
+			"created": "2020-12-02T13:08:24.157",
+			"dataElement": {
+				"id": "DSOWCIdQ8Tr"
+			},
+			"id": "BFiZ8HqhIdv",
+			"lastUpdated": "2020-12-02T13:08:24.157",
+			"name": "Last_dose",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
 			"created": "2021-01-13T15:17:35.960",
 			"dataElement": {
 				"id": "LNHAYF3qdZl"
@@ -14267,7 +13172,7 @@
 		{
 			"created": "2021-01-13T15:21:46.265",
 			"dataElement": {
-				"id": "VCetMtYu1DY"
+				"id": "hcHUkwpjcDc"
 			},
 			"id": "luNlxKZ18Kc",
 			"lastUpdated": "2021-01-13T15:21:46.265",
@@ -14279,12 +13184,12 @@
 			"useCodeForOptionSet": false
 		},
 		{
-			"created": "2021-02-03T11:41:48.483",
+			"created": "2020-12-07T10:28:31.172",
 			"dataElement": {
 				"id": "DSOWCIdQ8Tr"
 			},
-			"id": "lWONofkUQ0W",
-			"lastUpdated": "2021-02-03T11:41:48.483",
+			"id": "lw1eQ0PG4Yr",
+			"lastUpdated": "2020-12-07T10:28:31.172",
 			"name": "Last_dose",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -14435,7 +13340,7 @@
 		{
 			"created": "2021-01-27T07:55:34.573",
 			"dataElement": {
-				"id": "VCetMtYu1DY"
+				"id": "hcHUkwpjcDc"
 			},
 			"id": "rfM1tRH1UNZ",
 			"lastUpdated": "2021-01-27T07:55:34.573",
@@ -15194,10 +14099,6 @@
 					"renderOptionsAsRadio": false,
 					"renderType": {
 						"MOBILE": {
-							"decimalPoints": null,
-							"max": null,
-							"min": null,
-							"step": null,
 							"type": "BAR_CODE"
 						}
 					},
@@ -15517,15 +14418,15 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2021-01-13T14:42:54.479",
+					"created": "2021-01-08T13:32:52.949",
 					"dataElement": {
-						"id": "LNHAYF3qdZl"
+						"id": "dWoveSw6b79"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "aagpR9w65cm",
+					"id": "AMFbBN9utnH",
 					"lastUpdated": "2021-02-01T10:53:54.667",
 					"programStage": {
 						"id": "a1jCssI2LkW"
@@ -15550,15 +14451,15 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2021-01-08T13:32:52.949",
+					"created": "2021-01-13T14:42:54.479",
 					"dataElement": {
-						"id": "dWoveSw6b79"
+						"id": "LNHAYF3qdZl"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "AMFbBN9utnH",
+					"id": "aagpR9w65cm",
 					"lastUpdated": "2021-02-01T10:53:54.667",
 					"programStage": {
 						"id": "a1jCssI2LkW"
@@ -15684,7 +14585,7 @@
 					"compulsory": false,
 					"created": "2021-01-13T14:42:54.482",
 					"dataElement": {
-						"id": "VCetMtYu1DY"
+						"id": "hcHUkwpjcDc"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
@@ -15931,7 +14832,7 @@
 					"id": "xVxLMku5DMX"
 				},
 				{
-					"id": "VCetMtYu1DY"
+					"id": "hcHUkwpjcDc"
 				},
 				{
 					"id": "gW4pd818Sw8"
@@ -16074,159 +14975,6 @@
 					"value": "Perguntas pré-imunização"
 				}
 			]
-		}
-	],
-	"reportTables": [
-		{
-			"aggregationType": "DEFAULT",
-			"categoryDimensions": [],
-			"categoryOptionGroupSetDimensions": [],
-			"colSubTotals": false,
-			"colTotals": false,
-			"columnDimensions": [
-				"pe"
-			],
-			"completedOnly": false,
-			"created": "2021-01-18T12:03:26.408",
-			"cumulative": false,
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "BtB8fMhK2gH"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "zgt8n5PIAAf"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "CI0pKfEiWom"
-					}
-				},
-				{
-					"dataDimensionItemType": "PROGRAM_INDICATOR",
-					"programIndicator": {
-						"id": "a6kCEcImBlW"
-					}
-				}
-			],
-			"dataElementGroupSetDimensions": [],
-			"digitGroupSeparator": "SPACE",
-			"displayDensity": "NORMAL",
-			"externalAccess": false,
-			"favorites": [],
-			"filterDimensions": [
-				"ou"
-			],
-			"fontSize": "NORMAL",
-			"hideEmptyColumns": false,
-			"hideEmptyRows": false,
-			"hideSubtitle": false,
-			"hideTitle": false,
-			"id": "wHd33PaphEC",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:45.524",
-			"legendDisplayStrategy": "FIXED",
-			"legendDisplayStyle": "FILL",
-			"name": "COVAX - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)",
-			"numberType": "VALUE",
-			"organisationUnitGroupSetDimensions": [],
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"publicAccess": "r-------",
-			"regression": false,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": true,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": false,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"reportParams": {
-				"paramGrandParentOrganisationUnit": false,
-				"paramOrganisationUnit": false,
-				"paramParentOrganisationUnit": false,
-				"paramReportingPeriod": false
-			},
-			"rowDimensions": [
-				"dx"
-			],
-			"rowSubTotals": false,
-			"rowTotals": false,
-			"showDimensionLabels": true,
-			"showHierarchy": false,
-			"skipRounding": false,
-			"sortOrder": 0,
-			"subscribers": [],
-			"topLimit": 0,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "COVAX - Personnes recevant le COV-2 vs Personnes ayant suivi le calendrier de vaccination (Cov-C)"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-------",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-------",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
 		}
 	],
 	"trackedEntityAttributes": [
@@ -17877,7 +16625,7 @@
 			"attributeValues": [],
 			"created": "2020-03-26T08:34:06.303",
 			"id": "J3mFUNTreYY",
-			"lastUpdated": "2021-02-03T10:28:48.492",
+			"lastUpdated": "2021-01-31T13:15:01.548",
 			"managedGroups": [],
 			"name": "AEFI access",
 			"publicAccess": "r-------",
@@ -18003,7 +16751,7 @@
 			"attributeValues": [],
 			"created": "2020-11-23T21:28:35.020",
 			"id": "RWyhKm0cuQ5",
-			"lastUpdated": "2021-02-03T10:17:03.360",
+			"lastUpdated": "2021-01-31T13:15:01.726",
 			"managedGroups": [],
 			"name": "AEFI data capture",
 			"publicAccess": "r-------",
@@ -18124,6 +16872,1831 @@
 				"username": "who",
 				"userRoles": []
 			}
+		}
+	],
+	"visualizations": [
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-07T07:30:30.327",
+			"cumulativeValues": true,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "DNWp4zqrALv"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "aUjo2Myd25f",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:29.708",
+			"name": "COVAX - Complete vaccination uptake",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": true,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": true,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - Kompletní absorpce očkování"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Adoption totale de la vaccination"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Toma vacinal completa"
+				}
+			],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-07T07:30:30.327",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "SqD0kovH0CS"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "MUXThnNRCk6"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "BWlYGFBDbO2",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:28.318",
+			"name": "COVAX - Vaccine uptake by age group",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - příjem vakcíny podle věkových skupin"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Adhésion au vaccin par tranche d'âge"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Toma de vacinas por faixa etária"
+				}
+			],
+			"type": "PIE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-06T15:25:34.983",
+			"cumulativeValues": true,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "kNzRGpiCvg4"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "TEST TEST",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "GJPPSQuVt4N",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:28.567",
+			"name": "COVAX - Number of doses administered",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "TEST TEST"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - počet podaných dávek"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "COVAX - Número de dosis administradas"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "TEST TEST"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Nombre de doses administrées"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "TESTE TESTE"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Número de doses administradas"
+				}
+			],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-18T11:40:35.835",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "Zn0UuSRYyJw"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "gNsB9zivLTy",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:30.096",
+			"name": "COVAX - At least one underlying condition",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": true,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - Alespoň jedna základní podmínka"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Au moins une affection sous-jacente"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Pelo menos uma condição subjacente"
+				}
+			],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-06T15:18:37.490",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "KI5DoTUGLEE"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "DFAxSmMm5pJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "INDICATOR",
+					"indicator": {
+						"id": "H7YS9Fxl1mR"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Hbs3xGj7XoN",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:28.763",
+			"name": "COVAX - Drop-out from COV-1 to COV-c",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": true,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": true,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - Odpad z COV-1 do COV-c"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Abandon COV-1 à COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Desistência de COV-1 para COV-c"
+				}
+			],
+			"type": "LINE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-07T07:30:30.327",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "HCe7qiP0GoC"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "kKr4FSA1O0Z"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "KV7fffdXnlY",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:28.945",
+			"name": "COVAX - Vaccine uptake by sex",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - příjem vakcíny podle pohlaví"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Adhésion au vaccin par sexe"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Toma de vacinas por sexo"
+				}
+			],
+			"type": "PIE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-07T07:30:30.327",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "M3jBOeFxHO0"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "A2Vtdh2mndr"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "z7eWopCMD1k"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "MzSAvoJ0vLr",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:29.134",
+			"name": "COVAX - Vaccine uptake, last month",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": true,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - příjem vakcíny, minulý měsíc"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Adhésion au vaccin, mois dernier"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Toma de vacinas, mês passado"
+				}
+			],
+			"type": "PIE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-18T11:21:04.608",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "gW4pd818Sw8"
+						},
+						"dimensionItem": "yDuAzyqYABS.gW4pd818Sw8",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Renal Disease",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Renal Disease",
+						"displayShortName": "COVID-Vaccine COVAX - Renal Disease",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Renal Disease",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX - Renal Disease",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "xVxLMku5DMX"
+						},
+						"dimensionItem": "yDuAzyqYABS.xVxLMku5DMX",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Malignancy",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Malignancy",
+						"displayShortName": "COVID-Vaccine COVAX - Malignancy",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Malignancy",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX - Malignancy",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "TT1h0vGu5da"
+						},
+						"dimensionItem": "yDuAzyqYABS.TT1h0vGu5da",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Diabetes",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Diabetes",
+						"displayShortName": "COVID-Vaccine COVAX Diabetes",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Diabetes",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX Diabetes",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "C0Bony47eKp"
+						},
+						"dimensionItem": "yDuAzyqYABS.C0Bony47eKp",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
+						"displayShortName": "COVID-Vaccine COVAX_Chronic Lung Disease",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Chronic Lung Disease",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX_Chronic Lung Disease",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "LNHAYF3qdZl"
+						},
+						"dimensionItem": "yDuAzyqYABS.LNHAYF3qdZl",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
+						"displayShortName": "COVID-Vaccine COVAX Cardiovascular Disease",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Cardiovascular Disease",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX Cardiovascular Disease",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_DATA_ELEMENT",
+					"programDataElement": {
+						"access": {
+							"delete": true,
+							"externalize": true,
+							"manage": true,
+							"read": true,
+							"update": true,
+							"write": true
+						},
+						"aggregationType": "SUM",
+						"attributeValues": [],
+						"dataElement": {
+							"id": "MuZ9dMVXpuM"
+						},
+						"dimensionItem": "yDuAzyqYABS.MuZ9dMVXpuM",
+						"dimensionItemType": "PROGRAM_DATA_ELEMENT",
+						"displayFormName": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
+						"displayName": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
+						"displayShortName": "COVID-Vaccine COVAX - Immunodeficiency",
+						"externalAccess": false,
+						"favorite": false,
+						"favorites": [],
+						"legendSets": [],
+						"name": "COVID-19 Vaccination Registry COVAX - Immunodeficiency",
+						"periodOffset": 0,
+						"program": {
+							"id": "yDuAzyqYABS"
+						},
+						"shortName": "COVID-Vaccine COVAX - Immunodeficiency",
+						"translations": [],
+						"userAccesses": [],
+						"userGroupAccesses": [],
+						"valueType": "TRUE_ONLY"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "vFkbMQiABfj",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:30.448",
+			"name": "COVAX - Underlying conditions",
+			"noSpaceBetweenColumns": false,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - Základní podmínky"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Affections sous-jacentes "
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Condições subjacentes"
+				}
+			],
+			"type": "PIE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"dx"
+			],
+			"completedOnly": false,
+			"created": "2021-01-06T15:25:34.983",
+			"cumulativeValues": true,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "kNzRGpiCvg4"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "TEST TEST",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRowItems": "NONE",
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "vmNUVdhuxN7",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:30.636",
+			"name": "COVAX - Cumulative number of given doses, Last 4 weeks",
+			"noSpaceBetweenColumns": true,
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": true,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"pe"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": true,
+			"showDimensionLabels": false,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "TEST TEST"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - kumulativní počet podaných dávek, poslední 4 týdny"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "TEST TEST"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Nombre cumulé de doses administrées, 4 dernières semaines"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "TESTE TESTE"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Número cumulativo de doses administradas, últimas 4 semanas"
+				}
+			],
+			"type": "STACKED_COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"colSubTotals": false,
+			"colTotals": false,
+			"columnDimensions": [
+				"pe"
+			],
+			"completedOnly": false,
+			"created": "2021-01-18T12:03:26.408",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "BtB8fMhK2gH"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "zgt8n5PIAAf"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "CI0pKfEiWom"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "a6kCEcImBlW"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"fontSize": "NORMAL",
+			"hideEmptyColumns": false,
+			"hideEmptyRows": false,
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "wHd33PaphEC",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-31T13:20:45.524",
+			"legendDisplayStrategy": "FIXED",
+			"legendDisplayStyle": "FILL",
+			"name": "COVAX - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)",
+			"noSpaceBetweenColumns": false,
+			"numberType": "VALUE",
+			"optionalAxes": [],
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regression": false,
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last180Days": false,
+				"last2SixMonths": false,
+				"last30Days": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last60Days": false,
+				"last6BiMonths": false,
+				"last6Months": true,
+				"last7Days": false,
+				"last90Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"reportingParams": {
+				"grandParentOrganisationUnit": false,
+				"organisationUnit": false,
+				"parentOrganisationUnit": false,
+				"reportingPeriod": false
+			},
+			"rowDimensions": [
+				"dx"
+			],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showData": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"skipRounding": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX - Personnes recevant le COV-2 vs Personnes ayant suivi le calendrier de vaccination (Cov-C)"
+				}
+			],
+			"type": "PIVOT_TABLE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	]
 }
