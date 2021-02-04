@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-02-02T23:50:47.789",
+			"lastUpdated": "2021-02-04T02:26:41.026",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -6883,7 +6883,7 @@
 			"attributeValues": [],
 			"code": "NO",
 			"created": "2018-01-19T08:53:15.588",
-			"id": "abXMcNMfUHW",
+			"id": "R98tI2c6rF5",
 			"lastUpdated": "2021-01-31T13:20:18.835",
 			"name": "No",
 			"optionSet": {
@@ -7116,7 +7116,7 @@
 			"attributeValues": [],
 			"code": "UNKNOWN",
 			"created": "2018-01-19T08:53:24.125",
-			"id": "E0X11CUoPzd",
+			"id": "pqxvAQU1z9W",
 			"lastUpdated": "2021-01-31T13:19:04.945",
 			"name": "Unknown",
 			"optionSet": {
@@ -7431,10 +7431,10 @@
 					"id": "x9yVKkv9koc"
 				},
 				{
-					"id": "abXMcNMfUHW"
+					"id": "R98tI2c6rF5"
 				},
 				{
-					"id": "E0X11CUoPzd"
+					"id": "pqxvAQU1z9W"
 				}
 			],
 			"publicAccess": "r-------",
@@ -7938,7 +7938,7 @@
 			"version": 2
 		}
 	],
-	"package": "COVAX_TRACKER_V1.0.0_DHIS2.33_2021-02-03T17:43",
+	"package": "COVAX_TRACKER_V1.0.0_DHIS2.33_2021-02-04T11:19",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -14613,9 +14613,6 @@
 			"programStages": [
 				{
 					"id": "a1jCssI2LkW"
-				},
-				{
-					"id": "FhmnMGI5RWG"
 				}
 			],
 			"programTrackedEntityAttributes": [
@@ -15834,53 +15831,6 @@
 					"value": "Vaccination"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rwrw----",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-r-----",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-rw----",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"validationStrategy": "ON_COMPLETE"
-		},
-		{
-			"allowGenerateNextVisit": false,
-			"attributeValues": [],
-			"autoGenerateEvent": false,
-			"blockEntryForm": false,
-			"created": "2021-01-13T16:05:01.697",
-			"displayGenerateEventBox": false,
-			"enableUserAssignment": false,
-			"generatedByEnrollmentDate": false,
-			"hideDueDate": false,
-			"id": "FhmnMGI5RWG",
-			"lastUpdated": "2021-02-01T10:53:54.671",
-			"minDaysFromStart": 0,
-			"name": "DELETE",
-			"notificationTemplates": [],
-			"openAfterEnrollment": false,
-			"preGenerateUID": false,
-			"program": {
-				"id": "yDuAzyqYABS"
-			},
-			"programStageDataElements": [],
-			"programStageSections": [],
-			"publicAccess": "r-r-----",
-			"remindCompleted": false,
-			"repeatable": false,
-			"sortOrder": 2,
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
