@@ -26,11 +26,6 @@ There has been considerable progress in increasing the coverage of DST with the 
 The WHO’s Guidance for ensuring good clinical and data management practices for national TB surveys provides an overview of the processes and procedures for collecting, handling, cleaning, validating, analysing and storing survey records to produce high-quality survey data that is complete, reliable, timely, processed correctly, and has its integrity preserved. To this end, all countries are encouraged to move towards establishing electronic systems.
 This document describes a fully customisable electronic data-capture tool for anti-TB drug resistance surveys designed in agreement with standards and recommendations outlined in the WHO’s Guidance for the surveillance of drug resistance in tuberculosis. The survey tool includes dashboards for visualisations and summaries of data, including for recommended quality and progress indicators, to facilitate the monitoring and supervision of survey activities. The user does not require expertise in database configuration and design. Implementation of this tool may help countries develop the data management skills required for the long-term implementation of electronic systems for routine surveillance of TB and drug-resistant TB.
 
-## References
-
-- Guidance for ensuring good clinical and data management practices for national TB surveys. Geneva: World Health Organization; 2021.
-- Guidance for the surveillance of drug resistance in tuberculosis - Sixth edition. Geneva: World Health Organization; 2021.
-
 ## System Design Overview
 
 ### Use Case
@@ -269,6 +264,10 @@ If the sample is stored, the “Storage Only” checkbox is selected. Program st
 
 #### Comments and Remarks
 
+#### SRL
+
+This program stage can be added to Data Entry Forms if the samples are sent to an SRL lab during the survey.
+
 ## Initial Configuration
 
 ### Patient DRS ID
@@ -416,8 +415,7 @@ Configure whether the country has an option of sending samples to SRL (supranati
 
 The top bar widget within the Tracker Capture app is useful for the data entry user to have a snapshot overview of information about the TEI (case) every time the TEI enrollment is opened for this program.
 
-The table below summarizes program indicators and variables displayed in the Top Bar Widget and how they are calculated. “Type” refers to whether a particular variable is configured as a program indicator with the “display in form” option enabled, or if it is calculated and displayed using 
-program rules.
+The table below summarizes program indicators and variables displayed in the Top Bar Widget and how they are calculated. “Type” refers to whether a particular variable is configured as a program indicator with the “display in form” option enabled, or if it is calculated and displayed using program rules.
 
 | Variable | Type | Calculation |
 |---|---|---|
