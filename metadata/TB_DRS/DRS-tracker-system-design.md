@@ -411,3 +411,134 @@ Configure whether the country has an option of sending samples to SRL (supranati
 | LPA (Fluoroquinolones / Second-line Injectables) |||
 |---|---|---|
 | TB-Drugs: LPA (Fq/2Li) - Ethambutol | Value "1" = include Ethambutol Result in LPA (Fq/2LI) Test. <br> Value "2" = exclude Ethambutol Result from LPA (Fq/2LI) Test. | AiyTLOJHMkl |
+
+### Top Bar Widget
+
+The top bar widget within the Tracker Capture app is useful for the data entry user to have a snapshot overview of information about the TEI (case) every time the TEI enrollment is opened for this program.
+
+The table below summarizes program indicators and variables displayed in the Top Bar Widget and how they are calculated. “Type” refers to whether a particular variable is configured as a program indicator with the “display in form” option enabled, or if it is calculated and displayed using 
+program rules.
+
+| Variable | Type | Calculation |
+|---|---|---|
+| Current age (years) | Program indicator | Number of years between current date and the “Date of birth (age)” tracked entity attribute. |
+| Treatment history | Program rule | History of previous treatment based on Case Report Form (New/Previously treated) |
+| Resistance (Rif, Inh, Fq) | Program rule | Lists the drugs for which drug resistance have been detected and recorded in the NRL - DRS Samples 1-4 stages |
+
+### Feedback Widget
+
+The following feedback messages are configured to display in the Feedback Widget when certain conditions are met as outlined in the table below:
+
+| Message | Condition |
+|---|---|
+| You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates. | **Error:** Date of laboratory result preceeds the date of sample collection |
+| You entered a laboratory result before the date of inoculation. Laboratory result date must be on or after inoculation date. Please check both dates. | **Error:** Date of laboratory result preceeds the date of inoculation |
+| Answer "Yes" has been assigned automatically. The patient is either registered for TB treatment already and/or has confirmed previous treatment for TB. | **Warning:** The previous treatment history status is assgned automatically based on the anwers in the Case Report Form |
+| If initial screening is based on microscopy examination of > 2 samples then add only the 2 samples with the highest bacterial load. | **Warning:** User can only add screening data from two samples only |
+
+### Analytics and Indicators
+
+This section describes dashboards and analytics that have been configured for an analytics user.
+
+The package comes with the following set of indicators and dashboards:
+
+- DRS - 01. Enrollment
+  - Cumulative enrollment data and enrollment data for the last 12 months
+    - Total enrolled patients
+    - Enrolled new patients
+    - Emrolled previously treated patients
+    - Enrolled patients with unknown treatment history
+    - Enrolled patients by facility
+- DRS - 02. Missing data report:
+  - Missing data report showing, out of all enrolled patients, how many are missing results for final treatment history classification, age, gender and HIV
+  - Missing data line list
+- DRS - 03. Sample transport, laboratory processing and test results (general)
+  - Turn-around time for sample transport and processing
+    - Days from sample collection to sample arrival at NTRL
+    - Samples turn-around time - cumulative percentage table
+    - Average number of days from sample collection to sample arrival at NTRL
+  - Laboratory results
+    - Percentage of samples rejected on arrival at NTRL
+    - Progress in processing of samples for all available tests
+- DRS - 04. Microscopy
+  - Samples and patients with microscopy result
+  - Microscopy results per patient
+- DRS - 05. Xpert MTB/RIF
+  - Turn-around time for sample processing
+  - Samples and patients tested with Xpert MTB/RIF
+  - Patients with multiple samples tested by Xpert MTB/RIF
+  - Detection of MTB
+  - Rifampicin resistance
+  - Test results per sample
+- DRS - 06. Xpert MTB/RIF Ultra
+  - Turn-around time for sample processing
+  - Samples and patients tested with Xpert MTB/RIF Ultra
+  - Patients with multiple samples tested by Xpert MTB/RIF Ultra
+  - Detection of MTB
+  - Rifampicin resistance
+  - Test results per sample
+- DRS - 07. Culture in solid media (e.g. LJ)
+  - Turn-around time for sample processing
+  - Samples and patients tested
+  - Patients with multiple samples tested by Culture in solid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 08. Culture in liquid media (e.g. MGIT)
+  - Turn-around time for sample processing
+  - Samples and patients tested
+  - Patients with multiple samples tested by Culture in liquid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 09. Initial DST in solid media (e.g. LJ)
+  - Samples and patients tested
+  - Patients with multiple samples tested by Initial DST in solid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 10. Initial DST in liquid media (e.g. MGIT)
+  - Samples and patients tested
+  - Patients with multiple samples tested by Initial DST in liquid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 11. Subsequent DST in solid media (e.g. LJ)
+  - Samples and patients tested
+  - Patients with multiple samples tested by Subsequent DST in solid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 12. Subsequent DST in liquid media (e.g. MGIT)
+  - Samples and patients tested
+  - Patients with multiple samples tested by Subsequent DST in liquid media
+  - Test results per patient
+  - Test results per sample
+- DRS - 13. LPA (Rif/Inh)
+  - Turn-around time for sample processing
+  - Samples and patients tested
+  - Patients with multiple samples tested by LPA (Rif/Inh)
+  - Detection of MTB
+  - Test results per patient
+  - Test results per sample
+- DRS - 14. LPA (Fq/2LI)
+  - Turn-around time for sample processing
+  - Samples and patients tested
+  - Patients with multiple samples tested by LPA (Fq/2LI)
+  - Detection of MTB
+  - Test results per patient
+  - Test results per sample
+- DRS - 15. Maps
+  - RR-TB patients (by health facility)
+  - Patients with isoniazid resistant and rifampicin susceptible TB (by health facility)
+  - RR-TB patients resistant to Fq (by health facility)
+
+If a country is not using certain tests from the list at NRLs, the corresponding dashboards can be removed.
+
+## User Groups
+
+The following user groups are included in the Anti-Tuberculosis Drug Resistance Survey (DRS) Package:
+
+TB DRS Admin: can edit/view metadata; no access to data [all program stages]
+TB DRS Data capture: can view metadata, can capture data [all program stages]
+TB DRS Access: cam view metadata, can view data [all program stages]
+
+## References
+
+- Guidance for ensuring good clinical and data management practices for national TB surveys. Geneva: World Health Organization; 2021.
+- Guidance for the surveillance of drug resistance in tuberculosis - Sixth edition. Geneva: World Health Organization; 2021.
