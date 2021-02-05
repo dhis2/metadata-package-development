@@ -1,3 +1,4 @@
+
 # COVID-19 Immunization (COVAX) - Aggregate System Design Guide
 
 ## Introduction
@@ -37,7 +38,7 @@ The system design builds upon existing disease surveillance and vaccination guid
 
 ## System Design Summary
 
-In the development of this configuration package, an effort has been made to follow UiO&#39;s [general design principles](https://who.dhis2.org/documentation/general_design_principles.html) and a common [naming convention](https://who.dhis2.org/documentation/naming_convention.html).
+In the development of this configuration package, an effort has been made to follow UiO's [general design principles](https://who.dhis2.org/documentation/general_design_principles.html) and a common [naming convention](https://who.dhis2.org/documentation/naming_convention.html).
 
 The aggregate COVAX package includes:
 
@@ -64,7 +65,7 @@ The package captures a minimum number of data points that meet the current WHO r
 - Yearly periodicity
 - Purpose: Target setting for general and priority populations to be offered the vaccination. This is different from the population estimate used to compute coverage.
 
-It is recommended that the daily dataset is assigned to Organisation Units at the lowest level of the health system feasible for reporting data, such as health facilities. The annual dataset should instead be assigned at district level. Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [GooglePlay store](https://play.google.com/store/apps/details?id=com.dhis2&amp;hl=en).
+It is recommended that the Vaccination Report and the Vaccine Stock datasets get assigned to Organisation Units at the lowest level of the health system feasible for reporting data, such as health facilities. The Target Population dataset could instead be assigned at district level or at the same level as the other two datasets depending on the availability of detailed population-related information. Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [GooglePlay store](https://play.google.com/store/apps/details?id=com.dhis2&amp;hl=en).
 
 ## Intended users
 
@@ -78,33 +79,45 @@ It is recommended that the daily dataset is assigned to Organisation Units at th
 
 #### Section 1: Doses administered by vaccine/age/sex
 
-Data should be entered for all the administered doses recorded during the reporting period. The 2nd+ dose accounts for all the administered 2nd, 3rd, or booster doses depending on the schedule of the available vaccine. Once a patient has completed all the doses, they are to be tallied also in the "Completed schedule" DE in order to have the overview of the total number of people fully vaccinated independently from the type of vaccine and its schedule.
+Data should be entered for all the vaccinated people by number of received dose (1st, 2nd, and booster), by sex (male and female), by age groups (0-59 years and 60+ years) and by type of vaccine administered (Vaccine 1, 2, 3 as place holders for the name of the used vaccine).
 
-![Image 1](resources/images/COVAX_AGG_1.png)
+![Vaccination Report Data Entry Form](resources/images/COVAX_AGG_1.png)
 
-#### Section 2: Doses administered by priority groups
+#### Section 2: Doses administered to front line healthcare workers
 
-This section captures The number of doses administered to key population groups. It is important to note that this is a subdivision of the first section, which means that the total number also includes the key target population.
+This section captures the number of doses administered to key population groups - in this case front line HCWs. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive (as per vaccination module eJRF).
 
-![Image 2](resources/images/COVAX_AGG_2.png)
+![Healthcare Workers](resources/images/COVAX_AGG_2.png)
 
-#### Section 3: Doses discarded/wasted by reason
+#### Section 3: Doses administered to essential workers
+
+This section captures the number of doses administered to key population groups - in this case essential workers. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive (as per vaccination module eJRF).
+
+![Essential Workers](resources/images/COVAX_AGG_3.png)
+
+#### Section 4: Doses administered to people wit at least one underlying medical condition
+
+This section captures the number of doses administered to key population groups - in this case people with at least one underlying condition determined to be at significantly higher risk of severe disease or death. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive (as per vaccination module eJRF).
+
+![Underlying Conditions](resources/images/COVAX_AGG_4.png)
+
+#### Section 5: Doses discarded/wasted by reason
 
 Waste is a core parameter to monitor quality of care and of supply chain. This section tracks doses wasted while being administered by condition of the vial and reasons for discard.
 
-![Image 3](resources/images/COVAX_AGG_3.png)
+![Doses Discarded](resources/images/COVAX_AGG_5.png)
 
-#### Section 4: AEFIs by vaccine and severity
+#### Section 6: AEFIs by vaccine and severity
 
 This section provides an overview of the adverse events following immunizations recorded by severity. Note that the reporting of AEFIs needs to be followed by a full investigation as per Country Guidelines.
 
-![Image 4](resources/images/COVAX_AGG_4.png)
+![AEFI](resources/images/COVAX_AGG_6.png)
 
-## Section 5: Staff Workload
+#### Section 7: Staff workload
 
 This section is aimed at providing a snapshot of the availability of medical staff during the roll-out of the vaccination activities.
 
-![Image 5](resources/images/COVAX_AGG_5.png)
+![Workload](resources/images/COVAX_AGG_7.png)
 
 ### 2. COVAX - Vaccine Stock Data Entry Form
 
@@ -112,19 +125,19 @@ This section is aimed at providing a snapshot of the availability of medical sta
 
 This is a &quot;read-only&quot; section that will be pre-configured using constants and indicators to display for doses in a vaccine vial. As countries will be likely to use different vaccines, they need to specify how many doses can be extracted in each vial in order to create constants for the calculations of doses vs vials in the next section. This should be updated as explained in the section for Constants metadata.
 
-![Image 6](resources/images/COVAX_AGG_6.png)
+![Doses in a vaccine vial](resources/images/COVAX_AGG_8.png)
 
 #### Section 2: Vaccine Stock Status
 
 The vaccines are divided by the different categories needed to monitor the stock. The doses and the closing balance will be automatically calculated.
 
-![Image 7](resources/images/COVAX_AGG_7.png)
+![Vaccine stock status](resources/images/COVAX_AGG_9.png)
 
 #### Section 3: Stock status of other items
 
 Similarly to section 2, this section provides the core info for the management of other items needed during vaccination activities (e.g. syringes, cold boxes). The closing balance will be automatically calculated.
 
-![Image 8](resources/images/COVAX_AGG_8.png)
+![Stock - other items](resources/images/COVAX_AGG_10.png)
 
 ### 3. COVAX - Target population (Annual) Data Entry Form
 
@@ -132,13 +145,13 @@ Similarly to section 2, this section provides the core info for the management o
 
 This section requires the population estimates by sex and age groups.
 
-![Image 9](resources/images/COVAX_AGG_9.png)
+![Target population](resources/images/COVAX_AGG_11.png)
 
 #### Section 2: Targeted priority groups
 
 As mentioned in the first dataset, this is a sub-grouping of the first section of this dataset. This means that the two sections are not mutually exclusive - the totals entered in this section are meant to be included also in the total by age and sex.
 
-![Image 10](resources/images/COVAX_AGG_10.png)
+![Targeted priority groups](resources/images/COVAX_AGG_12.png)
 
 ## Customizing Data Entry Forms
 
@@ -177,36 +190,50 @@ The following data elements have been created and used to design the dataSet and
 | COVAX - Discarded cold boxes | |
 | COVAX - Discarded safety boxes | |
 | COVAX - Discarded syringes with needle 1ml | |
+| COVAX - Discarded diluent | |
+| COVAX - Discarded dilution syringes | |
 | COVAX - Discarded vaccination cards | |
 | COVAX - Discarded vials | COVID19 Vaccine |
 | COVAX - Distributed cold boxes | |
 | COVAX - Distributed safety boxes | |
 | COVAX - Distributed syringes with needle 1ml | |
+| COVAX - Distributed diluent| |
+| COVAX - Distributed dilution syringes| |
 | COVAX - Distributed vaccination cards | |
 | COVAX - Distributed vials | COVID19 Vaccine |
 | COVAX - Opening balance cold boxes | |
 | COVAX - Opening balance safety boxes | |
 | COVAX - Opening balance syringes with needle 1ml | |
+| COVAX - Opening balance diluent | |
+| COVAX - Opening balance dilution syringes | |
 | COVAX - Opening balance vaccination cards | |
 | COVAX - Opening balance vials | COVID19 Vaccine |
 | COVAX - Received cold boxes | |
 | COVAX - Received safety boxes | |
 | COVAX - Received syringes with needle 1ml | |
+| COVAX - Received diluent | |
+| COVAX - Received dilution syringes | |
 | COVAX - Received vaccination cards | |
 | COVAX - Received vials | COVID19 Vaccine |
 | COVAX - Redistributed cold boxes | |
 | COVAX - Redistributed safety boxes | |
 | COVAX - Redistributed syringes with needle 1ml | |
+| COVAX - Redistributed diluent | |
+| COVAX - Redistributed dilution syringes | |
 | COVAX - Redistributed vaccination cards | |
 | COVAX - Redistributed vials | COVID19 Vaccine |
 | COVAX - Stock on hand cold boxes | |
 | COVAX - Stock on hand safety boxes | |
 | COVAX - Stock on hand syringes with needle 1ml | |
+| COVAX - Stock on hand diluent | |
+| COVAX - Stock on hand dilution syringes | |
 | COVAX - Stock on hand vaccination cards | |
 | COVAX - Stock on hand vials | COVID19 Vaccine |
 | COVAX - Stockout days cold boxes | |
 | COVAX - Stockout days safety boxes | |
 | COVAX - Stockout days syringes with needle 1ml | |
+| COVAX - Stockout days diluent | |
+| COVAX - Stockout days dilution syringes | |
 | COVAX - Stockout days vaccination cards | |
 | COVAX - Stockout days vaccine1 | |
 | COVAX - Stockout days vaccine2 | |
@@ -214,7 +241,7 @@ The following data elements have been created and used to design the dataSet and
 
 ## Data Validation Rules
 
-The following data validation rules have been configured to validate data across the 3 dataSets as outlined in the on the table below. Currently all dataSets allow completion even when the rules fail but further configurations can be made to enforce the rules and additional rules can be created by implementers as deemed necessary.
+The following data validation rules have been configured to validate data across the three data sets as outlined in the on the table below. Currently all data sets allow completion even when the rules fail but further configurations can be made to enforce the rules and additional rules can be created by implementers as deemed necessary.
 
 | **COVAX - Vaccine stock dataSet** |||||
 | --- | --- | --- | --- | --- |
@@ -234,15 +261,15 @@ The following data validation rules have been configured to validate data across
 | --- | --- | --- | --- | --- |
 | *Name* | *Instruction* | *Left side* | *Operator* | *Right side* |
 | COVAX - Essential workers given 1st dose Vs People given 1st dose | Essential workers given 1st dose should be less than or equal to People given 1st dose | Essential workers given 1st dose | less\than\or\equal\to | People given 1st dose |
-| COVAX - Essential workers given 2+ dose Vs People given 2+ dose | Essential workers given 2+ dose should be less than or equal to People given 2+ dose | Essential workers given 2+ dose | less\than\or\equal\to | People given 2+ dose |
-| COVAX - Essential workers given last dose Vs People given last dose | Essential workers given last dose should be less than or equal to People given last dose | Essential workers given last dose | less\than\or\equal\to | People given last dose |
+| COVAX - Essential workers given 2nd dose Vs People given 2nd dose | Essential workers given 2+ dose should be less than or equal to People given 2nd dose | Essential workers given 2nd dose | less\than\or\equal\to | People given 2nd dose |
+| COVAX - Essential workers given booster dose Vs People given booster dose | Essential workers given booster dose should be less than or equal to People given booster dose | Essential workers given booster dose | less\than\or\equal\to | People given booster dose |
 | COVAX - Frontline healthcare workers given 1st dose Vs People given 1st dose | Frontline healthcare workers given 1st dose should be less than or equal to People given 1st dose | Frontline healthcare workers given 1st dose | less\than\or\equal\to | People given 1st dose |
-| COVAX - Frontline healthcare workers given 2+ dose Vs People given 2+ dose|Frontline healthcare workers given 2+ dose should be less than or equal to People given 2+ dose | Frontline healthcare workers given 2+ dose | less\than\or\equal\to | People given 2+ dose |
-| COVAX - Frontline healthcare workers given last dose Vs People given last dose | Frontline healthcare workers given last dose should be less than or equal to People given last dose | Frontline healthcare workers given last dose | less\than\or\equal\to | People given last dose |
+| COVAX - Frontline healthcare workers given 2nd dose Vs People given 2+ dose|Frontline healthcare workers given 2nd dose should be less than or equal to People given 2nd dose | Frontline healthcare workers given 2nd dose | less\than\or\equal\to | People given 2nd dose |
+| COVAX - Frontline healthcare workers given last dose Vs People given booster dose | Frontline healthcare workers given booster dose should be less than or equal to People given booster dose | Frontline healthcare workers given booster dose | less\than\or\equal\to | People given booster dose |
 | COVAX - People with underlying medical conditions given 1st dose Vs People given 1st dose | People with underlying medical conditions given 1st dose should be less than or equal to People given 1st dose | People with underlying medical conditions given 1st dose | less\than\or\equal\to | People given 1st dose |
-| COVAX - People with underlying medical conditions given 2+ dose Vs People given 2+ dose | People with underlying medical conditions given 2+ dose should be less than or equal to People given 2+ dose | People with underlying medical conditions given 2+ dose | less\than\or\equal\to | People given 2+ dose |
-| COVAX - People with underlying medical conditions given last dose Vs People given last dose | People with underlying medical conditions given last dose should be less than or equal to People given last dose | People with underlying medical conditions given last dose | less\than\or\equal\to | People given last dose |
-| COVAX - Staff available at centre today Vs Staff expected at centre today | Staff available at centre today should be less than or equal to staff expected at centre today | Staff available at centre today | less\than\or\equal\to | Staff expected at centre today |
+| COVAX - People with underlying medical conditions given 2+ dose Vs People given 2nd dose | People with underlying medical conditions given 2nd dose should be less than or equal to People given 2nd dose | People with underlying medical conditions given 2nd dose | less\than\or\equal\to | People given 2nd dose |
+| COVAX - People with underlying medical conditions given booster dose Vs People given booster dose | People with underlying medical conditions given booster dose should be less than or equal to People given booster dose | People with underlying medical conditions given booster dose | less\than\or\equal\to | People given booster dose |
+| COVAX - Staff available at PoC Vs Staff expected at PoC| Staff available at PoC should be less than or equal to staff expected at PoC | Staff available at PoC | less\than\or\equal\to | Staff expected at PoC |
 
 | *COVAX - Target Population* |||||
 | --- | --- | --- | --- | --- |
@@ -251,13 +278,13 @@ The following data validation rules have been configured to validate data across
 
 ## Constants
 
-The following constants have been created to allow for one-time capture of number doses in a vial for each vaccine. Once a country agrees on the vaccines to be administered, these constants should be updated by the implementers with the correct name of the vaccine and value of doses in vials for each. Currently vaccine1, vaccine2 and vaccine3 have been used for the names with values 4, 5 and 6 respectively. This could be updated to; for example Pfizer, Morderna and Astrazenca with values 6, 6 and 5 respectively.
+The following constants have been created to allow for one-time capture of number doses in a vial for each vaccine. Once a country agrees on the vaccines to be administered, these constants should be updated by the implementers with the correct name of the vaccine and value of doses in vials for each. Currently vaccine 1, vaccine 2 and vaccine 3 have been used for the names with values 4, 5 and 6 respectively. This could be updated to; for example Pfizer, Morderna and AstraZeneca with values 6, 6 and 5 respectively.
 
 | **Name** | **Shortname** | **Value** |
 | --- | --- | --- |
-| COVAX - Doses in a vial - Vaccine1 | Doses in a vial - Vaccine1 | 4 |
-| COVAX - Doses in a vial - Vaccine2 | Doses in a vial - Vaccine2 | 5 |
-| COVAX - Doses in a vial - Vaccine3 | Doses in a vial - Vaccine3 | 6 |
+| COVAX - Doses in a vial - Vaccine 1 | Doses in a vial - Vaccine 1 | 4 |
+| COVAX - Doses in a vial - Vaccine 2 | Doses in a vial - Vaccine 2 | 5 |
+| COVAX - Doses in a vial - Vaccine 3 | Doses in a vial - Vaccine 3 | 6 |
 
 ## Indicators
 
@@ -266,22 +293,22 @@ From the data captured, we can calculate at least the following indicators -- ma
 | **Vaccination monitoring indicators** |||
 | --- | --- | --- |
 | **Name** | **Numerator** | **Denominator** |
-| Dropout rates among all people targeted | Given 1st dose - Given last dose | Given 1st dose |
-| Dropout rates among essential workers(%) | Given 1st dose - Given last dose | Given 1st dose |
-| Dropout rates among frontline healthcare workers(%) | Given 1st dose - Given last dose | Given 1st dose |
-| Dropout rates among people with underlying medical conditions(%) | Given 1st dose - Given last dose | Given 1st dose |
+| Dropout rates among all people targeted | Given 1st dose - Given 2nd dose | Given 1st dose |
+| Dropout rates among essential workers(%) | Given 1st dose - Given 2nd dose | Given 1st dose |
+| Dropout rates among front line healthcare workers(%) | Given 1st dose - Given 2nd dose | Given 1st dose |
+| Dropout rates among people with underlying medical conditions(%) | Given 1st dose - Given 2nd dose | Given 1st dose |
 | Proportion of staff available | Staff available | Expected staff |
 | Proportion of target essential workers given 1st dose | Target essential workers who received 1st dose | Target essential workers |
-| Proportion of target essential workers given last dose | Target essential workers given last dose | Target essential workers |
-| Proportion of target frontline healthcare workers given 1st dose | Target frontline healthcare workers given 1st dose | Target frontline healthcare workers |
-| Proportion of target frontline healthcare workers given last dose | Target frontline healthcare workers given last dose | Target frontline healthcare workers |
+| Proportion of target essential workers given 2nd dose | Target essential workers given 2nd dose | Target essential workers |
+| Proportion of target front line healthcare workers given 1st dose | Target front line healthcare workers given 1st dose | Target front line healthcare workers |
+| Proportion of target front line healthcare workers given booster dose | Target front line healthcare workers given booster dose | Target front line healthcare workers |
 | Proportion of target people given 1st dose | Target people given 1st dose | Target population |
-| Proportion of target people given last dose | Target people given last dose | Target population |
+| Proportion of target people given last dose | Target people given booster dose | Target population |
 | Proportion of target people with underlying medical conditions given 1st dose | Target people with existing conditions given 1st dose | Target people with existing medical conditions |
-| Proportion of target people with underlying medical conditions given last dose | Target people with existing conditions given last dose | Target people with underlying medical conditions |
-| Vaccine1 uptake (%) | Vaccine1 doses given | Total doses of all vaccines given |
-| Vaccine2 uptake (%) | Vaccine2 doses given | Total doses of all vaccines given |
-| Vaccine3 uptake (%) | Vaccine3 doses given | Total doses of all vaccines given |
+| Proportion of target people with underlying medical conditions given booster dose | Target people with existing conditions given booster dose | Target people with underlying medical conditions |
+| Vaccine 1 uptake (%) | Vaccine 1 doses given | Total doses of all vaccines given |
+| Vaccine 2 uptake (%) | Vaccine 2 doses given | Total doses of all vaccines given |
+| Vaccine 3 uptake (%) | Vaccine 3 doses given | Total doses of all vaccines given |
 | Closed vials wastage (%) | Closed vial doses discarded | Discarded doses |
 | Opened vials wastage (%) | Opened vial doses discarded | Discarded doses |
 | Vaccination reporting rates | Actual reports received | Expected reports |
@@ -307,6 +334,8 @@ From the data captured, we can calculate at least the following indicators -- ma
 | Closing balance syringes with needle 1ml | (Opening balance+Received)-(Distributed+Redistributed+Discarded) | 1 |
 | Closing balance vaccination cards | (Opening balance+Received)-(Distributed+Redistributed+Discarded) | 1 |
 | Closing balance vials | (Opening balance+Received)-(Distributed+Redistributed+Discarded) | 1 |
+| Closing balance diluent | (Opening balance+Received)-(Distributed+Redistributed+Discarded) | 1 |
+| Closing balance dilution syringes | (Opening balance+Received)-(Distributed+Redistributed+Discarded) | 1 |
 
 ## Dashboard
 
@@ -314,11 +343,11 @@ The package includes a predefined dashboard with the minimum amount of informati
 
 The first part of the dashboard summarizes the core indicators - vaccine uptake, distribution, dropouts, AEFIs.
 
-![Image 11](resources/images/COVAX_AGG_11.png)
+![Image 13](resources/images/COVAX_AGG_13.png)
 
 The second part of the dashboard is instead dedicated to the overview of the stock management. Here the user can have an overview of the stock at hand, reporting, and waste.
 
-![Image 12](resources/images/COVAX_AGG_12.png)
+![Image 12](resources/images/COVAX_AGG_14.png)
 
 ## User Groups
 
