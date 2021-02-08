@@ -8,7 +8,7 @@ The module allows export of standardised, analysis-ready, csv files and includes
 
 ## Purpose and Intended Audience
 
-This document describes the conceptual design, content and functionality for a standard DHIS2 DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in tuberculosis  (add reference).
+This document describes the conceptual design, content and functionality for a standard DHIS2 DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in tuberculosis.
 This document is intended for audiences responsible for implementing TB data systems and/or HMIS in countries, as well as those specifically tasked with implementing a DRS as follows:
 
 1. System admins/HMIS focal points: those responsible for installing metadata packages, designing and maintaining HMIS and/or TB data systems
