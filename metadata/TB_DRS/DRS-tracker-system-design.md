@@ -526,6 +526,12 @@ The package comes with the following set of indicators and dashboards:
   - Patients with isoniazid resistant and rifampicin susceptible TB (by health facility)
   - RR-TB patients resistant to Fq (by health facility)
 
+![Dashboard example 1](resources/images/DRS_23.png)
+
+![Dashboard example 2](resources/images/DRS_24.png)
+
+![Dashboard example 3](resources/images/DRS_25.png)
+
 If a country is not using certain tests from the list at NRLs, the corresponding dashboards can be removed.
 
 ## User Groups
