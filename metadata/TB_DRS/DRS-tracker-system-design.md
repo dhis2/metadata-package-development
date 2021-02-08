@@ -8,7 +8,7 @@ The module allows export of standardised, analysis-ready, csv files and includes
 
 ## Purpose and Intended Audience
 
-This document describes the conceptual design, content and functionality for a standard DHIS2 DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in tuberculosis  (add reference).
+This document describes the conceptual design, content and functionality for a standard DHIS2 DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in tuberculosis.
 This document is intended for audiences responsible for implementing TB data systems and/or HMIS in countries, as well as those specifically tasked with implementing a DRS as follows:
 
 1. System admins/HMIS focal points: those responsible for installing metadata packages, designing and maintaining HMIS and/or TB data systems
@@ -30,7 +30,7 @@ This document describes a fully customisable electronic data-capture tool for an
 
 ### Use Case
 
-The TB DRS module enables registration of TB cases enrolled in a survey, and subsequent electronic data capture and tracking of laboratory tests and drug susceptibility test results for specimens submitted from each TB case to NRL, following initial bacteriological confirmation of TB at health facilities enrolling eligible cases. The module captures a minimum set of variables required for epidemiological analysis of survey data as recommended in the WHO’s Guidance for the surveillance of drug resistance in tuberculosis (ref [footnote?]). These comprise clinical and socio-demographic information about the case (including history of previous anti-TB treatment and optional additional information on potential risk factors for drug resistance in tuberculosis), laboratory tests conducted on each sample submitted for testing, and laboratory results comprising resistance classification to selected anti-TB drugs. The TB DRS module is not designed to support clinical management nor patient care. The module serves as an electronic registry and database typically supporting centralised electronic data capture at NTP and/or NRL central premises. Depending on the country’s infrastructure and resource availability,  the module may be adapted to support decentralized electronic data capture at the health facility level. Parts of the module are also configured to allow data entry directly by SRL and other external supporting partners.
+The TB DRS module enables registration of TB cases enrolled in a survey, and subsequent electronic data capture and tracking of laboratory tests and drug susceptibility test results for specimens submitted from each TB case to NRL, following initial bacteriological confirmation of TB at health facilities enrolling eligible cases. The module captures a minimum set of variables required for epidemiological analysis of survey data as recommended in the WHO’s Guidance for the surveillance of drug resistance in tuberculosis. These comprise clinical and socio-demographic information about the case (including history of previous anti-TB treatment and optional additional information on potential risk factors for drug resistance in tuberculosis), laboratory tests conducted on each sample submitted for testing, and laboratory results comprising resistance classification to selected anti-TB drugs. The TB DRS module is not designed to support clinical management nor patient care. The module serves as an electronic registry and database typically supporting centralised electronic data capture at NTP and/or NRL central premises. Depending on the country’s infrastructure and resource availability,  the module may be adapted to support decentralized electronic data capture at the health facility level. Parts of the module are also configured to allow data entry directly by SRL and other external supporting partners.
 
 The sampling strategy and the diagnostic algorithm of choice for an anti-TB drug resistance survey will vary depending on the country. A survey diagnostic algorithm often combines several phenotypic and/or molecular techniques for the drug susceptibility testing of the battery of drugs selected by the country.  The DRS module, currently considers the two most common survey designs (either exhaustive sampling of all health facilities in the country or cluster sampling) and all the WHO-recommended laboratory diagnostic techniques for drug susceptibility profiling in TB. Users can adapt the DRS module to fit their needs by selecting the survey design and the laboratory tests applicable to their survey. This includes configuration of the TB diagnostic test/s used at health facilities for the initial bacteriological confirmation of TB, and configuration of the numbers of sputum samples submitted to NRL for further testing. Configuration of mixed survey designs in cases of stratified sampling are also possible. The battery of anti-TB drugs included in the algorithm is also fully customisable.
 
@@ -525,6 +525,12 @@ The package comes with the following set of indicators and dashboards:
   - RR-TB patients (by health facility)
   - Patients with isoniazid resistant and rifampicin susceptible TB (by health facility)
   - RR-TB patients resistant to Fq (by health facility)
+
+![Dashboard example 1](resources/images/DRS_23.png)
+
+![Dashboard example 2](resources/images/DRS_24.png)
+
+![Dashboard example 3](resources/images/DRS_25.png)
 
 If a country is not using certain tests from the list at NRLs, the corresponding dashboards can be removed.
 
