@@ -532,9 +532,9 @@ If a country is not using certain tests from the list at NRLs, the corresponding
 
 The following user groups are included in the Anti-Tuberculosis Drug Resistance Survey (DRS) Package:
 
-TB DRS Admin: can edit/view metadata; no access to data [all program stages]
-TB DRS Data capture: can view metadata, can capture data [all program stages]
-TB DRS Access: cam view metadata, can view data [all program stages]
+- TB DRS Admin: can edit/view metadata; no access to data [all program stages]
+- TB DRS Data capture: can view metadata, can capture data [all program stages]
+- TB DRS Access: cam view metadata, can view data [all program stages]
 
 ## References
 
