@@ -102,7 +102,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-02-08T13:26:57.649",
+			"lastUpdated": "2021-02-08T15:40:50.238",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -355,7 +355,7 @@
 			"created": "2017-05-28T11:18:42.893",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bjDvmb4bfuf",
-			"lastUpdated": "2021-02-08T13:26:57.883",
+			"lastUpdated": "2021-02-08T15:21:50.531",
 			"name": "default",
 			"publicAccess": "r-------",
 			"skipTotal": false,
@@ -758,7 +758,7 @@
 			"created": "2017-05-28T11:18:42.894",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2021-02-08T13:26:58.096",
+			"lastUpdated": "2021-02-08T15:21:51.096",
 			"name": "default",
 			"translations": [
 				{
@@ -1701,10 +1701,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "MP15bHaQh2x"
+					"id": "O6UJSfL4psp"
 				},
 				{
-					"id": "O6UJSfL4psp"
+					"id": "MP15bHaQh2x"
 				}
 			],
 			"code": "TB-2534YM",
@@ -1998,10 +1998,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "MP15bHaQh2x"
+					"id": "Lo1gxiS8zap"
 				},
 				{
-					"id": "Lo1gxiS8zap"
+					"id": "MP15bHaQh2x"
 				}
 			],
 			"code": "TB-5564YM",
@@ -3671,7 +3671,7 @@
 			"code": "F",
 			"created": "2020-12-21T12:21:48.663",
 			"id": "FFA9e1yIXCT",
-			"lastUpdated": "2021-02-08T13:26:58.317",
+			"lastUpdated": "2021-02-08T15:21:51.627",
 			"name": "Female",
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
@@ -5316,7 +5316,7 @@
 			"code": "DEFAULT",
 			"created": "2017-05-28T11:18:42.872",
 			"id": "xYerKDKCefk",
-			"lastUpdated": "2021-02-08T13:26:58.754",
+			"lastUpdated": "2021-02-08T15:21:52.088",
 			"name": "default",
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
@@ -6399,7 +6399,7 @@
 			"hideTitle": false,
 			"id": "dqXV24zjpab",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:11.265",
+			"lastUpdated": "2021-02-08T15:20:15.063",
 			"name": "TBc_1.1_TB notifications",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -6455,7 +6455,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_1.1_TB Oznámení"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifications TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifikasi kasus TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.1_TB notificações "
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.1_Извещения о ТБ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.1_ТБ касаланиш"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -7429,7 +7460,7 @@
 			"hideTitle": false,
 			"id": "GL1rmJsVIax",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:05.683",
+			"lastUpdated": "2021-02-08T15:20:11.004",
 			"name": "TBc_3.6_Bacteriologically confirmed among all pulmonary TB cases (%)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -7485,7 +7516,28 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Bactériologiquement confirmés parmi les cas TB pulmonaires (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_3.6_Bacteriologicamente confirmado entre todos os casos de TB pulmonar (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_3.6_Бактериологически подтверждённые среди всех легочных ТБ случаев (%)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_3.6_Барча ўпка ТБ ҳолатлари ичида бактериал тасдиқланган (%)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -7870,7 +7922,7 @@
 			"hideTitle": false,
 			"id": "LguXYuBEmNQ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.054",
+			"lastUpdated": "2021-02-08T15:20:11.534",
 			"name": "TBc_1.1_TB notifications (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -7927,7 +7979,33 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"title": "TB notification rate, annual - national",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Notification TB (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifikasi kasus TB (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Notificações TBc_1.1_TB (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.1_ТБ извещения (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.1_ТБ касаланиш (йиллик)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -8166,7 +8244,7 @@
 			"hideTitle": false,
 			"id": "LrUYQgoxjjU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.234",
+			"lastUpdated": "2021-02-08T15:20:12.042",
 			"name": "TBc_6.3_TB/HIV (%)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -8263,7 +8341,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_6.3_TB / HIV (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TB/VIH (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_6.3_TB/HIV (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_6.3_TB/HIV (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_6.3_ТБ/ВИЧ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_6.3_ТБ/ОИВ (%)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -8451,7 +8560,7 @@
 			"hideTitle": false,
 			"id": "MtQa13mO6rU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.417",
+			"lastUpdated": "2021-02-08T15:20:12.553",
 			"name": "TBc_4.1_TB treatment success rate for DS-TB (%) (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -8512,7 +8621,33 @@
 			"subscribers": [],
 			"targetLineLabel": "≥ 90%",
 			"targetLineValue": 90,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de succès thérapeutique de la TB -  District sanitaire (%) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_4.1_Angka keberhasilan pengobatan TB pada kasus TB SO (%) (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_4.1_TB taxa de sucesso do tratamento para DS-TB (%) (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_4.1_Доля успешного лечения ЛУ-ТБ (%) (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_4.1_Дорига сезгир ТБ учун муваффақиятли даво даражаса (%) (йиллик)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -8694,7 +8829,7 @@
 			"hideTitle": false,
 			"id": "n5RtZTSpSMB",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:12.997",
+			"lastUpdated": "2021-02-08T15:20:15.764",
 			"name": "TBc_3.6_Bacteriologically confirmed among all pulmonary TB cases (%) (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -8750,7 +8885,28 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_3.6_Bactériologiquement confirmés parmi tous les cas pulmonaires (%) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_3.6_Kasus TB yang terkonfirmasi bakteriologis di antara semua kasus TB paru (%) (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_3.6_Bacteriologicamente confirmado entre todos os casos de TB pulmonar (%) (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_3.6_Бактериологически подтверждённые среди всех легочных ТБ случаев (%) (годовой)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -9879,7 +10035,7 @@
 			"hideTitle": false,
 			"id": "RebWOM2dwTr",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:07.994",
+			"lastUpdated": "2021-02-08T15:20:13.045",
 			"name": "TBc_2.2_Population",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -9935,7 +10091,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_2.2_Populace"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_2.2_Penduduk"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_2.2_População"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_2.2_Население"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_2.2_Аҳоли"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -10117,7 +10304,7 @@
 			"hideTitle": false,
 			"id": "SlEHkRsqvAC",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.191",
+			"lastUpdated": "2021-02-08T15:20:13.545",
 			"name": "TBc_6.1_TB/HIV",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -10211,7 +10398,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_6.1 _TB/VIH"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_6.1_ТБ/ВИЧ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_6.1_ТБ/ОИВ"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -10309,7 +10527,7 @@
 			"hideTitle": false,
 			"id": "TfeoSE7Ha8F",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.459",
+			"lastUpdated": "2021-02-08T15:20:14.023",
 			"name": "TBc_1.2_New and relapse cases by age group and sex",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -10364,7 +10582,33 @@
 			"seriesItems": [],
 			"showData": false,
 			"sortOrder": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.2_Nouveaux cas et rechutes par groupe d'âge et sexe"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.2_Kasus baru dan kambuh berdasarkan kelompok umur dan jenis kelamin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.2_Novos casos e recidivas por faixa etária e sexo"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.2_Новые и рецидивные случаи по возрастной группе и полу"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Тбс_1.2_Ёши ва жинсига кўра янги ва қайталанган ҳолатлар"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -10462,7 +10706,7 @@
 			"hideTitle": false,
 			"id": "VBUUGBP8RFn",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.880",
+			"lastUpdated": "2021-02-08T15:20:14.533",
 			"name": "TBc_1.2_New and relapse cases by age group and sex (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -10517,7 +10761,33 @@
 			"seriesItems": [],
 			"showData": false,
 			"sortOrder": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.2_Nouveaux cas et rechutes par groupe d'âge et sexe (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.2_Kasus baru dan kambuh berdasarkan kelompok umur dan jenis kelamin (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.2_Novos casos e recidivas por faixa etária e sexo (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.2_Новые и рецидивные случаи по возрастной группе и полу  (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.2_Ёши ва жинсига кўра янги ва қайталанган ҳолатлар (йиллик)"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -20512,39 +20782,6 @@
 			"dataSetElements": [
 				{
 					"categoryCombo": {
-						"id": "mYvRBhu9rSh"
-					},
-					"dataElement": {
-						"id": "BXN41jBKb9c"
-					},
-					"dataSet": {
-						"id": "kiODgwGG9I2"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "jL7xOEwVdDX"
-					},
-					"dataSet": {
-						"id": "kiODgwGG9I2"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "me7x7kaqWth"
-					},
-					"dataSet": {
-						"id": "kiODgwGG9I2"
-					}
-				},
-				{
-					"categoryCombo": {
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
@@ -20567,10 +20804,43 @@
 				},
 				{
 					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "me7x7kaqWth"
+					},
+					"dataSet": {
+						"id": "kiODgwGG9I2"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "jL7xOEwVdDX"
+					},
+					"dataSet": {
+						"id": "kiODgwGG9I2"
+					}
+				},
+				{
+					"categoryCombo": {
 						"id": "mYvRBhu9rSh"
 					},
 					"dataElement": {
 						"id": "zgrK8yB9Tsp"
+					},
+					"dataSet": {
+						"id": "kiODgwGG9I2"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "mYvRBhu9rSh"
+					},
+					"dataElement": {
+						"id": "BXN41jBKb9c"
 					},
 					"dataSet": {
 						"id": "kiODgwGG9I2"
@@ -20686,21 +20956,10 @@
 			"dataSetElements": [
 				{
 					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
+						"id": "mYvRBhu9rSh"
 					},
 					"dataElement": {
-						"id": "k6HZ0Z9zFer"
-					},
-					"dataSet": {
-						"id": "lYNYevNTO7B"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "URwo7ZKQilR"
+						"id": "Ns5mfRqKAe3"
 					},
 					"dataSet": {
 						"id": "lYNYevNTO7B"
@@ -20722,7 +20981,18 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "naqurivGjIK"
+						"id": "mruHvHAumOI"
+					},
+					"dataSet": {
+						"id": "lYNYevNTO7B"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "mYvRBhu9rSh"
+					},
+					"dataElement": {
+						"id": "s2OAugtcXPM"
 					},
 					"dataSet": {
 						"id": "lYNYevNTO7B"
@@ -20744,40 +21014,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "EIHWLztODGi"
-					},
-					"dataSet": {
-						"id": "lYNYevNTO7B"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "mruHvHAumOI"
-					},
-					"dataSet": {
-						"id": "lYNYevNTO7B"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "mYvRBhu9rSh"
-					},
-					"dataElement": {
-						"id": "Ns5mfRqKAe3"
-					},
-					"dataSet": {
-						"id": "lYNYevNTO7B"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "mYvRBhu9rSh"
-					},
-					"dataElement": {
-						"id": "s2OAugtcXPM"
+						"id": "k6HZ0Z9zFer"
 					},
 					"dataSet": {
 						"id": "lYNYevNTO7B"
@@ -20811,6 +21048,39 @@
 					},
 					"dataElement": {
 						"id": "oJ4x8PXZvnh"
+					},
+					"dataSet": {
+						"id": "lYNYevNTO7B"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "EIHWLztODGi"
+					},
+					"dataSet": {
+						"id": "lYNYevNTO7B"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "URwo7ZKQilR"
+					},
+					"dataSet": {
+						"id": "lYNYevNTO7B"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "naqurivGjIK"
 					},
 					"dataSet": {
 						"id": "lYNYevNTO7B"
@@ -20929,73 +21199,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "EGlb6CP7czB"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Q5KSbP9ZzHQ"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "mG3LJzaZxb8"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "sJRCCgJJBHD"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "qlkxnlC6dzU"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "Nv1RGi4eI7F"
-					},
-					"dataSet": {
-						"id": "OyutuMOPgkt"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "KhCB35MHs9A"
+						"id": "lgKh8oeoKVj"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21028,7 +21232,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "NYxehRdsQx3"
+						"id": "KhCB35MHs9A"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21039,7 +21243,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "Orjo9ewlU9Z"
+						"id": "qlkxnlC6dzU"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21061,7 +21265,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "eO8nthpRoT4"
+						"id": "Nv1RGi4eI7F"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21072,7 +21276,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "lgKh8oeoKVj"
+						"id": "NYxehRdsQx3"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21083,7 +21287,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "tl9LwbDa3ny"
+						"id": "QStu7Ux1Loa"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21116,6 +21320,50 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
+						"id": "eO8nthpRoT4"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "sJRCCgJJBHD"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "mG3LJzaZxb8"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "EGlb6CP7czB"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
 						"id": "ZiF0ngznP1Z"
 					},
 					"dataSet": {
@@ -21127,7 +21375,29 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "QStu7Ux1Loa"
+						"id": "Q5KSbP9ZzHQ"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "tl9LwbDa3ny"
+					},
+					"dataSet": {
+						"id": "OyutuMOPgkt"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "Orjo9ewlU9Z"
 					},
 					"dataSet": {
 						"id": "OyutuMOPgkt"
@@ -21236,18 +21506,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "qwL7Tq9rROF"
-					},
-					"dataSet": {
-						"id": "rSfhnkAdm5y"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
-						"id": "NmVXzjN0SPM"
+						"id": "QMGQTTJAiMu"
 					},
 					"dataSet": {
 						"id": "rSfhnkAdm5y"
@@ -21269,17 +21528,6 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "aj8BY9VM5Eo"
-					},
-					"dataSet": {
-						"id": "rSfhnkAdm5y"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "bjDvmb4bfuf"
-					},
-					"dataElement": {
 						"id": "jbYbSDxfhtT"
 					},
 					"dataSet": {
@@ -21291,7 +21539,7 @@
 						"id": "bjDvmb4bfuf"
 					},
 					"dataElement": {
-						"id": "QMGQTTJAiMu"
+						"id": "aj8BY9VM5Eo"
 					},
 					"dataSet": {
 						"id": "rSfhnkAdm5y"
@@ -21303,6 +21551,28 @@
 					},
 					"dataElement": {
 						"id": "b1bgx4QmS1I"
+					},
+					"dataSet": {
+						"id": "rSfhnkAdm5y"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "NmVXzjN0SPM"
+					},
+					"dataSet": {
+						"id": "rSfhnkAdm5y"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "bjDvmb4bfuf"
+					},
+					"dataElement": {
+						"id": "qwL7Tq9rROF"
 					},
 					"dataSet": {
 						"id": "rSfhnkAdm5y"
@@ -21404,23 +21674,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "cRNeiMflE2s"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "WOStFrYxPd9"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "iJYk0mA3H4I"
+						"id": "uXt7OH5811r"
 					},
 					"dataSet": {
 						"id": "ujLQPjUBfVR"
@@ -21436,7 +21690,15 @@
 				},
 				{
 					"dataElement": {
-						"id": "V7rRkP7jYzO"
+						"id": "mMbufF9c251"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Z5hsBAh8pCC"
 					},
 					"dataSet": {
 						"id": "ujLQPjUBfVR"
@@ -21452,6 +21714,70 @@
 				},
 				{
 					"dataElement": {
+						"id": "PNhNeVxy9Bs"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "V7rRkP7jYzO"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "wMv5SrxZ7f6"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "k2MTMQpheOh"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Wl9HUMqAXhQ"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "J3AIrRG01TD"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ShJ42zyXevh"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "WOStFrYxPd9"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
 						"id": "CxMUeg8LYid"
 					},
 					"dataSet": {
@@ -21460,7 +21786,31 @@
 				},
 				{
 					"dataElement": {
-						"id": "Z5hsBAh8pCC"
+						"id": "cRNeiMflE2s"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "iJYk0mA3H4I"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "tZuKlwig9lD"
+					},
+					"dataSet": {
+						"id": "ujLQPjUBfVR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "wqihyXhQuK9"
 					},
 					"dataSet": {
 						"id": "ujLQPjUBfVR"
@@ -21484,87 +21834,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "mMbufF9c251"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Wl9HUMqAXhQ"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "PNhNeVxy9Bs"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "kfocuNP1nCG"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "tZuKlwig9lD"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "uXt7OH5811r"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "ShJ42zyXevh"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "wqihyXhQuK9"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "wMv5SrxZ7f6"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "J3AIrRG01TD"
-					},
-					"dataSet": {
-						"id": "ujLQPjUBfVR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "k2MTMQpheOh"
 					},
 					"dataSet": {
 						"id": "ujLQPjUBfVR"
@@ -21624,10 +21894,36 @@
 					"id": "h7bxqdKWYCa"
 				}
 			],
-			"lastUpdated": "2021-02-08T13:25:34.624",
+			"lastUpdated": "2021-02-08T15:20:16.331",
 			"name": "Population estimates",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population estimée"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Sasaran Populasi"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Estimativas de população"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Демографическая оценка"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Аҳолини баҳолаш"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -22363,10 +22659,46 @@
 					"id": "zyyolGvDOLQ"
 				}
 			],
-			"lastUpdated": "2021-02-08T13:25:35.222",
+			"lastUpdated": "2021-02-08T15:20:16.827",
 			"name": "TB",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TБ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБ"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -23571,14 +23903,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:20.829",
 			"legendSets": [],
 			"name": "TB - DR-TB drugs discarded",
 			"numerator": "#{mMbufF9c251}",
 			"numeratorDescription": "DR-TB drugs discarded",
 			"publicAccess": "r-------",
 			"shortName": "DR-TB drugs discarded",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -23606,14 +23964,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:17.694",
 			"legendSets": [],
 			"name": "TB - GenExpert Cartridges stock out days",
 			"numerator": "#{CxMUeg8LYid}",
 			"numeratorDescription": "GenExpert Cartridges stock out days",
 			"publicAccess": "r-------",
 			"shortName": "GenExpert Cartridges stock out days",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -24127,14 +24511,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:18.212",
 			"legendSets": [],
 			"name": "TB - DS-TB drugs closing balance",
 			"numerator": "#{oMvma7tGHrq}+#{PNhNeVxy9Bs}-#{k2MTMQpheOh}-#{QH1eMVEVhpn}-#{Wl9HUMqAXhQ}",
 			"numeratorDescription": "DS-TB drugs closing bal",
 			"publicAccess": "r-------",
 			"shortName": "DS-TB drugs closing balance",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -24162,14 +24572,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:21.319",
 			"legendSets": [],
 			"name": "TB - DR-TB drugs stock discrepancy",
 			"numerator": "#{WOStFrYxPd9}-(#{ShJ42zyXevh}+#{V7rRkP7jYzO}-#{mMbufF9c251}-#{Z5hsBAh8pCC}-#{wMv5SrxZ7f6})",
 			"numeratorDescription": "DR-TB drugs stock discrepancy",
 			"publicAccess": "r-------",
 			"shortName": "DR-TB drugs stock discrepancy",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -24308,14 +24744,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:21.815",
 			"legendSets": [],
 			"name": "TB - DR-TB drugs stock out days",
 			"numerator": "#{fTKSvybB6Zh}",
 			"numeratorDescription": "DR-TB drugs stock out days",
 			"publicAccess": "r-------",
 			"shortName": "DR-TB drugs stock out days",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -24343,14 +24805,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:18.748",
 			"legendSets": [],
 			"name": "TB - DR-TB drugs closing balance",
 			"numerator": "#{ShJ42zyXevh}+#{V7rRkP7jYzO}-#{mMbufF9c251}-#{Z5hsBAh8pCC}-#{wMv5SrxZ7f6}",
 			"numeratorDescription": "DR-TB drugs closing bal",
 			"publicAccess": "r-------",
 			"shortName": "DR-TB drugs closing balance",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -26243,9 +26731,9 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.485",
+			"lastUpdated": "2021-02-08T15:36:19.240",
 			"legendSets": [],
-			"name": "TB - Laboratory-confirmed MDR-TB cases ",
+			"name": "TB - Laboratory-confirmed MDR-TB cases",
 			"numerator": "#{qwL7Tq9rROF}",
 			"numeratorDescription": "Lab-confirmed MDR-TB",
 			"publicAccess": "r-------",
@@ -26354,13 +26842,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.303",
+			"lastUpdated": "2021-02-08T15:36:56.502",
 			"legendSets": [],
-			"name": "TB - TB cases tested for HIV or with known HIV status ",
+			"name": "TB - TB cases tested for HIV or with known HIV status",
 			"numerator": "#{FMLmCNm7QTf}",
 			"numeratorDescription": "TB patients tested (new and relapse or all for pre-2013 definitions)  ",
 			"publicAccess": "r-------",
-			"shortName": "TB/HIV tested ",
+			"shortName": "TB/HIV tested",
 			"translations": [
 				{
 					"locale": "cs",
@@ -26826,14 +27314,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:19.274",
 			"legendSets": [],
 			"name": "TB - GenExpert Cartridges discarded",
 			"numerator": "#{y2yiFi6D7yY}",
 			"numeratorDescription": "GenExpert Cartridges discarded",
 			"publicAccess": "r-------",
 			"shortName": "GenExpert Cartridges discarded",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -26942,14 +27456,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:19.821",
 			"legendSets": [],
 			"name": "TB - GenExpert cartridges stock discrepancy",
 			"numerator": "#{iJYk0mA3H4I}-(#{kfocuNP1nCG}+#{wqihyXhQuK9}-#{y2yiFi6D7yY}-#{J3AIrRG01TD}-#{cRNeiMflE2s})",
 			"numeratorDescription": "GenExpert cartridges stock discrepancy",
 			"publicAccess": "r-------",
 			"shortName": "GenExpert cartridges stock discrepancy",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -27160,13 +27700,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.862",
+			"lastUpdated": "2021-02-08T15:36:29.655",
 			"legendSets": [],
-			"name": "TB - Notified TB cases (all cases, all forms) ",
+			"name": "TB - Notified TB cases (all cases, all forms)",
 			"numerator": "#{wadYJEcT9yh} + #{voLCYElGAjX} + #{v2qRhkUmjlV} + #{ZiF0ngznP1Z} + #{XLV3S8QL8jV} + #{hKTgk1mG2qn} + #{PdhQ1JCS2ij} + #{M6JHtLJJ34t} + #{KZ7rMA7BqcQ} + #{PRB6dolaxC4} + #{Orjo9ewlU9Z} + #{qlkxnlC6dzU} + #{l4TyT04yP8f} + #{NYxehRdsQx3} + #{QNFhsj0fOxK} + #{Nv1RGi4eI7F} + #{NJaeD9Xia7x} + #{KhCB35MHs9A} + #{lgKh8oeoKVj} + #{EGlb6CP7czB} + #{Q5KSbP9ZzHQ}",
 			"numeratorDescription": "All notified cases",
 			"publicAccess": "r-------",
-			"shortName": "All cases (all forms TB) ",
+			"shortName": "All cases (all forms TB)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -27355,14 +27895,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:22.329",
 			"legendSets": [],
 			"name": "TB - GenExpert cartridges closing balance",
 			"numerator": "#{kfocuNP1nCG}+#{wqihyXhQuK9}-#{y2yiFi6D7yY}-#{J3AIrRG01TD}-#{cRNeiMflE2s}",
 			"numeratorDescription": "GenExpert cartridges closing bal",
 			"publicAccess": "r-------",
 			"shortName": "GenExpert cartridges closing balance",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -27477,13 +28043,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.675",
+			"lastUpdated": "2021-02-08T15:36:47.201",
 			"legendSets": [],
-			"name": "TB - TB cases tested for susceptibility to rifampicin ",
+			"name": "TB - TB cases tested for susceptibility to rifampicin",
 			"numerator": "#{QMGQTTJAiMu.HllvX50cXC0} + #{b1bgx4QmS1I.HllvX50cXC0} + #{aj8BY9VM5Eo.HllvX50cXC0}",
 			"numeratorDescription": "Total number of cases tested for susceptibility to rifampicin",
 			"publicAccess": "r-------",
-			"shortName": "Tested for RR-TB ",
+			"shortName": "Tested for RR-TB",
 			"translations": [
 				{
 					"locale": "cs",
@@ -29029,14 +29595,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:20.360",
 			"legendSets": [],
 			"name": "TB - DS-TB drugs discarded",
 			"numerator": "#{k2MTMQpheOh}",
 			"numeratorDescription": "DS-TB drugs discarded",
 			"publicAccess": "r-------",
 			"shortName": "DS-TB drugs discarded",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -29476,14 +30068,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:22.851",
 			"legendSets": [],
 			"name": "TB - DS-TB drugs stock discrepancy",
 			"numerator": "#{uXt7OH5811r}-(#{oMvma7tGHrq}+#{PNhNeVxy9Bs}-#{k2MTMQpheOh}-#{QH1eMVEVhpn}-#{Wl9HUMqAXhQ})",
 			"numeratorDescription": "DS-TB drugs stock discrepancy",
 			"publicAccess": "r-------",
 			"shortName": "DS-TB drugs stock discrepancy",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -32165,14 +32783,40 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2020-12-17T13:08:27.464",
+			"lastUpdated": "2021-02-08T15:20:23.394",
 			"legendSets": [],
 			"name": "TB - DS-TB drugs stock out days",
 			"numerator": "#{tZuKlwig9lD}",
 			"numeratorDescription": "DS-TB drugs stock out days",
 			"publicAccess": "r-------",
 			"shortName": "DS-TB drugs stock out days",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -34121,7 +34765,7 @@
 			"attributeValues": [],
 			"created": "2017-11-28T15:32:56.264",
 			"id": "RcEA84L909S",
-			"lastUpdated": "2021-02-08T13:25:56.606",
+			"lastUpdated": "2021-02-08T15:20:23.926",
 			"legends": [
 				{
 					"access": {
@@ -34251,7 +34895,23 @@
 			],
 			"name": "xxx Population (total)",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "xxx populace (celkem)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "xxx Population (totale)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ххх Население (общее)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -34271,7 +34931,7 @@
 			"attributeValues": [],
 			"created": "2017-08-11T11:00:30.765",
 			"id": "Tqmc5ihvo7W",
-			"lastUpdated": "2021-02-08T13:25:56.784",
+			"lastUpdated": "2021-02-08T15:20:24.403",
 			"legends": [
 				{
 					"access": {
@@ -34376,7 +35036,18 @@
 			],
 			"name": "Legend_TBm_4.2-4_Treatment outcomes (died, lost, not evaluated) (%)",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Légende_TBm_4.2-4_Résultats des traitements (morts, perdus, non évalués) (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Легенда_ТБм_4.2-4_Результаты лечения (умер, потерян, не оценен) (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -36032,7 +36703,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "IvX8f4BVdep",
-			"lastUpdated": "2021-02-08T13:26:00.461",
+			"lastUpdated": "2021-02-08T15:20:24.918",
 			"mapViews": [
 				{
 					"access": {
@@ -36165,7 +36836,23 @@
 			"name": "TBm_4.3_Lost to follow up among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Perdu de vue parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.3_Kasus lost to follow up di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.3_Потерянные для последующего наблюдения среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -36709,7 +37396,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "JunQVZF5CRT",
-			"lastUpdated": "2021-02-08T13:26:01.057",
+			"lastUpdated": "2021-02-08T15:20:25.451",
 			"mapViews": [
 				{
 					"access": {
@@ -36842,7 +37529,23 @@
 			"name": "TBm_4.1_TB treatment success rate for DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de succès thérapeutique de la TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.1_Angka keberhasilan pengobatan TB pada kasus TB SO tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.1_Доля успешного лечения ТБ для ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -38260,7 +38963,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "tkxvwRtZerK",
-			"lastUpdated": "2021-02-08T13:26:05.245",
+			"lastUpdated": "2021-02-08T15:20:26.533",
 			"mapViews": [
 				{
 					"access": {
@@ -38393,7 +39096,23 @@
 			"name": "TBm_4.2_Died among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Décédé parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.2_Kasus meninggal di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.2_Умершие среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -40475,7 +41194,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "ZRCWpzVonSZ",
-			"lastUpdated": "2021-02-08T13:26:03.662",
+			"lastUpdated": "2021-02-08T15:20:25.991",
 			"mapViews": [
 				{
 					"access": {
@@ -40608,7 +41327,23 @@
 			"name": "TBm_4.4_Not evaluated among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Non évalué parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.4_Kasus tidak dievaluasi di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.4_Не оцененные среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -40625,7 +41360,7 @@
 			]
 		}
 	],
-	"package": "TB_COMPLETE_V1.1.1_DHIS2.33_2021-02-08T15:03",
+	"package": "TB_COMPLETE_V1.1.1_DHIS2.33_2021-02-08T17:28",
 	"predictors": [
 		{
 			"annualSampleCount": 0,
@@ -40707,7 +41442,7 @@
 			"designContent": "﻿<style type=\"text/css\">\r\n.chart {\r\n\tborder: 1px solid #ddd;\r\n\theight: 300px;\r\n\twidth: 100%;\r\n\tfloat: left;\r\n}\r\n\r\n\r\n.chartContainer {\r\n\tmargin: 10px;\r\n\tmargin-bottom: 20px;\r\n\tpage-break-inside: avoid;\r\n}\r\n\r\n@media print {\r\n.no-print, .no-print * {\r\n\tdisplay: none !important;\r\n}\r\n}\r\n</style>\r\n\r\n<!-- <script src=\"https://dhis2-cdn.org/v225-1/plugin/chart.js\"></script> -->\r\n<script src=\"../dhis-web-visualizer/chart.js\"></script>\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\r\nvar favoriteList = [];\r\nvar favoriteId;\r\nvar favoriteName;\r\n\r\nvar selectedFavorite;\r\n\r\nvar orgunits;\r\nvar filterBy = 'ou';\r\n\r\n$( document ).ready( function() {\r\n\r\n\torgunits = dhis2.report.organisationUnitChildren;\r\n\torgunits.sort(sortByName);\r\n\t\r\n\t//Once the reports is loaded, get list of favorites\r\n\tgetFavoriteList(1);\r\n\t\r\n});\r\n\r\n\r\n//Recursively (page by page), fetch charts that match the criteria of having ou dimension as filter\r\nfunction getFavoriteList(page) {\r\n\r\n\t//Can be simplified, as API now supports getting charts using something like filter=filterDimension:in:[ou]\r\n\t$.getJSON( \"../api/charts.json?fields=displayName,id,filterDimensions&page=\" + page, function( data ) {\r\n\t\t//Iterate charts - get next page\r\n\t\tfor (var i = 0; i < data.charts.length; i++) {\r\n\t\t\r\n\t\t\t//Manually filter charts - can be removed when using API-filtering\r\n\t\t\tvar relevant = false;\r\n\t\t\tfor (var j = 0; j < data.charts[i].filterDimensions.length; j++) {\r\n\t\t\t\tif (data.charts[i].filterDimensions[j] === filterBy) {\r\n\t\t\t\t\trelevant = true;\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif (relevant) {\r\n\t\t\t\tfavoriteList.push(data.charts[i]);\r\n\t\t\t}\t\r\n\t\t}\r\n\t\t\r\n\t\t//No more pages, display dropdown\r\n\t\tif (page === data.pager.pageCount) {\r\n\t\t\t\r\n\t\t\t//Make dropdown\r\n\t\t\tmakeFavoriteList();\r\n\t\t}\r\n\t\t//More pages, get next\r\n\t\telse {\r\n\t\t\tgetFavoriteList(++page);\r\n\t\t}\r\n\t\r\n\t});\r\n}\r\n\r\n//Populate the dropdown list of chart favorites\r\nfunction makeFavoriteList() {\r\n\tvar select = document.getElementById('favoriteList');\r\n\r\n\tfor (var i = 0; i < favoriteList.length; i++){\r\n\t\tvar opt = document.createElement('option');\r\n\t\topt.value = favoriteList[i].id;\r\n\t\topt.innerHTML = favoriteList[i].displayName;\r\n\t\tselect.appendChild(opt);\r\n\t}\r\n}\r\n\r\n\r\n//Called when a chart has been selected\r\nfunction drawCharts() {\r\n\tfavoriteId = document.getElementById( \"favoriteList\" ).value;\r\n\tconsole.log(\"Fetching chart\");\r\n\t//fetch all metadata about the chart favorite that has been selected\r\n\t$.getJSON( \"../api/charts/\" + favoriteId + \".json?fields=:all\", function( data ) {\r\n\t\t\r\n\t\tfavoriteName = data.displayName;\r\n\r\n\t\t//make divs where we will put charts, one per orgunit\r\n\t\tmakeContainers();\t\r\n\t\t\r\n\t\t//make charts\r\n\t\tmakeCharts(data);\r\n\t\t\r\n\t\r\n\t});\r\n\t\r\n}\r\n\r\n//make divs where we will put charts, one per orgunit\r\nfunction makeContainers() {\r\n\tvar html = '<h2 style=\"margin-bottom: 5px\">' + favoriteName + '</h2>' + '<h2 style=\"margin-bottom: 5px\">' + dhis2.report.organisationUnit.name + '</h2>';\t\r\n\t\r\n\t//check window size to see if we want one, two or three charts per \"row\"\r\n\tvar containerSize;\r\n\tvar chartsPerRow = document.getElementById( \"chartsPerRow\" ).value;\r\n\tcontainerSize = Math.floor((window.outerWidth - 41 - chartsPerRow*20 - chartsPerRow)/chartsPerRow);\r\n\t\r\n\tfor (var i = 0; i < orgunits.length; i++) {\r\n\t\r\n\t\t//Container for title + chart\r\n\t\thtml += '<div class=\"chartContainer\" style=\"width: '  + containerSize + 'px; height: 340px; float: left\">'\r\n\t\t\r\n\t\t//Title\r\n\t\t//html += '<h3 style=\"margin-bottom: 5px\">' + orgunits[i].name + '</h3>';\r\n\t\t\r\n\t\t//Chart\r\n\t\thtml += '<div class=\"chart\" id=\"' + orgunits[i].id + '\"></div>';\r\n\t\t\r\n\t\t//End of container\r\n\t\thtml += '</div>';\r\n\r\n\t}\r\n\t\r\n\t\r\n\t$('#container').html(html);\r\n}\r\n\r\n\r\n//make charts\r\nfunction makeCharts(chart) {\r\n\t\r\n\t//In order to change the orgunit selection that is saved as part of the chart favorite, we need to overwrite the whole\r\n\t//filter dimension. That means we need to also recreate any other filter dimension, e.g. data element, period or \r\n\t//dataElementCategory. Possibly missing some dimension, e.g. orgunit disaggregation?\r\n\tvar filters = [];\r\n\tfor (var i = 0; i < chart.filterDimensions.length; i++) {\r\n\t\tswitch (chart.filterDimensions[i]) {\r\n\t\t\tcase 'ou': \r\n\t\t\t\tbreak;\r\n\t\t\tcase 'dx':\r\n\t\t\t\tfilters.push(dataFilterItems(chart));\r\n\t\t\t\tbreak;\r\n\t\t\tcase 'pe':\r\n\t\t\t\tfilters.push(periodFilterItems(chart));\r\n\t\t\t\tbreak;\r\n\t\t\tdefault: \r\n\t\t\t\tfilters.push(otherFilterItems(chart, chart.filterDimensions[i]));\r\n\t\t}\r\n\t}\r\n\t\r\n\t//Iterate over all orgunits and call the chart plugin for each\r\n\tvar currentFilters;\r\n\tfor (var i = 0; i < orgunits.length; i++) {\r\n\t\tcurrentFilters = filters.slice();\r\n\t\tcurrentFilters.push({dimension: \"ou\", items: [{id: orgunits[i].id}]});\r\n\t\tchartPlugin.url = \"..\";\r\n\t\tchartPlugin.load([{\r\n\t\t\tel: orgunits[i].id,\r\n\t\t\tid: favoriteId,\r\n\t\t\tfilters: currentFilters\r\n\t\t}]);\t\r\n\t}\r\n\t\r\n}\r\n\r\n\r\n//Utility function for recreating the data dimension as filter for chart plugin\r\nfunction dataFilterItems(chart) {\r\n\tvar dimension = { \r\n\t\t'dimension': 'dx',\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\tfor (var i = 0; i < chart.dataDimensionItems.length; i++) {\r\n\t\t\tif (chart.dataDimensionItems[i].hasOwnProperty(\"dataElement\")) dimension.items.push({'id': chart.dataDimensionItems[i].dataElement.id});\r\n\t\t\telse if (chart.dataDimensionItems[i].hasOwnProperty(\"indicator\")) dimension.items.push({'id': chart.dataDimensionItems[i].indicator.id});\r\n\t\t\telse console.log(\"Unsupported dataDimensionType\");\r\n\t}\r\n\t\r\n\treturn dimension;\r\n}\r\n\r\n//Utility function for recreating the period dimension as filter for chart plugin\r\nfunction periodFilterItems(chart) {\r\n\tvar dimension = { \r\n\t\t'dimension': 'pe',\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\t\r\n\tfor (var i = 0; i < chart.periods.length; i++) {\r\n\t\tdimension.items.push({'id': chart.periods[i].id});\r\n\t}\r\n\t\r\n\t//TODO: relative periods\r\n\tif (chart.relativePeriods.thisYear) dimension.items.push({'id': 'THIS_YEAR'});\r\n\tif (chart.relativePeriods.quartersLastYear) dimension.items.push({'id': 'QUARTERS_LAST_YEAR'});\r\n\tif (chart.relativePeriods.last52Weeks) dimension.items.push({'id': 'LAST_52_WEEKS'});\r\n\tif (chart.relativePeriods.thisWeek) dimension.items.push({'id': 'THIS_WEEK'});\r\n\tif (chart.relativePeriods.lastMonth) dimension.items.push({'id': 'LAST_MONTH'});\r\n\tif (chart.relativePeriods.monthsThisYear) dimension.items.push({'id': 'MONTHS_THIS_YEAR'});\r\n\tif (chart.relativePeriods.last2SixMonths) dimension.items.push({'id': 'LAST_2_SIX_MONTHS'});\r\n\tif (chart.relativePeriods.thisQuarter) dimension.items.push({'id': 'THIS_QUARTER'});\r\n\tif (chart.relativePeriods.last12Months) dimension.items.push({'id': 'LAST_12_MONTHS'});\r\n\tif (chart.relativePeriods.last5FinancialYears) dimension.items.push({'id': 'LAST_5_FINANCIAL_YEARS'});\r\n\tif (chart.relativePeriods.thisSixMonth) dimension.items.push({'id': 'THIS_SIX_MONTH'});\r\n\tif (chart.relativePeriods.lastQuarter) dimension.items.push({'id': 'LAST_QUARTER'});\r\n\tif (chart.relativePeriods.thisFinancialYear) dimension.items.push({'id': 'THIS_FINANCIAL_YEAR'});\r\n\tif (chart.relativePeriods.last4Weeks) dimension.items.push({'id': 'LAST_4_WEEKS'});\r\n\tif (chart.relativePeriods.last3Months) dimension.items.push({'id': 'LAST_3_MONTHS'});\r\n\tif (chart.relativePeriods.thisMonth) dimension.items.push({'id': 'THIS_MONTH'});\r\n\tif (chart.relativePeriods.last5Years) dimension.items.push({'id': 'LAST_5_YEARS'});\r\n\tif (chart.relativePeriods.last6BiMonths) dimension.items.push({'id': 'LAST_6_BI_MONTHS'});\r\n\tif (chart.relativePeriods.lastFinancialYear) dimension.items.push({'id': 'LAST_FINANCIAL_YEAR'});\r\n\tif (chart.relativePeriods.last6Months) dimension.items.push({'id': 'LAST_6_MONTHS'});\r\n\tif (chart.relativePeriods.quartersThisYear) dimension.items.push({'id': 'QUARTERS_THIS_YEAR'});\r\n\tif (chart.relativePeriods.monthsLastYear) dimension.items.push({'id': 'MONTHS_LAST_YEAR'});\r\n\tif (chart.relativePeriods.lastWeek) dimension.items.push({'id': 'LAST_WEEK'});\r\n\tif (chart.relativePeriods.thisBimonth) dimension.items.push({'id': 'THIS_BIMONTH'});\r\n\tif (chart.relativePeriods.lastBimonth) dimension.items.push({'id': 'LAST_BIMONTH'});\r\n\tif (chart.relativePeriods.lastSixMonth) dimension.items.push({'id': 'LAST_SIX_MONTH'});\r\n\tif (chart.relativePeriods.lastYear) dimension.items.push({'id': 'LAST_YEAR'});\r\n\tif (chart.relativePeriods.last12Weeks) dimension.items.push({'id': 'LAST_12_WEEKS'});\r\n\tif (chart.relativePeriods.last4Quarters) dimension.items.push({'id': 'LAST_4_QUARTERS'});\r\n\t\r\n\treturn dimension;\r\n\r\n}\r\n\r\n\r\n//Utility function for recreating the category dimension as filter for chart plugin\r\n//We might also need an orgunit dimension here (or orgunit group disaggregation)\r\nfunction otherFilterItems(chart, dimensionId) {\r\n\tvar dimension = { \r\n\t\t'dimension': dimensionId,\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\tfor (var i = 0; i < chart.categoryDimensions.length; i++) {\r\n\t\tif (chart.categoryDimensions[i].dataElementCategory.id === dimensionId) {\r\n\t\t\r\n\t\t\tfor (var j = 0; j < chart.categoryDimensions[i].categoryOptions.length; j++) {\r\n\t\t\r\n\t\t\t\tdimension.items.push({'id': chart.categoryDimensions[i].categoryOptions[j].id});\r\n\t\t\t\t\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\t\r\n\treturn dimension;\r\n}\r\n\r\n\r\nfunction sortByName(a, b){\r\n  \tvar nameA = a.name.toLowerCase();\r\n  \tvar nameB = b.name.toLowerCase(); \r\n  \treturn ((nameA < nameB) ? -1 : ((nameA > nameB) ? 1 : 0));\r\n}\r\n\r\n</script>\r\n\r\n\r\n<div class=\"no-print\">\r\n\t<label>Graphique / chart</label>\r\n\t<select id=\"favoriteList\"></select>\r\n\t\r\n\t<label style=\"margin-left: 10px\">Graphiques par ligne / Graphs per row</label>\r\n\t<select style=\"width: 50px\" id=\"chartsPerRow\">\r\n\t\t<option value=1>1</option>\r\n\t\t<option value=2>2</option>\r\n\t\t<option value=3>3</option>\r\n\t\t<option value=4>4</option>\r\n\t</select>\r\n\t\r\n\t<button style=\"margin-left: 10px\" onClick=\"drawCharts();\">Générer / Generate</button>\r\n\t\r\n\t<hr />\r\n</div>\r\n<h2 id=\"title\"></h2>\r\n<div id=\"container\" class=\"content\" style=\"overflow: hidden\"></div>",
 			"externalAccess": false,
 			"id": "BuTAAbV4zMg",
-			"lastUpdated": "2019-08-27T19:07:38.312",
+			"lastUpdated": "2021-02-08T15:20:31.311",
 			"name": "Compare subunits using the same graph/Comparez les sous-unités utilisant le même graphique",
 			"publicAccess": "r-------",
 			"relativePeriods": {
@@ -40757,7 +41492,13 @@
 				"paramParentOrganisationUnit": false,
 				"paramReportingPeriod": false
 			},
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Comparez les sous-unités utilisant le même graphique"
+				}
+			],
 			"type": "HTML",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -42299,7 +43040,7 @@
 			"hideTitle": false,
 			"id": "NoiUFmU3mwj",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:26:06.719",
+			"lastUpdated": "2021-02-08T15:20:27.061",
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "TBt_3.1_TB notifications (% and ratios) (red=outside of expected range)",
@@ -42369,7 +43110,23 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Notifications TBt_3.1_TB (% et ratios) (rouge = hors de la fourchette prévue)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBt_3.1_Notifikasi kasus TB (% dan rasio) (merah=di luar kisaran yang diharapkan)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБт_3.1_ТБ извещений (процент и соотношения) (красный=вне ожидаемого диапазона)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -42457,7 +43214,7 @@
 			"hideTitle": false,
 			"id": "o0FulK7B5Tm",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:26:08.945",
+			"lastUpdated": "2021-02-08T15:20:27.554",
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "TBt_3.1_TB notifications (% and ratios) (red=outside of expected range) (annual)",
@@ -42527,7 +43284,23 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBt_3.1_TB  Notifications (% et ratios) (rouge = hors de la fourchette prévue) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBt_3.1_Notifikasi kasus TB (% dan rasio) (merah=di luar kisaran yang diharapkan) (tahunan)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБт_3.1_ТБ извещений (процент и соотношения) (красный=вне ожидаемого диапазона) (годовой)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44104,7 +44877,7 @@
 					"categoryOptionCombo": {
 						"id": "jYWVH1TpZhO"
 					},
-					"created": "2021-02-08T15:03:02.832",
+					"created": "2021-02-08T17:28:22.872",
 					"dataElement": {
 						"id": "s2OAugtcXPM"
 					},
@@ -44117,7 +44890,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "s2OAugtcXPM.jYWVH1TpZhO",
-					"lastUpdated": "2021-02-08T15:03:02.832",
+					"lastUpdated": "2021-02-08T17:28:22.872",
 					"legendSets": [],
 					"name": "TB - Outcomes: clinically diagnosed new and relapse Cured",
 					"shortName": "Outcomes clindx new relapse Cured",
@@ -44444,10 +45217,21 @@
 			"attributeValues": [],
 			"created": "2016-03-15T09:32:20.056",
 			"id": "dRcxM3sLcNn",
-			"lastUpdated": "2021-02-08T13:26:10.116",
+			"lastUpdated": "2021-02-08T15:20:28.601",
 			"name": "Standard: TB treatment outcomes - second line",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Standard: Résultat de traitement TB - deuxième ligne"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Стандартный: Результаты лечения ТБ - вторая линия ПТП"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44464,16 +45248,16 @@
 			],
 			"validationRules": [
 				{
-					"id": "sD50FRetx1n"
-				},
-				{
-					"id": "BrEM9udfDBs"
-				},
-				{
 					"id": "SuKIF7R3QL4"
 				},
 				{
 					"id": "dmTcdHIs9MH"
+				},
+				{
+					"id": "sD50FRetx1n"
+				},
+				{
+					"id": "BrEM9udfDBs"
 				},
 				{
 					"id": "NraYwd1wryz"
@@ -44505,21 +45289,6 @@
 			],
 			"validationRules": [
 				{
-					"id": "gLOa8aVCPzl"
-				},
-				{
-					"id": "IrV3psd73XS"
-				},
-				{
-					"id": "IKW3q4ca3xS"
-				},
-				{
-					"id": "rnzCWOng6Yb"
-				},
-				{
-					"id": "quA9Tst6XvA"
-				},
-				{
 					"id": "SoAZiNlwjMc"
 				},
 				{
@@ -44532,10 +45301,25 @@
 					"id": "DClPdUIzqUQ"
 				},
 				{
+					"id": "gLOa8aVCPzl"
+				},
+				{
+					"id": "IrV3psd73XS"
+				},
+				{
 					"id": "A94nxQASTNJ"
 				},
 				{
+					"id": "IKW3q4ca3xS"
+				},
+				{
 					"id": "KituK0VHFr5"
+				},
+				{
+					"id": "rnzCWOng6Yb"
+				},
+				{
+					"id": "quA9Tst6XvA"
 				},
 				{
 					"id": "Bh6XT9sX0xt"
@@ -44546,10 +45330,21 @@
 			"attributeValues": [],
 			"created": "2016-03-16T21:19:25.018",
 			"id": "iRCrvkyr4uw",
-			"lastUpdated": "2021-02-08T13:26:10.298",
+			"lastUpdated": "2021-02-08T15:20:29.095",
 			"name": "Pre 2013: Case registrations",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pré 2013: Enregistrement des cas"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "До 2013: Регистрация случаев"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44580,10 +45375,21 @@
 			"attributeValues": [],
 			"created": "2016-03-15T13:02:07.647",
 			"id": "sgf2zdOiwny",
-			"lastUpdated": "2021-02-08T13:26:10.478",
+			"lastUpdated": "2021-02-08T15:20:29.644",
 			"name": "Pre-2013: TB treatment outcomes",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Pré-2013: Résultats traitement TB"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "До 2013: Результаты лечения ТБ"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44623,10 +45429,26 @@
 			"attributeValues": [],
 			"created": "2016-03-15T09:13:39.556",
 			"id": "TumuGy1lmGY",
-			"lastUpdated": "2021-02-08T13:26:09.929",
+			"lastUpdated": "2021-02-08T15:20:28.083",
 			"name": "Standard: RR/MDR-TB",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Standard: RR/MDR-TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão: RR / MDR-TB"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Стандартный: РУ/МЛУ-ТБ"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44651,10 +45473,21 @@
 			"attributeValues": [],
 			"created": "2016-03-15T09:26:32.340",
 			"id": "vtIZawvyEM7",
-			"lastUpdated": "2021-02-08T13:26:10.661",
+			"lastUpdated": "2021-02-08T15:20:30.167",
 			"name": "Standard: TB treatment outcomes",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Standard: Résultats de traitement TB"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Стандартный: Результаты лечения ТБ"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44703,10 +45536,31 @@
 			"attributeValues": [],
 			"created": "2016-03-15T09:00:17.444",
 			"id": "xnxqh8hX6Ag",
-			"lastUpdated": "2021-02-08T13:26:10.848",
+			"lastUpdated": "2021-02-08T15:20:30.703",
 			"name": "Standard: Case registration",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Standard: Registrace případu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Standard : Enregistrement de cas"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Padrão: registro de caso"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Стандартный: Регистрация случаев"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -44729,13 +45583,13 @@
 					"id": "TV3eW5zYLep"
 				},
 				{
+					"id": "sms4F5mp9T1"
+				},
+				{
 					"id": "MWDQUNd4sZE"
 				},
 				{
 					"id": "XTixOtLw8i8"
-				},
-				{
-					"id": "sms4F5mp9T1"
 				}
 			]
 		}

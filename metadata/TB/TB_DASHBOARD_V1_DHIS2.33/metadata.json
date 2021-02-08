@@ -2295,7 +2295,7 @@
 			"hideTitle": false,
 			"id": "dqXV24zjpab",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:11.265",
+			"lastUpdated": "2021-02-08T15:20:15.063",
 			"name": "TBc_1.1_TB notifications",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2351,7 +2351,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_1.1_TB Oznámení"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifications TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifikasi kasus TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.1_TB notificações "
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.1_Извещения о ТБ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.1_ТБ касаланиш"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3325,7 +3356,7 @@
 			"hideTitle": false,
 			"id": "GL1rmJsVIax",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:05.683",
+			"lastUpdated": "2021-02-08T15:20:11.004",
 			"name": "TBc_3.6_Bacteriologically confirmed among all pulmonary TB cases (%)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3381,7 +3412,28 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Bactériologiquement confirmés parmi les cas TB pulmonaires (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_3.6_Bacteriologicamente confirmado entre todos os casos de TB pulmonar (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_3.6_Бактериологически подтверждённые среди всех легочных ТБ случаев (%)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_3.6_Барча ўпка ТБ ҳолатлари ичида бактериал тасдиқланган (%)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -3766,7 +3818,7 @@
 			"hideTitle": false,
 			"id": "LguXYuBEmNQ",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.054",
+			"lastUpdated": "2021-02-08T15:20:11.534",
 			"name": "TBc_1.1_TB notifications (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3823,7 +3875,33 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"title": "TB notification rate, annual - national",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Notification TB (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.1_Notifikasi kasus TB (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Notificações TBc_1.1_TB (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.1_ТБ извещения (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.1_ТБ касаланиш (йиллик)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -4062,7 +4140,7 @@
 			"hideTitle": false,
 			"id": "LrUYQgoxjjU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.234",
+			"lastUpdated": "2021-02-08T15:20:12.042",
 			"name": "TBc_6.3_TB/HIV (%)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -4159,7 +4237,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_6.3_TB / HIV (%)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TB/VIH (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_6.3_TB/HIV (%)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_6.3_TB/HIV (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_6.3_ТБ/ВИЧ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_6.3_ТБ/ОИВ (%)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -4347,7 +4456,7 @@
 			"hideTitle": false,
 			"id": "MtQa13mO6rU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:06.417",
+			"lastUpdated": "2021-02-08T15:20:12.553",
 			"name": "TBc_4.1_TB treatment success rate for DS-TB (%) (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -4408,7 +4517,33 @@
 			"subscribers": [],
 			"targetLineLabel": "≥ 90%",
 			"targetLineValue": 90,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de succès thérapeutique de la TB -  District sanitaire (%) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_4.1_Angka keberhasilan pengobatan TB pada kasus TB SO (%) (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_4.1_TB taxa de sucesso do tratamento para DS-TB (%) (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_4.1_Доля успешного лечения ЛУ-ТБ (%) (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_4.1_Дорига сезгир ТБ учун муваффақиятли даво даражаса (%) (йиллик)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -4590,7 +4725,7 @@
 			"hideTitle": false,
 			"id": "n5RtZTSpSMB",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:12.997",
+			"lastUpdated": "2021-02-08T15:20:15.764",
 			"name": "TBc_3.6_Bacteriologically confirmed among all pulmonary TB cases (%) (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -4646,7 +4781,28 @@
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_3.6_Bactériologiquement confirmés parmi tous les cas pulmonaires (%) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_3.6_Kasus TB yang terkonfirmasi bakteriologis di antara semua kasus TB paru (%) (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_3.6_Bacteriologicamente confirmado entre todos os casos de TB pulmonar (%) (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_3.6_Бактериологически подтверждённые среди всех легочных ТБ случаев (%) (годовой)"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -5775,7 +5931,7 @@
 			"hideTitle": false,
 			"id": "RebWOM2dwTr",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:07.994",
+			"lastUpdated": "2021-02-08T15:20:13.045",
 			"name": "TBc_2.2_Population",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -5831,7 +5987,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_2.2_Populace"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_2.2_Penduduk"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_2.2_População"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_2.2_Население"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_2.2_Аҳоли"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -6013,7 +6200,7 @@
 			"hideTitle": false,
 			"id": "SlEHkRsqvAC",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.191",
+			"lastUpdated": "2021-02-08T15:20:13.545",
 			"name": "TBc_6.1_TB/HIV",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -6107,7 +6294,38 @@
 			"showData": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_6.1 _TB/VIH"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_6.1_TB/HIV"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_6.1_ТБ/ВИЧ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_6.1_ТБ/ОИВ"
+				}
+			],
 			"type": "LINE",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -6205,7 +6423,7 @@
 			"hideTitle": false,
 			"id": "TfeoSE7Ha8F",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.459",
+			"lastUpdated": "2021-02-08T15:20:14.023",
 			"name": "TBc_1.2_New and relapse cases by age group and sex",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -6260,7 +6478,33 @@
 			"seriesItems": [],
 			"showData": false,
 			"sortOrder": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.2_Nouveaux cas et rechutes par groupe d'âge et sexe"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.2_Kasus baru dan kambuh berdasarkan kelompok umur dan jenis kelamin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.2_Novos casos e recidivas por faixa etária e sexo"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.2_Новые и рецидивные случаи по возрастной группе и полу"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Тбс_1.2_Ёши ва жинсига кўра янги ва қайталанган ҳолатлар"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -6358,7 +6602,7 @@
 			"hideTitle": false,
 			"id": "VBUUGBP8RFn",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:25:08.880",
+			"lastUpdated": "2021-02-08T15:20:14.533",
 			"name": "TBc_1.2_New and relapse cases by age group and sex (annual)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -6413,7 +6657,33 @@
 			"seriesItems": [],
 			"showData": false,
 			"sortOrder": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBc_1.2_Nouveaux cas et rechutes par groupe d'âge et sexe (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBc_1.2_Kasus baru dan kambuh berdasarkan kelompok umur dan jenis kelamin (tahunan)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TBc_1.2_Novos casos e recidivas por faixa etária e sexo (anual)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TBc_1.2_Новые и рецидивные случаи по возрастной группе и полу  (годовой)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБс_1.2_Ёши ва жинсига кўра янги ва қайталанган ҳолатлар (йиллик)"
+				}
+			],
 			"type": "COLUMN",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -11044,10 +11314,36 @@
 					"id": "h7bxqdKWYCa"
 				}
 			],
-			"lastUpdated": "2021-02-08T13:25:34.624",
+			"lastUpdated": "2021-02-08T15:20:16.331",
 			"name": "Population estimates",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population estimée"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "Sasaran Populasi"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Estimativas de população"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Демографическая оценка"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Аҳолини баҳолаш"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11608,10 +11904,46 @@
 					"id": "zyyolGvDOLQ"
 				}
 			],
-			"lastUpdated": "2021-02-08T13:25:35.222",
+			"lastUpdated": "2021-02-08T15:20:16.827",
 			"name": "TB",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "TB"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "TБ"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "ТБ"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -13934,9 +14266,9 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.485",
+			"lastUpdated": "2021-02-08T15:36:19.240",
 			"legendSets": [],
-			"name": "[CONFIG] TB - Laboratory-confirmed MDR-TB cases ",
+			"name": "[CONFIG] TB - Laboratory-confirmed MDR-TB cases",
 			"numerator": "-1",
 			"numeratorDescription": "Lab-confirmed MDR-TB",
 			"publicAccess": "r-------",
@@ -14045,13 +14377,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.303",
+			"lastUpdated": "2021-02-08T15:36:56.502",
 			"legendSets": [],
-			"name": "[CONFIG] TB - TB cases tested for HIV or with known HIV status ",
+			"name": "[CONFIG] TB - TB cases tested for HIV or with known HIV status",
 			"numerator": "-1",
 			"numeratorDescription": "TB patients tested (new and relapse or all for pre-2013 definitions)  ",
 			"publicAccess": "r-------",
-			"shortName": "TB/HIV tested ",
+			"shortName": "TB/HIV tested",
 			"translations": [
 				{
 					"locale": "cs",
@@ -14517,13 +14849,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.862",
+			"lastUpdated": "2021-02-08T15:36:29.655",
 			"legendSets": [],
-			"name": "[CONFIG] TB - Notified TB cases (all cases, all forms) ",
+			"name": "[CONFIG] TB - Notified TB cases (all cases, all forms)",
 			"numerator": "-1",
 			"numeratorDescription": "All notified cases",
 			"publicAccess": "r-------",
-			"shortName": "All cases (all forms TB) ",
+			"shortName": "All cases (all forms TB)",
 			"translations": [
 				{
 					"locale": "fr",
@@ -14727,13 +15059,13 @@
 			"indicatorType": {
 				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-02-08T13:25:55.675",
+			"lastUpdated": "2021-02-08T15:36:47.201",
 			"legendSets": [],
-			"name": "[CONFIG] TB - TB cases tested for susceptibility to rifampicin ",
+			"name": "[CONFIG] TB - TB cases tested for susceptibility to rifampicin",
 			"numerator": "-1",
 			"numeratorDescription": "Total number of cases tested for susceptibility to rifampicin",
 			"publicAccess": "r-------",
-			"shortName": "Tested for RR-TB ",
+			"shortName": "Tested for RR-TB",
 			"translations": [
 				{
 					"locale": "cs",
@@ -19664,7 +19996,7 @@
 			"attributeValues": [],
 			"created": "2017-11-28T15:32:56.264",
 			"id": "RcEA84L909S",
-			"lastUpdated": "2021-02-08T13:25:56.606",
+			"lastUpdated": "2021-02-08T15:20:23.926",
 			"legends": [
 				{
 					"access": {
@@ -19794,7 +20126,23 @@
 			],
 			"name": "xxx Population (total)",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "xxx populace (celkem)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "xxx Population (totale)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ххх Население (общее)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -19814,7 +20162,7 @@
 			"attributeValues": [],
 			"created": "2017-08-11T11:00:30.765",
 			"id": "Tqmc5ihvo7W",
-			"lastUpdated": "2021-02-08T13:25:56.784",
+			"lastUpdated": "2021-02-08T15:20:24.403",
 			"legends": [
 				{
 					"access": {
@@ -19919,7 +20267,18 @@
 			],
 			"name": "Legend_TBm_4.2-4_Treatment outcomes (died, lost, not evaluated) (%)",
 			"publicAccess": "r-------",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Légende_TBm_4.2-4_Résultats des traitements (morts, perdus, non évalués) (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Легенда_ТБм_4.2-4_Результаты лечения (умер, потерян, не оценен) (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -21575,7 +21934,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "IvX8f4BVdep",
-			"lastUpdated": "2021-02-08T13:26:00.461",
+			"lastUpdated": "2021-02-08T15:20:24.918",
 			"mapViews": [
 				{
 					"access": {
@@ -21708,7 +22067,23 @@
 			"name": "TBm_4.3_Lost to follow up among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Perdu de vue parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.3_Kasus lost to follow up di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.3_Потерянные для последующего наблюдения среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -22252,7 +22627,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "JunQVZF5CRT",
-			"lastUpdated": "2021-02-08T13:26:01.057",
+			"lastUpdated": "2021-02-08T15:20:25.451",
 			"mapViews": [
 				{
 					"access": {
@@ -22385,7 +22760,23 @@
 			"name": "TBm_4.1_TB treatment success rate for DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Taux de succès thérapeutique de la TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.1_Angka keberhasilan pengobatan TB pada kasus TB SO tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.1_Доля успешного лечения ТБ для ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -23803,7 +24194,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "tkxvwRtZerK",
-			"lastUpdated": "2021-02-08T13:26:05.245",
+			"lastUpdated": "2021-02-08T15:20:26.533",
 			"mapViews": [
 				{
 					"access": {
@@ -23936,7 +24327,23 @@
 			"name": "TBm_4.2_Died among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Décédé parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.2_Kasus meninggal di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.2_Умершие среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -26018,7 +26425,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "ZRCWpzVonSZ",
-			"lastUpdated": "2021-02-08T13:26:03.662",
+			"lastUpdated": "2021-02-08T15:20:25.991",
 			"mapViews": [
 				{
 					"access": {
@@ -26151,7 +26558,23 @@
 			"name": "TBm_4.4_Not evaluated among DS-TB (%)",
 			"publicAccess": "r-------",
 			"subscribers": [],
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Non évalué parmi TB-PS (%)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBm_4.4_Kasus tidak dievaluasi di antara kasus TB SO pada tahun 2020 (%)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБм_4.4_Не оцененные среди ЛЧ-ТБ (%)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -26168,7 +26591,7 @@
 			]
 		}
 	],
-	"package": "TB_DASHBOARD_V1.1.1_DHIS2.33_2021-02-08T15:03",
+	"package": "TB_DASHBOARD_V1.1.1_DHIS2.33_2021-02-08T17:28",
 	"reports": [
 		{
 			"cacheStrategy": "NO_CACHE",
@@ -26176,7 +26599,7 @@
 			"designContent": "﻿<style type=\"text/css\">\r\n.chart {\r\n\tborder: 1px solid #ddd;\r\n\theight: 300px;\r\n\twidth: 100%;\r\n\tfloat: left;\r\n}\r\n\r\n\r\n.chartContainer {\r\n\tmargin: 10px;\r\n\tmargin-bottom: 20px;\r\n\tpage-break-inside: avoid;\r\n}\r\n\r\n@media print {\r\n.no-print, .no-print * {\r\n\tdisplay: none !important;\r\n}\r\n}\r\n</style>\r\n\r\n<!-- <script src=\"https://dhis2-cdn.org/v225-1/plugin/chart.js\"></script> -->\r\n<script src=\"../dhis-web-visualizer/chart.js\"></script>\r\n\r\n\r\n<script type=\"text/javascript\">\r\n\r\n\r\nvar favoriteList = [];\r\nvar favoriteId;\r\nvar favoriteName;\r\n\r\nvar selectedFavorite;\r\n\r\nvar orgunits;\r\nvar filterBy = 'ou';\r\n\r\n$( document ).ready( function() {\r\n\r\n\torgunits = dhis2.report.organisationUnitChildren;\r\n\torgunits.sort(sortByName);\r\n\t\r\n\t//Once the reports is loaded, get list of favorites\r\n\tgetFavoriteList(1);\r\n\t\r\n});\r\n\r\n\r\n//Recursively (page by page), fetch charts that match the criteria of having ou dimension as filter\r\nfunction getFavoriteList(page) {\r\n\r\n\t//Can be simplified, as API now supports getting charts using something like filter=filterDimension:in:[ou]\r\n\t$.getJSON( \"../api/charts.json?fields=displayName,id,filterDimensions&page=\" + page, function( data ) {\r\n\t\t//Iterate charts - get next page\r\n\t\tfor (var i = 0; i < data.charts.length; i++) {\r\n\t\t\r\n\t\t\t//Manually filter charts - can be removed when using API-filtering\r\n\t\t\tvar relevant = false;\r\n\t\t\tfor (var j = 0; j < data.charts[i].filterDimensions.length; j++) {\r\n\t\t\t\tif (data.charts[i].filterDimensions[j] === filterBy) {\r\n\t\t\t\t\trelevant = true;\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif (relevant) {\r\n\t\t\t\tfavoriteList.push(data.charts[i]);\r\n\t\t\t}\t\r\n\t\t}\r\n\t\t\r\n\t\t//No more pages, display dropdown\r\n\t\tif (page === data.pager.pageCount) {\r\n\t\t\t\r\n\t\t\t//Make dropdown\r\n\t\t\tmakeFavoriteList();\r\n\t\t}\r\n\t\t//More pages, get next\r\n\t\telse {\r\n\t\t\tgetFavoriteList(++page);\r\n\t\t}\r\n\t\r\n\t});\r\n}\r\n\r\n//Populate the dropdown list of chart favorites\r\nfunction makeFavoriteList() {\r\n\tvar select = document.getElementById('favoriteList');\r\n\r\n\tfor (var i = 0; i < favoriteList.length; i++){\r\n\t\tvar opt = document.createElement('option');\r\n\t\topt.value = favoriteList[i].id;\r\n\t\topt.innerHTML = favoriteList[i].displayName;\r\n\t\tselect.appendChild(opt);\r\n\t}\r\n}\r\n\r\n\r\n//Called when a chart has been selected\r\nfunction drawCharts() {\r\n\tfavoriteId = document.getElementById( \"favoriteList\" ).value;\r\n\tconsole.log(\"Fetching chart\");\r\n\t//fetch all metadata about the chart favorite that has been selected\r\n\t$.getJSON( \"../api/charts/\" + favoriteId + \".json?fields=:all\", function( data ) {\r\n\t\t\r\n\t\tfavoriteName = data.displayName;\r\n\r\n\t\t//make divs where we will put charts, one per orgunit\r\n\t\tmakeContainers();\t\r\n\t\t\r\n\t\t//make charts\r\n\t\tmakeCharts(data);\r\n\t\t\r\n\t\r\n\t});\r\n\t\r\n}\r\n\r\n//make divs where we will put charts, one per orgunit\r\nfunction makeContainers() {\r\n\tvar html = '<h2 style=\"margin-bottom: 5px\">' + favoriteName + '</h2>' + '<h2 style=\"margin-bottom: 5px\">' + dhis2.report.organisationUnit.name + '</h2>';\t\r\n\t\r\n\t//check window size to see if we want one, two or three charts per \"row\"\r\n\tvar containerSize;\r\n\tvar chartsPerRow = document.getElementById( \"chartsPerRow\" ).value;\r\n\tcontainerSize = Math.floor((window.outerWidth - 41 - chartsPerRow*20 - chartsPerRow)/chartsPerRow);\r\n\t\r\n\tfor (var i = 0; i < orgunits.length; i++) {\r\n\t\r\n\t\t//Container for title + chart\r\n\t\thtml += '<div class=\"chartContainer\" style=\"width: '  + containerSize + 'px; height: 340px; float: left\">'\r\n\t\t\r\n\t\t//Title\r\n\t\t//html += '<h3 style=\"margin-bottom: 5px\">' + orgunits[i].name + '</h3>';\r\n\t\t\r\n\t\t//Chart\r\n\t\thtml += '<div class=\"chart\" id=\"' + orgunits[i].id + '\"></div>';\r\n\t\t\r\n\t\t//End of container\r\n\t\thtml += '</div>';\r\n\r\n\t}\r\n\t\r\n\t\r\n\t$('#container').html(html);\r\n}\r\n\r\n\r\n//make charts\r\nfunction makeCharts(chart) {\r\n\t\r\n\t//In order to change the orgunit selection that is saved as part of the chart favorite, we need to overwrite the whole\r\n\t//filter dimension. That means we need to also recreate any other filter dimension, e.g. data element, period or \r\n\t//dataElementCategory. Possibly missing some dimension, e.g. orgunit disaggregation?\r\n\tvar filters = [];\r\n\tfor (var i = 0; i < chart.filterDimensions.length; i++) {\r\n\t\tswitch (chart.filterDimensions[i]) {\r\n\t\t\tcase 'ou': \r\n\t\t\t\tbreak;\r\n\t\t\tcase 'dx':\r\n\t\t\t\tfilters.push(dataFilterItems(chart));\r\n\t\t\t\tbreak;\r\n\t\t\tcase 'pe':\r\n\t\t\t\tfilters.push(periodFilterItems(chart));\r\n\t\t\t\tbreak;\r\n\t\t\tdefault: \r\n\t\t\t\tfilters.push(otherFilterItems(chart, chart.filterDimensions[i]));\r\n\t\t}\r\n\t}\r\n\t\r\n\t//Iterate over all orgunits and call the chart plugin for each\r\n\tvar currentFilters;\r\n\tfor (var i = 0; i < orgunits.length; i++) {\r\n\t\tcurrentFilters = filters.slice();\r\n\t\tcurrentFilters.push({dimension: \"ou\", items: [{id: orgunits[i].id}]});\r\n\t\tchartPlugin.url = \"..\";\r\n\t\tchartPlugin.load([{\r\n\t\t\tel: orgunits[i].id,\r\n\t\t\tid: favoriteId,\r\n\t\t\tfilters: currentFilters\r\n\t\t}]);\t\r\n\t}\r\n\t\r\n}\r\n\r\n\r\n//Utility function for recreating the data dimension as filter for chart plugin\r\nfunction dataFilterItems(chart) {\r\n\tvar dimension = { \r\n\t\t'dimension': 'dx',\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\tfor (var i = 0; i < chart.dataDimensionItems.length; i++) {\r\n\t\t\tif (chart.dataDimensionItems[i].hasOwnProperty(\"dataElement\")) dimension.items.push({'id': chart.dataDimensionItems[i].dataElement.id});\r\n\t\t\telse if (chart.dataDimensionItems[i].hasOwnProperty(\"indicator\")) dimension.items.push({'id': chart.dataDimensionItems[i].indicator.id});\r\n\t\t\telse console.log(\"Unsupported dataDimensionType\");\r\n\t}\r\n\t\r\n\treturn dimension;\r\n}\r\n\r\n//Utility function for recreating the period dimension as filter for chart plugin\r\nfunction periodFilterItems(chart) {\r\n\tvar dimension = { \r\n\t\t'dimension': 'pe',\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\t\r\n\tfor (var i = 0; i < chart.periods.length; i++) {\r\n\t\tdimension.items.push({'id': chart.periods[i].id});\r\n\t}\r\n\t\r\n\t//TODO: relative periods\r\n\tif (chart.relativePeriods.thisYear) dimension.items.push({'id': 'THIS_YEAR'});\r\n\tif (chart.relativePeriods.quartersLastYear) dimension.items.push({'id': 'QUARTERS_LAST_YEAR'});\r\n\tif (chart.relativePeriods.last52Weeks) dimension.items.push({'id': 'LAST_52_WEEKS'});\r\n\tif (chart.relativePeriods.thisWeek) dimension.items.push({'id': 'THIS_WEEK'});\r\n\tif (chart.relativePeriods.lastMonth) dimension.items.push({'id': 'LAST_MONTH'});\r\n\tif (chart.relativePeriods.monthsThisYear) dimension.items.push({'id': 'MONTHS_THIS_YEAR'});\r\n\tif (chart.relativePeriods.last2SixMonths) dimension.items.push({'id': 'LAST_2_SIX_MONTHS'});\r\n\tif (chart.relativePeriods.thisQuarter) dimension.items.push({'id': 'THIS_QUARTER'});\r\n\tif (chart.relativePeriods.last12Months) dimension.items.push({'id': 'LAST_12_MONTHS'});\r\n\tif (chart.relativePeriods.last5FinancialYears) dimension.items.push({'id': 'LAST_5_FINANCIAL_YEARS'});\r\n\tif (chart.relativePeriods.thisSixMonth) dimension.items.push({'id': 'THIS_SIX_MONTH'});\r\n\tif (chart.relativePeriods.lastQuarter) dimension.items.push({'id': 'LAST_QUARTER'});\r\n\tif (chart.relativePeriods.thisFinancialYear) dimension.items.push({'id': 'THIS_FINANCIAL_YEAR'});\r\n\tif (chart.relativePeriods.last4Weeks) dimension.items.push({'id': 'LAST_4_WEEKS'});\r\n\tif (chart.relativePeriods.last3Months) dimension.items.push({'id': 'LAST_3_MONTHS'});\r\n\tif (chart.relativePeriods.thisMonth) dimension.items.push({'id': 'THIS_MONTH'});\r\n\tif (chart.relativePeriods.last5Years) dimension.items.push({'id': 'LAST_5_YEARS'});\r\n\tif (chart.relativePeriods.last6BiMonths) dimension.items.push({'id': 'LAST_6_BI_MONTHS'});\r\n\tif (chart.relativePeriods.lastFinancialYear) dimension.items.push({'id': 'LAST_FINANCIAL_YEAR'});\r\n\tif (chart.relativePeriods.last6Months) dimension.items.push({'id': 'LAST_6_MONTHS'});\r\n\tif (chart.relativePeriods.quartersThisYear) dimension.items.push({'id': 'QUARTERS_THIS_YEAR'});\r\n\tif (chart.relativePeriods.monthsLastYear) dimension.items.push({'id': 'MONTHS_LAST_YEAR'});\r\n\tif (chart.relativePeriods.lastWeek) dimension.items.push({'id': 'LAST_WEEK'});\r\n\tif (chart.relativePeriods.thisBimonth) dimension.items.push({'id': 'THIS_BIMONTH'});\r\n\tif (chart.relativePeriods.lastBimonth) dimension.items.push({'id': 'LAST_BIMONTH'});\r\n\tif (chart.relativePeriods.lastSixMonth) dimension.items.push({'id': 'LAST_SIX_MONTH'});\r\n\tif (chart.relativePeriods.lastYear) dimension.items.push({'id': 'LAST_YEAR'});\r\n\tif (chart.relativePeriods.last12Weeks) dimension.items.push({'id': 'LAST_12_WEEKS'});\r\n\tif (chart.relativePeriods.last4Quarters) dimension.items.push({'id': 'LAST_4_QUARTERS'});\r\n\t\r\n\treturn dimension;\r\n\r\n}\r\n\r\n\r\n//Utility function for recreating the category dimension as filter for chart plugin\r\n//We might also need an orgunit dimension here (or orgunit group disaggregation)\r\nfunction otherFilterItems(chart, dimensionId) {\r\n\tvar dimension = { \r\n\t\t'dimension': dimensionId,\r\n\t\t'items': []\r\n\t\t};\r\n\t\r\n\tfor (var i = 0; i < chart.categoryDimensions.length; i++) {\r\n\t\tif (chart.categoryDimensions[i].dataElementCategory.id === dimensionId) {\r\n\t\t\r\n\t\t\tfor (var j = 0; j < chart.categoryDimensions[i].categoryOptions.length; j++) {\r\n\t\t\r\n\t\t\t\tdimension.items.push({'id': chart.categoryDimensions[i].categoryOptions[j].id});\r\n\t\t\t\t\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\t\r\n\treturn dimension;\r\n}\r\n\r\n\r\nfunction sortByName(a, b){\r\n  \tvar nameA = a.name.toLowerCase();\r\n  \tvar nameB = b.name.toLowerCase(); \r\n  \treturn ((nameA < nameB) ? -1 : ((nameA > nameB) ? 1 : 0));\r\n}\r\n\r\n</script>\r\n\r\n\r\n<div class=\"no-print\">\r\n\t<label>Graphique / chart</label>\r\n\t<select id=\"favoriteList\"></select>\r\n\t\r\n\t<label style=\"margin-left: 10px\">Graphiques par ligne / Graphs per row</label>\r\n\t<select style=\"width: 50px\" id=\"chartsPerRow\">\r\n\t\t<option value=1>1</option>\r\n\t\t<option value=2>2</option>\r\n\t\t<option value=3>3</option>\r\n\t\t<option value=4>4</option>\r\n\t</select>\r\n\t\r\n\t<button style=\"margin-left: 10px\" onClick=\"drawCharts();\">Générer / Generate</button>\r\n\t\r\n\t<hr />\r\n</div>\r\n<h2 id=\"title\"></h2>\r\n<div id=\"container\" class=\"content\" style=\"overflow: hidden\"></div>",
 			"externalAccess": false,
 			"id": "BuTAAbV4zMg",
-			"lastUpdated": "2019-08-27T19:07:38.312",
+			"lastUpdated": "2021-02-08T15:20:31.311",
 			"name": "Compare subunits using the same graph/Comparez les sous-unités utilisant le même graphique",
 			"publicAccess": "r-------",
 			"relativePeriods": {
@@ -26226,7 +26649,13 @@
 				"paramParentOrganisationUnit": false,
 				"paramReportingPeriod": false
 			},
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Comparez les sous-unités utilisant le même graphique"
+				}
+			],
 			"type": "HTML",
 			"user": {
 				"id": "vUeLeQMSwhN"
@@ -27408,7 +27837,7 @@
 			"hideTitle": false,
 			"id": "NoiUFmU3mwj",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:26:06.719",
+			"lastUpdated": "2021-02-08T15:20:27.061",
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "TBt_3.1_TB notifications (% and ratios) (red=outside of expected range)",
@@ -27478,7 +27907,23 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Notifications TBt_3.1_TB (% et ratios) (rouge = hors de la fourchette prévue)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBt_3.1_Notifikasi kasus TB (% dan rasio) (merah=di luar kisaran yang diharapkan)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБт_3.1_ТБ извещений (процент и соотношения) (красный=вне ожидаемого диапазона)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -27566,7 +28011,7 @@
 			"hideTitle": false,
 			"id": "o0FulK7B5Tm",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-08T13:26:08.945",
+			"lastUpdated": "2021-02-08T15:20:27.554",
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "TBt_3.1_TB notifications (% and ratios) (red=outside of expected range) (annual)",
@@ -27636,7 +28081,23 @@
 			"sortOrder": 0,
 			"subscribers": [],
 			"topLimit": 0,
-			"translations": [],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "TBt_3.1_TB  Notifications (% et ratios) (rouge = hors de la fourchette prévue) (annuel)"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "TBt_3.1_Notifikasi kasus TB (% dan rasio) (merah=di luar kisaran yang diharapkan) (tahunan)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "ТБт_3.1_ТБ извещений (процент и соотношения) (красный=вне ожидаемого диапазона) (годовой)"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
