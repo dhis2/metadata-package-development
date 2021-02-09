@@ -12,7 +12,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-02-04T01:54:23.818",
+			"lastUpdated": "2021-02-09T16:30:29.890",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -98,7 +98,7 @@
 			"created": "2018-01-17T10:28:58.779",
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bjDvmb4bfuf",
-			"lastUpdated": "2021-01-31T13:20:10.525",
+			"lastUpdated": "2021-02-05T12:02:43.387",
 			"name": "default",
 			"publicAccess": "r-------",
 			"skipTotal": false,
@@ -189,7 +189,7 @@
 			"created": "2018-01-17T10:28:58.783",
 			"id": "HllvX50cXC0",
 			"ignoreApproval": false,
-			"lastUpdated": "2021-01-31T13:20:10.701",
+			"lastUpdated": "2021-02-05T12:02:43.588",
 			"name": "default",
 			"translations": [
 				{
@@ -251,7 +251,7 @@
 			"code": "default",
 			"created": "2018-01-17T10:28:58.744",
 			"id": "xYerKDKCefk",
-			"lastUpdated": "2021-01-31T13:20:10.888",
+			"lastUpdated": "2021-02-05T12:02:43.812",
 			"name": "default",
 			"organisationUnits": [],
 			"publicAccess": "r-r-----",
@@ -1119,7 +1119,7 @@
 				}
 			],
 			"id": "bJW73wIwGyB",
-			"lastUpdated": "2021-01-31T13:20:31.021",
+			"lastUpdated": "2021-02-05T12:02:55.474",
 			"name": "COVAX - Covid-19 vaccination registry",
 			"publicAccess": "r-------",
 			"shortName": "Covid vaccine registry",
@@ -1143,6 +1143,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Registre de vaccination contre le COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Registro de vacinação Covid-19"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Registro de vacina Covid"
 				}
 			],
 			"user": {
@@ -1179,7 +1189,7 @@
 			"domainType": "TRACKER",
 			"formName": "Vaccine type",
 			"id": "bbnyNYD1wgS",
-			"lastUpdated": "2021-01-31T13:20:15.314",
+			"lastUpdated": "2021-02-05T12:02:47.750",
 			"legendSets": [],
 			"name": "COVAX - Vaccine Type",
 			"optionSet": {
@@ -1247,6 +1257,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Type de vaccin"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "COVAX - Tipo de Vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Tipo de Vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Tipo de Vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Tipo de Vacina"
 				}
 			],
 			"user": {
@@ -1282,7 +1312,7 @@
 			"domainType": "TRACKER",
 			"formName": "Any underlying conditions?",
 			"id": "bCtWZGjSWM8",
-			"lastUpdated": "2021-01-31T13:20:12.240",
+			"lastUpdated": "2021-02-05T12:02:45.160",
 			"legendSets": [],
 			"name": "COVAX - Underlying condition",
 			"optionSet": {
@@ -1342,6 +1372,16 @@
 					"value": "Alguma condição subjacente?"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Condição subjacente"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Condição subjacente"
+				},
+				{
 					"locale": "ru",
 					"property": "FORM_NAME",
 					"value": "Имеется ли какое-либо первичное заболевание?"
@@ -1381,7 +1421,7 @@
 			"domainType": "TRACKER",
 			"formName": "Is the patient pregnant or lactating?",
 			"id": "BfNZcj99yz4",
-			"lastUpdated": "2021-01-31T13:20:12.778",
+			"lastUpdated": "2021-02-05T12:02:45.758",
 			"legendSets": [],
 			"name": "COVAX - Pregnancy",
 			"optionSet": {
@@ -1449,6 +1489,36 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Grossesse"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Kehamilan"
+				},
+				{
+					"locale": "id",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Kehamilan"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A paciente está grávida ou a amamentar?"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "A paciente está grávida ou a amamentar?"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Gravidez"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Gravidez"
 				}
 			],
 			"user": {
@@ -1485,7 +1555,7 @@
 			"domainType": "TRACKER",
 			"formName": "Chronic Lung Disease",
 			"id": "C0Bony47eKp",
-			"lastUpdated": "2021-01-31T13:20:11.098",
+			"lastUpdated": "2021-02-05T12:02:44.009",
 			"legendSets": [],
 			"name": "COVAX - Chronic Lung Disease",
 			"publicAccess": "r-------",
@@ -1552,6 +1622,26 @@
 					"value": "COVAX _Affection pulmonaire chronique"
 				},
 				{
+					"locale": "id",
+					"property": "DESCRIPTION",
+					"value": "Penyakit Paru Kronis"
+				},
+				{
+					"locale": "id",
+					"property": "FORM_NAME",
+					"value": "Penyakit Paru Kronis"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Penyakit Paru Kronis"
+				},
+				{
+					"locale": "id",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Penyakit Paru Kronis"
+				},
+				{
 					"locale": "nb",
 					"property": "DESCRIPTION",
 					"value": "Kronisk lungesykdom"
@@ -1570,6 +1660,16 @@
 					"locale": "pt",
 					"property": "FORM_NAME",
 					"value": "Doença Pulmonar Crónica"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Doença Pulmonar Crônica"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX_Doença crônica Pulmonar"
 				},
 				{
 					"locale": "ru",
@@ -1616,7 +1716,7 @@
 			"domainType": "TRACKER",
 			"formName": "Pregnancy gestation (weeks)",
 			"id": "CBAs12YL4g7",
-			"lastUpdated": "2021-01-31T13:20:11.286",
+			"lastUpdated": "2021-02-05T12:02:44.195",
 			"legendSets": [],
 			"name": "COVAX - Pregnancy gestation",
 			"optionSet": {
@@ -1706,6 +1806,16 @@
 					"value": "Gestação (semanas)"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Gestação de Gravidez"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Gestação de Gravidez"
+				},
+				{
 					"locale": "ru",
 					"property": "DESCRIPTION",
 					"value": "Период беременности (недель)"
@@ -1749,7 +1859,7 @@
 			"domainType": "TRACKER",
 			"formName": "Others (Please specify)",
 			"id": "dpyQUtizp7s",
-			"lastUpdated": "2021-01-31T13:20:15.880",
+			"lastUpdated": "2021-02-05T12:02:48.143",
 			"legendSets": [],
 			"name": "COVAX - Underlying condition Other",
 			"publicAccess": "r-------",
@@ -1784,6 +1894,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Autre affection sous-jacente"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Outros, (por favor especifique)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Outra Condição Subjacente"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Outra Condição Subjacente"
 				}
 			],
 			"user": {
@@ -1819,7 +1944,7 @@
 			"domainType": "TRACKER",
 			"formName": "Is this the last dose?",
 			"id": "DSOWCIdQ8Tr",
-			"lastUpdated": "2021-01-31T13:20:12.950",
+			"lastUpdated": "2021-02-05T12:02:45.951",
 			"legendSets": [],
 			"name": "COVAX - Last Dose",
 			"publicAccess": "r-------",
@@ -1884,6 +2009,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Dernière dose"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Esta é a última dose do curso"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Esta é a última dose?"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Última Dose"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Última Dose"
 				}
 			],
 			"user": {
@@ -1919,7 +2064,7 @@
 			"domainType": "TRACKER",
 			"formName": "Has the patient had a severe allergic reaction (anaphylaxis) or an immediate allergic reaction—even if it was not severe—after getting the first dose of the vaccine",
 			"id": "dWoveSw6b79",
-			"lastUpdated": "2021-01-31T13:20:15.697",
+			"lastUpdated": "2021-02-05T12:02:47.948",
 			"legendSets": [],
 			"name": "COVAX Allergic reaction after first dose",
 			"publicAccess": "r-------",
@@ -1947,6 +2092,16 @@
 				},
 				{
 					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Si vous avez présenté une réaction allergique grave (anaphylaxie) ou une réaction allergique immédiate - même si elle n'était pas grave - après avoir reçu la première dose du vaccin, vous ne devez pas recevoir une autre dose d'un vaccin à ARN messager contre le COVID-19. Une réaction allergique immédiate signifie une réaction survenue dans les 4 heures suivant la vaccination, y compris des symptômes tels que de l'urticaire, une enflure ou une respiration sifflante (détresse respiratoire)."
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Le patient a-t-il présenté une réaction allergique grave (anaphylaxie) ou une réaction allergique immédiate - même si elle n'était pas grave - après avoir reçu la première dose du vaccin ?"
+				},
+				{
+					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Réaction allergique après la première dose"
 				},
@@ -1954,6 +2109,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Réaction allergique"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Se tiver uma reação alérgica grave (anafilaxia) ou uma reação alérgica imediata - mesmo que não tenha sido grave - após receber a primeira dose da vacina, não deve receber outra dose de uma vacina de mRNA COVID-19. Uma reação alérgica imediata significa uma reação dentro de 4 horas após a vacinação, incluindo sintomas como urticária, inchaço ou respiração ofegante (dificuldade respiratória)."
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "O paciente teve uma reação alérgica grave (anafilaxia) ou uma reação alérgica imediata - mesmo que não tenha sido grave - após receber a primeira dose da vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Reação alérgica ao COVAX após a primeira dose"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Reação alérgica ao COVAX"
 				}
 			],
 			"user": {
@@ -1987,7 +2162,7 @@
 			"created": "2020-12-08T20:57:49.754",
 			"domainType": "TRACKER",
 			"id": "FFWcps4MfuH",
-			"lastUpdated": "2021-01-31T13:20:13.137",
+			"lastUpdated": "2021-02-05T12:02:46.136",
 			"legendSets": [],
 			"name": "COVAX Suggested date for next dose",
 			"publicAccess": "r-------",
@@ -2022,6 +2197,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Date de la prochaine dose"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX Data sugerida para a próxima dose"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data da próxima dose"
 				}
 			],
 			"user": {
@@ -2057,7 +2242,7 @@
 			"domainType": "TRACKER",
 			"formName": "Renal Disease",
 			"id": "gW4pd818Sw8",
-			"lastUpdated": "2021-01-31T13:20:12.414",
+			"lastUpdated": "2021-02-05T12:02:45.352",
 			"legendSets": [],
 			"name": "COVAX - Renal Disease",
 			"publicAccess": "r-------",
@@ -2114,6 +2299,16 @@
 					"value": "Renal Disease"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Doença Renal"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Doença Renal"
+				},
+				{
 					"locale": "ru",
 					"property": "FORM_NAME",
 					"value": "Заболевание почек"
@@ -2151,7 +2346,7 @@
 			"domainType": "TRACKER",
 			"formName": "Serious adverse event following immunization",
 			"id": "kQCVFWE2MPb",
-			"lastUpdated": "2021-01-31T13:20:16.244",
+			"lastUpdated": "2021-02-05T12:02:48.337",
 			"legendSets": [],
 			"name": "AEFI_Serious adverse event following immunization",
 			"publicAccess": "r-------",
@@ -2196,6 +2391,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Manifestations postvaccinales indésirables graves"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Evento adverso sério após a vacinação"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "AEFI_Evento adverso sério após a vacinação"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Evento adverso sério após a vacinação"
 				}
 			],
 			"user": {
@@ -2232,7 +2442,7 @@
 			"domainType": "TRACKER",
 			"formName": "Cardiovascular disease, including hypertension",
 			"id": "LNHAYF3qdZl",
-			"lastUpdated": "2021-01-31T13:20:11.494",
+			"lastUpdated": "2021-02-05T12:02:44.386",
 			"legendSets": [],
 			"name": "COVAX - Cardiovascular Disease",
 			"publicAccess": "r-------",
@@ -2319,6 +2529,16 @@
 					"value": "Doença cardiovascular, incluindo hipertensão"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Doença Cardiovascular"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX Doença Cardiovascular"
+				},
+				{
 					"locale": "ru",
 					"property": "DESCRIPTION",
 					"value": "Сердечнососудистое заболевание, включая гипертензию"
@@ -2362,7 +2582,7 @@
 			"domainType": "TRACKER",
 			"formName": "Has the patient been infected with COVID-19 within the last 90 days?",
 			"id": "LOU9t0aR0z7",
-			"lastUpdated": "2021-01-31T13:20:13.323",
+			"lastUpdated": "2021-02-05T12:02:46.335",
 			"legendSets": [],
 			"name": "COVAX Previously infected with COVID",
 			"optionSet": {
@@ -2425,6 +2645,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Patient précédemment infecté par le COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "O paciente foi infectado com COVID-19 nos últimos 90 dias?"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "O paciente foi infectado com COVID-19 nos últimos 90 dias?"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX previamente infectado com COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Previamente infectado com COVID"
 				}
 			],
 			"user": {
@@ -2461,7 +2701,7 @@
 			"domainType": "TRACKER",
 			"formName": "Dose number",
 			"id": "LUIsbsm3okG",
-			"lastUpdated": "2021-01-31T13:20:13.502",
+			"lastUpdated": "2021-02-05T12:02:46.543",
 			"legendSets": [],
 			"name": "COVAX - Dose Number",
 			"optionSet": {
@@ -2524,6 +2764,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Numéro de la dose"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Define se esta é a primeira vs a segunda dose, por exemplo"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Número da dose"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Número da Dose"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Número da Dose"
 				}
 			],
 			"user": {
@@ -2599,7 +2859,7 @@
 			"domainType": "TRACKER",
 			"formName": "Immunodeficiency",
 			"id": "MuZ9dMVXpuM",
-			"lastUpdated": "2021-01-31T13:20:11.667",
+			"lastUpdated": "2021-02-05T12:02:44.585",
 			"legendSets": [],
 			"name": "COVAX - Immunodeficiency",
 			"publicAccess": "r-------",
@@ -2656,6 +2916,16 @@
 					"value": "Imunodeficiência"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Imunodeficiência"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Imunodeficiência"
+				},
+				{
 					"locale": "ru",
 					"property": "FORM_NAME",
 					"value": "Иммунодефицит"
@@ -2693,7 +2963,7 @@
 			"domainType": "TRACKER",
 			"formName": "Please explain why this client has been administered doses of different products",
 			"id": "OAxinuYFDG6",
-			"lastUpdated": "2021-01-31T13:20:13.691",
+			"lastUpdated": "2021-02-05T12:02:46.741",
 			"legendSets": [],
 			"name": "COVAX - Multiple products used - Explain",
 			"publicAccess": "r-------",
@@ -2728,6 +2998,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Explication des raisons de l'utilisation de plusieurs produits"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Explique por que este paciente recebeu doses de produtos diferentes"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Vários produtos usados - Explique"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Explicação de vários produtos"
 				}
 			],
 			"user": {
@@ -2764,7 +3049,7 @@
 			"domainType": "TRACKER",
 			"formName": "Has this patient been screened for eligibility?",
 			"id": "OXBnk0mWcOw",
-			"lastUpdated": "2021-01-31T13:20:13.864",
+			"lastUpdated": "2021-02-05T12:02:46.948",
 			"legendSets": [],
 			"name": "COVAX - Eligibility",
 			"publicAccess": "r-------",
@@ -2809,6 +3094,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Éligibilité"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Se o paciente é elegível para a vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Este paciente foi examinado para elegibilidade?"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Elegibilidade"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Elegibilidade"
 				}
 			],
 			"user": {
@@ -2843,7 +3148,7 @@
 			"domainType": "TRACKER",
 			"formName": "When did the client complete their remission from COVID?",
 			"id": "oZiX5uHkacg",
-			"lastUpdated": "2021-01-31T13:20:16.796",
+			"lastUpdated": "2021-02-05T12:02:48.515",
 			"legendSets": [],
 			"name": "COVAX Date of remission",
 			"publicAccess": "r-------",
@@ -2878,6 +3183,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Date de rémission du COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Quando o cliente concluiu a remissão do COVID?"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX Data da remissão"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Data de remissão do COVID"
 				}
 			],
 			"user": {
@@ -2908,12 +3228,134 @@
 			"categoryCombo": {
 				"id": "bjDvmb4bfuf"
 			},
+			"code": "totalDoses",
+			"created": "2021-02-04T13:49:49.308",
+			"description": "Total doses required for this vaccine product ",
+			"domainType": "TRACKER",
+			"formName": "Total doses required for this vaccine product",
+			"id": "PamkjF1JUnE",
+			"lastUpdated": "2021-02-05T11:37:02.067",
+			"legendSets": [],
+			"name": "COVAX - Total doses",
+			"publicAccess": "r-------",
+			"shortName": "COVAX Total doses",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"valueType": "NUMBER",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "NONE",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"created": "2021-01-14T10:21:57.268",
+			"domainType": "TRACKER",
+			"formName": "Name of manufacturer",
+			"id": "rpkH9ZPGJcX",
+			"lastUpdated": "2021-02-04T13:46:48.407",
+			"legendSets": [],
+			"name": "COVAX - Manufacturer",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"publicAccess": "r-------",
+			"shortName": "COVAX Manufacturer",
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "FORM_NAME",
+					"value": "Název výrobce"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX AEFI Název výrobce "
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Název výrobce"
+				},
+				{
+					"locale": "es",
+					"property": "FORM_NAME",
+					"value": "Nombre del fabricante"
+				},
+				{
+					"locale": "es",
+					"property": "SHORT_NAME",
+					"value": "Nombre del fabricante"
+				},
+				{
+					"locale": "fr",
+					"property": "FORM_NAME",
+					"value": "Nom du fabricant"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "MAPI COVAX - Nom du fabricant"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Nom du fabricant"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"valueType": "TEXT",
+			"zeroIsSignificant": false
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
 			"code": "Covax_Comcond_diabetes",
 			"created": "2020-11-25T07:43:04.776",
 			"domainType": "TRACKER",
 			"formName": "Diabetes",
 			"id": "TT1h0vGu5da",
-			"lastUpdated": "2021-01-31T13:20:11.864",
+			"lastUpdated": "2021-02-05T12:02:44.772",
 			"legendSets": [],
 			"name": "COVAX - Diabetes",
 			"publicAccess": "r-------",
@@ -2970,6 +3412,16 @@
 					"value": "Diabetes"
 				},
 				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Diabetes"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX Diabetes"
+				},
+				{
 					"locale": "ru",
 					"property": "FORM_NAME",
 					"value": "Диабет"
@@ -3017,7 +3469,7 @@
 			"domainType": "TRACKER",
 			"formName": "Non-serious adverse event following immunization",
 			"id": "V5CfmqTsKrv",
-			"lastUpdated": "2021-01-31T13:20:14.433",
+			"lastUpdated": "2021-02-05T12:02:47.139",
 			"legendSets": [],
 			"name": "AEFI_Nonserious adverse event following immunization",
 			"publicAccess": "r-------",
@@ -3062,6 +3514,21 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Manifestations postvaccinales indésirables non graves"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Evento adverso não sério após a vacinação"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "AEFI_Evento adverso não sério após vacinação"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Evento adverso não sério após a vacinação"
 				}
 			],
 			"user": {
@@ -3098,7 +3565,7 @@
 			"domainType": "TRACKER",
 			"formName": "Chronic neurological or neuromuscular disease",
 			"id": "VCetMtYu1DY",
-			"lastUpdated": "2021-02-03T11:24:57.198",
+			"lastUpdated": "2021-02-05T12:02:44.975",
 			"legendSets": [],
 			"name": "COVAX - Neurological/Neuromuscular",
 			"publicAccess": "r-------",
@@ -3113,11 +3580,6 @@
 					"locale": "ar",
 					"property": "FORM_NAME",
 					"value": "مرض عصبي أو عصبي عضلي مزمن"
-				},
-				{
-					"locale": "ar",
-					"property": "SHORT_NAME",
-					"value": "عصبي / عصبي عضلي"
 				},
 				{
 					"locale": "cs",
@@ -3135,11 +3597,6 @@
 					"value": "COVAX - neurologický / neuromuskulární"
 				},
 				{
-					"locale": "cs",
-					"property": "SHORT_NAME",
-					"value": "Neurologické / neuromuskulární"
-				},
-				{
 					"locale": "es",
 					"property": "DESCRIPTION",
 					"value": "Enfermedad cronica neurologica o neuromuscular"
@@ -3148,11 +3605,6 @@
 					"locale": "es",
 					"property": "FORM_NAME",
 					"value": "Enfermedad cronica neurologica o neuromuscular"
-				},
-				{
-					"locale": "es",
-					"property": "SHORT_NAME",
-					"value": "Neurologico/Neuromuscular"
 				},
 				{
 					"locale": "fr",
@@ -3170,11 +3622,6 @@
 					"value": "COVAX - Neurologique/Neuromusculaire"
 				},
 				{
-					"locale": "fr",
-					"property": "SHORT_NAME",
-					"value": "Neurologique/Neuromusculaire"
-				},
-				{
 					"locale": "nb",
 					"property": "DESCRIPTION",
 					"value": "Kronisk nevrologisk eller nevromuskulær sykdom"
@@ -3183,11 +3630,6 @@
 					"locale": "nb",
 					"property": "FORM_NAME",
 					"value": "Kronisk nevrologisk eller nevromuskulær sykdom"
-				},
-				{
-					"locale": "nb",
-					"property": "SHORT_NAME",
-					"value": "Nevrologisk/nevromuskulær"
 				},
 				{
 					"locale": "pt",
@@ -3201,8 +3643,8 @@
 				},
 				{
 					"locale": "pt",
-					"property": "SHORT_NAME",
-					"value": "Neurológico/Neuromuscular"
+					"property": "NAME",
+					"value": "COVAX - Neurológico / Neuromuscular"
 				},
 				{
 					"locale": "ru",
@@ -3213,11 +3655,6 @@
 					"locale": "ru",
 					"property": "FORM_NAME",
 					"value": "Хроническое неврологическое/нервно-мышечное заболевание"
-				},
-				{
-					"locale": "ru",
-					"property": "SHORT_NAME",
-					"value": "Неврологическое/нервно-мышечное заболевание"
 				}
 			],
 			"user": {
@@ -3254,7 +3691,7 @@
 			"domainType": "TRACKER",
 			"formName": "Malignancy",
 			"id": "xVxLMku5DMX",
-			"lastUpdated": "2021-01-31T13:20:12.598",
+			"lastUpdated": "2021-02-05T12:02:45.553",
 			"legendSets": [],
 			"name": "COVAX - Malignancy",
 			"publicAccess": "r-------",
@@ -3317,8 +3754,23 @@
 				},
 				{
 					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "COVAX - Malignidade"
+				},
+				{
+					"locale": "pt",
 					"property": "FORM_NAME",
 					"value": "Malignidade"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Malignidade"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Malignidade"
 				},
 				{
 					"locale": "ru",
@@ -3359,7 +3811,7 @@
 			"domainType": "TRACKER",
 			"formName": "Batch number for this dose",
 			"id": "Yp1F4txx8tm",
-			"lastUpdated": "2021-01-31T13:20:15.137",
+			"lastUpdated": "2021-02-05T12:02:47.530",
 			"legendSets": [],
 			"name": "COVAX- Batch Number",
 			"publicAccess": "r-------",
@@ -3409,6 +3861,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Numéro de lot"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Número do lote para esta dose de vacina"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Número do lote para esta dose"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX- Número do lote"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Número do lote"
 				}
 			],
 			"user": {
@@ -3445,7 +3917,7 @@
 			"domainType": "TRACKER",
 			"formName": "Date of dose expiration",
 			"id": "YTQulAldGOs",
-			"lastUpdated": "2021-01-31T13:20:14.957",
+			"lastUpdated": "2021-02-05T12:02:47.325",
 			"legendSets": [],
 			"name": "COVAX - Dose Expiry Date",
 			"publicAccess": "r-------",
@@ -3500,6 +3972,26 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "COVAX - Date d'expiration de la dose"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "Data da expiração da dose"
+				},
+				{
+					"locale": "pt",
+					"property": "FORM_NAME",
+					"value": "Data de expiração da dose"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Data de Validade da Dose"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "COVAX - Data de Validade da Dose"
 				}
 			],
 			"user": {
@@ -3556,7 +4048,7 @@
 			"hideTitle": false,
 			"id": "QTONjOuZmh4",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:31.239",
+			"lastUpdated": "2021-02-05T12:02:55.735",
 			"name": "COVAX - Occupation - HCWs",
 			"noSpaceBetweenColumns": true,
 			"organisationUnitGroupSetDimensions": [],
@@ -3640,6 +4132,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Profession - Agents de santé"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Ocupação - HCWs"
 				}
 			],
 			"type": "COLUMN",
@@ -3696,7 +4193,7 @@
 			"hideTitle": false,
 			"id": "ZFd7uKfZpli",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:31.420",
+			"lastUpdated": "2021-02-05T12:02:55.971",
 			"name": "COVAX - Area of origin",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3775,6 +4272,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Zone d'origine"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Região de origem"
 				}
 			],
 			"type": "PIE",
@@ -3855,7 +4357,7 @@
 			"hideTitle": false,
 			"id": "cgMKXl648C2",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:31.623",
+			"lastUpdated": "2021-02-05T12:02:56.242",
 			"name": "COVAX - Summary of doses",
 			"organisationUnitGroupSetDimensions": [],
 			"organisationUnitLevels": [],
@@ -3937,6 +4439,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Synthèse des doses"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Resumo das doses"
 				}
 			],
 			"user": {
@@ -3981,7 +4488,7 @@
 					"id": "qbNdD4CF8K5"
 				}
 			],
-			"lastUpdated": "2021-02-01T17:16:45.350",
+			"lastUpdated": "2021-02-05T12:02:56.454",
 			"name": "COVID Vaccine Registry",
 			"publicAccess": "r-------",
 			"translations": [
@@ -3994,6 +4501,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Registre des vaccins contre le COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVID Registro de vacinas"
 				}
 			],
 			"user": {
@@ -4029,7 +4541,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-31T13:20:32.130",
+			"lastUpdated": "2021-02-05T12:02:56.659",
 			"legendSets": [],
 			"name": "COVAX - Drop-out from COV-1 to COV-c COVAX 2 (21 days)",
 			"numerator": "I{Fj0B6zTlckL}",
@@ -4069,6 +4581,11 @@
 				},
 				{
 					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Proportion de personnes ayant reçu au moins une dose d'un vaccin COVID-19 mais n'ayant pas encore reçu la dernière dose prévue dans le calendrier. Calculée comme suit : (COV-1 - COV-c)/COV-1\n"
+				},
+				{
+					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Abandon COV-1 à COV-c COVAX 2 (21 jours)"
 				},
@@ -4081,6 +4598,31 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Abandon COV-1 à COV-c COVAX2"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "COV-1"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Desistência de COV-1 para COV-c COVAX 2 (21 dias)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "COV-1 - COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Desistência de COV-1 para COV-c COVAX2"
 				}
 			],
 			"user": {
@@ -4114,7 +4656,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-31T13:20:32.316",
+			"lastUpdated": "2021-02-05T12:02:57.054",
 			"legendSets": [],
 			"name": "COVAX - Drop-out from COV-1 to COV-c COVAX 3 (21 days)",
 			"numerator": "I{xE7kgNbrb5v}",
@@ -4154,6 +4696,11 @@
 				},
 				{
 					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Proportion de personnes ayant reçu au moins une dose d'un vaccin COVID-19 mais n'ayant pas encore reçu la dernière dose prévue dans le calendrier. Calculée comme suit : (COV-1 - COV-c)/COV-1\n"
+				},
+				{
+					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Abandon COV-1 à COV-c COVAX 3 (21 jours)"
 				},
@@ -4166,6 +4713,31 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Abandon COV-1 à COV-c COVAX3"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "COV-1"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Desistência de COV-1 para COV-c COVAX 3 (21 dias)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "COV-1 - COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Desistência de COV-1 para COV-c COVAX3"
 				}
 			],
 			"user": {
@@ -4199,7 +4771,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-31T13:20:32.493",
+			"lastUpdated": "2021-02-05T12:02:57.257",
 			"legendSets": [],
 			"name": "COVAX - Drop-out from COV-1 to COV-c COVAX 1 (10 days)",
 			"numerator": "I{dIAw5mn6Wqp}",
@@ -4239,6 +4811,11 @@
 				},
 				{
 					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Proportion de personnes ayant reçu au moins une dose d'un vaccin COVID-19 mais n'ayant pas encore reçu la dernière dose prévue dans le calendrier. Calculée comme suit : (COV-1 - COV-c)/COV-1\n"
+				},
+				{
+					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Abandon COV-1 à COV-c COVAX 1 (10 jours)"
 				},
@@ -4251,6 +4828,31 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Abandon COV-1 à COV-c COVAX1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "COV-1"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Desistência de COV-1 para COV-c COVAX 1 (10 dias)"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "COV-1 - COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Desistência de COV-1 para COV-c COVAX1"
 				}
 			],
 			"user": {
@@ -4284,7 +4886,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-01-31T13:20:33.070",
+			"lastUpdated": "2021-02-05T12:02:57.453",
 			"legendSets": [],
 			"name": "COVAX - Drop-out from COV-1 to COV-c",
 			"numerator": "I{P2OSNv6tWuj}  -  I{DNWp4zqrALv}",
@@ -4324,6 +4926,11 @@
 				},
 				{
 					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Proportion de personnes ayant reçu au moins une dose d'un vaccin COVID-19 mais n'ayant pas encore reçu la dernière dose prévue dans le calendrier. Calculée comme suit : : (COV-1 - COV-c)/COV-1\n"
+				},
+				{
+					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Abandon COV-1 à COV-c"
 				},
@@ -4338,9 +4945,34 @@
 					"value": "Abandon COV-1 à COV-c"
 				},
 				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Drop-out dati COV-1  ke COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "COV-1"
+				},
+				{
+					"locale": "pt",
+					"property": "DESCRIPTION",
+					"value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
+				},
+				{
 					"locale": "pt",
 					"property": "NAME",
 					"value": "COVAX - Desistência de COV-1 para COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "CPV-1 - COV-c"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Desistência de COV-1 para COV-c"
 				}
 			],
 			"user": {
@@ -4427,7 +5059,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "cOH1OjReS14",
-			"lastUpdated": "2021-01-31T13:20:33.458",
+			"lastUpdated": "2021-02-05T12:02:57.851",
 			"mapViews": [
 				{
 					"access": {
@@ -4630,6 +5262,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Nombre de doses administrées, mois dernier"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX-Número de doses administradas, mês passado"
 				}
 			],
 			"user": {
@@ -4657,7 +5294,7 @@
 			"externalAccess": false,
 			"favorites": [],
 			"id": "Db3MWC56CBp",
-			"lastUpdated": "2021-01-31T13:20:33.271",
+			"lastUpdated": "2021-02-05T12:02:57.658",
 			"mapViews": [
 				{
 					"access": {
@@ -4860,6 +5497,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Taux d'abandon"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Taxas de desistência"
 				}
 			],
 			"user": {
@@ -4885,16 +5527,45 @@
 	"options": [
 		{
 			"attributeValues": [],
+			"code": "manufacturer1",
+			"created": "2021-01-14T11:30:25.829",
+			"id": "A9OSdfNI6IT",
+			"lastUpdated": "2021-01-31T13:20:19.461",
+			"name": "Manufacturer 1",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 1,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Výrobce 1"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fabricant 1"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
 			"code": "teacher",
 			"created": "2020-11-24T20:11:57.746",
 			"id": "ahtoNsMUVFa",
-			"lastUpdated": "2021-01-31T13:20:24.571",
+			"lastUpdated": "2021-02-05T12:02:51.065",
 			"name": "Teacher",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 5,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Učitel"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -4904,15 +5575,20 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Enseignant"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Professor"
 				}
 			]
 		},
 		{
 			"attributeValues": [],
-			"code": "Female",
+			"code": "FEMALE",
 			"created": "2016-05-21T12:26:12.090",
 			"id": "FKKrOBBFgs1",
-			"lastUpdated": "2021-01-31T13:20:18.663",
+			"lastUpdated": "2021-02-05T11:46:20.525",
 			"name": "Female",
 			"optionSet": {
 				"id": "WDUwjiW2rGH"
@@ -4942,7 +5618,7 @@
 				{
 					"locale": "id",
 					"property": "NAME",
-					"value": "Perempuan"
+					"value": "Wanita"
 				},
 				{
 					"locale": "nb",
@@ -4976,7 +5652,7 @@
 			"code": "COVAX2",
 			"created": "2020-11-25T07:57:48.800",
 			"id": "B26BIJSeQy0",
-			"lastUpdated": "2021-01-31T13:20:19.638",
+			"lastUpdated": "2021-02-05T12:02:48.713",
 			"name": "COVAX2",
 			"optionSet": {
 				"id": "VQo3HkUlMHc"
@@ -4992,6 +5668,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX2"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX2"
 				}
 			]
 		},
@@ -5000,13 +5681,18 @@
 			"code": "hotelier_airline_personel",
 			"created": "2020-11-24T20:12:28.821",
 			"id": "bVYOqnn9R2r",
-			"lastUpdated": "2021-01-31T13:20:24.778",
+			"lastUpdated": "2021-02-05T12:02:51.313",
 			"name": "Hotelier / airline personel",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 6,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Personál hotelu / letecké společnosti"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -5016,6 +5702,30 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Hôtelier / personnel de compagnie aérienne"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Hoteleiro / pessoal da companhia aérea"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"code": "manufacturer3",
+			"created": "2021-01-14T11:30:11.936",
+			"id": "caHzedoEw6F",
+			"lastUpdated": "2021-01-31T13:20:25.136",
+			"name": "Manufacturer 3",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 3,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fabricant 3"
 				}
 			]
 		},
@@ -5122,7 +5832,7 @@
 			"code": "law_enforcement_firefighter",
 			"created": "2020-11-24T20:10:55.932",
 			"id": "EErrO8Fyu43",
-			"lastUpdated": "2021-01-31T13:20:20.361",
+			"lastUpdated": "2021-02-05T12:02:48.898",
 			"name": "Law enforcement/ Firefighter",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
@@ -5143,6 +5853,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Forces de l'ordre/ Pompier"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Polícia / bombeiro"
 				}
 			]
 		},
@@ -5151,13 +5866,18 @@
 			"code": "unemployed",
 			"created": "2020-11-24T20:14:09.953",
 			"id": "fWAvnP7mf98",
-			"lastUpdated": "2021-01-31T13:20:25.307",
+			"lastUpdated": "2021-02-05T12:02:51.539",
 			"name": "Unemployed",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 12,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Nezaměstnaný"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -5167,6 +5887,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Sans emploi"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Desempregado"
 				}
 			]
 		},
@@ -5214,7 +5939,7 @@
 			"code": "student",
 			"created": "2020-11-24T20:13:54.858",
 			"id": "GUiVk7RiR3p",
-			"lastUpdated": "2021-01-31T13:20:20.745",
+			"lastUpdated": "2021-02-05T12:02:49.101",
 			"name": "Student",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
@@ -5235,6 +5960,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Étudiant"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Estudante"
 				}
 			]
 		},
@@ -5302,7 +6032,7 @@
 			"code": "driver_housekeeping_staff",
 			"created": "2020-11-24T20:11:47.572",
 			"id": "Gx9kgkrZj9y",
-			"lastUpdated": "2021-01-31T13:20:20.940",
+			"lastUpdated": "2021-02-05T12:02:49.305",
 			"name": "Driver / housekeeping staff",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
@@ -5323,6 +6053,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Chauffeur / personnel d'entretien"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Motorista / equipe de limpeza"
 				}
 			]
 		},
@@ -5331,7 +6066,7 @@
 			"code": "healthcare_worker",
 			"created": "2020-11-24T20:10:27.078",
 			"id": "HGNGJ3lHrFG",
-			"lastUpdated": "2021-01-31T13:20:21.127",
+			"lastUpdated": "2021-02-05T12:02:49.494",
 			"name": "Healthcare worker",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
@@ -5352,6 +6087,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Agent de santé"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Trabalhador de saúde"
 				}
 			]
 		},
@@ -5433,6 +6173,19 @@
 		},
 		{
 			"attributeValues": [],
+			"code": "lonzagroup",
+			"created": "2021-02-05T11:49:42.094",
+			"id": "ilxDbKaotF7",
+			"lastUpdated": "2021-02-05T11:49:42.193",
+			"name": "Lonza Group",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 6,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
 			"code": "other",
 			"created": "2020-11-24T20:14:24.798",
 			"id": "jbAJfe9Nqtk",
@@ -5497,10 +6250,49 @@
 		},
 		{
 			"attributeValues": [],
+			"code": "sanofi1",
+			"created": "2021-02-05T11:50:40.610",
+			"id": "KHU0Aaa2Bw2",
+			"lastUpdated": "2021-02-05T11:50:40.741",
+			"name": "Sanofi",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 8,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "biontech1",
+			"created": "2021-02-05T11:49:15.724",
+			"id": "odf8pyeMlGk",
+			"lastUpdated": "2021-02-05T11:49:15.947",
+			"name": "BioNTech Manufacturing GmBH",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 5,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"code": "moderna1",
+			"created": "2021-02-05T11:48:37.214",
+			"id": "oMTIcie2RUL",
+			"lastUpdated": "2021-02-05T11:48:37.440",
+			"name": "Moderna Therapeutics Inc",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 4,
+			"translations": []
+		},
+		{
+			"attributeValues": [],
 			"code": "NO",
 			"created": "2018-01-19T08:53:15.588",
-			"id": "R98tI2c6rF5",
-			"lastUpdated": "2021-01-31T13:20:18.835",
+			"id": "abXMcNMfUHW",
+			"lastUpdated": "2021-02-05T11:48:57.734",
 			"name": "No",
 			"optionSet": {
 				"id": "L6eMZDJkCwX"
@@ -5550,16 +6342,29 @@
 				{
 					"locale": "uz_UZ",
 					"property": "NAME",
-					"value": "Yoʼq"
+					"value": "Yo`q"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"code": "pgskalamazoo",
+			"created": "2021-02-05T11:50:27.196",
+			"id": "pmBtNMHMpsZ",
+			"lastUpdated": "2021-02-05T11:50:27.307",
+			"name": "PGS Kalamazoo",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 7,
+			"translations": []
 		},
 		{
 			"attributeValues": [],
 			"code": "BOOSTER",
 			"created": "2020-12-08T21:17:01.388",
 			"id": "PoeQ0Zb1avN",
-			"lastUpdated": "2021-01-31T13:20:21.671",
+			"lastUpdated": "2021-02-05T12:02:49.675",
 			"name": "Booster dose",
 			"optionSet": {
 				"id": "oj3CWm4hpPb"
@@ -5580,6 +6385,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Dose de rappel"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Dose de reforço"
 				}
 			]
 		},
@@ -5588,7 +6398,7 @@
 			"code": "3trimester",
 			"created": "2021-01-14T09:52:16.513",
 			"id": "Q3obJT1MXov",
-			"lastUpdated": "2021-01-31T13:20:21.851",
+			"lastUpdated": "2021-02-05T12:02:49.920",
 			"name": "3rd Trimester (20-40 weeks)",
 			"optionSet": {
 				"id": "kgDmgTYZICP"
@@ -5604,6 +6414,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "3ème Trimestre (20-40 semaines)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "3º trimestre (20-40 semanas)"
 				}
 			]
 		},
@@ -5656,7 +6471,7 @@
 			"code": "social_worker_volunteer",
 			"created": "2020-11-24T20:13:32.855",
 			"id": "SD1oprpITgl",
-			"lastUpdated": "2021-01-31T13:20:22.024",
+			"lastUpdated": "2021-02-05T12:02:50.159",
 			"name": "Social worker/ volunteer",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
@@ -5677,6 +6492,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Travailleur social / volontaire"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Assistente social / voluntária"
 				}
 			]
 		},
@@ -5685,13 +6505,18 @@
 			"code": "retail_non_essential",
 			"created": "2020-11-24T20:13:12.662",
 			"id": "SVcm0QZbxYn",
-			"lastUpdated": "2021-01-31T13:20:23.991",
+			"lastUpdated": "2021-02-05T12:02:50.362",
 			"name": "Retail (non essential)",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 8,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Maloobchod (nepodstatné)"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -5701,6 +6526,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Vente au détail (optionnel)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Retalho (não essencial)"
 				}
 			]
 		},
@@ -5709,13 +6539,18 @@
 			"code": "retired",
 			"created": "2020-11-24T20:13:45.040",
 			"id": "Sw1isix3dwU",
-			"lastUpdated": "2021-01-31T13:20:24.198",
+			"lastUpdated": "2021-02-05T12:02:50.587",
 			"name": "Retired",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 10,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "V důchodu"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -5725,6 +6560,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Retraité"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Aposentado"
 				}
 			]
 		},
@@ -5732,8 +6572,8 @@
 			"attributeValues": [],
 			"code": "UNKNOWN",
 			"created": "2018-01-19T08:53:24.125",
-			"id": "pqxvAQU1z9W",
-			"lastUpdated": "2021-01-31T13:19:04.945",
+			"id": "E0X11CUoPzd",
+			"lastUpdated": "2021-02-05T12:01:23.791",
 			"name": "Unknown",
 			"optionSet": {
 				"id": "L6eMZDJkCwX"
@@ -5789,7 +6629,7 @@
 		},
 		{
 			"attributeValues": [],
-			"code": "Male",
+			"code": "MALE",
 			"created": "2016-05-21T12:26:04.313",
 			"id": "Ii4IxCLWEFn",
 			"lastUpdated": "2021-01-12T12:52:44.693",
@@ -5856,13 +6696,18 @@
 			"code": "banker",
 			"created": "2020-11-24T20:11:05.604",
 			"id": "UvR0km5ntbi",
-			"lastUpdated": "2021-01-31T13:20:24.397",
+			"lastUpdated": "2021-02-05T12:02:50.816",
 			"name": "Banker",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 3,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Bankéř"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -5872,6 +6717,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Banquier"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Banqueiro"
 				}
 			]
 		},
@@ -5880,13 +6730,18 @@
 			"code": "COVAX1",
 			"created": "2020-11-25T07:57:31.450",
 			"id": "wCXR8ztOP2N",
-			"lastUpdated": "2021-01-31T13:20:26.056",
+			"lastUpdated": "2021-02-05T12:02:51.772",
 			"name": "COVAX1",
 			"optionSet": {
 				"id": "VQo3HkUlMHc"
 			},
 			"sortOrder": 1,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX1"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -5899,13 +6754,18 @@
 			"code": "2trimester",
 			"created": "2021-01-14T09:51:52.229",
 			"id": "wEsSrYnDsRk",
-			"lastUpdated": "2021-01-31T13:20:26.238",
+			"lastUpdated": "2021-02-05T12:02:52.004",
 			"name": "2nd Trimester (13-28 weeks)",
 			"optionSet": {
 				"id": "kgDmgTYZICP"
 			},
 			"sortOrder": 2,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "2. trimestr (13-28 týdnů)"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -5957,13 +6817,18 @@
 			"code": "COVAXLactating",
 			"created": "2021-01-14T09:22:08.337",
 			"id": "xmyy2NiyJaI",
-			"lastUpdated": "2021-01-31T13:20:26.421",
+			"lastUpdated": "2021-02-05T12:02:52.236",
 			"name": "Lactating",
 			"optionSet": {
 				"id": "ilxtWultuYP"
 			},
 			"sortOrder": 2,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Kojící"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -5976,13 +6841,18 @@
 			"code": "COVAX3",
 			"created": "2020-11-25T07:58:10.954",
 			"id": "yeTPD0qoaz7",
-			"lastUpdated": "2021-01-31T13:20:26.597",
+			"lastUpdated": "2021-02-05T12:02:52.450",
 			"name": "COVAX3",
 			"optionSet": {
 				"id": "VQo3HkUlMHc"
 			},
 			"sortOrder": 3,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX3"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -5992,16 +6862,40 @@
 		},
 		{
 			"attributeValues": [],
+			"code": "manufacturer2",
+			"created": "2021-01-14T11:29:58.552",
+			"id": "z978nuyyRl7",
+			"lastUpdated": "2021-01-31T13:20:26.784",
+			"name": "Manufacturer 2",
+			"optionSet": {
+				"id": "DtOGtoLbaB5"
+			},
+			"sortOrder": 2,
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fabricant 2"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
 			"code": "1trimester",
 			"created": "2021-01-14T09:51:24.415",
 			"id": "zDqDiyA8ySB",
-			"lastUpdated": "2021-01-31T13:20:26.967",
+			"lastUpdated": "2021-02-05T12:02:52.667",
 			"name": "1st Trimester (1-12 weeks)",
 			"optionSet": {
 				"id": "kgDmgTYZICP"
 			},
 			"sortOrder": 1,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "1. trimestr (1-12 týdnů)"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -6014,13 +6908,18 @@
 			"code": "retail_essentials",
 			"created": "2020-11-24T20:12:55.562",
 			"id": "zIN2FnIIZC2",
-			"lastUpdated": "2021-01-31T13:20:27.153",
+			"lastUpdated": "2021-02-05T12:02:52.878",
 			"name": "Retail (essential)",
 			"optionSet": {
 				"id": "CNNH0YKxRh9"
 			},
 			"sortOrder": 7,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Maloobchod (základní)"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -6047,10 +6946,10 @@
 					"id": "x9yVKkv9koc"
 				},
 				{
-					"id": "R98tI2c6rF5"
+					"id": "abXMcNMfUHW"
 				},
 				{
-					"id": "pqxvAQU1z9W"
+					"id": "E0X11CUoPzd"
 				}
 			],
 			"publicAccess": "r-------",
@@ -6126,7 +7025,7 @@
 			"attributeValues": [],
 			"created": "2020-11-24T20:10:00.867",
 			"id": "CNNH0YKxRh9",
-			"lastUpdated": "2021-01-31T13:20:17.328",
+			"lastUpdated": "2021-02-05T12:02:58.037",
 			"name": "Occupation - COVID",
 			"options": [
 				{
@@ -6185,6 +7084,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Profession - COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Ocupação - COVID"
 				}
 			],
 			"user": {
@@ -6207,6 +7111,72 @@
 			],
 			"valueType": "TEXT",
 			"version": 13
+		},
+		{
+			"attributeValues": [],
+			"created": "2021-01-14T11:29:21.027",
+			"id": "DtOGtoLbaB5",
+			"lastUpdated": "2021-02-05T11:50:40.862",
+			"name": "COVAX Manufacturers",
+			"options": [
+				{
+					"id": "A9OSdfNI6IT"
+				},
+				{
+					"id": "z978nuyyRl7"
+				},
+				{
+					"id": "caHzedoEw6F"
+				},
+				{
+					"id": "oMTIcie2RUL"
+				},
+				{
+					"id": "odf8pyeMlGk"
+				},
+				{
+					"id": "ilxDbKaotF7"
+				},
+				{
+					"id": "pmBtNMHMpsZ"
+				},
+				{
+					"id": "KHU0Aaa2Bw2"
+				}
+			],
+			"publicAccess": "r-------",
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX Výrobci"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fabricants de COVAX"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "AEAQ9LktNze"
+				},
+				{
+					"access": "r-------",
+					"id": "VLIaHu6ou8E"
+				},
+				{
+					"access": "r-------",
+					"id": "q3Nh5xhJEy2"
+				}
+			],
+			"valueType": "TEXT",
+			"version": 9
 		},
 		{
 			"attributeValues": [],
@@ -6305,7 +7275,7 @@
 			"attributeValues": [],
 			"created": "2021-01-14T09:21:43.046",
 			"id": "ilxtWultuYP",
-			"lastUpdated": "2021-01-31T13:20:18.104",
+			"lastUpdated": "2021-02-05T12:02:58.571",
 			"name": "COVAX AEFI Pregnancy",
 			"options": [
 				{
@@ -6324,6 +7294,16 @@
 					"locale": "cs",
 					"property": "NAME",
 					"value": "COVAX AEFI Těhotenství "
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "MAPI liées à l'administration du COVAX pendant la grossesse"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX AEFI Gravidez "
 				}
 			],
 			"user": {
@@ -6351,7 +7331,7 @@
 			"attributeValues": [],
 			"created": "2021-01-14T09:50:58.293",
 			"id": "kgDmgTYZICP",
-			"lastUpdated": "2021-01-31T13:20:18.286",
+			"lastUpdated": "2021-02-05T12:02:58.769",
 			"name": "COVAX trimester",
 			"options": [
 				{
@@ -6370,6 +7350,16 @@
 					"locale": "cs",
 					"property": "NAME",
 					"value": "COVAX trimestr"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "COVAX : trimestre"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX trimestre"
 				}
 			],
 			"user": {
@@ -6397,7 +7387,7 @@
 			"attributeValues": [],
 			"created": "2020-11-25T08:00:33.984",
 			"id": "oj3CWm4hpPb",
-			"lastUpdated": "2021-01-31T13:20:18.459",
+			"lastUpdated": "2021-02-05T12:02:58.953",
 			"name": "COVAX Dose",
 			"options": [
 				{
@@ -6424,6 +7414,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Dose de COVAX"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX Dose"
 				}
 			],
 			"user": {
@@ -6452,7 +7447,7 @@
 			"code": "vaccine_type",
 			"created": "2020-11-25T07:57:10.729",
 			"id": "VQo3HkUlMHc",
-			"lastUpdated": "2021-01-31T13:20:17.693",
+			"lastUpdated": "2021-02-05T12:02:58.214",
 			"name": "COVAX - Vaccine types",
 			"options": [
 				{
@@ -6476,6 +7471,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Types de vaccin"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "COVAX - Tipos de vacinas"
 				}
 			],
 			"user": {
@@ -6504,7 +7504,7 @@
 			"code": "area_urban_rural",
 			"created": "2020-11-24T20:01:21.280",
 			"id": "VWzgQENmzPK",
-			"lastUpdated": "2021-01-31T13:20:17.875",
+			"lastUpdated": "2021-02-05T12:02:58.392",
 			"name": "Area Urban Rural",
 			"options": [
 				{
@@ -6530,6 +7530,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Zone urbaine ou rurale"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Área Urbana Rural"
 				}
 			],
 			"user": {
@@ -6554,7 +7559,7 @@
 			"version": 2
 		}
 	],
-	"package": "COVAX_TRACKER_V1.0.0_DHIS2.35_2021-02-04T11:18",
+	"package": "COVAX_TRACKER_V1.0.0_DHIS2.35_2021-02-09T16:31",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -6611,7 +7616,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' ||\n#{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') &&  #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "A2Vtdh2mndr",
-			"lastUpdated": "2021-01-31T13:20:34.414",
+			"lastUpdated": "2021-02-05T12:02:59.385",
 			"legendSets": [],
 			"name": "Vaccine Uptake (COVAX 2) ",
 			"program": {
@@ -6621,9 +7626,34 @@
 			"shortName": "Vaccine Uptake (COVAX 2) ",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali jakoukoli dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Příjem vakcíny (COVAX 2)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Příjem vakcíny (COVAX 2)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une dose quelconque d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Adhésion au vaccin (COVAX 2)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Adhésion au vaccin (COVAX 2)"
 				}
 			],
 			"user": {
@@ -6701,7 +7731,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
 			"id": "a6kCEcImBlW",
-			"lastUpdated": "2021-01-31T13:20:38.774",
+			"lastUpdated": "2021-02-05T12:03:04.469",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (60+)",
 			"program": {
@@ -6710,6 +7740,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (60+)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (60+)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -6801,7 +7846,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
 			"id": "aIIHyDy8AMW",
-			"lastUpdated": "2021-01-31T13:20:38.950",
+			"lastUpdated": "2021-02-05T12:03:04.653",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (Male 60+)",
 			"program": {
@@ -6810,6 +7855,21 @@
 			"publicAccess": "r-------",
 			"shortName": "First dose - Number of people (Male 60+)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (muži nad 60 let)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (muži nad 60 let)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -6900,7 +7960,7 @@
 			"expression": "V{event_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX1')>=1",
 			"id": "ApGCVA6qhKT",
-			"lastUpdated": "2021-01-31T13:20:34.820",
+			"lastUpdated": "2021-02-05T12:02:59.799",
 			"legendSets": [],
 			"name": "ZZZVaccine Uptake (COVAX 1)",
 			"program": {
@@ -6910,9 +7970,34 @@
 			"shortName": "ZZZVaccine Uptake (COVAX 1)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet podaných dávek přípravku COVAX 1"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ Příjem vakcíny (COVAX 1)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ Příjem vakcíny (COVAX 1)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de doses de COVAX 1 administrées"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 1)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 1)"
 				}
 			],
 			"user": {
@@ -6990,7 +8075,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "AXweWKC4B3L",
-			"lastUpdated": "2021-01-31T13:20:34.636",
+			"lastUpdated": "2021-02-05T12:02:59.610",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose ",
 			"program": {
@@ -6999,6 +8084,21 @@
 			"publicAccess": "r-------",
 			"shortName": "First dose - Number of people",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -7100,7 +8200,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "A{oindugucx72} == 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
 			"id": "BEw3zmRnGo4",
-			"lastUpdated": "2021-01-31T13:20:35.037",
+			"lastUpdated": "2021-02-05T12:02:59.994",
 			"legendSets": [],
 			"name": "ZZZNumber of people (Female) receiving a second, third or booster dose ",
 			"program": {
@@ -7110,9 +8210,34 @@
 			"shortName": "ZZZ2nd, 3rd, booster dose - Number of females",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ Počet lidí (žen), kteří dostávají druhou, třetí nebo posilovací dávku"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ 2., 3. posilovací dávka - počet žen"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZNombre de personnes (Femme) recevant une deuxième, une troisième ou une dose de rappel"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZ2ème, 3ème, dose de rappel - Nombre de femmes"
 				}
 			],
 			"user": {
@@ -7190,7 +8315,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
 			"id": "BtB8fMhK2gH",
-			"lastUpdated": "2021-01-31T13:20:35.223",
+			"lastUpdated": "2021-02-05T12:03:00.221",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (0-59)",
 			"program": {
@@ -7199,6 +8324,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (0-59)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet osob, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (0-59)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -7290,7 +8430,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW'  && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
 			"id": "CI0pKfEiWom",
-			"lastUpdated": "2021-01-31T13:20:35.430",
+			"lastUpdated": "2021-02-05T12:03:00.437",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (60+)",
 			"program": {
@@ -7299,6 +8439,21 @@
 			"publicAccess": "r-------",
 			"shortName": "2nd, 3rd, booster dose - Number of people (60+)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - počet osob (60+)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -7391,7 +8546,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=30 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=30 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 &&\nd2:countIfValue(#{a1jCssI2LkW.DSOWCIdQ8Tr}, 1) == 0",
 			"id": "cq2a28RsAFT",
-			"lastUpdated": "2021-01-14T15:33:33.923",
+			"lastUpdated": "2021-02-05T12:03:04.824",
 			"legendSets": [],
 			"name": "COV-C Dropout: Numerator (30 days since enrollment, no final dose)",
 			"program": {
@@ -7399,7 +8554,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_30_days_n",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 30 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Čitatel (30 dní od zápisu, žádná finální dávka)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_30_days_n"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 30 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Numérateur (30 jours depuis l'inscription, aucune dose finale)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_30_jours_n"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7476,7 +8662,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=10 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=10 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 &&\nd2:countIfValue(#{a1jCssI2LkW.DSOWCIdQ8Tr}, 1) == 0 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX1')>=1",
 			"id": "dIAw5mn6Wqp",
-			"lastUpdated": "2021-01-14T17:45:42.049",
+			"lastUpdated": "2021-02-05T12:03:05.022",
 			"legendSets": [],
 			"name": "COV-C Dropout: Numerator COVAX1 (10 days since enrollment, no final dose)",
 			"program": {
@@ -7484,7 +8670,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_10_days_n",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 10 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Numerator COVAX1 (10 dní od registrace, žádná konečná dávka)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_10_days_n"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 10 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Numérateur COVAX1 (10 jours depuis l'inscription, aucune dose finale)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_10_jours_n"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7560,7 +8777,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "DNWp4zqrALv",
-			"lastUpdated": "2021-01-31T13:20:35.603",
+			"lastUpdated": "2021-02-05T12:03:00.636",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product",
 			"program": {
@@ -7569,6 +8786,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijata poslední dávka"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -7661,7 +8893,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=21 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=21 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 &&\nd2:countIfValue(#{a1jCssI2LkW.DSOWCIdQ8Tr}, 1) == 0 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX2')>=1",
 			"id": "Fj0B6zTlckL",
-			"lastUpdated": "2021-01-14T17:50:27.777",
+			"lastUpdated": "2021-02-05T12:03:01.050",
 			"legendSets": [],
 			"name": "COV-C Dropout: Numerator COVAX2 (21 days since enrollment, no final dose)",
 			"program": {
@@ -7669,7 +8901,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_21_days_n",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 21 dní od data zápisu tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C: Vyřazení čitatel COVAX2 (21 dní od zápisu, žádná konečná dávka)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_21_days_n"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 21 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Numérateur COVAX2 (21 jours depuis l'inscription, aucune dose finale)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_21_jours_n"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -7745,7 +9008,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59  && A{oindugucx72} == 'MALE'",
 			"id": "FZNIlzPRMmL",
-			"lastUpdated": "2021-01-31T13:20:35.782",
+			"lastUpdated": "2021-02-05T12:03:00.858",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Male 0-59)",
 			"program": {
@@ -7754,6 +9017,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (Male 0-59)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (muži 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (muži 0-59)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -7845,7 +9123,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
 			"id": "h9G7i6mQKef",
-			"lastUpdated": "2021-01-31T13:20:39.135",
+			"lastUpdated": "2021-02-05T12:03:05.222",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (Female 60+)",
 			"program": {
@@ -7855,9 +9133,34 @@
 			"shortName": "2nd, 3rd, booster dose - (Female 60+)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet žen, kterým byla podána druhá, třetí nebo přeočkovací dávka vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (žena 60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - (ženy 60+)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes de sexe féminin ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme, plus de 60 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème, dose de rappel - (Femme de plus de 60 ans)"
 				}
 			],
 			"user": {
@@ -7935,7 +9238,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "HCe7qiP0GoC",
-			"lastUpdated": "2021-01-31T13:20:35.958",
+			"lastUpdated": "2021-02-05T12:03:01.277",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (Male)",
 			"program": {
@@ -7944,6 +9247,21 @@
 			"publicAccess": "r-------",
 			"shortName": "First dose - Number of people (Male)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (muži)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (muž)"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -8045,7 +9363,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
 			"id": "hqm8znlAzkT",
-			"lastUpdated": "2021-01-31T13:20:39.320",
+			"lastUpdated": "2021-02-05T12:03:05.414",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose  (Male 0-59)",
 			"program": {
@@ -8055,9 +9373,34 @@
 			"shortName": "First dose - Number of people (Male 0-59)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (muži 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (muži 0-59)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la première dose d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une première dose (Homme, 0-59 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Première dose - Nombre de personnes (Homme, 0-59 ans)"
 				}
 			],
 			"user": {
@@ -8135,7 +9478,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "A{oindugucx72} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
 			"id": "IXW8ahBF3Pl",
-			"lastUpdated": "2021-01-31T13:20:36.131",
+			"lastUpdated": "2021-02-05T12:03:01.462",
 			"legendSets": [],
 			"name": "ZZZNumber of people (Male) receiving a second, third or booster dose ",
 			"program": {
@@ -8145,9 +9488,34 @@
 			"shortName": "ZZZ2nd, 3rd, booster dose - Number of males",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ Počet lidí (muži), kteří dostávají druhou, třetí nebo posilovací dávku"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ 2., 3. posilovací dávka - počet mužů"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZNombre de personnes (Homme) recevant une deuxième, une troisième ou une dose de rappel"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZ2ème, 3ème, dose de rappel - Nombre d'hommes"
 				}
 			],
 			"user": {
@@ -8225,7 +9593,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72}== 'FEMALE' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "kKr4FSA1O0Z",
-			"lastUpdated": "2021-01-31T13:20:39.508",
+			"lastUpdated": "2021-02-05T12:03:05.597",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (Female)",
 			"program": {
@@ -8235,9 +9603,34 @@
 			"shortName": "First dose - Number of people (Female)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (žena)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (ženy)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la première dose d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une première dose (Femme)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Première dose - Nombre de personnes (Femme)"
 				}
 			],
 			"user": {
@@ -8315,7 +9708,7 @@
 			"expression": "V{event_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' ||\n#{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "kNzRGpiCvg4",
-			"lastUpdated": "2021-01-18T19:34:07.808",
+			"lastUpdated": "2021-02-05T12:03:05.816",
 			"legendSets": [],
 			"name": "Doses given - ",
 			"program": {
@@ -8323,7 +9716,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "1st, 2nd, 3rd, booster dose - Number of doses - ",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet dávek (první, druhá, třetí nebo posilovací dávka) vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Podané dávky -"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "1., 2., 3., posilovací dávka - Počet dávek -"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Nombre de doses (première, deuxième, troisième ou dose de rappel) d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Doses administrées - "
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "1ère, 2ème, 3ème, dose de rappel - Nombre de doses -"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -8398,7 +9822,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' ||\n#{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "M3jBOeFxHO0",
-			"lastUpdated": "2021-01-31T13:20:36.321",
+			"lastUpdated": "2021-02-05T12:03:01.639",
 			"legendSets": [],
 			"name": "Vaccine Uptake (COVAX 1) ",
 			"program": {
@@ -8407,6 +9831,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Vaccine Uptake (COVAX 1) ",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet podaných dávek přípravku COVAX 1"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Příjem vakcíny (COVAX 1)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Příjem vakcíny (COVAX 1)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -8498,7 +9937,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
 			"id": "MGjwUUNsE60",
-			"lastUpdated": "2021-01-31T13:20:36.505",
+			"lastUpdated": "2021-02-05T12:03:01.819",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (Male 0-59)",
 			"program": {
@@ -8507,6 +9946,21 @@
 			"publicAccess": "r-------",
 			"shortName": "2nd, 3rd or booster dose -  (Male 0-59)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet mužů, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (muži 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3. nebo posilovací dávka - (muži 0-59)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -8598,7 +10052,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
 			"id": "MUXThnNRCk6",
-			"lastUpdated": "2021-01-31T13:20:36.678",
+			"lastUpdated": "2021-02-05T12:03:02.008",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (60+)",
 			"program": {
@@ -8607,6 +10061,21 @@
 			"publicAccess": "r-------",
 			"shortName": "First dose - Number of people (60+)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostali první dávku (60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (60+)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -8698,7 +10167,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')==1",
 			"id": "P2OSNv6tWuj",
-			"lastUpdated": "2021-01-31T13:20:36.887",
+			"lastUpdated": "2021-02-05T12:03:02.206",
 			"legendSets": [],
 			"name": "ZZZNumber of people receiving a first dose",
 			"program": {
@@ -8708,9 +10177,34 @@
 			"shortName": "ZZZFirst dose - Number of people",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ Počet osob, kteří dostávali první dávku"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ První dávka - počet osob"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la première dose d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZNombre de personnes recevant une première dose "
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZPremière dose - Nombre de personnes"
 				}
 			],
 			"user": {
@@ -8788,7 +10282,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{oindugucx72} == 'MALE'",
 			"id": "pbiKvW0Xv5Y",
-			"lastUpdated": "2021-01-31T13:20:39.687",
+			"lastUpdated": "2021-02-05T12:03:06.019",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Male)",
 			"program": {
@@ -8798,9 +10292,34 @@
 			"shortName": "Received last dose (Male)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (muži)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (muži)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes ayant reçu la dernière dose recommandée du produit vaccinal concerné (Homme)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Personnes ayant reçu la dernière dose (Homme)"
 				}
 			],
 			"user": {
@@ -8878,7 +10397,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
 			"id": "qh0kIjHZbP8",
-			"lastUpdated": "2021-01-31T13:20:39.895",
+			"lastUpdated": "2021-02-05T12:03:06.201",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (Male 60+)",
 			"program": {
@@ -8888,9 +10407,34 @@
 			"shortName": "2nd, 3rd, booster dose - (Male 60+)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (muži 60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - (muži nad 60 let)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Homme de plus de 60 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème, dose de rappel - (Homme de plus de 60 ans)"
 				}
 			],
 			"user": {
@@ -8968,7 +10512,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72}== 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
 			"id": "RJ6pdxga9Od",
-			"lastUpdated": "2021-01-31T13:20:37.090",
+			"lastUpdated": "2021-02-05T12:03:02.391",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (Female 0-59)",
 			"program": {
@@ -8978,9 +10522,34 @@
 			"shortName": "First dose - Number of people (Female 0-59)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (žena 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (žena 0-59)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la première dose d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une première dose (Femme, 0-59 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Première dose - Nombre de personnes (Femme, 0-59 ans)"
 				}
 			],
 			"user": {
@@ -9059,7 +10628,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=28 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=28 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX3')>=1",
 			"id": "rqwQndYRiXO",
-			"lastUpdated": "2021-01-14T17:50:07.594",
+			"lastUpdated": "2021-02-05T12:03:06.389",
 			"legendSets": [],
 			"name": "COV-C Dropout: Denominator COVAX3 (28 days since enrollment)",
 			"program": {
@@ -9067,7 +10636,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_28_days_D",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 28 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Jmenovatel COVAX3 (28 dní od zápisu)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_28_days_D"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 28 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Dénominateur COVAX3 (28 jours depuis l'inscription)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_28_jours_D"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9142,7 +10742,7 @@
 			"expression": "V{event_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX2')>=1",
 			"id": "rtoIINJSfAf",
-			"lastUpdated": "2021-01-31T13:20:40.078",
+			"lastUpdated": "2021-02-05T12:03:06.572",
 			"legendSets": [],
 			"name": "ZZZVaccine Uptake (COVAX 2)",
 			"program": {
@@ -9152,9 +10752,34 @@
 			"shortName": "ZZZVaccine Uptake (COVAX 2)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali jakoukoli dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ vakcína Příjem (COVAX 2)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ vakcína Příjem (COVAX 2)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une dose quelconque d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 2)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 2)"
 				}
 			],
 			"user": {
@@ -9232,7 +10857,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
 			"id": "SqD0kovH0CS",
-			"lastUpdated": "2021-01-31T13:20:37.291",
+			"lastUpdated": "2021-02-05T12:03:02.572",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (0-59)",
 			"program": {
@@ -9241,6 +10866,21 @@
 			"publicAccess": "r-------",
 			"shortName": "First dose - Number of people (0-59)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (0-59)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -9332,7 +10972,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE2')>=1 || \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE3')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'BOOSTER')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '2nd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '3rd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'Booster dose')>=1",
 			"id": "sYIBsws6qUG",
-			"lastUpdated": "2021-01-31T13:20:40.265",
+			"lastUpdated": "2021-02-05T12:03:06.755",
 			"legendSets": [],
 			"name": "zzzNumber of people receiving a second, third or booster dose ",
 			"program": {
@@ -9342,9 +10982,34 @@
 			"shortName": "zzz2nd, 3rd, booster dose - Number of people ",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "zzz Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "zzz 2., 3., posilovací dávka - počet osob"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "zzzNombre de personnes recevant une deuxième, une troisième ou une dose de rappel"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "zzz2ème, 3ème, dose de rappel - Nombre de personnes"
 				}
 			],
 			"user": {
@@ -9421,7 +11086,7 @@
 			"expression": "V{event_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX3')>=1",
 			"id": "T4Fcv5Khfe8",
-			"lastUpdated": "2021-01-31T13:20:37.476",
+			"lastUpdated": "2021-02-05T12:03:02.756",
 			"legendSets": [],
 			"name": "ZZZVaccine Uptake (COVAX 3)",
 			"program": {
@@ -9431,9 +11096,34 @@
 			"shortName": "ZZZVaccine Uptake (COVAX 3)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali jakoukoli dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ vakcína Příjem (COVAX 3)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ vakcína Příjem (COVAX 3)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une dose quelconque d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 3)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZAdhésion au vaccin (COVAX 3)"
 				}
 			],
 			"user": {
@@ -9512,7 +11202,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=10 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=10 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX1')>=1",
 			"id": "toRV4TP9yQK",
-			"lastUpdated": "2021-01-14T17:45:10.097",
+			"lastUpdated": "2021-02-05T12:03:06.961",
 			"legendSets": [],
 			"name": "COV-C Dropout: Denominator COVAX1 (10 days since enrollment)",
 			"program": {
@@ -9520,7 +11210,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_10_days_D",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 30 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Jmenovatel COVAX1 (10 dní od zápisu)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_10_days_D"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 30 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Dénominateur COVAX1 (10 jours depuis l'inscription)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_10_jours_D"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9596,7 +11317,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{oindugucx72} == 'FEMALE'",
 			"id": "UWXUTVN709H",
-			"lastUpdated": "2021-01-31T13:20:37.651",
+			"lastUpdated": "2021-02-05T12:03:02.932",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Female)",
 			"program": {
@@ -9605,6 +11326,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (Female)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (žena)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (ženy)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -9696,7 +11432,7 @@
 			"expression": "V{event_count}",
 			"filter": "d2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE2')>=1 || \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE3')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'BOOSTER')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '2nd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '3rd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'Booster dose')>=1||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE1')>=1",
 			"id": "UzbfnPqo0LV",
-			"lastUpdated": "2021-01-31T13:20:38.011",
+			"lastUpdated": "2021-02-05T12:03:03.318",
 			"legendSets": [],
 			"name": "ZZZNumber of doses given",
 			"program": {
@@ -9706,9 +11442,34 @@
 			"shortName": "ZZZ1st, 2nd, 3rd, booster dose - Number of people ",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "ZZZ Počet podaných dávek"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "ZZZ1, 2., 3., posilovací dávka - počet osob"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "ZZZNombre de doses administrées"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "ZZZ1ère, 2ème, 3ème, dose de rappel - Nombre de personnes"
 				}
 			],
 			"user": {
@@ -9786,7 +11547,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "UzPqw49tyym",
-			"lastUpdated": "2021-01-31T13:20:37.832",
+			"lastUpdated": "2021-02-05T12:03:03.131",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose  (Male) ",
 			"program": {
@@ -9795,6 +11556,21 @@
 			"publicAccess": "r-------",
 			"shortName": "2nd, 3rd, booster dose - Number of males ",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (muži)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - počet mužů"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -9887,7 +11663,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=30 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=30 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1\n",
 			"id": "V7SgYaK5lyF",
-			"lastUpdated": "2021-01-18T12:52:50.418",
+			"lastUpdated": "2021-02-05T12:03:03.499",
 			"legendSets": [],
 			"name": "COV-C Dropout: Denominator (30 days since enrollment)",
 			"program": {
@@ -9895,7 +11671,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_30_days_D",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 30 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Denominator (30 dní od zápisu)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_30_days_D"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 30 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Dénominateur (30 jours depuis l'inscription)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_30_jours_D"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -9971,7 +11778,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "wkaRLVNi6Fm",
-			"lastUpdated": "2021-01-31T13:20:40.447",
+			"lastUpdated": "2021-02-05T12:03:07.165",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (Female)  JM",
 			"program": {
@@ -9981,9 +11788,34 @@
 			"shortName": "2nd, 3rd, booster dose - Number of females JM",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávali druhou, třetí nebo posilovací dávku (žena) JM"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - počet žen JM"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme) JM"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème, dose de rappel - Nombre de femmes, JM"
 				}
 			],
 			"user": {
@@ -10061,7 +11893,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72}== 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
 			"id": "x4L0LuEBHhW",
-			"lastUpdated": "2021-01-31T13:20:40.630",
+			"lastUpdated": "2021-02-05T12:03:07.361",
 			"legendSets": [],
 			"name": "Number of people receiving a first dose (Female 60+)",
 			"program": {
@@ -10071,9 +11903,34 @@
 			"shortName": "First dose - Number of people (Female 60+)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, kterým byla podána první dávka (ženy 60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "První dávka - počet osob (ženy 60+)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la première dose d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une première dose (Femme de plus de 60 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Première dose - Nombre de personnes (Femme de plus de 60 ans)"
 				}
 			],
 			"user": {
@@ -10152,7 +12009,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=28 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=28 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 &&\nd2:countIfValue(#{a1jCssI2LkW.DSOWCIdQ8Tr}, 1) == 0 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX3')>=1",
 			"id": "xE7kgNbrb5v",
-			"lastUpdated": "2021-01-14T17:51:23.056",
+			"lastUpdated": "2021-02-05T12:03:07.536",
 			"legendSets": [],
 			"name": "COV-C Dropout: Numerator COVAX3 (28 days since enrollment, no final dose)",
 			"program": {
@@ -10160,7 +12017,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_28_days_n",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 28 dní od data registrace tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Vyřazení: čitatel COVAX3 (28 dní od registrace, žádná konečná dávka)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_28_days_n"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 28 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Numérateur COVAX3 (28 jours depuis l'inscription, aucune dose finale)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_28_jours_n"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -10236,7 +12124,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60  && A{oindugucx72} == 'FEMALE'",
 			"id": "XFUvVgqPukT",
-			"lastUpdated": "2021-01-31T13:20:38.206",
+			"lastUpdated": "2021-02-05T12:03:03.674",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Female 60+)",
 			"program": {
@@ -10245,6 +12133,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (Female 60+)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (žena 60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (žena 60+)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -10336,7 +12239,7 @@
 			"expression": "V{tei_count}",
 			"filter": "A{oindugucx72} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
 			"id": "xY4T9hHXNji",
-			"lastUpdated": "2021-01-31T13:20:40.812",
+			"lastUpdated": "2021-02-05T12:03:07.718",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (Female 0-59)",
 			"program": {
@@ -10346,9 +12249,34 @@
 			"shortName": "2nd, 3rd or booster dose -  (Female 0-59)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet žen, kterým byla podána druhá, třetí nebo přeočkovací dávka vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (ženy 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3. nebo posilovací dávka - (ženy 0-59)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes de sexe féminin ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme, 0-59 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème ou dose de rappel - (Femme, 0-59 ans)"
 				}
 			],
 			"user": {
@@ -10425,7 +12353,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' ||\n#{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3' && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "z7eWopCMD1k",
-			"lastUpdated": "2021-01-31T13:20:40.988",
+			"lastUpdated": "2021-02-05T12:03:07.898",
 			"legendSets": [],
 			"name": "Vaccine Uptake (COVAX 3) ",
 			"program": {
@@ -10435,9 +12363,34 @@
 			"shortName": "Vaccine Uptake (COVAX 3) ",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali jakoukoli dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Příjem vakcíny (COVAX 3)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Příjem vakcíny (COVAX 3)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une dose quelconque d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Adhésion au vaccin (COVAX 3)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Adhésion au vaccin (COVAX 3)"
 				}
 			],
 			"user": {
@@ -10515,7 +12468,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
 			"id": "zgt8n5PIAAf",
-			"lastUpdated": "2021-01-31T13:20:41.170",
+			"lastUpdated": "2021-02-05T12:03:08.083",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose (0-59)",
 			"program": {
@@ -10525,9 +12478,34 @@
 			"shortName": "2nd, 3rd or booster dose - Number of people (0-59)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3. nebo posilovací dávka - počet osob (0-59)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (0-59 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème, dose de rappel - Nombre de personnes (0-59 ans)"
 				}
 			],
 			"user": {
@@ -10604,7 +12582,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.bCtWZGjSWM8}== 'YES' && V{program_stage_id} == 'a1jCssI2LkW'\n",
 			"id": "Zn0UuSRYyJw",
-			"lastUpdated": "2021-01-31T13:20:38.390",
+			"lastUpdated": "2021-02-05T12:03:04.080",
 			"legendSets": [],
 			"name": "Underlying conditions - People with",
 			"program": {
@@ -10614,9 +12592,34 @@
 			"shortName": "Underlying conditions - People with",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "POČET lidí, kteří mají jednu nebo více základních podmínek"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Základní podmínky - lidé s"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Základní podmínky - lidé s"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes souffrant d'une ou plusieurs affections sous-jacentes"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Personnes ayant des affections sous-jacentes"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Personnes ayant des affections sous-jacentes"
 				}
 			],
 			"user": {
@@ -10694,7 +12697,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60  && A{oindugucx72} == 'MALE'",
 			"id": "zovL7DKBRuK",
-			"lastUpdated": "2021-01-31T13:20:41.362",
+			"lastUpdated": "2021-02-05T12:03:08.288",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Male 60+)",
 			"program": {
@@ -10704,9 +12707,34 @@
 			"shortName": "Received last dose (Male 60+)",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (muži 60+)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (muži 60+)"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes ayant reçu la dernière dose recommandée du produit vaccinal concerné (Homme de plus de 60 ans)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Personnes ayant reçu la dernière dose (Homme de plus de 60 ans)"
 				}
 			],
 			"user": {
@@ -10784,7 +12812,7 @@
 			"expression": "V{tei_count}",
 			"filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59  && A{oindugucx72} == 'FEMALE'",
 			"id": "Zp39TSOR8eW",
-			"lastUpdated": "2021-01-31T13:20:38.590",
+			"lastUpdated": "2021-02-05T12:03:04.291",
 			"legendSets": [],
 			"name": "Number of people who received the last recommended dose for the respective vaccine product (Female 0-59)",
 			"program": {
@@ -10793,6 +12821,21 @@
 			"publicAccess": "r-------",
 			"shortName": "Received last dose (Female 0-59)",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (ženy 0-59)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Přijatá poslední dávka (ženy 0-59)"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -10884,7 +12927,7 @@
 			"expression": "V{tei_count}",
 			"filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && (#{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX1' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX2' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'COVAX3') && V{program_stage_id} == 'a1jCssI2LkW'",
 			"id": "zr25iLoCE4g",
-			"lastUpdated": "2021-01-31T13:20:41.874",
+			"lastUpdated": "2021-02-05T12:03:08.469",
 			"legendSets": [],
 			"name": "Number of people receiving a second, third or booster dose ",
 			"program": {
@@ -10894,9 +12937,34 @@
 			"shortName": "2nd, 3rd, booster dose - Number of people",
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "2., 3., posilovací dávka - počet osob"
+				},
+				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
 					"value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "2ème, 3ème, dose de rappel - Nombre de personnes"
 				}
 			],
 			"user": {
@@ -10975,7 +13043,7 @@
 			"expression": "V{enrollment_count}",
 			"filter": "d2:daysBetween(V{enrollment_date},V{analytics_period_start}) <=21 && d2:daysBetween(V{enrollment_date},V{analytics_period_end}) >=21 && \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG},'DOSE1')>=1 && d2:countIfValue(#{a1jCssI2LkW.bbnyNYD1wgS},'COVAX2')>=1",
 			"id": "ZS6qo9BSrcI",
-			"lastUpdated": "2021-01-14T17:47:43.825",
+			"lastUpdated": "2021-02-05T12:03:03.866",
 			"legendSets": [],
 			"name": "COV-C Dropout: Denominator COVAX2 (21 days since enrollment)",
 			"program": {
@@ -10983,7 +13051,38 @@
 			},
 			"publicAccess": "r-------",
 			"shortName": "Dropout_rate_21_days_D",
-			"translations": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Prošlých 21 dní od data zápisu tohoto období"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COV-C Dropout: Jmenovatel COVAX2 (21 dní od zápisu)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "Dropout_rate_21_days_D"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Franchit une période de 21 jours depuis la date d'inscription"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Abandon du COV-C : Dénominateur COVAX2 (21 jours depuis l'inscription)"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Taux_Abandon_21_jours_D"
+				}
+			],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -11035,6 +13134,26 @@
 		}
 	],
 	"programRuleActions": [
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "aJLkoHAyC4P",
+			"lastUpdated": "2021-02-05T12:06:09.008",
+			"option": {
+				"id": "odf8pyeMlGk"
+			},
+			"programRule": {
+				"id": "jJGIDJ4HYvE"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
 		{
 			"created": "2021-01-14T11:37:00.703",
 			"dataElement": {
@@ -11158,6 +13277,26 @@
 			"programRuleActionType": "ASSIGN"
 		},
 		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "ds8Ji1KpimH",
+			"lastUpdated": "2021-02-05T11:54:21.362",
+			"option": {
+				"id": "oMTIcie2RUL"
+			},
+			"programRule": {
+				"id": "oCzO3wOH9Wa"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"created": "2021-01-14T11:37:00.703",
 			"dataElement": {
 				"id": "VCetMtYu1DY"
@@ -11264,6 +13403,43 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"created": "2021-02-05T11:46:38.625",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "Ft3QJP80IkK",
+			"lastUpdated": "2021-02-05T11:54:21.362",
+			"option": {
+				"id": "z978nuyyRl7"
+			},
+			"programRule": {
+				"id": "oCzO3wOH9Wa"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "fUQIeHsVSu8",
+			"lastUpdated": "2021-02-05T11:54:21.361",
+			"option": {
+				"id": "odf8pyeMlGk"
+			},
+			"programRule": {
+				"id": "oCzO3wOH9Wa"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"content": "The COVAX1 vaccine is recommended for people 18 and older. ",
 			"created": "2021-01-08T12:49:00.940",
 			"dataElement": {
@@ -11316,6 +13492,46 @@
 			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
 		},
 		{
+			"created": "2021-02-05T11:46:38.625",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "GYFT2royH40",
+			"lastUpdated": "2021-02-05T11:52:48.477",
+			"option": {
+				"id": "A9OSdfNI6IT"
+			},
+			"programRule": {
+				"id": "fJLXDY8WJIb"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "hG5KVabUmrx",
+			"lastUpdated": "2021-02-05T11:54:21.362",
+			"option": {
+				"id": "KHU0Aaa2Bw2"
+			},
+			"programRule": {
+				"id": "oCzO3wOH9Wa"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"content": "Age",
 			"created": "2020-12-01T14:39:36.977",
 			"data": "d2:yearsBetween(A{AGE},V{current_date})",
@@ -11348,6 +13564,26 @@
 				"id": "vd1vZsjDft4"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2021-02-05T11:46:38.626",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "INmDGs8DvUS",
+			"lastUpdated": "2021-02-05T11:54:21.362",
+			"option": {
+				"id": "caHzedoEw6F"
+			},
+			"programRule": {
+				"id": "oCzO3wOH9Wa"
+			},
+			"programRuleActionType": "HIDEOPTION"
 		},
 		{
 			"content": "Risk factor",
@@ -11385,6 +13621,24 @@
 				"id": "HDGNEGd5wnd"
 			},
 			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T12:09:16.675",
+			"data": "'2'",
+			"dataElement": {
+				"id": "PamkjF1JUnE"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "jKYq6TSJx27",
+			"lastUpdated": "2021-02-05T12:10:46.087",
+			"programRule": {
+				"id": "O2NnmPrpL7s"
+			},
+			"programRuleActionType": "ASSIGN"
 		},
 		{
 			"content": "This client has received their last dose, please consider completing the stage and program.",
@@ -11440,6 +13694,86 @@
 			"programRuleActionType": "SHOWWARNING"
 		},
 		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "khcQ9Bgs5Vm",
+			"lastUpdated": "2021-02-05T11:52:48.477",
+			"option": {
+				"id": "oMTIcie2RUL"
+			},
+			"programRule": {
+				"id": "fJLXDY8WJIb"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "LUIsbsm3okG"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "L4r5n5oUIzg",
+			"lastUpdated": "2021-02-05T12:10:46.087",
+			"option": {
+				"id": "xl5HHvHV2XH"
+			},
+			"programRule": {
+				"id": "O2NnmPrpL7s"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "LUIsbsm3okG"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "nGXXDXLYMdU",
+			"lastUpdated": "2021-02-05T12:11:20.253",
+			"option": {
+				"id": "xl5HHvHV2XH"
+			},
+			"programRule": {
+				"id": "pN5K5h6wSo4"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:46:38.626",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "niS1trSQgzv",
+			"lastUpdated": "2021-02-05T11:52:48.477",
+			"option": {
+				"id": "caHzedoEw6F"
+			},
+			"programRule": {
+				"id": "fJLXDY8WJIb"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"content": "Next dose should be given at 10 days (PLEASE CONFIRM BEFORE RELEASE)",
 			"created": "2021-01-08T12:54:37.555",
 			"dataElement": {
@@ -11456,6 +13790,26 @@
 				"id": "QWOOvnYfKbN"
 			},
 			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "Nl6SO4kTA86",
+			"lastUpdated": "2021-02-05T11:52:48.477",
+			"option": {
+				"id": "KHU0Aaa2Bw2"
+			},
+			"programRule": {
+				"id": "fJLXDY8WJIb"
+			},
+			"programRuleActionType": "HIDEOPTION"
 		},
 		{
 			"content": "Risk factor",
@@ -11513,6 +13867,26 @@
 			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
 		},
 		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "pgphqTnIALh",
+			"lastUpdated": "2021-02-05T11:52:48.477",
+			"option": {
+				"id": "odf8pyeMlGk"
+			},
+			"programRule": {
+				"id": "fJLXDY8WJIb"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"content": "The next dose should be given at 28 days (PLEASE CONFIRM BEFORE RELEASE)",
 			"created": "2021-01-13T13:28:17.275",
 			"dataElement": {
@@ -11529,6 +13903,24 @@
 				"id": "Rhh99IrHe3P"
 			},
 			"programRuleActionType": "SHOWWARNING"
+		},
+		{
+			"created": "2021-02-05T12:09:16.675",
+			"data": "'2'",
+			"dataElement": {
+				"id": "PamkjF1JUnE"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "pv54O6ZNntC",
+			"lastUpdated": "2021-02-05T12:11:20.253",
+			"programRule": {
+				"id": "pN5K5h6wSo4"
+			},
+			"programRuleActionType": "ASSIGN"
 		},
 		{
 			"content": "Risk factor",
@@ -11549,6 +13941,26 @@
 				"id": "i5tOyWRc3S1"
 			},
 			"programRuleActionType": "ASSIGN"
+		},
+		{
+			"created": "2021-02-05T11:46:38.626",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "Qu5ZHybS2vd",
+			"lastUpdated": "2021-02-05T12:06:09.009",
+			"option": {
+				"id": "z978nuyyRl7"
+			},
+			"programRule": {
+				"id": "jJGIDJ4HYvE"
+			},
+			"programRuleActionType": "HIDEOPTION"
 		},
 		{
 			"content": "The vaccine type you have selected is not the same as the previous vaccine type this person received. Last dose they were administered was ",
@@ -11770,6 +14182,46 @@
 			"programRuleActionType": "DISPLAYTEXT"
 		},
 		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "LUIsbsm3okG"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "Vs1yiWVVD7O",
+			"lastUpdated": "2021-02-05T12:10:25.421",
+			"option": {
+				"id": "xl5HHvHV2XH"
+			},
+			"programRule": {
+				"id": "X7tSyOIdusk"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
+			"created": "2021-02-05T11:52:48.477",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "VYu5hsYAiIg",
+			"lastUpdated": "2021-02-05T12:06:09.008",
+			"option": {
+				"id": "KHU0Aaa2Bw2"
+			},
+			"programRule": {
+				"id": "jJGIDJ4HYvE"
+			},
+			"programRuleActionType": "HIDEOPTION"
+		},
+		{
 			"content": "Vaccine previously taken",
 			"created": "2020-12-03T09:09:33.751",
 			"data": "#{Vaccine_type_previous_no_code}",
@@ -11930,6 +14382,24 @@
 			"programRuleActionType": "DISPLAYKEYVALUEPAIR"
 		},
 		{
+			"created": "2021-02-05T12:09:16.675",
+			"data": "'2'",
+			"dataElement": {
+				"id": "PamkjF1JUnE"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "y66T4cDZfiD",
+			"lastUpdated": "2021-02-05T12:10:25.421",
+			"programRule": {
+				"id": "X7tSyOIdusk"
+			},
+			"programRuleActionType": "ASSIGN"
+		},
+		{
 			"content": "The COVAX2 vaccine is recommended for people 18 and older. ",
 			"created": "2021-01-08T12:49:00.940",
 			"dataElement": {
@@ -11963,6 +14433,26 @@
 				"id": "zLLHG561wsq"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2021-02-05T11:46:38.625",
+			"dataElement": {
+				"id": "rpkH9ZPGJcX"
+			},
+			"evaluationEnvironments": [
+				"ANDROID",
+				"WEB"
+			],
+			"evaluationTime": "ALWAYS",
+			"id": "zDNQAeqDUCY",
+			"lastUpdated": "2021-02-05T12:06:09.009",
+			"option": {
+				"id": "A9OSdfNI6IT"
+			},
+			"programRule": {
+				"id": "jJGIDJ4HYvE"
+			},
+			"programRuleActionType": "HIDEOPTION"
 		},
 		{
 			"content": "Risk factor",
@@ -12024,7 +14514,7 @@
 			"condition": "d2:hasValue( 'Allergic_Reaction_to_first_dose' )  && #{Allergic_Reaction_to_first_dose} == true",
 			"created": "2021-01-14T10:13:35.696",
 			"id": "A6Oy09dbQwn",
-			"lastUpdated": "2021-01-26T21:46:26.664",
+			"lastUpdated": "2021-02-05T12:03:08.654",
 			"name": "if there was an allergic reaction after the first dose, fill out an AEFI stage",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12037,14 +14527,25 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud došlo k alergické reakci po první dávce, vyplňte fázi AEFI"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "en cas de réaction allergique après la première dose, renseigner une étape de la MAPI"
+				}
+			]
 		},
 		{
 			"condition": "#{Underlying_conditions_previous} == 'YES'",
 			"created": "2021-01-07T11:38:10.175",
 			"description": "Rule transfers date of remission and if person has previously had covid",
 			"id": "AmgPexdbztQ",
-			"lastUpdated": "2021-01-19T10:45:43.316",
+			"lastUpdated": "2021-02-05T12:03:08.853",
 			"name": "If patient has had underlying diseases, transfer that value to following stage",
 			"priority": 2,
 			"program": {
@@ -12055,14 +14556,35 @@
 					"id": "e5dDEAPFX6J"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Pravidla převádí datum remise a pokud osoba dříve měla covid"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud měl pacient základní onemocnění, přeneste tuto hodnotu do následující fáze"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Règle de transfert : date de rémission si la personne avait précédemment eu la COVID"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si le patient a eu des maladies sous-jacentes, transférer cette valeur à l'étape suivante"
+				}
+			]
 		},
 		{
 			"condition": "A{Occupation} == 'healthcare_worker'",
 			"created": "2020-12-01T14:26:46.599",
 			"description": "If the client is a health worker, show a warning in the top bar",
 			"id": "biYqhZM5HXe",
-			"lastUpdated": "2020-12-03T10:15:36.106",
+			"lastUpdated": "2021-02-05T12:03:12.450",
 			"name": "Show warning if the client is a health worker",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12072,7 +14594,28 @@
 					"id": "cm74ZM68Xt9"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Pokud je klientem zdravotnický pracovník, zobrazte varování v horní liště"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Zobrazit upozornění, pokud je klient zdravotníkem"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Si le client est un professionnel de santé, afficher un avertissement dans la barre supérieure"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Afficher un avertissement si le client est un professionnel de santé"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'AEFIs_present_previous' )  && #{AEFIs_present_previous} == true",
@@ -12097,7 +14640,7 @@
 			"condition": "(#{Age_Calculated}   < 18 ) && (#{Vaccine_type} =='COVAX1') ",
 			"created": "2021-01-13T13:55:43.306",
 			"id": "e0WJRMhSrZy",
-			"lastUpdated": "2021-01-26T21:44:30.142",
+			"lastUpdated": "2021-02-05T12:03:12.621",
 			"name": "If Age is under 18, then warn that COVAX 1 is recommended for ages 18 and up",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12107,13 +14650,56 @@
 					"id": "FWAMhfHM4nG"
 				}
 			],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud je věk mladší 18 let, upozorněte, že COVAX 1 je doporučen pro děti od 18 let"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si l'âge est inférieur à 18 ans, avertir que le COVAX 1 est recommandé pour les personnes âgées de 18 ans et plus"
+				}
+			]
+		},
+		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX1'",
+			"created": "2021-02-05T11:46:38.649",
+			"description": "If COVAX1 is selected, hide manufacturers who do not produce covax1",
+			"id": "fJLXDY8WJIb",
+			"lastUpdated": "2021-02-05T11:52:48.494",
+			"name": "Hide Manufacturers COVAX1",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "GYFT2royH40"
+				},
+				{
+					"id": "khcQ9Bgs5Vm"
+				},
+				{
+					"id": "niS1trSQgzv"
+				},
+				{
+					"id": "Nl6SO4kTA86"
+				},
+				{
+					"id": "pgphqTnIALh"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
 			"translations": []
 		},
 		{
 			"condition": "#{Comorbidity_Chronic_lung_NewestInProgram}",
 			"created": "2021-01-13T15:37:38.382",
 			"id": "gmBh14b7tYb",
-			"lastUpdated": "2021-01-27T08:17:13.982",
+			"lastUpdated": "2021-02-05T12:03:12.792",
 			"name": "If client has a history of Chronic lung disease show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12123,14 +14709,25 @@
 					"id": "P2bDEBeYvmM"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient v anamnéze chronické plicní onemocnění, ukažte to na indikačním panelu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si le client a des antécédents de maladie pulmonaire chronique, indiquez-le dans le groupe d'indicateurs"
+				}
+			]
 		},
 		{
 			"condition": "#{Had_Covid_Previously} == 'YES'",
 			"created": "2021-01-07T10:01:44.340",
 			"description": "Rule transfers date of remission and if person has previously had covid",
 			"id": "GtxjhHBQdLQ",
-			"lastUpdated": "2021-01-08T10:35:05.327",
+			"lastUpdated": "2021-02-05T12:03:09.050",
 			"name": "If patient has had covid, assign value to data element of current event",
 			"priority": 4,
 			"program": {
@@ -12144,13 +14741,34 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Pravidla převádí datum remise a pokud osoba dříve měla covid"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud měl pacient covid, přiřaďte hodnotu datovému prvku aktuální události"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Règle de transfert : date de rémission si la personne avait précédemment eu le COVID"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si le patient a eu le Covid, attribuer une valeur à l'élément de données de l'événement en cours"
+				}
+			]
 		},
 		{
 			"condition": "#{Dose number previous} == 'DOSE1'",
 			"created": "2020-12-08T21:19:23.565",
 			"id": "HDGNEGd5wnd",
-			"lastUpdated": "2021-01-14T09:32:42.020",
+			"lastUpdated": "2021-02-05T12:03:09.265",
 			"name": "Show warning: If previous dose was first, then this shoul be second",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12166,13 +14784,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Zobrazit varování: Pokud byla předchozí dávka první, pak by tato měla být druhá"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Afficher l'avertissement : Si la dose précédente était la première, alors celle-ci devrait être la deuxième"
+				}
+			]
 		},
 		{
 			"condition": "#{Pregnant}!= 'COVAXPregnant'",
 			"created": "2021-01-07T14:30:11.399",
 			"id": "HdOtRsvVzgY",
-			"lastUpdated": "2021-01-14T09:30:37.650",
+			"lastUpdated": "2021-02-05T12:03:09.476",
 			"name": "Hide Trimester if nor pregnant",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12185,13 +14814,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Skrýt trimestr, pokud není těhotná"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masquer Trimestre si la personne n'est pas enceinte"
+				}
+			]
 		},
 		{
 			"condition": "#{Dose number previous} == 'DOSE2' && #{Vaccine_type}  != 'COVAX1'",
 			"created": "2020-12-08T21:21:13.512",
 			"id": "hdPflHqZKO3",
-			"lastUpdated": "2021-01-31T13:20:42.057",
+			"lastUpdated": "2021-02-05T12:03:12.974",
 			"name": "Show warning: If previous dose was second then this should be the third dose, or a booster dose",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12206,6 +14846,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Zobrazit varování: Pokud byla předchozí dávka druhá, měla by to být třetí dávka nebo posilovací dávka"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Afficher l'avertissement : Si la dose précédente était la deuxième, il s'agit alors de la troisième dose ou d'une dose de rappel"
@@ -12216,7 +14861,7 @@
 			"condition": "#{Underlying_conditions} != 'YES'",
 			"created": "2020-12-01T14:33:51.801",
 			"id": "I0FZ4YQgxfD",
-			"lastUpdated": "2021-01-14T11:37:00.808",
+			"lastUpdated": "2021-02-05T12:03:09.672",
 			"name": "Hide underlying conditions if none",
 			"priority": 10,
 			"program": {
@@ -12251,13 +14896,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Skrýt základní podmínky, pokud nejsou žádné"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masquer les pathologies sous-jacentes s'il n'y en a pas"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Comorbidity_chronic_lung' )",
 			"created": "2021-01-13T15:24:47.508",
 			"id": "i0YmXeSnrqn",
-			"lastUpdated": "2021-01-31T13:20:42.241",
+			"lastUpdated": "2021-02-05T12:03:13.167",
 			"name": "if client has a history of Chronic lung disease, add value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12269,6 +14925,11 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient v anamnéze chronické plicní onemocnění, přidejte hodnotu aktuální události"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "si le client a des antécédents de maladies pulmonaires chroniques, ajouter une valeur à l'événement en cours"
@@ -12279,7 +14940,7 @@
 			"condition": "d2:hasValue( 'Comorbidity_immunodeficiency' )",
 			"created": "2021-01-07T10:30:02.558",
 			"id": "i5tOyWRc3S1",
-			"lastUpdated": "2021-01-31T13:20:42.414",
+			"lastUpdated": "2021-02-05T12:03:13.359",
 			"name": "if client has a history of immunodeficiency assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12294,6 +14955,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient historii imunodeficience, přiřaďte hodnotu aktuální události"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "si le client a des antécédents d'immunodéficience, attribuer une valeur à l'événement en cours"
@@ -12304,7 +14970,7 @@
 			"condition": "#{Comorbidity_cardio_NewestInProgram}",
 			"created": "2021-01-13T15:36:52.014",
 			"id": "j16AULHWXur",
-			"lastUpdated": "2021-01-31T13:20:42.601",
+			"lastUpdated": "2021-02-05T12:03:13.532",
 			"name": "If client has a history of Cardiovascular disease show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12316,9 +14982,14 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient v anamnéze kardiovaskulární onemocnění, ukažte to na indikátorovém panelu"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Si le client a des antécédents de maladies cardiovasculaires, indiquez-le sur le tableau des indicateurs"
+					"value": "Si le client a des antécédents de maladies cardiovasculaires, indiquez-le sur le groupe d'indicateurs"
 				}
 			]
 		},
@@ -12342,10 +15013,39 @@
 			"translations": []
 		},
 		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX3'",
+			"created": "2021-02-05T12:06:09.058",
+			"description": "If COVAX3 is selected, hide manufacturers who do not produce covax3",
+			"id": "jJGIDJ4HYvE",
+			"lastUpdated": "2021-02-05T12:06:09.058",
+			"name": "Hide Manufacturers COVAX3",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "aJLkoHAyC4P"
+				},
+				{
+					"id": "Qu5ZHybS2vd"
+				},
+				{
+					"id": "VYu5hsYAiIg"
+				},
+				{
+					"id": "zDNQAeqDUCY"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
+			"translations": []
+		},
+		{
 			"condition": "d2:hasValue( 'Comorbidity_cardio' )",
 			"created": "2021-01-13T15:23:34.941",
 			"id": "jNtY9t6b120",
-			"lastUpdated": "2021-01-31T13:20:42.791",
+			"lastUpdated": "2021-02-05T12:03:13.723",
 			"name": "if client has a history of cardiovascular disease assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12360,6 +15060,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient v anamnéze kardiovaskulární onemocnění, přiřaďte hodnotu aktuální události"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "si le client a des antécédents de maladies cardiovasculaires, attribuer une valeur à l'événement en cours"
@@ -12370,7 +15075,7 @@
 			"condition": "d2:hasValue( 'Comorbidity_malignancy' )",
 			"created": "2021-01-13T15:25:57.629",
 			"id": "K9Vjkz1xOw1",
-			"lastUpdated": "2021-01-27T14:48:07.344",
+			"lastUpdated": "2021-02-05T12:03:09.863",
 			"name": "if client has a history of malignancy assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12383,13 +15088,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient historii malignity, přiřaďte hodnotu aktuální události"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "si le client a des antécédents de malignité, attribuer une valeur à l'événement en cours"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'comorbidity_diabetes' )",
 			"created": "2021-01-13T15:25:23.915",
 			"id": "KGBdMuY2ASs",
-			"lastUpdated": "2021-01-27T14:46:41.989",
+			"lastUpdated": "2021-02-05T12:03:10.040",
 			"name": "if client has a history of Diabetes assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12402,13 +15118,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient historii Diabetes, přiřaďte hodnotu aktuální události"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "si le client a des antécédents de diabète, attribuer une valeur à l'événement en cours"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Comorbidity_renal' )",
 			"created": "2021-01-13T15:31:15.769",
 			"id": "l8opvp32VAd",
-			"lastUpdated": "2021-01-31T13:20:42.973",
+			"lastUpdated": "2021-02-05T12:03:13.912",
 			"name": "if client has a history of Renal disease assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12423,6 +15150,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient v anamnéze onemocnění ledvin, přiřaďte hodnotu aktuální události"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "si le client a des antécédents de maladies rénales, attribuer une valeur à l'événement en cours"
@@ -12433,7 +15165,7 @@
 			"condition": "#{Had_COVID} == 'YES'",
 			"created": "2020-12-02T12:57:15.740",
 			"id": "LO6XtDyCbya",
-			"lastUpdated": "2021-01-14T20:37:20.280",
+			"lastUpdated": "2021-02-05T12:03:10.214",
 			"name": "Show warning if person has had covid within 90 days of vaccination date",
 			"priority": 10,
 			"program": {
@@ -12447,13 +15179,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Ukázat varování, pokud osoba měla covid do 90 dnů od data očkování"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Afficher un avertissement si la personne a contracté le Covid dans les 90 jours suivant la date de vaccination"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Vaccine_type_previous' )",
 			"created": "2020-12-03T09:09:33.821",
 			"id": "nU9WWRKt7PL",
-			"lastUpdated": "2021-01-31T13:20:43.161",
+			"lastUpdated": "2021-02-05T12:03:14.106",
 			"name": "Show vaccine type from previous vaccination event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12468,6 +15211,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Zobrazit typ vakcíny z předchozí události očkování"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Indiquer le type de vaccin utilisé lors de la précédente vaccination"
@@ -12475,10 +15223,65 @@
 			]
 		},
 		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX2'",
+			"created": "2021-02-05T12:10:46.105",
+			"description": "If COVAX2 is selected, assign 2 as max doses and hide options for 3 doses",
+			"id": "O2NnmPrpL7s",
+			"lastUpdated": "2021-02-05T12:10:46.105",
+			"name": "Assign dose number to COVAX2",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "jKYq6TSJx27"
+				},
+				{
+					"id": "L4r5n5oUIzg"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
+			"translations": []
+		},
+		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX2'",
+			"created": "2021-02-05T11:54:21.382",
+			"description": "If COVAX1 is selected, hide manufacturers who do not produce covax2",
+			"id": "oCzO3wOH9Wa",
+			"lastUpdated": "2021-02-05T11:54:21.382",
+			"name": "Hide Manufacturers COVAX2",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "ds8Ji1KpimH"
+				},
+				{
+					"id": "Ft3QJP80IkK"
+				},
+				{
+					"id": "fUQIeHsVSu8"
+				},
+				{
+					"id": "hG5KVabUmrx"
+				},
+				{
+					"id": "INmDGs8DvUS"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
+			"translations": []
+		},
+		{
 			"condition": "d2:hasValue( 'Comorbidity_neuro' )",
 			"created": "2021-01-13T15:26:35.539",
 			"id": "OdSVYvgu6G2",
-			"lastUpdated": "2021-01-27T14:48:11.469",
+			"lastUpdated": "2021-02-05T12:03:10.396",
 			"name": "if client has a history of neurological deficiency assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12491,13 +15294,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient v minulosti neurologický nedostatek, přiřaďte hodnotu aktuální události"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "si le client a des antécédents de déficience neurologique, attribuer une valeur à l'événement en cours"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue('AGE')",
 			"created": "2020-12-01T14:39:36.983",
 			"id": "oPUB5us9T8e",
-			"lastUpdated": "2021-01-31T13:20:43.354",
+			"lastUpdated": "2021-02-05T12:03:14.290",
 			"name": "Calculate age ",
 			"priority": 3,
 			"program": {
@@ -12513,6 +15327,11 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Vypočítejte věk"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Calculer l'âge"
@@ -12523,7 +15342,7 @@
 			"condition": "#{Comorbidity_other_NewestInProgram}",
 			"created": "2021-01-13T15:46:52.616",
 			"id": "ParDbFN1amU",
-			"lastUpdated": "2021-01-27T08:21:12.122",
+			"lastUpdated": "2021-02-05T12:03:10.572",
 			"name": "If client has a history of OTHER disease show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12533,13 +15352,47 @@
 					"id": "ISk2tjYpZDy"
 				}
 			],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient v anamnéze JINÉ onemocnění, ukažte to na indikátorovém panelu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si le client a des antécédents d'une AUTRE maladie, indiquez-le dans le groupe d'indicateurs"
+				}
+			]
+		},
+		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX3'",
+			"created": "2021-02-05T12:11:20.267",
+			"description": "If COVAX3 is selected, assign 2 as max doses and hide options for 3 doses",
+			"id": "pN5K5h6wSo4",
+			"lastUpdated": "2021-02-05T12:11:20.267",
+			"name": "Assign dose number to COVAX3",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "nGXXDXLYMdU"
+				},
+				{
+					"id": "pv54O6ZNntC"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
 			"translations": []
 		},
 		{
 			"condition": "(#{Age_Calculated}   < 18 ) && (#{Vaccine_type} =='COVAX3') ",
 			"created": "2021-01-08T12:53:19.825",
 			"id": "ppbeGorruVj",
-			"lastUpdated": "2021-01-31T13:20:43.537",
+			"lastUpdated": "2021-02-05T12:03:14.464",
 			"name": "If Age is under 18, then warn that COVAX 3 is recommended for ages 18 and up",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12551,6 +15404,11 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud je věk mladší 18 let, upozorněte, že COVAX 3 je doporučen pro děti od 18 let"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Si l'âge est inférieur à 18 ans, veuillez noter que COVAX 3 est recommandé pour les personnes âgées de 18 ans et plus"
@@ -12561,7 +15419,7 @@
 			"condition": "d2:hasValue( 'Comorbidity_other' )",
 			"created": "2021-01-13T15:30:15.711",
 			"id": "QEq5oRr4UEw",
-			"lastUpdated": "2021-01-27T14:47:49.837",
+			"lastUpdated": "2021-02-05T12:03:10.778",
 			"name": "if client has a history of Other assign value to current event",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12574,13 +15432,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient historii Další přiřadit hodnotu aktuální události"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "si le client a des antécédents de Autre attribuer une valeur à l'événement en cours"
+				}
+			]
 		},
 		{
 			"condition": "#{Dose number previous} == 'DOSE2' && #{Vaccine_type}  == 'COVAX1'",
 			"created": "2020-12-08T21:22:24.048",
 			"id": "qLCtAeQQOP3",
-			"lastUpdated": "2021-01-31T13:20:43.719",
+			"lastUpdated": "2021-02-05T12:03:14.655",
 			"name": "Show warning: If previous dose was second and the vaccine was COVAX 1 then there should be no more doses ",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12595,6 +15464,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Zobrazit varování: Pokud byla předchozí dávka druhá a vakcína byla COVAX 1, pak by neměly být žádné další dávky"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Afficher l'avertissement : Si la dose précédente était la deuxième et que le vaccin était du COVAX 1, aucune autre dose ne devrait être administrée "
@@ -12605,7 +15479,7 @@
 			"condition": "#{Comorbidity_renal_NewestInProgram}",
 			"created": "2021-01-13T15:47:26.833",
 			"id": "qrIXRSq77JN",
-			"lastUpdated": "2021-01-31T13:20:43.911",
+			"lastUpdated": "2021-02-05T12:03:14.840",
 			"name": "If client has a history of Renal Disease show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12617,9 +15491,14 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient historii onemocnění ledvin, ukažte to na panelu indikátorů"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Si le client a des antécédents de maladies rénales, indiquez-le sur le tableau des indicateurs"
+					"value": "Si le client a des antécédents de maladies rénales, indiquez-le dans le groupe d'indicateurs"
 				}
 			]
 		},
@@ -12627,7 +15506,7 @@
 			"condition": "#{Vaccine_type} == 'COVAX1'",
 			"created": "2020-12-16T09:56:14.528",
 			"id": "QWOOvnYfKbN",
-			"lastUpdated": "2021-01-13T13:28:42.302",
+			"lastUpdated": "2021-02-05T12:03:10.975",
 			"name": "Assign a suggested date for next dose COVAX 1",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12643,13 +15522,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Přiřaďte navrhované datum pro další dávku přípravku COVAX 1"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fixer une date indicative pour la prochaine dose de COVAX 1"
+				}
+			]
 		},
 		{
 			"condition": "#{Comorbidity_diabetes_NewestInProgram}",
 			"created": "2021-01-13T15:44:25.099",
 			"id": "r9NQ2R4eFIO",
-			"lastUpdated": "2021-01-31T13:20:44.080",
+			"lastUpdated": "2021-02-05T12:03:15.016",
 			"name": "If client has a history of Diabetes show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12661,9 +15551,14 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient historii diabetu, ukažte to na panelu indikátorů"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Si le client a des antécédents de diabète, indiquez-le sur le tableau d'indicateurs"
+					"value": "Si le client a des antécédents de diabète, indiquez-le dans le groupe d'indicateurs"
 				}
 			]
 		},
@@ -12672,7 +15567,7 @@
 			"created": "2021-01-08T12:52:30.846",
 			"description": "Assigns a next suggested dose date 28 days after this dose, based on CDC recommendations",
 			"id": "Rhh99IrHe3P",
-			"lastUpdated": "2021-01-13T13:30:55.715",
+			"lastUpdated": "2021-02-05T12:03:11.173",
 			"name": "Assign a suggested date for next dose COVAX 3",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12688,13 +15583,34 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Přiřadí další navrhované datum dávky 28 dní po této dávce, na základě doporučení CDC"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Přiřaďte navrhované datum pro další dávku přípravku COVAX 3"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Fixe une date indicative pour la prochaine dose 28 jours après cette dose, selon les recommandations du CDC"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fixer une date indicative pour la prochaine dose de COVAX 3"
+				}
+			]
 		},
 		{
 			"condition": "#{Comorbidity_malignancy}",
 			"created": "2021-01-13T15:45:30.017",
 			"id": "SDfSLD0WFOL",
-			"lastUpdated": "2021-01-13T15:45:30.017",
+			"lastUpdated": "2021-02-05T12:03:11.355",
 			"name": "if client has a history of malignancy show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12704,13 +15620,24 @@
 					"id": "ZZEwxY3Sro3"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "pokud má klient historii malignity, ukažte to na panelu indikátorů"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "si le client a des antécédents de malignité, indiquez-le dans le groupe d'indicateurs"
+				}
+			]
 		},
 		{
 			"condition": "d2:hasValue( 'Last_dose' )  && #{Last_dose} == true ",
 			"created": "2020-12-07T10:31:22.185",
 			"id": "SkBUqyO9zG0",
-			"lastUpdated": "2021-02-03T11:42:20.951",
+			"lastUpdated": "2021-02-05T12:03:11.529",
 			"name": "Last dose - complete programme",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12723,13 +15650,24 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Poslední dávka - dokončení programu"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Dernière dose - programme complet"
+				}
+			]
 		},
 		{
 			"condition": "A{SEX} != 'FEMALE'",
 			"created": "2020-11-27T10:59:17.115",
 			"id": "srC0NIzM3Ou",
-			"lastUpdated": "2021-01-31T13:20:44.262",
+			"lastUpdated": "2021-02-05T12:03:15.198",
 			"name": "Hide pregnancy if not a woman",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12747,6 +15685,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Skrýt těhotenství, není-li žena"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Masquer l'option Grossesse lorsque la personne n'est pas une femme"
@@ -12757,7 +15700,7 @@
 			"condition": "(#{Vaccine_type} =='COVAX2') && ( #{Age_Calculated}  < 16 )",
 			"created": "2021-01-12T10:35:07.237",
 			"id": "TRR2ODBsnkN",
-			"lastUpdated": "2021-01-13T13:54:49.194",
+			"lastUpdated": "2021-02-05T12:03:11.720",
 			"name": "If Age is under 16, then warn that COVAX 2 is recommended for ages 16 and up",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12767,13 +15710,24 @@
 					"id": "vD2CActYvG4"
 				}
 			],
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud je věk mladší 16 let, upozorněte, že COVAX 2 je doporučen pro věkové skupiny od 16 let"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si l'âge est inférieur à 16 ans, avertir que le COVAX 2 est recommandé pour les personnes âgées de 16 ans et plus"
+				}
+			]
 		},
 		{
 			"condition": "#{Comorbidity_immunodeficiency_NewestInProgram}",
 			"created": "2020-12-08T16:15:43.552",
 			"id": "ucrvgwsRCim",
-			"lastUpdated": "2021-01-31T13:20:44.441",
+			"lastUpdated": "2021-02-05T12:03:15.388",
 			"name": "If client has a history of immunodeficiency show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12785,9 +15739,14 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient historii imunodeficience, ukažte to na panelu indikátorů"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Si le client a des antécédents d'immunodéficience, indiquez-le sur le tableau des indicateurs"
+					"value": "Si le client a des antécédents d'immunodéficience, indiquez-le dans le groupe d'indicateurs"
 				}
 			]
 		},
@@ -12795,7 +15754,7 @@
 			"condition": "!d2:hasValue( 'Vaccine_type_previous' )  ||  (#{Vaccine_type_previous}== #{Vaccine_type})",
 			"created": "2021-01-14T14:12:53.980",
 			"id": "vd1vZsjDft4",
-			"lastUpdated": "2021-01-31T13:20:44.627",
+			"lastUpdated": "2021-02-05T12:03:15.564",
 			"name": "If previous vaccine is same as current vaccine, hide explanation field",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12810,6 +15769,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud je předchozí vakcína stejná jako současná vakcína, skryjte pole s vysvětlením"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Si le vaccin précédent est identique au vaccin actuel, masquer le champ d'explication"
@@ -12820,7 +15784,7 @@
 			"condition": "#{Comorbitidy_neuro_NewestInProgram}",
 			"created": "2021-01-13T15:46:05.647",
 			"id": "vqQMyfw3i3u",
-			"lastUpdated": "2021-01-31T13:20:44.807",
+			"lastUpdated": "2021-02-05T12:03:15.750",
 			"name": "If client has a history of Neurological disease show it on indicator panel",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12832,9 +15796,14 @@
 			],
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud má klient v anamnéze neurologické onemocnění, ukažte to na panelu indikátorů"
+				},
+				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Si le client a des antécédents de maladies neurologiques, indiquez-le sur le tableau des indicateurs"
+					"value": "Si le client a des antécédents de maladies neurologiques, indiquez-le dans le groupe d'indicateurs"
 				}
 			]
 		},
@@ -12842,7 +15811,7 @@
 			"condition": "d2:daysBetween( V{current_date}, V{due_date} )  > -3",
 			"created": "2021-01-26T09:57:28.438",
 			"id": "W0YQaz1qRJb",
-			"lastUpdated": "2021-01-26T09:57:28.438",
+			"lastUpdated": "2021-02-05T12:03:11.912",
 			"name": "Send notification if overdue",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12855,13 +15824,47 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "V případě opožděného odeslání oznámení"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Envoyer une notification en cas de retard"
+				}
+			]
+		},
+		{
+			"condition": "d2:hasValue( 'Vaccine_type' )  == true && #{Vaccine_type} == 'COVAX1'",
+			"created": "2021-02-05T12:09:16.700",
+			"description": "If COVAX1 is selected, assign 2 as max doses and hide options for 3 doses",
+			"id": "X7tSyOIdusk",
+			"lastUpdated": "2021-02-05T12:10:25.444",
+			"name": "Assign dose number to COVAX1",
+			"program": {
+				"id": "yDuAzyqYABS"
+			},
+			"programRuleActions": [
+				{
+					"id": "Vs1yiWVVD7O"
+				},
+				{
+					"id": "y66T4cDZfiD"
+				}
+			],
+			"programStage": {
+				"id": "a1jCssI2LkW"
+			},
 			"translations": []
 		},
 		{
 			"condition": "d2:hasValue( 'Vaccine_type_previous' ) && d2:hasValue( 'Vaccine_type' ) && (#{Vaccine_type_previous}!= #{Vaccine_type})",
 			"created": "2020-12-03T10:26:07.532",
 			"id": "XTLv9YqOtNX",
-			"lastUpdated": "2021-01-27T11:34:32.225",
+			"lastUpdated": "2021-02-05T12:03:12.087",
 			"name": "If previous vaccine is differente than current vaccine, show warning.",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12874,14 +15877,25 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pokud se předchozí vakcína liší od současné vakcíny, ukažte varování."
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Si le vaccin précédent est différent du vaccin actuel, afficher un avertissement."
+				}
+			]
 		},
 		{
 			"condition": "!d2:hasValue( 'Vaccine_type_previous' )",
 			"created": "2021-01-11T12:22:19.377",
 			"description": "Hides a DE where one is asked about allergic reactions to previopus dose",
 			"id": "zLLHG561wsq",
-			"lastUpdated": "2021-01-11T12:22:19.377",
+			"lastUpdated": "2021-02-05T12:03:15.951",
 			"name": "Hide anaphylaxis DE if first dose",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12894,13 +15908,34 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Skryje DE, kde je člověk dotázán na alergické reakce na dávku previopusu"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Skrýt anafylaxi DE, pokud je první dávka"
+				},
+				{
+					"locale": "fr",
+					"property": "DESCRIPTION",
+					"value": "Masque la Saisie de données où l'on demande des informations sur les réactions allergiques à la dose précédente"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masquer la Saisie de données de l'anaphylaxie s'il s'agit de la première dose"
+				}
+			]
 		},
 		{
 			"condition": "#{Vaccine_type} == 'COVAX2'",
 			"created": "2021-01-08T12:43:44.082",
 			"id": "ZT3tLrXXadf",
-			"lastUpdated": "2021-01-13T13:29:57.823",
+			"lastUpdated": "2021-02-05T12:03:12.269",
 			"name": "Assign a suggested date for next dose COVAX 2",
 			"program": {
 				"id": "yDuAzyqYABS"
@@ -12916,7 +15951,18 @@
 			"programStage": {
 				"id": "a1jCssI2LkW"
 			},
-			"translations": []
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Přiřaďte navrhované datum pro další dávku přípravku COVAX 2"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Fixer une date indicative pour la prochaine dose de COVAX 2"
+				}
+			]
 		}
 	],
 	"programRuleVariables": [
@@ -13493,7 +16539,7 @@
 			"expiryDays": 0,
 			"id": "yDuAzyqYABS",
 			"ignoreOverdueEvents": false,
-			"lastUpdated": "2021-01-31T13:20:45.292",
+			"lastUpdated": "2021-02-05T12:03:16.785",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 2,
 			"name": "COVID-19 Vaccination Registry",
@@ -13504,9 +16550,6 @@
 			"programStages": [
 				{
 					"id": "a1jCssI2LkW"
-				},
-				{
-					"id": "FhmnMGI5RWG"
 				}
 			],
 			"programTrackedEntityAttributes": [
@@ -13922,6 +16965,16 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVID-19 Registr očkování"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "COVID-Vakcína"
+				},
+				{
 					"locale": "es",
 					"property": "NAME",
 					"value": "Registro de Vacunación COVID-19"
@@ -13969,11 +17022,11 @@
 			"displayGenerateEventBox": true,
 			"dueDateLabel": "Dose due date",
 			"enableUserAssignment": false,
-			"executionDateLabel": "Dose given on",
+			"executionDateLabel": "Dose given on (Vaccination date)",
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": false,
 			"id": "a1jCssI2LkW",
-			"lastUpdated": "2021-02-01T10:53:54.656",
+			"lastUpdated": "2021-02-05T12:03:16.542",
 			"minDaysFromStart": 0,
 			"name": "Vaccination ",
 			"notificationTemplates": [
@@ -14012,7 +17065,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "jXdxYzo6eWc",
-					"lastUpdated": "2021-02-01T10:53:54.667",
+					"lastUpdated": "2021-02-05T11:38:17.856",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14045,7 +17098,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "oLFFiCZLsyU",
-					"lastUpdated": "2021-02-01T10:53:54.666",
+					"lastUpdated": "2021-02-05T11:38:17.855",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14078,7 +17131,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CcafEl3ncxO",
-					"lastUpdated": "2021-02-01T10:53:54.668",
+					"lastUpdated": "2021-02-05T11:38:17.857",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14116,7 +17169,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Fm7GqrSLI66",
-					"lastUpdated": "2021-02-01T10:53:54.668",
+					"lastUpdated": "2021-02-05T11:38:17.856",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14149,7 +17202,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "qHq3uW9ctvE",
-					"lastUpdated": "2021-02-01T10:53:54.663",
+					"lastUpdated": "2021-02-05T11:38:17.853",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14182,7 +17235,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vccJLVVTVjI",
-					"lastUpdated": "2021-02-01T10:53:54.663",
+					"lastUpdated": "2021-02-05T11:38:17.854",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14215,7 +17268,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ojrMX3qdROu",
-					"lastUpdated": "2021-02-01T10:53:54.669",
+					"lastUpdated": "2021-02-05T11:38:17.857",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14248,7 +17301,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "d7G5YcB247t",
-					"lastUpdated": "2021-02-01T10:53:54.670",
+					"lastUpdated": "2021-02-05T11:38:17.858",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14281,7 +17334,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gUtIctZ5Bvo",
-					"lastUpdated": "2021-02-01T10:53:54.668",
+					"lastUpdated": "2021-02-05T11:38:17.856",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14314,7 +17367,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IdBYOQwzSHV",
-					"lastUpdated": "2021-02-01T10:53:54.665",
+					"lastUpdated": "2021-02-05T11:38:17.854",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14347,7 +17400,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "sdp5xyyTYU4",
-					"lastUpdated": "2021-02-01T10:53:54.669",
+					"lastUpdated": "2021-02-05T11:38:17.858",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14380,7 +17433,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "VRygrqARmPU",
-					"lastUpdated": "2021-02-01T10:53:54.664",
+					"lastUpdated": "2021-02-05T11:38:17.854",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14413,7 +17466,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "AMFbBN9utnH",
-					"lastUpdated": "2021-02-01T10:53:54.667",
+					"lastUpdated": "2021-02-05T11:38:17.856",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14446,7 +17499,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aagpR9w65cm",
-					"lastUpdated": "2021-02-01T10:53:54.667",
+					"lastUpdated": "2021-02-05T11:38:17.855",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14479,7 +17532,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "LSiktyE26qL",
-					"lastUpdated": "2021-02-01T10:53:54.665",
+					"lastUpdated": "2021-02-05T11:38:17.855",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14512,7 +17565,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "QwiqTvLQT4p",
-					"lastUpdated": "2021-02-01T10:53:54.667",
+					"lastUpdated": "2021-02-05T11:38:17.856",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14545,7 +17598,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "U4xF9QZVoHC",
-					"lastUpdated": "2021-02-01T10:53:54.666",
+					"lastUpdated": "2021-02-05T11:38:17.855",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14578,13 +17631,46 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fTAMK5Fyr0G",
-					"lastUpdated": "2021-02-01T10:53:54.670",
+					"lastUpdated": "2021-02-05T11:38:17.858",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
 					"sortOrder": 21,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2021-02-05T11:34:11.497",
+					"dataElement": {
+						"id": "rpkH9ZPGJcX"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "k49bAuwrD6g",
+					"lastUpdated": "2021-02-05T11:38:17.854",
+					"programStage": {
+						"id": "a1jCssI2LkW"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 22,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -14611,7 +17697,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Z0c5JNvXlgZ",
-					"lastUpdated": "2021-02-01T10:53:54.669",
+					"lastUpdated": "2021-02-05T11:38:17.857",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14644,7 +17730,40 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ArZmlJl4IET",
-					"lastUpdated": "2021-02-01T10:53:54.669",
+					"lastUpdated": "2021-02-05T11:38:17.858",
+					"programStage": {
+						"id": "a1jCssI2LkW"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 23,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2021-02-05T11:38:17.857",
+					"dataElement": {
+						"id": "PamkjF1JUnE"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "tVqfpGYzM2g",
+					"lastUpdated": "2021-02-05T11:38:17.857",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14677,7 +17796,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ncqbfsQniUw",
-					"lastUpdated": "2021-02-01T10:53:54.664",
+					"lastUpdated": "2021-02-05T11:38:17.854",
 					"programStage": {
 						"id": "a1jCssI2LkW"
 					},
@@ -14711,6 +17830,11 @@
 			},
 			"translations": [
 				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Očkování"
+				},
+				{
 					"locale": "es",
 					"property": "NAME",
 					"value": "Vacunación"
@@ -14721,53 +17845,6 @@
 					"value": "Vaccination"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rwrw----",
-					"id": "AEAQ9LktNze"
-				},
-				{
-					"access": "r-r-----",
-					"id": "VLIaHu6ou8E"
-				},
-				{
-					"access": "r-rw----",
-					"id": "q3Nh5xhJEy2"
-				}
-			],
-			"validationStrategy": "ON_COMPLETE"
-		},
-		{
-			"allowGenerateNextVisit": false,
-			"attributeValues": [],
-			"autoGenerateEvent": false,
-			"blockEntryForm": false,
-			"created": "2021-01-13T16:05:01.697",
-			"displayGenerateEventBox": false,
-			"enableUserAssignment": false,
-			"generatedByEnrollmentDate": false,
-			"hideDueDate": false,
-			"id": "FhmnMGI5RWG",
-			"lastUpdated": "2021-02-01T10:53:54.671",
-			"minDaysFromStart": 0,
-			"name": "DELETE",
-			"notificationTemplates": [],
-			"openAfterEnrollment": false,
-			"preGenerateUID": false,
-			"program": {
-				"id": "yDuAzyqYABS"
-			},
-			"programStageDataElements": [],
-			"programStageSections": [],
-			"publicAccess": "r-r-----",
-			"remindCompleted": false,
-			"repeatable": false,
-			"sortOrder": 2,
-			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -14828,7 +17905,7 @@
 				}
 			],
 			"id": "BBZ09qx0Jpp",
-			"lastUpdated": "2021-02-01T10:53:54.534",
+			"lastUpdated": "2021-02-05T12:03:16.151",
 			"name": "Underlying Conditions",
 			"programIndicators": [],
 			"programStage": {
@@ -14844,6 +17921,11 @@
 			},
 			"sortOrder": 0,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Základní podmínky"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -14872,6 +17954,12 @@
 					"id": "YTQulAldGOs"
 				},
 				{
+					"id": "rpkH9ZPGJcX"
+				},
+				{
+					"id": "PamkjF1JUnE"
+				},
+				{
 					"id": "LUIsbsm3okG"
 				},
 				{
@@ -14885,7 +17973,7 @@
 				}
 			],
 			"id": "PNZ5qna3W5i",
-			"lastUpdated": "2021-02-01T10:53:54.534",
+			"lastUpdated": "2021-02-05T12:03:16.338",
 			"name": "Vaccination information",
 			"programIndicators": [],
 			"programStage": {
@@ -14901,6 +17989,11 @@
 			},
 			"sortOrder": 2,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Informace o očkování"
+				},
 				{
 					"locale": "es",
 					"property": "NAME",
@@ -14924,7 +18017,7 @@
 				}
 			],
 			"id": "VmpV4dnJ55H",
-			"lastUpdated": "2021-02-01T10:53:54.534",
+			"lastUpdated": "2021-02-05T11:38:17.574",
 			"name": "Pre-immunization Questions",
 			"programIndicators": [],
 			"programStage": {
@@ -14975,7 +18068,7 @@
 			"generated": true,
 			"id": "aJJvi3jiLZr",
 			"inherit": false,
-			"lastUpdated": "2021-01-31T13:20:28.051",
+			"lastUpdated": "2021-02-05T12:02:53.926",
 			"legendSets": [],
 			"name": "COVAX Unique System Identifier (EPI)",
 			"orgunitScope": false,
@@ -14984,6 +18077,21 @@
 			"shortName": "COVAX Unique System Identifier ",
 			"skipSynchronization": false,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Systémem vygenerovaný jedinečný ID následujícího vzoru: CURRENT_DATE(yyyy-MM-dd) následovaný náhodným číslem (#####)"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX Unique System Identifier (EPI)"
+				},
+				{
+					"locale": "cs",
+					"property": "SHORT_NAME",
+					"value": "COVAX Unique System Identifier"
+				},
 				{
 					"locale": "fr",
 					"property": "DESCRIPTION",
@@ -15543,7 +18651,7 @@
 			"generated": false,
 			"id": "LY2bDXpNvS7",
 			"inherit": false,
-			"lastUpdated": "2021-01-31T13:20:27.698",
+			"lastUpdated": "2021-02-05T12:02:53.530",
 			"legendSets": [],
 			"name": "COVID - Occupation",
 			"optionSet": {
@@ -15555,6 +18663,21 @@
 			"shortName": "Occupation - COVID",
 			"skipSynchronization": false,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Povolání klienta z předdefinovaného seznamu"
+				},
+				{
+					"locale": "cs",
+					"property": "FORM_NAME",
+					"value": "Povolání"
+				},
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVID - Povolání"
+				},
 				{
 					"locale": "cs",
 					"property": "SHORT_NAME",
@@ -15599,6 +18722,11 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Profession - COVID"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Ocupação - COVID"
 				}
 			],
 			"unique": false,
@@ -15634,7 +18762,7 @@
 			"generated": false,
 			"id": "mAWcalQYYyk",
 			"inherit": false,
-			"lastUpdated": "2021-01-31T13:20:27.524",
+			"lastUpdated": "2021-02-05T12:02:53.309",
 			"legendSets": [],
 			"name": "Date of birth (age)",
 			"orgunitScope": false,
@@ -16042,7 +19170,7 @@
 			"generated": false,
 			"id": "YCqoNJZKvAG",
 			"inherit": false,
-			"lastUpdated": "2021-01-31T13:20:27.880",
+			"lastUpdated": "2021-02-05T12:02:53.740",
 			"legendSets": [],
 			"name": "Area Urban Rural",
 			"optionSet": {
@@ -16054,6 +19182,16 @@
 			"shortName": "Area Urban Rural",
 			"skipSynchronization": false,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "DESCRIPTION",
+					"value": "Ať už klient žije v městském nebo venkovském prostředí"
+				},
+				{
+					"locale": "cs",
+					"property": "FORM_NAME",
+					"value": "Oblast"
+				},
 				{
 					"locale": "cs",
 					"property": "NAME",
@@ -16098,6 +19236,16 @@
 					"locale": "fr",
 					"property": "SHORT_NAME",
 					"value": "Zone urbaine ou rurale"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Área Urbana Rural"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Área Urbana Rural"
 				}
 			],
 			"unique": false,
@@ -16131,7 +19279,7 @@
 			"generated": false,
 			"id": "Z1rLc1rVHK8",
 			"inherit": false,
-			"lastUpdated": "2021-01-31T13:20:27.331",
+			"lastUpdated": "2021-02-05T12:02:53.084",
 			"legendSets": [],
 			"name": "Date of birth is estimated",
 			"orgunitScope": false,
@@ -16572,11 +19720,16 @@
 			"attributeValues": [],
 			"created": "2020-11-24T18:32:08.934",
 			"id": "AEAQ9LktNze",
-			"lastUpdated": "2021-01-31T13:20:34.210",
+			"lastUpdated": "2021-02-05T12:03:17.199",
 			"managedGroups": [],
 			"name": "COVID Immunization Metadata Admin",
 			"publicAccess": "r-------",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVID Správce metadat imunizace "
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -16611,7 +19764,7 @@
 			"attributeValues": [],
 			"created": "2020-03-26T08:34:06.303",
 			"id": "J3mFUNTreYY",
-			"lastUpdated": "2021-02-03T10:28:48.492",
+			"lastUpdated": "2021-02-05T11:56:10.835",
 			"managedGroups": [],
 			"name": "AEFI access",
 			"publicAccess": "r-------",
@@ -16660,11 +19813,16 @@
 			"attributeValues": [],
 			"created": "2020-11-23T21:27:42.871",
 			"id": "kPBGgIFMNFv",
-			"lastUpdated": "2021-01-31T13:15:01.895",
+			"lastUpdated": "2021-02-05T11:56:11.240",
 			"managedGroups": [],
 			"name": "AEFI admin",
 			"publicAccess": "r-------",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "AEFI Správce "
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -16737,11 +19895,16 @@
 			"attributeValues": [],
 			"created": "2020-11-23T21:28:35.020",
 			"id": "RWyhKm0cuQ5",
-			"lastUpdated": "2021-02-03T10:17:03.360",
+			"lastUpdated": "2021-02-05T11:56:11.043",
 			"managedGroups": [],
 			"name": "AEFI data capture",
 			"publicAccess": "r-------",
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "AEFI Sběr dat"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
@@ -17058,7 +20221,7 @@
 			"hideTitle": false,
 			"id": "BWlYGFBDbO2",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.318",
+			"lastUpdated": "2021-02-05T12:02:54.137",
 			"name": "COVAX - Vaccine uptake by age group",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -17143,6 +20306,11 @@
 					"value": "COVAX - Adhésion au vaccin par tranche d'âge"
 				},
 				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Serapan Vaksin menrut kelompok umur"
+				},
+				{
 					"locale": "pt",
 					"property": "NAME",
 					"value": "COVAX - Toma de vacinas por faixa etária"
@@ -17211,7 +20379,7 @@
 			"hideTitle": false,
 			"id": "GJPPSQuVt4N",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.567",
+			"lastUpdated": "2021-02-05T12:02:54.594",
 			"name": "COVAX - Number of doses administered",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -17309,6 +20477,16 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Nombre de doses administrées"
+				},
+				{
+					"locale": "id",
+					"property": "DESCRIPTION",
+					"value": "Tes tes"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX-Jumlah Dosis yang dikelola"
 				},
 				{
 					"locale": "pt",
@@ -17547,7 +20725,7 @@
 			"hideTitle": false,
 			"id": "Hbs3xGj7XoN",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.763",
+			"lastUpdated": "2021-02-05T12:02:54.820",
 			"name": "COVAX - Drop-out from COV-1 to COV-c",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -17634,6 +20812,11 @@
 					"value": "COVAX - Abandon COV-1 à COV-c"
 				},
 				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Drop-out dati COV-1  ke COV-c"
+				},
+				{
 					"locale": "pt",
 					"property": "NAME",
 					"value": "COVAX - Desistência de COV-1 para COV-c"
@@ -17707,7 +20890,7 @@
 			"hideTitle": false,
 			"id": "KV7fffdXnlY",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:28.945",
+			"lastUpdated": "2021-02-05T12:02:55.040",
 			"name": "COVAX - Vaccine uptake by sex",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -17790,6 +20973,11 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "COVAX - Adhésion au vaccin par sexe"
+				},
+				{
+					"locale": "id",
+					"property": "NAME",
+					"value": "COVAX - Serapan Vaksin menurut jens kelamin"
 				},
 				{
 					"locale": "pt",
@@ -18391,7 +21579,7 @@
 			"hideTitle": false,
 			"id": "vmNUVdhuxN7",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:30.636",
+			"lastUpdated": "2021-02-05T12:02:55.243",
 			"name": "COVAX - Cumulative number of given doses, Last 4 weeks",
 			"noSpaceBetweenColumns": true,
 			"optionalAxes": [],
@@ -18488,6 +21676,11 @@
 					"value": "COVAX - Nombre cumulé de doses administrées, 4 dernières semaines"
 				},
 				{
+					"locale": "id",
+					"property": "DESCRIPTION",
+					"value": "Tes tes"
+				},
+				{
 					"locale": "pt",
 					"property": "DESCRIPTION",
 					"value": "TESTE TESTE"
@@ -18576,7 +21769,7 @@
 			"hideTitle": false,
 			"id": "wHd33PaphEC",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-01-31T13:20:45.524",
+			"lastUpdated": "2021-02-05T12:03:16.999",
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "COVAX - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)",
@@ -18654,6 +21847,11 @@
 			"subscribers": [],
 			"topLimit": 0,
 			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "COVAX - Lidé dostávající COV-2 vs. Lidé dokončující očkovací schéma (Cov-C)"
+				},
 				{
 					"locale": "fr",
 					"property": "NAME",
