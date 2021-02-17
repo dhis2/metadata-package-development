@@ -62,7 +62,9 @@
       "_type": "tracker",
       "_url": [
         "https://who-dev.dhis2.org/tracker_dev",
-        "https://who-sandbox.dhis2.org/tracker_dev234"
+        "https://who.sandbox.dhis2.org/tracker_dev234",
+        "https://who.sandbox.dhis2.org/tracker_dev235"
+
       ],
       "_version": "1.0.0",
       "customObjects": [
@@ -81,9 +83,18 @@
         {
           "objectIds": [
             "TrhGLijMX6L",
-            "b9ghoh8ZZEN"
+            "b9ghoh8ZZEN",
+            "DDLVcciukAS"
           ],
           "objectType": "options"
+        },
+        {
+          "objectIds": [
+            "tAW4MJc6ojF",
+            "mC8rSIaoT6d",
+            "SzLk7Z0umqj"
+          ],
+          "objectType": "optionGroups"
         },
         {
           "objectIds": [
