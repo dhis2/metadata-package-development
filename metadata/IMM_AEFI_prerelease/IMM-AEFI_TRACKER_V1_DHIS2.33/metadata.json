@@ -491,7 +491,7 @@
 			"hideTitle": false,
 			"id": "aGRyKvSt8hB",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:12:07.218",
+			"lastUpdated": "2021-02-17T09:35:36.813",
 			"name": "AEFI following PCV vaccine (this year, last year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -504,7 +504,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -535,11 +535,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -1048,6 +1048,248 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T09:08:36.215",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "mGg609e6JxT"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "byGIC7C7EdF",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:06:32.190",
+			"name": "Novavax-associated reported AEFIs",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T09:08:36.215",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "R0cUjFo1N9b"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "C5qirWdKTbh",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:07:34.828",
+			"name": "Moderna-associated reported AEFIs",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
 			"category": "pe",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
@@ -1272,6 +1514,129 @@
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
 			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T12:30:00.261",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "mGg609e6JxT"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "eDFuPQM9v8U",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-08T07:24:13.808",
+			"name": "AEFI cases following Novavax by Patient's Province and District (this year)",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"rangeAxisLabel": "Number of AEFI cases",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
 			"yearlySeries": []
 		},
 		{
@@ -1542,7 +1907,7 @@
 			"hideTitle": false,
 			"id": "eVkbnM8lnvP",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:12:41.361",
+			"lastUpdated": "2021-02-17T09:35:10.980",
 			"name": "AEFI following Polio Vaccine - Oral (OPV) Bivalent Types 1 and 3 (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1555,7 +1920,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -1586,11 +1951,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -1725,7 +2090,7 @@
 			"hideTitle": false,
 			"id": "fnm8FAWtfX4",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:13:25.784",
+			"lastUpdated": "2021-02-17T09:33:47.420",
 			"name": "AEFI following DPT-Hep B vaccine (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1738,7 +2103,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -1769,11 +2134,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -1911,7 +2276,7 @@
 			"hideTitle": false,
 			"id": "FzdMlWwP563",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:11:43.881",
+			"lastUpdated": "2021-02-17T09:34:59.056",
 			"name": "AEFI following Rubella vaccine (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -1924,7 +2289,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -1955,11 +2320,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -2023,6 +2388,129 @@
 				"THIS_YEAR",
 				"LAST_YEAR"
 			]
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T12:30:00.261",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "hhc2O2yaCq6"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "G7B5qhuDM0a",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-08T07:23:47.801",
+			"name": "AEFI cases following AstraZeneca by Patient's Province and District (this year)",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"rangeAxisLabel": "Number of AEFI cases",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2183,6 +2671,129 @@
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
 			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T12:30:00.261",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "R0cUjFo1N9b"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Gz2dOS3mAiq",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-08T07:24:02.252",
+			"name": "AEFI cases following Moderna by Patient's Province and District (this year)",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"rangeAxisLabel": "Number of AEFI cases",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
 			"yearlySeries": []
 		},
 		{
@@ -2485,6 +3096,505 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
+			"created": "2020-11-27T10:24:02.589",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "L6QC7uGkyMv"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "KpmevHebldP",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-22T14:31:10.497",
+			"name": "AEFI Deaths",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "AEFI Úmrtí "
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Décès MAPI"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Óbitos EAPV"
+				}
+			],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2021-01-19T11:47:16.514",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "hLFFsDhXjqM"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "aECgym94BkM"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "WVCeytd5J2z"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "aSd88oIH6AQ"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "IMj0kEluNkq"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "D9iKqhILYGJ"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "I5BR9uPmxHT"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "SQhxEMfy4sq"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "gwd0DCX0cj6"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "YdvNefB0R7g"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "VXI2RQxJSKX"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "L15cr5GjPYB",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:13:29.817",
+			"name": "Adverse Events following COVID 19 : Novavax",
+			"noSpaceBetweenColumns": true,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "STACKED_BAR",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2021-01-19T11:47:16.514",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "Ljr8yUu89KS"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "d5tlZxcoAPk"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "pvS0QEdIrFs"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "S5sZyGeun5m"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "HiHYDyRz41W"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "wNxBF4QMUlN"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "b66cgfIZ6LB"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "HgIady4Kqwa"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "GtM3qgYG9jS"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "L5jV6gMl6XW"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "WZbs6SR3fw0"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Lonv4dwIjk4",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:11:07.263",
+			"name": "Adverse Events following COVID 19 : AstraZeneca",
+			"noSpaceBetweenColumns": true,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "STACKED_BAR",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
 			"created": "2019-06-17T05:53:42.000",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
@@ -2556,7 +3666,7 @@
 			"hideTitle": false,
 			"id": "LR2jOYXZRms",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:09:50.145",
+			"lastUpdated": "2021-02-17T09:34:46.646",
 			"name": "AEFI following Hepatitis B vaccine (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2569,7 +3679,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -2600,11 +3710,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -2900,7 +4010,7 @@
 			"hideTitle": false,
 			"id": "nuw6MOnmL7m",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:13:13.843",
+			"lastUpdated": "2021-02-17T09:33:33.572",
 			"name": "AEFI following BCG 0.05 vaccine (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -2913,7 +4023,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -2944,11 +4054,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -3012,6 +4122,134 @@
 				"THIS_YEAR",
 				"LAST_YEAR"
 			]
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2021-01-22T09:25:43.154",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "Iuupp5Cig3a"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "oeYZZMnsoPj"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "Adverse event following COVID 19 : Novavax vaccination by pregnancy and lactation status",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "P8iSxCvY6AA",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-16T21:52:48.674",
+			"name": "Adverse event following COVID vaccination: Novavax by pregnancy and lactation status",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -3252,6 +4490,187 @@
 				}
 			],
 			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2021-01-19T11:47:16.514",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "MSr5QfR58md"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "pz3Hjvqbzso"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "iVeERveTc4v"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "tBQIfI6NnUj"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "iQNfRG6eKQ4"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "nqFSDjMxVbG"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "Uel1eU9vUuR"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "XKO1bFPu0Ib"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "YiPwZSK6mGx"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "tbQJ7C0DGOP"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "mNN7Kj03L2b"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "Q2fs6GXaHSV",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:12:30.091",
+			"name": "Adverse Events following COVID 19 : Moderna",
+			"noSpaceBetweenColumns": true,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "STACKED_BAR",
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -3609,6 +5028,255 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
+			"created": "2021-01-22T09:25:43.154",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "sSOzUmwj3S7"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "iyUGzzFt1EZ"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "Adverse event following COVID 19 : Moderna by pregnancy and lactation status",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "RXlC5aWvN8v",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-16T21:55:22.619",
+			"name": "Adverse event following COVID vaccination: Moderna  by pregnancy and lactation status",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T09:08:36.215",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "hhc2O2yaCq6"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "S24zyEkZ311",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T12:09:48.974",
+			"name": "AstraZeneca-associated reported AEFIs",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
 			"created": "2020-07-09T11:28:32.327",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
@@ -3908,6 +5576,277 @@
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
+			"created": "2020-11-27T10:24:02.589",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "SIdmJwSyE8S"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou",
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "TjzpPA8uOca",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-01-22T14:31:11.068",
+			"name": "AEFI Hospitalisations",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "AEFI Hospitalizace"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Hospitalisations pour MAPI"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Hospitalizações EAPV"
+				}
+			],
+			"type": "SINGLE_VALUE",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"category": "ou",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2019-06-06T09:08:36.215",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "hhc2O2yaCq6"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "R0cUjFo1N9b"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "mGg609e6JxT"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "Adverse events following COVID vaccination by Patient's Province and District (This Year)",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"pe"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "UnIGdvIWQ1N",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-15T15:23:18.668",
+			"name": "Adverse events following COVID vaccination by Patient's Province and District ",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": false,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": true,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
 			"created": "2019-06-17T05:53:42.000",
 			"cumulativeValues": false,
 			"dataDimensionItems": [
@@ -3979,7 +5918,7 @@
 			"hideTitle": false,
 			"id": "vmnEfVD29Ra",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:11:26.285",
+			"lastUpdated": "2021-02-17T09:34:16.683",
 			"name": "AEFI following Measles,Mumps and Rubella vaccine (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -3992,7 +5931,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -4023,11 +5962,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -4168,7 +6107,7 @@
 			"hideTitle": false,
 			"id": "wmqeA60KPWU",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:12:24.829",
+			"lastUpdated": "2021-02-17T09:35:23.051",
 			"name": "AEFI with Pentavalent (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -4181,7 +6120,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -4212,11 +6151,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -4357,7 +6296,7 @@
 			"hideTitle": false,
 			"id": "Yjz5dB94OEY",
 			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-02-15T16:11:07.932",
+			"lastUpdated": "2021-02-17T09:34:01.596",
 			"name": "AEFI with IPV (this year)",
 			"noSpaceBetweenColumns": false,
 			"organisationUnitGroupSetDimensions": [],
@@ -4370,7 +6309,7 @@
 			"regressionType": "NONE",
 			"relativePeriods": {
 				"biMonthsThisYear": false,
-				"last12Months": true,
+				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
 				"last2SixMonths": false,
@@ -4401,11 +6340,11 @@
 				"thisBiWeek": false,
 				"thisDay": false,
 				"thisFinancialYear": false,
-				"thisMonth": true,
+				"thisMonth": false,
 				"thisQuarter": false,
 				"thisSixMonth": false,
 				"thisWeek": false,
-				"thisYear": false,
+				"thisYear": true,
 				"weeksThisYear": false,
 				"yesterday": false
 			},
@@ -4628,6 +6567,134 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"category": "pe",
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"completedOnly": false,
+			"created": "2021-01-22T09:25:43.154",
+			"cumulativeValues": false,
+			"dataDimensionItems": [
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "eIsCUWyedJg"
+					}
+				},
+				{
+					"dataDimensionItemType": "PROGRAM_INDICATOR",
+					"programIndicator": {
+						"id": "UY9NyN3wyG2"
+					}
+				}
+			],
+			"dataElementGroupSetDimensions": [],
+			"description": "Adverse event following COVID 19 : AstraZeneca vaccination by pregnancy and lactation status",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [
+				"ou"
+			],
+			"hideEmptyRowItems": "NONE",
+			"hideLegend": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "YtRNCMQS4PY",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-16T21:52:11.421",
+			"name": "Adverse event following COVID vaccination: AstraZeneca by pregnancy and lactation status",
+			"noSpaceBetweenColumns": false,
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"percentStackedValues": false,
+			"periods": [],
+			"publicAccess": "r-------",
+			"regressionType": "NONE",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": false,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": true,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"series": "dx",
+			"seriesItems": [],
+			"showData": true,
+			"sortOrder": 0,
+			"subscribers": [],
+			"translations": [],
+			"type": "COLUMN",
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
+		},
+		{
+			"aggregationType": "DEFAULT",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"completedOnly": false,
@@ -4785,28 +6852,96 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
+					"eventReport": {
+						"id": "H6mFGyr4TD2"
+					},
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"height": 32,
-					"id": "r0sqJrBUsfN",
+					"height": 22,
+					"id": "vZ9iAkiJlPS",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
-					"map": {
-						"id": "lT6Ev0gPL2L"
-					},
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
-					"type": "MAP",
+					"type": "EVENT_REPORT",
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
-					"width": 20,
+					"width": 59,
 					"x": 0,
-					"y": 19
+					"y": 164
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "KpmevHebldP"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T23:36:13.058",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 15,
+					"id": "dwnlX9917vw",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T23:36:13.105",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 12,
+					"x": 16,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "TjzpPA8uOca"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T23:36:13.058",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 15,
+					"id": "LisN5damL3D",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T23:36:13.105",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 11,
+					"x": 46,
+					"y": 0
 				},
 				{
 					"access": {
@@ -4819,7 +6954,41 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 32,
+					"id": "r0sqJrBUsfN",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T23:36:13.105",
+					"map": {
+						"id": "lT6Ev0gPL2L"
+					},
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 20,
+					"x": 0,
+					"y": 34
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T23:36:13.058",
 					"eventReport": {
 						"id": "KEyzQOeOleH"
 					},
@@ -4830,7 +6999,7 @@
 					"id": "RbH3H7FkyXf",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -4840,7 +7009,7 @@
 					"users": [],
 					"width": 29,
 					"x": 0,
-					"y": 123
+					"y": 138
 				},
 				{
 					"access": {
@@ -4856,7 +7025,7 @@
 						"id": "sODMmX8hJOJ"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -4864,7 +7033,7 @@
 					"id": "mCZ4qJWLyOd",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -4874,7 +7043,7 @@
 					"users": [],
 					"width": 20,
 					"x": 39,
-					"y": 75
+					"y": 90
 				},
 				{
 					"access": {
@@ -4890,7 +7059,7 @@
 						"id": "j7Bvq96DWgc"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -4898,7 +7067,7 @@
 					"id": "AVPIrEV02KP",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -4908,7 +7077,7 @@
 					"users": [],
 					"width": 20,
 					"x": 19,
-					"y": 75
+					"y": 90
 				},
 				{
 					"access": {
@@ -4921,7 +7090,7 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"eventReport": {
 						"id": "TeD5eJ7a0PF"
 					},
@@ -4932,7 +7101,7 @@
 					"id": "tXAcL1kR2Ty",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -4942,7 +7111,7 @@
 					"users": [],
 					"width": 30,
 					"x": 29,
-					"y": 123
+					"y": 138
 				},
 				{
 					"access": {
@@ -4958,15 +7127,15 @@
 						"id": "pzX1HTTLJU2"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"height": 9,
+					"height": 15,
 					"id": "SHJm39vjDVV",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -4974,9 +7143,9 @@
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
-					"width": 17,
-					"x": 20,
-					"y": 19
+					"width": 12,
+					"x": 31,
+					"y": 0
 				},
 				{
 					"access": {
@@ -4992,15 +7161,15 @@
 						"id": "AsmRonHtIuQ"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"height": 19,
+					"height": 15,
 					"id": "Xf53H3ZGZfM",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.309",
+					"lastUpdated": "2021-02-17T23:36:13.105",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5009,7 +7178,7 @@
 					"userGroupAccesses": [],
 					"users": [],
 					"width": 12,
-					"x": 0,
+					"x": 1,
 					"y": 0
 				},
 				{
@@ -5026,7 +7195,7 @@
 						"id": "bRZac7ysPZp"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5034,7 +7203,7 @@
 					"id": "xQehhKNuKF4",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5044,7 +7213,7 @@
 					"users": [],
 					"width": 19,
 					"x": 0,
-					"y": 75
+					"y": 90
 				},
 				{
 					"access": {
@@ -5060,7 +7229,7 @@
 						"id": "qeITy0Jv5vV"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5068,7 +7237,7 @@
 					"id": "eWra6j3Lf0p",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5078,7 +7247,7 @@
 					"users": [],
 					"width": 21,
 					"x": 37,
-					"y": 51
+					"y": 66
 				},
 				{
 					"access": {
@@ -5094,7 +7263,7 @@
 						"id": "qp7Ml93jnSD"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5102,7 +7271,7 @@
 					"id": "P3rhM6BHf5u",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5112,7 +7281,7 @@
 					"users": [],
 					"width": 17,
 					"x": 20,
-					"y": 28
+					"y": 34
 				},
 				{
 					"access": {
@@ -5128,7 +7297,7 @@
 						"id": "saUrRYwAnKv"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5136,7 +7305,7 @@
 					"id": "CCSwqBSrR2p",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5146,7 +7315,7 @@
 					"users": [],
 					"width": 44,
 					"x": 0,
-					"y": 103
+					"y": 118
 				},
 				{
 					"access": {
@@ -5162,7 +7331,7 @@
 						"id": "ZkbjabzBFJU"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5170,7 +7339,7 @@
 					"id": "eJoXIqWNwxI",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5180,7 +7349,7 @@
 					"users": [],
 					"width": 19,
 					"x": 0,
-					"y": 51
+					"y": 66
 				},
 				{
 					"access": {
@@ -5196,7 +7365,7 @@
 						"id": "GKTk8X9N0WC"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5204,7 +7373,7 @@
 					"id": "X6z2ji3fWRA",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5214,7 +7383,7 @@
 					"users": [],
 					"width": 18,
 					"x": 19,
-					"y": 51
+					"y": 66
 				},
 				{
 					"access": {
@@ -5230,7 +7399,7 @@
 						"id": "fnm8FAWtfX4"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5238,7 +7407,7 @@
 					"id": "GIcbMcTfa8T",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5248,7 +7417,7 @@
 					"users": [],
 					"width": 14,
 					"x": 15,
-					"y": 170
+					"y": 207
 				},
 				{
 					"access": {
@@ -5264,7 +7433,7 @@
 						"id": "aGRyKvSt8hB"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5272,7 +7441,7 @@
 					"id": "Bk6r4Utuwck",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5282,7 +7451,7 @@
 					"users": [],
 					"width": 15,
 					"x": 0,
-					"y": 213
+					"y": 250
 				},
 				{
 					"access": {
@@ -5298,7 +7467,7 @@
 						"id": "Yjz5dB94OEY"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5306,7 +7475,7 @@
 					"id": "PvnePpXYHTC",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5316,7 +7485,7 @@
 					"users": [],
 					"width": 13,
 					"x": 29,
-					"y": 170
+					"y": 207
 				},
 				{
 					"access": {
@@ -5332,7 +7501,7 @@
 						"id": "LR2jOYXZRms"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5340,7 +7509,7 @@
 					"id": "KyRL3dh690L",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5350,7 +7519,7 @@
 					"users": [],
 					"width": 15,
 					"x": 0,
-					"y": 191
+					"y": 228
 				},
 				{
 					"access": {
@@ -5366,7 +7535,7 @@
 						"id": "wmqeA60KPWU"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5374,7 +7543,7 @@
 					"id": "rMZxwNzufiq",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.310",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5384,7 +7553,7 @@
 					"users": [],
 					"width": 13,
 					"x": 42,
-					"y": 191
+					"y": 228
 				},
 				{
 					"access": {
@@ -5400,7 +7569,7 @@
 						"id": "vmnEfVD29Ra"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5408,7 +7577,7 @@
 					"id": "jncagVn5QqP",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5418,7 +7587,7 @@
 					"users": [],
 					"width": 13,
 					"x": 42,
-					"y": 170
+					"y": 207
 				},
 				{
 					"access": {
@@ -5434,7 +7603,7 @@
 						"id": "eVkbnM8lnvP"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5442,7 +7611,7 @@
 					"id": "b5K0IL6MEmn",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5452,7 +7621,7 @@
 					"users": [],
 					"width": 13,
 					"x": 29,
-					"y": 191
+					"y": 228
 				},
 				{
 					"access": {
@@ -5468,7 +7637,7 @@
 						"id": "FzdMlWwP563"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5476,7 +7645,7 @@
 					"id": "ZJ9BMConhM4",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5486,7 +7655,7 @@
 					"users": [],
 					"width": 14,
 					"x": 15,
-					"y": 191
+					"y": 228
 				},
 				{
 					"access": {
@@ -5502,7 +7671,7 @@
 						"id": "nuw6MOnmL7m"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5510,7 +7679,7 @@
 					"id": "zEw8nC0TtkU",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.106",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5520,7 +7689,7 @@
 					"users": [],
 					"width": 15,
 					"x": 0,
-					"y": 170
+					"y": 207
 				},
 				{
 					"access": {
@@ -5536,7 +7705,7 @@
 						"id": "EC56gR8oLYB"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5544,7 +7713,7 @@
 					"id": "qqb1OAb9ZRJ",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.107",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5554,7 +7723,7 @@
 					"users": [],
 					"width": 59,
 					"x": 0,
-					"y": 149
+					"y": 186
 				},
 				{
 					"access": {
@@ -5570,7 +7739,7 @@
 						"id": "eFP44GxAuby"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5578,7 +7747,7 @@
 					"id": "nuJ4ZPIDUnt",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.107",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5588,7 +7757,7 @@
 					"users": [],
 					"width": 21,
 					"x": 37,
-					"y": 19
+					"y": 34
 				},
 				{
 					"access": {
@@ -5604,7 +7773,7 @@
 						"id": "phMWM7To0lM"
 					},
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5612,7 +7781,7 @@
 					"id": "tjJL83WDiJJ",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.107",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5620,9 +7789,9 @@
 					"userAccesses": [],
 					"userGroupAccesses": [],
 					"users": [],
-					"width": 46,
-					"x": 12,
-					"y": 0
+					"width": 58,
+					"x": 0,
+					"y": 15
 				},
 				{
 					"access": {
@@ -5635,7 +7804,7 @@
 					},
 					"attributeValues": [],
 					"contentCount": 1,
-					"created": "2021-02-15T16:17:13.262",
+					"created": "2021-02-17T23:36:13.058",
 					"eventReport": {
 						"id": "zVMUVoocGtH"
 					},
@@ -5646,7 +7815,7 @@
 					"id": "d197mIWmbQk",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2021-02-15T16:17:13.311",
+					"lastUpdated": "2021-02-17T23:36:13.107",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5656,13 +7825,13 @@
 					"users": [],
 					"width": 44,
 					"x": 15,
-					"y": 213
+					"y": 250
 				}
 			],
 			"externalAccess": false,
 			"favorites": [],
 			"id": "Dwp14f6LzSo",
-			"lastUpdated": "2021-02-15T16:17:13.308",
+			"lastUpdated": "2021-02-17T23:36:13.102",
 			"name": "AEFI",
 			"publicAccess": "r-------",
 			"translations": [],
@@ -5710,11 +7879,43 @@
 						"write": true
 					},
 					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T23:40:19.691",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 8,
+					"id": "rRgzNabCohh",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T23:40:19.728",
+					"reports": [],
+					"resources": [],
+					"text": "-DOR (date of report - report compilation date)=The event date of the AEFI program stage.\n-DON (Date of Notification - date patient notified the event to the health system)=Date patient notified the event to the health system. Enrollment date. Found in the enrollment section\n-DOO (Date of Onset - incident date)=AEFI incident date\n\n\n\n\n",
+					"translations": [],
+					"type": "TEXT",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 59,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
 					"chart": {
 						"id": "NRvH4fN1Uny"
 					},
 					"contentCount": 1,
-					"created": "2020-12-01T04:51:48.952",
+					"created": "2021-02-17T23:40:19.691",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5722,7 +7923,7 @@
 					"id": "UTVqWdeEru3",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-12-01T04:51:49.019",
+					"lastUpdated": "2021-02-17T23:40:19.729",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5732,7 +7933,7 @@
 					"users": [],
 					"width": 29,
 					"x": 30,
-					"y": 29
+					"y": 37
 				},
 				{
 					"access": {
@@ -5748,7 +7949,7 @@
 						"id": "YsgeiuWgtpJ"
 					},
 					"contentCount": 1,
-					"created": "2020-12-01T04:51:48.952",
+					"created": "2021-02-17T23:40:19.691",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5756,7 +7957,7 @@
 					"id": "SKsWc2m8Sil",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-12-01T04:51:49.020",
+					"lastUpdated": "2021-02-17T23:40:19.729",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5766,7 +7967,7 @@
 					"users": [],
 					"width": 30,
 					"x": 0,
-					"y": 0
+					"y": 8
 				},
 				{
 					"access": {
@@ -5782,7 +7983,7 @@
 						"id": "I9NvK7o0IUK"
 					},
 					"contentCount": 1,
-					"created": "2020-12-01T04:51:48.952",
+					"created": "2021-02-17T23:40:19.691",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5790,7 +7991,7 @@
 					"id": "wN6KssUIs3Z",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-12-01T04:51:49.020",
+					"lastUpdated": "2021-02-17T23:40:19.729",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5800,7 +8001,7 @@
 					"users": [],
 					"width": 29,
 					"x": 30,
-					"y": 0
+					"y": 8
 				},
 				{
 					"access": {
@@ -5816,7 +8017,7 @@
 						"id": "ARb6cC85Tnr"
 					},
 					"contentCount": 1,
-					"created": "2020-12-01T04:51:48.952",
+					"created": "2021-02-17T23:40:19.691",
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
@@ -5824,7 +8025,7 @@
 					"id": "GOegODNP6eK",
 					"interpretationCount": 0,
 					"interpretationLikeCount": 0,
-					"lastUpdated": "2020-12-01T04:51:49.020",
+					"lastUpdated": "2021-02-17T23:40:19.729",
 					"reports": [],
 					"resources": [],
 					"translations": [],
@@ -5834,13 +8035,13 @@
 					"users": [],
 					"width": 30,
 					"x": 0,
-					"y": 29
+					"y": 37
 				}
 			],
 			"externalAccess": false,
 			"favorites": [],
 			"id": "p8T2BE6RU60",
-			"lastUpdated": "2021-01-22T14:31:14.601",
+			"lastUpdated": "2021-02-17T23:40:19.725",
 			"name": "AEFI surveillance",
 			"publicAccess": "r-------",
 			"translations": [
@@ -5860,6 +8061,626 @@
 					"value": "Vigilância EAPV"
 				}
 			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			]
+		},
+		{
+			"created": "2021-01-19T11:40:28.883",
+			"dashboardItems": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "eDFuPQM9v8U"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "TGmDprsXtTs",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.376",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 20,
+					"x": 40,
+					"y": 95
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Gz2dOS3mAiq"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "R066oz9Y3Vq",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.376",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 21,
+					"x": 19,
+					"y": 95
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "G7B5qhuDM0a"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "aTS0Dr2mdXf",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.376",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 19,
+					"x": 0,
+					"y": 95
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "UnIGdvIWQ1N"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 25,
+					"id": "zXcUu4rwUYo",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 35,
+					"x": 12,
+					"y": 70
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "MzvccUOi5xh",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"map": {
+						"id": "qd6vT5pVNlB"
+					},
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 14,
+					"x": 8,
+					"y": 47
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "En9wd6a5rpU",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"map": {
+						"id": "KCnw54kmHc3"
+					},
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 14,
+					"x": 8,
+					"y": 24
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 24,
+					"id": "NHlw3TvqqyA",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"map": {
+						"id": "zqB888v0wb8"
+					},
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "MAP",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 14,
+					"x": 8,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "S24zyEkZ311"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 24,
+					"id": "wYS5g5MaGnG",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 8,
+					"x": 0,
+					"y": 0
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "C5qirWdKTbh"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "OIpJCskaaFY",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 8,
+					"x": 0,
+					"y": 24
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "byGIC7C7EdF"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "FQUhN2oAoIg",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 8,
+					"x": 0,
+					"y": 47
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "YtRNCMQS4PY"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "uAOoAMTPTsW",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 16,
+					"x": 1,
+					"y": 122
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "RXlC5aWvN8v"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "fbesosZEdCa",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 15,
+					"x": 17,
+					"y": 122
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "P8iSxCvY6AA"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 27,
+					"id": "xlGVFXzr9sP",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 20,
+					"x": 32,
+					"y": 122
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"eventReport": {
+						"id": "TeD5eJ7a0PF"
+					},
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 17,
+					"id": "UJFtCnIGLOn",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.377",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "EVENT_REPORT",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 59,
+					"x": 0,
+					"y": 149
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "L15cr5GjPYB"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "hyB6AodGCxN",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.378",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 37,
+					"x": 22,
+					"y": 47
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Q2fs6GXaHSV"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 23,
+					"id": "WRD3KUBzovJ",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.378",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 37,
+					"x": 22,
+					"y": 24
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeValues": [],
+					"chart": {
+						"id": "Lonv4dwIjk4"
+					},
+					"contentCount": 1,
+					"created": "2021-02-17T09:21:15.321",
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"height": 24,
+					"id": "gCxa0wRhZkt",
+					"interpretationCount": 0,
+					"interpretationLikeCount": 0,
+					"lastUpdated": "2021-02-17T09:21:15.378",
+					"reports": [],
+					"resources": [],
+					"translations": [],
+					"type": "CHART",
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"users": [],
+					"width": 37,
+					"x": 22,
+					"y": 0
+				}
+			],
+			"externalAccess": false,
+			"favorites": [],
+			"id": "ZOhxBdiRCOG",
+			"lastUpdated": "2021-02-17T09:21:15.375",
+			"name": "AEFI - COVID vaccine",
+			"publicAccess": "r-------",
+			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
@@ -18776,6 +21597,257 @@
 					"attribute": {
 						"id": "h5FuguPFF2j"
 					}
+				}
+			],
+			"categoryDimensions": [],
+			"categoryOptionGroupSetDimensions": [],
+			"collapseDataDimensions": false,
+			"colSubTotals": true,
+			"colTotals": true,
+			"columnDimensions": [
+				"pe",
+				"ou",
+				"cWMUoQEuvtR",
+				"wDijUvPYVne",
+				"h5FuguPFF2j",
+				"IZoGGNUkNl0",
+				"DpgoIsq65SW",
+				"D42M2tdJo7R",
+				"uSVcZzSM3zg",
+				"dOkuCjpD978",
+				"g9PjywVj2fs",
+				"VrzEutEnzSJ",
+				"OU5klvkk3SM",
+				"f4WCAVwjHz0",
+				"menOXwIFZh5",
+				"H3TKHMFIN6V"
+			],
+			"completedOnly": false,
+			"created": "2021-02-17T23:43:53.112",
+			"dataElementDimensions": [
+				{
+					"dataElement": {
+						"id": "cWMUoQEuvtR"
+					},
+					"programStage": {
+						"id": "Y4v9hBo2Xst"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "wDijUvPYVne"
+					},
+					"programStage": {
+						"id": "Y4v9hBo2Xst"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "IZoGGNUkNl0"
+					},
+					"programStage": {
+						"id": "Y4v9hBo2Xst"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "DpgoIsq65SW"
+					},
+					"programStage": {
+						"id": "Y4v9hBo2Xst"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "D42M2tdJo7R"
+					},
+					"programStage": {
+						"id": "Y4v9hBo2Xst"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "uSVcZzSM3zg"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "dOkuCjpD978"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "g9PjywVj2fs"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "VrzEutEnzSJ"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "OU5klvkk3SM"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "f4WCAVwjHz0"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "menOXwIFZh5"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "H3TKHMFIN6V"
+					},
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					}
+				}
+			],
+			"dataType": "EVENTS",
+			"digitGroupSeparator": "SPACE",
+			"displayDensity": "NORMAL",
+			"externalAccess": false,
+			"favorites": [],
+			"filterDimensions": [],
+			"fontSize": "NORMAL",
+			"hideEmptyRows": false,
+			"hideNaData": false,
+			"hideSubtitle": false,
+			"hideTitle": false,
+			"id": "H6mFGyr4TD2",
+			"itemOrganisationUnitGroups": [],
+			"lastUpdated": "2021-02-17T23:43:53.112",
+			"name": "AEFI national level summary - last 12 months",
+			"organisationUnitGroupSetDimensions": [],
+			"organisationUnitLevels": [],
+			"organisationUnits": [],
+			"outputType": "ENROLLMENT",
+			"periods": [],
+			"program": {
+				"id": "EZkN8vYZwjR"
+			},
+			"programIndicatorDimensions": [],
+			"programStage": {
+				"id": "Y4v9hBo2Xst"
+			},
+			"publicAccess": "r-------",
+			"relativePeriods": {
+				"biMonthsThisYear": false,
+				"last12Months": true,
+				"last12Weeks": false,
+				"last14Days": false,
+				"last2SixMonths": false,
+				"last3Days": false,
+				"last3Months": false,
+				"last4BiWeeks": false,
+				"last4Quarters": false,
+				"last4Weeks": false,
+				"last52Weeks": false,
+				"last5FinancialYears": false,
+				"last5Years": false,
+				"last6BiMonths": false,
+				"last6Months": false,
+				"last7Days": false,
+				"lastBimonth": false,
+				"lastBiWeek": false,
+				"lastFinancialYear": false,
+				"lastMonth": false,
+				"lastQuarter": false,
+				"lastSixMonth": false,
+				"lastWeek": false,
+				"lastYear": false,
+				"monthsLastYear": false,
+				"monthsThisYear": false,
+				"quartersLastYear": false,
+				"quartersThisYear": false,
+				"thisBimonth": false,
+				"thisBiWeek": false,
+				"thisDay": false,
+				"thisFinancialYear": false,
+				"thisMonth": false,
+				"thisQuarter": false,
+				"thisSixMonth": false,
+				"thisWeek": false,
+				"thisYear": false,
+				"weeksThisYear": false,
+				"yesterday": false
+			},
+			"rowDimensions": [],
+			"rowSubTotals": false,
+			"rowTotals": false,
+			"showDimensionLabels": true,
+			"showHierarchy": false,
+			"sortOrder": 0,
+			"subscribers": [],
+			"topLimit": 0,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			],
+			"userOrganisationUnit": true,
+			"userOrganisationUnitChildren": false,
+			"userOrganisationUnitGrandChildren": false
+		},
+		{
+			"attributeDimensions": [
+				{
+					"attribute": {
+						"id": "h5FuguPFF2j"
+					}
 				},
 				{
 					"attribute": {
@@ -19907,7 +22979,384 @@
 			"userOrganisationUnitGrandChildren": false
 		}
 	],
+	"indicators": [
+		{
+			"annualized": false,
+			"attributeValues": [],
+			"created": "2020-03-27T09:00:01.872",
+			"denominator": "1",
+			"denominatorDescription": "1",
+			"id": "l1t1lc9JgtS",
+			"indicatorType": {
+				"id": "kHy61PbChXr"
+			},
+			"lastUpdated": "2021-02-05T11:56:10.628",
+			"legendSets": [],
+			"name": "AEFI - Total adverse events reported",
+			"numerator": "I{NYyLf51YZ3G} + I{vhslwmaPff6} + I{s8LRQRQlJQ2} + I{rDHxK3cVT91} + I{n0oOwzX71F6} + I{gJJEbuYMdzR} + I{t67O8kqj8qz} + I{cB7eZLrUL0q} + I{gdDu11G4pCL} + I{qETlfay1VpL}",
+			"numeratorDescription": "Total adverse events",
+			"publicAccess": "r-------",
+			"shortName": "Total adverse events reported",
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "es",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "MAPI - Nombre total des manifestations indésirables signalées"
+				},
+				{
+					"locale": "fr",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "Nombre total des manifestations indésirables"
+				},
+				{
+					"locale": "fr",
+					"property": "SHORT_NAME",
+					"value": "Nombre total des manifestations indésirables signalées"
+				},
+				{
+					"locale": "nb",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "DENOMINATOR_DESCRIPTION",
+					"value": "1"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "EAPV - Total adverse events reported"
+				},
+				{
+					"locale": "pt",
+					"property": "NUMERATOR_DESCRIPTION",
+					"value": "Total adverse events"
+				},
+				{
+					"locale": "pt",
+					"property": "SHORT_NAME",
+					"value": "Total adverse events reported"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			]
+		}
+	],
+	"indicatorTypes": [
+		{
+			"created": "2015-03-23T01:42:43.716",
+			"factor": 1,
+			"id": "kHy61PbChXr",
+			"lastUpdated": "2021-01-12T12:52:51.895",
+			"name": "Numerator only (number)",
+			"number": true,
+			"translations": [
+				{
+					"locale": "cs",
+					"property": "NAME",
+					"value": "Pouze čitatel (číslo)"
+				},
+				{
+					"locale": "es",
+					"property": "NAME",
+					"value": "Solo numerador (número)"
+				},
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Numérateur seulement (nombre)"
+				},
+				{
+					"locale": "nb",
+					"property": "NAME",
+					"value": "Kun teller (tall)"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Apenas numerador (número)"
+				},
+				{
+					"locale": "ru",
+					"property": "NAME",
+					"value": "Тоько числитель (число)"
+				},
+				{
+					"locale": "uz",
+					"property": "NAME",
+					"value": "Фақат рақамловчи (рақам)"
+				}
+			]
+		}
+	],
 	"maps": [
+		{
+			"basemap": "googleStreets",
+			"created": "2021-01-06T15:36:16.606",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "KCnw54kmHc3",
+			"lastUpdated": "2021-02-15T14:58:29.779",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#edf8e9,#bae4b3,#74c476,#31a354,#006d2c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.472",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "PROGRAM_INDICATOR",
+							"programIndicator": {
+								"id": "R0cUjFo1N9b"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVID 19: Moderna ",
+					"displayName": "COVID 19: Moderna ",
+					"endDate": "2021-01-06T00:00:00.000",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "BlGgTWnpHSQ",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:58:29.779",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVID 19: Moderna ",
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [4],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"program": {
+						"id": "EZkN8vYZwjR"
+					},
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"startDate": "2020-01-06T00:00:00.000",
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.506",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "lBHle0TeKD6",
+					"displayName": "lBHle0TeKD6",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "lBHle0TeKD6",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:58:29.781",
+					"layer": "boundary",
+					"name": "lBHle0TeKD6",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [2,3],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "Geographic distribution of Moderna-related AEFI cases",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			]
+		},
 		{
 			"basemap": "googleStreets",
 			"created": "2021-01-06T15:36:16.606",
@@ -20097,6 +23546,452 @@
 				}
 			],
 			"name": "Geographic distribution of AEFI cases",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			]
+		},
+		{
+			"basemap": "googleStreets",
+			"created": "2021-01-06T15:36:16.606",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "qd6vT5pVNlB",
+			"lastUpdated": "2021-02-15T14:59:04.397",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.506",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "GRXWiki147X",
+					"displayName": "GRXWiki147X",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "GRXWiki147X",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:59:04.398",
+					"layer": "boundary",
+					"name": "GRXWiki147X",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [2,3],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#edf8e9,#bae4b3,#74c476,#31a354,#006d2c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.472",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "PROGRAM_INDICATOR",
+							"programIndicator": {
+								"id": "mGg609e6JxT"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVID 19: Novavax",
+					"displayName": "COVID 19: Novavax",
+					"endDate": "2021-01-06T00:00:00.000",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "ymFInBxwCUW",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:59:04.397",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVID 19: Novavax",
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [4],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"program": {
+						"id": "EZkN8vYZwjR"
+					},
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"startDate": "2020-01-06T00:00:00.000",
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "Geographic distribution of Novavax-related AEFI cases",
+			"publicAccess": "r-------",
+			"subscribers": [],
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "rw------",
+					"id": "kPBGgIFMNFv"
+				},
+				{
+					"access": "r-------",
+					"id": "RWyhKm0cuQ5"
+				},
+				{
+					"access": "r-------",
+					"id": "J3mFUNTreYY"
+				},
+				{
+					"access": "rw------",
+					"id": "YfEyw7KWMWy"
+				},
+				{
+					"access": "r-------",
+					"id": "TounOa4q45N"
+				},
+				{
+					"access": "r-------",
+					"id": "xgu9ZjvZRPG"
+				}
+			]
+		},
+		{
+			"basemap": "googleStreets",
+			"created": "2021-01-06T15:36:16.606",
+			"externalAccess": false,
+			"favorites": [],
+			"id": "zqB888v0wb8",
+			"lastUpdated": "2021-02-15T14:57:36.042",
+			"mapViews": [
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#edf8e9,#bae4b3,#74c476,#31a354,#006d2c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.472",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "PROGRAM_INDICATOR",
+							"programIndicator": {
+								"id": "hhc2O2yaCq6"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVID 19: AstraZeneca",
+					"displayName": "COVID 19: AstraZeneca",
+					"endDate": "2021-01-06T00:00:00.000",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "B7xWaVZPiMe",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:57:36.042",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVID 19: AstraZeneca",
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [4],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"program": {
+						"id": "EZkN8vYZwjR"
+					},
+					"programIndicatorDimensions": [],
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"startDate": "2020-01-06T00:00:00.000",
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-01-06T15:36:16.506",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "q8BFKKAGGj0",
+					"displayName": "q8BFKKAGGj0",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "q8BFKKAGGj0",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-02-15T14:57:36.045",
+					"layer": "boundary",
+					"name": "q8BFKKAGGj0",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [2,3],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": false
+				}
+			],
+			"name": "Geographic distribution of AstraZeneca-related AEFI cases",
 			"publicAccess": "r-------",
 			"subscribers": [],
 			"translations": [],
@@ -21657,7 +25552,7 @@
 			"attributeValues": [],
 			"code": "Unknown",
 			"created": "2019-12-23T12:37:40.717",
-			"id": "E0X11CUoPzd",
+			"id": "PPiqm8m7xuU",
 			"lastUpdated": "2021-02-16T08:59:55.253",
 			"name": "Unkown",
 			"optionSet": {
@@ -23116,7 +27011,7 @@
 					"id": "ANJkHmYK7jm"
 				},
 				{
-					"id": "E0X11CUoPzd"
+					"id": "PPiqm8m7xuU"
 				}
 			],
 			"publicAccess": "r-------",
@@ -23231,7 +27126,7 @@
 			"version": 3
 		}
 	],
-	"package": "IMM-AEFI_TRACKER_V1.2.0_DHIS2.33_2021-02-16T11:15",
+	"package": "IMM-AEFI_TRACKER_V1.0.0_DHIS2.33_2021-02-18T03:35",
 	"programIndicators": [
 		{
 			"aggregationType": "COUNT",
@@ -51116,18 +55011,6 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2019-05-15T07:19:05.889",
-			"id": "h6xq3E2Uk5z",
-			"lastUpdated": "2020-06-23T08:53:33.291",
-			"programRule": {
-				"id": "G2OQqzZhWLo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "IhONBzMHVfN"
-			}
-		},
-		{
 			"created": "2021-02-16T07:02:12.870",
 			"dataElement": {
 				"id": "nKLO8ZNdR0B"
@@ -51233,6 +55116,18 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "KiuHOL8Aguo",
+			"lastUpdated": "2021-02-17T07:51:44.645",
+			"programRule": {
+				"id": "EyDd8gyC4Ej"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "RttUfWrCBZk"
+			}
+		},
+		{
 			"created": "2021-02-16T08:44:11.706",
 			"dataElement": {
 				"id": "VXdRoWQOBxG"
@@ -51253,18 +55148,6 @@
 				"id": "ckWJPewuqOQ"
 			},
 			"programRuleActionType": "WARNINGONCOMPLETE"
-		},
-		{
-			"created": "2019-05-15T07:19:05.889",
-			"id": "L8slgkPDM5S",
-			"lastUpdated": "2020-06-23T08:53:33.291",
-			"programRule": {
-				"id": "u3zhEvjd4gV"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "sJXubtey1Dy"
-			}
 		},
 		{
 			"created": "2021-02-16T07:02:12.870",
@@ -51335,18 +55218,6 @@
 				"id": "bq8erpiS39U"
 			},
 			"programRuleActionType": "HIDEFIELD"
-		},
-		{
-			"created": "2019-05-15T07:19:05.889",
-			"id": "MjnazMMfFqG",
-			"lastUpdated": "2020-06-23T08:53:33.291",
-			"programRule": {
-				"id": "G2OQqzZhWLo"
-			},
-			"programRuleActionType": "HIDESECTION",
-			"programStageSection": {
-				"id": "istJndsowbY"
-			}
 		},
 		{
 			"created": "2019-12-24T08:32:55.468",
@@ -51539,6 +55410,18 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "rLZuFXicOVK",
+			"lastUpdated": "2021-02-17T07:49:47.292",
+			"programRule": {
+				"id": "URrFhyvLXOU"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "JpH6u1qBmQ5"
+			}
+		},
+		{
 			"content": "Date of vaccination cannot be before date of reconstitution",
 			"created": "2020-04-06T13:15:19.949",
 			"id": "rmmZBIqJwNb",
@@ -51559,6 +55442,18 @@
 				"id": "bq8erpiS39U"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2021-02-17T07:56:04.426",
+			"id": "S1Am2O7ca2f",
+			"lastUpdated": "2021-02-17T07:57:27.246",
+			"programRule": {
+				"id": "G2OQqzZhWLo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "JpH6u1qBmQ5"
+			}
 		},
 		{
 			"created": "2021-02-16T07:02:12.870",
@@ -51585,15 +55480,15 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
-			"created": "2019-05-15T07:19:05.889",
-			"id": "tfWEb0vLVYJ",
-			"lastUpdated": "2020-06-23T08:53:33.291",
+			"created": "2021-02-17T07:56:49.020",
+			"id": "ua5JjH3wkRt",
+			"lastUpdated": "2021-02-17T07:56:49.020",
 			"programRule": {
 				"id": "u3zhEvjd4gV"
 			},
 			"programRuleActionType": "HIDESECTION",
 			"programStageSection": {
-				"id": "pAqesYY7ymO"
+				"id": "JpH6u1qBmQ5"
 			}
 		},
 		{
@@ -51645,6 +55540,18 @@
 			"programRuleActionType": "HIDEFIELD"
 		},
 		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "vLAYW9UxJpY",
+			"lastUpdated": "2021-02-17T07:56:49.020",
+			"programRule": {
+				"id": "u3zhEvjd4gV"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "pAqesYY7ymO"
+			}
+		},
+		{
 			"created": "2019-05-07T06:37:26.247",
 			"id": "X2PheNB934h",
 			"lastUpdated": "2020-06-23T08:53:33.291",
@@ -51681,6 +55588,18 @@
 			}
 		},
 		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "XGiBp1TOcnH",
+			"lastUpdated": "2021-02-17T07:57:27.246",
+			"programRule": {
+				"id": "G2OQqzZhWLo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "IhONBzMHVfN"
+			}
+		},
+		{
 			"created": "2021-02-16T07:02:12.870",
 			"dataElement": {
 				"id": "xgqzqv0p2Us"
@@ -51703,6 +55622,18 @@
 				"id": "CFVhTThfRNQ"
 			},
 			"programRuleActionType": "HIDEFIELD"
+		},
+		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "xxTxsxGjc0a",
+			"lastUpdated": "2021-02-17T07:57:27.246",
+			"programRule": {
+				"id": "G2OQqzZhWLo"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "istJndsowbY"
+			}
 		},
 		{
 			"created": "2021-02-16T07:02:12.870",
@@ -51754,6 +55685,18 @@
 				"id": "gng0CUI6zSW"
 			},
 			"programRuleActionType": "SHOWOPTIONGROUP"
+		},
+		{
+			"created": "2019-05-15T07:19:05.889",
+			"id": "ZsGOajyadaO",
+			"lastUpdated": "2021-02-17T07:56:49.020",
+			"programRule": {
+				"id": "u3zhEvjd4gV"
+			},
+			"programRuleActionType": "HIDESECTION",
+			"programStageSection": {
+				"id": "sJXubtey1Dy"
+			}
 		}
 	],
 	"programRules": [
@@ -52001,6 +55944,33 @@
 			]
 		},
 		{
+			"condition": "#{vaccine3} == ''",
+			"created": "2021-02-17T07:51:44.704",
+			"id": "EyDd8gyC4Ej",
+			"lastUpdated": "2021-02-17T07:51:44.704",
+			"name": "Hide vaccine 4 details section if vaccine 3 has no value",
+			"program": {
+				"id": "EZkN8vYZwjR"
+			},
+			"programRuleActions": [
+				{
+					"id": "KiuHOL8Aguo"
+				}
+			],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masquer le section des détails du vaccin3 si le vaccin 2 n'a pas de valeur"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Hide vaccine 3 details section if vaccine 2 has no value"
+				}
+			]
+		},
+		{
 			"condition": "#{severe_local_reaction} != 1 ||#{severe_local_reaction} == ''",
 			"created": "2019-05-15T07:56:01.365",
 			"id": "f2kBCb35F4Q",
@@ -52034,17 +56004,20 @@
 			"condition": "#{vaccine1} == ''",
 			"created": "2019-05-15T07:19:05.999",
 			"id": "G2OQqzZhWLo",
-			"lastUpdated": "2021-01-31T13:15:02.258",
-			"name": "Hide vaccine 2 and 3 details sections if vaccine 1 has no value",
+			"lastUpdated": "2021-02-17T07:57:27.325",
+			"name": "Hide vaccine 2, 3 and 4 details sections if vaccine 1 has no value",
 			"program": {
 				"id": "EZkN8vYZwjR"
 			},
 			"programRuleActions": [
 				{
-					"id": "h6xq3E2Uk5z"
+					"id": "S1Am2O7ca2f"
 				},
 				{
-					"id": "MjnazMMfFqG"
+					"id": "XGiBp1TOcnH"
+				},
+				{
+					"id": "xxTxsxGjc0a"
 				}
 			],
 			"translations": [
@@ -52507,17 +56480,20 @@
 			"condition": "#{diluent1} == ''",
 			"created": "2019-05-15T07:21:20.876",
 			"id": "u3zhEvjd4gV",
-			"lastUpdated": "2021-02-05T11:56:14.984",
-			"name": "Hide diluent 2 and 3 details sections if diluent 1 has no value",
+			"lastUpdated": "2021-02-17T07:56:49.110",
+			"name": "Hide diluent 2, 3 and 4 details sections if diluent 1 has no value",
 			"program": {
 				"id": "EZkN8vYZwjR"
 			},
 			"programRuleActions": [
 				{
-					"id": "L8slgkPDM5S"
+					"id": "ua5JjH3wkRt"
 				},
 				{
-					"id": "tfWEb0vLVYJ"
+					"id": "vLAYW9UxJpY"
+				},
+				{
+					"id": "ZsGOajyadaO"
 				}
 			],
 			"translations": [
@@ -52606,6 +56582,33 @@
 					"locale": "pt",
 					"property": "NAME",
 					"value": "Show warning - date of notification is before date of vaccination"
+				}
+			]
+		},
+		{
+			"condition": "#{diluent3} == ''",
+			"created": "2021-02-17T07:49:47.411",
+			"id": "URrFhyvLXOU",
+			"lastUpdated": "2021-02-17T07:49:47.411",
+			"name": "Hide diluent  4 details section if diluent 3 has no value",
+			"program": {
+				"id": "EZkN8vYZwjR"
+			},
+			"programRuleActions": [
+				{
+					"id": "rLZuFXicOVK"
+				}
+			],
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Masquer la section des détails du diluant 3 si le diluant 2 n'a pas de valeur"
+				},
+				{
+					"locale": "pt",
+					"property": "NAME",
+					"value": "Hide diluent  3 details section if diluent 2 has no value"
 				}
 			]
 		},
@@ -52985,6 +56988,20 @@
 			"useCodeForOptionSet": false
 		},
 		{
+			"created": "2021-02-17T07:49:00.001",
+			"dataElement": {
+				"id": "pLu0luPWikb"
+			},
+			"id": "Jj2QOR4p4QN",
+			"lastUpdated": "2021-02-17T07:49:00.001",
+			"name": "diluent3",
+			"program": {
+				"id": "EZkN8vYZwjR"
+			},
+			"programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT",
+			"useCodeForOptionSet": false
+		},
+		{
 			"created": "2019-05-15T07:20:17.389",
 			"dataElement": {
 				"id": "xk9QvZPMVQF"
@@ -53266,7 +57283,7 @@
 			"expiryDays": 0,
 			"id": "EZkN8vYZwjR",
 			"ignoreOverdueEvents": false,
-			"lastUpdated": "2021-01-22T14:31:15.761",
+			"lastUpdated": "2021-02-16T17:44:58.960",
 			"maxTeiCountToReturn": 0,
 			"minAttributesRequiredToSearch": 1,
 			"name": "Adverse events following immunization (AEFI)",
@@ -53304,7 +57321,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "nNE1qKIjEeJ",
-					"lastUpdated": "2020-12-21T03:51:57.785",
+					"lastUpdated": "2021-02-16T17:44:58.962",
 					"mandatory": true,
 					"name": "Adverse events following immunization (AEFI) AEFI Case ID",
 					"program": {
@@ -53340,7 +57357,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dpdpyAO2ivx",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.962",
 					"mandatory": false,
 					"name": "Adverse events following immunization (AEFI) Unique System Identifier (EPI)",
 					"program": {
@@ -53376,7 +57393,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PmqH3jmR0a3",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.962",
 					"mandatory": true,
 					"name": "Adverse events following immunization (AEFI) Given name",
 					"program": {
@@ -53412,7 +57429,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "k77IMif2vZN",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.962",
 					"mandatory": false,
 					"name": "Adverse events following immunization (AEFI) Family name",
 					"program": {
@@ -53448,7 +57465,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xqb0WbHJcwg",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.962",
 					"mandatory": true,
 					"name": "Adverse events following immunization (AEFI) Date of birth",
 					"program": {
@@ -53484,7 +57501,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "G6EB7Mvdtz2",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.963",
 					"mandatory": true,
 					"name": "Adverse events following immunization (AEFI) Sex",
 					"program": {
@@ -53520,7 +57537,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "B3GhkhHeteN",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.963",
 					"mandatory": true,
 					"name": "Adverse events following immunization (AEFI) Address (current)",
 					"program": {
@@ -53556,7 +57573,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "bGOn4z8HihO",
-					"lastUpdated": "2020-12-21T03:51:57.786",
+					"lastUpdated": "2021-02-16T17:44:58.963",
 					"mandatory": false,
 					"name": "Adverse events following immunization (AEFI) Mother/Caregiver's contact number",
 					"program": {
@@ -53637,7 +57654,7 @@
 					"id": "xgu9ZjvZRPG"
 				}
 			],
-			"version": 28
+			"version": 33
 		}
 	],
 	"programStages": [
@@ -53655,7 +57672,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": true,
 			"id": "Noldaaz2TLs",
-			"lastUpdated": "2021-02-05T11:56:15.853",
+			"lastUpdated": "2021-02-16T17:44:58.038",
 			"minDaysFromStart": 0,
 			"name": "First decision making level",
 			"notificationTemplates": [
@@ -53694,7 +57711,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ofGcdS1d5Kz",
-					"lastUpdated": "2021-01-18T15:58:29.549",
+					"lastUpdated": "2021-02-16T17:44:58.040",
 					"programStage": {
 						"id": "Noldaaz2TLs"
 					},
@@ -53727,7 +57744,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Rxoz61mnLAb",
-					"lastUpdated": "2021-01-18T15:58:29.549",
+					"lastUpdated": "2021-02-16T17:44:58.040",
 					"programStage": {
 						"id": "Noldaaz2TLs"
 					},
@@ -53808,7 +57825,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": true,
 			"id": "so8YZ9J3MeO",
-			"lastUpdated": "2021-01-22T14:31:15.502",
+			"lastUpdated": "2021-02-16T17:44:57.990",
 			"minDaysFromStart": 0,
 			"name": "AEFI",
 			"notificationTemplates": [
@@ -53847,7 +57864,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Nwl9LaatScF",
-					"lastUpdated": "2021-01-18T15:58:29.529",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -53880,7 +57897,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dIzJa1n45O1",
-					"lastUpdated": "2021-01-18T15:58:29.535",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -53913,7 +57930,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dWk4UyVA5V0",
-					"lastUpdated": "2021-01-18T15:58:29.527",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -53946,7 +57963,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "D3rnFm2LLQu",
-					"lastUpdated": "2021-01-18T15:58:29.538",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -53979,7 +57996,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hkrtH6b78lz",
-					"lastUpdated": "2021-01-18T15:58:29.524",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54012,7 +58029,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RaompVSj018",
-					"lastUpdated": "2021-01-18T15:58:29.524",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54045,7 +58062,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Fy7gbk4mA6I",
-					"lastUpdated": "2021-01-18T15:58:29.532",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54078,7 +58095,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "nM22KWB6Yl5",
-					"lastUpdated": "2021-01-18T15:58:29.527",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54111,7 +58128,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cH7XJbmvaAS",
-					"lastUpdated": "2021-01-18T15:58:29.528",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54144,7 +58161,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "SwbJuPaazQM",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54177,7 +58194,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "HR3RK83cycR",
-					"lastUpdated": "2021-01-18T15:58:29.537",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54210,7 +58227,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PacsbObWI9s",
-					"lastUpdated": "2021-01-18T15:58:29.521",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54243,7 +58260,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xxbG1CLLSFW",
-					"lastUpdated": "2021-01-18T15:58:29.531",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54276,7 +58293,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "OtLbgGSkzQt",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54309,7 +58326,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "elPXN3SbeFL",
-					"lastUpdated": "2021-01-18T15:58:29.529",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54342,7 +58359,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "c5xU4G9f2Ya",
-					"lastUpdated": "2021-01-18T15:58:29.523",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54375,7 +58392,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "XhWxAZlGbwa",
-					"lastUpdated": "2021-01-18T15:58:29.539",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54408,7 +58425,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "RHJINr3OZaH",
-					"lastUpdated": "2021-01-18T15:58:29.546",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54441,7 +58458,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Pag6Wrq1WhB",
-					"lastUpdated": "2021-01-18T15:58:29.534",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54474,7 +58491,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Lrwfe2ud6au",
-					"lastUpdated": "2021-01-18T15:58:29.536",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54507,7 +58524,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ruS2UeuClgz",
-					"lastUpdated": "2021-01-18T15:58:29.534",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54540,7 +58557,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "J4bm3ZxI0KT",
-					"lastUpdated": "2021-01-18T15:58:29.528",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54573,7 +58590,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZEJu0j8aBZ3",
-					"lastUpdated": "2021-01-18T15:58:29.539",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54606,7 +58623,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "wkklJItKChF",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54639,7 +58656,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Kw9pWGFphxq",
-					"lastUpdated": "2021-01-18T15:58:29.522",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54672,7 +58689,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dDUjM0Ot01i",
-					"lastUpdated": "2021-01-18T15:58:29.537",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54705,7 +58722,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "HIvXkuawoQq",
-					"lastUpdated": "2021-01-18T15:58:29.544",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54738,7 +58755,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tlQMbcqI29M",
-					"lastUpdated": "2021-01-18T15:58:29.535",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54771,7 +58788,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PUrNuIxwPa6",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54804,7 +58821,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "R6GayMqayOe",
-					"lastUpdated": "2021-01-18T15:58:29.533",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54837,7 +58854,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZhtfWwr4qAy",
-					"lastUpdated": "2021-01-18T15:58:29.538",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54870,7 +58887,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "fdaVYCo8my8",
-					"lastUpdated": "2021-01-18T15:58:29.531",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54903,7 +58920,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZSiHI9U05kP",
-					"lastUpdated": "2021-01-18T15:58:29.537",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54936,7 +58953,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "L2RIhZRNf7T",
-					"lastUpdated": "2021-01-18T15:58:29.538",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -54969,7 +58986,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IyWNKRCzT2B",
-					"lastUpdated": "2021-01-18T15:58:29.540",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55002,7 +59019,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "mDJlSaJZnC4",
-					"lastUpdated": "2021-01-18T15:58:29.539",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55035,7 +59052,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "N4Mava6pOdd",
-					"lastUpdated": "2021-01-18T15:58:29.528",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55068,7 +59085,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dZT7mCKBiBW",
-					"lastUpdated": "2021-01-18T15:58:29.545",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55101,7 +59118,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "OXJbgAon0fo",
-					"lastUpdated": "2021-01-18T15:58:29.527",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55134,7 +59151,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hGb7QyvYQQK",
-					"lastUpdated": "2021-01-18T15:58:29.536",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55167,7 +59184,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gW8mn5DatIu",
-					"lastUpdated": "2021-01-18T15:58:29.533",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55200,7 +59217,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "k7Kc64YbK70",
-					"lastUpdated": "2021-01-18T15:58:29.535",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55233,7 +59250,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cMg9z49SVud",
-					"lastUpdated": "2021-01-18T15:58:29.523",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55266,7 +59283,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "c5qWflFg0u2",
-					"lastUpdated": "2021-01-18T15:58:29.531",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55299,7 +59316,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ShBrw7gg96R",
-					"lastUpdated": "2021-01-18T15:58:29.535",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55332,7 +59349,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "cUMzIg0tKLM",
-					"lastUpdated": "2021-01-18T15:58:29.523",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55365,7 +59382,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dAhyXhTd9dB",
-					"lastUpdated": "2021-01-18T15:58:29.544",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55398,7 +59415,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "VPjxrOsaMuN",
-					"lastUpdated": "2021-01-18T15:58:29.530",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55431,7 +59448,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aVpeYwMbJRD",
-					"lastUpdated": "2021-01-18T15:58:29.529",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55464,7 +59481,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "dgzm8uElGjN",
-					"lastUpdated": "2021-01-18T15:58:29.531",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55497,7 +59514,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ni473jz2wTD",
-					"lastUpdated": "2021-01-18T15:58:29.536",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55530,7 +59547,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "b0mvYL9sg43",
-					"lastUpdated": "2021-01-18T15:58:29.528",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55563,7 +59580,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Qny3EeUsjnb",
-					"lastUpdated": "2021-01-18T15:58:29.545",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55596,7 +59613,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "TYPXOa7lErj",
-					"lastUpdated": "2021-01-18T15:58:29.545",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55629,7 +59646,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "oBN1ZZ4DaSP",
-					"lastUpdated": "2021-01-18T15:58:29.532",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55662,7 +59679,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tPqbdJAxWa5",
-					"lastUpdated": "2021-01-18T15:58:29.537",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55695,7 +59712,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "JTVVaJZT8Ad",
-					"lastUpdated": "2021-01-18T15:58:29.540",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55728,7 +59745,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CgPXSUaVygK",
-					"lastUpdated": "2021-01-18T15:58:29.522",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55761,7 +59778,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "WN8sMWz1SmP",
-					"lastUpdated": "2021-01-18T15:58:29.529",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55794,7 +59811,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "b17rc5JYUDp",
-					"lastUpdated": "2021-01-18T15:58:29.539",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55827,7 +59844,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "yKokzauB0sP",
-					"lastUpdated": "2021-01-18T15:58:29.530",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55860,7 +59877,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "sccWUnuRi3j",
-					"lastUpdated": "2021-01-18T15:58:29.532",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55893,7 +59910,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "nDEaPwvaoPz",
-					"lastUpdated": "2021-01-18T15:58:29.546",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55926,7 +59943,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CIwpbSmqbku",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55959,7 +59976,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Rp1cL7zlnsA",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -55992,7 +60009,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "o2EfqfIUonF",
-					"lastUpdated": "2021-01-18T15:58:29.525",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56025,7 +60042,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Z34neLIibmb",
-					"lastUpdated": "2021-01-18T15:58:29.524",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56058,7 +60075,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "aMN9bmae0K7",
-					"lastUpdated": "2021-01-18T15:58:29.525",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56091,7 +60108,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "MMNblKYrlZS",
-					"lastUpdated": "2021-01-18T15:58:29.522",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56124,7 +60141,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "OvKfx8XQPMV",
-					"lastUpdated": "2021-01-18T15:58:29.544",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56157,7 +60174,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "HxwsTeHlpyb",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56190,7 +60207,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "sxiIGweaVKb",
-					"lastUpdated": "2021-01-18T15:58:29.533",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56223,7 +60240,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "WauaWochgip",
-					"lastUpdated": "2021-01-18T15:58:29.525",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56256,7 +60273,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "hsLS8ryfiLQ",
-					"lastUpdated": "2021-01-18T15:58:29.526",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56289,7 +60306,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tokVA6Ptmc0",
-					"lastUpdated": "2021-01-18T15:58:29.533",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56322,7 +60339,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "CAuy0mOmFtA",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56355,7 +60372,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PXV34wjbQtW",
-					"lastUpdated": "2021-01-18T15:58:29.534",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56388,7 +60405,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "s2Y42V0QHax",
-					"lastUpdated": "2021-01-18T15:58:29.538",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56421,7 +60438,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "llv5YfflVOh",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56454,7 +60471,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "FGYBfX0Tq5E",
-					"lastUpdated": "2021-01-18T15:58:29.527",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56487,7 +60504,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "qHoYHBv952r",
-					"lastUpdated": "2021-01-18T15:58:29.525",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56520,7 +60537,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "f6iq1ep2WMa",
-					"lastUpdated": "2021-01-18T15:58:29.545",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56553,7 +60570,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Su5EITtinYi",
-					"lastUpdated": "2021-01-18T15:58:29.541",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56586,7 +60603,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "U9dRvRLqFie",
-					"lastUpdated": "2021-01-18T15:58:29.536",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56619,7 +60636,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "B4TyAfLPyq8",
-					"lastUpdated": "2021-01-18T15:58:29.534",
+					"lastUpdated": "2021-02-16T17:44:58.028",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56652,7 +60669,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "OOC6NGZD857",
-					"lastUpdated": "2021-01-18T15:58:29.522",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56685,7 +60702,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "l6S7sIsIGle",
-					"lastUpdated": "2021-01-18T15:58:29.541",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56718,7 +60735,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gATMUkaKigu",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56751,7 +60768,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "siAoIDqPBkN",
-					"lastUpdated": "2021-01-18T15:58:29.527",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56784,7 +60801,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "NmBtLhF0hgI",
-					"lastUpdated": "2021-01-18T15:58:29.539",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56817,7 +60834,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "IOa9wVw8rh0",
-					"lastUpdated": "2021-01-18T15:58:29.526",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56850,7 +60867,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Fmnvtdql2ly",
-					"lastUpdated": "2021-01-18T15:58:29.545",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56883,7 +60900,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "D9F2uohxEsL",
-					"lastUpdated": "2021-01-18T15:58:29.526",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56916,7 +60933,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "oQBGgBSTxh4",
-					"lastUpdated": "2021-01-18T15:58:29.541",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56949,7 +60966,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "MgNUrj17yL4",
-					"lastUpdated": "2021-01-18T15:58:29.526",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -56982,7 +60999,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Dc33Mj2Bhee",
-					"lastUpdated": "2021-01-18T15:58:29.541",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57015,7 +61032,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "igGiMDvcj6i",
-					"lastUpdated": "2021-01-18T15:58:29.540",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57048,46 +61065,13 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "tdcGTAvbcsj",
-					"lastUpdated": "2021-01-18T15:58:29.525",
+					"lastUpdated": "2021-02-16T17:44:58.025",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
 					"sortOrder": 110,
-					"translations": [],
-					"userAccesses": [],
-					"userGroupAccesses": []
-				},
-				{
-					"access": {
-						"delete": true,
-						"externalize": true,
-						"manage": true,
-						"read": true,
-						"update": true,
-						"write": true
-					},
-					"allowFutureDate": false,
-					"allowProvidedElsewhere": false,
-					"attributeValues": [],
-					"compulsory": false,
-					"created": "2020-06-19T14:09:31.340",
-					"dataElement": {
-						"id": "DOA6ZFMro84"
-					},
-					"displayInReports": false,
-					"externalAccess": false,
-					"favorite": false,
-					"favorites": [],
-					"id": "GdEjpWBF3tl",
-					"lastUpdated": "2021-01-18T15:58:29.544",
-					"programStage": {
-						"id": "so8YZ9J3MeO"
-					},
-					"renderOptionsAsRadio": false,
-					"skipSynchronization": false,
-					"sortOrder": 111,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -57114,7 +61098,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ff3meDHbiwn",
-					"lastUpdated": "2021-01-18T15:58:29.535",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57138,22 +61122,22 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2020-12-15T21:07:20.988",
+					"created": "2020-06-19T14:09:31.340",
 					"dataElement": {
-						"id": "YUcJrLWmGyv"
+						"id": "DOA6ZFMro84"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "IkiS8j2qYPE",
-					"lastUpdated": "2021-01-18T15:58:29.546",
+					"id": "GdEjpWBF3tl",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
-					"sortOrder": 112,
+					"sortOrder": 111,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -57180,7 +61164,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "zC4yM5vga0v",
-					"lastUpdated": "2021-01-18T15:58:29.524",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57204,22 +61188,22 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2019-08-06T05:52:09.013",
+					"created": "2020-12-15T21:07:20.988",
 					"dataElement": {
-						"id": "qhDonTAIjl0"
+						"id": "YUcJrLWmGyv"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "oksmHBPvFgE",
-					"lastUpdated": "2021-01-18T15:58:29.531",
+					"id": "IkiS8j2qYPE",
+					"lastUpdated": "2021-02-16T17:44:58.034",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
-					"sortOrder": 113,
+					"sortOrder": 112,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -57246,7 +61230,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ovVFr1KwqKu",
-					"lastUpdated": "2021-01-18T15:58:29.542",
+					"lastUpdated": "2021-02-16T17:44:58.032",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57270,22 +61254,22 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2021-01-14T14:34:32.671",
+					"created": "2019-08-06T05:52:09.013",
 					"dataElement": {
-						"id": "BKxtyqhIDkB"
+						"id": "qhDonTAIjl0"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "R6u4EMbrdY5",
-					"lastUpdated": "2021-01-18T15:58:29.540",
+					"id": "oksmHBPvFgE",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
-					"sortOrder": 114,
+					"sortOrder": 113,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -57312,7 +61296,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "BkndgMIF8Ts",
-					"lastUpdated": "2021-01-18T15:58:29.530",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57336,22 +61320,22 @@
 					"allowProvidedElsewhere": false,
 					"attributeValues": [],
 					"compulsory": false,
-					"created": "2019-12-24T07:23:09.631",
+					"created": "2021-01-14T14:34:32.671",
 					"dataElement": {
-						"id": "JSd0HQOgJ8w"
+						"id": "BKxtyqhIDkB"
 					},
 					"displayInReports": false,
 					"externalAccess": false,
 					"favorite": false,
 					"favorites": [],
-					"id": "Me3BRviSKOP",
-					"lastUpdated": "2021-01-18T15:58:29.534",
+					"id": "R6u4EMbrdY5",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
 					"renderOptionsAsRadio": false,
 					"skipSynchronization": false,
-					"sortOrder": 115,
+					"sortOrder": 114,
 					"translations": [],
 					"userAccesses": [],
 					"userGroupAccesses": []
@@ -57378,7 +61362,40 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "oLc6DTBxgD2",
-					"lastUpdated": "2021-01-18T15:58:29.529",
+					"lastUpdated": "2021-02-16T17:44:58.026",
+					"programStage": {
+						"id": "so8YZ9J3MeO"
+					},
+					"renderOptionsAsRadio": false,
+					"skipSynchronization": false,
+					"sortOrder": 115,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": []
+				},
+				{
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"allowFutureDate": false,
+					"allowProvidedElsewhere": false,
+					"attributeValues": [],
+					"compulsory": false,
+					"created": "2019-12-24T07:23:09.631",
+					"dataElement": {
+						"id": "JSd0HQOgJ8w"
+					},
+					"displayInReports": false,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"id": "Me3BRviSKOP",
+					"lastUpdated": "2021-02-16T17:44:58.029",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57411,7 +61428,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "Q4chiMlGgvq",
-					"lastUpdated": "2021-01-18T15:58:29.536",
+					"lastUpdated": "2021-02-16T17:44:58.030",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57444,7 +61461,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ZwgRgQlmD3K",
-					"lastUpdated": "2021-01-18T15:58:29.543",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57477,7 +61494,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "PPhjb7KoMeb",
-					"lastUpdated": "2021-01-18T15:58:29.540",
+					"lastUpdated": "2021-02-16T17:44:58.031",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57510,7 +61527,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "yE9yRSBohxn",
-					"lastUpdated": "2021-01-18T15:58:29.523",
+					"lastUpdated": "2021-02-16T17:44:58.024",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57543,7 +61560,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "vBnV4zHkc0z",
-					"lastUpdated": "2021-01-18T15:58:29.528",
+					"lastUpdated": "2021-02-16T17:44:58.026",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57576,7 +61593,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "ejSU6tsqz2i",
-					"lastUpdated": "2021-01-18T15:58:29.544",
+					"lastUpdated": "2021-02-16T17:44:58.033",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57609,7 +61626,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "s7HVgjUSUae",
-					"lastUpdated": "2021-01-18T15:58:29.523",
+					"lastUpdated": "2021-02-16T17:44:58.023",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57642,7 +61659,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "xx5ltcLV8Py",
-					"lastUpdated": "2021-01-18T15:58:29.530",
+					"lastUpdated": "2021-02-16T17:44:58.027",
 					"programStage": {
 						"id": "so8YZ9J3MeO"
 					},
@@ -57773,7 +61790,7 @@
 			"generatedByEnrollmentDate": false,
 			"hideDueDate": true,
 			"id": "Y4v9hBo2Xst",
-			"lastUpdated": "2021-02-05T11:56:16.056",
+			"lastUpdated": "2021-02-16T17:44:58.041",
 			"minDaysFromStart": 0,
 			"name": "National level",
 			"notificationTemplates": [
@@ -57809,7 +61826,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "i6Wi3bCwpbs",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.043",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -57842,7 +61859,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "jyz9txKGcYU",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.042",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -57875,7 +61892,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "UoG4zlz7FZR",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.043",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -57908,7 +61925,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "mITulXJlVhc",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.042",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -57941,7 +61958,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "gOYgoP2W2nT",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.043",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -57974,7 +61991,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "l5nBXRaU5jc",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.043",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -58007,7 +62024,7 @@
 					"favorite": false,
 					"favorites": [],
 					"id": "BvPq4AjtJdl",
-					"lastUpdated": "2021-01-18T15:58:29.551",
+					"lastUpdated": "2021-02-16T17:44:58.043",
 					"programStage": {
 						"id": "Y4v9hBo2Xst"
 					},
@@ -58094,7 +62111,7 @@
 				}
 			],
 			"id": "bQqKfT0fLG7",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Reporter details",
 			"programIndicators": [],
 			"programStage": {
@@ -58151,7 +62168,7 @@
 				}
 			],
 			"id": "gud3qNlBTJe",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Vaccine 1 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58208,7 +62225,7 @@
 				}
 			],
 			"id": "IhONBzMHVfN",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Vaccine 3 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58265,7 +62282,7 @@
 				}
 			],
 			"id": "istJndsowbY",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Vaccine 2 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58313,7 +62330,7 @@
 				}
 			],
 			"id": "JpH6u1qBmQ5",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Diluent 4 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58349,7 +62366,7 @@
 				}
 			],
 			"id": "k9qmOKEfkNp",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Past medical history",
 			"programIndicators": [],
 			"programStage": {
@@ -58385,7 +62402,7 @@
 				}
 			],
 			"id": "Mu0KGoe2CtA",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Severity",
 			"programIndicators": [],
 			"programStage": {
@@ -58448,7 +62465,7 @@
 				}
 			],
 			"id": "pAqesYY7ymO",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Diluent 3 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58487,7 +62504,7 @@
 				}
 			],
 			"id": "QTZb9Zo6NMx",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Outcome",
 			"programIndicators": [],
 			"programStage": {
@@ -58570,7 +62587,7 @@
 				}
 			],
 			"id": "R7yQKLmAEFY",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Diluent 1 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58774,7 +62791,7 @@
 				}
 			],
 			"id": "RSxtbTgPDh4",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Adverse event",
 			"programIndicators": [],
 			"programStage": {
@@ -58846,7 +62863,7 @@
 				}
 			],
 			"id": "RttUfWrCBZk",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Vaccine 4 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58894,7 +62911,7 @@
 				}
 			],
 			"id": "sJXubtey1Dy",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Diluent 2 details",
 			"programIndicators": [],
 			"programStage": {
@@ -58948,7 +62965,7 @@
 				}
 			],
 			"id": "TsaeBOxEUYD",
-			"lastUpdated": "2021-02-16T06:53:21.087",
+			"lastUpdated": "2021-02-17T07:52:32.825",
 			"name": "Severe events reported",
 			"programIndicators": [],
 			"programStage": {
@@ -60598,7 +64615,7 @@
 			"attributeValues": [],
 			"created": "2020-03-26T08:34:06.303",
 			"id": "J3mFUNTreYY",
-			"lastUpdated": "2021-02-16T09:37:33.107",
+			"lastUpdated": "2021-02-17T19:06:35.978",
 			"managedGroups": [],
 			"name": "AEFI access",
 			"publicAccess": "r-------",
@@ -60720,7 +64737,7 @@
 			"attributeValues": [],
 			"created": "2020-11-23T21:28:35.020",
 			"id": "RWyhKm0cuQ5",
-			"lastUpdated": "2021-02-16T09:37:33.114",
+			"lastUpdated": "2021-02-17T10:32:20.587",
 			"managedGroups": [],
 			"name": "AEFI data capture",
 			"publicAccess": "r-------",
@@ -60781,7 +64798,7 @@
 			"attributeValues": [],
 			"created": "2020-12-09T02:22:44.375",
 			"id": "TounOa4q45N",
-			"lastUpdated": "2021-02-16T09:37:33.059",
+			"lastUpdated": "2021-02-17T19:04:50.467",
 			"managedGroups": [],
 			"name": "AEFI district",
 			"publicAccess": "r-------",
@@ -60837,7 +64854,7 @@
 			"attributeValues": [],
 			"created": "2020-12-09T02:23:18.215",
 			"id": "xgu9ZjvZRPG",
-			"lastUpdated": "2021-02-16T09:37:33.084",
+			"lastUpdated": "2021-02-17T19:06:06.475",
 			"managedGroups": [],
 			"name": "AEFI first-level decision making",
 			"publicAccess": "r-------",
@@ -60893,7 +64910,7 @@
 			"attributeValues": [],
 			"created": "2020-12-09T02:23:47.195",
 			"id": "YfEyw7KWMWy",
-			"lastUpdated": "2021-02-16T09:37:33.051",
+			"lastUpdated": "2021-02-17T19:06:35.963",
 			"managedGroups": [],
 			"name": "AEFI national",
 			"publicAccess": "r-------",
