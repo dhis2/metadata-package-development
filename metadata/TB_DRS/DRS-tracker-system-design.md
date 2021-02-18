@@ -1,61 +1,58 @@
-# Anti-Tuberculosis Drugs Resistance Survey (DRS) Tracker System Design
+# WHO Anti-Tuberculosis Drugs Resistance Survey (DRS) - Tracker System Design
 
 ## Summary
 
-TB DRS Module in DHIS2 is a data collection tool designed specifically for anti-TB drug resistance surveys, which are discrete studies measuring drug resistance among a selected sample of individuals who are representative of an entire population with TB. Surveys are implemented periodically until capacity for a continuous surveillance system is established.
-TB DRS module allows countries to fully configure the survey data capture tool, by specifying the study design and the laboratory algorithm used for identification and speciation of TB, and phenotypic and/or genotypic resistance profiling to anti-TB drugs.  The module is designed for use by operational survey teams at central National Tuberculosis Programme (NTP) premises and/or at the National Reference Laboratory(ies) (NRL). Peripheral health care and diagnostic facilities partaking in the survey may directly input epidemiological and clinical questionnaire data from enrolled participants where applicable. Results from laboratory tests carried out overseas, often by an assigned Supranational Reference Laboratory (SRL) or another supporting partner, can also be directly entered in the system by the staff at SRL or imported by means of a csv file.  The TB DRS Module is designed for the surveillance of resistance to anti-TB drugs and is not intended for the routine clinical management of TB.
-The module allows export of standardised, analysis-ready, csv files and includes data visualisation dashboards, descriptive data summaries and cross-tabulations, and missing data reports to monitor the quality and progress of the survey.
+The TB DRS Module in DHIS2 is a data collection tool designed specifically for anti-tuberculosis (TB) drug resistance surveys (DRS), which are discrete studies measuring drug resistance among a selected sample of individuals who are representative of an entire population with TB. Surveys are implemented periodically until capacity for a continuous routine surveillance system is established. The TB DRS module allows countries to fully configure the survey data capture tool, by specifying the study design and the laboratory algorithm used for identification and speciation of TB, and phenotypic and/or genotypic resistance profiling to anti-TB drugs. The module is designed for use by operational survey teams at central National Tuberculosis Programme (NTP) premises and/or at the National Reference Laboratory(ies) (NRL). Peripheral health care and diagnostic facilities partaking in the survey may directly input epidemiological and clinical questionnaire data from enrolled participants where applicable. Results from laboratory tests carried out overseas, often by an assigned Supranational TB Reference Laboratory (SRL) or another supporting partner, can also be directly entered in the system by the staff at SRL or imported by means of a csv file. The TB DRS Module is not intended for the clinical management of TB. The module allows export of standardised, analysis-ready, csv files and includes data visualisation dashboards, descriptive data summaries and cross-tabulations, and missing data reports to monitor the quality and progress of the survey.
 
 ## Purpose and Intended Audience
 
-This document describes the conceptual design, content and functionality for a standard DHIS2 DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in tuberculosis.
-This document is intended for audiences responsible for implementing TB data systems and/or HMIS in countries, as well as those specifically tasked with implementing a DRS as follows:
+This document describes the conceptual design, content and functionality for a standard DHIS2 TB DRS Module for the electronic capture and visualisation of data from anti-TB drug resistance surveys (DRS). The module was designed based on the latest guidance and metadata requirements for the surveillance of drug resistance in TB. This document is intended for audiences responsible for implementing TB data systems and/or HMIS (Health Management Information Systems) in countries, as well as those specifically tasked with implementing a DRS as follows:
 
 1. System admins/HMIS focal points: those responsible for installing metadata packages, designing and maintaining HMIS and/or TB data systems
 2. Focal points from the DRS coordination and operational teams, comprising representatives of the National Tuberculosis Programme (NTP) and the National Reference Laboratory/ies (NRL), responsible for overseeing data collection, management, analysis and reporting functions for the survey
-3. Implementation support specialists, e.g. those providing technical assistance to the TB programme or the core HMIS unit to support & maintain DHIS2 and its associated modules, such as the HISP groups.
+3. Implementation support specialists, e.g. those providing technical assistance to the TB programme or the core HMIS unit to support and maintain DHIS2 and its associated modules, such as the HISP groups.
 
-The system design document explains how the DHIS2 DRS Module was configured to meet the data entry and analysis requirements and support a typical workflow. The document does not include an exhaustive listing of all metadata captured. This document also does not consider the resources and infrastructure needed to implement such a system, such as servers, power, internet connections, backups, training and user support. More information on the TB programme technical aspects informing this system design is available in the [WHO publication on electronic recording and reporting for tuberculosis care and control](http://www.who.int/tb/publications/electronic_recording_reporting/en/).
+The system design document explains how the DHIS2 TB DRS Module was configured to meet the data entry and analysis requirements and support a typical workflow. The document does not include an exhaustive listing of all metadata captured. This document also does not consider the resources and infrastructure needed to implement such a system, such as servers, power, internet connections, backups, training and user support. More information on the TB programme technical aspects informing this system design is available in the [WHO publication on electronic recording and reporting for tuberculosis care and control](http://www.who.int/tb/publications/electronic_recording_reporting/en/).
 
 ## Background
 
-The Global Project on Anti-tuberculosis (TB) Drug Resistance Surveillance, hosted by WHO, is the oldest and largest project for the surveillance of antimicrobial drug resistance in the world. Since its launch in 1994, data on drug resistance in TB have been systematically collected and analysed from 169 countries worldwide. The data are derived from either continuous surveillance systems based on routine drug susceptibility testing (DST) in at least 80% of patients with bacteriologically confirmed TB or periodic epidemiological surveys of representative samples of patients. The Global Project is supported by various technical partners and the WHO Supranational Reference Laboratory Network for TB, which comprises 32 laboratories. The Global Project has served as a common platform for country, regional and global level evaluation of the magnitude and trends in anti-TB drug resistance and has assisted countries in planning the scale-up of the management of drug-resistant TB by providing essential data on national burden and drug resistance patterns.
+The Global Project on Anti-TB Drug Resistance Surveillance, hosted by WHO, is the oldest and largest project for the surveillance of antimicrobial drug resistance in the world. Since its launch in 1994, data on drug resistance in TB have been systematically collected and analysed from 169 countries worldwide (data until 2019). The data are derived from either continuous surveillance systems based on routine drug susceptibility testing (DST) in at least 80% of patients with bacteriologically confirmed TB or periodic epidemiological surveys of representative samples of patients. The Global Project is supported by various technical partners and the WHO Supranational TB Reference Laboratory (SRL) Network, which currently comprises 32 laboratories. The Global Project has served as a common platform for country, regional and global level evaluation of the magnitude and trends in anti-TB drug resistance and has assisted countries in planning the scale-up of the management of drug-resistant TB by providing essential data on national burden and drug resistance patterns.
 The three main categories used for global surveillance are rifampicin-resistant (RR) TB either with concurrent isoniazid resistance (MDR-TB) or without; isoniazid-resistant TB without concurrent rifampicin resistance (Hr-TB); and additional resistance to fluoroquinolones among these groups, which form a critical component of the recommended treatment regimens for both MDR/RR-TB and Hr-TB. Revised definitions for pre-extensively drug-resistant (pre-XDR) TB and XDR-TB are being applied from 2021. Pre-XDR-TB refers to combined resistance to rifampicin and a fluoroquinolone. XDR-TB refers to combined resistance to these drugs as well as resistance to at least one Group A drug recommended for the treatment of MDR/RR-TB (bedaquiline or linezolid).
+
 There has been considerable progress in increasing the coverage of DST with the global expansion of rapid molecular tools, which have allowed an increasing number of countries to transition from a reliance on periodic surveys to the establishment of continuous surveillance systems based on routine DST. Despite this progress, one third of countries still rely on conducting periodic surveys for the surveillance of drug resistance in TB, 23 of which are in the WHO’s list of 40 high TB and/or high multidrug resistant (MDR)-TB burden countries for the period 2016–2020. Conducting surveys can build and strengthen overall laboratory capacity, sample transport and referral systems, and data management expertise. All of these aspects, as well as implementation of electronic data capture systems and data connectivity solutions, support countries in transitioning to continuous surveillance of drug-resistant TB. The latter leads to improved access to timely and appropriate treatment and care, and offers programmatic benefits including rapid detection of outbreaks, real-time monitoring of the effectiveness of interventions and an understanding of trends.
 
-The WHO’s Guidance for ensuring good clinical and data management practices for national TB surveys provides an overview of the processes and procedures for collecting, handling, cleaning, validating, analysing and storing survey records to produce high-quality survey data that is complete, reliable, timely, processed correctly, and has its integrity preserved. To this end, all countries are encouraged to move towards establishing electronic systems.
-This document describes a fully customisable electronic data-capture tool for anti-TB drug resistance surveys designed in agreement with standards and recommendations outlined in the WHO’s Guidance for the surveillance of drug resistance in tuberculosis. The survey tool includes dashboards for visualisations and summaries of data, including for recommended quality and progress indicators, to facilitate the monitoring and supervision of survey activities. The user does not require expertise in database configuration and design. Implementation of this tool may help countries develop the data management skills required for the long-term implementation of electronic systems for routine surveillance of TB and drug-resistant TB.
+WHO’s “Guidance for ensuring good clinical and data management practices for national TB surveys” (2021) provides an overview of the processes and procedures for collecting, handling, cleaning, validating, analysing and storing survey records to produce high-quality survey data that are complete, reliable, timely, processed correctly, and with integrity preserved. To this end, all countries are encouraged to move towards establishing electronic systems. This document describes a fully customisable electronic data-capture tool for anti-TB DRS designed in agreement with standards and recommendations outlined in the WHO’s “Guidance for the surveillance of drug resistance in tuberculosis, 6th edition” (2021). The survey tool includes dashboards for visualisations and summaries of data, including quality and progress indicators, to facilitate the monitoring and supervision of survey activities. The user does not require expertise in database configuration and design. Implementation of this tool may help countries develop the data management skills required for the long-term implementation of electronic systems for routine surveillance of TB and drug-resistant TB.
 
 ## System Design Overview
 
 ### Use Case
 
-The TB DRS module enables registration of TB cases enrolled in a survey, and subsequent electronic data capture and tracking of laboratory tests and drug susceptibility test results for specimens submitted from each TB case to NRL, following initial bacteriological confirmation of TB at health facilities enrolling eligible cases. The module captures a minimum set of variables required for epidemiological analysis of survey data as recommended in the WHO’s Guidance for the surveillance of drug resistance in tuberculosis. These comprise clinical and socio-demographic information about the case (including history of previous anti-TB treatment and optional additional information on potential risk factors for drug resistance in tuberculosis), laboratory tests conducted on each sample submitted for testing, and laboratory results comprising resistance classification to selected anti-TB drugs. The TB DRS module is not designed to support clinical management nor patient care. The module serves as an electronic registry and database typically supporting centralised electronic data capture at NTP and/or NRL central premises. Depending on the country’s infrastructure and resource availability,  the module may be adapted to support decentralized electronic data capture at the health facility level. Parts of the module are also configured to allow data entry directly by SRL and other external supporting partners.
+The TB DRS module enables registration of TB cases enrolled in a survey, and subsequent electronic data capture and tracking of laboratory tests and drug susceptibility test (DST) results for specimens submitted from each TB case to the NRL, following initial bacteriological confirmation of TB at health facilities enrolling eligible cases. The module captures a minimum set of variables required for epidemiological analysis of survey data as recommended in WHO’s “Guidance for the surveillance of drug resistance in tuberculosis, 6th edition”. These comprise clinical and socio-demographic information about the patient (including history of previous anti-TB treatment and optional additional information on potential risk factors for drug resistance in tuberculosis), laboratory tests conducted on each sample submitted for testing, and laboratory results to selected anti-TB drugs. The TB DRS module is not designed to support clinical management nor patient care. The module serves as an electronic registry and database typically supporting centralised electronic data capture at NTP and/or NRL central premises. Depending on the country’s infrastructure and resource availability, the module may be adapted to support decentralized electronic data capture at the health facility level. Parts of the module are also configured to allow data entry directly by the SRL and other external supporting partners.
 
-The sampling strategy and the diagnostic algorithm of choice for an anti-TB drug resistance survey will vary depending on the country. A survey diagnostic algorithm often combines several phenotypic and/or molecular techniques for the drug susceptibility testing of the battery of drugs selected by the country.  The DRS module, currently considers the two most common survey designs (either exhaustive sampling of all health facilities in the country or cluster sampling) and all the WHO-recommended laboratory diagnostic techniques for drug susceptibility profiling in TB. Users can adapt the DRS module to fit their needs by selecting the survey design and the laboratory tests applicable to their survey. This includes configuration of the TB diagnostic test/s used at health facilities for the initial bacteriological confirmation of TB, and configuration of the numbers of sputum samples submitted to NRL for further testing. Configuration of mixed survey designs in cases of stratified sampling are also possible. The battery of anti-TB drugs included in the algorithm is also fully customisable.
+The sampling strategy and the diagnostic algorithm of choice for an anti-TB DRS will vary depending on the country. A survey diagnostic algorithm often combines several phenotypic and/or molecular techniques for  DST of a range of drugs selected by the country. The TB DRS module currently considers the two most common survey designs (either exhaustive sampling of all health facilities in the country or cluster sampling) and all the WHO-recommended laboratory diagnostic techniques for DST. Users can adapt the TB DRS module to fit their needs by selecting the survey design and the laboratory tests applicable to their survey. This includes configuration of the diagnostic test/s used at health facilities for the initial bacteriological confirmation of TB, and configuration of the numbers of sputum samples submitted to the NRL for further testing. Configuration of mixed survey designs in cases of stratified sampling are also possible. The specific anti-TB drugs to be included are also fully customisable.
 
 ### Program Overview
 
-The survey workflow begins by enrolling an individual at a peripheral health facility following bacteriological confirmation of pulmonary TB, which involves assigning a unique survey identifier (DRS ID) to the individual and completing a case report form by interviewing the patient and consulting clinical records. The case report form collects socio-demographic and clinical information about the case, including HIV status where applicable. This information is often collected on paper, along with the microscopy or Xpert MTB/RIF test results of the initial bacteriological confirmation of TB. At least one sputum sample is then collected from the TB case for later shipment to NRL. Details of the shipment, such as dates of sampling and shipment are also noted in relevant paper forms.
+The survey workflow begins by enrolling an individual at a peripheral health facility following bacteriological confirmation of pulmonary TB, which involves assigning a unique survey identifier (DRS ID) to the individual and completing a case report form by interviewing the patient and consulting clinical records. The case report form collects socio-demographic and clinical information about the case, including HIV status where applicable. This information is often collected on paper, along with the microscopy or Xpert MTB/RIF test results of the initial bacteriological confirmation of TB. At least one sputum sample is then collected from the TB case for later shipment to the NRL. Details of the shipment, such as dates of sampling and shipment, are also noted in relevant paper forms.
 
-Samples are usually shipped straight to NRL and/or other collaborating laboratories along with all paper forms that have been completed at the peripheral health facility. Designated data entry clerks at central NRL/NTP premises first register the survey TB case by entering the DRS ID in the electronic database along with basic case details. Once a case is registered, information from field paper forms, such as the case report form, may be entered at a later date. Upon receiving the samples, designated NRL staff register the specimens in the system by completing the shipment details, including date of sample arrival in addition to dates of sample collection and shipment noted in paper forms. As NRL completes the laboratory analysis of the samples, laboratory tests and results are also entered into the module. The laboratory tests and results may be entered directly in real-time by NRL staff, or entered into the system by NTP or NRL staff from laboratory registers.
+Samples are usually shipped straight to the NRL and/or other collaborating laboratories along with all paper forms that have been completed at the peripheral health facility. Designated data entry clerks at central NRL/NTP premises first register the survey TB case by entering the DRS ID in the electronic database along with basic case details. Once a case is registered, information from field paper forms, such as the case report form, may be entered at a later date. Upon receiving the samples, designated NRL staff register the specimens in the system by completing the shipment details, including date of sample arrival in addition to dates of sample collection and shipment noted in paper forms. As the NRL conducts the laboratory analysis of the samples, laboratory tests and results are also entered into the module. The laboratory tests and results may be entered directly in real-time by NRL staff, or entered into the system by NTP or NRL staff from laboratory registers.
 
-The TB DRS module is designed so that countries can configure the number of sputum samples to be collected from each enrolled TB case (between 1 and 4). Samples are automatically assigned a unique ID which corresponds to the concatenation of the patient (DRS) ID plus a sample replicate number. For each of the samples pre-configured in the system, the DRS module produces a form that contains the complete pre-defined list of tests to be conducted at NRL, for a customised panel of anti-TB drugs. The user should then enter, for each laboratory test, a final test result using the corresponding sample form (that of the sample which was used for testing). Interim results are not at this stage captured by the system. There is, however, the possibility that a test is conducted on more than one sample, such is the case for microscopy examination of sputum smears. The module is hence designed to track the laboratory history of each sample, beginning by specifying whether a sample was discarded or stored only, and allowing for the capture of free text comments. If samples from a TB case are shipped to SRL, a form to collate shipment details as well as SRL results is created in the system, which can be completed at a later date.
+The TB DRS module is designed so that countries can configure the number of sputum samples to be collected from each enrolled TB case (between 1 and 4). Samples are automatically assigned a unique ID which corresponds to the concatenation of the patient (DRS) ID plus a sample replicate number. For each of the samples pre-configured in the system, the TB DRS module produces a form that contains the complete pre-defined list of tests to be conducted at NRL, for a customised panel of anti-TB drugs. The user should then enter, for each laboratory test, a final test result that  corresponds to the specific sample tested (using the form of the sample which was used for testing). Interim results are not captured by the system at this stage . There is, however, the possibility that a test is conducted on more than one sample, such is the case for microscopy examination of sputum smears. The module is hence designed to track the laboratory history of each sample, beginning by specifying whether a sample was discarded or stored only, and allowing for the capture of free text comments. If samples are shipped to SRL, a form to collate shipment details as well as SRL results is created in the system, which can be completed at a later date.
 
-In order to enter laboratory test results in the system, it is a prerequisite that the TB case has been registered in the module by adding the DRS ID and basic registration details. Only then can samples be registered for electronic capture of laboratory tests and results. Once the TB case and the samples are registered, the TB case and the related samples can be retrieved for edit and for adding additional information at a later date. Whilst the most common survey workflow has been described above, the module may be adapted for decentralised or centralised direct real-time data entry without use of paper registers in countries with adequate capacity and resources.
+In order to enter laboratory test results, it is a prerequisite that the TB case has been registered in the module by adding the DRS ID and basic registration details. Only then can the related samples be registered for electronic capture of laboratory tests and results. Once the TB case and the samples are registered, the case and sample data can be retrieved for editing and for adding additional information at a later date. Whilst the most common survey workflow has been described above, the module may be adapted for decentralised or centralised direct real-time data entry without use of paper-based data collection tools in countries with adequate capacity and resources.
 
 ![Program Overview](resources/images/DRS_1.png)
 
 | Stage | Description | Required Preconfiguration |
 | --- | --- | --- |
-| Enrollment |Enter data to enroll the patient in DRS Program | Patient DRS ID <br> Cluster ID |
-| Case Report Form |HIV Status, initial bacteriological confirmation of TB, treatment history provided by patient, treatment history based on clinical records, final treatment history decision | Initial screening: Bacteriological confirmation of TB |
-| Collection and Shipment of DRS Samples to NRL | NRL Sample DRS IDs, collection dates, additives, shipment to NRL, arrival to NRL, comments | Number of DRS Samples sent to NRL (country specific) |
-| NRL - DRS Sample 1 | Tests performed on Sample 1 at NRL. Captures tests, test results, dates and comments | Number of program stages (from 1 to 4) can be pre configured depending on the number of Samples sent to NRL Lab Processing (country specific). |
+| Enrollment |Enter socio-demographic data to enroll the patient in TB DRS Module | Patient DRS ID <br> Cluster ID (if applicable) |
+| Case Report Form | HIV Status, initial bacteriological confirmation of TB, treatment history provided by patient, treatment history based on clinical records, final treatment history decision | Initial screening: Bacteriological confirmation of TB |
+| Collection and Shipment of DRS Samples to NRL | Sample DRS IDs, collection dates, additives, shipment to NRL, arrival to NRL, comments | Number of DRS Samples sent to NRL (country specific) |
+| NRL - DRS Sample 1 | Tests performed on Sample 1 at NRL. Captures tests, test results, dates and comments | Number of program stages (from 1 to 4) can be pre configured depending on the number of samples sent to NRL (country specific) |
 | NRL - DRS Sample 2 | Tests performed on Sample 2 at NRL. Captures tests, test results, dates and comments | -//- |
 | NRL - DRS Sample 3 | Tests performed on Sample 3 at NRL. Captures tests, test results, dates and comments | -//- |
 | NRL - DRS Sample 4 | Tests performed on Sample 4 at NRL. Captures tests, test results, dates and comments | -//- |
-| SRL | Sample shipment to Supranational Lab and tests performed at SRL. Captures tests, test results, dates and comments | Country specific. SRL Stage can be excluded from the list of program stages |
+| SRL | Sample shipment to SRL and tests performed. Captures tests, test results, dates and comments | Country specific. SRL Stage can be excluded from the list of program stages |
 
 ### Enrollment
 
@@ -63,44 +60,39 @@ In order to enter laboratory test results in the system, it is a prerequisite th
 
 ### Case Report Form
 
-Case Report Form design is based on the “Example Clinical Information Form” from the [WHO Guidelines for surveillance of drug resistance in tuberculosis](https://apps.who.int/iris/bitstream/handle/10665/174897/9789241549134_eng.pdf?sequence=1). It is set up for both secondary data entry (based on a paper form) and direct data entry during live interview. It captures:
+Case Report Form design is based on the “Example Clinical Information Form” from the [WHO Guidelines for surveillance of drug resistance in tuberculosis, 6th edition](https://apps.who.int/iris/bitstream/handle/10665/174897/9789241549134_eng.pdf?sequence=1). It is set-up for both secondary data entry (based on a paper form) and direct data entry during live interview. It captures:
 
 1. Patient’s HIV status;
-2. Initial screening results: bacteriological confirmation of TB either by Sputum Smear Microscopy, Xpert MTB/RIF or both tests. Initial screening test/s is/are configured during initial setup in the Maintenance app. **NB. If initial screening is based on microscopy examination of > 2 samples, only 2 samples with the highest bacterial load are entered.**;
-3. Treatment History provided by patient (if the patient does not remember earlier TB treatment, control questions are asked);
+2. Initial screening results: bacteriological confirmation of TB either by sputum smear microscopy, Xpert MTB/RIF, or both tests. Initial screening test/s is/are configured during initial setup in the Maintenance App. NB  If initial screening is based on microscopy examination of > 2 samples, only 2 samples with the highest bacterial load are entered.;
+3. Treatment history provided by patient (if the patient does not remember earlier TB treatment, control questions are asked);
 4. Treatment history based on medical records;
-5. Final Treatment History decision;
+5. Final treatment history decision;
 6. Name of the officer responsible for completing the form.
 
-Key data is displayed in the top bar of the DHIS 2 Tracker Capture Interface.
-
-If the patient is already enrolled in the TB Case Surveillance Tracker program, such data as TB Registration Number may be automatically imported from the TB Case Surveillance Tracker program.
+Key data is displayed in the top bar of the DHIS2 DR-TB Case-based Surveillance Tracker Capture Interface.
+If the patient is already enrolled in the DR-TB Case Surveillance Tracker, relevant data such as TB Registration Number may be automatically imported into the TB DRS Module.
 
 ![Case Report Form](resources/images/DRS_3.png)
 
 ### Collection and Shipment of DRS Samples to NRL
 
-The number of DRS Samples shipped to NRL is defined in the initial configuration. It may vary from 1 to 4. (See Initial Configuration: Constants). The program is designed to collect data about all shipped samples. Data for each sample is entered in the corresponding program stage. Collection and Shipment Form captures collection dates for samples, additives, date of sample shipment to NRL, date of arrival and any related comments and remarks.
+The number of samples shipped to the NRL is defined in the initial configuration. It may vary from 1 to 4 (see Initial Configuration: Constants). The program is designed to collect data about all shipped samples. Data for each sample is entered in the corresponding program stage. The Collection and Shipment Form captures collection dates for samples, any additives, date of sample shipment to NRL, date of arrival and any related comments and remarks.
 
-Additive options: none; CPC; Ethanol; PrimeStore; Other
-Option “Other” has to be specified in a separate field.
-DRS Sample IDs are generated according to the following standard:
-Patient DRS ID / [Sample Nr]
-Sample numbers are 1,2,3 or 4.
+Additive options: none; CPC; Ethanol; PrimeStore; Other. Option “Other” has to be specified in a separate field. DRS Sample IDs are generated according to the following standard: Patient DRS ID / [Sample Nr] Sample numbers are 1,2,3 or 4.
 
-Optional functionality: When the program is used for direct data entry, notifications can be sent to NRLs in case data capture for DRS Sample Processing at NRL is taking place at NRLs. (to be configured separately).
+Optional functionality: When the module is used for direct data entry, notifications can be sent to NRLs in case data capture in the form DRS Sample Processing at NRL is taking place at NRLs. (to be configured separately).
 
 ![Collection and Shipment Form](resources/images/DRS_4.png)
 
 ### NRL – DRS Samples 1 - 4
 
-Program Stages for sample processing at NRL for samples 1-4 are identical. Each stage is intended to capture data for the corresponding sample.
+The program stages for sample processing at NRL for samples 1-4 are identical. Each stage is intended to capture data for the corresponding sample.
 
-The number of program stages shown in the DHIS 2 module is dependent on the number of samples that are sent to the NRL for processing and are set up in the Maintenance app during initial configuration of the program. Default configuration is 2 Samples.
+The number of program stages shown in the TB DRS module is dependent on the number of samples that are sent to the NRL for processing and are set up in the Maintenance App during initial configuration of the program. Default configuration is 2 Samples.
 
 NRL – DRS Sample 1 – 4 Program Stages are used to capture key data related to sample processing: tests used, dates and outcomes.
 
-Each country uses different tests at the NRL level. DRS tracker program includes the following tests:
+Each country uses different tests at the NRL level. TB DRS module includes the following tests:
 
 1. Sputum smear microscopy
 2. Xpert MTB/RIF
@@ -116,13 +108,13 @@ Each country uses different tests at the NRL level. DRS tracker program includes
 12. Targeted Gene Sequencing
 13. Whole Genome Sequencing
 
-Tests used for sample processing by the country’s NRLs are selected in the Maintenance App during the initial configuration of the program.
+The tests used for sample processing by the country’s NRLs are selected in the Maintenance App during the initial configuration of the program.
 
-In addition, the program captures whether the **sample was rejected or lost** or whether it was used **for storage**. Any important details not captured in the form may be entered in the Comments and Remarks section.
+In addition, the program captures whether the sample was rejected or lost or whether it was stored. Any important details not captured in the form may be entered in the Comments and Remarks section.
 
 #### Sample Rejected or Lost
 
-If the sample is rejected or lost, reasons for rejection or loss have to be provided. Program stage may be completed.
+- If the sample is rejected or lost, reasons for rejection or loss have to be provided. Program stage may be completed.
 
 ![Sample rejected or lost](resources/images/DRS_5.png)
 
@@ -134,133 +126,131 @@ If the sample is rejected or lost, reasons for rejection or loss have to be prov
 
 #### Xpert MTB/RIF
 
-- Date and final Xpert MTB/RIF result are captured. In case MTB is detected, quantitative result is captured.
-- **Final Xpert MTB/RIF options:** MTB detected (Rifampicin susceptible); MTB detected (Rifampicin resistant); MTB Detected (Rifampicin indeterminate); MTB not detected; No result; Error; Invalid
-- **Quantitative result options:** High; Medium; Low; Very low; Trace; Unknown
+- Date and final Xpert MTB/RIF result are captured. If MTB is detected, the quantitative result is captured.
+- Final Xpert MTB/RIF options: MTB detected (Rifampicin susceptible); MTB detected (Rifampicin resistant); MTB Detected (Rifampicin indeterminate); MTB not detected; No result; Error; Invalid
+- Quantitative result options: High; Medium; Low; Very low; Trace; Unknown
 
 ![Xpert MTB/RIF](resources/images/DRS_7.png)
 
 #### Xpert MTB/RIF Ultra
 
-- Date and final Xpert MTB/RIF Ultra result are captured. In case MTB is detected, quantitative result is captured.
-- **Final Xpert MTB/RIF Ultra options:** MTB detected (Rifampicin susceptible); MTB detected (Rifampicin resistant); MTB Detected (Rifampicin indeterminate); MTB not detected; No result; Error; Invalid
-- **Quantitative result options:** High; Medium; Low; Very low; Trace; Unknown
+- Date and final Xpert MTB/RIF Ultra result are captured. If MTB is detected, the quantitative result is captured.
+- Final Xpert MTB/RIF Ultra options: MTB detected (Rifampicin susceptible); MTB detected (Rifampicin resistant); MTB Detected (Rifampicin indeterminate); MTB not detected; No result; Error; Invalid
+- Quantitative result options: High; Medium; Low; Very low; Trace; Unknown
 
 ![Xpert MTB/RIF Ultra](resources/images/DRS_8.png)
 
 #### Culture in Solid Media (e.g. LJ)
 
 - Date of inoculation, final culture result and date of final result are captured.
-- **Final culture result options:** MTB; NTM; No growth; Contaminated
+- Final culture result options: MTB; NTM; No growth; Contaminated
 
 ![Culture in Solid Media (e.g. LJ)](resources/images/DRS_9.png)
 
 #### Culture in Liquid Media (e.g. MGIT)
 
 - Date of inoculation, final culture result and date of final result are captured.
-- **Final culture result options:** MTB; NTM; No growth; Contaminated
+- Final culture result options: MTB; NTM; No growth; Contaminated
 
 ![Culture in Liquid Media (e.g. MGIT)](resources/images/DRS_10.png)
 
 #### Initial Phenotypic DST in Solid Media (e.g. LJ)
 
 - Date of inoculation, date of final results and final results for tested drugs are captured.
-- The list of drugs for testing is defined in the Maintenance app during the initial setup of the program.
+- The list of drugs for testing is defined in the Maintenance App during the initial setup of the program.
 
 ![Initial Phenotypic DST in Solid Media (e.g. LJ)](resources/images/DRS_11.png)
 
-- **List of drugs available for testing:** Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
-- Pyrazinamide can only be tested when using liquid media.
-- CC stands for Critical concentration determined for Isoniazid and moxifloxacin.
-- CB (Clinical breakpoint) corresponds to higher concentration testing for Isoniazid and Moxifloxacin.
-- **Final result options:** Susceptible; Resistant; Contaminated; Indeterminate
+- List of drugs available for testing: Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
+- Clofamizine and Pyrazinamide can only be tested using liquid media.
+- CC stands for The WHO-recommended Critical Concentrations for Isoniazid and Moxifloxacin testing.
+- CB stands for Clinical Breakpoint and corresponds to higher concentration testing for Isoniazid and Moxifloxacin only.
+- Final result options: Susceptible; Resistant; Contaminated; Indeterminate
 
 ![Available drugs - Initial Phenotypic DST in Solid Media (e.g. LJ)](resources/images/DRS_12.png)
 
 #### Initial Phenotypic DST in Liquid Media (e.g. MGIT)
 
 - Date of inoculation, date of final results and final results for tested drugs are captured.
-- The list of drugs for testing is defined in the Maintenance app during the initial setup of the program.
+- The list of drugs for testing is defined in the Maintenance App during the initial setup of the program.
 
 ![Initial Phenotypic DST in Liquid Media (e.g. MGIT)](resources/images/DRS_13.png)
 
-- **List of drugs available for testing:** Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
-- CC stands for Critical concentration determined for Isoniazid and moxifloxacin.
-- CB (Clinical breakpoint) corresponds to higher concentration testing for Isoniazid and Moxifloxacin.
-- **Final Result Options:** Susceptible; Resistant; Contaminated; Indeterminate
+- List of drugs available for testing: Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
+- CC stands for the WHO-recommended Critical Concentrations for Isoniazid and Moxifloxacin testing.
+- CB stands for Clinical Breakpoint and corresponds to higher concentration testing for Isoniazid and Moxifloxacin only.
+- Final Result Options: Susceptible; Resistant; Contaminated; Indeterminate
 
 ![Available drugs - Initial Phenotypic DST in Liquid Media (e.g. MGIT)](resources/images/DRS_14.png)
 
 #### Subsequent Phenotypic DST in Solid Media (e.g. LJ)
 
 - Date of inoculation, date of final results and final results for tested drugs are captured.
-- The list of drugs for testing is defined in the Maintenance app during the initial setup of the program.
+- The list of drugs for testing is defined in the Maintenance App during the initial setup of the program.
 
 ![Subsequent Phenotypic DST in Solid Media (e.g. LJ)](resources/images/DRS_15.png)
 
-- **List of drugs available for testing:** Rifampicin, Isoniazid, Isoniazid HC, Pyrazinamide, Ethambutol, Streptomycin, Ofloxacin, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Gatifloxacin, Amikacin, Kanamycin, Capreomycin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine
-- Pyrazinamide can only be tested when using liquid media.
-- CC stands for Critical concentration determined for Isoniazid and moxifloxacin.
-- CB (Clinical breakpoint) corresponds to higher concentration testing for Isoniazid and Moxifloxacin.
-
-Final Result Options: Susceptible; Resistant; Contaminated; Indeterminate
+- List of drugs available for testing: Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
+- Clofamizine and Pyrazinamide can only be tested using liquid media.
+- CC stands for the WHO-recommended Critical Concentrations for Isoniazid and Moxifloxacin testing.
+- CB stands for Clinical Breakpoint and corresponds to higher concentration testing for Isoniazid and Moxifloxacin only.
+- Final Result Options: Susceptible; Resistant; Contaminated; Indeterminate
 
 ![Available drugs - Subsequent Phenotypic DST in Solid Media (e.g. LJ)](resources/images/DRS_16.png)
 
 #### Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)
 
 - Date of inoculation, date of final results and final results for tested drugs are captured.
-- The list of drugs for testing is defined in the Maintenance app during the initial setup of the program.
+- The list of drugs for testing is defined in the Maintenance App during the initial setup of the program.
 
 ![Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)](resources/images/DRS_17.png)
 
-- **List of drugs available for testing:** Rifampicin, Isoniazid, Isoniazid HC, Pyrazinamide, Ethambutol, Streptomycin, Ofloxacin, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Gatifloxacin, Amikacin, Kanamycin, Capreomycin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine
-- CC stands for Critical concentration determined for Isoniazid and moxifloxacin.
-- CB (Clinical breakpoint) corresponds to higher concentration testing for Isoniazid and Moxifloxacin.
-- **Final Result Options:** Susceptible; Resistant; Contaminated; Indeterminate
+- List of drugs available for testing: Rifampicin, Isoniazid CC, Isoniazid CB, Pyrazinamide, Ethambutol, Levofloxacin, Moxifloxacin CC, Moxifloxacin CB, Amikacin, Bedaquiline, Delamanid, Linezolid, Clofazimine
+- CC stands for the WHO-recommended Critical Concentrations for Isoniazid and Moxifloxacin testing.
+- CB stands for Clinical Breakpoint and corresponds to higher concentration testing for Isoniazid and Moxifloxacin only.
+- Final Result Options: Susceptible; Resistant; Contaminated; Indeterminate
 
 ![Available drugs - Subsequent Phenotypic DST in Liquid Media (e.g. MGIT)](resources/images/DRS_18.png)
 
 #### LPA (Rifampicin / Isoniazid)
 
-- Date of LPA, specimen type and final results for rifampicin and isoniazid (if MTBc is detected) are captured.
-- **Specimen Type Options:** Sputum Samples or Sediments
-- **Final Result Options:** Susceptible; Resistant; Indeterminate
+- Date of LPA, specimen type and final results for Rifampicin and Isoniazid (if MTBc is detected) are captured.
+- Specimen Type Options: Sputum samples or sediments; MTB culture isolates
+- Final Result Options: Susceptible; Resistant; Indeterminate
 
 ![LPA (Rifampicin / Isoniazid)](resources/images/DRS_19.png)
 
 #### LPA (Fluoroquinolones / Second-line Injectables)
 
-- Date of LPA, specimen type and final results for fluoroquinolones, kanamycin, amikacin/capreomycin and ethambutol (if MTBc is detected) are captured.
+- Date of LPA, specimen type and final results for Fluoroquinolones, Kanamycin, Amikacin/Capreomycin and Ethambutol (if MTBc is detected) are captured.
 - Ethambutol can be excluded from the form during initial setup.
-- **Specimen Type Options:** Sputum Samples or Sediments
-- **Final Result Options:** Susceptible; Resistant; Indeterminate
+- Specimen Type Options: Sputum samples or sediments; MTB culture isolates
+- Final Result Options: Susceptible; Resistant; Indeterminate
 
 ![LPA (Fluoroquinolones / Second-line Injectables)](resources/images/DRS_20.png)
 
 #### Targeted Gene Sequencing
 
-- Date of results, genotypic speciation results and genotypic resistance profiling for tested drugs (in case MTBc was detected and interpretable genetic resistance profiling for MTBc is available) are captured.
-- **Genotypic Speciation Results:** MTBc; Mixed MTBc and Other; NTM; Contamination; Failed
+- Date of results, genotypic speciation results and genotypic resistance profiling for tested drugs (if MTB complex (MTBc) was detected and interpretable genetic resistance profiling is available) are captured.
+- Genotypic Speciation Results: MTBc; Mixed MTBc and Other; NTM; Contamination; Failed
 - In case “Failed” is selected, reasons for failure have to be provided.
-- **List of drugs available for Genotypic Resistance Profiling:** Rifampicin, Isoniazid, Pyrazinamide, Ethambutol, Fluoroquinolones, Amikacin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine, Pretomanid
-- **Final Result Options:** Resistant; Susceptible; No Interpretable Result (i.e. insufficient quality); Indeterminate (i.e. mutation unknown / not graded)
+- List of drugs available for Genotypic Resistance Profiling: Rifampicin, Isoniazid, Pyrazinamide, Ethambutol, Fluoroquinolones, Amikacin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine, Pretomanid
+- Final Result Options: Resistant; Susceptible; No Interpretable Result (i.e. insufficient quality); Indeterminate (i.e. mutation unknown / not graded)
 
 ![Targeted Gene Sequencing](resources/images/DRS_21.png)
 
 #### Whole Genome Sequencing
 
-- Date of results, genotypic speciation results and genotypic resistance profiling for tested drugs (in case MTBc was detected and interpretable genetic resistance profiling for MTBc is available) are captured.
-- **Genotypic Speciation Results:** MTBc; Mixed MTBc and Other; NTM; Contamination; Failed
-In case “Failed” is selected, reasons for failure have to be provided.
-- **List of drugs available for Genotypic Resistance Profiling:** Rifampicin, Isoniazid, Pyrazinamide, Ethambutol, Fluoroquinolones, Amikacin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine, Pretomanid
-- **Final Result Options:** Resistant; Susceptible; No Interpretable Result (i.e. insufficient quality); Indeterminate (i.e. mutation unknown / not graded)
+- Date of results, genotypic speciation results and genotypic resistance profiling for tested drugs (if MTB complex (MTBc) was detected and interpretable genetic resistance profiling is available) are captured.
+- Genotypic Speciation Results: MTBc; Mixed MTBc and Other; NTM; Contamination; Failed In case “Failed” is selected, reasons for failure have to be provided.
+- List of drugs available for Genotypic Resistance Profiling: Rifampicin, Isoniazid, Pyrazinamide, Ethambutol, Fluoroquinolones, Amikacin, Ethionamide, Bedaquiline, Delamanid, Linezolid, Clofazimine, Pretomanid
+- Final Result Options: Resistant; Susceptible; No Interpretable Result (i.e. insufficient quality); Indeterminate (i.e. mutation unknown / not graded)
 
 ![Whole Genome Sequencing](resources/images/DRS_22.png)
 
 #### Storage Only
 
-If the sample is stored, the “Storage Only” checkbox is selected. Program stage may be completed.
+- If the sample is stored, the “Storage Only” checkbox is selected. Program stage may be completed.
 
 #### Comments and Remarks
 
@@ -272,24 +262,25 @@ This program stage can be added to Data Entry Forms if the samples are sent to a
 
 ### Patient DRS ID
 
-- Data Entry options for Patient DRS ID:
-For 100% facility sampling, Patient DRS ID is generated using a predefined 3-letter facility code and a serial number to identify patient (formatted to 3 digits)
+Data entry options for Patient DRS ID: For exhaustive sampling of all health facilities, Patient DRS ID is generated using a predefined 3-letter facility code and a serial number to identify patient (formatted to 3 digits)
+
 - CAD/001
 - CAD/002
 - Etc.
 
-- For Cluster sampling, Patient DRS ID is generated using a predefined 3-letter facility code, Cluster ID and a serial number to identify patient (formatted to 3 digits)
+For Cluster sampling, Patient DRS ID is generated using a predefined 3-letter facility code, Cluster ID (formatted to 3 digits) and a serial number to identify patient (formatted to 3 digits)
+
 - CAD/002/001
 - CAD/002/002
 - Etc.
 
 ### Constants
 
-TB Drug Resistance Survey Tracker includes various features that allow countries to easily adopt its functionality and configure it using national standards and requirements. Initial configuration of constants allows such customization. The list of configurable settings and the manual is provided below:
+TB DRS Module includes various features that allow countries to easily adopt its functionality and configure it using national standards and requirements. The initial configuration of constants allows such customization. The list of configurable settings and the manual is provided below:
 
-#### Cluster Sampling / 100% Sampling
+#### Cluster Sampling / Exhaustive Sampling of all Health Facilities
 
-Configure whether the country is using Cluster Sampling or 100% Sampling from all Diagnostic Centers
+Configure whether the country is using Cluster Sampling or Exhaustive Sampling of all Health Facilities
 
 | Constant | Settings | UID |
 |---|---|---|
@@ -429,9 +420,9 @@ The following feedback messages are configured to display in the Feedback Widget
 
 | Message | Condition |
 |---|---|
-| You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates. | **Error:** Date of laboratory result preceeds the date of sample collection |
-| You entered a laboratory result before the date of inoculation. Laboratory result date must be on or after inoculation date. Please check both dates. | **Error:** Date of laboratory result preceeds the date of inoculation |
-| Answer "Yes" has been assigned automatically. The patient is either registered for TB treatment already and/or has confirmed previous treatment for TB. | **Warning:** The previous treatment history status is assgned automatically based on the anwers in the Case Report Form |
+| You entered a laboratory result before the date of sample collection. Laboratory result date must be on or after sample collection date. Please check both dates. | **Error:** Date of laboratory result precedes the date of sample collection |
+| You entered a laboratory result before the date of inoculation. Laboratory result date must be on or after inoculation date. Please check both dates. | **Error:** Date of laboratory result precedes the date of inoculation |
+| Answer "Yes" has been assigned automatically. The patient is either registered for TB treatment already and/or has confirmed previous treatment for TB. | **Warning:** The previous treatment history status is assgned automatically based on the answers in the Case Report Form |
 | If initial screening is based on microscopy examination of > 2 samples then add only the 2 samples with the highest bacterial load. | **Warning:** User can only add screening data from two samples only |
 
 ### Analytics and Indicators
@@ -444,7 +435,7 @@ The package comes with the following set of indicators and dashboards:
   - Cumulative enrollment data and enrollment data for the last 12 months
     - Total enrolled patients
     - Enrolled new patients
-    - Emrolled previously treated patients
+    - Enrolled previously treated patients
     - Enrolled patients with unknown treatment history
     - Enrolled patients by facility
 - DRS - 02. Missing data report:
@@ -536,7 +527,7 @@ If a country is not using certain tests from the list at NRLs, the corresponding
 
 ## User Groups
 
-The following user groups are included in the Anti-Tuberculosis Drug Resistance Survey (DRS) Package:
+The following user groups are included in the TB DRS Module:
 
 - TB DRS Admin: can edit/view metadata; no access to data [all program stages]
 - TB DRS Data capture: can view metadata, can capture data [all program stages]
