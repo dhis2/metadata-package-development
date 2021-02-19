@@ -4,11 +4,11 @@
 >
 > Full installation instructions:
 >
-> [Case based surveillance & contact tracing](covid-19-tracker-installation.html)
+> [Case based surveillance & contact tracing](https://docs.dhis2.org/en/topics/metadata/covid-19-surveillance/covid-19-tracker-installation.html)
 >
->[Surveillance Event Program](covid-19-events-installation.html)
+>[Surveillance Event Program](https://docs.dhis2.org/en/topics/metadata/covid-19-surveillance/covid-19-events-installation.html)
 >
-> [Aggregate Surveillance Reporting](covid-19-aggregate-installation.html)
+> [Aggregate Surveillance Reporting](https://docs.dhis2.org/en/topics/metadata/covid-19-surveillance/covid-19-aggregate-installation.html)
 
 ## Case-Based Surveillance & Contact Tracing Package, Surveillance Event Program
 
