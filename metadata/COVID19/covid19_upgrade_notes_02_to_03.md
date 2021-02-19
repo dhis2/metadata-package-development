@@ -4,11 +4,11 @@
 >
 > Full installation instructions:
 >
-> [Case based surveillance & contact tracing](tracker-packages-installation-guide.html)
+> [Case based surveillance & contact tracing](covid-19-tracker-installation.html)
 >
->[Surveillance Event Program](event-package-installation-guide-v032.html)
+>[Surveillance Event Program](covid-19-events-installation.html)
 >
-> [Aggregate Surveillance Reporting](aggregate-package-installation-guide.html)
+> [Aggregate Surveillance Reporting](covid-19-aggregate-installation.html)
 
 ## Case-Based Surveillance & Contact Tracing Package, Surveillance Event Program
 
