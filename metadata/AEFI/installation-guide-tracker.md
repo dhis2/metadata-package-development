@@ -69,7 +69,7 @@ Like indicator types, you may have already existing tracked entity types in your
 
 #### Event report organisation Unit
 
-In the AEFI metadata package there is an event report tied to the root level unit of the organisation unit tree. The reference to the organisation unit needs to be replaced with the UID of the root unit of the organisation unit tree in your system. Table 4 shows the UID which need to be replaced, as well as the api endpoint to identify the existing organisation unit UID
+In the AEFI metadata package there are event reports tied to the root level unit of the organisation unit tree. The reference to the organisation unit needs to be replaced with the UID of the root unit of the organisation unit tree in your system. Table 4 shows the UID which need to be replaced, as well as the api endpoint to identify the existing organisation unit UID
 
 |Object|UID|API  endpoint|
 |--|--|--|
