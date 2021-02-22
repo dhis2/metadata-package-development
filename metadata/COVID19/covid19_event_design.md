@@ -6,7 +6,7 @@ Package version: 0.3.2
 
 DHIS2 Version compatibility 2.33.2
 
-Demo: <https://covid.dhis2.org/>
+Demo: [https://covid.dhis2.org](https://covid.dhis2.org/demo)
 
 ## Purpose
 
@@ -37,7 +37,7 @@ The system design builds upon existing disease surveillance principles and infor
 
 ## System Design Summary
 
-This package is designed as a DHIS2 [Event Program](https://docs.dhis2.org/2.33/en/dhis2_user_manual_en/configure-programs-in-the-maintenance-app.html#about-event-programs). **The Event Program is not designed to capture all data variables contained in the [WHO case reporting template](https://www.who.int/docs/default-source/coronaviruse/2020-02-27-data-dictionary-en.xlsx)**. To capture a complete set of WHO case reporting variables, please refer to the DHIS2 COVID-19 Case-based Surveillance Tracker. Rather, the event program is a simplified program that captures a subset of minimum critical data points to facilitate high data quality when the number of caseloads or burden of reporting exceeds capacity for successfully completing the full line-list for suspected COVID-19 cases. For implementers who wish to capture the complete WHO line-listing, please refer to the COVID-19 Case-based Surveillance Tracker Package.
+This package is designed as a DHIS2 [Event Program](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#about_event_program). **The Event Program is not designed to capture all data variables contained in the [WHO case reporting template](https://www.who.int/docs/default-source/coronaviruse/2020-02-27-data-dictionary-en.xlsx)**. To capture a complete set of WHO case reporting variables, please refer to the DHIS2 COVID-19 Case-based Surveillance Tracker. Rather, the event program is a simplified program that captures a subset of minimum critical data points to facilitate high data quality when the number of caseloads or burden of reporting exceeds capacity for successfully completing the full line-list for suspected COVID-19 cases. For implementers who wish to capture the complete WHO line-listing, please refer to the COVID-19 Case-based Surveillance Tracker Package.
 
 The COVID-19 Surveillance Event Program data package includes:
 
@@ -116,7 +116,7 @@ The following program rules have been configured for the program:
 
 You can read more about program rules here:
 
-[https://docs.dhis2.org/master/en/user/html/configure_program_rule.html](https://docs.dhis2.org/master/en/user/html/configure_program_rule.html)
+[https://docs.dhis2.org/master/en/user/html/configure_program_rule.html](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#configure_program_rule)
 
 ### Indicators and Program Indicators
 
@@ -152,7 +152,6 @@ COVID-19 - Confirmed Hospitalised Cases|Number of confirmed cases that were admi
 
 ## References
 
-* Installation guidance: [https://www.dhis2.org/covid-19](https://www.dhis2.org/covid-19)
 * WHO Technical guidance on COVID-19 surveillance and case definitions (last updated 20 March 2020)
 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions)
 * WHO Data Dictionary for COVID-19 Case Reporting Form
