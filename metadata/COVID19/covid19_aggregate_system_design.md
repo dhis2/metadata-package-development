@@ -6,7 +6,7 @@ Package Version 2.0
 
 DHIS2 Version compatibility 2.30 - 2.34
 
-Demo: [https://covid.dhis2.org/](https://covid.dhis2.org/)
+Demo: [https://covid.dhis2.org/](https://covid.dhis2.org/demo)
 
 ## Purpose
 
@@ -35,7 +35,7 @@ The system design builds upon existing disease surveillance principles and infor
 
 ## System Design Summary
 
-In the development of this configuration package, an effort has been made to follow UiO&#39;s [general design principles](https://who.dhis2.org/documentation/general_design_principles.html) and a common [naming convention](https://who.dhis2.org/documentation/naming_convention.html).
+In the development of this configuration package, an effort has been made to follow UiO&#39;s [general design principles](https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/general-design-principles-for-who-metadata-packages.html) and a common [naming convention](https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/naming-conventions.html).
 
 The aggregate COVID-19 surveillance package includes
 
@@ -121,7 +121,7 @@ This section summarizes the major form of transmission classification experience
 
 ### Customizing Data Entry Forms
 
-The dataset in this package does not contain a custom form. To improve the usability of the form for data entry, implementers may design a custom form to meet their needs by following the DHIS2 User manual: [https://docs.dhis2.org/2.33/en/user/html/dhis2\_user\_manual\_en\_full.html#manage\_customform](https://docs.dhis2.org/2.33/en/user/html/dhis2_user_manual_en_full.html#manage_customform)
+The dataset in this package does not contain a custom form. To improve the usability of the form for data entry, implementers may design a custom form to meet their needs by following the DHIS2 User manual: [https://docs.dhis2.org/2.33/en/user/html/dhis2\_user\_manual\_en\_full.html#manage\_customform](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/metadata.html#manage_customform)
 
 ## Data Validation
 
@@ -145,7 +145,7 @@ The following user groups are included in the metadata package:
 2. COVID19 data capture -- intended for data entry staff to have access to capture data
 3. COVID19 access -- intended for users such as analytics users who should be able to view the data, but not edit metadata.
 
-Please refer to the [installation guidance](https://www.dhis2.org/covid-19) for more information.
+Please refer to the [installation guidance](covid-19-aggregate-installation.html) for more information.
 
 ## Indicators
 
@@ -193,7 +193,7 @@ Key analytic items have been configured and added onto the dashboard “COVID19 
 
 ## References
 
-- Installation guidance: [https://www.dhis2.org/covid-19](https://www.dhis2.org/covid-19)
+- Installation guidance: [https://www.dhis2.org/covid-19](covid-19-aggregate-installation.html)
 - WHO Interim guidelines on nCoV-19 surveillance & case definitions (last updated March 20, 2020)
 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions>](<https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions>)
 - WHO COVID-19 surveillance data dictionary (v6)
