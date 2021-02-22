@@ -152,6 +152,7 @@ COVID-19 - Confirmed Hospitalised Cases|Number of confirmed cases that were admi
 
 ## References
 
+* [COVID-19 Surveillance, Response & Vaccine Delivery Toolkit](https://dhis2.org/covid-19)
 * WHO Technical guidance on COVID-19 surveillance and case definitions (last updated 20 March 2020)
 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/surveillance-and-case-definitions)
 * WHO Data Dictionary for COVID-19 Case Reporting Form
