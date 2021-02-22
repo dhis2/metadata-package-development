@@ -6,7 +6,7 @@ Package Version 0.3.2
 
 DHIS2 Version compatibility 2.30 - 2.33
 
-Demo: <https://covid.dhis2.org/>
+Demo: [https://covid.dhis2.org](https://covid.dhis2.org/demo)
 
 ## Overview
 
@@ -32,13 +32,13 @@ Installation of the module consists of two steps:
 3. [Configuring](#additional-configuration) the imported metadata.
 4. [Performing](#examples-of-other-modifications) package-specific modifications.
 
-This section deals with the first two steps of preparing and importing the metadata file into DHIS2, whilst the configuration procedure is discussed in the next section. It is recommended to first read through both sections before starting the installation and configuration process in DHIS2. In addition to the general steps described here, some of the configuration packages have annexes to the installation guide, describing particular issues. These are listed in the appropriate section [here](https://who.dhis2.org/documentation#configuration-packages).
+This section deals with the first two steps of preparing and importing the metadata file into DHIS2, whilst the configuration procedure is discussed in the next section. It is recommended to first read through both sections before starting the installation and configuration process in DHIS2. In addition to the general steps described here, some of the configuration packages have annexes to the installation guide, describing particular issues. These are listed in the appropriate section [here](https://dhis2.org/who-package-downloads).
 
 The procedure outlined in this document should be tested in a test/staging environment before either being repeated or transferred to a production instance of DHIS2.
 
 Multiple configuration packages
 
-Some configuration packages have overlapping metadata, for example indicators. This means that in some situations, changes to metadata to configuration packages that have been imported previously may be overwritten when importing a different package. This can be avoided by importing "new only" metadata rather than "new and updates", but note that with either approach manual modifications will be needed. At a minimum, you must ensure that metadata used by multiple programmes are [shared](https://who.dhis2.org/documentation/access-and-sharing) with the appropriate user groups for both programmes.
+Some configuration packages have overlapping metadata, for example indicators. This means that in some situations, changes to metadata to configuration packages that have been imported previously may be overwritten when importing a different package. This can be avoided by importing "new only" metadata rather than "new and updates", but note that with either approach manual modifications will be needed. At a minimum, you must ensure that metadata used by multiple programmes are [shared](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/users-roles-and-groups.html#mgt_usergroup) with the appropriate user groups for both programmes.
 
 ## Requirements
 
@@ -55,7 +55,7 @@ The full list of objects included in the module (for which the administrator nee
 
 In cases where modifications to the .json metadata file of the configuration package are necessary [(see below)](https://who.dhis2.org/documentation/installation_guide_complete.html#preparing-the_metadata-file), a [text editor](https://en.wikipedia.org/wiki/Text_editor) is needed - these modifications should not be done with a word processor such as Microsoft Word.
 
-The configuration package can be installed in DHIS2 through the DHIS2 Health App, or manually through a .json file with DHIS2 metadata using the [Import/Export](https://docs.dhis2.org/2.27/en/user/html/ch19.html) app of DHIS2. The procedure described in the rest of this section applies to the process of manually importing metadata.
+The configuration package can be installed in DHIS2 through the DHIS2 Health App, or manually through a .json file with DHIS2 metadata using the [Import/Export](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/maintaining-the-system/importexport-app.html) app of DHIS2. The procedure described in the rest of this section applies to the process of manually importing metadata.
 
 The [Configuration](https://who.dhis2.org/documentation/installation_guide_complete.html#configuration) section applies for both methods.
 
@@ -95,7 +95,7 @@ Indicator type is another type of object that can create import conflict because
 
 ## Importing a metadata file into DHIS2
 
-The .json metadata file is imported through the [Import/Export](https://docs.dhis2.org/2.28/en/user/html/import_export.html) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](https://who.dhis2.org/documentation/installation_guide_complete.html#handling-import-conflicts) section below.
+The .json metadata file is imported through the [Import/Export](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/maintaining-the-system/importexport-app.html) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](https://who.dhis2.org/documentation/installation_guide_complete.html#handling-import-conflicts) section below.
 
 If the "dry run"/"validate" import works without error, attempt to import the metadata. If the import succeeds without any errors, you can proceed to [configure](https://who.dhis2.org/documentation/installation_guide_complete.html#configuration) the module. In some cases, import conflicts or issues are not shown during the "dry run", but appears when the actual import is attempted. In this case, the import summary will list any errors that need to be resolved.
 
