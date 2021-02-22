@@ -6,7 +6,7 @@ Package version: 0.3.1
 
 DHIS2 Version compatibility 2.33.2
 
-Demo: <https://covid19.dhis2.org/>
+Demo: [https://covid19.dhis2.org/](https://covid19.dhis2.org/demo)
 
 ## Purpose
 
@@ -24,7 +24,7 @@ The World Health Organisation (WHO) has published [technical guidance for the ma
 
 The POE tracker program use case was designed to support the registration of travelers entering a country with a history of travel to, or residence in, a country/area/territory reporting local transmission of COVID-19 who may need to be followed up to ensure no symptoms develop. For this use case, it is assumed that a traveler may be 1) screened and cleared immediately with no follow-up needed; 2) screened and followed up for 14 days [with or without isolation measures] to ensure no symptoms develop; or 3) screened and referred for testing and/or initial case management. The current design proposes that a traveler meeting the country’s definition of a suspected case would be enrolled into the complementary DHIS2 COVID-19 Case-Based Surveillance (CBS) Tracker. For example, a traveler enrolled in this program who later meets the definition of a suspected case during follow-up (i.e. an asymptomatic traveler from a country with known transmission is registered at the POE and later develops symptoms) is enrolled as a suspected case into the COVID-19 CBS program to capture all clinical details, exposures and follow the case through laboratory diagnosis and case outcome.
 
-In the development of this configuration package, an effort has been made to follow UiO’s [general design principles](https://who.dhis2.org/documentation/general_design_principles.html) and a common [naming convention](https://who.dhis2.org/documentation/naming_convention.html).
+In the development of this configuration package, an effort has been made to follow UiO’s [general design principles](https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/general-design-principles-for-who-metadata-packages.html) and a common [naming convention](https://docs.dhis2.org/en/topics/metadata/dhis2-who-digital-health-data-toolkit/naming-conventions.html).
 
 DHIS2 digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en).
 
@@ -85,7 +85,7 @@ Additional geographical components are also captured as other dimensions:
 
 Primary analysis is completed on the enrolling organisation unit (the port of entry). Referral facility is captured as a Data Element (type: Organisation Unit) in order to display travelers by referral to health facility in the analytics apps (i.e. Event Report). In some use cases, it may be desirable to refer the TEI (the traveler) to another Org Unit for follow-up.
 
-A TEI can be ‘referred’ to another org unit such as a health facility for one event or permanently. In this case, health facility user must be able to search TEIs enrolled in the relevant Points of Entry org units. For example, if after screening a traveler at the POE, the traveler may be “referred” to a district health office near the traveler’s local address for follow-up by district health staff. After completing the data entry for Stage 1 (screening), the user would refer the TEI to a District Health Center. Read more about referrals in tracker in [DHIS2 2.33 User Documentation](https://docs.dhis2.org/2.33/en/dhis2_user_manual_en/using-the-tracker-capture-app.html#refer-an-event).
+A TEI can be ‘referred’ to another org unit such as a health facility for one event or permanently. In this case, health facility user must be able to search TEIs enrolled in the relevant Points of Entry org units. For example, if after screening a traveler at the POE, the traveler may be “referred” to a district health office near the traveler’s local address for follow-up by district health staff. After completing the data entry for Stage 1 (screening), the user would refer the TEI to a District Health Center. Read more about referrals in tracker in [DHIS2 User Documentation](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/tracking-individual-level-data/tracker-capture.html).
 
 ![alt_text](resources/images/POE_image08.png "image_tooltip")
 
@@ -107,7 +107,7 @@ The following program rules have been configured.
 |Hide symptoms if no symptoms present (PoE)|Hide symptoms if no symptoms present (PoE)|
 
 You can read more about program rules here:
-[https://docs.dhis2.org/master/en/user/html/configure_program_rule.html](https://docs.dhis2.org/master/en/user/html/configure_program_rule.html)
+[https://docs.dhis2.org/master/en/user/html/configure_program_rule.html](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-master/configuring-the-system/programs.html#create_program_rule)
 
 ### Indicators and Program Indicators
 
@@ -130,5 +130,5 @@ Users can also generate an Event Report to see:
 
 ## References
 
-* DHIS2 COVID-19 [Tracker Package Installation Guide](https://docs.google.com/document/d/1iILgYYYDXDKpizkxY08syMfrw_9POzMMIMwd5Nb7yl4/edit#heading=h.imcis8rm8nq6)
+* DHIS2 COVID-19 [Tracker Package Installation Guide](covid-19-tracker-installation.html)
 * World Health Organisation (WHO) [technical guidance for the management of ill persons at points of entry](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/technical-guidance/points-of-entry-and-mass-gatherings) (interim guidance, published 19 March 2020)
