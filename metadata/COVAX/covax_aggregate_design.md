@@ -1,5 +1,5 @@
 
-# COVID-19 Immunization (COVAX) - Aggregate System Design Guide
+# COVID-19 Immunization - Aggregate System Design Guide
 
 ## Introduction
 
