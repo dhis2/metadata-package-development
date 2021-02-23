@@ -80,43 +80,43 @@ It is recommended that the Vaccination Report and the Vaccine Stock datasets get
 
 Data should be entered for all the vaccinated people by number of received dose (1st, 2nd, and booster), by sex (male and female), by age groups (0-59 years and 60+ years) and by type of vaccine administered (Vaccine 1, 2, 3 as place holders for the name of the used vaccine).
 
-![Vaccination Report Data Entry Form](resources/images/COVAX_AGG_1.png)
+![Vaccination Report Data Entry Form](resources/images/COVAC_AGG_1.png)
 
 #### Section 2: Doses administered to front line healthcare workers
 
 This section captures the number of doses administered to a key population group - in this case front line HCWs. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive.
 
-![Healthcare Workers](resources/images/COVAX_AGG_2.png)
+![Healthcare Workers](resources/images/COVAC_AGG_2.png)
 
 #### Section 3: Doses administered to essential workers
 
 This section captures the number of doses administered to key population groups - in this case essential workers. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive.
 
-![Essential Workers](resources/images/COVAX_AGG_3.png)
+![Essential Workers](resources/images/COVAC_AGG_3.png)
 
 #### Section 4: Doses administered to people wit at least one underlying medical condition
 
 This section captures the number of doses administered to key population groups - in this case people with at least one underlying condition determined to be at significantly higher risk of severe disease or death. It is important to note that this is a subdivision of the first section, which means that the levels of disaggregation are not mutually exclusive.
 
-![Underlying Conditions](resources/images/COVAX_AGG_4.png)
+![Underlying Conditions](resources/images/COVAC_AGG_4.png)
 
 #### Section 5: Doses discarded/wasted by reason
 
 Waste is a core parameter to monitor quality of care and of supply chain. This section tracks doses wasted while being administered by condition of the vial and reasons for discarding them.
 
-![Doses Discarded](resources/images/COVAX_AGG_5.png)
+![Doses Discarded](resources/images/COVAC_AGG_5.png)
 
 #### Section 6: AEFIs by vaccine and severity
 
 This section provides an overview of the Adverse Events Following Immunization recorded by severity. Note that the reporting of AEFIs needs to be followed by a full investigation as per Countries' Guidelines.
 
-![AEFI](resources/images/COVAX_AGG_6.png)
+![AEFI](resources/images/COVAC_AGG_6.png)
 
 #### Section 7: Staff workload
 
 This section is aimed at providing a snapshot of the availability of medical staff during the roll-out of the vaccination activities.
 
-![Workload](resources/images/COVAX_AGG_7.png)
+![Workload](resources/images/COVAC_AGG_7.png)
 
 ### 2.  - Vaccine Stock Data Entry Form
 
@@ -124,19 +124,19 @@ This section is aimed at providing a snapshot of the availability of medical sta
 
 This is a &quot;read-only&quot; section that will be pre-configured using constants and indicators to display for doses in a vaccine vial. As countries will be likely to use different vaccines, they need to specify how many doses can be extracted in each vial in order to create constants for the calculations of doses vs vials in the next section. This should be updated as explained in the section for Constants metadata.
 
-![Doses in a vaccine vial](resources/images/COVAX_AGG_8.png)
+![Doses in a vaccine vial](resources/images/COVAC_AGG_8.png)
 
 #### Section 2: Vaccine Stock Status
 
 The vaccines are divided by the different categories needed to monitor the stock. The doses and the closing balance will be automatically calculated. A predictor will automatically fill-in the opening balance of each reporting period copying the final stock at hand from the previous period.
 
-![Vaccine stock status](resources/images/COVAX_AGG_9.png)
+![Vaccine stock status](resources/images/COVAC_AGG_9.png)
 
 #### Section 3: Stock status of other items
 
 Similarly to section 2, this section provides the core info for the management of other items needed during vaccination activities (e.g. syringes, cold boxes). The closing balance will be automatically calculated. A predictor will automatically fill-in the opening balance of each reporting period copying the final stock at hand from the previous period.
 
-![Stock - other items](resources/images/COVAX_AGG_10.png)
+![Stock - other items](resources/images/COVAC_AGG_10.png)
 
 ### 3. COVAC - Target population (Annual) Data Entry Form
 
@@ -144,13 +144,13 @@ Similarly to section 2, this section provides the core info for the management o
 
 This section requires the population estimates by sex and age groups.
 
-![Target population](resources/images/COVAX_AGG_11.png)
+![Target population](resources/images/COVAC_AGG_11.png)
 
 #### Section 2: Targeted priority groups
 
 As mentioned in the first dataset, this is a sub-grouping of the first section of this dataset. This means that the two sections are not mutually exclusive - the totals entered in this section are meant to be included also in the total by age and sex.
 
-![Targeted priority groups](resources/images/COVAX_AGG_12.png)
+![Targeted priority groups](resources/images/COVAC_AGG_12.png)
 
 ## Customizing Data Entry Forms
 
@@ -342,11 +342,11 @@ The package includes a predefined dashboard with the minimum amount of informati
 
 The first part of the dashboard summarizes the core indicators - vaccine uptake, distribution, dropouts, AEFIs.
 
-![Dashboard - COVID-19 Vaccine Delivery](resources/images/COVAX_AGG_13.png)
+![Dashboard - COVID-19 Vaccine Delivery](resources/images/COVAC_AGG_13.png)
 
 The second part of the dashboard is instead dedicated to the overview of the stock management. Here the user can have an overview of the stock at hand, reporting, and waste.
 
-![Dashboard - Stock](resources/images/COVAX_AGG_14.png)
+![Dashboard - Stock](resources/images/COVAC_AGG_14.png)
 
 ## User Groups
 
