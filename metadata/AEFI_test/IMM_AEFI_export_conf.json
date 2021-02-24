@@ -1,0 +1,126 @@
+{
+  "export": [
+    {
+      "_basePath": "./AEFI/",
+      "_code": "IMM-AEFI",
+      "_name": "Immunization - Adverse events following immunization",
+      "_prefix": "[CONFIG]",
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "OVERWRITE",
+        "groups": [
+          {
+            "id": "kPBGgIFMNFv",
+            "metadata": "EDIT",
+            "data": "NONE"
+          },
+          {
+            "id": "RWyhKm0cuQ5",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "J3mFUNTreYY",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          },
+          {
+            "id": "YfEyw7KWMWy",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "TounOa4q45N",
+            "metadata": "VIEW",
+            "data": "EDIT"
+          },
+          {
+            "id": "xgu9ZjvZRPG",
+            "metadata": "VIEW",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [
+          {
+            "id": "vUeLeQMSwhN",
+            "metadata": "EDIT",
+            "data": "EDIT"
+          }
+        ],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "tracker",
+      "_url": [
+        "https://who-dev.dhis2.org/tracker_dev"
+      ],
+      "_version": "1.0.0",
+      "customObjects": [
+        {
+          "objectIds": [
+            "LbT5aALwcOj"
+          ],
+          "objectType": "dataElements"
+        },
+        {
+          "objectIds": [
+            "c6Y8XeDFFkN"
+          ],
+          "objectType": "optionSets"
+        },
+        {
+          "objectIds": [
+            "TrhGLijMX6L",
+            "b9ghoh8ZZEN",
+            "DDLVcciukAS"
+          ],
+          "objectType": "options"
+        },
+        {
+          "objectIds": [
+            "tAW4MJc6ojF",
+            "mC8rSIaoT6d",
+            "SzLk7Z0umqj"
+          ],
+          "objectType": "optionGroups"
+        },
+        {
+          "objectIds": [
+            "mAWcalQYYyk",
+            "Ewi7FUfcHAD"
+          ],
+          "objectType": "trackedEntityAttributes"
+        },
+        {
+          "objectIds": [
+            "l1t1lc9JgtS"
+          ],
+          "objectType": "indicators"
+        }
+      ],
+      "dashboardIds": [
+        "Dwp14f6LzSo",
+        "p8T2BE6RU60",
+        "ZOhxBdiRCOG"
+      ],
+      "dataElementGroupIds": [
+        "YWOEpNm704F",
+        "yhXZIbQuxOt"
+      ],
+      "exportIndicatorGroupsIds": [],
+      "indicatorGroupIds": [],
+      "programIds": [
+        "EZkN8vYZwjR"
+      ]
+    }
+  ]
+}
