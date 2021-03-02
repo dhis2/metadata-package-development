@@ -40,8 +40,7 @@
             },
             "_type": "dashboardAggregate",
             "_url": [
-                "https://who-dev.dhis2.org/covax_agg",
-                "https://who.sandbox.dhis2.org/covax_agg_233"
+                "https://who-dev.dhis2.org/covax_agg"
             ],
             "_version": "1.0",
             "customObjects": [
@@ -104,8 +103,7 @@
             },
             "_type": "completeAggregate",
             "_url": [
-                "https://who-dev.dhis2.org/covax_agg",
-                "https://who.sandbox.dhis2.org/covax_agg_233"
+                "https://who-dev.dhis2.org/covax_agg"
             ],
             "_version": "1.0",
             "customObjects": [
@@ -116,6 +114,18 @@
                         "zp3l4iQWPLh"
                     ],
                     "objectType": "constants"
+                },
+                {
+                    "objectIds": [
+                        "qkjuzKIY16X",
+                        "SIeLfgemMZZ",
+                        "ZfAIscc934f",
+                        "BDNl92wCBLq",
+                        "UHxFdhCXw8P",
+                        "oCfEaGee3hL",
+                        "owRi5DoBrSe"
+                    ],
+                    "objectType": "predictors"
                 }
             ],
             "dashboardIds": [
@@ -137,7 +147,9 @@
             "validationRuleGroupIds": [
                 "OBpdFqWkQMK"
             ],
-            "predictorGroupIds": [],
+            "predictorGroupIds": [
+                "jYJSWBncfFP"
+            ],
             "indicatorGroupIds": [
                 "SKgp2iI0dJp"
             ],
