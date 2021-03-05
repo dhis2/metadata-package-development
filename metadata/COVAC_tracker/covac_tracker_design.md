@@ -84,14 +84,13 @@ In order to better demonstrate functionality, these placeholders have been confi
 
 |Vaccine NAME|Option Code|Vaccine Manufacturer|Option Code|Age Recommendation|Dose Interval|Number of doses|
 |--- |--- |--- |--- |--- |--- |--- |--- |
-|AZD1222/AstraZeneca|astrazeneca|AstraZeneca|astrazeneca|18|10 days (8-12*)|2|
-|AZD1222/AstraZeneca|astrazeneca|SKBio Astra Zeneca|skbioastrazeneca|18|10 (8-12*)|2|
+|AZD1222/AstraZeneca|astrazeneca|AstraZeneca|astrazeneca|18|10 days (8-12)|2|
+|AZD1222/AstraZeneca|astrazeneca|SKBio Astra Zeneca|skbioastrazeneca|18|10 (8-12)|2|
 |BNT162b2 / COMIRNATY Tozinameran (INN) / BioNTech/Pfizer|biontechpfizer|BioNtech/Pfizer|biontechpfizer|16|21|2|
 |mRNA-1273 / Moderna|moderna|Moderna|moderna|18|28|2|
 |Sputnik V / Gamaleya|gamaleya|Gamaleya|gamaleya|18|21|2|
-|SARS-CoV-2 Vaccine (VeroCell), Inactivated / Sinopharm|sinopharm|Sinopharm|sinopharm|18|21 days (21-28)*|2|
+|SARS-CoV-2 Vaccine (VeroCell), Inactivated / Sinopharm|sinopharm|Sinopharm|sinopharm|18|21 days (21-28) |2|
 
- Refers to the days recommended in the guidelines from the vaccine
 
 ### How to adapt the placeholders to the available vaccine products?
 
