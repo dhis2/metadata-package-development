@@ -33,7 +33,7 @@ The programme is designed to support clinical/facility-level users, empowering s
 
 Illustrative workflow:
 
-![workflow](resources/images/covac_workflow.png)
+![workflow](resources/images/Covac_workflow.png)
 
 Workflows will vary from country to country. The program design should be reviewed and localized by context. For example, the workflow in the figure above assumes that individuals will be registered in DHIS2 when they present themselves at a vaccination site to receive their first dose. An alternative that can be considered is to pre-register eligible individuals into the system as Tracker Entity Instances (e.g. from an existing health worker registry). ** \
 
