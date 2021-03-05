@@ -365,10 +365,10 @@ The immunization registry dashboard contains key monitoring indicators that are 
 
 The first group of items in the dashboard gives a quick overview of the uptake of vaccines, doses administered, and disaggregates them by variables such as sex, age, geographical area, and vaccines. The second group of items shows the drop-out rates and the numbers of completed vaccination schedules.
 
-![Dashboard 1](resources/images/Covac_dashboard1.png")
-![Dashboard 4](resources/images/Covac_dashboard4.png")
-![Dashboard 2](resources/images/Covac_dashboard2.png")
-![Dashboard 3](resources/images/Covac_dashboard3.png")
+![Dashboard 1](resources/images/Covac_dashboard1.png)
+![Dashboard 4](resources/images/Covac_dashboard4.png)
+![Dashboard 2](resources/images/Covac_dashboard2.png)
+![Dashboard 3](resources/images/Covac_dashboard3.png)
 
 ## Considerations for when implementing with Android devices
 
