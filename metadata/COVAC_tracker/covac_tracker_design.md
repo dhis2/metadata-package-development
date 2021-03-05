@@ -25,7 +25,7 @@ The tracker data model in DHIS2 enables an individual to be registered and follo
 
 ### Intended Users
 
-The programme is designed to support clinical/facility-level users, empowering staff with better decision-making tools and placing the client at the center of the information system, while also eliminating their reporting redundancies. However, depending on the infrastructure and resource availability in-country, data entry can be completed at the district level based on paper registers.  \
+The programme is designed to support clinical/facility-level users, empowering staff with better decision-making tools and placing the client at the center of the information system, while also eliminating their reporting redundancies. However, depending on the infrastructure and resource availability in-country, data entry can be completed at the district level based on paper registers. 
 
 * Clinical users: The Immunization eRegistry tracker program is optimized for data entry at Point of Care.
 * Facility staff: Data can also be input into DHIS2 by data entry staff if point-of-care data entry is not feasible. Working lists are designed to support facility staff to monitor patients that need follow up or are overdue according to their vaccination schedule..
@@ -33,7 +33,7 @@ The programme is designed to support clinical/facility-level users, empowering s
 
 Illustrative workflow:
 
-![workflow](resources/images/covac_workflow.png)** \
+![workflow](resources/images/covac_workflow.png)
 
 Workflows will vary from country to country. The program design should be reviewed and localized by context. For example, the workflow in the figure above assumes that individuals will be registered in DHIS2 when they present themselves at a vaccination site to receive their first dose. An alternative that can be considered is to pre-register eligible individuals into the system as Tracker Entity Instances (e.g. from an existing health worker registry). ** \
 
@@ -80,7 +80,7 @@ Workflows will vary from country to country. The program design should be review
 
 The specific COVID-19 products available in the country and vaccine schedules will vary by country. This package includes vaccine products following the documentation available from WHO, which will continue to evolve as vaccines enter the market: <https://extranet.who.int/pqweb/sites/default/files/documents/Status_COVID_VAX_16Feb2021.pdf>
 
-In order to better demonstrate functionality, these placeholders have been configured based on five existing vaccine products, but it is important to verify and configure the programme based on the national adoption guidelines for the product. \
+In order to better demonstrate functionality, these placeholders have been configured based on five existing vaccine products, but it is important to verify and configure the programme based on the national adoption guidelines for the product. 
 
 |Vaccine NAME|Option Code|Vaccine Manufacturer|Option Code|Age Recommendation|Dose Interval|Number of doses|
 |--- |--- |--- |--- |--- |--- |--- |--- |
@@ -428,8 +428,7 @@ Even though the package is published from 2.33, our testing indicates that the b
 * SMS notifications:
 **Sms notification: “Second dose still overdue (48hs past due date)” to be sent only when people are overdue.
 
-* Refusal of vaccination Data element + Vaccination not given \
-w/ Option set Stockout Postpone Contraindication Refusal Other,
+* Refusal of vaccination Data element + Vaccination not given w/ Option set Stockout Postpone Contraindication Refusal Other
 * Stock considerations
 
 ## Change logs
