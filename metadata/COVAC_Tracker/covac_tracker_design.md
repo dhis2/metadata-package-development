@@ -394,7 +394,7 @@ Use the events report app and select the “Pivot table” function and the “e
 
 Arrange then the layout of the table with DE COVAC - Dose Number and PA Sex in the Column dimensions, and DE COVAC - Vaccine Name in the Row Dimensions:
 
-![Settings for event report](resources/images/Covac_event_report.png)
+![Settings for event report](resources/images/Covac_event_report3.png)
 
 ### Importing Event Charts
 
