@@ -1,4 +1,4 @@
-# Covid-19 Immunization registry Tracker System Design
+# Covid-19 Immunization Registry Tracker System Design
 
 Last updated: 04.03.2021
 
