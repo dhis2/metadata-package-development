@@ -21,7 +21,7 @@ The program is designed to support sub-national and national level workflows to 
 
 The AEFI tracker package includes standard indicators and dashboard support, which are auto-populated to facilitate analysis. In addition, notifications can be generated to alert investigators and promote quick response.
 
-This program is a standalone program that can be adopted on its own, or in combination with other Tracker programs, including the DHIS2 Immunization eRegistry tracker package. 
+This program is a standalone program that can be adopted on its own, or in combination with other Tracker programs, including the DHIS2 Immunization eRegistry tracker package.
 
 ### Intended Users
 
@@ -37,11 +37,11 @@ While this package is developed to strengthen vaccine safety monitoring at natio
 
 Example of possible entry points for intended users
 
-![Entry Points](resources/images/image01.png)
+![Entry Points](resources/images/AEFI_Tracker_design_01.png)
 
 ### Program Structure
 
-![AEFI Program Structure](resources/images/image02.png)
+![AEFI Program Structure](resources/images/AEFI_Tracker_design_02.png)
 
 ### Workflow following an AEFI case
 
@@ -134,7 +134,7 @@ The AEFI is modeled on the [WHO reporting and investigation form for AEFI](https
 | Enrollment | Once a child is identified as having an AEFI they should be enrolled in the AEFI Program.  The enrollment stage will include personal information and unique identifiers, some of which will be auto generated. <br> Enrollment date = “Date patient notified the event to the health system” The date when the child is enrolled into the AEFI program. |
 | Attributes | Attributes include information about the child and case identifiers <br> - AEFI Case ID <br> Unique System Identifier (EPI) <br> Given Name <br> Family Name <br> Sex <br> Date of Birth <br> Address <br> Mother/Caregiver's contact number |
 | Stage 1: AEFI | This stage is a **non-repeatable** stage. Data is entered for this stage when an AEFI is reported. Includes detailed AEFI information and data elements needed for analysis. <br> This program stage has a custom form which matches the paper form which HCP’s are accustomed to using. <br> Event date = “Report compilation date”. This is the date when the  AEFI form is initiated. Also DOR (Date of Report) in AEFI surveillance analytics. |
-| Stage 2: First Decision Making Level | This stage is a **non-repeatable** stage. Data is entered for this stage when the first decision making level has been completed. <br> This program stage has a custom form which matches the paper form HCP are accustomed to using. <br> <br> Event date = “Report date” This is the date when the First Decision Making level form is initiated. |
+| Stage 2: First Decision Making Level | This stage is a **non-repeatable** stage. Data is entered for this stage when the first decision making level has been completed. <br> This program stage has a custom form which matches the paper form HCP are accustomed to using. <br> Event date = “Report date” This is the date when the First Decision Making level form is initiated. |
 | Stage 3: National Level | This stage is a **non-repeatable** stage. Data is entered for this stage when the National level investigation has been completed. <br> This program stage has a custom form which matches the paper form HCP are accustomed to using. <br> Event date = “Report date” This is the date when the National level form is initiated. |
 
 ### Enrollment Details
@@ -145,7 +145,7 @@ The enrollment date description is “Date patient notified the event to the hea
 
 The enrolling organisation unit selected should reflect the facility organisation unit **_where the AEFI case (TEI) received the vaccination,_** even if the data is being entered by investigators or reports at another facility.
 
-![Enrollment Screenshot with details](resources/images/image03.png)
+![Enrollment Screenshot with details](resources/images/AEFI_Tracker_design_03.png)
 
 ### Attributes
 
@@ -162,7 +162,7 @@ Several identifiers have been applied to the configuration and can be adapted ba
 
 Additional identifiers can be added to the program according to national context. For example, if a National ID exists, it can be added as a TEI attribute to the AEFI and other tracker programs. This attribute is attached to the TEI itself and will remain constant across programs.
 
-![Enrollment Screenshot](resources/images/image04.png)
+![Enrollment Screenshot](resources/images/AEFI_Tracker_design_04.png)
 
 **Enrolling organisation unit:** is based on the organizational unit hierarchy (national, district, facility levels). The accessibility of seeing and charting in different “org units” is based on the user role of the user.
 
@@ -182,15 +182,15 @@ This stage is a **non-repeatable** stage, as each adverse event for an individua
 
 The Event date for this program is identified as the “Report compilation date, which is assigned as the date when the AEFI form is initiated. This date is also used as the DOR (Date of Report) in the AEFI surveillance analytics. The stage may be completed by multiple users, according to the country work processes, with a lower level user providing initial information, and a user at a higher level providing greater detail.
 
-![AEFI: Screenshot 1](resources/images/image05.png)
+![AEFI: Screenshot 1](resources/images/AEFI_Tracker_design_05.png)
 
-![AEFI: Screenshot 2](resources/images/image06.png)
+![AEFI: Screenshot 2](resources/images/AEFI_Tracker_design_06.png)
 
-![AEFI: Screenshot 3](resources/images/image07.png)
+![AEFI: Screenshot 3](resources/images/AEFI_Tracker_design_07.png)
 
-![AEFI: Screenshot 4](resources/images/image08.png)
+![AEFI: Screenshot 4](resources/images/AEFI_Tracker_design_08.png)
 
-![AEFI: Screenshot 5](resources/images/image09.png)
+![AEFI: Screenshot 5](resources/images/AEFI_Tracker_design_09.png)
 
 ### Program Stage 2: First Decision Making Level
 
@@ -198,7 +198,7 @@ This stage is a **non-repeatable** stage. Data is entered for this stage when th
 
 The Event date for this program is named by default as the “Report date”, which is assumed to be the date when the data is entered into the system. The naming of the event date can be changed according to national protocols. This stage replicates the WHO investigation and reporting form, and supports analysis for investigation.  A data element for ‘’date in which investigation is planned’ is included in this stage to support analysis of the surveillance system indicators.
 
-![First decision making level](resources/images/image10.png)
+![First decision making level](resources/images/AEFI_Tracker_design_10.png)
 
 ### Program Stage 3: National Level
 
@@ -206,7 +206,7 @@ This stage is a **non-repeatable** stage. Data is entered for this stage when th
 
 The Event date for this program is named by default as the “Report date”, which assumes the date at which the report is being entered into the system. This stage replicates the WHO investigation and reporting form.  In addition, a date is included as a Data Element for analyzing the date which the report was received at National level (which is important for surveillance indicators about time between reporting).
 
-![National level](resources/images/image11.png)
+![National level](resources/images/AEFI_Tracker_design_11.png)
 
 ### Program Rules
 
@@ -220,9 +220,61 @@ For purposes of data validation and data quality, the following program rules ha
 * If date of vaccination is before date of birth
 * If date of vaccination is before date of reconstitution
 
-A number of additional program rules have been configured to facilitate data entry. These can be reviewed in the metadata review file. **Note that when using the custom form, ‘hide field’ program rules configured for the ease of data entry will not function properly due to the workflow of the standard custom form.** However, these program rules are included in the configuration for countries that choose not to use the custom form.
+A number of additional program rules have been configured to facilitate data entry. These can be reviewed in the metadata review file. **Note that when using the custom form, ‘hide field’ program rules configured for the ease of data entry will not function properly due to the workflow of the standard custom form.** With the custom form the program rules will show a warning once the complete button is pushed. However, these program rules are included in the configuration for countries that choose not to use the custom form.
 
 ## Additional Features Configured to Support the Program
+
+### COVID 19 Updates
+
+COVID 19 requirements have been updated in the program
+
+We have updated the age grouping disaggreations for analytics
+
+* 0 < 1 year
+* 1 - 5 years
+* > 5 years - 18 years
+* > 18 years - 60 years
+* > 60 years
+
+Pregnant and Lactating have been added with the following program rules.
+
+* Mandatory fields to fill out sex and DOB
+* If greater than >10 years and female show pregnant and lactating
+
+![Top bar notifications](resources/images/AEFI_Tracker_design_12.png)
+
+A list of known COVID19 vaccines have been added to the dropdown for “Name of Vaccine” this should be reviewed per country and updated as more vaccines are approved. There is also an option for “COVID19: other” which free text can be added.
+
+“Brand Name incl. Name of Manufacturer” field was added as a free text box for the COVID context.
+
+![Covid 19 Vaccines](resources/images/AEFI_Tracker_design_13.png)
+
+There have been three added adverse event options added for the specifically for COVID
+
+* Bell’s Palsy
+* Anaphylaxis
+* Lymphadenopathy
+
+Added text in the AEFI reporting form
+
+“Past medical history (including history of similar reaction or other allergies), concomitant medication and dates of administration (exclude those used to treat reaction) other relevant information (e.g. other cases)”.
+
+![Added text](resources/images/AEFI_Tracker_design_14.png)
+
+National level section updated with causality classifications.
+
+For example:
+
+![Causality classifications 1](resources/images/AEFI_Tracker_design_15.png)
+
+![Causality classifications 2](resources/images/AEFI_Tracker_design_16.png)
+
+COVID Dashboard updates:
+
+* Chart for “Number of patients that are pregnant of lactating that has an AIEF with COVIgD vaccine
+* Chart looking at brand name and manufacturer name
+* Table to show Valid diagnosis and Final causality assessment
+* Pie chart to show final causality classification and then final causality subclassification
 
 ### Notifications
 
@@ -243,11 +295,130 @@ In order to set up SMS messaging you will need to set up an SMS gateway. Here yo
 
 The line-listing included in the dashboard mirrors the 25 core variables identified by the Global Advisory Committee on Vaccine Safety (GACVS) in June 2012. These core variables cover the expected requirements for reporting upwards to regional and global vaccine safety databases. Efforts are underway to map and code these variables to the E2B guide used by Vigibase, the WHO global database of individual case safety reports.
 
+![Line listing](resources/images/AEFI_Tracker_design_17.png)
+
+* **note:** the screenshot above does not represent the full linelist; please refer to DHIS2 to review the linelist in full
+* All the fields from the facility level line list are taken directly from the AEFI program. This includes fields from the registration process as well as the first stage within the program (labelled **“AEFI”**). The source of each of the fields within the line list is identified below.
+
+| Field/column # | Source | Variable name | Description |
+|-|---|---|---|
+| 1 |  | Number | Number of the case in the list |
+| 2 | AEFI Stage | DOR (date of report - report compilation date) | The event date of the AEFI program stage |
+| 3 | Registration Stage | DON (Date of Notification - date patient notified the event to the health system) | Date patient notified the event to the health system. Enrollment date. Found in the enrollment section |
+| 4 |  | Incident date | N/A (ignore this field) |
+| 5 | Registration Stage | Organisation unit | Organisation unit (which comes from the hierarchy) and most likely represents the facility in which the AEFI was registered |
+| 6 | AEFI Stage | AEFI - Reporter of case | The person who reported the AEFI case |
+| 7 | AEFI Stage | AEFI - Reporter’s address | The address of the person who reported the AEFI case |
+| 8 | Registration Stage | AEFI Case ID | The unique locally assigned AEFI case ID |
+| 9 | Registration Stage | Given name | The case’s given name |
+| 10 | Registration Stage | Family name | The case’s family name |
+| 11 | Registration Stage | Date of birth | The case’s date of birth |
+| 12 | Registration Stage | Sex | The case’s biological sex |
+| 13 | AEFI Stage | AEFI start date | The incident date of the AEFI (the date in which the AEFI started) |
+| 14 | AEFI Stage | AEFI serious cases | Identifies if the case was serious or non-serious |
+| 15 | AEFI Stage | AEFI - AEFI outcome | Identifies the outcome of the case as identified by health staff |
+| 16 | AEFI Stage | AEFI - Vaccination 1 date | The date in which the **first** vaccine was administered to the case |
+| 17 | AEFI Stage | AEFI - Vaccine 1 name | The name of the **first** vaccine that was administered to the case |
+| 18 | AEFI Stage | AEFI - batch/lot number (Vaccine 1) | The batch/lot number of the **first** vaccine that was administered to the case |
+| 19 | AEFI Stage | AEFI - Diluent batch/lot number 1 | The batch/lot number of the diluent used in the **first** vaccine that was administered to the case |
+| 20 | AEFI Stage | AEFI - Vaccination 2 date | The date in which the **second** vaccine (if any) was administered to the case |
+| 21 | AEFI Stage | AEFI - Vaccine 2 name | The name of the **second** vaccine (if any) that was administered to the case |
+| 22 | AEFI Stage | AEFI - batch/lot number (Vaccine 2) | The batch/lot number of the **second** vaccine (if any) that was administered to the case |
+| 23 | AEFI Stage | AEFI - Diluent batch/lot number 2 | The batch/lot number of the diluent used in the **second** vaccine (if any) that was administered to the case |
+| 24 | AEFI Stage | AEFI - Vaccination 3 date | The date in which the **third** vaccine (if any) was administered to the case |
+| 25 | AEFI Stage | AEFI - Vaccine 3 name | The name of the **third** vaccine (if any) that was administered to the case |
+| 26 | AEFI Stage | AEFI - batch/lot number (Vaccine 3) | The batch/lot number of the **third** vaccine (if any) that was administered to the case |
+| 27 | AEFI Stage | AEFI - Diluent batch/lot number 3 | The batch/lot number of the diluent used in the **third** vaccine (if any) that was administered to the case |
+| 28 | AEFI Stage | Adverse events (individual data elements) | A list of all possible adverse events that are being reported on within the program. This includes all serious and non-serious events that are reported for a case and makes up the remaining columns of the line list |
+
+#### Source Fields
+
+![Registration](resources/images/AEFI_Tracker_design_18.png)
+
+![AEFI Stage - Reporter’s Section](resources/images/AEFI_Tracker_design_19.png)
+
+![AEFI Stage - Vaccination Information](resources/images/AEFI_Tracker_design_20.png)
+
+![AEFI Stage - AEFI Information](resources/images/AEFI_Tracker_design_21.png)
+
+#### Visualizations
+
+A number of the fields within the linelist are represented as visualizations within the dashboards available in the configuration package. These can all be modified to fit local needs if required. A brief description of the visualization(s) attached to each field within the line list are described below.
+
+* Fields without visualizations:
+Number, AEFI - Reporter of case, AEFI - Reporter’s address, AEFI Case ID, Given name, Family name, AEFI start date, AEFI - Vaccination 1 date, AEFI - Vaccination 2 date, AEFI - Vaccination 3 date, AEFI - batch/lot number (Vaccine 1), AEFI - batch/lot number (Vaccine 2), AEFI - batch/lot number (Vaccine 3), AEFI - Diluent batch/lot number 1, AEFI - Diluent batch/lot number 2, AEFI - Diluent batch/lot number 3
+
+* DOR (date of report - report compilation date)
+Please refer to the AEFI surveillance dashboard for more information on how this variable is used to generate outputs for the program
+
+* DON (Date of Notification - date patient notified the event to the health system)
+Please refer to the AEFI surveillance dashboard for more information on how this variable is used to generate outputs for the program
+
+* DOO (Date of Onset - AEFI start date)
+Please refer to the AEFI surveillance dashboard for more information on how this variable is used to generate outputs for the program
+
+![AEFI National Linelist](resources/images/AEFI_Tracker_design_22.png)
+
+* **note:** the screenshot above does not represent the full linelist; please refer to DHIS2 to review the linelist in full
+
+The National Level Line list has been added with the COVID updates.  This summary linelist is derived from data included in the AEFI reporting form in the National level section.  Which includes information related to the facility level data that is collected within the form.
+
+* Located on the AEFI dashboard with the title “AEFI national summary (this year).”
+* Consists of the following information (it is recommended that you have the linelist open within DHIS2 when reviewing this description)
+* All the fields from the facility level line list are taken directly from the AEFI program. This linelist includes data from the registration process as well, the first stage within the program (labelled **“AEFI”**) as well as the third stage within the program (labeled “National level”). The source of each of the fields within the line list is identified below.
+
+| Field/column # | Source | Variable name | Description |
+|-|---|---|---|
+| 1 | Number |  | Number of the case in the list |
+| 2 | DON (Date of Notification - date patient notified the event to the health system) | Registration Stage | Date patient notified the event to the health system. Enrollment date. Found in the enrollment section |
+| 3 | Incident date |  | N/A (ignore this field) |
+| 4 | Organisation unit | Registration Stage | Organisation unit (which comes from the hierarchy) and most likely represents the facility in which the AEFI was registered |
+| 5 | AEFI Case ID | Registration Stage | The unique locally assigned AEFI case ID |
+| 6 | AEFI - Date when seen for approval at national level | National level stage | The date in which the AEFI report was received at the national level in preparation for approval |
+| 7 | AEFI - Date of final classification | National level stage | The date in which the final classification of the AEFI was made |
+| 8 | AEFI - Valid Diagnosis | National level stage | The validated diagnosis used for the causality assessment |
+| 9 | AEFI - Vaccine 1 name |  AEFI Stage| The name of the first vaccine that was administered to the case |
+| 10 | AEFI - Vaccination 1 date | AEFI Stage | The date in which the first vaccine was administered to the case |
+| 11 | AEFI - Vaccine 2 name | AEFI Stage | The name of the second vaccine (if any) that was administered to the case |
+| 12 | AEFI - Vaccination 2 date | AEFI Stage | The date in which the second vaccine (if any) was administered to the case |
+| 13 | AEFI - Vaccine 3 name | AEFI Stage | The name of the third vaccine (if any) that was administered to the case |
+| 14 | AEFI - Vaccination 3 date | AEFI Stage | The date in which the third vaccine (if any) was administered to the case |
+| 15 | AEFI - Vaccine 4 name | AEFI Stage | The name of the third vaccine (if any) that was administered to the case |
+| 16 | AEFI - Vaccination 4 date | AEFI Stage | The date in which the third vaccine (if any) was administered to the case |
+| 17 | AEFI - Final causality assessment classification | National level stage | The final causality assessment of the AEFI as determined by the national level review team |
+| 18 | AEFI - Final causality assessment sub-classification | National level stage | The final causality assessment sub-classification of the AEFI as determined by the national level review team |
+
+The linelist highlights the link between the vaccination which caused an AEFI and the final causality assessment classification and sub-classification as determined by the national level review team.
+
+#### Source Fields
+
+![Registration](resources/images/AEFI_Tracker_design_23.png)
+
+![AEFI Stage - Vaccination Information](resources/images/AEFI_Tracker_design_24.png)
+
+![National level stage](resources/images/AEFI_Tracker_design_25.png)
+
+#### Visualizations
+
+Visualizations associated with the AEFI stage are detailed in the overview of the AEFI facility level line list. There are two key visualizations associated with causality assessment classification and sub-classification.
+
+##### AEFI - Final causality assessment classification
+
+This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their Final causality assessment classification
+
+![AEFI - Final classification](resources/images/AEFI_Tracker_design_26.png)
+
+##### AEFI - Final causality assessment sub-classification
+
+This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their final causality assessment sub-classification
+
+![AEFI - Final sub-classification](resources/images/AEFI_Tracker_design_27.png)
+
 ## Android Compatibility for Data Collection
 
 Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en). The following are known limitations of DHIS2 Android Capture app v 2.2.0 with implications on this tracker package:
 
-**Access level ‘protected’:** The ‘breaking the glass’ feature is not supported in DHIS2 Android Capture App up to v. 2.3.0. If the program is configured as ‘Protected’, the default behavior for Android will be the same as if the program is configured as ‘closed.’ This means that an Android user will not be able to read or edit enrollments of a TEI outside of their org unit. TEIs registered in a Search OU will be returned by the TE Type search but if the program is closed or protected the user will not be allowed to see or create a new enrollment. If Android users must be able to access TEI outside of their data capture org unit, the program should be configured with access level ‘Open.’
+* The custom data entry form is not supported
 
 ## Dashboards, Analytics and Indicators
 
