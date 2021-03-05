@@ -39,9 +39,8 @@ Workflows will vary from country to country. The program design should be review
 
 ## Tracker Program Configuration
 
-|||
-|---|---|
 |Structure|Description|
+|---|---|
 |Enrollment|If a person is not already registered in the instance, they are registered and enrolled into the immunization registry as a TEI (TEI Type Person) and their data is captured in the Enrollment as attributes, which match the existing COVID-19 packages for DHIS2. TEI Attributes: National ID, Unique ID, Given name, Sex, Date of Birth is Estimated, Date of Birth (age), Mobile phone number, Address (current), Area, Occupation|
 |Program Stage 1: Vaccination|This is a repeatable stage. Data is entered for this stage each time a person receives a vaccination.Event date = Date when dose was given \ Due date= Allows for scheduling of next dose|
 |Section 1.1 Underlying conditions|Information on health states and/or pre-existing underlying conditions that have been determined to expose to a significantly higher risk of severe infection or death. The package contains same preexisting conditions used in the rest of the COVID packages.|
@@ -50,9 +49,8 @@ Workflows will vary from country to country. The program design should be review
 
 ### Data elements in the vaccination stage
 
-|||||
+|Data element (Form name)|Linked to Indicators|Linked to DIVOC|Linked to program rules|
 |--- |--- |--- |--- |
-|Data element (Form name)|Used on Indicators|Used on DIVOC|Linked to program rules|
 |Dose given on (Vaccination date) Not a data element|Yes|Yes|Yes|
 |Is the patient pregnant or lactating?|No|No|Yes|
 |Pregnancy gestation (weeks)|No|No|Yes|
@@ -83,9 +81,9 @@ Workflows will vary from country to country. The program design should be review
 The specific COVID-19 products available in the country and vaccine schedules will vary by country. This package includes vaccine products following the documentation available from WHO, which will continue to evolve as vaccines enter the market: <https://extranet.who.int/pqweb/sites/default/files/documents/Status_COVID_VAX_16Feb2021.pdf>
 
 In order to better demonstrate functionality, these placeholders have been configured based on five existing vaccine products, but it is important to verify and configure the programme based on the national adoption guidelines for the product. \
-|||||||||
-|--- |--- |--- |--- |--- |--- |--- |--- |
+
 |Vaccine NAME|Option Code|Vaccine Manufacturer|Option Code|Age Recommendation|Dose Interval|Number of doses|
+|--- |--- |--- |--- |--- |--- |--- |--- |
 |AZD1222/AstraZeneca|astrazeneca|AstraZeneca|astrazeneca|18|10 days (8-12*)|2|
 |AZD1222/AstraZeneca|astrazeneca|SKBio Astra Zeneca|skbioastrazeneca|18|10 (8-12*)|2|
 |BNT162b2 / COMIRNATY Tozinameran (INN) / BioNTech/Pfizer|biontechpfizer|BioNtech/Pfizer|biontechpfizer|16|21|2|
@@ -142,7 +140,7 @@ The rules all use a similar expression:
 Where you would need to modify the number, 18 in this case,  to match the necessary age.
 
 The action for these program rules is to show a warning:
-“This vaccine product is recommended for people 18 and older. .”  
+“This vaccine product is recommended for people 18 and older.”  
 
 You should also modify this warning to match the most appropriate National Guidelines..
 
@@ -490,9 +488,8 @@ Changed AEFI notification from “Please ensure to register this adverse effect 
 
 Changed placeholder codes
 
-|||||||||
-|--- |--- |--- |--- |--- |--- |--- |--- |
 |Vaccine Name|Vaccine Optioncode (old)|Vaccine Option Code (Current)|Manufacturer name|Option Code|Age Recommendation|Dose Interval|Number of doses|
+|--- |--- |--- |--- |--- |--- |--- |--- |
 |AZD1222 / AstraZeneca|COVAC1|astrazeneca|AstraZeneca|astrazeneca|18|10 days (8-12*)|2|
 |AZD1222 / AstraZeneca|COVAC1|astrazeneca|SKBio Astra Zeneca|skbioastrazeneca|18|10 (8-12*)|2|
 |BNT162b2 / COMIRNATY Tozinameran (INN) / BioNTech/Pfizer|COVAC2|biontechpfizer|Comirnaty, Tozinameran|biontechpfizer|16|21|2|
@@ -507,3 +504,15 @@ Change COVAX to COVAC (Also in this document)
 Change order of Custom working lists
 
 Added a prefix “COVAC” to objects which could give import issues with instances that have existing packages (Sex, Yes/No/Unknown/, Urban/Rural)
+
+### Change log for version 1.1
+
+Change log version 1.1
+
+Modified program rule “  If previous vaccine is same as current vaccine, hide explanation field”
+
+Added program rule “Hide Suggested date for next dose if second dose and vaccine product has no more doses”
+
+Modified expression in Program rule “If patient has had underlying diseases, transfer that value to following stage” and added action to assign value to current PR variable.
+
+Modified expressions in Program rules “If client has a history of XXX assign value to current event”
