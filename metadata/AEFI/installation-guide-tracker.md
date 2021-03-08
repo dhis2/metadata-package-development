@@ -168,3 +168,103 @@ Once the programme has been imported, you might want to make certain modificatio
 * Modifying program indicators based on local case definitions
 
 However, it is strongly recommended to take great caution if you decide to change or remove any of the included form/metadata. There is a danger that modifications could break functionality, for example program rules and program indicators.
+
+## Line Listing
+
+Due to technical issues, two essential line lists are not included in the generic package. The implementers are required to configure these line lists following the steps below
+
+### AEFI Line listing (Event Report)
+
+![Line listing](resources/images/AEFI_Tracker_design_17.png)
+
+* **note:** the screenshot above does not represent the full line list
+
+1. Go to **DHIS 2 Event Reports app**
+2. Select Table style **Line list**
+3. Select Output style **Event**
+4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+5. Select Stage **AEFI**
+6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
+7. In **Periods** section, select **This Year**
+8. In **Organisation units** section, select **User org unit**
+9. CLick **Favourites** button and **Save**.
+10. Add **Name** - AEFI LINE LISTING - this year
+11. CLick **Favourites** button and **Save**.
+12. Click **Share**. Restrict external and public access and share the event report with applicable user groups: **AEFI access (can view)** and **AEFI admin (can edit and view)**
+13. Go to **AEFI Dashboard** and add the event report to the dashboard.
+
+| Field/column # | Variable name | Source Stage | Object Type |
+|-|---|---|---|
+| 1 | Number |  |  |
+| 2 | DOR (date of report - report compilation date) |  |  |
+| 3 | DON (Date of Notification - date patient notified the event to the health system) |  |  |
+| 4 | Incident date |  |  |
+| 5 | Organisation unit |  |  |
+| 6 | AEFI - Reporter of case | AEFI Stage | Data element |
+| 7 | AEFI - Reporter’s address | AEFI Stage | Data element |
+| 8 | AEFI Case ID |  | Program attribute |
+| 9 | Given name |  | Program attribute |
+| 10 | Family name |  | Program attribute |
+| 11 | Date of birth |  | Program attribute |
+| 12 | Sex |  | Program attribute |
+| 14 | AEFI serious cases | AEFI Stage | Data element |
+| 15 | AEFI - AEFI outcome | AEFI Stage | Data element |
+| 16 | AEFI - Vaccination 1 date | AEFI Stage | Data element |
+| 17 | AEFI - Vaccine 1 name | AEFI Stage | Data element |
+| 18 | AEFI - batch/lot number (Vaccine 1) | AEFI Stage | Data element |
+| 19 | AEFI - Diluent batch/lot number 1 | AEFI Stage | Data element |
+| 20 | AEFI - Vaccination 2 date | AEFI Stage | Data element |
+| 21 | AEFI - Vaccine 2 name | AEFI Stage | Data element |
+| 22 | AEFI - batch/lot number (Vaccine 2) | AEFI Stage | Data element |
+| 23 | AEFI - Diluent batch/lot number 2 | AEFI Stage |  Data element |
+| 24 | AEFI - Vaccination 3 date | AEFI Stage |  Data element |
+| 25 | AEFI - Vaccine 3 name | AEFI Stage | Data element |
+| 26 | AEFI - batch/lot number (Vaccine 3) | AEFI Stage | Data element |
+| 27 | AEFI - Diluent batch/lot number 3 | AEFI Stage | Data element |
+| 28 | Adverse events (individual data elements) | AEFI Stage | Data element |
+
+### AEFI national level summary (Event Report)
+
+![AEFI National Linelist](resources/images/AEFI_Tracker_design_22.png)
+
+
+* **note:** the screenshot above does not represent the full linelist
+
+1. Go to **DHIS 2 Event Reports app**
+2. Select Table style **Line list**
+3. Select Output style **Enrollment**
+4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+5. Select applicable Stage. See the table below
+6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
+7. In **Periods** section, select **Last 12 months**
+8. In **Organisation units** section, select **User org unit**
+9. CLick **Favourites** button and **Save**.
+10. Add **Name** - AEFI national level summary (this year)
+11. Click **Favourites** button and **Save**.
+12. Click **Share**. Restrict External access, enable public access.
+13. Go to **AEFI Dashboard** and add the event report to the dashboard.
+
+| Field/column # | Variable name | Source Stage | Object type |
+|-|---|---|---|
+| 1 | Number |  |  |
+| 2 | DON (Date of Notification - date patient notified the event to the health system) |  |  |
+| 3 | Incident date |  |  |  |
+| 4 | Organisation unit |  |  |
+| 5 | AEFI Case ID |  | Program attribute |
+| 6 | AEFI - Date when seen for approval at national level | National level stage | Data element |
+| 7 | AEFI - Date of final classification | National level stage | Data element |
+| 8 | AEFI - Valid Diagnosis | National level stage | Data element |
+| 9 | AEFI - Vaccine 1 name |  AEFI Stage | Data element |
+| 10 | AEFI - Vaccination 1 date | AEFI Stage | Data element |
+| 11 | AEFI - Vaccine 2 name | AEFI Stage | Data element |
+| 12 | AEFI - Vaccination 2 date | AEFI Stage | Data element |
+| 13 | AEFI - Vaccine 3 name | AEFI Stage | Data element |
+| 14 | AEFI - Vaccination 3 date | AEFI Stage | Data element |
+| 15 | AEFI - Vaccine 4 name | AEFI Stage | Data element |
+| 16 | AEFI - Vaccination 4 date | AEFI Stage | Data element |
+| 17 | AEFI - Final causality assessment classification | National level stage | Data element |
+| 18 | AEFI - Final causality assessment sub-classification | National level stage | Data element |
+
+#### Visualizations
+
+Visualizations associated with the AEFI stage are detailed in the overview of the AEFI facility level line list. There are two key visualizations associated with causality assessment classification and sub-classification.
