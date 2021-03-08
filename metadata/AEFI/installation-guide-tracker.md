@@ -1,6 +1,6 @@
 # Tracker Packages Installation Guide
 
-Last updated 12/02/2021
+Last updated 08/03/2021
 
 Package Version 1.1.0
 DHIS2 Version compatibility 2.33.2 and above
