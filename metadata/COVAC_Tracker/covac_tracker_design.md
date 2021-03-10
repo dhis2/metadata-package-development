@@ -1,12 +1,5 @@
 # Covid-19 Immunization Registry Tracker System Design
 
-Last updated: 04.03.2021
-
-DHIS2 Version compatibility:
-
-Link to demo: <https://who.sandbox.dhis2.org/covac_demo>  
-Spreadsheet with Metadata overview: add link
-
 ## Introduction
 
 The COVID-19 Immunization System Design document provides an overview of the conceptual design used to configure a DHIS2-tracker program serving as an electronic immunization registry for COVID-19 vaccines. This document is intended for use by DHIS2 implementers at country and regional level to be able to support implementation and localization of the package. Local work flows, national guidelines, and the respective vaccination product guidelines should be considered in the localization and adaptation of this configuration package.
