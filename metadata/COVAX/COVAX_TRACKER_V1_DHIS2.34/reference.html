@@ -53,7 +53,7 @@
       </tr>
       <tr>
         <th>Version</th>
-        <td>V1.1.0</td>
+        <td>V1.1.1</td>
       </tr>
       <tr>
         <th>DHIS2 version</th>
@@ -61,11 +61,11 @@
       </tr>
       <tr>
         <th>Created</th>
-        <td>20210303T014351</td>
+        <td>20210310T014404</td>
       </tr>
       <tr>
         <th>Identifier</th>
-        <td>COVAC_TRACKER_V1.1.0_DHIS2.34.3-80c86cc_20210303T014351</td>
+        <td>COVAC_TRACKER_V1.1.1_DHIS2.34.3-80c86cc_20210310T014404</td>
       </tr>
     </table>
     <h2 id="trackedEntityTypes">Tracked entity types</h2>
@@ -178,7 +178,7 @@
       </tr>
       <tr>
         <td>COVAC - Sex</td>
-        <td>covac_patinfo_sex</td>
+        <td>patinfo_sex</td>
         <td>Sex of Person</td>
         <td></td>
         <td>CklPZdOd6H1</td>
@@ -208,7 +208,7 @@
       </tr>
       <tr>
         <th>Last updated:</th>
-        <td>2021-03-02</td>
+        <td>2021-03-08</td>
       </tr>
       <tr>
         <th>UID:</th>
@@ -972,6 +972,12 @@
         <td>srC0NIzM3Ou</td>
       </tr>
       <tr>
+        <td>Hide Suggested date for next dose if vaccine product has no more doses</td>
+        <td>All vaccine types with two doses, after they receive one does, the "next dose date" will be hidden.</td>
+        <td></td>
+        <td>R1bzqObecyQ</td>
+      </tr>
+      <tr>
         <td>Hide Trimester if nor pregnant</td>
         <td></td>
         <td></td>
@@ -1117,7 +1123,7 @@
       </tr>
       <tr>
         <td>If patient has had underlying diseases, transfer that value to following stage</td>
-        <td>Rule transfers date of remission and if person has previously had covid</td>
+        <td></td>
         <td></td>
         <td>AmgPexdbztQ</td>
       </tr>
@@ -1271,7 +1277,7 @@
       <tr>
         <td>COVAC - AEFIs present</td>
         <td>COVAC - AEFIs present</td>
-        <td>AEFIs_present</td>
+        <td>COVAC_AEFIs_present</td>
         <td>Are there any adverse events present after receiving the immunization?</td>
         <td>default</td>
         <td></td>
@@ -1559,10 +1565,6 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - AEFIs present</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
         <td>COVAC - Malignancy</td>
       </tr>
       <tr>
@@ -1576,6 +1578,10 @@
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
         <td>COVAC - Chronic Lung Disease</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - AEFIs present</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
@@ -1676,7 +1682,7 @@
         <td>COVAC trimester</td>
         <td></td>
         <td>kgDmgTYZICP</td>
-        <td>1st Trimester (1-12 weeks); 2nd Trimester (13-28 weeks); 3rd Trimester (20-40 weeks)</td>
+        <td>1st Trimester (1-12 weeks); 2nd Trimester (13-28 weeks); 3rd Trimester (29-40 weeks)</td>
       </tr>
       <tr>
         <td>COVAC Vaccine Manufacturers</td>
@@ -1755,7 +1761,7 @@
       </tr>
       <tr>
         <td>COVAC trimester</td>
-        <td>3rd Trimester (20-40 weeks)</td>
+        <td>3rd Trimester (29-40 weeks)</td>
         <td>3trimester</td>
         <td></td>
         <td>Q3obJT1MXov</td>
@@ -2354,34 +2360,10 @@
         <th>UID</th>
       </tr>
       <tr>
-        <td>COVAC - At least one underlying condition</td>
+        <td>COVAC - People with completed vaccination schedule</td>
+        <td>COVAC - People with completed vaccination schedule</td>
         <td></td>
-        <td></td>
-        <td>gNsB9zivLTy</td>
-      </tr>
-      <tr>
-        <td>COVAC - Complete vaccination uptake</td>
-        <td></td>
-        <td></td>
-        <td>aUjo2Myd25f</td>
-      </tr>
-      <tr>
-        <td>COVAC - Cumulative number of given doses, Last 4 weeks</td>
-        <td>TEST TEST</td>
-        <td></td>
-        <td>vmNUVdhuxN7</td>
-      </tr>
-      <tr>
-        <td>COVAC - Drop-out from COV-1 to COV-c</td>
-        <td></td>
-        <td></td>
-        <td>Hbs3xGj7XoN</td>
-      </tr>
-      <tr>
-        <td>COVAC - Number of doses administered</td>
-        <td></td>
-        <td></td>
-        <td>GJPPSQuVt4N</td>
+        <td>TWG0cq8P539</td>
       </tr>
       <tr>
         <td>COVAC - People receiving COV-2 vs People completing the vaccination schedule (Cov-C)</td>
@@ -2390,10 +2372,10 @@
         <td>wHd33PaphEC</td>
       </tr>
       <tr>
-        <td>COVAC - People with completed vaccination schedule</td>
-        <td>COVAC - People with completed vaccination schedule</td>
+        <td>COVAC - At least one underlying condition</td>
         <td></td>
-        <td>TWG0cq8P539</td>
+        <td></td>
+        <td>gNsB9zivLTy</td>
       </tr>
       <tr>
         <td>COVAC - Underlying conditions</td>
@@ -2402,10 +2384,16 @@
         <td>vFkbMQiABfj</td>
       </tr>
       <tr>
-        <td>COVAC - Vaccine uptake by age group</td>
+        <td>COVAC - Number of doses administered</td>
         <td></td>
         <td></td>
-        <td>BWlYGFBDbO2</td>
+        <td>GJPPSQuVt4N</td>
+      </tr>
+      <tr>
+        <td>COVAC - Complete vaccination uptake</td>
+        <td></td>
+        <td></td>
+        <td>aUjo2Myd25f</td>
       </tr>
       <tr>
         <td>COVAC - Vaccine uptake by sex</td>
@@ -2414,10 +2402,28 @@
         <td>KV7fffdXnlY</td>
       </tr>
       <tr>
+        <td>COVAC - Vaccine uptake by age group</td>
+        <td></td>
+        <td></td>
+        <td>BWlYGFBDbO2</td>
+      </tr>
+      <tr>
         <td>COVAC - Vaccine uptake, last month</td>
         <td></td>
         <td></td>
         <td>MzSAvoJ0vLr</td>
+      </tr>
+      <tr>
+        <td>COVAC - Drop-out from COV-1 to COV-c</td>
+        <td></td>
+        <td></td>
+        <td>Hbs3xGj7XoN</td>
+      </tr>
+      <tr>
+        <td>COVAC - Cumulative number of given doses, Last 4 weeks</td>
+        <td>TEST TEST</td>
+        <td></td>
+        <td>vmNUVdhuxN7</td>
       </tr>
     </table>
     <h2 id="maps">Maps</h2>
