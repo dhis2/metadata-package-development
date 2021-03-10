@@ -514,3 +514,17 @@ Added program rule “Hide Suggested date for next dose if second dose and vacci
 Modified expression in Program rule “If patient has had underlying diseases, transfer that value to following stage” and added action to assign value to current PR variable.
 
 Modified expressions in Program rules “If client has a history of XXX assign value to current event”
+
+### Change log for version 1.1.1
+
+Modified Option "3rd Trimester 20-40 weeks" fixed to "3rd Trimester 29-40 weeks"
+
+Modified expression in Programe Rule "If previous vaccine is same as current vaccine, hide explanation field" 
+
+Added program rule to hide the "suggested date for next dose" on the last recommended dose for a vaccine product.
+
+Modified program rule "If patient has had underlying diseases, transfer that value to the following stage. Changed priority, added action Assign value: "'Yes'" to variable "#{Underlying_conditions}"
+
+Modified program rule "Hide underlying conditions if none", modified expression, changed priority.
+
+Mofified program rule "If cliend has a history of xxx, add value to current event", changed expression from d2:HasValue to #{variable} != ''
