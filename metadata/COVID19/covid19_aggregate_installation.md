@@ -1,13 +1,5 @@
 # Aggregate Package Installation Guide
 
-Last updated 27/03/2020
-
-Package Version 0.3.2
-
-DHIS2 Version compatibility 2.30 - 2.33
-
-Demo: [https://covid.dhis2.org](https://covid.dhis2.org/demo)
-
 ## Overview
 
 This document is intended to guide administrators through the process of installing the COVID-19 standard configuration package for DHIS2 for aggregate reporting. Good understanding of DHIS2 is required.
