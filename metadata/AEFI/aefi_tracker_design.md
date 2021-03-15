@@ -241,7 +241,7 @@ A number of additional program rules have been configured to facilitate data ent
 * Varicella
 * Diphtheria-Tetanus-Pertussis (whole cell)-Hep B-Haemohilus influenzae type B (penta)
 
-![Top bar notifications](resources/images/AEFI_Tracker_design_28.png)
+![Diluent Information](resources/images/AEFI_Tracker_design_28.png)
 
 ## Additional Features Configured to Support the Program
 
@@ -290,12 +290,40 @@ For example:
 
 ![Causality classifications 2](resources/images/AEFI_Tracker_design_16.png)
 
-COVID Dashboard updates:
+AEFI COVID Dashboard updates:
 
-* Chart for “Number of patients that are pregnant of lactating that has an AIEF with COVIgD vaccine
-* Chart looking at brand name and manufacturer name
-* Table to show Valid diagnosis and Final causality assessment
-* Pie chart to show final causality classification and then final causality subclassification
+The AEFI COVID dashboard contains key monitoring indicators that are aligned with the WHO’s recommendations.
+
+The first group of charts in the dashboard gives a quick overview of the AEFI’s by COVID vaccine type, geographical area, and events/reactions.
+
+![AEFI COVID Dashboard - 1.2](resources/images/AEFI_Tracker_design_29.png)
+
+![AEFI COVID Dashboard - 1.2](resources/images/AEFI_Tracker_design_30.png)
+
+![AEFI COVID Dashboard - 1.3](resources/images/AEFI_Tracker_design_31.png)
+
+The second group of charts shows Adverse event following COVID vaccination type by pregnancy and lactation status
+
+![AEFI COVID Dashboard - 2.1](resources/images/AEFI_Tracker_design_32.png)
+
+#### AEFI - Final causality assessment classification
+
+This visualization is located on the AEFI dashboard.
+
+* AEFI - Final classification
+
+Pie chart: shows the total number of AEFI cases disaggregated by their Final causality assessment classification
+
+![AEFI - Final classification](resources/images/AEFI_Tracker_design_33.png)
+
+#### AEFI - Final causality assessment sub-classification
+
+This visualization is located on the AEFI dashboard.
+
+AEFI - Final sub-classification
+Pie chart: shows the total number of AEFI cases disaggregated by their final causality assessment sub-classification
+
+![AEFI - Final causality assessment sub-classification](resources/images/AEFI_Tracker_design_34.png)
 
 ### Notifications
 
