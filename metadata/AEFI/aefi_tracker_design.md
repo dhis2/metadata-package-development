@@ -222,6 +222,27 @@ For purposes of data validation and data quality, the following program rules ha
 
 A number of additional program rules have been configured to facilitate data entry. These can be reviewed in the metadata review file. **Note that when using the custom form, ‘hide field’ program rules configured for the ease of data entry will not function properly due to the workflow of the standard custom form.** With the custom form the program rules will show a warning once the complete button is pushed. However, these program rules are included in the configuration for countries that choose not to use the custom form.
 
+**Hide** show rules have been added for vaccines with diluents. Not all vaccines are reconstituted with a diluent. A list has been configured of vaccines with diluents based on WHO recommendations and [WHO prequalified vaccines](https://extranet.who.int/pqweb/vaccines/prequalified-vaccines?field_vaccines_effective_date%5Bdate%5D=&field_vaccines_effective_date_1%5Bdate%5D=&field_vaccines_name=&search_api_views_fulltext=&field_pharmaceutical_form=Lyophilised%20active%20component%20%20to%20be%20reconstituted%20with%20excipient%20diluent%20before%20use&field_vaccines_number_of_doses=&page=6). When a vaccine that is reconstituted with a diluent is chosen the date elements associated with diluants will show based on program rules and enable the user to add the diluent information.
+
+**Vaccines with Diluents:**
+* Yellow Fever
+* Haemophilus influenzae type b (Hib)
+* BCG
+* Dengue
+* Japanese Encephalitis
+* Measles
+* Measles and Rubella
+* Measles, Mumps, and Rubella
+* Meningococcal A
+* Influenza Pandemic (H1N1)
+* Rotavirus
+* Rabies
+* Rubella
+* Varicella
+* Diphtheria-Tetanus-Pertussis (whole cell)-Hep B-Haemohilus influenzae type B (penta)
+
+![Top bar notifications](resources/images/AEFI_Tracker_design_28.png)
+
 ## Additional Features Configured to Support the Program
 
 ### COVID 19 Updates
@@ -230,11 +251,11 @@ COVID 19 requirements have been updated in the program
 
 We have updated the age grouping disaggreations for analytics
 
-* 0 < 1 year
-* 1 - 5 years
-* > 5 years - 18 years
-* > 18 years - 60 years
-* > 60 years
+* 0<1 year
+* 1-5 years
+* >5 years-18 years
+* >18 years-60 years
+* >60years
 
 Pregnant and Lactating have been added with the following program rules.
 
