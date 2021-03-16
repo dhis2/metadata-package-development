@@ -251,7 +251,7 @@ COVID 19 requirements have been updated in the program
 
 We have updated the age grouping disaggreations for analytics
 
-* 0 < 1 year
+* 0 - 1 year
 * 1 - 5 years
 * 5 - 18 years
 * 18 - 60 years
