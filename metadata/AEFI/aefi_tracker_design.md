@@ -447,22 +447,6 @@ The linelist highlights the link between the vaccination which caused an AEFI an
 
 ![National level stage](resources/images/AEFI_Tracker_design_25.png)
 
-#### Visualizations
-
-Visualizations associated with the AEFI stage are detailed in the overview of the AEFI facility level line list. There are two key visualizations associated with causality assessment classification and sub-classification.
-
-##### AEFI - Final causality assessment classification
-
-This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their Final causality assessment classification
-
-![AEFI - Final classification](resources/images/AEFI_Tracker_design_26.png)
-
-##### AEFI - Final causality assessment sub-classification
-
-This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their final causality assessment sub-classification
-
-![AEFI - Final sub-classification](resources/images/AEFI_Tracker_design_27.png)
-
 ## Android Compatibility for Data Collection
 
 Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [Google Play store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en). The following are known limitations of DHIS2 Android Capture app v 2.2.0 with implications on this tracker package:
