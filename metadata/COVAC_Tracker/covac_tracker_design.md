@@ -1,12 +1,5 @@
 # Covid-19 Immunization Registry Tracker System Design
 
-Last updated: 04.03.2021
-
-DHIS2 Version compatibility:
-
-Link to demo: <https://who.sandbox.dhis2.org/covac_demo>  
-Spreadsheet with Metadata overview: add link
-
 ## Introduction
 
 The COVID-19 Immunization System Design document provides an overview of the conceptual design used to configure a DHIS2-tracker program serving as an electronic immunization registry for COVID-19 vaccines. This document is intended for use by DHIS2 implementers at country and regional level to be able to support implementation and localization of the package. Local work flows, national guidelines, and the respective vaccination product guidelines should be considered in the localization and adaptation of this configuration package.
@@ -285,7 +278,7 @@ These should be adapted to national needs
 
 ### SMS Notifications
 
-DHIS2 has an SMS notifications module, but in order to use the notifications, and SMS gateway needs to be configured. See documentation on sms gateways here: <https://docs.dhis2.org/master/en/developer/html/webapi_sms.html>
+DHIS2 has an SMS notifications module, but in order to use the notifications, and SMS gateway needs to be configured. See documentation on sms gateways here: <https://docs.dhis2.org/en/develop/using-the-api/dhis-core-version-master/sms.html>
 
 The programme includes a default reminder 7 days before the scheduled due date for a vaccination event:
 
@@ -429,102 +422,3 @@ Even though the package is published from 2.33, our testing indicates that the b
 
 * Refusal of vaccination Data element + Vaccination not given w/ Option set Stockout Postpone Contraindication Refusal Other
 * Stock considerations
-
-## Change logs
-
-If you have installed one of the work in progress packages before the official release, these are the main changes between each iteration:
-
-### Change log for Version 0.1
-
-Indicators “AEFI by product”: Modified filter
-Visualisation “COVAC-AEFI by type of event”: added Bell’s Palsy, Lymphadenopathy, Neurological/Muscular
-Added explanation for dropout visualisations
-Added SMS alerts
-Modified Program rules to fit android requirements
-Fixed several typos
-Changed batch number to “render as barcode” on android
-Modified programme rules for assigning values to underlying diseases from being active in the whole programme to only being active in the vaccination stage
-
-### Change log for version 0.2
-
-Added User groups:
-COVID Immunization Metadata Admin
-COVID Immunization Data Capture
-COVID Immunization Data analysis
-Removed AEFI Stage
-Removed AEFI Indicators
-Removed AEFI Program Indicators
-Added DE “AEFIS present” in the vaccination stage
-
-### Change Log for version 0.3
-
-Added Manufacturers
-Added summy manufacturers option set
-Added Total doses required for this vaccine
-Added programme rule which hides manufacturer names depending on vaccine product
-Added programme rule which assigns number of total doses required
-Changed “Dose given on” to “Dose given on (Vaccination date)”
-Changed Unique Identifier attribute to EPI’s unique identifier in order to match AEFI
-
-### Change Log for version 0.4
-
-Changed DE “Vaccine type” to “Vaccine given” and changed placeholders option names (i.e. COVAC1) to names of products and  manufacturers (ie “mRNA-1273/Moderna”)
-
-Changed DE “Vaccine Name” to vaccine Manufacturer and added a list
-
-Added Gamaleya and Sinopharm & respective products (See table below)
-
-Added program rule to auto populate manufacturer DE based on vaccine name
-
-Added program rule to hide vaccine name options for Astrazeneca
-
-Added program rule to auto populate “This is the last dose” DE when a patient is given a second dose. (this assumes that all current products have two doses in their vaccine schedule)
-
-Modified the expression in program rule which does not assign a new date for next dose after last dose is completed.
-
-Changed AEFI notification from “Please ensure to register this adverse effect in the AEFI stage” to “Please conduct an AEFI investigation following the official procedures for AEFI investigations”
-
-Changed placeholder codes
-
-|Vaccine Name|Vaccine Optioncode (old)|Vaccine Option Code (Current)|Manufacturer name|Option Code|Age Recommendation|Dose Interval|Number of doses|
-|--- |--- |--- |--- |--- |--- |--- |--- |
-|AZD1222 / AstraZeneca|COVAC1|astrazeneca|AstraZeneca|astrazeneca|18|10 days (8-12*)|2|
-|AZD1222 / AstraZeneca|COVAC1|astrazeneca|SKBio Astra Zeneca|skbioastrazeneca|18|10 (8-12*)|2|
-|BNT162b2 / COMIRNATY Tozinameran (INN) / BioNTech/Pfizer|COVAC2|biontechpfizer|Comirnaty, Tozinameran|biontechpfizer|16|21|2|
-|mRNA-1273 / Moderna|COVAC3|moderna|mRNA-1273|moderna|18|28|2|
-|Gamaleya|COVAC4|gamaleya|Sputnik V|gamaleya|18|21|2|
-|SARS-CoV-2 Vaccine (VeroCell), Inactivated / Sinopharm|COVAC5|sinopharm|Coronavac, BBIBP-CorV|sinopharm|18|21 days (21-28)*|2|
-
-### Change log for version 0.5
-
-Change COVAX to COVAC (Also in this document)
-
-Change order of Custom working lists
-
-Added a prefix “COVAC” to objects which could give import issues with instances that have existing packages (Sex, Yes/No/Unknown/, Urban/Rural)
-
-### Change log for version 1.1
-
-Change log version 1.1
-
-Modified program rule “  If previous vaccine is same as current vaccine, hide explanation field”
-
-Added program rule “Hide Suggested date for next dose if second dose and vaccine product has no more doses”
-
-Modified expression in Program rule “If patient has had underlying diseases, transfer that value to following stage” and added action to assign value to current PR variable.
-
-Modified expressions in Program rules “If client has a history of XXX assign value to current event”
-
-### Change log for version 1.1.1
-
-Modified Option "3rd Trimester 20-40 weeks" fixed to "3rd Trimester 29-40 weeks"
-
-Modified expression in Programe Rule "If previous vaccine is same as current vaccine, hide explanation field" 
-
-Added program rule to hide the "suggested date for next dose" on the last recommended dose for a vaccine product.
-
-Modified program rule "If patient has had underlying diseases, transfer that value to the following stage. Changed priority, added action Assign value: "'Yes'" to variable "#{Underlying_conditions}"
-
-Modified program rule "Hide underlying conditions if none", modified expression, changed priority.
-
-Mofified program rule "If cliend has a history of xxx, add value to current event", changed expression from d2:HasValue to #{variable} != ''
