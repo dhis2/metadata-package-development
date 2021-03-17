@@ -1,9 +1,4 @@
-# Tracker Packages Installation Guide
-
-Package Version 1.1.0
-DHIS2 Version compatibility 2.33.2 and above
-
-Demo: <https://who-demos.dhis2.org/tracker_demo>
+# AEFI Tracker Installation Guide
 
 ## Overview
 
@@ -223,47 +218,50 @@ Due to technical issues, two essential line lists are not included in the generi
 | 28 | AEFI - Abdominal pain | AEFI Stage | Data element | T6tsxbKzikz |
 | 29 | AEFI - Abscess | AEFI Stage | Data element | wce39JmsjIK |
 | 30 | AEFI - Anaphylaxis | AEFI Stage | Data element | MkIgCrCTFyE |
-| 31 | AEFI - Chills | AEFI Stage | Data element | TPSvWhUfib3 |
-| 32 | AEFI - Cough | AEFI Stage | Data element | ZdFB8xUhOUM |
-| 33 | AEFI - Diarrhoea | AEFI Stage | Data element | NAiZTRCHRWL |
-| 34 | AEFI - Dizziness | AEFI Stage | Data element | XluNAFG1wj6 |
-| 35 | AEFI - Drowsiness | AEFI Stage | Data element | rjjRNU5yDhT |
-| 36 | AEFI - Encephalopathy | AEFI Stage | Data element | pdpAEuUS1W9 |
-| 37 | AEFI - Fainting | AEFI Stage | Data element | OhHYABXmGGe |
-| 38 | AEFI - Fatigue | AEFI Stage | Data element | owRcSysyioE |
-| 39 | AEFI - Headache | AEFI Stage | Data element | HY6NIt2FX4A |
-| 40 | AEFI - Injection site soreness | AEFI Stage | Data element | P4oSprWWqrn |
-| 41 | AEFI - Injection site tenderness | AEFI Stage | Data element | KqlCtmOWt4G |
-| 42 | AEFI - Irritability | AEFI Stage | Data element | PWOzcN7UCfW |
-| 43 | AEFI - Itching | AEFI Stage | Data element | FC54HsGMErl |
-| 44 | AEFI - Joint pain | AEFI Stage | Data element | vCfZD893IVe |
-| 45 | AEFI - Loss of apetite | AEFI Stage | Data element | QFMRugi3fm6 |
-| 46 | AEFI - Lymph node enlargement | AEFI Stage | Data element | GEkI9NzxTmM |
-| 47 | AEFI - Mild fever | AEFI Stage | Data element | nKLO8ZNdR0B |
-| 48 | AEFI - Muscle pain | AEFI Stage | Data element | pzOF4lGIyTU |
-| 49 | AEFI - Nasal congestion | AEFI Stage | Data element | wWDenTQ5xBR |
-| 50 | AEFI - Nausea | AEFI Stage | Data element | KOt0J61mF61 |
-| 51 | AEFI - Specify other (Adverse event) | AEFI Stage | Data element | iTm5wvq16iq |
-| 52 | AEFI - Specify other (Severe event) | AEFI Stage | Data element | AfrWB2ofm7l |
-| 53 | AEFI - Persistent crying | AEFI Stage | Data element | GTyK3p976de |
-| 54 | AEFI - Poor breast feeding | AEFI Stage | Data element | sX1SvRadOmn |
-| 55 | AEFI - Seizure type | AEFI Stage | Data element | Zz4KYO4AsSY |
-| 56 | AEFI - Seizures | AEFI Stage | Data element | wCGZpudXuYx |
-| 57 | AEFI - Sepsis | AEFI Stage | Data element | tUmgO1Ugv6U |
-| 58 | AEFI - Severe local reaction | AEFI Stage | Data element | UNmEidE6M9K |
-| 59 | AEFI - Severe local reaction > 3 days | AEFI Stage | Data element | We87rvcvd8J |
-| 60 | AEFI - Severe local reaction beyond nearest joint | AEFI Stage | Data element | f8hjxmHOtAB |
-| 61 | AEFI - Skin rash | AEFI Stage | Data element | xgqzqv0p2Us |
-| 62 | AEFI - Sore throat | AEFI Stage | Data element | seXW1hERwOo |
-| 63 | AEFI - Tiredness | AEFI Stage | Data element | JaZ9yf1dDy3 |
-| 64 | AEFI - Thrombocytopenia | AEFI Stage | Data element | GGLLaieVChK |
-| 65 | AEFI - Toxic shock syndrome | AEFI Stage | Data element | Apq4JaueuWR |
-| 66 | AEFI - Congenital anomaly | AEFI Stage | Data element | lSBsxcQU0kO |
-| 67 | AEFI - Death | AEFI Stage | Data element | DOA6ZFMro84 |
-| 68 | AEFI - Fever | AEFI Stage | Data element | rzhHSqK3lQq |
-| 69 | AEFI - Hospitalization | AEFI Stage | Data element | Il1lTfknLdd |
-| 70 | AEFI - Life threatening | AEFI Stage | Data element | lATDYNmTLKD |
-| 71 | AEFI - Persistent or significant disability | AEFI Stage | Data element | lsO8n8ZmLAB |
+| 31 | AEFI - Bell's Palsy | AEFI Stage | BKxtyqhIDkB |
+| 32 | AEFI - Chills | AEFI Stage | Data element | TPSvWhUfib3 |
+| 33 | AEFI - Congenital anomaly | AEFI Stage | Data element | lSBsxcQU0kO |
+| 34 | AEFI - Cough | AEFI Stage | Data element | ZdFB8xUhOUM |
+| 35 | AEFI - Diarrhoea | AEFI Stage | Data element | NAiZTRCHRWL |
+| 36 | AEFI - Dizziness | AEFI Stage | Data element | XluNAFG1wj6 |
+| 37 | AEFI - Drowsiness | AEFI Stage | Data element | rjjRNU5yDhT |
+| 38 | AEFI - Encephalopathy | AEFI Stage | Data element | pdpAEuUS1W9 |
+| 39 | AEFI - Fainting | AEFI Stage | Data element | OhHYABXmGGe |
+| 40 | AEFI - Fatigue | AEFI Stage | Data element | owRcSysyioE |
+| 41 | AEFI - Fever | AEFI Stage | Data element | rzhHSqK3lQq |
+| 42 | AEFI - Headache | AEFI Stage | Data element | HY6NIt2FX4A |
+| 43 | AEFI - Injection site soreness | AEFI Stage | Data element | P4oSprWWqrn |
+| 44 | AEFI - Injection site tenderness | AEFI Stage | Data element | KqlCtmOWt4G |
+| 45 | AEFI - Irritability | AEFI Stage | Data element | PWOzcN7UCfW |
+| 46 | AEFI - Itching | AEFI Stage | Data element | FC54HsGMErl |
+| 47 | AEFI - Joint pain | AEFI Stage | Data element | vCfZD893IVe |
+| 48 | AEFI - Loss of apetite | AEFI Stage | Data element | QFMRugi3fm6 |
+| 49 | AEFI - Lymphadenopathy | AEFI Stage | Data element | dDWYBYUNpaQ |
+| 50 | AEFI - Lymph node enlargement | AEFI Stage | Data element | GEkI9NzxTmM |
+| 51 | AEFI - Mild fever | AEFI Stage | Data element | nKLO8ZNdR0B |
+| 52 | AEFI - Muscle pain | AEFI Stage | Data element | pzOF4lGIyTU |
+| 53 | AEFI - Nasal congestion | AEFI Stage | Data element | wWDenTQ5xBR |
+| 54 | AEFI - Nausea | AEFI Stage | Data element | KOt0J61mF61 |
+| 55 | AEFI - Specify other (Adverse event) | AEFI Stage | Data element | iTm5wvq16iq |
+| 56 | AEFI - Specify other (Severe event) | AEFI Stage | Data element | AfrWB2ofm7l |
+| 57 | AEFI - Persistent crying | AEFI Stage | Data element | GTyK3p976de |
+| 58 | AEFI - Poor breast feeding | AEFI Stage | Data element | sX1SvRadOmn |
+| 59 | AEFI - Seizure type | AEFI Stage | Data element | Zz4KYO4AsSY |
+| 60 | AEFI - Seizures | AEFI Stage | Data element | wCGZpudXuYx |
+| 61 | AEFI - Sepsis | AEFI Stage | Data element | tUmgO1Ugv6U |
+| 62 | AEFI - Severe local reaction | AEFI Stage | Data element | UNmEidE6M9K |
+| 63 | AEFI - Severe local reaction > 3 days | AEFI Stage | Data element | We87rvcvd8J |
+| 64 | AEFI - Severe local reaction beyond nearest joint | AEFI Stage | Data element | f8hjxmHOtAB |
+| 65 | AEFI - Skin rash | AEFI Stage | Data element | xgqzqv0p2Us |
+| 66 | AEFI - Sore throat | AEFI Stage | Data element | seXW1hERwOo |
+| 67 | AEFI - Tiredness | AEFI Stage | Data element | JaZ9yf1dDy3 |
+| 68 | AEFI - Thrombocytopenia | AEFI Stage | Data element | GGLLaieVChK |
+| 69 | AEFI - Toxic shock syndrome | AEFI Stage | Data element | Apq4JaueuWR |
+| 70 | AEFI - Vomiting | AEFI Stage | Data element | cMEIyp0rMo1 |
+| 71 | AEFI - Death | AEFI Stage | Data element | DOA6ZFMro84 |
+| 72 | AEFI - Hospitalization | AEFI Stage | Data element | Il1lTfknLdd |
+| 73 | AEFI - Life threatening | AEFI Stage | Data element | lATDYNmTLKD |
+| 74 | AEFI - Persistent or significant disability | AEFI Stage | Data element | lsO8n8ZmLAB |
 
 ### AEFI national level summary (Event Report)
 
