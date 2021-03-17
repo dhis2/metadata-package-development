@@ -1,12 +1,5 @@
 # Tracker Packages Installation Guide
 
-Last updated 12/02/2021
-
-Package Version 1.1.0
-DHIS2 Version compatibility 2.33.2 and above
-
-Demo: <https://who.sandbox.dhis2.org/covac_demo>
-
 ## Overview
 
 The COVAC - COVID-19 Vaccination Registry tracker package was developed using DHIS2.33.8. Even though the package is published from 2.33, our testing indicates that the best performance is achieved by installing it on an instance running DHIS2 2.35 and up and ensuring that their server has a JDK with java 11. If you will be setting this up on a new instance, please refer to the [DHIS2 installation guide](https://docs.dhis2.org/master/en/dhis2_system_administration_guide/installation.html).
