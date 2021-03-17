@@ -218,7 +218,7 @@ Due to technical issues, two essential line lists are not included in the generi
 | 28 | AEFI - Abdominal pain | AEFI Stage | Data element | T6tsxbKzikz |
 | 29 | AEFI - Abscess | AEFI Stage | Data element | wce39JmsjIK |
 | 30 | AEFI - Anaphylaxis | AEFI Stage | Data element | MkIgCrCTFyE |
-| 31 | AEFI - Bell's Palsy | AEFI Stage | BKxtyqhIDkB |
+| 31 | AEFI - Bell's Palsy | AEFI Stage | Data element | BKxtyqhIDkB |
 | 32 | AEFI - Chills | AEFI Stage | Data element | TPSvWhUfib3 |
 | 33 | AEFI - Congenital anomaly | AEFI Stage | Data element | lSBsxcQU0kO |
 | 34 | AEFI - Cough | AEFI Stage | Data element | ZdFB8xUhOUM |
