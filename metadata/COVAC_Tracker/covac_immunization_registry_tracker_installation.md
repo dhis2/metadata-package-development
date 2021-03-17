@@ -1,4 +1,4 @@
-# Tracker Packages Installation Guide
+# COVAC Immunization Registry Tracker Installation Guide
 
 ## Overview
 
