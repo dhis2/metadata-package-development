@@ -200,7 +200,7 @@ Due to technical issues, two essential line lists are not included in the generi
 | 10 | Family name |  | Program attribute | aW66s2QSosT |
 | 11 | Date of birth |  | Program attribute | BiTsLcJQ95V |
 | 12 | Sex |  | Program attribute | CklPZdOd6H1 |
-| 13 | AEFI - AEFI start date | Data element | vNGUuAZA2C2 |
+| 13 | AEFI - AEFI start date | AEFI Stage | Data element | vNGUuAZA2C2 |
 | 14 | AEFI_Serious adverse event following immunization | AEFI Stage | Data element | kQCVFWE2MPb |
 | 15 | AEFI - AEFI outcome | AEFI Stage | Data element | yRrSDiR5v1M |
 | 16 | AEFI - Vaccination 1 date | AEFI Stage | Data element | dOkuCjpD978 |
