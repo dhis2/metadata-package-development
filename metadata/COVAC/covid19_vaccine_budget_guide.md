@@ -4,15 +4,15 @@
 
 Integration with existing DHIS2-based systems will achieve sustainability and cost efficiency by:
 
-●   Reducing barriers to entry and training required
+- Reducing barriers to entry and training required
 
-●   Re-using existing technology and infrastructure
+- Re-using existing technology and infrastructure
 
-●   Leveraging MOH core HMIS team capacity for customization of the software/toolkit
+- Leveraging MOH core HMIS team capacity for customization of the software/toolkit
 
-●   Working through existing immunization program processes
+- Working through existing immunization program processes
 
-●   Reinforcing & strengthening overall data management & use for immunization program; combining data use trainings
+- Reinforcing & strengthening overall data management & use for immunization program; combining data use trainings
 
 While the costs in this budget guidance are based on implementation experiences with DHIS2, these budget categories are largely generic and we would anticipate they apply to any electronic information management system solution. Countries that already use DHIS2 as an HMIS and/or for their EPI program will have a number of key building blocks already in place to accelerate implementation of the information system to support their national COVID-19 vaccine plan.
 
@@ -144,9 +144,9 @@ In countries where DHIS2 aggregate or tracker is already used for data collectio
 For countries that are new to DHIS2, we recommend that some additional budget be allocated for:
 
 - Training of a core team (3-4 workshops with HISP expert TA to get started)
-
+- 
 - Setting up server and cost of running the server for one year (~$14,000)
-
+- 
 - Budget for additional time for end user and data use training as users in country are less familiar with the platform
-
+- 
 - Assessment of connectivity and availability of devices at the intended level of electronic data collection to inform additional resources needed
