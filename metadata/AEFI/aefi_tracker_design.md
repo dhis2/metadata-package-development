@@ -222,6 +222,27 @@ For purposes of data validation and data quality, the following program rules ha
 
 A number of additional program rules have been configured to facilitate data entry. These can be reviewed in the metadata review file. **Note that when using the custom form, ‘hide field’ program rules configured for the ease of data entry will not function properly due to the workflow of the standard custom form.** With the custom form the program rules will show a warning once the complete button is pushed. However, these program rules are included in the configuration for countries that choose not to use the custom form.
 
+**Hide** show rules have been added for vaccines with diluents. Not all vaccines are reconstituted with a diluent. A list has been configured of vaccines with diluents based on WHO recommendations and [WHO prequalified vaccines](https://extranet.who.int/pqweb/vaccines/prequalified-vaccines?field_vaccines_effective_date%5Bdate%5D=&field_vaccines_effective_date_1%5Bdate%5D=&field_vaccines_name=&search_api_views_fulltext=&field_pharmaceutical_form=Lyophilised%20active%20component%20%20to%20be%20reconstituted%20with%20excipient%20diluent%20before%20use&field_vaccines_number_of_doses=&page=6). When a vaccine that is reconstituted with a diluent is chosen the date elements associated with diluants will show based on program rules and enable the user to add the diluent information.
+
+**Vaccines with Diluents:**
+* Yellow Fever
+* Haemophilus influenzae type b (Hib)
+* BCG
+* Dengue
+* Japanese Encephalitis
+* Measles
+* Measles and Rubella
+* Measles, Mumps, and Rubella
+* Meningococcal A
+* Influenza Pandemic (H1N1)
+* Rotavirus
+* Rabies
+* Rubella
+* Varicella
+* Diphtheria-Tetanus-Pertussis (whole cell)-Hep B-Haemohilus influenzae type B (penta)
+
+![Diluent Information](resources/images/AEFI_Tracker_design_28.png)
+
 ## Additional Features Configured to Support the Program
 
 ### COVID 19 Updates
@@ -230,11 +251,11 @@ COVID 19 requirements have been updated in the program
 
 We have updated the age grouping disaggreations for analytics
 
-* 0 < 1 year
+* 0 - 1 year
 * 1 - 5 years
-* > 5 years - 18 years
-* > 18 years - 60 years
-* > 60 years
+* 5 - 18 years
+* 18 - 60 years
+* 60+ years
 
 Pregnant and Lactating have been added with the following program rules.
 
@@ -269,12 +290,40 @@ For example:
 
 ![Causality classifications 2](resources/images/AEFI_Tracker_design_16.png)
 
-COVID Dashboard updates:
+AEFI COVID Dashboard updates:
 
-* Chart for “Number of patients that are pregnant of lactating that has an AIEF with COVIgD vaccine
-* Chart looking at brand name and manufacturer name
-* Table to show Valid diagnosis and Final causality assessment
-* Pie chart to show final causality classification and then final causality subclassification
+The AEFI COVID dashboard contains key monitoring indicators that are aligned with the WHO’s recommendations.
+
+The first group of charts in the dashboard gives a quick overview of the AEFI’s by COVID vaccine type, geographical area, and events/reactions.
+
+![AEFI COVID Dashboard - 1.2](resources/images/AEFI_Tracker_design_29.png)
+
+![AEFI COVID Dashboard - 1.2](resources/images/AEFI_Tracker_design_30.png)
+
+![AEFI COVID Dashboard - 1.3](resources/images/AEFI_Tracker_design_31.png)
+
+The second group of charts shows Adverse event following COVID vaccination type by pregnancy and lactation status
+
+![AEFI COVID Dashboard - 2.1](resources/images/AEFI_Tracker_design_32.png)
+
+#### AEFI - Final causality assessment classification
+
+This visualization is located on the AEFI dashboard.
+
+* AEFI - Final classification
+
+Pie chart: shows the total number of AEFI cases disaggregated by their Final causality assessment classification
+
+![AEFI - Final classification](resources/images/AEFI_Tracker_design_26.png)
+
+#### AEFI - Final causality assessment sub-classification
+
+This visualization is located on the AEFI dashboard.
+
+AEFI - Final sub-classification
+Pie chart: shows the total number of AEFI cases disaggregated by their final causality assessment sub-classification
+
+![AEFI - Final causality assessment sub-classification](resources/images/AEFI_Tracker_design_27.png)
 
 ### Notifications
 
@@ -300,36 +349,36 @@ The line-listing included in the dashboard mirrors the 25 core variables identif
 * **note:** the screenshot above does not represent the full linelist; please refer to DHIS2 to review the linelist in full
 * All the fields from the facility level line list are taken directly from the AEFI program. This includes fields from the registration process as well as the first stage within the program (labelled **“AEFI”**). The source of each of the fields within the line list is identified below.
 
-| Field/column # | Source | Variable name | Description |
+| Field/column # | Variable name | Source | Description |
 |-|---|---|---|
-| 1 |  | Number | Number of the case in the list |
-| 2 | AEFI Stage | DOR (date of report - report compilation date) | The event date of the AEFI program stage |
-| 3 | Registration Stage | DON (Date of Notification - date patient notified the event to the health system) | Date patient notified the event to the health system. Enrollment date. Found in the enrollment section |
-| 4 |  | Incident date | N/A (ignore this field) |
-| 5 | Registration Stage | Organisation unit | Organisation unit (which comes from the hierarchy) and most likely represents the facility in which the AEFI was registered |
-| 6 | AEFI Stage | AEFI - Reporter of case | The person who reported the AEFI case |
-| 7 | AEFI Stage | AEFI - Reporter’s address | The address of the person who reported the AEFI case |
-| 8 | Registration Stage | AEFI Case ID | The unique locally assigned AEFI case ID |
-| 9 | Registration Stage | Given name | The case’s given name |
-| 10 | Registration Stage | Family name | The case’s family name |
-| 11 | Registration Stage | Date of birth | The case’s date of birth |
-| 12 | Registration Stage | Sex | The case’s biological sex |
-| 13 | AEFI Stage | AEFI start date | The incident date of the AEFI (the date in which the AEFI started) |
-| 14 | AEFI Stage | AEFI serious cases | Identifies if the case was serious or non-serious |
-| 15 | AEFI Stage | AEFI - AEFI outcome | Identifies the outcome of the case as identified by health staff |
-| 16 | AEFI Stage | AEFI - Vaccination 1 date | The date in which the **first** vaccine was administered to the case |
-| 17 | AEFI Stage | AEFI - Vaccine 1 name | The name of the **first** vaccine that was administered to the case |
-| 18 | AEFI Stage | AEFI - batch/lot number (Vaccine 1) | The batch/lot number of the **first** vaccine that was administered to the case |
-| 19 | AEFI Stage | AEFI - Diluent batch/lot number 1 | The batch/lot number of the diluent used in the **first** vaccine that was administered to the case |
-| 20 | AEFI Stage | AEFI - Vaccination 2 date | The date in which the **second** vaccine (if any) was administered to the case |
-| 21 | AEFI Stage | AEFI - Vaccine 2 name | The name of the **second** vaccine (if any) that was administered to the case |
-| 22 | AEFI Stage | AEFI - batch/lot number (Vaccine 2) | The batch/lot number of the **second** vaccine (if any) that was administered to the case |
-| 23 | AEFI Stage | AEFI - Diluent batch/lot number 2 | The batch/lot number of the diluent used in the **second** vaccine (if any) that was administered to the case |
-| 24 | AEFI Stage | AEFI - Vaccination 3 date | The date in which the **third** vaccine (if any) was administered to the case |
-| 25 | AEFI Stage | AEFI - Vaccine 3 name | The name of the **third** vaccine (if any) that was administered to the case |
-| 26 | AEFI Stage | AEFI - batch/lot number (Vaccine 3) | The batch/lot number of the **third** vaccine (if any) that was administered to the case |
-| 27 | AEFI Stage | AEFI - Diluent batch/lot number 3 | The batch/lot number of the diluent used in the **third** vaccine (if any) that was administered to the case |
-| 28 | AEFI Stage | Adverse events (individual data elements) | A list of all possible adverse events that are being reported on within the program. This includes all serious and non-serious events that are reported for a case and makes up the remaining columns of the line list |
+| 1 | Number |  | Number of the case in the list |
+| 2 | DOR (date of report - report compilation date) | AEFI Stage | The event date of the AEFI program stage |
+| 3 | DON (Date of Notification - date patient notified the event to the health system) | Registration Stage | Date patient notified the event to the health system. Enrollment date. |
+| 4 | Incident date |  | N/A (ignore this field) |
+| 5 | Organisation unit | Registration Stage | Organisation unit (which comes from the hierarchy) and most likely represents the facility in which the AEFI was registered |
+| 6 | AEFI - Reporter of case | AEFI Stage | The person who reported the AEFI case |
+| 7 | AEFI - Reporter’s address | AEFI Stage | The address of the person who reported the AEFI case |
+| 8 | AEFI Case ID | Registration Stage | The unique locally assigned AEFI case ID |
+| 9 | Given name | Registration Stage | The case’s given name |
+| 10 | Family name | Registration Stage | The case’s family name |
+| 11 | Date of birth | Registration Stage | The case’s date of birth |
+| 12 | Sex | Registration Stage | The case’s biological sex |
+| 13 | AEFI start date | AEFI Stage | The incident date of the AEFI (the date in which the AEFI started) |
+| 14 | AEFI serious cases | AEFI Stage | Identifies if the case was serious or non-serious |
+| 15 | AEFI - AEFI outcome | AEFI Stage | Identifies the outcome of the case as identified by health staff |
+| 16 | AEFI - Vaccination 1 date | AEFI Stage | The date in which the **first** vaccine was administered to the case |
+| 17 | AEFI - Vaccine 1 name | AEFI Stage | The name of the **first** vaccine that was administered to the case |
+| 18 | AEFI - batch/lot number (Vaccine 1) | AEFI Stage | The batch/lot number of the **first** vaccine that was administered to the case |
+| 19 | AEFI - Diluent batch/lot number 1 | AEFI Stage | The batch/lot number of the diluent used in the **first** vaccine that was administered to the case |
+| 20 | AEFI - Vaccination 2 date | AEFI Stage | The date in which the **second** vaccine (if any) was administered to the case |
+| 21 | AEFI - Vaccine 2 name | AEFI Stage | The name of the **second** vaccine (if any) that was administered to the case |
+| 22 | AEFI - batch/lot number (Vaccine 2) | AEFI Stage | The batch/lot number of the **second** vaccine (if any) that was administered to the case |
+| 23 | AEFI - Diluent batch/lot number 2 | AEFI Stage | The batch/lot number of the diluent used in the **second** vaccine (if any) that was administered to the case |
+| 24 | AEFI - Vaccination 3 date | AEFI Stage | The date in which the **third** vaccine (if any) was administered to the case |
+| 25 | AEFI - Vaccine 3 name | AEFI Stage | The name of the **third** vaccine (if any) that was administered to the case |
+| 26 | AEFI - batch/lot number (Vaccine 3) | AEFI Stage | The batch/lot number of the **third** vaccine (if any) that was administered to the case |
+| 27 | AEFI - Diluent batch/lot number 3 | AEFI Stage | The batch/lot number of the diluent used in the **third** vaccine (if any) that was administered to the case |
+| 28 | Adverse events (individual data elements) | AEFI Stage | A list of all possible adverse events that are being reported on within the program. This includes all serious and non-serious events that are reported for a case and makes up the remaining columns of the line list |
 
 #### Source Fields
 
@@ -367,10 +416,10 @@ The National Level Line list has been added with the COVID updates.  This summar
 * Consists of the following information (it is recommended that you have the linelist open within DHIS2 when reviewing this description)
 * All the fields from the facility level line list are taken directly from the AEFI program. This linelist includes data from the registration process as well, the first stage within the program (labelled **“AEFI”**) as well as the third stage within the program (labeled “National level”). The source of each of the fields within the line list is identified below.
 
-| Field/column # | Source | Variable name | Description |
+| Field/column # | Variable name | Source | Description |
 |-|---|---|---|
 | 1 | Number |  | Number of the case in the list |
-| 2 | DON (Date of Notification - date patient notified the event to the health system) | Registration Stage | Date patient notified the event to the health system. Enrollment date. Found in the enrollment section |
+| 2 | DON (Date of Notification - date patient notified the event to the health system) | Registration Stage | Date patient notified the event to the health system. Enrollment date. |
 | 3 | Incident date |  | N/A (ignore this field) |
 | 4 | Organisation unit | Registration Stage | Organisation unit (which comes from the hierarchy) and most likely represents the facility in which the AEFI was registered |
 | 5 | AEFI Case ID | Registration Stage | The unique locally assigned AEFI case ID |
@@ -397,22 +446,6 @@ The linelist highlights the link between the vaccination which caused an AEFI an
 ![AEFI Stage - Vaccination Information](resources/images/AEFI_Tracker_design_24.png)
 
 ![National level stage](resources/images/AEFI_Tracker_design_25.png)
-
-#### Visualizations
-
-Visualizations associated with the AEFI stage are detailed in the overview of the AEFI facility level line list. There are two key visualizations associated with causality assessment classification and sub-classification.
-
-##### AEFI - Final causality assessment classification
-
-This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their Final causality assessment classification
-
-![AEFI - Final classification](resources/images/AEFI_Tracker_design_26.png)
-
-##### AEFI - Final causality assessment sub-classification
-
-This visualization is located on the AEFI dashboard. Pie chart shows the total number of AEFI cases disaggregated by their final causality assessment sub-classification
-
-![AEFI - Final sub-classification](resources/images/AEFI_Tracker_design_27.png)
 
 ## Android Compatibility for Data Collection
 

@@ -1,7 +1,5 @@
 # Tracker Packages Installation Guide
 
-Last updated 08/03/2021
-
 Package Version 1.1.0
 DHIS2 Version compatibility 2.33.2 and above
 
@@ -182,7 +180,7 @@ Due to technical issues, two essential line lists are not included in the generi
 1. Go to **DHIS 2 Event Reports app**
 2. Select Table style **Line list**
 3. Select Output style **Event**
-4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+4. In **Data** section, select program **Adverse events folloing immunization (AEFI)**
 5. Select Stage **AEFI**
 6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
 7. In **Periods** section, select **This Year**
@@ -193,35 +191,79 @@ Due to technical issues, two essential line lists are not included in the generi
 12. Click **Share**. Restrict external and public access and share the event report with applicable user groups: **AEFI access (can view)** and **AEFI admin (can edit and view)**
 13. Go to **AEFI Dashboard** and add the event report to the dashboard.
 
-| Field/column # | Variable name | Source Stage | Object Type |
-|-|---|---|---|
-| 1 | Number |  |  |
-| 2 | DOR (date of report - report compilation date) |  |  |
-| 3 | DON (Date of Notification - date patient notified the event to the health system) |  |  |
-| 4 | Incident date |  |  |
-| 5 | Organisation unit |  |  |
-| 6 | AEFI - Reporter of case | AEFI Stage | Data element |
-| 7 | AEFI - Reporter’s address | AEFI Stage | Data element |
-| 8 | AEFI Case ID |  | Program attribute |
-| 9 | Given name |  | Program attribute |
-| 10 | Family name |  | Program attribute |
-| 11 | Date of birth |  | Program attribute |
-| 12 | Sex |  | Program attribute |
-| 14 | AEFI serious cases | AEFI Stage | Data element |
-| 15 | AEFI - AEFI outcome | AEFI Stage | Data element |
-| 16 | AEFI - Vaccination 1 date | AEFI Stage | Data element |
-| 17 | AEFI - Vaccine 1 name | AEFI Stage | Data element |
-| 18 | AEFI - batch/lot number (Vaccine 1) | AEFI Stage | Data element |
-| 19 | AEFI - Diluent batch/lot number 1 | AEFI Stage | Data element |
-| 20 | AEFI - Vaccination 2 date | AEFI Stage | Data element |
-| 21 | AEFI - Vaccine 2 name | AEFI Stage | Data element |
-| 22 | AEFI - batch/lot number (Vaccine 2) | AEFI Stage | Data element |
-| 23 | AEFI - Diluent batch/lot number 2 | AEFI Stage |  Data element |
-| 24 | AEFI - Vaccination 3 date | AEFI Stage |  Data element |
-| 25 | AEFI - Vaccine 3 name | AEFI Stage | Data element |
-| 26 | AEFI - batch/lot number (Vaccine 3) | AEFI Stage | Data element |
-| 27 | AEFI - Diluent batch/lot number 3 | AEFI Stage | Data element |
-| 28 | Adverse events (individual data elements) | AEFI Stage | Data element |
+| Field/column # | Variable name | Source Stage | Object Type |  |
+|-|---|---|---|-|
+| 1 | Number |  |  |  |
+| 2 | DOR (date of report - report compilation date) |  |  |  |
+| 3 | DON (Date of Notification - date patient notified the event to the health system) |  |  |  |
+| 4 | Incident date |  |  |  |
+| 5 | Organisation unit |  |  |  |
+| 6 | AEFI - Reporter of case | AEFI Stage | Data element | uZ9c4fKXuNS |
+| 7 | AEFI - Reporter’s address | AEFI Stage | Data element | Q20pEixZxCs |
+| 8 | AEFI Case ID |  | Program attribute | h5FuguPFF2j |
+| 9 | Given name |  | Program attribute | TfdH5KvFmMy |
+| 10 | Family name |  | Program attribute | aW66s2QSosT |
+| 11 | Date of birth |  | Program attribute | BiTsLcJQ95V |
+| 12 | Sex |  | Program attribute | CklPZdOd6H1 |
+| 13 | AEFI - AEFI start date | Data element | vNGUuAZA2C2 |
+| 14 | AEFI_Serious adverse event following immunization | AEFI Stage | Data element | kQCVFWE2MPb |
+| 15 | AEFI - AEFI outcome | AEFI Stage | Data element | yRrSDiR5v1M |
+| 16 | AEFI - Vaccination 1 date | AEFI Stage | Data element | dOkuCjpD978 |
+| 17 | AEFI - Vaccine 1 name | AEFI Stage | Data element | uSVcZzSM3zg |
+| 18 | AEFI - batch/lot number (Vaccine 1) | AEFI Stage | Data element | LNqkAlvGplL |
+| 19 | AEFI - Diluent batch/lot number 1 | AEFI Stage | Data element | FQM2ksIQix8 |
+| 20 | AEFI - Vaccination 2 date | AEFI Stage | Data element | VrzEutEnzSJ |
+| 21 | AEFI - Vaccine 2 name | AEFI Stage | Data element | g9PjywVj2fs |
+| 22 | AEFI - batch/lot number (Vaccine 2) | AEFI Stage | Data element | b1rSwGRcY5W |
+| 23 | AEFI - Diluent batch/lot number 2 | AEFI Stage |  Data element | ufWU3WStZgG |
+| 24 | AEFI - Vaccination 3 date | AEFI Stage |  Data element | f4WCAVwjHz0 |
+| 25 | AEFI - Vaccine 3 name | AEFI Stage | Data element | OU5klvkk3SM |
+| 26 | AEFI - batch/lot number (Vaccine 3) | AEFI Stage | Data element | YBnFoNouH6f |
+| 27 | AEFI - Diluent batch/lot number 3 | AEFI Stage | Data element | MLP8fi1X7UX |
+| 28 | AEFI - Abdominal pain | AEFI Stage | Data element | T6tsxbKzikz |
+| 29 | AEFI - Abscess | AEFI Stage | Data element | wce39JmsjIK |
+| 30 | AEFI - Anaphylaxis | AEFI Stage | Data element | MkIgCrCTFyE |
+| 31 | AEFI - Chills | AEFI Stage | Data element | TPSvWhUfib3 |
+| 32 | AEFI - Cough | AEFI Stage | Data element | ZdFB8xUhOUM |
+| 33 | AEFI - Diarrhoea | AEFI Stage | Data element | NAiZTRCHRWL |
+| 34 | AEFI - Dizziness | AEFI Stage | Data element | XluNAFG1wj6 |
+| 35 | AEFI - Drowsiness | AEFI Stage | Data element | rjjRNU5yDhT |
+| 36 | AEFI - Encephalopathy | AEFI Stage | Data element | pdpAEuUS1W9 |
+| 37 | AEFI - Fainting | AEFI Stage | Data element | OhHYABXmGGe |
+| 38 | AEFI - Fatigue | AEFI Stage | Data element | owRcSysyioE |
+| 39 | AEFI - Headache | AEFI Stage | Data element | HY6NIt2FX4A |
+| 40 | AEFI - Injection site soreness | AEFI Stage | Data element | P4oSprWWqrn |
+| 41 | AEFI - Injection site tenderness | AEFI Stage | Data element | KqlCtmOWt4G |
+| 42 | AEFI - Irritability | AEFI Stage | Data element | PWOzcN7UCfW |
+| 43 | AEFI - Itching | AEFI Stage | Data element | FC54HsGMErl |
+| 44 | AEFI - Joint pain | AEFI Stage | Data element | vCfZD893IVe |
+| 45 | AEFI - Loss of apetite | AEFI Stage | Data element | QFMRugi3fm6 |
+| 46 | AEFI - Lymph node enlargement | AEFI Stage | Data element | GEkI9NzxTmM |
+| 47 | AEFI - Mild fever | AEFI Stage | Data element | nKLO8ZNdR0B |
+| 48 | AEFI - Muscle pain | AEFI Stage | Data element | pzOF4lGIyTU |
+| 49 | AEFI - Nasal congestion | AEFI Stage | Data element | wWDenTQ5xBR |
+| 50 | AEFI - Nausea | AEFI Stage | Data element | KOt0J61mF61 |
+| 51 | AEFI - Specify other (Adverse event) | AEFI Stage | Data element | iTm5wvq16iq |
+| 52 | AEFI - Specify other (Severe event) | AEFI Stage | Data element | AfrWB2ofm7l |
+| 53 | AEFI - Persistent crying | AEFI Stage | Data element | GTyK3p976de |
+| 54 | AEFI - Poor breast feeding | AEFI Stage | Data element | sX1SvRadOmn |
+| 55 | AEFI - Seizure type | AEFI Stage | Data element | Zz4KYO4AsSY |
+| 56 | AEFI - Seizures | AEFI Stage | Data element | wCGZpudXuYx |
+| 57 | AEFI - Sepsis | AEFI Stage | Data element | tUmgO1Ugv6U |
+| 58 | AEFI - Severe local reaction | AEFI Stage | Data element | UNmEidE6M9K |
+| 59 | AEFI - Severe local reaction > 3 days | AEFI Stage | Data element | We87rvcvd8J |
+| 60 | AEFI - Severe local reaction beyond nearest joint | AEFI Stage | Data element | f8hjxmHOtAB |
+| 61 | AEFI - Skin rash | AEFI Stage | Data element | xgqzqv0p2Us |
+| 62 | AEFI - Sore throat | AEFI Stage | Data element | seXW1hERwOo |
+| 63 | AEFI - Tiredness | AEFI Stage | Data element | JaZ9yf1dDy3 |
+| 64 | AEFI - Thrombocytopenia | AEFI Stage | Data element | GGLLaieVChK |
+| 65 | AEFI - Toxic shock syndrome | AEFI Stage | Data element | Apq4JaueuWR |
+| 66 | AEFI - Congenital anomaly | AEFI Stage | Data element | lSBsxcQU0kO |
+| 67 | AEFI - Death | AEFI Stage | Data element | DOA6ZFMro84 |
+| 68 | AEFI - Fever | AEFI Stage | Data element | rzhHSqK3lQq |
+| 69 | AEFI - Hospitalization | AEFI Stage | Data element | Il1lTfknLdd |
+| 70 | AEFI - Life threatening | AEFI Stage | Data element | lATDYNmTLKD |
+| 71 | AEFI - Persistent or significant disability | AEFI Stage | Data element | lsO8n8ZmLAB |
 
 ### AEFI national level summary (Event Report)
 
@@ -233,7 +275,7 @@ Due to technical issues, two essential line lists are not included in the generi
 1. Go to **DHIS 2 Event Reports app**
 2. Select Table style **Line list**
 3. Select Output style **Enrollment**
-4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+4. In **Data** section, select program **Adverse events folloing immunization (AEFI)**
 5. Select applicable Stage. See the table below
 6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
 7. In **Periods** section, select **Last 12 months**
@@ -241,29 +283,29 @@ Due to technical issues, two essential line lists are not included in the generi
 9. CLick **Favourites** button and **Save**.
 10. Add **Name** - AEFI national level summary (this year)
 11. Click **Favourites** button and **Save**.
-12. Click **Share**. Restrict External access, enable public access.
+12. Click **Share**. Restrict external and public access and share the event report with applicable user groups: **AEFI access (can view)** and **AEFI admin (can edit and view)**
 13. Go to **AEFI Dashboard** and add the event report to the dashboard.
 
-| Field/column # | Variable name | Source Stage | Object type |
-|-|---|---|---|
-| 1 | Number |  |  |
-| 2 | DON (Date of Notification - date patient notified the event to the health system) |  |  |
-| 3 | Incident date |  |  |  |
-| 4 | Organisation unit |  |  |
-| 5 | AEFI Case ID |  | Program attribute |
-| 6 | AEFI - Date when seen for approval at national level | National level stage | Data element |
-| 7 | AEFI - Date of final classification | National level stage | Data element |
-| 8 | AEFI - Valid Diagnosis | National level stage | Data element |
-| 9 | AEFI - Vaccine 1 name |  AEFI Stage | Data element |
-| 10 | AEFI - Vaccination 1 date | AEFI Stage | Data element |
-| 11 | AEFI - Vaccine 2 name | AEFI Stage | Data element |
-| 12 | AEFI - Vaccination 2 date | AEFI Stage | Data element |
-| 13 | AEFI - Vaccine 3 name | AEFI Stage | Data element |
-| 14 | AEFI - Vaccination 3 date | AEFI Stage | Data element |
-| 15 | AEFI - Vaccine 4 name | AEFI Stage | Data element |
-| 16 | AEFI - Vaccination 4 date | AEFI Stage | Data element |
-| 17 | AEFI - Final causality assessment classification | National level stage | Data element |
-| 18 | AEFI - Final causality assessment sub-classification | National level stage | Data element |
+| Field/column # | Variable name | Source Stage | Object type | UID |
+|-|---|---|---|-|
+| 1 | Number |  |  |  |
+| 2 | DON (Date of Notification - date patient notified the event to the health system) |  |  |  |
+| 3 | Incident date |  |  |  |  |
+| 4 | Organisation unit |  |  |  |
+| 5 | AEFI Case ID |  | Program attribute | h5FuguPFF2j |
+| 6 | AEFI - Date when seen for approval at national level | National level stage | Data element | cWMUoQEuvtR |
+| 7 | AEFI - Date of final classification | National level stage | Data element | wDijUvPYVne |
+| 8 | AEFI - Valid Diagnosis | National level stage | Data element | IZoGGNUkNl0 |
+| 9 | AEFI - Vaccine 1 name |  AEFI Stage | Data element | uSVcZzSM3zg |
+| 10 | AEFI - Vaccination 1 date | AEFI Stage | Data element | dOkuCjpD978 |
+| 11 | AEFI - Vaccine 2 name | AEFI Stage | Data element | g9PjywVj2fs |
+| 12 | AEFI - Vaccination 2 date | AEFI Stage | Data element | VrzEutEnzSJ |
+| 13 | AEFI - Vaccine 3 name | AEFI Stage | Data element | OU5klvkk3SM |
+| 14 | AEFI - Vaccination 3 date | AEFI Stage | Data element | f4WCAVwjHz0 |
+| 15 | AEFI - Vaccine 4 name | AEFI Stage | Data element | menOXwIFZh5 |
+| 16 | AEFI - Vaccination 4 date | AEFI Stage | Data element | H3TKHMFIN6V |
+| 17 | AEFI - Final causality assessment classification | National level stage | Data element | DpgoIsq65SW |
+| 18 | AEFI - Final causality assessment sub-classification | National level stage | Data element | D42M2tdJo7R |
 
 #### Visualizations
 
