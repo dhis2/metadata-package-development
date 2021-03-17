@@ -182,7 +182,7 @@ Due to technical issues, two essential line lists are not included in the generi
 1. Go to **DHIS 2 Event Reports app**
 2. Select Table style **Line list**
 3. Select Output style **Event**
-4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+4. In **Data** section, select program **Adverse events folloing immunization (AEFI)**
 5. Select Stage **AEFI**
 6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
 7. In **Periods** section, select **This Year**
@@ -277,7 +277,7 @@ Due to technical issues, two essential line lists are not included in the generi
 1. Go to **DHIS 2 Event Reports app**
 2. Select Table style **Line list**
 3. Select Output style **Enrollment**
-4. In **Data* section, select program **Adverse events folloing immunization (AEFI)**
+4. In **Data** section, select program **Adverse events folloing immunization (AEFI)**
 5. Select applicable Stage. See the table below
 6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
 7. In **Periods** section, select **Last 12 months**
