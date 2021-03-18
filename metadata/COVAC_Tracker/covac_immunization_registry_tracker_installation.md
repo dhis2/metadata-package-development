@@ -109,20 +109,18 @@ First, you will have to use the *Sharing* functionality of DHIS2 to configure wh
 * Program stages
 * Dashboards
 
-There are six user groups that come with the package, the last three are recipients of program stage notifications:
+There are three user groups that come with the package:
 
-* AEFI access
-* AEFI admin
-* AEFI data capture
-* AEFI district
-* AEFI national
-* AEFI first-level decision making
+* COVAC - COVID-19 immunization metadata admin
+* COVAC - COVID-19 immunization data entry
+* COVAC - COVID-19 immunization data analysis
+
 
 By default the following is assigned to these user groups
 
 |Object|User Group|||
 |--|--|--|--|
-||_AEFI access_|_AEFI admin_|_AEFI data capture_|
+||COVAC - COVID-19 immunization data analysis| COVAC - COVID-19 immunization metadata admin|COVAC - COVID-19 immunization data entry|
 |_*Tracked entity type*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program Stages*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
