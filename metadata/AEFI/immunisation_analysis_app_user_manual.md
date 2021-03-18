@@ -6,13 +6,13 @@ Version 1.0.3
 
 This manual is intended for users and administrators of the Immunisation analysis app for DHIS2. It is divided into three sections:
 
-* [Using the immunisation analysis app](#Using-the-immunisation-analysis-app)
-* [Installing and configuring the immunisation analysis app](#Installation-and-Configuration)
-* [RIM Export](#RIM-Export)
+* [Using the immunisation analysis app](#using-the-immunisation-analysis-app)
+* [Installing and configuring the immunisation analysis app](#immunisation-analysis-app-installation-and-configuration)
+* [RIM Export](#rim-export)
 
 The first section covers how to use the app to produce tables and charts for analysis, and is aimed at regular users. The second section is intended for administrators, and covers how to install the app and configure it for a particular DHIS2 instance. The third and final part covers configuration and use of the app's functionality to produce a CSV export file of data in the format used for routine reporting to WHO AFRO.
 
-## Using the immunisation analysis app
+## Using the immunisation analysis app { #using-the-immunisation-analysis-app }
 
 ### Overview and navigation
 
@@ -115,7 +115,7 @@ When the "One vaccine for multiple years" sub-type has been selected, the  Data 
 
 This report type is only visible for users who have been given explicit access, by being added to a "RIM Export" user group which is created by the app when RIM export is configured. Only the Period section of the menu is used, to select a year and month to export data for. Making a report will trigger the download of a CSV-file. Note that this process can take up to several minutes.
 
-## Installation and Configuration
+## Installation and Configuration { #immunisation-analysis-app-installation-and-configuration }
 
 This sections covers installation and configuration of the app and is intended for administrators. Installation can only be done by users with the authority to install DHSI2 apps ("App management"). Configuration can only be done by users with the authority to "Add/edit public indicators".
 
@@ -159,7 +159,7 @@ Note: a limitation of the app is that existing configurations can not be edited,
 
 Adding a vaccine is done in the same way, by clicking the "Add" button below the table. When adding a vaccine, the name must also be provided by the user.
 
-## RIM Export
+## RIM Export { #rim-export }
 
 The RIM Export functionality requires additional configuration, beyond what is described above for the overall configuration. In short, the process involves:
 
