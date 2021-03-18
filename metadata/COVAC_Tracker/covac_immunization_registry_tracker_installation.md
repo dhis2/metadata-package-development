@@ -112,7 +112,7 @@ By default the following is assigned to these user groups
 
 |Object|User Group|||
 |--|--|--|--|
-||COVAC - COVID-19 immunization data analysis| COVAC - COVID-19 immunization metadata admin|COVAC - COVID-19 immunization data entry|
+||_COVAC - COVID-19 immunization data analysis_| _COVAC - COVID-19 immunization metadata admin_ | _COVAC - COVID-19 immunization data entry_ |
 |_*Tracked entity type*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
 |_*Program Stages*_|Metadata : can view <br> Data: can view|Metadata : can edit and view <br> Data: can view|Metadata : can view <br> Data: can capture and view|
