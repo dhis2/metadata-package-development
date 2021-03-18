@@ -278,7 +278,7 @@ Due to technical issues, two essential line lists are not included in the generi
 6. Use the table below and add the **Data elements / Program Attributes** in the suggested order.
 7. In **Periods** section, select **Last 12 months**
 8. In **Organisation units** section, select **User org unit**
-9. CLick **Favourites** button and **Save**.
+9. Click **Favourites** button and **Save**.
 10. Add **Name** - AEFI national level summary (this year)
 11. Click **Favourites** button and **Save**.
 12. Click **Share**. Restrict external and public access and share the event report with applicable user groups: **AEFI access (can view)** and **AEFI admin (can edit and view)**
