@@ -155,26 +155,6 @@ Arrange then the layout of the table with DE COVAC - Dose Number and PA Sex in t
 
 ![Settings for event report](resources/images/Covac_event_report3.png)
 
-### Event Charts
-
-There is also a bug which prevents the import of Event Charts in DHIS2 2.34 - the issue has not been identified while importing in 2.35. The following charts will need to be rebuilt manually.
-
-##### COVAC - Area of Origin
-
-![alt_text](resources/images/Covac_eventchart1.png)
-
-The pie chart can be obtained selecting the PA - "Area Urban Rural" and then arranging the layout as per the screenshot below.
-
-![alt_text](resources/images/Covac_eventchart2.png)
-
-##### COVAC - Occupation
-
-![alt_text](resources/images/Covac_eventchart3.png)
-
-The bar chart can be created selecting the PA - COVID - Occupation and selecting among the options “Health Care Workers”. The layout of the graph should then be arranged as follows:
-
-![alt_text](resources/images/Covac_eventchart4.png)
-
 ## Adapting the tracker program
 
 Once the programme has been imported, you might want to make certain modifications to the programme. Examples of local adaptations that *could* be made include:
