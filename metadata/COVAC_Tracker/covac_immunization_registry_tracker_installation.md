@@ -60,14 +60,6 @@ Like indicator types, you may have already existing tracked entity types in your
 |--|--|--|
 |Person|MCPQUTHX1Ze|../api/trackedEntityTypes.json?filter=name:eq:Person|
 
-#### Event report "Summary of doses"
-
-There is currently a bug that prevents the importing of event reports. [(JIRA-DHIS2-10163)](https://jira.dhis2.org/browse/DHIS2-10163). The import package does therefore not include the “Summary of doses” table and it will have to be reproduced manually.
-
-Use the events report app and select the “Pivot table” function and the “event” output type. Then select the data element “COVAC - Dose Number” and add the doses 1 and 2 (3+ booster if the used vaccine products require it); the Program attribute “Sex”; and the DE “COVAC - Vaccine name”.
-
-Arrange then the layout of the table with DE COVAC - Dose Number and PA Sex in the Column dimensions, and DE COVAC - Vaccine Name in the Row Dimensions.
-
 ## Importing metadata
 
 The .json metadata file is imported through the [Import/Export](https://docs.dhis2.org/master/en/user/html/import_export.html) app of DHIS2. It is advisable to use the "dry run" feature to identify issues before attempting to do an actual import of the metadata. If "dry run" reports any issues or conflicts, see the [import conflicts](https://who.dhis2.org/documentation/installation_guide_complete.html#handling-import-conflicts) section below. If the "dry run"/"validate" import works without error, attempt to import the metadata. If the import succeeds without any errors, you can proceed to [configure](https://who.dhis2.org/documentation/installation_guide_complete.html#configuration) the module. In some cases, import conflicts or issues are not shown during the "dry run", but appear when the actual import is attempted. In this case, the import summary will list any errors that need to be resolved.
@@ -150,6 +142,40 @@ You must assign the program to organisation units within your own hierarchy in o
 Even when metadata has been successfully imported without any import conflicts, there can be duplicates in the metadata - data elements, tracked entity attributes or option sets that already exist. As was noted in the section above on resolving conflict, an important issue to keep in mind is that decisions on making changes to the metadata in DHIS2 also needs to take into account other documents and resources that are in different ways associated with both the existing metadata, and the metadata that has been imported through the configuration package. Resolving duplicates is thus not only a matter of "cleaning up the database", but also making sure that this is done without, for example, breaking potential integrating with other systems, the possibility to use training material, breaking SOPs etc. This will very much be context-dependent.
 
 One important thing to keep in mind is that DHIS2 has tools that can hide some of the complexities of potential duplications in metadata. For example, where duplicate option sets exist, they can be hidden for groups of users through [sharing](https://docs.dhis2.org/master/en/user/html/sharing.html).
+
+### Event report "Summary of doses"
+
+There is currently a bug that prevents the importing of event reports. [(JIRA-DHIS2-10163)](https://jira.dhis2.org/browse/DHIS2-10163). The import package does therefore not include the “Summary of doses” table and it will have to be reproduced manually.
+
+![Summary of doses](resources/images/Covac_event_report1.png)
+
+Use the events report app and select the “Pivot table” function and the “event” output type. Then select the data element “COVAC - Dose Number” and add the doses 1 and 2 (3+ booster if the used vaccine products require it); the Program attribute “Sex”; and the DE “COVAC - Vaccine name”.
+
+![settings for event report](resources/images/Covac_event_report2.png)
+
+Arrange then the layout of the table with DE COVAC - Dose Number and PA Sex in the Column dimensions, and DE COVAC - Vaccine Name in the Row Dimensions:
+
+![Settings for event report](resources/images/Covac_event_report3.png)
+
+### Event Charts
+
+There is also a bug which prevents the import of Event Charts in DHIS2 2.34 - the issue has not been identified while importing in 2.35. The following charts will need to be rebuilt manually.
+
+##### COVAC - Area of Origin
+
+![alt_text](resources/images/Covac_eventchart1.png)
+
+The pie chart can be obtained selecting the PA - "Area Urban Rural" and then arranging the layout as per the screenshot below.
+
+![alt_text](resources/images/Covac_eventchart2.png)
+
+##### COVAC - Occupation
+
+![alt_text](resources/images/Covac_eventchart3.png)
+
+The bar chart can be created selecting the PA - COVID - Occupation and selecting among the options “Health Care Workers”. The layout of the graph should then be arranged as follows:
+
+![alt_text](resources/images/Covac_eventchart4.png)
 
 ## Adapting the tracker program
 
