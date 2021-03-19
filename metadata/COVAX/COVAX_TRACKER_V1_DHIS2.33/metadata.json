@@ -44,9 +44,9 @@
                     "value": "standard"
                 },
                 {
-                    "locale": "ru",
+                    "locale": "fr",
                     "property": "NAME",
-                    "value": "по умолчанию"
+                    "value": "défaut"
                 },
                 {
                     "locale": "cs",
@@ -54,9 +54,9 @@
                     "value": "výchozí"
                 },
                 {
-                    "locale": "fr",
+                    "locale": "ru",
                     "property": "NAME",
-                    "value": "défaut"
+                    "value": "по умолчанию"
                 },
                 {
                     "locale": "es",
@@ -2522,34 +2522,13 @@
             "attributeValues": [],
             "dataElements": [
                 {
-                    "id": "VCetMtYu1DY"
-                },
-                {
-                    "id": "MuZ9dMVXpuM"
-                },
-                {
                     "id": "gW4pd818Sw8"
-                },
-                {
-                    "id": "OAxinuYFDG6"
-                },
-                {
-                    "id": "bbnyNYD1wgS"
                 },
                 {
                     "id": "bCtWZGjSWM8"
                 },
                 {
-                    "id": "DSOWCIdQ8Tr"
-                },
-                {
                     "id": "Yp1F4txx8tm"
-                },
-                {
-                    "id": "dWoveSw6b79"
-                },
-                {
-                    "id": "dpyQUtizp7s"
                 },
                 {
                     "id": "BfNZcj99yz4"
@@ -2558,16 +2537,7 @@
                     "id": "YTQulAldGOs"
                 },
                 {
-                    "id": "TT1h0vGu5da"
-                },
-                {
                     "id": "PamkjF1JUnE"
-                },
-                {
-                    "id": "CBAs12YL4g7"
-                },
-                {
-                    "id": "xVxLMku5DMX"
                 },
                 {
                     "id": "LUIsbsm3okG"
@@ -2586,6 +2556,36 @@
                 },
                 {
                     "id": "LOU9t0aR0z7"
+                },
+                {
+                    "id": "VCetMtYu1DY"
+                },
+                {
+                    "id": "MuZ9dMVXpuM"
+                },
+                {
+                    "id": "OAxinuYFDG6"
+                },
+                {
+                    "id": "bbnyNYD1wgS"
+                },
+                {
+                    "id": "DSOWCIdQ8Tr"
+                },
+                {
+                    "id": "dWoveSw6b79"
+                },
+                {
+                    "id": "dpyQUtizp7s"
+                },
+                {
+                    "id": "TT1h0vGu5da"
+                },
+                {
+                    "id": "CBAs12YL4g7"
+                },
+                {
+                    "id": "xVxLMku5DMX"
                 },
                 {
                     "id": "rpkH9ZPGJcX"
@@ -3034,7 +3034,7 @@
                 {
                     "locale": "es",
                     "property": "SHORT_NAME",
-                    "value": "COVAC - Enfermedad cardiovascular "
+                    "value": "COVAC - Enfermedad cardiovascular"
                 },
                 {
                     "locale": "es",
@@ -3305,7 +3305,7 @@
                 {
                     "locale": "es",
                     "property": "SHORT_NAME",
-                    "value": "COVAC Diabetes "
+                    "value": "COVAC Diabetes"
                 },
                 {
                     "locale": "uz_UZ",
@@ -4409,7 +4409,7 @@
             "legendSets": [],
             "name": "COVAC Previously infected with COVID",
             "optionSet": {
-                "id": "bLA3AqDKdwx"
+                "id": "L6eMZDJkCwX"
             },
             "optionSetValue": true,
             "publicAccess": "rw------",
@@ -4708,10 +4708,10 @@
                 }
             ],
             "dataSetElements": [],
-            "description": "Total doses required for this vaccine product ",
+            "description": "Total doses required for this vaccine product",
             "dimensionItem": "PamkjF1JUnE",
             "dimensionItemType": "DATA_ELEMENT",
-            "displayDescription": "Total doses required for this vaccine product ",
+            "displayDescription": "Total doses required for this vaccine product",
             "displayFormName": "Total doses required for this vaccine product",
             "displayName": "COVAC - Total doses",
             "displayShortName": "COVAC Total doses",
@@ -4814,7 +4814,7 @@
             "legendSets": [],
             "name": "COVAC - Underlying condition",
             "optionSet": {
-                "id": "bLA3AqDKdwx"
+                "id": "L6eMZDJkCwX"
             },
             "optionSetValue": true,
             "publicAccess": "rw------",
@@ -4995,8 +4995,8 @@
             "dimensionItem": "rpkH9ZPGJcX",
             "dimensionItemType": "DATA_ELEMENT",
             "displayFormName": "Vaccine manufacturer",
-            "displayName": "COVAC - Vaccine Manufacturer ",
-            "displayShortName": "COVAC - Vaccine Manufacturer ",
+            "displayName": "COVAC - Vaccine Manufacturer",
+            "displayShortName": "COVAC - Vaccine Manufacturer",
             "domainType": "TRACKER",
             "externalAccess": false,
             "favorite": false,
@@ -5004,13 +5004,13 @@
             "formName": "Vaccine manufacturer",
             "id": "rpkH9ZPGJcX",
             "legendSets": [],
-            "name": "COVAC - Vaccine Manufacturer ",
+            "name": "COVAC - Vaccine Manufacturer",
             "optionSet": {
                 "id": "DtOGtoLbaB5"
             },
             "optionSetValue": true,
             "publicAccess": "rw------",
-            "shortName": "COVAC - Vaccine Manufacturer ",
+            "shortName": "COVAC - Vaccine Manufacturer",
             "translations": [
                 {
                     "locale": "cs",
@@ -5295,6 +5295,12 @@
             "userAccesses": [],
             "userGroupAccesses": [
                 {
+                    "access": "r-------",
+                    "displayName": "COVAC - Covid-19 Immunization Data Analysis",
+                    "id": "VLIaHu6ou8E",
+                    "userGroupUid": "VLIaHu6ou8E"
+                },
+                {
                     "access": "rw------",
                     "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
                     "id": "AEAQ9LktNze",
@@ -5305,12 +5311,6 @@
                     "displayName": "COVAC - Covid-19 Immunization Data Entry",
                     "id": "q3Nh5xhJEy2",
                     "userGroupUid": "q3Nh5xhJEy2"
-                },
-                {
-                    "access": "r-------",
-                    "displayName": "COVAC - Covid-19 Immunization Data Analysis",
-                    "id": "VLIaHu6ou8E",
-                    "userGroupUid": "VLIaHu6ou8E"
                 }
             ],
             "userOrganisationUnit": true,
@@ -5444,6 +5444,12 @@
             "userAccesses": [],
             "userGroupAccesses": [
                 {
+                    "access": "r-------",
+                    "displayName": "COVAC - Covid-19 Immunization Data Analysis",
+                    "id": "VLIaHu6ou8E",
+                    "userGroupUid": "VLIaHu6ou8E"
+                },
+                {
                     "access": "rw------",
                     "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
                     "id": "AEAQ9LktNze",
@@ -5454,12 +5460,6 @@
                     "displayName": "COVAC - Covid-19 Immunization Data Entry",
                     "id": "q3Nh5xhJEy2",
                     "userGroupUid": "q3Nh5xhJEy2"
-                },
-                {
-                    "access": "r-------",
-                    "displayName": "COVAC - Covid-19 Immunization Data Analysis",
-                    "id": "VLIaHu6ou8E",
-                    "userGroupUid": "VLIaHu6ou8E"
                 }
             ],
             "userOrganisationUnit": true,
@@ -5617,6 +5617,11 @@
             "shortName": "Drop-out from COV-1 to COV-c",
             "translations": [
                 {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Abandon COV-1 à COV-c"
@@ -5632,19 +5637,24 @@
                     "value": "La proporción de personas que recibieron al menos una dosis de la vacuna COVID-19 pero que aún no recibieron la última dosis del programa. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
-                },
-                {
-                    "locale": "pt",
+                    "locale": "fr",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "COV-1"
                 },
                 {
                     "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "CPV-1 - COV-c"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
                     "locale": "es",
@@ -5652,7 +5662,7 @@
                     "value": "CPV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
+                    "locale": "pt",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "CPV-1 - COV-c"
                 },
@@ -5662,14 +5672,14 @@
                     "value": "Proportion de personnes ayant reçu au moins une dose d'un vaccin COVID-19 mais n'ayant pas encore reçu la dernière dose prévue dans le calendrier. Calculée comme suit : : (COV-1 - COV-c)/COV-1\n"
                 },
                 {
-                    "locale": "pt",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "CPV-1 - COV-c"
-                },
-                {
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Podíl lidí, kteří dostali alespoň jednu dávku vakcíny COVID-19, ale dosud nedostali poslední dávku v rozvrhu. Vypočteno jako: (COV-1 - COV-c) / COV-1\n"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
                 },
                 {
                     "locale": "cs",
@@ -5682,14 +5692,9 @@
                     "value": "Abandono de COV-1 a COV-c"
                 },
                 {
-                    "locale": "es",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "CPV-1 - COV-c"
                 },
                 {
                     "locale": "es",
@@ -5700,11 +5705,6 @@
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "Odpad z COV-1 do COV-c"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
                 }
             ],
             "user": {
@@ -5750,6 +5750,11 @@
             "translations": [
                 {
                     "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "es",
                     "property": "DESCRIPTION",
                     "value": "La proporción de personas que recibieron al menos una dosis de la vacuna COVID-19 pero que aún no recibieron la última dosis del programa. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
@@ -5759,19 +5764,29 @@
                     "value": "Abandono de COV-1 a COV-c COVAX1"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "es",
                     "property": "NAME",
                     "value": "COVAC - Abandono de COV-1 a COV-c AstraZeneca (12 días)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "pt",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "property": "DESCRIPTION",
+                    "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
                     "locale": "fr",
@@ -5789,24 +5804,24 @@
                     "value": "Podíl lidí, kteří dostali alespoň jednu dávku vakcíny COVID-19, ale dosud nedostali poslední dávku v rozvrhu. Vypočteno jako: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "cs",
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "es",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "pt",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "fr",
@@ -5814,24 +5829,9 @@
                     "value": "Abandon COV-1 à COV-c COVAX1"
                 },
                 {
-                    "locale": "es",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "Odpad z COV-1 do COV-c COVAX1"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
                 }
             ],
             "user": {
@@ -5877,8 +5877,23 @@
             "translations": [
                 {
                     "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "es",
                     "property": "DESCRIPTION",
                     "value": "La proporción de personas que recibieron al menos una dosis de la vacuna COVID-19 pero que aún no recibieron la última dosis del programa. Calculado como: (COV-1 - COV-c) / COV-1\n"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
                 },
                 {
                     "locale": "pt",
@@ -5886,9 +5901,9 @@
                     "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "fr",
@@ -5916,29 +5931,29 @@
                     "value": "Abandono de COV-1 a COV-c COVAX2"
                 },
                 {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Podíl lidí, kteří dostali alespoň jednu dávku vakcíny COVID-19, ale dosud nedostali poslední dávku v rozvrhu. Vypočteno jako: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "cs",
+                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "es",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "pt",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "fr",
@@ -5946,24 +5961,9 @@
                     "value": "Abandon COV-1 à COV-c COVAX2"
                 },
                 {
-                    "locale": "es",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "Odpad z COV-1 do COV-c COVAX2"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
                 }
             ],
             "user": {
@@ -6009,18 +6009,33 @@
             "translations": [
                 {
                     "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "es",
                     "property": "DESCRIPTION",
                     "value": "La proporción de personas que recibieron al menos una dosis de la vacuna COVID-19 pero que aún no recibieron la última dosis del programa. Calculado como: (COV-1 - COV-c) / COV-1\n"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "pt",
                     "property": "DESCRIPTION",
                     "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
                 },
                 {
                     "locale": "fr",
@@ -6043,12 +6058,7 @@
                     "value": "Podíl lidí, kteří dostali alespoň jednu dávku vakcíny COVID-19, ale dosud nedostali poslední dávku v rozvrhu. Vypočteno jako: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "cs",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
-                },
-                {
-                    "locale": "es",
+                    "locale": "pt",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "COV-1"
                 },
@@ -6058,19 +6068,9 @@
                     "value": "COV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
                     "locale": "es",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
                 },
                 {
                     "locale": "pt",
@@ -6120,14 +6120,29 @@
             "shortName": "Drop-out from COV-1 to COV-c COVAX3",
             "translations": [
                 {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "pt",
                     "property": "DESCRIPTION",
                     "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "fr",
@@ -6138,6 +6153,11 @@
                     "locale": "pt",
                     "property": "SHORT_NAME",
                     "value": "Desistência de COV-1 para COV-c COVAX3"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
                 },
                 {
                     "locale": "cs",
@@ -6155,17 +6175,17 @@
                     "value": "COVAC - Abandono de COV-1 a COV-c Moderna (28 días)"
                 },
                 {
-                    "locale": "cs",
+                    "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "es",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
+                    "locale": "pt",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
@@ -6180,29 +6200,9 @@
                     "value": "Proporción de personas que recibieron al menos una dosis de la vacuna COVID-19 pero que aún no recibieron la última dosis del programa. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "Odpad z COV-1 do COV-c COVAX3"
-                },
-                {
-                    "locale": "es",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "cs",
@@ -6252,6 +6252,11 @@
             "shortName": "Drop-out from COV-1 to COV-c COVAX5",
             "translations": [
                 {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "cs",
                     "property": "NAME",
                     "value": "COVAC - odpad z COV-1 do COV-c Sinopharm (28 dní)"
@@ -6267,14 +6272,24 @@
                     "value": "COVAC - Abandono de COV-1 a COV-c Sinopharm (28 días)"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "pt",
                     "property": "DESCRIPTION",
                     "value": "A proporção de pessoas que receberam pelo menos uma dose da vacina COVID-19, mas ainda não receberam a última dose do cronograma. Calculado como: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
+                    "locale": "cs",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "COV-1 - COV-c"
                 },
                 {
                     "locale": "fr",
@@ -6287,49 +6302,34 @@
                     "value": "Abandono de COV-1 a COV-c COVAX5"
                 },
                 {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "COV-1"
+                },
+                {
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Podíl lidí, kteří dostali alespoň jednu dávku vakcíny COVID-19, ale dosud nedostali poslední dávku v rozvrhu. Vypočteno jako: (COV-1 - COV-c) / COV-1\n"
                 },
                 {
-                    "locale": "cs",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "COV-1 - COV-c"
-                },
-                {
-                    "locale": "es",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Odpad z COV-1 do COV-c COVAX5"
-                },
-                {
                     "locale": "fr",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
-                },
-                {
                     "locale": "es",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "COV-1"
                 },
                 {
                     "locale": "pt",
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "COV-1 - COV-c"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Odpad z COV-1 do COV-c COVAX5"
                 }
             ],
             "user": {
@@ -6521,7 +6521,7 @@
                 {
                     "locale": "es",
                     "property": "NAME",
-                    "value": "COVAC - Tasas de abandono "
+                    "value": "COVAC - Tasas de abandono"
                 }
             ],
             "user": {
@@ -6564,8 +6564,8 @@
                     ],
                     "dataElementDimensions": [],
                     "dataElementGroupSetDimensions": [],
-                    "displayFormName": "Doses given ",
-                    "displayName": "Doses given ",
+                    "displayFormName": "Doses given",
+                    "displayName": "Doses given",
                     "endDate": "2021-01-06T00:00:00.000",
                     "eventClustering": false,
                     "eventPointRadius": 0,
@@ -6583,7 +6583,7 @@
                     "itemOrganisationUnitGroups": [],
                     "layer": "thematic",
                     "method": 2,
-                    "name": "Doses given ",
+                    "name": "Doses given",
                     "organisationUnitGroupSetDimensions": [],
                     "organisationUnitLevels": [
                         4
@@ -6850,7 +6850,7 @@
                 {
                     "locale": "es",
                     "property": "NAME",
-                    "value": "COVAC Dosis "
+                    "value": "COVAC Dosis"
                 },
                 {
                     "locale": "cs",
@@ -6902,7 +6902,7 @@
                 {
                     "locale": "es",
                     "property": "NAME",
-                    "value": "COVAC Trimestre "
+                    "value": "COVAC Trimestre"
                 }
             ],
             "user": {
@@ -7117,14 +7117,14 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "hiQ3QFheQ3O",
-            "name": "COVAC - Sex",
+            "id": "WDUwjiW2rGH",
+            "name": "Sex",
             "options": [
                 {
-                    "id": "AZK4rjJCss5"
+                    "id": "FKKrOBBFgs1"
                 },
                 {
-                    "id": "UrUdMteQzlT"
+                    "id": "Ii4IxCLWEFn"
                 }
             ],
             "publicAccess": "--------",
@@ -7182,17 +7182,17 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "bLA3AqDKdwx",
-            "name": "COVAC - Yes/No/Unknown",
+            "id": "L6eMZDJkCwX",
+            "name": "Yes/No/Unknown",
             "options": [
                 {
-                    "id": "CvivP1rh4ii"
+                    "id": "x9yVKkv9koc"
                 },
                 {
-                    "id": "PLlPgcfbL1D"
+                    "id": "R98tI2c6rF5"
                 },
                 {
-                    "id": "TKD1XJ4ZhMO"
+                    "id": "pqxvAQU1z9W"
                 }
             ],
             "publicAccess": "r-------",
@@ -7732,16 +7732,16 @@
         },
         {
             "attributeValues": [],
-            "code": "FEMALE",
+            "code": "Female",
             "displayFormName": "Female",
             "displayName": "Female",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "AZK4rjJCss5",
+            "id": "FKKrOBBFgs1",
             "name": "Female",
             "optionSet": {
-                "id": "hiQ3QFheQ3O"
+                "id": "WDUwjiW2rGH"
             },
             "sortOrder": 1,
             "translations": [
@@ -7966,16 +7966,16 @@
         },
         {
             "attributeValues": [],
-            "code": "MALE",
+            "code": "Male",
             "displayFormName": "Male",
             "displayName": "Male",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "UrUdMteQzlT",
+            "id": "Ii4IxCLWEFn",
             "name": "Male",
             "optionSet": {
-                "id": "hiQ3QFheQ3O"
+                "id": "WDUwjiW2rGH"
             },
             "sortOrder": 2,
             "translations": [
@@ -8078,16 +8078,16 @@
         },
         {
             "attributeValues": [],
-            "code": "NO",
+            "code": "No",
             "displayFormName": "No",
             "displayName": "No",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "PLlPgcfbL1D",
+            "id": "R98tI2c6rF5",
             "name": "No",
             "optionSet": {
-                "id": "bLA3AqDKdwx"
+                "id": "L6eMZDJkCwX"
             },
             "sortOrder": 5,
             "translations": [
@@ -8731,16 +8731,16 @@
         },
         {
             "attributeValues": [],
-            "code": "UNKNOWN",
+            "code": "Unknown",
             "displayFormName": "Unknown",
             "displayName": "Unknown",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "TKD1XJ4ZhMO",
+            "id": "pqxvAQU1z9W",
             "name": "Unknown",
             "optionSet": {
-                "id": "bLA3AqDKdwx"
+                "id": "L6eMZDJkCwX"
             },
             "sortOrder": 6,
             "translations": [
@@ -8813,16 +8813,16 @@
         },
         {
             "attributeValues": [],
-            "code": "YES",
+            "code": "Yes",
             "displayFormName": "Yes",
             "displayName": "Yes",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "id": "CvivP1rh4ii",
+            "id": "x9yVKkv9koc",
             "name": "Yes",
             "optionSet": {
-                "id": "bLA3AqDKdwx"
+                "id": "L6eMZDJkCwX"
             },
             "sortOrder": 4,
             "translations": [
@@ -8861,7 +8861,7 @@
             "userGroupAccesses": []
         }
     ],
-    "package": "COVAC_TRACKER_V1.1.1_DHIS2.33.8-3c90b70_20210309T150550",
+    "package": "COVAC_TRACKER_COVAC_TRACKER_V1.1.2_DHIS2.33.8-3c90b70_20210318T130229",
     "programIndicatorGroups": [],
     "programIndicators": [
         {
@@ -8989,6 +8989,18 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "ZuvbaeGzmDV",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -8998,18 +9010,6 @@
                     "id": "KJXxoErlqAd",
                     "offsetPeriodType": "Daily",
                     "offsetPeriods": -10,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "ZuvbaeGzmDV",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -9105,6 +9105,18 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "o3ju0rKcGVC",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -9114,18 +9126,6 @@
                     "id": "bsPL7nkOXSs",
                     "offsetPeriodType": "Daily",
                     "offsetPeriods": -21,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "o3ju0rKcGVC",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -9660,6 +9660,18 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "UWxgS1THGx0",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -9669,18 +9681,6 @@
                     "id": "wJDVM4xVUJH",
                     "offsetPeriodType": "Daily",
                     "offsetPeriods": -10,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "UWxgS1THGx0",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -9771,6 +9771,18 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "bJWril7zE3T",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -9780,18 +9792,6 @@
                     "id": "o0tuFk9l17s",
                     "offsetPeriodType": "Daily",
                     "offsetPeriods": -21,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "bJWril7zE3T",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -9887,6 +9887,18 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "yVfHhQLUdZ0",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
                     "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -9896,18 +9908,6 @@
                     "id": "R83aI6uPQ2L",
                     "offsetPeriodType": "Daily",
                     "offsetPeriods": -21,
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "yVfHhQLUdZ0",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -10236,8 +10236,8 @@
             "dimensionItem": "kNzRGpiCvg4",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of doses (first, second, third, or booster dose) of a vaccine product",
-            "displayFormName": "Doses given ",
-            "displayName": "Doses given ",
+            "displayFormName": "Doses given",
+            "displayName": "Doses given",
             "displayShortName": "1st, 2nd, 3rd, booster dose - Number of doses - ",
             "expression": "V{event_count}",
             "externalAccess": false,
@@ -10246,7 +10246,7 @@
             "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' ||\n#{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "kNzRGpiCvg4",
             "legendSets": [],
-            "name": "Doses given ",
+            "name": "Doses given",
             "program": {
                 "id": "yDuAzyqYABS"
             },
@@ -10346,8 +10346,8 @@
             "dimensionItem": "AXweWKC4B3L",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people who have had a first dose of a vaccine product",
-            "displayFormName": "Number of people receiving a first dose ",
-            "displayName": "Number of people receiving a first dose ",
+            "displayFormName": "Number of people receiving a first dose",
+            "displayName": "Number of people receiving a first dose",
             "displayShortName": "First dose - Number of people",
             "expression": "V{tei_count}",
             "externalAccess": false,
@@ -10356,7 +10356,7 @@
             "filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "AXweWKC4B3L",
             "legendSets": [],
-            "name": "Number of people receiving a first dose ",
+            "name": "Number of people receiving a first dose",
             "program": {
                 "id": "yDuAzyqYABS"
             },
@@ -10407,7 +10407,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "Nombre de personnes recevant la première dose "
+                    "value": "Nombre de personnes recevant la première dose"
                 },
                 {
                     "locale": "cs",
@@ -10480,7 +10480,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
+            "filter": "A{oindugucx72} == 'Male' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59",
             "id": "hqm8znlAzkT",
             "legendSets": [],
             "name": "Number of people receiving a first dose  (Male 0-59)",
@@ -10600,7 +10600,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
+            "filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59",
             "id": "SqD0kovH0CS",
             "legendSets": [],
             "name": "Number of people receiving a first dose (0-59)",
@@ -10617,9 +10617,9 @@
                     "value": "Primera dosis - Número de personas (0-59)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Número de pessoas que receberam a primeira dose de um produto vacinal"
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Nombre de personnes recevant une première dose (0-59 ans)"
                 },
                 {
                     "locale": "pt",
@@ -10627,19 +10627,19 @@
                     "value": "Primeira dose - Número de pessoas (0-59)"
                 },
                 {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Première dose - Nombre de personnes (0-59 ans)"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "První dávka - počet osob (0-59)"
                 },
                 {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Número de pessoas que receberam a primeira dose de um produto vacinal"
+                },
+                {
                     "locale": "fr",
-                    "property": "NAME",
-                    "value": "Nombre de personnes recevant une première dose (0-59 ans)"
+                    "property": "SHORT_NAME",
+                    "value": "Première dose - Nombre de personnes (0-59 ans)"
                 },
                 {
                     "locale": "fr",
@@ -10720,7 +10720,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
+            "filter": "#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60",
             "id": "MUXThnNRCk6",
             "legendSets": [],
             "name": "Number of people receiving a first dose (60+)",
@@ -10737,6 +10737,11 @@
                     "value": "Počet lidí, kteří dostali první dávku (60+)"
                 },
                 {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Primera dosis - Número de personas (60+)"
+                },
+                {
                     "locale": "pt",
                     "property": "DESCRIPTION",
                     "value": "Número de pessoas que receberam a primeira dose de um produto vacinal"
@@ -10745,11 +10750,6 @@
                     "locale": "pt",
                     "property": "SHORT_NAME",
                     "value": "Primeira dose - Número de pessoas (60+)"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Primera dosis - Número de personas (60+)"
                 },
                 {
                     "locale": "fr",
@@ -10840,7 +10840,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1}== 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59",
+            "filter": "A{oindugucx72}== 'Female' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59",
             "id": "RJ6pdxga9Od",
             "legendSets": [],
             "name": "Number of people receiving a first dose (Female 0-59)",
@@ -10960,7 +10960,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1}== 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
+            "filter": "A{oindugucx72}== 'Female' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60",
             "id": "x4L0LuEBHhW",
             "legendSets": [],
             "name": "Number of people receiving a first dose (Female 60+)",
@@ -11080,7 +11080,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1}== 'FEMALE' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
+            "filter": "A{oindugucx72}== 'Female' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "kKr4FSA1O0Z",
             "legendSets": [],
             "name": "Number of people receiving a first dose (Female)",
@@ -11200,7 +11200,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60",
+            "filter": "A{oindugucx72} == 'Male' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60",
             "id": "aIIHyDy8AMW",
             "legendSets": [],
             "name": "Number of people receiving a first dose (Male 60+)",
@@ -11217,14 +11217,14 @@
                     "value": "Primeira dose - Número de pessoas (homens com mais de 60 anos)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Número de pessoas que receberam a primeira dose de um produto vacinal"
-                },
-                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Première dose - Nombre de personnes (Homme, plus de 60 ans)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Número de pessoas que receberam a primeira dose de um produto vacinal"
                 },
                 {
                     "locale": "fr",
@@ -11262,14 +11262,14 @@
                     "value": "Počet lidí, kteří dostali první dávku vakcínového produktu"
                 },
                 {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Número de personas que han recibido una primera dosis de una vacuna."
-                },
-                {
                     "locale": "pt",
                     "property": "NAME",
                     "value": "Número de pessoas que recebem a primeira dose (homens com mais de 60 anos)"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Número de personas que han recibido una primera dosis de una vacuna."
                 }
             ],
             "user": {
@@ -11320,7 +11320,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
+            "filter": "A{oindugucx72} == 'Male' &&\n\n#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE1' && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "HCe7qiP0GoC",
             "legendSets": [],
             "name": "Number of people receiving a first dose (Male)",
@@ -11433,8 +11433,8 @@
             "dimensionItem": "zr25iLoCE4g",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
-            "displayFormName": "Number of people receiving a second, third or booster dose ",
-            "displayName": "Number of people receiving a second, third or booster dose ",
+            "displayFormName": "Number of people receiving a second, third or booster dose",
+            "displayName": "Number of people receiving a second, third or booster dose",
             "displayShortName": "2nd, 3rd, booster dose - Number of people",
             "expression": "V{tei_count}",
             "externalAccess": false,
@@ -11443,7 +11443,7 @@
             "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' &&  V{program_stage_id} == 'a1jCssI2LkW' ",
             "id": "zr25iLoCE4g",
             "legendSets": [],
-            "name": "Number of people receiving a second, third or booster dose ",
+            "name": "Number of people receiving a second, third or booster dose",
             "program": {
                 "id": "yDuAzyqYABS"
             },
@@ -11489,7 +11489,7 @@
                 {
                     "locale": "es",
                     "property": "SHORT_NAME",
-                    "value": "2.a, 3.a, dosis de refuerzo - Número de personas "
+                    "value": "2.a, 3.a, dosis de refuerzo - Número de personas"
                 },
                 {
                     "locale": "cs",
@@ -11555,12 +11555,12 @@
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
             "displayFormName": "Number of people receiving a second, third or booster dose  (Male) ",
             "displayName": "Number of people receiving a second, third or booster dose  (Male) ",
-            "displayShortName": "2nd, 3rd, booster dose - Number of males ",
+            "displayShortName": "2nd, 3rd, booster dose - Number of males",
             "expression": "V{tei_count}",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER')  && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'",
+            "filter": "A{oindugucx72} == 'Male' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER')  && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "UzPqw49tyym",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose  (Male) ",
@@ -11569,7 +11569,7 @@
             },
             "programIndicatorGroups": [],
             "publicAccess": "rw------",
-            "shortName": "2nd, 3rd, booster dose - Number of males ",
+            "shortName": "2nd, 3rd, booster dose - Number of males",
             "translations": [
                 {
                     "locale": "cs",
@@ -11680,7 +11680,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
+            "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59 ",
             "id": "zgt8n5PIAAf",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (0-59)",
@@ -11697,14 +11697,14 @@
                     "value": "2.a, 3.a, dosis de refuerzo - Número de personas (0-59)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço de um produto vacinal"
-                },
-                {
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço de um produto vacinal"
                 },
                 {
                     "locale": "pt",
@@ -11738,13 +11738,13 @@
                 },
                 {
                     "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Number of people who have had a second, third, or booster dose of a vaccine product"
+                    "property": "NAME",
+                    "value": "Número de personas que reciben una segunda, tercera o dosis de refuerzo (0-59)"
                 },
                 {
                     "locale": "es",
-                    "property": "NAME",
-                    "value": "Número de personas que reciben una segunda, tercera o dosis de refuerzo (0-59)"
+                    "property": "DESCRIPTION",
+                    "value": "Number of people who have had a second, third, or booster dose of a vaccine product"
                 },
                 {
                     "locale": "fr",
@@ -11762,18 +11762,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "GOBP3ykw7zL",
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -11781,6 +11769,18 @@
                     "favorite": false,
                     "favorites": [],
                     "id": "S6XmxHmDtAz",
+                    "translations": [],
+                    "userAccesses": [],
+                    "userGroupAccesses": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "GOBP3ykw7zL",
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": []
@@ -11800,7 +11800,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'  && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
+            "filter": "(#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'  && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60 ",
             "id": "CI0pKfEiWom",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (60+)",
@@ -11812,14 +11812,14 @@
             "shortName": "2nd, 3rd, booster dose - Number of people (60+)",
             "translations": [
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço de um produto vacinal"
-                },
-                {
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço de um produto vacinal"
                 },
                 {
                     "locale": "fr",
@@ -11857,11 +11857,6 @@
                     "value": "Número de personas que han recibido una segunda, tercera o dosis de refuerzo de una vacuna"
                 },
                 {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "2ª, 3ª, dose de reforço - Número de pessoas (60+)"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "2., 3., posilovací dávka - počet osob (60+)"
@@ -11870,6 +11865,11 @@
                     "locale": "cs",
                     "property": "NAME",
                     "value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (60+)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "2ª, 3ª, dose de reforço - Número de pessoas (60+)"
                 }
             ],
             "user": {
@@ -11920,7 +11920,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
+            "filter": "A{oindugucx72} == 'Female' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59 ",
             "id": "xY4T9hHXNji",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (Female 0-59)",
@@ -11957,11 +11957,6 @@
                     "value": "2ª, 3ª ou dose de reforço - (Mulher 0-59)"
                 },
                 {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "2.a, 3.a dosis o de refuerzo - (Mujeres 0-59)"
-                },
-                {
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Počet žen, kterým byla podána druhá, třetí nebo přeočkovací dávka vakcínového produktu"
@@ -11970,6 +11965,11 @@
                     "locale": "fr",
                     "property": "NAME",
                     "value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme, 0-59 ans)"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "2.a, 3.a dosis o de refuerzo - (Mujeres 0-59)"
                 },
                 {
                     "locale": "pt",
@@ -12040,7 +12040,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
+            "filter": "A{oindugucx72} == 'Female' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60 ",
             "id": "h9G7i6mQKef",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (Female 60+)",
@@ -12057,19 +12057,14 @@
                     "value": "Número de mulheres que receberam uma segunda, terceira ou dose de reforço de um produto de vacina"
                 },
                 {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço (mulheres com mais de 60 anos)"
-                },
-                {
                     "locale": "es",
                     "property": "SHORT_NAME",
                     "value": "2da, 3ra, dosis de refuerzo - (Mujeres 60+)"
                 },
                 {
-                    "locale": "fr",
+                    "locale": "pt",
                     "property": "NAME",
-                    "value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme, plus de 60 ans)"
+                    "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço (mulheres com mais de 60 anos)"
                 },
                 {
                     "locale": "pt",
@@ -12080,6 +12075,11 @@
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Počet žen, kterým byla podána druhá, třetí nebo přeočkovací dávka vakcínového produktu"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Nombre de personnes recevant une deuxième, une troisième ou une dose de rappel (Femme, plus de 60 ans)"
                 },
                 {
                     "locale": "es",
@@ -12102,14 +12102,14 @@
                     "value": "Nombre de personnes de sexe féminin ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
                 },
                 {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (žena 60+)"
-                },
-                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "2ème, 3ème, dose de rappel - (Femme de plus de 60 ans)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (žena 60+)"
                 }
             ],
             "user": {
@@ -12155,12 +12155,12 @@
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
             "displayFormName": "Number of people receiving a second, third or booster dose (Female) ",
             "displayName": "Number of people receiving a second, third or booster dose (Female) ",
-            "displayShortName": "2nd, 3rd, booster dose - Number of females ",
+            "displayShortName": "2nd, 3rd, booster dose - Number of females",
             "expression": "V{tei_count}",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'FEMALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'",
+            "filter": "A{oindugucx72} == 'Female' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW'",
             "id": "wkaRLVNi6Fm",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (Female) ",
@@ -12169,7 +12169,7 @@
             },
             "programIndicatorGroups": [],
             "publicAccess": "rw------",
-            "shortName": "2nd, 3rd, booster dose - Number of females ",
+            "shortName": "2nd, 3rd, booster dose - Number of females",
             "translations": [
                 {
                     "locale": "cs",
@@ -12270,7 +12270,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm'&& V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
+            "filter": "A{oindugucx72} == 'Male' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm'&& V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59 ",
             "id": "MGjwUUNsE60",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (Male 0-59)",
@@ -12390,7 +12390,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
+            "filter": "A{oindugucx72} == 'Male' && (#{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER') && #{a1jCssI2LkW.bbnyNYD1wgS} == 'astrazeneca' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'biontechpfizer' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'moderna' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'gamaleya' || #{a1jCssI2LkW.bbnyNYD1wgS} == 'sinopharm' && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60 ",
             "id": "qh0kIjHZbP8",
             "legendSets": [],
             "name": "Number of people receiving a second, third or booster dose (Male 60+)",
@@ -12403,13 +12403,18 @@
             "translations": [
                 {
                     "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "2., 3., posilovací dávka - (muži nad 60 let)"
+                },
+                {
+                    "locale": "cs",
                     "property": "NAME",
                     "value": "Počet lidí, kteří dostávají druhou, třetí nebo posilovací dávku (muži 60+)"
                 },
                 {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "2., 3., posilovací dávka - (muži nad 60 let)"
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
                 },
                 {
                     "locale": "pt",
@@ -12422,11 +12427,6 @@
                     "value": "Número de pessoas que receberam uma segunda, terceira ou dose de reforço (masculino, 60+)"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Nombre de personnes ayant reçu une deuxième, une troisième ou une dose de rappel d'un produit vaccinal"
-                },
-                {
                     "locale": "es",
                     "property": "NAME",
                     "value": "Número de personas que reciben una segunda, tercera o dosis de refuerzo (hombres 60+ años)"
@@ -12437,14 +12437,14 @@
                     "value": "2ª, 3ª, dose de reforço - (Masculino 60+)"
                 },
                 {
-                    "locale": "cs",
-                    "property": "DESCRIPTION",
-                    "value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
-                },
-                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "2ème, 3ème, dose de rappel - (Homme de plus de 60 ans)"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DESCRIPTION",
+                    "value": "Počet lidí, kteří dostali druhou, třetí nebo posilovací dávku vakcínového produktu"
                 },
                 {
                     "locale": "es",
@@ -12630,7 +12630,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59 ",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59 ",
             "id": "BtB8fMhK2gH",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (0-59)",
@@ -12750,7 +12750,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60 ",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60 ",
             "id": "a6kCEcImBlW",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (60+)",
@@ -12870,7 +12870,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59  && A{CklPZdOd6H1} == 'FEMALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59  && A{oindugucx72} == 'Female'",
             "id": "Zp39TSOR8eW",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Female 0-59)",
@@ -12892,14 +12892,14 @@
                     "value": "Přijatá poslední dávka (ženy 0-59)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Número de pessoas que receberam a última dose recomendada de um produto de vacina"
-                },
-                {
                     "locale": "cs",
                     "property": "NAME",
                     "value": "Počet osob, které dostaly poslední doporučenou dávku pro příslušný vakcínový produkt (ženy 0-59)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DESCRIPTION",
+                    "value": "Número de pessoas que receberam a última dose recomendada de um produto de vacina"
                 },
                 {
                     "locale": "cs",
@@ -12907,14 +12907,14 @@
                     "value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
                 },
                 {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Número de personas que han recibido la última dosis recomendada de una vacuna"
-                },
-                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Personnes ayant reçu la dernière dose (Femme, 0-59 ans)"
+                },
+                {
+                    "locale": "es",
+                    "property": "DESCRIPTION",
+                    "value": "Número de personas que han recibido la última dosis recomendada de una vacuna"
                 },
                 {
                     "locale": "fr",
@@ -12990,7 +12990,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60  && A{CklPZdOd6H1} == 'FEMALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60  && A{oindugucx72} == 'Female'",
             "id": "XFUvVgqPukT",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Female 60+)",
@@ -13017,14 +13017,14 @@
                     "value": "Número de pessoas que receberam a última dose recomendada de um produto de vacina"
                 },
                 {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Número de pessoas que receberam a última dose recomendada para o respectivo produto da vacina (Feminino 60+)"
-                },
-                {
                     "locale": "cs",
                     "property": "DESCRIPTION",
                     "value": "Počet lidí, kteří dostali poslední doporučenou dávku vakcínového produktu"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Número de pessoas que receberam a última dose recomendada para o respectivo produto da vacina (Feminino 60+)"
                 },
                 {
                     "locale": "es",
@@ -13047,14 +13047,14 @@
                     "value": "Número de personas que recibieron la última dosis recomendada para la vacuna respectiva (Mujeres 60+)"
                 },
                 {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Recebeu a última dose (Feminino 60+)"
-                },
-                {
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Personnes ayant reçu la dernière dose (Femme de plus de 60 ans)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Recebeu a última dose (Feminino 60+)"
                 },
                 {
                     "locale": "es",
@@ -13110,7 +13110,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{CklPZdOd6H1} == 'FEMALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{oindugucx72} == 'Female'",
             "id": "UWXUTVN709H",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Female)",
@@ -13230,7 +13230,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})<= 59  && A{CklPZdOd6H1} == 'MALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})<= 59  && A{oindugucx72} == 'Male'",
             "id": "FZNIlzPRMmL",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Male 0-59)",
@@ -13242,11 +13242,6 @@
             "shortName": "Received last dose (Male 0-59)",
             "translations": [
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
-                },
-                {
                     "locale": "cs",
                     "property": "SHORT_NAME",
                     "value": "Přijatá poslední dávka (muži 0-59)"
@@ -13255,6 +13250,11 @@
                     "locale": "pt",
                     "property": "NAME",
                     "value": "Número de pessoas que receberam a última dose recomendada do respectivo produto vacinal (Masculino, 0-59)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
                 },
                 {
                     "locale": "pt",
@@ -13272,14 +13272,14 @@
                     "value": "Número de personas que han recibido la última dosis recomendada de una vacuna"
                 },
                 {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Recebeu a última dose (Masculino 0-59)"
-                },
-                {
                     "locale": "es",
                     "property": "NAME",
                     "value": "Número de personas que recibieron la última dosis recomendada para el producto de vacuna respectivo (hombres 0-59)"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Recebeu a última dose (Masculino 0-59)"
                 },
                 {
                     "locale": "es",
@@ -13350,7 +13350,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{mAWcalQYYyk}, V{analytics_period_start})>=60  && A{CklPZdOd6H1} == 'MALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW' && d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start})>=60  && A{oindugucx72} == 'Male'",
             "id": "zovL7DKBRuK",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Male 60+)",
@@ -13363,13 +13363,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
+                    "property": "SHORT_NAME",
+                    "value": "Personnes ayant reçu la dernière dose (Homme de plus de 60 ans)"
                 },
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Personnes ayant reçu la dernière dose (Homme de plus de 60 ans)"
+                    "property": "DESCRIPTION",
+                    "value": "Nombre de personnes ayant reçu la dernière dose recommandée d'un produit vaccinal"
                 },
                 {
                     "locale": "pt",
@@ -13470,7 +13470,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{CklPZdOd6H1} == 'MALE'",
+            "filter": "#{a1jCssI2LkW.DSOWCIdQ8Tr}==1 && V{program_stage_id} == 'a1jCssI2LkW'  && A{oindugucx72} == 'Male'",
             "id": "pbiKvW0Xv5Y",
             "legendSets": [],
             "name": "Number of people who received the last recommended dose for the respective vaccine product (Male)",
@@ -13589,7 +13589,7 @@
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "#{a1jCssI2LkW.bCtWZGjSWM8}== 'YES' && V{program_stage_id} == 'a1jCssI2LkW'\n",
+            "filter": "#{a1jCssI2LkW.bCtWZGjSWM8}== 'Yes' && V{program_stage_id} == 'a1jCssI2LkW'\n",
             "id": "Zn0UuSRYyJw",
             "legendSets": [],
             "name": "Underlying conditions - People with",
@@ -14204,7 +14204,7 @@
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
             "displayFormName": "ZZZNumber of doses given",
             "displayName": "ZZZNumber of doses given",
-            "displayShortName": "ZZZ1st, 2nd, 3rd, booster dose - Number of people ",
+            "displayShortName": "ZZZ1st, 2nd, 3rd, booster dose - Number of people",
             "expression": "V{event_count}",
             "externalAccess": false,
             "favorite": false,
@@ -14218,7 +14218,7 @@
             },
             "programIndicatorGroups": [],
             "publicAccess": "rw------",
-            "shortName": "ZZZ1st, 2nd, 3rd, booster dose - Number of people ",
+            "shortName": "ZZZ1st, 2nd, 3rd, booster dose - Number of people",
             "translations": [
                 {
                     "locale": "pt",
@@ -14312,17 +14312,17 @@
             "dimensionItem": "BEw3zmRnGo4",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
-            "displayFormName": "ZZZNumber of people (Female) receiving a second, third or booster dose ",
-            "displayName": "ZZZNumber of people (Female) receiving a second, third or booster dose ",
+            "displayFormName": "ZZZNumber of people (Female) receiving a second, third or booster dose",
+            "displayName": "ZZZNumber of people (Female) receiving a second, third or booster dose",
             "displayShortName": "ZZZ2nd, 3rd, booster dose - Number of females",
             "expression": "V{enrollment_count}",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'FEMALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
+            "filter": "A{oindugucx72} == 'Female' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
             "id": "BEw3zmRnGo4",
             "legendSets": [],
-            "name": "ZZZNumber of people (Female) receiving a second, third or booster dose ",
+            "name": "ZZZNumber of people (Female) receiving a second, third or booster dose",
             "program": {
                 "id": "yDuAzyqYABS"
             },
@@ -14422,17 +14422,17 @@
             "dimensionItem": "IXW8ahBF3Pl",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
-            "displayFormName": "ZZZNumber of people (Male) receiving a second, third or booster dose ",
-            "displayName": "ZZZNumber of people (Male) receiving a second, third or booster dose ",
+            "displayFormName": "ZZZNumber of people (Male) receiving a second, third or booster dose",
+            "displayName": "ZZZNumber of people (Male) receiving a second, third or booster dose",
             "displayShortName": "ZZZ2nd, 3rd, booster dose - Number of males",
             "expression": "V{enrollment_count}",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
-            "filter": "A{CklPZdOd6H1} == 'MALE' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
+            "filter": "A{oindugucx72} == 'Male' && #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE2' || #{a1jCssI2LkW.LUIsbsm3okG} == 'DOSE3' || #{a1jCssI2LkW.LUIsbsm3okG} == 'BOOSTER'   ",
             "id": "IXW8ahBF3Pl",
             "legendSets": [],
-            "name": "ZZZNumber of people (Male) receiving a second, third or booster dose ",
+            "name": "ZZZNumber of people (Male) receiving a second, third or booster dose",
             "program": {
                 "id": "yDuAzyqYABS"
             },
@@ -14598,7 +14598,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "ZZZNombre de personnes recevant une première dose "
+                    "value": "ZZZNombre de personnes recevant une première dose"
                 },
                 {
                     "locale": "pt",
@@ -14664,9 +14664,9 @@
             "dimensionItem": "sYIBsws6qUG",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people who have had a second, third, or booster dose of a vaccine product",
-            "displayFormName": "zzzNumber of people receiving a second, third or booster dose ",
-            "displayName": "zzzNumber of people receiving a second, third or booster dose ",
-            "displayShortName": "zzz2nd, 3rd, booster dose - Number of people ",
+            "displayFormName": "zzzNumber of people receiving a second, third or booster dose",
+            "displayName": "zzzNumber of people receiving a second, third or booster dose",
+            "displayShortName": "zzz2nd, 3rd, booster dose - Number of people",
             "expression": "V{enrollment_count}",
             "externalAccess": false,
             "favorite": false,
@@ -14674,13 +14674,13 @@
             "filter": "d2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE2')>=1 || \nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'DOSE3')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'BOOSTER')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '2nd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, '3rd dose')>=1 ||\nd2:countIfValue(#{a1jCssI2LkW.LUIsbsm3okG}, 'Booster dose')>=1",
             "id": "sYIBsws6qUG",
             "legendSets": [],
-            "name": "zzzNumber of people receiving a second, third or booster dose ",
+            "name": "zzzNumber of people receiving a second, third or booster dose",
             "program": {
                 "id": "yDuAzyqYABS"
             },
             "programIndicatorGroups": [],
             "publicAccess": "rw------",
-            "shortName": "zzz2nd, 3rd, booster dose - Number of people ",
+            "shortName": "zzz2nd, 3rd, booster dose - Number of people",
             "translations": [
                 {
                     "locale": "pt",
@@ -15008,7 +15008,7 @@
             "favorite": false,
             "favorites": [],
             "id": "I8XmjYX1rBC",
-            "messageTemplate": "Dear A{TfdH5KvFmMy}, you have an appointment to receive your COVID-19 vaccine on the V{due_date} at V{org_unit_name}.  ",
+            "messageTemplate": "Dear A{sB1IHYu2xQT}, you have an appointment to receive your COVID-19 vaccine on the V{due_date} at V{org_unit_name}.  ",
             "name": "Notification of appointment",
             "notificationRecipient": "TRACKED_ENTITY_INSTANCE",
             "notificationTrigger": "SCHEDULED_DAYS_DUE_DATE",
@@ -15028,7 +15028,7 @@
             "favorite": false,
             "favorites": [],
             "id": "dzW10q0QMvN",
-            "messageTemplate": "Dear A{TfdH5KvFmMy}, your appointment for a COVID-19 vaccine dose was on the V{due_date}, if you did not receive your vaccine, please contact V{org_unit_name} as soon as possible. If you have received your vaccine, please ignore this message",
+            "messageTemplate": "Dear A{sB1IHYu2xQT}, your appointment for a COVID-19 vaccine dose was on the V{due_date}, if you did not receive your vaccine, please contact V{org_unit_name} as soon as possible. If you have received your vaccine, please ignore this message",
             "name": "Overdue vaccine dose",
             "notificationRecipient": "TRACKED_ENTITY_INSTANCE",
             "notificationTrigger": "SCHEDULED_DAYS_DUE_DATE",
@@ -15108,22 +15108,6 @@
             "id": "apBBeIMVMDY",
             "programRule": {
                 "id": "AmgPexdbztQ"
-            },
-            "programRuleActionType": "ASSIGN",
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
-            "content": "#{Age_Calculated}",
-            "data": "d2:yearsBetween( A{AGE}, V{current_date} )",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "id": "aXf7pftI62L",
-            "programRule": {
-                "id": "oPUB5us9T8e"
             },
             "programRuleActionType": "ASSIGN",
             "translations": [],
@@ -15528,23 +15512,6 @@
         },
         {
             "attributeValues": [],
-            "content": "Age",
-            "data": "d2:yearsBetween(A{AGE},V{current_date})",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "id": "hHdW44A7m6i",
-            "location": "indicators",
-            "programRule": {
-                "id": "oPUB5us9T8e"
-            },
-            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
-            "translations": [],
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "content": "Risk factor",
             "data": "'Chronic lung disease'",
             "externalAccess": false,
@@ -15580,6 +15547,22 @@
         },
         {
             "attributeValues": [],
+            "content": "#{Age_Calculated}",
+            "data": "d2:yearsBetween( A{AGE}, V{current_date} )",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "ieFC8uiZ0pK",
+            "programRule": {
+                "id": "oPUB5us9T8e"
+            },
+            "programRuleActionType": "ASSIGN",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
             "content": "Risk factor",
             "data": "'Other'",
             "externalAccess": false,
@@ -15589,6 +15572,23 @@
             "location": "indicators",
             "programRule": {
                 "id": "ParDbFN1amU"
+            },
+            "programRuleActionType": "DISPLAYKEYVALUEPAIR",
+            "translations": [],
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "attributeValues": [],
+            "content": "Age",
+            "data": "d2:yearsBetween(A{AGE},V{current_date})",
+            "externalAccess": false,
+            "favorite": false,
+            "favorites": [],
+            "id": "iXFOqb3q7F9",
+            "location": "indicators",
+            "programRule": {
+                "id": "oPUB5us9T8e"
             },
             "programRuleActionType": "DISPLAYKEYVALUEPAIR",
             "translations": [],
@@ -15888,7 +15888,7 @@
         },
         {
             "attributeValues": [],
-            "content": "The vaccine type you have selected is not the same as the previous vaccine type this person received. Last dose they were administered was ",
+            "content": "The vaccine type you have selected is not the same as the previous vaccine type this person received. Last dose they were administered was",
             "data": "#{Vaccine_type_previous_no_code}",
             "dataElement": {
                 "id": "bbnyNYD1wgS"
@@ -16445,7 +16445,7 @@
             },
             "programRuleVariableSourceType": "TEI_ATTRIBUTE",
             "trackedEntityAttribute": {
-                "id": "mAWcalQYYyk"
+                "id": "NI0QRzJvQ0k"
             },
             "translations": [],
             "useCodeForOptionSet": false,
@@ -16811,26 +16811,6 @@
         },
         {
             "attributeValues": [],
-            "displayName": "DoB",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "id": "Kbb13uSIuyz",
-            "name": "DoB",
-            "program": {
-                "id": "yDuAzyqYABS"
-            },
-            "programRuleVariableSourceType": "TEI_ATTRIBUTE",
-            "trackedEntityAttribute": {
-                "id": "mAWcalQYYyk"
-            },
-            "translations": [],
-            "useCodeForOptionSet": true,
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "attributeValues": [],
             "dataElement": {
                 "id": "LUIsbsm3okG"
             },
@@ -16982,7 +16962,7 @@
             },
             "programRuleVariableSourceType": "TEI_ATTRIBUTE",
             "trackedEntityAttribute": {
-                "id": "CklPZdOd6H1"
+                "id": "oindugucx72"
             },
             "translations": [],
             "useCodeForOptionSet": true,
@@ -17925,22 +17905,22 @@
         {
             "attributeValues": [],
             "condition": "d2:hasValue('AGE')",
-            "displayName": "Calculate age ",
+            "displayName": "Calculate age",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
             "id": "oPUB5us9T8e",
-            "name": "Calculate age ",
+            "name": "Calculate age",
             "priority": 3,
             "program": {
                 "id": "yDuAzyqYABS"
             },
             "programRuleActions": [
                 {
-                    "id": "hHdW44A7m6i"
+                    "id": "iXFOqb3q7F9"
                 },
                 {
-                    "id": "aXf7pftI62L"
+                    "id": "ieFC8uiZ0pK"
                 }
             ],
             "translations": [
@@ -18076,7 +18056,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "A{SEX} != 'FEMALE'",
+            "condition": "A{SEX} != 'Female'",
             "displayName": "Hide pregnancy if not a woman",
             "externalAccess": false,
             "favorite": false,
@@ -18381,7 +18361,7 @@
                 {
                     "locale": "cs",
                     "property": "NAME",
-                    "value": "Pokud je věk pod 18 let, upozorněte, že Moderna se doporučuje pro věk od 18 let výše "
+                    "value": "Pokud je věk pod 18 let, upozorněte, že Moderna se doporučuje pro věk od 18 let výše"
                 }
             ],
             "userAccesses": [],
@@ -19114,7 +19094,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{Had_Covid_Previously} == 'YES'",
+            "condition": "#{Had_Covid_Previously} == 'Yes'",
             "description": "Rule transfers date of remission and if person has previously had covid",
             "displayName": "If patient has had covid, assign value to data element of current event",
             "externalAccess": false,
@@ -19181,7 +19161,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{Underlying_conditions_previous}!= '' && #{Underlying_conditions_previous}== 'YES'",
+            "condition": "#{Underlying_conditions_previous}!= '' && #{Underlying_conditions_previous}== 'Yes'",
             "displayName": "If patient has had underlying diseases, transfer that value to following stage",
             "externalAccess": false,
             "favorite": false,
@@ -19400,7 +19380,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "d2:hasValue( 'Last_dose' )  && #{Last_dose} == true ",
+            "condition": "d2:hasValue( 'Last_dose' )  && #{Last_dose} == true",
             "displayName": "Last dose - complete programme",
             "externalAccess": false,
             "favorite": false,
@@ -19535,7 +19515,7 @@
         },
         {
             "attributeValues": [],
-            "condition": "#{Had_COVID} == 'YES'",
+            "condition": "#{Had_COVID} == 'Yes'",
             "displayName": "Show warning if person has had covid within 90 days of vaccination date",
             "externalAccess": false,
             "favorite": false,
@@ -19815,7 +19795,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "Affections sous-jacentes "
+                    "value": "Affections sous-jacentes"
                 }
             ],
             "userAccesses": [],
@@ -19877,14 +19857,14 @@
             "sortOrder": 2,
             "translations": [
                 {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Informação de vacinação"
-                },
-                {
                     "locale": "fr",
                     "property": "NAME",
                     "value": "Information vaccinale"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Informação de vacinação"
                 },
                 {
                     "locale": "es",
@@ -19907,9 +19887,9 @@
             "attributeValues": [],
             "autoGenerateEvent": true,
             "blockEntryForm": false,
-            "displayFormName": "Vaccination ",
+            "displayFormName": "Vaccination",
             "displayGenerateEventBox": true,
-            "displayName": "Vaccination ",
+            "displayName": "Vaccination",
             "dueDateLabel": "Dose due date",
             "enableUserAssignment": false,
             "executionDateLabel": "Dose given on (Vaccination date)",
@@ -19921,7 +19901,7 @@
             "hideDueDate": false,
             "id": "a1jCssI2LkW",
             "minDaysFromStart": 0,
-            "name": "Vaccination ",
+            "name": "Vaccination",
             "notificationTemplates": [
                 {
                     "id": "I8XmjYX1rBC"
@@ -20555,7 +20535,7 @@
             "favorites": [],
             "id": "yDuAzyqYABS",
             "ignoreOverdueEvents": false,
-            "lastUpdated": "2021-03-08T20:46:17.592",
+            "lastUpdated": "2021-03-16T12:02:55.645",
             "maxTeiCountToReturn": 50,
             "minAttributesRequiredToSearch": 1,
             "name": "COVAC - COVID-19 Vaccination Registry",
@@ -20787,9 +20767,6 @@
                     "id": "oDhnPlnHMoh"
                 },
                 {
-                    "id": "Kbb13uSIuyz"
-                },
-                {
                     "id": "lngdmMRLM8a"
                 },
                 {
@@ -20869,7 +20846,7 @@
                     "attributeValues": [],
                     "displayInList": true,
                     "displayName": "COVAC - COVID-19 Vaccination Registry Unique System Identifier (EPI)",
-                    "displayShortName": "COVAC Unique System Identifier ",
+                    "displayShortName": "COVAC Unique System Identifier",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
@@ -20910,7 +20887,7 @@
                     "searchable": true,
                     "sortOrder": 3,
                     "trackedEntityAttribute": {
-                        "id": "TfdH5KvFmMy"
+                        "id": "sB1IHYu2xQT"
                     },
                     "translations": [],
                     "userAccesses": [],
@@ -20936,7 +20913,7 @@
                     "searchable": true,
                     "sortOrder": 4,
                     "trackedEntityAttribute": {
-                        "id": "aW66s2QSosT"
+                        "id": "ENRjVGxVL6l"
                     },
                     "translations": [],
                     "userAccesses": [],
@@ -20962,7 +20939,7 @@
                     "searchable": true,
                     "sortOrder": 5,
                     "trackedEntityAttribute": {
-                        "id": "CklPZdOd6H1"
+                        "id": "oindugucx72"
                     },
                     "translations": [],
                     "userAccesses": [],
@@ -20998,28 +20975,28 @@
                 {
                     "attributeValues": [],
                     "displayInList": true,
-                    "displayName": "COVAC - COVID-19 Vaccination Registry Date of birth (age)",
-                    "displayShortName": "COVAC DoB (age)",
+                    "displayName": "COVAC - COVID-19 Vaccination Registry Date of birth",
+                    "displayShortName": "COVAC Date of birth",
                     "externalAccess": false,
                     "favorite": false,
                     "favorites": [],
-                    "id": "zTWSj3Lg5KP",
-                    "mandatory": true,
-                    "name": "COVAC - COVID-19 Vaccination Registry Date of birth (age)",
+                    "id": "dSiYRbN6NKt",
+                    "mandatory": false,
+                    "name": "COVAC - COVID-19 Vaccination Registry Date of birth",
                     "program": {
                         "id": "yDuAzyqYABS"
                     },
                     "programTrackedEntityAttributeGroups": [],
                     "renderOptionsAsRadio": false,
-                    "searchable": true,
+                    "searchable": false,
                     "sortOrder": 7,
                     "trackedEntityAttribute": {
-                        "id": "mAWcalQYYyk"
+                        "id": "NI0QRzJvQ0k"
                     },
                     "translations": [],
                     "userAccesses": [],
                     "userGroupAccesses": [],
-                    "valueType": "AGE"
+                    "valueType": "DATE"
                 },
                 {
                     "attributeValues": [],
@@ -21038,9 +21015,9 @@
                     "programTrackedEntityAttributeGroups": [],
                     "renderOptionsAsRadio": false,
                     "searchable": true,
-                    "sortOrder": 8,
+                    "sortOrder": 9,
                     "trackedEntityAttribute": {
-                        "id": "ciCR6BBvIT4"
+                        "id": "fctSQp5nAYl"
                     },
                     "translations": [],
                     "userAccesses": [],
@@ -21064,9 +21041,9 @@
                     "programTrackedEntityAttributeGroups": [],
                     "renderOptionsAsRadio": false,
                     "searchable": true,
-                    "sortOrder": 9,
+                    "sortOrder": 10,
                     "trackedEntityAttribute": {
-                        "id": "VCtm2pySeEV"
+                        "id": "Xhdn49gUd52"
                     },
                     "translations": [],
                     "userAccesses": [],
@@ -21090,7 +21067,7 @@
                     "programTrackedEntityAttributeGroups": [],
                     "renderOptionsAsRadio": false,
                     "searchable": true,
-                    "sortOrder": 10,
+                    "sortOrder": 11,
                     "trackedEntityAttribute": {
                         "id": "YCqoNJZKvAG"
                     },
@@ -21116,7 +21093,7 @@
                     "programTrackedEntityAttributeGroups": [],
                     "renderOptionsAsRadio": false,
                     "searchable": true,
-                    "sortOrder": 11,
+                    "sortOrder": 12,
                     "trackedEntityAttribute": {
                         "id": "LY2bDXpNvS7"
                     },
@@ -21188,7 +21165,7 @@
                 }
             ],
             "userRoles": [],
-            "version": 25,
+            "version": 27,
             "withoutRegistration": false
         }
     ],
@@ -21349,125 +21326,6 @@
         }
     ],
     "trackedEntityAttributes": [
-        {
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "confidential": false,
-            "description": "Current home address of the patient/case ",
-            "dimensionItem": "VCtm2pySeEV",
-            "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "Current home address of the patient/case ",
-            "displayFormName": "Address (current)",
-            "displayInListNoProgram": false,
-            "displayName": "Address (current)",
-            "displayOnVisitSchedule": false,
-            "displayShortName": "Address (current)",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "generated": false,
-            "id": "VCtm2pySeEV",
-            "inherit": false,
-            "legendSets": [],
-            "name": "Address (current)",
-            "optionSetValue": false,
-            "orgunitScope": false,
-            "pattern": "",
-            "publicAccess": "--------",
-            "shortName": "Address (current)",
-            "skipSynchronization": false,
-            "translations": [
-                {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Dirección actual del paciente / Caso"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Adresse (actuelle)"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Adresa (aktuální)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Current home address of the patient/case "
-                },
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "Пациент/ҳолатнинг ҳозирги уй манзили"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Dirección (actual)"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DESCRIPTION",
-                    "value": "Aktuální domácí adresa pacienta / případu"
-                },
-                {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Endereço (atual)"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "Манзили (ҳозирги)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Adresse (actuelle)"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Манзили (ҳозирги)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Endereço (atual)"
-                },
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Adresa (aktuální)"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Dirección (actual)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Adresse de domicile actuelle du patient/cas "
-                }
-            ],
-            "unique": false,
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
-                    "id": "AEAQ9LktNze",
-                    "userGroupUid": "AEAQ9LktNze"
-                }
-            ],
-            "valueType": "LONG_TEXT"
-        },
         {
             "aggregationType": "COUNT",
             "attributeValues": [],
@@ -21713,172 +21571,6 @@
             "valueType": "TEXT"
         },
         {
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "confidential": false,
-            "description": "Date of birth plus calculated age",
-            "dimensionItem": "mAWcalQYYyk",
-            "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "Date of birth plus calculated age",
-            "displayFormName": "Date of birth",
-            "displayInListNoProgram": false,
-            "displayName": "Date of birth (age)",
-            "displayOnVisitSchedule": false,
-            "displayShortName": "DoB (age)",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "formName": "Date of birth",
-            "generated": false,
-            "id": "mAWcalQYYyk",
-            "inherit": false,
-            "legendSets": [],
-            "name": "Date of birth (age)",
-            "optionSetValue": false,
-            "orgunitScope": false,
-            "pattern": "",
-            "publicAccess": "r-------",
-            "shortName": "DoB (age)",
-            "skipSynchronization": false,
-            "translations": [
-                {
-                    "locale": "uz_UZ",
-                    "property": "FORM_NAME",
-                    "value": "Tugʼilgan sana"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "Туғилган йили (Ёши)"
-                },
-                {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Fecha de nacimiento más edad calculada"
-                },
-                {
-                    "locale": "ru",
-                    "property": "FORM_NAME",
-                    "value": "Дата рождения"
-                },
-                {
-                    "locale": "es",
-                    "property": "FORM_NAME",
-                    "value": "Fecha de Nacimiento"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Fecha de nacimiento (edad)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "date de naissance (âge)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "DoB (idade)"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "NAME",
-                    "value": "Tugʼilgan yili (Yoshi)"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Dat. Naroz. (věk)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "FORM_NAME",
-                    "value": "Data de nascimento"
-                },
-                {
-                    "locale": "nb",
-                    "property": "FORM_NAME",
-                    "value": "Fødselsdato"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DESCRIPTION",
-                    "value": "Datum narození plus vypočítaný věk"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "DESCRIPTION",
-                    "value": "Tugʼilgan sanasi va hisoblangan yoshi"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Date de naissance plus calcul d'âge"
-                },
-                {
-                    "locale": "ru",
-                    "property": "NAME",
-                    "value": "Дата рождения (возраст)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Data de nascimento (idade)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Date de naissance (âge)"
-                },
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "Туғилган санаси ва ҳисобланган ёши"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Туғилган сана (ёши)"
-                },
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Datum narození (věk)"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Fecha de nacimiento (edad)"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Data de nascimento mais idade calculada"
-                }
-            ],
-            "unique": false,
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Data Entry",
-                    "id": "q3Nh5xhJEy2",
-                    "userGroupUid": "q3Nh5xhJEy2"
-                },
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
-                    "id": "AEAQ9LktNze",
-                    "userGroupUid": "AEAQ9LktNze"
-                }
-            ],
-            "valueType": "AGE"
-        },
-        {
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
@@ -21986,265 +21678,10 @@
             "valueType": "TRUE_ONLY"
         },
         {
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "confidential": false,
-            "description": "Family name of the patient",
-            "dimensionItem": "aW66s2QSosT",
-            "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "Family name of the patient",
-            "displayFormName": "Family name",
-            "displayInListNoProgram": false,
-            "displayName": "Family name",
-            "displayOnVisitSchedule": false,
-            "displayShortName": "Family name",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "generated": false,
-            "id": "aW66s2QSosT",
-            "inherit": false,
-            "legendSets": [],
-            "name": "Family name",
-            "optionSetValue": false,
-            "orgunitScope": false,
-            "pattern": "",
-            "publicAccess": "--------",
-            "shortName": "Family name",
-            "skipSynchronization": false,
-            "translations": [
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Nom de famille"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "Фамилия"
-                },
-                {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Sobrenome"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DESCRIPTION",
-                    "value": "Příjmení pacienta"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Příjmení"
-                },
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "Пациент Фамилияси"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Apellidos"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Nom de famille du malade"
-                },
-                {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Apellidos del paciente"
-                },
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Příjmení"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Apellidos"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Family name of the patient"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Фамилия"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Nom de famille"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Sobrenome"
-                }
-            ],
-            "unique": false,
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
-                    "id": "AEAQ9LktNze",
-                    "userGroupUid": "AEAQ9LktNze"
-                },
-                {
-                    "access": "r-------",
-                    "displayName": "COVAC - Covid-19 Immunization Data Entry",
-                    "id": "q3Nh5xhJEy2",
-                    "userGroupUid": "q3Nh5xhJEy2"
-                }
-            ],
-            "valueType": "TEXT"
-        },
-        {
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "confidential": false,
-            "description": "The name of the patient or initials",
-            "dimensionItem": "TfdH5KvFmMy",
-            "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "The name of the patient or initials",
-            "displayFormName": "Given name",
-            "displayInListNoProgram": false,
-            "displayName": "Given name",
-            "displayOnVisitSchedule": false,
-            "displayShortName": "Given name",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "generated": false,
-            "id": "TfdH5KvFmMy",
-            "inherit": false,
-            "legendSets": [],
-            "name": "Given name",
-            "optionSetValue": false,
-            "orgunitScope": false,
-            "pattern": "",
-            "publicAccess": "--------",
-            "shortName": "Given name",
-            "skipSynchronization": false,
-            "translations": [
-                {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "El nombre del paciente o las iniciales"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Nombre"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Nombre"
-                },
-                {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Le nom du patient ou ses initiales"
-                },
-                {
-                    "locale": "cs",
-                    "property": "DESCRIPTION",
-                    "value": "Jméno pacienta nebo iniciály"
-                },
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "Пациент исми ёки бош ҳарфлари"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Nome dado"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "Қизлик фаимилияси"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "DESCRIPTION",
-                    "value": "Patsient ismi yoki bosh harflari"
-                },
-                {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Nome dado"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Křestní jméno"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "Prénom"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Prénom"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Қизлик фаимилияси"
-                },
-                {
-                    "locale": "cs",
-                    "property": "NAME",
-                    "value": "Křestní jméno"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Nome do paciente ou iniciais"
-                }
-            ],
-            "unique": false,
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
-                    "id": "AEAQ9LktNze",
-                    "userGroupUid": "AEAQ9LktNze"
-                },
-                {
-                    "access": "r-------",
-                    "displayName": "COVAC - Covid-19 Immunization Data Entry",
-                    "id": "q3Nh5xhJEy2",
-                    "userGroupUid": "q3Nh5xhJEy2"
-                }
-            ],
-            "valueType": "TEXT"
-        },
-        {
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "dimensionItem": "ciCR6BBvIT4",
+            "dimensionItem": "fctSQp5nAYl",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayFormName": "Mobile phone number",
             "displayInListNoProgram": false,
@@ -22255,7 +21692,7 @@
             "favorite": false,
             "favorites": [],
             "generated": false,
-            "id": "ciCR6BBvIT4",
+            "id": "fctSQp5nAYl",
             "inherit": false,
             "legendSets": [],
             "name": "Mobile phone number",
@@ -22460,141 +21897,18 @@
             "valueType": "TEXT"
         },
         {
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "code": "patinfo_sex",
-            "confidential": false,
-            "description": "Sex of Person",
-            "dimensionItem": "CklPZdOd6H1",
-            "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "Sex of Person",
-            "displayFormName": "Sex",
-            "displayInListNoProgram": false,
-            "displayName": "Sex",
-            "displayOnVisitSchedule": false,
-            "displayShortName": "Sex",
-            "externalAccess": false,
-            "favorite": false,
-            "favorites": [],
-            "generated": false,
-            "id": "CklPZdOd6H1",
-            "inherit": false,
-            "legendSets": [],
-            "name": "COVAC - Sex",
-            "optionSet": {
-                "id": "hiQ3QFheQ3O"
-            },
-            "optionSetValue": true,
-            "orgunitScope": false,
-            "pattern": "",
-            "publicAccess": "--------",
-            "shortName": "COVAC - Sex",
-            "skipSynchronization": false,
-            "translations": [
-                {
-                    "locale": "uz",
-                    "property": "DESCRIPTION",
-                    "value": "Шахс жинси"
-                },
-                {
-                    "locale": "ru",
-                    "property": "NAME",
-                    "value": "Пол"
-                },
-                {
-                    "locale": "es",
-                    "property": "DESCRIPTION",
-                    "value": "Sexo de la persona"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Sexo"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "NAME",
-                    "value": "Jinsi"
-                },
-                {
-                    "locale": "nb",
-                    "property": "NAME",
-                    "value": "Kjønn"
-                },
-                {
-                    "locale": "nb",
-                    "property": "SHORT_NAME",
-                    "value": "Kjønn"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "Жинси"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "SHORT_NAME",
-                    "value": "Jinsi"
-                },
-                {
-                    "locale": "uz",
-                    "property": "SHORT_NAME",
-                    "value": "Жинси"
-                },
-                {
-                    "locale": "pt",
-                    "property": "SHORT_NAME",
-                    "value": "Sexo"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Sexo"
-                },
-                {
-                    "locale": "es",
-                    "property": "NAME",
-                    "value": "Sexo"
-                },
-                {
-                    "locale": "ru",
-                    "property": "SHORT_NAME",
-                    "value": "Пол"
-                },
-                {
-                    "locale": "pt",
-                    "property": "DESCRIPTION",
-                    "value": "Sexo da pessoa"
-                }
-            ],
-            "unique": false,
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "displayName": "COVAC - Covid-19 Immunization Metadata Admin",
-                    "id": "AEAQ9LktNze",
-                    "userGroupUid": "AEAQ9LktNze"
-                }
-            ],
-            "valueType": "TEXT"
-        },
-        {
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "description": "System-generated unique ID following pattern: CURRENT_DATE(yyyy-MM-dd) followed by a sequential number (#####)",
+            "description": "System-generated unique ID following pattern: EPI prefix + value randomly generated (#####) - Customize the length depending on the target population of your implementation",
             "dimensionItem": "KSr2yTdu1AI",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
-            "displayDescription": "System-generated unique ID following pattern: CURRENT_DATE(yyyy-MM-dd) followed by a sequential number (#####)",
+            "displayDescription": "System-generated unique ID following pattern: EPI prefix + value randomly generated (#####) - Customize the length depending on the target population of your implementation",
             "displayFormName": "Unique System Identifier (EPI)",
             "displayInListNoProgram": true,
             "displayName": "Unique System Identifier (EPI)",
             "displayOnVisitSchedule": false,
-            "displayShortName": "Unique System Identifier ",
+            "displayShortName": "Unique System Identifier",
             "externalAccess": false,
             "favorite": false,
             "favorites": [],
@@ -22605,9 +21919,9 @@
             "name": "Unique System Identifier (EPI)",
             "optionSetValue": false,
             "orgunitScope": false,
-            "pattern": "CURRENT_DATE(yyyy-MM-dd)-\"-\"-SEQUENTIAL(#####)",
+            "pattern": "\"EPI_\" + RANDOM(########)",
             "publicAccess": "--------",
-            "shortName": "Unique System Identifier ",
+            "shortName": "Unique System Identifier",
             "skipSynchronization": false,
             "translations": [
                 {
@@ -22828,7 +22142,7 @@
                     "name": "Person Given name",
                     "searchable": true,
                     "trackedEntityAttribute": {
-                        "id": "TfdH5KvFmMy"
+                        "id": "sB1IHYu2xQT"
                     },
                     "trackedEntityType": {
                         "id": "MCPQUTHX1Ze"
@@ -22850,7 +22164,7 @@
                     "name": "Person Family name",
                     "searchable": true,
                     "trackedEntityAttribute": {
-                        "id": "aW66s2QSosT"
+                        "id": "ENRjVGxVL6l"
                     },
                     "trackedEntityType": {
                         "id": "MCPQUTHX1Ze"
@@ -22881,28 +22195,6 @@
                     "userAccesses": [],
                     "userGroupAccesses": [],
                     "valueType": "TEXT"
-                },
-                {
-                    "attributeValues": [],
-                    "displayInList": true,
-                    "displayName": "Person Date of birth (age)",
-                    "displayShortName": "null DoB (age)",
-                    "externalAccess": false,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "loHxNJH4IvV",
-                    "name": "Person Date of birth (age)",
-                    "searchable": false,
-                    "trackedEntityAttribute": {
-                        "id": "mAWcalQYYyk"
-                    },
-                    "trackedEntityType": {
-                        "id": "MCPQUTHX1Ze"
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "userGroupAccesses": [],
-                    "valueType": "AGE"
                 }
             ],
             "translations": [
