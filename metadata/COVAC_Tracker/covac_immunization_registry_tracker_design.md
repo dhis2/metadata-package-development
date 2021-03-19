@@ -393,16 +393,3 @@ Arrange then the layout of the table with DE COVAC - Dose Number and PA Sex in t
 
 ![Settings for event report](resources/images/Covac_event_report3.png)
 
-## Performance considerations
-
-If you experience that tracker is showing slow load times, please get in touch with the implementation team. This is likely related to the working lists and a large number of TEIs in one org unit. A solution is to disable the “Display front page list” check in the program details. This has the downside of also disabling working lists.
-
-Even though the package is published from 2.33, our testing indicates that the best performance is achieved by installing it on an instance running DHIS2 2.35 and up and ensuring that their server has a JDK with java 11.
-
-## **To do for next version:**
-
-* SMS notifications:
-**Sms notification: “Second dose still overdue (48hs past due date)” to be sent only when people are overdue.
-
-* Refusal of vaccination Data element + Vaccination not given w/ Option set Stockout Postpone Contraindication Refusal Other
-* Stock considerations
