@@ -159,7 +159,7 @@ Several identifiers have been applied to the configuration and can be adapted ba
 
 1. System generated unique ID: A TEI attribute **'Unique System Identifier (EPI)'** has been configured as an attribute that is unique within DHIS2. The identifier is auto-generated based on the pattern: EPI + RANDOM(#######) 8 digit sequential number to sufficiently accommodate the population. This TEI attribute is intended to be programme-specific; that is, it is a unique ID within the system used only by the national EPI program: AEFI and Immunization eRegistry. This TEI attribute is shared across both the Immunization eRegistry and the AEFI programs to facilitate linkages between the two. **Because this ID is system generated, it is guaranteed that within an integrated DHIS2 instance, no two TEIs would be able to have the same EPI Unique System Identifier**. The pattern can be altered for country implementation based on other parameters.
 
-![Unique System Identifier(EPI)](resources/images/AEFI_Tracker_design_33.png)
+![Unique System Identifier - EPI](resources/images/AEFI_Tracker_design_33.png)
 
 2. Case ID:  This attribute **'AEFI Case ID'** is specific to the AEFI workflow. Typically, an adverse event is manually assigned a unique ID, generally at district or even national level. This TEI attribute is configured as free text to accommodate the ID assignment implemented in each country context, and can be updated to include validation according to expected format.
 
