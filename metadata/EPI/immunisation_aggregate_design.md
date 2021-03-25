@@ -137,4 +137,3 @@ The immunisation outputs included in the aggregate package include:
   * Immunisation
   * Immunisation maps
 
-A detailed overview of these items, including their names and descriptions, can be found in the _[Immunisation metadata reference](https://docs.dhis2.org/master/en)_ guide.
