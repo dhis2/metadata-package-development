@@ -2,6 +2,8 @@
 
 ## Introduction to budgeting guide for COVID-19 vaccine delivery
 
+The following budget guide accompanies an Excel budgeting tool and implementation resources available at [dhis2.org/covid-vaccine-delivery](https://dhis2.org/covid-vaccine-delivery). 
+
 Integration with existing DHIS2-based systems will achieve sustainability and cost efficiency by:
 
 - Reducing barriers to entry and training required
@@ -142,11 +144,7 @@ In countries where DHIS2 aggregate or tracker is already used for data collectio
 ### DHIS2 ‘start up’ countries
 
 For countries that are new to DHIS2, we recommend that some additional budget be allocated for:
-
 - Training of a core team (3-4 workshops with HISP expert TA to get started)
-- 
-- Setting up server and cost of running the server for one year (~$14,000)
-- 
+- Setting up server and cost of running the server for one year (estimated at ~$14,000)
 - Budget for additional time for end user and data use training as users in country are less familiar with the platform
-- 
 - Assessment of connectivity and availability of devices at the intended level of electronic data collection to inform additional resources needed
