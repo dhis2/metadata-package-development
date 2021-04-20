@@ -59,31 +59,35 @@ National data flows and reporting SOPs should be carefully considered when adopt
 
 The following three core user groups are configured and included in the metadata package:
 
-* AEFI data entry
-  * These users may include users such as the AEFI investigator
-  * Can view metadata
-  * Can capture data for all program stages
-* AEFI access
-  * These users may include surveillance officers, district immunisation officers and national EPI officers and are group’ are generally responsible for analyzing the data.
-  * Can view metadata
-  * Can view data for all program stages
-* AEFI admin
-  * These users may include the core HMIS unit or IT support team who have access to edit the metadata to support the localization of the package.
-  * Can edit metadata
-  * No access to data.
+AEFI data entry
+- These users may include users such as the AEFI investigator
+- Can view metadata
+- Can capture data for all program stages
+
+AEFI access
+- These users may include surveillance officers, district immunisation officers and national EPI officers and are group’ are generally responsible for analyzing the data.
+- Can view metadata
+- Can view data for all program stages
+
+AEFI admin
+- These users may include the core HMIS unit or IT support team who have access to edit the metadata to support the localization of the package.
+- Can edit metadata
+- No access to data.
 
 In addition, three more user groups have been configured to enable notifications and different types of users to view or capture data according to their role in the AEFI investigation process by assigning access based on _program stage_. These are intended to provide an example of how a decentralized data view and capture might take place with users at different levels (e.g. district EPI officer responsible for initial investigation vs. national program responsible for reviewing the investigation data).
 
-* AEFI District
-  * Data capture for AEFI Stage
-  * View data for First decision making level stage and National level stage
-* AEFI first level decision making
-  * View data at AEFI stage
-  * Capture data at first decision making level stage
-  * View data at National level stage
-* AEFI national
-  * View data on AEFI stage, and first decision making level stage
-  * Capture data at national level stage
+AEFI District
+- Capture data for AEFI Stage
+- View data for First decision making level stage and National level stage
+
+AEFI first level decision making
+- View data at AEFI stage
+- Capture data at first decision making level stage
+- View data at National level stage
+
+AEFI national
+- View data on AEFI stage, and first decision making level stage
+- Capture data at national level stage
 
 User access should be adapted to local context and assigned to the appropriate individuals based on job function. For example, district immunization officers may be included in the AEFI access user group but have access restricted only to their district. Read more about the configuration of users and user management in the [DHIS2 documentation.](https://docs.dhis2.org/master/en/dhis2_user_manual_en/manage-users-user-roles-and-user-groups.html)
 
