@@ -1178,6 +1178,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1196,7 +1197,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1278,6 +1280,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1296,7 +1299,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1378,6 +1382,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1396,7 +1401,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1508,6 +1514,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1526,7 +1533,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1644,6 +1652,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1662,7 +1671,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1756,6 +1766,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1774,7 +1785,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -1928,6 +1940,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -1946,11 +1959,11 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "eMy3gCydKhI",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -1998,7 +2011,8 @@
 			"favorites": [],
 			"filterDimensions": [
 				"ou",
-				"dx"
+				"dx",
+				"pe"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -2057,7 +2071,8 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "pe",
+			"series": "eMy3gCydKhI",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2076,7 +2091,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2158,6 +2174,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2176,7 +2193,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2258,6 +2276,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2276,7 +2295,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2394,6 +2414,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2412,7 +2433,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2494,6 +2516,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2512,7 +2535,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2606,6 +2630,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2624,7 +2649,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2718,6 +2744,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2736,7 +2763,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2818,6 +2846,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2836,7 +2865,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -2948,6 +2978,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -2966,7 +2997,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"constants": [
@@ -16380,10 +16412,186 @@
 			"lastUpdated": "2021-04-26T13:56:03.082",
 			"mapViews": [
 				{
-					"id": "vLY0Moe5DdJ"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-14T13:35:39.366",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "Oua608urRVj"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVIDVAC - Overall drop-out rates (%)",
+					"displayName": "COVIDVAC - Overall drop-out rates (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "s65g7LZf2Hu",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": true,
+					"lastUpdated": "2021-04-14T13:35:39.366",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVIDVAC - Overall drop-out rates (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 100,
+					"radiusLow": 0,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": true,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "s65g7LZf2Hu"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-14T13:35:39.366",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "vLY0Moe5DdJ",
+					"displayName": "vLY0Moe5DdJ",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "vLY0Moe5DdJ",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-04-14T13:35:39.366",
+					"layer": "boundary",
+					"name": "vLY0Moe5DdJ",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVIDVAC - Overall drop-out rates",
@@ -16411,10 +16619,186 @@
 			"lastUpdated": "2021-04-26T13:56:03.334",
 			"mapViews": [
 				{
-					"id": "CqLXmLzRFDG"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-20T13:31:35.821",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "CqLXmLzRFDG",
+					"displayName": "CqLXmLzRFDG",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "CqLXmLzRFDG",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-04-20T13:31:35.821",
+					"layer": "boundary",
+					"name": "CqLXmLzRFDG",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "UaJEu5fNlIl"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-20T13:31:35.821",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "i7z9hqVAoDV"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVIDVAC - Coverage target overall population (%)",
+					"displayName": "COVIDVAC - Coverage target overall population (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "UaJEu5fNlIl",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": true,
+					"lastUpdated": "2021-04-20T13:31:35.821",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVIDVAC - Coverage target overall population (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 100,
+					"radiusLow": 0,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVIDVAC - Coverage target overall population",
@@ -16434,213 +16818,7 @@
 			"userGroupAccesses": []
 		}
 	],
-	"mapViews": [
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-20T13:31:35.821",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "CqLXmLzRFDG",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-04-20T13:31:35.821",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-14T13:35:39.366",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "Oua608urRVj"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "s65g7LZf2Hu",
-			"itemOrganisationUnitGroups": [],
-			"labels": true,
-			"lastUpdated": "2021-04-14T13:35:39.366",
-			"layer": "thematic",
-			"method": 2,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 100,
-			"radiusLow": 0,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-14T13:35:39.366",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "vLY0Moe5DdJ",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-04-14T13:35:39.366",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-20T13:31:35.821",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "i7z9hqVAoDV"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "UaJEu5fNlIl",
-			"itemOrganisationUnitGroups": [],
-			"labels": true,
-			"lastUpdated": "2021-04-20T13:31:35.821",
-			"layer": "thematic",
-			"method": 2,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 100,
-			"radiusLow": 0,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		}
-	],
-	"package": "COVIDVAC_DASHBOARD_V1.2_DHIS2.30_2021-04-26T16:17",
+	"package": "COVIDVAC_DASHBOARD_V1.2_DHIS2.33_2021-04-26T16:17",
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",

@@ -240,7 +240,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-04-20T14:15:26.952",
+			"lastUpdated": "2021-04-26T15:55:19.903",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -819,6 +819,26 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "jAbqv8bnCqT"
+				}
+			],
+			"created": "2020-12-08T13:27:54.305",
+			"id": "BoDI0ni8B3K",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Contamination",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "iPEQ4nCZD29"
 			},
 			"categoryOptions": [
@@ -865,50 +885,14 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "L8NDNe93WYp"
-				},
-				{
-					"id": "siAKZpu6g5x"
-				}
-			],
-			"created": "2021-01-16T18:22:01.529",
-			"id": "d7iBKO4OtOL",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:44.603",
-			"name": "Open vial, Exposure",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, exposición"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, exposition"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, exposição"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
 				"id": "OqByN3juZca"
 			},
 			"categoryOptions": [
 				{
-					"id": "MP15bHaQh2x"
+					"id": "Jkv8y0bywtg"
 				},
 				{
-					"id": "Jkv8y0bywtg"
+					"id": "MP15bHaQh2x"
 				},
 				{
 					"id": "OKMPkKma5Ja"
@@ -972,6 +956,26 @@
 					"value": "Frasco fechado, mudança de cor (VVM)"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "jAbqv8bnCqT"
+				},
+				{
+					"id": "L8NDNe93WYp"
+				}
+			],
+			"created": "2020-12-08T13:27:54.274",
+			"id": "FDzJJUEoO4p",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Contamination",
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -1126,14 +1130,34 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "BaOUxUBEAp1"
+				},
+				{
+					"id": "L8NDNe93WYp"
+				}
+			],
+			"created": "2020-12-08T13:27:54.299",
+			"id": "hdq20lFpfII",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Other reason",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "OqByN3juZca"
 			},
 			"categoryOptions": [
 				{
-					"id": "MP15bHaQh2x"
+					"id": "Jkv8y0bywtg"
 				},
 				{
-					"id": "Jkv8y0bywtg"
+					"id": "MP15bHaQh2x"
 				},
 				{
 					"id": "or3mM6aRNHM"
@@ -1265,6 +1289,26 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "mlwTknbcGP4"
+				},
+				{
+					"id": "L8NDNe93WYp"
+				}
+			],
+			"created": "2020-12-08T13:27:54.289",
+			"id": "ikD0qzTRApO",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Color change",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "wiB5JPPk2vC"
 			},
 			"categoryOptions": [
@@ -1324,6 +1368,26 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "L8NDNe93WYp"
+				},
+				{
+					"id": "siAKZpu6g5x"
+				}
+			],
+			"created": "2020-12-08T13:27:54.284",
+			"id": "ki1cZuU1Mor",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Exposure",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "OqByN3juZca"
 			},
 			"categoryOptions": [
@@ -1347,42 +1411,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Adulte plus âgé, Homme, Aucune condition sous-jacente"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "siAKZpu6g5x"
-				}
-			],
-			"created": "2021-01-16T18:22:01.456",
-			"id": "lTacio9Id50",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:46.023",
-			"name": "Closed vial, Exposure",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, exposición"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, exposition"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, exposição"
 				}
 			]
 		},
@@ -1540,6 +1568,26 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "tYiGorSNnzL"
+				}
+			],
+			"created": "2020-12-08T13:27:54.324",
+			"id": "O5Uj1OF9N9P",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Expiry",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "iPEQ4nCZD29"
 			},
 			"categoryOptions": [
@@ -1582,6 +1630,26 @@
 					"value": "Gamaleya / Spoutnik V"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "tYiGorSNnzL"
+				},
+				{
+					"id": "L8NDNe93WYp"
+				}
+			],
+			"created": "2020-12-08T13:27:54.294",
+			"id": "pX5weIuii9R",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Expiry",
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -1794,6 +1862,26 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "BoDgo1kqT4s"
+				},
+				{
+					"id": "L8NDNe93WYp"
+				}
+			],
+			"created": "2020-12-08T13:27:54.280",
+			"id": "Sv9bGipeuZU",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.232",
+			"name": "Opened, Partial use",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "OqByN3juZca"
 			},
 			"categoryOptions": [
@@ -1842,6 +1930,26 @@
 					"value": "Gamaleya / Spoutnik V"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "BoDgo1kqT4s"
+				}
+			],
+			"created": "2020-12-08T13:27:54.310",
+			"id": "TuW4TAQPDcC",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Partial use",
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -1944,14 +2052,54 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "mlwTknbcGP4"
+				}
+			],
+			"created": "2020-12-08T13:27:54.320",
+			"id": "VG40LqWAG4i",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Color change",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "BaOUxUBEAp1"
+				}
+			],
+			"created": "2020-12-08T13:27:54.330",
+			"id": "vjcCyKm2JGD",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Other reason",
+			"translations": []
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
 				"id": "AJ2NILzEPpt"
 			},
 			"categoryOptions": [
 				{
-					"id": "MP15bHaQh2x"
+					"id": "Jkv8y0bywtg"
 				},
 				{
-					"id": "Jkv8y0bywtg"
+					"id": "MP15bHaQh2x"
 				}
 			],
 			"created": "2021-04-13T13:00:55.958",
@@ -2099,6 +2247,26 @@
 					"value": "Vacina2"
 				}
 			]
+		},
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "P9CXpIYGFBR"
+			},
+			"categoryOptions": [
+				{
+					"id": "Rcn9QLnWlua"
+				},
+				{
+					"id": "siAKZpu6g5x"
+				}
+			],
+			"created": "2020-12-08T13:27:54.315",
+			"id": "YPZIuJSQGjz",
+			"ignoreApproval": false,
+			"lastUpdated": "2020-12-22T20:34:10.231",
+			"name": "Closed, Exposure",
+			"translations": []
 		}
 	],
 	"categoryOptionGroups": [
@@ -4202,6 +4370,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4220,7 +4389,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4302,6 +4472,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4320,7 +4491,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4402,6 +4574,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4420,7 +4593,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4532,6 +4706,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4550,7 +4725,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4668,6 +4844,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4686,7 +4863,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4780,6 +4958,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4798,7 +4977,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -4952,6 +5132,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -4970,11 +5151,11 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
-			"category": "eMy3gCydKhI",
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -5022,7 +5203,8 @@
 			"favorites": [],
 			"filterDimensions": [
 				"ou",
-				"dx"
+				"dx",
+				"pe"
 			],
 			"hideEmptyRowItems": "NONE",
 			"hideLegend": false,
@@ -5081,7 +5263,8 @@
 				"weeksThisYear": false,
 				"yesterday": false
 			},
-			"series": "pe",
+			"series": "eMy3gCydKhI",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5100,7 +5283,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5182,6 +5366,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5200,7 +5385,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5282,6 +5468,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5300,7 +5487,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5418,6 +5606,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5436,7 +5625,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5518,6 +5708,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5536,7 +5727,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5630,6 +5822,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5648,7 +5841,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5742,6 +5936,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5760,7 +5955,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5842,6 +6038,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5860,7 +6057,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		},
 		{
 			"aggregationType": "DEFAULT",
@@ -5972,6 +6170,7 @@
 				"yesterday": false
 			},
 			"series": "dx",
+			"seriesItems": [],
 			"showData": true,
 			"sortOrder": 0,
 			"subscribers": [],
@@ -5990,7 +6189,8 @@
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
 			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": false
+			"userOrganisationUnitGrandChildren": false,
+			"yearlySeries": []
 		}
 	],
 	"constants": [
@@ -11145,215 +11345,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "CTUdYPotCXF"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "pkXVIqIHHVa"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "JRMAR84ICCG"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "f0vfsLTNJzO"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "wLLWlLFKJTL"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "drljwLyAZQw"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "f3bOBccuyyo"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "l19W7jOdEu2"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "qQBypsWpkwZ"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "F0Awi30X7xM"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "S2lAb8nKCHb"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "vdHrKoTsyAe"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "a6q0jTzVcip"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "vnhYE8Muoj8"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "ajqf0EsKxIC"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "scDzaP4Qf7n"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "WCqFMZu8xby"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "CctKBwpym8I"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "XSzYgW92sBI"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "bNPsOVqpBMj"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "ZuNdVpukYld"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "foclaUCiq6S"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "eQX4WL751q0"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "dETqOgonm72"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "SaHOUWuc0aL"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "EgFl8yY2Te3"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "fjhkST9Cesq"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11369,7 +11361,47 @@
 				},
 				{
 					"dataElement": {
-						"id": "KnFWsoy4UYs"
+						"id": "y4Bs6d0hNoL"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ajqf0EsKxIC"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "segUqhr3Bmn"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "drljwLyAZQw"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "SaHOUWuc0aL"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "F0Awi30X7xM"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11385,7 +11417,183 @@
 				},
 				{
 					"dataElement": {
-						"id": "y4Bs6d0hNoL"
+						"id": "Nm8VHHFGIyY"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "wLLWlLFKJTL"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "foclaUCiq6S"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "CctKBwpym8I"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "oh6IWG1wYA3"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "CTUdYPotCXF"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "oS6wBIaveFo"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "pr5KCf5nkrZ"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "JRMAR84ICCG"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "zqptPF1iBGE"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "EgFl8yY2Te3"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "S2lAb8nKCHb"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KG6W0tUl8O3"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "BYcRLORiKNG"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "f3bOBccuyyo"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "u0tQHrxtfVP"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KnFWsoy4UYs"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "RLraPla6D9Q"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "tmHKRG9itcO"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "bNPsOVqpBMj"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "hPCE24XXDAW"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "a6q0jTzVcip"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "qQBypsWpkwZ"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11409,6 +11617,14 @@
 				},
 				{
 					"dataElement": {
+						"id": "vdHrKoTsyAe"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
 						"id": "eoClH0iNeL4"
 					},
 					"dataSet": {
@@ -11417,7 +11633,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "oh6IWG1wYA3"
+						"id": "scDzaP4Qf7n"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11425,7 +11641,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "zeFAEBgGrEx"
+						"id": "tg60B4x2trg"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11433,79 +11649,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "KG6W0tUl8O3"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kevh9LGj0mX"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "hmlw3sNoOI1"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "segUqhr3Bmn"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oS6wBIaveFo"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "zqptPF1iBGE"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "KrAF26CuNrx"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "RLraPla6D9Q"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "O8FZejiaZEk"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kl0xOGWS6ww"
+						"id": "f0vfsLTNJzO"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11529,7 +11673,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "Nm8VHHFGIyY"
+						"id": "pkXVIqIHHVa"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11537,7 +11681,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "tmHKRG9itcO"
+						"id": "vnhYE8Muoj8"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11545,7 +11689,95 @@
 				},
 				{
 					"dataElement": {
-						"id": "u0tQHrxtfVP"
+						"id": "kl0xOGWS6ww"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KrAF26CuNrx"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "l19W7jOdEu2"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ZuNdVpukYld"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "hmlw3sNoOI1"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "fjhkST9Cesq"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "zeFAEBgGrEx"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "O8FZejiaZEk"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "eQX4WL751q0"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "XSzYgW92sBI"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "dETqOgonm72"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "kevh9LGj0mX"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11554,38 +11786,6 @@
 				{
 					"dataElement": {
 						"id": "AxsGeK6Ug1O"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "pr5KCf5nkrZ"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "BYcRLORiKNG"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "hPCE24XXDAW"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "tg60B4x2trg"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -11618,10 +11818,10 @@
 					"id": "n5k3yVJnVWB"
 				},
 				{
-					"id": "H8k32C5GSxL"
+					"id": "vWu3ZD2xQaR"
 				},
 				{
-					"id": "vWu3ZD2xQaR"
+					"id": "H8k32C5GSxL"
 				},
 				{
 					"id": "xyZllKIOJam"
@@ -11657,10 +11857,10 @@
 					"id": "phAVA4IStYE"
 				},
 				{
-					"id": "J304vqMdvpr"
+					"id": "NmVg11Afcjj"
 				},
 				{
-					"id": "NmVg11Afcjj"
+					"id": "J304vqMdvpr"
 				},
 				{
 					"id": "kTqlCAWhYZA"
@@ -11723,10 +11923,10 @@
 					"id": "viNUQL8V9F7"
 				},
 				{
-					"id": "jLAwbnBVEOr"
+					"id": "E3epoOmqug0"
 				},
 				{
-					"id": "E3epoOmqug0"
+					"id": "jLAwbnBVEOr"
 				},
 				{
 					"id": "NC2ivRSf2z2"
@@ -11774,10 +11974,10 @@
 					"id": "zEZ9YljyqSF"
 				},
 				{
-					"id": "OqpUGdw237V"
+					"id": "dJCCnek42Ec"
 				},
 				{
-					"id": "dJCCnek42Ec"
+					"id": "OqpUGdw237V"
 				},
 				{
 					"id": "wyylPq21brF"
@@ -11801,10 +12001,10 @@
 					"id": "Sql4NRhkJyc"
 				},
 				{
-					"id": "CgAbvRgBsNe"
+					"id": "AFIAIIAMDIv"
 				},
 				{
-					"id": "AFIAIIAMDIv"
+					"id": "CgAbvRgBsNe"
 				},
 				{
 					"id": "v1u68thDZBo"
@@ -11832,6 +12032,7 @@
 			"notifyCompletingUser": false,
 			"noValueRequiresComment": false,
 			"openFuturePeriods": 0,
+			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Daily",
 			"publicAccess": "r-r-----",
@@ -11874,79 +12075,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "F7neHTcKur5"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kyYlvg9iV6e"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "xcvzLIJcUwm"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Dvx7RK4kXSI"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "pVrVmrRU0cz"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "iP4hjDgtgPq"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oG5V31NvLZO"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "ovTS34BBoUi"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "T5yXrDEuwzL"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Snc1asgJ7sT"
+						"id": "TINjydYZyb0"
 					},
 					"dataSet": {
 						"id": "gl7JRAdXkhR"
@@ -11962,7 +12091,79 @@
 				},
 				{
 					"dataElement": {
-						"id": "TINjydYZyb0"
+						"id": "oG5V31NvLZO"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "xcvzLIJcUwm"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "pVrVmrRU0cz"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "kyYlvg9iV6e"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "iP4hjDgtgPq"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Dvx7RK4kXSI"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "T5yXrDEuwzL"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "F7neHTcKur5"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ovTS34BBoUi"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Snc1asgJ7sT"
 					},
 					"dataSet": {
 						"id": "gl7JRAdXkhR"
@@ -11988,6 +12189,7 @@
 			"notifyCompletingUser": false,
 			"noValueRequiresComment": false,
 			"openFuturePeriods": 0,
+			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Daily",
 			"publicAccess": "r-r-----",
@@ -12038,23 +12240,15 @@
 				},
 				{
 					"dataElement": {
-						"id": "mmcdLpzPJ8C"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "yBXYpUZwZS6"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "arGTttrrqxE"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "zsbo4sda5sT"
 					},
 					"dataSet": {
 						"id": "ZIajFXSOwEz"
@@ -12078,6 +12272,22 @@
 				},
 				{
 					"dataElement": {
+						"id": "yBXYpUZwZS6"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "mmcdLpzPJ8C"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
 						"id": "YtJqjif8Gne"
 					},
 					"dataSet": {
@@ -12087,14 +12297,6 @@
 				{
 					"dataElement": {
 						"id": "u90k7rEUGX0"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "zsbo4sda5sT"
 					},
 					"dataSet": {
 						"id": "ZIajFXSOwEz"
@@ -12112,6 +12314,7 @@
 			"notifyCompletingUser": false,
 			"noValueRequiresComment": false,
 			"openFuturePeriods": 1,
+			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Yearly",
 			"publicAccess": "r-r-----",
@@ -24315,10 +24518,186 @@
 			"lastUpdated": "2021-04-26T13:56:03.082",
 			"mapViews": [
 				{
-					"id": "vLY0Moe5DdJ"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-14T13:35:39.366",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "Oua608urRVj"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVIDVAC - Overall drop-out rates (%)",
+					"displayName": "COVIDVAC - Overall drop-out rates (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "s65g7LZf2Hu",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": true,
+					"lastUpdated": "2021-04-14T13:35:39.366",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVIDVAC - Overall drop-out rates (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 100,
+					"radiusLow": 0,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": true,
+					"userOrganisationUnitChildren": true,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "s65g7LZf2Hu"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-14T13:35:39.366",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "vLY0Moe5DdJ",
+					"displayName": "vLY0Moe5DdJ",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "vLY0Moe5DdJ",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-04-14T13:35:39.366",
+					"layer": "boundary",
+					"name": "vLY0Moe5DdJ",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVIDVAC - Overall drop-out rates",
@@ -24346,10 +24725,186 @@
 			"lastUpdated": "2021-04-26T13:56:03.334",
 			"mapViews": [
 				{
-					"id": "CqLXmLzRFDG"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-20T13:31:35.821",
+					"dataDimensionItems": [],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "CqLXmLzRFDG",
+					"displayName": "CqLXmLzRFDG",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "CqLXmLzRFDG",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"lastUpdated": "2021-04-20T13:31:35.821",
+					"layer": "boundary",
+					"name": "CqLXmLzRFDG",
+					"opacity": 1,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				},
 				{
-					"id": "UaJEu5fNlIl"
+					"access": {
+						"delete": true,
+						"externalize": true,
+						"manage": true,
+						"read": true,
+						"update": true,
+						"write": true
+					},
+					"attributeDimensions": [],
+					"attributeValues": [],
+					"categoryDimensions": [],
+					"categoryOptionGroupSetDimensions": [],
+					"classes": 5,
+					"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+					"columnDimensions": [
+						"dx"
+					],
+					"columns": [],
+					"completedOnly": false,
+					"created": "2021-04-20T13:31:35.821",
+					"dataDimensionItems": [
+						{
+							"dataDimensionItemType": "INDICATOR",
+							"indicator": {
+								"id": "i7z9hqVAoDV"
+							}
+						}
+					],
+					"dataElementDimensions": [],
+					"dataElementGroupSetDimensions": [],
+					"displayFormName": "COVIDVAC - Coverage target overall population (%)",
+					"displayName": "COVIDVAC - Coverage target overall population (%)",
+					"eventClustering": false,
+					"eventPointRadius": 0,
+					"externalAccess": false,
+					"favorite": false,
+					"favorites": [],
+					"filterDimensions": [
+						"pe"
+					],
+					"filters": [],
+					"hidden": false,
+					"hideSubtitle": false,
+					"hideTitle": false,
+					"id": "UaJEu5fNlIl",
+					"interpretations": [],
+					"itemOrganisationUnitGroups": [],
+					"labels": true,
+					"lastUpdated": "2021-04-20T13:31:35.821",
+					"layer": "thematic",
+					"method": 2,
+					"name": "COVIDVAC - Coverage target overall population (%)",
+					"opacity": 0.8,
+					"organisationUnitGroupSetDimensions": [],
+					"organisationUnitLevels": [],
+					"organisationUnits": [],
+					"parentGraphMap": {
+						
+					},
+					"parentLevel": 0,
+					"periods": [],
+					"programIndicatorDimensions": [],
+					"radiusHigh": 100,
+					"radiusLow": 0,
+					"relativePeriods": {
+						"biMonthsThisYear": false,
+						"last12Months": false,
+						"last12Weeks": false,
+						"last14Days": false,
+						"last2SixMonths": false,
+						"last3Days": false,
+						"last3Months": false,
+						"last4BiWeeks": false,
+						"last4Quarters": false,
+						"last4Weeks": false,
+						"last52Weeks": false,
+						"last5FinancialYears": false,
+						"last5Years": false,
+						"last6BiMonths": false,
+						"last6Months": false,
+						"last7Days": false,
+						"lastBimonth": false,
+						"lastBiWeek": false,
+						"lastFinancialYear": false,
+						"lastMonth": false,
+						"lastQuarter": false,
+						"lastSixMonth": false,
+						"lastWeek": false,
+						"lastYear": false,
+						"monthsLastYear": false,
+						"monthsThisYear": false,
+						"quartersLastYear": false,
+						"quartersThisYear": false,
+						"thisBimonth": false,
+						"thisBiWeek": false,
+						"thisDay": false,
+						"thisFinancialYear": false,
+						"thisMonth": false,
+						"thisQuarter": false,
+						"thisSixMonth": false,
+						"thisWeek": false,
+						"thisYear": true,
+						"weeksThisYear": false,
+						"yesterday": false
+					},
+					"renderingStrategy": "SINGLE",
+					"rows": [],
+					"sortOrder": 0,
+					"subscribed": false,
+					"subscribers": [],
+					"topLimit": 0,
+					"translations": [],
+					"userAccesses": [],
+					"userGroupAccesses": [],
+					"userOrganisationUnit": false,
+					"userOrganisationUnitChildren": false,
+					"userOrganisationUnitGrandChildren": true
 				}
 			],
 			"name": "COVIDVAC - Coverage target overall population",
@@ -24369,213 +24924,7 @@
 			"userGroupAccesses": []
 		}
 	],
-	"mapViews": [
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-20T13:31:35.821",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "CqLXmLzRFDG",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-04-20T13:31:35.821",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-14T13:35:39.366",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "Oua608urRVj"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "s65g7LZf2Hu",
-			"itemOrganisationUnitGroups": [],
-			"labels": true,
-			"lastUpdated": "2021-04-14T13:35:39.366",
-			"layer": "thematic",
-			"method": 2,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 100,
-			"radiusLow": 0,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": true,
-			"userOrganisationUnitChildren": true,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-14T13:35:39.366",
-			"dataDimensionItems": [],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "vLY0Moe5DdJ",
-			"itemOrganisationUnitGroups": [],
-			"lastUpdated": "2021-04-14T13:35:39.366",
-			"layer": "boundary",
-			"opacity": 1,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		},
-		{
-			"attributeDimensions": [],
-			"classes": 5,
-			"colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
-			"columnDimensions": [
-				"dx"
-			],
-			"created": "2021-04-20T13:31:35.821",
-			"dataDimensionItems": [
-				{
-					"dataDimensionItemType": "INDICATOR",
-					"indicator": {
-						"id": "i7z9hqVAoDV"
-					}
-				}
-			],
-			"dataElementDimensions": [],
-			"eventClustering": false,
-			"eventPointRadius": 0,
-			"hidden": false,
-			"id": "UaJEu5fNlIl",
-			"itemOrganisationUnitGroups": [],
-			"labels": true,
-			"lastUpdated": "2021-04-20T13:31:35.821",
-			"layer": "thematic",
-			"method": 2,
-			"opacity": 0.8,
-			"organisationUnitLevels": [],
-			"organisationUnits": [],
-			"periods": [],
-			"radiusHigh": 100,
-			"radiusLow": 0,
-			"relativePeriods": {
-				"biMonthsThisYear": false,
-				"last12Months": false,
-				"last12Weeks": false,
-				"last14Days": false,
-				"last2SixMonths": false,
-				"last3Days": false,
-				"last3Months": false,
-				"last4BiWeeks": false,
-				"last4Quarters": false,
-				"last4Weeks": false,
-				"last52Weeks": false,
-				"last5FinancialYears": false,
-				"last5Years": false,
-				"last6BiMonths": false,
-				"last6Months": false,
-				"last7Days": false,
-				"lastBimonth": false,
-				"lastBiWeek": false,
-				"lastFinancialYear": false,
-				"lastMonth": false,
-				"lastQuarter": false,
-				"lastSixMonth": false,
-				"lastWeek": false,
-				"lastYear": false,
-				"monthsLastYear": false,
-				"monthsThisYear": false,
-				"quartersLastYear": false,
-				"quartersThisYear": false,
-				"thisBimonth": false,
-				"thisBiWeek": false,
-				"thisDay": false,
-				"thisFinancialYear": false,
-				"thisMonth": false,
-				"thisQuarter": false,
-				"thisSixMonth": false,
-				"thisWeek": false,
-				"thisYear": true,
-				"weeksThisYear": false,
-				"yesterday": false
-			},
-			"translations": [],
-			"userOrganisationUnit": false,
-			"userOrganisationUnitChildren": false,
-			"userOrganisationUnitGrandChildren": true
-		}
-	],
-	"package": "COVIDVAC_COMPLETE_V1.2_DHIS2.30_2021-04-26T16:17",
+	"package": "COVIDVAC_COMPLETE_V1.2_DHIS2.33_2021-04-26T16:17",
 	"predictors": [
 		{
 			"annualSampleCount": 0,
@@ -26423,13 +26772,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 14,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - seringues avec aiguille 1ml"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26451,13 +26794,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": true,
 			"sortOrder": 4,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Manifestations adverses post immunisation "
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26496,13 +26833,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 15,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - Cartes de vaccination"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26530,13 +26861,7 @@
 			"showColumnTotals": true,
 			"showRowTotals": true,
 			"sortOrder": 3,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Populations cibles désagrégées"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26558,23 +26883,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 1,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Population totale"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "População total"
-				},
-				{
-					"locale": "uz",
-					"property": "NAME",
-					"value": "Барча аҳолиси"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26602,13 +26911,7 @@
 			"showColumnTotals": true,
 			"showRowTotals": false,
 			"sortOrder": 2,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Population cible totale"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26647,13 +26950,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 2,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Vaccin - état du stock"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26692,13 +26989,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 12,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - seringues de dilution"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26737,13 +27028,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 11,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - diluant"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26782,13 +27067,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 9,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Vaccin - jours de rupture de stock"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26816,13 +27095,7 @@
 			"showColumnTotals": true,
 			"showRowTotals": true,
 			"sortOrder": 2,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Doses administrées aux travailleurs essentiels"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26850,13 +27123,7 @@
 			"showColumnTotals": true,
 			"showRowTotals": true,
 			"sortOrder": 3,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Doses administrées à la population «Autre»"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26881,13 +27148,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 4,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Les personnes avec de maladies sous-jacentes"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26926,23 +27187,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 1,
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Dosis por vial de vacuna"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Doses par flacon de vaccin"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Doses por frasco de vacina"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -26981,23 +27226,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 10,
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Otros artículos - caja fría"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - Glaciéres"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Outros itens - caixa fria"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -27019,13 +27248,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": true,
 			"sortOrder": 5,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Pertes de vaccins par raison"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -27053,13 +27276,7 @@
 			"showColumnTotals": true,
 			"showRowTotals": true,
 			"sortOrder": 1,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Doses administrées aux travailleurs de la santé de première ligne (TS)"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -27098,13 +27315,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 13,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Autres articles - boîte de sécurité"
-				}
-			]
+			"translations": []
 		},
 		{
 			"attributeValues": [],
@@ -27129,13 +27340,7 @@
 			"showColumnTotals": false,
 			"showRowTotals": false,
 			"sortOrder": 6,
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Disponibilité du personnel"
-				}
-			]
+			"translations": []
 		}
 	],
 	"userGroups": [
