@@ -1,6 +1,6 @@
 # COVID-19 Vaccine Delivery (COVIDVAC) Aggregate System Design Guide - Version 1.1.0
 
-## 1.Introduction
+## 1. Introduction
 
 The version 1.1.0 of the aggregate COVID-19 Vaccine Delivery (COVIDVAC) metadata package has been developed as an installable solution for countries to update their DHIS2-based HMIS and immunization data systems according to the updated version of the[WHO Guidance on developing a national deployment and vaccination plan for COVID-19](https://www.who.int/publications/i/item/monitoring-covid-19-vaccination-interim-guidance).
 
@@ -8,7 +8,7 @@ The COVIDVAC Aggregate System Design document provides an overview of the design
 
 This metadata package can be used for direct electronic reporting by vaccination site staff or higher-level staff, or as a set of "target" metadata for aggregation of individual level data from electronic, mobile or paper-based collection tools. The analytics and dashboards included in these packages are designed to support the routine analysis and use of Covid-19 vaccine data at national and sub-national levels.
 
-## 2.Background
+## 2. Background
 
 This aggregate design has developed new aggregate reporting requirements from the aforementioned WHO guidance document**.** The COVID-19 Vaccine Delivery digital data package was developed in response to an expressed need from countries to rapidly adapt a solution for managing the data originating from the planned/undertaken immunization efforts. UiO has developed the COVIDVAC packages both for aggregated and individual data in order to enable countries to select the model that is most appropriate for their context given the workload and available resources. These models and their relative benefits/limitations are summarized below:
 
@@ -37,7 +37,7 @@ The system design builds upon existing disease surveillance and vaccination guid
 
 National guidelines and policies may vary and it is recommended to adapt this package to local contexts.
 
-### 2.1.Version 1.1.0 vs Version 1.0.0
+### 2.1 Version 1.1.0 vs Version 1.0.0
 
 The COVIDVAC version of the COVID-19 Vaccine Delivery Package (version 1.1.0) is an optimization of the COVAC COVID-19 Vaccine Delivery Package (version 1.0.0). It has been developed to support the data collection and reporting tools in the WHO AFRO Region.
 
@@ -52,11 +52,11 @@ The main differences between the two versions are:
 - The “Population Dataset” can be edited depending on the availability of demographic data.
 - The constants are all the vaccines available at present VS general placeholders Vaccine 1,2,3.
 
-Detailed information on the COVIDVAC datasets and sections are available in the [Section 4](#4.datasets)of this document.
+Detailed information on the COVIDVAC datasets and sections are available in the [Section 4](#4.-datasets)of this document.
 
-Should countries decide to switch versions, a mapping of the DEs and Indicators that can be used to continue the analysis of the data is available in the [Section 10](#10.mapping-of-covidvac-and-covac-indicators-for-analysis) of this document.
+Should countries decide to switch versions, a mapping of the DEs and Indicators that can be used to continue the analysis of the data is available in the [Section 10](#10.-mapping-of-covidvac-and-covac-indicators-for-analysis) of this document.
 
-## 3.System Design Summary
+## 3. System Design Summary
 
 In the development of this configuration package, an effort has been made to follow UiO's [general design principles](https://who.dhis2.org/documentation/general_design_principles.html) and a common [naming convention](https://who.dhis2.org/documentation/naming_convention.html).
 
@@ -92,7 +92,7 @@ It is recommended that the Vaccination Report and the Vaccine Stock datasets get
 
 Digital data packages are optimized for Android data collection with the DHIS2 Capture App, free to download on the [GooglePlay store](https://play.google.com/store/apps/details?id=com.dhis2&hl=en).
 
-### 3.1.Intended users
+### 3.1 Intended users
 
 - Health facility users: capture and report key data on vaccine administration and waste at point of care.
 
@@ -100,13 +100,13 @@ Digital data packages are optimized for Android data collection with the DHIS2 C
 
 - National and local health authorities: monitor and analyse the evolution of the vaccination activities, and generate reports for regional and global reporting
 
-## 4.Datasets
+## 4. Datasets
 
 The Vaccination delivery and the Stock datasets are designed to have as attribute the COVID-19 vaccines based on the categoryCombo “COVIDVAC Vaccines (attrib)” that bases on the options of the vaccines listed. Whenever entering data for this dataset, the user will have to select the vaccine delivered on the given period in order to start registering the collected data. From an analytic point of view, this translates into the possibility of filtering the analysis of any data point in the dataset by vaccine.
 
 ![Data entry](resources/images/COVAC_AGG_1.1.0_1.png)
 
-### 4.1.COVIDVAC - Vaccination Delivery Data Entry Form
+### 4.1 COVIDVAC - Vaccination Delivery Data Entry Form
 
 #### Section 1: Doses administered to front line health care workers (HCWs)
 
@@ -144,7 +144,7 @@ This section is set up to report how many doses have been discarded, why, and wh
 
 This section is aimed at providing a snapshot of the availability of medical staff during the roll-out of the vaccination activities.
 
-### 4.2.COVAX - Vaccine Stock Data Entry Form
+### 4.2 COVAX - Vaccine Stock Data Entry Form
 
 #### Section 1: Vaccine stock status
 
@@ -158,7 +158,7 @@ The section has been preconfigured with the list of available vaccines. The list
 
 This section provides the core info for the management of other items needed during vaccination activities (e.g. syringes, cold boxes). The closing balance will be automatically calculated. A predictor will also automatically populate the Opening Balance with the Stock on hand reported in the previous period depending on the routine periodicity of reporting.
 
-### 4.3. COVIDVAC - Population (Annual) Data Entry Form
+### 4.3 COVIDVAC - Population (Annual) Data Entry Form
 
 This dataset can either be assigned at district or health site level depending on the availability of updated and reliable demographic data.
 
@@ -196,11 +196,11 @@ Indicators to be used: COVIDVAC - Target frontline healthcare workers, COVIDVAC 
 
 The last section is for countries that have a good estimation of the numbers of people affected by underlying medical conditions. They can either decide to enter the total number of people with at least one underlying medical condition, or they can enter the same data by adulthood and sex. Depending on the chosen table, countries will be able to monitor the specific coverage of either COVIDVAC - Coverage target people with underlying conditions (%) OR COVIDVAC - Coverage among people with underlying conditions (%).
 
-## 5.Adapting the Custom Data Entry Forms
+## 5. Adapting the Custom Data Entry Forms
 
 The dataset for stock management in this package contains a custom form used to improve the usability of the form for data entry. As Implementers adapt this package, it may require that edits be made to suit the needs and requirements of the country implementation. Changes on custom will mainly emerge from the vaccines used in the country and therefore it will require reviewing  the options in the category for “COVIDVAC Vaccines (attrib)” and then making the necessary adjustments on the form. For more information regarding use and management of custom forms please refer to  the DHIS2 User manual: [https://docs.dhis2.org/2.33/en/user/html/dhis2_user_manual_en_full.html#manage_customform](https://docs.dhis2.org/2.33/en/user/html/dhis2_user_manual_en_full.html#manage_customform)
 
-## 6.Data Elements
+## 6. Data Elements
 
 The following data elements have been created and used to design the dataSet and all the related metadata. All COVIDVAC data elements are assigned to the data element Group 'COVIDVAC - Vaccination delivery'.
 
@@ -295,7 +295,7 @@ The following data elements have been created and used to design the dataSet and
 |COVIDVAC - Doses in a vial (Pfizer/Biontech/Comirnaty)|Doses in a vial(Pfizer/Biontech/Comirnaty)|5|
 |COVIDVAC - Doses in a vial (Sinopharm/Coronavac)|Doses in a vial(Sinopharm/Coronavac)|5|
 
-## 7.Constants
+## 7. Constants
 
 The following constants have been created to allow for one-time capture of number doses in a vial for each vaccine. This will need to be reviewed and updated with the latest information at the time of implementation.
 
@@ -310,7 +310,7 @@ The following constants have been created to allow for one-time capture of numbe
 |COVIDVAC - Doses in a vial (Pfizer/Biontech/Comirnaty)|Doses in a vial(Pfizer/Biontech/Comirnaty)|5|
 |COVIDVAC - Doses in a vial (Sinopharm/Coronavac)|Doses in a vial(Sinopharm/Coronavac)|5|
 
-## 8.Indicators
+## 8. Indicators
 
 From the data captured, we can calculate at least the following indicators -- many of which are recommended by the WHO for monthly reporting-- and present them in a dashboard. All COVIDVACindicators are assigned to the Indicator Group "COVIDVAC - Vaccination Delivery". Here below some of the core indicators.
 
@@ -363,7 +363,7 @@ From the data captured, we can calculate at least the following indicators -- ma
 |COVIDVAC - Closing balance|(Opening balance+Received)-(Distributed+Redistributed+Discarded)|1|
 |COVAC - Stock discrepancy rate (%)|(Closing balance-Stock on hand)|Stock at hand|
 
-## 9.Dashboard
+## 9. Dashboard
 
 The package includes a predefined dashboard (COVIDVAC - COVID-19 Vaccination Delivery) where the users will be able to have an at glance overview of the vaccination activities as much as of the status of the status.
 
@@ -375,7 +375,7 @@ The second part of the dashboard covers the overview of the stock status of the 
 
 ![Dashboard](resources/images/COVAC_AGG_1.1.0_15.png)
 
-## 10.Mapping of COVIDVAC and COVAC indicators for analysis
+## 10. Mapping of COVIDVAC and COVAC indicators for analysis
 
 Here below a list of indicators that can be used for continuity analysis in order to bridge the version 1.0.0 (COVAC) and the version 1.1.0 (COVIDVAC).
 
@@ -396,7 +396,7 @@ Here below a list of indicators that can be used for continuity analysis in orde
 
 The **stock Indicators** are virtually the same with the difference of the COVAC / COVIDVAC prefix. Mapping them in the COVIDVAC graphs would simply imply adding them to the analysis of the items in the predefined COVIDVAC dashboard.
 
-## 11.References
+## 11. References
 
 Guidance on developing a national deployment and vaccination plan for COVID-19, World Health Organization [https://www.who.int/publications/i/item/monitoring-covid-19-vaccination-interim-guidance](https://www.who.int/publications/i/item/monitoring-covid-19-vaccination-interim-guidance), Updated: 3 March 2021
 
