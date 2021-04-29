@@ -205,7 +205,7 @@ The dataset for stock management in this package contains a custom form used to 
 The following data elements have been created and used to design the dataSet and all the related metadata. All COVIDVAC data elements are assigned to the data element Group 'COVIDVAC - Vaccination delivery'.
 
 ||||
-|--- |--- |--- |
+|--- |--- |- |
 |Dataset|Name|Disaggregation|
 |COVIDVAC - Vaccination delivery|COVIDVAC - Discarded doses|Vial condition (Open vial/Closed vial), and Cause (Contamination/Partial use/Color change (VVM)/Expiry/Other reason)|
 |COVIDVAC - Vaccination delivery|COVIDVAC - AEFIs|Severity (Severe/Non-severe)|
@@ -315,7 +315,7 @@ The following constants have been created to allow for one-time capture of numbe
 From the data captured, we can calculate at least the following indicators -- many of which are recommended by the WHO for monthly reporting-- and present them in a dashboard. All COVIDVACindicators are assigned to the Indicator Group "COVIDVAC - Vaccination Delivery". Here below some of the core indicators.
 
 ||||
-|--- |--- |--- |
+|--- |--- |- |
 |Indicator|Numerator description|Denominator description|
 |COVIDVAC - Overall number of doses given|All distributed doses|1|
 |COVIDVAC - Overall number of 1st doses given|All 1st doses distributed|1|
@@ -380,7 +380,7 @@ The second part of the dashboard covers the overview of the stock status of the 
 Here below a list of indicators that can be used for continuity analysis in order to bridge the version 1.0.0 (COVAC) and the version 1.1.0 (COVIDVAC).
 
 ||||
-|--- |--- |--- |
+|--- |--- |- |
 |1.0.0 (COVAC)|1.1.0 (COVIDVAC)|Notes and Comments|
 |COVAC - People given 1st dose|COVIDVAC - Overall number of 1st doses given|The COVAC IND can be added to the COVIDVAC - Cumulative number of administered 1st doses graph|
 |COVAC - People given 2nd dose|COVIDVAC - Overall number of 2nd doses given|The COVAC IND can be added to the COVIDAC - Cumulative number of administered 2nd doses graph|
