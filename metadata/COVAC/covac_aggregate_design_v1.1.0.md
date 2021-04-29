@@ -52,7 +52,7 @@ The main differences between the two versions are:
 - The “Population Dataset” can be edited depending on the availability of demographic data.
 - The constants are all the vaccines available at present VS general placeholders Vaccine 1,2,3.
 
-Detailed information on the COVIDVAC datasets and sections are available in the [Section 4](#4.-datasets)of this document.
+Detailed information on the COVIDVAC datasets and sections are available in the [Section 4](#4.-datasets) of this document.
 
 Should countries decide to switch versions, a mapping of the DEs and Indicators that can be used to continue the analysis of the data is available in the [Section 10](#10.-mapping-of-covidvac-and-covac-indicators-for-analysis) of this document.
 
@@ -388,9 +388,10 @@ Here below a list of indicators that can be used for continuity analysis in orde
 |COVAC - Essential workers given 2nd dose <br> COVAC - Frontline healthcare workers given 2nd dose|COVIDVAC - Essential workers: Number of 2nd doses given <br> COVIDVAC - HCW: Number of 2nd doses given|The COVAC IND can be added as part of the COVIDVAC - Cumulative number of 2nd doses by priority groups graph or the different groups can be mapped in separate new graphs *|
 |COVAC - Drop out rates among people targeted|COVIDVAC - Overall drop-out rates (%)|The COVAC ind can be added as part of the COVIDVAC - Drop-out rates through time graph|
 |COVAC - Drop out rates among essential workers <br> COVAC - Drop out rates among frontline health care workers|COVIDVAC - Essential workers: Drop-out rates (%) <br> COVIDVAC - HCW: Drop-out rates (%)|The COVAC INDs can be added to the COVIDVAC - Drop-out rates through time by priority group graph. *|
-|COVAC . Proportion of target people given 1st dose|COVIDVAC - Essential workers: Vaccine uptake (%) <br> COVIDVAC - Other population: Vaccine uptake (%) <br> COVIDVAC - HCW: Vaccine uptake (%)|In COVIDVAC the uptake is measured by population groups. A COVIDVAC Continuity Indicator for the whole population would need to have (COVIDVAC - HCW given 1st dose + COVIDVAC - Essential workers given 1st dose + COVIDVAC - Others given 1st dose) in the numerator and (COVIDVAC - HCW given 1st dose + COVIDVAC - Essential workers given 1st dose + COVIDVAC - Others given 1st dose + COVIDVAC - HCW given 2nd dose + COVIDVAC - Essential workers given 2nd dose + COVIDVAC - Others given 2nd dose) as denominator *|
+|COVAC . Proportion of target people given 1st dose|COVIDVAC - Essential workers: Vaccine uptake (%) <br> COVIDVAC - Other population: Vaccine uptake (%) <br> COVIDVAC - HCW: Vaccine uptake (%)|In COVIDVAC the uptake is measured by population groups. <br> A COVIDVAC Continuity Indicator for the whole population would need to have <br> (COVIDVAC - HCW given 1st dose + COVIDVAC - Essential workers given 1st dose + COVIDVAC - Others given 1st dose) in the numerator <br> and (COVIDVAC - HCW given 1st dose + COVIDVAC - Essential workers given 1st dose + COVIDVAC - Others given 1st dose + COVIDVAC - HCW given 2nd dose + COVIDVAC - Essential workers given 2nd dose + COVIDVAC - Others given 2nd dose) as denominator *|
 |COVAC - Proportion of staff available|COVIDVAC - Staff availability (%)|The COVAC IND can be added to the COVIDVAC - Staff availability graph|
 |COVAC - Serious / Non serious AEFI|COVIDVAC - Severe / Non severe reported AEFIs|The COVAC INDs can be added to the COVIDVAC - Severe AEFIs by vaccine  and COVIDVAC - Non-severe AEFIs by vaccine if the vaccines are matching. Otherwise new graphs can be created to simply map the number of severe and non severe AEFI cases.|
+
 
 ***** Please note that the People with underlying conditions is no longer a population group in version 1.1.0. Continuity indicators for underlying conditions can therefore be created for the total population rather than for the different target groups due to the lack of mutual exclusivity in version 1.0.0. The disaggregation by underlying conditions is exclusive to the population group under which the condition, or lack thereof, is tallied.
 
