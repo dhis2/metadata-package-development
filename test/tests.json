@@ -1,0 +1,43 @@
+{
+  "name": "Package import",
+  "testCases": {
+    "merge_import": {
+      "path": "/api/metadata",
+      "method": "POST",
+      "description": "Metadata API",
+      "bodyFile": "./package.json",
+      "query": {
+        "mergeMode": "merge",
+        "strategy": "CREATE_AND_UPDATE"
+      },
+      "expect": {
+        "body": {
+          "contains": {
+            "status": "OK"
+          }
+        }
+      }
+    },
+    "replace_import": {
+      "path": "/api/metadata",
+      "method": "POST",
+      "description": "Metadata API",
+      "bodyFile": "./package.json",
+      "query": {
+        "mergeMode": "replace",
+        "strategy": "CREATE_AND_UPDATE"
+      },
+      "expect": {
+        "body": {
+          "contains": {
+            "status": "OK"
+          }
+        }
+      }
+    }
+  },
+  "header": {
+    "Authorization": "Basic YWRtaW46ZGlzdHJpY3Q=",
+    "Content-Type": "application/json"
+  }
+}
