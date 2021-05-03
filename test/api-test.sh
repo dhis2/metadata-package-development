@@ -144,7 +144,7 @@ call_api() {
   BODY_FILE="$(jq -r ".testCases.\"$1\" | select(.bodyFile != null) | .bodyFile" $FILE)"
   if [[ $BODY_FILE ]]; then
     echo "BODY_FILE found $BODY_FILE"
-    BODY=$(cat $BODY_FILE)
+    BODY="@$BODY_FILE"
   else 
     echo "Body file not found"
     BODY="$(jq -r ".testCases.\"$1\" | select(.body != null) | .body" $FILE)"
