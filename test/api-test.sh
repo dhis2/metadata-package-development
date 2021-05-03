@@ -153,7 +153,7 @@ call_api() {
   REQUEST_HEADER=$(cat $FILE | jq -r ".testCases.\"$1\" | .header | if  . != null then . else {} end   | to_entries | map(\"\(.key): \(.value|tostring)\") | join(\"\n\") | if ( . | length) != 0 then \"-H\" + .  else \"-H \" end")
   METHOD="$(jq -r ".testCases.\"$1\".method //\"GET\" | ascii_upcase" $FILE)"
 
-  local raw_output=$(curl -is --request $METHOD "$URL$ROUTE$QUERY_PARAMS" \
+  local raw_output=$(curl -is --http1.1 --request $METHOD "$URL$ROUTE$QUERY_PARAMS" \
     --data "$BODY" \
     "$COMMON_HEADER" \
     "$REQUEST_HEADER" \

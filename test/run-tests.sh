@@ -15,5 +15,6 @@ else
 
   else 
     echo "Import with replace mode failed. "
+    exit 1
   fi
 fi

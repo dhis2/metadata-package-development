@@ -7,7 +7,7 @@
       "description": "Metadata API",
       "bodyFile": "./package.json",
       "query": {
-        "mergeMode": "merge",
+        "mergeMode": "MERGE",
         "strategy": "CREATE_AND_UPDATE"
       },
       "expect": {
