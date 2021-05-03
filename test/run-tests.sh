@@ -25,7 +25,7 @@ if [ -z "$url" ]; then
     exit 1
 fi
 
-if ./api-test.sh -f tests.json -url -auth $creds $url test merge_import; then 
+if ./api-test.sh -f tests.json -url $url -auth $creds test merge_import; then 
   MERGE_MODE_STATUS="PASSED"
 else 
   MERGE_MODE_STATUS="FAILED"
