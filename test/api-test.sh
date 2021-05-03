@@ -154,6 +154,7 @@ call_api() {
   METHOD="$(jq -r ".testCases.\"$1\".method //\"GET\" | ascii_upcase" $FILE)"
 
   local raw_output=$(curl -is --http1.1 --request $METHOD "$URL$ROUTE$QUERY_PARAMS" \
+    -u "$AUTH" \
     --data "$BODY" \
     "$COMMON_HEADER" \
     "$REQUEST_HEADER" \
@@ -544,6 +545,10 @@ for arg in "$@"; do
     ;;
   -url | --url)
     URL="$2"
+    shift
+    ;;
+  -auth | --auth) 
+    AUTH="$2"
     shift
     ;;
   -h | --help)
