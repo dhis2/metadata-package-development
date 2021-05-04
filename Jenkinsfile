@@ -33,12 +33,19 @@ pipeline {
 
             sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
             withFileParameter("${INPUT_FILE_NAME}") {
+               PACKAGE_VERSION = sh(
+                    returnStdout: true,
+                    script: "grep package ${INPUT_FILE_NAME}"
+                ).trim()
+                
                 DHIS2_VERSION = sh(
                         returnStdout: true,
-                        script: "grep package \$package_metadata_file | sed 's/-/_/g' | awk -F \"_\" '{ print \$4 }' | sed 's/DHIS//g'"
+                        script: "echo ${PACKAGE_VERSION} | sed 's/-/_/g' | awk -F \"_\" '{ print \$4 }' | sed 's/DHIS//g'"
                 ).trim()
 
-                echo "DHIS2 version: ${DHIS2_VERSION}"   
+                echo "Package version: ${PACKAGE_VERSION}"
+                currentBuild.description = "${PACKAGE_VERSION}"
+                echo "DHIS2 version: ${DHIS2_VERSION}"
             }
             
             def length = sh(
