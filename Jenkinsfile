@@ -23,7 +23,7 @@ pipeline {
     stages {
       stage("Extract package info") {
         steps {
-          git url: 'https://github.com/vilkg/metadata-package-development'
+          git url: "${GIT_URL}"
 
           script {
             unstash "${INPUT_FILE_NAME}"
@@ -38,8 +38,7 @@ pipeline {
                         script: "grep package \$package_metadata_file | sed 's/-/_/g' | awk -F \"_\" '{ print \$4 }' | sed 's/DHIS//g'"
                 ).trim()
 
-                echo "DHIS2 version: ${DHIS2_VERSION}"
-               
+                echo "DHIS2 version: ${DHIS2_VERSION}"   
             }
             
             def length = sh(
@@ -49,7 +48,7 @@ pipeline {
             
           
             if ( "${length}" > 4) {
-                echo "it's a patch"
+                echo "The DHIS2 version corresponds to a patch version. Core channel will be used to fetch images"
                 CHANNEL = ""
             }
           }

@@ -21,7 +21,7 @@ print_status() {
 }
 
 if [ -z "$url" ]; then
-    echo "Please provide URL to dhis2 instance."
+    echo "Please provide an URL of dhis2 instance."
     exit 1
 fi
 
