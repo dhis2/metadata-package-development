@@ -20,7 +20,7 @@ COMMAND_NAME="api-test"
 ACCESS_TOKEN=""
 ID_TOKEN=""
 URL=""
-
+AUTH=""
 SHOW_HEADER=0
 SUPER_SILENT=0
 HEADER_ONLY=0
@@ -79,7 +79,7 @@ function usage() {
     echo "  <test_case_name>      Run provided test case."
     echo ""
     echo "EXAMPLE:"
-    echo "'api-test -f test.json --url localhost:8080 run test_case_1 test_case_2', 'api-test -f test.json run all'"
+    echo "'api-test -f test.json --url localhost:8080 --auth admin:district run test_case_1 test_case_2', 'api-test -f test.json run all'"
     exit
     ;;
   test)
@@ -95,7 +95,7 @@ function usage() {
     echo "  <test_case_name>      Run provided automated test."
     echo ""
     echo "EXAMPLE:"
-    echo "'api-test -f test.json --url localhost:8080 test test_case_1 test_case_2', 'api-test -f test.json test all'"
+    echo "'api-test -f test.json --url localhost:8080 --auth admin:district test test_case_1 test_case_2', 'api-test -f test.json test all'"
     exit
     ;;
   describe)
@@ -112,7 +112,7 @@ function usage() {
     echo "  <test_case_name>  <path>    Describe a test case property using json path."
     echo ""
     echo "EXAMPLE:"
-    echo "'api-test -f test.json --url localhost:8080 describe', 'api-test -f test.json --url localhost:8080 describe test_case_1', 'api-test -f test.json describe test_case_1 body' "
+    echo "'api-test -f test.json --url localhost:8080 --auth admin:district describe', 'api-test -f test.json --url localhost:8080 --auth admin:district describe test_case_1', 'api-test -f test.json describe test_case_1 body' "
     exit
     ;;
   *)
@@ -125,6 +125,7 @@ function usage() {
     echo "  -v (--verbose)    verbose logging"
     echo "  -f (--file)       file to test"
     echo "  -url (--url)      URL to use in test cases"
+    echo "  -auth (--auth)    User to use in test cases"
     echo "  --version         print the version of the program"
     echo ""
     echo "COMMANDS:"
@@ -605,7 +606,13 @@ fi
 if [[ -z $URL ]]; then
   # Check if url is present
   URL=$(jq -r '.url | select( . != null)' $FILE)
-  echo "'url' is a required field in base object of a test file and must be a string."
+  echo "'url' is a required script parameter or field in base object of a test file and must be a string."
+  exit 1
+fi
+
+if [[ -z $AUTH ]]; then
+  # Check if AUTH is present
+  echo "'auth' is a required script parameter and must be a string containing both username and password. Example: admin:district"
   exit 1
 fi
 
