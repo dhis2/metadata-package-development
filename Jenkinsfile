@@ -1,4 +1,4 @@
-@Library('pipeline-library@find-free-port') _
+@Library('pipeline-library') _
 pipeline {
     agent any
     parameters {
@@ -93,7 +93,7 @@ pipeline {
     stage("Test SL instance") {
       steps {
         script {
-            d2.startClusterAndSeed( "${DHIS2_VERSION}", "$PORT", "$CHANNEL","admin:district")
+            d2.startClusterAndSeed( "${DHIS2_VERSION}", "$PORT", "$CHANNEL")
             dir('test') {
               sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/wjP19dkFeIk/g' | sed 's/<OU_ROOT_UID>/ImspTQPwCqd/g'| sed 's/NI0QRzJvQ0k/iESIqZ0R0R0/g' | sed 's/sB1IHYu2xQT/TfdH5KvFmMy/g' | sed 's/fctSQp5nAYl/Agywv2JGwuq/g' | sed 's/oindugucx72/CklPZdOd6H1/g' | sed 's/WDUwjiW2rGH/hiQ3QFheQ3O/g' | sed 's/MCPQUTHX1Ze/nEenWmSyUEp/g' | sed 's/FKKrOBBFgs1/AZK4rjJCss5/g' | sed 's/Ii4IxCLWEFn/UrUdMteQzlT/g' > package.json"
               sh "URL=http://localhost:${PORT} AUTH=system:System123 ./run-tests.sh"
