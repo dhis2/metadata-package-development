@@ -50,16 +50,16 @@ pipeline {
                
             }
             
-             def length = sh(
-                        returnStdout: true,
-                        script: "echo -n ${DHIS2_VERSION} | wc -c "
-                ).trim()
+            def length = sh(
+                      returnStdout: true,
+                      script: "echo -n ${DHIS2_VERSION} | wc -c "
+              ).trim()
                 
              
-                if ( "${length}" > 4) {
-                echo "The DHIS2 version corresponds to a patch version. Core channel will be used to fetch images"
-                    CHANNEL = ""
-                }
+            if ( "${length}" > 4) {
+            echo "The DHIS2 version corresponds to a patch version. Core channel will be used to fetch images"
+                CHANNEL = ""
+            }
           }
         }
       }
