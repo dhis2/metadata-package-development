@@ -12,7 +12,7 @@ pipeline {
         nodejs "node"
     }
     environment {
-        GIT_URL = "https://github.com/vilkg/metadata-package-development"
+        GIT_URL = "https://github.com/dhis2/metadata-package-development"
         DHIS2_VERSION = "master"
         OUS_METADATA = "test/ous_metadata.json"
         TEST_METADATA = "test_metadata.json"
