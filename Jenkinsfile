@@ -66,7 +66,7 @@ pipeline {
         steps {
           script {
               PORT = "${findFreePort()}"
-              d2.startCluster( "${DHIS2_VERSION}", "$PORT", "$CHANNEL", "admin:district")
+              d2.startCluster( "${DHIS2_VERSION}", "$PORT", "$CHANNEL")
              
               dir('test') {
                   sh "curl -X POST -v -H 'Expect:' -u admin:district -d \"@ous_metadata.json\" -H \"Content-Type: application/json\" http://localhost:${PORT}/api/metadata?mergeMode=MERGE&strategy=CREATE_AND_UPDATE"
