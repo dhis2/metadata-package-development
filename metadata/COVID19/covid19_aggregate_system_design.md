@@ -129,13 +129,13 @@ The following data validation rules have been configured. These validation rules
 
 | **Name** | **Operator** | **Instruction** | **Left side description** | **Right side description** |
 | --- | --- | --- | --- | --- |
-| COVID19 - PCR tests \&lt;= tested | less\_than\_or\_equal\_to | Tested with PCR should be less than or equal to total tests conducted | Tested with PCR | Tested conducted |
-| COVID19 - New Cases hospitalised \&lt;= All New Cases | less\_than\_or\_equal\_to | New Cases hospitalised should be less than or equal to all new cases | New Cases hospitalised | All New Cases |
-| COVID19 - New confirmed deaths \&lt;= New confirmed cases | less\_than\_or\_equal\_to | New confirmed deaths should be less than or equal to New confirmed cases | New confirmed deaths | New confirmed cases |
-| COVID19 - Probable deaths \&lt;= New probable cases | less\_than\_or\_equal\_to | Probable deaths should be less than or equal to New probable cases | Probable deaths | New probable cases |
-| COVID19 - New deaths among HW (confirmed + probable) \&lt;= All deaths reported | less\_than\_or\_equal\_to | New deaths among HW (confirmed + probable) should be less than or equal to All deaths reported | New deaths among HW (confirmed + probable) | All deaths reported |
-| COVID19 - New cases among HW (confirmed + probable) \&lt;= All new cases | less\_than\_or\_equal\_to | New cases among HW (confirmed + probable) should be less than or equal to All new cases | New cases among HW (confirmed + probable) | All new cases |
-| COVID19 - New deaths among HW (confirmed + probable) \&lt;= new cases among HW (confirmed + probable) | less\_than\_or\_equal\_to | New deaths among HW (confirmed + probable) should be less than or equal to new cases among HW (confirmed + probable) | New deaths among HW (confirmed + probable) | New cases among HW (confirmed + probable) |
+| COVID19 - PCR tests <= All tests conducted | less\_than\_or\_equal\_to | Tested with PCR should be less than or equal to total tests conducted | Tested with PCR | Tests conducted |
+| COVID19 - New Cases hospitalised <= All New Cases | less\_than\_or\_equal\_to | New Cases hospitalised should be less than or equal to all new cases | New Cases hospitalised | All New Cases |
+| COVID19 - New confirmed deaths <= New confirmed cases | less\_than\_or\_equal\_to | New confirmed deaths should be less than or equal to New confirmed cases | New confirmed deaths | New confirmed cases |
+| COVID19 - Probable deaths <= New probable cases | less\_than\_or\_equal\_to | Probable deaths should be less than or equal to New probable cases | Probable deaths | New probable cases |
+| COVID19 - New deaths among HW (confirmed + probable) <= All deaths reported | less\_than\_or\_equal\_to | New deaths among HW (confirmed + probable) should be less than or equal to All deaths reported | New deaths among HW (confirmed + probable) | All deaths reported |
+| COVID19 - New cases among HW (confirmed + probable) <= All new cases | less\_than\_or\_equal\_to | New cases among HW (confirmed + probable) should be less than or equal to All new cases | New cases among HW (confirmed + probable) | All new cases |
+| COVID19 - New deaths among HW (confirmed + probable) <= new cases among HW (confirmed + probable) | less\_than\_or\_equal\_to | New deaths among HW (confirmed + probable) should be less than or equal to new cases among HW (confirmed + probable) | New deaths among HW (confirmed + probable) | New cases among HW (confirmed + probable) |
 
 ## User Groups
 

@@ -17,6 +17,7 @@
         <li><a href="#programs">Programs</a></li>
         <li><a href="#programRules">Program Rules</a></li>
         <li><a href="#programIndicators">Program Indicators</a></li>
+        <li><a href="#attributes">Attributes</a></li>
         <li><a href="#dataElements">Data Elements</a></li>
         <li><a href="#dataElementGroups">Data Element Groups</a></li>
         <li><a href="#categoryCombos">Category Combos</a></li>
@@ -54,7 +55,7 @@
       </tr>
       <tr>
         <th>Version</th>
-        <td>V1.1.2</td>
+        <td>V1.0.5</td>
       </tr>
       <tr>
         <th>DHIS2 version</th>
@@ -62,11 +63,11 @@
       </tr>
       <tr>
         <th>Created</th>
-        <td>20210406T115721</td>
+        <td>20210602T111120</td>
       </tr>
       <tr>
         <th>Identifier</th>
-        <td>COVAC_TRACKER_V1.1.2_DHIS2.33.8-3c90b70_20210406T115721</td>
+        <td>COVAC_TRACKER_V1.0.5_DHIS2.33.8-3c90b70_20210602T111120</td>
       </tr>
     </table>
     <h2 id="trackedEntityTypes">Tracked entity types</h2>
@@ -100,6 +101,10 @@
         <td>Person</td>
         <td>qb8PkSObwqh</td>
       </tr>
+      <tr>
+        <td>Person</td>
+        <td>Wn1oudATlIS</td>
+      </tr>
     </table>
     <h2 id="trackedEntityAttributes">Tracked entity attributes</h2>
     <table>
@@ -125,39 +130,11 @@
         <td>LY2bDXpNvS7</td>
       </tr>
       <tr>
-        <td>Date of birth</td>
-        <td>patinfo_ageonsetunit</td>
-        <td></td>
-        <td></td>
-        <td>NI0QRzJvQ0k</td>
-      </tr>
-      <tr>
         <td>Date of birth is estimated</td>
         <td></td>
         <td></td>
         <td></td>
         <td>Z1rLc1rVHK8</td>
-      </tr>
-      <tr>
-        <td>First Name</td>
-        <td>first_name</td>
-        <td></td>
-        <td></td>
-        <td>sB1IHYu2xQT</td>
-      </tr>
-      <tr>
-        <td>Home Address</td>
-        <td>patinfo_resadmin0</td>
-        <td></td>
-        <td></td>
-        <td>Xhdn49gUd52</td>
-      </tr>
-      <tr>
-        <td>Mobile phone number</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>fctSQp5nAYl</td>
       </tr>
       <tr>
         <td>National ID</td>
@@ -167,11 +144,32 @@
         <td>Ewi7FUfcHAD</td>
       </tr>
       <tr>
-        <td>Sex</td>
-        <td>patinfo_sex</td>
+        <td>Unique System Identifier (EPI)</td>
+        <td></td>
+        <td>System-generated unique ID following pattern: EPI prefix + value randomly generated (#####) - Customize the length depending on the target population of your implementation</td>
+        <td></td>
+        <td>KSr2yTdu1AI</td>
+      </tr>
+      <tr>
+        <td>Mobile phone number</td>
         <td></td>
         <td></td>
-        <td>oindugucx72</td>
+        <td></td>
+        <td>fctSQp5nAYl</td>
+      </tr>
+      <tr>
+        <td>Date of birth</td>
+        <td>patinfo_ageonsetunit</td>
+        <td></td>
+        <td></td>
+        <td>NI0QRzJvQ0k</td>
+      </tr>
+      <tr>
+        <td>First Name</td>
+        <td>first_name</td>
+        <td></td>
+        <td></td>
+        <td>sB1IHYu2xQT</td>
       </tr>
       <tr>
         <td>Surname</td>
@@ -181,11 +179,18 @@
         <td>ENRjVGxVL6l</td>
       </tr>
       <tr>
-        <td>Unique System Identifier (EPI)</td>
+        <td>Sex</td>
+        <td>patinfo_sex</td>
         <td></td>
-        <td>System-generated unique ID following pattern: EPI prefix + value randomly generated (#####) - Customize the length depending on the target population of your implementation</td>
         <td></td>
-        <td>KSr2yTdu1AI</td>
+        <td>oindugucx72</td>
+      </tr>
+      <tr>
+        <td>Home Address</td>
+        <td>patinfo_resadmin0</td>
+        <td></td>
+        <td></td>
+        <td>Xhdn49gUd52</td>
       </tr>
     </table>
     <h2 id="programs">Programs</h2>
@@ -205,7 +210,7 @@
       </tr>
       <tr>
         <th>Last updated:</th>
-        <td>2021-03-19</td>
+        <td>2021-04-28</td>
       </tr>
       <tr>
         <th>UID:</th>
@@ -260,7 +265,7 @@
       <tr>
         <td>Vaccination</td>
         <td>Vaccination information</td>
-        <td>COVAC Suggested date for next dose</td>
+        <td>COVAC - Suggested date for next dose</td>
       </tr>
       <tr>
         <td>Vaccination</td>
@@ -275,7 +280,7 @@
       <tr>
         <td>Vaccination</td>
         <td>Pre-immunization Questions</td>
-        <td>COVAC Previously infected with COVID</td>
+        <td>COVAC - Previously infected with COVID</td>
       </tr>
       <tr>
         <td>Vaccination</td>
@@ -294,13 +299,13 @@
       </tr>
       <tr>
         <td>Vaccination</td>
-        <td>Pre-immunization Questions</td>
-        <td>COVAC - Allergic reaction after first dose</td>
+        <td>Underlying Conditions</td>
+        <td>COVAC - Cardiovascular Disease</td>
       </tr>
       <tr>
         <td>Vaccination</td>
-        <td>Underlying Conditions</td>
-        <td>COVAC - Cardiovascular Disease</td>
+        <td>Pre-immunization Questions</td>
+        <td>COVAC - Allergic reaction after first dose</td>
       </tr>
       <tr>
         <td>Vaccination</td>
@@ -345,7 +350,17 @@
       <tr>
         <td>Vaccination</td>
         <td>Vaccination information</td>
+        <td>COVAC - Vaccine Brand</td>
+      </tr>
+      <tr>
+        <td>Vaccination</td>
+        <td>Vaccination information</td>
         <td>COVAC - AEFIs present</td>
+      </tr>
+      <tr>
+        <td>Vaccination</td>
+        <td>Vaccination information</td>
+        <td>COVAC - Health worker identification</td>
       </tr>
     </table>
     <h2 id="programIndicators">Program Indicators</h2>
@@ -469,7 +484,7 @@
       </tr>
       <tr>
         <td>Doses given</td>
-        <td>1st, 2nd, 3rd, booster dose - Number of doses - </td>
+        <td>1st, 2nd, 3rd, booster dose - Number of doses -</td>
         <td>COV-n</td>
         <td>Number of doses (first, second, third, or booster dose) of a vaccine product</td>
         <td>EVENT</td>
@@ -484,15 +499,6 @@
         <td>EVENT</td>
         <td></td>
         <td>AXweWKC4B3L</td>
-      </tr>
-      <tr>
-        <td>Number of people receiving a first dose (Male 0-59)</td>
-        <td>First dose - Number of people (Male 0-59)</td>
-        <td>COV-1 (Male 0-59)</td>
-        <td>Number of people who have had a first dose of a vaccine product</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>hqm8znlAzkT</td>
       </tr>
       <tr>
         <td>Number of people receiving a first dose (0-59)</td>
@@ -540,6 +546,15 @@
         <td>kKr4FSA1O0Z</td>
       </tr>
       <tr>
+        <td>Number of people receiving a first dose (Male 0-59)</td>
+        <td>First dose - Number of people (Male 0-59)</td>
+        <td>COV-1 (Male 0-59)</td>
+        <td>Number of people who have had a first dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td></td>
+        <td>hqm8znlAzkT</td>
+      </tr>
+      <tr>
         <td>Number of people receiving a first dose (Male 60+)</td>
         <td>First dose - Number of people (Male 60+)</td>
         <td>COV-1 (Male 60+)</td>
@@ -565,15 +580,6 @@
         <td>EVENT</td>
         <td></td>
         <td>zr25iLoCE4g</td>
-      </tr>
-      <tr>
-        <td>Number of people receiving a second, third or booster dose (Male) </td>
-        <td>2nd, 3rd, booster dose - Number of males</td>
-        <td>COV-2 (Male)</td>
-        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>UzPqw49tyym</td>
       </tr>
       <tr>
         <td>Number of people receiving a second, third or booster dose (0-59)</td>
@@ -612,7 +618,7 @@
         <td>h9G7i6mQKef</td>
       </tr>
       <tr>
-        <td>Number of people receiving a second, third or booster dose (Female) </td>
+        <td>Number of people receiving a second, third or booster dose (Female)</td>
         <td>2nd, 3rd, booster dose - Number of females</td>
         <td>COV-2 (Female)</td>
         <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
@@ -637,6 +643,15 @@
         <td>EVENT</td>
         <td></td>
         <td>qh0kIjHZbP8</td>
+      </tr>
+      <tr>
+        <td>Number of people receiving a second, third or booster dose (Male)</td>
+        <td>2nd, 3rd, booster dose - Number of males</td>
+        <td>COV-2 (Male)</td>
+        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
+        <td>EVENT</td>
+        <td></td>
+        <td>UzPqw49tyym</td>
       </tr>
       <tr>
         <td>Number of people who received the last recommended dose for the respective vaccine product</td>
@@ -730,7 +745,7 @@
       </tr>
       <tr>
         <td>Vaccine Uptake AstraZeneca</td>
-        <td>Vaccine Uptake (AstraZeneca) </td>
+        <td>Vaccine Uptake (AstraZeneca)</td>
         <td></td>
         <td>Number of doses given of AstraZeneca</td>
         <td>EVENT</td>
@@ -739,7 +754,7 @@
       </tr>
       <tr>
         <td>Vaccine Uptake BioNtech</td>
-        <td>Vaccine Uptake (BioNTech/Pfizer) </td>
+        <td>Vaccine Uptake (BioNTech/Pfizer)</td>
         <td></td>
         <td>Number of people who have had any dose of a vaccine product</td>
         <td>EVENT</td>
@@ -748,7 +763,7 @@
       </tr>
       <tr>
         <td>Vaccine Uptake Gamaleya</td>
-        <td>Vaccine Uptake (Gamaleya) </td>
+        <td>Vaccine Uptake (Gamaleya)</td>
         <td></td>
         <td>Number of people who have had any dose of a vaccine product</td>
         <td>EVENT</td>
@@ -757,7 +772,7 @@
       </tr>
       <tr>
         <td>Vaccine Uptake Moderna</td>
-        <td>Vaccine Uptake (Moderna) </td>
+        <td>Vaccine Uptake (Moderna)</td>
         <td></td>
         <td>Number of people who have had any dose of a vaccine product</td>
         <td>EVENT</td>
@@ -766,84 +781,12 @@
       </tr>
       <tr>
         <td>Vaccine Uptake Sinopharm</td>
-        <td>Vaccine Uptake (Sinopharm ) </td>
+        <td>Vaccine Uptake (Sinopharm )</td>
         <td></td>
         <td>Number of people who have had any dose of a vaccine product</td>
         <td>EVENT</td>
         <td></td>
         <td>MzXxrDWcNjW</td>
-      </tr>
-      <tr>
-        <td>ZZZNumber of doses given</td>
-        <td>ZZZ1st, 2nd, 3rd, booster dose - Number of people</td>
-        <td>ZZZCOV-n</td>
-        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>UzbfnPqo0LV</td>
-      </tr>
-      <tr>
-        <td>ZZZNumber of people (Female) receiving a second, third or booster dose</td>
-        <td>ZZZ2nd, 3rd, booster dose - Number of females</td>
-        <td>ZZCOV-2 (Female)</td>
-        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
-        <td>ENROLLMENT</td>
-        <td></td>
-        <td>BEw3zmRnGo4</td>
-      </tr>
-      <tr>
-        <td>ZZZNumber of people (Male) receiving a second, third or booster dose</td>
-        <td>ZZZ2nd, 3rd, booster dose - Number of males</td>
-        <td>ZZZCOV-2 (Male)</td>
-        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
-        <td>ENROLLMENT</td>
-        <td></td>
-        <td>IXW8ahBF3Pl</td>
-      </tr>
-      <tr>
-        <td>ZZZNumber of people receiving a first dose</td>
-        <td>ZZZFirst dose - Number of people</td>
-        <td>ZZZCOV-1</td>
-        <td>Number of people who have had a first dose of a vaccine product</td>
-        <td>ENROLLMENT</td>
-        <td></td>
-        <td>P2OSNv6tWuj</td>
-      </tr>
-      <tr>
-        <td>zzzNumber of people receiving a second, third or booster dose</td>
-        <td>zzz2nd, 3rd, booster dose - Number of people</td>
-        <td>zzzCOV-2 </td>
-        <td>Number of people who have had a second, third, or booster dose of a vaccine product</td>
-        <td>ENROLLMENT</td>
-        <td></td>
-        <td>sYIBsws6qUG</td>
-      </tr>
-      <tr>
-        <td>ZZZVaccine Uptake (AstraZeneca)</td>
-        <td>ZZZVaccine Uptake (AstraZeneca)</td>
-        <td></td>
-        <td>Number of doses given of AstraZeneca</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>ApGCVA6qhKT</td>
-      </tr>
-      <tr>
-        <td>ZZZVaccine Uptake (BioNTech/Pfizer)</td>
-        <td>ZZZVaccine Uptake (BioNTech/Pfizer)</td>
-        <td></td>
-        <td>Number of people who have had any dose of a vaccine product</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>rtoIINJSfAf</td>
-      </tr>
-      <tr>
-        <td>ZZZVaccine Uptake (Moderna)</td>
-        <td>ZZZVaccine Uptake (Moderna)</td>
-        <td></td>
-        <td>Number of people who have had any dose of a vaccine product</td>
-        <td>EVENT</td>
-        <td></td>
-        <td>T4Fcv5Khfe8</td>
       </tr>
     </table>
     <h4 id="programRules">Program Rules</h4>
@@ -987,6 +930,18 @@
         <td>I0FZ4YQgxfD</td>
       </tr>
       <tr>
+        <td>If AEFI immediately after dose, show warning</td>
+        <td></td>
+        <td></td>
+        <td>VwsUJGrwrNM</td>
+      </tr>
+      <tr>
+        <td>If AEFI immediately after dose, show warning</td>
+        <td></td>
+        <td></td>
+        <td>lUluWImceqx</td>
+      </tr>
+      <tr>
         <td>If Age is under 16, then warn that BioNTech/Pfizer is recommended for ages 16 and up</td>
         <td></td>
         <td></td>
@@ -1071,7 +1026,7 @@
         <td>K9Vjkz1xOw1</td>
       </tr>
       <tr>
-        <td>if client has a history of malignancy show it on indicator panel</td>
+        <td>If client has a history of malignancy show it on indicator panel</td>
         <td></td>
         <td></td>
         <td>SDfSLD0WFOL</td>
@@ -1260,6 +1215,39 @@
         <td>LY2bDXpNvS7</td>
       </tr>
     </table>
+    <h2 id="attributes">Attributes</h2>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Shortname</th>
+        <th>Last updated</th>
+        <th>UID</th>
+      </tr>
+      <tr>
+        <td>Code (ICD-10)</td>
+        <td>ICD-10</td>
+        <td></td>
+        <td>iehcXLBKVWM</td>
+      </tr>
+      <tr>
+        <td>Code (Loinc)</td>
+        <td>Loinc</td>
+        <td></td>
+        <td>mpXON5igCG1</td>
+      </tr>
+      <tr>
+        <td>Code (SNOMED)</td>
+        <td>SNOMED</td>
+        <td></td>
+        <td>I6u65yRc0ct</td>
+      </tr>
+      <tr>
+        <td>Data element for aggregate data export</td>
+        <td>Data element for aggregate data export</td>
+        <td></td>
+        <td>vudyDP7jUy5</td>
+      </tr>
+    </table>
     <h2 id="dataElements">Data Elements</h2>
     <table>
       <tr>
@@ -1344,6 +1332,15 @@
         <td>LUIsbsm3okG</td>
       </tr>
       <tr>
+        <td>COVAC - Health worker identification</td>
+        <td>COVAC - health worker ID</td>
+        <td></td>
+        <td>Name or health worker ID of the person performing the vaccination</td>
+        <td>default</td>
+        <td></td>
+        <td>dEHqFKH1Ofy</td>
+      </tr>
+      <tr>
         <td>COVAC - Immunodeficiency</td>
         <td>COVAC - Immunodeficiency</td>
         <td>Covac_Comcond_immuno</td>
@@ -1407,7 +1404,7 @@
         <td>CBAs12YL4g7</td>
       </tr>
       <tr>
-        <td>COVAC Previously infected with COVID</td>
+        <td>COVAC - Previously infected with COVID</td>
         <td>Previously infected with COVID</td>
         <td></td>
         <td>Has the patient been infected with COVID-19 within the last 90 days?</td>
@@ -1425,7 +1422,7 @@
         <td>gW4pd818Sw8</td>
       </tr>
       <tr>
-        <td>COVAC Suggested date for next dose</td>
+        <td>COVAC - Suggested date for next dose</td>
         <td>Next dose date</td>
         <td></td>
         <td></td>
@@ -1459,6 +1456,15 @@
         <td>default</td>
         <td></td>
         <td>dpyQUtizp7s</td>
+      </tr>
+      <tr>
+        <td>COVAC - Vaccine Brand</td>
+        <td>Vaccine Brand</td>
+        <td></td>
+        <td></td>
+        <td>default</td>
+        <td></td>
+        <td>rWYryQb3ohn</td>
       </tr>
       <tr>
         <td>COVAC - Vaccine Manufacturer</td>
@@ -1502,23 +1508,7 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Neurological/Neuromuscular</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Immunodeficiency</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
         <td>COVAC - Renal Disease</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Multiple products used - Explain</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Total doses</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
@@ -1526,23 +1516,11 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Vaccine Name</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Last Dose</td>
+        <td>COVAC - Suggested date for next dose</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
         <td>COVAC- Batch Number</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Allergic reaction after first dose</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Underlying condition Other</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
@@ -1558,23 +1536,15 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Diabetes</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Pregnancy gestation</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 vaccination registry</td>
         <td>COVAC - Dose Number</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Malignancy</td>
+        <td>COVAC - Cardiovascular Disease</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC - Cardiovascular Disease</td>
+        <td>COVAC - Vaccine Brand</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
@@ -1586,11 +1556,55 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC Suggested date for next dose</td>
+        <td>COVAC - Health worker identification</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 vaccination registry</td>
-        <td>COVAC Previously infected with COVID</td>
+        <td>COVAC - Neurological/Neuromuscular</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Immunodeficiency</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Multiple products used - Explain</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Total doses</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Vaccine Name</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Previously infected with COVID</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Last Dose</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Allergic reaction after first dose</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Underlying condition Other</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Diabetes</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Pregnancy gestation</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 vaccination registry</td>
+        <td>COVAC - Malignancy</td>
       </tr>
     </table>
     <h2 id="categoryCombos">Category Combinations</h2>
@@ -1682,6 +1696,12 @@
         <td>1st Trimester (1-12 weeks); 2nd Trimester (13-28 weeks); 3rd Trimester (29-40 weeks)</td>
       </tr>
       <tr>
+        <td>COVAC Vaccine brand</td>
+        <td></td>
+        <td>UJTnyCB3cyk</td>
+        <td>Astra-Zeneca; Moderna; BioNTech-Pfizer; Sinopharm; Gamaleya</td>
+      </tr>
+      <tr>
         <td>COVAC Vaccine Manufacturers</td>
         <td></td>
         <td>DtOGtoLbaB5</td>
@@ -1764,6 +1784,13 @@
         <td>Q3obJT1MXov</td>
       </tr>
       <tr>
+        <td>COVAC Vaccine brand</td>
+        <td>Astra-Zeneca</td>
+        <td>brandastrazeneca</td>
+        <td></td>
+        <td>xyjoGDPIRBe</td>
+      </tr>
+      <tr>
         <td>COVAC Vaccine Manufacturers</td>
         <td>AstraZeneca</td>
         <td>astrazeneca</td>
@@ -1783,6 +1810,13 @@
         <td>banker</td>
         <td></td>
         <td>UvR0km5ntbi</td>
+      </tr>
+      <tr>
+        <td>COVAC Vaccine brand</td>
+        <td>BioNTech-Pfizer</td>
+        <td>brandpfizerbiontech</td>
+        <td></td>
+        <td>sggdw6M2AzM</td>
       </tr>
       <tr>
         <td>COVAC Vaccine Manufacturers</td>
@@ -1827,6 +1861,13 @@
         <td>n1p4obma3dp</td>
       </tr>
       <tr>
+        <td>COVAC Vaccine brand</td>
+        <td>Gamaleya</td>
+        <td>brandgamaleya</td>
+        <td></td>
+        <td>utlYKxuxhJu</td>
+      </tr>
+      <tr>
         <td>Occupation - COVID</td>
         <td>Healthcare worker</td>
         <td>healthcare_worker</td>
@@ -1867,6 +1908,13 @@
         <td>moderna</td>
         <td></td>
         <td>labbhFBSyp4</td>
+      </tr>
+      <tr>
+        <td>COVAC Vaccine brand</td>
+        <td>Moderna</td>
+        <td>brandmoderna</td>
+        <td></td>
+        <td>mb5EvuSwOuI</td>
       </tr>
       <tr>
         <td>COVAC Vaccine Names</td>
@@ -1937,6 +1985,13 @@
         <td>sinopharm</td>
         <td></td>
         <td>clKOrDK3Gw0</td>
+      </tr>
+      <tr>
+        <td>COVAC Vaccine brand</td>
+        <td>Sinopharm</td>
+        <td>brandsinopharm</td>
+        <td></td>
+        <td>ceu5qFoUfo9</td>
       </tr>
       <tr>
         <td>COVAC Vaccine Manufacturers</td>
@@ -2032,15 +2087,11 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 Vaccine Registry</td>
-        <td>COVAC - Drop-out from COV-1 to COV-c BioNtech (21 days)</td>
-      </tr>
-      <tr>
-        <td>COVAC - Covid-19 Vaccine Registry</td>
         <td>COVAC - Drop-out from COV-1 to COV-c Gamaleya (21 days)</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 Vaccine Registry</td>
-        <td>COVAC - Drop-out from COV-1 to COV-c Moderna (28 days)</td>
+        <td>COVAC - Drop-out from COV-1 to COV-c AstraZeneca (12 days)</td>
       </tr>
       <tr>
         <td>COVAC - Covid-19 Vaccine Registry</td>
@@ -2052,7 +2103,11 @@
       </tr>
       <tr>
         <td>COVAC - Covid-19 Vaccine Registry</td>
-        <td>COVAC - Drop-out from COV-1 to COV-c AstraZeneca (12 days)</td>
+        <td>COVAC - Drop-out from COV-1 to COV-c Moderna (28 days)</td>
+      </tr>
+      <tr>
+        <td>COVAC - Covid-19 Vaccine Registry</td>
+        <td>COVAC - Drop-out from COV-1 to COV-c BioNtech (21 days)</td>
       </tr>
     </table>
     <h2 id="indicators">Indicators</h2>
@@ -2074,8 +2129,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c</td>
         <td>Drop-out from COV-1 to COV-c</td>
         <td>COV-1-COV-c</td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>CPV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2087,8 +2141,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c AstraZeneca (12 days)</td>
         <td>Drop-out from COV-1 to COV-c COVAX1</td>
         <td>COV-1-COV-c COVAX1</td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>COV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2100,8 +2153,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c BioNtech (21 days)</td>
         <td>Drop-out from COV-1 to COV-c COVAX2</td>
         <td>COV-1-COV-c COVAX2</td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>COV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2113,8 +2165,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c Gamaleya (21 days)</td>
         <td>Drop-out from COV-1 to COV-c COVAX4</td>
         <td>COV-1-COV-c COVAX4</td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>COV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2126,8 +2177,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c Moderna (28 days)</td>
         <td>Drop-out from COV-1 to COV-c COVAX3</td>
         <td>COV-1-COV-c COVAX3</td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>COV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2139,8 +2189,7 @@
         <td>COVAC - Drop-out from COV-1 to COV-c Sinopharm (28 days)</td>
         <td>Drop-out from COV-1 to COV-c COVAX5</td>
         <td>COV-1-COV-c COVAX5 </td>
-        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1
-        </td>
+        <td>The proportion of people who received at least one dose of a COVID-19 vaccine but did not receive the last dose in the schedule yet. Calculated as: (COV-1 – COV-c)/COV-1</td>
         <td>COV-1 - COV-c</td>
         <td>COV-1</td>
         <td>Percentage</td>
@@ -2412,7 +2461,7 @@
       </tr>
       <tr>
         <td>COVAC - Cumulative number of given doses, Last 4 weeks</td>
-        <td>TEST TEST</td>
+        <td>Cumulative number of doses given last four weeks</td>
         <td></td>
         <td>vmNUVdhuxN7</td>
       </tr>
