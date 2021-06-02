@@ -1,7 +1,7 @@
 
 # Adverse Events Following Immunization (AEFI) Tracker System Design
 
-## Purpose
+## Purpose (testing)
 
 The Adverse Events Following Immunization (AEFI) Tracker System Design document provides an overview of the conceptual design used to configure a tracker program to support the notification, reporting and investigating of AEFI cases at national and sub-national levels. This document is intended for use by DHIS2 implementers and immunization program data managers to be able to support implementation and localization of the package. Local work flows and national guidelines should be considered in the localization and adaptation of this configuration package.
 
