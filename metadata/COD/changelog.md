@@ -63,8 +63,8 @@ The French localised version of the Cause of Death package uses a different **IC
 
 ### Event
 
-* Included SQL views in metadata file
-* Updated the following options:
+- Included SQL views in metadata file
+- Updated the following options:
 
 | id | Property | Old value | New value |
 |-|-|-|-|
@@ -74,4 +74,4 @@ The French localised version of the Cause of Death package uses a different **IC
 | Wvw6LctDL3R | code | 5-106\|T309\|INT00043 | 5-106\|T300\|INT00043 |
 | V8CuD9AucgW | code | 5-85\|O999\|INT02339 | 5-85\|O998\|INT02339 |
 
-* Deleted the following options: `oBOM5bEVVLk, LW7CuavQo3n, leyPoGqs597, k7XHmj3a4nT, trEzz9R11r5, OrqWo8PX6f2, HopjEbx2cdt, C0RFtymQ1zT, VOW0QufZ5NM, w4TLLFtwyMy`
+- Deleted the following options: `oBOM5bEVVLk, LW7CuavQo3n, leyPoGqs597, k7XHmj3a4nT, trEzz9R11r5, OrqWo8PX6f2, HopjEbx2cdt, C0RFtymQ1zT, VOW0QufZ5NM, w4TLLFtwyMy`
