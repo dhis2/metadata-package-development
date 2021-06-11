@@ -40,7 +40,7 @@
 | trackedEntityAttribute | id | flGbXLXCrEo | HAZ7VQ730yn | Tracker |
 | dataElement | id | YUcJrLWmGyv | G5ljtyKdtYU | Event and Tracker |
 
-- French Dictionary for a localised French package
+- French Dictionary for the localised French package
 
 The French localised version of the Cause of Death package uses a different **ICD-SMoL - local dictionary** than the generic package. It consists of different options and uses `INT_FRxxxxx` as a prefix for the segment 3 of the option code. See metadata reference file for the French localised package for more details.
 
