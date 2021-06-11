@@ -57,7 +57,7 @@ Descriptions of these programs are described in further detail in the sections b
 | Registration / Attributes|Registration consists of a single attribute, a system generated ID. This can be used in order to uniquely identify the death and find it in the system if required, but would in most cases be replaced with existing ID schemes, e.g. a national ID. It can also be used as a link to other systems (eg. civil registration). |
 | Cause of death (registration) | Contains all the information necessary to record the information associated with the medical certificate cause of death. Uses a custom form layout to reflect the paper-based certificate, with sections available to use on mobile devices. This is a non-repeatable stage; once the details of the death are registered no additional events will be added. |
 
-For a full list and description of the program, program stages and data elements used in this design, please refer to the full meta-data reference here
+For a full list and description of the program, program stages and data elements used in this design, please refer to the full meta-data reference.
 
 ## Program Rules
 
