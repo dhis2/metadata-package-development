@@ -1,4 +1,4 @@
-# WHO Cause of Death - Tracker System Design
+# WHO Cause of Death - Tracker and Event System Design
   
 ## Overall Design
 
