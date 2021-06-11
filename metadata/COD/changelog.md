@@ -42,7 +42,7 @@
 
 - French Dictionary for the localised French package
 
-The French localised version of the Cause of Death package uses a different **ICD-SMoL - local dictionary** than the generic package. It consists of different options and uses `INT_FRxxxxx` as a prefix for the segment 3 of the option code. See metadata reference file for the French localised package for more details.
+The French localised version of the Cause of Death package uses a different **ICD-SMoL - local dictionary** than the generic package. It consists of different options and uses `INT_FRxxxxx` as a prefix in the segment 3 of the option code. See metadata reference file for the French localised package for more details.
 
 ## 1.1.0
 
