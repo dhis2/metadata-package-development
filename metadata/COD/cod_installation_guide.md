@@ -92,7 +92,7 @@ Supports use of unique identifiers, as well as person attributes. This is necess
 
 ### Importing metadata
 
-The module is imported through a ´.json´ file with DHIS 2 metadata, using the Metadata import feature of the DHIS 2 Import/Export app. When importing the metadata in a DHIS 2 database with existing metadata, you might see errors if you look at the detailed import summary. These could require action, for example if a data element with the same name or code already exists in the database your are importing the module into. In this case, you will either have to change the identifier (name, code) in the database, or modify the name/code in the import file. Any such modifications should be done first in a test or staging environment, to make sure the changes do not affect other parts of the system.
+The module is imported through a `.json` file with DHIS 2 metadata, using the Metadata import feature of the DHIS 2 Import/Export app. When importing the metadata in a DHIS 2 database with existing metadata, you might see errors if you look at the detailed import summary. These could require action, for example if a data element with the same name or code already exists in the database your are importing the module into. In this case, you will either have to change the identifier (name, code) in the database, or modify the name/code in the import file. Any such modifications should be done first in a test or staging environment, to make sure the changes do not affect other parts of the system.
 
 ### Additional configuration
 
@@ -124,9 +124,9 @@ The dictionary of medical terms is a key component of the module, and is critica
 
 #### Checking integrity of dictionary
 
-As described above, the dictionary is implemented as an option set in DHIS 2, with the medical term as the option name and a special format for the option code that consists of the ICD-SMoL code, ICD-10 code and an ID separated by the ´|´ (pipe) symbol. SQL-views are included to verify that all entries in the dictionary follow this format:
+As described above, the dictionary is implemented as an option set in DHIS 2, with the medical term as the option name and a special format for the option code that consists of the ICD-SMoL code, ICD-10 code and an ID separated by the | (pipe) symbol. SQL-views are included to verify that all entries in the dictionary follow this format:
 
-- Dictionary entries with invalid code format - list entries where the code does not follow the format of ´[content]|[content]|[content]´.
+- Dictionary entries with invalid code format - list entries where the code does not follow the format of `[content]|[content]|[content]`.
 - Dictionary entries with invalid ICD-SMoL reference - list entries where the ICD-SMoL-part of the code is not in the ICD-SMoL list, which is provided as a separate option set.
 - Dictionary entries mixing main- and sub-categories - list entries where, for the same ICD-SMoL code, some entries link to the main ICD-SMoL code and some to the specific code (e.g. some to 5-4 and 5-4.1). This can create misleading outputs when analysing data within DHIS 2 as deaths might be double counted.
 
@@ -138,7 +138,8 @@ Before a term can be added to the dictionary, the correct ICD-SMoL and ICD-10 co
 
 To ensure that the right terms are displayed first in the dictionary, it must be sorted by the length of the term. After adding new terms to the dictionary, it must be re-sorted so that the new terms are not always last in the list. This can be done with the follwing SQL query (for PostgreSQL databases):
 
-    ´´´with ordered as (
+```sql
+    with ordered as (
     select
         uid,
         name,
@@ -155,7 +156,8 @@ To ensure that the right terms are displayed first in the dictionary, it must be
     where
         ov.uid = ord.uid and
         ov.optionsetid =
-            (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY');´´´
+            (select optionsetid from optionset where code = 'ICD_SMOL_DICTIONARY');
+```
 
 **Note** that this is an UPDATE query that must be executed directly in the database, not through the DHIS2 user interface.
 
