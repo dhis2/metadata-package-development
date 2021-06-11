@@ -4,7 +4,7 @@
 
 ### General changes
 
-- All SQL views have been reconfigured for newer versions of DHIS2.
+- All SQL views have been reconfigured for the newer versions of DHIS2.
 
 | Name | id | Program |
 |-|-|-|
