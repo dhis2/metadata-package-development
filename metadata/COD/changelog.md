@@ -12,17 +12,17 @@
 | CoD: Anacod export 2018 | iy8xEmIhMph | Event |
 | CoD: Anacod export 2019 | ojaXg9yV9is | Event |
 | CoD: Anacod export 2020 | atLa12jpN4y | Event |
-| _CoD: Anacod export 2017 | fn3zQtRrETh | Tracker |
-| _CoD: Anacod export 2018 | KdIAkgUzCv7 | Tracker |
-| _CoD: Anacod export 2019 | xzxuZVKZw3A | Tracker |
-| _CoD: Anacod export 2020 | hMLDxoR33ej | Tracker |
+| CoD: Anacod export 2017 | fn3zQtRrETh | Tracker |
+| CoD: Anacod export 2018 | KdIAkgUzCv7 | Tracker |
+| CoD: Anacod export 2019 | xzxuZVKZw3A | Tracker |
+| CoD: Anacod export 2020 | hMLDxoR33ej | Tracker |
 | CoD: Dictionary entries mixing main- and sub-categories | Siuqk0lMzC7 | Event and Tracker |
 | CoD: Dictionary entries with invalid ICD-SMoL reference | nWsSOLLJPjG | Event and Tracker |
 | CoD: Dictionary entries with invalid code format | dS3uFpYtlss | Event and Tracker |
 | CoD: Dictionary terms with ICD (for IRIS) | DNveLCRg2zU | Event and Tracker |
 | CoD: Next dictionary index number | ekC6LY25qMk | Event and Tracker |
 | CoD: Terms not found in dictionary | ZVl5kudO8Vt | Event |
-| _CoD: Terms not found in dictionary | hhrfqhx47bt | Tracker |
+| CoD: Terms not found in dictionary | hhrfqhx47bt | Tracker |
 
 - Standard reports (Validation) for Event and Tracker programs have been reconfigured. It is possible to open applicable enrollments/events directly from the standard report form by using the right-click.
 
