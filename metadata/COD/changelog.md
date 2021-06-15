@@ -36,7 +36,7 @@
 | option | id | PLlPgcfbL1D | R98tI2c6rF5 | Event and Tracker |
 | option | id | TKD1XJ4ZhMO | pqxvAQU1z9W | Event and Tracker |
 | optionSet| id | bLA3AqDKdwx | L6eMZDJkCwX | Event and Tracker |
-| indicatorType | id | e1jRVY5Mcq | hmSnCXmLYwt | Event and Tracker |
+| indicatorType | id | e1jRVY5Mcq0 | hmSnCXmLYwt | Event and Tracker |
 | trackedEntityAttribute | id | flGbXLXCrEo | HAZ7VQ730yn | Tracker |
 | dataElement | id | YUcJrLWmGyv | G5ljtyKdtYU | Event and Tracker |
 
