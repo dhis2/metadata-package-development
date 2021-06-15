@@ -7,7 +7,7 @@
 - All SQL views have been reconfigured for the newer versions of DHIS2.
 
 | Name | id | Program |
-|-|-|-|
+|:-|-|-|
 | CoD: Anacod export 2017 | nOrVs1Gi9Nt | Event |
 | CoD: Anacod export 2018 | iy8xEmIhMph | Event |
 | CoD: Anacod export 2019 | ojaXg9yV9is | Event |
