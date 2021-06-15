@@ -17,7 +17,7 @@
 | CoD: Anacod export 2019 | xzxuZVKZw3A | Tracker |
 | CoD: Anacod export 2020 | hMLDxoR33ej | Tracker |
 | CoD: Dictionary entries mixing main- and sub-categories | Siuqk0lMzC7 | Event and Tracker |
-| CoD: Dictionary entries with invalid ICD-SMoL reference | nWsSOLLJPjG | Event and Tracker |
+| CoD: Dictionary entries with invalid ICD-SMoL reference | nWsSOLLJPjG | Event and Tracker |
 | CoD: Dictionary entries with invalid code format | dS3uFpYtlss | Event and Tracker |
 | CoD: Dictionary terms with ICD (for IRIS) | DNveLCRg2zU | Event and Tracker |
 | CoD: Next dictionary index number | ekC6LY25qMk | Event and Tracker |
