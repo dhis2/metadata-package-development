@@ -180,11 +180,12 @@ As phase 1 of development is intended as an EPI Info replacement, the workflow t
 
 **_All diseases excluding Neonatal Tetanus_**
 
-IMAGE GOES HERE***
+![workflow for all diseases](resources/images/workflow1.png)
+
 
 **_Neonatal Tetanus_**
 
-IMAGE GOES HERE***
+![workflow for neonatal tetanus](resources/images/workflow2.png)
 
 ## User Groups
 
