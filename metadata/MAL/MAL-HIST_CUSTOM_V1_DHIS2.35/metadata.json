@@ -1,0 +1,529 @@
+{
+	"dataElementGroups": [
+		{
+			"attributeValues": [],
+			"created": "2019-10-09T09:50:44.420",
+			"dataElements": [
+				{
+					"id": "IIU1O0Z4l49"
+				},
+				{
+					"id": "JkOyLRb3dpX"
+				},
+				{
+					"id": "pUC8tgzn0lV"
+				},
+				{
+					"id": "TNTW2ruEVEu"
+				},
+				{
+					"id": "tuOTgWfDO6m"
+				},
+				{
+					"id": "X0luAFiy268"
+				}
+			],
+			"id": "x9ko6Zdd2Dm",
+			"lastUpdated": "2019-10-09T09:50:44.420",
+			"name": "Malaria old records only",
+			"publicAccess": "r-------",
+			"shortName": "Malaria historical",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_PF_MICR_RDT",
+			"created": "2016-04-26T14:18:59.345",
+			"description": "Cases confirmed as P.falciparum positive with microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "P. falciparum (micr+RDT)",
+			"id": "IIU1O0Z4l49",
+			"lastUpdated": "2019-10-20T13:01:25.784",
+			"legendSets": [],
+			"name": "MAL - Plasmodium falciparum (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "P. falciparum (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "P. falciparum (micr)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_MIX_OTHER_SPECIES_MICR_RDT",
+			"created": "2016-04-26T14:19:00.869",
+			"description": "Cases confirmed as P.malariae or P. ovale or P. knowlesi with microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Other species (micr+RDT)",
+			"id": "JkOyLRb3dpX",
+			"lastUpdated": "2019-10-20T13:01:33.833",
+			"legendSets": [],
+			"name": "MAL - Mixed/Other malaria species (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Other species (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Autres espèces (micr)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_PV_MICR_RDT",
+			"created": "2016-04-26T14:18:59.849",
+			"description": "Cases confirmed as P.vivax positive with microscopy",
+			"domainType": "AGGREGATE",
+			"formName": "P. vivax (micr+RDT)",
+			"id": "pUC8tgzn0lV",
+			"lastUpdated": "2019-10-20T13:01:27.128",
+			"legendSets": [],
+			"name": "MAL - Plasmodium vivax (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "P. vivax (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "P. vivax (micr)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_MIX_SPECIES_MICR_RDT",
+			"created": "2016-04-26T14:19:00.353",
+			"description": "Cases confirmed as mixed infection with P.falciparum and P.vivax with microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Mixed (micr+RDT)",
+			"id": "TNTW2ruEVEu",
+			"lastUpdated": "2019-10-20T13:01:28.455",
+			"legendSets": [],
+			"name": "MAL - Mixed malaria species  (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Mixed (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Mixed (micr)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_TEST_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.324",
+			"description": "Suspected cases tested with both microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Tested (micr+RDT)",
+			"id": "tuOTgWfDO6m",
+			"lastUpdated": "2019-10-20T13:01:23.124",
+			"legendSets": [],
+			"name": "MAL - Malaria tested cases (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Tested (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Total Tested (Micr + RDT)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_CONFI_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.843",
+			"description": "Cases confirmed as positive with microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Positive (micr+RDT)",
+			"id": "X0luAFiy268",
+			"lastUpdated": "2019-10-20T13:01:24.449",
+			"legendSets": [],
+			"name": "MAL - Malaria confirmed cases (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Positive (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Total Positive Cases (Micr + RDT)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		}
+	],
+	"dataSets": [
+		{
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"compulsoryDataElementOperands": [],
+			"compulsoryFieldsCompleteOnly": false,
+			"created": "2018-03-22T20:38:14.680",
+			"dataElementDecoration": false,
+			"dataInputPeriods": [],
+			"dataSetElements": [
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "IIU1O0Z4l49"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "X0luAFiy268"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "TNTW2ruEVEu"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "JkOyLRb3dpX"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "tuOTgWfDO6m"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "pUC8tgzn0lV"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				}
+			],
+			"expiryDays": 0,
+			"fieldCombinationRequired": false,
+			"id": "F7OVox4TtLP",
+			"indicators": [],
+			"lastUpdated": "2018-06-28T12:52:13.852",
+			"legendSets": [],
+			"mobile": false,
+			"name": "[old records only] Malaria cases",
+			"notifyCompletingUser": false,
+			"noValueRequiresComment": false,
+			"openFuturePeriods": 0,
+			"openPeriodsAfterCoEndDate": 0,
+			"organisationUnits": [],
+			"periodType": "Monthly",
+			"publicAccess": "r-r-----",
+			"renderAsTabs": false,
+			"renderHorizontally": false,
+			"skipOffline": false,
+			"timelyDays": 15,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "ZXEVDM9XRea"
+				},
+				{
+					"access": "rwr-----",
+					"id": "suMb19wGXPR"
+				},
+				{
+					"access": "--rw----",
+					"id": "fRSrUJ6SMGH"
+				}
+			],
+			"validCompleteOnly": false,
+			"version": 3
+		}
+	],
+	"package": {
+		"code": "MAL-HIST",
+		"DHIS2Build": "75e6655",
+		"DHIS2Version": "2.35.4",
+		"lastUpdated": "20210520T090044",
+		"locale": "en",
+		"name": "MAL-HIST_CUSTOM_V1.2.0_2.35.4-en",
+		"type": "CUSTOM",
+		"version": "1.2.0"
+	},
+	"sections": [
+		{
+			"attributeValues": [],
+			"created": "2018-03-22T20:41:48.947",
+			"dataElements": [
+				{
+					"id": "tuOTgWfDO6m"
+				},
+				{
+					"id": "IIU1O0Z4l49"
+				},
+				{
+					"id": "pUC8tgzn0lV"
+				},
+				{
+					"id": "TNTW2ruEVEu"
+				},
+				{
+					"id": "JkOyLRb3dpX"
+				},
+				{
+					"id": "X0luAFiy268"
+				}
+			],
+			"dataSet": {
+				"id": "F7OVox4TtLP"
+			},
+			"greyedFields": [],
+			"id": "Ms74sn15vUt",
+			"indicators": [],
+			"lastUpdated": "2018-03-22T20:52:05.104",
+			"name": "Malaria Cases",
+			"showColumnTotals": false,
+			"showRowTotals": true,
+			"sortOrder": 1,
+			"translations": []
+		}
+	],
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2018-06-06T10:40:10.712",
+			"id": "fRSrUJ6SMGH",
+			"lastUpdated": "2021-05-20T09:00:44.890",
+			"managedGroups": [],
+			"name": "Malaria data capture",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-01-19T13:17:12.627",
+			"id": "suMb19wGXPR",
+			"lastUpdated": "2021-05-20T09:00:44.955",
+			"managedGroups": [],
+			"name": "Malaria admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-01-19T13:16:50.221",
+			"id": "ZXEVDM9XRea",
+			"lastUpdated": "2021-05-20T09:00:44.895",
+			"managedGroups": [],
+			"name": "Malaria access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-07-13T12:28:39.402",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"lastUpdatedBy": {
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"username": "olavpo"
+				},
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"user": {
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"username": "olavpo"
+				},
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
+		}
+	]
+}

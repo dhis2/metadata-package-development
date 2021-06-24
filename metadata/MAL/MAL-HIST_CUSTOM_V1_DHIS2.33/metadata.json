@@ -5,22 +5,22 @@
 			"created": "2019-10-09T09:50:44.420",
 			"dataElements": [
 				{
-					"id": "tuOTgWfDO6m"
+					"id": "IIU1O0Z4l49"
 				},
 				{
-					"id": "TNTW2ruEVEu"
+					"id": "JkOyLRb3dpX"
 				},
 				{
 					"id": "pUC8tgzn0lV"
 				},
 				{
+					"id": "TNTW2ruEVEu"
+				},
+				{
+					"id": "tuOTgWfDO6m"
+				},
+				{
 					"id": "X0luAFiy268"
-				},
-				{
-					"id": "IIU1O0Z4l49"
-				},
-				{
-					"id": "JkOyLRb3dpX"
 				}
 			],
 			"id": "x9ko6Zdd2Dm",
@@ -44,88 +44,22 @@
 			"categoryCombo": {
 				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_CONFI_CASES_MICR_RDT",
-			"created": "2016-04-26T14:18:58.843",
-			"description": "Cases confirmed as positive with microscopy and/or RDT",
+			"code": "MAL_PF_MICR_RDT",
+			"created": "2016-04-26T14:18:59.345",
+			"description": "Cases confirmed as P.falciparum positive with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "Positive (micr+RDT)",
-			"id": "X0luAFiy268",
-			"lastUpdated": "2019-10-20T13:01:24.449",
+			"formName": "P. falciparum (micr+RDT)",
+			"id": "IIU1O0Z4l49",
+			"lastUpdated": "2019-10-20T13:01:25.784",
 			"legendSets": [],
-			"name": "MAL - Malaria confirmed cases (Mic+RDT)",
+			"name": "MAL - Plasmodium falciparum (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "Positive (micr+RDT)",
+			"shortName": "P. falciparum (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "Total Positive Cases (Micr + RDT)"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "INTEGER_ZERO_OR_POSITIVE",
-			"zeroIsSignificant": true
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "SUM",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "IvYR8mc6prX"
-			},
-			"code": "MAL_TEST_CASES_MICR_RDT",
-			"created": "2016-04-26T14:18:58.324",
-			"description": "Suspected cases tested with both microscopy and/or RDT",
-			"domainType": "AGGREGATE",
-			"formName": "Tested (micr+RDT)",
-			"id": "tuOTgWfDO6m",
-			"lastUpdated": "2019-10-20T13:01:23.124",
-			"legendSets": [],
-			"name": "MAL - Malaria tested cases (Mic+RDT)",
-			"publicAccess": "r-------",
-			"shortName": "Tested (micr+RDT)",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Total Tested (Micr + RDT)"
-				}
-			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
-			"userAccesses": [],
-			"userGroupAccesses": [],
-			"valueType": "INTEGER_ZERO_OR_POSITIVE",
-			"zeroIsSignificant": true
-		},
-		{
-			"aggregationLevels": [],
-			"aggregationType": "SUM",
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "IvYR8mc6prX"
-			},
-			"code": "MAL_MIX_SPECIES_MICR_RDT",
-			"created": "2016-04-26T14:19:00.353",
-			"description": "Cases confirmed as mixed infection with P.falciparum and P.vivax with microscopy and/or RDT",
-			"domainType": "AGGREGATE",
-			"formName": "Mixed (micr+RDT)",
-			"id": "TNTW2ruEVEu",
-			"lastUpdated": "2019-10-20T13:01:28.455",
-			"legendSets": [],
-			"name": "MAL - Mixed malaria species  (Mic+RDT)",
-			"publicAccess": "r-------",
-			"shortName": "Mixed (micr+RDT)",
-			"translations": [
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Mixed (micr)"
+					"value": "P. falciparum (micr)"
 				}
 			],
 			"user": {
@@ -176,22 +110,22 @@
 			"categoryCombo": {
 				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_PF_MICR_RDT",
-			"created": "2016-04-26T14:18:59.345",
-			"description": "Cases confirmed as P.falciparum positive with microscopy and/or RDT",
+			"code": "MAL_PV_MICR_RDT",
+			"created": "2016-04-26T14:18:59.849",
+			"description": "Cases confirmed as P.vivax positive with microscopy",
 			"domainType": "AGGREGATE",
-			"formName": "P. falciparum (micr+RDT)",
-			"id": "IIU1O0Z4l49",
-			"lastUpdated": "2019-10-20T13:01:25.784",
+			"formName": "P. vivax (micr+RDT)",
+			"id": "pUC8tgzn0lV",
+			"lastUpdated": "2019-10-20T13:01:27.128",
 			"legendSets": [],
-			"name": "MAL - Plasmodium falciparum (Mic+RDT)",
+			"name": "MAL - Plasmodium vivax (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "P. falciparum (micr+RDT)",
+			"shortName": "P. vivax (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "P. falciparum (micr)"
+					"value": "P. vivax (micr)"
 				}
 			],
 			"user": {
@@ -209,22 +143,88 @@
 			"categoryCombo": {
 				"id": "IvYR8mc6prX"
 			},
-			"code": "MAL_PV_MICR_RDT",
-			"created": "2016-04-26T14:18:59.849",
-			"description": "Cases confirmed as P.vivax positive with microscopy",
+			"code": "MAL_MIX_SPECIES_MICR_RDT",
+			"created": "2016-04-26T14:19:00.353",
+			"description": "Cases confirmed as mixed infection with P.falciparum and P.vivax with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
-			"formName": "P. vivax (micr+RDT)",
-			"id": "pUC8tgzn0lV",
-			"lastUpdated": "2019-10-20T13:01:27.128",
+			"formName": "Mixed (micr+RDT)",
+			"id": "TNTW2ruEVEu",
+			"lastUpdated": "2019-10-20T13:01:28.455",
 			"legendSets": [],
-			"name": "MAL - Plasmodium vivax (Mic+RDT)",
+			"name": "MAL - Mixed malaria species  (Mic+RDT)",
 			"publicAccess": "r-------",
-			"shortName": "P. vivax (micr+RDT)",
+			"shortName": "Mixed (micr+RDT)",
 			"translations": [
 				{
 					"locale": "fr",
 					"property": "NAME",
-					"value": "P. vivax (micr)"
+					"value": "Mixed (micr)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_TEST_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.324",
+			"description": "Suspected cases tested with both microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Tested (micr+RDT)",
+			"id": "tuOTgWfDO6m",
+			"lastUpdated": "2019-10-20T13:01:23.124",
+			"legendSets": [],
+			"name": "MAL - Malaria tested cases (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Tested (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Total Tested (Micr + RDT)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "IvYR8mc6prX"
+			},
+			"code": "MAL_CONFI_CASES_MICR_RDT",
+			"created": "2016-04-26T14:18:58.843",
+			"description": "Cases confirmed as positive with microscopy and/or RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Positive (micr+RDT)",
+			"id": "X0luAFiy268",
+			"lastUpdated": "2019-10-20T13:01:24.449",
+			"legendSets": [],
+			"name": "MAL - Malaria confirmed cases (Mic+RDT)",
+			"publicAccess": "r-------",
+			"shortName": "Positive (micr+RDT)",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Total Positive Cases (Micr + RDT)"
 				}
 			],
 			"user": {
@@ -253,29 +253,7 @@
 						"id": "IvYR8mc6prX"
 					},
 					"dataElement": {
-						"id": "X0luAFiy268"
-					},
-					"dataSet": {
-						"id": "F7OVox4TtLP"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
 						"id": "JkOyLRb3dpX"
-					},
-					"dataSet": {
-						"id": "F7OVox4TtLP"
-					}
-				},
-				{
-					"categoryCombo": {
-						"id": "IvYR8mc6prX"
-					},
-					"dataElement": {
-						"id": "pUC8tgzn0lV"
 					},
 					"dataSet": {
 						"id": "F7OVox4TtLP"
@@ -297,7 +275,7 @@
 						"id": "IvYR8mc6prX"
 					},
 					"dataElement": {
-						"id": "tuOTgWfDO6m"
+						"id": "X0luAFiy268"
 					},
 					"dataSet": {
 						"id": "F7OVox4TtLP"
@@ -309,6 +287,28 @@
 					},
 					"dataElement": {
 						"id": "IIU1O0Z4l49"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "tuOTgWfDO6m"
+					},
+					"dataSet": {
+						"id": "F7OVox4TtLP"
+					}
+				},
+				{
+					"categoryCombo": {
+						"id": "IvYR8mc6prX"
+					},
+					"dataElement": {
+						"id": "pUC8tgzn0lV"
 					},
 					"dataSet": {
 						"id": "F7OVox4TtLP"
@@ -326,6 +326,7 @@
 			"notifyCompletingUser": false,
 			"noValueRequiresComment": false,
 			"openFuturePeriods": 0,
+			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Monthly",
 			"publicAccess": "r-r-----",
@@ -338,12 +339,34 @@
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "ZXEVDM9XRea"
+				},
+				{
+					"access": "rwr-----",
+					"id": "suMb19wGXPR"
+				},
+				{
+					"access": "--rw----",
+					"id": "fRSrUJ6SMGH"
+				}
+			],
 			"validCompleteOnly": false,
 			"version": 3
 		}
 	],
-	"package": "MAL-HIST_CUSTOM_V1.1.0_DHIS2.33_2020-09-12T16:58",
+	"package": {
+		"code": "MAL-HIST",
+		"DHIS2Build": "58094d2",
+		"DHIS2Version": "2.33.9",
+		"lastUpdated": "20210520T090044",
+		"locale": "en",
+		"name": "MAL-HIST_CUSTOM_V1.1.0_2.33.9-en",
+		"type": "CUSTOM",
+		"version": "1.2.0"
+	},
 	"sections": [
 		{
 			"attributeValues": [],
@@ -385,31 +408,18 @@
 	"userGroups": [
 		{
 			"attributeValues": [],
-			"created": "2018-01-19T13:16:50.221",
-			"id": "ZXEVDM9XRea",
-			"lastUpdated": "2020-04-24T11:20:53.565",
+			"created": "2018-06-06T10:40:10.712",
+			"id": "fRSrUJ6SMGH",
+			"lastUpdated": "2021-05-20T09:00:44.890",
 			"managedGroups": [],
-			"name": "Malaria access",
+			"name": "Malaria data capture",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"users": [
 				{
 					"id": "vUeLeQMSwhN"
@@ -420,7 +430,7 @@
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:12.627",
 			"id": "suMb19wGXPR",
-			"lastUpdated": "2020-09-03T19:33:00.753",
+			"lastUpdated": "2021-05-20T09:00:44.955",
 			"managedGroups": [],
 			"name": "Malaria admin",
 			"publicAccess": "r-------",
@@ -429,20 +439,7 @@
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"users": [
 				{
 					"id": "vUeLeQMSwhN"
@@ -451,31 +448,18 @@
 		},
 		{
 			"attributeValues": [],
-			"created": "2018-06-06T10:40:10.712",
-			"id": "fRSrUJ6SMGH",
-			"lastUpdated": "2020-04-24T11:20:53.559",
+			"created": "2018-01-19T13:16:50.221",
+			"id": "ZXEVDM9XRea",
+			"lastUpdated": "2021-05-20T09:00:44.895",
 			"managedGroups": [],
-			"name": "Malaria data capture",
+			"name": "Malaria access",
 			"publicAccess": "r-------",
 			"translations": [],
 			"user": {
 				"id": "vUeLeQMSwhN"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [
-				{
-					"access": "rw------",
-					"displayName": "Malaria admin",
-					"id": "suMb19wGXPR",
-					"userGroupUid": "suMb19wGXPR"
-				},
-				{
-					"access": "r-------",
-					"displayName": "Malaria access",
-					"id": "ZXEVDM9XRea",
-					"userGroupUid": "ZXEVDM9XRea"
-				}
-			],
+			"userGroupAccesses": [],
 			"users": [
 				{
 					"id": "vUeLeQMSwhN"

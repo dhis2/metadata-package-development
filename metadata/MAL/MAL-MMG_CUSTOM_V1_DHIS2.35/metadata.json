@@ -1,0 +1,392 @@
+{
+	"categoryCombos": [
+		{
+			"categories": [
+				{
+					"id": "FRwO58KwwJt"
+				}
+			],
+			"created": "2015-10-08T07:38:35.033",
+			"dataDimensionType": "DISAGGREGATION",
+			"id": "VkQPxB6VdoG",
+			"lastUpdated": "2017-06-02T11:00:39.002",
+			"name": "Sex",
+			"publicAccess": "r-------",
+			"skipTotal": false,
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElementGroups": [
+		{
+			"attributeValues": [],
+			"created": "2018-03-22T20:57:38.734",
+			"dataElements": [
+				{
+					"id": "CWHBMa4nC9J"
+				},
+				{
+					"id": "CxI1FHE4oEh"
+				},
+				{
+					"id": "kdMT3AuDzj1"
+				},
+				{
+					"id": "S3AqkeU4DET"
+				},
+				{
+					"id": "UwaQ0MJzXBz"
+				},
+				{
+					"id": "wAHUeGPbH9A"
+				}
+			],
+			"id": "dNNpRuO7kbn",
+			"lastUpdated": "2019-06-29T07:33:21.752",
+			"name": "Malaria cross borders and MMP",
+			"publicAccess": "r-------",
+			"shortName": "Malaria cross borders and MMP",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": []
+		}
+	],
+	"dataElements": [
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "MAL_MM_POP_POS",
+			"created": "2016-05-09T08:54:37.584",
+			"description": "Number of migrant and mobile population (MMP) that are positive with either microscopy and RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Number of migrant and mobile population (MMP) positive",
+			"id": "CWHBMa4nC9J",
+			"lastUpdated": "2019-10-20T13:02:45.144",
+			"legendSets": [],
+			"name": "MAL - Migrant and mobile population (MMP) positive",
+			"publicAccess": "r-------",
+			"shortName": "MMP positive",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de migrants et mobile populations positive (MMP)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "VkQPxB6VdoG"
+			},
+			"code": "MAL_TEST_CROSS_BORDERS",
+			"created": "2016-05-09T06:54:36.111",
+			"description": "Number of suspected cases tested with either microscopy or RDT in administrative area bordering international border",
+			"domainType": "AGGREGATE",
+			"formName": "Number of malaria tested from cross-borders",
+			"id": "CxI1FHE4oEh",
+			"lastUpdated": "2019-10-20T13:02:20.843",
+			"legendSets": [],
+			"name": "MAL - Malaria tested from cross-borders",
+			"publicAccess": "r-------",
+			"shortName": "Tested from cross-borders",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre testé pour le paludisme de la population transfrontalière"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "MAL_MM_POP_FOLLO_UP_FOR_14D",
+			"created": "2016-03-10T08:08:14.505",
+			"description": "Number of migrant and mobile population (MMP) that are are followed-up for 14 days (with testing using microscopy or RDT at intervals)",
+			"domainType": "AGGREGATE",
+			"formName": "Number of migrant and mobile population (MMP) followed up for 14 days",
+			"id": "kdMT3AuDzj1",
+			"lastUpdated": "2019-10-20T13:02:46.486",
+			"legendSets": [],
+			"name": "MAL - Migrant and mobile population (MMP) followed up for 14 days",
+			"publicAccess": "r-------",
+			"shortName": "MMP followed up for 14 days",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de migrants et mobile populations suivi pendant 14 jours"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "MAL_MM_POP_TEST",
+			"created": "2016-05-09T08:54:37.092",
+			"description": "Number of migrant and mobile population (MMP) suspected and tested with either microscopy and RDT",
+			"domainType": "AGGREGATE",
+			"formName": "Number of migrant and mobile population (MMP) tested",
+			"id": "S3AqkeU4DET",
+			"lastUpdated": "2019-10-20T13:02:43.781",
+			"legendSets": [],
+			"name": "MAL - Migrant and mobile population (MMP) tested",
+			"publicAccess": "r-------",
+			"shortName": "MMP tested",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre de migrants et mobile populations testés (MMP)"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "VkQPxB6VdoG"
+			},
+			"code": "MAL_POS_CROSS_BORDERS",
+			"created": "2016-05-09T06:54:36.600",
+			"description": "Number of positive cases with either microscopy or RDT in administrative area bordering international border",
+			"domainType": "AGGREGATE",
+			"formName": "Number of malaria positive from cross-borders",
+			"id": "UwaQ0MJzXBz",
+			"lastUpdated": "2019-10-20T13:02:22.185",
+			"legendSets": [],
+			"name": "MAL - Malaria positive from cross-borders",
+			"publicAccess": "r-------",
+			"shortName": "Positive from cross-borders",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Nombre positive de paludisme de la population transfrontalière"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		},
+		{
+			"aggregationLevels": [],
+			"aggregationType": "SUM",
+			"attributeValues": [],
+			"categoryCombo": {
+				"id": "bjDvmb4bfuf"
+			},
+			"code": "MAL_POS_CROSS_BORDERS_FOLLO_14D",
+			"created": "2016-03-10T07:53:29.940",
+			"description": "Number of suspected malaria cases positive with either microscopy or RDT in administrative area bordering international border",
+			"domainType": "AGGREGATE",
+			"formName": "Number of malaria positive from cross-borders followed for 14 days",
+			"id": "wAHUeGPbH9A",
+			"lastUpdated": "2019-10-20T13:02:23.527",
+			"legendSets": [],
+			"name": "MAL - Malaria positive from cross-borders followed for 14 days",
+			"publicAccess": "r-------",
+			"shortName": "Positive from cross-borders followed for 14 days",
+			"translations": [
+				{
+					"locale": "fr",
+					"property": "NAME",
+					"value": "Population transfrontalièresuivi pendant 14 jours"
+				}
+			],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"valueType": "INTEGER_ZERO_OR_POSITIVE",
+			"zeroIsSignificant": true
+		}
+	],
+	"package": {
+		"code": "MAL-MMG",
+		"DHIS2Build": "75e6655",
+		"DHIS2Version": "2.35.4",
+		"lastUpdated": "20210520T090044",
+		"locale": "en",
+		"name": "MAL-MMG_CUSTOM_V1.2.0_2.35.4-en",
+		"type": "CUSTOM",
+		"version": "1.2.0"
+	},
+	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2018-06-06T10:40:10.712",
+			"id": "fRSrUJ6SMGH",
+			"lastUpdated": "2021-05-20T09:00:44.890",
+			"managedGroups": [],
+			"name": "Malaria data capture",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-01-19T13:17:12.627",
+			"id": "suMb19wGXPR",
+			"lastUpdated": "2021-05-20T09:00:44.955",
+			"managedGroups": [],
+			"name": "Malaria admin",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
+			"created": "2018-01-19T13:16:50.221",
+			"id": "ZXEVDM9XRea",
+			"lastUpdated": "2021-05-20T09:00:44.895",
+			"managedGroups": [],
+			"name": "Malaria access",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "vUeLeQMSwhN"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "vUeLeQMSwhN"
+				}
+			]
+		}
+	],
+	"users": [
+		{
+			"attributeValues": [],
+			"created": "2018-07-13T12:28:39.402",
+			"dataViewOrganisationUnits": [],
+			"firstName": "Admin",
+			"id": "vUeLeQMSwhN",
+			"lastUpdated": "2018-07-13T12:28:39.402",
+			"organisationUnits": [],
+			"surname": "WHO",
+			"teiSearchOrganisationUnits": [],
+			"userCredentials": {
+				"access": {
+					"delete": true,
+					"externalize": true,
+					"manage": true,
+					"read": true,
+					"update": true,
+					"write": true
+				},
+				"attributeValues": [],
+				"catDimensionConstraints": [],
+				"cogsDimensionConstraints": [],
+				"created": "2018-07-13T12:28:39.168",
+				"disabled": true,
+				"displayName": "Admin WHO",
+				"externalAccess": false,
+				"externalAuth": false,
+				"favorite": false,
+				"favorites": [],
+				"id": "MMRO6oP1HQg",
+				"invitation": false,
+				"lastLogin": "2018-07-13T12:28:39.168",
+				"lastUpdated": "2018-07-13T12:28:51.814",
+				"lastUpdatedBy": {
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"username": "olavpo"
+				},
+				"name": "Admin WHO",
+				"passwordLastUpdated": "2018-07-13T12:28:39.168",
+				"selfRegistered": false,
+				"translations": [],
+				"twoFA": false,
+				"user": {
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"username": "olavpo"
+				},
+				"userAccesses": [],
+				"userGroupAccesses": [],
+				"userInfo": {
+					"id": "vUeLeQMSwhN"
+				},
+				"username": "who",
+				"userRoles": []
+			}
+		}
+	]
+}
