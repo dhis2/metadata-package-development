@@ -5,11 +5,28 @@
 			"categoryOptions": [],
 			"code": "F",
 			"created": "2020-09-17T06:37:11.597",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "bqoVhX2RfG4",
 			"lastUpdated": "2021-02-08T13:23:09.546",
 			"name": "[CONFIG] Female",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Female",
 			"translations": [
 				{
@@ -113,9 +130,6 @@
 					"value": "Аyol"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -124,11 +138,28 @@
 			"categoryOptions": [],
 			"code": "M",
 			"created": "2020-09-17T06:37:11.566",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "EVYKU2fIc6G",
 			"lastUpdated": "2021-02-08T13:23:09.350",
 			"name": "[CONFIG] Male",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Male",
 			"translations": [
 				{
@@ -232,9 +263,6 @@
 					"value": "Erkak"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -242,16 +270,37 @@
 			"attributeValues": [],
 			"categoryOptions": [],
 			"created": "2017-06-04T19:45:41.126",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "f5VxIY91Jz3",
 			"lastUpdated": "2019-06-28T12:39:53.056",
 			"name": "[CONFIG] 0-14 years",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "0-14 years",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -259,16 +308,45 @@
 			"attributeValues": [],
 			"categoryOptions": [],
 			"created": "2017-06-06T09:56:16.663",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "SqvDE9fTeGl",
 			"lastUpdated": "2019-06-29T07:43:06.684",
 			"name": "[CONFIG] 15+ years",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"suMb19wGXPR": {
+						"access": "rw------",
+						"id": "suMb19wGXPR"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					},
+					"ZXEVDM9XRea": {
+						"access": "r-------",
+						"id": "ZXEVDM9XRea"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "15+ years",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -277,11 +355,28 @@
 			"categoryOptions": [],
 			"code": "UNK_SEX",
 			"created": "2020-09-17T06:37:11.599",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "SZJNeRyrh22",
 			"lastUpdated": "2020-09-17T06:37:11.599",
 			"name": "[CONFIG] Unknown Sex",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Unk Sex",
 			"translations": [
 				{
@@ -295,9 +390,6 @@
 					"value": "Autre/sexe non connu"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -306,11 +398,28 @@
 			"categoryOptions": [],
 			"code": "UNK_AGE",
 			"created": "2020-09-17T06:37:11.608",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "YXE2HxNf3YB",
 			"lastUpdated": "2021-02-08T13:23:09.751",
 			"name": "[CONFIG] Unknown age",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Unknown age",
 			"translations": [
 				{
@@ -394,9 +503,6 @@
 					"value": "Ноаниқ ёш"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
@@ -416,6 +522,12 @@
 				}
 			],
 			"created": "2017-06-06T09:54:51.593",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dataDimension": true,
 			"dataDimensionType": "DISAGGREGATION",
 			"description": "Age categorisation in years.",
@@ -423,10 +535,25 @@
 			"lastUpdated": "2019-06-28T12:39:49.793",
 			"name": "Age in years  (0-14, 15+, unknown)",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -444,6 +571,12 @@
 				}
 			],
 			"created": "2020-09-17T06:37:27.870",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"dataDimension": true,
 			"dataDimensionType": "DISAGGREGATION",
 			"description": "Sex (with unknown)",
@@ -451,6 +584,17 @@
 			"lastUpdated": "2021-02-08T13:24:56.304",
 			"name": "Sex (with unknown)",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"translations": [
 				{
 					"locale": "cs",
@@ -513,9 +657,6 @@
 					"value": "Жинси (ноаниқ билан бирга)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
@@ -523,6 +664,12 @@
 	"dashboards": [
 		{
 			"created": "2021-05-03T13:46:36.353",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"dashboardItems": [
 				{
 					"access": {
@@ -546,6 +693,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.834",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"text": "*DEFINITIONS:*\nClosing balance = Opening balance + Received - Distributed - Redistributed - Discarded -->Automatically calculated indicator to count the remaining items at the end of the period\nStock on hand = physical stock count at the end of the period\nUsable stock = Opening balance + received\nCoverage time = Usable stock / Distributed + Discarded + Redistributed = nb. of months\n\nStock discrepancy = Stock on hand - closing balance\nIf discrepancy = 0 and 9 --> Stock on hand = closing balance (green cell) - acceptable discrepancy -\nIf discrepancy < 0 --> closing balance > stock on hand (dark red cell)\nIf discrepancy > 9 --> closing balance < stock on hand (light red cell)",
 					"translations": [],
 					"type": "TEXT",
@@ -578,6 +734,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -612,6 +777,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -649,6 +823,15 @@
 					},
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -683,6 +866,15 @@
 					},
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -714,6 +906,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -748,6 +949,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"text": "SPACER_ITEM_FOR_DASHBOARD_LAYOUT_CONVENIENCE",
 					"translations": [],
 					"type": "TEXT",
@@ -780,6 +990,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -814,6 +1033,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -851,6 +1079,15 @@
 					},
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -885,6 +1122,15 @@
 					},
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -916,6 +1162,15 @@
 					"lastUpdated": "2021-06-22T21:01:28.835",
 					"reports": [],
 					"resources": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -929,7 +1184,6 @@
 					"y": 67
 				}
 			],
-			"externalAccess": true,
 			"favorites": [
 				"FIsdZWDPbr2"
 			],
@@ -937,10 +1191,26 @@
 			"lastUpdated": "2021-06-22T21:01:28.833",
 			"name": "HIV Stock",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"restrictFilters": false,
+			"sharing": {
+				"external": false,
+				"owner": "vUeLeQMSwhN",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [
 				{
@@ -955,6 +1225,12 @@
 		},
 		{
 			"created": "2018-07-11T10:51:45.452",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dashboardItems": [
 				{
 					"access": {
@@ -978,6 +1254,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1009,6 +1294,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1040,6 +1334,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1071,6 +1374,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1100,11 +1412,23 @@
 					"interpretationLikeCount": 0,
 					"lastUpdated": "2018-07-12T06:21:39.363",
 					"lastUpdatedBy": {
-						"id": "jB4WJmaNuGT"
+						"displayName": "Olav Poppe",
+						"id": "jB4WJmaNuGT",
+						"name": "Olav Poppe",
+						"username": "olavpo"
 					},
 					"reports": [],
 					"resources": [],
 					"shape": "DOUBLE_WIDTH",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1139,6 +1463,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1167,6 +1500,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1198,6 +1540,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1208,15 +1559,30 @@
 					}
 				}
 			],
-			"externalAccess": false,
 			"id": "fX1kkuqS47y",
 			"lastUpdated": "2019-06-28T12:39:37.146",
 			"name": "HIV District (SNU2)",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"restrictFilters": false,
+			"sharing": {
+				"external": false,
+				"owner": "vUeLeQMSwhN",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [
 				{
@@ -1231,6 +1597,12 @@
 		},
 		{
 			"created": "2018-07-11T11:07:59.403",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dashboardItems": [
 				{
 					"access": {
@@ -1254,6 +1626,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1285,6 +1666,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1316,6 +1706,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1347,6 +1746,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1378,6 +1786,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1409,6 +1826,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1440,6 +1866,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1450,15 +1885,30 @@
 					}
 				}
 			],
-			"externalAccess": false,
 			"id": "mN578Bop2g3",
 			"lastUpdated": "2019-06-28T12:39:37.198",
 			"name": "HIV Facility",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"restrictFilters": false,
+			"sharing": {
+				"external": false,
+				"owner": "vUeLeQMSwhN",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [
 				{
@@ -1473,6 +1923,12 @@
 		},
 		{
 			"created": "2015-08-11T07:12:07.504",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dashboardItems": [
 				{
 					"access": {
@@ -1497,6 +1953,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1532,6 +1997,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1567,6 +2041,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1602,6 +2085,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1637,6 +2129,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1672,6 +2173,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "DOUBLE_WIDTH",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1707,6 +2217,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1745,6 +2264,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1780,6 +2308,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1812,6 +2349,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1847,6 +2393,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -1860,12 +2415,30 @@
 					"y": 80
 				}
 			],
-			"externalAccess": false,
 			"favorites": [],
 			"id": "q9qKbXTDgEh",
 			"lastUpdated": "2019-06-28T12:39:37.250",
 			"name": "HIV National",
 			"publicAccess": "r-------",
+			"restrictFilters": false,
+			"sharing": {
+				"external": false,
+				"owner": "vUeLeQMSwhN",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"translations": [
 				{
 					"locale": "fr",
@@ -1873,9 +2446,6 @@
 					"value": "Cascade VIH 90-90-90 "
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [
 				{
@@ -1890,6 +2460,12 @@
 		},
 		{
 			"created": "2018-07-11T11:15:59.831",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"dashboardItems": [
 				{
 					"access": {
@@ -1917,6 +2493,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1952,6 +2537,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1987,6 +2581,15 @@
 					"reports": [],
 					"resources": [],
 					"shape": "NORMAL",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"translations": [],
 					"type": "MAP",
 					"userAccesses": [],
@@ -1997,16 +2600,31 @@
 					"y": 0
 				}
 			],
-			"externalAccess": false,
 			"favorites": [],
 			"id": "VjFMk8X026U",
 			"lastUpdated": "2019-06-28T12:39:37.096",
 			"name": "HIV Burden",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"restrictFilters": false,
+			"sharing": {
+				"external": false,
+				"owner": "vUeLeQMSwhN",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [
 				{
@@ -2024,6 +2642,12 @@
 		{
 			"attributeValues": [],
 			"created": "2020-12-17T13:22:17.581",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"id": "FFN3XNUfxUJ",
 			"indicators": [
 				{
@@ -2102,10 +2726,18 @@
 			"lastUpdated": "2021-05-03T14:01:40.650",
 			"name": "HIV stock",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2113,6 +2745,12 @@
 			"attributeValues": [],
 			"code": "HIV",
 			"created": "2017-06-06T13:48:19.111",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "HX1nmjQyvdd",
 			"indicators": [
 				{
@@ -2158,16 +2796,37 @@
 			"lastUpdated": "2019-06-28T12:39:24.431",
 			"name": "HIV",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"attributeValues": [],
 			"created": "2018-07-11T11:19:28.870",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "I13HBLJTJMb",
 			"indicators": [
 				{
@@ -2177,6 +2836,32 @@
 			"lastUpdated": "2021-02-08T15:20:16.331",
 			"name": "Population estimates",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"pyu2ZlNKbzQ": {
+						"access": "r-------",
+						"id": "pyu2ZlNKbzQ"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					},
+					"Ubzlyfqm1gO": {
+						"access": "rw------",
+						"id": "Ubzlyfqm1gO"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"translations": [
 				{
 					"locale": "fr",
@@ -2204,9 +2889,6 @@
 					"value": "Аҳолини баҳолаш"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
@@ -2217,6 +2899,12 @@
 			"attributeValues": [],
 			"code": "HIV_ONART",
 			"created": "2018-01-16T09:31:59.853",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"id": "aLH7eJpIxvn",
@@ -2229,6 +2917,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV currently on ART",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Currently on ART ",
 			"translations": [
 				{
@@ -2242,9 +2948,6 @@
 					"value": "PVVIH actuellement sous TAR"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2253,6 +2956,12 @@
 			"attributeValues": [],
 			"code": "HIV_TEST_POSITIVITY",
 			"created": "2015-05-25T05:46:02.262",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "HIV tests performed",
 			"description": "Percentage of all HIV tests performed that are HIV positive",
@@ -2266,6 +2975,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV tests positive",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test positivity (%)",
 			"translations": [
 				{
@@ -2284,9 +3011,6 @@
 					"value": "Taux de positivité VIH(%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2295,6 +3019,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_DISCARDED",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits discarded during the reporting period (expired, damaged, etc.)",
@@ -2308,11 +3038,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV test kits discarded",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits discarded",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2321,6 +3059,12 @@
 			"attributeValues": [],
 			"code": "HIV_TREAT",
 			"created": "2015-05-25T05:46:02.262",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "HIV tests positive",
 			"description": "Number of new on ART during the period divided by the number of HIV positive tests",
@@ -2338,11 +3082,26 @@
 			"numerator": "-1",
 			"numeratorDescription": "New on ART",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "New on ART to newly diagnosed (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2351,6 +3110,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_OPENING_BALANCE",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits opening balance",
@@ -2364,11 +3129,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV test kits opening balance",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits opening balance",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2377,6 +3150,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_STOCKOUT_DAYS",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of days when the facility was stocked out of HIV treatment courses (at any point during the day) during the reporting period.",
@@ -2390,11 +3169,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV treatment courses stock out days",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses stock out days",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2403,6 +3190,12 @@
 			"attributeValues": [],
 			"code": "HF_WITH_HIV_TX_COURSES_STOCKOUT_DAYS_%",
 			"created": "2021-02-18T16:40:13.130",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "HF reporting stockout days",
 			"description": "Proportion of health facilities with HIV tx courses stockout days",
@@ -2416,11 +3209,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HF with HIV tx courses stockout days reported",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HF with HIV tx courses stockout days (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2429,6 +3230,12 @@
 			"attributeValues": [],
 			"code": "GEN_E_POP_TOT",
 			"created": "2018-02-01T13:57:00.861",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Estimated total population",
@@ -2442,6 +3249,32 @@
 			"numerator": "-1",
 			"numeratorDescription": "total population",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"pyu2ZlNKbzQ": {
+						"access": "r-------",
+						"id": "pyu2ZlNKbzQ"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					},
+					"Ubzlyfqm1gO": {
+						"access": "rw------",
+						"id": "Ubzlyfqm1gO"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Population",
 			"translations": [
 				{
@@ -2520,9 +3353,6 @@
 					"value": "Aholi umumiy soni"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2531,6 +3361,12 @@
 			"attributeValues": [],
 			"code": "HIV_ONART_12M",
 			"created": "2018-01-16T09:31:59.853",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"id": "hcgmW20YI1J",
@@ -2543,6 +3379,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV retained on ART last 12 months",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Retained on ART last 12 months ",
 			"translations": [
 				{
@@ -2556,9 +3410,6 @@
 					"value": "PVVIH retenues sous TAR les 12 derniers mois"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2567,6 +3418,12 @@
 			"attributeValues": [],
 			"code": "HF_WITH_HIV_TEST_KITS_STOCKOUT_DAYS_%",
 			"created": "2021-02-18T16:40:13.126",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"decimals": 1,
 			"denominator": "1",
 			"denominatorDescription": "HF reporting stockout days",
@@ -2581,11 +3438,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HF with HIV test kits stockout days reported",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HF with HIV test kits stockout days (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2594,6 +3459,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_RECV",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits received",
@@ -2607,11 +3478,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV test kits received",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits received",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2619,6 +3498,12 @@
 			"annualized": false,
 			"attributeValues": [],
 			"created": "2018-06-29T13:08:05.158",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "Estimated number of people living with HIV",
 			"id": "iKW4AMU5YDp",
@@ -2635,11 +3520,26 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV currently receiving ART",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "ART coverage (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2648,6 +3548,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_OPENING_BALANCE",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses opening balance",
@@ -2661,11 +3567,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV treatment courses opening balance",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses opening balance",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2674,6 +3588,12 @@
 			"attributeValues": [],
 			"code": "HIV_TREATMENT_COURSES_WASTAGE_RATE",
 			"created": "2021-02-18T10:09:58.218",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "Stock used=([Closing balance]-[Stock at hand]) + discarded + dispensed to patient)",
 			"description": "Stock wasted=([Closing balance]-[Stock at hand]) + discarded)",
@@ -2687,11 +3607,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "Stock wasted=([Closing balance]-[Stock at hand]) + discarded)",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses wastage rate",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2700,6 +3628,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_DISCREPANCY",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "stock on hand",
 			"description": "Percentage of the item's stock discrepancy [Stock on hand - Closing balance] / Stock on hand",
@@ -2713,11 +3647,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV treatment courses stock discrepancy",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses stock discrepancy (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2726,6 +3668,12 @@
 			"attributeValues": [],
 			"code": "HIV_TESTS",
 			"created": "2018-02-15T09:04:50.242",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"decimals": 0,
 			"denominator": "1",
 			"denominatorDescription": "1",
@@ -2739,6 +3687,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV tests performed",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV tests performed",
 			"translations": [
 				{
@@ -2752,9 +3718,6 @@
 					"value": "Tests VIH réalisés"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2763,6 +3726,12 @@
 			"attributeValues": [],
 			"code": "HIV_ART_12M_RET",
 			"created": "2015-10-19T13:53:39.762",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "Started ART 12 months ago",
 			"id": "JUvYLsNo43H",
@@ -2779,6 +3748,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "Retained on ART last 12 months",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "ART 12 month retention rate (%)",
 			"translations": [
 				{
@@ -2792,9 +3779,6 @@
 					"value": "Taux de retention sous TAR à 12 mois (%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2803,6 +3787,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_CLOSING_BAL",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits as closing balance [Opening balance + Received - Issued - Redistributed - Discarded] at the end of the reporting period",
@@ -2816,11 +3806,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV test kits closing bal",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits closing balance",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2829,6 +3827,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_REDISTRIBUTED",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses redistributed",
@@ -2842,11 +3846,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV treatment courses redistributed",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses redistributed",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2855,6 +3867,12 @@
 			"attributeValues": [],
 			"code": "HIV_TESTS+",
 			"created": "2018-01-16T09:31:59.853",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "HIV tests found to be positive",
@@ -2868,6 +3886,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV tests positive ",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV tests positive ",
 			"translations": [
 				{
@@ -2886,9 +3922,6 @@
 					"value": "Tests VIH positifs"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2897,6 +3930,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_DISCARDED",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses discarded during the reporting period (expired, damaged, etc.)",
@@ -2910,11 +3949,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV treatment courses discarded",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses discarded",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2923,6 +3970,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_CLOSING_BAL",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses as closing balance [Opening balance + Received - Issued - Redistributed - Discarded] at the end of the reporting period",
@@ -2936,11 +3989,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV treatment courses closing bal",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses closing balance",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2948,6 +4009,12 @@
 			"annualized": false,
 			"attributeValues": [],
 			"created": "2015-10-19T14:13:49.289",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "PLHIV currently on ART",
 			"id": "PTA21lKepjs",
@@ -2964,11 +4031,26 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV tested for viral load",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Viral load testing coverage annualized (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -2977,6 +4059,12 @@
 			"attributeValues": [],
 			"code": "HIV_TREATMENT_COURSES_COVERAGE_TIME",
 			"created": "2021-05-03T14:00:39.371",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"decimals": 0,
 			"denominator": "1",
 			"denominatorDescription": "consumed stock",
@@ -2994,11 +4082,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "usable stock",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV Treatment courses stock coverage time",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3007,6 +4103,12 @@
 			"attributeValues": [],
 			"code": "HIV_TEST_KITS_WASTAGE_RATE",
 			"created": "2021-02-18T10:09:58.218",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "Stock used=([Closing balance]-[Stock at hand]) + discarded + dispensed to patient)",
 			"description": "Stock wasted=([Closing balance]-[Stock at hand]) + discarded)",
@@ -3020,11 +4122,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "Stock wasted=([Closing balance]-[Stock at hand]) + discarded)",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits wastage rate",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3033,6 +4143,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_DISCREPANCY",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "stock on hand",
 			"description": "Percentage of the item's stock discrepancy [Stock on hand - Closing balance] / Stock on hand",
@@ -3046,11 +4162,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV test kits stock discrepancy",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits stock discrepancy (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3059,6 +4183,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_RECV",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses received",
@@ -3072,11 +4202,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV treatment courses received",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses received",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3084,6 +4222,12 @@
 			"annualized": true,
 			"attributeValues": [],
 			"created": "2015-05-25T05:46:02.262",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"decimals": 0,
 			"denominator": "1",
 			"denominatorDescription": "Total population",
@@ -3098,11 +4242,26 @@
 			"numerator": "-1",
 			"numeratorDescription": "Estimated people living with HIV",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV prevalence (%)",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3111,6 +4270,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_ISSUED",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses issued",
@@ -3124,11 +4289,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV treatment courses issued",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses issued",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3137,6 +4310,12 @@
 			"attributeValues": [],
 			"code": "HIV_TEST_KITS_COVERAGE_TIME",
 			"created": "2021-05-03T13:59:27.057",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"decimals": 0,
 			"denominator": "1",
 			"denominatorDescription": "consumed stock",
@@ -3154,11 +4333,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "usable stock",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV Test kits stock coverage time",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3167,6 +4354,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_REDISTRIBUTED",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits redistributed",
@@ -3180,11 +4373,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV test kits redistributed",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits redistributed",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3193,6 +4394,12 @@
 			"attributeValues": [],
 			"code": "HIV_ONART_NEW",
 			"created": "2018-01-16T09:31:59.853",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"id": "tsMR4m66ili",
@@ -3205,6 +4412,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV new on ART",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "New on ART ",
 			"translations": [
 				{
@@ -3218,9 +4443,6 @@
 					"value": "Nouveaux PVVIH sous TAR"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3229,6 +4451,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_STOCKOUT_DAYS",
 			"created": "2020-12-17T13:08:27.463",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of days when the facility was stocked out of HIV test kits (at any point during the day) during the reporting period.",
@@ -3242,11 +4470,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV test kits stock out days",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits stock out days",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3254,6 +4490,12 @@
 			"annualized": false,
 			"attributeValues": [],
 			"created": "2018-07-11T12:27:48.244",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of cases of HIV expected in a geographical area",
@@ -3267,11 +4509,26 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - Estimated people living with HIV",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "PLHIV estimate",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3280,6 +4537,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_STOCK_ON_HAND",
 			"created": "2021-03-21T07:12:17.213",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits stock on hand",
@@ -3293,11 +4556,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV test kits stock on hand",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits stock on hand",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3306,6 +4577,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTX_STOCK_ON_HAND",
 			"created": "2021-03-21T07:13:03.921",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV treatment courses stock on hand",
@@ -3319,11 +4596,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV treatment courses stock on hand",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV treatment courses stock on hand",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3332,6 +4617,12 @@
 			"attributeValues": [],
 			"code": "HIV_HIVTEST_ISSUED",
 			"created": "2021-02-18T20:03:55.358",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"denominator": "1",
 			"denominatorDescription": "1",
 			"description": "Number of HIV test kits issued",
@@ -3345,11 +4636,19 @@
 			"numerator": "-1",
 			"numeratorDescription": "HIV - HIV test kits issued",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "HIV test kits issued",
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3358,6 +4657,12 @@
 			"attributeValues": [],
 			"code": "HIV_TEST_VIRSUPP",
 			"created": "2015-10-19T14:13:49.289",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"denominator": "1",
 			"denominatorDescription": "PLHIV with viral load tests",
 			"id": "zqzX3zcosD5",
@@ -3374,6 +4679,24 @@
 			"numerator": "-1",
 			"numeratorDescription": "PLHIV virologically suppressed",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"shortName": "Virologically suppressed (%)",
 			"translations": [
 				{
@@ -3387,9 +4710,6 @@
 					"value": "PVVIH avec suppression charge virale (%)"
 				}
 			],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
@@ -3535,6 +4855,12 @@
 		{
 			"attributeValues": [],
 			"created": "2018-02-16T05:50:46.664",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "aviopx5x4wQ",
 			"lastUpdated": "2019-06-28T12:39:17.403",
 			"legends": [
@@ -3558,6 +4884,15 @@
 					"id": "ZrYgX2ojLj5",
 					"lastUpdated": "2018-06-29T13:32:27.082",
 					"name": "Greater than 100%",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 100,
 					"translations": [],
 					"userAccesses": [],
@@ -3583,6 +4918,15 @@
 					"id": "iCBaHMc9w9O",
 					"lastUpdated": "2018-06-29T13:32:27.082",
 					"name": "90% to 110%",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 90,
 					"translations": [],
 					"userAccesses": [],
@@ -3608,6 +4952,15 @@
 					"id": "bPM6VHCCvzo",
 					"lastUpdated": "2018-06-29T13:32:27.082",
 					"name": "75% to 89%",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 75,
 					"translations": [],
 					"userAccesses": [],
@@ -3633,6 +4986,15 @@
 					"id": "geCVGvs2JPS",
 					"lastUpdated": "2018-06-29T13:32:27.081",
 					"name": "60% to 75%",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 60,
 					"translations": [],
 					"userAccesses": [],
@@ -3658,6 +5020,15 @@
 					"id": "CXStL4SSJ8G",
 					"lastUpdated": "2018-06-29T13:32:27.082",
 					"name": "Below 60%",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -3666,10 +5037,25 @@
 			],
 			"name": "HIV default (%)",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3677,6 +5063,12 @@
 			"attributeValues": [],
 			"code": "STOCK_COVERAGE_TIME",
 			"created": "2021-04-30T09:41:45.915",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"id": "f1hWZIYCTzc",
 			"lastUpdated": "2021-04-30T09:41:45.915",
 			"legends": [
@@ -3700,6 +5092,15 @@
 					"id": "wfbGANgbnMR",
 					"lastUpdated": "2021-04-30T09:41:45.915",
 					"name": "Invalid",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 12,
 					"translations": [],
 					"userAccesses": [],
@@ -3725,6 +5126,15 @@
 					"id": "ee8QJxth4ul",
 					"lastUpdated": "2021-04-30T09:41:45.916",
 					"name": "Overstock",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 3,
 					"translations": [],
 					"userAccesses": [],
@@ -3750,6 +5160,15 @@
 					"id": "mmvDbIcm41d",
 					"lastUpdated": "2021-04-30T09:41:45.916",
 					"name": "Adequate stock",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 1,
 					"translations": [],
 					"userAccesses": [],
@@ -3775,6 +5194,15 @@
 					"id": "wAdm1fy3Fmk",
 					"lastUpdated": "2021-04-30T09:41:45.916",
 					"name": "Understock",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 0.0001,
 					"translations": [],
 					"userAccesses": [],
@@ -3800,6 +5228,15 @@
 					"id": "fFBIEwglorN",
 					"lastUpdated": "2021-04-30T09:41:45.916",
 					"name": "Stock out",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -3808,10 +5245,18 @@
 			],
 			"name": "Stock coverage time",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
@@ -3819,6 +5264,12 @@
 			"attributeValues": [],
 			"code": "STOCK DISCREPANCY",
 			"created": "2021-04-29T12:35:33.784",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"id": "pxeFezcPnQl",
 			"lastUpdated": "2021-05-11T08:47:50.678",
 			"legends": [
@@ -3842,6 +5293,15 @@
 					"id": "IdLVcKSBYPP",
 					"lastUpdated": "2021-05-11T08:47:50.678",
 					"name": "Positive",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 9,
 					"translations": [],
 					"userAccesses": [],
@@ -3867,6 +5327,15 @@
 					"id": "bW5lmAtDMhX",
 					"lastUpdated": "2021-05-11T08:47:50.679",
 					"name": "Correct stock",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": 1,
 					"translations": [],
 					"userAccesses": [],
@@ -3892,6 +5361,15 @@
 					"id": "EcNjRnWM0Yw",
 					"lastUpdated": "2021-05-11T08:47:50.679",
 					"name": "Negative",
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"startValue": -10000000,
 					"translations": [],
 					"userAccesses": [],
@@ -3900,10 +5378,18 @@
 			],
 			"name": "Stock discrepancy",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
@@ -3912,7 +5398,12 @@
 		{
 			"basemap": "bingLight",
 			"created": "2020-12-20T14:43:59.660",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Scott Russpatrick",
+				"id": "k1jQOOCCcrL",
+				"name": "Scott Russpatrick",
+				"username": "scott"
+			},
 			"favorites": [],
 			"id": "apIq7CnXNz6",
 			"lastUpdated": "2021-05-03T14:05:13.596",
@@ -3968,6 +5459,15 @@
 					"programIndicatorDimensions": [],
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
@@ -4052,7 +5552,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4061,9 +5563,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -4090,10 +5594,20 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"startDate": "2019-12-20T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -4105,18 +5619,31 @@
 			],
 			"name": "HIV - Test kits stockout days by facility",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "k1jQOOCCcrL",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"subscribers": [],
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-07-11T12:36:05.696",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "eu3QTttWA2p",
 			"lastUpdated": "2019-06-28T12:39:14.374",
 			"mapViews": [
@@ -4197,7 +5724,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4206,9 +5735,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -4235,9 +5766,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -4249,17 +5790,37 @@
 			],
 			"name": "HIV - Estimated HIV prevalence",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "bingLight",
 			"created": "2020-12-20T14:43:59.660",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Scott Russpatrick",
+				"id": "k1jQOOCCcrL",
+				"name": "Scott Russpatrick",
+				"username": "scott"
+			},
 			"favorites": [],
 			"id": "hcf8lXRsRJx",
 			"lastUpdated": "2021-05-03T14:04:25.203",
@@ -4315,6 +5876,15 @@
 					"programIndicatorDimensions": [],
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
@@ -4404,7 +5974,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4413,9 +5985,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -4442,10 +6016,20 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"startDate": "2019-12-20T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -4457,18 +6041,31 @@
 			],
 			"name": "HIV - Treatment courses stock coverage time by facility",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "k1jQOOCCcrL",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"subscribers": [],
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "bingLight",
 			"created": "2020-12-20T14:43:59.660",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Scott Russpatrick",
+				"id": "k1jQOOCCcrL",
+				"name": "Scott Russpatrick",
+				"username": "scott"
+			},
 			"favorites": [],
 			"id": "jm782q9ElUX",
 			"lastUpdated": "2021-05-03T14:03:52.838",
@@ -4551,7 +6148,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4560,9 +6159,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -4589,10 +6190,20 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"startDate": "2019-12-20T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -4652,6 +6263,15 @@
 					"programIndicatorDimensions": [],
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
@@ -4666,18 +6286,31 @@
 			],
 			"name": "HIV - Test Kits stock coverage time by facility",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "k1jQOOCCcrL",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"subscribers": [],
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "bingLight",
 			"created": "2020-12-20T14:43:59.660",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Scott Russpatrick",
+				"id": "k1jQOOCCcrL",
+				"name": "Scott Russpatrick",
+				"username": "scott"
+			},
 			"favorites": [],
 			"id": "kpAsHOR1fYq",
 			"lastUpdated": "2021-05-03T14:05:39.309",
@@ -4733,6 +6366,15 @@
 					"programIndicatorDimensions": [],
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
@@ -4817,7 +6459,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4826,9 +6470,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -4855,10 +6501,20 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"startDate": "2019-12-20T00:00:00.000",
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -4870,18 +6526,31 @@
 			],
 			"name": "HIV - Treatment courses stockout days by facility",
 			"publicAccess": "r-------",
+			"sharing": {
+				"external": false,
+				"owner": "k1jQOOCCcrL",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"subscribers": [],
 			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-07-11T11:03:02.059",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "MZMtrkoUQzW",
 			"lastUpdated": "2019-06-28T12:39:14.325",
 			"mapViews": [
@@ -4942,7 +6611,10 @@
 					"labels": false,
 					"lastUpdated": "2018-07-11T11:06:02.262",
 					"lastUpdatedBy": {
-						"id": "jB4WJmaNuGT"
+						"displayName": "Olav Poppe",
+						"id": "jB4WJmaNuGT",
+						"name": "Olav Poppe",
+						"username": "olavpo"
 					},
 					"layer": "thematic1",
 					"legendSet": {
@@ -4967,7 +6639,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -4976,9 +6650,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5005,9 +6681,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5095,7 +6781,9 @@
 						"last12Months": true,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5104,9 +6792,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5133,9 +6823,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5147,17 +6847,37 @@
 			],
 			"name": "HIV - ART retention rate (12 months) by user and sub-orgunits",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-07-11T12:31:27.430",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "t6lhTAiujEe",
 			"lastUpdated": "2019-06-28T12:39:14.426",
 			"mapViews": [
@@ -5238,7 +6958,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5247,9 +6969,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5276,9 +7000,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5290,17 +7024,37 @@
 			],
 			"name": "HIV - PLHIV estimate",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-07-11T12:30:59.732",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "Vf3ASwHkAmu",
 			"lastUpdated": "2019-06-28T12:39:14.174",
 			"mapViews": [
@@ -5381,7 +7135,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5390,9 +7146,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5419,9 +7177,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5433,17 +7201,37 @@
 			],
 			"name": "GEN - Population estimate",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-08-09T11:12:43.426",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "VFaZffBlMro",
 			"lastUpdated": "2019-06-28T12:39:14.225",
 			"mapViews": [
@@ -5526,7 +7314,9 @@
 						"last12Months": false,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5535,9 +7325,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5564,9 +7356,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5578,17 +7380,37 @@
 			],
 			"name": "HIV - ART coverage",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		},
 		{
 			"basemap": "osmLight",
 			"created": "2018-08-09T11:14:59.257",
-			"externalAccess": false,
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "YLGtwHbfxqG",
 			"lastUpdated": "2019-06-28T12:39:14.275",
 			"mapViews": [
@@ -5671,7 +7493,9 @@
 						"last12Months": true,
 						"last12Weeks": false,
 						"last14Days": false,
+						"last180Days": false,
 						"last2SixMonths": false,
+						"last30Days": false,
 						"last3Days": false,
 						"last3Months": false,
 						"last4BiWeeks": false,
@@ -5680,9 +7504,11 @@
 						"last52Weeks": false,
 						"last5FinancialYears": false,
 						"last5Years": false,
+						"last60Days": false,
 						"last6BiMonths": false,
 						"last6Months": false,
 						"last7Days": false,
+						"last90Days": false,
 						"lastBimonth": false,
 						"lastBiWeek": false,
 						"lastFinancialYear": false,
@@ -5709,9 +7535,19 @@
 					},
 					"renderingStrategy": "SINGLE",
 					"rows": [],
+					"sharing": {
+						"external": false,
+						"userGroups": {
+							
+						},
+						"users": {
+							
+						}
+					},
 					"sortOrder": 0,
 					"subscribed": false,
 					"subscribers": [],
+					"thematicMapType": "CHOROPLETH",
 					"topLimit": 0,
 					"translations": [],
 					"userAccesses": [],
@@ -5723,21 +7559,36 @@
 			],
 			"name": "HIV - ART retention rate (12 months)",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": []
 		}
 	],
 	"package": {
 		"code": "HIV",
-		"DHIS2Build": "aff07fb",
-		"DHIS2Version": "2.34.4",
+		"DHIS2Build": "1fcfbd2",
+		"DHIS2Version": "2.36.1",
 		"lastUpdated": "20210622T210128",
 		"locale": "en",
-		"name": "HIV_DASHBOARD_V1.1.0_2.34.4-en",
+		"name": "HIV_DASHBOARD_V1.1.0_2.36.1-en",
 		"type": "DASHBOARD",
 		"version": "1.1.0"
 	},
@@ -5745,15 +7596,36 @@
 		{
 			"attributeValues": [],
 			"created": "2018-02-11T19:54:27.127",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "ISvRhzmu8Ck",
 			"lastUpdated": "2021-05-20T09:00:44.912",
 			"managedGroups": [],
 			"name": "HIV access",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"users": [
@@ -5765,15 +7637,36 @@
 		{
 			"attributeValues": [],
 			"created": "2018-02-11T19:54:18.281",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"id": "TAVOXarP781",
 			"lastUpdated": "2021-05-20T09:00:44.961",
 			"managedGroups": [],
 			"name": "HIV admin",
 			"publicAccess": "r-------",
-			"translations": [],
-			"user": {
-				"id": "vUeLeQMSwhN"
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
 			},
+			"translations": [],
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"users": [
@@ -5807,6 +7700,12 @@
 				"catDimensionConstraints": [],
 				"cogsDimensionConstraints": [],
 				"created": "2018-07-13T12:28:39.168",
+				"createdBy": {
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"name": "Olav Poppe",
+					"username": "olavpo"
+				},
 				"disabled": true,
 				"displayName": "Admin WHO",
 				"externalAccess": false,
@@ -5818,15 +7717,30 @@
 				"lastLogin": "2018-07-13T12:28:39.168",
 				"lastUpdated": "2018-07-13T12:28:51.814",
 				"lastUpdatedBy": {
-					"id": "jB4WJmaNuGT"
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"name": "Olav Poppe",
+					"username": "olavpo"
 				},
 				"name": "Admin WHO",
 				"passwordLastUpdated": "2018-07-13T12:28:39.168",
 				"selfRegistered": false,
+				"sharing": {
+					"external": false,
+					"userGroups": {
+						
+					},
+					"users": {
+						
+					}
+				},
 				"translations": [],
 				"twoFA": false,
 				"user": {
-					"id": "jB4WJmaNuGT"
+					"displayName": "Olav Poppe",
+					"id": "jB4WJmaNuGT",
+					"name": "Olav Poppe",
+					"username": "olavpo"
 				},
 				"userAccesses": [],
 				"userGroupAccesses": [],
@@ -5850,6 +7764,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-07-12T06:21:19.132",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -5892,7 +7812,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
@@ -5905,6 +7824,9 @@
 			"id": "CInLEIQcstz",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:11.189",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - ART performance by sub-orgunits",
@@ -5923,7 +7845,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -5932,9 +7856,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -5970,6 +7896,24 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -5979,9 +7923,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": false,
@@ -6000,6 +7941,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-08-09T11:11:14.882",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6018,7 +7965,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
@@ -6031,6 +7977,9 @@
 			"id": "FXLnt2rX2GF",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:11.137",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "BY_DATA_ITEM",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - ART coverage by sub-orgunits",
@@ -6049,7 +7998,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6058,9 +8009,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6096,6 +8049,24 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -6105,9 +8076,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": false,
@@ -6126,6 +8094,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-05-03T13:55:14.024",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6138,7 +8112,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -6152,6 +8125,9 @@
 			"id": "h34LCgE9DJ8",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-03T13:55:14.024",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"legendSet": {
@@ -6173,7 +8149,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6182,9 +8160,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6220,6 +8200,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -6229,9 +8220,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6241,6 +8229,23 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"maxValue": 100,
+					"minValue": 0,
+					"targetLine": {
+						"title": {
+							"text": "90%"
+						},
+						"value": 90
+					},
+					"title": {
+						"text": "Percent (%)"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -6250,6 +8255,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-08-09T11:09:07.311",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6262,11 +8273,13 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -6276,6 +8289,9 @@
 			"id": "HIeML0i1tW6",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.495",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - ART coverage - last month",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -6285,9 +8301,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Percent (%)",
-			"rangeAxisMaxValue": 100,
-			"rangeAxisMinValue": 0,
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -6295,7 +8308,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6304,9 +8319,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6342,20 +8359,33 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
-			"targetLineLabel": "90%",
-			"targetLineValue": 90,
 			"title": "ART coverage",
 			"topLimit": 0,
 			"translations": [],
 			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6374,6 +8404,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-05-03T13:54:04.204",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6422,7 +8458,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -6436,6 +8471,9 @@
 			"id": "kEG0QIt1R5Z",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-03T13:54:04.204",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - Test kits stock status",
@@ -6454,7 +8492,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6463,9 +8503,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6501,6 +8543,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -6510,9 +8563,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6531,6 +8581,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-03-01T10:58:33.209",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6543,7 +8599,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -6558,6 +8613,9 @@
 			"id": "kPE2t8VoO0D",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-03T14:06:17.622",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Proportion of facilities with stockout days for test kits",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -6574,7 +8632,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6583,9 +8643,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6621,6 +8683,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "--------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
@@ -6629,10 +8702,7 @@
 			"subscribers": [],
 			"topLimit": 0,
 			"translations": [],
-			"type": "AREA",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
+			"type": "STACKED_AREA",
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6642,6 +8712,20 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"targetLine": {
+						"title": {
+							"text": "Target"
+						}
+					},
+					"title": {
+						"text": "Tests/PLHIV"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -6651,6 +8735,12 @@
 			],
 			"completedOnly": false,
 			"created": "2020-05-25T09:22:06.006",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6669,12 +8759,14 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -6684,6 +8776,9 @@
 			"id": "MlwuLdHcS0Y",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2020-05-25T09:22:06.006",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Trend in newly diagnosed and new on ART",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -6693,7 +8788,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Tests/PLHIV",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -6701,7 +8795,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6710,9 +8806,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6748,20 +8846,34 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"targetLineLabel": "Target",
 			"title": "Trend in newly diagnosed and new on ART",
 			"topLimit": 0,
 			"translations": [],
 			"type": "LINE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6771,6 +8883,20 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"targetLine": {
+						"title": {
+							"text": "Target"
+						}
+					},
+					"title": {
+						"text": "Percent (%)"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -6780,6 +8906,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-07-11T11:14:12.479",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6792,11 +8924,13 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"ou"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -6806,6 +8940,9 @@
 			"id": "neY7yCy63LJ",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.925",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Trend in HIV test positivity",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -6815,7 +8952,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Percent (%)",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -6823,7 +8959,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6832,9 +8970,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -6870,19 +9010,33 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
-			"targetLineLabel": "Target",
 			"title": "Trend in HIV test positivity",
 			"topLimit": 0,
 			"translations": [],
 			"type": "LINE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -6892,6 +9046,15 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"title": {
+						"text": "PLHIV"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -6901,6 +9064,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-08-06T13:16:42.589",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -6926,11 +9095,13 @@
 			"description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 12 months.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time.",
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -6940,6 +9111,9 @@
 			"id": "sbsctgkgtxi",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.546",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - HIV cascade",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -6949,7 +9123,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "PLHIV",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -6957,7 +9130,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -6966,9 +9141,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7004,6 +9181,24 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
@@ -7013,9 +9208,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7034,6 +9226,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-05-10T10:24:26.017",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7082,7 +9280,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -7096,6 +9293,9 @@
 			"id": "THjGXewUjqC",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-10T10:24:26.017",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - Treatment courses stock status",
@@ -7114,7 +9314,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7123,9 +9325,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7161,6 +9365,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -7170,9 +9385,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7182,6 +9394,20 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"targetLine": {
+						"title": {
+							"text": "Target"
+						}
+					},
+					"title": {
+						"text": "Tests"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -7191,6 +9417,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-07-11T11:13:30.909",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7203,11 +9435,13 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"ou"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -7217,6 +9451,9 @@
 			"id": "W5YurJlBYxS",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.979",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Trend in HIV testing",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -7226,7 +9463,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Tests",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -7234,7 +9470,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7243,9 +9481,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7281,19 +9521,33 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
-			"targetLineLabel": "Target",
 			"title": "Trend in HIV testing",
 			"topLimit": 0,
 			"translations": [],
 			"type": "LINE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7303,6 +9557,15 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"title": {
+						"text": "PLHIV"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [
 				{
@@ -7329,6 +9592,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-07-11T11:15:34.186",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7354,12 +9623,14 @@
 			"description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 12 months by gender.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time by gender.",
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"ou",
 				"pe"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -7369,6 +9640,9 @@
 			"id": "W9BIjYTO9Py",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.596",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - HIV cascade by gender - last 12 months",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -7378,7 +9652,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "PLHIV",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -7386,7 +9659,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7395,9 +9670,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7433,6 +9710,24 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
@@ -7442,9 +9737,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7463,6 +9755,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-03-01T10:58:33.209",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7475,7 +9773,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -7490,6 +9787,9 @@
 			"id": "WnqPG2dtDco",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-03T14:06:56.545",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Proportion of facilities with stockout days for HIV treatment courses",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -7506,7 +9806,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7515,9 +9817,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7553,6 +9857,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "--------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
@@ -7561,10 +9876,7 @@
 			"subscribers": [],
 			"topLimit": 0,
 			"translations": [],
-			"type": "AREA",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
+			"type": "STACKED_AREA",
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7583,6 +9895,12 @@
 			],
 			"completedOnly": false,
 			"created": "2021-05-03T14:08:24.195",
+			"createdBy": {
+				"displayName": "Vittoria Crispino",
+				"id": "FIsdZWDPbr2",
+				"name": "Vittoria Crispino",
+				"username": "Vitto"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7595,7 +9913,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
@@ -7609,6 +9926,9 @@
 			"id": "YcsLBRqyW04",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2021-05-03T14:08:24.195",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"legendSet": {
@@ -7630,7 +9950,9 @@
 				"last12Months": false,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7639,9 +9961,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": true,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7677,6 +10001,17 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "FIsdZWDPbr2",
+				"public": "rw------",
+				"userGroups": {
+					
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -7686,9 +10021,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7707,6 +10039,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-08-09T11:18:16.395",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7737,7 +10075,6 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
@@ -7750,6 +10087,9 @@
 			"id": "yM52YmNwPdT",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:11.237",
+			"legend": {
+				"hidden": false
+			},
 			"legendDisplayStrategy": "FIXED",
 			"legendDisplayStyle": "FILL",
 			"name": "HIV - HIV testing performance by sub-orgunits",
@@ -7768,7 +10108,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7777,9 +10119,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7815,6 +10159,24 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": false,
 			"showDimensionLabels": true,
 			"showHierarchy": false,
@@ -7824,9 +10186,6 @@
 			"topLimit": 0,
 			"translations": [],
 			"type": "PIVOT_TABLE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": false,
@@ -7836,6 +10195,23 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"maxValue": 100,
+					"minValue": 0,
+					"targetLine": {
+						"title": {
+							"text": "90%"
+						},
+						"value": 90
+					},
+					"title": {
+						"text": "Percent (%)"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -7845,6 +10221,12 @@
 			],
 			"completedOnly": false,
 			"created": "2018-07-12T06:07:06.018",
+			"createdBy": {
+				"displayName": "Olav Poppe",
+				"id": "jB4WJmaNuGT",
+				"name": "Olav Poppe",
+				"username": "olavpo"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -7875,11 +10257,13 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"filterDimensions": [
 				"pe"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -7889,6 +10273,9 @@
 			"id": "YRItoGE02Gc",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2019-06-28T12:39:41.442",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - 2nd and 3rd 90s",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -7898,9 +10285,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Percent (%)",
-			"rangeAxisMaxValue": 100,
-			"rangeAxisMinValue": 0,
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -7908,7 +10292,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -7917,9 +10303,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -7955,20 +10343,33 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "jB4WJmaNuGT",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
-			"targetLineLabel": "90%",
-			"targetLineValue": 90,
 			"title": "2nd and 3rd 90s",
 			"topLimit": 0,
 			"translations": [],
 			"type": "COLUMN",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
@@ -7978,6 +10379,23 @@
 		},
 		{
 			"aggregationType": "DEFAULT",
+			"axes": [
+				{
+					"index": 0,
+					"maxValue": 100,
+					"minValue": 0,
+					"targetLine": {
+						"title": {
+							"text": "90%"
+						},
+						"value": 90
+					},
+					"title": {
+						"text": "Percent (%)"
+					},
+					"type": "RANGE"
+				}
+			],
 			"categoryDimensions": [],
 			"categoryOptionGroupSetDimensions": [],
 			"colSubTotals": false,
@@ -7987,6 +10405,12 @@
 			],
 			"completedOnly": false,
 			"created": "2020-05-25T09:21:21.127",
+			"createdBy": {
+				"displayName": "Patrick Omiel",
+				"id": "KpUvqwyAqx8",
+				"name": "Patrick Omiel",
+				"username": "patrick"
+			},
 			"cumulativeValues": false,
 			"dataDimensionItems": [
 				{
@@ -8011,12 +10435,14 @@
 			"dataElementGroupSetDimensions": [],
 			"digitGroupSeparator": "SPACE",
 			"displayDensity": "NORMAL",
-			"externalAccess": false,
 			"favorites": [],
 			"filterDimensions": [
 				"ou"
 			],
 			"fontSize": "NORMAL",
+			"fontStyle": {
+				
+			},
 			"hideEmptyColumns": false,
 			"hideEmptyRowItems": "NONE",
 			"hideEmptyRows": false,
@@ -8026,6 +10452,9 @@
 			"id": "yZx4xQJ1AIt",
 			"itemOrganisationUnitGroups": [],
 			"lastUpdated": "2020-05-25T09:21:21.127",
+			"legend": {
+				"hidden": false
+			},
 			"name": "HIV - Trend in ART retention and VL suppression",
 			"noSpaceBetweenColumns": false,
 			"optionalAxes": [],
@@ -8035,9 +10464,6 @@
 			"percentStackedValues": false,
 			"periods": [],
 			"publicAccess": "r-------",
-			"rangeAxisLabel": "Percent (%)",
-			"rangeAxisMaxValue": 100,
-			"rangeAxisMinValue": 0,
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -8045,7 +10471,9 @@
 				"last12Months": true,
 				"last12Weeks": false,
 				"last14Days": false,
+				"last180Days": false,
 				"last2SixMonths": false,
+				"last30Days": false,
 				"last3Days": false,
 				"last3Months": false,
 				"last4BiWeeks": false,
@@ -8054,9 +10482,11 @@
 				"last52Weeks": false,
 				"last5FinancialYears": false,
 				"last5Years": false,
+				"last60Days": false,
 				"last6BiMonths": false,
 				"last6Months": false,
 				"last7Days": false,
+				"last90Days": false,
 				"lastBimonth": false,
 				"lastBiWeek": false,
 				"lastFinancialYear": false,
@@ -8092,21 +10522,34 @@
 			],
 			"rowSubTotals": false,
 			"rowTotals": false,
+			"sharing": {
+				"external": false,
+				"owner": "KpUvqwyAqx8",
+				"public": "r-------",
+				"userGroups": {
+					"ISvRhzmu8Ck": {
+						"access": "r-------",
+						"id": "ISvRhzmu8Ck"
+					},
+					"TAVOXarP781": {
+						"access": "rw------",
+						"id": "TAVOXarP781"
+					}
+				},
+				"users": {
+					
+				}
+			},
 			"showData": true,
 			"showDimensionLabels": false,
 			"showHierarchy": false,
 			"skipRounding": false,
 			"sortOrder": 0,
 			"subscribers": [],
-			"targetLineLabel": "90%",
-			"targetLineValue": 90,
 			"title": "Trend in ART retention and VL suppression",
 			"topLimit": 0,
 			"translations": [],
 			"type": "LINE",
-			"user": {
-				"id": "vUeLeQMSwhN"
-			},
 			"userAccesses": [],
 			"userGroupAccesses": [],
 			"userOrganisationUnit": true,
