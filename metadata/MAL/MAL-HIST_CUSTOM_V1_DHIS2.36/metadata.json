@@ -3,12 +3,6 @@
 		{
 			"attributeValues": [],
 			"created": "2019-10-09T09:50:44.420",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"dataElements": [
 				{
 					"id": "IIU1O0Z4l49"
@@ -60,12 +54,6 @@
 			},
 			"code": "MAL_PF_MICR_RDT",
 			"created": "2016-04-26T14:18:59.345",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Cases confirmed as P.falciparum positive with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
 			"formName": "P. falciparum (micr+RDT)",
@@ -107,12 +95,6 @@
 			},
 			"code": "MAL_MIX_OTHER_SPECIES_MICR_RDT",
 			"created": "2016-04-26T14:19:00.869",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Cases confirmed as P.malariae or P. ovale or P. knowlesi with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
 			"formName": "Other species (micr+RDT)",
@@ -154,12 +136,6 @@
 			},
 			"code": "MAL_PV_MICR_RDT",
 			"created": "2016-04-26T14:18:59.849",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Cases confirmed as P.vivax positive with microscopy",
 			"domainType": "AGGREGATE",
 			"formName": "P. vivax (micr+RDT)",
@@ -201,12 +177,6 @@
 			},
 			"code": "MAL_MIX_SPECIES_MICR_RDT",
 			"created": "2016-04-26T14:19:00.353",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Cases confirmed as mixed infection with P.falciparum and P.vivax with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
 			"formName": "Mixed (micr+RDT)",
@@ -248,12 +218,6 @@
 			},
 			"code": "MAL_TEST_CASES_MICR_RDT",
 			"created": "2016-04-26T14:18:58.324",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Suspected cases tested with both microscopy and/or RDT",
 			"domainType": "AGGREGATE",
 			"formName": "Tested (micr+RDT)",
@@ -295,12 +259,6 @@
 			},
 			"code": "MAL_CONFI_CASES_MICR_RDT",
 			"created": "2016-04-26T14:18:58.843",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"description": "Cases confirmed as positive with microscopy and/or RDT",
 			"domainType": "AGGREGATE",
 			"formName": "Positive (micr+RDT)",
@@ -343,12 +301,6 @@
 			"compulsoryDataElementOperands": [],
 			"compulsoryFieldsCompleteOnly": false,
 			"created": "2018-03-22T20:38:14.680",
-			"createdBy": {
-				"displayName": "Nick Dutta",
-				"id": "mF8i9czW87x",
-				"name": "Nick Dutta",
-				"username": "nick"
-			},
 			"dataElementDecoration": false,
 			"dataInputPeriods": [],
 			"dataSetElements": [
@@ -532,12 +484,6 @@
 		{
 			"attributeValues": [],
 			"created": "2018-06-06T10:40:10.712",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"id": "fRSrUJ6SMGH",
 			"lastUpdated": "2021-05-20T09:00:44.890",
 			"managedGroups": [],
@@ -573,12 +519,6 @@
 		{
 			"attributeValues": [],
 			"created": "2018-01-19T13:17:12.627",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"id": "suMb19wGXPR",
 			"lastUpdated": "2021-05-20T09:00:44.955",
 			"managedGroups": [],
@@ -614,12 +554,6 @@
 		{
 			"attributeValues": [],
 			"created": "2018-01-19T13:16:50.221",
-			"createdBy": {
-				"displayName": "Olav Poppe",
-				"id": "jB4WJmaNuGT",
-				"name": "Olav Poppe",
-				"username": "olavpo"
-			},
 			"id": "ZXEVDM9XRea",
 			"lastUpdated": "2021-05-20T09:00:44.895",
 			"managedGroups": [],
@@ -677,12 +611,6 @@
 				"catDimensionConstraints": [],
 				"cogsDimensionConstraints": [],
 				"created": "2018-07-13T12:28:39.168",
-				"createdBy": {
-					"displayName": "Olav Poppe",
-					"id": "jB4WJmaNuGT",
-					"name": "Olav Poppe",
-					"username": "olavpo"
-				},
 				"disabled": true,
 				"displayName": "Admin WHO",
 				"externalAccess": false,

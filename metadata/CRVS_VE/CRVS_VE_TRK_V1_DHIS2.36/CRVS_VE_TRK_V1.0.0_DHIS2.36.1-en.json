@@ -8,12 +8,6 @@
             "categoryOptionGroupAttribute": false,
             "categoryOptionGroupSetAttribute": false,
             "constantAttribute": false,
-            "createdBy": {
-                "displayName": "Morten Haugen",
-                "id": "gldyE2R1Df7",
-                "name": "Morten Haugen",
-                "username": "Morten"
-            },
             "dataElementAttribute": false,
             "dataElementGroupAttribute": false,
             "dataElementGroupSetAttribute": false,
@@ -101,12 +95,6 @@
             "categoryOptionGroupAttribute": false,
             "categoryOptionGroupSetAttribute": false,
             "constantAttribute": false,
-            "createdBy": {
-                "displayName": "Morten Haugen",
-                "id": "gldyE2R1Df7",
-                "name": "Morten Haugen",
-                "username": "Morten"
-            },
             "dataElementAttribute": false,
             "dataElementGroupAttribute": false,
             "dataElementGroupSetAttribute": false,
@@ -194,12 +182,6 @@
             "categoryOptionGroupAttribute": false,
             "categoryOptionGroupSetAttribute": false,
             "constantAttribute": false,
-            "createdBy": {
-                "displayName": "Morten Haugen",
-                "id": "gldyE2R1Df7",
-                "name": "Morten Haugen",
-                "username": "Morten"
-            },
             "dataElementAttribute": false,
             "dataElementGroupAttribute": false,
             "dataElementGroupSetAttribute": false,
@@ -288,12 +270,6 @@
             "categoryOptionGroupSetAttribute": false,
             "code": "DATA_ELEMENT_AGG",
             "constantAttribute": false,
-            "createdBy": {
-                "displayName": "Yury Rogachev",
-                "id": "Ia1Xtxa5eG8",
-                "name": "Yury Rogachev",
-                "username": "yury"
-            },
             "dataElementAttribute": false,
             "dataElementGroupAttribute": false,
             "dataElementGroupSetAttribute": false,
@@ -403,12 +379,6 @@
                 }
             ],
             "code": "DEFAULT",
-            "createdBy": {
-                "displayName": "Phil Larsen Donnelly",
-                "id": "fCywjKEOv3G",
-                "name": "Phil Larsen Donnelly",
-                "username": "phil"
-            },
             "dataDimension": false,
             "dataDimensionType": "DISAGGREGATION",
             "dimension": "GLevLNI9wkl",
@@ -504,12 +474,6 @@
                 }
             ],
             "code": "DEFAULT",
-            "createdBy": {
-                "displayName": "Phil Larsen Donnelly",
-                "id": "fCywjKEOv3G",
-                "name": "Phil Larsen Donnelly",
-                "username": "phil"
-            },
             "dataDimensionType": "DISAGGREGATION",
             "externalAccess": false,
             "favorite": false,
@@ -681,12 +645,6 @@
             ],
             "categoryOptionGroups": [],
             "code": "DEFAULT",
-            "createdBy": {
-                "displayName": "Phil Larsen Donnelly",
-                "id": "fCywjKEOv3G",
-                "name": "Phil Larsen Donnelly",
-                "username": "phil"
-            },
             "dimensionItem": "xYerKDKCefk",
             "dimensionItemType": "CATEGORY_OPTION",
             "externalAccess": false,
@@ -819,12 +777,6 @@
     "dashboards": [
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dashboardItems": [
                 {
                     "attributeValues": [],
@@ -1423,12 +1375,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dashboardItems": [
                 {
                     "attributeValues": [],
@@ -2085,12 +2031,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dashboardItems": [
                 {
                     "attributeValues": [],
@@ -2636,12 +2576,6 @@
         {
             "aggregationType": "NONE",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "dataElements": [
                 {
                     "id": "cCQRaVSSOsY"
@@ -2724,12 +2658,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -2833,12 +2761,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -2941,12 +2863,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3047,12 +2963,6 @@
                 "id": "bjDvmb4bfuf"
             },
             "code": "GEN_CMPLT_WKS_PREG",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3125,12 +3035,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -3231,12 +3135,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3335,12 +3233,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -3444,12 +3336,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3548,12 +3434,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -3656,12 +3536,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -3778,12 +3652,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3836,12 +3704,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -3900,12 +3762,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -3962,12 +3818,6 @@
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
             },
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataElementGroups": [
                 {
                     "id": "lUCrIQStWBC"
@@ -4008,12 +3858,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
             },
             "dataElementGroups": [
                 {
@@ -4060,12 +3904,6 @@
             "attributeValues": [],
             "categoryCombo": {
                 "id": "bjDvmb4bfuf"
-            },
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
             },
             "dataElementGroups": [
                 {
@@ -4151,12 +3989,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4285,12 +4117,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4419,12 +4245,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4553,12 +4373,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4695,12 +4509,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4830,12 +4638,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -4964,12 +4766,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -5098,12 +4894,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -5233,12 +5023,6 @@
             ],
             "columns": [],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [],
             "dataElementDimensions": [
@@ -5361,12 +5145,6 @@
     "indicatorGroups": [
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "wQEVZXHToPL",
@@ -5618,12 +5396,6 @@
             "annualized": false,
             "attributeValues": [],
             "code": "VE_ENROLLMENT_NOTIFICATION_DISCREPANCY_BIRTHS",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -5672,12 +5444,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "All birth notification",
@@ -5719,12 +5485,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "VE_Birth_All Notification",
@@ -5766,12 +5526,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "All birth notification",
@@ -5814,12 +5568,6 @@
             "annualized": false,
             "attributeValues": [],
             "code": "VE_BIRTHS_WITH_UNKNOWN_WEIGHT",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "notified births",
@@ -5862,12 +5610,6 @@
             "annualized": false,
             "attributeValues": [],
             "code": "VE_ENROLLMENT_NOTIFICATION_DISCREPANCY_DEATH",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -5916,12 +5658,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{UKhl6yjlAsl}",
             "denominatorDescription": "All death notification",
@@ -5963,12 +5699,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "All Birth notification",
@@ -6010,12 +5740,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{T0vLkGyWXFk}",
             "denominatorDescription": "All stillbirth notification",
@@ -6057,12 +5781,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{cr9sKN6XcXb}",
             "denominatorDescription": "Neonatal deaths",
@@ -6104,12 +5822,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "All notified births ",
@@ -6151,12 +5863,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6198,12 +5904,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6245,12 +5945,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6292,12 +5986,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6339,12 +6027,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6386,12 +6068,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6433,12 +6109,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{zHaTCOFy9Ko}",
             "denominatorDescription": "Perinatal deaths",
@@ -6480,12 +6150,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{jv5tCdaxHlW}",
             "denominatorDescription": "Sillbirth and Live birth_All Notification",
@@ -6528,12 +6192,6 @@
             "annualized": false,
             "attributeValues": [],
             "code": "VE_ENROLLMENT_NOTIFICATION_DISCREPANCY_STILLBIRTHS",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
@@ -6582,12 +6240,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{jv5tCdaxHlW}",
             "denominatorDescription": "Sillbirth and Live birth_All Notification",
@@ -6629,12 +6281,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{T0vLkGyWXFk}",
             "denominatorDescription": "All stillbirth notification",
@@ -6677,12 +6323,6 @@
             "annualized": false,
             "attributeValues": [],
             "code": "VE_PROPORTION_STILLBIRTHS_UNKNOWN_SEX",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dataSets": [],
             "denominator": "I{T0vLkGyWXFk}",
             "denominatorDescription": "all the stillbirths",
@@ -6723,12 +6363,6 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dataSets": [],
             "denominator": "I{njYG9Zaszqs}",
             "denominatorDescription": "All birth notification",
@@ -6772,12 +6406,6 @@
         {
             "attributeValues": [],
             "code": "VE_DISCREPANCY_ENROLLED_NOTIFIED",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "SC48uYir1oR",
@@ -6842,12 +6470,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "EUTfDm4sdWr",
@@ -7051,12 +6673,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "kMqGUhogKG6",
@@ -7260,12 +6876,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "ggutOl5b3Z6",
@@ -7469,12 +7079,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "QLu6WqRCulh",
@@ -7676,12 +7280,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "UhkGDomypUz",
@@ -7883,12 +7481,6 @@
         {
             "attributeValues": [],
             "basemap": "bingLight",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "scZgsmYy0WB",
@@ -8094,12 +7686,6 @@
     "optionSets": [
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "gHkSQ7ti6zn",
@@ -8173,12 +7759,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "jumQ0TEDlf4",
@@ -8247,12 +7827,6 @@
         {
             "attributeValues": [],
             "code": "MODE_OF_DELIVERY",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "whFhwY80xAQ",
@@ -8320,12 +7894,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "BkY9x47OEff",
@@ -8363,12 +7931,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "JM Alcantra",
-                "id": "oleVLRaWhoi",
-                "name": "JM Alcantra",
-                "username": "jmalcantara"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "rkRT5bxwyAt",
@@ -8406,12 +7968,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "ocdVHauxjzI",
@@ -8450,12 +8006,6 @@
         {
             "attributeValues": [],
             "code": "GEN_SEX",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "WDUwjiW2rGH",
@@ -8559,12 +8109,6 @@
         {
             "attributeValues": [],
             "code": "STILLBIRTH_TYPE",
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "gp9d4k7cMrA",
@@ -8599,12 +8143,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "A7mNd2r3ZJe",
@@ -8639,12 +8177,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "tPXEZ46FACM",
@@ -8688,12 +8220,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "I90dDKWASnH",
@@ -10064,12 +9590,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "All notified births (live and dead)",
             "dimensionItem": "jv5tCdaxHlW",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -10153,12 +9673,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "lQhGn2lprUe",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10229,12 +9743,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "r9MCpsYsB0a",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10305,12 +9813,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "qcG2jAAuYLG",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10381,12 +9883,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "Wj5U9QWGgfI",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10457,12 +9953,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "I4HeSePNlfo",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10533,12 +10023,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "GUH77x1R3fy",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10609,12 +10093,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "All the notified births with unknown gestational age",
             "dimensionItem": "xHq2aq5lLmR",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -10686,12 +10164,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "All the notified births with unknown weight",
             "dimensionItem": "NhYlizdltmn",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -10763,12 +10235,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "jnohNIj2lcG",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10839,12 +10305,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "ODz7w6i9z9w",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -10915,12 +10375,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "dimensionItem": "DY1dmNmMS9H",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -10991,12 +10445,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "dimensionItem": "m31IAHhLr9w",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11067,12 +10515,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "dimensionItem": "LETKNhH0pqy",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11143,12 +10585,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "All the notified intrapartum stillbirths",
             "dimensionItem": "WplFPaVS0VW",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -11220,12 +10656,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "lyUv2sEPhNH",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11297,12 +10727,6 @@
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
             "code": "VE_NATURAL_MANNER_DEATH",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dimensionItem": "Fmi4xQ5zvnj",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11373,12 +10797,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "cr9sKN6XcXb",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11449,12 +10867,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "ZeuFqQuz2eH",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11526,12 +10938,6 @@
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
             "code": "VE_NONNATURAL_MANNER_DEATH",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dimensionItem": "r4luZA0lj9y",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -11602,12 +11008,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "All births whose notifications have been sent to the national CRVS",
             "dimensionItem": "njYG9Zaszqs",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -11698,12 +11098,6 @@
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
             "code": "VE_NOTIFIED_DEATHS",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "All deaths whose notifications have been sent to the national CRVS",
             "dimensionItem": "UKhl6yjlAsl",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -11787,12 +11181,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "All the notified deaths of children 0-59 months",
             "dimensionItem": "UZ0pCxYvKTH",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -11864,12 +11252,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "All the notified deaths of infants (0 to 364 days)",
             "dimensionItem": "v44BXYCQIjU",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -11942,12 +11324,6 @@
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
             "code": "VE_NOTIFIED_STILLBIRTHS",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "All stillbirth whose notification has been sent to the national CRVS",
             "dimensionItem": "T0vLkGyWXFk",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -12031,12 +11407,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "zHaTCOFy9Ko",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -12107,12 +11477,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "gjtmNSs1wDU",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -12183,12 +11547,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "hYd00nX3Cyr",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -12259,12 +11617,6 @@
             ],
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "Y2Z0acaIMVL",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{enrollment_count}",
@@ -12335,12 +11687,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "Stillbirths with gestational age 22 to 27 weeks",
             "dimensionItem": "JDKaJjTm9eW",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -12414,12 +11760,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "Stillbirths with gestational age above 27 weeks",
             "dimensionItem": "EfkZXB47U4Q",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -12491,12 +11831,6 @@
             ],
             "analyticsType": "EVENT",
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "description": "Stillbirths with gestational age up to 22 weeks",
             "dimensionItem": "RBPYsxrVqis",
             "dimensionItemType": "PROGRAM_INDICATOR",
@@ -12569,12 +11903,6 @@
             "analyticsType": "ENROLLMENT",
             "attributeValues": [],
             "code": "VE_UNKNONWN_MANNER_DEATH",
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "dimensionItem": "JAuJNaEDIlE",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "expression": "V{tei_count}",
@@ -16281,12 +15609,6 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "displayExecutionDateLabel": "Date of notification",
             "displayGenerateEventBox": true,
             "enableUserAssignment": false,
@@ -16656,12 +15978,6 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "displayExecutionDateLabel": "Date of notification",
             "displayGenerateEventBox": true,
             "enableUserAssignment": false,
@@ -17146,12 +16462,6 @@
             "attributeValues": [],
             "autoGenerateEvent": false,
             "blockEntryForm": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dataEntryForm": {
                 "id": "KEmGRDvXraX"
             },
@@ -17584,12 +16894,6 @@
                 "id": "bjDvmb4bfuf"
             },
             "completeEventsExpiryDays": 0,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "A simple form for capturing birth and death details that can be shared with CRVS systems",
             "displayEnrollmentDateLabel": "Date of enrollment",
             "displayFrontPageList": true,
@@ -18516,12 +17820,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "Z1rLc1rVHK8",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -18673,12 +17971,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "Date patient died",
             "dimensionItem": "whdKMBo0pZx",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
@@ -18730,12 +18022,6 @@
             "attributeValues": [],
             "code": "PATINFO_RESADMIN0",
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "Xhdn49gUd52",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -18860,12 +18146,6 @@
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "JM Alcantra",
-                "id": "oleVLRaWhoi",
-                "name": "JM Alcantra",
-                "username": "jmalcantara"
-            },
             "dimensionItem": "EhEPmB7n31b",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -18916,12 +18196,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "Ewi7FUfcHAD",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19042,12 +18316,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "Number to contact to provide or receive additional information.",
             "dimensionItem": "pjexi5YaAPa",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
@@ -19121,12 +18389,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "ftFBu8mHZ4H",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19209,12 +18471,6 @@
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "pqM2VmAUQHs",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19296,12 +18552,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "EpbquVl5OD6",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19384,12 +18634,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "Nv4K5ob82z3",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19432,12 +18676,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "egRR3lyqD0F",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19480,12 +18718,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "Number to contact to provide or receive additional information.",
             "dimensionItem": "qEedHpgzYyU",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
@@ -19559,12 +18791,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "WnWf8rKBoHa",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19627,12 +18853,6 @@
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "SvRj2LWkBcd",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19694,12 +18914,6 @@
             "aggregationType": "NONE",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "H1x8iE0vgez",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19762,12 +18976,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "YUXaFh1V5pp",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19807,12 +19015,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "INDIA HISP",
-                "id": "fYHQVE0JR3j",
-                "name": "INDIA HISP",
-                "username": "HISPINDIA"
-            },
             "dimensionItem": "knvn4qY0fhf",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19852,12 +19054,6 @@
             "aggregationType": "COUNT",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "dimensionItem": "ArHk8hosBBh",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
             "displayInListNoProgram": false,
@@ -19917,12 +19113,6 @@
             "aggregationType": "SUM",
             "attributeValues": [],
             "confidential": false,
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "description": "When reporting Stillbirths, user should check this checkbox. If so, sex will be hidden",
             "dimensionItem": "u0dqjGQ3Z80",
             "dimensionItemType": "PROGRAM_ATTRIBUTE",
@@ -20317,12 +19507,6 @@
             "allowAuditLog": false,
             "attributeValues": [],
             "code": "PERSON",
-            "createdBy": {
-                "displayName": "Admin WHO",
-                "id": "vUeLeQMSwhN",
-                "name": "Admin WHO",
-                "username": "who"
-            },
             "description": "Person",
             "externalAccess": false,
             "favorite": false,
@@ -20731,12 +19915,6 @@
     "userGroups": [
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "tTYojpDtXWy",
@@ -20761,12 +19939,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "IS1cTC1BLpJ",
@@ -20791,12 +19963,6 @@
         },
         {
             "attributeValues": [],
-            "createdBy": {
-                "displayName": "Robot Admin",
-                "id": "FQFH90yV8U9",
-                "name": "Robot Admin",
-                "username": "robot"
-            },
             "externalAccess": false,
             "favorite": false,
             "id": "m02whPYZ3EO",
@@ -20893,12 +20059,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21053,12 +20213,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21211,12 +20365,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21375,12 +20523,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21539,12 +20681,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21699,12 +20835,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -21857,12 +20987,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22015,12 +21139,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22175,12 +21293,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22335,12 +21447,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22505,12 +21611,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22663,12 +21763,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22823,12 +21917,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -22981,12 +22069,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23145,12 +22227,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23309,12 +22385,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23469,12 +22539,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23627,12 +22691,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23785,12 +22843,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -23943,12 +22995,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24101,12 +23147,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24261,12 +23301,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24421,12 +23455,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24581,12 +23609,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24739,12 +23761,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -24897,12 +23913,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25055,12 +24065,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25219,12 +24223,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25383,12 +24381,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25543,12 +24535,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25703,12 +24689,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -25861,12 +24841,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -26019,12 +24993,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -26179,12 +25147,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
@@ -26337,12 +25299,6 @@
                 }
             ],
             "completedOnly": false,
-            "createdBy": {
-                "displayName": "Vittoria Crispino",
-                "id": "qBPqtsnC8dU",
-                "name": "Vittoria Crispino",
-                "username": "Vitto"
-            },
             "cumulativeValues": false,
             "dataDimensionItems": [
                 {
