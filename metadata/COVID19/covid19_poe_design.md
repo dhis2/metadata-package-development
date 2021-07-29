@@ -6,7 +6,7 @@ Package version: 0.3.1
 
 DHIS2 Version compatibility 2.33.2
 
-Demo: [https://covid19.dhis2.org/](https://covid19.dhis2.org/demo)
+Demo: [https://covid19.dhis2.org/](https://covid19.dhis2.org)
 
 ## Purpose
 
