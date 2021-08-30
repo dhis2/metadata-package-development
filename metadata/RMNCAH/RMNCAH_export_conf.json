@@ -41,14 +41,14 @@
         "userExport": false,
         "publicAccess": {
           "metadata": "VIEW",
-          "data": "VIEW"
+          "data": "NONE"
         }
       },
       "_type": "completeAggregate",
       "_url": [
-        "https://who-dev.dhis2.org/dev"
+        "https://who.sandbox.dhis2.org/dev235"
       ],
-      "_version": "1.0",
+      "_version": "1.1.0",
       "dashboardIds": [
         "XRx2x8w50on"
       ],
@@ -127,9 +127,9 @@
       },
       "_type": "dashboardAggregate",
       "_url": [
-        "https://who-dev.dhis2.org/dev"
+        "https://who.sandbox.dhis2.org/dev235"
       ],
-      "_version": "1.0",
+      "_version": "1.1.0",
       "dashboardIds": [
         "XRx2x8w50on"
       ],
