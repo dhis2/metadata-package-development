@@ -20,13 +20,81 @@
         <th>Available</th>
       </tr>
       <tr>
-        <td rowspan=3>EPI_AEFI_SUSP_NONSER</td>
-        <td align="left">[CONFIG] EPI - AEFI suspected - non-serious</td>
+        <td rowspan=3>EPI_VACCARDS_DRATE</td>
+        <td align="left">[CONFIG] EPI - Vaccination cards stock discrepancy rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: AEFI suspected - non-serious
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_IPV_DRATE</td>
+        <td align="left">[CONFIG] EPI - IPV stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - Yellow fever open vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses used - administered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Yellow fever doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - OPV stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ROTA_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - Rota stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Rota stockout days
         </td>
         <td align="center">▢</td>
       </tr>
@@ -37,69 +105,70 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_AEFI_SUSP_SER</td>
-        <td align="left">[CONFIG] EPI - AEFI suspected - serious</td>
+        <td rowspan=3>EPI_IPV OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - IPV open vial wastage rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: AEFI suspected - serious
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses used - administered
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+          <p style="margin: 0px; margin-left: 24px;">Denominator: IPV doses used
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_BCG_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - BCG closed vial wastage rate (%)</td>
+        <td rowspan=3>EPI_REP_COMP_PERC</td>
+        <td align="left">[CONFIG] EPI - Reporting completeness (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses wasted (closed vial)
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: BCG doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_BCG_COV</td>
-        <td align="left">[CONFIG] EPI - BCG coverage (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Live births
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_BCG_GIVEN</td>
-        <td align="left">[CONFIG] EPI - BCG doses given</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses given
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Immunisation reports received
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Immunisation reports expected
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - BCG stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_RV_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - RV closed vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: RV doses wasted (close vial)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: RV doses used
         </td>
         <td align="center">▢</td>
       </tr>
@@ -110,79 +179,13 @@
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses used - administered
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses used - BCG doses administered
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
           <p style="margin: 0px; margin-left: 24px;">Denominator: BCG doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_BCG_MR1_DROPOUT</td>
-        <td align="left">[CONFIG] EPI - BCG to MR 1 dropout rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG - MR1 doses administered < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: BCG doses administered < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_ALRMTEMP_HIGH</td>
-        <td align="left">[CONFIG] EPI - Cold chain high temperature alarms</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain high temperature alarms
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_ALRMTEMP_LOW</td>
-        <td align="left">[CONFIG] EPI - Cold chain low temperature alarms</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain low temperature alarms
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_CC_REFR_OK</td>
-        <td align="left">[CONFIG] EPI - Cold chain refrigerator functional</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain refrigerator functional
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
         </td>
         <td align="center">▢</td>
       </tr>
@@ -204,28 +207,13 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_DPT1_COV</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-Hib 1 coverage (%)</td>
+        <td rowspan=3>EPI_ROTA_USED</td>
+        <td align="left">[CONFIG] EPI - Rota stock used</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib 1 doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_DPT_HEPB_HIB1_GIVEN</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-HIB 1 doses given</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB 1 doses given
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Rota doses used
         </td>
         <td align="center">▢</td>
       </tr>
@@ -236,85 +224,19 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_DPT3_COV</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-Hib 3 coverage (%)</td>
+        <td rowspan=3>EPI_TT_DRATE</td>
+        <td align="left">[CONFIG] EPI - TT stock discrepancy rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib 3 doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_DPT_HEB_HIB3_GIVEN</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-HIB 3 doses given</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB 3 doses given
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_DPT_HEPB_HIB_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-Hib closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT doses wasted (closed vial)
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: DPT-HepB-Hib doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_DPT_HEPB_HIB_OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - DPT-HepB-Hib open vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib doses used - adminstered
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: DPT-HepB-HIB doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_IPV CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - IPV closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses wasted (closed vial)
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: IPV doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
         </td>
         <td align="center">▢</td>
       </tr>
@@ -325,54 +247,122 @@
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_IPV OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - IPV open vial wastage rate (%)</td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses given < 1 year</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses used - administered
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION_5ML_DRATE</td>
+        <td align="left">[CONFIG] EPI - Sdilution 5ml stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: IPV doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_MR_1_COV</td>
-        <td align="left">[CONFIG] EPI - MR 1 coverage (%)</td>
+        <td rowspan=3>EPI_IPV_CBAL</td>
+        <td align="left">[CONFIG] EPI - IPV stock closing balance</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 1 doses given (< 1 year)</td> <td align="center">▢
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses closing balance
         </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_MR_1_GIVEN</td>
-        <td align="left">[CONFIG] EPI - MR 1 doses given</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 1 doses given
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_MR1_DROPOUT</td>
+        <td align="left">[CONFIG] EPI - BCG to MR 1 dropout rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG - MR1 doses administered < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: BCG doses administered < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - OPV closed vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses wasted (closed vial)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: OPV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_DRATE</td>
+        <td align="left">[CONFIG] EPI - Yellow fever stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - MR stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_GIVEN</td>
+        <td align="left">[CONFIG] EPI - BCG doses given</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses given
         </td>
         <td align="center">▢</td>
       </tr>
@@ -400,6 +390,627 @@
         <td align="center">▢</td>
       </tr>
       <tr>
+        <td rowspan=3>EPI_BCG_USED</td>
+        <td align="left">[CONFIG] EPI - BCG stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_IPV_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - IPV stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION_2ML_USED</td>
+        <td align="left">[CONFIG] EPI - Sdilution 2ml stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 2ml used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_USED</td>
+        <td align="left">[CONFIG] EPI - TT stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_RV_2_COV</td>
+        <td align="left">[CONFIG] EPI - RV 2 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: RV 2 doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - TT stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_CBAL</td>
+        <td align="left">[CONFIG] EPI - OPV stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEPB_HIB_DRATE</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_AEFI_SUSP_SER</td>
+        <td align="left">[CONFIG] EPI - AEFI suspected - serious</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: AEFI suspected - serious
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_IPV_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - IPV stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPTHEPBHIB_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - TT closed vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses wasted
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: TT doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_USED</td>
+        <td align="left">[CONFIG] EPI - OPV stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_DRATE</td>
+        <td align="left">[CONFIG] EPI - BCG stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_3_COV</td>
+        <td align="left">[CONFIG] EPI - OPV 3 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV 3 doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - TT open vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses used - administered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: TT doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ADS0.5_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - ADS 0.5 ml stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEPB_HIB_USED</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_1_GIVEN</td>
+        <td align="left">[CONFIG] EPI - MR 1 doses given</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 1 doses given
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT3_COV</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-Hib 3 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib 3 doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_DRATE</td>
+        <td align="left">[CONFIG] EPI - PCV stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT-HEPB-HIB_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION_5ML_CBAL</td>
+        <td align="left">[CONFIG] EPI - Sdilution 5ml stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 5ml closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEB_HIB3_GIVEN</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB 3 doses given</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB 3 doses given
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION_2ML_DRATE</td>
+        <td align="left">[CONFIG] EPI - Sdilution 2ml stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - Yellow fever closed vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses wasted (closed vial)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Yellow fever doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION5_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - Sdilution 5ml stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ROTA_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - Rota stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUT5ML_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - Sdilution 5ml stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 5ml stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - OPV open vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses used - administered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: OPV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_CBAL</td>
+        <td align="left">[CONFIG] EPI - PCV stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_2_GIVEN</td>
+        <td align="left">[CONFIG] EPI - MR 2 doses given </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 2 doses given (number)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_CBAL</td>
+        <td align="left">[CONFIG] EPI - MR stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OUTREACH</td>
+        <td align="left">[CONFIG] EPI - Outreach immunization sessions conducted (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Outreach immunization sessions held
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Outreach immunization sessions planned
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_GIVEN</td>
+        <td align="left">[CONFIG] EPI - Yellow fever doses given</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses given
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT1_COV</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-Hib 1 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib 1 doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - YF stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
         <td rowspan=3>EPI_MR_2_COV</td>
         <td align="left">[CONFIG] EPI - MR 2 coverage (%)</td>
         <td align="center">▢</td>
@@ -417,13 +1028,229 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_MR_2_GIVEN</td>
-        <td align="left">[CONFIG] EPI - MR 2 doses given </td>
+        <td rowspan=3>EPI_BCG_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - BCG closed vial wastage rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 2 doses given (number)
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses wasted (closed vial)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: BCG doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_1_COV</td>
+        <td align="left">[CONFIG] EPI - MR 1 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR 1 doses given (< 1 year)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - PCV stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ADS_0.5ML_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - ADS 0.5 ml stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: ADS 0.5 ml stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEPB_HIB_CBAL</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_OP_WASTE</td>
+        <td align="left">[CONFIG] EPI - PCV open vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses used - administered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: PCV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_3_COV</td>
+        <td align="left">[CONFIG] EPI - PCV 3 coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV 3 doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_COV</td>
+        <td align="left">[CONFIG] EPI - BCG coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Live births
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_USED</td>
+        <td align="left">[CONFIG] EPI - Yellow fever stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - TT stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: TT stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_AEFI_SUSP_NONSER</td>
+        <td align="left">[CONFIG] EPI - AEFI suspected - non-serious</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: AEFI suspected - non-serious
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_OPV_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - OPV stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - BCG stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_TT_CBAL</td>
+        <td align="left">[CONFIG] EPI - TT stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses closing balance
         </td>
         <td align="center">▢</td>
       </tr>
@@ -451,183 +1278,138 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_MR_OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - MR open vial wastage rate (%)</td>
+        <td rowspan=3>EPI_OPV_DRATE</td>
+        <td align="left">[CONFIG] EPI - OPV stock discrepancy rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: MR doses used - administered
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: MR doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_OPV_3_COV</td>
-        <td align="left">[CONFIG] EPI - OPV 3 coverage (%)</td>
+        <td rowspan=3>EPI_SDILUTION_2ML_CBAL</td>
+        <td align="left">[CONFIG] EPI - Sdilution 2ml stock closing balance</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV 3 doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_OPV_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - OPV closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses wasted (closed vial)
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 2ml closing balance
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: OPV doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_OPV_OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - OPV open vial wastage rate (%)</td>
+        <td rowspan=3>EPI_MR_USED</td>
+        <td align="left">[CONFIG] EPI - MR stock used</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: OPV doses used - administered
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: OPV doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_OUTREACH</td>
-        <td align="left">[CONFIG] EPI - Outreach immunization sessions conducted (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Outreach immunisation sessions held
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR doses used
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Outreach immunisation sessions planned
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_PCV_3_COV</td>
-        <td align="left">[CONFIG] EPI - PCV 3 coverage (%)</td>
+        <td rowspan=3>EPI_MR_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - MR stock coverage time</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV 3 doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_PCV_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - PCV closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses wasted (close vial)
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: PCV doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_PCV_OP_WASTE</td>
-        <td align="left">[CONFIG] EPI - PCV open vial wastage rate (%)</td>
+        <td rowspan=3>EPI_ADS_0.5_CBAL</td>
+        <td align="left">[CONFIG] EPI - ADS 0.5 ml stock closing balance</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses used - administered
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: PCV doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_REP_COMP_PERC</td>
-        <td align="left">[CONFIG] EPI - Reporting completeness (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Immunisation reports received
+          <p style="margin: 0px; margin-left: 24px;">Numerator: ADS 0.5 ml closing balance
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Immunisation reports expected
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_RV_2_COV</td>
-        <td align="left">[CONFIG] EPI - RV 2 coverage (%)</td>
+        <td rowspan=3>EPI_SDILUT2ML_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - Sdilution 2ml stockout days</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: RV 2 doses given < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_RV_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - RV closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: RV doses wasted (close vial)
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 2ml stockout days
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: RV doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEPB_HIB_OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-Hib open vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-Hib doses used - adminstered
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: DPT-HepB-HIB doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - PCV stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
         </td>
         <td align="center">▢</td>
       </tr>
@@ -649,79 +1431,64 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_TT_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - TT closed vial wastage rate (%)</td>
+        <td rowspan=3>EPI_DPT_HEPB_HIB_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-Hib closed vial wastage rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses wasted
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT doses wasted (closed vial)
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: TT doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: DPT-HepB-Hib doses used
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_TT_OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - TT open vial wastage rate (%)</td>
+        <td rowspan=3>EPI_PCV_CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - PCV closed vial wastage rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: TT doses used - administered
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: TT doses used
-        </td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_YF_CV_WASTE</td>
-        <td align="left">[CONFIG] EPI - Yellow fever closed vial wastage rate (%)</td>
-        <td align="center">▢</td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses wasted (closed vial)
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses wasted (close vial)
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Yellow fever doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: PCV doses used
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_YF_COV</td>
-        <td align="left">[CONFIG] EPI - Yellow fever coverage (%)</td>
+        <td rowspan=3>EPI_MR_OV_WASTE</td>
+        <td align="left">[CONFIG] EPI - MR open vial wastage rate (%)</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: YF doses given < 1 year</td> <td align="center">▢
+          <p style="margin: 0px; margin-left: 24px;">Numerator: MR doses used - administered
         </td>
-      </tr>
-      <tr>
-        <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td> <td align="center">▢
-        </td>
-      </tr>
-      <tr>
-        <td rowspan=3>EPI_YF_GIVEN</td>
-        <td align="left">[CONFIG] EPI - Yellow fever doses given</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses given
+          <p style="margin: 0px; margin-left: 24px;">Denominator: MR doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_IPV_USED</td>
+        <td align="left">[CONFIG] EPI - IPV stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses used
         </td>
         <td align="center">▢</td>
       </tr>
@@ -732,19 +1499,323 @@
         <td align="center">▢</td>
       </tr>
       <tr>
-        <td rowspan=3>EPI_YF_OV_WASTE</td>
-        <td align="left">[CONFIG] EPI - Yellow fever open vial wastage rate (%)</td>
+        <td rowspan=3>EPI_ALRMTEMP_HIGH</td>
+        <td align="left">[CONFIG] EPI - Cold chain high temperature alarms</td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses used - administered
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain high temperature alarms
         </td>
         <td align="center">▢</td>
       </tr>
       <tr>
         <td>
-          <p style="margin: 0px; margin-left: 24px;">Denominator: Yellow fever doses used
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_MR_DRATE</td>
+        <td align="left">[CONFIG] EPI - MR stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ADS_0.5_USED</td>
+        <td align="left">[CONFIG] EPI - ADS 0.5 ml stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: ADS 0.5 ml used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_CC_REFR_OK</td>
+        <td align="left">[CONFIG] EPI - Cold chain refrigerator functional</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain refrigerator functional
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_IPV CV_WASTE</td>
+        <td align="left">[CONFIG] EPI - IPV closed vial wastage rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: IPV doses wasted (closed vial)
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: IPV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_COV</td>
+        <td align="left">[CONFIG] EPI - Yellow fever coverage (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: YF doses given < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Population < 1 year</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ROTA_CBAL</td>
+        <td align="left">[CONFIG] EPI - Rota stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Rota doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_OSDAYS</td>
+        <td align="left">[CONFIG] EPI - Yellow fever stockout days</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever stockout days
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION_5ML_USED</td>
+        <td align="left">[CONFIG] EPI - Sdilution 5ml stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Sdilution 5ml used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ADS_0.5_DRATE</td>
+        <td align="left">[CONFIG] EPI - ADS 0.5 ml stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_BCG_CBAL</td>
+        <td align="left">[CONFIG] EPI - BCG stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: BCG doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_DPT_HEPB_HIB1_GIVEN</td>
+        <td align="left">[CONFIG] EPI - DPT-HepB-HIB 1 doses given</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: DPT-HepB-HIB 1 doses given
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SDILUTION2_STOCK_COVERAGE_TIME</td>
+        <td align="left">[CONFIG] EPI - Sdilution 2ml stock coverage time</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: usable stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: consumed stock
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_SAFEBOX_DRATE</td>
+        <td align="left">[CONFIG] EPI - Safety boxes stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_PCV_USED</td>
+        <td align="left">[CONFIG] EPI - PCV stock used</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: PCV doses used
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ROTA_DRATE</td>
+        <td align="left">[CONFIG] EPI - Rota stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_YF_CBAL</td>
+        <td align="left">[CONFIG] EPI - Yellow fever stock closing balance</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Yellow fever doses closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI_ALRMTEMP_LOW</td>
+        <td align="left">[CONFIG] EPI - Cold chain low temperature alarms</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Cold chain low temperature alarms
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: 1
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td rowspan=3>EPI _ADS_0.05_DRATE</td>
+        <td align="left">[CONFIG] EPI - ADS 0.05 ml stock discrepancy rate (%)</td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Numerator: Stock on hand - Closing balance
+        </td>
+        <td align="center">▢</td>
+      </tr>
+      <tr>
+        <td>
+          <p style="margin: 0px; margin-left: 24px;">Denominator: Stock on hand
         </td>
         <td align="center">▢</td>
       </tr>
