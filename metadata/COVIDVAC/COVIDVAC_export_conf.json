@@ -11,7 +11,7 @@
         "ownerId": "KB1ivLZXMv8"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "OeiDCnG3Pv2",
@@ -24,7 +24,7 @@
             "data": "VIEW"
           },
           {
-            "id": "e2QMDWpq88P",
+            "id": "AxmuDEHQApq",
             "metadata": "VIEW",
             "data": "EDIT"
           }
@@ -35,14 +35,14 @@
         "userExport": false,
         "publicAccess": {
           "metadata": "VIEW",
-          "data": "VIEW"
+          "data": "NONE"
         }
       },
       "_type": "dashboardAggregate",
       "_url": [
         "https://who-dev.dhis2.org/covax_agg"
       ],
-      "_version": "1.2",
+      "_version": "1.2.1",
       "customObjects": [
         {
           "objectIds": [
@@ -287,12 +287,6 @@
             "eZ2iNuEX35V"
           ],
           "objectType": "indicators"
-        },
-        {
-          "objectIds": [
-            "TIIiQ09g7Bl"
-          ],
-          "objectType": "indicatorGroups"
         },
         {
           "objectIds": [
@@ -310,8 +304,10 @@
       "dashboardIds": [
         "XAXoJuC3hvM"
       ],
-      "exportIndicatorGroupsIds": [],
       "indicatorGroupIds": [
+        "TIIiQ09g7Bl"
+      ],
+      "exportIndicatorGroupsIds": [
         "TIIiQ09g7Bl"
       ]
     },
@@ -326,7 +322,7 @@
         "ownerId": "KB1ivLZXMv8"
       },
       "_sharing": {
-        "groupMode": "FILTER",
+        "groupMode": "OVERWRITE",
         "groups": [
           {
             "id": "OeiDCnG3Pv2",
@@ -339,7 +335,7 @@
             "data": "VIEW"
           },
           {
-            "id": "e2QMDWpq88P",
+            "id": "AxmuDEHQApq",
             "metadata": "VIEW",
             "data": "EDIT"
           }
@@ -350,14 +346,14 @@
         "userExport": false,
         "publicAccess": {
           "metadata": "VIEW",
-          "data": "VIEW"
+          "data": "NONE"
         }
       },
       "_type": "completeAggregate",
       "_url": [
         "https://who-dev.dhis2.org/covax_agg"
       ],
-      "_version": "1.2",
+      "_version": "1.2.1",
       "customObjects": [
         {
           "objectIds": [
@@ -602,12 +598,6 @@
             "eZ2iNuEX35V"
           ],
           "objectType": "indicators"
-        },
-        {
-          "objectIds": [
-            "TIIiQ09g7Bl"
-          ],
-          "objectType": "indicatorGroups"
         },
         {
           "objectIds": [
@@ -633,13 +623,21 @@
         "gl7JRAdXkhR",
         "AyprDvhGpNr"
       ],
-      "exportDataSetIds": [],
-      "exportIndicatorGroupsIds": [],
+      "exportDataSetIds": [
+        "ZIajFXSOwEz",
+        "gl7JRAdXkhR",
+        "AyprDvhGpNr"
+      ],
       "validationRuleGroupIds": [
         "Z7DO3nEThHI"
       ],
       "predictorGroupIds": [],
-      "indicatorGroupIds": []
+      "indicatorGroupIds": [
+        "TIIiQ09g7Bl"
+      ],
+      "exportIndicatorGroupsIds": [
+        "TIIiQ09g7Bl"
+      ]
     }
   ]
 }

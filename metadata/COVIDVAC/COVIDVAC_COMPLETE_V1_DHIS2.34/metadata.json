@@ -240,7 +240,7 @@
 			"dataDimension": false,
 			"dataDimensionType": "DISAGGREGATION",
 			"id": "GLevLNI9wkl",
-			"lastUpdated": "2021-04-29T11:23:40.156",
+			"lastUpdated": "2021-09-15T11:37:48.543",
 			"name": "default",
 			"publicAccess": "r-------",
 			"translations": [
@@ -752,55 +752,14 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "BaOUxUBEAp1"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.552",
-			"id": "AnEOc7eqTPG",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:37.458",
-			"name": "Open vial, Other reason",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Otevřená lahvička, jiný důvod"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, otra razón"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, Autre raison"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, Outra razão"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
 				"id": "AJ2NILzEPpt"
 			},
 			"categoryOptions": [
 				{
-					"id": "T8aNcbtPKBo"
+					"id": "MP15bHaQh2x"
 				},
 				{
-					"id": "MP15bHaQh2x"
+					"id": "T8aNcbtPKBo"
 				}
 			],
 			"created": "2021-04-13T13:00:55.970",
@@ -823,10 +782,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "jAbqv8bnCqT"
+					"id": "Rcn9QLnWlua"
 				},
 				{
-					"id": "Rcn9QLnWlua"
+					"id": "jAbqv8bnCqT"
 				}
 			],
 			"created": "2020-12-08T13:27:54.305",
@@ -889,13 +848,13 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "OKMPkKma5Ja"
-				},
-				{
 					"id": "Jkv8y0bywtg"
 				},
 				{
 					"id": "MP15bHaQh2x"
+				},
+				{
+					"id": "OKMPkKma5Ja"
 				}
 			],
 			"created": "2021-04-13T12:55:05.422",
@@ -913,47 +872,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Adulte, homme, conditions sous-jacentes"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "mlwTknbcGP4"
-				},
-				{
-					"id": "Rcn9QLnWlua"
-				}
-			],
-			"created": "2021-01-16T18:22:01.472",
-			"id": "EWaVKxhCw7E",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:38.797",
-			"name": "Closed vial, Color change (VVM)",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, změna barvy (VVM)"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, cambio de color (VVM)"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, Changement de couleur (PCV)"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, mudança de cor (VVM)"
 				}
 			]
 		},
@@ -1044,13 +962,13 @@
 			},
 			"categoryOptions": [
 				{
+					"id": "MP15bHaQh2x"
+				},
+				{
 					"id": "T8aNcbtPKBo"
 				},
 				{
 					"id": "OKMPkKma5Ja"
-				},
-				{
-					"id": "MP15bHaQh2x"
 				}
 			],
 			"created": "2021-04-13T12:55:05.439",
@@ -1263,42 +1181,6 @@
 					"id": "L8NDNe93WYp"
 				}
 			],
-			"created": "2021-01-16T18:22:01.532",
-			"id": "iemSXBenfIl",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:45.613",
-			"name": "Open vial, Color change (VVM)",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, cambio de color (VVM)"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, changement de couleur (PCV)"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, mudança de cor (VVM)"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "mlwTknbcGP4"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
 			"created": "2020-12-08T13:27:54.289",
 			"id": "ikD0qzTRApO",
 			"ignoreApproval": false,
@@ -1336,42 +1218,6 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "jAbqv8bnCqT"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.506",
-			"id": "k3G5n6cjo1H",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:45.816",
-			"name": "Open vial, Contamination",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, contaminación"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, contamination"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, contaminação"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
 					"id": "L8NDNe93WYp"
 				},
 				{
@@ -1392,10 +1238,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "T8aNcbtPKBo"
+					"id": "MP15bHaQh2x"
 				},
 				{
-					"id": "MP15bHaQh2x"
+					"id": "T8aNcbtPKBo"
 				},
 				{
 					"id": "or3mM6aRNHM"
@@ -1421,10 +1267,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "T8aNcbtPKBo"
+					"id": "FFA9e1yIXCT"
 				},
 				{
-					"id": "FFA9e1yIXCT"
+					"id": "T8aNcbtPKBo"
 				}
 			],
 			"created": "2021-04-13T13:00:55.972",
@@ -1442,47 +1288,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Adulte plus âgé, Femme"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "BoDgo1kqT4s"
-				}
-			],
-			"created": "2021-01-16T18:22:01.453",
-			"id": "MkryG3woLLJ",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:41.427",
-			"name": "Closed vial, Partial use",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, částečné použití"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, Uso parcial"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, utilisation partielle"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, uso parcial"
 				}
 			]
 		},
@@ -1638,10 +1443,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "L8NDNe93WYp"
+					"id": "tYiGorSNnzL"
 				},
 				{
-					"id": "tYiGorSNnzL"
+					"id": "L8NDNe93WYp"
 				}
 			],
 			"created": "2020-12-08T13:27:54.294",
@@ -1676,47 +1481,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "AstraZeneca / AZ-SKBio"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "jAbqv8bnCqT"
-				},
-				{
-					"id": "Rcn9QLnWlua"
-				}
-			],
-			"created": "2021-01-16T18:22:01.438",
-			"id": "QVo1zpPICJN",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:42.045",
-			"name": "Closed vial, Contamination",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, kontaminace"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, contaminación"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, contamination"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, contaminação"
 				}
 			]
 		},
@@ -1763,47 +1527,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Moderna / ARNm-1273"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "BoDgo1kqT4s"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.517",
-			"id": "RPzlBMTlOxz",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:42.241",
-			"name": "Open vial, Partial use",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Otevřená lahvička, Částečné použití"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, Uso parcial"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, utilisation partielle"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, uso parcial"
 				}
 			]
 		},
@@ -1886,10 +1609,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "OKMPkKma5Ja"
+					"id": "Jkv8y0bywtg"
 				},
 				{
-					"id": "Jkv8y0bywtg"
+					"id": "OKMPkKma5Ja"
 				},
 				{
 					"id": "FFA9e1yIXCT"
@@ -1987,42 +1710,6 @@
 		{
 			"attributeValues": [],
 			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "BaOUxUBEAp1"
-				}
-			],
-			"created": "2021-01-16T18:22:01.500",
-			"id": "utXnwFzJgiA",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:46.582",
-			"name": "Closed vial, Other reason",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, otro motivo"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, autre raison"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, outro motivo"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
 				"id": "OqByN3juZca"
 			},
 			"categoryOptions": [
@@ -2056,10 +1743,10 @@
 			},
 			"categoryOptions": [
 				{
-					"id": "mlwTknbcGP4"
+					"id": "Rcn9QLnWlua"
 				},
 				{
-					"id": "Rcn9QLnWlua"
+					"id": "mlwTknbcGP4"
 				}
 			],
 			"created": "2020-12-08T13:27:54.320",
@@ -2135,78 +1822,6 @@
 					"locale": "fr",
 					"property": "NAME",
 					"value": "Sinopharm/Coronavac"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "tYiGorSNnzL"
-				}
-			],
-			"created": "2021-01-16T18:22:01.484",
-			"id": "x0WvdmAkQqF",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:46.967",
-			"name": "Closed vial, Expiry",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, Caducidad"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, expiration"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, validade"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "L8NDNe93WYp"
-				},
-				{
-					"id": "tYiGorSNnzL"
-				}
-			],
-			"created": "2021-01-16T18:22:01.542",
-			"id": "x1IX3hw1Xwl",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:47.166",
-			"name": "Open vial, Expiry",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, Caducidad"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, expiration"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, validade"
 				}
 			]
 		},
@@ -3021,7 +2636,7 @@
 			"lastUpdated": "2021-02-24T23:23:47.840",
 			"name": "Other reason",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Other reason",
 			"translations": [
 				{
@@ -3069,7 +2684,7 @@
 			"lastUpdated": "2021-02-24T23:23:48.030",
 			"name": "Partial use",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Partial use",
 			"translations": [
 				{
@@ -3117,7 +2732,7 @@
 			"lastUpdated": "2021-04-26T13:54:25.656",
 			"name": "Johnson&Johnson",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Johnson&Johnson",
 			"translations": [
 				{
@@ -3145,7 +2760,7 @@
 			"lastUpdated": "2021-04-26T13:54:24.352",
 			"name": "AstraZeneca/AZD12222",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "AstraZeneca/AZD12222",
 			"translations": [
 				{
@@ -3173,7 +2788,7 @@
 			"lastUpdated": "2021-03-25T12:49:59.219",
 			"name": "Female",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Female",
 			"translations": [
 				{
@@ -3291,7 +2906,7 @@
 			"lastUpdated": "2021-02-24T15:09:26.177",
 			"name": "Vaccine3",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Vaccine3",
 			"translations": [
 				{
@@ -3339,7 +2954,7 @@
 			"lastUpdated": "2021-02-24T15:09:25.378",
 			"name": "Vaccine2",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Vaccine2",
 			"translations": [
 				{
@@ -3397,7 +3012,7 @@
 			"lastUpdated": "2021-02-24T23:23:49.242",
 			"name": "Contamination",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Contamination",
 			"translations": [
 				{
@@ -3445,7 +3060,7 @@
 			"lastUpdated": "2021-04-26T13:54:24.617",
 			"name": "Adult",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Adult",
 			"translations": [
 				{
@@ -3473,7 +3088,7 @@
 			"lastUpdated": "2021-04-26T13:54:24.875",
 			"name": "AstraZeneca/AZ-SKBio",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "AstraZeneca/AZ-SKBio",
 			"translations": [
 				{
@@ -3511,7 +3126,7 @@
 			"lastUpdated": "2021-02-24T23:23:48.219",
 			"name": "Open vial",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Open vial",
 			"translations": [
 				{
@@ -3559,7 +3174,7 @@
 			"lastUpdated": "2021-04-26T13:54:25.916",
 			"name": "Sinopharm/Coronavac",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "SinovacSinopharm/Coronavac",
 			"translations": [
 				{
@@ -3587,7 +3202,7 @@
 			"lastUpdated": "2021-02-24T23:23:49.642",
 			"name": "Non-Serious AEFI",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Non-Serious AEFI",
 			"translations": [
 				{
@@ -3635,7 +3250,7 @@
 			"lastUpdated": "2021-04-26T13:54:26.170",
 			"name": "Pfizer/Biontech/Comirnaty",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Pfizer/Biontech/Comirnaty",
 			"translations": [
 				{
@@ -3663,7 +3278,7 @@
 			"lastUpdated": "2021-02-24T23:23:50.046",
 			"name": "Serious AEFI",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Serious AEFI",
 			"translations": [
 				{
@@ -3711,7 +3326,7 @@
 			"lastUpdated": "2021-02-24T23:23:50.249",
 			"name": "Color change (VVM)",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Color change (VVM)",
 			"translations": [
 				{
@@ -3759,7 +3374,7 @@
 			"lastUpdated": "2021-03-25T12:50:42.225",
 			"name": "Male",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Male",
 			"translations": [
 				{
@@ -3877,7 +3492,7 @@
 			"lastUpdated": "2021-04-26T13:54:25.132",
 			"name": "Moderna/mRNA-1273",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Moderna/mRNA-1273",
 			"translations": [
 				{
@@ -3905,7 +3520,7 @@
 			"lastUpdated": "2021-04-26T13:54:26.429",
 			"name": "Gamaleya/Sputnik V",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Gamaleya/Sputnik V",
 			"translations": [
 				{
@@ -3933,7 +3548,7 @@
 			"lastUpdated": "2021-04-26T13:54:24.085",
 			"name": "Underlying conditions",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Underling conditions",
 			"translations": [
 				{
@@ -3966,7 +3581,7 @@
 			"lastUpdated": "2021-04-13T10:26:12.772",
 			"name": "No underlying conditions",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "No underlying conditions",
 			"translations": [
 				{
@@ -3994,7 +3609,7 @@
 			"lastUpdated": "2021-02-24T23:23:48.411",
 			"name": "Closed vial",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Closed vial",
 			"translations": [
 				{
@@ -4042,7 +3657,7 @@
 			"lastUpdated": "2021-02-24T23:23:50.479",
 			"name": "Exposure",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Exposure",
 			"translations": [
 				{
@@ -4090,7 +3705,7 @@
 			"lastUpdated": "2021-04-26T13:54:25.392",
 			"name": "Older adult",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Older adult",
 			"translations": [
 				{
@@ -4118,7 +3733,7 @@
 			"lastUpdated": "2021-02-24T23:23:50.687",
 			"name": "Expiry",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "Expiry",
 			"translations": [
 				{
@@ -4166,7 +3781,7 @@
 			"lastUpdated": "2021-02-24T23:23:47.647",
 			"name": "default",
 			"organisationUnits": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"shortName": "default",
 			"translations": [
 				{
@@ -4501,6 +4116,7 @@
 					"lastUpdated": "2021-04-22T09:56:31.623",
 					"reports": [],
 					"resources": [],
+					"shape": "NORMAL",
 					"translations": [],
 					"type": "VISUALIZATION",
 					"userAccesses": [],
@@ -5509,7 +5125,20 @@
 				"id": "KB1ivLZXMv8"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				},
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "AxmuDEHQApq"
+				}
+			]
 		}
 	],
 	"dataElementGroups": [
@@ -9397,9 +9026,9 @@
 		{
 			"created": "2021-04-14T18:06:12.943",
 			"format": 2,
-			"htmlCode": "<style id=\"print-dataset\" type=\"text/css\">@media screen {\n    body {\n        font-family: \"Lato\", sans-serif;\n    }\n\n    input.entryfield {\n        width: 4em !important;\n    }\n\n    input.indicator {\n        width: 4em !important;\n    }\n\n    input.dataelementtotal {\n        width: 4em !important;\n    }\n\n    /* Style the tab */\n\n    .tab {\n        float: left;\n        background-color: #d0eBd0;\n        width: 240px;\n        height: 100%;\n    }\n\n\n    /* Style the buttons inside the tab */\n    .tab button {\n        display: block;\n        background-color: inherit;\n        color: black;\n        padding: 5px 16px;\n        width: 100%;\n        text-align: left;\n        cursor: pointer;\n        transition: 0.3s;\n        font-size: 15px;\n        border-bottom: 1px solid #a4d2a3;\n        outline: #FFFFFF solid 1px;\n    }\n\n    /* Change background color of buttons on hover */\n    .tab button:hover {\n        background-color: #669872;\n        color: #ffffff;\n    }\n\n    /* Create an active/current \"tab button\" class */\n    .tab button.active {\n\n        background-color: #669872;\n        color: #ffffff;\n\n    }\n\n    /* Style the tab content */\n    .tabcontent {\n        float: left;\n        padding: 0px 0px;\n        width: 100%;\n        height: 100%;\n    }\n\n    .section-head td {\n        background-color: #669872;\n    }\n\n    .section-head {\n        color: #FFFFFF;\n        font-size: 15px;\n        margin: 4px;\n        font-weight: bold;\n    }\n\n    .section-subhead td {\n        background-color: #d0eBd0;\n    }\n\n    table,\n    table tr,\n    table tr td {\n        border: 1px solid #a4d2a3;\n    }\n\n    .dataentryform tr:hover {\n        background-color: #D4FEC3;\n    }\n}\n\n@media print{\n    body {\n        font-family: \"Lato\", sans-serif;\n        font-size: 12px;\n        zoom: 65%;\n    }\n\n    .tab {\n        display: none;\n    }\n\n    .tabcontent {\n        float: left;\n        padding: 0px 0px;\n        width: 100%;\n        height: 100%;\n        display: block;\n    }\n\n    div.print-block{\n        display:block;\n    }\n\n    table,\n    tr {\n        break-after: avoid;\n        page-break-after: avoid;\n        break-before: avoid;\n        page-break-before: avoid;\n        page-break-inside: avoid;\n        break-inside: avoid;\n    }\n\n    table.dataset-content, tr.dataset-content, td.dataset-content{\n        border:0px solid #cccccc;\n    }\n\n    .section-head td {\n        background-color: #454645;\n    }\n\n    .section-head {\n        color: #FFFFFF;\n        font-size: 15px;\n        margin: 4px;\n        font-weight: bold;\n    }\n\n    .section-subhead td {\n        background-color: rgb(190, 190, 190);\n    }\n\n    input.entryfield,\n    .dataelementtotal,\n    .indicator {\n        width: 3.5em !important;\n    }\n\n    #completedByDiv,\n    #infoDiv,\n    div#completenessDiv input,\n    div#completenessDiv span,\n    #fileDeleteConfirmationDialog {\n        display: none;\n    }\n}\n</style>\n<table border=\"1\" width=\"95%\">\n<tbody>\n<tr class=\"section-head\">\n<td colspan=\"19\"><b><span class=\"lang\" key=\"dataEntryForm_vaccine_stock_status\">Vaccine stock status</span></b></td>\n</tr>\n<tr>\n<td rowspan=\"2\" style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_stocklist_of_vaccines\">Stocklist of vaccines</span></td>\n<td rowspan=\"2\" style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_doses_vaccine_vial\">Doses vaccine vial</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_opening_balance\">Opening balance</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_received\">Received</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_distributed\">Distributed</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_redistributed\">Redistributed</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_discarded_(closed_vials)\">Discarded (closed vials)</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_discarded_(open_vials)\">Discarded (open vials)</span></td>\n<td colspan=\"2\" rowspan=\"1\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_closing_balance\">Closing balance</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_stock_on_hand\">Stock on hand</span></td>\n<td colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_stockout_days\">Stockout days</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_doses\">Doses</span></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_astrazenecaazskbio\">AstraZeneca/AZ-SKBio</span></td>\n<td style=\"white-space: nowrap;\"><input id=\"indicatorV1367xP7lyZ\" indicatorid=\"V1367xP7lyZ\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoreBuEJDaT8f0\" indicatorid=\"eBuEJDaT8f0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatormB1ZbVoEhSk\" indicatorid=\"mB1ZbVoEhSk\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBR6satZIF7T\" indicatorid=\"BR6satZIF7T\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorfFCsoeBvRWG\" indicatorid=\"fFCsoeBvRWG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorphAVA4IStYE\" indicatorid=\"phAVA4IStYE\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorn5k3yVJnVWB\" indicatorid=\"n5k3yVJnVWB\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwaUiUf7DARK\" indicatorid=\"waUiUf7DARK\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryuPWp7qzlyg\" indicatorid=\"yuPWp7qzlyg\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorazwEyGc8qBR\" indicatorid=\"azwEyGc8qBR\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"RLraPla6D9Q-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_astrazenecaazd12222\">AstraZeneca/AZD12222</span></td>\n<td><input id=\"indicatorQc9DeHi39uC\" indicatorid=\"Qc9DeHi39uC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorE5MNsEx9eOv\" indicatorid=\"E5MNsEx9eOv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorgZzx1pon4u4\" indicatorid=\"gZzx1pon4u4\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOqpUGdw237V\" indicatorid=\"OqpUGdw237V\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorsJeLBYwsc9I\" indicatorid=\"sJeLBYwsc9I\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordJCCnek42Ec\" indicatorid=\"dJCCnek42Ec\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorPwpUBoRrj8W\" indicatorid=\"PwpUBoRrj8W\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorO9sIO8RJvFi\" indicatorid=\"O9sIO8RJvFi\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorviNUQL8V9F7\" indicatorid=\"viNUQL8V9F7\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorv1u68thDZBo\" indicatorid=\"v1u68thDZBo\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"wLLWlLFKJTL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_gamaleyasputnik_v\">Gamaleya/Sputnik V</span></td>\n<td><input id=\"indicatorcl8eWpYvxOv\" indicatorid=\"cl8eWpYvxOv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorH8k32C5GSxL\" indicatorid=\"H8k32C5GSxL\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryTSQuFK0hJC\" indicatorid=\"yTSQuFK0hJC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorNC2ivRSf2z2\" indicatorid=\"NC2ivRSf2z2\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorQqUpdlWL9od\" indicatorid=\"QqUpdlWL9od\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorkTqlCAWhYZA\" indicatorid=\"kTqlCAWhYZA\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorS7quDpnCyLY\" indicatorid=\"S7quDpnCyLY\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorIcjZ6JbwZin\" indicatorid=\"IcjZ6JbwZin\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorICorLQDRWto\" indicatorid=\"ICorLQDRWto\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryYn2bmF9qmv\" indicatorid=\"yYn2bmF9qmv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"EL8WnPd1ABT-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_johnsonjohnson\">Johnson&amp;Johnson</span></td>\n<td><input id=\"indicatorL4pFNL5ZM7a\" indicatorid=\"L4pFNL5ZM7a\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatori0KmINGO2Mm\" indicatorid=\"i0KmINGO2Mm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorZrTFY3urQ0V\" indicatorid=\"ZrTFY3urQ0V\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorxyZllKIOJam\" indicatorid=\"xyZllKIOJam\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorTnEcW2Trwby\" indicatorid=\"TnEcW2Trwby\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorE3epoOmqug0\" indicatorid=\"E3epoOmqug0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvLxSDlelZcK\" indicatorid=\"vLxSDlelZcK\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorCgAbvRgBsNe\" indicatorid=\"CgAbvRgBsNe\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwZq2rp3eTVm\" indicatorid=\"wZq2rp3eTVm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorL5AXnUi1kqG\" indicatorid=\"L5AXnUi1kqG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"XSzYgW92sBI-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_modernamrna1273\">Moderna/mRNA-1273</span></td>\n<td><input id=\"indicatorNmVg11Afcjj\" indicatorid=\"NmVg11Afcjj\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorimciBYtVPUl\" indicatorid=\"imciBYtVPUl\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwyylPq21brF\" indicatorid=\"wyylPq21brF\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorjy9DePIHlUZ\" indicatorid=\"jy9DePIHlUZ\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorzHyLfWVRUJV\" indicatorid=\"zHyLfWVRUJV\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorRkhI9cbxJH0\" indicatorid=\"RkhI9cbxJH0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorx1TNmprZLGE\" indicatorid=\"x1TNmprZLGE\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorSql4NRhkJyc\" indicatorid=\"Sql4NRhkJyc\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOwbOvkvgMDc\" indicatorid=\"OwbOvkvgMDc\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorME2gIlf1QR1\" indicatorid=\"ME2gIlf1QR1\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"eoClH0iNeL4-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_pfizerbiontechcomirnaty\">Pfizer/Biontech/Comirnaty</span></td>\n<td><input id=\"indicatorVMaFrpu5Cxm\" indicatorid=\"VMaFrpu5Cxm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorZynnnPlkrlC\" indicatorid=\"ZynnnPlkrlC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorg9GwQbL0QhG\" indicatorid=\"g9GwQbL0QhG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorV5Z1g5c5hzA\" indicatorid=\"V5Z1g5c5hzA\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBBOU1eB3bij\" indicatorid=\"BBOU1eB3bij\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvWu3ZD2xQaR\" indicatorid=\"vWu3ZD2xQaR\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorGf5tIXC2J2C\" indicatorid=\"Gf5tIXC2J2C\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorg9QjMNhwLt8\" indicatorid=\"g9QjMNhwLt8\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorCEnvOiaEYJj\" indicatorid=\"CEnvOiaEYJj\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBs6PWqhkCE7\" indicatorid=\"Bs6PWqhkCE7\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"eQX4WL751q0-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_sinopharmcoronavac\">Sinopharm/Coronavac</span></td>\n<td><input id=\"indicatorAFIAIIAMDIv\" indicatorid=\"AFIAIIAMDIv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvGYXhFmodJw\" indicatorid=\"vGYXhFmodJw\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorKCC26bndDyg\" indicatorid=\"KCC26bndDyg\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorJ304vqMdvpr\" indicatorid=\"J304vqMdvpr\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorjLAwbnBVEOr\" indicatorid=\"jLAwbnBVEOr\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordP7xDwreS0M\" indicatorid=\"dP7xDwreS0M\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorue7EfscPicf\" indicatorid=\"ue7EfscPicf\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoroRcL2TZSZl0\" indicatorid=\"oRcL2TZSZl0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorIBLwXcnBkwV\" indicatorid=\"IBLwXcnBkwV\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorTjUqOaYlUWU\" indicatorid=\"TjUqOaYlUWU\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"segUqhr3Bmn-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" width=\"50%\">\n<tbody>\n<tr class=\"section-head\">\n<td colspan=\"9\"><b><span class=\"lang\" key=\"dataEntryForm_stock_status_of_other_items\">Stock status of other items</span></b></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_stocklist_of_other_items\">Stocklist of other items</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_opening_balance\">Opening balance</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_received\">Received</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_distributed\">Distributed</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_redistributed\">Redistributed</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_discarded\">Discarded</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_closing_balance\">Closing balance</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_stock_at_hand\">Stock at  hand</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" key=\"dataEntryForm_stockout_days\">Stockout days</span></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_cold_boxes\">Cold boxes</span></td>\n<td style=\"text-align: center;\"><input id=\"CTUdYPotCXF-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"F0Awi30X7xM-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"vnhYE8Muoj8-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"NrXl6iNxtWb-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"vdHrKoTsyAe-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOUDT1JJ9VAT\" indicatorid=\"OUDT1JJ9VAT\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ZuNdVpukYld-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ajqf0EsKxIC-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_diluent\">Diluent</span></td>\n<td style=\"text-align: center;\"><input id=\"SaHOUWuc0aL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"Nm8VHHFGIyY-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"x7my3g8Fvaz-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"foclaUCiq6S-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"S2lAb8nKCHb-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoruDwsZsGcBu0\" indicatorid=\"uDwsZsGcBu0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"AxsGeK6Ug1O-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"drljwLyAZQw-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_dilution_syringes\">Dilution syringes</span></td>\n<td style=\"text-align: center;\"><input id=\"zeFAEBgGrEx-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"oh6IWG1wYA3-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pkXVIqIHHVa-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"dETqOgonm72-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"O8FZejiaZEk-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorifN5mSkvLTk\" indicatorid=\"ifN5mSkvLTk\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"l19W7jOdEu2-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"zqptPF1iBGE-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_safety_boxes\">Safety boxes</span></td>\n<td style=\"text-align: center;\"><input id=\"EgFl8yY2Te3-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"WCqFMZu8xby-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kl0xOGWS6ww-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"hPCE24XXDAW-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tmHKRG9itcO-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorzEZ9YljyqSF\" indicatorid=\"zEZ9YljyqSF\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tg60B4x2trg-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"y4Bs6d0hNoL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" key=\"dataEntryForm_syringes_with_needle_1ml\">Syringes with needle 1ml</span></td>\n<td style=\"text-align: center;\"><input id=\"KrAF26CuNrx-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tnpNBvvniAM-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"oS6wBIaveFo-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ppcgPRAW9b9-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"f0vfsLTNJzO-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatork26TcX7kEse\" indicatorid=\"k26TcX7kEse\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"BYcRLORiKNG-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"a6q0jTzVcip-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" key=\"dataEntryForm_vaccination_cards\">Vaccination cards</span></td>\n<td style=\"text-align: center;\"><input id=\"scDzaP4Qf7n-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"u0tQHrxtfVP-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"hmlw3sNoOI1-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KnFWsoy4UYs-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"bNPsOVqpBMj-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordOBetNFKvBw\" indicatorid=\"dOBetNFKvBw\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"CctKBwpym8I-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"f3bOBccuyyo-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n</tbody>\n</table>\n<script>\nvar arrLang = {\n    \"en\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Closing balance\",\n        \"dataEntryForm_cold_boxes\": \"Cold boxes\",\n        \"dataEntryForm_diluent\": \"Diluent\",\n        \"dataEntryForm_dilution_syringes\": \"Dilution syringes\",\n        \"dataEntryForm_discarded\": \"Discarded\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Discarded (closed vials)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Discarded (open vials)\",\n        \"dataEntryForm_distributed\": \"Distributed\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Doses vaccine vial\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Opening balance\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Received\",\n        \"dataEntryForm_redistributed\": \"Redistributed\",\n        \"dataEntryForm_safety_boxes\": \"Safety boxes\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock at  hand\",\n        \"dataEntryForm_stock_on_hand\": \"Stock on hand\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Stock status of other items\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Stocklist of other items\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Stocklist of vaccines\",\n        \"dataEntryForm_stockout_days\": \"Stockout days\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Syringes with needle 1ml\",\n        \"dataEntryForm_vaccination_cards\": \"Vaccination cards\",\n        \"dataEntryForm_vaccine_stock_status\": \"Vaccine stock status\",\n        \"dataEntryForm_vials\": \"Vials\"\n    },\n    \"es\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Saldo de cierre\",\n        \"dataEntryForm_cold_boxes\": \"Cajas de frío\",\n        \"dataEntryForm_diluent\": \"Diluyente\",\n        \"dataEntryForm_dilution_syringes\": \"Jeringas de dilución\",\n        \"dataEntryForm_discarded\": \"Desechada\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Desechadas (Viales cerrados)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Desechadas (Viales abiertas)\",\n        \"dataEntryForm_distributed\": \"Distribuídas\",\n        \"dataEntryForm_doses\": \"Dosis\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Dosis de vacuna en vial \",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Saldo de apertura\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Recibidas\",\n        \"dataEntryForm_redistributed\": \"Redistribuídas\",\n        \"dataEntryForm_safety_boxes\": \"Cajas de seguridad\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Existencias disponibles\",\n        \"dataEntryForm_stock_on_hand\": \"Existencias disponibles\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Estado de existencias de otros artículos\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Lista de existencias de otros artículos\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Lista de existencias de vacunas\",\n        \"dataEntryForm_stockout_days\": \"Días sin existencias\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Jeringas con aguja de 1 ml\",\n        \"dataEntryForm_vaccination_cards\": \"Tarjetas de vacunación\",\n        \"dataEntryForm_vaccine_stock_status\": \"Estado de las existencias de vacunas\",\n        \"dataEntryForm_vials\": \"Viales\"\n    },\n    \"fr\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Bilan de clôture\",\n        \"dataEntryForm_cold_boxes\": \"Glaciéres\",\n        \"dataEntryForm_diluent\": \"Diluant\",\n        \"dataEntryForm_dilution_syringes\": \"Seringues de dilution\",\n        \"dataEntryForm_discarded\": \"Écarté\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Écarté (flacons fermés)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Écarté (flacons ouverts)\",\n        \"dataEntryForm_distributed\": \"Distribué\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Doses dans le flacon\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Bilan d'ouverture\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Reçu\",\n        \"dataEntryForm_redistributed\": \"Redistribué\",\n        \"dataEntryForm_safety_boxes\": \"Boîtes de sécurité\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock disponible\",\n        \"dataEntryForm_stock_on_hand\": \"Stock disponible\",\n        \"dataEntryForm_stock_status_of_other_items\": \"État du stock d'autres articles\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Liste de stock d'autres articles\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Liste de stock de vaccins\",\n        \"dataEntryForm_stockout_days\": \"Jours de rupture de stock\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Seringues avec aiguille 1ml\",\n        \"dataEntryForm_vaccination_cards\": \"Cartes de vaccination\",\n        \"dataEntryForm_vaccine_stock_status\": \"État du stock de vaccins\",\n        \"dataEntryForm_vials\": \"Flacons\"\n    },\n    \"pt\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Saldo final\",\n        \"dataEntryForm_cold_boxes\": \"Caixas frias\",\n        \"dataEntryForm_diluent\": \"Diluente\",\n        \"dataEntryForm_dilution_syringes\": \"Seringas de diluição\",\n        \"dataEntryForm_discarded\": \"Descartado\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Descartado (frascos fechados)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Descartado (frascos abertos)\",\n        \"dataEntryForm_distributed\": \"Distribuídas\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Dose de vacina no frasco\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Saldo inicial\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Recebidas\",\n        \"dataEntryForm_redistributed\": \"Redistribuídas\",\n        \"dataEntryForm_safety_boxes\": \"Caixas de segurança\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock disponível\",\n        \"dataEntryForm_stock_on_hand\": \"Stock disponível\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Estado de stock de outros itens\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Lista de stock de outros itens\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Lista de stock de vacinas\",\n        \"dataEntryForm_stockout_days\": \"Dias de falta de stock\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Seringas de agulha de 1 ml\",\n        \"dataEntryForm_vaccination_cards\": \"Cartões de vacinação\",\n        \"dataEntryForm_vaccine_stock_status\": \"Estado de stock de vacinas\",\n        \"dataEntryForm_vials\": \"Frascos\"\n    }\n}\nconsole.log('test2');\n    $(function() {\n        \t$.ajax({\n        \t   type: 'GET',\n        \t   url: '../api/me.json',\n        \t   success: function(data){\n        \t     if('settings' in data) {\n                 var locale = data.settings.keyDbLocale;\n                 console.log('DB Locale: ' + locale);\n        \t     }\n        \t     else {\n        \t        var locale = document.documentElement.lang;\n        \t        console.log('Could not get DB locale, using UI locale: ' + locale);\n        \t     }\n              changeLanguage(locale);\n            },\n            error: function(){\n            }\n    });\n\n        function changeLanguage(lang){\n            $('.lang').each(function(index,element){\n                 $(this).html(arrLang[lang][$(this).attr('key')]);\n             });\n        }\n    })\n</script>",
+			"htmlCode": "<style id=\"print-dataset\" type=\"text/css\">@media screen {\n    body {\n        font-family: \"Lato\", sans-serif;\n    }\n\n    input.entryfield {\n        width: 4em !important;\n    }\n\n    input.indicator {\n        width: 4em !important;\n    }\n\n    input.dataelementtotal {\n        width: 4em !important;\n    }\n\n    /* Style the tab */\n\n    .tab {\n        float: left;\n        background-color: #d0eBd0;\n        width: 240px;\n        height: 100%;\n    }\n\n\n    /* Style the buttons inside the tab */\n    .tab button {\n        display: block;\n        background-color: inherit;\n        color: black;\n        padding: 5px 16px;\n        width: 100%;\n        text-align: left;\n        cursor: pointer;\n        transition: 0.3s;\n        font-size: 15px;\n        border-bottom: 1px solid #a4d2a3;\n        outline: #FFFFFF solid 1px;\n    }\n\n    /* Change background color of buttons on hover */\n    .tab button:hover {\n        background-color: #669872;\n        color: #ffffff;\n    }\n\n    /* Create an active/current \"tab button\" class */\n    .tab button.active {\n\n        background-color: #669872;\n        color: #ffffff;\n\n    }\n\n    /* Style the tab content */\n    .tabcontent {\n        float: left;\n        padding: 0px 0px;\n        width: 100%;\n        height: 100%;\n    }\n\n    .section-head td {\n        background-color: #669872;\n    }\n\n    .section-head {\n        color: #FFFFFF;\n        font-size: 15px;\n        margin: 4px;\n        font-weight: bold;\n    }\n\n    .section-subhead td {\n        background-color: #d0eBd0;\n    }\n\n    table,\n    table tr,\n    table tr td {\n        border: 1px solid #a4d2a3;\n    }\n\n    .dataentryform tr:hover {\n        background-color: #D4FEC3;\n    }\n}\n\n@media print{\n    body {\n        font-family: \"Lato\", sans-serif;\n        font-size: 12px;\n        zoom: 65%;\n    }\n\n    .tab {\n        display: none;\n    }\n\n    .tabcontent {\n        float: left;\n        padding: 0px 0px;\n        width: 100%;\n        height: 100%;\n        display: block;\n    }\n\n    div.print-block{\n        display:block;\n    }\n\n    table,\n    tr {\n        break-after: avoid;\n        page-break-after: avoid;\n        break-before: avoid;\n        page-break-before: avoid;\n        page-break-inside: avoid;\n        break-inside: avoid;\n    }\n\n    table.dataset-content, tr.dataset-content, td.dataset-content{\n        border:0px solid #cccccc;\n    }\n\n    .section-head td {\n        background-color: #454645;\n    }\n\n    .section-head {\n        color: #FFFFFF;\n        font-size: 15px;\n        margin: 4px;\n        font-weight: bold;\n    }\n\n    .section-subhead td {\n        background-color: rgb(190, 190, 190);\n    }\n\n    input.entryfield,\n    .dataelementtotal,\n    .indicator {\n        width: 3.5em !important;\n    }\n\n    #completedByDiv,\n    #infoDiv,\n    div#completenessDiv input,\n    div#completenessDiv span,\n    #fileDeleteConfirmationDialog {\n        display: none;\n    }\n}\n</style>\n<table border=\"1\" width=\"95%\">\n<tbody>\n<tr class=\"section-head\">\n<td colspan=\"19\"><b><span class=\"lang\" langkey=\"dataEntryForm_vaccine_stock_status\">Vaccine stock status</span></b></td>\n</tr>\n<tr>\n<td rowspan=\"2\" style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_stocklist_of_vaccines\">Stocklist of vaccines</span></td>\n<td rowspan=\"2\" style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_doses_vaccine_vial\">Doses vaccine vial</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_opening_balance\">Opening balance</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_received\">Received</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_distributed\">Distributed</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_redistributed\">Redistributed</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_discarded_#40closed_vials#41\">Discarded (closed vials)</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_discarded_#40open_vials#41\">Discarded (open vials)</span></td>\n<td colspan=\"2\" rowspan=\"1\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_closing_balance\">Closing balance</span></td>\n<td colspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_stock_on_hand\">Stock on hand</span></td>\n<td colspan=\"1\" rowspan=\"2\" style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_stockout_days\">Stockout days</span></td>\n</tr>\n<tr>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_vials\">Vials</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_doses\">Doses</span></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_astrazeneca#47az#45skbio\">AstraZeneca/AZ-SKBio</span></td>\n<td style=\"white-space: nowrap;\"><input id=\"indicatorV1367xP7lyZ\" indicatorid=\"V1367xP7lyZ\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoreBuEJDaT8f0\" indicatorid=\"eBuEJDaT8f0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatormB1ZbVoEhSk\" indicatorid=\"mB1ZbVoEhSk\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBR6satZIF7T\" indicatorid=\"BR6satZIF7T\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorfFCsoeBvRWG\" indicatorid=\"fFCsoeBvRWG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorphAVA4IStYE\" indicatorid=\"phAVA4IStYE\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorn5k3yVJnVWB\" indicatorid=\"n5k3yVJnVWB\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwaUiUf7DARK\" indicatorid=\"waUiUf7DARK\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryuPWp7qzlyg\" indicatorid=\"yuPWp7qzlyg\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-Qa79VToX5lp-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorazwEyGc8qBR\" indicatorid=\"azwEyGc8qBR\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"RLraPla6D9Q-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_astrazeneca#47azd12222\">AstraZeneca/AZD12222</span></td>\n<td><input id=\"indicatorQc9DeHi39uC\" indicatorid=\"Qc9DeHi39uC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorE5MNsEx9eOv\" indicatorid=\"E5MNsEx9eOv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorgZzx1pon4u4\" indicatorid=\"gZzx1pon4u4\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOqpUGdw237V\" indicatorid=\"OqpUGdw237V\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorsJeLBYwsc9I\" indicatorid=\"sJeLBYwsc9I\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordJCCnek42Ec\" indicatorid=\"dJCCnek42Ec\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorPwpUBoRrj8W\" indicatorid=\"PwpUBoRrj8W\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorO9sIO8RJvFi\" indicatorid=\"O9sIO8RJvFi\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorviNUQL8V9F7\" indicatorid=\"viNUQL8V9F7\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-qxVEl8UH95p-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorv1u68thDZBo\" indicatorid=\"v1u68thDZBo\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"wLLWlLFKJTL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_gamaleya#47sputnik_v\">Gamaleya/Sputnik V</span></td>\n<td><input id=\"indicatorcl8eWpYvxOv\" indicatorid=\"cl8eWpYvxOv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorH8k32C5GSxL\" indicatorid=\"H8k32C5GSxL\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryTSQuFK0hJC\" indicatorid=\"yTSQuFK0hJC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorNC2ivRSf2z2\" indicatorid=\"NC2ivRSf2z2\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorQqUpdlWL9od\" indicatorid=\"QqUpdlWL9od\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorkTqlCAWhYZA\" indicatorid=\"kTqlCAWhYZA\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorS7quDpnCyLY\" indicatorid=\"S7quDpnCyLY\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorIcjZ6JbwZin\" indicatorid=\"IcjZ6JbwZin\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorICorLQDRWto\" indicatorid=\"ICorLQDRWto\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-TfnuN2akYGd-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoryYn2bmF9qmv\" indicatorid=\"yYn2bmF9qmv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"EL8WnPd1ABT-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_johnson#38johnson\">Johnson&amp;Johnson</span></td>\n<td><input id=\"indicatorL4pFNL5ZM7a\" indicatorid=\"L4pFNL5ZM7a\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatori0KmINGO2Mm\" indicatorid=\"i0KmINGO2Mm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorZrTFY3urQ0V\" indicatorid=\"ZrTFY3urQ0V\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorxyZllKIOJam\" indicatorid=\"xyZllKIOJam\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorTnEcW2Trwby\" indicatorid=\"TnEcW2Trwby\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorE3epoOmqug0\" indicatorid=\"E3epoOmqug0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvLxSDlelZcK\" indicatorid=\"vLxSDlelZcK\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorCgAbvRgBsNe\" indicatorid=\"CgAbvRgBsNe\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwZq2rp3eTVm\" indicatorid=\"wZq2rp3eTVm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-j07LjUKqjh8-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorL5AXnUi1kqG\" indicatorid=\"L5AXnUi1kqG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"XSzYgW92sBI-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_moderna#47mrna#451273\">Moderna/mRNA-1273</span></td>\n<td><input id=\"indicatorNmVg11Afcjj\" indicatorid=\"NmVg11Afcjj\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorimciBYtVPUl\" indicatorid=\"imciBYtVPUl\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorwyylPq21brF\" indicatorid=\"wyylPq21brF\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorjy9DePIHlUZ\" indicatorid=\"jy9DePIHlUZ\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorzHyLfWVRUJV\" indicatorid=\"zHyLfWVRUJV\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorRkhI9cbxJH0\" indicatorid=\"RkhI9cbxJH0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorx1TNmprZLGE\" indicatorid=\"x1TNmprZLGE\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorSql4NRhkJyc\" indicatorid=\"Sql4NRhkJyc\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOwbOvkvgMDc\" indicatorid=\"OwbOvkvgMDc\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-c5WkU6fYL40-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorME2gIlf1QR1\" indicatorid=\"ME2gIlf1QR1\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"eoClH0iNeL4-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_pfizer#47biontech#47comirnaty\">Pfizer/Biontech/Comirnaty</span></td>\n<td><input id=\"indicatorVMaFrpu5Cxm\" indicatorid=\"VMaFrpu5Cxm\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorZynnnPlkrlC\" indicatorid=\"ZynnnPlkrlC\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorg9GwQbL0QhG\" indicatorid=\"g9GwQbL0QhG\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorV5Z1g5c5hzA\" indicatorid=\"V5Z1g5c5hzA\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBBOU1eB3bij\" indicatorid=\"BBOU1eB3bij\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvWu3ZD2xQaR\" indicatorid=\"vWu3ZD2xQaR\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorGf5tIXC2J2C\" indicatorid=\"Gf5tIXC2J2C\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorg9QjMNhwLt8\" indicatorid=\"g9QjMNhwLt8\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorCEnvOiaEYJj\" indicatorid=\"CEnvOiaEYJj\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-mpsnjgUuZA2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorBs6PWqhkCE7\" indicatorid=\"Bs6PWqhkCE7\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"eQX4WL751q0-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_sinopharm#47coronavac\">Sinopharm/Coronavac</span></td>\n<td><input id=\"indicatorAFIAIIAMDIv\" indicatorid=\"AFIAIIAMDIv\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"H4jwFdAA1fm-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorvGYXhFmodJw\" indicatorid=\"vGYXhFmodJw\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"JRMAR84ICCG-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorKCC26bndDyg\" indicatorid=\"KCC26bndDyg\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pr5KCf5nkrZ-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorJ304vqMdvpr\" indicatorid=\"J304vqMdvpr\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KG6W0tUl8O3-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorjLAwbnBVEOr\" indicatorid=\"jLAwbnBVEOr\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kevh9LGj0mX-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordP7xDwreS0M\" indicatorid=\"dP7xDwreS0M\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"fjhkST9Cesq-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorue7EfscPicf\" indicatorid=\"ue7EfscPicf\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoroRcL2TZSZl0\" indicatorid=\"oRcL2TZSZl0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorIBLwXcnBkwV\" indicatorid=\"IBLwXcnBkwV\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"qQBypsWpkwZ-wikEP5C2Df2-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorTjUqOaYlUWU\" indicatorid=\"TjUqOaYlUWU\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"segUqhr3Bmn-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<table border=\"1\" width=\"50%\">\n<tbody>\n<tr class=\"section-head\">\n<td colspan=\"9\"><b><span class=\"lang\" langkey=\"dataEntryForm_stock_status_of_other_items\">Stock status of other items</span></b></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_stocklist_of_other_items\">Stocklist of other items</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_opening_balance\">Opening balance</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_received\">Received</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_distributed\">Distributed</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_redistributed\">Redistributed</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_discarded\">Discarded</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_closing_balance\">Closing balance</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_stock_at _hand\">Stock at  hand</span></td>\n<td style=\"text-align: center;\"><span class=\"lang\" langkey=\"dataEntryForm_stockout_days\">Stockout days</span></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_cold_boxes\">Cold boxes</span></td>\n<td style=\"text-align: center;\"><input id=\"CTUdYPotCXF-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"F0Awi30X7xM-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"vnhYE8Muoj8-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"NrXl6iNxtWb-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"vdHrKoTsyAe-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorOUDT1JJ9VAT\" indicatorid=\"OUDT1JJ9VAT\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ZuNdVpukYld-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ajqf0EsKxIC-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_diluent\">Diluent</span></td>\n<td style=\"text-align: center;\"><input id=\"SaHOUWuc0aL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"Nm8VHHFGIyY-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"x7my3g8Fvaz-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"foclaUCiq6S-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"S2lAb8nKCHb-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatoruDwsZsGcBu0\" indicatorid=\"uDwsZsGcBu0\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"AxsGeK6Ug1O-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"drljwLyAZQw-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_dilution_syringes\">Dilution syringes</span></td>\n<td style=\"text-align: center;\"><input id=\"zeFAEBgGrEx-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"oh6IWG1wYA3-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"pkXVIqIHHVa-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"dETqOgonm72-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"O8FZejiaZEk-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorifN5mSkvLTk\" indicatorid=\"ifN5mSkvLTk\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"l19W7jOdEu2-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"zqptPF1iBGE-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_safety_boxes\">Safety boxes</span></td>\n<td style=\"text-align: center;\"><input id=\"EgFl8yY2Te3-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"WCqFMZu8xby-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"kl0xOGWS6ww-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"hPCE24XXDAW-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tmHKRG9itcO-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatorzEZ9YljyqSF\" indicatorid=\"zEZ9YljyqSF\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tg60B4x2trg-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"y4Bs6d0hNoL-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td style=\"white-space: nowrap;\"><span class=\"lang\" langkey=\"dataEntryForm_syringes_with_needle_1ml\">Syringes with needle 1ml</span></td>\n<td style=\"text-align: center;\"><input id=\"KrAF26CuNrx-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"tnpNBvvniAM-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"oS6wBIaveFo-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"ppcgPRAW9b9-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"f0vfsLTNJzO-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatork26TcX7kEse\" indicatorid=\"k26TcX7kEse\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"BYcRLORiKNG-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"a6q0jTzVcip-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n<tr>\n<td><span class=\"lang\" langkey=\"dataEntryForm_vaccination_cards\">Vaccination cards</span></td>\n<td style=\"text-align: center;\"><input id=\"scDzaP4Qf7n-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"u0tQHrxtfVP-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"hmlw3sNoOI1-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"KnFWsoy4UYs-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"bNPsOVqpBMj-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"indicatordOBetNFKvBw\" indicatorid=\"dOBetNFKvBw\" name=\"indicator\" readonly=\"readonly\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"CctKBwpym8I-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n<td style=\"text-align: center;\"><input id=\"f3bOBccuyyo-HllvX50cXC0-val\" name=\"entryfield\" title=\"\" value=\"\"/></td>\n</tr>\n</tbody>\n</table>\n<script>\nvar arrLang = {\n    \"en\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Closing balance\",\n        \"dataEntryForm_cold_boxes\": \"Cold boxes\",\n        \"dataEntryForm_diluent\": \"Diluent\",\n        \"dataEntryForm_dilution_syringes\": \"Dilution syringes\",\n        \"dataEntryForm_discarded\": \"Discarded\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Discarded (closed vials)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Discarded (open vials)\",\n        \"dataEntryForm_distributed\": \"Distributed\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Doses vaccine vial\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Opening balance\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Received\",\n        \"dataEntryForm_redistributed\": \"Redistributed\",\n        \"dataEntryForm_safety_boxes\": \"Safety boxes\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock at  hand\",\n        \"dataEntryForm_stock_on_hand\": \"Stock on hand\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Stock status of other items\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Stocklist of other items\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Stocklist of vaccines\",\n        \"dataEntryForm_stockout_days\": \"Stockout days\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Syringes with needle 1ml\",\n        \"dataEntryForm_vaccination_cards\": \"Vaccination cards\",\n        \"dataEntryForm_vaccine_stock_status\": \"Vaccine stock status\",\n        \"dataEntryForm_vials\": \"Vials\"\n    },\n    \"es\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Saldo de cierre\",\n        \"dataEntryForm_cold_boxes\": \"Cajas de frío\",\n        \"dataEntryForm_diluent\": \"Diluyente\",\n        \"dataEntryForm_dilution_syringes\": \"Jeringas de dilución\",\n        \"dataEntryForm_discarded\": \"Desechada\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Desechadas (Viales cerrados)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Desechadas (Viales abiertas)\",\n        \"dataEntryForm_distributed\": \"Distribuídas\",\n        \"dataEntryForm_doses\": \"Dosis\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Dosis de vacuna en vial \",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Saldo de apertura\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Recibidas\",\n        \"dataEntryForm_redistributed\": \"Redistribuídas\",\n        \"dataEntryForm_safety_boxes\": \"Cajas de seguridad\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Existencias disponibles\",\n        \"dataEntryForm_stock_on_hand\": \"Existencias disponibles\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Estado de existencias de otros artículos\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Lista de existencias de otros artículos\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Lista de existencias de vacunas\",\n        \"dataEntryForm_stockout_days\": \"Días sin existencias\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Jeringas con aguja de 1 ml\",\n        \"dataEntryForm_vaccination_cards\": \"Tarjetas de vacunación\",\n        \"dataEntryForm_vaccine_stock_status\": \"Estado de las existencias de vacunas\",\n        \"dataEntryForm_vials\": \"Viales\"\n    },\n    \"fr\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Bilan de clôture\",\n        \"dataEntryForm_cold_boxes\": \"Glaciéres\",\n        \"dataEntryForm_diluent\": \"Diluant\",\n        \"dataEntryForm_dilution_syringes\": \"Seringues de dilution\",\n        \"dataEntryForm_discarded\": \"Écarté\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Écarté (flacons fermés)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Écarté (flacons ouverts)\",\n        \"dataEntryForm_distributed\": \"Distribué\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Doses dans le flacon\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Bilan d'ouverture\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Reçu\",\n        \"dataEntryForm_redistributed\": \"Redistribué\",\n        \"dataEntryForm_safety_boxes\": \"Boîtes de sécurité\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock disponible\",\n        \"dataEntryForm_stock_on_hand\": \"Stock disponible\",\n        \"dataEntryForm_stock_status_of_other_items\": \"État du stock d'autres articles\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Liste de stock d'autres articles\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Liste de stock de vaccins\",\n        \"dataEntryForm_stockout_days\": \"Jours de rupture de stock\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Seringues avec aiguille 1ml\",\n        \"dataEntryForm_vaccination_cards\": \"Cartes de vaccination\",\n        \"dataEntryForm_vaccine_stock_status\": \"État du stock de vaccins\",\n        \"dataEntryForm_vials\": \"Flacons\"\n    },\n    \"pt\": {\n        \"dataEntryForm_astrazenecaazd12222\": \"AstraZeneca/AZD12222\",\n        \"dataEntryForm_astrazenecaazskbio\": \"AstraZeneca/AZ-SKBio\",\n        \"dataEntryForm_closing_balance\": \"Saldo final\",\n        \"dataEntryForm_cold_boxes\": \"Caixas frias\",\n        \"dataEntryForm_diluent\": \"Diluente\",\n        \"dataEntryForm_dilution_syringes\": \"Seringas de diluição\",\n        \"dataEntryForm_discarded\": \"Descartado\",\n        \"dataEntryForm_discarded_(closed_vials)\": \"Descartado (frascos fechados)\",\n        \"dataEntryForm_discarded_(open_vials)\": \"Descartado (frascos abertos)\",\n        \"dataEntryForm_distributed\": \"Distribuídas\",\n        \"dataEntryForm_doses\": \"Doses\",\n        \"dataEntryForm_doses_vaccine_vial\": \"Dose de vacina no frasco\",\n        \"dataEntryForm_gamaleyasputnik_v\": \"Gamaleya/Sputnik V\",\n        \"dataEntryForm_johnsonjohnson\": \"Johnson&Johnson\",\n        \"dataEntryForm_modernamrna1273\": \"Moderna/mRNA-1273\",\n        \"dataEntryForm_opening_balance\": \"Saldo inicial\",\n        \"dataEntryForm_pfizerbiontechcomirnaty\": \"Pfizer/Biontech/Comirnaty\",\n        \"dataEntryForm_received\": \"Recebidas\",\n        \"dataEntryForm_redistributed\": \"Redistribuídas\",\n        \"dataEntryForm_safety_boxes\": \"Caixas de segurança\",\n        \"dataEntryForm_sinopharmcoronavac\": \"Sinopharm/Coronavac\",\n        \"dataEntryForm_stock_at_hand\": \"Stock disponível\",\n        \"dataEntryForm_stock_on_hand\": \"Stock disponível\",\n        \"dataEntryForm_stock_status_of_other_items\": \"Estado de stock de outros itens\",\n        \"dataEntryForm_stocklist_of_other_items\": \"Lista de stock de outros itens\",\n        \"dataEntryForm_stocklist_of_vaccines\": \"Lista de stock de vacinas\",\n        \"dataEntryForm_stockout_days\": \"Dias de falta de stock\",\n        \"dataEntryForm_syringes_with_needle_1ml\": \"Seringas de agulha de 1 ml\",\n        \"dataEntryForm_vaccination_cards\": \"Cartões de vacinação\",\n        \"dataEntryForm_vaccine_stock_status\": \"Estado de stock de vacinas\",\n        \"dataEntryForm_vials\": \"Frascos\"\n    }\n}\nconsole.log('test2');\n    $(function() {\n            $.ajax({\n               type: 'GET',\n               url: '../api/me.json',\n               success: function(data){\n                 if('settings' in data) {\n                 var locale = data.settings.keyDbLocale;\n                 console.log('DB Locale: ' + locale);\n                 }\n                 else {\n                    var locale = document.documentElement.lang;\n                    console.log('Could not get DB locale, using UI locale: ' + locale);\n                 }\n              changeLanguage(locale);\n            },\n            error: function(){\n            }\n    });\n\n        function changeLanguage(lang){\n            $('.lang').each(function(index,element){\n                 $(this).html(arrLang[lang][$(this).attr('langkey')]);\n             });\n        }\n    })\n</script>",
 			"id": "gNuWlEhbwrD",
-			"lastUpdated": "2021-04-26T13:56:01.744",
+			"lastUpdated": "2021-06-17T08:52:19.010",
 			"name": "COVIDVAC - Vaccine stock (Daily)",
 			"style": "COMPACT",
 			"translations": [
@@ -9429,7 +9058,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "hmlw3sNoOI1"
+						"id": "pr5KCf5nkrZ"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9437,7 +9066,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "l19W7jOdEu2"
+						"id": "tg60B4x2trg"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9445,7 +9074,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "JRMAR84ICCG"
+						"id": "f0vfsLTNJzO"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9453,7 +9082,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "vdHrKoTsyAe"
+						"id": "EgFl8yY2Te3"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9461,7 +9090,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "SaHOUWuc0aL"
+						"id": "tmHKRG9itcO"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9469,7 +9098,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "AxsGeK6Ug1O"
+						"id": "qQBypsWpkwZ"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9477,23 +9106,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "scDzaP4Qf7n"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "kevh9LGj0mX"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "H4jwFdAA1fm"
+						"id": "S2lAb8nKCHb"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9509,7 +9122,47 @@
 				},
 				{
 					"dataElement": {
-						"id": "O8FZejiaZEk"
+						"id": "RLraPla6D9Q"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "bNPsOVqpBMj"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "XSzYgW92sBI"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "eQX4WL751q0"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "y4Bs6d0hNoL"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "oh6IWG1wYA3"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9533,103 +9186,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "pkXVIqIHHVa"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oS6wBIaveFo"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "segUqhr3Bmn"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "foclaUCiq6S"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "wLLWlLFKJTL"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "tmHKRG9itcO"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "drljwLyAZQw"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "pr5KCf5nkrZ"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "qQBypsWpkwZ"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "tnpNBvvniAM"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "eQX4WL751q0"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "tg60B4x2trg"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "S2lAb8nKCHb"
+						"id": "hmlw3sNoOI1"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9645,7 +9202,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "ppcgPRAW9b9"
+						"id": "H4jwFdAA1fm"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9653,7 +9210,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "BYcRLORiKNG"
+						"id": "foclaUCiq6S"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9661,7 +9218,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "hPCE24XXDAW"
+						"id": "segUqhr3Bmn"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9669,7 +9226,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "KG6W0tUl8O3"
+						"id": "wLLWlLFKJTL"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9677,7 +9234,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "RLraPla6D9Q"
+						"id": "dETqOgonm72"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9685,7 +9242,15 @@
 				},
 				{
 					"dataElement": {
-						"id": "fjhkST9Cesq"
+						"id": "oS6wBIaveFo"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "kevh9LGj0mX"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9709,79 +9274,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "CTUdYPotCXF"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oh6IWG1wYA3"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "zeFAEBgGrEx"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "zqptPF1iBGE"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "f3bOBccuyyo"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "F0Awi30X7xM"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "vnhYE8Muoj8"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "XSzYgW92sBI"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "y4Bs6d0hNoL"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "bNPsOVqpBMj"
+						"id": "x7my3g8Fvaz"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9797,14 +9290,6 @@
 				},
 				{
 					"dataElement": {
-						"id": "Nm8VHHFGIyY"
-					},
-					"dataSet": {
-						"id": "AyprDvhGpNr"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "WCqFMZu8xby"
 					},
 					"dataSet": {
@@ -9813,7 +9298,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "eoClH0iNeL4"
+						"id": "AxsGeK6Ug1O"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9821,7 +9306,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "f0vfsLTNJzO"
+						"id": "zeFAEBgGrEx"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9829,7 +9314,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "ajqf0EsKxIC"
+						"id": "l19W7jOdEu2"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9837,7 +9322,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "EgFl8yY2Te3"
+						"id": "vdHrKoTsyAe"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9845,7 +9330,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "dETqOgonm72"
+						"id": "f3bOBccuyyo"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9853,7 +9338,23 @@
 				},
 				{
 					"dataElement": {
-						"id": "KrAF26CuNrx"
+						"id": "vnhYE8Muoj8"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "zqptPF1iBGE"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "pkXVIqIHHVa"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9869,7 +9370,135 @@
 				},
 				{
 					"dataElement": {
-						"id": "x7my3g8Fvaz"
+						"id": "hPCE24XXDAW"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "fjhkST9Cesq"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "F0Awi30X7xM"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KrAF26CuNrx"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "SaHOUWuc0aL"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "tnpNBvvniAM"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ajqf0EsKxIC"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "drljwLyAZQw"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Nm8VHHFGIyY"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "eoClH0iNeL4"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "CTUdYPotCXF"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "JRMAR84ICCG"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "scDzaP4Qf7n"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "O8FZejiaZEk"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ppcgPRAW9b9"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "KG6W0tUl8O3"
+					},
+					"dataSet": {
+						"id": "AyprDvhGpNr"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "BYcRLORiKNG"
 					},
 					"dataSet": {
 						"id": "AyprDvhGpNr"
@@ -9884,15 +9513,6 @@
 					"id": "V5Z1g5c5hzA"
 				},
 				{
-					"id": "uDwsZsGcBu0"
-				},
-				{
-					"id": "cl8eWpYvxOv"
-				},
-				{
-					"id": "TjUqOaYlUWU"
-				},
-				{
 					"id": "oRcL2TZSZl0"
 				},
 				{
@@ -9902,16 +9522,115 @@
 					"id": "yYn2bmF9qmv"
 				},
 				{
-					"id": "CEnvOiaEYJj"
-				},
-				{
-					"id": "wZq2rp3eTVm"
-				},
-				{
 					"id": "RkhI9cbxJH0"
 				},
 				{
 					"id": "ME2gIlf1QR1"
+				},
+				{
+					"id": "n5k3yVJnVWB"
+				},
+				{
+					"id": "vWu3ZD2xQaR"
+				},
+				{
+					"id": "H8k32C5GSxL"
+				},
+				{
+					"id": "xyZllKIOJam"
+				},
+				{
+					"id": "V1367xP7lyZ"
+				},
+				{
+					"id": "OwbOvkvgMDc"
+				},
+				{
+					"id": "IcjZ6JbwZin"
+				},
+				{
+					"id": "gZzx1pon4u4"
+				},
+				{
+					"id": "Qc9DeHi39uC"
+				},
+				{
+					"id": "azwEyGc8qBR"
+				},
+				{
+					"id": "O9sIO8RJvFi"
+				},
+				{
+					"id": "dP7xDwreS0M"
+				},
+				{
+					"id": "mB1ZbVoEhSk"
+				},
+				{
+					"id": "phAVA4IStYE"
+				},
+				{
+					"id": "NmVg11Afcjj"
+				},
+				{
+					"id": "J304vqMdvpr"
+				},
+				{
+					"id": "kTqlCAWhYZA"
+				},
+				{
+					"id": "OUDT1JJ9VAT"
+				},
+				{
+					"id": "dOBetNFKvBw"
+				},
+				{
+					"id": "fFCsoeBvRWG"
+				},
+				{
+					"id": "g9QjMNhwLt8"
+				},
+				{
+					"id": "yTSQuFK0hJC"
+				},
+				{
+					"id": "L4pFNL5ZM7a"
+				},
+				{
+					"id": "x1TNmprZLGE"
+				},
+				{
+					"id": "g9GwQbL0QhG"
+				},
+				{
+					"id": "ZrTFY3urQ0V"
+				},
+				{
+					"id": "waUiUf7DARK"
+				},
+				{
+					"id": "ifN5mSkvLTk"
+				},
+				{
+					"id": "S7quDpnCyLY"
+				},
+				{
+					"id": "BBOU1eB3bij"
+				},
+				{
+					"id": "uDwsZsGcBu0"
+				},
+				{
+					"id": "cl8eWpYvxOv"
+				},
+				{
+					"id": "TjUqOaYlUWU"
+				},
+				{
+					"id": "CEnvOiaEYJj"
+				},
+				{
+					"id": "wZq2rp3eTVm"
 				},
 				{
 					"id": "viNUQL8V9F7"
@@ -9926,46 +9645,16 @@
 					"id": "NC2ivRSf2z2"
 				},
 				{
-					"id": "n5k3yVJnVWB"
-				},
-				{
 					"id": "Gf5tIXC2J2C"
-				},
-				{
-					"id": "vWu3ZD2xQaR"
-				},
-				{
-					"id": "H8k32C5GSxL"
 				},
 				{
 					"id": "sJeLBYwsc9I"
 				},
 				{
-					"id": "xyZllKIOJam"
-				},
-				{
 					"id": "L5AXnUi1kqG"
 				},
 				{
-					"id": "V1367xP7lyZ"
-				},
-				{
-					"id": "OwbOvkvgMDc"
-				},
-				{
-					"id": "IcjZ6JbwZin"
-				},
-				{
 					"id": "PwpUBoRrj8W"
-				},
-				{
-					"id": "gZzx1pon4u4"
-				},
-				{
-					"id": "Qc9DeHi39uC"
-				},
-				{
-					"id": "azwEyGc8qBR"
 				},
 				{
 					"id": "vLxSDlelZcK"
@@ -9974,16 +9663,7 @@
 					"id": "k26TcX7kEse"
 				},
 				{
-					"id": "O9sIO8RJvFi"
-				},
-				{
-					"id": "dP7xDwreS0M"
-				},
-				{
 					"id": "E5MNsEx9eOv"
-				},
-				{
-					"id": "mB1ZbVoEhSk"
 				},
 				{
 					"id": "ue7EfscPicf"
@@ -9992,49 +9672,19 @@
 					"id": "Bs6PWqhkCE7"
 				},
 				{
-					"id": "phAVA4IStYE"
-				},
-				{
 					"id": "BR6satZIF7T"
-				},
-				{
-					"id": "NmVg11Afcjj"
-				},
-				{
-					"id": "J304vqMdvpr"
 				},
 				{
 					"id": "ICorLQDRWto"
 				},
 				{
-					"id": "kTqlCAWhYZA"
-				},
-				{
-					"id": "OUDT1JJ9VAT"
-				},
-				{
 					"id": "eBuEJDaT8f0"
-				},
-				{
-					"id": "dOBetNFKvBw"
-				},
-				{
-					"id": "fFCsoeBvRWG"
 				},
 				{
 					"id": "TnEcW2Trwby"
 				},
 				{
 					"id": "zEZ9YljyqSF"
-				},
-				{
-					"id": "g9QjMNhwLt8"
-				},
-				{
-					"id": "yTSQuFK0hJC"
-				},
-				{
-					"id": "L4pFNL5ZM7a"
 				},
 				{
 					"id": "dJCCnek42Ec"
@@ -10052,9 +9702,6 @@
 					"id": "imciBYtVPUl"
 				},
 				{
-					"id": "x1TNmprZLGE"
-				},
-				{
 					"id": "IBLwXcnBkwV"
 				},
 				{
@@ -10065,9 +9712,6 @@
 				},
 				{
 					"id": "Sql4NRhkJyc"
-				},
-				{
-					"id": "g9GwQbL0QhG"
 				},
 				{
 					"id": "AFIAIIAMDIv"
@@ -10088,28 +9732,13 @@
 					"id": "zHyLfWVRUJV"
 				},
 				{
-					"id": "ZrTFY3urQ0V"
-				},
-				{
-					"id": "waUiUf7DARK"
-				},
-				{
 					"id": "jy9DePIHlUZ"
-				},
-				{
-					"id": "ifN5mSkvLTk"
-				},
-				{
-					"id": "S7quDpnCyLY"
-				},
-				{
-					"id": "BBOU1eB3bij"
 				},
 				{
 					"id": "QqUpdlWL9od"
 				}
 			],
-			"lastUpdated": "2021-04-26T13:56:02.011",
+			"lastUpdated": "2021-06-17T08:45:58.358",
 			"legendSets": [],
 			"mobile": false,
 			"name": "COVIDVAC - Vaccine stock (Daily)",
@@ -10119,7 +9748,7 @@
 			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Daily",
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"renderAsTabs": false,
 			"renderHorizontally": false,
 			"shortName": "Vaccine stock report",
@@ -10141,9 +9770,22 @@
 				"id": "KB1ivLZXMv8"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "OeiDCnG3Pv2"
+				},
+				{
+					"access": "rwr-----",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-rw----",
+					"id": "AxmuDEHQApq"
+				}
+			],
 			"validCompleteOnly": false,
-			"version": 124
+			"version": 125
 		},
 		{
 			"attributeValues": [],
@@ -10159,55 +9801,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "xcvzLIJcUwm"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Gpnjeds5dkE"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Dvx7RK4kXSI"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "oG5V31NvLZO"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "Snc1asgJ7sT"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
 						"id": "iP4hjDgtgPq"
-					},
-					"dataSet": {
-						"id": "gl7JRAdXkhR"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "F7neHTcKur5"
 					},
 					"dataSet": {
 						"id": "gl7JRAdXkhR"
@@ -10239,7 +9833,15 @@
 				},
 				{
 					"dataElement": {
-						"id": "pVrVmrRU0cz"
+						"id": "Gpnjeds5dkE"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "ovTS34BBoUi"
 					},
 					"dataSet": {
 						"id": "gl7JRAdXkhR"
@@ -10255,7 +9857,47 @@
 				},
 				{
 					"dataElement": {
-						"id": "ovTS34BBoUi"
+						"id": "xcvzLIJcUwm"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "pVrVmrRU0cz"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "oG5V31NvLZO"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "F7neHTcKur5"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Dvx7RK4kXSI"
+					},
+					"dataSet": {
+						"id": "gl7JRAdXkhR"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "Snc1asgJ7sT"
 					},
 					"dataSet": {
 						"id": "gl7JRAdXkhR"
@@ -10276,7 +9918,7 @@
 			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Daily",
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"renderAsTabs": false,
 			"renderHorizontally": false,
 			"shortName": "COVIDVAC - Vaccine delivery",
@@ -10298,7 +9940,20 @@
 				"id": "KB1ivLZXMv8"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "OeiDCnG3Pv2"
+				},
+				{
+					"access": "rwr-----",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-rw----",
+					"id": "AxmuDEHQApq"
+				}
+			],
 			"validCompleteOnly": false,
 			"version": 57
 		},
@@ -10316,23 +9971,7 @@
 			"dataSetElements": [
 				{
 					"dataElement": {
-						"id": "QWaRooSTLPr"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "emyAeGuGp8H"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "mmcdLpzPJ8C"
+						"id": "arGTttrrqxE"
 					},
 					"dataSet": {
 						"id": "ZIajFXSOwEz"
@@ -10348,23 +9987,7 @@
 				},
 				{
 					"dataElement": {
-						"id": "YtJqjif8Gne"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "u90k7rEUGX0"
-					},
-					"dataSet": {
-						"id": "ZIajFXSOwEz"
-					}
-				},
-				{
-					"dataElement": {
-						"id": "WAQp0YiVml3"
+						"id": "QWaRooSTLPr"
 					},
 					"dataSet": {
 						"id": "ZIajFXSOwEz"
@@ -10380,7 +10003,39 @@
 				},
 				{
 					"dataElement": {
-						"id": "arGTttrrqxE"
+						"id": "YtJqjif8Gne"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "mmcdLpzPJ8C"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "WAQp0YiVml3"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "emyAeGuGp8H"
+					},
+					"dataSet": {
+						"id": "ZIajFXSOwEz"
+					}
+				},
+				{
+					"dataElement": {
+						"id": "u90k7rEUGX0"
 					},
 					"dataSet": {
 						"id": "ZIajFXSOwEz"
@@ -10401,7 +10056,7 @@
 			"openPeriodsAfterCoEndDate": 0,
 			"organisationUnits": [],
 			"periodType": "Yearly",
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"renderAsTabs": false,
 			"renderHorizontally": false,
 			"shortName": "COVIDVAC - Population (Yearly)",
@@ -10423,7 +10078,20 @@
 				"id": "KB1ivLZXMv8"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": [],
+			"userGroupAccesses": [
+				{
+					"access": "r-r-----",
+					"id": "OeiDCnG3Pv2"
+				},
+				{
+					"access": "rwr-----",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-rw----",
+					"id": "AxmuDEHQApq"
+				}
+			],
 			"validCompleteOnly": false,
 			"version": 10
 		}
@@ -11223,7 +10891,7 @@
 			"description": "Received at the unit",
 			"id": "a5nN4qpXdiM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:34.734",
 			"legendSets": [],
@@ -11308,7 +10976,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "A8X3KAgJl55",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.071",
 			"legendSets": [],
@@ -11360,7 +11028,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "aDRmQZjw75U",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.156",
 			"legendSets": [],
@@ -11412,7 +11080,7 @@
 			"description": "Number of doses in a vial - Sinopharm/Coronavac",
 			"id": "AFIAIIAMDIv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:19.291",
 			"legendSets": [],
@@ -11540,7 +11208,7 @@
 			"description": "Distributed or issued",
 			"id": "AQGBOjzmwuE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.104",
 			"legendSets": [],
@@ -11582,7 +11250,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "AQzTCbaJbaQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.351",
 			"legendSets": [],
@@ -11624,7 +11292,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "AVJwmGWTeZk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.328",
 			"legendSets": [],
@@ -11676,7 +11344,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "AYphzX85uXU",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.597",
 			"legendSets": [],
@@ -11761,7 +11429,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "azwEyGc8qBR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.416",
 			"legendSets": [],
@@ -11813,7 +11481,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "BBOU1eB3bij",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:21.119",
 			"legendSets": [],
@@ -11899,7 +11567,7 @@
 			"description": "Target other population data disaggregated his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "bIaLX9TGUi2",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-29T06:03:31.129",
 			"legendSets": [],
@@ -11984,7 +11652,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "bl5qYDDMGaB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:35.503",
 			"legendSets": [],
@@ -12026,7 +11694,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "blwwFpyiTDk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.672",
 			"legendSets": [],
@@ -12078,7 +11746,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "BR6satZIF7T",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.578",
 			"legendSets": [],
@@ -12130,7 +11798,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "Bs6PWqhkCE7",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.831",
 			"legendSets": [],
@@ -12182,7 +11850,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "bziKPi1Ahyj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.930",
 			"legendSets": [],
@@ -12278,7 +11946,7 @@
 			"description": "Total other population demographic data. This indicator is to be used only if the demographic data entered in the system are belonging to the \"Total target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "C2gk0I1S6KL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:21.628",
 			"legendSets": [],
@@ -12320,7 +11988,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "ccS8ndxpJvd",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.450",
 			"legendSets": [],
@@ -12372,7 +12040,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "CEnvOiaEYJj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.109",
 			"legendSets": [],
@@ -12425,7 +12093,7 @@
 			"description": "Total number of 1st doses administered within the target population",
 			"id": "cfNeOMVmoKv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.021",
 			"legendSets": [],
@@ -12467,7 +12135,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "CgAbvRgBsNe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.362",
 			"legendSets": [],
@@ -12562,7 +12230,7 @@
 			"description": "Number of doses in a vial - Gamaleya/Sputnik V",
 			"id": "cl8eWpYvxOv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.283",
 			"legendSets": [],
@@ -12604,7 +12272,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ClaeTY0LHyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.624",
 			"legendSets": [],
@@ -12656,7 +12324,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "cOeRnJHryYJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.195",
 			"legendSets": [],
@@ -12709,7 +12377,7 @@
 			"description": "Total population data. This indicator is to be used if the demographic data entered are only the ones in the \"Total population\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "Cq0d8q5RxVW",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.150",
 			"legendSets": [],
@@ -12761,7 +12429,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "csTD6H59uQP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.533",
 			"legendSets": [],
@@ -12847,7 +12515,7 @@
 			"description": "Total essential workers demographic data. This indicator is to be used only if the demographic data entered in the system are belonging to the \"Total target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "dATACBkCBqR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.040",
 			"legendSets": [],
@@ -12889,7 +12557,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "dJCCnek42Ec",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.711",
 			"legendSets": [],
@@ -12941,7 +12609,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "dNMSCUvgDZv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.975",
 			"legendSets": [],
@@ -12993,7 +12661,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "dOBetNFKvBw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.231",
 			"legendSets": [],
@@ -13045,7 +12713,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "dP7xDwreS0M",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.489",
 			"legendSets": [],
@@ -13097,7 +12765,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "DsNnwnKz6lz",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.412",
 			"legendSets": [],
@@ -13139,7 +12807,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "dX6vyDYHb6s",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.304",
 			"legendSets": [],
@@ -13181,7 +12849,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "E3epoOmqug0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.873",
 			"legendSets": [],
@@ -13233,7 +12901,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "E5MNsEx9eOv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.135",
 			"legendSets": [],
@@ -13285,7 +12953,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "eAuGo4JB41B",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.745",
 			"legendSets": [],
@@ -13337,7 +13005,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "eBuEJDaT8f0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.004",
 			"legendSets": [],
@@ -13389,7 +13057,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "eCDm2IT7lXL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.563",
 			"legendSets": [],
@@ -13432,7 +13100,7 @@
 			"description": "Total number of 1st doses administered to essential workers within the target population",
 			"id": "EjdzZ1zozAu",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.674",
 			"legendSets": [],
@@ -13517,7 +13185,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "fCiVndrXFCe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.270",
 			"legendSets": [],
@@ -13569,7 +13237,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "fE3NVAKuiwy",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.068",
 			"legendSets": [],
@@ -13611,7 +13279,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "fFCsoeBvRWG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.317",
 			"legendSets": [],
@@ -13696,7 +13364,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "FhEb50njAyl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.194",
 			"legendSets": [],
@@ -13738,7 +13406,7 @@
 			"description": "Received at the unit",
 			"id": "FhnYJwmG5fJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.449",
 			"legendSets": [],
@@ -13780,7 +13448,7 @@
 			"description": "Distributed or issued",
 			"id": "fqYQp1hqpu4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.584",
 			"legendSets": [],
@@ -13822,7 +13490,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Fsg5MHD2Her",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.637",
 			"legendSets": [],
@@ -13874,7 +13542,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "FVXd7bEEeo6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.386",
 			"legendSets": [],
@@ -13926,7 +13594,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "fXT0IqUWp1n",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.537",
 			"legendSets": [],
@@ -13978,7 +13646,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "g66PoZk09Y4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.798",
 			"legendSets": [],
@@ -14030,7 +13698,7 @@
 			"description": "Received at the unit",
 			"id": "g9GwQbL0QhG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.842",
 			"legendSets": [],
@@ -14072,7 +13740,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "g9QjMNhwLt8",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.057",
 			"legendSets": [],
@@ -14124,7 +13792,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "gbKuXlQUs37",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.599",
 			"legendSets": [],
@@ -14176,7 +13844,7 @@
 			"description": "Received at the unit",
 			"id": "Gcd7uqVmHgM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.700",
 			"legendSets": [],
@@ -14218,7 +13886,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Gf5tIXC2J2C",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.142",
 			"legendSets": [],
@@ -14270,7 +13938,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "GMinuyI0CFY",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.890",
 			"legendSets": [],
@@ -14322,7 +13990,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "gNpkPAx5nOf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.339",
 			"legendSets": [],
@@ -14374,7 +14042,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "goDYhaujPEX",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.856",
 			"legendSets": [],
@@ -14426,7 +14094,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "gsR9f3K8WEk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.138",
 			"legendSets": [],
@@ -14478,7 +14146,7 @@
 			"description": "Received at the unit",
 			"id": "GxIw7UpfFng",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.959",
 			"legendSets": [],
@@ -14520,7 +14188,7 @@
 			"description": "Received at the unit",
 			"id": "gZzx1pon4u4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.103",
 			"legendSets": [],
@@ -14605,7 +14273,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "h7lD1DzYdlI",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.415",
 			"legendSets": [],
@@ -14657,7 +14325,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "H8k32C5GSxL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.411",
 			"legendSets": [],
@@ -14710,7 +14378,7 @@
 			"description": "Target frontline HCW population data disaggregated. his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "hbLEDMZnO6L",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-29T06:03:22.471",
 			"legendSets": [],
@@ -14762,7 +14430,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "hbxdP9gn2HP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.362",
 			"legendSets": [],
@@ -14847,7 +14515,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "hfVJOwEaKE4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.957",
 			"legendSets": [],
@@ -14899,7 +14567,7 @@
 			"description": "Received at the unit",
 			"id": "hx8T6ZEEaGx",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.616",
 			"legendSets": [],
@@ -14941,7 +14609,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "HZ24LLPLTOl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.662",
 			"legendSets": [],
@@ -14993,7 +14661,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "i0KmINGO2Mm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.219",
 			"legendSets": [],
@@ -15088,7 +14756,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "IBLwXcnBkwV",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.910",
 			"legendSets": [],
@@ -15140,7 +14808,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "IcjZ6JbwZin",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.435",
 			"legendSets": [],
@@ -15192,7 +14860,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "ICorLQDRWto",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.187",
 			"legendSets": [],
@@ -15244,7 +14912,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "IdAvpBQko2t",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.681",
 			"legendSets": [],
@@ -15296,7 +14964,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "ifN5mSkvLTk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.786",
 			"legendSets": [],
@@ -15348,7 +15016,7 @@
 			"description": "Distributed or issued",
 			"id": "iHerRZbHqp0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.141",
 			"legendSets": [],
@@ -15390,7 +15058,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "imciBYtVPUl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.046",
 			"legendSets": [],
@@ -15442,7 +15110,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "iNbE6iwxRcx",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.408",
 			"legendSets": [],
@@ -15484,7 +15152,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "iY0msVQb242",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.491",
 			"legendSets": [],
@@ -15536,7 +15204,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "J13yjIl23Ei",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.933",
 			"legendSets": [],
@@ -15588,7 +15256,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "J304vqMdvpr",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.187",
 			"legendSets": [],
@@ -15683,7 +15351,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "jiiEo234KxM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.304",
 			"legendSets": [],
@@ -15735,7 +15403,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "jK1OO4uk4xb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.659",
 			"legendSets": [],
@@ -15777,7 +15445,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "jLAwbnBVEOr",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.910",
 			"legendSets": [],
@@ -15819,7 +15487,7 @@
 			"description": "Received at the unit",
 			"id": "jlfS35cmGsw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.166",
 			"legendSets": [],
@@ -15861,7 +15529,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Jm6O0gWseNi",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.445",
 			"legendSets": [],
@@ -15913,7 +15581,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "jy9DePIHlUZ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.554",
 			"legendSets": [],
@@ -15965,7 +15633,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "K0O2Wd0SIHR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.724",
 			"legendSets": [],
@@ -16017,7 +15685,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "k26TcX7kEse",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.807",
 			"legendSets": [],
@@ -16069,7 +15737,7 @@
 			"description": "Received at the unit",
 			"id": "KCC26bndDyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.034",
 			"legendSets": [],
@@ -16111,7 +15779,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "kH7kSO5pcGJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.069",
 			"legendSets": [],
@@ -16163,7 +15831,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "KHYm3H6FwRh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.303",
 			"legendSets": [],
@@ -16205,7 +15873,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "kTqlCAWhYZA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.329",
 			"legendSets": [],
@@ -16258,7 +15926,7 @@
 			"description": "Number of severe adverse events following immunization",
 			"id": "kW139YNJBvh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.422",
 			"legendSets": [],
@@ -16300,7 +15968,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "KxYmQo6NmB0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.577",
 			"legendSets": [],
@@ -16342,7 +16010,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "l48Lps4T9j3",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.597",
 			"legendSets": [],
@@ -16394,7 +16062,7 @@
 			"description": "Number of doses in a vial - Johnson&Johnson",
 			"id": "L4pFNL5ZM7a",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.832",
 			"legendSets": [],
@@ -16436,7 +16104,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "L5AXnUi1kqG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.996",
 			"legendSets": [],
@@ -16575,7 +16243,7 @@
 			"description": "Total number of 1st doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "lDTzAtGVuV9",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.939",
 			"legendSets": [],
@@ -16617,7 +16285,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "lj28VDA0bNH",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.855",
 			"legendSets": [],
@@ -16669,7 +16337,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "LlA9VDgjG8Q",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.253",
 			"legendSets": [],
@@ -16722,7 +16390,7 @@
 			"description": "Total number of 2nd doses administered to frontline HCWs within the target population",
 			"id": "lr8TPMoHa7o",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.199",
 			"legendSets": [],
@@ -16764,7 +16432,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "LxwlDTrkgW5",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.505",
 			"legendSets": [],
@@ -16816,7 +16484,7 @@
 			"description": "Received at the unit",
 			"id": "mB1ZbVoEhSk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.492",
 			"legendSets": [],
@@ -16858,7 +16526,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "mB66uRmE98z",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.748",
 			"legendSets": [],
@@ -16900,7 +16568,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "ME2gIlf1QR1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.762",
 			"legendSets": [],
@@ -16952,7 +16620,7 @@
 			"description": "Received at the unit",
 			"id": "MLqETTUZ85F",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.354",
 			"legendSets": [],
@@ -16994,7 +16662,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "MWE76pE1UQy",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.014",
 			"legendSets": [],
@@ -17046,7 +16714,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "MWOt9LTda2d",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.282",
 			"legendSets": [],
@@ -17098,7 +16766,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "n5k3yVJnVWB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.113",
 			"legendSets": [],
@@ -17150,7 +16818,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "NC2ivRSf2z2",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.565",
 			"legendSets": [],
@@ -17202,7 +16870,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "NcEAJ7XL9t6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.836",
 			"legendSets": [],
@@ -17254,7 +16922,7 @@
 			"description": "Distributed or issued",
 			"id": "nlkwLwgpoZh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.004",
 			"legendSets": [],
@@ -17296,7 +16964,7 @@
 			"description": "Number of doses in a vial - Moderna/mRNA-1273",
 			"id": "NmVg11Afcjj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.608",
 			"legendSets": [],
@@ -17338,7 +17006,7 @@
 			"description": "Distributed or issued",
 			"id": "nuUVuoAHH1j",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.284",
 			"legendSets": [],
@@ -17380,7 +17048,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "nxcHlahUqYA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.360",
 			"legendSets": [],
@@ -17432,7 +17100,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "O36CMF81Z5C",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.090",
 			"legendSets": [],
@@ -17484,7 +17152,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "O9sIO8RJvFi",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.345",
 			"legendSets": [],
@@ -17579,7 +17247,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "oGnaj3xbYSE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.659",
 			"legendSets": [],
@@ -17631,7 +17299,7 @@
 			"description": "Received at the unit",
 			"id": "opVnGJVoP1A",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.557",
 			"legendSets": [],
@@ -17673,7 +17341,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "OqpUGdw237V",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.851",
 			"legendSets": [],
@@ -17725,7 +17393,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "oRcL2TZSZl0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.915",
 			"legendSets": [],
@@ -17820,7 +17488,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "OUDT1JJ9VAT",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.595",
 			"legendSets": [],
@@ -17872,7 +17540,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "OwbOvkvgMDc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.108",
 			"legendSets": [],
@@ -17924,7 +17592,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "OYLwTjL91Gv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.855",
 			"legendSets": [],
@@ -18009,7 +17677,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "p3xdpkfUD2G",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.810",
 			"legendSets": [],
@@ -18051,7 +17719,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "P5BRUarak3K",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.355",
 			"legendSets": [],
@@ -18146,7 +17814,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "PaQp27mII6z",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.608",
 			"legendSets": [],
@@ -18198,7 +17866,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "phAVA4IStYE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.417",
 			"legendSets": [],
@@ -18250,7 +17918,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "PjgCfcuaPOC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.175",
 			"legendSets": [],
@@ -18292,7 +17960,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "PwpUBoRrj8W",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.892",
 			"legendSets": [],
@@ -18345,7 +18013,7 @@
 			"description": "Total number of doses administered to essential workers within the target population",
 			"id": "pwXTO4xUvYz",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.081",
 			"legendSets": [],
@@ -18387,7 +18055,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "pXr923SFhga",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.162",
 			"legendSets": [],
@@ -18439,7 +18107,7 @@
 			"description": "Number of doses in a vial - AstraZeneca/AZD12222",
 			"id": "Qc9DeHi39uC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.987",
 			"legendSets": [],
@@ -18481,7 +18149,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Ql36fBkWOcK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.145",
 			"legendSets": [],
@@ -18533,7 +18201,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "QqUpdlWL9od",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.253",
 			"legendSets": [],
@@ -18576,7 +18244,7 @@
 			"description": "Total number of 2nd doses administered within the target population",
 			"id": "QRfAHS9VoW1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.701",
 			"legendSets": [],
@@ -18619,7 +18287,7 @@
 			"description": "Total number of doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "QRRxZksy4Fq",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.432",
 			"legendSets": [],
@@ -18661,7 +18329,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "Ri5UvQDtNrq",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.510",
 			"legendSets": [],
@@ -18703,7 +18371,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "RkhI9cbxJH0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.402",
 			"legendSets": [],
@@ -18755,7 +18423,7 @@
 			"description": "Received at the unit",
 			"id": "robHfsYzklS",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.342",
 			"legendSets": [],
@@ -18798,7 +18466,7 @@
 			"description": "Total number of 2nd doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "rxEirqLEclQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.600",
 			"legendSets": [],
@@ -18841,7 +18509,7 @@
 			"description": "Total number of doses administered to frontline HCWs within the target population",
 			"id": "s0UwjvftKdT",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.852",
 			"legendSets": [],
@@ -18884,7 +18552,7 @@
 			"description": "Total number of 1st doses administered to frontline HCWs within the target population",
 			"id": "S2XjGtEjaWP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.770",
 			"legendSets": [],
@@ -18969,7 +18637,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "S5NneDzn3qM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.660",
 			"legendSets": [],
@@ -19021,7 +18689,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "S7quDpnCyLY",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.921",
 			"legendSets": [],
@@ -19073,7 +18741,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "SaNO1ZDCEAj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.188",
 			"legendSets": [],
@@ -19125,7 +18793,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "sJeLBYwsc9I",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.357",
 			"legendSets": [],
@@ -19167,7 +18835,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "smCDqUtiGsE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.609",
 			"legendSets": [],
@@ -19252,7 +18920,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "Sql4NRhkJyc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.449",
 			"legendSets": [],
@@ -19304,7 +18972,7 @@
 			"description": "Received at the unit",
 			"id": "STkMwvpjtmo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.029",
 			"legendSets": [],
@@ -19346,7 +19014,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "sw72V3WBFWn",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.874",
 			"legendSets": [],
@@ -19388,7 +19056,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "T4EEURVhRLe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.583",
 			"legendSets": [],
@@ -19430,7 +19098,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TiO52Qnw848",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.252",
 			"legendSets": [],
@@ -19482,7 +19150,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TjUqOaYlUWU",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.510",
 			"legendSets": [],
@@ -19534,7 +19202,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TMt8Ky8P81D",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.717",
 			"legendSets": [],
@@ -19586,7 +19254,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TnEcW2Trwby",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.365",
 			"legendSets": [],
@@ -19628,7 +19296,7 @@
 			"description": "Redistributed back into the supply chain and is no longer intended for the at the unit",
 			"id": "tr60l7BwQYd",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.136",
 			"legendSets": [],
@@ -19670,7 +19338,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "TRAsOOWe5vv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.996",
 			"legendSets": [],
@@ -19722,7 +19390,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TXebLhRjcQb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.848",
 			"legendSets": [],
@@ -19764,7 +19432,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TXiMskG3IV6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.106",
 			"legendSets": [],
@@ -19892,7 +19560,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "uDwsZsGcBu0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.670",
 			"legendSets": [],
@@ -19944,7 +19612,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ue7EfscPicf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.929",
 			"legendSets": [],
@@ -19997,7 +19665,7 @@
 			"description": "Target essential workers population data disaggregated. his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "uo8CjO6ZATR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-29T06:03:13.261",
 			"legendSets": [],
@@ -20049,7 +19717,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "UUG7fxIlLb4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.756",
 			"legendSets": [],
@@ -20101,7 +19769,7 @@
 			"description": "Number of doses in a vial - AstraZeneca/AZ-SKBio",
 			"id": "V1367xP7lyZ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.886",
 			"legendSets": [],
@@ -20143,7 +19811,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "v1u68thDZBo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.444",
 			"legendSets": [],
@@ -20195,7 +19863,7 @@
 			"description": "Received at the unit",
 			"id": "V5LQbIeXWgn",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.144",
 			"legendSets": [],
@@ -20237,7 +19905,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "V5Z1g5c5hzA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.028",
 			"legendSets": [],
@@ -20290,7 +19958,7 @@
 			"description": "Number of non severe events following immunization",
 			"id": "v81rbyvP5uo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.679",
 			"legendSets": [],
@@ -20332,7 +20000,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "VG8nlZ7I4kA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.301",
 			"legendSets": [],
@@ -20384,7 +20052,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "VGQ8dHrBLnv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.579",
 			"legendSets": [],
@@ -20436,7 +20104,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "vGYXhFmodJw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.706",
 			"legendSets": [],
@@ -20488,7 +20156,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "VHQNnhxdAL5",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.849",
 			"legendSets": [],
@@ -20540,7 +20208,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "viNUQL8V9F7",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.735",
 			"legendSets": [],
@@ -20592,7 +20260,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "vLxSDlelZcK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.957",
 			"legendSets": [],
@@ -20644,7 +20312,7 @@
 			"description": "Number of doses in a vial - Pfizer/Biontech/Comirnaty",
 			"id": "VMaFrpu5Cxm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.426",
 			"legendSets": [],
@@ -20686,7 +20354,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "vT1fWii0prf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.216",
 			"legendSets": [],
@@ -20738,7 +20406,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "vWu3ZD2xQaR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.480",
 			"legendSets": [],
@@ -20790,7 +20458,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "w6IXCcUxHUc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.996",
 			"legendSets": [],
@@ -20842,7 +20510,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "waUiUf7DARK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.514",
 			"legendSets": [],
@@ -20894,7 +20562,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "wf13D4m01mk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.772",
 			"legendSets": [],
@@ -20946,7 +20614,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "wnQB9u3f4iP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.025",
 			"legendSets": [],
@@ -20998,7 +20666,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "WOsxBR0ieku",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.101",
 			"legendSets": [],
@@ -21050,7 +20718,7 @@
 			"description": "Distributed or issued",
 			"id": "wstkNwMM2La",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.937",
 			"legendSets": [],
@@ -21092,7 +20760,7 @@
 			"description": "Received at the unit",
 			"id": "wyylPq21brF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.193",
 			"legendSets": [],
@@ -21134,7 +20802,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "wZq2rp3eTVm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.255",
 			"legendSets": [],
@@ -21186,7 +20854,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "x1TNmprZLGE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.286",
 			"legendSets": [],
@@ -21238,7 +20906,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "X5hS9zfyMQe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.355",
 			"legendSets": [],
@@ -21333,7 +21001,7 @@
 			"description": "Received at the unit",
 			"id": "xhFGMPR44Jm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.452",
 			"legendSets": [],
@@ -21375,7 +21043,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "XrkKqCNRGhQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.948",
 			"legendSets": [],
@@ -21460,7 +21128,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "xyZllKIOJam",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.539",
 			"legendSets": [],
@@ -21512,7 +21180,7 @@
 			"description": "Received at the unit",
 			"id": "Y0lVOdD96Xh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.203",
 			"legendSets": [],
@@ -21554,7 +21222,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "Yftlf4sNouF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.468",
 			"legendSets": [],
@@ -21596,7 +21264,7 @@
 			"description": "Received at the unit",
 			"id": "YgCBOGG70Gv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.738",
 			"legendSets": [],
@@ -21638,7 +21306,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ylX4y2UqdyB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.080",
 			"legendSets": [],
@@ -21691,7 +21359,7 @@
 			"description": "Total number of 2nd doses administered to essential workers within the target population",
 			"id": "ys8SzXW7qxP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.223",
 			"legendSets": [],
@@ -21733,7 +21401,7 @@
 			"description": "Received at the unit",
 			"id": "yTSQuFK0hJC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.968",
 			"legendSets": [],
@@ -21775,7 +21443,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yuLUoRoqPKb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.333",
 			"legendSets": [],
@@ -21827,7 +21495,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "yuPWp7qzlyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.588",
 			"legendSets": [],
@@ -21879,7 +21547,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "YW9fLVa0ith",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.616",
 			"legendSets": [],
@@ -21931,7 +21599,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yxhPHGIHXIP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.872",
 			"legendSets": [],
@@ -21983,7 +21651,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yYn2bmF9qmv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.807",
 			"legendSets": [],
@@ -22036,7 +21704,7 @@
 			"description": "Total number of doses administered within the target population",
 			"id": "z09bITKNm1q",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.478",
 			"legendSets": [],
@@ -22078,7 +21746,7 @@
 			"description": "Received at the unit",
 			"id": "z1WUSIn72L9",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.739",
 			"legendSets": [],
@@ -22120,7 +21788,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "zaC93kOFN2l",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.423",
 			"legendSets": [],
@@ -22172,7 +21840,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "zEZ9YljyqSF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.153",
 			"legendSets": [],
@@ -22224,7 +21892,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "zHyLfWVRUJV",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.993",
 			"legendSets": [],
@@ -22309,7 +21977,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "zo0s4vePkcS",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.721",
 			"legendSets": [],
@@ -22361,7 +22029,7 @@
 			"description": "Received at the unit",
 			"id": "ZrTFY3urQ0V",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:34.238",
 			"legendSets": [],
@@ -22403,7 +22071,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "zyl3jlXs1H1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:49.285",
 			"legendSets": [],
@@ -22445,7 +22113,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "ZynnnPlkrlC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.877",
 			"legendSets": [],
@@ -22549,7 +22217,7 @@
 			"code": "NUMBER_ONLY",
 			"created": "2015-03-23T01:42:43.716",
 			"factor": 1,
-			"id": "CqNPn5KzksS",
+			"id": "kHy61PbChXr",
 			"lastUpdated": "2021-02-24T15:07:41.207",
 			"name": "Numerator only (number)",
 			"number": true,
@@ -23012,7 +22680,16 @@
 			"userGroupAccesses": []
 		}
 	],
-	"package": "COVIDVAC_COMPLETE_V1.2_DHIS2.34_2021-04-29T11:27",
+	"package": {
+		"code": "COVIDVAC",
+		"DHIS2Build": "aff07fb",
+		"DHIS2Version": "2.34.4",
+		"lastUpdated": "20210915T113748",
+		"locale": "en",
+		"name": "COVIDVAC_AGGREGATE_V1.2.1_2.34.4-en",
+		"type": "AGGREGATE",
+		"version": "1.2.1"
+	},
 	"predictors": [
 		{
 			"annualSampleCount": 0,
@@ -23894,6 +23571,26 @@
 	"userGroups": [
 		{
 			"attributeValues": [],
+			"created": "2021-09-15T08:46:38.124",
+			"id": "AxmuDEHQApq",
+			"lastUpdated": "2021-09-15T08:46:38.124",
+			"managedGroups": [],
+			"name": "COVAC data capture",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "KB1ivLZXMv8"
+				}
+			]
+		},
+		{
+			"attributeValues": [],
 			"created": "2021-01-20T09:09:25.219",
 			"id": "e2QMDWpq88P",
 			"lastUpdated": "2021-04-26T13:55:54.809",
@@ -24704,7 +24401,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -24830,7 +24527,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -24956,7 +24653,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -25114,7 +24811,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -25272,7 +24969,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -25439,7 +25136,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -25596,7 +25293,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -25758,7 +25455,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -25916,7 +25613,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -26054,7 +25751,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -26212,7 +25909,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -26410,7 +26107,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": true,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -26567,7 +26264,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -26691,7 +26388,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -26831,7 +26528,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -26988,7 +26685,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -27114,7 +26811,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -27276,7 +26973,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": true,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -27402,7 +27099,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -27572,7 +27269,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -27710,7 +27407,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -27874,7 +27571,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,
@@ -28012,7 +27709,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -28138,7 +27835,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -28294,7 +27991,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"regressionType": "NONE",
 			"relativePeriods": {
@@ -28452,7 +28149,7 @@
 			"organisationUnits": [],
 			"percentStackedValues": false,
 			"periods": [],
-			"publicAccess": "r-r-----",
+			"publicAccess": "r-------",
 			"regression": false,
 			"relativePeriods": {
 				"biMonthsThisYear": false,

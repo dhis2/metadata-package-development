@@ -1,391 +1,4 @@
 {
-	"categoryOptionCombos": [
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "BaOUxUBEAp1"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.552",
-			"id": "AnEOc7eqTPG",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:37.458",
-			"name": "Open vial, Other reason",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Otevřená lahvička, jiný důvod"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, otra razón"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, Autre raison"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, Outra razão"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "mlwTknbcGP4"
-				}
-			],
-			"created": "2021-01-16T18:22:01.472",
-			"id": "EWaVKxhCw7E",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:38.797",
-			"name": "Closed vial, Color change (VVM)",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, změna barvy (VVM)"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, cambio de color (VVM)"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, Changement de couleur (PCV)"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, mudança de cor (VVM)"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "mlwTknbcGP4"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.532",
-			"id": "iemSXBenfIl",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:45.613",
-			"name": "Open vial, Color change (VVM)",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, cambio de color (VVM)"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, changement de couleur (PCV)"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, mudança de cor (VVM)"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "jAbqv8bnCqT"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.506",
-			"id": "k3G5n6cjo1H",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:45.816",
-			"name": "Open vial, Contamination",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, contaminación"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, contamination"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, contaminação"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "BoDgo1kqT4s"
-				}
-			],
-			"created": "2021-01-16T18:22:01.453",
-			"id": "MkryG3woLLJ",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:41.427",
-			"name": "Closed vial, Partial use",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, částečné použití"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, Uso parcial"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, utilisation partielle"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, uso parcial"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "jAbqv8bnCqT"
-				}
-			],
-			"created": "2021-01-16T18:22:01.438",
-			"id": "QVo1zpPICJN",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:42.045",
-			"name": "Closed vial, Contamination",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Uzavřená lahvička, kontaminace"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, contaminación"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, contamination"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, contaminação"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "BoDgo1kqT4s"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.517",
-			"id": "RPzlBMTlOxz",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:42.241",
-			"name": "Open vial, Partial use",
-			"translations": [
-				{
-					"locale": "cs",
-					"property": "NAME",
-					"value": "Otevřená lahvička, Částečné použití"
-				},
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, Uso parcial"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, utilisation partielle"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, uso parcial"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "BaOUxUBEAp1"
-				}
-			],
-			"created": "2021-01-16T18:22:01.500",
-			"id": "utXnwFzJgiA",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:46.582",
-			"name": "Closed vial, Other reason",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, otro motivo"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, autre raison"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, outro motivo"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "Rcn9QLnWlua"
-				},
-				{
-					"id": "tYiGorSNnzL"
-				}
-			],
-			"created": "2021-01-16T18:22:01.484",
-			"id": "x0WvdmAkQqF",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:46.967",
-			"name": "Closed vial, Expiry",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial cerrado, Caducidad"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon fermé, expiration"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco fechado, validade"
-				}
-			]
-		},
-		{
-			"attributeValues": [],
-			"categoryCombo": {
-				"id": "P9CXpIYGFBR"
-			},
-			"categoryOptions": [
-				{
-					"id": "tYiGorSNnzL"
-				},
-				{
-					"id": "L8NDNe93WYp"
-				}
-			],
-			"created": "2021-01-16T18:22:01.542",
-			"id": "x1IX3hw1Xwl",
-			"ignoreApproval": false,
-			"lastUpdated": "2021-02-24T23:23:47.166",
-			"name": "Open vial, Expiry",
-			"translations": [
-				{
-					"locale": "es",
-					"property": "NAME",
-					"value": "Vial abierto, Caducidad"
-				},
-				{
-					"locale": "fr",
-					"property": "NAME",
-					"value": "Flacon ouvert, expiration"
-				},
-				{
-					"locale": "pt",
-					"property": "NAME",
-					"value": "Frasco aberto, validade"
-				}
-			]
-		}
-	],
 	"categoryOptionGroups": [
 		{
 			"attributeValues": [],
@@ -3196,6 +2809,7 @@
 					"lastUpdated": "2021-04-22T09:56:31.623",
 					"reports": [],
 					"resources": [],
+					"shape": "NORMAL",
 					"translations": [],
 					"type": "CHART",
 					"userAccesses": [],
@@ -4201,7 +3815,20 @@
 				"id": "KB1ivLZXMv8"
 			},
 			"userAccesses": [],
-			"userGroupAccesses": []
+			"userGroupAccesses": [
+				{
+					"access": "r-------",
+					"id": "OeiDCnG3Pv2"
+				},
+				{
+					"access": "rw------",
+					"id": "e2QMDWpq88P"
+				},
+				{
+					"access": "r-------",
+					"id": "AxmuDEHQApq"
+				}
+			]
 		}
 	],
 	"indicatorGroups": [
@@ -4999,7 +4626,7 @@
 			"description": "Received at the unit",
 			"id": "a5nN4qpXdiM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:34.734",
 			"legendSets": [],
@@ -5084,7 +4711,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "A8X3KAgJl55",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.071",
 			"legendSets": [],
@@ -5136,7 +4763,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "aDRmQZjw75U",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.156",
 			"legendSets": [],
@@ -5188,7 +4815,7 @@
 			"description": "Number of doses in a vial - Sinopharm/Coronavac",
 			"id": "AFIAIIAMDIv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:19.291",
 			"legendSets": [],
@@ -5316,7 +4943,7 @@
 			"description": "Distributed or issued",
 			"id": "AQGBOjzmwuE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.104",
 			"legendSets": [],
@@ -5358,7 +4985,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "AQzTCbaJbaQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.351",
 			"legendSets": [],
@@ -5400,7 +5027,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "AVJwmGWTeZk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.328",
 			"legendSets": [],
@@ -5452,7 +5079,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "AYphzX85uXU",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:20.597",
 			"legendSets": [],
@@ -5537,7 +5164,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "azwEyGc8qBR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.416",
 			"legendSets": [],
@@ -5589,7 +5216,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "BBOU1eB3bij",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:21.119",
 			"legendSets": [],
@@ -5675,9 +5302,9 @@
 			"description": "Target other population data disaggregated his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "bIaLX9TGUi2",
 			"indicatorType": {
-				"id": "hmSnCXmLYwt"
+				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-04-26T13:55:35.239",
+			"lastUpdated": "2021-04-29T06:03:31.129",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Target other population",
 			"numerator": "-1",
@@ -5760,7 +5387,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "bl5qYDDMGaB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:35.503",
 			"legendSets": [],
@@ -5802,7 +5429,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "blwwFpyiTDk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.672",
 			"legendSets": [],
@@ -5854,7 +5481,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "BR6satZIF7T",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.578",
 			"legendSets": [],
@@ -5906,7 +5533,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "Bs6PWqhkCE7",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:47.831",
 			"legendSets": [],
@@ -5958,7 +5585,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "bziKPi1Ahyj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:02.930",
 			"legendSets": [],
@@ -6054,7 +5681,7 @@
 			"description": "Total other population demographic data. This indicator is to be used only if the demographic data entered in the system are belonging to the \"Total target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "C2gk0I1S6KL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:21.628",
 			"legendSets": [],
@@ -6096,7 +5723,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "ccS8ndxpJvd",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.450",
 			"legendSets": [],
@@ -6148,7 +5775,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "CEnvOiaEYJj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.109",
 			"legendSets": [],
@@ -6201,7 +5828,7 @@
 			"description": "Total number of 1st doses administered within the target population",
 			"id": "cfNeOMVmoKv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.021",
 			"legendSets": [],
@@ -6243,7 +5870,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "CgAbvRgBsNe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.362",
 			"legendSets": [],
@@ -6338,7 +5965,7 @@
 			"description": "Number of doses in a vial - Gamaleya/Sputnik V",
 			"id": "cl8eWpYvxOv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.283",
 			"legendSets": [],
@@ -6380,7 +6007,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ClaeTY0LHyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.624",
 			"legendSets": [],
@@ -6432,7 +6059,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "cOeRnJHryYJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.195",
 			"legendSets": [],
@@ -6485,7 +6112,7 @@
 			"description": "Total population data. This indicator is to be used if the demographic data entered are only the ones in the \"Total population\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "Cq0d8q5RxVW",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.150",
 			"legendSets": [],
@@ -6537,7 +6164,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "csTD6H59uQP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:36.533",
 			"legendSets": [],
@@ -6570,7 +6197,7 @@
 			"userGroupAccesses": []
 		},
 		{
-			"annualized": false,
+			"annualized": true,
 			"attributeValues": [],
 			"code": "CVDV_COVERAGE_TARGET_HCWPOP",
 			"created": "2021-04-14T11:29:38.154",
@@ -6582,7 +6209,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-04-26T13:55:36.781",
+			"lastUpdated": "2021-04-29T05:47:42.127",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Coverage target HCW (%)",
 			"numerator": "-1",
@@ -6623,7 +6250,7 @@
 			"description": "Total essential workers demographic data. This indicator is to be used only if the demographic data entered in the system are belonging to the \"Total target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "dATACBkCBqR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.040",
 			"legendSets": [],
@@ -6665,7 +6292,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "dJCCnek42Ec",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.711",
 			"legendSets": [],
@@ -6717,7 +6344,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "dNMSCUvgDZv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:03.975",
 			"legendSets": [],
@@ -6769,7 +6396,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "dOBetNFKvBw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.231",
 			"legendSets": [],
@@ -6821,7 +6448,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "dP7xDwreS0M",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.489",
 			"legendSets": [],
@@ -6873,7 +6500,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "DsNnwnKz6lz",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.412",
 			"legendSets": [],
@@ -6915,7 +6542,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "dX6vyDYHb6s",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.304",
 			"legendSets": [],
@@ -6957,7 +6584,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "E3epoOmqug0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:48.873",
 			"legendSets": [],
@@ -7009,7 +6636,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "E5MNsEx9eOv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.135",
 			"legendSets": [],
@@ -7061,7 +6688,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "eAuGo4JB41B",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:04.745",
 			"legendSets": [],
@@ -7113,7 +6740,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "eBuEJDaT8f0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.004",
 			"legendSets": [],
@@ -7165,7 +6792,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "eCDm2IT7lXL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:37.563",
 			"legendSets": [],
@@ -7208,7 +6835,7 @@
 			"description": "Total number of 1st doses administered to essential workers within the target population",
 			"id": "EjdzZ1zozAu",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:22.674",
 			"legendSets": [],
@@ -7293,7 +6920,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "fCiVndrXFCe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.270",
 			"legendSets": [],
@@ -7345,7 +6972,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "fE3NVAKuiwy",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.068",
 			"legendSets": [],
@@ -7387,7 +7014,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "fFCsoeBvRWG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.317",
 			"legendSets": [],
@@ -7472,7 +7099,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "FhEb50njAyl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.194",
 			"legendSets": [],
@@ -7514,7 +7141,7 @@
 			"description": "Received at the unit",
 			"id": "FhnYJwmG5fJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.449",
 			"legendSets": [],
@@ -7556,7 +7183,7 @@
 			"description": "Distributed or issued",
 			"id": "fqYQp1hqpu4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.584",
 			"legendSets": [],
@@ -7598,7 +7225,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Fsg5MHD2Her",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.637",
 			"legendSets": [],
@@ -7650,7 +7277,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "FVXd7bEEeo6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.386",
 			"legendSets": [],
@@ -7702,7 +7329,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "fXT0IqUWp1n",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.537",
 			"legendSets": [],
@@ -7754,7 +7381,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "g66PoZk09Y4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:05.798",
 			"legendSets": [],
@@ -7806,7 +7433,7 @@
 			"description": "Received at the unit",
 			"id": "g9GwQbL0QhG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:38.842",
 			"legendSets": [],
@@ -7848,7 +7475,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "g9QjMNhwLt8",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.057",
 			"legendSets": [],
@@ -7900,7 +7527,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "gbKuXlQUs37",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.599",
 			"legendSets": [],
@@ -7952,7 +7579,7 @@
 			"description": "Received at the unit",
 			"id": "Gcd7uqVmHgM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.700",
 			"legendSets": [],
@@ -7994,7 +7621,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Gf5tIXC2J2C",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.142",
 			"legendSets": [],
@@ -8046,7 +7673,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "GMinuyI0CFY",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:49.890",
 			"legendSets": [],
@@ -8098,7 +7725,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "gNpkPAx5nOf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.339",
 			"legendSets": [],
@@ -8150,7 +7777,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "goDYhaujPEX",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:06.856",
 			"legendSets": [],
@@ -8202,7 +7829,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "gsR9f3K8WEk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.138",
 			"legendSets": [],
@@ -8254,7 +7881,7 @@
 			"description": "Received at the unit",
 			"id": "GxIw7UpfFng",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:23.959",
 			"legendSets": [],
@@ -8296,7 +7923,7 @@
 			"description": "Received at the unit",
 			"id": "gZzx1pon4u4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.103",
 			"legendSets": [],
@@ -8381,7 +8008,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "h7lD1DzYdlI",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.415",
 			"legendSets": [],
@@ -8433,7 +8060,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "H8k32C5GSxL",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.411",
 			"legendSets": [],
@@ -8486,9 +8113,9 @@
 			"description": "Target frontline HCW population data disaggregated. his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "hbLEDMZnO6L",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-04-26T13:55:07.699",
+			"lastUpdated": "2021-04-29T06:03:22.471",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Target frontline healthcare workers",
 			"numerator": "-1",
@@ -8538,7 +8165,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "hbxdP9gn2HP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.362",
 			"legendSets": [],
@@ -8623,7 +8250,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "hfVJOwEaKE4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:07.957",
 			"legendSets": [],
@@ -8675,7 +8302,7 @@
 			"description": "Received at the unit",
 			"id": "hx8T6ZEEaGx",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:39.616",
 			"legendSets": [],
@@ -8717,7 +8344,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "HZ24LLPLTOl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.662",
 			"legendSets": [],
@@ -8769,7 +8396,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "i0KmINGO2Mm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.219",
 			"legendSets": [],
@@ -8812,7 +8439,7 @@
 			"userGroupAccesses": []
 		},
 		{
-			"annualized": false,
+			"annualized": true,
 			"attributeValues": [],
 			"code": "CVDV_COVERAGE_OVERALL_POP",
 			"created": "2021-04-14T12:08:06.931",
@@ -8824,7 +8451,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-04-26T13:55:39.885",
+			"lastUpdated": "2021-04-29T05:46:59.732",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Coverage target overall population (%)",
 			"numerator": "-1",
@@ -8864,7 +8491,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "IBLwXcnBkwV",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:50.910",
 			"legendSets": [],
@@ -8916,7 +8543,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "IcjZ6JbwZin",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.435",
 			"legendSets": [],
@@ -8968,7 +8595,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "ICorLQDRWto",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.187",
 			"legendSets": [],
@@ -9020,7 +8647,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "IdAvpBQko2t",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.681",
 			"legendSets": [],
@@ -9072,7 +8699,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "ifN5mSkvLTk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.786",
 			"legendSets": [],
@@ -9124,7 +8751,7 @@
 			"description": "Distributed or issued",
 			"id": "iHerRZbHqp0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.141",
 			"legendSets": [],
@@ -9166,7 +8793,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "imciBYtVPUl",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.046",
 			"legendSets": [],
@@ -9218,7 +8845,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "iNbE6iwxRcx",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.408",
 			"legendSets": [],
@@ -9260,7 +8887,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "iY0msVQb242",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:08.491",
 			"legendSets": [],
@@ -9312,7 +8939,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "J13yjIl23Ei",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:51.933",
 			"legendSets": [],
@@ -9364,7 +8991,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "J304vqMdvpr",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.187",
 			"legendSets": [],
@@ -9459,7 +9086,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "jiiEo234KxM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.304",
 			"legendSets": [],
@@ -9511,7 +9138,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "jK1OO4uk4xb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.659",
 			"legendSets": [],
@@ -9553,7 +9180,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "jLAwbnBVEOr",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:40.910",
 			"legendSets": [],
@@ -9595,7 +9222,7 @@
 			"description": "Received at the unit",
 			"id": "jlfS35cmGsw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.166",
 			"legendSets": [],
@@ -9637,7 +9264,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Jm6O0gWseNi",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.445",
 			"legendSets": [],
@@ -9689,7 +9316,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "jy9DePIHlUZ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.554",
 			"legendSets": [],
@@ -9741,7 +9368,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "K0O2Wd0SIHR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.724",
 			"legendSets": [],
@@ -9793,7 +9420,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "k26TcX7kEse",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:09.807",
 			"legendSets": [],
@@ -9845,7 +9472,7 @@
 			"description": "Received at the unit",
 			"id": "KCC26bndDyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.034",
 			"legendSets": [],
@@ -9887,7 +9514,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "kH7kSO5pcGJ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.069",
 			"legendSets": [],
@@ -9939,7 +9566,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "KHYm3H6FwRh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.303",
 			"legendSets": [],
@@ -9981,7 +9608,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "kTqlCAWhYZA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.329",
 			"legendSets": [],
@@ -10034,7 +9661,7 @@
 			"description": "Number of severe adverse events following immunization",
 			"id": "kW139YNJBvh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.422",
 			"legendSets": [],
@@ -10076,7 +9703,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "KxYmQo6NmB0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.577",
 			"legendSets": [],
@@ -10118,7 +9745,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "l48Lps4T9j3",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.597",
 			"legendSets": [],
@@ -10170,7 +9797,7 @@
 			"description": "Number of doses in a vial - Johnson&Johnson",
 			"id": "L4pFNL5ZM7a",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:25.832",
 			"legendSets": [],
@@ -10212,7 +9839,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "L5AXnUi1kqG",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:52.996",
 			"legendSets": [],
@@ -10298,7 +9925,7 @@
 			"userGroupAccesses": []
 		},
 		{
-			"annualized": false,
+			"annualized": true,
 			"attributeValues": [],
 			"code": "CVDV_COVERAGE_TARGET_UNDERLYING_CONDITIONS",
 			"created": "2021-04-14T12:12:22.469",
@@ -10310,7 +9937,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-04-26T13:55:41.686",
+			"lastUpdated": "2021-04-29T05:46:45.988",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Coverage target people with underlying conditions (%)",
 			"numerator": "-1",
@@ -10351,7 +9978,7 @@
 			"description": "Total number of 1st doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "lDTzAtGVuV9",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:41.939",
 			"legendSets": [],
@@ -10393,7 +10020,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "lj28VDA0bNH",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:10.855",
 			"legendSets": [],
@@ -10445,7 +10072,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "LlA9VDgjG8Q",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.253",
 			"legendSets": [],
@@ -10498,7 +10125,7 @@
 			"description": "Total number of 2nd doses administered to frontline HCWs within the target population",
 			"id": "lr8TPMoHa7o",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.199",
 			"legendSets": [],
@@ -10540,7 +10167,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "LxwlDTrkgW5",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.505",
 			"legendSets": [],
@@ -10592,7 +10219,7 @@
 			"description": "Received at the unit",
 			"id": "mB1ZbVoEhSk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.492",
 			"legendSets": [],
@@ -10634,7 +10261,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "mB66uRmE98z",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:42.748",
 			"legendSets": [],
@@ -10676,7 +10303,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "ME2gIlf1QR1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:53.762",
 			"legendSets": [],
@@ -10728,7 +10355,7 @@
 			"description": "Received at the unit",
 			"id": "MLqETTUZ85F",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.354",
 			"legendSets": [],
@@ -10770,7 +10397,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "MWE76pE1UQy",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.014",
 			"legendSets": [],
@@ -10822,7 +10449,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "MWOt9LTda2d",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.282",
 			"legendSets": [],
@@ -10874,7 +10501,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "n5k3yVJnVWB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.113",
 			"legendSets": [],
@@ -10926,7 +10553,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "NC2ivRSf2z2",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.565",
 			"legendSets": [],
@@ -10978,7 +10605,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "NcEAJ7XL9t6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:54.836",
 			"legendSets": [],
@@ -11030,7 +10657,7 @@
 			"description": "Distributed or issued",
 			"id": "nlkwLwgpoZh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.004",
 			"legendSets": [],
@@ -11072,7 +10699,7 @@
 			"description": "Number of doses in a vial - Moderna/mRNA-1273",
 			"id": "NmVg11Afcjj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.608",
 			"legendSets": [],
@@ -11114,7 +10741,7 @@
 			"description": "Distributed or issued",
 			"id": "nuUVuoAHH1j",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.284",
 			"legendSets": [],
@@ -11156,7 +10783,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "nxcHlahUqYA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.360",
 			"legendSets": [],
@@ -11208,7 +10835,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "O36CMF81Z5C",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.090",
 			"legendSets": [],
@@ -11260,7 +10887,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "O9sIO8RJvFi",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.345",
 			"legendSets": [],
@@ -11303,7 +10930,7 @@
 			"userGroupAccesses": []
 		},
 		{
-			"annualized": false,
+			"annualized": true,
 			"attributeValues": [],
 			"code": "CVDV_COVERAGE_TARGET_ESSENTIAL_WORKER_POP",
 			"created": "2021-04-14T11:31:10.673",
@@ -11315,7 +10942,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-04-26T13:55:27.107",
+			"lastUpdated": "2021-04-29T05:47:07.904",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Coverage target essential workers (%)",
 			"numerator": "-1",
@@ -11355,7 +10982,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "oGnaj3xbYSE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.659",
 			"legendSets": [],
@@ -11407,7 +11034,7 @@
 			"description": "Received at the unit",
 			"id": "opVnGJVoP1A",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.557",
 			"legendSets": [],
@@ -11449,7 +11076,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "OqpUGdw237V",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.851",
 			"legendSets": [],
@@ -11501,7 +11128,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "oRcL2TZSZl0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:11.915",
 			"legendSets": [],
@@ -11596,7 +11223,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "OUDT1JJ9VAT",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:55.595",
 			"legendSets": [],
@@ -11648,7 +11275,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "OwbOvkvgMDc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.108",
 			"legendSets": [],
@@ -11700,7 +11327,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "OYLwTjL91Gv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:26.855",
 			"legendSets": [],
@@ -11785,7 +11412,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "p3xdpkfUD2G",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:43.810",
 			"legendSets": [],
@@ -11827,7 +11454,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "P5BRUarak3K",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.355",
 			"legendSets": [],
@@ -11922,7 +11549,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "PaQp27mII6z",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.608",
 			"legendSets": [],
@@ -11974,7 +11601,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "phAVA4IStYE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.417",
 			"legendSets": [],
@@ -12026,7 +11653,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "PjgCfcuaPOC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.175",
 			"legendSets": [],
@@ -12068,7 +11695,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "PwpUBoRrj8W",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:56.892",
 			"legendSets": [],
@@ -12121,7 +11748,7 @@
 			"description": "Total number of doses administered to essential workers within the target population",
 			"id": "pwXTO4xUvYz",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.081",
 			"legendSets": [],
@@ -12163,7 +11790,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "pXr923SFhga",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.162",
 			"legendSets": [],
@@ -12215,7 +11842,7 @@
 			"description": "Number of doses in a vial - AstraZeneca/AZD12222",
 			"id": "Qc9DeHi39uC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.987",
 			"legendSets": [],
@@ -12257,7 +11884,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "Ql36fBkWOcK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.145",
 			"legendSets": [],
@@ -12309,7 +11936,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "QqUpdlWL9od",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.253",
 			"legendSets": [],
@@ -12352,7 +11979,7 @@
 			"description": "Total number of 2nd doses administered within the target population",
 			"id": "QRfAHS9VoW1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.701",
 			"legendSets": [],
@@ -12395,7 +12022,7 @@
 			"description": "Total number of doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "QRRxZksy4Fq",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:28.432",
 			"legendSets": [],
@@ -12437,7 +12064,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "Ri5UvQDtNrq",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.510",
 			"legendSets": [],
@@ -12479,7 +12106,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "RkhI9cbxJH0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.402",
 			"legendSets": [],
@@ -12531,7 +12158,7 @@
 			"description": "Received at the unit",
 			"id": "robHfsYzklS",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.342",
 			"legendSets": [],
@@ -12574,7 +12201,7 @@
 			"description": "Total number of 2nd doses administered to the other population not falling in any other specific target group within the target population",
 			"id": "rxEirqLEclQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.600",
 			"legendSets": [],
@@ -12617,7 +12244,7 @@
 			"description": "Total number of doses administered to frontline HCWs within the target population",
 			"id": "s0UwjvftKdT",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:44.852",
 			"legendSets": [],
@@ -12660,7 +12287,7 @@
 			"description": "Total number of 1st doses administered to frontline HCWs within the target population",
 			"id": "S2XjGtEjaWP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:29.770",
 			"legendSets": [],
@@ -12745,7 +12372,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "S5NneDzn3qM",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.660",
 			"legendSets": [],
@@ -12797,7 +12424,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "S7quDpnCyLY",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:57.921",
 			"legendSets": [],
@@ -12849,7 +12476,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "SaNO1ZDCEAj",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.188",
 			"legendSets": [],
@@ -12901,7 +12528,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "sJeLBYwsc9I",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.357",
 			"legendSets": [],
@@ -12943,7 +12570,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "smCDqUtiGsE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.609",
 			"legendSets": [],
@@ -13028,7 +12655,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "Sql4NRhkJyc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.449",
 			"legendSets": [],
@@ -13080,7 +12707,7 @@
 			"description": "Received at the unit",
 			"id": "STkMwvpjtmo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.029",
 			"legendSets": [],
@@ -13122,7 +12749,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "sw72V3WBFWn",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:45.874",
 			"legendSets": [],
@@ -13164,7 +12791,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "T4EEURVhRLe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.583",
 			"legendSets": [],
@@ -13206,7 +12833,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TiO52Qnw848",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.252",
 			"legendSets": [],
@@ -13258,7 +12885,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TjUqOaYlUWU",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.510",
 			"legendSets": [],
@@ -13310,7 +12937,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "TMt8Ky8P81D",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.717",
 			"legendSets": [],
@@ -13362,7 +12989,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TnEcW2Trwby",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.365",
 			"legendSets": [],
@@ -13404,7 +13031,7 @@
 			"description": "Redistributed back into the supply chain and is no longer intended for the at the unit",
 			"id": "tr60l7BwQYd",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.136",
 			"legendSets": [],
@@ -13446,7 +13073,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "TRAsOOWe5vv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:58.996",
 			"legendSets": [],
@@ -13498,7 +13125,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TXebLhRjcQb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:30.848",
 			"legendSets": [],
@@ -13540,7 +13167,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "TXiMskG3IV6",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.106",
 			"legendSets": [],
@@ -13573,7 +13200,7 @@
 			"userGroupAccesses": []
 		},
 		{
-			"annualized": false,
+			"annualized": true,
 			"attributeValues": [],
 			"code": "CVDV_COVERAGE_TARGET_OTHER_POP",
 			"created": "2021-04-14T12:05:41.995",
@@ -13585,7 +13212,7 @@
 			"indicatorType": {
 				"id": "hmSnCXmLYwt"
 			},
-			"lastUpdated": "2021-04-26T13:55:31.622",
+			"lastUpdated": "2021-04-29T05:47:32.485",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Coverage target Others (%)",
 			"numerator": "-1",
@@ -13668,7 +13295,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "uDwsZsGcBu0",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.670",
 			"legendSets": [],
@@ -13720,7 +13347,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ue7EfscPicf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:12.929",
 			"legendSets": [],
@@ -13773,9 +13400,9 @@
 			"description": "Target essential workers population data disaggregated. his indicator is to be used only if the demographic data entered in the system are belonging to the \"Disaggregated target populations\" section of the \"COVIDVAC - Population\" dataset",
 			"id": "uo8CjO6ZATR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
-			"lastUpdated": "2021-04-26T13:55:13.189",
+			"lastUpdated": "2021-04-29T06:03:13.261",
 			"legendSets": [],
 			"name": "[CONFIG] COVIDVAC - Target essential workers",
 			"numerator": "-1",
@@ -13825,7 +13452,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "UUG7fxIlLb4",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:54:59.756",
 			"legendSets": [],
@@ -13877,7 +13504,7 @@
 			"description": "Number of doses in a vial - AstraZeneca/AZ-SKBio",
 			"id": "V1367xP7lyZ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:31.886",
 			"legendSets": [],
@@ -13919,7 +13546,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "v1u68thDZBo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.444",
 			"legendSets": [],
@@ -13971,7 +13598,7 @@
 			"description": "Received at the unit",
 			"id": "V5LQbIeXWgn",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.144",
 			"legendSets": [],
@@ -14013,7 +13640,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "V5Z1g5c5hzA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.028",
 			"legendSets": [],
@@ -14066,7 +13693,7 @@
 			"description": "Number of non severe events following immunization",
 			"id": "v81rbyvP5uo",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.679",
 			"legendSets": [],
@@ -14108,7 +13735,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "VG8nlZ7I4kA",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.301",
 			"legendSets": [],
@@ -14160,7 +13787,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "VGQ8dHrBLnv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.579",
 			"legendSets": [],
@@ -14212,7 +13839,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "vGYXhFmodJw",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.706",
 			"legendSets": [],
@@ -14264,7 +13891,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "VHQNnhxdAL5",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:00.849",
 			"legendSets": [],
@@ -14316,7 +13943,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "viNUQL8V9F7",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.735",
 			"legendSets": [],
@@ -14368,7 +13995,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "vLxSDlelZcK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:13.957",
 			"legendSets": [],
@@ -14420,7 +14047,7 @@
 			"description": "Number of doses in a vial - Pfizer/Biontech/Comirnaty",
 			"id": "VMaFrpu5Cxm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.426",
 			"legendSets": [],
@@ -14462,7 +14089,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "vT1fWii0prf",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.216",
 			"legendSets": [],
@@ -14514,7 +14141,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "vWu3ZD2xQaR",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.480",
 			"legendSets": [],
@@ -14566,7 +14193,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "w6IXCcUxHUc",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:14.996",
 			"legendSets": [],
@@ -14618,7 +14245,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "waUiUf7DARK",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.514",
 			"legendSets": [],
@@ -14670,7 +14297,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "wf13D4m01mk",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.772",
 			"legendSets": [],
@@ -14722,7 +14349,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "wnQB9u3f4iP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.025",
 			"legendSets": [],
@@ -14774,7 +14401,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "WOsxBR0ieku",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.101",
 			"legendSets": [],
@@ -14826,7 +14453,7 @@
 			"description": "Distributed or issued",
 			"id": "wstkNwMM2La",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:46.937",
 			"legendSets": [],
@@ -14868,7 +14495,7 @@
 			"description": "Received at the unit",
 			"id": "wyylPq21brF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.193",
 			"legendSets": [],
@@ -14910,7 +14537,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "wZq2rp3eTVm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:15.255",
 			"legendSets": [],
@@ -14962,7 +14589,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "x1TNmprZLGE",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.286",
 			"legendSets": [],
@@ -15014,7 +14641,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "X5hS9zfyMQe",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.355",
 			"legendSets": [],
@@ -15109,7 +14736,7 @@
 			"description": "Received at the unit",
 			"id": "xhFGMPR44Jm",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.452",
 			"legendSets": [],
@@ -15151,7 +14778,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "XrkKqCNRGhQ",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:32.948",
 			"legendSets": [],
@@ -15236,7 +14863,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "xyZllKIOJam",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.539",
 			"legendSets": [],
@@ -15288,7 +14915,7 @@
 			"description": "Received at the unit",
 			"id": "Y0lVOdD96Xh",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.203",
 			"legendSets": [],
@@ -15330,7 +14957,7 @@
 			"description": "Days the unit was out of stock",
 			"id": "Yftlf4sNouF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.468",
 			"legendSets": [],
@@ -15372,7 +14999,7 @@
 			"description": "Received at the unit",
 			"id": "YgCBOGG70Gv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:33.738",
 			"legendSets": [],
@@ -15414,7 +15041,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "ylX4y2UqdyB",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.080",
 			"legendSets": [],
@@ -15467,7 +15094,7 @@
 			"description": "Total number of 2nd doses administered to essential workers within the target population",
 			"id": "ys8SzXW7qxP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.223",
 			"legendSets": [],
@@ -15509,7 +15136,7 @@
 			"description": "Received at the unit",
 			"id": "yTSQuFK0hJC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:47.968",
 			"legendSets": [],
@@ -15551,7 +15178,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yuLUoRoqPKb",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.333",
 			"legendSets": [],
@@ -15603,7 +15230,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "yuPWp7qzlyg",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.588",
 			"legendSets": [],
@@ -15655,7 +15282,7 @@
 			"description": "Distributed to people receiving the vaccines",
 			"id": "YW9fLVa0ith",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.616",
 			"legendSets": [],
@@ -15707,7 +15334,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yxhPHGIHXIP",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:17.872",
 			"legendSets": [],
@@ -15759,7 +15386,7 @@
 			"description": "Stock at hand at the center after a physical stock count",
 			"id": "yYn2bmF9qmv",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:16.807",
 			"legendSets": [],
@@ -15812,7 +15439,7 @@
 			"description": "Total number of doses administered within the target population",
 			"id": "z09bITKNm1q",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.478",
 			"legendSets": [],
@@ -15854,7 +15481,7 @@
 			"description": "Received at the unit",
 			"id": "z1WUSIn72L9",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.739",
 			"legendSets": [],
@@ -15896,7 +15523,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "zaC93kOFN2l",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.423",
 			"legendSets": [],
@@ -15948,7 +15575,7 @@
 			"description": "(Opening balance+Received)-(Distributed+Redistributed+Discarded)",
 			"id": "zEZ9YljyqSF",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.153",
 			"legendSets": [],
@@ -16000,7 +15627,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "zHyLfWVRUJV",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:48.993",
 			"legendSets": [],
@@ -16085,7 +15712,7 @@
 			"description": "Discarded due to expiry, damage, contamination and etc",
 			"id": "zo0s4vePkcS",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:18.721",
 			"legendSets": [],
@@ -16137,7 +15764,7 @@
 			"description": "Received at the unit",
 			"id": "ZrTFY3urQ0V",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:34.238",
 			"legendSets": [],
@@ -16179,7 +15806,7 @@
 			"description": "Item redistributed back into the supply chain and is no longer intended for use at the unit",
 			"id": "zyl3jlXs1H1",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:49.285",
 			"legendSets": [],
@@ -16221,7 +15848,7 @@
 			"description": "Opening balance equals the physical 'stock at hand count' of the previous period",
 			"id": "ZynnnPlkrlC",
 			"indicatorType": {
-				"id": "CqNPn5KzksS"
+				"id": "kHy61PbChXr"
 			},
 			"lastUpdated": "2021-04-26T13:55:01.877",
 			"legendSets": [],
@@ -16325,7 +15952,7 @@
 			"code": "NUMBER_ONLY",
 			"created": "2015-03-23T01:42:43.716",
 			"factor": 1,
-			"id": "CqNPn5KzksS",
+			"id": "kHy61PbChXr",
 			"lastUpdated": "2021-02-24T15:07:41.207",
 			"name": "Numerator only (number)",
 			"number": true,
@@ -16638,7 +16265,16 @@
 			"userOrganisationUnitGrandChildren": true
 		}
 	],
-	"package": "COVIDVAC_DASHBOARD_V1.2_DHIS2.30_2021-04-26T16:17",
+	"package": {
+		"code": "COVIDVAC",
+		"DHIS2Build": "6af6fc0",
+		"DHIS2Version": "2.30",
+		"lastUpdated": "20210915T084638",
+		"locale": "en",
+		"name": "COVIDVAC_DASHBOARD_V1.2.1_2.30-en",
+		"type": "DASHBOARD",
+		"version": "1.2.1"
+	},
 	"reportTables": [
 		{
 			"aggregationType": "DEFAULT",
@@ -18161,6 +17797,26 @@
 		}
 	],
 	"userGroups": [
+		{
+			"attributeValues": [],
+			"created": "2021-09-15T08:46:38.124",
+			"id": "AxmuDEHQApq",
+			"lastUpdated": "2021-09-15T08:46:38.124",
+			"managedGroups": [],
+			"name": "COVAC data capture",
+			"publicAccess": "r-------",
+			"translations": [],
+			"user": {
+				"id": "KB1ivLZXMv8"
+			},
+			"userAccesses": [],
+			"userGroupAccesses": [],
+			"users": [
+				{
+					"id": "KB1ivLZXMv8"
+				}
+			]
+		},
 		{
 			"attributeValues": [],
 			"created": "2021-01-20T09:09:25.219",
