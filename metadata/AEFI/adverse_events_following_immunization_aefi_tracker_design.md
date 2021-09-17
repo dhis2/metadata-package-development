@@ -1,5 +1,5 @@
 
-# Adverse Events Following Immunization (AEFI) Tracker System Design
+# Adverse Events Following Immunization (AEFI) Tracker System Design { #aefi-tracker-system-design }
 
 ## Purpose
 
