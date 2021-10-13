@@ -29458,6 +29458,52 @@
 	"package": "IDSR_DASHBOARD_V1.0.1_DHIS2.32_2020-10-20T10:04",
 	"predictors": [
 		{
+            "annualSampleCount": 0,
+            "created": "2020-05-07T11:13:41.454",
+            "description": "IDSR - Meningites Alert ",
+            "generator": {
+                "description": "IF((Meningitis Suspected cases>=2)&&(Meningitis Suspected cases/Population)<0.0001 && Population<30000||(Meningitis Suspected Cases/Population)>=0.00003 && (Meningitis Suspected Cases/Population<0.0001)&&(Population>=30000),1,0)",
+                "expression": "if(\n\n((#{KUuKOtxzBJ1.HllvX50cXC0})>= 2) && ((#{KUuKOtxzBJ1.HllvX50cXC0}/#{iLEkjJcYTJd.HllvX50cXC0})< 0.0001) && ((#{iLEkjJcYTJd.HllvX50cXC0}) < 30000) \n||\n((#{KUuKOtxzBJ1.HllvX50cXC0}/#{iLEkjJcYTJd.HllvX50cXC0})>= 0.00003) && ((#{KUuKOtxzBJ1.HllvX50cXC0}/#{iLEkjJcYTJd.HllvX50cXC0}) < 0.0001)\n&& (#{iLEkjJcYTJd.HllvX50cXC0} >= 30000)\n\n,1,0)",
+                "missingValueStrategy": "SKIP_IF_ALL_VALUES_MISSING",
+                "slidingWindow": false
+            },
+            "id": "qN9hTkwE4Ye",
+            "lastUpdated": "2020-07-01T08:49:01.816",
+            "name": "IDSR - Meningites Alert ",
+            "organisationUnitLevels": [],
+            "output": {
+                "id": "KNruIU8QeKP"
+            },
+            "outputCombo": {
+                "id": "HllvX50cXC0"
+            },
+            "periodType": "Weekly",
+            "sequentialSampleCount": 0
+        },
+        {
+            "annualSampleCount": 0,
+            "created": "2020-05-07T10:29:44.924",
+            "description": "IDSR - Meningitis outbreak",
+            "generator": {
+                "description": "IF(Meningitis Suspected cases >= 10 && Population weekly > 30000 && (Meningitis suspected cases/Population weekly) >= 0.0001 || (Meningitis Suspected cases >= 5 && Population weekly <= 30000),1,0)",
+                "expression": "if(\n(#{KUuKOtxzBJ1.HllvX50cXC0}>= 10 && #{iLEkjJcYTJd.HllvX50cXC0} > 30000 &&(#{KUuKOtxzBJ1.HllvX50cXC0}/#{iLEkjJcYTJd.HllvX50cXC0}) >= 0.0001)\n\n|| (#{KUuKOtxzBJ1.HllvX50cXC0}>= 5 && #{iLEkjJcYTJd.HllvX50cXC0} <= 30000),1,0)",
+                "missingValueStrategy": "SKIP_IF_ALL_VALUES_MISSING",
+                "slidingWindow": false
+            },
+            "id": "HXBvKxWaujs",
+            "lastUpdated": "2020-07-01T08:49:18.693",
+            "name": "IDSR - Meningitis outbreak",
+            "organisationUnitLevels": [],
+            "output": {
+                "id": "I3570OWVcKN"
+            },
+            "outputCombo": {
+                "id": "HllvX50cXC0"
+            },
+            "periodType": "Weekly",
+            "sequentialSampleCount": 0
+        },
+		{
 			"annualSampleCount": 0,
 			"created": "2020-03-24T18:57:32.546",
 			"generator": {
