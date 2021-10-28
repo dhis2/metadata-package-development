@@ -34,19 +34,19 @@
         "users": [
           {
             "id": "vUeLeQMSwhN",
-            "metadata": "EDIT",
-            "data": "EDIT"
+            "metadata": "VIEW",
+            "data": "NONE"
           }
         ],
         "userExport": false,
         "publicAccess": {
-          "metadata": "NONE",
+          "metadata": "VIEW",
           "data": "NONE"
         }
       },
       "_type": "tracker", 
       "_url": [
-        "https://covid19.dhis2.org/dev"
+        "https://who-dev.dhis2.org/tracker_dev"
       ], 
       "_version": "1.0.0",
       "customObjects": [
