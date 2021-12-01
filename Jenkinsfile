@@ -72,7 +72,7 @@ pipeline {
                 if(params.Description == "") {
                    DESCRIPTION = components[3]
                 }
-                if(INTERVENTION.equals("AEFI") || INTERVENTION.equals("VE") || INTERVENTION.equals("EIR") || INTERVENTION.equals("CBS") || INTERVENTION.equals("RMS") {
+                if(INTERVENTION.equals("AEFI") || INTERVENTION.equals("VE") || INTERVENTION.equals("EIR") || INTERVENTION.equals("CBS") || INTERVENTION.equals("RMS")) {
                     PACKAGE_PREFIX = INTERVENTION
                 } else if(HEALTH_AREA.equals("COVAC")) {
                     PACKAGE_PREFIX = "COVAC"
