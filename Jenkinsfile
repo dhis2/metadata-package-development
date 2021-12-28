@@ -16,7 +16,8 @@ pipeline {
     //    nodejs "node"
     //}
     environment {
-        GIT_URL = "https://github.com/dhis2/metadata-package-development"
+        UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils.git"
+        METADATA_DEV_GIT_URL = "https://github.com/dhis2/metadata-package-development"
         DHIS2_BRANCH_VERSION = "master"
         OUS_METADATA = "test/ous_metadata.json"
         TEST_METADATA = "test_metadata.json"
@@ -54,7 +55,7 @@ pipeline {
         steps {
             script {
                 dir('dhis2-utils') {
-                    git url: 'https://github.com/dhis2/dhis2-utils.git'
+                    git url: "$UTILS_GIT_URL"
                 }
 
                 PACKAGE_IS_GENERATED = true
@@ -116,7 +117,7 @@ pipeline {
       stage("Extract package info") {
         steps {
           dir('metadata-dev') {
-            //git url: 'https://github.com/dhis2/metadata-package-development'
+            git url: "$METADATA_DEV_GIT_URL"
             //unarchive mapping: ["${INPUT_FILE_NAME}": "${INPUT_FILE_NAME}"]
 
             script {
@@ -166,7 +167,7 @@ pipeline {
         steps {
             //This call is done also here just in case the previous stage is skipped
             dir('dhis2-utils') {
-                git url: 'https://github.com/dhis2/dhis2-utils.git'
+                git url: "$UTILS_GIT_URL"
             }
             sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
         }
