@@ -26,6 +26,7 @@ pipeline {
         DHIS2_VERSION = "${params.DHIS2_version}"
         PACKAGE_NAME = "${params.Package_name}"
         PACKAGE_VERSION = "${params.Package_version}"
+        PACKAGE_TYPE = "${params.Package_type}"
         DESCRIPTION = "${params.Description}"
         PACKAGE_IS_GENERATED = false
     }
@@ -59,36 +60,21 @@ pipeline {
                 PACKAGE_IS_GENERATED = true
 
                 components = "${PACKAGE_NAME}".split(' - ')
-                TYPE = components[0]
-                HEALTH_AREA = components[1]
-                INTERVENTION = components[2]
-                if(4 >= components.size()){
-                    //index does not exists
-                    PROGRAM_OR_DATASET_UID = "AGG"
-                }else{
-                    // index exists
-                    PROGRAM_OR_DATASET_UID = components[4]
-                }
+                HEALTH_AREA = components[0]
+                INTERVENTION = components[1]
                 if(params.Description == "") {
-                   DESCRIPTION = components[3]
+                   DESCRIPTION = components[2]
                 }
-                if(INTERVENTION.equals("AEFI") || INTERVENTION.equals("VE") || INTERVENTION.equals("EIR") || INTERVENTION.equals("CBS") || INTERVENTION.equals("RMS")) {
-                    PACKAGE_PREFIX = INTERVENTION
-                } else if(HEALTH_AREA.equals("COVAC")) {
-                    PACKAGE_PREFIX = "COVAC"
-                } else if(PROGRAM_OR_DATASET_UID.equals("AGG")) {
-                    PACKAGE_PREFIX = "NONE"
-                } else {
-                    PACKAGE_PREFIX = "NONE"
-                }
-                echo "TYPE: ${TYPE}"
+                PACKAGE_PREFIX = components[3]
+
+                echo "TYPE: ${PACKAGE_TYPE}"
                 echo "HEALTH_AREA: ${HEALTH_AREA}"
                 echo "INTERVENTION: ${INTERVENTION}"
                 echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
-                echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
+                //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
                 echo "DESCRIPTION: ${DESCRIPTION}"
 
-                if (TYPE.equals("TRK")){
+                if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
                     switch(params.DHIS2_version) {
                         //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
                         //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
@@ -96,7 +82,7 @@ pipeline {
                         case "2.36": INSTANCE="https://who-dev.dhis2.org/tracker_dev236"; break;
                         case "2.37": INSTANCE="https://who-dev.dhis2.org/tracker_dev237"; break;
                     }
-                } else { // AGG
+                } else { // AGG or DHS
                     switch(params.DHIS2_version) {
                         //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
                         //case "2.34": INSTANCE="https://who-dev.dhis2.org/dev234"; break;
@@ -108,12 +94,7 @@ pipeline {
                 sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
                 sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
                 echo "Generating a package..."
-                if(PACKAGE_PREFIX.equals("NONE")) {
-                    sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PROGRAM_OR_DATASET_UID} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE}")
-                }
-                else {
-                    sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PROGRAM_OR_DATASET_UID} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
-                }
+                sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
                 sh 'pwd'
                 sh 'ls -la'
                 INPUT_FILE_NAME = sh(
@@ -139,8 +120,6 @@ pipeline {
             //unarchive mapping: ["${INPUT_FILE_NAME}": "${INPUT_FILE_NAME}"]
 
             script {
-              sh 'pwd'
-              sh 'ls -laR'
               if (PACKAGE_IS_GENERATED.toBoolean()) {
                 sh "cp $WORKSPACE/$INPUT_FILE_NAME ./test/package_orig.json"
               } else {
@@ -202,7 +181,7 @@ pipeline {
               }
               sleep(10)
               dir("$WORKSPACE/metadata-dev/test") {
-                  sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
+                  sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
                   sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
                   sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
               }
