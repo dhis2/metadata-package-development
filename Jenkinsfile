@@ -165,11 +165,15 @@ pipeline {
 
       stage('Metadata validation') {
         steps {
+          script {
             //This call is done also here just in case the previous stage is skipped
-            dir('dhis2-utils') {
+            if (!fileExists('dhis2-utils')) {
+              dir('dhis2-utils') {
                 git url: "$UTILS_GIT_URL"
+              }
             }
             sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
+          }
         }
       }
       stage("Test empty instance") {
