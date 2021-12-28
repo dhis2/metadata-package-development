@@ -116,7 +116,7 @@ pipeline {
       stage("Extract package info") {
         steps {
           dir('metadata-dev') {
-            git url: 'https://github.com/dhis2/metadata-package-development'
+            //git url: 'https://github.com/dhis2/metadata-package-development'
             //unarchive mapping: ["${INPUT_FILE_NAME}": "${INPUT_FILE_NAME}"]
 
             script {
