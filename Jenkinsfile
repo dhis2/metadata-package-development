@@ -214,7 +214,7 @@ pipeline {
                 dir('dhis2-utils/tools/dhis2-dashboardchecker') {
                     sh 'docker container ls -a'
                     sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
-                    sh 'echo "{\"dhis\": {\"baseurl\": \"http://localhost:${PORT}\", \"username\": \"admin\", \"password\": \"district\"}}" > auth.json'
+                    sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
                     sh 'ls -la'
                     sh 'cat auth.json'
                     sh "python3 dashboard_checker.py --omit-no_data_warning"
