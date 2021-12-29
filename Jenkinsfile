@@ -175,7 +175,10 @@ pipeline {
                             git url: "$UTILS_GIT_URL"
                         }
                     }
-                    sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
+
+                    catchError {
+                        sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
+                    }
                 }
             }
         }
@@ -227,7 +230,8 @@ pipeline {
                         dir('metadata-checkers') {
                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
 
-                            sh 'echo "[localhost]\nserver=http://localhost:8080/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
+                            sh 'echo "[localhost]\nserver=http://localhost:${PORT}/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
+                            sh 'cat credentials.ini'
                             sh 'python3 check_expressions.py'
                         }
                     }
