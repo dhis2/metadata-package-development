@@ -19,6 +19,7 @@ pipeline {
     environment {
         UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils.git"
         METADATA_DEV_GIT_URL = "https://github.com/dhis2/metadata-package-development"
+        METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
         DHIS2_BRANCH_VERSION = "master"
         OUS_METADATA = "test/ous_metadata.json"
         TEST_METADATA = "test_metadata.json"
@@ -209,13 +210,27 @@ pipeline {
             }
         }
 
-        stage('Check dashboards') {
-            steps {
-                dir('dhis2-utils/tools/dhis2-dashboardchecker') {
-                    sh 'docker container ls -a'
-                    sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
-                    sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
-                    sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
+        stage('Run checks') {
+            parallel {
+                stage('Check dashboards') {
+                    steps {
+                        dir('dhis2-utils/tools/dhis2-dashboardchecker') {
+                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
+                            sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
+                            sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
+                        }
+                    }
+                }
+
+                stage('Check PR expressions') {
+                    steps {
+                        dir('metadata-checkers') {
+                            git url: "$METADATA_CHECKERS_GIT_URL"
+
+                            sh 'echo "[localhost]\nserver=http://localhost:8080/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
+                            sh 'python3 check_expressions.py'
+                        }
+                    }
                 }
             }
         }
