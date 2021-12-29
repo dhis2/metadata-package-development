@@ -117,7 +117,7 @@ pipeline {
             }
         }
 
-        stage("Extract package info") {
+        stage('Extract package info') {
             steps {
                 dir('metadata-dev') {
                     git url: "$METADATA_DEV_GIT_URL"
@@ -179,7 +179,7 @@ pipeline {
             }
         }
 
-        stage("Test empty instance") {
+        stage('Test empty instance') {
             steps {
                 script {
                     //PORT = "${findFreePort()}"
@@ -209,11 +209,23 @@ pipeline {
             }
         }
 
-        stage('Remove d2 cache again') {
+        stage('Check dashboards') {
             steps {
-                sh 'sudo -S rm -rf /ebs1/home/jenkins/.cache/d2'
+                dir('dhis2-utils/tools/dhis2-dashboardchecker')
+                sh 'docker container ls -a'
+                sh 'docker exec -i db psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
+                sh "echo \"{\"dhis\": {\"baseurl\": \"http://localhost:${PORT}\", \"username\": \"admin\", \"password\": \"district\"}}\" > auth.json"
+                sh 'ls -la'
+                sh 'cat auth.json'
+                sh "python3 dashboard_checker.py --omit-no_data_warning"
             }
         }
+
+        //stage('Remove d2 cache again') {
+        //    steps {
+        //        sh 'sudo -S rm -rf /ebs1/home/jenkins/.cache/d2'
+        //    }
+        //}
 
         //stage("Test SL instance") {
         //    steps {
