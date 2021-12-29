@@ -225,7 +225,7 @@ pipeline {
                 stage('Check PR expressions') {
                     steps {
                         dir('metadata-checkers') {
-                            git url: "$METADATA_CHECKERS_GIT_URL"
+                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
 
                             sh 'echo "[localhost]\nserver=http://localhost:8080/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
                             sh 'python3 check_expressions.py'
