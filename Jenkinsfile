@@ -219,6 +219,9 @@ pipeline {
                     steps {
                         dir('dhis2-utils/tools/dhis2-dashboardchecker') {
                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
+                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "SELECT * FROM organisationunit;"'
+                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "SELECT * FROM users;"'
+                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
                             sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
                             sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
                         }
