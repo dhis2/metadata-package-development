@@ -122,7 +122,6 @@ pipeline {
             steps {
                 dir('metadata-dev') {
                     git url: "$METADATA_DEV_GIT_URL"
-                    //unarchive mapping: ["${INPUT_FILE_NAME}": "${INPUT_FILE_NAME}"]
 
                     script {
                         if (PACKAGE_IS_GENERATED.toBoolean()) {
@@ -131,11 +130,6 @@ pipeline {
                             unstash "$INPUT_FILE_NAME"
                             sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
                         }
-
-                        //if (readFile("${INPUT_FILE_NAME}").size() == 0) {
-                        //    error("Build failed because package file is empty")
-                        //}
-                        //sh "cp ${INPUT_FILE_NAME} ./test/package_orig.json"
 
                         // example of expected value: VE_TRACKER_V1.0.0_DHIS2.33.8-en
                         PACKAGE_VERSION = sh(
@@ -186,7 +180,6 @@ pipeline {
         stage('Test empty instance') {
             steps {
                 script {
-                    //PORT = "${findFreePort()}"
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
                         d2.startCluster( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
                     }
@@ -207,7 +200,6 @@ pipeline {
                             script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty.txt"
                         )
                         archiveArtifacts artifacts: "logs_empty.txt"
-                        //d2.stopCluster("${DHIS2_BRANCH_VERSION}")
                     }
                 }
             }
@@ -218,9 +210,9 @@ pipeline {
                 stage('Check dashboards') {
                     steps {
                         dir('dhis2-utils/tools/dhis2-dashboardchecker') {
+                            // Make dashboards public
                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
-                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "SELECT * FROM organisationunit;"'
-                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "SELECT * FROM users;"'
+                            // Add default "admin" user to Trainingland root OU
                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
                             sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
                             sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
