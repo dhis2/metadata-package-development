@@ -121,7 +121,7 @@ pipeline {
         stage('Extract package info') {
             steps {
                 dir('metadata-dev') {
-                    git url: "$METADATA_DEV_GIT_URL"
+                    git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
 
                     script {
                         if (PACKAGE_IS_GENERATED.toBoolean()) {
@@ -177,59 +177,87 @@ pipeline {
             }
         }
 
-        stage('Test empty instance') {
+        //stage('Test empty instance') {
+        //    steps {
+        //        script {
+        //            withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
+        //                d2.startCluster( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
+        //            }
+        //            sleep(10)
+        //            dir("$WORKSPACE/metadata-dev/test") {
+        //                sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
+        //                sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
+        //                sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
+        //            }
+        //        }
+        //    }
+
+        //    post {
+        //        always {
+        //            script {
+        //                sh(
+        //                    returnStdout: false,
+        //                    script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty.txt"
+        //                )
+        //                archiveArtifacts artifacts: "logs_empty.txt"
+        //            }
+        //        }
+        //    }
+        //}
+
+        //stage('Run checks') {
+        //    parallel {
+        //        stage('Check dashboards') {
+        //            steps {
+        //                dir('dhis2-utils/tools/dhis2-dashboardchecker') {
+        //                    // Make dashboards public
+        //                    sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
+        //                    // Add default "admin" user to Trainingland root OU
+        //                    sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
+        //                    sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
+        //                    sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
+        //                }
+        //            }
+        //        }
+
+        //        stage('Check PR expressions') {
+        //            steps {
+        //                dir('metadata-checkers') {
+        //                    git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+
+        //                    sh 'echo "[localhost]\nserver=http://localhost:${PORT}/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
+        //                    sh 'python3 check_expressions.py --credentials localhost'
+        //                }
+        //            }
+        //        }
+        //    }
+        //}
+
+        stage ('Push to GitHub') {
+            environment {
+                // use TOKEN instead of password?
+                GITHUB_CREDS = credentials('github_bot')
+            }
             steps {
-                script {
-                    withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
-                    }
-                    sleep(10)
-                    dir("$WORKSPACE/metadata-dev/test") {
-                        sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
-                        sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
-                        sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
-                    }
-                }
-            }
-
-            post {
-                always {
-                    script {
-                        sh(
-                            returnStdout: false,
-                            script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty.txt"
-                        )
-                        archiveArtifacts artifacts: "logs_empty.txt"
-                    }
-                }
-            }
-        }
-
-        stage('Run checks') {
-            parallel {
-                stage('Check dashboards') {
-                    steps {
-                        dir('dhis2-utils/tools/dhis2-dashboardchecker') {
-                            // Make dashboards public
-                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
-                            // Add default "admin" user to Trainingland root OU
-                            sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
-                            sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
-                            sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
-                        }
-                    }
-                }
-
-                stage('Check PR expressions') {
-                    steps {
-                        dir('metadata-checkers') {
-                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
-
-                            sh 'echo "[localhost]\nserver=http://localhost:${PORT}/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
-                            sh 'python3 check_expressions.py --credentials localhost'
-                        }
-                    }
-                }
+                sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX"
+                //script {
+                //    // use external script
+                //    // maybe use `hub` tool instead?
+                //    GITHUB_REPO = sh(
+                //        returnStdout: true,
+                //        script: "curl 'https://api.github.com/orgs/dhis2-metadata/repos?per_page=100' | jq -r '.[] | select(.name | contains(\"$PACKAGE_PREFIX\")) | .name'"
+                //    ).trim()
+                //    sh "git config --global user.email ''"
+                //    sh "git config --global user.name '$GITHUB_CREDS_USR'"
+                //    sh "git clone 'https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO'"
+                //    dir("$GITHUB_REPO") {
+                //        sh "git checkout -b test-branch"
+                //        sh "cp $WORKSPACE/$INPUT_FILE_NAME ."
+                //        sh "git add ."
+                //        sh "git commit -m 'Some message ...'"
+                //        sh "git push 'https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO' --dry-run"
+                //    }
+                //}
             }
         }
 
