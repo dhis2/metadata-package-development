@@ -236,10 +236,10 @@ pipeline {
         stage ('Push to GitHub') {
             environment {
                 // use TOKEN instead of password?
-                GITHUB_CREDS = credentials('github_bot')
+                GITHUB_CREDS = credentials('github-token-as-password')
             }
             steps {
-                sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX"
+                sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
                 //script {
                 //    // use external script
                 //    // maybe use `hub` tool instead?
