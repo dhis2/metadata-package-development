@@ -131,12 +131,14 @@ pipeline {
                             sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
                         }
 
+                        // TODO: use jq
                         // example of expected value: VE_TRACKER_V1.0.0_DHIS2.33.8-en
                         PACKAGE_VERSION = sh(
                             returnStdout: true,
                             script: "cat $WORKSPACE/$INPUT_FILE_NAME | awk ' BEGIN { package_found = 0; } { if(package_found == 1 && index(\$1, \"name\") != 0) { gsub(/[\",]/,\"\"); print \$2; exit(0); }  if(index(\$1, \"package\") != 0) { package_found = 1; } }'"
                         ).trim()
 
+                        // TODO: use jq
                         // example of expected value: 2.33.8
                         DHIS2_BRANCH_VERSION = sh(
                             returnStdout: true,
@@ -235,29 +237,10 @@ pipeline {
 
         stage ('Push to GitHub') {
             environment {
-                // use TOKEN instead of password?
                 GITHUB_CREDS = credentials('github-token-as-password')
             }
             steps {
                 sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
-                //script {
-                //    // use external script
-                //    // maybe use `hub` tool instead?
-                //    GITHUB_REPO = sh(
-                //        returnStdout: true,
-                //        script: "curl 'https://api.github.com/orgs/dhis2-metadata/repos?per_page=100' | jq -r '.[] | select(.name | contains(\"$PACKAGE_PREFIX\")) | .name'"
-                //    ).trim()
-                //    sh "git config --global user.email ''"
-                //    sh "git config --global user.name '$GITHUB_CREDS_USR'"
-                //    sh "git clone 'https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO'"
-                //    dir("$GITHUB_REPO") {
-                //        sh "git checkout -b test-branch"
-                //        sh "cp $WORKSPACE/$INPUT_FILE_NAME ."
-                //        sh "git add ."
-                //        sh "git commit -m 'Some message ...'"
-                //        sh "git push 'https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO' --dry-run"
-                //    }
-                //}
             }
         }
 

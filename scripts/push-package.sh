@@ -6,7 +6,7 @@ PACKAGE_PREFIX="$1"
 DHIS2_VERSION="$2"
 
 GITHUB_REPO=$(
-  curl "https://api.github.com/orgs/dhis2-metadata/repos?per_page=100" |
+  curl -fsSL "https://api.github.com/orgs/dhis2-metadata/repos?per_page=100" |
   jq -r --arg PREFIX "$PACKAGE_PREFIX" '.[] | select(.name | contains($PREFIX)) | .name'
 )
 
