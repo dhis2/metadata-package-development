@@ -17,7 +17,7 @@ pipeline {
     }
 
     environment {
-        UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils.git"
+        UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils"
         METADATA_DEV_GIT_URL = "https://github.com/dhis2/metadata-package-development"
         METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
         DHIS2_BRANCH_VERSION = "master"
@@ -235,10 +235,15 @@ pipeline {
         //    }
         //}
 
-        stage ('Push to GitHub') {
+        stage('Push to GitHub') {
+            when {
+                expression { params.Push_package }
+            }
+
             environment {
                 GITHUB_CREDS = credentials('github-token-as-password')
             }
+
             steps {
                 sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
             }
@@ -285,6 +290,18 @@ pipeline {
         //        }
         //    }
         //}
+    }
+
+    post {
+        always {
+            script {
+                def buildLog = currentBuild.rawBuild.getLog(1000)
+                def errors = buildLog.findAll {it.toLowerCase().contains("error") || it.toLowerCase().contains("warning")}
+                writeFile file: "testlog.log", text: errors.join("\n")
+
+                archiveArtifacts artifacts: "testlog.log"
+            }
+        }
     }
 
     //post {
