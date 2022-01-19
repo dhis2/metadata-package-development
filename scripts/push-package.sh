@@ -17,7 +17,7 @@ git clone "https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO"
 cd "$WORKSPACE/$GITHUB_REPO"
 
 git checkout -b "test-$DHIS2_VERSION"
-cp "$WORKSPACE/$INPUT_FILE_NAME" .
+cp "$WORKSPACE/$PACKAGE_FILE" .
 git add .
 
 git commit -m "Some message ..."

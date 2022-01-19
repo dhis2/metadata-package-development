@@ -242,6 +242,7 @@ pipeline {
 
             environment {
                 GITHUB_CREDS = credentials('github-token-as-password')
+                PACKAGE_FILE = "${INPUT_FILE_NAME}"
             }
 
             steps {
