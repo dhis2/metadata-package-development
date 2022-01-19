@@ -21,4 +21,4 @@ cp "$WORKSPACE/$INPUT_FILE_NAME" .
 git add .
 
 git commit -m "Some message ..."
-git push "https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO" --dry-run
+git push "https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO"
