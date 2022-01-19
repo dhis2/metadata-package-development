@@ -242,6 +242,7 @@ pipeline {
 
             environment {
                 GITHUB_CREDS = credentials('github-token-as-password')
+                GITHUB_EMAIL = 'apps@dhis2.org'
                 PACKAGE_FILE = "${INPUT_FILE_NAME}"
             }
 
@@ -293,17 +294,17 @@ pipeline {
         //}
     }
 
-    post {
-        always {
-            script {
-                def buildLog = currentBuild.rawBuild.getLog(1000)
-                def errors = buildLog.findAll {it.toLowerCase().contains("error") || it.toLowerCase().contains("warning")}
-                writeFile file: "testlog.log", text: errors.join("\n")
-
-                archiveArtifacts artifacts: "testlog.log"
-            }
-        }
-    }
+//     post {
+//         always {
+//             script {
+//                 def buildLog = currentBuild.rawBuild.getLog(1000)
+//                 def errors = buildLog.findAll {it.toLowerCase().contains("error") || it.toLowerCase().contains("warning")}
+//                 writeFile file: "testlog.log", text: errors.join("\n")
+//
+//                 archiveArtifacts artifacts: "testlog.log"
+//             }
+//         }
+//     }
 
     //post {
     //    always {
