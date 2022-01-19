@@ -215,6 +215,7 @@ pipeline {
                             // Add default "admin" user to Trainingland root OU
                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
                             sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
+                            sh 'pip3 install -r requirements.txt'
                             sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
                         }
                     }
