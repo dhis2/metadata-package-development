@@ -71,6 +71,7 @@ pipeline {
                         DESCRIPTION = components[2]
                     }
                     PACKAGE_PREFIX = components[3]
+                    IMPLEMENTER_EMAIL = components[4]
 
                     echo "TYPE: ${PACKAGE_TYPE}"
                     echo "HEALTH_AREA: ${HEALTH_AREA}"
@@ -294,17 +295,23 @@ pipeline {
         //}
     }
 
-//     post {
-//         always {
-//             script {
+    post {
+        always {
+            script {
 //                 def buildLog = currentBuild.rawBuild.getLog(1000)
 //                 def errors = buildLog.findAll {it.toLowerCase().contains("error") || it.toLowerCase().contains("warning")}
 //                 writeFile file: "testlog.log", text: errors.join("\n")
 //
 //                 archiveArtifacts artifacts: "testlog.log"
-//             }
-//         }
-//     }
+                USER_ID = slackUserIdFromEmail("$IMPLEMENTER_EMAIL")
+                slackSend(
+                    color: "#ff0000",
+                    channel: "@$USER_ID",
+                    message: "Message from <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                )
+            }
+        }
+    }
 
     //post {
     //    always {
