@@ -298,7 +298,7 @@ pipeline {
         always {
             script {
                 IMPLEMENTERS = [
-                    RMS0: 'U01RSD1LPB3'
+                    RMS000: 'U01RSD1LPB3'
                 ]
 
                 slackSend(
