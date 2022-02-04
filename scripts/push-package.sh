@@ -19,8 +19,9 @@ git config --global user.name "$GITHUB_CREDS_USR"
 git clone "https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$GITHUB_REPO"
 cd "$WORKSPACE/$GITHUB_REPO"
 
-git checkout "$DHIS2_VERSION"
-git checkout -b "test-$DHIS2_VERSION"
+#git checkout "$DHIS2_VERSION"
+#git checkout -b "test-$DHIS2_VERSION"
+git checkout "test-$DHIS2_VERSION"
 mkdir -p "$SUB_PACKAGE_CODE" && cp "$WORKSPACE/$PACKAGE_FILE" "$SUB_PACKAGE_CODE/metadata.json"
 git add .
 
