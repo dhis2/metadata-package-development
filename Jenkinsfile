@@ -1,5 +1,53 @@
 @Library('pipeline-library') _
 
+def generatePackage(prefix) {
+    return {
+        components = "${prefix}".split(' - ')
+        HEALTH_AREA = components[0]
+        INTERVENTION = components[1]
+        if(params.Description == "") {
+            DESCRIPTION = components[2]
+        }
+        PACKAGE_PREFIX = components[3]
+
+        echo "TYPE: ${PACKAGE_TYPE}"
+        echo "HEALTH_AREA: ${HEALTH_AREA}"
+        echo "INTERVENTION: ${INTERVENTION}"
+        echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
+        //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
+        echo "DESCRIPTION: ${DESCRIPTION}"
+
+        if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
+            switch(params.DHIS2_version) {
+                //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
+                //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
+                case "2.35": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
+                case "2.36": INSTANCE="https://who-dev.dhis2.org/tracker_dev236"; break;
+                case "2.37": INSTANCE="https://who-dev.dhis2.org/tracker_dev237"; break;
+            }
+        } else { // AGG or DHS
+            switch(params.DHIS2_version) {
+                //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
+                //case "2.34": INSTANCE="https://who-dev.dhis2.org/dev234"; break;
+                case "2.35": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
+                case "2.36": INSTANCE="https://who-dev.dhis2.org/dev236"; break;
+                case "2.37": INSTANCE="https://who-dev.dhis2.org/dev237"; break;
+            }
+        }
+        sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
+        sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
+        echo "Generating a package..."
+        sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
+        INPUT_FILE_NAME = sh(
+            returnStdout: true,
+            script: "ls -t1 ${HEALTH_AREA}*${INTERVENTION}*${DHIS2_version}*.json | head -n 1"
+        ).trim()
+
+        echo "Generated file: ${INPUT_FILE_NAME}"
+
+    }
+}
+
 pipeline {
     agent {
         label 'ec2-jdk8'
@@ -64,48 +112,50 @@ pipeline {
 
                     PACKAGE_IS_GENERATED = true
 
-                    components = "${PACKAGE_NAME}".split(' - ')
-                    HEALTH_AREA = components[0]
-                    INTERVENTION = components[1]
-                    if(params.Description == "") {
-                        DESCRIPTION = components[2]
-                    }
-                    PACKAGE_PREFIX = components[3]
+                    generatePackage("CRVS - RMS - Rapid Mortality Surveillance - RMS000").call()
 
-                    echo "TYPE: ${PACKAGE_TYPE}"
-                    echo "HEALTH_AREA: ${HEALTH_AREA}"
-                    echo "INTERVENTION: ${INTERVENTION}"
-                    echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
-                    //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
-                    echo "DESCRIPTION: ${DESCRIPTION}"
-
-                    if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
-                        switch(params.DHIS2_version) {
-                            //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
-                            //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
-                            case "2.35": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
-                            case "2.36": INSTANCE="https://who-dev.dhis2.org/tracker_dev236"; break;
-                            case "2.37": INSTANCE="https://who-dev.dhis2.org/tracker_dev237"; break;
-                        }
-                    } else { // AGG or DHS
-                        switch(params.DHIS2_version) {
-                            //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
-                            //case "2.34": INSTANCE="https://who-dev.dhis2.org/dev234"; break;
-                            case "2.35": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
-                            case "2.36": INSTANCE="https://who-dev.dhis2.org/dev236"; break;
-                            case "2.37": INSTANCE="https://who-dev.dhis2.org/dev237"; break;
-                        }
-                    }
-                    sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
-                    sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
-                    echo "Generating a package..."
-                    sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
-                    INPUT_FILE_NAME = sh(
-                        returnStdout: true,
-                        script: "ls -t1 ${HEALTH_AREA}*${INTERVENTION}*${DHIS2_version}*.json | head -n 1"
-                    ).trim()
-
-                    echo "Generated file: ${INPUT_FILE_NAME}"
+//                     components = "${PACKAGE_NAME}".split(' - ')
+//                     HEALTH_AREA = components[0]
+//                     INTERVENTION = components[1]
+//                     if(params.Description == "") {
+//                         DESCRIPTION = components[2]
+//                     }
+//                     PACKAGE_PREFIX = components[3]
+//
+//                     echo "TYPE: ${PACKAGE_TYPE}"
+//                     echo "HEALTH_AREA: ${HEALTH_AREA}"
+//                     echo "INTERVENTION: ${INTERVENTION}"
+//                     echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
+//                     //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
+//                     echo "DESCRIPTION: ${DESCRIPTION}"
+//
+//                     if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
+//                         switch(params.DHIS2_version) {
+//                             //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
+//                             //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
+//                             case "2.35": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
+//                             case "2.36": INSTANCE="https://who-dev.dhis2.org/tracker_dev236"; break;
+//                             case "2.37": INSTANCE="https://who-dev.dhis2.org/tracker_dev237"; break;
+//                         }
+//                     } else { // AGG or DHS
+//                         switch(params.DHIS2_version) {
+//                             //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
+//                             //case "2.34": INSTANCE="https://who-dev.dhis2.org/dev234"; break;
+//                             case "2.35": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
+//                             case "2.36": INSTANCE="https://who-dev.dhis2.org/dev236"; break;
+//                             case "2.37": INSTANCE="https://who-dev.dhis2.org/dev237"; break;
+//                         }
+//                     }
+//                     sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
+//                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
+//                     echo "Generating a package..."
+//                     sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
+//                     INPUT_FILE_NAME = sh(
+//                         returnStdout: true,
+//                         script: "ls -t1 ${HEALTH_AREA}*${INTERVENTION}*${DHIS2_version}*.json | head -n 1"
+//                     ).trim()
+//
+//                     echo "Generated file: ${INPUT_FILE_NAME}"
                 }
             }
 
