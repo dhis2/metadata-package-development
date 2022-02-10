@@ -2,55 +2,6 @@
 
 def packages = ['CRVS - RMS - Rapid Mortality Surveillance - RMS000', 'TB - DRS - Drug Resistance Surveillance - TBDR00']
 
-// def generatePackage(list) {
-//     return {
-//         list.each { prefix ->
-//             components = "${prefix}".split(' - ')
-//             HEALTH_AREA = components[0]
-//             INTERVENTION = components[1]
-//             if(params.Description == "") {
-//                 DESCRIPTION = components[2]
-//             }
-//             PACKAGE_PREFIX = components[3]
-//
-//             echo "TYPE: ${PACKAGE_TYPE}"
-//             echo "HEALTH_AREA: ${HEALTH_AREA}"
-//             echo "INTERVENTION: ${INTERVENTION}"
-//             echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
-//             //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
-//             echo "DESCRIPTION: ${DESCRIPTION}"
-//
-//             if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
-//                 switch(params.DHIS2_version) {
-//                     //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
-//                     //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
-//                     case "2.35": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
-//                     case "2.36": INSTANCE="https://who-dev.dhis2.org/tracker_dev236"; break;
-//                     case "2.37": INSTANCE="https://who-dev.dhis2.org/tracker_dev237"; break;
-//                 }
-//             } else { // AGG or DHS
-//                 switch(params.DHIS2_version) {
-//                     //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
-//                     //case "2.34": INSTANCE="https://who-dev.dhis2.org/dev234"; break;
-//                     case "2.35": INSTANCE="https://metadata.dev.dhis2.org/dev"; break;
-//                     case "2.36": INSTANCE="https://who-dev.dhis2.org/dev236"; break;
-//                     case "2.37": INSTANCE="https://who-dev.dhis2.org/dev237"; break;
-//                 }
-//             }
-//             sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
-//             sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
-//             echo "Generating a package..."
-//             sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
-//             INPUT_FILE_NAME = sh(
-//                 returnStdout: true,
-//                 script: "ls -t1 ${HEALTH_AREA}*${INTERVENTION}*${DHIS2_version}*.json | head -n 1"
-//             ).trim()
-//
-//             echo "Generated file: ${INPUT_FILE_NAME}"
-//         }
-//     }
-//}
-
 pipeline {
     agent {
         label 'ec2-jdk8'
@@ -169,6 +120,8 @@ pipeline {
             post {
                 always {
                     script {
+                        // TODO: is that needed with pushing to GitHub?
+                        // Should be in metadataPackage.export() method or send exported files to dir and archive it.
                         archiveArtifacts artifacts: "${INPUT_FILE_NAME}"
                     }
                 }
@@ -181,6 +134,7 @@ pipeline {
                     git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
 
                     script {
+                        // TODO: should extract info from list of packages.
                         if (PACKAGE_IS_GENERATED.toBoolean()) {
                             sh "cp $WORKSPACE/$INPUT_FILE_NAME ./test/package_orig.json"
                         } else {
@@ -230,12 +184,15 @@ pipeline {
                     }
 
                     catchError {
+                        // TODO: should validate list of packages.
+                        // list.each { item -> ... }
                         sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
                     }
                 }
             }
         }
 
+        // TODO: should test package import for list of packages.
         //stage('Test empty instance') {
         //    steps {
         //        script {
@@ -264,6 +221,7 @@ pipeline {
         //    }
         //}
 
+        // TODO: should check dashboards and PR expressions for list of packages.
         //stage('Run checks') {
         //    parallel {
         //        stage('Check dashboards') {
