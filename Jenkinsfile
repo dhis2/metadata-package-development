@@ -139,7 +139,7 @@ pipeline {
 
                     script {
                         PACKAGE_FILES.each { file ->
-                            metadataPackage.getInfo("$file")
+                            metadataPackage.getInfo("$WORKSPACE/$file")
                         }
 
                         // TODO: should extract info from list of packages.
@@ -195,7 +195,7 @@ pipeline {
                         // TODO: should validate list of packages.
                         // list.each { item -> ... }
                         PACKAGE_FILES.each { file ->
-                            sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $file")
+                            sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$file")
                         }
                     }
                 }
@@ -212,7 +212,7 @@ pipeline {
                         }
                         sleep(10)
                         dir("$WORKSPACE/metadata-dev/test") {
-                            metadataPackage.runTests("$file", "$PORT")
+                            metadataPackage.runTests("$WORKSPACE/$file", "$PORT")
 //                         sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
 //                         sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
 //                         sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
