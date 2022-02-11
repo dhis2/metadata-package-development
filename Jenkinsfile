@@ -1,6 +1,6 @@
 @Library('pipeline-library@DEVOPS-125') _
 
-def packages = ['CRVS - RMS - Rapid Mortality Surveillance - RMS000', 'TB - DRS - Drug Resistance Surveillance - TBDR00']
+def packages = ['CRVS - RMS - Rapid Mortality Surveillance - RMS000']
 
 pipeline {
     agent {
@@ -25,6 +25,7 @@ pipeline {
         DHIS2_BRANCH_VERSION = "master"
         OUS_METADATA = "test/ous_metadata.json"
         TEST_METADATA = "test_metadata.json"
+        // TODO: not needed? always ""
         CHANNEL = ""
         PORT = 9090
         INPUT_FILE_NAME = "package_metadata_file"
@@ -70,7 +71,7 @@ pipeline {
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
 
-                    metadataPackage.export(packages)
+                    PACKAGE_FILES = metadataPackage.export(packages)
 
 //                     components = "${PACKAGE_NAME}".split(' - ')
 //                     HEALTH_AREA = components[0]
@@ -122,52 +123,59 @@ pipeline {
                     script {
                         // TODO: is that needed with pushing to GitHub?
                         // Should be in metadataPackage.export() method or send exported files to dir and archive it.
-                        archiveArtifacts artifacts: "${INPUT_FILE_NAME}"
+                        PACKAGE_FILES.each { file ->
+                            archiveArtifacts artifacts: "$file"
+                        }
                     }
                 }
             }
         }
 
+        // TODO: what's the point of this stage?
         stage('Extract package info') {
             steps {
                 dir('metadata-dev') {
                     git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
 
                     script {
-                        // TODO: should extract info from list of packages.
-                        if (PACKAGE_IS_GENERATED.toBoolean()) {
-                            sh "cp $WORKSPACE/$INPUT_FILE_NAME ./test/package_orig.json"
-                        } else {
-                            unstash "$INPUT_FILE_NAME"
-                            sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+                        PACKAGE_FILES.each { file ->
+                            metadataPackage.getInfo("$file")
                         }
 
+                        // TODO: should extract info from list of packages.
+//                         if (PACKAGE_IS_GENERATED.toBoolean()) {
+//                             sh "cp $WORKSPACE/$INPUT_FILE_NAME ./test/package_orig.json"
+//                         } else {
+//                             unstash "$INPUT_FILE_NAME"
+//                             sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+//                         }
+//
                         // TODO: use jq
                         // example of expected value: VE_TRACKER_V1.0.0_DHIS2.33.8-en
-                        PACKAGE_VERSION = sh(
-                            returnStdout: true,
-                            script: "cat $WORKSPACE/$INPUT_FILE_NAME | awk ' BEGIN { package_found = 0; } { if(package_found == 1 && index(\$1, \"name\") != 0) { gsub(/[\",]/,\"\"); print \$2; exit(0); }  if(index(\$1, \"package\") != 0) { package_found = 1; } }'"
-                        ).trim()
-
+//                         PACKAGE_VERSION = sh(
+//                             returnStdout: true,
+//                             script: "cat $WORKSPACE/$INPUT_FILE_NAME | awk ' BEGIN { package_found = 0; } { if(package_found == 1 && index(\$1, \"name\") != 0) { gsub(/[\",]/,\"\"); print \$2; exit(0); }  if(index(\$1, \"package\") != 0) { package_found = 1; } }'"
+//                         ).trim()
+//
                         // TODO: use jq
                         // example of expected value: 2.33.8
-                        DHIS2_BRANCH_VERSION = sh(
-                            returnStdout: true,
-                            script: "grep DHIS2Version $WORKSPACE/$INPUT_FILE_NAME | awk -F '\"' '{print \$4;}' ").trim().toLowerCase()
-
-                        echo "Package version: ${PACKAGE_VERSION}"
-                        currentBuild.description = "${PACKAGE_VERSION}"
-                        echo "DHIS2 version: ${DHIS2_BRANCH_VERSION}"
-
-                        def length = sh(
-                            returnStdout: true,
-                            script: "echo -n ${DHIS2_BRANCH_VERSION} | wc -c "
-                        ).trim()
-
-                        if ("${length}".toInteger() > 4) {
-                            echo "DHIS2 version is a patch version."
-                            CHANNEL = ""
-                        }
+//                         DHIS2_BRANCH_VERSION = sh(
+//                             returnStdout: true,
+//                             script: "grep DHIS2Version $WORKSPACE/$INPUT_FILE_NAME | awk -F '\"' '{print \$4;}' ").trim().toLowerCase()
+//
+//                         echo "Package version: ${PACKAGE_VERSION}"
+//                         currentBuild.description = "${PACKAGE_VERSION}"
+//                         echo "DHIS2 version: ${DHIS2_BRANCH_VERSION}"
+//
+//                         def length = sh(
+//                             returnStdout: true,
+//                             script: "echo -n ${DHIS2_BRANCH_VERSION} | wc -c "
+//                         ).trim()
+//
+//                         if ("${length}".toInteger() > 4) {
+//                             echo "DHIS2 version is a patch version."
+//                             CHANNEL = ""
+//                         }
                     }
                 }
             }
@@ -186,69 +194,86 @@ pipeline {
                     catchError {
                         // TODO: should validate list of packages.
                         // list.each { item -> ... }
-                        sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$INPUT_FILE_NAME")
+                        PACKAGE_FILES.each { file ->
+                            sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $file")
+                        }
                     }
                 }
             }
         }
 
         // TODO: should test package import for list of packages.
-        //stage('Test empty instance') {
-        //    steps {
-        //        script {
-        //            withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-        //                d2.startCluster( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
-        //            }
-        //            sleep(10)
-        //            dir("$WORKSPACE/metadata-dev/test") {
-        //                sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
-        //                sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
-        //                sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
-        //            }
-        //        }
-        //    }
+        stage('Test empty instance') {
+            steps {
+                script {
+                    PACKAGE_FILES.each { file ->
+                        withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
+                            d2.startCluster( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
+                        }
+                        sleep(10)
+                        dir("$WORKSPACE/metadata-dev/test") {
+                            metadataPackage.runTests("$file", "$PORT")
+//                         sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/qpXLDdXT3po/g' | sed 's/<OU_LEVEL_FACILITY_UID>/vFr4zVw6Avn/g' | sed 's/<OU_ROOT_UID>/GD7TowwI46c/g' > package.json"
+//                         sh "./api-test.sh -f tests.json -url http://localhost:${PORT} -auth admin:district test ou_import "
+//                         sh "URL=http://localhost:${PORT} AUTH=admin:district ./run-tests.sh"
+                        }
+                    }
+                }
+            }
 
-        //    post {
-        //        always {
-        //            script {
-        //                sh(
-        //                    returnStdout: false,
-        //                    script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty.txt"
-        //                )
-        //                archiveArtifacts artifacts: "logs_empty.txt"
-        //            }
-        //        }
-        //    }
-        //}
+           post {
+               always {
+                   script {
+                       sh(
+                           returnStdout: false,
+                           script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty.txt"
+                       )
+                       archiveArtifacts artifacts: "logs_empty.txt"
+                   }
+               }
+           }
+        }
 
         // TODO: should check dashboards and PR expressions for list of packages.
-        //stage('Run checks') {
-        //    parallel {
-        //        stage('Check dashboards') {
-        //            steps {
-        //                dir('dhis2-utils/tools/dhis2-dashboardchecker') {
-        //                    // Make dashboards public
-        //                    sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
-        //                    // Add default "admin" user to Trainingland root OU
-        //                    sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
-        //                    sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
-        //                    sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
-        //                }
-        //            }
-        //        }
+        // TODO: should run while a package is imported in DHIS2 instance.
+        stage('Run checks') {
+            parallel {
+                stage('Check dashboards') {
+                    steps {
+                        dir('dhis2-utils/tools/dhis2-dashboardchecker') {
+                            script {
+                                PACKAGE_FILES.each {
+                                    metadataPackage.checkDashboards("$PORT")
+                                }
+                            }
 
-        //        stage('Check PR expressions') {
-        //            steps {
-        //                dir('metadata-checkers') {
-        //                    git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+                            // Make dashboards public
+//                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = \'rw------\';"'
+                            // Add default "admin" user to Trainingland root OU
+//                             sh 'docker exec -i \$(docker container ls --filter name=db -q) psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = \'GD7TowwI46c\'), (SELECT userid FROM users WHERE code = \'admin\'));"'
+//                             sh 'echo "{\\"dhis\\": {\\"baseurl\\": \\"http://localhost:${PORT}\\", \\"username\\": \\"admin\\", \\"password\\": \\"district\\"}}" > auth.json'
+//                             sh "python3 dashboard_checker.py -i=http://localhost:${PORT} --omit-no_data_warning"
+                        }
+                    }
+                }
 
-        //                    sh 'echo "[localhost]\nserver=http://localhost:${PORT}/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
-        //                    sh 'python3 check_expressions.py --credentials localhost'
-        //                }
-        //            }
-        //        }
-        //    }
-        //}
+                stage('Check PR expressions') {
+                    steps {
+                        dir('metadata-checkers') {
+                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+
+                            script {
+                                PACKAGE_FILES.each {
+                                    metadataPackage.checkExpressions("$PORT")
+                                }
+                            }
+//                             sh 'echo "[localhost]\nserver=http://localhost:${PORT}/api/\nserver_name=localhost\nuser=admin\npassword=district\npage_size=500" > credentials.ini'
+//                             sh 'python3 check_expressions.py --credentials localhost'
+                        }
+                    }
+                }
+            }
+        }
 
         stage('Push to GitHub') {
             when {
