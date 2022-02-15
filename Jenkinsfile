@@ -68,6 +68,8 @@ pipeline {
 
 
                     EXPORTED_PACKAGE = metadataPackage.export("$PACKAGE_NAME", "$PACKAGE_TYPE")
+
+                    DHIS2_BRANCH_VERSION = metadataPackage.getInfo("$WORKSPACE/$EXPORTED_PACKAGE")
                 }
             }
 
@@ -76,20 +78,6 @@ pipeline {
                     script {
                         // TODO: is that needed with pushing to GitHub?
                         archiveArtifacts artifacts: "$EXPORTED_PACKAGE"
-                    }
-                }
-            }
-        }
-
-        // TODO: needs to get the package info when testing the package to use the dhis2version for d2 cluster
-        // & cp the $file to ./test/package_orig.json
-        stage('Extract package info') {
-            steps {
-                dir('metadata-dev') {
-                    git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
-
-                    script {
-                        DHIS2_BRANCH_VERSION = metadataPackage.getInfo("$WORKSPACE/$EXPORTED_PACKAGE")
                     }
                 }
             }
@@ -121,7 +109,9 @@ pipeline {
 
                     sleep(5)
 
-                    dir("$WORKSPACE/metadata-dev/test") {
+                    dir("metadata-dev") {
+                        git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
+
                         metadataPackage.runImportTests("$WORKSPACE/$EXPORTED_PACKAGE", "$PORT")
                     }
                 }
@@ -177,7 +167,7 @@ pipeline {
             steps {
                 script {
                     // the prefix is the last 6 characters of the package name parameter
-                    PACKAGE_PREFIX = "${PACKAGE_NAME: -6}"
+                    PACKAGE_PREFIX = PACKAGE_NAME.substring(PACKAGE_NAME.length() - 6)
                     sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
                 }
             }
