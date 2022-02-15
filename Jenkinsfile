@@ -137,31 +137,31 @@ pipeline {
             }
         }
 
-        stage('Run checks') {
-            parallel {
-                stage('Check dashboards') {
-                    steps {
-                        dir('dhis2-utils/tools/dhis2-dashboardchecker') {
-                            script {
-                                metadataPackage.checkDashboards("$PORT")
-                            }
-                        }
-                    }
-                }
-
-                stage('Check PR expressions') {
-                    steps {
-                        dir('metadata-checkers') {
-                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
-
-                            script {
-                                metadataPackage.checkExpressions("$PORT")
-                            }
-                        }
-                    }
-                }
-            }
-        }
+//         stage('Run checks') {
+//             parallel {
+//                 stage('Check dashboards') {
+//                     steps {
+//                         dir('dhis2-utils/tools/dhis2-dashboardchecker') {
+//                             script {
+//                                 metadataPackage.checkDashboards("$PORT")
+//                             }
+//                         }
+//                     }
+//                 }
+//
+//                 stage('Check PR expressions') {
+//                     steps {
+//                         dir('metadata-checkers') {
+//                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+//
+//                             script {
+//                                 metadataPackage.checkExpressions("$PORT")
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
 
         stage('Push to GitHub') {
             when {
