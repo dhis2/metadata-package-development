@@ -109,10 +109,12 @@ pipeline {
 
                     sleep(5)
 
-                    dir("metadata-dev") {
+                    dir('metadata-dev') {
                         git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
 
-                        metadataPackage.runImportTests("$WORKSPACE/$EXPORTED_PACKAGE", "$PORT")
+                        dir('test') {
+                            metadataPackage.runImportTests("$WORKSPACE/$EXPORTED_PACKAGE", "$PORT")
+                        }
                     }
                 }
             }
