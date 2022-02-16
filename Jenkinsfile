@@ -11,7 +11,6 @@ pipeline {
 
     options {
         ansiColor('xterm')
-        disableConcurrentBuilds()
         // This is required if you want to clean before build
         skipDefaultCheckout(true)
     }
