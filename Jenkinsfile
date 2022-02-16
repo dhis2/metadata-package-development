@@ -168,7 +168,7 @@ pipeline {
             steps {
                 script {
                     // the prefix is the last 6 characters of the package name parameter
-                    PACKAGE_PREFIX = PACKAGE_NAME.substring(PACKAGE_NAME.length() - 6)
+                    PACKAGE_PREFIX = PACKAGE_NAME[-6..-1]
                     sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
                 }
             }
