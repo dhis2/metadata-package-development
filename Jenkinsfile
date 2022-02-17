@@ -173,48 +173,6 @@ pipeline {
                 }
             }
         }
-
-        //stage('Remove d2 cache again') {
-        //    steps {
-        //        sh 'sudo -S rm -rf /ebs1/home/jenkins/.cache/d2'
-        //    }
-        //}
-
-        //stage("Test SL instance") {
-        //    steps {
-        //        script {
-        //            if ("${DHIS2_BRANCH_VERSION}".contains('-')) {
-        //                CLEAN_DHIS2_VERSION = DHIS2_BRANCH_VERSION.replaceAll("[^0-9.]", "")
-        //                echo "CLEAN_DHIS2_VERSION: ${CLEAN_DHIS2_VERSION}"
-        //                SEED_FILE = "https://databases.dhis2.org/sierra-leone/"+CLEAN_DHIS2_VERSION+"/dhis2-db-sierra-leone.sql.gz"
-        //                echo "SEED_FILE: ${SEED_FILE}"
-        //                sh "wget ${SEED_FILE}"
-        //                d2.startClusterAndSeedWithFile( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL", "dhis2-db-sierra-leone.sql.gz")
-        //            }
-        //            else {
-        //                d2.startClusterAndSeed( "${DHIS2_BRANCH_VERSION}", "$PORT", "$CHANNEL")
-        //            }
-        //
-        //            dir('test') {
-        //                sh "cat package_orig.json | sed 's/<OU_LEVEL_DISTRICT_UID>/wjP19dkFeIk/g' | sed 's/<OU_ROOT_UID>/ImspTQPwCqd/g'| sed 's/NI0QRzJvQ0k/iESIqZ0R0R0/g' | sed 's/sB1IHYu2xQT/TfdH5KvFmMy/g' | sed 's/fctSQp5nAYl/Agywv2JGwuq/g' | sed 's/oindugucx72/CklPZdOd6H1/g' | sed 's/WDUwjiW2rGH/hiQ3QFheQ3O/g' | sed 's/MCPQUTHX1Ze/nEenWmSyUEp/g' | sed 's/FKKrOBBFgs1/AZK4rjJCss5/g' | sed 's/Ii4IxCLWEFn/UrUdMteQzlT/g' | sed 's/Fm6cUmmiY3d/qrur9Dvnyt5/g' | sed 's/UoL9vGPT0qF/u3TE34T4KH0/g' | sed 's/HAZ7VQ730yn/flGbXLXCrEo/g' | sed 's/phxAY4PQdsT/KrCahWFMYYz/g' | sed 's/ap4DkRRjUWi/oBWhZmavxQY/g'  | sed 's/I4tpTPGwr5V/dEFhuheLj1A/g'  | sed 's/hEhl7FOtnR7/HrKHCQUSYZh/g' | sed 's/BiTsLcJQ95V/iESIqZ0R0R0/g' | sed 's/ciCR6BBvIT4/Agywv2JGwuq/g' > package.json"
-        //                sh "URL=http://localhost:${PORT} AUTH=system:System123 ./run-tests.sh"
-        //            }
-        //        }
-        //    }
-        //
-        //    post {
-        //        always {
-        //            script {
-        //                sh(
-        //                    returnStdout: false,
-        //                    script: "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_sl.txt"
-        //                )
-        //                archiveArtifacts artifacts: "logs_sl.txt"
-        //                d2.stopCluster("${DHIS2_BRANCH_VERSION}")
-        //            }
-        //        }
-        //    }
-        //}
     }
 
     post {
@@ -232,22 +190,4 @@ pipeline {
             }
         }
     }
-
-    //post {
-    //    always {
-    //        script {
-    //            echo "POST_ALWAYS"
-    //            def logContent = Jenkins.getInstance().getItemByFullName(env.JOB_NAME).getBuildByNumber(Integer.parseInt(env.BUILD_NUMBER)).logFile.text
-    //            // copy the log in the job's own workspace
-    //            writeFile file: "buildlog.txt", text: logContent
-    //            archiveArtifacts artifacts: "buildlog.txt"
-    //
-    //            def logList = Jenkins.getInstance().getItemByFullName(env.JOB_NAME).getBuildByNumber(Integer.parseInt(env.BUILD_NUMBER)).logFile.readLines()
-    //            def errorList = logList.findAll {it.contains("ERROR") || it.contains("WARNING")}
-    //
-    //            writeFile file: "error_log.txt", text: errorList.join("\n")
-    //            archiveArtifacts artifacts: "error_log.txt"
-    //        }
-    //    }
-    //}
 }
