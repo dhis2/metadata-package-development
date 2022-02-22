@@ -62,13 +62,13 @@ pipeline {
 
                     PACKAGE_IS_GENERATED = true
 
-                    sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
+                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh $PACKAGE_NAME $PACKAGE_TYPE")
 
-                    EXPORTED_PACKAGE = metadataPackage.export("$PACKAGE_NAME", "$PACKAGE_TYPE")
+                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $file | jq -r \".package .DHIS2Version\"").trim()
 
-                    DHIS2_BRANCH_VERSION = metadataPackage.getInfo("$WORKSPACE/$EXPORTED_PACKAGE")
+                    currentBuild.description = sh(returnStdout: true, script: "cat $file | jq -r \".package .name\"").trim()
                 }
             }
 
@@ -110,9 +110,7 @@ pipeline {
                     dir('metadata-dev') {
                         git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
 
-                        dir('test') {
-                            metadataPackage.runImportTests("$WORKSPACE/$EXPORTED_PACKAGE", "$PORT")
-                        }
+                        sh "./scripts/run-import-tests.sh $WORKSPACE/$EXPORTED_PACKAGE $PORT"
                     }
                 }
             }
@@ -131,11 +129,7 @@ pipeline {
             parallel {
                 stage('Check dashboards') {
                     steps {
-                        dir('dhis2-utils/tools/dhis2-dashboardchecker') {
-                            script {
-                                metadataPackage.checkDashboards("$PORT")
-                            }
-                        }
+                        sh "./scripts/check-dashboards.sh $PORT"
                     }
                 }
 
@@ -144,9 +138,7 @@ pipeline {
                         dir('metadata-checkers') {
                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
 
-                            script {
-                                metadataPackage.checkExpressions("$PORT")
-                            }
+                            sh "$WORKSPACE/metadata-dev/scripts/check-expressions.sh $PORT"
                         }
                     }
                 }
@@ -161,14 +153,11 @@ pipeline {
             environment {
                 GITHUB_CREDS = credentials('github-token-as-password')
                 GITHUB_EMAIL = 'apps@dhis2.org'
-                PACKAGE_FILE = "$EXPORTED_PACKAGE"
             }
 
             steps {
                 script {
-                    // the prefix is the last 6 characters of the package name parameter
-                    PACKAGE_PREFIX = PACKAGE_NAME[-6..-1]
-                    sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $PACKAGE_PREFIX $DHIS2_VERSION"
+                    sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $EXPORTED_PACKAGE"
                 }
             }
         }
