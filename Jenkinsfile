@@ -11,8 +11,6 @@ pipeline {
 
     options {
         ansiColor('xterm')
-        // This is required if you want to clean before build
-        skipDefaultCheckout(true)
     }
 
     environment {
@@ -26,7 +24,7 @@ pipeline {
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
         DESCRIPTION = "${params.Description}"
-        PACKAGE_IS_GENERATED = false
+        PACKAGE_IS_EXPORTED = false
     }
 
     stages {
@@ -57,15 +55,11 @@ pipeline {
                         git url: "$UTILS_GIT_URL"
                     }
 
-                    PACKAGE_IS_GENERATED = true
+                    PACKAGE_IS_EXPORTED = true
 
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
                     EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh $PACKAGE_NAME $PACKAGE_TYPE")
-
-                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $file | jq -r \".package .DHIS2Version\"").trim()
-
-                    currentBuild.description = sh(returnStdout: true, script: "cat $file | jq -r \".package .name\"").trim()
                 }
             }
 
@@ -78,10 +72,25 @@ pipeline {
             }
         }
 
+        stage('Extract package info') {
+            script {
+                if (PACKAGE_IS_EXPORTED.toBoolean()) {
+                    sh "cp $WORKSPACE/$EXPORTED_PACKAGE ./test/package_orig.json"
+                } else {
+                    unstash "$INPUT_FILE_NAME"
+                    sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+                }
+
+                DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .DHIS2Version\"").trim()
+
+                currentBuild.description = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .name\"").trim()
+            }
+        }
+
         stage('Validate metadata') {
             steps {
                 script {
-                    //This call is done also here just in case the previous stage is skipped
+                    // In case the 'Export package' stage was skipped, the utils repo needs to be cloned again
                     if (!fileExists('dhis2-utils')) {
                         dir('dhis2-utils') {
                             git url: "$UTILS_GIT_URL"
@@ -104,11 +113,7 @@ pipeline {
 
                     sleep(5)
 
-                    dir('metadata-dev') {
-                        git branch: "DEVOPS-104", url: "$METADATA_DEV_GIT_URL"
-
-                        sh "./scripts/run-import-tests.sh $WORKSPACE/$EXPORTED_PACKAGE $PORT"
-                    }
+                    sh "./scripts/run-import-tests.sh ./test/package_orig.json $PORT"
                 }
             }
 
@@ -132,11 +137,9 @@ pipeline {
 
                 stage('Check PR expressions') {
                     steps {
-                        dir('metadata-checkers') {
-                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+                        git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
 
-                            sh "$WORKSPACE/metadata-dev/scripts/check-expressions.sh $PORT"
-                        }
+                        sh "./scripts/check-expressions.sh $PORT"
                     }
                 }
             }
@@ -154,7 +157,7 @@ pipeline {
 
             steps {
                 script {
-                    sh "$WORKSPACE/metadata-dev/scripts/push-package.sh $EXPORTED_PACKAGE"
+                    sh "./scripts/push-package.sh $EXPORTED_PACKAGE"
                 }
             }
         }

@@ -8,9 +8,7 @@ port="$2"
 auth="${USER_NAME:-admin}:${USER_PASSWORD:-district}"
 url="http://localhost:$port"
 
-cp "$file" ./package_orig.json
-
-cat ./package_orig.json |
+cat "$file" |
   sed "s/<OU_LEVEL_DISTRICT_UID>/${OU_DISTRICT_UID:-qpXLDdXT3po}/g" |
   sed "s/<OU_LEVEL_FACILITY_UID>/${OU_FACILITY_UID:-vFr4zVw6Avn}/g" |
   sed "s/<OU_ROOT_UID>/${OU_ROOT_UID:-GD7TowwI46c}/g" > ./test/package.json

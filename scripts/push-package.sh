@@ -22,7 +22,7 @@ git clone "https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repo"
 cd "$WORKSPACE/$repo"
 
 git checkout "test-$version"
-mkdir -p "$sub_package_code" && cp "$WORKSPACE/$PACKAGE_FILE" "$sub_package_code/metadata.json"
+mkdir -p "$sub_package_code" && cp "$WORKSPACE/$file" "$sub_package_code/metadata.json"
 git add .
 
 git commit -m "Some message ..."
