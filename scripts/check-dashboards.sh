@@ -14,4 +14,6 @@ docker exec -i "$db_container" psql -U dhis -d dhis2 -c "INSERT INTO usermembers
 
 echo "{\"dhis\": {\"baseurl\": \"http://localhost:${port}\", \"username\": \"${user}\", \"password\": \"${pass}\"}}" > auth.json
 
+pip3 install -r dhis2-utils/tools/dhis2-dashboardchecker/requirements.txt
+
 python3 dhis2-utils/tools/dhis2-dashboardchecker/dashboard_checker.py -i=http://localhost:${port} --omit-no_data_warning
