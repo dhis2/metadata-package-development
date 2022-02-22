@@ -1,4 +1,4 @@
-@Library('pipeline-library@DEVOPS-125') _
+@Library('pipeline-library') _
 
 pipeline {
     agent {
