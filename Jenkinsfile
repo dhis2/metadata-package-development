@@ -17,11 +17,8 @@ pipeline {
 
     environment {
         UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils"
-        METADATA_DEV_GIT_URL = "https://github.com/dhis2/metadata-package-development"
         METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
         DHIS2_BRANCH_VERSION = "master"
-        OUS_METADATA = "test/ous_metadata.json"
-        TEST_METADATA = "test_metadata.json"
         PORT = 9090
         INPUT_FILE_NAME = "package_metadata_file"
         DHIS2_VERSION = "${params.DHIS2_version}"
