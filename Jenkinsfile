@@ -59,7 +59,9 @@ pipeline {
 
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
-                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh $PACKAGE_NAME $PACKAGE_TYPE")
+                    sh 'printenv'
+
+                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\"")
                 }
             }
 
@@ -73,17 +75,19 @@ pipeline {
         }
 
         stage('Extract package info') {
-            script {
-                if (PACKAGE_IS_EXPORTED.toBoolean()) {
-                    sh "cp $WORKSPACE/$EXPORTED_PACKAGE ./test/package_orig.json"
-                } else {
-                    unstash "$INPUT_FILE_NAME"
-                    sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+            steps {
+                script {
+                    if (PACKAGE_IS_EXPORTED.toBoolean()) {
+                        sh "cp $WORKSPACE/$EXPORTED_PACKAGE ./test/package_orig.json"
+                    } else {
+                        unstash "$INPUT_FILE_NAME"
+                        sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+                    }
+
+                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .DHIS2Version\"").trim()
+
+                    currentBuild.description = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .name\"").trim()
                 }
-
-                DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .DHIS2Version\"").trim()
-
-                currentBuild.description = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .name\"").trim()
             }
         }
 

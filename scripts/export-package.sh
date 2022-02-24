@@ -5,11 +5,13 @@ set -euxo pipefail
 name="$1"
 type="$2"
 
+printenv
+
 IFS=';' read -ra package_components <<< "${name// - /;}"
 
 health_area="${package_components[0]}"
 intervention="${package_components[1]}"
-if [[ -z "$DESCRIPTION" ]]; then
+if [[ -z "${DESCRIPTION:-}" ]]; then
   description="${package_components[2]}"
 fi
 package_prefix="${package_components[3]}"
