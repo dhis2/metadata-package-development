@@ -57,7 +57,7 @@ pipeline {
 
                     PACKAGE_IS_EXPORTED = true
 
-                    sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
+                    sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
 
                     sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\""
 
@@ -117,7 +117,9 @@ pipeline {
 
                     sleep(5)
 
-                    sh "./scripts/run-import-tests.sh ./test/package_orig.json $PORT"
+                    dir('test') {
+                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $PORT"
+                    }
                 }
             }
 
@@ -141,7 +143,13 @@ pipeline {
 
                 stage('Check PR expressions') {
                     steps {
-                        git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+                        dir('dhis2-metadata-checkers') {
+                            git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
+                        }
+
+                        sh "pwd"
+                        sh "ls -la"
+                        sh "ls -la scripts"
 
                         sh "./scripts/check-expressions.sh $PORT"
                     }

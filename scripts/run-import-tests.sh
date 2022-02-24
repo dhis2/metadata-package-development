@@ -11,8 +11,8 @@ url="http://localhost:$port"
 cat "$file" |
   sed "s/<OU_LEVEL_DISTRICT_UID>/${OU_DISTRICT_UID:-qpXLDdXT3po}/g" |
   sed "s/<OU_LEVEL_FACILITY_UID>/${OU_FACILITY_UID:-vFr4zVw6Avn}/g" |
-  sed "s/<OU_ROOT_UID>/${OU_ROOT_UID:-GD7TowwI46c}/g" > ./test/package.json
+  sed "s/<OU_ROOT_UID>/${OU_ROOT_UID:-GD7TowwI46c}/g" > ./package.json
 
-./test/api-test.sh -f ./test/tests.json -url "$url" -auth "$auth" test ou_import
+./api-test.sh -f ./tests.json -url "$url" -auth "$auth" test ou_import
 
-URL="$url" AUTH="$auth" ./test/run-tests.sh
+URL="$url" AUTH="$auth" ./run-tests.sh
