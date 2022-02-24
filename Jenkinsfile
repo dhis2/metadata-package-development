@@ -59,8 +59,6 @@ pipeline {
 
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
-                    sh 'printenv'
-
                     EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\"")
                 }
             }
