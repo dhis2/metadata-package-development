@@ -43,5 +43,3 @@ fi
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
 
 python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$health_area" "$intervention" -v="$Package_version" -desc="$description" -i="$instance" -pf="$package_prefix"
-
-echo "$(ls -t1 ${health_area}*${intervention}*${DHIS2_VERSION}*.json | head -n 1)"

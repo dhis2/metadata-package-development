@@ -59,7 +59,9 @@ pipeline {
 
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
 
-                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\"")
+                    sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\""
+
+                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()
                 }
             }
 
