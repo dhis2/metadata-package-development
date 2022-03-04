@@ -147,10 +147,6 @@ pipeline {
                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
                         }
 
-                        sh "pwd"
-                        sh "ls -la"
-                        sh "ls -la scripts"
-
                         sh "./scripts/check-expressions.sh $PORT"
                     }
                 }
@@ -176,7 +172,7 @@ pipeline {
     }
 
     post {
-        always {
+        failure {
             script {
                 IMPLEMENTERS = [
                     RMS000: 'U01RSD1LPB3'
@@ -184,8 +180,8 @@ pipeline {
 
                 slackSend(
                     color: "#ff0000",
-                    channel: "@${IMPLEMENTERS.get(PACKAGE_PREFIX)}",
-                    message: "The $PACKAGE_PREFIX package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[-6..-1])}",
+                    message: "The $EXPORTED_PACKAGE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
                 )
             }
         }
