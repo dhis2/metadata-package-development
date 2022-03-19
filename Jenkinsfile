@@ -79,7 +79,7 @@ pipeline {
                     //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
                     echo "DESCRIPTION: ${DESCRIPTION}"
 
-                    if (PACKAGE_TYPE.equals("TKR") || PACKAGE_TYPE.equals("EVT")){
+                    if (PACKAGE_TYPE.equals("TRK") || PACKAGE_TYPE.equals("EVT")){
                         switch(params.DHIS2_version) {
                             //case "2.33": INSTANCE="https://metadata.dev.dhis2.org/old_tracker_dev"; break;
                             //case "2.34": INSTANCE="https://metadata.dev.dhis2.org/tracker_dev"; break;
