@@ -53,8 +53,9 @@ pipeline {
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
                             sanitizedVersion = version.replaceAll('\\.', '')
-                            timestamp = new Date().getTime()
-                            instanceName = "pipeline-instance-$sanitizedVersion-$timestamp"
+                            randomInt = new Random().nextInt(9999)
+                            instanceName = "pipeline-instance-$sanitizedVersion-$randomInt"
+
                             echo "Creating DHIS2 $sanitizedVersion instance ..."
                             sh "./scripts/create-dhis2-instance.sh $instanceName"
                         }
