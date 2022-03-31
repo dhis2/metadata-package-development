@@ -52,8 +52,11 @@ pipeline {
 
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
-                            echo "Creating DHIS2 $version instance ..."
-                            sh "./scripts/create-dhis2-instance.sh $version"
+                            sanitizedVersion = version.replaceAll('\\.', '')
+                            timestamp = new Date().getTime()
+                            instanceName = "pipeline-instance-$sanitizedVersion-$timestamp"
+                            echo "Creating DHIS2 $sanitizedVersion instance ..."
+                            sh "./scripts/create-dhis2-instance.sh $instanceName"
                         }
                     }
                 }
@@ -75,6 +78,7 @@ pipeline {
                 script {
                     versionsList.each { version ->
                         echo "Deleting DHIS2 $version instance ..."
+                        echo "instance name - $instanceName"
                     }
                 }
             }
