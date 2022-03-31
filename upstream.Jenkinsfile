@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     echo "Copy latest DB snapshot to database manager ..."
-                    sh "aws s3 cp $TRACKER_DEV_SNAPSHOT $TRACKER_DEV_DB_MANAGER_COPY"
+                    sh "aws s3 cp --no-progress $TRACKER_DEV_SNAPSHOT $TRACKER_DEV_DB_MANAGER_COPY"
 
                     sh "pip3 install httpie"
 
@@ -57,7 +57,7 @@ pipeline {
                             instanceName = "pipeline-instance-$sanitizedVersion-$randomInt"
 
                             echo "Creating DHIS2 $sanitizedVersion instance ..."
-                            sh "./scripts/create-dhis2-instance.sh $instanceName"
+                            sh "./scripts/create-dhis2-instance.sh $instanceName whoami"
                         }
                     }
                 }
@@ -77,9 +77,11 @@ pipeline {
         stage ('Delete DHIS2 instances') {
             steps {
                 script {
-                    versionsList.each { version ->
-                        echo "Deleting DHIS2 $version instance ..."
-                        echo "instance name - $instanceName"
+                    withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
+                        versionsList.each { version ->
+                            echo "Deleting DHIS2 $version instance ..."
+                            sh "./scripts/destroy-dhis2-instance.sh $instanceName whoami"
+                        }
                     }
                 }
             }
