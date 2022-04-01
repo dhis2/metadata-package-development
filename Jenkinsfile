@@ -24,6 +24,7 @@ pipeline {
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
         DESCRIPTION = "${params.Description}"
+        INSTANCE_NAME = "${params.Instance_name}"
         PACKAGE_IS_EXPORTED = false
     }
 
@@ -59,7 +60,7 @@ pipeline {
 
                     sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
 
-                    sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\""
+                    sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\" \"$INSTANCE_NAME\""
 
                     EXPORTED_PACKAGE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()
                 }

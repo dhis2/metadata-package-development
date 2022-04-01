@@ -1,4 +1,4 @@
-def generateStagesMap(versions, packages) {
+def generateStagesMap(versions, packages, instanceBaseName) {
     def map = [:]
 
     versions.each { version ->
@@ -8,7 +8,8 @@ def generateStagesMap(versions, packages) {
                     build job: 'test-metadata', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Package_name', value: "$item"),
-                        string(name: 'Package_type', value: "EVT")
+                        string(name: 'Package_type', value: "EVT"),
+                        string(name: 'Instance_name', value: "$instanceBaseName")
                     ]
                 }
             }
@@ -52,27 +53,27 @@ pipeline {
 
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
-                            sanitizedVersion = version.replaceAll('\\.', '')
+//                             sanitizedVersion = version.replaceAll('\\.', '')
                             randomInt = new Random().nextInt(9999)
-                            instanceName = "pipeline-instance-$sanitizedVersion-$randomInt"
+                            instanceName = "instance-$randomInt"
 
-                            echo "Creating DHIS2 $sanitizedVersion instance ..."
-                            sh "./scripts/create-dhis2-instance.sh $instanceName whoami"
+                            echo "Creating DHIS2 $version instance ..."
+                            sh "./scripts/create-dhis2-instance.sh $instanceName whoami $version"
                         }
                     }
                 }
             }
         }
 
-//         stage ('Run Downstream') {
-//             steps {
-//                 script {
-//                     packagesList = "${params.packages}".split(',')
-//
-//                     parallel generateStagesMap(versionsList, packagesList)
-//                 }
-//             }
-//         }
+        stage ('Run Downstream') {
+            steps {
+                script {
+                    packagesList = "${params.packages}".split(',')
+
+                    parallel generateStagesMap(versionsList, packagesList, instanceName)
+                }
+            }
+        }
 
         stage ('Delete DHIS2 instances') {
             steps {
@@ -80,7 +81,7 @@ pipeline {
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
                             echo "Deleting DHIS2 $version instance ..."
-                            sh "./scripts/destroy-dhis2-instance.sh $instanceName whoami"
+                            sh "./scripts/destroy-dhis2-instance.sh $instanceName whoami $version"
                         }
                     }
                 }

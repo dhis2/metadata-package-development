@@ -4,6 +4,9 @@ set -euxo pipefail
 
 name="$1"
 type="$2"
+instance_name="$3"
+
+instance_base_url="https://whoami.im.test.c.dhis2.org"
 
 IFS=';' read -ra package_components <<< "${name// - /;}"
 
@@ -15,29 +18,9 @@ fi
 package_prefix="${package_components[3]}"
 
 if [[ "$type" == "TKR" || "$type" == "EVT" ]]; then
-  case "$DHIS2_version" in
-    "2.35")
-      instance="https://metadata.dev.dhis2.org/tracker_dev"
-      ;;
-    "2.36")
-      instance="https://metadata.dev.dhis2.org/tracker_dev236"
-      ;;
-    "2.37")
-      instance="https://metadata.dev.dhis2.org/tracker_dev237"
-      ;;
-  esac
+  instance="$instance_base_url/tkr-$instance_name-${DHIS2_version//./}"
 else
-  case "$DHIS2_version" in
-    "2.35")
-      instance="https://metadata.dev.dhis2.org/dev"
-      ;;
-    "2.36")
-      instance="https://metadata.dev.dhis2.org/dev236"
-      ;;
-    "2.37")
-      instance="https://metadata.dev.dhis2.org/dev237"
-      ;;
-  esac
+  instance="$instance_base_url/agg-$instance_name-${DHIS2_version//./}"
 fi
 
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
