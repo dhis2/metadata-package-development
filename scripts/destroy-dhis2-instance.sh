@@ -16,4 +16,4 @@ eval $(./login.sh)
 curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/destroy.sh" -O
 chmod +x destroy.sh
 ./destroy.sh "$tracker_instance_name" "$group_name"
-./destroy.sh "$aggregate_instance_name" "$group_name"
+#./destroy.sh "$aggregate_instance_name" "$group_name"

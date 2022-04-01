@@ -18,7 +18,7 @@ fi
 package_prefix="${package_components[3]}"
 
 if [[ "$type" == "TKR" || "$type" == "EVT" ]]; then
-  instance="$instance_base_url/tkr-$instance_name-${DHIS2_version//./}"
+  instance="$instance_base_url/trk-$instance_name-${DHIS2_version//./}"
 else
   instance="$instance_base_url/agg-$instance_name-${DHIS2_version//./}"
 fi

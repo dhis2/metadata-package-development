@@ -19,9 +19,9 @@ eval $(./login.sh)
 curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/dhis2-create.sh" -O
 chmod +x dhis2-create.sh
 ./dhis2-create.sh "$tracker_instance_name" "$group_name"
-./dhis2-create.sh "$aggregate_instance_name" "$group_name"
+#./dhis2-create.sh "$aggregate_instance_name" "$group_name"
 
 curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/dhis2-deploy.sh" -O
 chmod +x dhis2-deploy.sh
 ./dhis2-deploy.sh "$tracker_instance_name" "$group_name" "$tracker_db_id"
-./dhis2-deploy.sh "$aggregate_instance_name" "$group_name" "$aggregate_db_id"
+#./dhis2-deploy.sh "$aggregate_instance_name" "$group_name" "$aggregate_db_id"

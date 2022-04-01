@@ -45,6 +45,7 @@ pipeline {
             steps {
                 script {
                     echo "Copy latest DB snapshot to database manager ..."
+
                     sh "aws s3 cp --no-progress $TRACKER_DEV_SNAPSHOT $TRACKER_DEV_DB_MANAGER_COPY"
 
                     sh "pip3 install httpie"
@@ -53,14 +54,16 @@ pipeline {
 
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
-//                             sanitizedVersion = version.replaceAll('\\.', '')
+                            echo "Creating DHIS2 $version instance ..."
+
                             randomInt = new Random().nextInt(9999)
                             instanceName = "instance-$randomInt"
 
-                            echo "Creating DHIS2 $version instance ..."
                             sh "./scripts/create-dhis2-instance.sh $instanceName whoami $version"
                         }
                     }
+
+                    sleep(900)
                 }
             }
         }
@@ -81,6 +84,7 @@ pipeline {
                     withCredentials([usernamePassword(credentialsId: 'test-im-user-credentials', passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         versionsList.each { version ->
                             echo "Deleting DHIS2 $version instance ..."
+
                             sh "./scripts/destroy-dhis2-instance.sh $instanceName whoami $version"
                         }
                     }
