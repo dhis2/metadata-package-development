@@ -6,6 +6,8 @@ def generateStagesMap(versions, packages, instanceBaseName) {
             map["${item[-6..-1]} for ${version}"] = {
                 stage("Export ${item[-6..-1]} for ${version}") {
                     build job: 'test-metadata', propagate: false, parameters: [
+                        // TODO: parameters should be changed
+                        // each package in the list should have type, prefix code and DHIS2 version?
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Package_name', value: "$item"),
                         string(name: 'Package_type', value: "EVT"),
@@ -48,6 +50,7 @@ pipeline {
 
                     sh "aws s3 cp --no-progress $TRACKER_DEV_SNAPSHOT $TRACKER_DEV_DB_MANAGER_COPY"
 
+                    // TODO: install httpie in the agent AMI (pip and apt have different versions)
                     sh "pip3 install httpie"
 
                     versionsList = "${params.DHIS2Versions}".split(',')
