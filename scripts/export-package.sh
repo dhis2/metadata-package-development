@@ -7,12 +7,11 @@ type="$2"
 
 IFS=';' read -ra package_components <<< "${name// - /;}"
 
-health_area="${package_components[0]}"
-intervention="${package_components[1]}"
+package_prefix="${package_components[0]}"
+package_code="${package_components[1]}"
 if [[ -z "${DESCRIPTION:-}" ]]; then
   description="${package_components[2]}"
 fi
-package_prefix="${package_components[3]}"
 
 if [[ "$type" == "TKR" || "$type" == "EVT" ]]; then
   case "$DHIS2_version" in
@@ -42,4 +41,4 @@ fi
 
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
 
-python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$health_area" "$intervention" -v="$Package_version" -desc="$description" -i="$instance" -pf="$package_prefix"
+python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$package_prefix" "$package_code" -v="$Package_version" -desc="$description" -i="$instance"
