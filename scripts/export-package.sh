@@ -13,30 +13,34 @@ if [[ -z "${DESCRIPTION:-}" ]]; then
   description="${package_components[2]}"
 fi
 
-if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
-  case "$DHIS2_version" in
-    "2.35")
-      instance="https://metadata.dev.dhis2.org/tracker_dev"
-      ;;
-    "2.36")
-      instance="https://metadata.dev.dhis2.org/tracker_dev236"
-      ;;
-    "2.37")
-      instance="https://metadata.dev.dhis2.org/tracker_dev237"
-      ;;
-  esac
+if [[-z "${INSTANCE_URL:-}" ]]; then
+  instance = "$INSTANCE_URL"
 else
-  case "$DHIS2_version" in
-    "2.35")
-      instance="https://metadata.dev.dhis2.org/dev"
-      ;;
-    "2.36")
-      instance="https://metadata.dev.dhis2.org/dev236"
-      ;;
-    "2.37")
-      instance="https://metadata.dev.dhis2.org/dev237"
-      ;;
-  esac
+  if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
+    case "$DHIS2_version" in
+      "2.35")
+        instance="https://metadata.dev.dhis2.org/tracker_dev"
+        ;;
+      "2.36")
+        instance="https://metadata.dev.dhis2.org/tracker_dev236"
+        ;;
+      "2.37")
+        instance="https://metadata.dev.dhis2.org/tracker_dev237"
+        ;;
+    esac
+  else
+    case "$DHIS2_version" in
+      "2.35")
+        instance="https://metadata.dev.dhis2.org/dev"
+        ;;
+      "2.36")
+        instance="https://metadata.dev.dhis2.org/dev236"
+        ;;
+      "2.37")
+        instance="https://metadata.dev.dhis2.org/dev237"
+        ;;
+    esac
+  fi
 fi
 
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
