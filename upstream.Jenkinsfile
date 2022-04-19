@@ -31,7 +31,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'packages', defaultValue: 'CRVS - RMS - Rapid Mortality Surveillance - RMS000')
+        string(name: 'packages', defaultValue: 'RMS0 - CRVS_RMS - Rapid Mortality Surveillance')
         string(name: 'DHIS2Versions', defaultValue: '2.37')
     }
 
@@ -62,7 +62,7 @@ pipeline {
                             randomInt = new Random().nextInt(9999)
                             instanceName = "instance-$randomInt"
 
-                            readinessDelay = 600
+                            readinessDelay = 300
                             sh "./scripts/create-dhis2-instance.sh $instanceName whoami $version $readinessDelay"
                         }
                     }
