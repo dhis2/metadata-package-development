@@ -13,7 +13,7 @@ if [[ -z "${DESCRIPTION:-}" ]]; then
   description="${package_components[2]}"
 fi
 
-if [[ "$type" == "TKR" || "$type" == "EVT" ]]; then
+if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
   case "$DHIS2_version" in
     "2.35")
       instance="https://metadata.dev.dhis2.org/tracker_dev"
