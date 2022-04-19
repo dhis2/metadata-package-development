@@ -65,17 +65,15 @@ pipeline {
                     PACKAGE_IS_GENERATED = true
 
                     components = "${PACKAGE_NAME}".split(' - ')
-                    HEALTH_AREA = components[0]
-                    INTERVENTION = components[1]
+                    PACKAGE_PREFIX = components[0]
+                    PACKAGE_CODE = components[1]
                     if(params.Description == "") {
                         DESCRIPTION = components[2]
                     }
-                    PACKAGE_PREFIX = components[3]
 
                     echo "TYPE: ${PACKAGE_TYPE}"
-                    echo "HEALTH_AREA: ${HEALTH_AREA}"
-                    echo "INTERVENTION: ${INTERVENTION}"
                     echo "PACKAGE_PREFIX: ${PACKAGE_PREFIX}"
+                    echo "PACKAGE_CODE: ${PACKAGE_CODE}"
                     //echo "PROGRAM_OR_DATASET_UID: ${PROGRAM_OR_DATASET_UID}"
                     echo "DESCRIPTION: ${DESCRIPTION}"
 
@@ -99,7 +97,7 @@ pipeline {
                     sh 'pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt'
                     sh 'echo { \\"dhis\\": { \\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\" } } > auth.json'
                     echo "Generating a package..."
-                    sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${HEALTH_AREA} ${INTERVENTION} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE} -pf=${PACKAGE_PREFIX}")
+                    sh("python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py ${PACKAGE_TYPE} ${PACKAGE_PREFIX} ${PACKAGE_CODE} -v=${PACKAGE_VERSION} -desc=\"${DESCRIPTION}\" -i=${INSTANCE}")
                     INPUT_FILE_NAME = sh(
                         returnStdout: true,
                         script: "ls -t1 ${HEALTH_AREA}*${INTERVENTION}*${DHIS2_version}*.json | head -n 1"
