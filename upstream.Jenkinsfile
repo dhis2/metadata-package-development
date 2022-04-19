@@ -62,11 +62,12 @@ pipeline {
                             randomInt = new Random().nextInt(9999)
                             instanceName = "instance-$randomInt"
 
-                            sh "./scripts/create-dhis2-instance.sh $instanceName whoami $version"
+                            readinessDelay = 600
+                            sh "./scripts/create-dhis2-instance.sh $instanceName whoami $version $readinessDelay"
                         }
                     }
 
-                    sleep(900)
+                    sleep(readinessDelay*2)
                 }
             }
         }
