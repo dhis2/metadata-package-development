@@ -185,7 +185,7 @@ pipeline {
 
                 slackSend(
                     color: "#ff0000",
-                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[-6..-1])}",
+                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
                     message: "The $EXPORTED_PACKAGE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
                 )
             }
