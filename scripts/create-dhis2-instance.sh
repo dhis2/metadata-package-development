@@ -13,6 +13,16 @@ tracker_db_id=1
 tracker_instance_name="trk-$base_instance_name-${instance_version//./}"
 #aggregate_instance_name="agg-$base_instance_name-${instance_version//./}"
 
+versions_json="https://releases.dhis2.org/v1/versions/stable.json"
+
+latest_patch_version=$(
+  curl -fsSL "$versions_json" |
+  jq -r --arg version "$instance_version" '.versions[] | select(.name == $version ) | .latestPatchVersion'
+)
+
+default_tag="$instance_version.$latest_patch_version-tomcat-8.5.34-jre8-alpine"
+tag=${DHIS2_IMAGE_TAG:-$default_tag}
+
 curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/login.sh" -O
 chmod +x login.sh
 eval $(./login.sh)
@@ -21,10 +31,6 @@ curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/
 chmod +x dhis2-create.sh
 ./dhis2-create.sh "$tracker_instance_name" "$group_name"
 #./dhis2-create.sh "$aggregate_instance_name" "$group_name"
-
-###
-default_tag="$instance_version.6-tomcat-8.5.34-jre8-alpine"
-tag=${DHIS2_IMAGE_TAG:-$default_tag}
 
 group_id=$($HTTP get "$INSTANCE_HOST/groups-name-to-id/$group_name" "Authorization: Bearer $ACCESS_TOKEN")
 instance_id=$($HTTP get "$INSTANCE_HOST/instances-name-to-id/$group_id/$tracker_instance_name" "Authorization: Bearer $ACCESS_TOKEN")
@@ -54,7 +60,6 @@ echo "{
       }
     ]
 }" | $HTTP post "$INSTANCE_HOST/instances/$instance_id/deploy" "Authorization: Bearer $ACCESS_TOKEN"
-###
 
 #curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/dhis2-deploy.sh" -O
 #chmod +x dhis2-deploy.sh

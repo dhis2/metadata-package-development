@@ -63,7 +63,7 @@ pipeline {
                     EXPORTED_PACKAGE = sh(
                         returnStdout: true,
                         script: "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\" \"$INSTANCE_NAME\" | tail -1"
-                    ).trim
+                    ).trim()
 
                     //TODO: get name from last line of export script output
                     //EXPORTED_PACKAGE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()

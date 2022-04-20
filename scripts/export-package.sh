@@ -17,7 +17,7 @@ if [[ -z "${DESCRIPTION:-}" ]]; then
 fi
 
 
-if [[ "$type" == "TKR" || "$type" == "EVT" ]]; then
+if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
   instance="$instance_base_url/trk-$instance_name-${DHIS2_version//./}"
 else
   instance="$instance_base_url/agg-$instance_name-${DHIS2_version//./}"
