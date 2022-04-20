@@ -3,8 +3,8 @@ def generateStagesMap(versions, packages, instanceBaseName) {
 
     versions.each { version ->
         packages.each { item ->
-            map["${item[-6..-1]} for ${version}"] = {
-                stage("Export ${item[-6..-1]} for ${version}") {
+            map["${item[0..5]} for ${version}"] = {
+                stage("Export package") {
                     build job: 'test-metadata', propagate: false, parameters: [
                         // TODO: parameters should be changed
                         // each package in the list should have type, prefix code and DHIS2 version?
