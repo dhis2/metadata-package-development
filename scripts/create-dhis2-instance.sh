@@ -60,8 +60,3 @@ echo "{
       }
     ]
 }" | $HTTP post "$INSTANCE_HOST/instances/$instance_id/deploy" "Authorization: Bearer $ACCESS_TOKEN"
-
-#curl "https://raw.githubusercontent.com/dhis2-sre/im-manager/DEVOPS-102/scripts/dhis2-deploy.sh" -O
-#chmod +x dhis2-deploy.sh
-#./dhis2-deploy.sh "$tracker_instance_name" "$group_name" "$tracker_db_id"
-#./dhis2-deploy.sh "$aggregate_instance_name" "$group_name" "$aggregate_db_id"
