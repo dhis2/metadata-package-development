@@ -20,25 +20,25 @@ if [[ "${Instance_url:-}" ]]; then
 else
   if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
     case "$DHIS2_version" in
-      "2.35")
+      "2.36")
         instance="https://metadata.dev.dhis2.org/tracker_dev"
         ;;
-      "2.36")
+      "2.37")
         instance="https://who-dev.dhis2.org/tracker_dev236"
         ;;
-      "2.37")
+      "2.38")
         instance="https://who-dev.dhis2.org/tracker_dev237"
         ;;
     esac
   else
     case "$DHIS2_version" in
-      "2.35")
+      "2.36")
         instance="https://metadata.dev.dhis2.org/dev"
         ;;
-      "2.36")
+      "2.37")
         instance="https://who-dev.dhis2.org/dev236"
         ;;
-      "2.37")
+      "2.38")
         instance="https://who-dev.dhis2.org/dev237"
         ;;
     esac

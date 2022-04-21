@@ -32,7 +32,6 @@ pipeline {
         stage('Export package') {
             when {
                 expression {
-                    echo "package_metadata_file: ${params.package_metadata_file}"
                     try {
                         // unless the file is unstashed, it's null.
                         unstash "${PACKAGE_FILE}"
