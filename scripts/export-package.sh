@@ -9,14 +9,12 @@ IFS=';' read -ra package_components <<< "${name// - /;}"
 
 package_prefix="${package_components[0]}"
 package_code="${package_components[1]}"
-if [[ -z "${DESCRIPTION:-}" ]]; then
+if [[ -z "${Description:-}" ]]; then
   description="${package_components[2]}"
 fi
 
-if [[-z "${INSTANCE_URL:-}" ]]; then
-  instance = "$INSTANCE_URL"
-  echo "$INSTANCE_URL"
-  echo "$instance"
+if [[ "${$Instance_url:-}" ]]; then
+  instance="$Instance_url"
 else
   if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
     case "$DHIS2_version" in
