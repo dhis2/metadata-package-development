@@ -15,6 +15,8 @@ fi
 
 if [[-z "${INSTANCE_URL:-}" ]]; then
   instance = "$INSTANCE_URL"
+  echo "$INSTANCE_URL"
+  echo "$instance"
 else
   if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
     case "$DHIS2_version" in
@@ -22,10 +24,10 @@ else
         instance="https://metadata.dev.dhis2.org/tracker_dev"
         ;;
       "2.36")
-        instance="https://metadata.dev.dhis2.org/tracker_dev236"
+        instance="https://who-dev.dhis2.org/tracker_dev236"
         ;;
       "2.37")
-        instance="https://metadata.dev.dhis2.org/tracker_dev237"
+        instance="https://who-dev.dhis2.org/tracker_dev237"
         ;;
     esac
   else
@@ -34,10 +36,10 @@ else
         instance="https://metadata.dev.dhis2.org/dev"
         ;;
       "2.36")
-        instance="https://metadata.dev.dhis2.org/dev236"
+        instance="https://who-dev.dhis2.org/dev236"
         ;;
       "2.37")
-        instance="https://metadata.dev.dhis2.org/dev237"
+        instance="https://who-dev.dhis2.org/dev237"
         ;;
     esac
   fi
