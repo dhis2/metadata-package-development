@@ -18,7 +18,7 @@ pipeline {
         METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
         DHIS2_BRANCH_VERSION = "master"
         PORT = 9090
-        INPUT_FILE_NAME = "package_metadata_file"
+        PACKAGE_FILE = "package_metadata_file"
         DHIS2_VERSION = "${params.DHIS2_version}"
         PACKAGE_NAME = "${params.Package_name}"
         PACKAGE_VERSION = "${params.Package_version}"
@@ -32,17 +32,16 @@ pipeline {
         stage('Export package') {
             when {
                 expression {
-                    echo "package_metadata_file: ${INPUT_FILE_NAME}"
                     echo "package_metadata_file: ${params.package_metadata_file}"
                     try {
                         // unless the file is unstashed, it's null.
-                        unstash "${INPUT_FILE_NAME}"
+                        unstash "${PACKAGE_FILE}"
                     } catch (e) {
                         echo e.toString()
                         return true;
                     }
                     // if file wasn't uploaded, its size will be 0
-                    return (fileExists("${INPUT_FILE_NAME}")) && readFile("${INPUT_FILE_NAME}").size() == 0
+                    return (fileExists("${PACKAGE_FILE}")) && readFile("${PACKAGE_FILE}").size() == 0
                 }
             }
 
@@ -62,14 +61,14 @@ pipeline {
 
                     sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\""
 
-                    EXPORTED_PACKAGE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()
+                    PACKAGE_FILE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()
                 }
             }
 
             post {
                 always {
                     script {
-                        archiveArtifacts artifacts: "$EXPORTED_PACKAGE"
+                        archiveArtifacts artifacts: "$PACKAGE_FILE"
                     }
                 }
             }
@@ -79,15 +78,15 @@ pipeline {
             steps {
                 script {
                     if (PACKAGE_IS_EXPORTED.toBoolean()) {
-                        sh "cp $WORKSPACE/$EXPORTED_PACKAGE ./test/package_orig.json"
+                        sh "cp $WORKSPACE/$PACKAGE_FILE ./test/package_orig.json"
                     } else {
-                        unstash "$INPUT_FILE_NAME"
-                        sh "cp $INPUT_FILE_NAME ./test/package_orig.json"
+                        unstash "$PACKAGE_FILE"
+                        sh "cp $PACKAGE_FILE ./test/package_orig.json"
                     }
 
-                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .DHIS2Version\"").trim()
+                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
-                    currentBuild.description = sh(returnStdout: true, script: "cat $EXPORTED_PACKAGE | jq -r \".package .name\"").trim()
+                    currentBuild.description = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
                 }
             }
         }
@@ -103,7 +102,7 @@ pipeline {
                     }
 
                     catchError {
-                        sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$EXPORTED_PACKAGE")
+                        sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$PACKAGE_FILE")
                     }
                 }
             }
@@ -166,7 +165,7 @@ pipeline {
 
             steps {
                 script {
-                    sh "./scripts/push-package.sh $EXPORTED_PACKAGE"
+                    sh "./scripts/push-package.sh $PACKAGE_FILE"
                 }
             }
         }
@@ -181,8 +180,8 @@ pipeline {
 
                 slackSend(
                     color: "#ff0000",
-                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[-6..-1])}",
-                    message: "The $EXPORTED_PACKAGE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
+                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
                 )
             }
         }

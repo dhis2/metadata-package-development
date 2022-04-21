@@ -13,7 +13,7 @@ if [[ -z "${Description:-}" ]]; then
   description="${package_components[2]}"
 fi
 
-if [[ "${$Instance_url:-}" ]]; then
+if [[ "${Instance_url:-}" ]]; then
   instance="$Instance_url"
 else
   if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
