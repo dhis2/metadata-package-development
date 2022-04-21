@@ -9,8 +9,10 @@ IFS=';' read -ra package_components <<< "${name// - /;}"
 
 package_prefix="${package_components[0]}"
 package_code="${package_components[1]}"
-if [[ -z "${Description:-}" ]]; then
-  description="${package_components[2]}"
+description="${package_components[2]}"
+
+if [[ "${Custom_description:-}" ]]; then
+  description="${Custom_description}"
 fi
 
 if [[ "${Instance_url:-}" ]]; then

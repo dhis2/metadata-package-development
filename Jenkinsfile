@@ -23,7 +23,7 @@ pipeline {
         PACKAGE_NAME = "${params.Package_name}"
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
-        DESCRIPTION = "${params.Description}"
+        DESCRIPTION = "${params.Custom_description}"
         INSTANCE_URL = "${params.Instance_url}"
         PACKAGE_IS_EXPORTED = false
     }
