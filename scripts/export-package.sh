@@ -5,6 +5,9 @@ set -euxo pipefail
 name="$1"
 type="$2"
 
+base_version_host="https://metadata.dev.dhis2.org"
+new_version_host="https://who-dev.dhis2.org"
+
 IFS=';' read -ra package_components <<< "${name// - /;}"
 
 package_prefix="${package_components[0]}"
@@ -21,25 +24,25 @@ else
   if [[ "$type" == "TRK" || "$type" == "EVT" ]]; then
     case "$DHIS2_version" in
       "2.36")
-        instance="https://metadata.dev.dhis2.org/tracker_dev"
+        instance="$base_version_host/tracker_dev"
         ;;
       "2.37")
-        instance="https://who-dev.dhis2.org/tracker_dev236"
+        instance="$new_version_host/tracker_dev237"
         ;;
       "2.38")
-        instance="https://who-dev.dhis2.org/tracker_dev237"
+        instance="$new_version_host/tracker_dev238"
         ;;
     esac
   else
     case "$DHIS2_version" in
       "2.36")
-        instance="https://metadata.dev.dhis2.org/dev"
+        instance="$base_version_host/dev"
         ;;
       "2.37")
-        instance="https://who-dev.dhis2.org/dev236"
+        instance="$new_version_host/dev237"
         ;;
       "2.38")
-        instance="https://who-dev.dhis2.org/dev237"
+        instance="$new_version_host/dev238"
         ;;
     esac
   fi
