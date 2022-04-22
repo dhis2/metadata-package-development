@@ -20,6 +20,7 @@ pipeline {
         PORT = 9090
         PACKAGE_FILE = "package_metadata_file"
         DHIS2_VERSION = "${params.DHIS2_version}"
+        CHANNEL = "stable"
         PACKAGE_NAME = "${params.Package_name}"
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
@@ -110,8 +111,13 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
+                    if (DHIS2_BRANCH_VERSION.length() <= 4) {
+                        echo "DHIS2 version is from dev channel."
+                        CHANNEL = "dev"
+                    }
+
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$PORT")
+                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$PORT", "$CHANNEL")
                     }
 
                     sleep(5)
