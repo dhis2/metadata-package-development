@@ -9,7 +9,7 @@ ou_root="${OU_ROOT_ID:-GD7TowwI46c}"
 
 db_container=$(docker container ls --filter name=db -q)
 
-docker exec -i "$db_container" psql -U dhis -d dhis2 -c "UPDATE dashboard SET publicaccess = 'rw------';"
+docker exec -i "$db_container" psql -U dhis -d dhis2 -c "UPDATE dashboard SET sharing = jsonb_set(sharing, '{public}', '\"rw------\"');"
 docker exec -i "$db_container" psql -U dhis -d dhis2 -c "INSERT INTO usermembership (organisationunitid, userinfoid) VALUES ((SELECT organisationunitid FROM organisationunit WHERE uid = '${ou_root}'), (SELECT userid FROM users WHERE code = '${user}'));"
 
 echo "{\"dhis\": {\"baseurl\": \"http://localhost:${port}\", \"username\": \"${user}\", \"password\": \"${pass}\"}}" > auth.json
