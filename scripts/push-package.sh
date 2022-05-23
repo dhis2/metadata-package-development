@@ -4,9 +4,10 @@ set -euxo pipefail
 
 file="$1"
 
+complete_package_dir="CMPL"
+
 full_package_code="$(cat $file | jq -r '.package .code')"
 version_branch="$(cat $file | jq -r '.package .DHIS2Version' | cut -d '.' -f 1,2)"
-
 
 base_package_code=$(cut -d '_' -f 1,2 <<< "$full_package_code")
 sub_package_code=$(cut -d '_' -f 3- <<< "$full_package_code")
@@ -30,7 +31,14 @@ git clone "$repository_url"
 cd "$WORKSPACE/$repository_name"
 
 git checkout "$version_branch"
-mkdir -p "$sub_package_code" && cp "$WORKSPACE/$file" "$sub_package_code/metadata.json"
+
+if [[ "$sub_package_code" ]]; then
+  destination_dir="$sub_package_code"
+else
+  destination_dir="$complete_package_dir"
+fi
+
+mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.json"
 git add .
 
 git commit -m "$commit_message"

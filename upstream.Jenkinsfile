@@ -51,9 +51,9 @@ pipeline {
                             INPUT_JSON = sh(returnStdout: true, script: 'python3 parse-index.py').trim()
 
                             packagesList = readJSON text: "$INPUT_JSON"
+
                             packagesList.each { item ->
                                 echo item['DHIS2 code for packaging']
-                                echo item['Source instance DHIS2.36']
                                 echo item['Script parameter']
                             }
                         }
