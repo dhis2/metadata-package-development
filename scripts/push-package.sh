@@ -4,7 +4,7 @@ set -euxo pipefail
 
 file="$1"
 
-complete_package_dir="CMPL"
+full_package_dir="FULL"
 dashboard_package="DSH"
 
 full_package_code="$(cat $file | jq -r '.package .code')"
@@ -21,7 +21,7 @@ repository_name=$(
 
 repository_url="https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repository_name"
 
-destination_dir="$complete_package_dir"
+destination_dir="$full_package_dir"
 
 if [[ "$sub_package_code" ]]; then
   destination_dir="$sub_package_code"
