@@ -1,6 +1,7 @@
 def generateStagesMap(versions, packages, instanceBaseName) {
     def map = [:]
 
+    // index.each { item -> ... $item['code']
     versions.each { version ->
         packages.each { item ->
             map["${item[0..5]} for ${version}"] = {
@@ -43,14 +44,42 @@ pipeline {
     }
 
     stages {
-        stage ('Run Downstream') {
+        stage('Get Packages Index') {
+            environment {
+                GC_SERVICE_ACCOUNT = credentials('metadata-index-parser-service-account')
+                GOOGLE_SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
+            }
+
             steps {
                 script {
-                    packagesList = "${params.packages}".split(',')
+                    dir('dhis2-utils') {
+                        git branch: 'DEVOPS-167', url: 'https://github.com/dhis2/dhis2-utils'
 
-                    parallel generateStagesMap(versionsList, packagesList, instanceName)
+                        dir('tools/dhis2-metadata-index-parser') {
+                            sh 'pip3 install -r requirements.txt'
+                            INPUT_JSON = sh(returnStdout: true, script: 'python3 parse-index.py').trim()
+
+                            index = readJSON text: "$INPUT_JSON"
+                            index.each { item ->
+                                echo item['DHIS2 code for packaging']
+                                echo item['Source instance DHIS2.36']
+                                echo item['Script parameter']
+                            }
+                        }
+                    }
                 }
             }
         }
+
+//        stage ('Run Downstream') {
+//            steps {
+//                script {
+//                    packagesList = "${params.packages}".split(',')
+//
+//                    // use index array
+//                    parallel generateStagesMap(versionsList, packagesList, instanceName)
+//                }
+//            }
+//        }
     }
 }
