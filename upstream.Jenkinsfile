@@ -1,14 +1,12 @@
+// Generates a map of stages to trigger the metadata-exporter pipeline.
 def generateStagesMap(versions, packages) {
     def map = [:]
 
-    // index.each { item -> ... $item['code']
     versions.each { version ->
         packages.each { item ->
             map["${item['DHIS2 code for packaging']} (type: ${item['Script parameter']}) for ${version}"] = {
                 stage("Export package") {
-                    build job: 'test-metadata', propagate: false, parameters: [
-                        // TODO: parameters should be changed
-                        // each package in the list should have type, prefix code and DHIS2 version?
+                    build job: 'test-metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
                         string(name: 'Package_type', value: "${item['Script parameter']}"),
@@ -38,7 +36,7 @@ pipeline {
     stages {
         stage('Get Packages Index') {
             environment {
-                GC_SERVICE_ACCOUNT = credentials('metadata-index-parser-service-account')
+                GC_SERVICE_ACCOUNT_FILE = credentials('metadata-index-parser-service-account')
                 GOOGLE_SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
             }
 
