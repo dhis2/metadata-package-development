@@ -4,7 +4,7 @@ def generateStagesMap(versions, packages) {
     // index.each { item -> ... $item['code']
     versions.each { version ->
         packages.each { item ->
-            map["${item['DHIS2 code for packaging']} for ${version}"] = {
+            map["${item['DHIS2 code for packaging']} (type: ${item['Script parameter']}) for ${version}"] = {
                 stage("Export package") {
                     build job: 'test-metadata', propagate: false, parameters: [
                         // TODO: parameters should be changed
