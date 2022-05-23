@@ -68,7 +68,7 @@ pipeline {
             }
 
             post {
-                always {
+                success {
                     script {
                         archiveArtifacts artifacts: "$PACKAGE_FILE"
                     }
