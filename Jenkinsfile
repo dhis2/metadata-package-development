@@ -22,9 +22,10 @@ pipeline {
         DHIS2_VERSION = "${params.DHIS2_version}"
         CHANNEL = "stable"
         PACKAGE_NAME = "${params.Package_name}"
+        PACKAGE_CODE = "${params.Package_code}"
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
-        DESCRIPTION = "${params.Custom_description}"
+        DESCRIPTION = "${params.Description}"
         INSTANCE_URL = "${params.Instance_url}"
         PACKAGE_IS_EXPORTED = false
     }
@@ -61,7 +62,7 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\" \"$INSTANCE_NAME\" | tail -1"
+                        script: "./scripts/export-package.sh \"$PACKAGE_CODE\" \"$PACKAGE_TYPE\" \"$DESCRIPTION\" | tail -1"
                     ).trim()
                 }
             }
@@ -178,18 +179,19 @@ pipeline {
     }
 
     post {
-        failure {
-            script {
-                IMPLEMENTERS = [
-                    RMS000: 'U01RSD1LPB3'
-                ]
-
-                slackSend(
-                    color: "#ff0000",
-                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
-                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
-                )
-            }
-        }
+//        failure {
+//            script {
+//                IMPLEMENTERS = [
+//                    RMS000: 'U01RSD1LPB3'
+//                ]
+//
+//                slackSend(
+//                    color: "#ff0000",
+//                    // use a group channel for all packages?
+//                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
+//                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+//                )
+//            }
+//        }
     }
 }
