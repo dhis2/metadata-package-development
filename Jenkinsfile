@@ -178,7 +178,7 @@ pipeline {
         }
     }
 
-    post {
+//    post {
 //        failure {
 //            script {
 //                IMPLEMENTERS = [
@@ -193,5 +193,5 @@ pipeline {
 //                )
 //            }
 //        }
-    }
+//    }
 }

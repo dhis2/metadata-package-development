@@ -1,18 +1,17 @@
-def generateStagesMap(versions, packages, instanceBaseName) {
+def generateStagesMap(versions, packages) {
     def map = [:]
 
     // index.each { item -> ... $item['code']
     versions.each { version ->
         packages.each { item ->
-            map["${item[0..5]} for ${version}"] = {
+            map["${item['DHIS2 code for packaging']} for ${version}"] = {
                 stage("Export package") {
                     build job: 'test-metadata', propagate: false, parameters: [
                         // TODO: parameters should be changed
                         // each package in the list should have type, prefix code and DHIS2 version?
                         string(name: 'DHIS2_version', value: "$version"),
-                        string(name: 'Package_name', value: "$item"),
-                        string(name: 'Package_type', value: "EVT"),
-                        string(name: 'Instance_name', value: "$instanceBaseName")
+                        string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
+                        string(name: 'Package_type', value: "${item['Script parameter']}"),
                     ]
                 }
             }
@@ -32,15 +31,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'packages', defaultValue: 'RMS0 - CRVS_RMS - Rapid Mortality Surveillance')
-        string(name: 'DHIS2Versions', defaultValue: '2.37')
-    }
-
-    environment {
-        TRACKER_DEV_SNAPSHOT = "s3://dhis2-database-development/who-metadata/development/tracker_dev.sql.gz"
-        TRACKER_DEV_DB_MANAGER_COPY = "s3://test-db-manager-bucket/whoami/tracker-dev-2.35.11/tracker-dev-2.35.11.sql.gz"
-        INSTANCE_HOST = "https://api.im.prod.test.c.dhis2.org"
-        HTTP = "https --verify=no --check-status"
+        string(name: 'DHIS2Versions', defaultValue: '2.36,2.37,2.38')
     }
 
     stages {
@@ -59,8 +50,8 @@ pipeline {
                             sh 'pip3 install -r requirements.txt'
                             INPUT_JSON = sh(returnStdout: true, script: 'python3 parse-index.py').trim()
 
-                            index = readJSON text: "$INPUT_JSON"
-                            index.each { item ->
+                            packagesList = readJSON text: "$INPUT_JSON"
+                            packagesList.each { item ->
                                 echo item['DHIS2 code for packaging']
                                 echo item['Source instance DHIS2.36']
                                 echo item['Script parameter']
@@ -71,15 +62,14 @@ pipeline {
             }
         }
 
-//        stage ('Run Downstream') {
-//            steps {
-//                script {
-//                    packagesList = "${params.packages}".split(',')
-//
-//                    // use index array
-//                    parallel generateStagesMap(versionsList, packagesList, instanceName)
-//                }
-//            }
-//        }
+        stage ('Run Downstream') {
+            steps {
+                script {
+                    versionsList = "${params.DHIS2Versions}".split(',')
+
+                    parallel generateStagesMap(versionsList, packagesList)
+                }
+            }
+        }
     }
 }
