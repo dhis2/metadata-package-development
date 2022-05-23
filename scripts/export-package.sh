@@ -9,16 +9,6 @@ description="$3"
 base_version_host="https://metadata.dev.dhis2.org"
 new_version_host="https://who-dev.dhis2.org"
 
-#IFS=';' read -ra package_components <<< "${name// - /;}"
-
-#package_prefix="${package_components[0]}"
-#package_code="${package_components[1]}"
-#description="${package_components[2]}"
-
-#if [[ "${Custom_description:-}" ]]; then
-#  description="${Custom_description}"
-#fi
-
 if [[ "${Instance_url:-}" ]]; then
   instance="$Instance_url"
 else
