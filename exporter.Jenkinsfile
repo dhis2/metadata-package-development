@@ -13,6 +13,7 @@ pipeline {
         string(name: 'Package_description', defaultValue: '', description: '[OPTIONAL] Description of the package.')
         string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
         booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
+        string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
 
     options {

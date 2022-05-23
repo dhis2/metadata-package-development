@@ -20,8 +20,8 @@ repository_name=$(
 repository_url="https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repository_name"
 
 commit_message="feat: Update $full_package_code package"
-if [[ "${Custom_commit_message:-}" ]]; then
-  commit_message="${Custom_commit_message}"
+if [[ "${Commit_message:-}" ]]; then
+  commit_message="${Commit_message}"
 fi
 
 git config --global user.email "$GITHUB_EMAIL"
