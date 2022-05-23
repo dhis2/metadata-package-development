@@ -7,6 +7,12 @@ pipeline {
 
     parameters {
         stashedFile 'package_metadata_file'
+        string(name: 'Package_code', defaultValue: '', description: 'Package code to extract with.')
+        choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
+        choice(name: 'Package_type', choices: ['AGG', 'TRK', 'EVT', 'DSH'], description: 'Type of the package to export.')
+        string(name: 'Package_description', defaultValue: '', description: '[OPTIONAL] Description of the package.')
+        string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
+        booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
     }
 
     options {
@@ -25,7 +31,7 @@ pipeline {
         PACKAGE_CODE = "${params.Package_code}"
         PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
-        DESCRIPTION = "${params.Description}"
+        Package_description = "${params.Package_description}"
         INSTANCE_URL = "${params.Instance_url}"
         PACKAGE_IS_EXPORTED = false
     }

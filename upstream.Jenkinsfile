@@ -12,6 +12,7 @@ def generateStagesMap(versions, packages) {
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
                         string(name: 'Package_type', value: "${item['Script parameter']}"),
+                        string(name: 'Package_description', value: "${item['Component name']}"),
                     ]
                 }
             }
