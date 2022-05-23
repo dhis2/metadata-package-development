@@ -23,7 +23,7 @@ def generateStagesMap(versions, packages) {
 
 pipeline {
     agent {
-        label 'ec2-jdk8-large'
+        label 'ec2-jdk8-small'
     }
 
     options {
