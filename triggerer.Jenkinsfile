@@ -30,7 +30,7 @@ pipeline {
     }
 
     parameters {
-        string(name: 'DHIS2Versions', defaultValue: '2.36,2.37,2.38')
+        string(name: 'DHIS2Versions', defaultValue: '2.36,2.37,2.38', description: 'Comma-separated list of DHIS2 versions to extract packages from.')
     }
 
     stages {
