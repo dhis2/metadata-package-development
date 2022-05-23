@@ -4,20 +4,21 @@ set -euxo pipefail
 
 file="$1"
 
-package_prefix="$(cat $file | jq -r '.package .code')"
+full_package_code="$(cat $file | jq -r '.package .code')"
 version_branch="$(cat $file | jq -r '.package .DHIS2Version' | cut -d '.' -f 1,2)"
 
-package_code="${package_prefix:0:4}"
-sub_package_code="${package_prefix:4:2}"
+
+base_package_code=$(cut -d '_' -f 1,2 <<< "$full_package_code")
+sub_package_code=$(cut -d '_' -f 3- <<< "$full_package_code")
 
 repository_name=$(
   curl -fsSL "https://api.github.com/orgs/dhis2-metadata/repos?per_page=100" |
-  jq -r --arg package_code "$package_code" '.[] | select(.name | contains($package_code)) | .name'
+  jq -r --arg base_package_code "$base_package_code" '.[] | select(.name | contains($base_package_code)) | .name'
 )
 
 repository_url="https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repository_name"
 
-commit_message="feat: Update $package_prefix package"
+commit_message="feat: Update $full_package_code package"
 if [[ "${Custom_commit_message:-}" ]]; then
   commit_message="${Custom_commit_message}"
 fi
