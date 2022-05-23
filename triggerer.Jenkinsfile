@@ -47,14 +47,10 @@ pipeline {
 
                         dir('tools/dhis2-metadata-index-parser') {
                             sh 'pip3 install -r requirements.txt'
+
                             INPUT_JSON = sh(returnStdout: true, script: 'python3 parse-index.py').trim()
 
                             packagesList = readJSON text: "$INPUT_JSON"
-
-                            packagesList.each { item ->
-                                echo item['DHIS2 code for packaging']
-                                echo item['Script parameter']
-                            }
                         }
                     }
                 }
