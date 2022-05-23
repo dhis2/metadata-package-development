@@ -22,15 +22,18 @@ repository_name=$(
 repository_url="https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repository_name"
 
 destination_dir="$complete_package_dir"
+
 if [[ "$sub_package_code" ]]; then
   destination_dir="$sub_package_code"
 fi
 
+commit_message="feat: Update $full_package_code package"
+
 if [[ "$package_type" == "$dashboard_package" ]]; then
   destination_dir="${destination_dir}_${dashboard_package}"
+  commit_message="$commit_message ($dashboard_package)"
 fi
 
-commit_message="feat: Update $full_package_code package"
 if [[ "${Commit_message:-}" ]]; then
   commit_message="${Commit_message}"
 fi
