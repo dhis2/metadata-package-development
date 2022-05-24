@@ -23,17 +23,14 @@ pipeline {
     environment {
         UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils"
         METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
-        DHIS2_BRANCH_VERSION = "master"
-        PORT = 9090
         PACKAGE_FILE = "package_metadata_file"
-        DHIS2_VERSION = "${params.DHIS2_version}"
-        CHANNEL = "stable"
-        PACKAGE_NAME = "${params.Package_name}"
         PACKAGE_CODE = "${params.Package_code}"
-        PACKAGE_VERSION = "${params.Package_version}"
         PACKAGE_TYPE = "${params.Package_type}"
-        DESCRIPTION = "${params.Package_description}"
+        PACKAGE_DESCRIPTION = "${params.Package_description}"
+        DHIS2_VERSION = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
+        DHIS2_CHANNEL = "stable"
+        DHIS2_PORT = 9090
         PACKAGE_IS_EXPORTED = false
     }
 
@@ -69,7 +66,7 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: "./scripts/export-package.sh \"$PACKAGE_CODE\" \"$PACKAGE_TYPE\" \"$DESCRIPTION\" | tail -1"
+                        script: "./scripts/export-package.sh \"$PACKAGE_CODE\" \"$PACKAGE_TYPE\" \"$PACKAGE_DESCRIPTION\" | tail -1"
                     ).trim()
                 }
             }
@@ -122,17 +119,17 @@ pipeline {
                 script {
                     if (DHIS2_BRANCH_VERSION.length() <= 4) {
                         echo "DHIS2 version is from dev channel."
-                        CHANNEL = "dev"
+                        DHIS2_CHANNEL = "dev"
                     }
 
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$PORT", "$CHANNEL")
+                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$DHIS2_PORT", "$DHIS2_CHANNEL")
                     }
 
                     sleep(5)
 
                     dir('test') {
-                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $PORT"
+                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $DHIS2_PORT"
                     }
                 }
             }
@@ -151,7 +148,7 @@ pipeline {
             parallel {
                 stage('Check dashboards') {
                     steps {
-                        sh "./scripts/check-dashboards.sh $PORT"
+                        sh "./scripts/check-dashboards.sh $DHIS2_PORT"
                     }
                 }
 
@@ -161,7 +158,7 @@ pipeline {
                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
                         }
 
-                        sh "./scripts/check-expressions.sh $PORT"
+                        sh "./scripts/check-expressions.sh $DHIS2_PORT"
                     }
                 }
             }
