@@ -4,8 +4,11 @@ set -euxo pipefail
 
 file="$1"
 
-full_package_dir="FULL"
-dashboard_package="DSH"
+packages_dir="packages"
+full_package_dir="COMPLETE"
+dashboard_package_dir="DASHBOARD"
+
+dashboard_package_type="DSH"
 
 full_package_code="$(cat $file | jq -r '.package .code')"
 package_type="$(cat $file | jq -r '.package .type')"
@@ -21,17 +24,17 @@ repository_name=$(
 
 repository_url="https://$GITHUB_CREDS_PSW@github.com/dhis2-metadata/$repository_name"
 
-destination_dir="$full_package_dir"
+destination_dir="$packages_dir/$full_package_dir"
+
+commit_message="feat: Update $full_package_code package"
 
 if [[ "$sub_package_code" ]]; then
   destination_dir="$sub_package_code"
 fi
 
-commit_message="feat: Update $full_package_code package"
-
-if [[ "$package_type" == "$dashboard_package" ]]; then
-  destination_dir="${destination_dir}_${dashboard_package}"
-  commit_message="$commit_message ($dashboard_package)"
+if [[ "$package_type" == "$dashboard_package_type" ]]; then
+  destination_dir="${destination_dir}/${dashboard_package_dir}"
+  commit_message="$commit_message ($dashboard_package_type)"
 fi
 
 if [[ "${Commit_message:-}" ]]; then
@@ -45,6 +48,7 @@ git clone "$repository_url"
 cd "$WORKSPACE/$repository_name"
 
 git checkout "$version_branch"
+git checkout -b "nested-$version_branch"
 
 mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.json"
 git add .
