@@ -57,8 +57,7 @@ pipeline {
             steps {
                 script {
                     dir('dhis2-utils') {
-                        //TODO Remove branch once issue from https://github.com/dhis2/dhis2-utils/pull/70 is fixed
-                        git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
+                        git url: "$UTILS_GIT_URL"
                     }
 
                     PACKAGE_IS_EXPORTED = true
@@ -67,8 +66,8 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: """
-                            set -o pipefail
+                        script: """#!/bin/bash
+                            set -euxo pipefail
                             ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" | tail -1
                         """
                     ).trim()
@@ -107,8 +106,7 @@ pipeline {
                     // In case the 'Export package' stage was skipped, the utils repo needs to be cloned again
                     if (!fileExists('dhis2-utils')) {
                         dir('dhis2-utils') {
-                            //TODO Remove branch once issue from https://github.com/dhis2/dhis2-utils/pull/70 is fixed
-                            git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
+                            git url: "$UTILS_GIT_URL"
                         }
                     }
 
