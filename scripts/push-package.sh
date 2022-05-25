@@ -47,29 +47,28 @@ git config --global user.name "$GITHUB_CREDS_USR"
 git clone "$repository_url"
 cd "$WORKSPACE/$repository_name"
 
-git checkout "$version_branch"
-git checkout -b "nested-$version_branch"
+git checkout "nested-$version_branch"
 
 mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.json"
 git add .
 
 git commit -m "$commit_message"
 
-git_push_cmd() {
-  git pull origin "nested-$version_branch"
-  git push "$repository_url"
+git_retry_push() {
+  local retries=10
+  local delay=1
+
+  for ((attempt=0; attempt<retries; attempt++))
+  do
+    git pull origin "nested-$version_branch" && git push "$repository_url" && break
+    echo "Push failed, retying in $delay seconds..."
+    sleep $delay
+  done
+
+  if (( retries == attempt )); then
+    echo 'Push failed!'
+    exit 1
+  fi
 }
 
-retries=10
-delay=1
-for ((attempt=0; attempt<retries; attempt++))
-do
-  git_push_cmd && break
-  echo "Push failed, retying in $delay seconds..."
-  sleep $delay
-done
-
-if (( retries == attempt )); then
-  echo 'Push failed!'
-  exit 1
-fi
+git_retry_push
