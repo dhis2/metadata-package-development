@@ -57,7 +57,7 @@ pipeline {
             steps {
                 script {
                     dir('dhis2-utils') {
-                        //TODO REMOVE BRANCH
+                        //TODO Remove branch once issue from https://github.com/dhis2/dhis2-utils/pull/70 is fixed
                         git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
                     }
 
@@ -104,7 +104,7 @@ pipeline {
                     // In case the 'Export package' stage was skipped, the utils repo needs to be cloned again
                     if (!fileExists('dhis2-utils')) {
                         dir('dhis2-utils') {
-                            //TODO REMOVE BRANCH
+                            //TODO Remove branch once issue from https://github.com/dhis2/dhis2-utils/pull/70 is fixed
                             git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
                         }
                     }
@@ -184,20 +184,15 @@ pipeline {
         }
     }
 
-//    post {
-//        failure {
-//            script {
-//                IMPLEMENTERS = [
-//                    RMS000: 'U01RSD1LPB3'
-//                ]
-//
-//                slackSend(
-//                    color: "#ff0000",
-//                    // use a group channel for all packages?
-//                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
-//                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
-//                )
-//            }
-//        }
-//    }
+    post {
+        failure {
+            script {
+                slackSend(
+                    color: '#ff0000',
+                    channel: 'pkg-notifications\n',
+                    message: "The $PACKAGE_FILE package is failing export/tests in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                )
+            }
+        }
+    }
 }
