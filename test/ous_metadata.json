@@ -20,7 +20,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -33,11 +32,6 @@
                  "value": "Niveaux administratifs de soins"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -67,7 +61,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -80,11 +73,6 @@
                  "value": "REHAB - Niveaux administratifs"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -110,7 +98,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -138,11 +125,6 @@
                  "value": "Turi"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -280,7 +262,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -304,11 +285,6 @@
                  "value": "Nemocniční čtvrť"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -334,7 +310,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -362,11 +337,6 @@
                  "value": "SSP"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -385,7 +355,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -404,11 +373,6 @@
                  "value": "Service de réadaptation"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -427,7 +391,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -445,11 +408,6 @@
                  "value": "REHAB MFL"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -472,22 +430,7 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
-             "userGroups": {
-                 "FxouaDX1x6n": {
-                     "access": "rw------",
-                     "id": "FxouaDX1x6n"
-                 },
-                 "iHDEKA0cjJC": {
-                     "access": "r-------",
-                     "id": "iHDEKA0cjJC"
-                 },
-                 "y74nhiauvTW": {
-                     "access": "r-------",
-                     "id": "y74nhiauvTW"
-                 }
-             },
              "users": {}
          },
          "shortName": "REHAB - PHC",
@@ -504,29 +447,8 @@
                  "value": "REHAB - SSP"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
-         "userGroupAccesses": [
-             {
-                 "access": "rw------",
-                 "id": "FxouaDX1x6n",
-                 "userGroupUid": "FxouaDX1x6n"
-             },
-             {
-                 "access": "r-------",
-                 "id": "iHDEKA0cjJC",
-                 "userGroupUid": "iHDEKA0cjJC"
-             },
-             {
-                 "access": "r-------",
-                 "id": "y74nhiauvTW",
-                 "userGroupUid": "y74nhiauvTW"
-             }
-         ]
+         "userGroupAccesses": []
      },
      {
          "attributeValues": [],
@@ -547,7 +469,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -566,11 +487,6 @@
                  "value": "REHAB - SSS"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
@@ -593,7 +509,6 @@
          "publicAccess": "rw------",
          "sharing": {
              "external": false,
-             "owner": "vUeLeQMSwhN",
              "public": "rw------",
              "userGroups": {},
              "users": {}
@@ -612,11 +527,6 @@
                  "value": "REHAB - SST"
              }
          ],
-         "user": {
-             "id": "vUeLeQMSwhN",
-             "name": "Admin WHO",
-             "username": "who"
-         },
          "userAccesses": [],
          "userGroupAccesses": []
      },
