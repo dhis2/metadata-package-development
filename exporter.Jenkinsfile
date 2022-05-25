@@ -190,7 +190,7 @@ pipeline {
             script {
                 slackSend(
                     color: '#ff0000',
-                    channel: 'pkg-notifications\n',
+                    channel: 'pkg-notifications',
                     message: "The $PACKAGE_FILE package is failing export/tests in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
                 )
             }
