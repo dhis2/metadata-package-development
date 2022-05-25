@@ -57,7 +57,8 @@ pipeline {
             steps {
                 script {
                     dir('dhis2-utils') {
-                        git url: "$UTILS_GIT_URL"
+                        //TODO REMOVE BRANCH
+                        git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
                     }
 
                     PACKAGE_IS_EXPORTED = true
@@ -103,7 +104,8 @@ pipeline {
                     // In case the 'Export package' stage was skipped, the utils repo needs to be cloned again
                     if (!fileExists('dhis2-utils')) {
                         dir('dhis2-utils') {
-                            git url: "$UTILS_GIT_URL"
+                            //TODO REMOVE BRANCH
+                            git url: "$UTILS_GIT_URL", branch: 'DEVOPS-167'
                         }
                     }
 
