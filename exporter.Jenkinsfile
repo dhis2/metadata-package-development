@@ -67,7 +67,10 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: "./scripts/export-package.sh \"$PACKAGE_CODE\" \"$PACKAGE_TYPE\" \"$PACKAGE_DESCRIPTION\" | tail -1"
+                        script: """
+                            set -o pipefail
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" | tail -1
+                        """
                     ).trim()
                 }
             }
