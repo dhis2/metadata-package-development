@@ -2,7 +2,7 @@
 
 pipeline {
     agent {
-        label 'ec2-jdk8-medium'
+        label 'ec2-jdk8-large'
     }
 
     parameters {
