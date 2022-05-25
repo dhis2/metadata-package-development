@@ -1,133 +1,82 @@
 {
- "organisationUnitGroupSets": [
-     {
-         "attributeValues": [],
-         "code": "ADMIN_LVLS",
-         "compulsory": false,
-         "dataDimension": true,
-         "dimension": "dSwpdHITQ85",
-         "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
-         "externalAccess": false,
-         "favorite": false,
-         "id": "dSwpdHITQ85",
-         "includeSubhierarchyInAnalytics": false,
-         "name": "Administrative levels of care",
-         "organisationUnitGroups": [
-             {
-                 "id": "aT5pkgRLbw5"
-             }
-         ],
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "Administrative levels of care",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "Niveaux administratifs de soins"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_ADMIN_LVLS",
-         "compulsory": true,
-         "dataDimension": true,
-         "dimension": "wkjpdklqOIt",
-         "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
-         "externalAccess": false,
-         "favorite": false,
-         "id": "wkjpdklqOIt",
-         "includeSubhierarchyInAnalytics": false,
-         "name": "REHAB - Administrative levels",
-         "organisationUnitGroups": [
-             {
-                 "id": "Re0iJ3vtBzE"
-             },
-             {
-                 "id": "bbsxlCu3Vya"
-             },
-             {
-                 "id": "wZJCB2cj9jg"
-             }
-         ],
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "REHAB - Administrative levels",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "REHAB - Niveaux administratifs"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "compulsory": false,
-         "dataDimension": true,
-         "dimension": "VQT2m5uMawR",
-         "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
-         "externalAccess": false,
-         "favorite": false,
-         "id": "VQT2m5uMawR",
-         "includeSubhierarchyInAnalytics": false,
-         "name": "Type",
-         "organisationUnitGroups": [
-             {
-                 "id": "Y9lBaYVm9j7"
-             },
-             {
-                 "id": "aT5pkgRLbw5"
-             }
-         ],
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "Type",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "Type "
-             },
-             {
-                 "locale": "cs",
-                 "property": "NAME",
-                 "value": "Typ"
-             },
-             {
-                 "locale": "uz_UZ",
-                 "property": "NAME",
-                 "value": "Turi"
-             },
-             {
-                 "locale": "uz",
-                 "property": "NAME",
-                 "value": "Turi"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
+  "organisationUnitGroupSets":[
+        {
+            "attributeValues": [],
+            "code": "ADMIN_LVLS",
+            "compulsory": false,
+            "dataDimension": true,
+            "dimension": "dSwpdHITQ85",
+            "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "dSwpdHITQ85",
+            "includeSubhierarchyInAnalytics": false,
+            "name": "Administrative levels of care",
+            "organisationUnitGroups": [
+                {
+                    "id": "aT5pkgRLbw5"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Administrative levels of care",
+            "translations": [
+
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_ADMIN_LVLS",
+            "compulsory": true,
+            "dataDimension": true,
+            "dimension": "wkjpdklqOIt",
+            "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "wkjpdklqOIt",
+            "includeSubhierarchyInAnalytics": false,
+            "name": "REHAB - Administrative levels",
+            "organisationUnitGroups": [
+                {
+                    "id": "Re0iJ3vtBzE"
+                },
+                {
+                    "id": "bbsxlCu3Vya"
+                },
+                {
+                    "id": "wZJCB2cj9jg"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "REHAB - Administrative levels",
+            "translations": [
+
+            ]
+        },
+        {
+            "attributeValues": [],
+            "compulsory": false,
+            "dataDimension": true,
+            "dimension": "VQT2m5uMawR",
+            "dimensionType": "ORGANISATION_UNIT_GROUP_SET",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "VQT2m5uMawR",
+            "includeSubhierarchyInAnalytics": false,
+            "name": "Type",
+            "organisationUnitGroups": [
+                {
+                    "id": "Y9lBaYVm9j7"
+                },
+                {
+                    "id": "aT5pkgRLbw5"
+                }
+            ],
+            "publicAccess": "rw------",
+            "shortName": "Type",
+            "translations": [
+
+            ]
+        },
      {
         "created":"2015-03-23T03:05:18.751",
         "lastUpdated":"2018-01-17T10:33:29.693",
@@ -243,293 +192,253 @@
         ]
      }
   ],
-"organisationUnitGroups": [
-     {
-         "attributeValues": [],
-         "dimensionItem": "Y9lBaYVm9j7",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [
-             {
-                 "id": "VQT2m5uMawR"
-             }
-         ],
-         "id": "Y9lBaYVm9j7",
-         "legendSets": [],
-         "name": "Hospital district",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "DH",
-         "symbol": "03.png",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "hôpital de district"
-             },
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "Hôpital de district"
-             },
-             {
-                 "locale": "cs",
-                 "property": "NAME",
-                 "value": "Nemocniční čtvrť"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "PHC",
-         "dimensionItem": "aT5pkgRLbw5",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [
-             {
-                 "id": "VQT2m5uMawR"
-             },
-             {
-                 "id": "dSwpdHITQ85"
-             }
-         ],
-         "id": "aT5pkgRLbw5",
-         "legendSets": [],
-         "name": "PHC",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "PHC",
-         "translations": [
-             {
-                 "locale": "cs",
-                 "property": "SHORT_NAME",
-                 "value": "PHC"
-             },
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "SSP"
-             },
-             {
-                 "locale": "cs",
-                 "property": "NAME",
-                 "value": "PHC"
-             },
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "SSP"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_REHAB_WARD",
-         "dimensionItem": "AGK6oOK4ncb",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [],
-         "id": "AGK6oOK4ncb",
-         "legendSets": [],
-         "name": "Rehab inpatient ward",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "Rehab ward",
-         "symbol": "20.png",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "Service d'hospitalisation de réadaptation"
-             },
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "Service de réadaptation"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_MFL",
-         "dimensionItem": "Uvefj6bDfzo",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [],
-         "id": "Uvefj6bDfzo",
-         "legendSets": [],
-         "name": "REHAB - Master Facility List",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "REHAB MFL",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "REHAB - Liste principale des installations"
-             },
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "REHAB MFL"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_PHC",
-         "dimensionItem": "bbsxlCu3Vya",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [
-             {
-                 "id": "wkjpdklqOIt"
-             }
-         ],
-         "id": "bbsxlCu3Vya",
-         "legendSets": [],
-         "name": "REHAB - PHC",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "users": {}
-         },
-         "shortName": "REHAB - PHC",
-         "symbol": "29.svg",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "REHAB - SSP"
-             },
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "REHAB - SSP"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_SHC",
-         "dimensionItem": "wZJCB2cj9jg",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [
-             {
-                 "id": "wkjpdklqOIt"
-             }
-         ],
-         "id": "wZJCB2cj9jg",
-         "legendSets": [],
-         "name": "REHAB - SHC",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "REHAB - SHC",
-         "symbol": "34.svg",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "REHAB - SSS"
-             },
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "REHAB - SSS"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
-     {
-         "attributeValues": [],
-         "code": "REHAB_AGG_THC",
-         "dimensionItem": "Re0iJ3vtBzE",
-         "dimensionItemType": "ORGANISATION_UNIT_GROUP",
-         "externalAccess": false,
-         "favorite": false,
-         "groupSets": [
-             {
-                 "id": "wkjpdklqOIt"
-             }
-         ],
-         "id": "Re0iJ3vtBzE",
-         "legendSets": [],
-         "name": "REHAB - THC",
-         "periodOffset": 0,
-         "publicAccess": "rw------",
-         "sharing": {
-             "external": false,
-             "public": "rw------",
-             "userGroups": {},
-             "users": {}
-         },
-         "shortName": "REHAB - THC",
-         "symbol": "36.svg",
-         "translations": [
-             {
-                 "locale": "fr",
-                 "property": "SHORT_NAME",
-                 "value": "REHAB - SST"
-             },
-             {
-                 "locale": "fr",
-                 "property": "NAME",
-                 "value": "REHAB - SST"
-             }
-         ],
-         "userAccesses": [],
-         "userGroupAccesses": []
-     },
+  "organisationUnitGroups":[
+        {
+            "attributeValues": [],
+            "dimensionItem": "Y9lBaYVm9j7",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [
+                {
+                    "id": "VQT2m5uMawR"
+                }
+            ],
+            "id": "Y9lBaYVm9j7",
+            "legendSets": [],
+            "name": "Hospital district",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+
+            "shortName": "DH",
+            "symbol": "03.png",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "hôpital de district"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Hôpital de district"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Nemocniční čtvrť"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "PHC",
+            "dimensionItem": "aT5pkgRLbw5",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [
+                {
+                    "id": "VQT2m5uMawR"
+                },
+                {
+                    "id": "dSwpdHITQ85"
+                }
+            ],
+            "id": "aT5pkgRLbw5",
+            "legendSets": [],
+            "name": "PHC",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+
+            "shortName": "PHC",
+            "translations": [
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "PHC"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "SSP"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "PHC"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "SSP"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_REHAB_WARD",
+            "dimensionItem": "AGK6oOK4ncb",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [],
+            "id": "AGK6oOK4ncb",
+            "legendSets": [],
+            "name": "Rehab inpatient ward",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+
+            "shortName": "Rehab ward",
+            "symbol": "20.png",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Service d'hospitalisation de réadaptation"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Service de réadaptation"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_MFL",
+            "dimensionItem": "Uvefj6bDfzo",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [],
+            "id": "Uvefj6bDfzo",
+            "legendSets": [],
+            "name": "REHAB - Master Facility List",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+
+            "shortName": "REHAB MFL",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "REHAB - Liste principale des installations"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "REHAB MFL"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_PHC",
+            "dimensionItem": "bbsxlCu3Vya",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [
+                {
+                    "id": "wkjpdklqOIt"
+                }
+            ],
+            "id": "bbsxlCu3Vya",
+            "legendSets": [],
+            "name": "REHAB - PHC",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {
+                    "FxouaDX1x6n": {
+                        "access": "rw------",
+                        "id": "FxouaDX1x6n"
+                    },
+                    "iHDEKA0cjJC": {
+                        "access": "r-------",
+                        "id": "iHDEKA0cjJC"
+                    },
+                    "y74nhiauvTW": {
+                        "access": "r-------",
+                        "id": "y74nhiauvTW"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "REHAB - PHC",
+            "symbol": "29.svg",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "REHAB - SSP"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "REHAB - SSP"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_SHC",
+            "dimensionItem": "wZJCB2cj9jg",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [
+                {
+                    "id": "wkjpdklqOIt"
+                }
+            ],
+            "id": "wZJCB2cj9jg",
+            "legendSets": [],
+            "name": "REHAB - SHC",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+
+            "shortName": "REHAB - SHC",
+            "symbol": "34.svg",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "REHAB - SSS"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "REHAB - SSS"
+                }
+            ]
+        },
+        {
+            "attributeValues": [],
+            "code": "REHAB_AGG_THC",
+            "dimensionItem": "Re0iJ3vtBzE",
+            "dimensionItemType": "ORGANISATION_UNIT_GROUP",
+            "externalAccess": false,
+            "favorite": false,
+            "groupSets": [
+                {
+                    "id": "wkjpdklqOIt"
+                }
+            ],
+            "id": "Re0iJ3vtBzE",
+            "legendSets": [],
+            "name": "REHAB - THC",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "shortName": "REHAB - THC",
+            "symbol": "36.svg",
+            "translations": [
+            ]
+        },
      {
         "created":"2015-03-23T02:45:57.875",
         "lastUpdated":"2018-01-17T10:33:29.532",
