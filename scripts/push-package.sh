@@ -29,7 +29,7 @@ destination_dir="$packages_dir/$full_package_dir"
 commit_message="feat: Update $full_package_code package"
 
 if [[ "$sub_package_code" ]]; then
-  destination_dir="$sub_package_code"
+  destination_dir="$packages_dir/$sub_package_code"
 fi
 
 if [[ "$package_type" == "$dashboard_package_type" ]]; then
