@@ -54,4 +54,22 @@ mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.
 git add .
 
 git commit -m "$commit_message"
-git push "$repository_url"
+
+git_push_cmd() {
+  git pull origin "nested-$version_branch"
+  git push "$repository_url"
+}
+
+retries=10
+delay=1
+for ((attempt=0; attempt<retries; attempt++))
+do
+  git_push_cmd && break
+  echo "Push failed, retying in $delay seconds..."
+  sleep $delay
+done
+
+if (( retries == attempt )); then
+  echo 'Push failed!'
+  exit 1
+fi
