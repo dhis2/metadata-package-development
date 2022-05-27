@@ -46,7 +46,8 @@ pipeline {
                         echo e.toString()
                         return true;
                     }
-                    // if file wasn't uploaded, its size will be 0
+
+                    // If file wasn't uploaded, its size will be 0.
                     return (fileExists("${PACKAGE_FILE}")) && readFile("${PACKAGE_FILE}").size() == 0
                 }
             }
@@ -193,7 +194,6 @@ pipeline {
     post {
         failure {
             script {
-                //TODO Fix package name for all cases (exported/uploaded/failed)
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
                     message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package exporting failed in ${slack.buildUrl()}"
                 } else {
