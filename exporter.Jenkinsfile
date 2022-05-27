@@ -8,9 +8,9 @@ pipeline {
     parameters {
         stashedFile 'package_metadata_file'
         string(name: 'Package_code', defaultValue: '', description: 'Package code to extract with.')
-        choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
         choice(name: 'Package_type', choices: ['AGG', 'TRK', 'EVT', 'DSH'], description: 'Type of the package to export.')
-        string(name: 'Package_description', defaultValue: '', description: '[OPTIONAL] Description of the package.')
+        string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
+        choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
         string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
         booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
@@ -32,6 +32,7 @@ pipeline {
         DHIS2_CHANNEL = "stable"
         DHIS2_PORT = 9090
         PACKAGE_IS_EXPORTED = false
+        PACKAGE_EXPORT_SUCCEEDED = false
     }
 
     stages {
@@ -39,7 +40,7 @@ pipeline {
             when {
                 expression {
                     try {
-                        // unless the file is unstashed, it's null.
+                        // Unless the file is unstashed, it's null.
                         unstash "${PACKAGE_FILE}"
                     } catch (e) {
                         echo e.toString()
@@ -71,6 +72,8 @@ pipeline {
                             ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" | tail -1
                         """
                     ).trim()
+
+                    PACKAGE_EXPORT_SUCCEEDED = true
                 }
             }
 
@@ -95,7 +98,9 @@ pipeline {
 
                     DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
-                    currentBuild.description = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+                    PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+
+                    currentBuild.description = "$PACKAGE_NAME"
                 }
             }
         }
@@ -188,10 +193,17 @@ pipeline {
     post {
         failure {
             script {
+                //TODO Fix package name for all cases (exported/uploaded/failed)
+                if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
+                    message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package exporting failed in ${slack.buildUrl()}"
+                } else {
+                    message = "The $PACKAGE_NAME package tests failed in ${slack.buildUrl()}"
+                }
+
                 slackSend(
                     color: '#ff0000',
                     channel: 'pkg-notifications',
-                    message: "The $PACKAGE_FILE package is failing export/tests in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                    message: message
                 )
             }
         }
