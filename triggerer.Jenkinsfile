@@ -8,6 +8,7 @@ def generateStagesMap(versions, packages) {
                 stage("Export package") {
                     build job: 'test-metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
+                        string(name: 'Instance_url', value: "${item['Source instance']}"),
                         string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
                         string(name: 'Package_type', value: "${item['Script parameter']}"),
                         string(name: 'Package_description', value: "${item['Component name']}"),

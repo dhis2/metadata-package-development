@@ -67,10 +67,10 @@ pipeline {
                     sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
 
                     PACKAGE_FILE = sh(
-                            returnStdout: true,
-                            script: """#!/bin/bash
+                        returnStdout: true,
+                        script: """#!/bin/bash
                             set -euxo pipefail
-                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" | tail -1
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" "$INSTANCE_URL" | tail -1
                         """
                     ).trim()
 
