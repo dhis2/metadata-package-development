@@ -11,7 +11,7 @@ pipeline {
         string(name: 'Package_type', defaultValue: '', description: 'Type of the package to export.')
         string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
         choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
-        string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
+        string(name: 'Instance_url', defaultValue: '', description: 'Instance URL to export package from.')
         booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
