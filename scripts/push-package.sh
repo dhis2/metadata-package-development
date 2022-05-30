@@ -59,8 +59,8 @@ git_retry_push() {
 
   for ((attempt=0; attempt<retries; attempt++))
   do
-    git pull origin "nested-$version_branch" && git push "$repository_url" && break
-    echo "Push failed, retying in ${delays}s ..."
+    git pull origin "$version_branch" && git push "$repository_url" && break
+    echo "Push failed, retying in ${delay}s ..."
     sleep $delay
   done
 
