@@ -195,7 +195,7 @@ pipeline {
         failure {
             script {
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
-                    message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package exporting failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package export failed in ${slack.buildUrl()}"
                 } else {
                     message = "The $PACKAGE_NAME package tests failed in ${slack.buildUrl()}"
                 }
