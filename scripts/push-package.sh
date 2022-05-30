@@ -51,7 +51,7 @@ git checkout "$version_branch"
 mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.json"
 git add .
 
-git commit -m "$commit_message"
+git diff-index --quiet HEAD || git commit -m "$commit_message"
 
 git_retry_push() {
   local retries=10
