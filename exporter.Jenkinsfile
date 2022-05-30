@@ -2,15 +2,15 @@
 
 pipeline {
     agent {
-        label 'ec2-jdk8-medium'
+        label 'ec2-jdk8-large'
     }
 
     parameters {
         stashedFile 'package_metadata_file'
         string(name: 'Package_code', defaultValue: '', description: 'Package code to extract with.')
-        choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
         choice(name: 'Package_type', choices: ['AGG', 'TRK', 'EVT', 'DSH'], description: 'Type of the package to export.')
-        string(name: 'Package_description', defaultValue: '', description: '[OPTIONAL] Description of the package.')
+        string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
+        choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
         string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
         booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
@@ -32,6 +32,7 @@ pipeline {
         DHIS2_CHANNEL = "stable"
         DHIS2_PORT = 9090
         PACKAGE_IS_EXPORTED = false
+        PACKAGE_EXPORT_SUCCEEDED = false
     }
 
     stages {
@@ -39,13 +40,14 @@ pipeline {
             when {
                 expression {
                     try {
-                        // unless the file is unstashed, it's null.
+                        // Unless the file is unstashed, it's null.
                         unstash "${PACKAGE_FILE}"
                     } catch (e) {
                         echo e.toString()
                         return true;
                     }
-                    // if file wasn't uploaded, its size will be 0
+
+                    // If file wasn't uploaded, its size will be 0.
                     return (fileExists("${PACKAGE_FILE}")) && readFile("${PACKAGE_FILE}").size() == 0
                 }
             }
@@ -65,9 +67,14 @@ pipeline {
                     sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
 
                     PACKAGE_FILE = sh(
-                        returnStdout: true,
-                        script: "./scripts/export-package.sh \"$PACKAGE_CODE\" \"$PACKAGE_TYPE\" \"$PACKAGE_DESCRIPTION\" | tail -1"
+                            returnStdout: true,
+                            script: """#!/bin/bash
+                            set -euxo pipefail
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" | tail -1
+                        """
                     ).trim()
+
+                    PACKAGE_EXPORT_SUCCEEDED = true
                 }
             }
 
@@ -92,7 +99,9 @@ pipeline {
 
                     DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
-                    currentBuild.description = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+                    PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+
+                    currentBuild.description = "$PACKAGE_NAME"
                 }
             }
         }
@@ -182,20 +191,21 @@ pipeline {
         }
     }
 
-//    post {
-//        failure {
-//            script {
-//                IMPLEMENTERS = [
-//                    RMS000: 'U01RSD1LPB3'
-//                ]
-//
-//                slackSend(
-//                    color: "#ff0000",
-//                    // use a group channel for all packages?
-//                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
-//                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
-//                )
-//            }
-//        }
-//    }
+    post {
+        failure {
+            script {
+                if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
+                    message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package export failed in ${slack.buildUrl()}"
+                } else {
+                    message = "The $PACKAGE_NAME package tests failed in ${slack.buildUrl()}"
+                }
+
+                slackSend(
+                        color: '#ff0000',
+                        channel: 'pkg-notifications',
+                        message: message
+                )
+            }
+        }
+    }
 }

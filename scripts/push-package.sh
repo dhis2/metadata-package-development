@@ -4,8 +4,10 @@ set -euxo pipefail
 
 file="$1"
 
-full_package_dir="FULL"
-dashboard_package="DSH"
+full_package_dir="COMPLETE"
+dashboard_package_dir="DASHBOARD"
+
+dashboard_package_type="DSH"
 
 full_package_code="$(cat $file | jq -r '.package .code')"
 package_type="$(cat $file | jq -r '.package .type')"
@@ -29,9 +31,9 @@ fi
 
 commit_message="feat: Update $full_package_code package"
 
-if [[ "$package_type" == "$dashboard_package" ]]; then
-  destination_dir="${destination_dir}_${dashboard_package}"
-  commit_message="$commit_message ($dashboard_package)"
+if [[ "$package_type" == "$dashboard_package_type" ]]; then
+  destination_dir="${destination_dir}_${dashboard_package_dir}"
+  commit_message="$commit_message ($dashboard_package_type)"
 fi
 
 if [[ "${Commit_message:-}" ]]; then
@@ -50,4 +52,22 @@ mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.
 git add .
 
 git commit -m "$commit_message"
-git push "$repository_url"
+
+git_retry_push() {
+  local retries=10
+  local delay=1
+
+  for ((attempt=0; attempt<retries; attempt++))
+  do
+    git pull origin "nested-$version_branch" && git push "$repository_url" && break
+    echo "Push failed, retying in ${delays}s ..."
+    sleep $delay
+  done
+
+  if (( retries == attempt )); then
+    echo 'Push failed!'
+    exit 1
+  fi
+}
+
+git_retry_push
