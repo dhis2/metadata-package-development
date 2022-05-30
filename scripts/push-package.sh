@@ -46,7 +46,7 @@ git config --global user.name "$GITHUB_CREDS_USR"
 git clone "$repository_url"
 cd "$WORKSPACE/$repository_name"
 
-git checkout "$version_branch" || git checkout -b "$version_branch"
+git checkout "$version_branch"
 
 mkdir -p "$destination_dir" && cp "$WORKSPACE/$file" "$destination_dir/metadata.json"
 git add .
