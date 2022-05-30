@@ -8,7 +8,7 @@ pipeline {
     parameters {
         stashedFile 'package_metadata_file'
         string(name: 'Package_code', defaultValue: '', description: 'Package code to extract with.')
-        choice(name: 'Package_type', choices: ['AGG', 'TRK', 'EVT', 'DSH'], description: 'Type of the package to export.')
+        string(name: 'Package_type', defaultValue: '', description: 'Type of the package to export.')
         string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
         choice(name: 'DHIS2_version', choices: ['2.36', '2.37', '2.38'], description: 'DHIS2 version to extract the package from.')
         string(name: 'Instance_url', defaultValue: '', description: '[OPTIONAL] Instance URL to extract package from.')
