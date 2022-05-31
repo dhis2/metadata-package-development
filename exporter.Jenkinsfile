@@ -195,9 +195,9 @@ pipeline {
         failure {
             script {
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
-                    message = "The $PACKAGE_CODE ($PACKAGE_TYPE) package export failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_CODE (type: $PACKAGE_TYPE, DHIS2: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
                 } else {
-                    message = "The $PACKAGE_NAME package tests failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_NAME (DHIS2: $DHIS2_VERSION) package tests failed in ${slack.buildUrl()}"
                 }
 
                 slackSend(
