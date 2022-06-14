@@ -116,7 +116,7 @@ pipeline {
                         }
                     }
 
-                    catchError {
+                    catchError(catchInterruptions: false, message: 'Validation errors found!', stageResult: 'FAILURE') {
                         sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$PACKAGE_FILE")
                     }
                 }
