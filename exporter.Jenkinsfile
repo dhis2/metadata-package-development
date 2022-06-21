@@ -201,13 +201,13 @@ pipeline {
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
                     message = "The $PACKAGE_CODE (type: $PACKAGE_TYPE, DHIS2: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
                 } else {
-                    message = "The $PACKAGE_NAME (DHIS2: $DHIS2_VERSION) package tests failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_NAME (DHIS2: $DHIS2_BRANCH_VERSION) package tests failed in ${slack.buildUrl()}"
                 }
 
                 slackSend(
-                        color: '#ff0000',
-                        channel: 'pkg-notifications',
-                        message: message
+                    color: '#ff0000',
+                    channel: 'pkg-notifications',
+                    message: message
                 )
             }
         }
