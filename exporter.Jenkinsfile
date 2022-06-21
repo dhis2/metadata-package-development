@@ -194,6 +194,10 @@ pipeline {
     post {
         failure {
             script {
+                if (!DHIS2_VERSION) {
+                    DHIS2_VERSION = "unknown"
+                }
+
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
                     message = "The $PACKAGE_CODE (type: $PACKAGE_TYPE, DHIS2: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
                 } else {
