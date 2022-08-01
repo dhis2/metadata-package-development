@@ -6,7 +6,7 @@ def generateStagesMap(versions, packages) {
         packages.each { item ->
             map["${item['DHIS2 code for packaging']} (type: ${item['Script parameter']}) for ${version}"] = {
                 stage("Export package") {
-                    build job: 'test-metadata-exporter', propagate: false, parameters: [
+                    build job: 'metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Instance_url', value: "${item['Source instance']}"),
                         string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
