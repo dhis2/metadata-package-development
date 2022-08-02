@@ -194,7 +194,7 @@ pipeline {
     post {
         failure {
             script {
-                if (!DHIS2_VERSION) {
+                if (!env.DHIS2_VERSION) {
                     DHIS2_VERSION = "unknown"
                 }
 
