@@ -35,7 +35,7 @@ pipeline {
     }
 
     stages {
-        stage('Get Packages Index') {
+        stage('Get Enabled Packages') {
             environment {
                 GC_SERVICE_ACCOUNT_FILE = credentials('metadata-index-parser-service-account')
                 GOOGLE_SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
@@ -58,7 +58,7 @@ pipeline {
             }
         }
 
-        stage ('Run Downstream') {
+        stage ('Run Exporter') {
             steps {
                 script {
                     versionsList = "${params.DHIS2Versions}".split(',')
