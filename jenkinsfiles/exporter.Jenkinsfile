@@ -59,6 +59,18 @@ pipeline {
 
             steps {
                 script {
+                    if (params.Package_code == null || params.Package_code == '') {
+                        error('Package code is not set.')
+                    }
+
+                    if (params.Package_type == null || params.Package_type == '') {
+                        error('Package type is not set.')
+                    }
+
+                    if (params.Package_description == null || params.Package_description == '') {
+                        error('Package description is not set.')
+                    }
+
                     dir('dhis2-utils') {
                         git url: "$UTILS_GIT_URL"
                     }
