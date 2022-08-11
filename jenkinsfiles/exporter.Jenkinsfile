@@ -11,7 +11,7 @@ pipeline {
         string(name: 'Package_type', defaultValue: '', description: 'Type of the package to export.')
         string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
         string(name: 'DHIS2_version', defaultValue: '2.36', description: 'DHIS2 version to extract the package from.')
-        string(name: 'Instance_url', defaultValue: '', description: 'Instance URL to export package from.')
+        string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: 'Instance URL to export package from.')
         booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
@@ -29,6 +29,7 @@ pipeline {
         PACKAGE_DESCRIPTION = "${params.Package_description}"
         DHIS2_VERSION = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
+        PUSH_PACKAGE = "${params.Push_package}"
         DHIS2_CHANNEL = "stable"
         DHIS2_PORT = 9090
         PACKAGE_IS_EXPORTED = false
@@ -126,9 +127,11 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
-                    if (DHIS2_BRANCH_VERSION.length() <= 4) {
+                    if (DHIS2_BRANCH_VERSION.length() <= 4 || DHIS2_BRANCH_VERSION.contains('SNAPSHOT')) {
                         echo "DHIS2 version is from dev channel."
                         DHIS2_CHANNEL = "dev"
+                        DHIS2_BRANCH_VERSION = DHIS2_BRANCH_VERSION[0..3]
+                        PUSH_PACKAGE = false
                     }
 
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
@@ -175,7 +178,7 @@ pipeline {
 
         stage('Push to GitHub') {
             when {
-                expression { params.Push_package }
+                expression { PUSH_PACKAGE.toBoolean() }
             }
 
             environment {
