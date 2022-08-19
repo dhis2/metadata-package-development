@@ -7,12 +7,12 @@ pipeline {
 
     parameters {
         stashedFile 'package_metadata_file'
-        string(name: 'Package_code', defaultValue: '', description: 'Package code to extract with.')
-        string(name: 'Package_type', defaultValue: '', description: 'Type of the package to export.')
-        string(name: 'Package_description', defaultValue: '', description: 'Description of the package.')
-        string(name: 'DHIS2_version', defaultValue: '2.36', description: 'DHIS2 version to extract the package from.')
-        string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: 'Instance URL to export package from.')
-        booleanParam(name: 'Push_package', defaultValue: true, description: 'Push the package to its GitHub repository, if the build succeeds.')
+        string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
+        string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
+        string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
+        string(name: 'DHIS2_version', defaultValue: '2.36', description: '[REQUIRED] DHIS2 version to extract the package from.')
+        string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
+        booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
 
