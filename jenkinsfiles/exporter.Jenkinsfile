@@ -2,11 +2,18 @@
 
 pipeline {
     agent {
-        label 'ec2-jdk8-large'
+        label 'ec2-jdk8-large-spot'
     }
 
     parameters {
         stashedFile 'package_metadata_file'
+        string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
+        string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
+        string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
+        string(name: 'DHIS2_version', defaultValue: '2.36', description: '[REQUIRED] DHIS2 version to extract the package from.')
+        string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
+        booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
+        string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
 
     options {
@@ -16,17 +23,17 @@ pipeline {
     environment {
         UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils"
         METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
-        DHIS2_BRANCH_VERSION = "master"
-        PORT = 9090
         PACKAGE_FILE = "package_metadata_file"
-        DHIS2_VERSION = "${params.DHIS2_version}"
-        CHANNEL = "stable"
-        PACKAGE_NAME = "${params.Package_name}"
-        PACKAGE_VERSION = "${params.Package_version}"
+        PACKAGE_CODE = "${params.Package_code}"
         PACKAGE_TYPE = "${params.Package_type}"
-        DESCRIPTION = "${params.Custom_description}"
+        PACKAGE_DESCRIPTION = "${params.Package_description}"
+        DHIS2_VERSION_INPUT = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
+        PUSH_PACKAGE = "${params.Push_package}"
+        DHIS2_CHANNEL = "stable"
+        DHIS2_PORT = 9090
         PACKAGE_IS_EXPORTED = false
+        PACKAGE_EXPORT_SUCCEEDED = false
     }
 
     stages {
@@ -34,13 +41,14 @@ pipeline {
             when {
                 expression {
                     try {
-                        // unless the file is unstashed, it's null.
+                        // Unless the file is unstashed, it's null.
                         unstash "${PACKAGE_FILE}"
                     } catch (e) {
                         echo e.toString()
                         return true;
                     }
-                    // if file wasn't uploaded, its size will be 0
+
+                    // If file wasn't uploaded, its size will be 0.
                     return (fileExists("${PACKAGE_FILE}")) && readFile("${PACKAGE_FILE}").size() == 0
                 }
             }
@@ -51,6 +59,18 @@ pipeline {
 
             steps {
                 script {
+                    if (params.Package_code == null || params.Package_code == '') {
+                        error('Package code is not set.')
+                    }
+
+                    if (params.Package_type == null || params.Package_type == '') {
+                        error('Package type is not set.')
+                    }
+
+                    if (params.Package_description == null || params.Package_description == '') {
+                        error('Package description is not set.')
+                    }
+
                     dir('dhis2-utils') {
                         git url: "$UTILS_GIT_URL"
                     }
@@ -59,14 +79,20 @@ pipeline {
 
                     sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
 
-                    sh "./scripts/export-package.sh \"$PACKAGE_NAME\" \"$PACKAGE_TYPE\""
+                    PACKAGE_FILE = sh(
+                        returnStdout: true,
+                        script: """#!/bin/bash
+                            set -euxo pipefail
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" "$INSTANCE_URL" | tail -1
+                        """
+                    ).trim()
 
-                    PACKAGE_FILE = sh(returnStdout: true, script: "ls -t *.json | head -n 1").trim()
+                    PACKAGE_EXPORT_SUCCEEDED = true
                 }
             }
 
             post {
-                always {
+                success {
                     script {
                         archiveArtifacts artifacts: "$PACKAGE_FILE"
                     }
@@ -84,9 +110,11 @@ pipeline {
                         sh "cp $PACKAGE_FILE ./test/package_orig.json"
                     }
 
-                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
+                    DHIS2_VERSION_IN_PACKAGE = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
-                    currentBuild.description = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+                    PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
+
+                    currentBuild.description = "$PACKAGE_NAME"
                 }
             }
         }
@@ -101,7 +129,7 @@ pipeline {
                         }
                     }
 
-                    catchError {
+                    catchError(catchInterruptions: false, message: 'Validation errors found!', stageResult: 'FAILURE') {
                         sh("python3 -u dhis2-utils/tools/dhis2-metadata-package-validator/metadata_package_validator.py -f $WORKSPACE/$PACKAGE_FILE")
                     }
                 }
@@ -111,19 +139,21 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
-                    if (DHIS2_BRANCH_VERSION.length() <= 4) {
+                    if (DHIS2_VERSION_IN_PACKAGE.length() <= 4 || DHIS2_VERSION_IN_PACKAGE.contains('SNAPSHOT')) {
                         echo "DHIS2 version is from dev channel."
-                        CHANNEL = "dev"
+                        DHIS2_CHANNEL = "dev"
+                        DHIS2_VERSION_IN_PACKAGE = DHIS2_VERSION_IN_PACKAGE[0..3]
+                        PUSH_PACKAGE = false
                     }
 
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$PORT", "$CHANNEL")
+                        d2.startCluster("$DHIS2_VERSION_IN_PACKAGE", "$DHIS2_PORT", "$DHIS2_CHANNEL")
                     }
 
                     sleep(5)
 
                     dir('test') {
-                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $PORT"
+                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $DHIS2_PORT"
                     }
                 }
             }
@@ -131,7 +161,7 @@ pipeline {
             post {
                 always {
                     script {
-                        sh "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty_instance.txt"
+                        sh "d2 cluster compose $DHIS2_VERSION_IN_PACKAGE logs core > logs_empty_instance.txt"
                         archiveArtifacts artifacts: "logs_empty_instance.txt"
                     }
                 }
@@ -142,7 +172,7 @@ pipeline {
             parallel {
                 stage('Check dashboards') {
                     steps {
-                        sh "./scripts/check-dashboards.sh $PORT"
+                        sh "./scripts/check-dashboards.sh $DHIS2_PORT"
                     }
                 }
 
@@ -152,7 +182,7 @@ pipeline {
                             git branch: 'main', url: "$METADATA_CHECKERS_GIT_URL"
                         }
 
-                        sh "./scripts/check-expressions.sh $PORT"
+                        sh "./scripts/check-expressions.sh $DHIS2_PORT"
                     }
                 }
             }
@@ -160,7 +190,7 @@ pipeline {
 
         stage('Push to GitHub') {
             when {
-                expression { params.Push_package }
+                expression { PUSH_PACKAGE.toBoolean() }
             }
 
             environment {
@@ -179,14 +209,20 @@ pipeline {
     post {
         failure {
             script {
-                IMPLEMENTERS = [
-                    RMS000: 'U01RSD1LPB3'
-                ]
+                if (!env.DHIS2_VERSION_INPUT) {
+                    DHIS2_VERSION_INPUT = "not provided"
+                }
+
+                if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
+                    message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION_INPUT) package export failed in ${slack.buildUrl()}"
+                } else {
+                    message = "The $PACKAGE_NAME (DHIS2 version: $DHIS2_VERSION_IN_PACKAGE) package tests failed in ${slack.buildUrl()}"
+                }
 
                 slackSend(
-                    color: "#ff0000",
-                    channel: "@${IMPLEMENTERS.get(PACKAGE_NAME[0..5])}",
-                    message: "The $PACKAGE_FILE package is failing validation/checks in <${BUILD_URL}|${JOB_NAME} (#${BUILD_NUMBER})>"
+                    color: '#ff0000',
+                    channel: 'pkg-notifications',
+                    message: message
                 )
             }
         }
