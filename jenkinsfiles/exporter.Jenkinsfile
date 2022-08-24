@@ -27,7 +27,7 @@ pipeline {
         PACKAGE_CODE = "${params.Package_code}"
         PACKAGE_TYPE = "${params.Package_type}"
         PACKAGE_DESCRIPTION = "${params.Package_description}"
-        DHIS2_VERSION = "${params.DHIS2_version}"
+        DHIS2_VERSION_INPUT = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
         PUSH_PACKAGE = "${params.Push_package}"
         DHIS2_CHANNEL = "stable"
@@ -110,7 +110,7 @@ pipeline {
                         sh "cp $PACKAGE_FILE ./test/package_orig.json"
                     }
 
-                    DHIS2_BRANCH_VERSION = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
+                    DHIS2_VERSION_IN_PACKAGE = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
                     PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
 
@@ -139,15 +139,15 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
-                    if (DHIS2_BRANCH_VERSION.length() <= 4 || DHIS2_BRANCH_VERSION.contains('SNAPSHOT')) {
+                    if (DHIS2_VERSION_IN_PACKAGE.length() <= 4 || DHIS2_VERSION_IN_PACKAGE.contains('SNAPSHOT')) {
                         echo "DHIS2 version is from dev channel."
                         DHIS2_CHANNEL = "dev"
-                        DHIS2_BRANCH_VERSION = DHIS2_BRANCH_VERSION[0..3]
+                        DHIS2_VERSION_IN_PACKAGE = DHIS2_VERSION_IN_PACKAGE[0..3]
                         PUSH_PACKAGE = false
                     }
 
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster("$DHIS2_BRANCH_VERSION", "$DHIS2_PORT", "$DHIS2_CHANNEL")
+                        d2.startCluster("$DHIS2_VERSION_IN_PACKAGE", "$DHIS2_PORT", "$DHIS2_CHANNEL")
                     }
 
                     sleep(5)
@@ -161,7 +161,7 @@ pipeline {
             post {
                 always {
                     script {
-                        sh "d2 cluster compose $DHIS2_BRANCH_VERSION logs core > logs_empty_instance.txt"
+                        sh "d2 cluster compose $DHIS2_VERSION_IN_PACKAGE logs core > logs_empty_instance.txt"
                         archiveArtifacts artifacts: "logs_empty_instance.txt"
                     }
                 }
@@ -209,14 +209,14 @@ pipeline {
     post {
         failure {
             script {
-                if (!env.DHIS2_VERSION) {
-                    DHIS2_VERSION = "unknown"
+                if (!env.DHIS2_VERSION_INPUT) {
+                    DHIS2_VERSION_INPUT = "not provided"
                 }
 
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
-                    message = "The $PACKAGE_CODE (type: $PACKAGE_TYPE, DHIS2: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION_INPUT) package export failed in ${slack.buildUrl()}"
                 } else {
-                    message = "The $PACKAGE_NAME (DHIS2: $DHIS2_BRANCH_VERSION) package tests failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_NAME (DHIS2 version: $DHIS2_VERSION_IN_PACKAGE) package tests failed in ${slack.buildUrl()}"
                 }
 
                 slackSend(

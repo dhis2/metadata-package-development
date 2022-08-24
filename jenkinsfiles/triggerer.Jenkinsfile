@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     dir('dhis2-utils') {
-                        git branch: 'DEVOPS-167', url: 'https://github.com/dhis2/dhis2-utils'
+                        git url: 'https://github.com/dhis2/dhis2-utils'
 
                         dir('tools/dhis2-metadata-index-parser') {
                             sh 'pip3 install -r requirements.txt'
