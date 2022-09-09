@@ -166,6 +166,12 @@ call_api() {
     API_ERROR=1
     return 1
   fi
+
+  if [[ $VERBOSE -eq 1 ]]; then
+    echo "Raw output:"
+    echo "$raw_output"
+  fi
+
   local header="$(awk -v bl=1 'bl{bl=0; h=($0 ~ /HTTP\//)} /^\r?$/{bl=1} {if(h)print $0 }' <<<"$raw_output")"
   local json=$(jq -c -R -r '. as $line | try fromjson' <<<"$raw_output")
   RESPONSE_BODY=$(sed -n 1p <<<"$json")
