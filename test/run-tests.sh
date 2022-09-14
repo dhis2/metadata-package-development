@@ -25,11 +25,11 @@ if [ -z "$url" ]; then
     exit 1
 fi
 
-if ./api-test.sh -f tests.json -url $url -auth $auth test merge_import; then 
+if ./api-test.sh -v -f tests.json -url $url -auth $auth test merge_import; then
   MERGE_MODE_STATUS="PASSED"
 else 
   MERGE_MODE_STATUS="FAILED"
-  if ./api-test.sh -f tests.json -url $url -auth $auth test replace_import; then 
+  if ./api-test.sh -v -f tests.json -url $url -auth $auth test replace_import; then
     REPLACE_MODE_STATUS="PASSED"
 
   else 
