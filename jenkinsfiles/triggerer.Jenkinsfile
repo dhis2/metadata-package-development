@@ -26,6 +26,10 @@ pipeline {
         label 'ec2-jdk8-medium'
     }
 
+    triggers {
+        cron('H 18 * * 1-5')
+    }
+
     options {
         ansiColor('xterm')
     }
