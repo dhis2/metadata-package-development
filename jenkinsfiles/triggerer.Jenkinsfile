@@ -1,17 +1,17 @@
 // Generates a map of stages to trigger the metadata-exporter pipeline.
-def generateStagesMap(versions, packages) {
+def generateStagesMap(packages) {
     def map = [:]
 
-    versions.each { version ->
-        packages.each { item ->
-            map["${item['DHIS2 code for packaging']} (type: ${item['Script parameter']}) for ${version}"] = {
+    packages.each { pkg ->
+        pkg["DHIS2 versions to export from"].split(',').each { version ->
+            map["${pkg['DHIS2 code for packaging']} (type: ${pkg['Script parameter']}) for ${version}"] = {
                 stage("Export package") {
                     build job: 'metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
-                        string(name: 'Instance_url', value: "${item['Source instance']}"),
-                        string(name: 'Package_code', value: "${item['DHIS2 code for packaging']}"),
-                        string(name: 'Package_type', value: "${item['Script parameter']}"),
-                        string(name: 'Package_description', value: "${item['Component name']}"),
+                        string(name: 'Instance_url', value: "${pkg['Source instance']}"),
+                        string(name: 'Package_code', value: "${pkg['DHIS2 code for packaging']}"),
+                        string(name: 'Package_type', value: "${pkg['Script parameter']}"),
+                        string(name: 'Package_description', value: "${pkg['Component name']}"),
                     ]
                 }
             }
@@ -32,10 +32,6 @@ pipeline {
 
     options {
         ansiColor('xterm')
-    }
-
-    parameters {
-        string(name: 'DHIS2Versions', defaultValue: '2.36,2.37,2.38', description: 'Comma-separated list of DHIS2 versions to extract packages from.')
     }
 
     stages {
@@ -65,9 +61,7 @@ pipeline {
         stage ('Run Exporter') {
             steps {
                 script {
-                    versionsList = "${params.DHIS2Versions}".split(',')
-
-                    parallel generateStagesMap(versionsList, packagesList)
+                    parallel generateStagesMap(packagesList)
                 }
             }
         }
