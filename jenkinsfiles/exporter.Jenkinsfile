@@ -10,8 +10,8 @@ pipeline {
         string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
         string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
         string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
-        string(name: 'DHIS2_version', defaultValue: '2.36', description: '[REQUIRED] DHIS2 version to extract the package from. (only major.minor version like 2.36, not 2.36.1)')
         string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
+        string(name: 'DHIS2_version', defaultValue: '2.36', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.36, not 2.36.1)')
         booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
@@ -30,8 +30,7 @@ pipeline {
         DHIS2_VERSION_INPUT = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
         PUSH_PACKAGE = "${params.Push_package}"
-        DHIS2_CHANNEL = "stable"
-        DHIS2_PORT = 9090
+        DHIS2_PORT = 8080
         PACKAGE_IS_EXPORTED = false
         PACKAGE_EXPORT_SUCCEEDED = false
     }
@@ -139,15 +138,38 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
+                    env.DHIS2_DOCKER_REPO = 'core'
+                    env.DHIS2_HOME = '/DHIS2_home'
+
                     if (DHIS2_VERSION_IN_PACKAGE.length() <= 4 || DHIS2_VERSION_IN_PACKAGE.contains('SNAPSHOT')) {
                         echo "DHIS2 version is from dev channel."
-                        DHIS2_CHANNEL = "dev"
+                        env.DHIS2_DOCKER_REPO = 'core-dev'
                         DHIS2_VERSION_IN_PACKAGE = DHIS2_VERSION_IN_PACKAGE[0..3]
                         PUSH_PACKAGE = false
                     }
 
+                    if (DHIS2_VERSION_IN_PACKAGE in ['2.39.0', '2.39.0.1', '2.38.2', '2.38.2.1']) {
+                        env.DHIS2_HOME = '/opt/dhis2'
+                    }
+
                     withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        d2.startCluster("$DHIS2_VERSION_IN_PACKAGE", "$DHIS2_PORT", "$DHIS2_CHANNEL")
+                        dir('hack') {
+                            dir('docker') {
+                                sh 'curl "https://raw.githubusercontent.com/dhis2/dhis2-core/master/docker/dhis.conf" -O'
+                            }
+
+                            env.DHIS2_IMAGE = "dhis2/${DHIS2_DOCKER_REPO}:${DHIS2_VERSION_IN_PACKAGE}"
+
+                            sh 'docker-compose up -d'
+
+                            sleep(10) // Needed for safety, as the curl cmd below might fail with "Error (7): couldn't connect to host"
+
+                            waitUntil {
+                                response_code = sh(returnStdout: true, script: "curl -ksL -X GET -w %{http_code} -o /dev/null http://localhost:${DHIS2_PORT}")
+
+                                return (response_code.toInteger() == 200)
+                            }
+                        }
                     }
 
                     sleep(5)
@@ -161,8 +183,10 @@ pipeline {
             post {
                 always {
                     script {
-                        sh "d2 cluster compose $DHIS2_VERSION_IN_PACKAGE logs core > logs_empty_instance.txt"
-                        archiveArtifacts artifacts: "logs_empty_instance.txt"
+                        dir('hack') {
+                            sh 'docker-compose logs web > logs_empty_instance.txt'
+                            archiveArtifacts artifacts: 'logs_empty_instance.txt'
+                        }
                     }
                 }
             }
