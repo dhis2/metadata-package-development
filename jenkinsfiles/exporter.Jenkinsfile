@@ -150,7 +150,7 @@ pipeline {
 
                     JIB_IMAGE_VERSIONS = ['2.39.0', '2.38.2', '2.37.9']
 
-                    if (JIB_IMAGE_VERSIONS.any { DHIS2_VERSION_IN_PACKAGE.contains(it) } || DHIS2_DOCKER_REPO == 'core-dev') {
+                    if (JIB_IMAGE_VERSIONS.any { DHIS2_VERSION_IN_PACKAGE.contains(it) } || env.DHIS2_DOCKER_REPO == 'core-dev') {
                         env.DHIS2_HOME = '/opt/dhis2'
                     }
 
