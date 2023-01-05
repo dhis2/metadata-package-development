@@ -111,10 +111,10 @@ pipeline {
 
                     DHIS2_VERSION_IN_PACKAGE = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
 
-                    // DHIS2 version 2.39.0.1 contains an extraneous "SNAPSHOT" substring, even though it's a stable version.
-                    // This check makes sure the substring is removed, so it's not incorrectly considered as a dev version.
-                    if (DHIS2_VERSION_IN_PACKAGE == '2.39.0.1-SNAPSHOT') {
-                        DHIS2_VERSION_IN_PACKAGE = '2.39.0.1'
+                    // The following DHIS2 versions contain an extraneous "SNAPSHOT" substring, even though they're stable versions.
+                    // This check makes sure the substring is removed, so they're not incorrectly considered as dev versions.
+                    if (DHIS2_VERSION_IN_PACKAGE in ['2.39.0.1-SNAPSHOT', '2.38.2.1-SNAPSHOT', '2.37.8.1-SNAPSHOT', '2.36.12.1-SNAPSHOT']) {
+                        DHIS2_VERSION_IN_PACKAGE = DHIS2_VERSION_IN_PACKAGE.replace('-SNAPSHOT', '')
                     }
 
                     PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .name\"").trim()
