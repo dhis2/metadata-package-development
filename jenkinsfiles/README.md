@@ -9,3 +9,11 @@
 ### [Triggerer](triggerer.Jenkinsfile)
 * Triggers the [exporter](##Exporter) pipeline in parallel, based on the enabled packages in the Metadata index spreadsheet (via the [metadata-index-parser](https://github.com/dhis2/dhis2-utils/tree/master/tools/dhis2-metadata-index-parser)) and a list of DHIS2 versions to export from.
 * Can be started manually or by a [cron schedule](https://www.jenkins.io/doc/book/pipeline/syntax/#triggers).
+
+### develop
+
+### commit
+
+### export
+
+### trigger-export
