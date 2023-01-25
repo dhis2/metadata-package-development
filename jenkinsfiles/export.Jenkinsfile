@@ -7,8 +7,10 @@ pipeline {
 
     parameters {
         stashedFile 'package_metadata_file'
+        // TODO dynamic list of codes?
         string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
         string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
+        // TODO dynamic list of descriptions/names?
         string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
         string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
         string(name: 'DHIS2_version', defaultValue: '2.37', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.37, not 2.37.1)')
@@ -160,7 +162,8 @@ pipeline {
                     sleep(5)
 
                     dir('test') {
-                        sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $DHIS2_PORT"
+                        sh "$WORKSPACE/scripts/replace-ou-placeholders.sh ./package_orig.json > ./package.json"
+                        sh "$WORKSPACE/scripts/run-import-tests.sh $DHIS2_LOCAL_PORT"
                     }
                 }
             }
