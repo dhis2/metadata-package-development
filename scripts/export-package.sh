@@ -12,14 +12,14 @@ new_version_export_instance="https://who-dev.dhis2.org/${export_instance##*/}"
 
 if [[ "${DHIS2_version:-}" ]]; then
   case "$DHIS2_version" in
-    "2.36")
-      instance="$export_instance"
-      ;;
     "2.37")
-      instance="${new_version_export_instance}237"
+      instance="$export_instance"
       ;;
     "2.38")
       instance="${new_version_export_instance}238"
+      ;;
+    "2.39")
+      instance="${new_version_export_instance}239"
       ;;
   esac
 else
