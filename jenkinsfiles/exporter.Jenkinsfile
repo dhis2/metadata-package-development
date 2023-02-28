@@ -144,40 +144,17 @@ pipeline {
         stage('Test import in empty instance') {
             steps {
                 script {
-                    env.DHIS2_DOCKER_REPO = 'core'
-                    env.DHIS2_HOME = '/DHIS2_home'
+                    env.DHIS2_CHANNEL = 'stable'
 
                     if (DHIS2_VERSION_IN_PACKAGE.length() <= 4 || DHIS2_VERSION_IN_PACKAGE.contains('SNAPSHOT')) {
-                        echo "DHIS2 version is from dev channel."
-                        env.DHIS2_DOCKER_REPO = 'core-dev'
+                        echo 'DHIS2 version is from dev channel.'
+                        env.DHIS2_CHANNEL = 'dev'
                         DHIS2_VERSION_IN_PACKAGE = DHIS2_VERSION_IN_PACKAGE[0..3]
                         PUSH_PACKAGE = false
                     }
 
-                    JIB_IMAGE_VERSIONS = ['2.39.0', '2.38.2', '2.37.9']
-
-                    if (JIB_IMAGE_VERSIONS.any { DHIS2_VERSION_IN_PACKAGE.contains(it) } || env.DHIS2_DOCKER_REPO == 'core-dev') {
-                        env.DHIS2_HOME = '/opt/dhis2'
-                    }
-
-                    withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                        dir('hack') {
-                            dir('docker') {
-                                sh 'curl "https://raw.githubusercontent.com/dhis2/dhis2-core/master/docker/dhis.conf" -O'
-                            }
-
-                            env.DHIS2_IMAGE = "dhis2/${DHIS2_DOCKER_REPO}:${DHIS2_VERSION_IN_PACKAGE}"
-
-                            sh 'docker-compose up -d'
-
-                            sleep(10) // Needed for safety, as the curl cmd below might fail with "Error (7): couldn't connect to host"
-
-                            waitUntil {
-                                response_code = sh(returnStdout: true, script: "curl -ksL -X GET -w %{http_code} -o /dev/null http://localhost:${DHIS2_PORT}")
-
-                                return (response_code.toInteger() == 200)
-                            }
-                        }
+                    withDockerRegistry([credentialsId: 'docker-hub-credentials', url: '']) {
+                        d2.startCluster("$DHIS2_VERSION_IN_PACKAGE", "$DHIS2_PORT", "$DHIS2_CHANNEL")
                     }
 
                     sleep(5)
@@ -191,10 +168,8 @@ pipeline {
             post {
                 always {
                     script {
-                        dir('hack') {
-                            sh 'docker-compose logs web > logs_empty_instance.txt'
-                            archiveArtifacts artifacts: 'logs_empty_instance.txt'
-                        }
+                        sh "d2 cluster compose $DHIS2_VERSION_IN_PACKAGE logs core > logs_empty_instance.txt"
+                        archiveArtifacts artifacts: 'logs_empty_instance.txt'
                     }
                 }
             }
