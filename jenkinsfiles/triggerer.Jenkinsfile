@@ -66,4 +66,16 @@ pipeline {
             }
         }
     }
+
+    post {
+        failure {
+            script {
+                slackSend(
+                    color: '#00ffff',
+                    channel: '@U01RSD1LPB3',
+                    message: slack.buildUrl() + " failed."
+                )
+            }
+        }
+    }
 }
