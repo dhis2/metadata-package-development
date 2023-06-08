@@ -4,12 +4,12 @@ def generateStagesMap(packages) {
 
     packages.each { pkg ->
         pkg["DHIS2 versions to export from"].split(',').each { version ->
-            map["${pkg['DHIS2 code for packaging']} (type: ${pkg['Script parameter']}) for ${version}"] = {
+            map["${pkg['Extraction code']} (type: ${pkg['Script parameter']}) for ${version}"] = {
                 stage("Export package") {
                     build job: 'metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_version', value: "$version"),
                         string(name: 'Instance_url', value: "${pkg['Source instance']}"),
-                        string(name: 'Package_code', value: "${pkg['DHIS2 code for packaging']}"),
+                        string(name: 'Package_code', value: "${pkg['Extraction code']}"),
                         string(name: 'Package_type', value: "${pkg['Script parameter']}"),
                         string(name: 'Package_description', value: "${pkg['Component name']}"),
                     ]
