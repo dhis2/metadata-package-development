@@ -2,10 +2,9 @@
 
 set -euxo pipefail
 
-port="$1"
-user="${USER_NAME:-admin}"
-pass="${USER_PASSWORD:-district}"
+server_url="$1"
+default_server_name='default'
 
-echo -e "[localhost]\nserver=http://localhost:${port}/api/\nserver_name=localhost\nuser=${user}\npassword=${pass}\npage_size=500" > credentials.ini
+echo -e "[$default_server_name]\nserver=$server_url/api/\nserver_name=$default_server_name\nuser=${USER_NAME:-admin}\npassword=${USER_PASSWORD:-district}\npage_size=500" > credentials.ini
 
-python3 dhis2-metadata-checkers/check_expressions.py --credentials localhost
+python3 dhis2-metadata-checkers/check_expressions.py --credentials $default_server_name
