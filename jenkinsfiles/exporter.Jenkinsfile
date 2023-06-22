@@ -10,6 +10,8 @@ pipeline {
         string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
         string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
         string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
+        string(name: 'Package_health_area_name', defaultValue: '', description: '[REQUIRED] Health Area name of the package.')
+        string(name: 'Package_health_area_code', defaultValue: '', description: '[REQUIRED] Health Area code of the package.')
         string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
         string(name: 'DHIS2_version', defaultValue: '2.37', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.37, not 2.37.1)')
         booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
@@ -27,6 +29,8 @@ pipeline {
         PACKAGE_CODE = "${params.Package_code}"
         PACKAGE_TYPE = "${params.Package_type}"
         PACKAGE_DESCRIPTION = "${params.Package_description}"
+        PACKAGE_HEALTH_AREA_NAME = "${params.Package_health_area_name}"
+        PACKAGE_HEALTH_AREA_CODE = "${params.Package_health_area_code}"
         DHIS2_VERSION_INPUT = "${params.DHIS2_version}"
         INSTANCE_URL = "${params.Instance_url}"
         PUSH_PACKAGE = "${params.Push_package}"
@@ -82,7 +86,7 @@ pipeline {
                         returnStdout: true,
                         script: """#!/bin/bash
                             set -euxo pipefail
-                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" "$INSTANCE_URL" | tail -1
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" "$PACKAGE_HEALTH_AREA_NAME" "$PACKAGE_HEALTH_AREA_CODE" "$INSTANCE_URL" | tail -1
                         """
                     ).trim()
 

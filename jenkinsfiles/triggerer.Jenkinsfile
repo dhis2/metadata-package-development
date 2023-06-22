@@ -12,6 +12,8 @@ def generateStagesMap(packages) {
                         string(name: 'Package_code', value: "${pkg['Extraction code']}"),
                         string(name: 'Package_type', value: "${pkg['Script parameter']}"),
                         string(name: 'Package_description', value: "${pkg['Component name']}"),
+                        string(name: 'Package_health_area_name', value: "${pkg['Health area']}"),
+                        string(name: 'Package_health_area_code', value: "${pkg['Health area prefix']}"),
                     ]
                 }
             }
