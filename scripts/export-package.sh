@@ -5,7 +5,9 @@ set -euxo pipefail
 code="$1"
 type="$2"
 description="$3"
-export_instance="$4"
+health_area_name="$4"
+health_area_code="$5"
+export_instance="$6"
 
 # Use the "path" of the base version host.
 new_version_export_instance="https://who-dev.dhis2.org/${export_instance##*/}"
@@ -28,4 +30,4 @@ fi
 
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
 
-python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$code" "$code" -desc="$description" -i="$instance"
+python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$code" "$code" -desc="$description" -han="$health_area_name" -hac="$health_area_code" -i="$instance"
