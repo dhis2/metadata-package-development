@@ -214,7 +214,7 @@ pipeline {
                 script {
                     slackSend(
                         color: '#00ffff',
-                        channel: '@U01RSD1LPB3',
+                        channel: 'pkg-notifications',
                         message: slack.buildUrl() + "\nPausing for review before importing package."
                     )
                 }
@@ -272,7 +272,7 @@ pipeline {
                 script {
                     slackSend(
                         color: '#00ffff',
-                        channel: '@U01RSD1LPB3',
+                        channel: 'pkg-notifications',
                         message: slack.buildUrl() + "\nPausing for review after importing package."
                     )
                 }
