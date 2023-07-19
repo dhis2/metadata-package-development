@@ -181,14 +181,18 @@ pipeline {
                     parallel {
                         stage('Check dashboards') {
                             steps {
-                                sh './scripts/make-dashboards-public.sh'
-                                sh './scripts/check-dashboards.sh http://localhost:$DHIS2_LOCAL_PORT'
+                                catchError(catchInterruptions: false, message: 'Dashboard errors found!', stageResult: 'FAILURE') {
+                                    sh './scripts/make-dashboards-public.sh'
+                                    sh './scripts/check-dashboards.sh http://localhost:$DHIS2_LOCAL_PORT'
+                                }
                             }
                         }
 
                         stage('Check PR expressions') {
                             steps {
-                                sh './scripts/check-expressions.sh http://localhost:$DHIS2_LOCAL_PORT'
+                                catchError(catchInterruptions: false, message: 'PR expressions errors found!', stageResult: 'FAILURE') {
+                                    sh './scripts/check-expressions.sh http://localhost:$DHIS2_LOCAL_PORT'
+                                }
                             }
                         }
                     }
