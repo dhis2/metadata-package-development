@@ -388,16 +388,14 @@ pipeline {
                 script {
                     withCredentials([usernamePassword(credentialsId: "$PKG_IM_CREDENTIALS_ID", passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         dir('im-manager/scripts/databases') {
-                            env.NEW_DATABASE_ID = sh(
-                                returnStdout: true,
-                                script: "./save.sh $INSTANCE_GROUP_NAME $INSTANCE_NAME_FULL | jq -r '.id'"
-                            ).trim()
+                            sh "./save.sh $INSTANCE_GROUP_NAME $INSTANCE_NAME_FULL"
 
                             timeout(15) {
                                 waitUntil(initialRecurrencePeriod: 5000, quiet: true) {
-                                    dbUrl = sh(returnStdout: true, script: "./findById.sh $NEW_DATABASE_ID | jq -r '.url'").trim()
+                                    // TODO change this once we have a better way of knowing the status of a "save"
+                                    lock = sh(returnStdout: true, script: "./findById.sh $DATABASE_ID | jq -r '.lock'").trim()
 
-                                    return (dbUrl != '')
+                                    return (lock == 'null')
                                 }
                             }
                         }
