@@ -25,6 +25,7 @@ pipeline {
     environment {
         IMAGE_TAG = "${params.DHIS2_VERSION}"
         IMAGE_REPOSITORY = 'core'
+        IM_REPO_URL = "https://github.com/dhis2-sre/im-manager"
         IM_ENVIRONMENT = 'prod.test.c.dhis2.org'
         IM_HOST = "https://api.im.$IM_ENVIRONMENT"
         INSTANCE_GROUP_NAME = 'meta-packages'
@@ -59,7 +60,7 @@ pipeline {
                     }
 
                     dir('im-manager') {
-                        gitHelper.sparseCheckout('https://github.com/dhis2-sre/im-manager', 'master', '/scripts')
+                        gitHelper.sparseCheckout(IM_REPO_URL, "${gitHelper.getLatestTag(IM_REPO_URL)}", '/scripts')
                     }
                 }
             }
