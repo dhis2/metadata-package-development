@@ -157,8 +157,24 @@ pipeline {
                     steps {
                         script {
                             withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                                DHIS2_CHANNEL = "${params.DHIS2_IMAGE_REPOSITORY == 'core' ? 'stable' : 'dev'}"
-                                d2.startCluster("$IMAGE_TAG", "$DHIS2_LOCAL_PORT", "$DHIS2_CHANNEL")
+//                                DHIS2_CHANNEL = "${params.DHIS2_IMAGE_REPOSITORY == 'core' ? 'stable' : 'dev'}"
+//                                d2.startCluster("$IMAGE_TAG", "$DHIS2_LOCAL_PORT", "$DHIS2_CHANNEL")
+                                dir('hack') {
+                                    dir('docker') {
+                                        sh 'curl "https://raw.githubusercontent.com/dhis2/dhis2-core/master/docker/dhis.conf" -O'
+                                    }
+
+                                    env.DHIS2_HOME = '/opt/dhis2'
+                                    env.DHIS2_IMAGE = "dhis2/${params.DHIS2_IMAGE_REPOSITORY}:${IMAGE_TAG}"
+
+                                    sh 'docker-compose up -d'
+
+                                    sleep(10)
+
+                                    timeout(5) {
+                                        waitFor.statusOk("http://localhost:${DHIS2_LOCAL_PORT}")
+                                    }
+                                }
                             }
 
                             sleep(5)
@@ -173,8 +189,11 @@ pipeline {
                     post {
                         always {
                             script {
-                                sh "d2 cluster compose $IMAGE_TAG logs core > logs_empty_instance.txt"
-                                archiveArtifacts artifacts: 'logs_empty_instance.txt'
+//                                sh "d2 cluster compose $IMAGE_TAG logs core > logs_empty_instance.txt"
+                                dir('hack') {
+                                    sh "docker-compose logs core > logs_empty_instance.txt"
+                                    archiveArtifacts artifacts: 'logs_empty_instance.txt'
+                                }
                             }
                         }
                     }

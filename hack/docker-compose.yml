@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  web:
+  core:
     image: "${DHIS2_IMAGE:-dhis2/core-dev:local}"
     ports:
       - 127.0.0.1:8080:8080
