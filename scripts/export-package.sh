@@ -9,23 +9,10 @@ health_area_name="$4"
 health_area_code="$5"
 export_instance="$6"
 
-# Use the "path" of the base version host.
-new_version_export_instance="https://who-dev.dhis2.org/${export_instance##*/}"
-
-if [[ "${DHIS2_version:-}" ]]; then
-  case "$DHIS2_version" in
-    "2.37")
-      instance="$export_instance"
-      ;;
-    "2.38")
-      instance="${new_version_export_instance}238"
-      ;;
-    "2.39")
-      instance="${new_version_export_instance}239"
-      ;;
-  esac
-else
+if [[ "$DHIS2_version" == "2.38" || -z "$DHIS2_version" ]]; then
   instance="$export_instance"
+else
+  instance="https://who-dev.dhis2.org/${export_instance##*/}${DHIS2_version//./}"
 fi
 
 pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
