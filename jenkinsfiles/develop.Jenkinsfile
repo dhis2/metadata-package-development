@@ -8,6 +8,7 @@ pipeline {
     parameters {
         choice(name: 'DATABASE', choices: ['dev', 'tracker_dev', 'pkgmaster', 'empty'], description: 'Packages development database from https://metadata.dev.dhis2.org, pkgmaster or an empty one.')
         string(name: 'INSTANCE_NAME', defaultValue: 'foobar', description: 'Full instance name will be: "pkg-dev-<INSTANCE_NAME>-<BUILD_NUMBER>".')
+        choice(name: 'DHIS2_IMAGE_REPOSITORY', choices: ['core', 'core-dev'], description: 'DHIS2 Docker image repository.')
         string(name: 'DHIS2_VERSION', defaultValue: '2.38.4', description: 'DHIS2 version for the instance.')
         string(name: 'TTL', defaultValue: '', description: 'Time to live for the instance in minutes.')
     }
@@ -18,7 +19,7 @@ pipeline {
 
     environment {
         IMAGE_TAG = "${params.DHIS2_VERSION}"
-        IMAGE_REPOSITORY = 'core'
+        IMAGE_REPOSITORY = "${params.DHIS2_IMAGE_REPOSITORY}"
         IM_REPO_URL = "https://github.com/dhis2-sre/im-manager"
         IM_ENVIRONMENT = 'prod.test.c.dhis2.org'
         IM_HOST = "https://api.im.$IM_ENVIRONMENT"

@@ -9,6 +9,7 @@ pipeline {
         string(name: 'STAGING_INSTANCE_NAME', defaultValue: 'foobar', description: '[REQUIRED] Full staging instance name will be: "pkg-staging-<STAGING_INSTANCE_NAME>-<BUILD_NUMBER>".')
         choice(name: 'DATABASE', choices: ['pkgmaster', 'dev', 'tracker_dev'], description: '[REQUIRED] Master packages database or development database from https://metadata.dev.dhis2.org.')
         booleanParam(name: 'REPLACE_DATABASE', defaultValue: true, description: '[OPTIONAL] Replace database if all validations and tests pass.')
+        choice(name: 'DHIS2_IMAGE_REPOSITORY', choices: ['core', 'core-dev'], description: 'DHIS2 Docker image repository.')
         string(name: 'DHIS2_VERSION', defaultValue: '2.38.4', description: '[OPTIONAL] DHIS2 version for the instance.')
         string(name: 'DEV_INSTANCE_NAME', defaultValue: '', description: '[OPTIONAL] Name of the dev instance to export from.\nOnly needed if you want to export a package specified with PACKAGE_CODE/TYPE')
         string(name: 'PACKAGE_CODE', defaultValue: '', description: '[OPTIONAL] Package code to extract with.\nNo need to provide this if you want to uploaded a package file below.')
@@ -24,7 +25,7 @@ pipeline {
 
     environment {
         IMAGE_TAG = "${params.DHIS2_VERSION}"
-        IMAGE_REPOSITORY = 'core'
+        IMAGE_REPOSITORY = "${params.DHIS2_IMAGE_REPOSITORY}"
         IM_REPO_URL = "https://github.com/dhis2-sre/im-manager"
         IM_ENVIRONMENT = 'prod.test.c.dhis2.org'
         IM_HOST = "https://api.im.$IM_ENVIRONMENT"
@@ -156,7 +157,8 @@ pipeline {
                     steps {
                         script {
                             withDockerRegistry([credentialsId: "docker-hub-credentials", url: ""]) {
-                                d2.startCluster("$IMAGE_TAG", "$DHIS2_LOCAL_PORT")
+                                DHIS2_CHANNEL = "${params.DHIS2_IMAGE_REPOSITORY == 'core' ? 'stable' : 'dev'}"
+                                d2.startCluster("$IMAGE_TAG", "$DHIS2_LOCAL_PORT", "$DHIS2_CHANNEL")
                             }
 
                             sleep(5)
