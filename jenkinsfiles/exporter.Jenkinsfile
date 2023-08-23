@@ -37,6 +37,7 @@ pipeline {
         DHIS2_PORT = 8080
         PACKAGE_IS_EXPORTED = false
         PACKAGE_EXPORT_SUCCEEDED = false
+        PACKAGE_DHIS2_CREDENTIALS = credentials('packages-instance-credentials')
     }
 
     stages {
@@ -54,10 +55,6 @@ pipeline {
                     // If file wasn't uploaded, its size will be 0.
                     return (fileExists("${PACKAGE_FILE}")) && readFile("${PACKAGE_FILE}").size() == 0
                 }
-            }
-
-            environment {
-                USER_CREDENTIALS = credentials('packages-instance-credentials')
             }
 
             steps {
@@ -80,7 +77,7 @@ pipeline {
 
                     PACKAGE_IS_EXPORTED = true
 
-                    sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${USER_CREDENTIALS_USR}\\", \\"password\\": \\"${USER_CREDENTIALS_PSW}\\"}} > auth.json'
+                    sh 'echo {\\"dhis\\": {\\"baseurl\\": \\"\\", \\"username\\": \\"${PACKAGE_DHIS2_CREDENTIALS_USR}\\", \\"password\\": \\"${PACKAGE_DHIS2_CREDENTIALS_PSW}\\"}} > auth.json'
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
@@ -146,6 +143,10 @@ pipeline {
         }
 
         stage('Test import in empty instance') {
+            environment {
+                DEFAULT_DHIS2_CREDENTIALS = credentials('dhis2-default')
+            }
+
             steps {
                 script {
                     env.DHIS2_CHANNEL = 'stable'
@@ -165,6 +166,11 @@ pipeline {
 
                     dir('test') {
                         sh "$WORKSPACE/scripts/run-import-tests.sh ./package_orig.json $DHIS2_PORT"
+                    }
+
+                    NOTIFIER_ENDPOINT = dhis2.generateAnalytics("http://localhost:$DHIS2_PORT", '$DEFAULT_DHIS2_CREDENTIALS')
+                    timeout(5) {
+                        waitFor.analyticsCompleted("http://localhost:${DHIS2_PORT}${NOTIFIER_ENDPOINT}", '$DEFAULT_DHIS2_CREDENTIALS')
                     }
                 }
             }
