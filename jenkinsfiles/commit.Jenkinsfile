@@ -27,6 +27,7 @@ pipeline {
         IMAGE_TAG = "${params.DHIS2_VERSION}"
         IMAGE_REPOSITORY = "${params.DHIS2_IMAGE_REPOSITORY}"
         IM_REPO_URL = "https://github.com/dhis2-sre/im-manager"
+        //TODO update prod environment hostname and IM group hostname
         IM_ENVIRONMENT = 'prod.test.c.dhis2.org'
         IM_HOST = "https://api.im.$IM_ENVIRONMENT"
         INSTANCE_GROUP_NAME = 'meta-packages'
