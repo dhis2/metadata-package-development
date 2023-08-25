@@ -9,7 +9,7 @@ health_area_name="$4"
 health_area_code="$5"
 export_instance="$6"
 
-if [[ "$DHIS2_version" == "2.38" || -z "$DHIS2_version" ]]; then
+if [[ "${DHIS2_version:-}" == "2.38" || -z "${DHIS2_version:-}" || "${DHIS2_version:-}" =~ [0-9] ]]; then
   instance="$export_instance"
 else
   instance="https://who-dev.dhis2.org/${export_instance##*/}${DHIS2_version//./}"
