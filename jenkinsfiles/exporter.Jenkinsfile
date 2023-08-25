@@ -14,6 +14,7 @@ pipeline {
         string(name: 'Package_health_area_code', defaultValue: '', description: '[REQUIRED] Health Area code of the package.')
         string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
         string(name: 'DHIS2_version', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.37, not 2.37.1)')
+        booleanParam(name: 'Run_checks', defaultValue: true, description: '[OPTIONAL] Choose whether to run the PR expressions and Dashboard checks.')
         booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
@@ -186,6 +187,10 @@ pipeline {
         }
 
         stage('Run checks') {
+            when {
+                expression { params.Run_checks.toBoolean() }
+            }
+
             parallel {
                 stage('Check dashboards') {
                     steps {
