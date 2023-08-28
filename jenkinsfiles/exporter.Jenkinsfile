@@ -105,10 +105,10 @@ pipeline {
             steps {
                 script {
                     if (PACKAGE_IS_EXPORTED.toBoolean()) {
-                        sh "cp $WORKSPACE/$PACKAGE_FILE ./test/package_orig.json"
+                        sh "cp \"$WORKSPACE/$PACKAGE_FILE\" ./test/package_orig.json"
                     } else {
                         unstash "$PACKAGE_FILE"
-                        sh "cp $PACKAGE_FILE ./test/package_orig.json"
+                        sh "cp \"$PACKAGE_FILE\" ./test/package_orig.json"
                     }
 
                     DHIS2_VERSION_IN_PACKAGE = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r \".package .DHIS2Version\"").trim()
