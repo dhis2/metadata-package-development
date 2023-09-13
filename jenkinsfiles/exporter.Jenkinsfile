@@ -1,22 +1,41 @@
 @Library('pipeline-library') _
 
+node('ec2-jdk8-large-spot') {
+    dir('dhis2-utils') {
+        git url: 'https://github.com/dhis2/dhis2-utils', branch: 'use-argparse-insead-of-envvars'
+
+        dir('tools/dhis2-metadata-index-parser') {
+            sh 'pip3 install -r requirements.txt'
+
+            withCredentials([file(credentialsId: 'metadata-index-parser-service-account', variable: 'GOOGLE_SERVICE_ACCOUNT')]) {
+                env.SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
+
+                env.PACKAGES_INDEX_JSON = sh(
+                    returnStdout: true,
+                    script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $SPREADSHEET_ID --no-only-ready --no-uncheck-readiness'
+                ).trim()
+
+                PARAMETER_VALUES = sh(returnStdout:true, script: 'echo $PACKAGES_INDEX_JSON | jq -r \'.[] | .["Component name"]\'').trim()
+            }
+        }
+    }
+}
+
 pipeline {
     agent {
         label 'ec2-jdk8-large-spot'
     }
 
     parameters {
-        stashedFile 'package_metadata_file'
-        string(name: 'Package_code', defaultValue: '', description: '[REQUIRED] Package code to extract with.')
-        string(name: 'Package_type', defaultValue: '', description: '[REQUIRED] Type of the package to export.')
-        string(name: 'Package_description', defaultValue: '', description: '[REQUIRED] Description of the package.')
-        string(name: 'Package_health_area_name', defaultValue: '', description: '[REQUIRED] Health Area name of the package.')
-        string(name: 'Package_health_area_code', defaultValue: '', description: '[REQUIRED] Health Area code of the package.')
-        string(name: 'Instance_url', defaultValue: 'https://metadata.dev.dhis2.org/dev', description: '[REQUIRED] Instance URL to export package from.')
-        string(name: 'DHIS2_version', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.37, not 2.37.1)')
-        booleanParam(name: 'Run_checks', defaultValue: true, description: '[OPTIONAL] Choose whether to run the PR expressions and Dashboard checks.')
-        booleanParam(name: 'Push_package', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
-        string(name: 'Commit_message', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
+        booleanParam(name: 'REFRESH_PACKAGES', defaultValue: false, description: '[OPTIONAL] Refresh the list of PACKAGE_NAMEs and abort the build.')
+        choice(name: 'PACKAGE_NAME', choices: PARAMETER_VALUES, description: '[REQUIRED] Select a package to extract by name.')
+        string(name: 'INSTANCE_URL', defaultValue: '', description: '[OPTIONAL] Instance URL to export package from.')
+        string(name: 'DHIS2_VERSION', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.38, not 2.38.1, etc)')
+        stashedFile(name: 'PACKAGE_FILE_UPLOAD', description: '[OPTIONAL] Upload a package file directly, instead of exporting it.\n If a file is uploaded, all the previous parameters are obsolete.')
+        booleanParam(name: 'RUN_CHECKS', defaultValue: true, description: '[OPTIONAL] Choose whether to run the PR expressions and Dashboard checks.')
+        //TODO change to `true` before merging
+        booleanParam(name: 'PUSH_PACKAGE', defaultValue: false, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
+        string(name: 'COMMIT_MESSAGE', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
 
     options {
@@ -24,17 +43,9 @@ pipeline {
     }
 
     environment {
-        UTILS_GIT_URL = "https://github.com/dhis2/dhis2-utils"
-        METADATA_CHECKERS_GIT_URL = "https://github.com/solid-lines/dhis2-metadata-checkers"
-        PACKAGE_FILE = "package_metadata_file"
-        PACKAGE_CODE = "${params.Package_code}"
-        PACKAGE_TYPE = "${params.Package_type}"
-        PACKAGE_DESCRIPTION = "${params.Package_description}"
-        PACKAGE_HEALTH_AREA_NAME = "${params.Package_health_area_name}"
-        PACKAGE_HEALTH_AREA_CODE = "${params.Package_health_area_code}"
-        DHIS2_VERSION_INPUT = "${params.DHIS2_version}"
-        INSTANCE_URL = "${params.Instance_url}"
-        PUSH_PACKAGE = "${params.Push_package}"
+        UTILS_GIT_URL = 'https://github.com/dhis2/dhis2-utils'
+        METADATA_CHECKERS_GIT_URL = 'https://github.com/solid-lines/dhis2-metadata-checkers'
+        PACKAGE_FILE = 'PACKAGE_FILE_UPLOAD'
         DHIS2_PORT = 8080
         PACKAGE_IS_EXPORTED = false
         PACKAGE_EXPORT_SUCCEEDED = false
@@ -60,17 +71,18 @@ pipeline {
 
             steps {
                 script {
-                    if (params.Package_code == null || params.Package_code == '') {
-                        error('Package code is not set.')
+                    if (params.REFRESH_PACKAGES.toBoolean()) {
+                        error('This build is only for refreshing the PACKAGE_NAME parameter. Pipeline will be aborted now.')
                     }
 
-                    if (params.Package_type == null || params.Package_type == '') {
-                        error('Package type is not set.')
-                    }
-
-                    if (params.Package_description == null || params.Package_description == '') {
-                        error('Package description is not set.')
-                    }
+                    // Get package details based on the selected PACKAGE_NAME parameter value.
+                    env.SELECTED_PACKAGE = sh(returnStdout: true, script: 'echo "$PACKAGES_INDEX_JSON" | jq --arg name "$PACKAGE_NAME" -r \'.[] | select(."Component name" == $name)\'').trim()
+                    env.PACKAGE_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Extraction code"\'').trim()
+                    env.PACKAGE_TYPE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Script parameter"\'').trim()
+                    env.PACKAGE_SOURCE_INSTANCE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Source instance"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_NAME = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area prefix"\'').trim()
+                    env.INSTANCE_URL = "${params.INSTANCE_URL != '' ? params.INSTANCE_URL : env.PACKAGE_SOURCE_INSTANCE}"
 
                     dir('dhis2-utils') {
                         git url: "$UTILS_GIT_URL"
@@ -82,10 +94,10 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: """#!/bin/bash
+                        script: '''#!/bin/bash
                             set -euxo pipefail
-                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_DESCRIPTION" "$PACKAGE_HEALTH_AREA_NAME" "$PACKAGE_HEALTH_AREA_CODE" "$INSTANCE_URL" | tail -1
-                        """
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_NAME" "$PACKAGE_HEALTH_AREA_NAME" "$PACKAGE_HEALTH_AREA_CODE" "$INSTANCE_URL" | tail -1
+                        '''
                     ).trim()
 
                     PACKAGE_EXPORT_SUCCEEDED = true
@@ -188,7 +200,7 @@ pipeline {
 
         stage('Run checks') {
             when {
-                expression { params.Run_checks.toBoolean() }
+                expression { params.RUN_CHECKS.toBoolean() }
             }
 
             parallel {
@@ -231,12 +243,12 @@ pipeline {
     post {
         failure {
             script {
-                if (!env.DHIS2_VERSION_INPUT) {
-                    DHIS2_VERSION_INPUT = "not provided"
+                if (!params.DHIS2_VERSION) {
+                    DHIS2_VERSION = 'not provided'
                 }
 
                 if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
-                    message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION_INPUT) package export failed in ${slack.buildUrl()}"
+                    message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
                 } else {
                     message = "The $PACKAGE_NAME (DHIS2 version: $DHIS2_VERSION_IN_PACKAGE) package tests failed in ${slack.buildUrl()}"
                 }
