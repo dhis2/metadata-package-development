@@ -24,8 +24,8 @@
   - [Export Triggerer pipeline](#export-triggerer-pipeline)
 - [Releasing Metadata Packages](#releasing-metadata-packages)
   - [Publish workflow summary](#publish-workflow-summary)
-  - [How to add the Publish workflow to a given branch:](#how-to-add-the-publish-workflow-to-a-given-branch)
-  - [How to create new Release and Tag:](#how-to-create-new-release-and-tag)
+  - [How to add the Publish workflow to a given branch](#how-to-add-the-publish-workflow-to-a-given-branch)
+  - [How to create new a Release and Tag](#how-to-create-new-a-release-and-tag)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -193,10 +193,10 @@ Releasing/publish is done with the ["Publish" GitHub Workflow](https://github.co
 
 The “Publish” GitHub workflow needs to be added to every “feature” branch (2.38, 2.39 … ) of every package repository that we want to release.
 
-You can find two step by step guides for [adding the “Publish” workflow to a repository](#how-to-add-the-publish-workflow-to-a-given-branch) we want to publish from, as well as [how to create new Releases/Tags](#how-to-create-new-release-and-tag) in order to trigger the workflow for a new package version.
+You can find two step by step guides for [adding the “Publish” workflow to a repository](#how-to-add-the-publish-workflow-to-a-given-branch) we want to publish from, as well as [how to create new Releases/Tags](#how-to-create-new-a-release-and-tag) in order to trigger the workflow for a new package version.
 
 ### Publish workflow summary
-1. Get the package version and DHIS2 version from a `tag` (see [how to create a new tag](#how-to-create-new-release-and-tag)).
+1. Get the package version and DHIS2 version from a `tag` (see [how to create a new tag](#how-to-create-new-a-release-and-tag)).
 2. Prepare the packages for archiving via the [prepare action](https://github.com/dhis2-metadata/prepare).
 3. Version the packages based on the package version provided in the `tag` (the current format is `D<dhis2-version>/<package-version>`, like `D2.39/1.0.1`).
 3. Generate the package reference files via the [dev-otta/metadatareference](https://github.com/dev-otta/metadatareference) tool.
@@ -206,7 +206,7 @@ You can find two step by step guides for [adding the “Publish” workflow to a
 7. Update the [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index) file, which is used to control what packages are shown on the Downloads page.
 8. Get the release notes from the `master` branch of the current directory and add them to the new Release.
 
-### How to add the Publish workflow to a given branch:
+### How to add the Publish workflow to a given branch
 1. Copy the `publish.yaml` file contents from [the TB_AGG repo, branch 2.38](https://raw.githubusercontent.com/dhis2-metadata/TB_AGG/2.38/.github/workflows/publish.yaml) (this is just the “first” place I’ve added the Publish workflow in order to test it, but given that the file contents are the same regardless of the branch and repo - it can be taken from anywhere it already exists)
 2. Go to a feature branch of the desired repository (for example - [ENTO_IRS repo, branch 2.37](https://github.com/dhis2-metadata/ENTO_IRS/tree/2.37))
 3. Click “Add file” > “Create new file”
@@ -217,7 +217,7 @@ You can find two step by step guides for [adding the “Publish” workflow to a
 
 All of the above can be achieved by cloning the respective repository locally and adding the files that way, but it requires more experience with Git. Feel free to choose whichever way you prefer.
 
-### How to create new Release and Tag:
+### How to create new a Release and Tag
 1. Go to the desired repository
 2. Click on “Releases” to the right
 3. Click on “Draft new release” (or “Create new release”, if there are no previous releases)
