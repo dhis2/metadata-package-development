@@ -39,6 +39,10 @@ Before you begin, ensure you have the following:
 - Access to the [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
 - Familiarity with ... (links to metadata package development resources?)
 
+### Metadata Packages Development & Staging workflow
+
+[The Metadata Packages Development & Staging workflow diagram](https://docs.google.com/presentation/d/1_LRb4_w1rnNUkG8kaJr9EQJj_tHp6Xd4-t-8MY8uZDk/edit#slide=id.g1d68b1d873c_0_7) is supposed to represent the following two sections - [Developing Metadata Packages](#developing-metadata-packages) and [Committing Metadata Package Changes](#committing-metadata-package-changes).
+
 ---
 
 ## Developing Metadata Packages
@@ -106,12 +110,14 @@ It creates a “staging” instance and does all the rest of the work (testing, 
 * `PACKAGE_NAME` - name of the package to export; populated by the [packages spreadsheet](#metadata-packages-index-spreadsheet), and based on what a user selects - the rest of the required parameters for exporting a package are also taken from that spreadsheet
 * `PACKAGE_FILE_UPLOAD` - can be used to upload a package file directly, instead of exporting it from a development instance (for example, just for testing it)
 
-With all of the parameters above, the user is able to:
+With all of the parameters above, the pipeline is able to:
 * Use either:
   * an uploaded package
   * a package exported from a development instance
   * no package at all, just to start a staging instance for maintenance, for example
 * Pause before and after importing into the staging instance (with a notification in Slack)
+  * Pausing stops the execution of the pipeline until the user resumes it, which allows the user to do manual maintenance or testing
+  * During the pausing stages, the user can choose to delete the development instance  (specified in the `DEV_INSTANCE_NAME` parameter) at the end of the pipeline
 * Test the imported package (either manually uploaded or exported from a dev instance) in an empty DHIS2 instance, as well as testing the whole staging instance afterwards
 * Export all the metadata from the staging instance, creating a diff with the previous version of it via the metadatapackagediff tool (the .xlsx diff file can be found as an archived artifact in the build, for example see here) and pushing the newly exported version to this GitHub repo - https://github.com/dhis2-metadata/ALL_METADATA
 
@@ -128,21 +134,21 @@ Note that if you both specify a dev instance and upload a package, the dev insta
 ### Commit pipeline workflows
 
 #### “Standard” workflow
-1. Create a dev instance with the pkg-develop pipeline with INSTANCE_NAME set to “foobar”, for example; currently the “database seed” is a not very up-to-date dev database, i.e. aggregate packages only; this instance will be used to export the given package that is being developed.
-2. Wait for the pkg-develop pipeline build to complete and create the instance
-3. Create a staging instance with the pkg-commit pipeline and set DEV_INSTANCE_NAME to the final instance name of the dev instance created in the previous step - in case you used “foobar” for INSTANCE_NAME, the final name will be pkg-dev-foobar-<build number>; this instance will be used to test the exported package from the dev instance, import it and test the whole instance (or actually database).
-4. Wait for the pkg-commit pipeline build to complete; note that there are 2 “pause” stages (before and after importing the package into the staging instance) that allow for manual interventions to the staging instance; these pause stages will have to be “resumed” manually through the UI. Finally all the metadata is exported and pushed to GitHub if the dashboard and PR checks pass.
-5. The Package master database is replaced with the new version (that includes the newly imported package).
+1. Create a dev instance with the pkg-develop pipeline with `INSTANCE_NAME` set to “foobar”, for example. This instance will be used to export the package specified in `PACKAGE_NAME`.
+2. Wait for the pkg-develop pipeline build to complete and create the instance.
+3. Create a staging instance with the pkg-commit pipeline choose the `pkgmaster` option for the `DATABASE` parameter and set `DEV_INSTANCE_NAME` to the final instance name of the development instance created in the previous step - in case you used “foobar” for `INSTANCE_NAME`, the final name will be `pkg-dev-foobar-<build number>`. This instance will be used to test the exported package from the development instance, import it and test the whole instance (or actually database).
+4. Wait for the pkg-commit pipeline build to complete. Note that there are 2 “pause” stages (before and after importing the package into the staging instance) that allow for manual interventions on the staging instance. These pause stages will have to be “resumed” manually through the Jenkins UI. Finally all the metadata is exported and pushed to GitHub if the dashboard and PR checks pass.
+5. The Package Master database is replaced with the new version (that includes the newly imported package).
 
 #### “Manually upload a package” workflow
-1. Upload a package file to the pkg-commit pipeline; don’t input dev instance name or package code.
-2. Wait for the pkg-commit pipeline build to complete; note that this is almost the same as the “Standard” workflow, but instead of using a dev instance to export the package from - the user uploads the package manually. The package still goes through the same tests and validations.
-3. The Package master database is replaced with the new version (that includes the newly imported package).
+1. Upload a package file to the pkg-commit pipeline. Don’t input `DEV_INSTANCE_NAME` or `PACKAGE_NAME`.
+2. Wait for the pkg-commit pipeline build to complete. Note that this is almost the same as the “Standard” workflow, but instead of using a development instance to export the package from - the user uploads the package manually. The package still goes through the same tests and validations.
+3. The Package Master database is replaced with the new version (that includes the newly imported package).
 
 #### “Create a staging instance for maintenance” workflow
-1. Only input STAGING_INSTANCE_NAME; don’t upload package file or input dev instance name and package code.
-2. Wait for the pkg-commit pipeline build to complete; note that this workflow could be used to apply changes only to the Package master database (i.e. tracker + aggregate database) or some other maintenance task.
-3. The Package master database is replaced with the new version (that includes the changes done by the user).
+1. Only input `STAGING_INSTANCE_NAME`, don’t upload package file or input `DEV_INSTANCE_NAME` and `PACKAGE_NAME`.
+2. Wait for the pkg-commit pipeline build to complete. Note that this workflow could be used to apply changes to the Package Master database (i.e. tracker + aggregate database) or some other maintenance task.
+3. The Package Master database is replaced with the new version (that includes the changes done by the user during the Pause stages).
 
 ---
 
