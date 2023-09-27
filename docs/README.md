@@ -60,7 +60,7 @@ It also has two "checkboxes" that are used to distinguish packages and control h
 
 ### Develop pipeline
 
-To create a DHIS2 instance for developing Metadata packages, you can use the [pkg-develop Jenkins pipeline](https://ci.dhis2.org/job/test-pkg-develop).
+To create a DHIS2 instance for developing Metadata packages, you can use the [pkg-develop Jenkins pipeline](https://jenkins/job/test-pkg-develop).
 Development instances are created via [the Instance Manager](https://im.dhis2.org) and are using our [DHIS2 Docker images](https://hub.docker.com/u/dhis2).
 
 The Develop pipeline is meant to help Metadata Package developers/implementers create their own, separated DHIS2 instance for working on packages.
@@ -86,7 +86,7 @@ Each instance is using a separate environment with a separate database, with the
 
 ## Committing Metadata Package Changes
 
-Commiting (or saving) Metadata Package changes can be done via the [pkg-commit Jenkins pipeline](https://ci.dhis2.org/job/test-pkg-commit).
+Commiting (or saving) Metadata Package changes can be done via the [pkg-commit Jenkins pipeline](https://jenkins/job/test-pkg-commit).
 
 ### Commit pipeline
 
@@ -121,7 +121,7 @@ With all of the parameters above, the pipeline is able to:
   * Pausing stops the execution of the pipeline until the user resumes it, which allows the user to do manual maintenance or testing
   * During the pausing stages, the user can choose to delete the development instance  (specified in the `DEV_INSTANCE_NAME` parameter) at the end of the pipeline
 * Test the imported package (either manually uploaded or exported from a dev instance) in an empty DHIS2 instance, as well as testing the whole staging instance afterwards
-* Export all the metadata from the staging instance, creating a diff with the previous version of it via the metadatapackagediff tool (the .xlsx diff file can be found as an archived artifact in the build, for example see here) and pushing the newly exported version to this GitHub repo - https://github.com/dhis2-metadata/ALL_METADATA
+* Export all the metadata from the staging instance, creating a diff with the previous version of it via the [metadatapackagediff tool](https://github.com/dhis2/dhis2-utils/tree/master/tools/dhis2-metadatapackagediff) (the .xlsx diff file can be found as an archived artifact in the build, for example see here) and pushing the newly exported version to this GitHub repo - https://github.com/dhis2-metadata/ALL_METADATA
 
 
 In the screenshot below, you can see the three main variations of the builds:
@@ -158,7 +158,7 @@ Note that if you both specify a dev instance and upload a package, the dev insta
 
 ### Exporter pipeline
 
-The Exporter pipeline export a Metadata Package from a given instance, tests it (by importing into an empty DHIS2 instance, validating the metadata and running the PR expressions and Dashboard checks) and finally pushes the package to its GitHub repository (based on the Package Code).
+[The Exporter pipeline](https://jenkins/job/test-metadata-exporter-v2) export a Metadata Package from a given instance, tests it (by importing into an empty DHIS2 instance, validating the metadata and running the PR expressions and Dashboard checks) and finally pushes the package to its GitHub repository (based on the Package Code).
 This is the final export and testing of a package, after that the only step that remains is releasing the package once it's considered ready.
 
 ![exporter pipeline parameters](images/exporter-pipeline-parameters.png)
@@ -176,7 +176,7 @@ This is the final export and testing of a package, after that the only step that
 
 ### Export Triggerer pipeline
 
-Triggering export of multiple packages via the [packages index spreadsheet](#metadata-packages-index-spreadsheet) and [Export Triggerer Jenkins pipeline](https://ci.dhis2.org/job/metadata-export-triggerer).
+Triggering export of multiple packages via the [packages index spreadsheet](#metadata-packages-index-spreadsheet) and [Export Triggerer Jenkins pipeline](https://jenkins/job/metadata-export-triggerer).
 
 This pipeline doesn't have any build parameters, instead it's behaviour is solely controlled by the [packages index spreadsheet](#metadata-packages-index-spreadsheet). It's run on a nightly schedule at ~18PM UTC.
 
