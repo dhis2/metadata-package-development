@@ -1,21 +1,41 @@
 @Library('pipeline-library') _
 
+node('ec2-jdk8-large-spot') {
+    dir('dhis2-utils') {
+        git url: 'https://github.com/dhis2/dhis2-utils', branch: 'use-argparse-insead-of-envvars'
+
+        dir('tools/dhis2-metadata-index-parser') {
+            sh 'pip3 install -r requirements.txt'
+
+            withCredentials([file(credentialsId: 'metadata-index-parser-service-account', variable: 'GOOGLE_SERVICE_ACCOUNT')]) {
+                env.SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
+
+                env.PACKAGES_INDEX_JSON = sh(
+                    returnStdout: true,
+                    script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $SPREADSHEET_ID --no-only-ready --no-uncheck-readiness'
+                ).trim()
+
+                PARAMETER_VALUES = sh(returnStdout:true, script: 'echo $PACKAGES_INDEX_JSON | jq -r \'.[] | .["Component name"]\'').trim()
+            }
+        }
+    }
+}
+
 pipeline {
     agent {
         label 'ec2-jdk11-large'
     }
 
     parameters {
+        booleanParam(name: 'REFRESH_PACKAGES', defaultValue: false, description: '[OPTIONAL] Refresh the list of PACKAGE_NAMEs and abort the build.')
         string(name: 'STAGING_INSTANCE_NAME', defaultValue: 'foobar', description: '[REQUIRED] Full staging instance name will be: "pkg-staging-<STAGING_INSTANCE_NAME>-<BUILD_NUMBER>".')
         choice(name: 'DATABASE', choices: ['pkgmaster', 'dev', 'tracker_dev'], description: '[REQUIRED] Master packages database or development database from https://metadata.dev.dhis2.org.')
         booleanParam(name: 'REPLACE_DATABASE', defaultValue: true, description: '[OPTIONAL] Replace database if all validations and tests pass.')
         choice(name: 'DHIS2_IMAGE_REPOSITORY', choices: ['core', 'core-dev'], description: 'DHIS2 Docker image repository.')
         string(name: 'DHIS2_VERSION', defaultValue: '2.38.4', description: '[OPTIONAL] DHIS2 version for the instance.')
-        string(name: 'DEV_INSTANCE_NAME', defaultValue: '', description: '[OPTIONAL] Name of the dev instance to export from.\nOnly needed if you want to export a package specified with PACKAGE_CODE/TYPE')
-        string(name: 'PACKAGE_CODE', defaultValue: '', description: '[OPTIONAL] Package code to extract with.\nNo need to provide this if you want to uploaded a package file below.')
-        choice(name: 'PACKAGE_TYPE', choices: ['AGG', 'TRK'], description: '[OPTIONAL] Type of the package to export.\nNo need to provide this if you want to uploaded a package file below.')
-        string(name: 'PACKAGE_DESC', defaultValue: '', description: '[OPTIONAL] Description of the package.\nNo need to provide this if you want to uploaded a package file below.')
-        stashedFile(name: 'PACKAGE_FILE_UPLOAD', description: '[OPTIONAL] Custom metadata package file.\nIf you upload one, there\'s no need to provide PACKAGE_CODE/TYPE/DESC.')
+        string(name: 'DEV_INSTANCE_NAME', defaultValue: '', description: '[OPTIONAL] Name of the dev instance to export from.\nOnly needed if you want to export a package specified with PACKAGE_NAME')
+        choice(name: 'PACKAGE_NAME', choices: PARAMETER_VALUES, description: '[REQUIRED] Select a package to extract by name.')
+        stashedFile(name: 'PACKAGE_FILE_UPLOAD', description: '[OPTIONAL] Provide a custom metadata package file instead of exporting it.\nIf a file is uploaded, the "DEV_INSTANCE_NAME" and "PACKAGE_NAME" are obsolete.')
     }
 
     options {
@@ -49,6 +69,11 @@ pipeline {
         stage('Clone git repos') {
             steps {
                 script {
+                    // Immediately abort pipeline if REFRESH_PACKAGES is enabled.
+                    if (params.REFRESH_PACKAGES.toBoolean()) {
+                        error('This build is only for refreshing the PACKAGE_NAME parameter. Pipeline will be aborted now.')
+                    }
+
                     dir('dhis2-utils') {
                         git url: 'https://github.com/dhis2/dhis2-utils'
                     }
@@ -71,6 +96,14 @@ pipeline {
         stage('Create staging instance') {
             steps {
                 script {
+                    // Get package details based on the selected PACKAGE_NAME parameter value.
+                    env.SELECTED_PACKAGE = sh(returnStdout: true, script: 'echo "$PACKAGES_INDEX_JSON" | jq --arg name "$PACKAGE_NAME" -r \'.[] | select(."Component name" == $name)\'').trim()
+                    env.PACKAGE_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Extraction code"\'').trim()
+                    env.PACKAGE_TYPE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Script parameter"\'').trim()
+                    env.PACKAGE_SOURCE_INSTANCE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Source instance"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_NAME = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area prefix"\'').trim()
+
                     withCredentials([usernamePassword(credentialsId: "$PKG_IM_CREDENTIALS_ID", passwordVariable: 'PASSWORD', usernameVariable: 'USER_EMAIL')]) {
                         dir('im-manager/scripts/databases') {
                             env.DATABASE_ID = sh(
@@ -122,13 +155,14 @@ pipeline {
 
                     PACKAGE_FILE = sh(
                         returnStdout: true,
-                        script: """#!/bin/bash
+                        script: '''#!/bin/bash
                             set -euxo pipefail
-                            ./scripts/export-package.sh "${params.PACKAGE_CODE}" "${params.PACKAGE_TYPE}" "${params.PACKAGE_DESC}" "${env.INSTANCE_HOST}/${params.DEV_INSTANCE_NAME}" | tail -1
-                        """
+                            ./scripts/export-package.sh "$PACKAGE_CODE" "$PACKAGE_TYPE" "$PACKAGE_NAME" "$PACKAGE_HEALTH_AREA_NAME" "$PACKAGE_HEALTH_AREA_CODE" "$INSTANCE_HOST/$DEV_INSTANCE_NAME" | tail -1
+                        '''
                     ).trim()
 
-                    PACKAGE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r '.package .name'").trim()
+                    // TODO obsolete?
+                    PACKAGE_FILE_NAME = sh(returnStdout: true, script: "cat $PACKAGE_FILE | jq -r '.package .name'").trim()
                 }
             }
         }
