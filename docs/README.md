@@ -6,7 +6,9 @@
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Metadata Packages Development & Staging workflow](#metadata-packages-development--staging-workflow)
 - [Developing Metadata Packages](#developing-metadata-packages)
+  - [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
   - [Develop pipeline](#develop-pipeline)
     - [Parameters](#parameters)
 - [Committing Metadata Package Changes](#committing-metadata-package-changes)
