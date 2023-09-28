@@ -40,14 +40,17 @@
 Before you begin, ensure you have the following:
 
 - Collaborator access to [dhis2-metadata GitHub organisation](https://github.com/dhis2-metadata)
-- Access to [Jenkins](???)
+- Access to [Jenkins](https://jenkins)
 - Access to the [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
 - Access to [DHIS2 S3](https://s3.console.aws.amazon.com/s3/home) (optional)
 - Basic knowledge of markdown syntax. [Markdown support and extensions guide](https://docs.dhis2.org/en/implement/support-and-documentation/dhis2-documentation-guide.html?h=markdown#markdown_support_and_extensions) provides an overview of supported functionality. The structure of markdown documents is addressed in the [Markdown File Structure](#markdown-file-structure) section.
 - Familiarity with ... (links to metadata package development resources?)
 
+[//]: # (TODO any extra resources for package development or other prerequisites?)
+
 ### Process Overview
 
+[//]: # (TODO this diagram needs updating/rewording to make it eaisier to comprehend)
 ``` mermaid
     %%{init: {'mirrorActors': false } }%%
 
@@ -56,7 +59,7 @@ Before you begin, ensure you have the following:
         autonumber
         actor Implementer
         participant D as Package Development<br><br>Instance
-        participant G as Github
+        participant G as GitHub
         participant A as Amazon S3
         participant W as dhis2.org
         Implementer->>D: Configure package metadata
