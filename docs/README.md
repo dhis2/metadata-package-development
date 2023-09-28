@@ -37,11 +37,40 @@
 
 Before you begin, ensure you have the following:
 
+- Collaborator access to [dhis2-metadata GitHub organisation](https://github.com/dhis2-metadata)
 - Access to [Jenkins](???)
 - Access to the [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
+- Access to [DHIS2 S3](https://s3.console.aws.amazon.com/s3/home) (optional)
+- Basic knowledge of markdown syntax. [Markdown support and extensions guide](https://docs.dhis2.org/en/implement/support-and-documentation/dhis2-documentation-guide.html?h=markdown#markdown_support_and_extensions) provides an overview of supported functionality. The structure of markdown documents is addressed in the [Markdown File Structure](#markdown-file-structure) section.
 - Familiarity with ... (links to metadata package development resources?)
 
-### Metadata Packages Development & Staging workflow
+### Process Overview
+
+``` mermaid
+    %%{init: {'mirrorActors': false } }%%
+
+    sequenceDiagram
+
+        autonumber
+        actor Implementer
+        participant D as Package Development<br><br>Instance
+        participant G as Github
+        participant A as Amazon S3
+        participant W as dhis2.org
+        Implementer->>D: Configure package metadata
+        note over Implementer: Update package overview spreadsheet
+        note over Implementer: Follow package QA checklist
+
+        note over G: Create/review the target repository<br>Add documentation to the master branch
+        note over D: Apply required package coding to metadata
+        D->>G: <br>1. Use Jenkins Metadata Exporter for single package export<br>2. Use Jenkins Metadata Exporter Triggerer for bulk export<br>3. Manually import package to github (optional, not recommended)
+        G->>A: Create a package release
+        note over A: Copy metadata reference file url and<br>add it to the overview.md file
+        note over G: Merge pull request to generate index file<br>for the downloads page
+        A->>W: New package file<br>is available for download
+```
+
+### Metadata Packages Development & Staging diagram
 
 [The Metadata Packages Development & Staging workflow diagram](https://docs.google.com/presentation/d/1_LRb4_w1rnNUkG8kaJr9EQJj_tHp6Xd4-t-8MY8uZDk/edit#slide=id.g1d68b1d873c_0_7) is supposed to represent the following two sections - [Developing Metadata Packages](#developing-metadata-packages) and [Committing Metadata Package Changes](#committing-metadata-package-changes).
 
@@ -195,6 +224,32 @@ The “Publish” GitHub workflow needs to be added to every “feature” branc
 
 You can find two step by step guides for [adding the “Publish” workflow to a repository](#how-to-add-the-publish-workflow-to-a-given-branch) we want to publish from, as well as [how to create new Releases/Tags](#how-to-create-new-a-release-and-tag) in order to trigger the workflow for a new package version.
 
+## Overview
+
+``` mermaid
+    %%{init: {'mirrorActors': false } }%%
+
+flowchart LR
+    subgraph 1[Master branch - docs folder]
+        direction LR
+        left2[Installation guide] --- right1[Release note]
+    end
+    subgraph 2[feature brunch eg. 2.40]
+        direction LR
+        left1[Package folder/s with metadata.json file/s]
+    end
+    subgraph 3[feature brunch eg. 2.39]
+        direction LR
+        left3[Package folder/s with metadata.json file/s]
+    end
+    2 --> 4[package for DHIS2.40] --> 6[S3]
+    1 --> 4
+    6[S3] <--> 7[Metadata package index]
+    1 --> 5[package for DHIS2.39] --> 6[S3]
+    3 --> 5
+    7 --> 8[Downloads section on dhis2.org]
+```
+
 ### Publish workflow summary
 1. Get the package version and DHIS2 version from a `tag` (see [how to create a new tag](#how-to-create-new-a-release-and-tag)).
 2. Prepare the packages for archiving via the [prepare action](https://github.com/dhis2-metadata/prepare).
@@ -207,7 +262,31 @@ You can find two step by step guides for [adding the “Publish” workflow to a
 8. Get the release notes from the `master` branch of the current directory and add them to the new Release.
 
 ### How to add the Publish workflow to a given branch
-1. Copy the `publish.yaml` file contents from [the TB_AGG repo, branch 2.38](https://raw.githubusercontent.com/dhis2-metadata/TB_AGG/2.38/.github/workflows/publish.yaml) (this is just the “first” place I’ve added the Publish workflow in order to test it, but given that the file contents are the same regardless of the branch and repo - it can be taken from anywhere it already exists)
+
+**`publish.yaml` file contents:**
+``` yaml
+name: Publish to S3
+
+on:
+  push:
+    tags:
+      - '**'
+
+  workflow_dispatch:
+
+jobs:
+  call-workflow:
+    uses: dhis2-metadata/gha-workflows/.github/workflows/publish.yaml@v1
+    secrets:
+      BOT_ACCESS_KEY: ${{ secrets.BOT_ACCESS_KEY }}
+      BOT_SECRET_KEY: ${{ secrets.BOT_SECRET_KEY }}
+      S3_BUCKET: ${{ secrets.S3_BUCKET }}
+      AWS_REGION: ${{ secrets.AWS_REGION }}
+      BOT_GITHUB_PAT: ${{ secrets.BOT_GITHUB_PAT }}
+      BOT_GITHUB_EMAIL: ${{ secrets.BOT_GITHUB_EMAIL }}
+```
+
+1. Copy the `publish.yaml` file contents from the code block above.
 2. Go to a feature branch of the desired repository (for example - [ENTO_IRS repo, branch 2.37](https://github.com/dhis2-metadata/ENTO_IRS/tree/2.37))
 3. Click “Add file” > “Create new file”
 4. Name the new file “.github/workflows/publish.yaml” (this will create the `.github` and the `workflow` parent dirs of the `publish.yaml` file)
