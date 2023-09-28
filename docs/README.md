@@ -6,7 +6,8 @@
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Metadata Packages Development & Staging workflow](#metadata-packages-development--staging-workflow)
+  - [Process Overview](#process-overview)
+  - [Metadata Packages Development & Staging diagram](#metadata-packages-development--staging-diagram)
 - [Developing Metadata Packages](#developing-metadata-packages)
   - [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
   - [Develop pipeline](#develop-pipeline)
@@ -23,6 +24,7 @@
     - [Parameters](#parameters-2)
   - [Export Triggerer pipeline](#export-triggerer-pipeline)
 - [Releasing Metadata Packages](#releasing-metadata-packages)
+- [Overview](#overview)
   - [Publish workflow summary](#publish-workflow-summary)
   - [How to add the Publish workflow to a given branch](#how-to-add-the-publish-workflow-to-a-given-branch)
   - [How to create new a Release and Tag](#how-to-create-new-a-release-and-tag)
@@ -63,10 +65,10 @@ Before you begin, ensure you have the following:
 
         note over G: Create/review the target repository<br>Add documentation to the master branch
         note over D: Apply required package coding to metadata
-        D->>G: <br>1. Use Jenkins Metadata Exporter for single package export<br>2. Use Jenkins Metadata Exporter Triggerer for bulk export<br>3. Manually import package to github (optional, not recommended)
-        G->>A: Create a package release
+        D->>G: <br>1. Use Jenkins Metadata Exporter for single package export<br>2. Use Jenkins Metadata Exporter Triggerer for bulk export<br>3. Manually import package to GitHub (optional, not recommended)
+        G->>A: Create a package Release/Tag
         note over A: Copy metadata reference file url and<br>add it to the overview.md file
-        note over G: Merge pull request to generate index file<br>for the downloads page
+        note over G: Merge pull request to update Metadata Packages Download Index file<br>for the downloads page
         A->>W: New package file<br>is available for download
 ```
 
@@ -244,7 +246,7 @@ flowchart LR
     end
     2 --> 4[package for DHIS2.40] --> 6[S3]
     1 --> 4
-    6[S3] <--> 7[Metadata package index]
+    6[S3] <--> 7[Metadata Packages Download Index]
     1 --> 5[package for DHIS2.39] --> 6[S3]
     3 --> 5
     7 --> 8[Downloads section on dhis2.org]
