@@ -3,17 +3,13 @@ def generateStagesMap(packages) {
     def map = [:]
 
     packages.each { pkg ->
-        pkg["DHIS2 versions to export from"].split(',').each { version ->
-            map["${pkg['Extraction code']} (type: ${pkg['Script parameter']}) for ${version}"] = {
+        pkg['Supported DHIS2 Versions'].split(',').each { version ->
+            map["${pkg['Package Code']} (type: ${pkg['Package Type']}) for ${version}"] = {
                 stage("Export package") {
                     build job: 'metadata-exporter', propagate: false, parameters: [
-                        string(name: 'DHIS2_version', value: "$version"),
-                        string(name: 'Instance_url', value: "${pkg['Source instance']}"),
-                        string(name: 'Package_code', value: "${pkg['Extraction code']}"),
-                        string(name: 'Package_type', value: "${pkg['Script parameter']}"),
-                        string(name: 'Package_description', value: "${pkg['Component name']}"),
-                        string(name: 'Package_health_area_name', value: "${pkg['Health area']}"),
-                        string(name: 'Package_health_area_code', value: "${pkg['Health area prefix']}"),
+                        string(name: 'DHIS2_VERSION', value: "$version"),
+                        string(name: 'INSTANCE_URL', value: "${pkg['Source Instance']}"),
+                        string(name: 'PACKAGE_NAME', value: "${pkg['Component Name']}"),
                     ]
                 }
             }
@@ -39,7 +35,7 @@ pipeline {
     stages {
         stage('Get Enabled Packages') {
             environment {
-                GC_SERVICE_ACCOUNT_FILE = credentials('metadata-index-parser-service-account')
+                GOOGLE_SERVICE_ACCOUNT = credentials('metadata-index-parser-service-account')
                 GOOGLE_SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
             }
 
@@ -51,7 +47,10 @@ pipeline {
                         dir('tools/dhis2-metadata-index-parser') {
                             sh 'pip3 install -r requirements.txt'
 
-                            INPUT_JSON = sh(returnStdout: true, script: 'python3 parse-index.py').trim()
+                            INPUT_JSON = sh(
+                                returnStdout: true,
+                                script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $GOOGLE_SPREADSHEET_ID'
+                            ).trim()
 
                             packagesList = readJSON text: "$INPUT_JSON"
                         }

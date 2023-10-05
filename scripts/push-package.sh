@@ -36,8 +36,8 @@ if [[ "$package_type" == "$dashboard_package_type" ]]; then
   commit_message="$commit_message ($dashboard_package_type)"
 fi
 
-if [[ "${Commit_message:-}" ]]; then
-  commit_message="${Commit_message}"
+if [[ "${COMMIT_MESSAGE:-}" ]]; then
+  commit_message="${COMMIT_MESSAGE}"
 fi
 
 git config --global user.email "$GITHUB_EMAIL"
