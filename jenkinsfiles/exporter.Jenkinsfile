@@ -15,7 +15,7 @@ node('ec2-jdk8-large-spot') {
                     script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $SPREADSHEET_ID --no-only-ready --no-uncheck-readiness'
                 ).trim()
 
-                PARAMETER_VALUES = sh(returnStdout:true, script: 'echo $PACKAGES_INDEX_JSON | jq -r \'.[] | .["Component name"]\'').trim()
+                PARAMETER_VALUES = sh(returnStdout:true, script: 'echo $PACKAGES_INDEX_JSON | jq -r \'.[] | .["Component Name"]\'').trim()
             }
         }
     }
