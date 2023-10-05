@@ -2,8 +2,7 @@
 
 node('ec2-jdk8-large-spot') {
     dir('dhis2-utils') {
-        // TODO Update before merge
-        git url: 'https://github.com/dhis2/dhis2-utils', branch: 'use-argparse-insead-of-envvars'
+        git url: 'https://github.com/dhis2/dhis2-utils'
 
         dir('tools/dhis2-metadata-index-parser') {
             sh 'pip3 install -r requirements.txt'
@@ -34,8 +33,7 @@ pipeline {
         string(name: 'DHIS2_VERSION', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.38, not 2.38.1, etc)')
         stashedFile(name: 'PACKAGE_FILE_UPLOAD', description: '[OPTIONAL] Upload a package file directly, instead of exporting it.\n If a file is uploaded, all the previous parameters are obsolete.')
         booleanParam(name: 'RUN_CHECKS', defaultValue: true, description: '[OPTIONAL] Choose whether to run the PR expressions and Dashboard checks.')
-        //TODO change to `true` before merging
-        booleanParam(name: 'PUSH_PACKAGE', defaultValue: false, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
+        booleanParam(name: 'PUSH_PACKAGE', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
         string(name: 'COMMIT_MESSAGE', defaultValue: '', description: '[OPTIONAL] Custom commit message when pushing package to GitHub.')
     }
 
@@ -86,8 +84,7 @@ pipeline {
                     env.INSTANCE_URL = "${params.INSTANCE_URL != '' ? params.INSTANCE_URL : env.PACKAGE_SOURCE_INSTANCE}"
 
                     dir('dhis2-utils') {
-                        // TODO update before merge
-                        git url: "$UTILS_GIT_URL", branch: 'use-argparse-insead-of-envvars'
+                        git url: "$UTILS_GIT_URL"
                     }
 
                     PACKAGE_IS_EXPORTED = true

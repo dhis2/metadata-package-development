@@ -6,15 +6,10 @@ def generateStagesMap(packages) {
         pkg['Supported DHIS2 Versions'].split(',').each { version ->
             map["${pkg['Package Code']} (type: ${pkg['Package Type']}) for ${version}"] = {
                 stage("Export package") {
-                    // TODO update before merge
-                    build job: 'test-metadata-exporter-v2', propagate: false, parameters: [
+                    build job: 'metadata-exporter', propagate: false, parameters: [
                         string(name: 'DHIS2_VERSION', value: "$version"),
                         string(name: 'INSTANCE_URL', value: "${pkg['Source Instance']}"),
                         string(name: 'PACKAGE_NAME', value: "${pkg['Component Name']}"),
-//                        string(name: 'Package_type', value: "${pkg['Script parameter']}"),
-//                        string(name: 'Package_description', value: "${pkg['Component Name']}"),
-//                        string(name: 'Package_health_area_name', value: "${pkg['Health area']}"),
-//                        string(name: 'Package_health_area_code', value: "${pkg['Health area prefix']}"),
                     ]
                 }
             }
@@ -47,7 +42,7 @@ pipeline {
             steps {
                 script {
                     dir('dhis2-utils') {
-                        git url: 'https://github.com/dhis2/dhis2-utils', branch: 'use-argparse-insead-of-envvars'
+                        git url: 'https://github.com/dhis2/dhis2-utils'
 
                         dir('tools/dhis2-metadata-index-parser') {
                             sh 'pip3 install -r requirements.txt'
