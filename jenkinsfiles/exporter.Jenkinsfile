@@ -2,6 +2,7 @@
 
 node('ec2-jdk8-large-spot') {
     dir('dhis2-utils') {
+        // TODO Update before merge
         git url: 'https://github.com/dhis2/dhis2-utils', branch: 'use-argparse-insead-of-envvars'
 
         dir('tools/dhis2-metadata-index-parser') {
@@ -76,16 +77,17 @@ pipeline {
                     }
 
                     // Get package details based on the selected PACKAGE_NAME parameter value.
-                    env.SELECTED_PACKAGE = sh(returnStdout: true, script: 'echo "$PACKAGES_INDEX_JSON" | jq --arg name "$PACKAGE_NAME" -r \'.[] | select(."Component name" == $name)\'').trim()
-                    env.PACKAGE_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Extraction code"\'').trim()
-                    env.PACKAGE_TYPE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Script parameter"\'').trim()
-                    env.PACKAGE_SOURCE_INSTANCE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Source instance"\'').trim()
-                    env.PACKAGE_HEALTH_AREA_NAME = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area"\'').trim()
-                    env.PACKAGE_HEALTH_AREA_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health area prefix"\'').trim()
+                    env.SELECTED_PACKAGE = sh(returnStdout: true, script: 'echo "$PACKAGES_INDEX_JSON" | jq --arg name "$PACKAGE_NAME" -r \'.[] | select(."Component Name" == $name)\'').trim()
+                    env.PACKAGE_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Package Code"\'').trim()
+                    env.PACKAGE_TYPE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Package Type"\'').trim()
+                    env.PACKAGE_SOURCE_INSTANCE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Source Instance"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_NAME = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health Area"\'').trim()
+                    env.PACKAGE_HEALTH_AREA_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health Area Code"\'').trim()
                     env.INSTANCE_URL = "${params.INSTANCE_URL != '' ? params.INSTANCE_URL : env.PACKAGE_SOURCE_INSTANCE}"
 
                     dir('dhis2-utils') {
-                        git url: "$UTILS_GIT_URL"
+                        // TODO update before merge
+                        git url: "$UTILS_GIT_URL", branch: 'use-argparse-insead-of-envvars'
                     }
 
                     PACKAGE_IS_EXPORTED = true
