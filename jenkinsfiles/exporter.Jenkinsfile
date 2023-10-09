@@ -242,21 +242,23 @@ pipeline {
     post {
         failure {
             script {
-                if (!params.DHIS2_VERSION) {
-                    DHIS2_VERSION = 'not provided'
-                }
+                if (!params.REFRESH_PACKAGES.toBoolean()) {
+                    if (!params.DHIS2_VERSION) {
+                        DHIS2_VERSION = 'not provided'
+                    }
 
-                if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
-                    message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
-                } else {
-                    message = "The $PACKAGE_NAME (DHIS2 version: $DHIS2_VERSION_IN_PACKAGE) package tests failed in ${slack.buildUrl()}"
-                }
+                    if (!PACKAGE_EXPORT_SUCCEEDED.toBoolean()) {
+                        message = "The $PACKAGE_CODE (package type: $PACKAGE_TYPE, DHIS2 version: $DHIS2_VERSION) package export failed in ${slack.buildUrl()}"
+                    } else {
+                        message = "The $PACKAGE_NAME (DHIS2 version: $DHIS2_VERSION_IN_PACKAGE) package tests failed in ${slack.buildUrl()}"
+                    }
 
-                slackSend(
-                    color: '#ff0000',
-                    channel: 'pkg-notifications',
-                    message: message
-                )
+                    slackSend(
+                        color: '#ff0000',
+                        channel: 'pkg-notifications',
+                        message: message
+                    )
+                }
             }
         }
     }
