@@ -10,6 +10,7 @@
   - [Metadata Packages Development & Staging diagram](#metadata-packages-development--staging-diagram)
 - [Developing Metadata Packages](#developing-metadata-packages)
   - [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
+    - [Columns](#columns)
   - [Develop pipeline](#develop-pipeline)
     - [Parameters](#parameters)
 - [Committing Metadata Package Changes](#committing-metadata-package-changes)
@@ -85,12 +86,24 @@ Before you begin, ensure you have the following:
 
 ### [Metadata Packages Index spreadsheet](https://docs.google.com/spreadsheets/d/1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM)
 
-The Metadata Packages Index spreadsheet is the source-of-truth for Metadata Package details like Package Code, Package Name, Package Description, Health Area (name and code), etc.
+The Metadata Packages Index spreadsheet is the source-of-truth for Metadata Package details like Package Code, Package Name, Component Name, Health Area (name and code), etc.
 This means that changes should be done carefully and should be communicated with the team.
 
-It also has two "checkboxes" that are used to distinguish packages and control how the spreadsheet is parsed by the pipelines below:
-* `Extraction Enabled` - enables packages for parsing by the pipelines below; any package that you would like to like to see in the `PACKAGE_NAME` dropdown parameter has to be enabled in this column
+#### Columns
+The spreadsheet contains two "checkbox" columns that are used to distinguish packages and control how the spreadsheet is parsed by the [Exporter](#exporter-pipeline) and [Export Triggerer](#export-triggerer-pipeline) pipelines.
+The rest are standard text columns containing details about exporting a given package.
+
+* `Enabled` - enables packages for parsing by the pipelines below; any package that you would like to like to see in the `PACKAGE_NAME` parameter list for the [Exporter pipeline](#exporter-pipeline) has to be enabled in this column
 * `Ready for Export` - enables exporting for packages by the [Export Triggerer pipeline](#export-triggerer-pipeline) and can be used to export a list of packages at once without having to start builds of the [Exporter pipeline](#exporter-pipeline) manually for each package; note that the checkboxes in this column are reset back to "false/unchecked" after each build of the Export Triggerer pipeline
+* `Package Code` - the code used to distinguish a given package from the rest
+* `Package Type` - abbreviated version of the type of the package
+* `Type Name` - human-friendly version of the type of the package
+* `Supported DHIS2 Versions` -  a comma-separated list of DHIS2 versions that the given package can and should be exported from (currently, not in the past)
+* `Source Instance` - the instance and database that contain the package (where it can be exported from)
+* `Component Name` - the unique name of each package component, like "TB Aggregate (complete)"
+* `Package Name` - a broader name of the whole package (that may contain multiple Components), like "TB HMIS"
+* `Health Area` - human-friendly name of the health area the package is part of
+* `Health Area Code` - abbreviated version of the health area
 
 ### Develop pipeline
 
