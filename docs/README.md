@@ -45,7 +45,6 @@ Before you begin, ensure you have the following:
 - Access to the [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
 - Access to [DHIS2 S3](https://s3.console.aws.amazon.com/s3/home) (optional)
 - Basic knowledge of markdown syntax. [Markdown support and extensions guide](https://docs.dhis2.org/en/implement/support-and-documentation/dhis2-documentation-guide.html?h=markdown#markdown_support_and_extensions) provides an overview of supported functionality. The structure of markdown documents is addressed in the [Markdown File Structure](#markdown-file-structure) section.
-- Familiarity with ... (links to metadata package development resources?)
 
 [//]: # (TODO any extra resources for package development or other prerequisites?)
 
