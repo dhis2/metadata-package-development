@@ -46,13 +46,12 @@ pipeline {
     environment {
         IMAGE_TAG = "${params.DHIS2_VERSION}"
         IMAGE_REPOSITORY = "${params.DHIS2_IMAGE_REPOSITORY}"
-        IM_REPO_URL = "https://github.com/dhis2-sre/im-manager"
-        //TODO update prod environment hostname and IM group hostname
-        IM_ENVIRONMENT = 'prod.test.c.dhis2.org'
-        IM_HOST = "https://api.im.$IM_ENVIRONMENT"
+        IM_REPO_URL = 'https://github.com/dhis2-sre/im-manager'
+        IM_ENVIRONMENT = 'im.dhis2.org'
+        IM_HOST = "https://api.$IM_ENVIRONMENT"
         INSTANCE_GROUP_NAME = 'meta-packages'
         INSTANCE_NAME_FULL = "pkg-staging-${params.STAGING_INSTANCE_NAME.replaceAll("\\P{Alnum}", "").toLowerCase()}-$BUILD_NUMBER"
-        INSTANCE_HOST = "https://${INSTANCE_GROUP_NAME}.im.$IM_ENVIRONMENT"
+        INSTANCE_HOST = "https://${INSTANCE_GROUP_NAME}.$IM_ENVIRONMENT"
         INSTANCE_URL = "$INSTANCE_HOST/$INSTANCE_NAME_FULL"
         HTTP = 'https --check-status'
         PKG_IM_CREDENTIALS_ID = 'pkg-im-bot'
