@@ -25,7 +25,7 @@ pipeline {
     }
 
     triggers {
-        cron('H 18 * * 1-5')
+        cron('H 1 * * 1-5')
     }
 
     options {
