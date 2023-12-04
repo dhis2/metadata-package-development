@@ -5,6 +5,5 @@
 * [Export package](export-package.sh)
 * [Test import in empty instance](run-import-tests.sh)
 * Run checks
-  * [Check dashboards](check-dashboards.sh)
   * [Check PR expressions](check-expressions.sh)
 * [Push to GitHub](push-package.sh)

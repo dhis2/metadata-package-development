@@ -203,12 +203,6 @@ pipeline {
             }
 
             parallel {
-                stage('Check dashboards') {
-                    steps {
-                        sh "./scripts/check-dashboards.sh $DHIS2_PORT"
-                    }
-                }
-
                 stage('Check PR expressions') {
                     steps {
                         dir('dhis2-metadata-checkers') {
