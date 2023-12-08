@@ -220,6 +220,15 @@ This is the final export and testing of a package, after that the only step that
 * `PUSH_PACKAGE` - checkbox can be used to disable pushing the package to its GitHub repo, if the tests pass; enabled by default.
 * `COMMIT_MESSAGE` - optional custom commit message when pushing the package to GitHub; by default the message is "feat: Update <package-code> package"
 
+##### Pushing to GitHub
+Pushing packages to GitHub requires that:
+
+* the github repository for a particular package exists (based on the package code, e.g. `HIV_CS` or `TB_AGG`)
+* a _feature branch_ exists in the repository for the version you are pushing (e.g. 2.39, 2.40)
+
+The feature branch can be created from either master or a previous feature branch, removing the existing files/folders after branching. The key requirements is that the branch includes the ["Publish" GitHub Workflow](https://github.com/dhis2-metadata/gha-workflows/blob/master/.github/workflows/publish.yaml) (see the section on releasing packages).
+
+
 ### Export Triggerer pipeline
 
 Triggering export of multiple packages via the [packages index spreadsheet](#metadata-packages-index-spreadsheet) and [Export Triggerer Jenkins pipeline](https://jenkins/job/metadata-export-triggerer).
