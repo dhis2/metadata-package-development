@@ -5,7 +5,7 @@ node('ec2-jdk8-large-spot') {
         git url: 'https://github.com/dhis2/dhis2-utils'
 
         dir('tools/dhis2-metadata-index-parser') {
-            sh 'pip3 install -r requirements.txt'
+            sh 'pip3 install --upgrade --force-reinstall -r requirements.txt'
 
             withCredentials([file(credentialsId: 'metadata-index-parser-service-account', variable: 'GOOGLE_SERVICE_ACCOUNT')]) {
                 env.SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
