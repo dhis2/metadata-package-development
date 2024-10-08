@@ -220,7 +220,7 @@ This is the final export and testing of a package, after that the only step that
 * `PUSH_PACKAGE` - checkbox can be used to disable pushing the package to its GitHub repo, if the tests pass; enabled by default.
 * `COMMIT_MESSAGE` - optional custom commit message when pushing the package to GitHub; by default the message is "feat: Update <package-code> package"
 
-##### Pushing to GitHub
+### Pushing to GitHub
 Pushing packages to GitHub requires that:
 
 * the github repository for a particular package exists (based on the package code, e.g. `HIV_CS` or `TB_AGG`)
