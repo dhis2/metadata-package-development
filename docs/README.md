@@ -44,7 +44,7 @@ Before you begin, ensure you have the following:
 - Access to [Jenkins](https://ci.dhis2.org/)
 - Access to the [Metadata Packages Index spreadsheet](#metadata-packages-index-spreadsheet)
 - Access to [DHIS2 S3](https://s3.console.aws.amazon.com/s3/home) (optional)
-- Basic knowledge of markdown syntax. [Markdown support and extensions guide](https://docs.dhis2.org/en/implement/support-and-documentation/dhis2-documentation-guide.html?h=markdown#markdown_support_and_extensions) provides an overview of supported functionality. The structure of markdown documents is addressed in the [Markdown File Structure](#markdown-file-structure) section.
+- Basic knowledge of Markdown syntax. [Markdown support and extensions guide](https://docs.dhis2.org/en/implement/support-and-documentation/dhis2-documentation-guide.html?h=markdown#markdown_support_and_extensions) provides an overview of supported functionality. The structure of Markdown documents is addressed in the [Markdown File Structure](#markdown-file-structure) section.
 
 [//]: # (TODO any extra resources for package development or other prerequisites?)
 
@@ -149,7 +149,7 @@ It creates a “staging” instance and does all the rest of the work (testing, 
 
 #### Parameters
 
-* `REFRESH_PACKAGES` - checkbox can be used to refresh the list of packages in the `PACKAGE_NAME` parameter dropdown; this is helpful because the `PACKAGE_NAME` parameter list is parsed upon triggering a build, hence if any changes were made to the spreadsheet they won’t be automatically picked up without triggering a build first; so if a user ends up in a situation where the dropdown list is not in sync with the spreadsheet - triggering a build with that checkbox checked will refresh the list and abort the build afterwards
+* `REFRESH_PACKAGES` - checkbox can be used to refresh the list of packages in the `PACKAGE_NAME` parameter dropdown; this is helpful because the `PACKAGE_NAME` parameter list is parsed upon triggering a build, hence if any changes were made to the spreadsheet they won’t be automatically picked up without triggering a build first; so if a user ends up in a situation where the dropdown list is not in sync with the spreadsheet - triggering a build with that checkbox checked will refresh the list and abort the build afterward
 * `STAGING_INSTANCE_NAME` - part of the staging instance name, so it's easier to distinguish between instances and their purpose
 * `DATABASE` - selects the packages database to start the DHIS2 instance with:
   * `pkgmaster` - the Package Master database (`dev` and `tracker_dev` merged together)
@@ -172,7 +172,7 @@ With all the parameters above, the pipeline is able to:
 * Pause before and after importing into the staging instance (with a notification in Slack)
   * Pausing stops the execution of the pipeline until the user resumes it, which allows the user to do manual maintenance or testing
   * During the pausing stages, the user can choose to delete the development instance  (specified in the `DEV_INSTANCE_NAME` parameter) at the end of the pipeline
-* Test the imported package (either manually uploaded or exported from a dev instance) in an empty DHIS2 instance, as well as testing the whole staging instance afterwards
+* Test the imported package (either manually uploaded or exported from a dev instance) in an empty DHIS2 instance, as well as testing the whole staging instance afterward
 * Export all the metadata from the staging instance, creating a diff with the previous version of it via the [metadatapackagediff tool](https://github.com/dhis2/dhis2-utils/tree/master/tools/dhis2-metadatapackagediff) (the .xlsx diff file can be found as an archived artifact in the build, for example see here) and pushing the newly exported version to this GitHub repo - https://github.com/dhis2-metadata/ALL_METADATA
 
 
@@ -191,7 +191,7 @@ Note that if you both specify a dev instance and upload a package, the dev insta
 1. Create a dev instance with the pkg-develop pipeline with `INSTANCE_NAME` set to “foobar”, for example. This instance will be used to export the package specified in `PACKAGE_NAME`.
 2. Wait for the pkg-develop pipeline build to complete and create the instance.
 3. Create a staging instance with the pkg-commit pipeline choose the `pkgmaster` option for the `DATABASE` parameter and set `DEV_INSTANCE_NAME` to the final instance name of the development instance created in the previous step - in case you used “foobar” for `INSTANCE_NAME`, the final name will be `pkg-dev-foobar-<build number>`. This instance will be used to test the exported package from the development instance, import it and test the whole instance (or actually database).
-4. Wait for the pkg-commit pipeline build to complete. Note that there are 2 “pause” stages (before and after importing the package into the staging instance) that allow for manual interventions on the staging instance. These pause stages will have to be “resumed” manually through the Jenkins UI. Finally all the metadata is exported and pushed to GitHub if the dashboard and PR checks pass.
+4. Wait for the pkg-commit pipeline build to complete. Note that there are 2 “pause” stages (before and after importing the package into the staging instance) that allow for manual interventions on the staging instance. These pause stages will have to be “resumed” manually through the Jenkins UI. Finally, all the metadata is exported and pushed to GitHub if the dashboard and PR checks pass.
 5. The Package Master database is replaced with the new version (that includes the newly imported package).
 
 #### “Manually upload a package” workflow
@@ -222,19 +222,19 @@ This is the final export and testing of a package, after that the only step that
 
 #### Parameters
 
-* `REFRESH_PACKAGES` - checkbox can be used to refresh the list of packages in the `PACKAGE_NAME` parameter dropdown. This is helpful because the `PACKAGE_NAME` parameter list is parsed upon triggering a build, hence if any changes were made to the spreadsheet they won’t be automatically picked up without triggering a build first. So if a user ends up in a situation where the dropdown list is not in sync with the spreadsheet - triggering a build with that checkbox checked will refresh the list and abort the build afterwards.
+* `REFRESH_PACKAGES` - checkbox can be used to refresh the list of packages in the `PACKAGE_NAME` parameter dropdown. This is helpful because the `PACKAGE_NAME` parameter list is parsed upon triggering a build, hence if any changes were made to the spreadsheet they won’t be automatically picked up without triggering a build first. So if a user ends up in a situation where the dropdown list is not in sync with the spreadsheet - triggering a build with that checkbox checked will refresh the list and abort the build afterward.
 * `PACKAGE_NAME`- name of the package to export; populated by the [packages spreadsheet](#metadata-packages-index-spreadsheet), and based on what a user selects - the rest of the required parameters for exporting a package are also taken from that spreadsheet.
 * `INSTANCE_URL` - can be used to extract a package from a different Instance from the one specified in the packages spreadsheet. Currently, the “default” instance for most packages is either https://metadata.dev.dhis2.org/tracker_dev or https://metadata.dev.dhis2.org/dev (with some exceptions), so if for some reason you’d like to export a package from a different one - that parameter would allow you to do so.
-* `DHIS2_VERSION` - can be used to change the version you’d like to export a package from. This defaults to the 2.38, which is currently the “base” version for developing packages. Note that using a different version would also change the instance that the package is exported from. Currently the “default” instances for exporting from a higher versions are on the https://who-dev.dhis2.org server. If you’d like to export a package from a different instance for a higher version of DHIS2, you can specify the `INSTANCE_URL` parameter and leave `DHIS2_VERSION` empty.
+* `DHIS2_VERSION` - can be used to change the version you’d like to export a package from. This defaults to the 2.38, which is currently the “base” version for developing packages. Note that using a different version would also change the instance that the package is exported from. Currently, the “default” instances for exporting from a higher versions are on the https://who-dev.dhis2.org server. If you’d like to export a package from a different instance for a higher version of DHIS2, you can specify the `INSTANCE_URL` parameter and leave `DHIS2_VERSION` empty.
 * `PACKAGE_FILE_UPLOAD` - can be used to upload a package file directly, instead of exporting it (for example, just for testing it).
-* `RUN_CHECKS` - chechbox can be used to disable the PR expression and Dashboard checks; enabled by default.
+* `RUN_CHECKS` - checkbox can be used to disable the PR expression and Dashboard checks; enabled by default.
 * `PUSH_PACKAGE` - checkbox can be used to disable pushing the package to its GitHub repo, if the tests pass; enabled by default.
 * `COMMIT_MESSAGE` - optional custom commit message when pushing the package to GitHub; by default the message is "feat: Update <package-code> package"
 
 ### Pushing to GitHub
 Pushing packages to GitHub requires that:
 
-* the github repository for a particular package exists (based on the package code, e.g. `HIV_CS` or `TB_AGG`)
+* the GitHub repository for a particular package exists (based on the package code, e.g. `HIV_CS` or `TB_AGG`)
 * a _branch_ exists in the repository for the version you are pushing (e.g. 2.39, 2.40)
 
 The feature branch can be created from either master or a previous feature branch, removing the existing files/folders after branching. The key requirements is that the branch includes the ["Publish" GitHub Workflow](https://github.com/dhis2-metadata/gha-workflows/blob/master/.github/workflows/publish.yaml) (see the section on releasing packages).
@@ -249,7 +249,7 @@ This pipeline doesn't have any build parameters, instead it's behaviour is solel
 You can check the `Ready for Export` on any number of packages, but note that the `DHIS2 versions to export from` column controls which versions of DHIS2 will the package be exported from.
 Hence, if you check the `Ready for Export` column on 5 packages and each of those has 3 `DHIS2 versions to export from` listed, this will result in a total number of 15 builds of the [Export pipeline](#exporter-pipeline).
 
-The pipeline will reset all the checkboxes in the `Ready for Export` on each build, in order to prevent unwanted behaviour and result in unneccesary re-exporting of packages.
+The pipeline will reset all the checkboxes in the `Ready for Export` on each build, in order to prevent unwanted behaviour and result in unnecessary re-exporting of packages.
 
 ---
 
@@ -291,12 +291,12 @@ flowchart LR
 1. Get the package version and DHIS2 version from a `tag` (see [how to create a new tag](#how-to-create-new-a-release-and-tag)).
 2. Prepare the packages for archiving via the [prepare action](https://github.com/dhis2-metadata/prepare).
 3. Version the packages based on the package version provided in the `tag` (the current format is `D<dhis2-version>/<package-version>`, like `D2.39/1.0.1`).
-3. Generate the package reference files via the [dev-otta/metadatareference](https://github.com/dev-otta/metadatareference) tool.
-4. Convert the installation guides available in the `master` branch of the current repository to PDF and add them to the archive.
-5. Upload the package archive to S3 (containing the packages, reference files and installation docs).
-6. Upload all reference files separately next to the archive at the same S3 location.
-7. Update the [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index) file, which is used to control what packages are shown on the Downloads page.
-8. Get the release notes from the `master` branch of the current directory and add them to the new Release.
+4. Generate the package reference files via the [dev-otta/metadatareference](https://github.com/dev-otta/metadatareference) tool.
+5. Convert the installation guides available in the `master` branch of the current repository to PDF and add them to the archive.
+6. Upload the package archive to S3 (containing the packages, reference files and installation docs).
+7. Upload all reference files separately next to the archive at the same S3 location.
+8. Update the [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index) file, which is used to control what packages are shown on the Downloads page.
+9. Get the release notes from the `master` branch of the current directory and add them to the new Release.
 
 ### How to add the Publish workflow to a given branch
 
@@ -329,7 +329,7 @@ jobs:
 4. Name the new file “.github/workflows/publish.yaml” (this will create the `.github` and the `workflow` parent dirs of the `publish.yaml` file)
 5. Paste the contents of the `publish.yaml` file that were copied in step 1 as is, no changes needed
 6. Commit the new file
-7. Repeat for all of the “feature” branches within the desired repository
+7. Repeat for all the “feature” branches within the desired repository
 
 All of the above can be achieved by cloning the respective repository locally and adding the files that way, but it requires more experience with Git. Feel free to choose whichever way you prefer.
 
@@ -347,7 +347,7 @@ All of the above can be achieved by cloning the respective repository locally an
 ---
 
 ## Publishing Metadata Packages
-Once a metadata package is ready to go live, there are two main processes that you should follow.
+Once a metadata package is ready to go live, there are three main processes that you should follow.
 1. Publishing on [Metadata Packages Download](https://dhis2.org/metadata-downloads) webpage
 2. Publishing on the [Implementation Guide](https://docs.dhis2.org/en/implement/health/dhis2-health-data-toolkit/about-the-dhis2-health-data-toolkit.html) webpage
 3. Publishing Metadata Packages on [HMIS demo](https://demos.dhis2.org/hmis) server (optional)
@@ -357,7 +357,7 @@ This section tries to complement the section [Releasing Metadata Packages](#rele
 
 For more details, please, read sections [Publish workflow summary](#publish-workflow-summary), [How to add the Publish workflow to a given branch](#how-to-add-the-publish-workflow-to-a-given-branch) and [How to create new a Release and Tag](#how-to-create-new-a-release-and-tag).
 
-1. The repository for a particular package should already exists (based on the package code, e.g. HIV_CS or TB_AGG) in the repository [dhis2-metadata](https://github.com/dhis2-metadata/).
+1. The repository for a particular package should already exist (based on the package code, e.g. HIV_CS or TB_AGG) in the repository [dhis2-metadata](https://github.com/dhis2-metadata/).
 For creating the repository, you've 2 ways:
    - Create it using the template NTD_AGG.
    - Create an empty repository and create the folder structure manually (release notes, installation, overview and design guides should be placed under docs folder in master branch)
@@ -365,7 +365,7 @@ For creating the repository, you've 2 ways:
 2. a _branch_ should already exist in the repository for the version you are pushing (e.g. 2.39, 2.40)
 3. Add the GitHub workflow file to the created _branch_. Check section [How to add the Publish workflow to a given branch](#how-to-add-the-publish-workflow-to-a-given-branch)
 4. Create a release on the repository. Check section [How to create new a Release and Tag](#how-to-create-new-a-release-and-tag)
-> Release notes & Installation guide are required to finish the publish process and they should be placed under docs folder in master branch.
+> Release notes & Installation guide are required to finish the publish process and should be placed under docs folder in master branch.
 
 5. Once the release process finishes, an entry is added automatically in the [download-index/index.json](https://github.com/dhis2-metadata/downloads-index/blob/master/index.json) file and a pull request is created in the repository [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index).
 > At this point, if you realize you did something wrong and have to delete your release, delete the release from repository but also remember to delete the pull request from [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index)
@@ -394,7 +394,7 @@ For this, you'll need to work in the repository [dhis2-docs-implementation](http
 
 1. Edit the [implementation_section_index.yml](https://github.com/dhis2/dhis2-docs-implementation/blob/master/implementation_section_index.yml) file
 
-2. Add the links you want to show in the left bar website menu. Normally, you should link the "Release Note", "Design" and "Installation" guides. 
+2. Add the links you want to show in the left bar website menu. Normally, you should link the "Release Note", "Design" and "Installation" guides.  
 
 For example, to show the HIV guides as in the following image:
 
@@ -409,8 +409,9 @@ You should add the highlighted links in the `implementation_section_index.yml` f
 
 ---
 ### Publishing Metadata Packages on HMIS demo server
-Whenever a new/updated metadata package is released it should be integrated in our HMIS demo server and dummy data generated.
 This section tries to complement the document [_HMIS Demo - design and SoPs](https://docs.google.com/document/d/1uSDxgkmJBhZg4zaTgpmgPnB7k6avif4ssNBMZDGT74U) by describing the steps that you should do manually in order to publish the metadata package from HMIS staging to HMIS demo server.
+
+Whenever a new/updated metadata package is released it should be integrated in our HMIS demo server and dummy data generated.
 
 #### HMIS demo components
 
@@ -418,7 +419,7 @@ This section tries to complement the document [_HMIS Demo - design and SoPs](htt
 
 - HMIS **development** instance: https://demos.dhis2.org/hmis_dev
   - Accessible only to HISP package/training implementers & DB support staff
-  - Instance for customizing packages for the hmis demo, including mapping/generating demo data etc
+  - Instance for customizing packages for the HMIS demo, including mapping/generating demo data etc
   - Could have multiple dev instance (if necessary)
   - Reset from baseline 
 - HMIS **staging** instance: https://demos.dhis2.org/hmis_staging
