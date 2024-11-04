@@ -376,7 +376,7 @@ For creating the repository, you've 2 ways:
 For publishing in ES language, an entry should be added manually in the [download-index/index.json](https://github.com/dhis2-metadata/downloads-index/blob/master/index.json) file and files uploaded to S3 buckets.
 
 1. Generate the ES package reference files via the [dev-otta/metadatareference](https://github.com/dev-otta/metadatareference) tool.
-2. Upload the package archive to S3 Buckets (containing the packages and reference files). You should create the path folder following the package code, package version and dhis2 version.
+2. Upload the package archive to S3 Buckets (containing the packages and reference files). You should create the path folder following the package code, package version, and dhis2 version.
 
 For example, in the following image, we're uploading the package archive with `package code=HIV_CS`, `package version=2.0.1` and `dhis2 version=2.40`.
 ![s3-buckets](images/s3-buckets.png)
@@ -385,7 +385,7 @@ For example, in the following image, we're uploading the package archive with `p
 
 ![downloads-index-es](images/downloads-index-es.png)
 
-> URLs where metadata packages are uploaded are generated automatically with the domain https://packages.dhis2.org/ and following certain structure with language and package code, package and dhis2 version.
+> The URLs for uploaded metadata packages are automatically generated with the domain `https://packages.dhis2.org/`. They follow a specific structure that includes language code, package code, package type and DHIS2 version.
 
 ### Publishing on the Implementation Guide website
 Once the metadata package was published/released by previous step, you're able to publish it in implementation guide website.
