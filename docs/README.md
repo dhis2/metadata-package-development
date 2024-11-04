@@ -365,14 +365,14 @@ For creating the repository, you've 2 ways:
 2. a _branch_ should already exist in the repository for the version you are pushing (e.g. 2.39, 2.40)
 3. Add the GitHub workflow file to the created _branch_. Check section [How to add the Publish workflow to a given branch](#how-to-add-the-publish-workflow-to-a-given-branch)
 4. Create a release on the repository. Check section [How to create new a Release and Tag](#how-to-create-new-a-release-and-tag)
-> Release notes & Installation guide are required to finish the publish process and should be placed under docs folder in master branch.
+> Release notes & Installation guide are required to finish the publication process and should be placed under the docs folder in the master branch.
 
 5. Once the release process finishes, an entry is added automatically in the [download-index/index.json](https://github.com/dhis2-metadata/downloads-index/blob/master/index.json) file and a pull request is created in the repository [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index).
 > At this point, if you realize you did something wrong and have to delete your release, delete the release from repository but also remember to delete the pull request from [Metadata Packages Download Index](https://github.com/dhis2-metadata/downloads-index)
 
 6. After the pull request is approved, your metadata package should appear in [Metadata Packages Download](https://dhis2.org/metadata-downloads) webpage.
 
-#### Publishing in other language than English
+#### Publishing in another language than English
 For publishing in ES language, an entry should be added manually in the [download-index/index.json](https://github.com/dhis2-metadata/downloads-index/blob/master/index.json) file and files uploaded to S3 buckets.
 
 1. Generate the ES package reference files via the [dev-otta/metadatareference](https://github.com/dev-otta/metadatareference) tool.
@@ -411,7 +411,7 @@ You should add the highlighted links in the `implementation_section_index.yml` f
 ### Publishing Metadata Packages on HMIS demo server
 This section tries to complement the document [_HMIS Demo - design and SoPs](https://docs.google.com/document/d/1uSDxgkmJBhZg4zaTgpmgPnB7k6avif4ssNBMZDGT74U) by describing the steps that you should do manually in order to publish the metadata package from HMIS staging to HMIS demo server.
 
-Whenever a new/updated metadata package is released it should be integrated in our HMIS demo server and dummy data generated.
+Whenever a new/updated metadata package is released, it should be integrated in our HMIS demo server and dummy data generated.
 
 #### HMIS demo components
 
@@ -420,13 +420,13 @@ Whenever a new/updated metadata package is released it should be integrated in o
 - HMIS **development** instance: https://demos.dhis2.org/hmis_dev
   - Accessible only to HISP package/training implementers & DB support staff
   - Instance for customizing packages for the HMIS demo, including mapping/generating demo data etc
-  - Could have multiple dev instance (if necessary)
+  - Could have multiple dev instances (if necessary)
   - Reset from baseline 
 - HMIS **staging** instance: https://demos.dhis2.org/hmis_staging
   - Accessible only to HISP package/training implementers & DB support staff
   - Instance for applying new packages/changes to hmis
   - Restored based on hmis baseline db when needed (i.e. new changes are ready to be committed to hmis) - short-lived, only for applying changes
-  - Should only be one instance at any one time, which will be new baseline
+  - Should only be one instance at any one time, which will be the new baseline
 - HMIS **production** instance: https://demos.dhis2.org/hmis
   - Public-facing demo with credentials provided 
   - Refreshed nightly
@@ -443,6 +443,6 @@ A simplified list of steps might look like this:
 2. Import the package metadata and dummy data.
 3. Configure sharing in the metadata so that demo users have access.
 4. Using AWX template **Packages: manage DEMO instances**: Commit changes to the hmis_staging database, and reset hmis. 
-> Before committing make sure to enable the demo user accounts in hmis_staging. After committing, make sure to disable them again.
+> Before committing, make sure to enable the demo user accounts in hmis_staging. After committing, make sure to disable them again.
 
 More details in [Managing hmis instances](https://docs.google.com/document/d/1uSDxgkmJBhZg4zaTgpmgPnB7k6avif4ssNBMZDGT74U/edit?tab=t.0#heading=h.hncz0guqoosi)
