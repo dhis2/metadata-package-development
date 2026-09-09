@@ -29,8 +29,8 @@ pipeline {
     parameters {
         booleanParam(name: 'REFRESH_PACKAGES', defaultValue: false, description: '[OPTIONAL] Refresh the list of PACKAGE_NAMEs and abort the build.')
         choice(name: 'PACKAGE_NAME', choices: PARAMETER_VALUES, description: '[REQUIRED] Select a package to extract by name.')
-        string(name: 'INSTANCE_URL', defaultValue: '', description: '[OPTIONAL] Instance URL to export package from.')
-        string(name: 'DHIS2_VERSION', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version to extract the package from. (only major.minor version like 2.38, not 2.38.1, etc)')
+        string(name: 'INSTANCE_URL', defaultValue: '', description: '[REQUIRED] Instance URL to export the package from.')
+        string(name: 'DHIS2_VERSION', defaultValue: '2.38', description: '[OPTIONAL] DHIS2 version label used in failure notifications. It does not affect which instance the package is exported from.')
         stashedFile(name: 'PACKAGE_FILE_UPLOAD', description: '[OPTIONAL] Upload a package file directly, instead of exporting it.\n If a file is uploaded, all the previous parameters are obsolete.')
         booleanParam(name: 'RUN_CHECKS', defaultValue: true, description: '[OPTIONAL] Choose whether to run the PR expressions and Dashboard checks.')
         booleanParam(name: 'PUSH_PACKAGE', defaultValue: true, description: '[OPTIONAL] Push the package to its GitHub repository, if the build succeeds.')
@@ -74,14 +74,18 @@ pipeline {
                         error('This build is only for refreshing the PACKAGE_NAME parameter. Pipeline will be aborted now.')
                     }
 
+                    if (!params.INSTANCE_URL?.trim()) {
+                        error('INSTANCE_URL is required. Provide the URL of the instance to export the package from.')
+                    }
+
+                    env.INSTANCE_URL = params.INSTANCE_URL.trim()
+
                     // Get package details based on the selected PACKAGE_NAME parameter value.
                     env.SELECTED_PACKAGE = sh(returnStdout: true, script: 'echo "$PACKAGES_INDEX_JSON" | jq --arg name "$PACKAGE_NAME" -r \'.[] | select(."Component Name" == $name)\'').trim()
                     env.PACKAGE_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Package Code"\'').trim()
                     env.PACKAGE_TYPE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Package Type"\'').trim()
-                    env.PACKAGE_SOURCE_INSTANCE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Source Instance"\'').trim()
                     env.PACKAGE_HEALTH_AREA_NAME = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health Area"\'').trim()
                     env.PACKAGE_HEALTH_AREA_CODE = sh(returnStdout: true, script: 'echo "$SELECTED_PACKAGE" | jq -r \'."Health Area Code"\'').trim()
-                    env.INSTANCE_URL = "${params.INSTANCE_URL != '' ? params.INSTANCE_URL : env.PACKAGE_SOURCE_INSTANCE}"
 
                     dir('dhis2-utils') {
                         git url: "$UTILS_GIT_URL"
