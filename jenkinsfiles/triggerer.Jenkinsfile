@@ -45,11 +45,11 @@ pipeline {
                         git url: 'https://github.com/dhis2/dhis2-utils'
 
                         dir('tools/dhis2-metadata-index-parser') {
-                            sh 'pip3 install -r requirements.txt'
+                            sh 'python3 -m venv .venv && .venv/bin/pip install -r requirements.txt'
 
                             INPUT_JSON = sh(
                                 returnStdout: true,
-                                script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $GOOGLE_SPREADSHEET_ID'
+                                script: '.venv/bin/python parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $GOOGLE_SPREADSHEET_ID'
                             ).trim()
 
                             packagesList = readJSON text: "$INPUT_JSON"
