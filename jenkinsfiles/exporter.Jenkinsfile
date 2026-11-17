@@ -5,14 +5,14 @@ node('ec2-jdk8-large-spot') {
         git url: 'https://github.com/dhis2/dhis2-utils'
 
         dir('tools/dhis2-metadata-index-parser') {
-            sh 'pip3 install --upgrade --force-reinstall -r requirements.txt'
+            sh 'python3 -m venv .venv && .venv/bin/pip install -r requirements.txt'
 
             withCredentials([file(credentialsId: 'metadata-index-parser-service-account', variable: 'GOOGLE_SERVICE_ACCOUNT')]) {
                 env.SPREADSHEET_ID = '1IIQL2IkGJqiIWLr6Bgg7p9fE78AwQYhHBNGoV-spGOM'
 
                 env.PACKAGES_INDEX_JSON = sh(
                     returnStdout: true,
-                    script: 'python3 parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $SPREADSHEET_ID --no-only-ready --no-uncheck-readiness'
+                    script: '.venv/bin/python parse-index.py --service-account-file $GOOGLE_SERVICE_ACCOUNT --spreadsheet-id $SPREADSHEET_ID --no-only-ready --no-uncheck-readiness'
                 ).trim()
 
                 PARAMETER_VALUES = sh(returnStdout:true, script: 'echo $PACKAGES_INDEX_JSON | jq -r \'.[] | .["Component Name"]\'').trim()

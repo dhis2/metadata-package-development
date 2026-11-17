@@ -14,6 +14,7 @@ if [[ -z "$export_instance" ]]; then
   exit 1
 fi
 
-pip3 install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
+python3 -m venv .venv
+.venv/bin/pip install -r dhis2-utils/tools/dhis2-package-exporter/requirements.txt
 
-python3 -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$code" "$code" -desc="$description" -han="$health_area_name" -hac="$health_area_code" -i="$export_instance"
+.venv/bin/python -u dhis2-utils/tools/dhis2-package-exporter/package_exporter.py "$type" "$code" "$code" -desc="$description" -han="$health_area_name" -hac="$health_area_code" -i="$export_instance"
